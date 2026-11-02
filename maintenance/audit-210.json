@@ -358,5 +358,9 @@
       "executed": false
     }
   ],
-  "unreferencedMappingCandidates": []
+  "unreferencedMappingCandidates": [],
+  "removedGeneratedDirectories": [
+    "site/tools/design/node_modules"
+  ],
+  "recovery": "Restore prior Git commit, or reinstall design tool dependencies using the retained package manifest and lockfile."
 }
