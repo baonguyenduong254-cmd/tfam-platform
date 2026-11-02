@@ -7,7 +7,7 @@ on:
         type: string
         required: true
       expected_source_commit:
-        description: 'Current Sites source HEAD; abort if it changed'
+        description: 'Abort if Sites source has advanced'
         type: string
         default: 'aec9e0a762302e67626d2b70e9bd3d09642b6a4b'
         required: true
@@ -19,22 +19,15 @@ concurrency:
 jobs:
   source:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           ref: ${{ inputs.github_commit }}
-      - name: Push reviewed source with temporary scoped credential
+      - name: Install standard encryption library
+        run: python3 -m pip install --disable-pip-version-check cryptography==46.0.3
+      - name: Receive one-use encrypted credential and push reviewed source
         env:
-          TFAM_SITES_TOKEN: ${{ secrets.TFAM_SITES_SOURCE_TOKEN_210 }}
-          TFAM_SITES_BRANCH: main
+          TFAM_REVIEWED_GITHUB_SHA: ${{ inputs.github_commit }}
           TFAM_EXPECTED_SOURCE: ${{ inputs.expected_source_commit }}
-        run: python3 tools/push210-source.py
-      - name: Save source receipt in a separate GitHub branch
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git switch -c task/update210-release-receipt
-          git add ops/releases/210-source.json
-          git commit -m 'Record exact Sites source commit for TFAM210'
-          git push origin HEAD:task/update210-release-receipt
+        run: python3 tools/receive210-source-token.py

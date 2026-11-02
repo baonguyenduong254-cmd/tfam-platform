@@ -9,7 +9,7 @@ assert branch=="main", "Unexpected Sites source branch; review before publishing
 auth=dict(os.environ,GIT_TERMINAL_PROMPT="0",GIT_CONFIG_COUNT="3",GIT_CONFIG_KEY_0="credential.helper",GIT_CONFIG_VALUE_0="",GIT_CONFIG_KEY_1="http."+remote+".extraHeader",GIT_CONFIG_VALUE_1="Authorization: Bearer "+token,GIT_CONFIG_KEY_2="http.followRedirects",GIT_CONFIG_VALUE_2="false")
 def git(*args,env=None):
     return subprocess.check_output(["git",*args],env=env,text=True).strip()
-github=git("rev-parse","HEAD");tree=git("rev-parse","HEAD:site")
+github=os.environ.get("TFAM_REVIEWED_GITHUB_SHA") or git("rev-parse","HEAD");assert re.fullmatch(r"[0-9a-f]{40}",github);tree=git("rev-parse",github+":site")
 git("fetch","--no-tags","--depth=1",remote,"refs/heads/"+branch,env=auth)
 actual=git("rev-parse","FETCH_HEAD")
 assert actual==expected, "Sites source advanced; reconcile instead of replacing it"
