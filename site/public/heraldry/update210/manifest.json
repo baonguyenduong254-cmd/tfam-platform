@@ -1,0 +1,62 @@
+[
+  {
+    "id": "court",
+    "path": "/art/update210/throne-hall.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 455598,
+    "sha256": "e1dec8bf882ac9c1a4ddec43d42f6d4d9330282441281d81f58c3d94565e39f1",
+    "generatedBy": "Image Gen",
+    "alpha": false
+  },
+  {
+    "id": "chain-lock",
+    "path": "/art/update210/chain-lock.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 954542,
+    "sha256": "147c4231bbb12ce7326cbf595afae5a03aa3526ffc468a3642f12a12091d1dd7",
+    "generatedBy": "Image Gen",
+    "alpha": true
+  },
+  {
+    "id": "veldraine",
+    "path": "/heraldry/update210/veldraine.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 629274,
+    "sha256": "7cb381d0895ec1039115220c41dfeb4322b8b1e9fc6f2f5ef958e7bef478137d",
+    "generatedBy": "Image Gen",
+    "alpha": false
+  },
+  {
+    "id": "nhemora",
+    "path": "/heraldry/update210/nhemora.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 666090,
+    "sha256": "6d9cd35974ad80d83aed9bf412523df081245c75c351b128cc83f3916bac4d36",
+    "generatedBy": "Image Gen",
+    "alpha": false
+  },
+  {
+    "id": "khorvait",
+    "path": "/heraldry/update210/khorvait.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 678844,
+    "sha256": "baf50cb3bbd85792a61518c8fdf381e1f821bbb9cc28cdba21f2eb13157106d0",
+    "generatedBy": "Image Gen",
+    "alpha": false
+  },
+  {
+    "id": "wardenholf",
+    "path": "/heraldry/update210/wardenholf.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 660036,
+    "sha256": "1f3dcbbbf4fee3c00cfd3ef99cc8db64230fe2a14eebedbb01e84da454683c03",
+    "generatedBy": "Image Gen",
+    "alpha": false
+  }
+]

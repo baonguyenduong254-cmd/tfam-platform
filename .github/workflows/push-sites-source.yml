@@ -1,0 +1,33 @@
+name: Push reviewed TFAM source to Sites
+on:
+  workflow_dispatch:
+    inputs:
+      github_commit:
+        description: 'Exact reviewed GitHub commit containing site/'
+        type: string
+        required: true
+      expected_source_commit:
+        description: 'Abort if Sites source has advanced'
+        type: string
+        default: 'aec9e0a762302e67626d2b70e9bd3d09642b6a4b'
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: tfam-sites-source-release
+  cancel-in-progress: false
+jobs:
+  source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ inputs.github_commit }}
+      - name: Install standard encryption library
+        run: python3 -m pip install --disable-pip-version-check cryptography==46.0.3
+      - name: Receive one-use encrypted credential and push reviewed source
+        env:
+          TFAM_REVIEWED_GITHUB_SHA: ${{ inputs.github_commit }}
+          TFAM_EXPECTED_SOURCE: ${{ inputs.expected_source_commit }}
+        run: python3 tools/receive210-source-token.py

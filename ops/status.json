@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02",
-  "phase": "update-210-foundation-prepared",
+  "updatedAt": "2026-11-03",
+  "phase": "update-210-validated-awaiting-publication",
   "sourceImport": "verified",
   "production": {
     "siteVersion": 209,
@@ -23,18 +23,20 @@
     "status": "full-dashboard-inventory-reconciled",
     "bucketNameVerified": true,
     "objectMigrationPerformed": false,
-    "deletionsPerformed": false,
+    "deletionsPerformed": true,
     "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
-    "legacyPathMappings": 2341,
+    "legacyPathMappings": 2269,
     "adminWriteAccessVerified": false,
     "bucket": "tfam-assets",
     "fullInventoryComplete": true,
-    "objectCount": 2351,
+    "objectCount": 2279,
     "mappedImagesMatched": 2341,
     "soundtracksMatched": 7,
     "zeroByteFolderMarkers": 3,
     "confirmedUnusedMedia": 0,
-    "inventoryReport": "maintenance/r2-reconciliation-210.json"
+    "inventoryReport": "maintenance/r2-reconciliation-210.json",
+    "deletedPortraits": 72,
+    "portraitRetirementReport": "maintenance/portrait-retirement-210.json"
   },
   "database": {
     "binding": "DB",
@@ -43,9 +45,9 @@
     "changesPerformed": false
   },
   "next": [
-    "Receive update210 ideas and reconcile latest Sites version",
-    "Implement on a GitHub branch and validate/build in cloud",
-    "Preview and publish via Sites; record resulting version and commit"
+    "Authorize temporary encrypted Sites source credential handoff to private GitHub Actions",
+    "Push validated site subtree to Sites; save and deploy version210",
+    "Verify production and record final release"
   ],
   "localExecutionAllowed": false,
   "preparation210": {
@@ -60,5 +62,19 @@
     "productionDeployed": false,
     "classificationTestRun": "41468035188",
     "startHere": "docs/START-HERE-210.md"
+  },
+  "update210": {
+    "implementationPR": 15,
+    "validationRun": 41548320156,
+    "validatedSiteTree": "4911754ec5bc53d406a281d8e6bc4113a2561d5c",
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "browserChecks": "passed-390-768-1920",
+    "productionDeployed": false,
+    "throneArtworkNativeDimensions": [
+      1672,
+      941
+    ],
+    "nativeUhd": false
   }
 }
