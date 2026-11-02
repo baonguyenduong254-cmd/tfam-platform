@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-thach-doi-suong",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Những người cứu vườn kính phát hiện một cây cam còn xanh giữa hai hàng cây đông cứng. Rễ nó quấn quanh khối đá hai múi lam; phía này của khối đá phủ băng, phía kia đẫm nước. Mỗi lần người làm vườn cạo băng khỏi múi đầu, hoa cam ở múi sau lại hé thêm một chút.\n\nViên đá vốn là một mạch khoáng bị tách đôi bởi rễ cây. Qua nhiều đêm, nước đóng băng ép hai nửa ra xa rồi tan, để chúng nhận lại hơi ấm từ cùng một thân cây. Vào đợt rét giết cả khu vườn, lõi trắng lớn liền qua khe rễ. Hai nơi đối nghịch từ đó bị buộc vào một cuộc trao đổi: chỗ này nhả băng thì chỗ kia phải nhận lấy hình hài của nó.\n\nNgười ta chôn một đầu ngọc ngoài thành, giữ đầu còn lại trong bể cứu thương. Những hình băng mọc ngoài cổng giống từng ngón tay, từng đường gân của người được cứu. Người gác cổng được dặn cạo chúng đều đặn và đừng để băng khép vòng quanh lõi trắng.",
+    "lore_en": "Garden rescuers found an orange tree still green between two frozen rows. Its roots enclosed a stone with twin blue lobes; one side was ice-covered, the other wet. Whenever the gardener scraped ice from the first lobe, blossoms beside the second opened a little further.\n\nThe stone had been a mineral seam divided by a root. Night after night, freezing water forced its halves apart, then thawed, letting both regain warmth from one tree. During the freeze that killed the garden, a white core grew across the root cleft. Two opposed places were bound into an exchange: where one surrendered ice, the other had to receive its shape.\n\nKeepers bury one lobe outside the walls and retain the other in a rescue bath. Ice growing beyond the gate resembles fingers and veins belonging to those being saved. Gatekeepers are told to scrape these shapes regularly and never let ice close in a ring around the white core.",
+    "use_vi": "Chuyển nơi hình thành băng giữa hai đầu nối chung lõi, giữ vùng cần cứu tan được bằng cách chuẩn bị một vùng nhận đông.",
+    "use_en": "Transfer ice formation between two ends joined by one core, keeping a rescue zone thawed by preparing a receiving freeze zone.",
+    "limits_vi": "Hai đầu cần đường nước hoặc sương liên tục qua lõi. Phải có chỗ cho đầu nhận băng nở ra; bịt kín có thể nổ bình hoặc nứt nền. Băng khép vòng qua lõi làm hai đầu đổi vai, đưa toàn bộ giá lạnh đã dời trở lại vùng được bảo vệ.",
+    "limits_en": "Both ends need an unbroken path of water or mist through the core. The receiving ice needs room to expand; confinement can burst vessels or foundations. Ice closing a ring across the core reverses the lobes, returning all displaced frost to the protected region.",
+    "skills": [
+      {
+        "name_vi": "Đầu nhận đông",
+        "name_en": "Choose the Frozen End",
+        "description_vi": "Nhúng một múi vào bể hở rồi vuốt lõi trắng về phía nó để chọn nơi nhận băng; nước đầu kia phải còn tiếp xúc.",
+        "description_en": "Immerse one lobe in an open tank and stroke the white core towards it to choose the ice receiver; the other end must remain in contact with water.",
+        "group_vi": "Chọn hai bờ",
+        "group_en": "Choose Both Sides"
+      },
+      {
+        "name_vi": "Chỉ sương",
+        "name_en": "Thread of Rime",
+        "description_vi": "Phun sương dọc lõi để tạo đường nối giữa hai múi khi thiếu nước lỏng; gió cắt màn sương sẽ ngắt trao đổi.",
+        "description_en": "Mist the core to join its lobes when liquid water is scarce; wind severing the mist interrupts the exchange.",
+        "group_vi": "Chọn hai bờ",
+        "group_en": "Choose Both Sides"
+      },
+      {
+        "name_vi": "Đọc hình lạnh",
+        "name_en": "Read the Cold Shape",
+        "description_vi": "Quan sát băng mọc ở đầu nhận để tìm hình vùng đang mất băng, nhận phần còn đông ở phía cứu; băng bị đập vụn làm bản đồ mất nét.",
+        "description_en": "Read ice growing at the receiving end for the shape of the thawing region and locate areas still frozen; shattering that ice destroys the map’s detail.",
+        "group_vi": "Chọn hai bờ",
+        "group_en": "Choose Both Sides"
+      },
+      {
+        "name_vi": "Chừa đường nở",
+        "name_en": "Leave Expansion Room",
+        "description_vi": "Vạch mép băng quanh bể để theo dõi hướng nó đang chiếm chỗ, kịp mở máng trước khi băng ép vào thành; dấu bị tuyết lấp phải vạch lại.",
+        "description_en": "Mark the ice margin around its tank to track encroachment and open channels before it presses the walls; snow-covered marks must be renewed.",
+        "group_vi": "Chọn hai bờ",
+        "group_en": "Choose Both Sides"
+      },
+      {
+        "name_vi": "Gỡ tay đông",
+        "name_en": "Free the Frozen Hand",
+        "description_vi": "Đặt múi cứu trong nước ôm vùng tê cứng để băng rút sang đầu nhận; mô đã bị tổn thương vẫn cần chăm sóc và làm ấm chậm.",
+        "description_en": "Place the rescue lobe in water around a frozen limb to withdraw ice into the receiving end; damaged tissue still requires treatment and gradual warming.",
+        "group_vi": "Dời giá",
+        "group_en": "Move the Frost"
+      },
+      {
+        "name_vi": "Mở khóa cống",
+        "name_en": "Open the Frozen Sluice",
+        "description_vi": "Chạm đầu cứu vào nước dưới chốt cống để dời lớp băng giữ nó; dòng nước bật mở có thể cuốn mất ngọc nếu chưa buộc chắc.",
+        "description_en": "Touch the rescue end to water beneath a sluice pin to relocate the binding ice; released water can sweep away an unsecured gem.",
+        "group_vi": "Dời giá",
+        "group_en": "Move the Frost"
+      },
+      {
+        "name_vi": "Máng không đóng",
+        "name_en": "The Unfreezing Channel",
+        "description_vi": "Dẫn nước qua đầu cứu để giữ một máng tiếp tục chảy trong rét; đầu nhận mọc băng nhanh theo toàn bộ chiều dài được giữ.",
+        "description_en": "Pass water over the rescue lobe to keep a channel flowing in cold weather; the receiving end grows ice in proportion to the protected length.",
+        "group_vi": "Dời giá",
+        "group_en": "Move the Frost"
+      },
+      {
+        "name_vi": "Kính nhìn qua đông",
+        "name_en": "A Window Through Winter",
+        "description_vi": "Làm ướt kính rồi chạm múi cứu để kéo lớp sương băng khỏi mặt, giữ tầm nhìn; nước thừa có thể đóng thành tấm mới khi ngắt nối.",
+        "description_en": "Wet a pane and touch the rescue lobe to withdraw its frost and preserve a view; surplus water may freeze anew when disconnected.",
+        "group_vi": "Dời giá",
+        "group_en": "Move the Frost"
+      },
+      {
+        "name_vi": "Khuôn đông",
+        "name_en": "The Freezing Mould",
+        "description_vi": "Đặt đầu nhận trong một khuôn có khe nở để đúc băng từ vùng đang cứu; tháo khuôn sớm làm dòng trao đổi lạc sang vật còn chạm ngọc.",
+        "description_en": "Set the receiving end inside a mould with expansion slots to cast ice from the rescue zone; early removal diverts the exchange into objects still touching the gem.",
+        "group_vi": "Mượn băng",
+        "group_en": "Borrow the Ice"
+      },
+      {
+        "name_vi": "Tường trả rét",
+        "name_en": "The Wall That Bears Cold",
+        "description_vi": "Dẫn băng đầu nhận dọc một giàn ướt để dựng vách chắn tạm; vách phải được tách khỏi lõi trước khi kẻ khác đập thủng nó.",
+        "description_en": "Lead receiving ice along a wet frame to raise a temporary barrier; sever it from the core before someone breaches it.",
+        "group_vi": "Mượn băng",
+        "group_en": "Borrow the Ice"
+      },
+      {
+        "name_vi": "Giữ hàng lạnh",
+        "name_en": "Keep the Cold Cargo",
+        "description_vi": "Đặt vật cần bảo quản quanh đầu nhận để dùng giá lạnh đang được chuyển tới; băng có thể nghiền thùng hàng nếu để áp trực tiếp.",
+        "description_en": "Place provisions around the receiving end to use the arriving cold; direct ice pressure can crush their containers.",
+        "group_vi": "Mượn băng",
+        "group_en": "Borrow the Ice"
+      },
+      {
+        "name_vi": "Dấu chân cứu",
+        "name_en": "Footprints of Rescue",
+        "description_vi": "Cho nước từ giày người vượt rét chảy qua đầu cứu để giữ đế khỏi đóng băng; đầu nhận in hàng dấu chân giúp kiểm số người đã qua.",
+        "description_en": "Run water from travellers’ boots through the rescue end to keep soles ice-free; the receiver forms footprints that help count those who passed.",
+        "group_vi": "Mượn băng",
+        "group_en": "Borrow the Ice"
+      },
+      {
+        "name_vi": "Cạo trả",
+        "name_en": "Scrape the Receiver",
+        "description_vi": "Cạo băng ra xa lõi bằng dụng cụ khô để giải chỗ nhận mà vẫn giữ trao đổi; dụng cụ ướt có thể bị chọn làm phần tiếp của bể.",
+        "description_en": "Scrape ice away from the core with a dry tool to clear receiving space without stopping the exchange; a wet tool may become an extension of the tank.",
+        "group_vi": "Khép trao đổi",
+        "group_en": "Close the Exchange"
+      },
+      {
+        "name_vi": "Dời bể",
+        "name_en": "Move the Basin",
+        "description_vi": "Cho đầu nhận chạm đồng thời bể mới và bể cũ rồi rút khỏi bể cũ để chuyển chỗ đông; mất cả hai tiếp xúc gây dồn băng về lõi.",
+        "description_en": "Touch the receiver to old and new basins together, then withdraw it from the old one to move the freezing site; losing both contacts drives ice towards the core.",
+        "group_vi": "Khép trao đổi",
+        "group_en": "Close the Exchange"
+      },
+      {
+        "name_vi": "Cắt vòng đảo",
+        "name_en": "Sever the Reversing Ring",
+        "description_vi": "Làm tan một khe trong vòng băng sắp khép quanh lõi để ngăn đổi vai; phải thao tác phía đầu nhận và chịu luồng lạnh đang dồn tới.",
+        "description_en": "Thaw a gap in an ice ring closing around the core to prevent reversal; work must be done from the receiving side amid the converging cold.",
+        "group_vi": "Khép trao đổi",
+        "group_en": "Close the Exchange"
+      },
+      {
+        "name_vi": "Cho hai đầu nghỉ",
+        "name_en": "Let Both Ends Rest",
+        "description_vi": "Tách vùng cứu trước, chờ băng đầu nhận thôi lớn rồi lau khô lõi để khép trao đổi; làm ngược có thể kéo băng trở lại vùng vừa cứu.",
+        "description_en": "Disconnect the rescue zone first, wait for receiving ice to stop growing, then dry the core to close the exchange; reversing that order can draw ice back into the saved region.",
+        "group_vi": "Khép trao đổi",
+        "group_en": "Close the Exchange"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một nơi chịu đông",
+        "name_en": "One Place Bears Winter",
+        "description_vi": "Băng được dời nơi phải mang hình của chỗ đã mất nó. Các chi tiết ấy giúp người giữ đọc được vùng đang cứu, đồng thời báo sớm những phần bị bỏ sót.",
+        "description_en": "Relocated ice bears the shape of the place that lost it. Its details let keepers read the rescued region and reveal portions overlooked."
+      }
+    ]
+  }
+]

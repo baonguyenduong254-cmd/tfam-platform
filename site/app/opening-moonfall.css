@@ -1,0 +1,78 @@
+/* Evelyne / Monodica: painted motion, composed around the two faces. */
+.atlas-opening{background:#1b141d;color:#f7e9ce;overflow:clip;min-height:100svh}
+.opening-living-scene{position:absolute;inset:0;z-index:-3;overflow:hidden;background:#1b141d;pointer-events:none}
+.opening-living-scene :is(picture,img,canvas){position:absolute;inset:0;width:100%;height:100%;display:block}
+.opening-living-scene img{object-fit:cover;object-position:center}
+.opening-scene-surface{opacity:0;transition:opacity .8s}.opening-scene-surface.scene-ready{opacity:1}.opening-scene-particles{mix-blend-mode:screen}
+.atlas-opening .opening-mist{background:linear-gradient(90deg,#170f1ce8 0%,#170f1cbe 19%,#170f1c55 38%,transparent 58%),linear-gradient(0deg,#170f1cbb,transparent 35%,transparent 78%,#170f1c66);z-index:-1}
+.atlas-opening .opening-mist:after{display:none}
+.atlas-opening .opening-toolbar{min-height:88px;padding:18px clamp(22px,4vw,74px);position:relative;z-index:10;letter-spacing:.16em;color:#e8d5b1;gap:18px}
+.atlas-opening .opening-toolbar>span{font-size:10px}.atlas-opening .opening-toolbar>div{gap:12px;align-items:center}
+.atlas-opening .opening-utility-link{display:inline-flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.08em;text-decoration:none;padding:10px 8px;color:#f2dfba;transition:color .25s}
+.atlas-opening .opening-utility-link:hover{color:#fff6df}
+.atlas-opening .opening-icon-button{width:44px;height:44px;display:grid;place-items:center;border-radius:50%;border:1px solid #d1ae724d;background:linear-gradient(140deg,#59423455,#17101a88);color:#ebd5ae;box-shadow:inset 0 0 0 3px #22162166;transition:background .25s,border-color .25s,transform .25s}
+.atlas-opening .opening-icon-button:hover{background:#7c354866;border-color:#e8c38c;transform:translateY(-2px)}.atlas-opening .opening-icon-button:disabled{opacity:.4;cursor:default}
+.atlas-opening:not(.choosing) .opening-title{max-width:49%;align-items:flex-start;justify-content:center;text-align:left;min-height:calc(100svh - 176px);padding:30px 0 60px clamp(26px,5.6vw,108px);gap:24px;position:relative;z-index:1;text-shadow:0 2px 25px #100a14cc}
+.atlas-opening:not(.choosing) .opening-title .eyebrow{max-width:25em;line-height:1.7;font-size:10px;letter-spacing:.24em;color:#d8b581}
+.atlas-opening:not(.choosing) .opening-title h1{font-size:clamp(46px,5.1vw,92px);line-height:1.04;letter-spacing:-.035em;max-width:100%;color:#fff1d4;font-weight:400;margin:0}.opening-title h1>span{display:block}.atlas-opening .opening-title h1 em{font-size:.88em;color:#d6ad90;margin-top:6px;font-weight:400}
+.atlas-opening .opening-quote{font-family:var(--reading-font),Georgia,serif;font-size:clamp(16px,1.28vw,21px);font-style:italic;line-height:1.65;max-width:30em;color:#f1e2c8;margin:0;padding:0 0 0 19px;border-left:1px solid #c49c6577}
+.opening-actions{display:flex;flex-direction:column;gap:12px;width:min(100%,355px);margin-top:5px}
+.atlas-opening .opening-actions :is(button,a){position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;min-height:72px;width:100%;padding:12px 18px;border-radius:3px;text-decoration:none;text-shadow:none;overflow:hidden;cursor:pointer;font-family:var(--reading-font),Georgia,serif;transition:transform .25s,box-shadow .25s,border-color .25s}
+.atlas-opening .opening-actions :is(button,a):before{content:'';position:absolute;inset:4px;border:1px solid #e3bb7e33;border-radius:1px;pointer-events:none}
+.atlas-opening .opening-actions :is(button,a):after{content:'';position:absolute;inset:-100% -60%;background:linear-gradient(110deg,transparent 38%,#ffe7b319 50%,transparent 62%);transform:translateX(-45%);transition:transform .8s;z-index:-1;pointer-events:none}
+.atlas-opening .opening-actions :is(button,a):hover:after{transform:translateX(45%)}
+.atlas-opening .opening-actions :is(button,a):hover{transform:translateY(-3px);border-color:#e3c18a;box-shadow:0 10px 24px #0f091c55,inset 0 1px #ffe8ba44}
+.atlas-opening .opening-enter{border:1px solid #cb9b6c;background:linear-gradient(135deg,#863b4b,#602438 65%,#431a2c);color:#fff0d0;box-shadow:0 5px 20px #100a1844,inset 0 1px #ffdbad33}
+.atlas-opening .opening-reader-button{border:1px solid #b89c7255;background:linear-gradient(130deg,#5c443732,#1f1626d9);color:#ead7b7;box-shadow:inset 0 1px #ffedc415}
+.opening-button-emblem{display:grid;place-items:center;flex:0 0 37px;width:37px;height:37px;border-radius:50%;border:1px solid #e0ba7c55;background:#1d142433;color:#edc995}
+.opening-button-copy{flex:1;display:grid;gap:5px;text-align:left}.opening-button-copy small{font-size:8px;letter-spacing:.18em;color:#d7b58d;font-family:var(--reading-font),Georgia,serif}.opening-button-copy strong{font-size:19px;font-weight:400;line-height:1.1}.opening-actions>*>svg{flex-shrink:0;color:#d4b58a}
+.atlas-opening .opening-title .opening-byline{font-size:11px;letter-spacing:.09em;color:#b9a58e;margin:0;padding-left:2px}
+.atlas-opening:not(.choosing) .opening-music-slot{position:relative;margin:0 0 26px clamp(26px,5.6vw,108px);width:min(355px,calc(100% - 52px));z-index:8}
+.atlas-opening:not(.choosing) .music-console{background:linear-gradient(135deg,#31202bc9,#1d1422de)!important;border-color:#b79a6b4d!important;border-radius:3px;box-shadow:inset 0 0 0 3px #c4a1720a}
+.atlas-opening:not(.choosing) .music-console :is(span,button){color:#e3ccaa!important}.atlas-opening:not(.choosing) .music-disc{background:repeating-radial-gradient(circle,#382433 0 2px,#b5a07014 3px,#271b28 4px);box-shadow:inset 0 0 0 5px #241624}.atlas-opening:not(.choosing) .music-track-credit{color:#bba184!important}
+.atlas-opening.choosing .opening-living-scene{position:fixed;opacity:.065}.atlas-opening.choosing .opening-toolbar{color:#684238}.atlas-opening.choosing .opening-utility-link{color:#773c43}.atlas-opening.choosing .opening-icon-button{background:linear-gradient(#f6eddc,#e8d5bb);color:#793747;border-color:#b59a6a66;box-shadow:inset 0 0 0 3px #faf3e588}
+.atlas-opening .faction-card{position:relative;border-radius:4px;background:linear-gradient(155deg,#fbf4e7bb,#e6d4bd88);box-shadow:0 3px 12px #3f263208,inset 0 0 0 4px #faf3e533;transition:transform .25s,border-color .25s,box-shadow .25s;overflow:hidden}
+.atlas-opening .faction-card:not(.is-locked):hover{transform:translateY(-5px);border-color:#8f4a4e;box-shadow:0 12px 28px #4e29351c,inset 0 0 0 4px #faf3e544}.atlas-opening .faction-card:after{content:'✦';position:absolute;top:8px;right:9px;font-size:9px;color:#ad8b584d}.atlas-opening .is-locked{background:linear-gradient(155deg,#e9dfd144,#e2d4c366);box-shadow:none}
+.faction-card-condition{display:flex;justify-content:center;align-items:center;gap:10px;border-top:1px solid #a1825b33;width:100%;padding-top:12px;margin-top:auto;min-height:38px}.faction-card:not(.is-locked) .faction-card-condition{color:#803642;font-size:13px}
+.atlas-opening .selection-return{display:inline-flex;align-items:center;gap:9px;border:1px solid #ab8c654d;border-radius:3px;background:#f7ecdc66;padding:8px 14px;color:#753746;transition:background .25s}.atlas-opening .selection-return:hover{background:#e6ceb4}
+.atlas-opening :is(a,button,input):focus-visible{outline:2px solid #e2bc80;outline-offset:5px}.atlas-opening.choosing :is(a,button,input):focus-visible{outline-color:#8a3d4c}
+@media(min-width:1800px){.atlas-opening:not(.choosing) .opening-title{max-width:45%;padding-bottom:90px}}
+@media(max-width:1100px) and (min-width:761px){.atlas-opening:not(.choosing) .opening-title{max-width:48%;gap:20px;padding-left:34px}.atlas-opening .opening-quote{font-size:16px}.atlas-opening .opening-quote br{display:none}.atlas-opening:not(.choosing) .opening-title h1{font-size:clamp(42px,5.4vw,60px)}}
+@media(max-width:760px){
+ .atlas-opening:not(.choosing){min-height:100svh;background:#1b141d}.opening-living-scene{height:100svh;max-height:1100px}.opening-living-scene img{object-position:center top}
+ .atlas-opening .opening-toolbar{min-height:70px;padding:14px 18px;gap:8px;align-items:flex-start}.atlas-opening .opening-toolbar>span{max-width:135px;font-size:9px;line-height:1.7;letter-spacing:.1em}.atlas-opening .opening-toolbar>div{gap:7px}.atlas-opening .opening-utility-link{font-size:10px;padding:6px 0}.atlas-opening .opening-utility-link>svg{display:none}.atlas-opening .opening-icon-button{width:44px;height:44px;flex-shrink:0}
+ .atlas-opening .opening-mist{background:linear-gradient(0deg,#1b141d 0%,#1b141deb 16%,#1b141db0 31%,transparent 65%),linear-gradient(180deg,#1b141d55,transparent 22%)}
+ .atlas-opening:not(.choosing) .opening-title{padding:0 24px 28px;margin-top:47svh;max-width:100%;min-height:0;align-items:center;text-align:center;gap:20px}.atlas-opening:not(.choosing) .opening-title .eyebrow{font-size:8px;letter-spacing:.18em;max-width:none}.atlas-opening:not(.choosing) .opening-title h1{font-size:clamp(43px,10vw,65px);line-height:1.05}.atlas-opening .opening-title h1>span{white-space:normal}.atlas-opening .opening-title h1 em{margin-top:2px;font-size:.85em}
+ .atlas-opening .opening-quote{font-size:16px;line-height:1.65;border-left:0;border-top:1px solid #b7976744;padding:18px 5px 0;max-width:29em}.atlas-opening .opening-quote br{display:none}.opening-actions{width:min(100%,360px);gap:11px}.atlas-opening .opening-actions :is(button,a){min-height:68px;padding:12px 17px}.opening-button-copy strong{font-size:18px}
+ .atlas-opening:not(.choosing) .opening-music-slot{margin:0 auto 24px;width:calc(100% - 48px);max-width:360px}.atlas-opening .opening-byline{display:none}
+ .atlas-opening.choosing .opening-toolbar{align-items:center}.atlas-opening.choosing .opening-living-scene{height:100svh}.atlas-opening .faction-card-grid{gap:12px}.atlas-opening .faction-card{padding:20px 12px}.faction-card-condition{font-size:11px}
+}
+@media(max-height:650px) and (min-width:761px){.atlas-opening:not(.choosing) .opening-title{padding-top:16px;padding-bottom:26px;gap:16px}.atlas-opening:not(.choosing) .opening-title h1{font-size:clamp(42px,4.3vw,64px)}.atlas-opening .opening-quote{font-size:15px}.opening-actions{flex-direction:row;width:min(600px,100%)}.opening-button-copy small{display:none}.opening-button-emblem{display:none}.atlas-opening .opening-actions :is(button,a){min-height:55px;gap:8px}.opening-button-copy strong{font-size:16px}}
+/* The master artwork stays landscape on every screen; mobile shows the full epic panorama. */
+@media(max-width:760px){
+ .atlas-opening:not(.choosing) .opening-living-scene{top:70px;height:56.25vw;max-height:none;width:100%}
+ .atlas-opening:not(.choosing) .opening-title{margin-top:calc(56.25vw - 10px)}
+ .atlas-opening:not(.choosing) .opening-mist{background:linear-gradient(180deg,#1b141d44 0%,transparent 8%,transparent 20%,#1b141d 38%)}
+ .atlas-opening.choosing .opening-living-scene{height:100svh}
+}
+/* Explicitly override inherited generic column-button and daylight player rules. */
+body.tfam-editorial.tfam-royal .atlas-opening .opening-actions :is(button,a){flex-direction:row!important;flex-wrap:nowrap!important;justify-content:flex-start!important;align-items:center!important;min-height:72px!important;height:72px!important;gap:16px!important;padding:12px 18px!important;letter-spacing:normal}
+body.tfam-editorial.tfam-royal .atlas-opening .opening-button-emblem{display:grid!important;place-items:center!important;flex:0 0 37px!important;width:37px!important;height:37px!important;margin:0!important}
+body.tfam-editorial.tfam-royal .atlas-opening .opening-button-copy{display:grid!important;flex:1!important;text-align:left!important;gap:5px!important;margin:0!important}
+body.tfam-editorial.tfam-royal .atlas-opening .opening-actions .opening-button-copy strong{font-size:19px!important;line-height:1.1!important;font-weight:400!important;letter-spacing:normal!important;color:inherit}
+body.tfam-editorial.tfam-royal .atlas-opening:not(.choosing) .opening-title .eyebrow{color:#d8b581!important}
+body.tfam-editorial.tfam-royal .atlas-opening:not(.choosing) .opening-music-slot .music-console{background:linear-gradient(135deg,#31202bed,#1d1422ee)!important;border-color:#b79a6b66!important}
+body.tfam-editorial.tfam-royal .atlas-opening:not(.choosing) .opening-music-slot .music-console :is(span,button){color:#e3ccaa!important}
+body.tfam-editorial.tfam-royal .atlas-opening:not(.choosing) .opening-music-slot .music-console .music-track-credit{color:#bba184!important}
+@media(max-height:650px) and (min-width:761px){body.tfam-editorial.tfam-royal .atlas-opening .opening-actions :is(button,a){height:58px!important;min-height:58px!important}.atlas-opening .opening-button-emblem{display:none!important}}
+
+/* The original image remains a full-resolution compositor layer, never a canvas copy. */
+.opening-living-scene picture{animation:opening-camera-208 36s ease-in-out infinite alternate;transform-origin:66% 40%}
+.opening-living-scene:after{content:'';position:absolute;inset:0;pointer-events:none;background:#a64257;mix-blend-mode:soft-light;animation:opening-grade-208 120s ease-in-out infinite alternate}
+.atlas-opening .opening-living-scene{transition:opacity 700ms ease,filter 700ms ease}
+.atlas-opening .opening-mist{transition:background-color 600ms ease}
+@keyframes opening-camera-208{from{transform:scale(1.015) translate3d(-.3%,0,0)}to{transform:scale(1.055) translate3d(.3%,-.5%,0)}}
+@keyframes opening-grade-208{from{opacity:.025}to{opacity:.2}}
+.atlas-opening[data-opening-motion=off] .opening-living-scene picture,.atlas-opening[data-opening-motion=off] .opening-living-scene:after{animation-play-state:paused}
+.atlas-opening .opening-actions :is(button,a):active{transform:translateY(1px) scale(.985)}
+@media(max-width:760px){.atlas-opening .opening-toolbar>span{max-width:105px;flex:1}.atlas-opening .opening-toolbar>div{gap:5px}.opening-living-scene picture{transform-origin:64% 40%}}

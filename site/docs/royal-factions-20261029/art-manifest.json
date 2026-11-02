@@ -1,0 +1,51 @@
+{
+  "mode": "built-in ImageGen",
+  "style_reference": "public/portraits/castilian/evelyne_vesper.webp",
+  "images": [
+    {
+      "id": "juliet_spencer",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-a32e2d31-73e4-4524-b83d-3c320b2967c2.png",
+      "target": "/portraits/castilian/royal32/juliet_spencer.webp"
+    },
+    {
+      "id": "nahla_al_fassi",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-db27c2db-cda0-4154-8e7a-ce9c6125d686.png",
+      "target": "/portraits/castilian/royal32/nahla_al_fassi.webp"
+    },
+    {
+      "id": "samira_al_fassi",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-aa2fcdf6-c39e-41fc-9ff7-a34bc570e3ad.png",
+      "target": "/portraits/castilian/royal32/samira_al_fassi.webp"
+    },
+    {
+      "id": "jesper",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-ff7ca39a-155e-41b7-944c-d78198ba7d25.png",
+      "target": "/portraits/castilian/royal32/jesper.webp"
+    },
+    {
+      "id": "barbossa",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-13f8c6bc-41a2-4a95-98cb-c06a87af3569.png",
+      "target": "/portraits/castilian/royal32/barbossa.webp"
+    },
+    {
+      "id": "leonardo_razen",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-ff5ffd11-42f8-49f9-bbbd-34598b88af3a.png",
+      "target": "/portraits/castilian/royal32/leonardo_razen.webp"
+    },
+    {
+      "id": "millennia_stones",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-d1725fc5-8875-467f-a89f-1a171e37fbd7.png",
+      "target": "/portraits/castilian/royal32/millennia_stones.webp"
+    },
+    {
+      "id": "remi_spencer",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-19101c3c-b96e-4dec-a2f5-926be4a16571.png",
+      "target": "/portraits/castilian/royal32/remi_spencer.webp"
+    },
+    {
+      "id": "dante_stones",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-cf88c590-e16b-4955-8efb-4c391106e189.png",
+      "target": "/portraits/castilian/royal32/dante_stones.webp"
+    }
+  ]
+}

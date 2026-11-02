@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-slowink-fungus",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Nấm mọc sau gáy một cuốn sổ nợ ướt. Mực trong sổ được nghiền bằng quặng đen mang từ mỏ bỏ hoang; khi giấy mục, sợi nấm bò qua nét chữ rồi kết thành những gân tím dưới mũ. Dịch nấm bắt đầu đi ngược độ dốc để tìm những nét mực còn giữ họ hàng với nó.\n\nNgười chép sách nhỏ một giọt lên trang gần trắng. Tên người chủ cũ từ từ đậm lên, theo sau là khoản nợ đã bị cạo khỏi giấy. Ông cắt một tai nấm đem nuôi; dịch từ lứa sau vẫn bò tìm chữ, còn những trang bị tưới quá tay chỉ còn một vũng đen giống lời khai bị bóp nghẹt.",
+    "lore_en": "Fungus grew behind the spine of a soaked debt ledger. Its ink had been ground from black ore carried out of an abandoned mine; as paper rotted, fungal threads followed the writing and formed violet veins beneath their caps. Their fluid began travelling uphill to find ink strokes that retained a kinship with it.\n\nA copyist placed a drop upon an almost white page. Its former owner’s name slowly darkened, followed by a debt scraped from the paper. He cultivated a fungal ear; later crops still sent fluid seeking words, while overwatered pages became black pools like smothered testimony.",
+    "use_vi": "Làm nổi nét mực cũ trên giấy để chép hoặc khảo sát dấu sửa chữa.",
+    "use_en": "Darken old ink strokes on paper for transcription or examination of alterations.",
+    "limits_vi": "Dịch làm nhòe giấy mỏng và chỉ tìm phần mực còn dấu. Phải thử một góc; bản độc nhất cần người bảo quản quyết định trước khi chạm dịch.",
+    "limits_en": "The fluid blurs thin paper and follows only surviving ink traces. Test a corner; unique documents require a conservator’s decision before application.",
+    "skills": [
+      {
+        "name_vi": "Mực lần nét",
+        "name_en": "Ink Finds the Stroke",
+        "description_vi": "Chấm một giọt nhỏ rồi nghiêng trang để dịch tìm dọc nét mực còn lại; hút phần dư bằng vải ngay khi chữ đủ rõ để tránh nó bò sang nét bên.",
+        "description_en": "Apply a small drop and tilt the page so fluid follows surviving ink; blot excess as soon as writing is legible to prevent it reaching neighbouring strokes."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nấm ăn nét chữ",
+        "name_en": "The Writing-Eating Fungus",
+        "description_vi": "Dịch ưu tiên nét mực gần nguồn đã nuôi nấm; một lứa sống trên mực khác có thể chọn những chữ khác.",
+        "description_en": "The fluid favours ink akin to that which fed its crop; cultivation upon another ink may change which strokes it seeks."
+      }
+    ]
+  }
+]

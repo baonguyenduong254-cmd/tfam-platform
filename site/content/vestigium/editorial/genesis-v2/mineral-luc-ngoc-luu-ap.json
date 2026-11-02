@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-luc-ngoc-luu-ap",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Lục ngọc được lấy từ dưới bệ một máy ép dùng nước mỏ có ánh bạc. Qua nhiều năm sức ép lên xuống, những giọt nước lọt vào đá ngừng thấm và dẹt thành các bọt kim loại. Đến lần máy gãy, bọt giữ nguyên hình chịu tải dù mọi phần sắt đã được dỡ đi.\n\nNgười chuyển hàng nhặt mẫu đặt vào thùng, tìm lại hình ép trên bọt sau một chuyến bị chèn. Những thợ khác học cách đọc hướng, xả dấu hoặc trả một phần sức bọt đang ôm vào bản thử. Viên ngọc biến một việc thường qua đi ngay khi tay buông thành thứ có thể được đem ra đối diện, kể cả sau lúc những người đẩy thùng đã quên mình làm gì.",
+    "lore_en": "The jade lay beneath a press using silver-glinting mine-water. Years of loading flattened trapped drops into metallic bubbles. When the press broke, they kept their loaded shapes after its ironwork was removed.\n\nCarriers recovered compression-marks after damaged journeys. Others learnt to read direction, clear records or discharge part of a bubble’s burden into a test-plate. A pressure normally gone upon release had become something witnesses could confront after its handlers forgot their actions.",
+    "use_vi": "Ghi nhận tải ép, so hướng chịu lực và trả phần sức được bọt giữ trong một thao tác nhỏ.",
+    "use_en": "Record compression, compare loading direction and release a small share retained within a bubble.",
+    "limits_vi": "Nhiệt khác lúc ghi có thể làm hình bọt khó so. Xả dấu sẽ mất chứng tích cũ; dùng viên đã ghi quá nhiều có thể làm sức trả đến không theo lượt người giữ mong.",
+    "limits_en": "Different temperatures complicate comparison. Clearing erases evidence; repeated loading may discharge out of the expected sequence.",
+    "skills": [
+      {
+        "name_vi": "Ghi mức ép lớn",
+        "name_en": "Keep the Strongest Press",
+        "description_vi": "Đặt ngọc cùng mặt chịu tải để bọt giữ mức dẹt nhất của lượt. Va và ép khác nhau có thể cùng để hình, cần so mẫu riêng.",
+        "description_en": "A loaded face retains its greatest flattening. Blows and pressure may resemble each other and need separate references."
+      },
+      {
+        "name_vi": "Chỉ hướng đã chịu",
+        "name_en": "Show the Burden’s Direction",
+        "description_vi": "Xoay ngọc dưới một đèn để đường bạc hiện phía từng nhận tải. Nhiều lượt chồng không được tự tách thành trình tự chắc chắn.",
+        "description_en": "Turn beneath one lamp to reveal loading direction. Overlapping records do not establish a certain sequence."
+      },
+      {
+        "name_vi": "Xả dấu về nước",
+        "name_en": "Clear into Water",
+        "description_vi": "Ngâm mặt đã đánh dấu vào nước sạch để bọt từ từ tròn lại. Nước mang dư rung của lượt xả, có thể làm vỡ vật mỏng đặt cùng.",
+        "description_en": "Clean water rounds its bubbles again, carrying residual vibration capable of breaking delicate objects in the vessel."
+      },
+      {
+        "name_vi": "Nhả một xung giữ",
+        "name_en": "Release a Retained Pulse",
+        "description_vi": "Chạm đồng vào bọt được gọi để nó trả một xung qua mặt đối diện. Mặt nhận cần được đặt rõ trước khi người dùng gọi bọt.",
+        "description_en": "Copper touching a designated bubble releases a pulse through its opposite face. Prepare that receiver before invoking it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhân chứng không biết tên",
+        "name_en": "A Nameless Witness",
+        "description_vi": "Bọt giữ hình sức ép mà không nhận người gây ra; hồ sơ cần lời chứng khác để nối sự việc với một căn tính.",
+        "description_en": "Bubbles retain pressure without identifying its source; other testimony must connect event and person."
+      }
+    ]
+  }
+]

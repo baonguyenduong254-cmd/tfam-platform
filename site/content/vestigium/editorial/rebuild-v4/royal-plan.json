@@ -1,0 +1,848 @@
+[
+  {
+    "number": 1,
+    "label": "Uno",
+    "status": "existing",
+    "ids": [
+      "complex-uno-speculum"
+    ]
+  },
+  {
+    "number": 2,
+    "label": "Dos",
+    "status": "existing",
+    "ids": [
+      "complex-dos-sutura"
+    ]
+  },
+  {
+    "number": 3,
+    "label": "Tres",
+    "status": "existing",
+    "ids": [
+      "armament-tres-vinculum"
+    ]
+  },
+  {
+    "number": 4,
+    "label": "Cuatro",
+    "status": "existing",
+    "ids": [
+      "device-cuatro-zodiacum"
+    ]
+  },
+  {
+    "number": 5,
+    "label": "Cinco",
+    "status": "existing",
+    "ids": [
+      "device-035"
+    ]
+  },
+  {
+    "number": 6,
+    "label": "Seis",
+    "status": "existing",
+    "ids": [
+      "device-036"
+    ]
+  },
+  {
+    "number": 7,
+    "label": "Siete",
+    "status": "existing",
+    "ids": [
+      "armament-siete-fidelis"
+    ]
+  },
+  {
+    "number": 8,
+    "label": "Ocho",
+    "status": "existing",
+    "ids": [
+      "armament-marco-octava-forja"
+    ]
+  },
+  {
+    "number": 9,
+    "label": "Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Pháo Lệnh Hải Tâm Bastion",
+    "brief_vi": "Thiết kế Collection cho Timothy; canon chỉ xác nhận nhận Nueve và dây chưa đáp. Giữ Gầm Bão là vũ khí riêng, không đổi thành sản phẩm Nueve."
+  },
+  {
+    "number": 10,
+    "label": "Diez",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Chiến Kỳ Trục Quân Concordia",
+    "brief_vi": "Thiết kế Collection cho Cassandra; số Diez và vai trò mặt trận có nguồn, quyền năng chiến kỳ mới là sáng tác."
+  },
+  {
+    "number": 11,
+    "label": "Once",
+    "status": "existing",
+    "ids": [
+      "device-037"
+    ]
+  },
+  {
+    "number": 12,
+    "label": "Doce",
+    "status": "existing",
+    "ids": [
+      "armament-romeo-oathbreaker",
+      "armament-oathbearer"
+    ]
+  },
+  {
+    "number": 13,
+    "label": "Trece",
+    "status": "existing",
+    "ids": [
+      "device-038"
+    ]
+  },
+  {
+    "number": 14,
+    "label": "Catorce",
+    "status": "existing",
+    "ids": [
+      "device-039"
+    ]
+  },
+  {
+    "number": 15,
+    "label": "Quince",
+    "status": "existing",
+    "ids": [
+      "device-040"
+    ]
+  },
+  {
+    "number": 16,
+    "label": "Dieciséis",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-051",
+    "brief_vi": "Địa cầu dẫn đến cảng đã mất, nhìn hải trình cũ nhưng không tự hồi sinh thành phố."
+  },
+  {
+    "number": 17,
+    "label": "Diecisiete",
+    "status": "existing",
+    "ids": [],
+    "brief_vi": "Tác giả bỏ La Muralla vô danh khỏi showcase. Thiết kế mới cần cá tính và người mang hợp lý, không tái dùng món đã bỏ."
+  },
+  {
+    "number": 18,
+    "label": "Dieciocho",
+    "status": "existing",
+    "ids": [
+      "device-041"
+    ]
+  },
+  {
+    "number": 19,
+    "label": "Diecinueve",
+    "status": "existing",
+    "ids": [
+      "device-042"
+    ]
+  },
+  {
+    "number": 20,
+    "label": "Veinte",
+    "status": "existing",
+    "ids": [
+      "device-043"
+    ]
+  },
+  {
+    "number": 21,
+    "label": "Veintiuno",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-01"
+    ]
+  },
+  {
+    "number": 22,
+    "label": "Veintidós",
+    "status": "existing",
+    "ids": [
+      "armament-northwall"
+    ]
+  },
+  {
+    "number": 23,
+    "label": "Veintitrés",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-02"
+    ]
+  },
+  {
+    "number": 24,
+    "label": "Veinticuatro",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-03"
+    ]
+  },
+  {
+    "number": 25,
+    "label": "Veinticinco",
+    "status": "existing",
+    "ids": [
+      "armament-veinticinco-gravitas"
+    ]
+  },
+  {
+    "number": 26,
+    "label": "Veintiséis",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-04"
+    ]
+  },
+  {
+    "number": 27,
+    "label": "Veintisiete",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-05"
+    ]
+  },
+  {
+    "number": 28,
+    "label": "Veintiocho",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-06"
+    ]
+  },
+  {
+    "number": 29,
+    "label": "Veintinueve",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-07"
+    ]
+  },
+  {
+    "number": 30,
+    "label": "Treinta",
+    "status": "existing",
+    "ids": [
+      "armament-collection-5-08"
+    ]
+  },
+  {
+    "number": 31,
+    "label": "Treinta y Uno",
+    "status": "existing",
+    "ids": [
+      "armament-collection-6-01"
+    ]
+  },
+  {
+    "number": 32,
+    "label": "Treinta y Dos",
+    "status": "existing",
+    "ids": [
+      "armament-winterthorn"
+    ]
+  },
+  {
+    "number": 33,
+    "label": "Treinta y Tres",
+    "status": "existing",
+    "ids": [
+      "armament-collection-6-02"
+    ]
+  },
+  {
+    "number": 34,
+    "label": "Treinta y Cuatro",
+    "status": "existing",
+    "ids": [
+      "armament-collection-6-03"
+    ]
+  },
+  {
+    "number": 35,
+    "label": "Treinta y Cinco",
+    "status": "existing",
+    "ids": [
+      "armament-collection-6-05"
+    ]
+  },
+  {
+    "number": 36,
+    "label": "Treinta y Seis",
+    "status": "existing",
+    "ids": [
+      "armament-collection-6-07"
+    ]
+  },
+  {
+    "number": 37,
+    "label": "Treinta y Siete",
+    "status": "existing",
+    "ids": [
+      "armament-collection-7-01"
+    ]
+  },
+  {
+    "number": 38,
+    "label": "Treinta y Ocho",
+    "status": "existing",
+    "ids": [
+      "armament-collection-7-03"
+    ]
+  },
+  {
+    "number": 39,
+    "label": "Treinta y Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Hành Lang Nghịch Phong Auster",
+    "brief_vi": "Một làn gió chiến trường tách khói khỏi tuyến tiến, dẫn đường đạn theo đường gió nhưng phải đọc địa hình."
+  },
+  {
+    "number": 40,
+    "label": "Cuarenta",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-055",
+    "brief_vi": "Bộ chữ chì cho lời người mất giọng được nhận thành tiếng từ bản chữ đã chọn, giữ agency của người gửi."
+  },
+  {
+    "number": 41,
+    "label": "Cuarenta y Uno",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Lâm Mạch Công Binh Viridarium",
+    "brief_vi": "Giáo và rễ sống dựng giàn, đỡ công trình và làm chướng ngại; cần đất nước và thời gian mọc."
+  },
+  {
+    "number": 42,
+    "label": "Cuarenta y Dos",
+    "status": "existing",
+    "ids": [
+      "armament-skoll-hati"
+    ]
+  },
+  {
+    "number": 43,
+    "label": "Cuarenta y Tres",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Hải Pháo Vấn Triều Pelagor",
+    "brief_vi": "Pháo triển khai nhận triều và mặt nước làm đường truyền, dùng tác động vào thân tàu, không xóa biển."
+  },
+  {
+    "number": 44,
+    "label": "Cuarenta y Cuatro",
+    "status": "existing",
+    "ids": [
+      "armament-cuarenta-cuatro-sarab"
+    ]
+  },
+  {
+    "number": 45,
+    "label": "Cuarenta y Cinco",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Thương Khố Mãn Mùa Horrea",
+    "brief_vi": "Khoang chứa giữ nông sản ở giai đoạn thu hoạch đã nhận; năng lực bảo quản khác với tạo thức ăn."
+  },
+  {
+    "number": 46,
+    "label": "Cuarenta y Seis",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Mộc Luân Xưởng Hành Molendina",
+    "brief_vi": "Guồng quay gỗ sống và cơ cấu dẫn lực hỗ trợ xay, bơm và kéo; cần nguồn vận động thực."
+  },
+  {
+    "number": 47,
+    "label": "Cuarenta y Siete",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Trắc Đồ Chiết Cảnh Mensura",
+    "brief_vi": "Khung đo giữ hình đất dưới các hướng quan sát, giúp làm đường và công sự; sai nền dữ liệu vẫn sai."
+  },
+  {
+    "number": 48,
+    "label": "Cuarenta y Ocho",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-048",
+    "brief_vi": "Cân giữ nghĩa của một thỏa thuận tự nhận, phân biệt thay văn bản với người hứa tự đổi cách hiểu."
+  },
+  {
+    "number": 49,
+    "label": "Cuarenta y Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Dịch Khí Minh Diện Salubris",
+    "brief_vi": "Mặt nạ nhận và phân tầng luồng khí quanh bệnh xá; chặn một tác nhân đã nhận, không giải mọi bệnh."
+  },
+  {
+    "number": 50,
+    "label": "Cincuenta",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-057",
+    "brief_vi": "Chìa khóa mở ngưỡng đầu của căn tính hay ký ức, cần quyền hạn tương xứng Độc bản hoặc xét lại bậc."
+  },
+  {
+    "number": 51,
+    "label": "Cincuenta y Uno",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Vân Đình Giám Vũ Nubila",
+    "brief_vi": "Một vùng mây được nhận và giữ nhịp mưa hoặc tuyết cho việc canh tác, yêu cầu có mây nguồn."
+  },
+  {
+    "number": 52,
+    "label": "Cincuenta y Dos",
+    "status": "existing",
+    "ids": [
+      "armament-gleipnir"
+    ]
+  },
+  {
+    "number": 53,
+    "label": "Cincuenta y Tres",
+    "status": "existing",
+    "ids": [],
+    "category": "entity",
+    "proposed_name_vi": "Người Gác Hỏa Chủng Cinis",
+    "brief_vi": "Thực thể giữ lò và nhớ các lần nhóm lửa, thương lượng được, có ý chí riêng và quyền rời ca."
+  },
+  {
+    "number": 54,
+    "label": "Cincuenta y Cuatro",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-054",
+    "brief_vi": "Chuông neo đường tới phần tàu còn người giữa lúc chìm; không cam kết tàu không chìm như Orbis."
+  },
+  {
+    "number": 55,
+    "label": "Cincuenta y Cinco",
+    "status": "existing",
+    "ids": [
+      "armament-cincuenta-cinco-qamar"
+    ]
+  },
+  {
+    "number": 56,
+    "label": "Cincuenta y Seis",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-056",
+    "brief_vi": "Kim khâu căn tính cho người đang bị tác động bởi gọi tên và xóa tên; y học/cứu nạn siêu nhiên."
+  },
+  {
+    "number": 57,
+    "label": "Cincuenta y Siete",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Hỏa Tuyến Phong Nang Follis",
+    "brief_vi": "Bễ điều khiển nhịp cấp khí cho lò, tách nguồn nhiệt khỏi nguồn vận động, hỗ trợ luyện kim."
+  },
+  {
+    "number": 58,
+    "label": "Cincuenta y Ocho",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-058",
+    "brief_vi": "Đĩa giữ một ngày bị tước tên: quyền lịch sử, thực tại và bằng chứng, cần giới hạn rõ."
+  },
+  {
+    "number": 59,
+    "label": "Cincuenta y Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Thiết Đinh Tước Liên Clavus",
+    "brief_vi": "Bộ đinh đóng vào mối nối để khóa hoặc tháo một hệ liên kết; dùng cầu tàu, công sự và giáp."
+  },
+  {
+    "number": 60,
+    "label": "Sesenta",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-049",
+    "brief_vi": "Chìa khóa phòng chờ giữ một ngưỡng cứu chữa khỏi xâm nhiễu âm/ý niệm, tránh bất khả xâm phạm vô điều kiện."
+  },
+  {
+    "number": 61,
+    "label": "Sesenta y Uno",
+    "status": "existing",
+    "ids": [
+      "armament-sesenta-uno-ignifer"
+    ]
+  },
+  {
+    "number": 62,
+    "label": "Sesenta y Dos",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-062",
+    "brief_vi": "Ấn chấm dứt nghĩa vụ đã được giải trừ; sức mạnh ở sự kết thúc liên kết, không ép tha thứ."
+  },
+  {
+    "number": 63,
+    "label": "Sesenta y Tres",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-063",
+    "brief_vi": "Đồng hồ nhịp cuối giữ khoảng việc chưa kết thúc, không sao chép Thạch Nợ Một Nhịp hoặc hồi sinh tự do."
+  },
+  {
+    "number": 64,
+    "label": "Sesenta y Cuatro",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-064",
+    "brief_vi": "Hộp thư gửi tới đối tượng vắng khỏi nơi nhận; tiếp nhận lời thú nhận không ép nghe hay sinh tha thứ."
+  },
+  {
+    "number": 65,
+    "label": "Sesenta y Cinco",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Tro Hoàn Luyện Đỉnh Recales",
+    "brief_vi": "Lò nhận phế liệu có cùng căn tính vật liệu và tái gom phần dùng được; không biến mọi tro thành vàng."
+  },
+  {
+    "number": 66,
+    "label": "Sesenta y Seis",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Thiên Vĩ Hoàng Hôn Astrolabium",
+    "brief_vi": "Dụng cụ giữ một quan hệ sao-đường chân trời cho định vị khi trời bị che, cần dữ liệu đã quan sát."
+  },
+  {
+    "number": 67,
+    "label": "Sesenta y Siete",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Việt Chướng Luân Xa Transitus",
+    "brief_vi": "Bánh xe đưa cùng một trục tải qua các lớp bề mặt đã nhận, không tự rút ngắn mọi khoảng cách."
+  },
+  {
+    "number": 68,
+    "label": "Sesenta y Ocho",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Quân Y Bạch Trướng Linteum",
+    "brief_vi": "Lều và vải sống tổ chức vùng sạch, chia khu nhiễm và dẫn dịch thải, cần người chăm và vật tư."
+  },
+  {
+    "number": 69,
+    "label": "Sesenta y Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Triều Nhịp Luân Tâm Aestuarium",
+    "brief_vi": "Cơ cấu giữ và phát nhịp nước đã nhận, điều tiết kênh và bến, phân biệt với dự đoán đại dương."
+  },
+  {
+    "number": 70,
+    "label": "Setenta",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-059",
+    "brief_vi": "Đèn soi một dấu nhận diện của người chưa gặp, quyền nhận biết có phạm vi và nguồn căn cứ."
+  },
+  {
+    "number": 71,
+    "label": "Setenta y Uno",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Trầm Hải Định Neo Abyssus",
+    "brief_vi": "Neo giữ quan hệ tàu-nước thay vì ghim xuống đáy, dùng chống dạt và giữ hướng khi tác chiến."
+  },
+  {
+    "number": 72,
+    "label": "Setenta y Dos",
+    "status": "existing",
+    "ids": [],
+    "category": "material",
+    "proposed_name_vi": "Dẫn Hỏa Kim Sa Fulmen",
+    "brief_vi": "Một nguồn vật liệu triển khai có tính truyền mồi, dành cho cơ cấu pháo và tín hiệu; không nêu công thức nổ đời thực."
+  },
+  {
+    "number": 73,
+    "label": "Setenta y Tres",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Trận Bộ Đồng Hành Passus",
+    "brief_vi": "Miền đồng bộ bước của những người tự theo tín hiệu; hữu ích hành quân, không cướp ý chí hay cho mọi người cùng kỹ năng."
+  },
+  {
+    "number": 74,
+    "label": "Setenta y Cuatro",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Phân Vụ Trường Phiên Vela",
+    "brief_vi": "Phiên vải mở hành lang trong sương/khói và đánh lạc hướng trinh sát, bị địa hình/điểm neo chi phối."
+  },
+  {
+    "number": 75,
+    "label": "Setenta y Cinco",
+    "status": "existing",
+    "ids": [],
+    "category": "entity",
+    "proposed_name_vi": "Thợ Đúc Không Ngủ Faber",
+    "brief_vi": "Chủ thể triển khai bằng kim loại giữ kinh nghiệm thao tác, cần vật liệu và thiết kế, có tính khí riêng."
+  },
+  {
+    "number": 76,
+    "label": "Setenta y Seis",
+    "status": "existing",
+    "ids": [
+      "device-setenta-seis-ferraria"
+    ]
+  },
+  {
+    "number": 77,
+    "label": "Setenta y Siete",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Trọng Phản Huyền Chùy Reversor",
+    "brief_vi": "Búa đổi hướng của một xung đã chạm, công phá/phòng thủ, phải chọn mặt nhận cho xung phản."
+  },
+  {
+    "number": 78,
+    "label": "Setenta y Ocho",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Hiệu Lệnh Viễn Minh Clamor",
+    "brief_vi": "Bộ khí cụ truyền một giọng hiệu lệnh đã nhận tới các mốc đặt trước, phục vụ dân sự và chỉ huy."
+  },
+  {
+    "number": 79,
+    "label": "Setenta y Nueve",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Bách Hình Thiết Khuôn Forma",
+    "brief_vi": "Khuôn giữ nhóm cấu kiện dùng chung, hỗ trợ sản xuất thay thế; vật liệu vẫn phải được cấp."
+  },
+  {
+    "number": 80,
+    "label": "Ochenta",
+    "status": "existing",
+    "ids": [],
+    "existing_candidate": "device-060",
+    "brief_vi": "Cối nén và giữ âm thành hạt, định nghĩa quyền hạn cao hơn một phòng yên; giữ hình chày cối."
+  },
+  {
+    "number": 81,
+    "label": "Ochenta y Uno",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Hàn Tuyến Hồi Xuân Vernalis",
+    "brief_vi": "Một dải sinh cảnh tạm cho mùa sinh trưởng, phân biệt nhiệt đất, ánh sáng và dinh dưỡng, không cho thu hoạch miễn phí."
+  },
+  {
+    "number": 82,
+    "label": "Ochenta y Dos",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Truy Diệm Phản Pháo Vestitor",
+    "brief_vi": "Khí cụ nhận dấu một lần khai hỏa để chỉ vị trí/đường trả đòn, mất dấu khi bệ được đổi thực sự."
+  },
+  {
+    "number": 83,
+    "label": "Ochenta y Tres",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Hải Đăng Ngư Quần Lucerna",
+    "brief_vi": "Đàn cá và mốc sáng dẫn đường qua nước, sinh vật cần môi trường và thức ăn, không sở hữu biển."
+  },
+  {
+    "number": 84,
+    "label": "Ochenta y Cuatro",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Vạn Chủng Tàng Hạp Seminarium",
+    "brief_vi": "Kho giữ hạt cùng lịch sử sinh trưởng của chúng, bảo tồn nguồn giống và giúp phục hồi nông nghiệp."
+  },
+  {
+    "number": 85,
+    "label": "Ochenta y Cinco",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Định Hình Lam Đồ Architectum",
+    "brief_vi": "Bản vẽ có thể giữ kết cấu tạm khi dựng, đòi hình khép và điểm neo, không biến sai bản vẽ thành đúng."
+  },
+  {
+    "number": 86,
+    "label": "Ochenta y Seis",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Hậu Chấn Y Kính Vulneris",
+    "brief_vi": "Khí cụ phân biệt tổn thương mới và cũ bằng dấu còn trên thân thể, phục vụ điều trị chứ không hồi sinh."
+  },
+  {
+    "number": 87,
+    "label": "Ochenta y Siete",
+    "status": "existing",
+    "ids": [],
+    "category": "armament",
+    "proposed_name_vi": "Liên Kiều Hành Ngoa Viator",
+    "brief_vi": "Ủng mở bước qua các điểm tựa đã cắm cho vận chuyển và đột kích, cần mạng điểm có thật."
+  },
+  {
+    "number": 88,
+    "label": "Ochenta y Ocho",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Ly Triều Hải Thạch Nauta",
+    "brief_vi": "Tổ hợp neo và miền nước quanh tàu cho việc cứu kéo, điều kiện tàu/miền được ghi rõ."
+  },
+  {
+    "number": 89,
+    "label": "Ochenta y Nueve",
+    "status": "existing",
+    "ids": [
+      "device-ochenta-nueve-orbis"
+    ]
+  },
+  {
+    "number": 90,
+    "label": "Noventa",
+    "status": "existing",
+    "ids": [],
+    "category": "entity",
+    "proposed_name_vi": "Kẻ Giữ Ngọn Nến Trong Mộng Somnus",
+    "brief_vi": "Thực thể đi cùng giấc ngủ, bảo vệ một nơi hẹn khỏi ảnh cưỡng ép, có ý chí riêng."
+  },
+  {
+    "number": 91,
+    "label": "Noventa y Uno",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Thiên Lý Chỉ Chu Navicula",
+    "brief_vi": "Thuyền giấy đưa thư theo một nguồn nước liên tục, gặp đập và tách dòng phải có lựa chọn."
+  },
+  {
+    "number": 92,
+    "label": "Noventa y Dos",
+    "status": "existing",
+    "ids": [],
+    "category": "complex",
+    "proposed_name_vi": "Tái Kiến Ngân Môn Porticus",
+    "brief_vi": "Khung gương và miền công xưởng hỗ trợ đưa người/vật qua hai mốc, không trùng quyền Uno."
+  },
+  {
+    "number": 93,
+    "label": "Noventa y Tres",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Ảnh Tuyến Thiên Chung Umbra",
+    "brief_vi": "Quả lắc nhận nhịp của bóng và thiên thể để canh lịch, không dự đoán mọi tương lai."
+  },
+  {
+    "number": 94,
+    "label": "Noventa y Cuatro",
+    "status": "existing",
+    "ids": [],
+    "category": "entity",
+    "proposed_name_vi": "Người Đứng Ngoài Cửa Tuyết Janitor",
+    "brief_vi": "Chủ thể giữ ngưỡng theo thỏa thuận, phân biệt lời mời với ép buộc, không tự hiểu luật của mọi quốc gia."
+  },
+  {
+    "number": 95,
+    "label": "Noventa y Cinco",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Cố Giang Phân Thủy Ripa",
+    "brief_vi": "Miền kênh tạm dẫn nước qua những lòng cũ còn dấu, hợp tưới tiêu và ứng phó lũ, cần nguồn nước."
+  },
+  {
+    "number": 96,
+    "label": "Noventa y Seis",
+    "status": "existing",
+    "ids": [],
+    "category": "device",
+    "proposed_name_vi": "Sinh Thể Đồng Đăng Vitae",
+    "brief_vi": "Khí cụ giữ một số nhịp sinh học được nhận trong chăm sóc, là cầu nối cho y sĩ xử lý nguyên nhân."
+  },
+  {
+    "number": 97,
+    "label": "Noventa y Siete",
+    "status": "existing",
+    "ids": [
+      "complex-noventa-siete-palingenia"
+    ]
+  },
+  {
+    "number": 98,
+    "label": "Noventa y Ocho",
+    "status": "existing",
+    "ids": [],
+    "category": "material",
+    "proposed_name_vi": "Mãn Kho Kim Chủng Aurea",
+    "brief_vi": "Hạt triển khai giữ sức nảy mầm của một mùa đã nhận, cần đất/dưỡng chất, không nhân lương thực vô hạn."
+  },
+  {
+    "number": 99,
+    "label": "Noventa y Nueve",
+    "status": "existing",
+    "ids": [
+      "armament-robert-vestigia-nulla"
+    ],
+    "category": "complex",
+    "proposed_name_vi": "Cựu Thành Hồi Khóa Civitas",
+    "brief_vi": "Robert Salcedo là số99 trong Ngoại truyện1 hiện hành; Civitas chuyển sang bộ sưu tập chung."
+  },
+  {
+    "number": 100,
+    "label": "Cien",
+    "status": "existing",
+    "ids": [],
+    "category": "phenomenon",
+    "proposed_name_vi": "Vô Danh Giới Trụ Terminus",
+    "brief_vi": "Một ranh thực tại được dựng quanh điều người mang đã trực tiếp xác lập; bậc không dựa vào số 100, cần thiết kế quyền hạn riêng và vừa thế giới."
+  }
+]

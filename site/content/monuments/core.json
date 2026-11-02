@@ -1,0 +1,647 @@
+[
+  {
+    "id": "castilian-madrid",
+    "faction_id": "castilian_empire",
+    "category": "seat",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4/edit",
+      "https://docs.google.com/document/d/1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Royal Palace of Madrid, Madrid · Iberia. The throne among the gears. After nightfall, the inner palace windows still burn above Madrid. Grey-white guards hold the gates; within, the distance between throne and battlefield is measured in maps, dispatches and railway wagons still available. Isabella has made the sovereign’s residence the coordinating heart of a country learning to move faster than disaster. Every decree must reach a granary, a machine shop and the last soldier in a trench.",
+    "name_vi": "Hoàng cung Madrid",
+    "name_en": "Royal Palace of Madrid",
+    "location_vi": "Madrid · Iberia",
+    "location_en": "Madrid · Iberia",
+    "epithet_vi": "Ngai vàng giữa những bánh răng",
+    "epithet_en": "The throne among the gears",
+    "lore_vi": "Đêm xuống Madrid, những ô cửa nội điện vẫn đỏ ánh lửa. Bên ngoài là lính gác xám trắng; bên trong, khoảng cách giữa ngai vàng và mặt trận được đo bằng bản đồ, điện lệnh và số toa tàu còn có thể điều động. Isabella biến nơi ở của quân vương thành đầu mối của một đất nước phải học cách sống nhanh hơn tai họa. Mỗi sắc lệnh rời cung phải tìm được đường tới kho lương, xưởng máy và người lính cuối cùng trong tuyến hào.",
+    "lore_en": "After nightfall, the inner palace windows still burn above Madrid. Grey-white guards hold the gates; within, the distance between throne and battlefield is measured in maps, dispatches and railway wagons still available. Isabella has made the sovereign’s residence the coordinating heart of a country learning to move faster than disaster. Every decree must reach a granary, a machine shop and the last soldier in a trench.",
+    "benefit_vi": "Phối hợp quân đội, đường sắt và xưởng Hoàng gia qua chung một đầu mối.",
+    "benefit_en": "Coordinates army, railways and royal workshops through a common centre.",
+    "cost_vi": "Khủng hoảng tại kinh thành có thể làm chậm quyết định trên nhiều mặt trận.",
+    "cost_en": "A crisis in the capital can delay decisions across several fronts.",
+    "historical_anchor_vi": "Arc II, chương 33; Arc III, chương 92 và98: nội điện, hội đồng và quảng trường xuất quân.",
+    "historical_anchor_en": "Volume II, chapter 33; Volume III, chapters 92 and98: inner palace, council and mustering square.",
+    "traits": [
+      {
+        "label_vi": "Mệnh lệnh thống nhất",
+        "label_en": "Unified command",
+        "description_vi": "Hành chính và quân nhu dùng chung hệ thống chỉ thị.",
+        "description_en": "Administration and military supply share a command structure."
+      },
+      {
+        "label_vi": "Trái tim tập quyền",
+        "label_en": "Centralised heart",
+        "description_vi": "Quyết định lớn hội tụ về kinh thành.",
+        "description_en": "Major decisions converge upon the capital."
+      }
+    ]
+  },
+  {
+    "id": "castilian-ceuta",
+    "faction_id": "castilian_empire",
+    "category": "industry",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Grand Naval Works of Ceuta, Ceuta · Strait of Gibraltar. Where steel learned to cross the sea. Beneath ice-laden cranes, battleship hulls rise with every working shift. Ceuta’s hammers answer Toledo steel, Valencia machine tools and trains carrying components from inland Iberia. Isabella compelled workshops to share dimensions, drawings and inspection standards, turning an isolated marvel into something that could be built again. On the scaffolding, workers know every error will go to sea with hundreds of sailors. When a battleship leaves the dock, the furnaces await the next.",
+    "name_vi": "Đại công xưởng Hải quân Ceuta",
+    "name_en": "Grand Naval Works of Ceuta",
+    "location_vi": "Ceuta · eo Gibraltar",
+    "location_en": "Ceuta · Strait of Gibraltar",
+    "epithet_vi": "Nơi thép học cách vượt biển",
+    "epithet_en": "Where steel learned to cross the sea",
+    "lore_vi": "Dưới những cần cẩu phủ băng, thân chiến hạm lớn dần qua từng ca thợ. Tiếng búa Ceuta nối với thép Toledo, máy công cụ Valencia và đoàn tàu linh kiện từ sâu trong Iberia. Isabella buộc các xưởng dùng chung kích thước, bản vẽ và kỷ luật nghiệm thu, biến một kỳ tích riêng lẻ thành thứ có thể đóng lại. Trên giàn giáo, người thợ hiểu mỗi sai số sẽ đi biển cùng hàng trăm thủy thủ. Khi chiến hạm rời ụ, những lò rèn vẫn chờ chiếc tiếp theo.",
+    "lore_en": "Beneath ice-laden cranes, battleship hulls rise with every working shift. Ceuta’s hammers answer Toledo steel, Valencia machine tools and trains carrying components from inland Iberia. Isabella compelled workshops to share dimensions, drawings and inspection standards, turning an isolated marvel into something that could be built again. On the scaffolding, workers know every error will go to sea with hundreds of sailors. When a battleship leaves the dock, the furnaces await the next.",
+    "benefit_vi": "Đóng và sửa chiến hạm theo linh kiện đồng chuẩn.",
+    "benefit_en": "Builds and repairs warships using standardised components.",
+    "cost_vi": "Thép, nhiên liệu và thợ giỏi bị hút khỏi các nhu cầu dân dụng.",
+    "cost_en": "Steel, fuel and skilled workers are diverted from civilian needs.",
+    "historical_anchor_vi": "Arc I, chương 9: Isabella giới thiệu mạng lưới công nghiệp và các thân tàu Ceuta.",
+    "historical_anchor_en": "Volume I, chapter 9: Isabella presents the industrial network and Ceuta hulls.",
+    "traits": [
+      {
+        "label_vi": "Linh kiện đồng chuẩn",
+        "label_en": "Common components",
+        "description_vi": "Xưởng xa nhau có thể cùng hoàn thành một chiến hạm.",
+        "description_en": "Distant workshops can contribute to the same ship."
+      },
+      {
+        "label_vi": "Ca trực nối dài",
+        "label_en": "Unbroken shifts",
+        "description_vi": "Sản lượng cần những đội thợ tiếp nối ngày đêm.",
+        "description_en": "Output depends on successive shifts day and night."
+      }
+    ]
+  },
+  {
+    "id": "castilian-gibraltar",
+    "faction_id": "castilian_empire",
+    "category": "fortress",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit",
+      "https://docs.google.com/document/d/1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Fortress of Gibraltar, Gibraltar · Mediterranean gateway. The lock between two seas. From batteries cut into the rock, sentries watch convoys thread the strait. Below them stand repair docks, fuel depots and wharves where every shipment buys more life for a distant city. Gibraltar gives naval power somewhere to return after the guns fall silent. A battleship may win at sea and then lie helpless for want of a component; here, workers give it motion again.",
+    "name_vi": "Thành lũy Gibraltar",
+    "name_en": "Fortress of Gibraltar",
+    "location_vi": "Gibraltar · cửa Địa Trung Hải",
+    "location_en": "Gibraltar · Mediterranean gateway",
+    "epithet_vi": "Chiếc khóa của hai vùng biển",
+    "epithet_en": "The lock between two seas",
+    "lore_vi": "Từ tầng pháo trên núi đá, lính gác nhìn đoàn thuyền đi giữa hai bờ eo biển. Dưới chân họ là ụ sửa chữa, kho nhiên liệu và cầu tàu nơi mỗi chuyến hàng mang thêm thời gian sống cho một thành phố xa xôi. Gibraltar cho sức mạnh hải quân một nơi trở về sau khi tiếng pháo dứt. Một chiến hạm có thể thắng ngoài biển rồi nằm bất động vì thiếu phụ tùng; tại đây, người thợ trả lại chuyển động cho nó.",
+    "lore_en": "From batteries cut into the rock, sentries watch convoys thread the strait. Below them stand repair docks, fuel depots and wharves where every shipment buys more life for a distant city. Gibraltar gives naval power somewhere to return after the guns fall silent. A battleship may win at sea and then lie helpless for want of a component; here, workers give it motion again.",
+    "benefit_vi": "Che chở vận tải và giữ hạm đội gần nơi sửa chữa.",
+    "benefit_en": "Protects convoys and keeps repair facilities close to the fleet.",
+    "cost_vi": "Phong tỏa eo biển có thể dồn nhiều tuyến tiếp tế vào cùng cuộc khủng hoảng.",
+    "cost_en": "A blockade can turn several supply routes into a single crisis.",
+    "historical_anchor_vi": "Arc I, chương 2 và9; Arc III, chương 95: cửa ngõ chiến lược và ụ tàu.",
+    "historical_anchor_en": "Volume I, chapters 2 and9; Volume III, chapter 95: strategic gateway and dockyards.",
+    "traits": [
+      {
+        "label_vi": "Hỏa lực khóa eo",
+        "label_en": "Guns over the strait",
+        "description_vi": "Công sự khống chế các lối vào cảng.",
+        "description_en": "Fortifications command the harbour approaches."
+      },
+      {
+        "label_vi": "Ụ tàu tiền phương",
+        "label_en": "Forward repair docks",
+        "description_vi": "Máy và pháo được bảo dưỡng gần chiến trường.",
+        "description_en": "Engines and guns receive service near the theatre."
+      }
+    ]
+  },
+  {
+    "id": "castilian-toledo",
+    "faction_id": "castilian_empire",
+    "category": "industry",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Forges of Toledo, Toledo · central Iberia. A legacy reforged. Snow on Toledo’s workshop roofs often melts before the morning bells finish. Families that once signed sword blades now receive schedules for naval steel and armaments, learning to entrust their craft beyond their own kin. The court demands output; master smiths demand enough time for the metal to withstand its intended duty. Between those claims, tradition finds a new form in machines larger than a city street.",
+    "name_vi": "Những lò rèn Toledo",
+    "name_en": "The Forges of Toledo",
+    "location_vi": "Toledo · trung Iberia",
+    "location_en": "Toledo · central Iberia",
+    "epithet_vi": "Di sản được nung lại",
+    "epithet_en": "A legacy reforged",
+    "lore_vi": "Tuyết trên mái xưởng Toledo thường tan trước khi chuông sáng ngân hết. Những dòng họ từng ghi danh trên lưỡi kiếm giờ nhận bảng kích thước cho thép tàu và quân giới, học cách trao bí quyết cho người ngoài gia đình. Triều đình cần sản lượng, còn thợ cả đòi thời gian đủ để thép chịu được việc nó sắp phải làm. Giữa hai đòi hỏi ấy, truyền thống tìm hình dạng mới trong những cỗ máy lớn hơn cả khu phố.",
+    "lore_en": "Snow on Toledo’s workshop roofs often melts before the morning bells finish. Families that once signed sword blades now receive schedules for naval steel and armaments, learning to entrust their craft beyond their own kin. The court demands output; master smiths demand enough time for the metal to withstand its intended duty. Between those claims, tradition finds a new form in machines larger than a city street.",
+    "benefit_vi": "Cung cấp thép và quân giới chất lượng cho sản xuất chung.",
+    "benefit_en": "Supplies dependable steel and armaments to the wider production network.",
+    "cost_vi": "Mất thợ cả hoặc đình công tạo nút thắt khó bù bằng lao động phổ thông.",
+    "cost_en": "Lost masters or strikes create bottlenecks ordinary labour cannot readily resolve.",
+    "historical_anchor_vi": "Arc I, chương 9 xác nhận thép Toledo; quần thể xưởng và quan hệ phường nghề là mở rộng.",
+    "historical_anchor_en": "Volume I, chapter 9 establishes Toledo steel; the forge complex and guild relations are extensions.",
+    "traits": [
+      {
+        "label_vi": "Tay nghề truyền đời",
+        "label_en": "Inherited mastery",
+        "description_vi": "Kinh nghiệm luyện kim cần nhiều năm truyền dạy.",
+        "description_en": "Metallurgical experience requires years of teaching."
+      },
+      {
+        "label_vi": "Phường nghề có tiếng nói",
+        "label_en": "Guild bargaining power",
+        "description_vi": "Người giữ kỹ thuật có quyền mặc cả với triều đình.",
+        "description_en": "Those who hold the craft can bargain with the court."
+      }
+    ]
+  },
+  {
+    "id": "castilian-santiago",
+    "faction_id": "castilian_empire",
+    "category": "sacred",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit",
+      "https://docs.google.com/document/d/1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Santiago Cathedral and the Berenguela Tower, Santiago de Compostela · Galicia. One bell, many allegiances. The spiral stairs of the Berenguela carry the square’s cold into the bell chamber. Beneath that roof, prayer travels with news, western demands and fear of a distant court. Hungry people seek food; powerful people seek a listening crowd. Santiago preserves the shared memory of those who recognise one another in the same peal. Whenever it sounds, Madrid must ask who is being summoned, and to what allegiance.",
+    "name_vi": "Nhà thờ Santiago và tháp Berenguela",
+    "name_en": "Santiago Cathedral and the Berenguela Tower",
+    "location_vi": "Santiago de Compostela · Galicia",
+    "location_en": "Santiago de Compostela · Galicia",
+    "epithet_vi": "Một tiếng chuông, nhiều lời thề",
+    "epithet_en": "One bell, many allegiances",
+    "lore_vi": "Những bậc thang xoắn của Berenguela mang hơi lạnh từ quảng trường lên tận phòng chuông. Dưới mái đá ấy, lời cầu nguyện đi cùng tin tức, yêu sách miền Tây và nỗi sợ về triều đình xa xôi. Người đói tìm bữa ăn, người có quyền tìm nơi đám đông chịu lắng nghe. Santiago giữ ký ức chung của những người nhận ra nhau qua cùng một hồi chuông. Mỗi lần tiếng chuông vang, Madrid phải tự hỏi ai đang được gọi tới và họ sẽ thề với điều gì.",
+    "lore_en": "The spiral stairs of the Berenguela carry the square’s cold into the bell chamber. Beneath that roof, prayer travels with news, western demands and fear of a distant court. Hungry people seek food; powerful people seek a listening crowd. Santiago preserves the shared memory of those who recognise one another in the same peal. Whenever it sounds, Madrid must ask who is being summoned, and to what allegiance.",
+    "benefit_vi": "Tạo đầu mối cứu tế và hòa giải với cộng đồng Galicia.",
+    "benefit_en": "Provides a centre for relief and reconciliation with Galician communities.",
+    "cost_vi": "Phe chống triều đình có thể huy động dân chúng qua cùng uy tín ấy.",
+    "cost_en": "Opponents of the crown can mobilise people through the same authority.",
+    "historical_anchor_vi": "Arc I, chương 25: quảng trường Obradoiro và Berenguela; Arc II, chương 57: tiếng chuông Santiago.",
+    "historical_anchor_en": "Volume I, chapter 25: Obradoiro and Berenguela; Volume II, chapter 57: Santiago’s bells.",
+    "traits": [
+      {
+        "label_vi": "Ký ức hành hương",
+        "label_en": "Pilgrims’ memory",
+        "description_vi": "Uy tín gắn với nhiều thế hệ đi đường.",
+        "description_en": "Authority rests upon generations of travellers."
+      },
+      {
+        "label_vi": "Tiếng nói miền Tây",
+        "label_en": "Voice of the west",
+        "description_vi": "Đức tin và lợi ích địa phương gặp nhau.",
+        "description_en": "Faith and regional interests meet here."
+      }
+    ]
+  },
+  {
+    "id": "castilian-escorial",
+    "faction_id": "castilian_empire",
+    "category": "knowledge",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.patrimonionacional.es/en/visita/royal-site-san-lorenzo-de-el-escorial"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "El Escorial — The Dynastic Repository, San Lorenzo · near Madrid. Kings still leave their orders. El Escorial’s walls preserve books and claims upon the past. In this TFAM adaptation, inventories of relics acquire notes on anomalous objects; each successor inherits keys and responsibility for chambers sealed by earlier courts. Isabella brings scholarship into administration, requiring jurists and investigators to consult the same pages. A single genealogy may preserve a throne or furnish a rival with grounds to claim it.",
+    "name_vi": "El Escorial — Kho Di sản Vương triều",
+    "name_en": "El Escorial — The Dynastic Repository",
+    "location_vi": "San Lorenzo · gần Madrid",
+    "location_en": "San Lorenzo · near Madrid",
+    "epithet_vi": "Những vị vua còn để lại mệnh lệnh",
+    "epithet_en": "Kings still leave their orders",
+    "lore_vi": "Những bức tường El Escorial cất giữ sách và quyền sở hữu quá khứ. Các bản kiểm kê thánh tích dần có thêm ghi chú về vật thể dị thường; người kế nhiệm nhận chìa khóa cùng trách nhiệm với phòng tiền triều niêm phong. Isabella đưa khảo cứu vào hệ thống hành chính, khiến luật gia và học giả phải cùng đọc một trang giấy. Một dòng gia phả có thể giữ ngai vàng hoặc trao đối thủ lý do đòi nó.",
+    "lore_en": "El Escorial’s walls preserve books and claims upon the past. Inventories of relics acquire notes on anomalous objects; each successor inherits keys and responsibility for chambers sealed by earlier courts. Isabella brings scholarship into administration, requiring jurists and investigators to consult the same pages. A single genealogy may preserve a throne or furnish a rival with grounds to claim it.",
+    "benefit_vi": "Hỗ trợ khảo cứu vật thể cổ và hồ sơ kế vị.",
+    "benefit_en": "Supports investigation of ancient objects and succession records.",
+    "cost_vi": "Rò rỉ hồ sơ gây tranh quyền; các phòng niêm phong cần người canh giữ.",
+    "cost_en": "Leaked records provoke power struggles; sealed repositories require custodians.",
+    "historical_anchor_vi": "El Escorial và thư viện lịch sử là nền thật; kho nghiên cứu dị vật là sáng tạo.",
+    "historical_anchor_en": "Historic El Escorial and its library are the foundation; the anomalous repository is fictional.",
+    "traits": [
+      {
+        "label_vi": "Ký ức vương triều",
+        "label_en": "Dynastic memory",
+        "description_vi": "Hồ sơ cho phép đối chiếu nhiều thế hệ.",
+        "description_en": "Records allow comparison across generations."
+      },
+      {
+        "label_vi": "Chìa khóa có chủ",
+        "label_en": "Restricted keys",
+        "description_vi": "Quyền tiếp cận đi cùng trách nhiệm chính trị.",
+        "description_en": "Access entails political responsibility."
+      }
+    ]
+  },
+  {
+    "id": "castilian-alhambra",
+    "faction_id": "castilian_empire",
+    "category": "landscape",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.alhambra-patronato.es/en/visit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Alhambra — Gardens beneath Glass, Granada · Andalusia. Spring sustained by the treasury. Beyond the Alhambra’s carved arches, snow settles on glass instead of burying the beds. In this proposal, gardeners guide water through old channels and ration heat among seed stocks and medicinal plants. The court depends upon families preserving Andalusian expertise to sustain a spring amid the ice. Outside, households short of firewood can see the garden lights; each green shoot carries the question of who is entitled to warmth.",
+    "name_vi": "Alhambra — Những khu vườn dưới kính",
+    "name_en": "Alhambra — Gardens beneath Glass",
+    "location_vi": "Granada · Andalusia",
+    "location_en": "Granada · Andalusia",
+    "epithet_vi": "Mùa xuân được nuôi bằng ngân khố",
+    "epithet_en": "Spring sustained by the treasury",
+    "lore_vi": "Sau vòm chạm khắc Alhambra, tuyết đọng trên mái kính thay vì chôn luống cây. Người giữ vườn dẫn nước qua rãnh cũ, cân nguồn nhiệt cho từng gian trồng giống và dược liệu. Triều đình phải dựa vào những gia đình còn giữ kỹ thuật Andalusia để nuôi một mùa xuân giữa băng giá. Ngoài cổng, các nhà thiếu củi cũng nhìn thấy ánh đèn trong vườn; mỗi chồi xanh vì vậy luôn mang theo câu hỏi về quyền được sống ấm.",
+    "lore_en": "Beyond the Alhambra’s carved arches, snow settles on glass instead of burying the beds. Gardeners guide water through old channels and ration heat among seed stocks and medicinal plants. The court depends upon families preserving Andalusian expertise to sustain a spring amid the ice. Outside, households short of firewood can see the garden lights; each green shoot carries the question of who is entitled to warmth.",
+    "benefit_vi": "Bảo tồn giống, dược liệu và tay nghề làm vườn.",
+    "benefit_en": "Preserves seed stocks, medicinal plants and horticultural skills.",
+    "cost_vi": "Chi phí sưởi gây phẫn nộ khi các khu dân cư khác thiếu nhiên liệu.",
+    "cost_en": "Heating costs provoke resentment while other neighbourhoods lack fuel.",
+    "historical_anchor_vi": "Alhambra và Generalife là nền lịch sử; khu bảo tồn dưới kính là sáng tạo.",
+    "historical_anchor_en": "The Alhambra and Generalife are historic; the glass conservation gardens are fictional.",
+    "traits": [
+      {
+        "label_vi": "Giống cây qua mùa đông",
+        "label_en": "Seeds through winter",
+        "description_vi": "Cây có ích sống trong môi trường được bảo vệ.",
+        "description_en": "Useful plants survive under controlled conditions."
+      },
+      {
+        "label_vi": "Di sản Andalusia",
+        "label_en": "Andalusian inheritance",
+        "description_vi": "Kỹ thuật nước và vườn quyết định sự sống của cây.",
+        "description_en": "Water and garden expertise determine survival."
+      }
+    ]
+  },
+  {
+    "id": "moor-warm-market",
+    "faction_id": "sultanate_of_morocco",
+    "category": "harbour",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Warm-Lamp Market, Marrakesh. While the market lamps burn. Beneath beams hung with Vestigium lamps, traders keep their hands warm enough to count coins and divide the last salt. The authorities pay for light most families cannot purchase. Moorish residents, Castilians and displaced English families bargain together and exchange news of open roads. A surviving market tells the city goods are still arriving and someone is still waiting.",
+    "name_vi": "Chợ Đèn Ấm Marrakesh",
+    "name_en": "The Warm-Lamp Market",
+    "location_vi": "Marrakesh",
+    "location_en": "Marrakesh",
+    "epithet_vi": "Nếu chợ còn đỏ lửa",
+    "epithet_en": "While the market lamps burn",
+    "lore_vi": "Dưới đà gỗ treo đèn Vestigium, người bán giữ đôi tay đủ ấm để đếm tiền và chia phần muối cuối ngày. Chính quyền trả tiền cho ánh sáng phần lớn gia đình chẳng thể tự mua. Người Moor, dân Castilian và những người Anh lưu lạc mặc cả cạnh nhau, trao tin về những con đường còn mở. Một phiên chợ sống sót giúp thành phố tin hàng hóa vẫn tới và ai đó vẫn đang chờ mình.",
+    "lore_en": "Beneath beams hung with Vestigium lamps, traders keep their hands warm enough to count coins and divide the last salt. The authorities pay for light most families cannot purchase. Moorish residents, Castilians and displaced English families bargain together and exchange news of open roads. A surviving market tells the city goods are still arriving and someone is still waiting.",
+    "benefit_vi": "Giữ trao đổi hàng thiết yếu và tin tức địa phương.",
+    "benefit_en": "Keeps essential trade and local information moving.",
+    "cost_vi": "Chi phí đèn đè lên ngân khố; mất nguồn sưởi làm chợ đình trệ.",
+    "cost_en": "Lamps burden the treasury; lost heating can halt the market.",
+    "historical_anchor_vi": "Arc I, chương 1: đèn chợ do chính quyền chi trả; tên riêng là đề xuất.",
+    "historical_anchor_en": "Volume I, chapter 1: publicly funded market lamps; the proper name is proposed.",
+    "traits": [
+      {
+        "label_vi": "Đèn do thành phố nuôi",
+        "label_en": "City-funded lamps",
+        "description_vi": "Hơi ấm được duy trì bằng công quỹ thay vì khả năng chi trả của từng hộ.",
+        "description_en": "Warmth is maintained through public funds rather than each household’s means."
+      },
+      {
+        "label_vi": "Ngã tư tiếng nói",
+        "label_en": "A crossing of voices",
+        "description_vi": "Người buôn nhiều nguồn gốc mang tin về các tuyến đường.",
+        "description_en": "Traders of many origins carry news from the roads."
+      }
+    ]
+  },
+  {
+    "id": "moor-ziyad-granaries",
+    "faction_id": "sultanate_of_morocco",
+    "category": "seat",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Ziyad Granaries and the Two Squares, Marrakesh. One queue, one common hearth. While great families debated removing their wealth, Ziyad opened his household stores first. Two squares became communal kitchens, where rank ended at the back of the queue. Those sacks gave his authority weight in poor households and compelled other wealthy houses to account for their reserves. Each distribution kept Marrakesh standing and placed another promise upon the man who had opened the doors.",
+    "name_vi": "Kho lương Ziyad và Hai Quảng trường",
+    "name_en": "The Ziyad Granaries and the Two Squares",
+    "location_vi": "Marrakesh",
+    "location_en": "Marrakesh",
+    "epithet_vi": "Một hàng người, một nồi lửa",
+    "epithet_en": "One queue, one common hearth",
+    "lore_vi": "Khi các gia tộc còn cân nhắc mang tài sản rời thành phố, Ziyad mở kho dòng họ trước. Hai quảng trường thành bếp ăn chung, nơi phẩm tước dừng lại ở cuối hàng người chờ. Những bao ngũ cốc khiến quyền lực của ông có trọng lượng trong căn bếp người nghèo, rồi buộc các nhà giàu khác trả lời về kho dự trữ. Mỗi lần phân phối giữ Marrakesh đứng vững và đặt thêm một lời hứa lên vai người đã mở cửa.",
+    "lore_en": "While great families debated removing their wealth, Ziyad opened his household stores first. Two squares became communal kitchens, where rank ended at the back of the queue. Those sacks gave his authority weight in poor households and compelled other wealthy houses to account for their reserves. Each distribution kept Marrakesh standing and placed another promise upon the man who had opened the doors.",
+    "benefit_vi": "Cứu tế và củng cố niềm tin giữa các cộng đồng.",
+    "benefit_en": "Supports relief and trust between communities.",
+    "cost_vi": "Dự trữ giảm nhanh; thất hứa khẩu phần làm uy tín Ziyad suy yếu.",
+    "cost_en": "Reserves decline quickly; failed ration promises weaken Ziyad’s standing.",
+    "historical_anchor_vi": "Arc I, chương 7: kho Ziyad, giá trần và bếp ăn hai quảng trường.",
+    "historical_anchor_en": "Volume I, chapter 7: Ziyad’s stores, price ceiling and kitchens in two squares.",
+    "traits": [
+      {
+        "label_vi": "Kho mở trước triều lệnh",
+        "label_en": "The first granary opened",
+        "description_vi": "Gia tộc cầm quyền đặt dự trữ của mình vào cuộc cứu tế trước tiên.",
+        "description_en": "The ruling household commits its own reserves to relief first."
+      },
+      {
+        "label_vi": "Khẩu phần chung",
+        "label_en": "Common rations",
+        "description_vi": "Các cộng đồng đứng trong cùng một hàng nhận lương.",
+        "description_en": "Communities stand in a common ration queue."
+      }
+    ]
+  },
+  {
+    "id": "moor-taza-pass",
+    "faction_id": "sultanate_of_morocco",
+    "category": "fortress",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit",
+      "https://docs.google.com/document/d/1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Taza Corridor, Taza · giữa Rif và Atlas. A narrow road that turns fortunes. Convoys reaching Taza carry ammunition and the days the rear can still afford to wait. Mountain roads funnel people, supplies and news through passages known locally by rock clefts, wells and sheltered houses. A severed stretch forces cities behind it to recalculate rations. Guides and observation posts become as valuable as a fighting formation; control of the road is earned by the work beneath the mountains.",
+    "name_vi": "Hành lang Taza",
+    "name_en": "The Taza Corridor",
+    "location_vi": "Taza · giữa Rif và Atlas",
+    "location_en": "Taza · between the Rif and Atlas",
+    "epithet_vi": "Con đường đủ hẹp để đổi số phận",
+    "epithet_en": "A narrow road that turns fortunes",
+    "lore_vi": "Các đoàn xe tới Taza mang đạn pháo cùng số ngày hậu phương còn chờ được. Đường núi gom người, vật tư và tin tức vào những lối dân địa phương biết bằng tên khe đá, giếng nước và nhà trú gió. Một đoạn bị cắt khiến thành phố phía sau phải tính lại khẩu phần. Người dẫn đường và trạm quan sát vì thế có giá trị ngang đơn vị chiến đấu; quyền giữ con đường được trả bằng công việc dưới chân núi.",
+    "lore_en": "Convoys reaching Taza carry ammunition and the days the rear can still afford to wait. Mountain roads funnel people, supplies and news through passages known locally by rock clefts, wells and sheltered houses. A severed stretch forces cities behind it to recalculate rations. Guides and observation posts become as valuable as a fighting formation; control of the road is earned by the work beneath the mountains.",
+    "benefit_vi": "Kiểm soát vận tải và liên lạc giữa mặt trận với hậu phương.",
+    "benefit_en": "Controls transport and communications between front and rear.",
+    "cost_vi": "Đường hẹp dễ bị chặn, kéo theo cả đoàn xe mất tiếp tế.",
+    "cost_en": "Narrow roads are easily blocked, leaving entire columns without supplies.",
+    "historical_anchor_vi": "Arc I, chương 2–3; Arc III, chương 85 và88: Taza và đường vòng địa phương.",
+    "historical_anchor_en": "Volume I, chapters 2–3; Volume III, chapters 85 and88: Taza and local bypasses.",
+    "traits": [
+      {
+        "label_vi": "Địa hình thu dòng",
+        "label_en": "Terrain that funnels movement",
+        "description_vi": "Những tuyến lớn phải đi qua hành lang hẹp giữa núi.",
+        "description_en": "Major routes pass through the narrow mountain corridor."
+      },
+      {
+        "label_vi": "Người giữ lối",
+        "label_en": "Keepers of the paths",
+        "description_vi": "Tri thức đường vòng nằm trong tay người địa phương.",
+        "description_en": "Knowledge of bypasses rests with local people."
+      }
+    ]
+  },
+  {
+    "id": "moor-atlas-passes",
+    "faction_id": "sultanate_of_morocco",
+    "category": "landscape",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Gates of the Atlas, Dãy Atlas · Maroc. The snow remembers every footstep. Snow buries the channels that once fed fields below the Atlas. Above, passes still connect communities trading food for salt, medicine and news. In this proposal, guides maintain shelters, stone markers and promises renewed each season. A court seeking those routes must retain mountain communities’ trust. Distance and cold protect the rear while exacting their price from Moorish convoys.",
+    "name_vi": "Những cửa núi Atlas",
+    "name_en": "The Gates of the Atlas",
+    "location_vi": "Dãy Atlas · Maroc",
+    "location_en": "Atlas Mountains · Morocco",
+    "epithet_vi": "Tuyết nhớ từng dấu chân",
+    "epithet_en": "The snow remembers every footstep",
+    "lore_vi": "Tuyết chôn những con kênh từng nuôi cánh đồng dưới chân Atlas. Trên cao, các cửa núi vẫn nối cộng đồng phải đổi lương thực lấy muối, thuốc và tin tức. Các nhóm dẫn đường giữ mạng lưới nhà trú, dấu đá và lời hẹn tới mùa sau. Triều đình muốn dùng tuyến ấy phải giữ lòng tin người sống trên núi. Khoảng cách và cái rét bảo vệ hậu phương, đồng thời thu phần giá của chúng từ những đoàn xe Moor.",
+    "lore_en": "Snow buries the channels that once fed fields below the Atlas. Above, passes still connect communities trading food for salt, medicine and news. Guides maintain shelters, stone markers and promises renewed each season. A court seeking those routes must retain mountain communities’ trust. Distance and cold protect the rear while exacting their price from Moorish convoys.",
+    "benefit_vi": "Duy trì tuyến nhỏ tránh các đường lớn bị kiểm soát.",
+    "benefit_en": "Maintains minor routes bypassing controlled main roads.",
+    "cost_vi": "Bão tuyết và thiếu người dẫn đường hạn chế quy mô vận tải.",
+    "cost_en": "Blizzards and scarce guides limit transport capacity.",
+    "historical_anchor_vi": "Arc I, chương 1 và5 xác nhận Atlas băng giá; mạng lưới nhà trú là mở rộng.",
+    "historical_anchor_en": "Volume I, chapters 1 and5 establish the frozen Atlas; the shelter network is an extension.",
+    "traits": [
+      {
+        "label_vi": "Nhà trú nối đường",
+        "label_en": "Shelters along the route",
+        "description_vi": "Mạng lưới nơi trú giúp hành trình vượt núi tiếp tục.",
+        "description_en": "A shelter network sustains journeys across the mountains."
+      },
+      {
+        "label_vi": "Gió xóa đường",
+        "label_en": "Wind that erases the road",
+        "description_vi": "Người vận tải cần liên tục đọc lại dấu địa hình.",
+        "description_en": "Travellers must continually interpret the terrain anew."
+      }
+    ]
+  },
+  {
+    "id": "moor-fes-workshops",
+    "faction_id": "sultanate_of_morocco",
+    "category": "industry",
+    "basis": "canon-inspired",
+    "source_refs": [
+      "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw/edit",
+      "https://whc.unesco.org/en/statesparties/MA/"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Guild Quarters of Fes, Fes · bắc Maroc. Hands that keep a city alive. In the alleys of Fes, lockmakers and leatherworkers keep working as war approaches. The city needs sound shoes, dry bags and secure doors before symbols of victory. In this adaptation, neighbourhood elders distribute military orders among households retaining tools and salvage damaged goods. Every requisition takes hours from civilian work; the rear’s endurance lies within what those households can still bear.",
+    "name_vi": "Những phường nghề Fes",
+    "name_en": "The Guild Quarters of Fes",
+    "location_vi": "Fes · bắc Maroc",
+    "location_en": "Fes · northern Morocco",
+    "epithet_vi": "Bàn tay giữ thành phố sống",
+    "epithet_en": "Hands that keep a city alive",
+    "lore_vi": "Trong ngõ nhỏ Fes, búa sửa khóa và dao cắt da tiếp tục làm việc khi chiến tranh tới gần. Thành phố cần giày đi được, túi giữ khô và cửa chắc trước khi nghĩ tới biểu tượng chiến thắng. Các trưởng phố chia đơn quân nhu giữa những nhà còn dụng cụ, gom vật liệu từ hàng hỏng. Mỗi lần trưng dụng thêm lấy đi giờ làm cho dân thường; sức bền hậu phương nằm trong giới hạn họ còn chịu đựng được.",
+    "lore_en": "In the alleys of Fes, lockmakers and leatherworkers keep working as war approaches. The city needs sound shoes, dry bags and secure doors before symbols of victory. Neighbourhood elders distribute military orders among households retaining tools and salvage damaged goods. Every requisition takes hours from civilian work; the rear’s endurance lies within what those households can still bear.",
+    "benefit_vi": "Sửa quân nhu bằng mạng lưới thợ gần mặt trận.",
+    "benefit_en": "Repairs equipment through craft networks near the front.",
+    "cost_vi": "Trưng dụng quá mức gây thiếu hàng dân dụng và bất mãn.",
+    "cost_en": "Excessive requisitions cause civilian shortages and resentment.",
+    "historical_anchor_vi": "Fes là chiến trường Arc I–III; vai trò quân nhu của phường nghề là sáng tạo.",
+    "historical_anchor_en": "Fes is contested in Volumes I–III; the guild supply role is fictional.",
+    "traits": [
+      {
+        "label_vi": "Xưởng phân tán",
+        "label_en": "Distributed workshops",
+        "description_vi": "Nhiều hộ có thể chia nhau một đơn hàng.",
+        "description_en": "Many households can share a single order."
+      },
+      {
+        "label_vi": "Vật liệu cứu lại",
+        "label_en": "Materials reclaimed",
+        "description_vi": "Đồ hỏng trở lại vòng sửa chữa thay vì bị bỏ đi.",
+        "description_en": "Damaged goods return to the repair cycle rather than being discarded."
+      }
+    ]
+  },
+  {
+    "id": "moor-qarawiyyin",
+    "faction_id": "sultanate_of_morocco",
+    "category": "knowledge",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/statesparties/MA/"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Al-Qarawiyyin — Pages through Winter, Fes · khu học thuật. Knowledge needs a bearer. At Al-Qarawiyyin, scholars debate water shares when channels freeze and storehouse owners’ duties towards the hungry. This TFAM proposal makes copying medical, legal and mathematical works part of urban survival. Copies travel with merchants so a fire cannot erase a discipline. The shelves become another reserve, held for the day survivors must rebuild their city.",
+    "name_vi": "Al-Qarawiyyin — Những trang sách vượt mùa đông",
+    "name_en": "Al-Qarawiyyin — Pages through Winter",
+    "location_vi": "Fes · khu học thuật",
+    "location_en": "Fes · scholarly quarter",
+    "epithet_vi": "Tri thức phải có người mang đi",
+    "epithet_en": "Knowledge needs a bearer",
+    "lore_vi": "Trong phòng học Al-Qarawiyyin, học giả bàn về phần nước phải chia khi kênh đóng băng và nghĩa vụ người có kho trước người đói. Triều đình đưa việc sao sách y học, luật và tính toán vào công cuộc cứu nguy đô thị. Bản sao đi theo thương nhân để một đám cháy chẳng xóa cả môn học. Những kệ sách trở thành hình thức dự trữ khác, dành cho ngày người sống sót cần biết cách dựng lại thành phố.",
+    "lore_en": "At Al-Qarawiyyin, scholars debate water shares when channels freeze and storehouse owners’ duties towards the hungry. The court makes copying medical, legal and mathematical works part of urban survival. Copies travel with merchants so a fire cannot erase a discipline. The shelves become another reserve, held for the day survivors must rebuild their city.",
+    "benefit_vi": "Giữ tri thức y học, luật và quản lý nước.",
+    "benefit_en": "Preserves medicine, law and water-management knowledge.",
+    "cost_vi": "Học giả có thể phản đối sắc lệnh; việc học cần giấy và lương.",
+    "cost_en": "Scholars may oppose decrees; teaching requires paper and food.",
+    "historical_anchor_vi": "Lấy nền di sản học thuật Fes; nhiệm vụ cứu nguy là mở rộng.",
+    "historical_anchor_en": "Grounded in Fes’s scholarly heritage; the relief mission is fictional.",
+    "traits": [
+      {
+        "label_vi": "Bản sao lên đường",
+        "label_en": "Copies on the road",
+        "description_vi": "Sách được phân tán để một tai họa không xóa sạch tri thức.",
+        "description_en": "Books are distributed so one disaster cannot erase the knowledge."
+      },
+      {
+        "label_vi": "Thẩm quyền học giả",
+        "label_en": "Scholarly authority",
+        "description_vi": "Phán xét công khai có thể buộc chính quyền phải giải trình.",
+        "description_en": "Public judgements can compel authorities to account for their decisions."
+      }
+    ]
+  },
+  {
+    "id": "moor-koutoubia",
+    "faction_id": "sultanate_of_morocco",
+    "category": "sacred",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/331"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "The Koutoubia Minaret, Marrakesh · trung tâm. A bearing in the white. When snow makes the streets indistinguishable, the Koutoubia still rises above the low roofs. Newcomers follow its silhouette; residents recognise another day in the call through the cold. This proposal has surrounding communities fund shelter and notices for missing people. Reunions and shared meals create an authority the court must respect, held by people who know the families beneath the tower.",
+    "name_vi": "Tháp Koutoubia",
+    "name_en": "The Koutoubia Minaret",
+    "location_vi": "Marrakesh · trung tâm",
+    "location_en": "Marrakesh · city centre",
+    "epithet_vi": "Một phương hướng giữa màn trắng",
+    "epithet_en": "A bearing in the white",
+    "lore_vi": "Khi tuyết làm các phố giống nhau, tháp Koutoubia vẫn hiện trên mái nhà thấp. Khách lạ tìm đường qua dáng tháp, người ở lại nhận ngày mới bằng tiếng gọi giữa rét buốt. Các cộng đồng quanh tháp góp tiền duy trì nơi trú và bảng tin người thất lạc. Uy tín đến từ những cuộc đoàn tụ và bữa ăn được trao, khiến triều đình phải tôn trọng những người biết tên từng gia đình dưới chân tháp.",
+    "lore_en": "When snow makes the streets indistinguishable, the Koutoubia still rises above the low roofs. Newcomers follow its silhouette; residents recognise another day in the call through the cold. Surrounding communities fund shelter and notices for missing people. Reunions and shared meals create an authority the court must respect, held by people who know the families beneath the tower.",
+    "benefit_vi": "Tiếp nhận người tản cư và nối lại cộng đồng thất lạc.",
+    "benefit_en": "Receives displaced people and reunites scattered communities.",
+    "cost_vi": "Tranh quyền trong sân thánh có thể làm mất lòng tin vào nơi trú.",
+    "cost_en": "Power struggles in the sacred precinct can undermine trust in the refuge.",
+    "historical_anchor_vi": "Koutoubia là di tích lịch sử; hệ thống cứu tế là sáng tạo TFAM.",
+    "historical_anchor_en": "The Koutoubia is historic; its relief network is TFAM fiction.",
+    "traits": [
+      {
+        "label_vi": "Mốc tìm đường",
+        "label_en": "A landmark for the lost",
+        "description_vi": "Dáng tháp giữ phương hướng khi đường phố chìm trong tuyết.",
+        "description_en": "The tower provides a bearing when snow obscures the streets."
+      },
+      {
+        "label_vi": "Tên người còn nhớ",
+        "label_en": "Names still remembered",
+        "description_vi": "Bảng tin và các hộ quanh tháp giúp nối lại gia đình.",
+        "description_en": "Notices and neighbouring households help reunite families."
+      }
+    ]
+  },
+  {
+    "id": "moor-meknes-stores",
+    "faction_id": "sultanate_of_morocco",
+    "category": "fortress",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/statesparties/ma/documents"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Meknes — Granaries beyond the Great Gates, Meknes · nội địa phía bắc. An empire beneath a granary roof. Meknes’s great gates speak of sovereignty; custodians worry about grain staying dry beyond them. In this proposal, parts of the royal complex become shared stores and stables under agreements with local communities. Sufficient food and draft animals keep another route open. Storekeepers therefore hold tangible power; gates protecting reserves can also conceal their disappearance.",
+    "name_vi": "Meknes — Những kho thóc sau cổng lớn",
+    "name_en": "Meknes — Granaries beyond the Great Gates",
+    "location_vi": "Meknes · nội địa phía bắc",
+    "location_en": "Meknes · northern interior",
+    "epithet_vi": "Đế nghiệp nằm dưới mái kho",
+    "epithet_en": "An empire beneath a granary roof",
+    "lore_vi": "Cổng lớn Meknes nhắc khách tới uy quyền, còn người quản thành lo độ khô của thóc sau cửa. Một phần công trình vương gia được dùng làm kho chung và chuồng ngựa theo thỏa thuận với địa phương. Đủ lương và súc vật kéo xe đồng nghĩa một tuyến đường còn hoạt động. Người giữ sổ kho vì vậy nắm quyền rất thực; những cánh cổng bảo vệ dự trữ cũng có thể che khuất sự thiếu hụt.",
+    "lore_en": "Meknes’s great gates speak of sovereignty; custodians worry about grain staying dry beyond them. Parts of the royal complex become shared stores and stables under agreements with local communities. Sufficient food and draft animals keep another route open. Storekeepers therefore hold tangible power; gates protecting reserves can also conceal their disappearance.",
+    "benefit_vi": "Phân tán lương dự trữ và hỗ trợ đoàn xe nội địa.",
+    "benefit_en": "Distributes reserves and supports inland transport.",
+    "cost_vi": "Tham ô hoặc cháy kho có thể lấy mất khẩu phần cả vùng.",
+    "cost_en": "Theft or fire can deprive an entire region of rations.",
+    "historical_anchor_vi": "Meknes là nền lịch sử; tái phân bổ kho dưới trật tự Ziyad là sáng tạo.",
+    "historical_anchor_en": "Meknes is historic; reallocated stores under the Ziyad order are fictional.",
+    "traits": [
+      {
+        "label_vi": "Dự trữ chiều sâu",
+        "label_en": "Reserves in depth",
+        "description_vi": "Lương và súc vật được giữ xa những tuyến bến cảng.",
+        "description_en": "Grain and draft animals are held away from the ports."
+      },
+      {
+        "label_vi": "Quyền lực sổ kho",
+        "label_en": "Power in the accounts",
+        "description_vi": "Người coi kho quyết định việc xuất lương theo nhu cầu.",
+        "description_en": "Custodians authorise releases against recorded needs."
+      }
+    ]
+  },
+  {
+    "id": "moor-ait-ben-haddou",
+    "faction_id": "sultanate_of_morocco",
+    "category": "fortress",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/statesparties/ma/documents"
+    ],
+    "status_vi": "Đang hoạt động",
+    "status_en": "Operational",
+    "art_prompt": "Aït-Ben-Haddou — Earthen Hold on the Snow Road, Nam Atlas · đường đoàn buôn. Every door keeps a promise. Aït-Ben-Haddou’s earthen towers darken beneath thin snow, their courtyards keeping warmth against the valley wind. This adaptation turns a caravan refuge into a relay for salt, medicine and southern news. Convoys must accept their hosts’ rules, contribute to roof repairs and keep wells clean. Central authority arrives by agreement. After the travellers depart, the remaining hands mend the wall that will shelter the next arrivals.",
+    "name_vi": "Aït-Ben-Haddou — Thành đất bên đường tuyết",
+    "name_en": "Aït-Ben-Haddou — Earthen Hold on the Snow Road",
+    "location_vi": "Nam Atlas · đường đoàn buôn",
+    "location_en": "South of the Atlas · caravan route",
+    "epithet_vi": "Mỗi cánh cửa giữ một lời hẹn",
+    "epithet_en": "Every door keeps a promise",
+    "lore_vi": "Tháp đất Aït-Ben-Haddou đỏ sẫm dưới tuyết mỏng, sân trong giữ hơi ấm trước gió thung lũng. Các gia đình biến nơi trú đoàn buôn thành trạm chuyển muối, thuốc và tin từ phía nam. Đoàn xe muốn mở cổng phải giữ luật chủ nhà, góp sửa mái và giữ giếng sạch. Quyền lực trung ương tới đây bằng thỏa thuận. Sau khi đoàn buôn đi, những bàn tay còn lại tiếp tục vá bức tường sẽ che người khách kế tiếp.",
+    "lore_en": "Aït-Ben-Haddou’s earthen towers darken beneath thin snow, their courtyards keeping warmth against the valley wind. The local households turn a caravan refuge into a relay for salt, medicine and southern news. Convoys must accept their hosts’ rules, contribute to roof repairs and keep wells clean. Central authority arrives by agreement. After the travellers depart, the remaining hands mend the wall that will shelter the next arrivals.",
+    "benefit_vi": "Cung cấp điểm trú và trao đổi cho tuyến vượt Atlas.",
+    "benefit_en": "Offers shelter and exchange points for routes across the Atlas.",
+    "cost_vi": "Ẩm và băng tan phá công trình đất; cưỡng ép dễ khiến dân đóng tuyến.",
+    "cost_en": "Moisture and thaw damage earthen walls; coercion can make communities close the route.",
+    "historical_anchor_vi": "Ksar lịch sử là nền thật; trạm chuyển tải thời băng hà là mở rộng.",
+    "historical_anchor_en": "The historic ksar is the foundation; its ice-age relay role is fictional.",
+    "traits": [
+      {
+        "label_vi": "Hiệp ước chủ nhà",
+        "label_en": "The hosts’ compact",
+        "description_vi": "Khách đường xa đổi sự tuân thủ lấy nơi trú.",
+        "description_en": "Travellers exchange respect for local rules for shelter."
+      },
+      {
+        "label_vi": "Thành đất cần tay người",
+        "label_en": "Earthen walls need hands",
+        "description_vi": "Mái và tường được duy tu qua công việc chung.",
+        "description_en": "Roofs and walls survive through collective maintenance."
+      }
+    ]
+  }
+]

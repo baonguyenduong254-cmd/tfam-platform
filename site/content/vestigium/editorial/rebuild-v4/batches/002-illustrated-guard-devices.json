@@ -1,0 +1,526 @@
+[
+  {
+    "id": "device-035",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Kính khói có tay bạc",
+    "form_en": "Smoked lens with a silver handle",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Smoked lens with a silver handle. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Cinco. Thủy Kính Dẫn Lộ Vados",
+    "name_en": "Cinco. Waterway Lens Vados",
+    "lore_vi": "Kính khói xuất hiện trong tay người mang Cinco khi một đoàn xe đứng trước con sông tưởng đã đóng cứng. Qua tròng kính, mặt băng trở thành lớp cửa sổ đục; bên dưới là những đường nước vẫn đang kéo nền tuyết đi. Người giữ xoay tay cầm bạc, chọn một đường đáy còn liên tục rồi đánh dấu lên bờ.\n\nVados cho phép người cầm lần theo hình của dòng chảy, thấy đáy trong phạm vi mặt nước mình đang nhìn và chỉ một tuyến vượt cho người khác. Công binh dùng nó trước khi đặt cầu phao; đội tuần tra dùng nó tìm chỗ nước đã khoét rỗng dưới chân băng. Những gì hiện trong kính tiếp tục đổi cùng dòng sông, buộc người dẫn đoàn nhìn lại trước mỗi lượt qua.",
+    "lore_en": "The smoked lens appeared in Cinco’s hand when a wagon column faced a river believed frozen solid. Through it the ice became a clouded window; beneath ran currents still carrying the snow’s foundation away. The keeper turned the silver handle, chose an unbroken bed-line and marked the bank.\n\nVados lets its bearer follow the shape of a current, see the bed within the water under observation and designate a crossing for others. Engineers consult it before laying pontoons; patrols use it to find water hollowing the underside of ice. What the lens reveals keeps changing with the river, requiring another look before each crossing.",
+    "use_vi": "Đọc địa hình ngập nước, chỉ vùng băng bị khoét và chọn tuyến vượt hoặc vị trí cầu tạm.",
+    "use_en": "Reads submerged terrain, reveals undermined ice and selects crossings or temporary bridge sites.",
+    "limits_vi": "Chỉ hiện phần thuộc mặt nước đang được giữ trong tròng kính. Sóng làm đứt tuyến quan sát, và một đường đã đánh dấu có thể mất an toàn khi dòng đổi.",
+    "limits_en": "Reveals only the portion belonging to water held within the lens. Waves interrupt observation, and a marked route can become unsafe as the current changes.",
+    "skills": [
+      {
+        "name_vi": "Soi lòng nước",
+        "name_en": "See the Waterbed",
+        "description_vi": "Làm rõ đường đáy và khoảng rỗng dưới mặt nước hoặc băng trong vùng nhìn.",
+        "description_en": "Reveals the bed-line and voids beneath water or ice within view."
+      },
+      {
+        "name_vi": "Vạch tuyến vượt",
+        "name_en": "Mark a Crossing",
+        "description_vi": "Giữ một đường được chọn dưới dạng vệt bạc trên kính để người dẫn đối chiếu với thực địa.",
+        "description_en": "Retains a chosen route as a silver trace for comparison with the actual ground."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kính của dòng đang chảy",
+        "name_en": "Lens of the Present Current",
+        "description_vi": "Hình ảnh phản ứng với chuyển động nước, để lại dấu xoáy khi nền bên dưới bị đổi.",
+        "description_en": "Its image responds to moving water, leaving spiral marks where the bed changes."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 5, dẫn thủy và vượt sông",
+    "owner_en": "Bearer of Number 5, waterway guidance and river crossings",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 5,
+      "label": "Cinco",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-036",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Chuông đồng có khe giấy",
+    "form_en": "Bronze bell with a paper slot",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Bronze bell with a paper slot. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Seis. Hồi Danh Truy Chung Vocator",
+    "name_en": "Seis. Name-Returning Search Bell Vocator",
+    "lore_vi": "Người mang Seis gấp tên một đứa trẻ lạc vào khe giấy của chuông. Lần ngân đầu gọi lại đúng giọng người viết; lần sau có một tiếng đáp rất nhỏ đi từ nơi âm thường đã tắt. Vocator nhận mối liên hệ giữa người gọi và người được gọi qua nét chữ cùng ký ức còn sống của họ.\n\nTrong đoàn sơ tán, chuông giúp tách một người khỏi hàng nghìn tiếng chân. Người mất tích có thể đáp bằng lời, một tiếng gõ hoặc chỉ động tác chạm vào vật cạnh mình; vành chuông rung về hướng phần đáp ấy tới. Trên chiến trường, nó được giữ cạnh trạm cứu thương để người còn tỉnh biết lời cầu cứu của mình vẫn có nơi nhận.",
+    "lore_en": "Seis folded a lost child’s name into the bell’s paper-slot. Its first peal recalled the writer’s voice; the next carried a faint answer from beyond the place ordinary sound had died. Vocator receives the bond between caller and called through handwriting and living memory.\n\nWithin an evacuation it can distinguish one person amid thousands of footsteps. The missing may answer with speech, a knock or merely a touch upon something beside them; the rim trembles towards that response. On a battlefield it stays beside an aid station so the conscious know their call still has somewhere to arrive.",
+    "use_vi": "Gọi và định hướng người thất lạc có liên hệ thật với người viết tên; tiếp nhận tín hiệu cầu cứu yếu.",
+    "use_en": "Calls and locates a missing person genuinely known to the name’s writer; receives weak distress signals.",
+    "limits_vi": "Tên trùng cần ký ức đủ rõ để phân biệt. Chuông chỉ xác nhận một hồi đáp; im lặng có thể do bất tỉnh, bị ngăn cách hoặc không muốn trả lời.",
+    "limits_en": "Shared names require a sufficiently clear memory to distinguish them. The bell confirms a response only; silence can mean unconsciousness, separation or unwillingness to answer.",
+    "skills": [
+      {
+        "name_vi": "Gọi danh",
+        "name_en": "Call the Name",
+        "description_vi": "Đưa giọng gọi tới người được nét chữ và ký ức xác định.",
+        "description_en": "Carries a call to the person identified by writing and memory."
+      },
+      {
+        "name_vi": "Nhận hồi đáp",
+        "name_en": "Receive an Answer",
+        "description_vi": "Biến lời, tiếng gõ hoặc chạm đáp lại thành hướng rung trên vành.",
+        "description_en": "Turns an answering word, knock or touch into directional vibration along the rim."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giọng người thật",
+        "name_en": "A Real Person’s Voice",
+        "description_vi": "Tiếng gọi mang giọng của người gửi, giúp người mất tích nhận ra mối liên hệ.",
+        "description_en": "The call carries the sender’s voice, allowing the missing to recognise the bond."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 6, tìm kiếm và cứu nạn",
+    "owner_en": "Bearer of Number 6, search and rescue",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 6,
+      "label": "Seis",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-037",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Bình đồng quấn dây gai",
+    "form_en": "Copper flask wrapped with hemp",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Copper flask wrapped with hemp. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Once. Hải Tức Tàng Bình Anhelus",
+    "name_en": "Once. Stored Sea-Breath Flask Anhelus",
+    "lore_vi": "Anhelus có thành đồng và lớp dây gai sẫm nước. Khi Once thở đầy vào bình, những giọt phía trong đứng lại theo hình phổi vừa nở. Người ngậm miệng bình sau đó nhận cùng một nhịp hít vào đang được giữ dở, đủ để bình tĩnh làm công việc dưới mặt nước.\n\nCận vệ giữ nút bình trong tay để nhịp thở có chỗ kết thúc. Buông nút đúng cách trả nó về người nhận; giật nút đột ngột cắt quãng đang được vay. Thợ lặn dùng Anhelus khi mở khoang tàu ngập và chuyền nó cho người cần đưa lên trước. Mỗi lần chuyển miệng bình đều cần chờ người đang dùng hoàn tất hơi của mình.",
+    "lore_en": "Anhelus has copper walls and water-darkened hemp wrapping. When Once breathes fully into it, the droplets within settle into the shape of lungs just opened. Whoever next takes its mouth receives that same inhalation held unfinished, enough to work calmly beneath water.\n\nThe Guard keeps the stopper in hand so the breath has somewhere to end. Releasing it properly returns the interval to its recipient; wrenching it loose cuts the borrowed span short. Divers use Anhelus while opening flooded compartments and pass it to those who must be raised first. Each transfer waits for the present user to finish the breath entrusted to them.",
+    "use_vi": "Giữ một nhịp hít vào để thợ lặn hoặc người mắc kẹt có khoảng thở khi cứu hộ dưới nước.",
+    "use_en": "Holds an inhalation open to give a diver or trapped person a breathing interval during underwater rescue.",
+    "limits_vi": "Chỉ phục vụ người đang ngậm bình và đường hơi còn kín. Nó giữ trạng thái thở đã nhận; khí độc đưa vào từ đầu vẫn là khí độc. Mất nút hoặc đứt đường kín chấm dứt khoảng vay.",
+    "limits_en": "Serves only the person at its mouth while the breath-path remains sealed. It retains the received breath-state; poisonous air supplied initially remains poisonous. Loss of the stopper or seal ends the interval.",
+    "skills": [
+      {
+        "name_vi": "Tàng tức",
+        "name_en": "Store a Breath",
+        "description_vi": "Nhận một hơi đầy và giữ nó ở trạng thái hít vào chưa hoàn tất.",
+        "description_en": "Receives a full breath and holds its inhalation unfinished."
+      },
+      {
+        "name_vi": "Chuyển hơi",
+        "name_en": "Pass the Breath",
+        "description_vi": "Chuyển khoảng thở sang người kế tiếp sau khi lượt trước được khép.",
+        "description_en": "Passes the breathing interval to the next recipient once the former turn is closed."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giọt mang hình phổi",
+        "name_en": "Lung-Shaped Droplets",
+        "description_vi": "Giọt bên trong thể hiện nhịp đang giữ, co lại trước lúc đường hơi mất ổn định.",
+        "description_en": "Interior droplets display the held rhythm, contracting before the breath-path destabilises."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 11, cứu hộ dưới nước",
+    "owner_en": "Bearer of Number 11, underwater rescue",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 11,
+      "label": "Once",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-038",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Bản lề đen có sao bạc",
+    "form_en": "Black hinge with a silver star",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Black hinge with a silver star. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Trece. Hồi Môn Tinh Bản Limen",
+    "name_en": "Trece. Returning Threshold Hinge Limen",
+    "lore_vi": "Khi Trece mở Limen, ngôi sao bạc trên bản lề nhận hình của một lối ra còn thông. Lá cửa có thể bị đất đá ép từ phía sau; đường mở đã nhận vẫn giữ một khe sáng theo đúng trục bản lề. Người gác kéo tay nắm, và cánh cửa đi qua quãng mở đã được ghi thay vì đòi đống đổ nát nhường chỗ.\n\nLimen được dựng tại cửa bệnh xá, kho lương và miệng hầm trong các cuộc di tản. Nó giữ giá trị của một việc người ta đã làm trước khi tai họa tới: kiểm tra đường thoát. Bên kia lối ra phải còn một chỗ để đặt chân, bởi ngôi sao chỉ nhớ được ngưỡng cửa đã được mở qua.",
+    "lore_en": "When Trece opens Limen, the silver star in its hinge receives the shape of an unobstructed exit. Rubble may press behind the door, yet the recorded opening keeps a strip of light along the hinge-axis. The keeper pulls the handle, and the door follows its retained opening instead of demanding that the wreckage move.\n\nLimen is installed at infirmaries, grain stores and mine-mouths during evacuations. It preserves the value of a task completed before disaster: checking the way out. Beyond that exit there must still be somewhere to stand, for the star remembers only a threshold actually crossed.",
+    "use_vi": "Giữ cửa thoát đã được mở và kiểm tra, vượt qua chướng ngại đổ ép vào quãng mở của cánh cửa.",
+    "use_en": "Preserves an opened and checked exit, bypassing debris pressing into the door’s swing.",
+    "limits_vi": "Cần hai lá bản lề còn cùng gắn vào khung và cửa. Nó không tạo nền đi phía bên kia; đường thoát đã sập hoàn toàn vẫn cần cách cứu hộ khác.",
+    "limits_en": "Both hinge-leaves must remain attached to frame and door. It supplies no floor beyond; a wholly collapsed escape-route still requires another rescue method.",
+    "skills": [
+      {
+        "name_vi": "Ghi ngưỡng",
+        "name_en": "Record the Threshold",
+        "description_vi": "Ghi một lượt cửa mở cùng đường người đã đi qua.",
+        "description_en": "Records an opening of the door and the passage crossed."
+      },
+      {
+        "name_vi": "Mở qua hình đã nhớ",
+        "name_en": "Open through the Remembered Shape",
+        "description_vi": "Cho cánh cửa theo lại quãng mở, tạm tách phần chướng ngại đang ép vào quãng ấy.",
+        "description_en": "Lets the door follow its former swing, temporarily separating the obstruction pressing into that interval."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngôi sao hai phía",
+        "name_en": "A Star on Both Sides",
+        "description_vi": "Dấu bạc chỉ liền khi cửa và khung còn giữ quan hệ của cùng một ngưỡng.",
+        "description_en": "The silver mark remains whole only while frame and door preserve one threshold."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 13, đường thoát và phòng hộ công trình",
+    "owner_en": "Bearer of Number 13, exits and structural protection",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 13,
+      "label": "Trece",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-039",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Hai hộp gỗ khảm trai",
+    "form_en": "Paired mother-of-pearl letterboxes",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Paired mother-of-pearl letterboxes. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Catorce. Song Bờ Thư Hạp Epistola",
+    "name_en": "Catorce. Two-Shore Letterboxes Epistola",
+    "lore_vi": "Hai hộp khảm trai của Epistola luôn mở về hai hướng khác nhau. Catorce đặt vào chúng giấy cắt từ cùng một tờ lớn rồi giao một hộp cho đoàn đi xa. Khi ngòi bút chạm phía bên này, nét mực xuất hiện ở phía bên kia, giữ cả vết run tay và những chỗ người viết dừng lại.\n\nCác thư lại thích món này vì nó trao cho họ công việc rất thật giữa một phép lạ: cắt giấy đúng lô, ghi ngày, kiểm dấu và chờ người đầu kia sẵn sàng nhận. Bệnh xá xin thuốc qua hộp, quân nhu báo đường còn đi được, người giữ kho cãi về một chữ số mờ. Mỗi trang đã nhận mực trở thành chứng từ nằm ở hai nơi.",
+    "lore_en": "Epistola’s mother-of-pearl boxes always open in different directions. Catorce places paper cut from one large sheet within them and sends a box with the departing party. When a pen touches one side, ink appears on the other, retaining the hand’s tremor and the places where its writer pauses.\n\nClerks favour it because it gives them real work within a miracle: cutting the right paper, dating it, checking marks and waiting until the other keeper is ready. Infirmaries request medicine through it, quartermasters report passable roads and storekeepers argue over a blurred numeral. Each inked page becomes a document held in two places.",
+    "use_vi": "Truyền nét viết giữa hai hộp bằng giấy có chung nguồn tờ, phục vụ liên lạc và lưu chứng từ.",
+    "use_en": "Transmits handwriting between two boxes through paper from one source sheet, supporting communication and records.",
+    "limits_vi": "Mỗi cặp giấy chỉ nhận một lượt viết. Đốt hoặc phá một hộp cắt liên kết; mực chồng và chữ khó đọc vẫn truyền đúng sự rối ấy.",
+    "limits_en": "Each paper-pair accepts one writing session. Burning or breaking either box cuts the link; overlapping ink and illegible writing transmit their confusion faithfully.",
+    "skills": [
+      {
+        "name_vi": "Song bờ đồng nét",
+        "name_en": "One Stroke on Two Shores",
+        "description_vi": "Chuyển nét đang viết sang giấy tương ứng trong hộp còn lại.",
+        "description_en": "Carries the forming stroke onto the corresponding paper in the other box."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cùng một tờ gốc",
+        "name_en": "One Source Sheet",
+        "description_vi": "Liên kết theo nguồn giấy đã được đặt cặp, giúp người giữ quản lý từng lần dùng.",
+        "description_en": "The link follows the paired paper’s origin, allowing each use to be tracked."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 14, liên lạc và hành chính",
+    "owner_en": "Bearer of Number 14, communications and administration",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 14,
+      "label": "Catorce",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-040",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Giá gương ba chân",
+    "form_en": "Three-legged mirror stand",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Three-legged mirror stand. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Quince. Ngoại Khoa Tam Kính Intus",
+    "name_en": "Quince. Three-Mirror Surgical Frame Intus",
+    "lore_vi": "Quince đặt chân giá vào cạnh bàn, xoay ba mặt kính cho chúng cùng nhận một cơ thể. Mặt đầu giữ da, mặt thứ hai nhận lớp sâu hơn, mặt cuối cho thấy quan hệ giữa những phần bị che. Intus đưa các mặt phản chiếu tới những độ sâu khác nhau mà thân thể người nằm trên bàn vẫn nguyên.\n\nY sĩ dùng nó lần đầu đạn, tìm đường mạch và chọn chỗ can thiệp. Kính cũng có thể nhận một khối gỗ hay thân máy, nhưng những hình ấy cần bàn tay của người hiểu chúng để đọc. Các lằn mờ trên bạc là nơi ba mặt đã mất đối chiếu, nhắc người giữ chỉnh giá trước khi tin vào một đường đi.",
+    "lore_en": "Quince sets the frame beside the table and turns its three mirrors to receive one body. The first retains the skin, the second a deeper layer and the last the relationship between concealed portions. Intus places its reflections at different depths while the patient’s body remains whole.\n\nSurgeons use it to follow a lodged ball, locate vessels and choose an intervention. It can also receive wood or machinery, though those images require someone who understands them. Clouded lines upon the silver mark the places where the three views have lost correspondence, calling the keeper to reset the frame before trusting a path.",
+    "use_vi": "Quan sát các lớp bên trong một thân thể hoặc vật thể để hỗ trợ ngoại khoa, kiểm tra và sửa chữa.",
+    "use_en": "Observes internal layers of a body or object to assist surgery, inspection and repair.",
+    "limits_vi": "Cần đối tượng thật nằm trong vùng ba kính cùng nhận. Chuyển động làm các lớp lệch; hình phản chiếu không tự phân loại bệnh, chữa tổn thương hay hướng dẫn người thiếu kiến thức.",
+    "limits_en": "Requires the actual subject within the shared field of all three mirrors. Movement misaligns the layers; a reflection does not diagnose, heal or instruct an untrained observer.",
+    "skills": [
+      {
+        "name_vi": "Tam diện phân tầng",
+        "name_en": "Three-Plane Layering",
+        "description_vi": "Đặt ba mặt quan sát vào những lớp sâu khác nhau trong cùng đối tượng.",
+        "description_en": "Places three observation planes at different depths within one subject."
+      },
+      {
+        "name_vi": "Đối chiếu đường kín",
+        "name_en": "Compare Concealed Paths",
+        "description_vi": "Ghép các lớp để thấy vị trí tương đối của vật mắc và cấu trúc quanh nó.",
+        "description_en": "Combines the layers to reveal the relative positions of an embedded object and its surroundings."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kính giữ thân nguyên",
+        "name_en": "Mirrors of the Unopened Body",
+        "description_vi": "Quan sát làm đổi vị trí mặt phản chiếu; vật thể được quan sát vẫn giữ cấu trúc thực của nó.",
+        "description_en": "Observation moves the reflecting plane while the observed object retains its actual structure."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 15, quân y và khảo sát cấu trúc",
+    "owner_en": "Bearer of Number 15, military medicine and structural inspection",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 15,
+      "label": "Quince",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-041",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Trống da có vành đá",
+    "form_en": "Skin drum with a stone rim",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Skin drum with a stone rim. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Dieciocho. Địa Mạch Thạch Cổ Cavitas",
+    "name_en": "Dieciocho. Earthvein Stone-Rimmed Drum Cavitas",
+    "lore_vi": "Cavitas có vành đá khiến người lần đầu cầm tưởng mình đang khiêng một mảnh nền nhà. Dieciocho gõ vào mặt da, và tiếng đáp xuất hiện dưới lòng đất theo những độ sâu khác nhau. Khi người giữ ép vành xuống nền, các khoảng rỗng nhận tiếng thành một mạng gõ có thể lần bằng đầu ngón tay.\n\nCông binh mang trống trước đội đào và những đoàn pháo phải qua mặt đường phủ tuyết. Bệnh xá dựng sau cuộc vây hãm cũng cần tiếng trống ấy, bởi một mái nhà còn đứng có thể che bên dưới một tầng hầm đã mất cột. Cavitas cho biết nơi âm thanh tìm được chỗ đi qua; quyết định chống, đào hay bỏ tuyến thuộc về người đọc mạng đáp.",
+    "lore_en": "Cavitas’s stone rim makes a first-time bearer feel as though carrying a piece of floor. Dieciocho strikes the skin, and replies sound beneath the earth at different depths. Pressing the rim to the ground lets cavities receive the sound as a network of knocks traceable by fingertip.\n\nEngineers take the drum ahead of diggers and artillery crossing snow-covered roads. An infirmary raised after a siege needs it too: a standing house can cover a cellar whose supports are gone. Cavitas shows where sound finds passage; the choice to shore, dig or abandon belongs to whoever reads its answering network.",
+    "use_vi": "Dò khoảng rỗng và đường thông dưới đất hoặc công trình để chọn tuyến đào, đặt chống và hành quân.",
+    "use_en": "Finds cavities and passages beneath ground or buildings to guide excavation, shoring and movement.",
+    "limits_vi": "Nền nhiều lớp vụn tạo hồi đáp chồng. Trống thể hiện đường âm đã nhận, không tự tính sức chịu tải hay bảo đảm toàn bộ vùng an toàn.",
+    "limits_en": "Layered rubble produces overlapping replies. The drum shows received sound-paths; it does not calculate capacity or guarantee an entire area’s safety.",
+    "skills": [
+      {
+        "name_vi": "Hồi đáp địa mạch",
+        "name_en": "Earthvein Reply",
+        "description_vi": "Gửi nhịp xuống nền rồi hiện những đường rỗng bằng chuỗi đáp trên vành.",
+        "description_en": "Sends a beat into the ground and reveals hollow paths as replies along the rim."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vành cùng nền",
+        "name_en": "Rim Joined to Ground",
+        "description_vi": "Vành đá cần tiếp xúc ổn định với nền đang khảo sát để tách được từng nhánh đáp.",
+        "description_en": "The stone rim needs stable contact with the surveyed ground to distinguish answering branches."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 18, công binh và nền công trình",
+    "owner_en": "Bearer of Number 18, engineering and building foundations",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 18,
+      "label": "Dieciocho",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  },
+  {
+    "id": "device-042",
+    "category": "device",
+    "rarity": 4,
+    "form_vi": "Đèn kính xanh chân sắt",
+    "form_en": "Green-glass lamp on an iron foot",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Green-glass lamp on an iron foot. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "name_vi": "Diecinueve. Trường Dạ Giám Đăng Vigilia",
+    "name_en": "Diecinueve. Long-Night Watch Lamp Vigilia",
+    "lore_vi": "Ngọn đèn kính xanh của Vigilia nhận ca gác bằng một bàn tay đặt trên chân sắt. Trong lửa hiện một nét đứng mảnh, giữ dấu người vừa nhận nhiệm vụ. Khi người ấy đi hết tuyến, vệt sáng trở về đúng chỗ trên kính; nếu họ ngã, đèn để lại một vết chao theo hướng chưa hoàn tất.\n\nDiecinueve đặt đèn ở nơi giao ca và nối các lượt tuần bằng cùng một ngọn. Nó giúp người sau biết mình đang nhận phần việc nào, nơi nào đã được đi qua và lúc nào một sự im lặng cần được tìm hiểu. Vigilia cũng được dùng ở kho lương, trại ngủ và bệnh xá, nơi một chiếc ghế trống đôi khi quan trọng hơn tiếng động ngoài tường.",
+    "lore_en": "Vigilia’s green-glass lamp receives a watch through a hand laid upon its iron foot. A thin standing mark appears in the flame, retaining the person who accepted the task. When that person completes the route, the light returns to its place on the glass; if they fall, the lamp leaves a leaning trace towards the unfinished portion.\n\nDiecinueve sets it at the handover point and joins successive patrols through one flame. It tells the next keeper what work is being received, where someone has passed and when silence deserves investigation. Vigilia also serves granaries, sleeping camps and infirmaries, where an empty chair can matter more than a noise outside the wall.",
+    "use_vi": "Ghi ca trực, tuyến đã đi và dấu bất thường khi người đang giữ ca không thể hoàn thành lượt.",
+    "use_en": "Records a watch, the route covered and an abnormal trace when its keeper cannot complete the turn.",
+    "limits_vi": "Cần khai báo tuyến và bàn giao thật. Đèn báo sự đứt đoạn của ca đã nhận; nó không tự thấy mọi kẻ xâm nhập hoặc biết nguyên nhân người gác dừng.",
+    "limits_en": "Requires a declared route and an actual handover. It reports a break in the accepted watch; it does not see every intruder or know why the watchman stopped.",
+    "skills": [
+      {
+        "name_vi": "Nhận ca",
+        "name_en": "Receive the Watch",
+        "description_vi": "Ghi người giữ cùng tuyến được nhận qua chạm chân đèn.",
+        "description_en": "Records the keeper and accepted route through contact with the lamp’s foot."
+      },
+      {
+        "name_vi": "Dấu ca chưa khép",
+        "name_en": "Mark an Unfinished Turn",
+        "description_vi": "Giữ hướng và điểm cuối của lượt bị đứt để người đến sau biết nơi cần kiểm.",
+        "description_en": "Retains the direction and last point of an interrupted turn for the next keeper to investigate."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một lửa nối nhiều người",
+        "name_en": "One Flame Joining Many Keepers",
+        "description_vi": "Các ca liên tiếp giữ dấu riêng trong cùng ngọn lửa khi được bàn giao đúng lượt.",
+        "description_en": "Successive watches retain distinct marks within one flame when properly handed over."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 19, canh phòng và bàn giao",
+    "owner_en": "Bearer of Number 19, watchkeeping and handovers",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 19,
+      "label": "Diecinueve",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "rarity_note_vi": "Hồ sơ mở rộng được tác giả cho phép sáng tạo. Quan hệ Cận vệ và thiết kế quyền năng trong lượt này là nội dung Collection, chưa xuất hiện trong bản thảo. Giữ nguyên hình thể để phù hợp ảnh hiện có.",
+    "rarity_note_en": "An author-authorised expansion. The Guard association and revised powers in this pass are Collection content, not yet attested in the manuscript. Its physical form is retained to match the existing illustration."
+  }
+]

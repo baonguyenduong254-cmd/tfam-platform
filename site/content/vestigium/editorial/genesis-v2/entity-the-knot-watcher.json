@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-knot-watcher",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Dây gai được bện quanh một sợi khoáng xanh để thử chịu ẩm. Người thủy thủ buộc cùng một nút mỗi tối lên bó hàng nhỏ. Sau nhiều lượt, giữa sợi gai hiện một mặt nạ nhắm mắt, chỉ mở khi đầu dây bắt đầu trượt trong tay ông.\n\nCắt ngắn dây, mặt nạ còn trong đoạn giữ sợi xanh. Người thủy thủ thử nút cầu kỳ để khoe, mặt nạ cau đến khi ông tháo về kiểu cũ. Từ đó ông giữ một nút đơn giản đủ rõ cho cả người và kẻ gác thấy đường sợi đi qua nhau.",
+    "lore_en": "Hemp rope was braided around a green mineral filament in a moisture trial. A sailor tied the same knot upon a small parcel every evening. After many turns, a closed-eyed mask appeared among the fibres and opened only when an end began slipping through his hand.\n\nCutting the rope left the mask in the section retaining the green thread. The sailor tried an elaborate knot to show off; the mask scowled until he returned to the old pattern. He thereafter kept a knot simple enough for both man and watcher to follow its strands.",
+    "use_vi": "Kiểm nút đã quen có bị trượt dưới lần kéo thử và nhắc phần dây đang sai đường.",
+    "use_en": "Test a familiar knot for slipping under a trial pull and indicate misrouted strands.",
+    "limits_vi": "Chỉ sợi dây gốc và kiểu nút nó đã học. Mắt nhắm xác nhận nút đang giữ trong phép thử ấy; tải thật và độ mục dây cần kiểm riêng.",
+    "limits_en": "It works with its original rope and learnt knot only. Closed eyes confirm holding under that trial; real loads and rope decay need separate checks.",
+    "skills": [
+      {
+        "name_vi": "Mắt khi nút trượt",
+        "name_en": "Eyes at the Slipping Knot",
+        "description_vi": "Buộc kiểu đã nhận rồi kéo tay tăng chậm để mặt nạ hé mắt khi sợi trượt, giúp người buộc làm lại trước lúc mang hàng.",
+        "description_en": "Tie its accepted knot and increase hand tension slowly so the mask opens at slipping strands, prompting retie before transport."
+      },
+      {
+        "name_vi": "Nhìn sợi lạc",
+        "name_en": "See the Straying Strand",
+        "description_vi": "Giữ nút chưa siết trước mặt nạ để mắt nhìn cố định vào sợi đi sai với kiểu quen; cần tháo rồi buộc lại thay vì cố kéo qua.",
+        "description_en": "Hold an untightened knot before the mask so its eyes fix upon a strand departing the familiar pattern; undo and retie rather than forcing it through."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Gác đường sợi",
+        "name_en": "Watch the Strand’s Road",
+        "description_vi": "Nó nhìn theo nơi dây đi chéo, nên bùn phủ mắt khiến dấu mất. Rửa bằng nước sạch rồi để ráo giúp mặt trở lại.",
+        "description_en": "It watches strand crossings, so mud over its eyes obscures the sign. Fresh washing and drying restore the face."
+      }
+    ]
+  }
+]

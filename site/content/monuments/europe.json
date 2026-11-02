@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "france-versailles",
+    "faction_id": "holy_french_kingdom",
+    "name_vi": "Versailles — Những tấm gương của ngai vàng",
+    "name_en": "Versailles — Mirrors of the Throne",
+    "location_vi": "Versailles, miền trung nước Pháp",
+    "location_en": "Versailles, central France",
+    "category": "seat",
+    "epithet_vi": "Mọi ánh sáng đều hướng về một người",
+    "epithet_en": "Every Light Faces One Man",
+    "lore_vi": "Sau cuộc thanh trừng đầu triều, Napoleon giữ Versailles làm nơi các dòng họ phải đến trình diện, trong khi quyền điều hành và giáo hội tập trung tại Paris. Những tấm gương soi dài qua đại sảnh nhân đôi hàng quân phục đứng chờ; ngoài cửa kính, vòi phun đã bị khóa dưới băng. Các căn phòng từng dành cho yến tiệc được giao cho hội đồng xét lại tước vị và tài sản. Một chữ ký có thể trả đất cho người trung thành hoặc tước tên một gia đình khỏi sổ triều đình. Đến năm 1716, những thương binh trở về mang theo một thứ mà nghi lễ cung đình khó che khuất: cái giá của tham vọng.",
+    "lore_en": "After the purges of his early reign, Napoleon retained Versailles as the place where noble houses presented themselves, while government and church authority gathered in Paris. Mirrors multiplied the waiting uniforms; beyond the windows, fountains lay imprisoned in ice. Rooms once devoted to banquets now housed commissions reviewing estates and titles. A signature could restore a loyal family's lands or strike another name from the court rolls. By 1716, returning wounded brought something ceremony struggled to conceal: ambition's price. Versailles continued to stage obedience, but the men supporting its gilded walls increasingly required bread, fuel and payment.",
+    "traits": [
+      {
+        "label_vi": "Triều đình trong gương",
+        "label_en": "A Court in Mirrors",
+        "description_vi": "Nghi lễ buộc các dòng họ công khai thứ bậc trước vương quyền.",
+        "description_en": "Ceremony forces noble houses to display their rank before the Crown."
+      },
+      {
+        "label_vi": "Những căn phòng bị niêm phong",
+        "label_en": "Sealed Apartments",
+        "description_vi": "Tài sản sau thanh trừng trở thành phần thưởng và nguồn thù hận.",
+        "description_en": "Confiscated estates become rewards and enduring grievances."
+      }
+    ],
+    "benefit_vi": "Củng cố quyền bổ nhiệm và thu phục quý tộc.",
+    "benefit_en": "Strengthens appointments and the management of noble allegiance.",
+    "cost_vi": "Nuôi bộ máy nghi lễ tốn kém; thất thế ở triều đình dễ biến thành phản kháng.",
+    "cost_en": "Court ceremony is expensive; exclusion breeds resistance.",
+    "status_vi": "Duy trì nghi lễ; một phần nội thất chuyển thành công sở.",
+    "status_en": "Ceremonial use continues; several apartments serve administrative offices.",
+    "historical_anchor_vi": "Versailles được Louis XIV mở rộng; chuyển thành công cụ kiểm soát quý tộc trong biến thể TFAM.",
+    "historical_anchor_en": "Versailles was enlarged under Louis XIV; its use as Napoleon’s instrument is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.chateauversailles.fr/decouvrir/histoire"
+    ],
+    "art_prompt": "Frozen Versailles Hall of Mirrors and palace exterior, royal blue gold, cold dusk, tiny uniformed courtiers, painterly historical fantasy, no lettering"
+  },
+  {
+    "id": "france-reims",
+    "faction_id": "holy_french_kingdom",
+    "name_vi": "Reims — Thánh đường của lời thề",
+    "name_en": "Reims — Cathedral of the Oath",
+    "location_vi": "Reims, Champagne",
+    "location_en": "Reims, Champagne",
+    "category": "sacred",
+    "epithet_vi": "Vương miện cần một tiếng đáp",
+    "epithet_en": "A Crown Demands an Answer",
+    "lore_vi": "Tại Reims, những người giữ thánh đường đã chứng kiến nhiều vương triều bước qua cùng một cánh cửa. Khi Paris dựng giáo hội mới dưới bóng Napoleon, Reims nhận lệnh sửa nghi thức tuyên thệ để tên nhà vua đi cùng nghĩa vụ phụng sự quốc gia. Bản kinh mới được chép bằng tay trong những phòng sưởi yếu; những trang cũ vẫn nằm trong rương gỗ của các giáo sĩ cao tuổi. Binh lính hành quân qua Champagne dừng lại nhận lời chúc phúc giữa tượng đá bám tuyết. Cùng một mái vòm che chở lòng thành kính, sự phục tùng và ký ức về những lời thề từng bị thay thế.",
+    "lore_en": "The custodians of Reims had watched successive dynasties pass through the same doors. When Paris established a new church beneath Napoleon's authority, the cathedral received instructions to bind the royal oath to national service. Clerks copied the revised rite in poorly heated chambers; elderly priests kept older texts in wooden chests. Soldiers crossing Champagne halted for blessings beneath snow-covered statues. The vault sheltered devotion, obedience and memories of superseded promises. Its authority could consecrate the new order throughout the countryside, yet every alteration reminded the clergy how much of their inheritance now depended upon a sovereign's command.",
+    "traits": [
+      {
+        "label_vi": "Dầu thánh và quân kỳ",
+        "label_en": "Holy Oil and Colours",
+        "description_vi": "Nghi lễ đưa nghĩa vụ quân sự vào đời sống tín ngưỡng.",
+        "description_en": "Ritual binds military obligation to religious life."
+      },
+      {
+        "label_vi": "Kinh sách cũ",
+        "label_en": "Older Liturgies",
+        "description_vi": "Giáo sĩ giữ ký ức về tính độc lập của giáo hội.",
+        "description_en": "Clergy preserve memories of ecclesiastical independence."
+      }
+    ],
+    "benefit_vi": "Tăng uy tín tôn giáo của vương quyền và tinh thần quân đội.",
+    "benefit_en": "Bolsters sacred legitimacy and military resolve.",
+    "cost_vi": "Tranh chấp nghi thức có thể chia rẽ giáo sĩ với triều đình.",
+    "cost_en": "Disputes over ritual can divide clergy and court.",
+    "status_vi": "Hoạt động dưới giáo hội Paris.",
+    "status_en": "Operating under the Paris church.",
+    "historical_anchor_vi": "Reims gắn với truyền thống đăng quang của vua Pháp; cải biên nghi thức thuộc TFAM.",
+    "historical_anchor_en": "Reims is associated with French royal coronations; the altered rite is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/601/"
+    ],
+    "art_prompt": "Reims Gothic cathedral snow on carved portals, amber candlelight, blue military banners, solemn painted fantasy architecture, no text"
+  },
+  {
+    "id": "france-mont-saint-michel",
+    "faction_id": "holy_french_kingdom",
+    "name_vi": "Mont-Saint-Michel — Ngọn đèn trên bãi triều",
+    "name_en": "Mont-Saint-Michel — Lantern above the Tides",
+    "location_vi": "Vịnh giữa Normandy và Brittany",
+    "location_en": "Bay between Normandy and Brittany",
+    "category": "fortress",
+    "epithet_vi": "Biển giữ chân, ánh đèn dẫn lối",
+    "epithet_en": "The Sea Holds; the Lantern Guides",
+    "lore_vi": "Khi những bãi triều bắt đầu đóng thành lớp vỏ trắng, các tu sĩ Mont-Saint-Michel cho đóng cọc đánh dấu đường đi thay vì tin vào dấu chân trên tuyết. Pháp mở một trạm tín hiệu trên tường đảo, giao việc dẫn đoàn tiếp tế cho những người vốn quen giờ nước lên xuống. Đêm đến, ánh đèn từ tu viện báo cho thuyền ven bờ biết nơi còn có thể cập hàng; bên dưới, các đội canh phải đập băng quanh chân cọc. Một toán quân có thể giữ đảo rất lâu bằng kho tích trữ. Nhưng khi kho vơi, chính bãi biển từng che chở họ cũng kéo dài từng bước của đoàn cứu viện.",
+    "lore_en": "As the tidal flats acquired a white crust, the monks of Mont-Saint-Michel marked routes with stakes rather than trusting footprints in snow. France established a signal station on the island walls and entrusted supply columns to people who understood the tides. At night, the abbey lantern told coastal vessels where cargo could still land; below, watchmen broke ice around the markers. A small garrison could endure on stored provisions. Once those stores dwindled, however, the same sands that protected the island slowed relief. The abbey's warning light therefore served both as a maritime guide and a measure of how long isolation remained survivable.",
+    "traits": [
+      {
+        "label_vi": "Đường chìm dưới nước",
+        "label_en": "A Road beneath Water",
+        "description_vi": "Lối tiếp cận phụ thuộc thủy triều và người dẫn đường.",
+        "description_en": "Approach depends on tides and experienced guides."
+      },
+      {
+        "label_vi": "Tu viện tín hiệu",
+        "label_en": "Signal Abbey",
+        "description_vi": "Tháp cao nối những trạm cảnh giới ven biển.",
+        "description_en": "The elevated tower connects coastal warning posts."
+      }
+    ],
+    "benefit_vi": "Cảnh báo đường biển và giữ kho trú ẩn ven bờ.",
+    "benefit_en": "Provides coastal warning and a protected refuge depot.",
+    "cost_vi": "Cô lập khi băng cùng thủy triều cắt đường tiếp tế.",
+    "cost_en": "Ice and tides can isolate its supply route.",
+    "status_vi": "Tu viện kiêm đồn tín hiệu.",
+    "status_en": "Abbey and signal garrison.",
+    "historical_anchor_vi": "Tu viện có thật trên đảo triều; quân sự hóa hệ đèn và đường cọc là biến thể TFAM.",
+    "historical_anchor_en": "Real tidal-island abbey; the militarized lantern and stake route are TFAM adaptations.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/80/"
+    ],
+    "art_prompt": "Mont Saint Michel winter tidal flats, isolated abbey silhouette lantern warm amber, grey blue frozen sands, no modern spire, painterly epic landscape"
+  },
+  {
+    "id": "france-aachen",
+    "faction_id": "holy_french_kingdom",
+    "name_vi": "Aachen — Ngai đá bị đoạt",
+    "name_en": "Aachen — The Seized Stone Throne",
+    "location_vi": "Aachen, vùng Đức dưới quyền Pháp",
+    "location_en": "Aachen, French-held German lands",
+    "category": "sacred",
+    "epithet_vi": "Kẻ chinh phục bước vào ký ức",
+    "epithet_en": "The Conqueror Enters Memory",
+    "lore_vi": "Sau khi quyền lực cũ tại vùng Đức sụp đổ, quan lại Pháp tới Aachen với danh sách thánh tích, hòm lưu trữ và chìa khóa cần bàn giao. Nhà nguyện của Charlemagne vẫn mở cửa, nhưng lính gác mang quân kỳ mới đứng dưới mái vòm. Napoleon dùng việc bảo tồn công trình để khẳng định mình đủ sức kế thừa những gì vừa chinh phục. Các phường nghề nhận lệnh sửa đường và cung cấp nhiên liệu cho khách hành hương. Người dân giữ được nơi thờ phụng; họ cũng phải đi qua một trạm kiểm soát để tới đó. Mỗi buổi lễ khiến lời tuyên bố về quyền kế thừa vang xa, đồng thời nhắc vùng đất này ai đang giữ chìa khóa.",
+    "lore_en": "After the old German authorities fell, French officials reached Aachen with inventories of relics, archives and keys to be surrendered. Charlemagne's chapel remained open, but soldiers beneath its dome carried new colours. Napoleon presented preservation as proof that he could inherit what he had conquered. Guilds repaired approach roads and supplied fuel for pilgrims. Worshippers retained their sanctuary and passed a military checkpoint to reach it. Every ceremony carried France's succession claim further across the annexed lands. Every guard at the doors also reminded those lands who held the keys, making the cathedral a source of legitimacy and a gathering place for wounded loyalties.",
+    "traits": [
+      {
+        "label_vi": "Bóng Charlemagne",
+        "label_en": "Charlemagne’s Shadow",
+        "description_vi": "Di sản hoàng quyền đem lại ngôn ngữ chính danh cho kẻ chiếm giữ.",
+        "description_en": "Imperial heritage lends legitimacy to its custodian."
+      },
+      {
+        "label_vi": "Chìa khóa trao tay",
+        "label_en": "Transferred Keys",
+        "description_vi": "Việc bảo tồn gắn với quyền kiểm soát của quân chiếm đóng.",
+        "description_en": "Preservation is tied to the occupying army’s control."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ hợp thức hóa quyền cai trị các miền Đức.",
+    "benefit_en": "Supports claims to rule the German territories.",
+    "cost_vi": "Khơi dậy lòng trung thành với các vương quyền đã mất.",
+    "cost_en": "Revives loyalty to displaced dynasties.",
+    "status_vi": "Được bảo tồn dưới đồn trú Pháp.",
+    "status_en": "Preserved under French garrison.",
+    "historical_anchor_vi": "Nhà nguyện Aachen được xây dưới Charlemagne khoảng 790–800; quyền kiểm soát Pháp thuộc lịch sử TFAM.",
+    "historical_anchor_en": "Aachen’s chapel was built under Charlemagne around 790–800; French control belongs to TFAM.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/3/"
+    ],
+    "art_prompt": "Aachen octagonal chapel winter forecourt, blue French standards, weathered imperial stone, warm interior mosaic, painterly architecture"
+  },
+  {
+    "id": "france-strasbourg",
+    "faction_id": "holy_french_kingdom",
+    "name_vi": "Strasbourg — Tháp chuông bên tuyến vận tải",
+    "name_en": "Strasbourg — Belfry of the Supply Roads",
+    "location_vi": "Strasbourg, thượng lưu Rhine",
+    "location_en": "Strasbourg, Upper Rhine",
+    "category": "knowledge",
+    "epithet_vi": "Từ đỉnh tháp nhìn thấy cả đường quân đi",
+    "epithet_en": "From the Tower, the Army’s Roads",
+    "lore_vi": "Trên những tầng cao của thánh đường Strasbourg, các toán đo đạc Pháp đặt bàn ngắm và đối chiếu đường sông với sổ quân nhu. Triều đình cho nối các trạm báo hiệu dọc Rhine sớm hơn dự tính của những người xây chúng, biến một tháp chuông thành mốc chung cho người lái thuyền, người chuyển thư và người dẫn quân. Trong các phố hẹp phía dưới, thợ in nhận hợp đồng in biểu mẫu thống nhất bằng nhiều thứ tiếng. Hàng hóa đi nhanh hơn khi giấy tờ khớp nhau. Mỗi bản khai sai cũng để lại một chiếc xe đứng lại giữa rét, còn quyền sửa con dấu nằm trong tay những viên chức được Paris bổ nhiệm.",
+    "lore_en": "French surveyors set their sighting tables high in Strasbourg's cathedral and compared the Rhine channels with military supply accounts. The Crown linked signalling posts sooner than their builders had expected, turning the belfry into a shared reference for boatmen, couriers and marching columns. Printers below received contracts for standardized forms in several languages. Cargo moved faster when the documents agreed. An incorrect declaration could still leave a wagon waiting in the cold, with correction dependent upon an official appointed from Paris. Strasbourg gave the kingdom a practical language of measurement while concentrating considerable power in those who interpreted it.",
+    "traits": [
+      {
+        "label_vi": "Điểm chuẩn trên Rhine",
+        "label_en": "Rhine Reference Point",
+        "description_vi": "Tháp hỗ trợ đo đạc và liên lạc dọc hành lang sông.",
+        "description_en": "The tower supports surveys and river communications."
+      },
+      {
+        "label_vi": "Những tờ giấy cùng cỡ",
+        "label_en": "Standard Forms",
+        "description_vi": "Biểu mẫu chung giảm sai lệch giữa các miền.",
+        "description_en": "Shared forms reduce discrepancies across provinces."
+      }
+    ],
+    "benefit_vi": "Cải thiện điều vận và truyền lệnh trên Rhine.",
+    "benefit_en": "Improves transport coordination and orders along the Rhine.",
+    "cost_vi": "Bộ máy giấy tờ tạo nút thắt và quyền nhũng nhiễu.",
+    "cost_en": "Paperwork creates bottlenecks and opportunities for extortion.",
+    "status_vi": "Thánh đường kiêm trạm đo đạc.",
+    "status_en": "Cathedral and surveying station.",
+    "historical_anchor_vi": "Strasbourg có thánh đường và trung tâm đô thị lịch sử; mạng lưới quân nhu là sáng tạo TFAM.",
+    "historical_anchor_en": "Strasbourg’s cathedral and historic centre are real; the supply network is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/495/"
+    ],
+    "art_prompt": "Strasbourg Gothic cathedral tower above snow roofs and Rhine freight, surveyors tiny on platform, blue ochre painterly fantasy"
+  },
+  {
+    "id": "rome-san-vitale",
+    "faction_id": "western_roman_empire",
+    "name_vi": "San Vitale — Những đôi mắt bằng vàng",
+    "name_en": "San Vitale — Eyes of Gold",
+    "location_vi": "Ravenna, Ý",
+    "location_en": "Ravenna, Italy",
+    "category": "sacred",
+    "epithet_vi": "Hoàng đế bước dưới mắt những người tiền nhiệm",
+    "epithet_en": "An Emperor beneath His Predecessors’ Eyes",
+    "lore_vi": "Trong San Vitale, những gương mặt khảm vàng nhìn xuống các sĩ quan tới tuyên thệ trước khi nhận quân kỳ. Sau cuộc binh biến năm 1676, triều đình Ravenna mở rộng nghi thức ấy thành cam kết ghi tên đơn vị, tỉnh nuôi quân và người chịu trách nhiệm tiếp tế. Bản sao được đặt trong hòm của giáo hội, để một viên tướng chết đi vẫn còn người biết lời thề đã trao cho ai. Ánh nến khiến những mảnh kính giống như đang cử động trên áo giáp. Khi chiến tranh kéo dài, các gia đình tới đọc tên người thân trong sổ cầu nguyện và nhận ra những trang giấy mới ngày càng dày hơn.",
+    "lore_en": "Within San Vitale, golden mosaic faces look down upon officers swearing before receiving their colours. After the mutiny of 1676, Ravenna expanded the ceremony into a record naming each unit, its supporting province and the official responsible for supply. A church copy preserves the obligation after its commander dies. Candlelight makes glass fragments appear to move across armour. As campaigns lengthen, families visit the prayer rolls and discover that fresh pages grow thicker each season. The basilica joins sacred authority to the empire's machinery of accountability, lending solemn endurance to a system whose demands eventually return as names of the dead.",
+    "traits": [
+      {
+        "label_vi": "Lời thề có bản sao",
+        "label_en": "An Oath in Duplicate",
+        "description_vi": "Giáo hội giữ chứng từ nghĩa vụ quân đội.",
+        "description_en": "The church preserves military obligations."
+      },
+      {
+        "label_vi": "Mắt khảm vàng",
+        "label_en": "Mosaic Witnesses",
+        "description_vi": "Nghi thức gắn việc phục vụ với ký ức đế chế.",
+        "description_en": "Ritual binds service to imperial memory."
+      }
+    ],
+    "benefit_vi": "Củng cố tính liên tục của quân đoàn và thẩm quyền Ravenna.",
+    "benefit_en": "Reinforces legion continuity and Ravenna’s authority.",
+    "cost_vi": "Danh sách tử trận làm sâu sự bất mãn của các tỉnh nuôi quân.",
+    "cost_en": "Casualty rolls deepen resentment in supporting provinces.",
+    "status_vi": "Thánh đường tuyên thệ của quân đoàn.",
+    "status_en": "Legion oath sanctuary.",
+    "historical_anchor_vi": "San Vitale là công trình thế kỷ VI của Ravenna; cơ chế lưu lời thề là sáng tạo theo bộ máy quân sự TFAM.",
+    "historical_anchor_en": "San Vitale is a sixth-century Ravenna monument; oath administration extends TFAM’s military institutions.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/788/"
+    ],
+    "art_prompt": "San Vitale Ravenna glowing gold mosaics, legion oath ceremony small figures, cold blue shadows, intricate painterly architecture"
+  },
+  {
+    "id": "rome-imperial-forum",
+    "faction_id": "western_roman_empire",
+    "name_vi": "Diễn đàn La Mã — Những cột đá gọi quân",
+    "name_en": "Roman Forum — Columns Calling the Legions",
+    "location_vi": "Roma, Ý",
+    "location_en": "Rome, Italy",
+    "category": "ruin",
+    "epithet_vi": "Đá đổ vẫn định hàng ngũ",
+    "epithet_en": "Fallen Stone Still Orders the Ranks",
+    "lore_vi": "Ravenna cho dựng những bục gỗ tháo lắp giữa các cột đá gãy của diễn đàn, biến nơi từng chứa lời tranh luận thành quảng trường tuyên đọc sắc lệnh. Các đoàn tuyển quân đi qua theo tỉnh; người ghi sổ đứng dưới mái bạt, đóng dấu lên giấy rồi chỉ về nơi phát áo và lương khô. Những học giả được phép tìm văn khắc cổ khi buổi tập kết kết thúc. Họ đọc các chiến thắng của một thời khác trong lúc toán phu dọn rơm của ngựa khỏi chân tượng. Công trình cho đế chế một hình ảnh bất diệt đủ lớn để chứa thêm một thế hệ. Những người trở về phải tìm chỗ đứng giữa hình ảnh ấy bằng chính thương tích của mình.",
+    "lore_en": "Ravenna erected removable timber platforms among the Forum's broken columns, turning a place of ancient debate into a ground for proclamations. Recruits file through by province while clerks stamp papers beneath canvas and direct them towards coats and travelling rations. Scholars may inspect inscriptions once mustering ends. They read victories from another age as labourers clear horse straw from the statues. The ruins offer the empire an image of permanence spacious enough to contain another generation of soldiers. Veterans returning to the same ground must locate their own place within that image, carrying injuries that the inscriptions have no language to record.",
+    "traits": [
+      {
+        "label_vi": "Tập kết dưới cổ tích",
+        "label_en": "Mustering beneath Antiquity",
+        "description_vi": "Không gian cổ được dùng cho huy động quần chúng.",
+        "description_en": "Ancient space hosts public mobilization."
+      },
+      {
+        "label_vi": "Sắc lệnh giữa phế tích",
+        "label_en": "Decrees among Ruins",
+        "description_vi": "Tuyên truyền nối chiến dịch hiện tại với đế chế cổ.",
+        "description_en": "Propaganda connects current campaigns with ancient empire."
+      }
+    ],
+    "benefit_vi": "Tăng khả năng huy động và lòng tự hào đế chế.",
+    "benefit_en": "Supports recruitment and imperial pride.",
+    "cost_vi": "Tôn sùng chiến thắng gây sức ép phải tiếp tục mở chiến dịch.",
+    "cost_en": "Celebrated conquest pressures the state to open further campaigns.",
+    "status_vi": "Di tích kiêm quảng trường huy động.",
+    "status_en": "Ruins and mobilization ground.",
+    "historical_anchor_vi": "Diễn đàn có thật tại Roma; sử dụng hành chính quân sự là biến thể TFAM.",
+    "historical_anchor_en": "Rome’s Forum is historical; its military-administrative use is a TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/91/"
+    ],
+    "art_prompt": "Roman Forum ruined columns in snow, orderly military muster, red black standards, wide epic composition painterly"
+  },
+  {
+    "id": "rome-venice-arsenal",
+    "faction_id": "western_roman_empire",
+    "name_vi": "Arsenale Venezia — Nhịp búa trên đầm phá",
+    "name_en": "Venetian Arsenal — Hammers over the Lagoon",
+    "location_vi": "Venezia, bắc Adriatic",
+    "location_en": "Venice, northern Adriatic",
+    "category": "industry",
+    "epithet_vi": "Đầm nước nuôi những cuộc viễn chinh",
+    "epithet_en": "The Lagoon Feeds Expeditions",
+    "lore_vi": "Các cổng xưởng Venezia đóng lại sau từng đoàn xe gỗ tới từ đất liền. Ravenna buộc những phường đóng tàu giữ bảng vật tư thống nhất và dự trữ cả phụ tùng cho những hải đội ở xa. Trên đầm phá, thuyền nhỏ chở đinh, dây chão và khẩu phần qua những luồng được đánh dấu bằng cọc. Khi băng nổi chặn mặt nước, thợ phải đưa hàng lên xe trượt trên cầu gỗ tạm. Những chuyến tàu quân nhu ra đi trong im lặng trước bình minh. Năng lực của xưởng giúp đế chế thay thế tổn thất, nhưng mỗi chiến dịch kéo dài lại để lại ít thuyền chở cá và ít gỗ sưởi hơn cho những khu phố quanh nó.",
+    "lore_en": "Venice's yard gates close behind timber wagons arriving from the mainland. Ravenna requires shipwright guilds to maintain common material accounts and spare fittings for distant squadrons. Small boats carry nails, cordage and rations through channels marked by stakes. When drifting ice obstructs them, workers transfer loads to sledges on temporary wooden bridges. Supply ships depart quietly before dawn. The Arsenal allows the empire to replace losses and sustain several maritime fronts, but prolonged campaigns leave fewer boats for fishing and less heating timber for surrounding neighbourhoods. Its hammering is heard as assurance aboard imperial transports and as another requisition in the houses beside the lagoon.",
+    "traits": [
+      {
+        "label_vi": "Kho phụ tùng chung",
+        "label_en": "Common Spare Stores",
+        "description_vi": "Dự trữ giúp sửa tàu trở về từ nhiều mặt trận.",
+        "description_en": "Stores support ships returning from several fronts."
+      },
+      {
+        "label_vi": "Luồng nước có cọc",
+        "label_en": "Staked Channels",
+        "description_vi": "Hậu cần đầm phá dựa vào người dẫn luồng địa phương.",
+        "description_en": "Lagoon logistics depend on local pilots."
+      }
+    ],
+    "benefit_vi": "Duy trì tàu vận tải và năng lực sửa chữa Adriatic.",
+    "benefit_en": "Sustains transport shipping and Adriatic repairs.",
+    "cost_vi": "Trưng dụng gỗ và thuyền làm suy yếu sinh kế địa phương.",
+    "cost_en": "Timber and boat requisitions damage local livelihoods.",
+    "status_vi": "Công xưởng chịu điều phối của Ravenna.",
+    "status_en": "Yards coordinated by Ravenna.",
+    "historical_anchor_vi": "Venezia là cường quốc hàng hải lịch sử; bộ máy trưng dụng thống nhất thuộc Tây La Mã TFAM.",
+    "historical_anchor_en": "Venice’s maritime heritage is historical; unified imperial requisition belongs to TFAM.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/394/"
+    ],
+    "art_prompt": "Venetian Arsenal brick gate massive timber hulls icy lagoon, red bronze winter industrial painting"
+  },
+  {
+    "id": "rome-appian-road",
+    "faction_id": "western_roman_empire",
+    "name_vi": "Via Appia — Con đường của những người trở về",
+    "name_en": "Via Appia — Road of the Returning",
+    "location_vi": "Từ Roma tới miền nam Ý",
+    "location_en": "Rome to southern Italy",
+    "category": "landscape",
+    "epithet_vi": "Đế chế dài bằng một đoàn xe",
+    "epithet_en": "An Empire as Long as Its Wagons",
+    "lore_vi": "Các kỹ sư Ravenna cho mở lại những đoạn đường cổ đã bị ruộng và xóm nhỏ nuốt mất. Phiến đá mới được đặt cạnh đá cũ; khoảng cách tới trạm đổi ngựa khắc thêm bên dưới những dòng chữ mòn. Trong mùa hành quân, Via Appia chở quân bổ sung ra cảng và đưa thương binh về phía bắc bằng cùng một tuyến. Các làng được giao giữ cống, quét tuyết và chất củi ở trạm. Một con đường được bảo dưỡng đều đặn khiến mệnh lệnh của hoàng đế đi xa hơn. Người dân sống cạnh nó cũng hiểu rất rõ: chiến tranh có thể quay trở lại bất cứ lúc nào, bằng hàng bánh xe không dứt trước cửa nhà.",
+    "lore_en": "Ravenna's engineers reopen stretches of ancient road swallowed by fields and settlements. New paving rests beside old stone; distances to remount posts are carved beneath worn inscriptions. During campaigning seasons, the Via Appia carries replacements towards the ports and wounded men north along the same route. Villages maintain drains, clear snow and stock the stations with firewood. Consistent maintenance allows the emperor's orders to reach further and his armies to return in order. Those living beside the road understand the reciprocal burden: the next war can arrive as an unending procession of wagon wheels outside their doors, consuming supplies before a single battle is fought.",
+    "traits": [
+      {
+        "label_vi": "Trạm ngựa nối tiếp",
+        "label_en": "Successive Remounts",
+        "description_vi": "Kho và trạm chia hành trình thành chặng có thể dự báo.",
+        "description_en": "Stations divide journeys into predictable stages."
+      },
+      {
+        "label_vi": "Đá cũ dưới bánh mới",
+        "label_en": "Old Stones, New Wheels",
+        "description_vi": "Tu sửa dựa trên hành lang đường cổ.",
+        "description_en": "Repairs reuse an ancient transport corridor."
+      }
+    ],
+    "benefit_vi": "Tăng độ tin cậy của tiếp tế và di chuyển quân.",
+    "benefit_en": "Improves supply reliability and troop movement.",
+    "cost_vi": "Dân cư ven đường chịu lao dịch và trưng thu liên tục.",
+    "cost_en": "Roadside communities bear recurring labour and requisitions.",
+    "status_vi": "Đang mở rộng các trạm mùa đông.",
+    "status_en": "Winter stations being extended.",
+    "historical_anchor_vi": "Via Appia là đường La Mã cổ; mạng lưới tiếp tế đầu thế kỷ XVIII là phục dựng TFAM.",
+    "historical_anchor_en": "The Via Appia is an ancient Roman road; its eighteenth-century supply system is TFAM reconstruction.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1708/"
+    ],
+    "art_prompt": "Via Appia ancient paving through snowy cypress landscape, long legion supply wagons, distant warm waystation painterly"
+  },
+  {
+    "id": "rome-castel-del-monte",
+    "faction_id": "western_roman_empire",
+    "name_vi": "Castel del Monte — Tám mặt của một mệnh lệnh",
+    "name_en": "Castel del Monte — Eight Faces of Command",
+    "location_vi": "Apulia, miền nam Ý",
+    "location_en": "Apulia, southern Italy",
+    "category": "fortress",
+    "epithet_vi": "Từ mọi phía đều thấy cùng một tháp",
+    "epithet_en": "The Same Tower from Every Side",
+    "lore_vi": "Tòa thành tám cạnh được Ravenna chuyển thành kho bản đồ và trường huấn luyện sĩ quan liên lạc. Tại đây, học viên phải đưa cùng một mệnh lệnh qua cờ, tù và và thư niêm phong, rồi giải thích cách tiếp tục khi một kênh bị cắt. Những căn phòng đá chỉ đủ ấm quanh bàn học; lính gác thay phiên đi trên sân đầy tuyết để giữ chân khỏi tê. Bài kiểm tra cuối cùng diễn ra ban đêm trên những ngọn đồi không đèn. Người tốt nghiệp đem theo một bộ dấu hiệu và thói quen tìm người thay thế mình. Đó là thứ Ravenna cần ở một bộ máy phải tiếp tục chạy sau khi chỉ huy đã ngã xuống.",
+    "lore_en": "Ravenna converts the eight-sided castle into a map repository and school for liaison officers. Cadets carry the same order by flag, horn and sealed dispatch, then explain how operations continue when one channel fails. Stone rooms are warm only around the study tables; guards walk the snowy courtyard to keep feeling in their feet. The final examination takes place at night among unlit hills. Graduates leave with a common signal system and the habit of identifying their own replacement. These are useful qualities in an imperial machine expected to continue functioning after its commanding officer falls, though initiative outside the prescribed system can become difficult to reward.",
+    "traits": [
+      {
+        "label_vi": "Ba đường truyền lệnh",
+        "label_en": "Three Paths for Orders",
+        "description_vi": "Tín hiệu dự phòng duy trì chỉ huy khi bị chia cắt.",
+        "description_en": "Redundant signals preserve command after disruption."
+      },
+      {
+        "label_vi": "Học cách bị thay thế",
+        "label_en": "Learning to Be Replaced",
+        "description_vi": "Sĩ quan huấn luyện người kế nhiệm ngay trong đơn vị.",
+        "description_en": "Officers train successors within their units."
+      }
+    ],
+    "benefit_vi": "Giảm đứt gãy chỉ huy trên chiến trường.",
+    "benefit_en": "Reduces breakdowns in battlefield command.",
+    "cost_vi": "Quy trình chặt dễ khiến sĩ quan chậm ứng biến trước tình huống mới.",
+    "cost_en": "Rigid procedure can delay adaptation to unfamiliar situations.",
+    "status_vi": "Trường liên lạc quân đoàn.",
+    "status_en": "Legion liaison school.",
+    "historical_anchor_vi": "Castel del Monte do Frederick II xây ở thế kỷ XIII; trường sĩ quan là sáng tạo TFAM.",
+    "historical_anchor_en": "Frederick II built Castel del Monte in the thirteenth century; the school is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/398/"
+    ],
+    "art_prompt": "Castel del Monte eight-sided pale stone fortress snowy Apulian hill, signal flags red black, austere painterly fantasy"
+  },
+  {
+    "id": "rome-pompeii",
+    "faction_id": "western_roman_empire",
+    "name_vi": "Pompeii — Thành phố dưới tro lạnh",
+    "name_en": "Pompeii — City beneath Cold Ash",
+    "location_vi": "Campania, gần Vesuvius",
+    "location_en": "Campania, near Vesuvius",
+    "category": "ruin",
+    "epithet_vi": "Mặt đất đã từng nuốt một thành phố",
+    "epithet_en": "The Earth Once Swallowed a City",
+    "lore_vi": "Những người đào mương phát hiện tường vẽ dưới lớp đất cứng và gửi mảnh đồ dùng về Ravenna. Triều đình ra lệnh mở cuộc khai quật có tổ chức sớm hơn nhiều dự định của các học giả địa phương. Binh lính dựng mái che, đánh số phòng và canh từng sọt hiện vật, trong khi một nhóm riêng khảo sát những vật thể có dấu hiệu dị thường. Các lối đi được dọn ra khỏi tro lần lượt hiện dưới ánh đèn dầu. Những căn nhà trống khiến thợ đào im tiếng khi bước vào. Đế chế tìm ở Pompeii kiến thức cùng uy danh của kẻ gọi quá khứ trở lại; dưới chân núi, người dân chỉ xin được báo trước nếu mặt đất bắt đầu rung.",
+    "lore_en": "Ditch diggers discover painted walls beneath frozen soil and send fragments to Ravenna. The court orders a systematic excavation earlier than local scholars had contemplated. Soldiers erect shelters, number rooms and guard baskets of finds while a separate party examines objects displaying unusual properties. Oil lamps illuminate passages cleared from ash. Workers fall quiet upon entering the empty houses. The empire seeks knowledge and the prestige of summoning its past into view, but residents beneath the mountain ask for warning if the ground begins to shake. Excavation promises discoveries while consuming labour, exposing fragile remains and placing ambition close to a danger no imperial decree can command.",
+    "traits": [
+      {
+        "label_vi": "Khai quật có quân canh",
+        "label_en": "Guarded Excavation",
+        "description_vi": "Triều đình kiểm soát hiện vật và báo cáo phát hiện.",
+        "description_en": "The court controls finds and discovery reports."
+      },
+      {
+        "label_vi": "Bóng núi lửa",
+        "label_en": "Volcanic Shadow",
+        "description_vi": "Mọi hoạt động diễn ra cạnh một hiểm họa tự nhiên.",
+        "description_en": "All work proceeds beside a natural hazard."
+      }
+    ],
+    "benefit_vi": "Cung cấp tư liệu kỹ thuật cổ và đầu mối khảo sát Vestigium.",
+    "benefit_en": "Provides ancient technical evidence and leads for Vestigium investigation.",
+    "cost_vi": "Tốn nhân lực; đào bới cùng tai biến núi lửa có thể phá hủy di sản.",
+    "cost_en": "Consumes labour; excavation and volcanic events can destroy remains.",
+    "status_vi": "Khai quật sớm, có khu vực hạn chế.",
+    "status_en": "Early excavation with restricted sectors.",
+    "historical_anchor_vi": "Pompeii bị Vesuvius vùi năm 79; TFAM đưa khai quật quy mô lớn tới sớm.",
+    "historical_anchor_en": "Vesuvius buried Pompeii in AD 79; TFAM advances large-scale excavation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/829/"
+    ],
+    "art_prompt": "Pompeii excavation under snowy Vesuvius, oil lamps reveal Roman fresco, canvas shelters, muted vermilion ash grey painterly"
+  },
+  {
+    "id": "habsburg-wawel",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Wawel — Ngọn đồi của hai di sản",
+    "name_en": "Wawel — Hill of Two Inheritances",
+    "location_vi": "Kraków, Ba Lan",
+    "location_en": "Kraków, Poland",
+    "category": "seat",
+    "epithet_vi": "Một ngai vàng phải giữ nhiều quê hương",
+    "epithet_en": "One Throne Must Hold Many Homelands",
+    "lore_vi": "Những hòm gia phả tới Wawel cùng đoàn người Habsburg mất đất ở phương tây. Người giữ kho phải xếp chúng cạnh chứng thư của các dòng họ Ba Lan, đánh dấu thứ tự để mỗi cuộc tranh luận còn có thể kết thúc trước khi hết củi. Khi Rouge đăng quang năm 1716, ngọn đồi trở thành nơi một triều đại lưu vong tìm được nền đá mới. Dưới các cổng thành, sứ giả mang theo yêu sách gửi Paris và điều khoản cần thương lượng với Madrid. Trên cao, những ngôi mộ nhắc vị vua mới rằng người Ba Lan cũng có tổ tiên để bảo vệ. Mỗi lời hứa phục hồi Habsburg vì vậy phải đi cùng một lời bảo đảm cho đất nước đã trao ông vương miện.",
+    "lore_en": "Chests of genealogies arrive at Wawel with Habsburg families displaced from the west. Keepers shelve them beside Polish charters, recording precedence so disputes may finish before the firewood does. Rouge's coronation in 1716 gives an exiled dynasty a new foundation. Envoys pass through the gates carrying demands for Paris and terms for Madrid. Above them, royal tombs remind the new sovereign that Poland has ancestors of its own to defend. Every promise of Habsburg restoration therefore requires a guarantee to the country that furnished his crown. Wawel joins two inheritances while making their competing expectations visible in every audience.",
+    "traits": [
+      {
+        "label_vi": "Hai kho gia phả",
+        "label_en": "Two Genealogical Archives",
+        "description_vi": "Quyền thừa kế được thương lượng giữa hai truyền thống.",
+        "description_en": "Succession is negotiated between two traditions."
+      },
+      {
+        "label_vi": "Vương miện mới",
+        "label_en": "A New Crown",
+        "description_vi": "Lễ đăng quang biến lưu vong thành quyền lực có lãnh thổ.",
+        "description_en": "Coronation transforms exile into territorial authority."
+      }
+    ],
+    "benefit_vi": "Gắn kết giới quý tộc quanh ngôi vua mới.",
+    "benefit_en": "Unites nobles around the new throne.",
+    "cost_vi": "Yêu sách phục quốc có thể lấn át lợi ích Ba Lan.",
+    "cost_en": "Restoration claims can overshadow Polish interests.",
+    "status_vi": "Nơi đăng quang của Rouge năm 1716.",
+    "status_en": "Rouge’s coronation site in 1716.",
+    "historical_anchor_vi": "Wawel là quần thể hoàng gia có thật; đăng quang Rouge theo lore hiện hành, các kho gia phả là bổ sung TFAM.",
+    "historical_anchor_en": "Wawel is historical; Rouge’s coronation follows existing lore, while the archives are new TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/29/"
+    ],
+    "art_prompt": "Wawel castle cathedral snowy hill above Vistula, white red and black gold standards, royal procession tiny, painterly epic"
+  },
+  {
+    "id": "habsburg-wieliczka",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Wieliczka — Vương quốc muối dưới chân người sống",
+    "name_en": "Wieliczka — Salt Kingdom beneath the Living",
+    "location_vi": "Gần Kraków",
+    "location_en": "Near Kraków",
+    "category": "industry",
+    "epithet_vi": "Mùa đông phải trả giá bằng từng hạt muối",
+    "epithet_en": "Winter Is Paid in Grains of Salt",
+    "lore_vi": "Khi kho lương phía đông cần giữ thịt qua nhiều tháng, các quan quân nhu tìm tới cửa mỏ Wieliczka với đoàn xe và giấy trưng mua. Những thợ mỏ đưa họ xuống các hành lang mà tiếng búa vọng qua nhiều tầng, nơi cột gỗ chống mái phải được thay trước khi bất kỳ lá cờ nào kịp xuất hiện. Triều đình mở thêm phòng dự trữ dưới đất, dùng nhiệt độ ổn định để giữ những thứ dễ hỏng trên mặt đất. Thuế muối trở thành một sợi dây nối ngai vàng với chiến tuyến. Dưới ánh đèn, người thợ vẫn phải phân biệt tiếng gỗ rạn với tiếng bước chân; lời hứa thắng trận chẳng thể đỡ được một mái hầm sập.",
+    "lore_en": "As eastern granaries require meat preserved for months, quartermasters arrive at Wieliczka with wagons and purchase orders. Miners lead them into galleries where hammer blows travel through several levels and timber supports require replacement before any standard can be raised. The court opens additional underground stores, using steady temperatures to protect supplies vulnerable above ground. Salt revenue binds the throne to the front. Beneath the lamps, miners must still distinguish cracking timber from approaching footsteps. Promised victory cannot hold up a collapsed roof. The mine sustains armies through preservation and income while transferring the pressure of distant campaigns to men working beneath the earth.",
+    "traits": [
+      {
+        "label_vi": "Lương thực qua mùa đông",
+        "label_en": "Food across Winter",
+        "description_vi": "Muối bảo quản khẩu phần cho các đạo quân xa.",
+        "description_en": "Salt preserves rations for distant armies."
+      },
+      {
+        "label_vi": "Kho dưới lòng đất",
+        "label_en": "Underground Stores",
+        "description_vi": "Hầm mỏ tạo không gian dự trữ được che chắn.",
+        "description_en": "Mine galleries provide sheltered storage."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ bảo quản quân lương và thu ngân khố.",
+    "benefit_en": "Supports ration preservation and treasury income.",
+    "cost_vi": "Khai thác quá mức làm tăng tai nạn và lệ thuộc lao dịch.",
+    "cost_en": "Overworking increases accidents and dependence on compelled labour.",
+    "status_vi": "Mỏ hoàng gia chịu trưng mua quân nhu.",
+    "status_en": "Royal mine under military procurement.",
+    "historical_anchor_vi": "Các mỏ muối Wieliczka và Bochnia có lịch sử trung đại; dự trữ chiến tranh là bổ sung TFAM.",
+    "historical_anchor_en": "Wieliczka and Bochnia have medieval salt-mining histories; wartime storage is TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/32/"
+    ],
+    "art_prompt": "Wieliczka underground salt gallery timber supports lanterns wagon stores, luminous warm salt cold dark shafts, painterly"
+  },
+  {
+    "id": "habsburg-prague",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Hradčany — Lâu đài của những con dấu",
+    "name_en": "Hradčany — Castle of the Seals",
+    "location_vi": "Prague, Bohemia",
+    "location_en": "Prague, Bohemia",
+    "category": "knowledge",
+    "epithet_vi": "Một văn kiện phải đi qua nhiều bàn tay",
+    "epithet_en": "A Charter Passes through Many Hands",
+    "lore_vi": "Các đại diện Bohemia giữ trong lâu đài Prague những bản quyền miễn thuế, nghĩa vụ quân sự và đặc quyền đô thị mà mỗi đời vua lại phải xác nhận. Khi liên kết Habsburg–Ba Lan thành hình, một văn phòng mới được mở để đối chiếu những tờ giấy viết bằng nhiều thứ tiếng. Ngoài sân, lính đứng cạnh xe chở tiền; trong phòng, một câu dịch sai có thể giữ cả đoàn xe tới hết tuần. Những học giả được trả lương để tìm cách khiến hai hệ luật cùng vận hành. Công trình cho đế quốc khả năng dùng thỏa thuận thay cho cuộc vây hãm. Nó cũng cho các lãnh chúa thêm một cánh cửa để chặn mệnh lệnh bằng chính điều khoản mà triều đình đã ký.",
+    "lore_en": "Bohemian representatives preserve tax immunities, military obligations and urban privileges within Prague Castle, each requiring confirmation by successive rulers. As Habsburg–Poland takes shape, a new office compares documents written in several languages. Soldiers wait beside money wagons in the courtyard while a mistranslated sentence can detain the convoy for a week. Scholars are paid to make two legal traditions function together. The castle allows the empire to govern through agreements that might otherwise require sieges. It also gives magnates another door through which to obstruct an order using the Crown's own signed clauses, making patient legal work as essential as military force.",
+    "traits": [
+      {
+        "label_vi": "Ấn của các xứ",
+        "label_en": "Provincial Seals",
+        "description_vi": "Luật địa phương được lưu và đối chiếu.",
+        "description_en": "Local laws are archived and compared."
+      },
+      {
+        "label_vi": "Học giả dịch luật",
+        "label_en": "Legal Translators",
+        "description_vi": "Người dịch giữ vai trò then chốt trong hành chính đa ngữ.",
+        "description_en": "Translators hold a central role in multilingual government."
+      }
+    ],
+    "benefit_vi": "Tăng khả năng quản trị các lãnh thổ khác biệt.",
+    "benefit_en": "Improves administration across diverse territories.",
+    "cost_vi": "Đặc quyền chồng chéo làm chậm thuế và huy động.",
+    "cost_en": "Overlapping privileges delay taxation and mobilization.",
+    "status_vi": "Trung tâm đối chiếu đặc quyền Bohemia.",
+    "status_en": "Centre for reviewing Bohemian privileges.",
+    "historical_anchor_vi": "Lâu đài Prague thuộc đô thị lịch sử; cơ quan hòa giải luật là bổ sung TFAM.",
+    "historical_anchor_en": "Prague Castle belongs to the historic city; the legal reconciliation office is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/616/"
+    ],
+    "art_prompt": "Prague castle Hradcany snow red roofs warm archive windows, sealed document wagons, dignified historical painterly"
+  },
+  {
+    "id": "habsburg-vienna-hofburg",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Hofburg — Những hành lang đợi ngày trở lại",
+    "name_en": "Hofburg — Corridors Awaiting Return",
+    "location_vi": "Vienna, Áo",
+    "location_en": "Vienna, Austria",
+    "category": "seat",
+    "epithet_vi": "Di sản giữ ấm bằng lời hứa",
+    "epithet_en": "An Inheritance Warmed by Promises",
+    "lore_vi": "Hofburg giữ những căn phòng dành cho các gia đình từng tin quyền lực phương tây của mình sẽ tồn tại mãi. Sau các cuộc chinh phạt của Pháp, người đến trình diện mang theo bản đồ đất đã mất và thư cầu viện gửi từ những người còn ở lại. Một hội đồng phục hồi tài sản được đặt trong cung, đếm nghĩa vụ quân sự bên cạnh giá trị từng điền trang. Quân lính cần tiền ngay; những người ký tên thường chỉ có lời hứa về ngày trở về. Hofburg cho Rouge một mạng lưới liên lạc xuyên biên giới. Mỗi bữa ăn trong các căn phòng ấy cũng nuôi thêm kỳ vọng rằng hoàng đế mới sẽ đưa quân đi lấy lại mọi thứ.",
+    "lore_en": "The Hofburg shelters rooms for families who once believed their western power permanent. After French conquest, petitioners arrive with maps of lost estates and letters from relatives left behind. A restitution council counts military obligations beside the value of each property. Soldiers require immediate payment; many signatories possess only promises of eventual return. The palace offers Rouge a network of contacts across the frontier, preserving loyalties and information that conquest has failed to erase. Every meal served within those rooms also feeds expectations that the new emperor will march west to recover everything, regardless of the eastern war already consuming his strength.",
+    "traits": [
+      {
+        "label_vi": "Bản đồ đất mất",
+        "label_en": "Maps of Lost Estates",
+        "description_vi": "Gia tộc lưu vong duy trì liên hệ với phương tây.",
+        "description_en": "Exiled houses maintain western connections."
+      },
+      {
+        "label_vi": "Hội đồng hoàn trả",
+        "label_en": "Restitution Council",
+        "description_vi": "Yêu sách được ghi thành nghĩa vụ chính trị.",
+        "description_en": "Claims become recorded political obligations."
+      }
+    ],
+    "benefit_vi": "Cung cấp tình báo và quan hệ ngoại giao trong vùng Đức–Áo.",
+    "benefit_en": "Provides intelligence and diplomatic contacts in German–Austrian lands.",
+    "cost_vi": "Phe phục quốc gây áp lực mở thêm mặt trận.",
+    "cost_en": "Restoration factions press for an additional front.",
+    "status_vi": "Cung điện tiếp nhận giới lưu vong.",
+    "status_en": "Palace receiving displaced houses.",
+    "historical_anchor_vi": "Hofburg là trung tâm quyền lực Habsburg lịch sử; hội đồng sau chinh phạt là sáng tạo TFAM.",
+    "historical_anchor_en": "The Hofburg is a historical Habsburg seat; the post-conquest council is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1033/"
+    ],
+    "art_prompt": "Vienna Hofburg winter courtyard subdued imperial red black gold, exiles coaches worn banners, elegiac painterly architecture"
+  },
+  {
+    "id": "habsburg-kyiv-sophia",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Thánh Sophia Kyiv — Những mái vòm giữa hai chiến tuyến",
+    "name_en": "Saint Sophia of Kyiv — Domes between Fronts",
+    "location_vi": "Kyiv, Ukraina",
+    "location_en": "Kyiv, Ukraine",
+    "category": "sacred",
+    "epithet_vi": "Chuông ngân qua những lời thề khác nhau",
+    "epithet_en": "Bells across Divided Oaths",
+    "lore_vi": "Khi chiến tuyến với Novgorod kéo dài, người giữ Thánh Sophia nhận cùng lúc thư của các gia đình có con đứng ở hai phía. Họ mở nơi trú cho những đoàn dân bị dời khỏi đường quân đi và ghi tên người mất tích bên cạnh sổ lễ. Các viên chức Habsburg–Ba Lan cần sự hợp tác của giáo sĩ để phân phối lương; giáo sĩ yêu cầu quyền bảo vệ người trong khuôn viên. Những điều kiện ấy được thương lượng ngay dưới các mái vòm. Địa danh giúp đế quốc giữ một thành phố bằng lòng tin được vay từng ngày. Nếu binh lính phá cam kết, tiếng chuông vốn gọi người tới nhận bánh có thể gọi cả thành phố chứng kiến sự phản bội.",
+    "lore_en": "As the Novgorod front lengthens, Saint Sophia's custodians receive letters from families with sons serving on both sides. They shelter people displaced from military roads and enter missing names beside the liturgical registers. Habsburg–Polish officials require clerical cooperation to distribute food; the clergy demand protection for those within the precinct. These terms are negotiated beneath the domes. The sanctuary helps the empire hold a city through trust borrowed day by day. Should troops violate the agreement, bells that once summoned people for bread may gather them to witness a betrayal, turning a vital instrument of reconciliation into a centre of opposition.",
+    "traits": [
+      {
+        "label_vi": "Danh sách người mất tích",
+        "label_en": "Registers of the Missing",
+        "description_vi": "Thánh đường giữ liên lạc giữa gia đình bị chiến tranh chia cắt.",
+        "description_en": "The sanctuary connects families divided by war."
+      },
+      {
+        "label_vi": "Quyền trú trong tường",
+        "label_en": "Sanctuary within the Walls",
+        "description_vi": "Việc phân phối cứu tế phụ thuộc cam kết bảo hộ.",
+        "description_en": "Relief depends on guarantees of protection."
+      }
+    ],
+    "benefit_vi": "Ổn định dân cư và hỗ trợ cứu tế vùng chiến tuyến.",
+    "benefit_en": "Stabilizes communities and supports frontline relief.",
+    "cost_vi": "Vi phạm quyền trú ẩn dễ châm ngòi bất ổn tôn giáo.",
+    "cost_en": "Violating sanctuary can ignite religious unrest.",
+    "status_vi": "Thánh đường và nơi trú dân thường.",
+    "status_en": "Cathedral and civilian sanctuary.",
+    "historical_anchor_vi": "Thánh Sophia Kyiv có nguồn gốc thế kỷ XI; vai trò cứu tế trong chiến tranh là bổ sung TFAM.",
+    "historical_anchor_en": "Kyiv’s Saint Sophia dates to the eleventh century; its wartime relief role is TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/527/"
+    ],
+    "art_prompt": "Kyiv Saint Sophia historic domes in deep snow displaced families sheltered candles blue gold solemn painterly"
+  },
+  {
+    "id": "habsburg-kutna-hora",
+    "faction_id": "habsburg_poland",
+    "name_vi": "Kutná Hora — Đồng bạc nuôi đại bàng",
+    "name_en": "Kutná Hora — Silver Feeding the Eagle",
+    "location_vi": "Bohemia",
+    "location_en": "Bohemia",
+    "category": "industry",
+    "epithet_vi": "Dưới mái thánh đường, người ta đếm kim loại",
+    "epithet_en": "Beneath the Cathedral, They Count Metal",
+    "lore_vi": "Vết tích những mạch bạc cũ khiến Kutná Hora trở thành điểm đến của thợ mỏ, chủ nợ và quan thuế. Triều đình mới cho khảo lại các đường hầm bị bỏ, đặt việc đúc tiền bên cạnh hợp đồng mua lương cho chiến tuyến phía đông. Nhà thờ Thánh Barbara đứng trên thành phố như lời cầu xin của nhiều đời thợ; dưới chân nó, bàn cân quyết định một đồng tiền có được chấp nhận hay phải nấu lại. Việc khôi phục khai thác đem công ăn việc làm tới các phố lạnh. Nhưng những khoản ứng trước từ chủ nợ cũng trao cho họ quyền đòi phần bạc chưa hề lên khỏi đất, biến tương lai chiến thắng thành một tài sản đã bị cầm cố.",
+    "lore_en": "Old silver seams draw miners, creditors and tax officials to Kutná Hora. The new court surveys abandoned workings and connects minting contracts with purchases for the eastern front. Saint Barbara's church stands above the town like a prayer offered by generations of miners; below, balances decide whether a coin is accepted or melted again. Renewed extraction brings employment to cold streets. Advances from creditors also grant claims upon silver still underground. Future victory becomes collateral already pledged. The district can give the empire immediate means to pay soldiers, but every successful levy strengthens people whose fortunes now depend upon continuous extraction and dependable repayment.",
+    "traits": [
+      {
+        "label_vi": "Bàn cân hoàng gia",
+        "label_en": "Royal Assay Scales",
+        "description_vi": "Kim loại được kiểm định trước khi thành tiền.",
+        "description_en": "Metal is assayed before entering coinage."
+      },
+      {
+        "label_vi": "Mạch bạc thế chấp",
+        "label_en": "Mortgaged Seams",
+        "description_vi": "Chủ nợ nắm quyền trên sản lượng tương lai.",
+        "description_en": "Creditors hold claims on future output."
+      }
+    ],
+    "benefit_vi": "Bổ sung nguồn bạc và khả năng trả lương quân.",
+    "benefit_en": "Adds silver and capacity to pay troops.",
+    "cost_vi": "Nợ khai thác làm giảm tự do tài chính của vương quyền.",
+    "cost_en": "Mining debt restricts the Crown’s financial freedom.",
+    "status_vi": "Đang khảo sát lại các đường mỏ.",
+    "status_en": "Old workings being resurveyed.",
+    "historical_anchor_vi": "Kutná Hora phát triển nhờ khai thác bạc từ thế kỷ XIII; phục hồi tài chính đế quốc thuộc TFAM.",
+    "historical_anchor_en": "Kutná Hora grew through silver mining from the thirteenth century; imperial financial revival is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/732/"
+    ],
+    "art_prompt": "Kutna Hora St Barbara Gothic roof and silver mining shafts winter smoke, coin assay lamp, rich muted copper purple painterly"
+  },
+  {
+    "id": "novgorod-veche-bell",
+    "faction_id": "novgorod_union",
+    "name_vi": "Chuông Veche — Tiếng gọi chưa bị khuất phục",
+    "name_en": "Veche Bell — The Unconquered Summons",
+    "location_vi": "Sân Yaroslav, Novgorod",
+    "location_en": "Yaroslav’s Court, Novgorod",
+    "category": "seat",
+    "epithet_vi": "Một tiếng chuông gọi cả lục địa tới bàn",
+    "epithet_en": "One Bell Summons a Continent",
+    "lore_vi": "Sau chiến thắng năm 1478, Novgorod giữ được chiếc chuông triệu tập hội đồng và quyền quyết định người đứng đầu thành bang. Khi liên hiệp mở rộng, sân hội đồng nhận thêm những đoàn đại biểu mang theo phong tục, thuế khóa và nỗi sợ riêng. Người giữ chuông phải chờ các thư ủy quyền được kiểm đủ trước khi kéo dây. Đến thời Pyotr, tiếng pháo tập của quân thường trực vang tới tận bên kia sông, chen vào những cuộc tranh luận kéo dài. Chiếc chuông vẫn có thể mở phiên họp và kết thúc một nhiệm kỳ trên giấy. Việc khiến một người nắm cả quân đội chấp nhận tiếng ngân ấy ngày càng cần nhiều hơn một sợi dây trong tay người gác.",
+    "lore_en": "After the victory of 1478, Novgorod retained its assembly bell and the right to choose its chief magistrate. As the Union spread, delegations brought differing customs, taxes and fears to the court. The keeper waited for their credentials to be checked before pulling the rope. Under Pyotr, regular-army artillery practice could be heard across the river during prolonged debates. The bell still opened sessions and could end a term on paper. Persuading a commander who possessed an entire army to accept its verdict increasingly required more than the keeper's rope. The monument preserves the Union's founding claim while measuring the distance between constitutional authority and armed power.",
+    "traits": [
+      {
+        "label_vi": "Quyền triệu tập",
+        "label_en": "Right of Summons",
+        "description_vi": "Hội đồng giữ nghi thức mở và đóng nhiệm kỳ.",
+        "description_en": "The assembly retains the formal machinery of office."
+      },
+      {
+        "label_vi": "Tiếng pháo bên sông",
+        "label_en": "Guns across the River",
+        "description_vi": "Quân thường trực tạo sức ép lên lá phiếu.",
+        "description_en": "The standing army pressures the vote."
+      }
+    ],
+    "benefit_vi": "Củng cố tính chính danh liên bang và hòa giải thành bang.",
+    "benefit_en": "Strengthens federal legitimacy and civic negotiation.",
+    "cost_vi": "Đối đầu giữa hội đồng với thống soái có thể gây khủng hoảng quyền lực.",
+    "cost_en": "Assembly–commander conflict can provoke a constitutional crisis.",
+    "status_vi": "Biểu tượng đang hoạt động của hội đồng.",
+    "status_en": "Active symbol of the assembly.",
+    "historical_anchor_vi": "Novgorod có truyền thống veche; việc giữ chuông sau 1478 là điểm rẽ đã có trong lore TFAM.",
+    "historical_anchor_en": "Novgorod’s veche is historical; retaining its bell after 1478 is an established TFAM divergence.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/604/"
+    ],
+    "art_prompt": "Novgorod medieval assembly bell frosted timber frame Yaroslav court snow citizens fur coats river, bronze white crimson painterly"
+  },
+  {
+    "id": "novgorod-saint-sophia",
+    "faction_id": "novgorod_union",
+    "name_vi": "Thánh Sophia Novgorod — Kho ký ức của liên hiệp",
+    "name_en": "Saint Sophia of Novgorod — Memory of the Union",
+    "location_vi": "Novgorod",
+    "location_en": "Novgorod",
+    "category": "knowledge",
+    "epithet_vi": "Tên người còn lại khi mùa đông qua đi",
+    "epithet_en": "Names Survive the Winter",
+    "lore_vi": "Các thầy chép Novgorod giữ biên bản hội đồng cùng bản sao những điều ước thành bang trong các phòng cạnh Thánh Sophia. Mùa đông kéo dài khiến giấy, mực và củi cùng phải đi qua một kho cấp phát, buộc người học chữ ngồi gần nhau bên những bàn dài. Pyotr yêu cầu sao các bản đồ đường sông để đưa vào trường quân sự. Hội đồng đồng ý với điều kiện một bản phải ở lại thành phố. Từ những tờ giấy ấy, liên hiệp biết nơi nào còn kho lương và làng nào đã mất dân. Quyền được biết có thể giúp một đoàn cứu tế tìm đúng bến, đồng thời giúp người thu thuế tìm được cánh cửa cuối cùng còn mở.",
+    "lore_en": "Novgorod's copyists preserve assembly minutes and civic treaties in chambers beside Saint Sophia. Prolonged winter sends paper, ink and firewood through the same ration office, gathering scholars around long tables. Pyotr orders copies of river maps for military schools. The assembly agrees on condition that one set remains in the city. Through these records, the Union learns which settlements retain granaries and which have lost their inhabitants. Such knowledge guides relief boats to the right landing and tax collectors to the last inhabited door. The archive gives distributed communities a shared memory, but its growing completeness also offers central power a map of everything it might demand.",
+    "traits": [
+      {
+        "label_vi": "Bản sao ở lại",
+        "label_en": "A Copy Remains",
+        "description_vi": "Thành bang giữ quyền lưu hồ sơ của chính mình.",
+        "description_en": "The city retains its own copies of records."
+      },
+      {
+        "label_vi": "Mực giữa mùa rét",
+        "label_en": "Ink in Winter",
+        "description_vi": "Học giả duy trì thông tin qua những kỳ phong tỏa.",
+        "description_en": "Scholars preserve information through winter isolation."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ quản trị, giáo dục và vận tải đường sông.",
+    "benefit_en": "Supports administration, education and river transport.",
+    "cost_vi": "Hồ sơ đầy đủ làm tăng khả năng trưng thu của trung ương.",
+    "cost_en": "Comprehensive records increase central extraction.",
+    "status_vi": "Thánh đường và kho tư liệu thành bang.",
+    "status_en": "Cathedral and civic archive.",
+    "historical_anchor_vi": "Thánh Sophia là công trình lịch sử Novgorod; hệ sao bản đồ liên bang là sáng tạo TFAM.",
+    "historical_anchor_en": "Saint Sophia is a historical Novgorod monument; the federal map-copying system is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/604/"
+    ],
+    "art_prompt": "Novgorod Saint Sophia white walls domes winter archive candlelight through windows, manuscript blue red restrained painterly"
+  },
+  {
+    "id": "novgorod-solovetsky",
+    "faction_id": "novgorod_union",
+    "name_vi": "Solovetsky — Thành đá giữa Biển Trắng",
+    "name_en": "Solovetsky — Boulder Walls in the White Sea",
+    "location_vi": "Quần đảo Solovetsky, Biển Trắng",
+    "location_en": "Solovetsky Islands, White Sea",
+    "category": "fortress",
+    "epithet_vi": "Biển khép lại, kho vẫn phải mở",
+    "epithet_en": "The Sea Closes; the Stores Must Open",
+    "lore_vi": "Những bức tường ghép đá lớn của Solovetsky giữ các kho được chất đầy trước khi mặt biển đóng đường. Sau khi liên hiệp thống nhất phương bắc, tu viện nhận nghĩa vụ trú người đi biển và ghi tình trạng các luồng băng cho hạm đội. Các tu sĩ chia mùa bằng số thùng cá muối, bó củi và lượt đèn còn có thể thắp trên tháp. Quan chức tới kiểm kho phải ở lại như mọi hành khách nếu gió đổi. Chính sự cô lập khiến nơi này thành kho dự phòng đáng giá, nơi quyền lực ngoài đất liền tới chậm hơn mệnh lệnh của người giữ cửa. Một quyết định đóng cổng có thể cứu kho và bỏ mặc cả đoàn người ngoài bến.",
+    "lore_en": "Solovetsky's great boulder walls enclose stores filled before sea ice closes the approaches. After the northern territories join the Union, the monastery shelters mariners and records ice conditions for the fleet. Monks measure seasons in barrels of salted fish, bundles of fuel and nights of light remaining in the tower. Visiting inspectors must stay like any other traveller when the wind turns. Isolation makes the fortress a valuable reserve and a place where mainland authority arrives more slowly than the gatekeeper's command. Closing the gates can preserve its supplies while abandoning a boatload outside, placing severe practical limits upon the refuge it promises.",
+    "traits": [
+      {
+        "label_vi": "Kho trước ngày biển đóng",
+        "label_en": "Stores before Freeze-up",
+        "description_vi": "Dự trữ được lập trước mùa cách ly.",
+        "description_en": "Reserves are assembled before seasonal isolation."
+      },
+      {
+        "label_vi": "Quyền người giữ cổng",
+        "label_en": "The Gatekeeper’s Power",
+        "description_vi": "Người tại chỗ quyết định giữa kho lương và cứu người.",
+        "description_en": "Local custodians decide between stores and rescue."
+      }
+    ],
+    "benefit_vi": "Tạo điểm trú và kho dự phòng cho tuyến biển bắc.",
+    "benefit_en": "Provides refuge and reserves for northern sea routes.",
+    "cost_vi": "Cô lập kéo dài, cứu viện khó và quyền lực địa phương lớn.",
+    "cost_en": "Prolonged isolation obstructs relief and empowers local custodians.",
+    "status_vi": "Tu viện–thành lũy dự trữ.",
+    "status_en": "Monastery-fortress reserve.",
+    "historical_anchor_vi": "Solovetsky có thành đá cuội và quần thể tu viện; nhiệm vụ hạm đội là bổ sung TFAM.",
+    "historical_anchor_en": "Solovetsky’s boulder fortress and monastery are historical; fleet duties are TFAM additions.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/632/"
+    ],
+    "art_prompt": "Solovetsky huge boulder monastery walls ice White Sea tiny rescue boats northern dusk ochre lanterns painterly epic"
+  },
+  {
+    "id": "novgorod-kizhi",
+    "faction_id": "novgorod_union",
+    "name_vi": "Kizhi — Những mái gỗ chống trời đông",
+    "name_en": "Kizhi — Timber Domes against Winter",
+    "location_vi": "Hồ Onega",
+    "location_en": "Lake Onega",
+    "category": "sacred",
+    "epithet_vi": "Một công trình được giữ bằng bàn tay cả làng",
+    "epithet_en": "A Monument Held by Every Village Hand",
+    "lore_vi": "Những mái gỗ ở Kizhi mọc lên giữa các tuyến thuyền hồ, nơi mùa đông khiến một chuyến đi thành việc phải chuẩn bị từ nhiều tuần trước. Liên hiệp cho giữ các phường thợ quanh công trình và dùng tay nghề của họ để dựng trạm sưởi trên đường quân vận. Những người được gọi đi vẫn phải gửi người về thay mái, sửa chân cột và giữ củi cho khu thánh đường. Cộng đồng coi việc chăm công trình là lời bảo đảm rằng làng còn đủ người qua mùa rét. Khi Pyotr cần thêm thợ cho hạm đội, mỗi lệnh tuyển trở thành một cuộc thương lượng giữa con tàu sẽ được đóng ở xa và mái nhà đang chờ sửa ngay trước mắt.",
+    "lore_en": "Kizhi's timber domes rise among lake routes where winter turns a short voyage into weeks of preparation. The Union preserves the craft households around the sanctuary and employs their skills to build warming stations along military roads. Men summoned away must still arrange replacements to renew shingles, repair posts and maintain the church's fuel. Caring for the monument assures the community that enough hands remain to survive another winter. When Pyotr demands more shipwrights, every levy becomes a negotiation between a hull planned far away and a roof awaiting repair at home. Kizhi supplies skill and solidarity while revealing the human limits of mobilization.",
+    "traits": [
+      {
+        "label_vi": "Phường thợ giữ mái",
+        "label_en": "Roof-Keeping Craftsmen",
+        "description_vi": "Tay nghề truyền qua gia đình và nghĩa vụ cộng đồng.",
+        "description_en": "Skills pass through families and communal duties."
+      },
+      {
+        "label_vi": "Bến hồ theo mùa",
+        "label_en": "Seasonal Lake Landing",
+        "description_vi": "Tiếp cận phụ thuộc băng và vận tải nhỏ.",
+        "description_en": "Access depends on ice and small craft."
+      }
+    ],
+    "benefit_vi": "Cung cấp thợ gỗ lành nghề và sự gắn kết địa phương.",
+    "benefit_en": "Provides skilled timber workers and local solidarity.",
+    "cost_vi": "Tuyển thợ quá mức khiến làng cùng công trình thiếu người bảo dưỡng.",
+    "cost_en": "Excess recruitment leaves villages and monument without maintenance.",
+    "status_vi": "Công trình gỗ được cộng đồng duy trì.",
+    "status_en": "Community-maintained timber sanctuary.",
+    "historical_anchor_vi": "Nhà thờ Biến hình Kizhi xây năm 1714; chỉ dùng cấu trúc phù hợp mốc này, không đưa tháp chuông thế kỷ XIX vào.",
+    "historical_anchor_en": "Kizhi’s Transfiguration Church dates to 1714; later nineteenth-century belfry is excluded from this depiction.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/544/"
+    ],
+    "art_prompt": "Kizhi Transfiguration timber church early eighteenth century wooden domes alone no later belfry, snow Lake Onega, warm wood silver sky painterly"
+  },
+  {
+    "id": "novgorod-moscow-kremlin",
+    "faction_id": "novgorod_union",
+    "name_vi": "Kremlin Moskva — Thành lũy của người từng muốn thống nhất",
+    "name_en": "Moscow Kremlin — Citadel of a Defeated Claim",
+    "location_vi": "Moskva",
+    "location_en": "Moscow",
+    "category": "seat",
+    "epithet_vi": "Những bức tường giữ một ký ức khác",
+    "epithet_en": "Walls Holding Another Memory",
+    "lore_vi": "Moskva gia nhập liên hiệp với thành lũy, giáo đường và những gia đình vẫn nhớ tham vọng bị chặn lại năm 1478. Hội đồng Novgorod cho giữ nghi lễ địa phương, đổi lại quyền cử người kiểm kho và tuyển sĩ quan tới đây. Pyotr đưa nhiều người tốt nghiệp trường quân sự vào các phòng làm việc cạnh tường thành. Họ biến số liệu của Moskva thành một phần kế hoạch chung, trong khi các dòng họ cũ tìm cách đặt con mình vào hàng ngũ mới. Thành phố đem tới nhân lực, kho và vị trí giữa các tuyến đường đất liền. Nó cũng giữ khả năng hình dung một nước Nga có trung tâm khác, khiến mọi cuộc bổ nhiệm đều mang thêm trọng lượng chính trị.",
+    "lore_en": "Moscow enters the Union with its citadel, churches and families remembering an ambition checked in 1478. Novgorod preserves local ceremonies in exchange for inspection rights and access to officer recruitment. Pyotr places military-school graduates in offices beside the walls. They fold Moscow's returns into common plans while old houses seek commissions for their sons. The city supplies manpower, stores and a central position on inland routes. It also retains the ability to imagine a Russia governed from elsewhere. Every appointment therefore carries political weight, and each practical success of centralized command can revive the very concentration of power the Union was founded to restrain.",
+    "traits": [
+      {
+        "label_vi": "Trung tâm đường bộ",
+        "label_en": "Inland Junction",
+        "description_vi": "Kho thành kết nối nhiều hướng vận tải.",
+        "description_en": "Citadel stores connect several inland routes."
+      },
+      {
+        "label_vi": "Ký ức Moskva",
+        "label_en": "Muscovite Memory",
+        "description_vi": "Các dòng họ giữ một quan niệm khác về quyền thống nhất.",
+        "description_en": "Local houses preserve an alternative vision of unity."
+      }
+    ],
+    "benefit_vi": "Tăng năng lực dự trữ và huy động miền nội địa.",
+    "benefit_en": "Expands inland reserves and mobilization.",
+    "cost_vi": "Dễ trở thành đầu mối cho phe tập quyền cạnh tranh với Novgorod.",
+    "cost_en": "Can anchor a centralizing faction competing with Novgorod.",
+    "status_vi": "Thành lũy thành viên liên hiệp.",
+    "status_en": "Citadel within the Union.",
+    "historical_anchor_vi": "Kremlin Moskva có thật; địa vị sau thất bại năm 1478 nối theo điểm rẽ Novgorod TFAM.",
+    "historical_anchor_en": "The Moscow Kremlin is historical; its status follows TFAM’s Novgorod divergence of 1478.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/545/"
+    ],
+    "art_prompt": "Moscow Kremlin red walls historic cathedral domes deep winter military supply courtyard no modern buildings painterly"
+  },
+  {
+    "id": "ottoman-bursa-complex",
+    "faction_id": "ottoman_empire",
+    "name_vi": "Bursa — Những mái vòm của triều đình rời bỏ",
+    "name_en": "Bursa — Domes of the Departed Court",
+    "location_vi": "Bursa, Anatolia",
+    "location_en": "Bursa, Anatolia",
+    "category": "seat",
+    "epithet_vi": "Một kinh đô có thể ở lại sau ngai vàng",
+    "epithet_en": "A Capital Can Outlast Its Throne",
+    "lore_vi": "Ahmed III đặt triều đình tại Bursa giữa những quần thể thánh đường, chợ và nhà tắm từng nuôi quyền lực Ottoman thuở đầu. Sau thỏa thuận năm 1710, các phường cung cấp quân lương có đại diện chờ ngay ngoài phòng tiếp kiến. Một đơn đặt hàng được ký trong cung phải đi qua những bàn cân và kho vải ngoài phố mới trở thành chiếc áo của người lính. Năm 1716, triều đình rút về Baghdad khi Tây La Mã chiếm Anatolia. Người giữ các mái vòm ở lại cùng những xưởng chưa kịp dỡ. Bursa tiếp tục nuôi dân bằng chính hệ thống từng nuôi ngai vàng, còn những con dấu đã mang đi biến mỗi món hàng gửi về phía đông thành một lời tuyên bố trung thành.",
+    "lore_en": "Ahmed III establishes his court at Bursa among mosque complexes, markets and baths rooted in early Ottoman power. After the compact of 1710, suppliers' guild representatives wait just outside the audience rooms. An order signed in the palace must cross balances and cloth stores before becoming a soldier's coat. In 1716, the court retreats to Baghdad as Western Rome occupies Anatolia. Keepers remain with buildings and workshops that cannot be dismantled. Bursa continues feeding its inhabitants through systems that once sustained the throne, while seals carried east make every shipment to the displaced court a declaration of allegiance under occupation.",
+    "traits": [
+      {
+        "label_vi": "Chợ nuôi triều đình",
+        "label_en": "Markets Sustaining the Court",
+        "description_vi": "Các phường cung cấp gắn quyền lực với hợp đồng thực tế.",
+        "description_en": "Suppliers bind authority to practical contracts."
+      },
+      {
+        "label_vi": "Con dấu đi về đông",
+        "label_en": "Seals Carried East",
+        "description_vi": "Đường tiếp tế trở thành vấn đề trung thành sau mất đất.",
+        "description_en": "Supply becomes a question of loyalty after territorial loss."
+      }
+    ],
+    "benefit_vi": "Năm 1715 hỗ trợ hậu cần và nghề thủ công triều đình.",
+    "benefit_en": "In 1715 supports court logistics and skilled crafts.",
+    "cost_vi": "Mất Bursa năm 1716 gây đứt mạng lưới cung cấp và uy tín.",
+    "cost_en": "Losing Bursa in 1716 disrupts supply networks and prestige.",
+    "status_vi": "1715: kinh đô; 1716: dưới quyền Tây La Mã, triều đình đã rút.",
+    "status_en": "1715: capital; 1716: under Western Rome after the court’s withdrawal.",
+    "historical_anchor_vi": "Quần thể Bursa gắn với sự hình thành Ottoman; chuyển kinh đô và mất đất theo lore TFAM.",
+    "historical_anchor_en": "Bursa’s complexes reflect Ottoman origins; the capital and its loss follow TFAM lore.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1452/"
+    ],
+    "art_prompt": "Early Ottoman Bursa mosque market domes snow green gold standards abandoned court wagons, poignant painterly wide view"
+  },
+  {
+    "id": "ottoman-mustansiriya",
+    "faction_id": "ottoman_empire",
+    "name_vi": "Al-Mustansiriya — Những bàn học bên dòng Tigris",
+    "name_en": "Al-Mustansiriya — Desks beside the Tigris",
+    "location_vi": "Baghdad, Iraq",
+    "location_en": "Baghdad, Iraq",
+    "category": "knowledge",
+    "epithet_vi": "Triều đình đến trong tiếng lật trang",
+    "epithet_en": "The Court Arrives amid Turning Pages",
+    "lore_vi": "Những người giữ Al-Mustansiriya nhận lệnh dành phòng cho các thầy thuốc, thông ngôn và thư lại đi theo triều đình tới Baghdad. Bên bờ Tigris, sách được kê cao để tránh ẩm, còn những bàn học cũ phải chia chỗ cho sổ nợ quân lương. Ahmed cần người đọc được chứng thư của nhiều tỉnh; các học giả cần lời bảo đảm rằng khoản trợ cấp sẽ tới trước khi kho gạo cạn. Những cuộc thương lượng ấy nối một trường học cổ với nhu cầu sống còn của đế chế thu hẹp. Khi các đoàn thương nhân cập bến, triều đình có thể tìm được cả thuốc, người dịch và tin tức ở đây. Mỗi quyền ưu tiên dành cho quan lại cũng lấy đi một chỗ ngồi của học trò.",
+    "lore_en": "Al-Mustansiriya's custodians are instructed to provide rooms for physicians, interpreters and clerks accompanying the court to Baghdad. Beside the Tigris, books are raised above damp floors while old desks share space with military arrears. Ahmed needs readers capable of interpreting provincial charters; scholars require assurances that stipends will arrive before rice stores empty. Such negotiations bind an ancient school to the survival of a diminished empire. Merchant boats bring medicine, translators and intelligence within reach of the government. Every priority granted to an official, however, removes a student's place, and emergency service threatens to consume the institution responsible for educating its successors.",
+    "traits": [
+      {
+        "label_vi": "Người đọc nhiều thứ tiếng",
+        "label_en": "Readers of Many Languages",
+        "description_vi": "Học giả nối các mạng lưới hành chính địa phương.",
+        "description_en": "Scholars connect provincial administrative networks."
+      },
+      {
+        "label_vi": "Sách cạnh sổ nợ",
+        "label_en": "Books beside Arrears",
+        "description_vi": "Nhu cầu khẩn cấp cạnh tranh với việc học lâu dài.",
+        "description_en": "Emergency demands compete with long-term education."
+      }
+    ],
+    "benefit_vi": "Cung cấp thầy thuốc, thư lại và khả năng đàm phán đa ngữ.",
+    "benefit_en": "Provides physicians, clerks and multilingual negotiation.",
+    "cost_vi": "Trưng dụng trường học làm suy yếu đào tạo và gây bất mãn học giả.",
+    "cost_en": "Requisitioning the school weakens education and alienates scholars.",
+    "status_vi": "1716: hỗ trợ triều đình chuyển tới Baghdad.",
+    "status_en": "1716: supporting the court’s relocation to Baghdad.",
+    "historical_anchor_vi": "Al-Mustansiriya là trường thời Abbasid; vai trò tái lập triều đình là sáng tạo TFAM.",
+    "historical_anchor_en": "Al-Mustansiriya is an Abbasid school; its role in restoring the court is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://iwh.icesco.org/the-mustansiriya-madrassah/"
+    ],
+    "art_prompt": "Mustansiriya brick arcaded courtyard beside Tigris cold pale light manuscripts refugees scholarly lamps green gold painterly"
+  },
+  {
+    "id": "ottoman-samarra-minaret",
+    "faction_id": "ottoman_empire",
+    "name_vi": "Samarra — Đường xoắn của một đế đô đã mất",
+    "name_en": "Samarra — Spiral of a Lost Capital",
+    "location_vi": "Samarra, phía bắc Baghdad",
+    "location_en": "Samarra, north of Baghdad",
+    "category": "ruin",
+    "epithet_vi": "Từ đỉnh cao nhìn thấy giới hạn",
+    "epithet_en": "From the Summit, the Limits",
+    "lore_vi": "Tháp xoắn Samarra đứng trên bờ Tigris như dấu vết của một triều đại từng cai trị xa hơn những gì Ahmed còn giữ. Các đoàn rút quân nhìn thấy nó trước khi tới vùng kho phía bắc Baghdad. Quan chức Ottoman đặt một đài quan sát tạm và điểm kiểm xe bên ngoài khu phế tích, dùng chiều cao để báo trước các đoàn hàng tới. Gió lạnh quét cát vào đường dốc, khiến người gác phải buộc dây khi leo. Từ trên cao, những kho mới trông nhỏ giữa phần đất từng chứa cả một đế đô. Triều đình dùng cảnh tượng ấy để kêu gọi phục hồi; người lính chờ khẩu phần nhìn nó như bằng chứng rằng những đế chế lớn cũng từng phải bỏ lại thành phố của mình.",
+    "lore_en": "Samarra's spiral tower rises beside the Tigris as the remnant of a dynasty that ruled far beyond Ahmed's remaining territories. Retreating columns see it before reaching Baghdad's northern stores. Ottoman officials establish a temporary lookout and wagon checkpoint outside the ruins, using the height to announce approaching freight. Cold winds sweep sand across the ramp and watchmen secure themselves with ropes. From above, new depots appear small within the space of a vanished capital. The court invokes the sight as a promise of restoration; soldiers awaiting rations read it as evidence that great empires have abandoned their cities before.",
+    "traits": [
+      {
+        "label_vi": "Tháp nhìn đường sông",
+        "label_en": "River-Road Lookout",
+        "description_vi": "Chiều cao hỗ trợ quan sát đoàn xe trên hành lang Tigris.",
+        "description_en": "Height assists observation along the Tigris corridor."
+      },
+      {
+        "label_vi": "Ký ức Abbasid",
+        "label_en": "Abbasid Memory",
+        "description_vi": "Phế tích nâng yêu sách phục hồi nhưng cũng nhắc thất bại.",
+        "description_en": "Ruins support restoration claims while recalling collapse."
+      }
+    ],
+    "benefit_vi": "Bổ sung cảnh giới và biểu tượng cho việc tái lập quyền lực.",
+    "benefit_en": "Adds warning capacity and a symbol for political restoration.",
+    "cost_vi": "Đài gác khó bảo trì; tuyên truyền quá mức làm lộ khoảng cách với thực lực.",
+    "cost_en": "The lookout is hard to maintain; extravagant claims expose limited means.",
+    "status_vi": "Phế tích có trạm quan sát tạm.",
+    "status_en": "Ruins with a temporary lookout.",
+    "historical_anchor_vi": "Samarra là kinh đô Abbasid thế kỷ IX; trạm hậu cần là bổ sung TFAM.",
+    "historical_anchor_en": "Samarra was a ninth-century Abbasid capital; its supply lookout is TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/276/"
+    ],
+    "art_prompt": "Samarra spiral Malwiya minaret vast cold plain Tigris wagon column, ochre brick icy wind painterly panoramic"
+  },
+  {
+    "id": "ottoman-erbil-citadel",
+    "faction_id": "ottoman_empire",
+    "name_vi": "Erbil — Ngọn đồi của những cánh cổng",
+    "name_en": "Erbil — Hill of the Gates",
+    "location_vi": "Erbil, miền bắc Iraq",
+    "location_en": "Erbil, northern Iraq",
+    "category": "fortress",
+    "epithet_vi": "Lời của Sultan phải leo lên dốc",
+    "epithet_en": "The Sultan’s Word Must Climb",
+    "lore_vi": "Thành Erbil nằm trên ngọn đồi cao do nhiều đời cư trú chồng lên nhau. Những đoàn người từ phía tây tới năm 1716 phải xếp hàng dưới cổng để được phân chỗ ngủ, còn sứ giả triều đình đi tìm kho lương của tổng trấn. Các gia đình trong thành đã giữ thóc qua nhiều mùa rét, nên họ coi việc giao một bao lương là một cam kết cần được đáp lại. Ahmed gửi lời bảo đảm quyền địa phương để đổi lấy đường đi và khẩu phần cho quân rút. Từ sân cao có thể nhìn thấy những mái trại lan xuống đồng bằng. Thành trì giúp đế chế còn chỗ bấu víu, đồng thời cho người giữ cổng vị thế đủ lớn để sửa điều kiện mà ngai vàng đưa tới.",
+    "lore_en": "Erbil stands on a high mound accumulated through successive generations of settlement. In 1716, arrivals from the west queue below the gate for sleeping places while court envoys search for the governor's stores. Citadel households have preserved grain through repeated winters and regard every surrendered sack as an obligation requiring repayment. Ahmed guarantees local privileges in exchange for passage and rations for retreating troops. From the upper courts, tents spread across the plain. The fortress offers the empire an anchor while giving its gatekeepers leverage to revise the terms brought from the throne. Refuge and negotiation become inseparable on the climb to its entrance.",
+    "traits": [
+      {
+        "label_vi": "Kho của các gia đình",
+        "label_en": "Household Granaries",
+        "description_vi": "Dự trữ phân tán khó bị triều đình lấy trọn.",
+        "description_en": "Distributed reserves resist complete central seizure."
+      },
+      {
+        "label_vi": "Cổng trên cao",
+        "label_en": "The Upper Gate",
+        "description_vi": "Địa thế làm tăng quyền thương lượng của người giữ thành.",
+        "description_en": "Terrain strengthens the custodians’ bargaining position."
+      }
+    ],
+    "benefit_vi": "Tạo điểm phòng thủ và tiếp nhận đoàn rút quân.",
+    "benefit_en": "Offers defence and reception for retreating columns.",
+    "cost_vi": "Triều đình phải nhượng quyền tự quản để đổi tiếp tế.",
+    "cost_en": "The court must concede autonomy in return for supplies.",
+    "status_vi": "Tiếp nhận quân và dân di chuyển năm 1716.",
+    "status_en": "Receiving displaced troops and civilians in 1716.",
+    "historical_anchor_vi": "Thành Erbil là khu cư trú trên gò có thật; thỏa thuận với Ahmed là bổ sung TFAM.",
+    "historical_anchor_en": "Erbil’s fortified mound settlement is historical; negotiations with Ahmed are TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1437/"
+    ],
+    "art_prompt": "Erbil citadel high tell massive historic wall above winter refugee tents, muted green brass earth tones painterly"
+  },
+  {
+    "id": "ottoman-gelati",
+    "faction_id": "ottoman_empire",
+    "name_vi": "Gelati — Ngọn đèn của miền núi chưa cúi đầu",
+    "name_en": "Gelati — Mountain Lamp Unbowed",
+    "location_vi": "Gần Kutaisi, Georgia",
+    "location_en": "Near Kutaisi, Georgia",
+    "category": "sacred",
+    "epithet_vi": "Giữ sách cũng là giữ quyền được nhớ",
+    "epithet_en": "Keeping Books Keeps the Right to Remember",
+    "lore_vi": "Trong những phòng đá Gelati, các tu sĩ chép lại gia phả và bản dịch cũ khi đường núi bị tuyết chặn. Việc Ottoman còn giữ Georgia sau cuộc mất đất năm 1716 khiến Ahmed càng cần sự hợp tác của những cộng đồng có thể mở kho và dẫn đường qua sườn núi. Gelati nhận bảo đảm cho việc thờ phụng cùng quyền giữ sách, đổi lại nơi trú cho sứ giả và bàn thương lượng giữa đại diện địa phương với quan triều đình. Các điều kiện được đọc bằng hai thứ tiếng trước khi niêm phong. Công trình đem tới một lối hòa giải trong đế chế nhiều tín ngưỡng. Nó cũng giữ bằng chứng rằng sự phục tùng ở miền núi luôn đi cùng những lời hứa có thể bị đem ra đối chiếu.",
+    "lore_en": "Within Gelati's stone rooms, monks copy genealogies and older translations while snow closes the mountain routes. Ottoman retention of Georgia after the losses of 1716 makes Ahmed dependent upon communities able to open granaries and guide travellers across the slopes. Gelati receives guarantees for worship and its books in exchange for sheltering envoys and hosting negotiations between local representatives and imperial officials. Terms are read in two languages before sealing. The monastery provides a channel of accommodation within a multi-faith empire. It also preserves evidence that mountain allegiance rests upon promises whose fulfilment can be checked, making its archive politically consequential.",
+    "traits": [
+      {
+        "label_vi": "Sách của miền núi",
+        "label_en": "Mountain Books",
+        "description_vi": "Tư liệu bảo tồn quyền và ký ức địa phương.",
+        "description_en": "Records preserve local rights and memory."
+      },
+      {
+        "label_vi": "Bàn thương lượng hai tiếng",
+        "label_en": "A Bilingual Table",
+        "description_vi": "Giáo sĩ giúp nối triều đình với cộng đồng khác tín ngưỡng.",
+        "description_en": "Clergy connect the court with a different faith community."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ ổn định Georgia và giao thiệp qua miền núi.",
+    "benefit_en": "Supports Georgian stability and mountain diplomacy.",
+    "cost_vi": "Vi phạm bảo đảm tôn giáo có thể phá vỡ lòng trung thành địa phương.",
+    "cost_en": "Violating religious guarantees can break local allegiance.",
+    "status_vi": "Tu viện được bảo hộ bằng thỏa thuận địa phương.",
+    "status_en": "Monastery protected by a local compact.",
+    "historical_anchor_vi": "Gelati là trung tâm học thuật và tu viện trung đại; hiệp ước với Ottoman là biến thể TFAM.",
+    "historical_anchor_en": "Gelati was a medieval monastic and scholarly centre; its Ottoman compact is TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/710/"
+    ],
+    "art_prompt": "Gelati medieval Georgian monastery on snowy wooded slope warm manuscript room glow, green gold distant patrol subtle painterly"
+  },
+  {
+    "id": "danes-kronborg",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Kronborg — Khẩu pháo giữ cửa phương Bắc",
+    "name_en": "Kronborg — Guns at the Northern Gate",
+    "location_vi": "Helsingør, eo Øresund",
+    "location_en": "Helsingør, Øresund",
+    "category": "fortress",
+    "epithet_vi": "Mọi cánh buồm đều phải đi qua tầm nhìn",
+    "epithet_en": "Every Sail Must Cross Its Sight",
+    "lore_vi": "Từ Kronborg, lính gác nhìn những cánh buồm hiện lên giữa sương và các mảng băng trôi qua eo biển. Sau hội nghị Kalmar năm 1697, Margrete đặt hệ thống thu phí cùng báo hiệu dưới quyền điều phối chung để các cảng phương bắc biết một đoàn hàng đã tới đâu. Pháo trên thành giữ sức nặng cho những tờ khai ấy. Năm 1716, tin mất Phần Lan khiến lịch trực tăng thêm và mọi luồng tàu đều bị xét kỹ hơn. Các chủ thuyền chấp nhận nộp phí khi hải đội Danes còn bảo vệ được chuyến đi. Nếu pháo đài chỉ giữ quyền thu mà để đường biển trở nên nguy hiểm, chính những con tàu nuôi nó sẽ tìm lối khác.",
+    "lore_en": "Kronborg's sentries watch sails emerge through mist and drifting ice in the Sound. After the Kalmar settlement of 1697, Margrete places tolls and signals under common coordination so northern ports can track approaching freight. The fortress guns lend weight to those declarations. News of Finland's loss in 1716 brings longer watches and closer inspections. Shipowners accept payment while Danish squadrons protect their passage. If the fortress retains its power to charge while allowing the sea route to become unsafe, the vessels sustaining it will seek alternatives. Kronborg makes geography profitable, but its legitimacy depends upon practical protection as much as commanding firepower.",
+    "traits": [
+      {
+        "label_vi": "Thu phí dưới pháo",
+        "label_en": "Tolls beneath Guns",
+        "description_vi": "Địa thế cho phép kiểm soát tàu qua eo biển.",
+        "description_en": "The position enables control of passage through the Sound."
+      },
+      {
+        "label_vi": "Đèn chung của hạm đội",
+        "label_en": "Common Fleet Signals",
+        "description_vi": "Báo hiệu nối pháo đài với các cảng.",
+        "description_en": "Signals link the fortress with ports."
+      }
+    ],
+    "benefit_vi": "Thu ngân khố và hỗ trợ cảnh giới hàng hải.",
+    "benefit_en": "Provides revenue and maritime warning.",
+    "cost_vi": "Thu phí quá nặng khiến thương nhân tìm đường tránh và gây thù.",
+    "cost_en": "Excess tolls encourage evasion and antagonize traders.",
+    "status_vi": "Tăng cảnh giới sau biến cố Phần Lan.",
+    "status_en": "Heightened watch after the loss of Finland.",
+    "historical_anchor_vi": "Kronborg giữ vị trí chiến lược tại Sound từ thế kỷ XVI; mạng điều phối Margrete là bổ sung TFAM.",
+    "historical_anchor_en": "Kronborg historically commanded the Sound from the sixteenth century; Margrete’s network is TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/696/"
+    ],
+    "art_prompt": "Kronborg Renaissance fortress guns ice Sound merchant sails red gold Danish banners atmospheric painterly panoramic"
+  },
+  {
+    "id": "danes-roskilde",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Roskilde — Những người chết giữ ngôi vua",
+    "name_en": "Roskilde — The Dead Guard the Crown",
+    "location_vi": "Roskilde, Zealand",
+    "location_en": "Roskilde, Zealand",
+    "category": "sacred",
+    "epithet_vi": "Người đang trị vì phải đứng trước người đã khuất",
+    "epithet_en": "The Living Crown Faces the Dead",
+    "lore_vi": "Margrete cho giữ nghi lễ của các dòng họ phương bắc trong Roskilde, nơi những mái vòm gạch và mộ vương gia biến huyết thống thành điều có thể chạm tay. Sau Kalmar, các đoàn đại diện được mời tới dự lễ theo thứ tự đã thương lượng, để việc đứng chung một gian nhà trở thành dấu hiệu của vương quyền thống nhất. Năm 1716, gia đình mất đất Phần Lan mang tang phục tới những buổi tưởng niệm. Họ nghe lời cầu nguyện cho người chết và chờ lời giải thích dành cho người sống. Roskilde giúp nữ vương giữ các ngai cũ trong cùng một câu chuyện, nhưng mỗi ngôi mộ cũng nhắc một dòng họ rằng họ từng có quyền tự kể câu chuyện ấy.",
+    "lore_en": "Margrete preserves northern dynastic rites at Roskilde, where brick vaults and royal tombs make lineage tangible. After Kalmar, delegations attend ceremonies in a negotiated order, their shared presence signalling united sovereignty. In 1716, families dispossessed in Finland arrive wearing mourning clothes. They hear prayers for the dead and wait for explanations owed to the living. Roskilde enables the queen to place former crowns within a common narrative. Each tomb also reminds a house that it once possessed the right to tell that narrative independently. The cathedral reconciles dynasties through ceremony while retaining the claims and memories from which future opposition can grow.",
+    "traits": [
+      {
+        "label_vi": "Thứ bậc dưới mái vòm",
+        "label_en": "Precedence beneath the Vault",
+        "description_vi": "Nghi lễ biến thỏa thuận vương triều thành hình ảnh công khai.",
+        "description_en": "Ceremony makes dynastic settlement publicly visible."
+      },
+      {
+        "label_vi": "Tang phục phương đông",
+        "label_en": "Eastern Mourning",
+        "description_vi": "Gia đình mất đất đưa chiến tranh vào đời sống triều đình.",
+        "description_en": "Dispossessed families bring war into court life."
+      }
+    ],
+    "benefit_vi": "Củng cố chính danh và liên kết các dòng họ.",
+    "benefit_en": "Strengthens legitimacy and dynastic cooperation.",
+    "cost_vi": "Tranh thứ bậc cùng ký ức độc lập dễ chia rẽ liên minh.",
+    "cost_en": "Disputed precedence and independent memories strain unity.",
+    "status_vi": "Thánh đường tưởng niệm chung của vương quyền.",
+    "status_en": "Shared dynastic memorial sanctuary.",
+    "historical_anchor_vi": "Roskilde là thánh đường và nơi an táng hoàng gia; nghi lễ Kalmar mới là biến thể TFAM.",
+    "historical_anchor_en": "Roskilde is a cathedral and royal burial place; the renewed Kalmar ceremonies are TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/695/"
+    ],
+    "art_prompt": "Roskilde twin brick spires snow courtyard royal funeral lantern procession red white fur cloaks painterly epic"
+  },
+  {
+    "id": "danes-jelling",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Jelling — Những tảng đá mang tên đất nước",
+    "name_en": "Jelling — Stones Bearing a Kingdom’s Name",
+    "location_vi": "Jelling, Jutland",
+    "location_en": "Jelling, Jutland",
+    "category": "sacred",
+    "epithet_vi": "Một lời khắc sống lâu hơn người ban lệnh",
+    "epithet_en": "An Inscription Outlives Its Ruler",
+    "lore_vi": "Tại Jelling, những tảng đá khắc chữ được che bằng mái gỗ thấp khi băng bắt đầu ăn sâu vào các đường chạm. Margrete đưa các đại diện tới đây sau Kalmar để nghe đọc về những người từng nối đất đai với một vương quyền chung. Bản dịch được chuẩn bị cho từng đoàn, giữ nguyên tên người cũ nhưng cho phép họ hiểu những lời ấy bằng tiếng của mình. Các gia đình địa phương nhận nghĩa vụ giữ đường và đốt đèn. Công trình cho Danes một biểu tượng giản dị hơn cung điện và bền hơn thắng lợi. Chính vì thế, người dân cũng mang tới đây những lời thỉnh cầu, đòi vương quyền giữ lời với các miền như những gì đá đã hứa.",
+    "lore_en": "At Jelling, low timber shelters protect the inscribed stones as frost enters their carvings. After Kalmar, Margrete brings representatives to hear accounts of rulers who joined lands beneath a common crown. Translations preserve ancient names while allowing each delegation to understand the words in its own language. Local households maintain the approach and its lamps. The stones give Danes a symbol simpler than a palace and more enduring than a campaign victory. Their permanence also attracts petitions: subjects ask the present Crown to honour regional obligations with the same durability it praises in ancient inscriptions, turning dynastic memory into a standard against which living government is judged.",
+    "traits": [
+      {
+        "label_vi": "Tên khắc trên đá",
+        "label_en": "Names Cut in Stone",
+        "description_vi": "Di sản chung tạo điểm tựa cho vương quyền mới.",
+        "description_en": "Shared heritage anchors the renewed monarchy."
+      },
+      {
+        "label_vi": "Bản đọc nhiều tiếng",
+        "label_en": "Readings in Many Tongues",
+        "description_vi": "Nghi lễ bao gồm các cộng đồng khác ngôn ngữ.",
+        "description_en": "Ceremony includes different language communities."
+      }
+    ],
+    "benefit_vi": "Tăng gắn kết căn tính phương bắc.",
+    "benefit_en": "Strengthens northern identity and cohesion.",
+    "cost_vi": "Lời hứa thống nhất trở thành tiêu chuẩn để dân chất vấn triều đình.",
+    "cost_en": "Promises of unity become standards used to question the court.",
+    "status_vi": "Khu đá khắc được che chống băng.",
+    "status_en": "Runic precinct protected against frost.",
+    "historical_anchor_vi": "Đá Jelling gắn với Gorm và Harald thế kỷ X; hội lễ của Margrete là sáng tạo TFAM.",
+    "historical_anchor_en": "Jelling’s stones connect with tenth-century Gorm and Harald; Margrete’s assembly is TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/697/"
+    ],
+    "art_prompt": "Jelling rune stones burial mounds deep winter low protective timber shelter torches royal delegations painterly historical no readable text"
+  },
+  {
+    "id": "danes-bryggen",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Bryggen — Những mái nhà giữ đường Đại Tây Dương",
+    "name_en": "Bryggen — Roofs Keeping the Atlantic Road",
+    "location_vi": "Bergen, Na Uy",
+    "location_en": "Bergen, Norway",
+    "category": "harbour",
+    "epithet_vi": "Cá khô và dây chão giữ phương bắc sống",
+    "epithet_en": "Stockfish and Rope Keep the North Alive",
+    "lore_vi": "Sau trận cháy năm 1702, Margrete cho việc dựng lại Bryggen đi cùng các hợp đồng dự trữ của vương quốc. Những dãy kho gỗ quay mặt ra bến được sửa theo lối cũ, nhưng phía sau có thêm kho đá và sổ phân phối chung cho cá khô, ngũ cốc cùng dầu đèn. Thương nhân quen buôn bán với nhiều miền được giữ vai trò dẫn hàng, đổi lại nghĩa vụ cấp phần cho hạm đội khi chiến tranh cần. Mùa đông làm mỗi chuyến tàu tới thành một sự kiện của cả phố. Bến cảng giữ Danes nhìn ra Đại Tây Dương ngay khi Baltic trở nên nguy hiểm. Những mái gỗ sát nhau vẫn khiến một đốm lửa có thể đòi lại tất cả.",
+    "lore_en": "After the fire of 1702, Margrete links Bryggen's rebuilding to royal reserve contracts. Wooden storehouses face the harbour in their traditional arrangement, with stone stores and common distribution ledgers added behind them for stockfish, grain and lamp oil. Merchants experienced in regional trade retain their forwarding role in return for fleet allocations during war. Winter makes every arriving ship an event for the entire street. The harbour keeps Danes facing the Atlantic as Baltic waters become more dangerous. Its tightly packed timber roofs preserve a working commercial pattern while leaving the whole system vulnerable to a single badly tended flame.",
+    "traits": [
+      {
+        "label_vi": "Kho sau mái gỗ",
+        "label_en": "Stores behind Timber Roofs",
+        "description_vi": "Kho đá giữ hàng quý bên trong mạng nhà gỗ.",
+        "description_en": "Stone rooms protect valuable goods within the timber district."
+      },
+      {
+        "label_vi": "Đường biển phía tây",
+        "label_en": "The Western Sea Road",
+        "description_vi": "Bergen bổ sung hướng vận tải ngoài Baltic.",
+        "description_en": "Bergen offers routes beyond the Baltic."
+      }
+    ],
+    "benefit_vi": "Duy trì thương mại lương thực và nguồn cung hạm đội.",
+    "benefit_en": "Sustains food trade and fleet supplies.",
+    "cost_vi": "Nguy cơ cháy cao; trưng mua dễ đụng quyền thương nhân.",
+    "cost_en": "High fire risk; requisitions clash with merchant privileges.",
+    "status_vi": "Được dựng lại sau cháy theo hợp đồng vương quyền.",
+    "status_en": "Rebuilt after fire under royal contracts.",
+    "historical_anchor_vi": "Bryggen được tái dựng sau cháy 1702 trong lịch sử; can thiệp Margrete là biến thể TFAM.",
+    "historical_anchor_en": "Bryggen was rebuilt after the historical 1702 fire; Margrete’s intervention is TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/59/"
+    ],
+    "art_prompt": "Bryggen Bergen timber wharf red ochre houses snow tall ships lanterns dark Atlantic mountains, painterly no modern craft"
+  },
+  {
+    "id": "danes-roros",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Røros — Lửa đồng giữa núi trắng",
+    "name_en": "Røros — Copper Fire among White Mountains",
+    "location_vi": "Miền núi Na Uy",
+    "location_en": "Norwegian uplands",
+    "category": "industry",
+    "epithet_vi": "Ánh lò đỏ giữ cả một thị trấn thức",
+    "epithet_en": "Furnace Light Keeps a Town Awake",
+    "lore_vi": "Các lò luyện Røros cháy trong một vùng núi mà bóng tối tới sớm hơn chuyến xe cuối ngày. Danes nối việc khai thác đồng với hợp đồng đúc chi tiết tàu và quân giới, khiến người thợ phải ghi thêm dấu kiểm của vương quyền lên từng lô hàng. Thị trấn có bánh ăn khi đoàn xe tới đủ, còn lò có lửa khi những người đốt than giữ được rừng. Sau mất Phần Lan, đơn đặt hàng tăng mà số ngựa kéo giảm. Các gia đình tranh phần củi giữa bếp nhà và công xưởng. Kim loại đưa quyền lực Copenhagen tới xa hơn, trong lúc chính những người tạo ra nó phải trả giá bằng sườn núi trọc và mùa rét dài hơn bên cửa.",
+    "lore_en": "Røros's smelters burn in mountains where darkness arrives before the day's last wagon. Danes connects copper extraction to contracts for naval fittings and military equipment, adding royal inspection marks to each consignment. The town eats when supply convoys arrive; its furnaces burn when charcoal workers can sustain the surrounding woods. After Finland's loss, orders rise while draught horses become scarce. Households contest the division of fuel between homes and works. Metal carries Copenhagen's power further, while those producing it face stripped slopes and colder hearths. Increased output can therefore strengthen national defence while steadily consuming the local resources necessary to survive it.",
+    "traits": [
+      {
+        "label_vi": "Đồng theo hợp đồng",
+        "label_en": "Contract Copper",
+        "description_vi": "Sản lượng gắn với nhu cầu quân sự chung.",
+        "description_en": "Production is tied to common military needs."
+      },
+      {
+        "label_vi": "Rừng thành than",
+        "label_en": "Forests into Charcoal",
+        "description_vi": "Lò luyện cạnh tranh nhiên liệu với nhà dân.",
+        "description_en": "Smelters compete with homes for fuel."
+      }
+    ],
+    "benefit_vi": "Cung cấp đồng và việc làm công nghiệp.",
+    "benefit_en": "Supplies copper and industrial employment.",
+    "cost_vi": "Tiêu hao rừng, ngựa và lương thực của miền núi.",
+    "cost_en": "Consumes upland forests, horses and provisions.",
+    "status_vi": "Tăng đơn hàng quốc phòng.",
+    "status_en": "Defence orders increasing.",
+    "historical_anchor_vi": "Røros khai thác đồng từ thế kỷ XVII; cơ chế quân nhu tập trung là bổ sung TFAM.",
+    "historical_anchor_en": "Røros copper mining began in the seventeenth century; centralized supply contracts are TFAM detail.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/55/"
+    ],
+    "art_prompt": "Roros seventeenth century copper smelter timber mining town snow no later church, molten copper orange northern violet painterly"
+  },
+  {
+    "id": "danes-falun",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Falun — Vết thương đồng đỏ",
+    "name_en": "Falun — The Red Copper Wound",
+    "location_vi": "Dalarna, Thụy Điển",
+    "location_en": "Dalarna, Sweden",
+    "category": "industry",
+    "epithet_vi": "Miệng đất mở rộng cùng chiến tranh",
+    "epithet_en": "The Earth’s Mouth Widens with War",
+    "lore_vi": "Người Falun chỉ cho quan triều đình phần đất đã sụt trước khi dẫn họ tới bàn cân quặng. Trong vương quốc thống nhất của Margrete, các chủ mỏ giữ quyền điều hành hầm nhưng phải chia sản lượng cho chương trình hải quân chung. Những đoàn xe đi về phía cảng kéo theo cả quyền lợi của vùng Thụy Điển, khiến việc bàn thuế ở Copenhagen phải nghe thêm tiếng nói từ những người chưa từng thấy cung điện. Các kỹ sư xin thời gian chống hầm, còn quân nhu gửi hạn giao hàng mới. Mỏ giúp nữ vương có kim loại để giữ eo biển. Một vụ sập lớn có thể cùng lúc cắt nguồn thu, phá hợp đồng và đưa mọi bất mãn địa phương về chung một phía.",
+    "lore_en": "Falun's workers show royal inspectors the ground that has already collapsed before taking them to the ore scales. Within Margrete's united kingdom, mine owners retain operational authority while allocating copper to the common naval programme. Wagons towards the ports carry Swedish regional interests with them, forcing Copenhagen's tax debates to hear people who have never seen the palace. Engineers request time to reinforce workings as quartermasters issue new deadlines. The mine furnishes metal for the queen's defence of the straits. A major collapse could simultaneously sever revenue, break contracts and gather local grievances into a single political movement.",
+    "traits": [
+      {
+        "label_vi": "Phần đồng của Thụy Điển",
+        "label_en": "Sweden’s Copper Share",
+        "description_vi": "Sản lượng cho vùng khai thác tiếng nói tại triều đình.",
+        "description_en": "Production gives the mining region a voice at court."
+      },
+      {
+        "label_vi": "Đất có thể sụt",
+        "label_en": "Ground That Can Fail",
+        "description_vi": "Tăng sản lượng luôn đi cùng rủi ro hầm mỏ.",
+        "description_en": "Greater output carries continuing mining risk."
+      }
+    ],
+    "benefit_vi": "Bổ sung nguồn kim loại chiến lược và thương mại.",
+    "benefit_en": "Adds strategic metal and trade income.",
+    "cost_vi": "Ép sản lượng làm tăng nguy cơ tai nạn và phản kháng vùng.",
+    "cost_en": "Production pressure increases accident risk and regional resistance.",
+    "status_vi": "Mỏ giữ đặc quyền trong hệ thống chung.",
+    "status_en": "Mine privileges retained within the common system.",
+    "historical_anchor_vi": "Falun là trung tâm đồng lịch sử; phân bổ dưới Margrete nối theo liên kết Kalmar TFAM.",
+    "historical_anchor_en": "Falun is a historical copper centre; Margrete’s allocations extend TFAM’s renewed Kalmar union.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1027/"
+    ],
+    "art_prompt": "Falun Great Copper Mountain vast historic open pit snowy rim timber headframes tiny ore wagons red earth teal sky painterly"
+  },
+  {
+    "id": "danes-nidaros",
+    "faction_id": "danes_kingdom",
+    "name_vi": "Nidaros — Lời thề dưới mái đá phương Bắc",
+    "name_en": "Nidaros — Oath beneath Northern Stone",
+    "location_vi": "Trondheim, Na Uy",
+    "location_en": "Trondheim, Norway",
+    "category": "sacred",
+    "epithet_vi": "Vương quyền tới đây bằng một lời hứa",
+    "epithet_en": "The Crown Arrives by a Promise",
+    "lore_vi": "Các đại diện Na Uy yêu cầu Margrete xác nhận quyền địa phương tại Nidaros trước khi ký thêm nghĩa vụ quân sự. Nữ vương cho giữ nghi thức ấy trong nhà thờ cổ, nơi những người tới dự phải đi qua con đường hành hương đầy tuyết và các trạm nghỉ do dân vùng núi duy trì. Thư của Copenhagen được đọc cạnh những điều khoản đã hứa tại Kalmar. Người lính sắp xuống tàu nghe cùng lúc nghĩa vụ với vương quốc và lời bảo đảm dành cho gia đình ở lại. Nidaros giúp quyền lực chung có được một giọng nói địa phương. Nếu các đoàn lương hoặc khoản trợ cấp tới chậm, chính mái đá này sẽ che những người mang văn kiện ra đòi nữ vương trả lời.",
+    "lore_en": "Norwegian representatives require Margrete to confirm regional rights at Nidaros before accepting additional military obligations. The queen preserves that ceremony within the ancient church, reached by snowy pilgrimage roads and shelters maintained by upland communities. Copenhagen's letters are read beside the guarantees made at Kalmar. Soldiers preparing to embark hear both duties to the kingdom and promises for the families remaining behind. Nidaros gives common authority a local voice. If supplies or allowances arrive late, the same stone roof will shelter petitioners producing those documents and demanding an answer, making fulfilled obligations essential to the Crown's northern legitimacy.",
+    "traits": [
+      {
+        "label_vi": "Vương quyền qua thỏa thuận",
+        "label_en": "A Crown through Compact",
+        "description_vi": "Lễ xác nhận gắn nghĩa vụ mới với quyền đã hứa.",
+        "description_en": "Confirmation binds new duties to promised rights."
+      },
+      {
+        "label_vi": "Đường hành hương",
+        "label_en": "Pilgrim Roads",
+        "description_vi": "Mạng nơi trú kết nối các cộng đồng miền núi.",
+        "description_en": "A shelter network links upland communities."
+      }
+    ],
+    "benefit_vi": "Củng cố lòng trung thành Na Uy và cơ sở trú đông.",
+    "benefit_en": "Strengthens Norwegian allegiance and winter refuge.",
+    "cost_vi": "Vi phạm điều khoản làm suy giảm niềm tin vào liên kết Kalmar.",
+    "cost_en": "Broken terms undermine trust in the Kalmar union.",
+    "status_vi": "Thánh đường giữ nghi thức xác nhận quyền địa phương.",
+    "status_en": "Cathedral hosting confirmations of regional rights.",
+    "historical_anchor_vi": "Nidaros phát triển từ nơi an táng Olav II; nghi lễ Margrete là bổ sung TFAM, hình ảnh tránh mặt đứng phục dựng hiện đại.",
+    "historical_anchor_en": "Nidaros grew from Olav II’s burial site; Margrete’s rite is TFAM detail, excluding the modern reconstructed facade.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.nidarosdomen.no/en/historie-og-arkitektur/fra-trekapell-til-gotisk-katedral"
+    ],
+    "art_prompt": "Nidaros medieval cathedral eighteenth century weathered partial stone facade no modern reconstructed statues snow pilgrims torches painterly"
+  },
+  {
+    "id": "union-edinburgh-castle",
+    "faction_id": "scotland_ireland_union",
+    "name_vi": "Thành Edinburgh — Bàn đá của các gia tộc",
+    "name_en": "Edinburgh Castle — Stone Table of the Clans",
+    "location_vi": "Edinburgh, Scotland",
+    "location_en": "Edinburgh, Scotland",
+    "category": "seat",
+    "epithet_vi": "Mỗi người giữ một chìa khóa của liên hiệp",
+    "epithet_en": "Each Holds a Key to the Union",
+    "lore_vi": "Sau chiến thắng Inverness, những người từng khó ngồi cùng bàn tìm tới Edinburgh với quân kỳ còn mang dấu chiến trường. Wallace đặt việc điều phối quân sự ở đây, nhưng các đại diện Ireland giữ quyền mang quyết định đưa quân về hỏi hội đồng của mình. Trong thành, bản đồ phải có chỗ cho cả đường biển lẫn biên giới phía nam. Những chiếc rương văn kiện được khóa bằng chìa giao cho nhiều người, khiến việc mở một thỏa thuận lớn cần sự hiện diện của các phía. Thành lũy giúp liên hiệp có một trung tâm đủ chắc để cất tiền và đạn. Mỗi đêm tranh luận kéo dài cũng nhắc rằng chính những người giữ được độc lập đang bảo vệ quyền tự quyết của họ trước nhau.",
+    "lore_en": "After Inverness, men who once struggled to share a table reach Edinburgh with battle-marked colours. Wallace locates military coordination here, while Irish representatives retain the right to refer deployment decisions to their own councils. Maps must accommodate both sea routes and the southern frontier. Important documents are secured with keys entrusted to several representatives, requiring their presence before major agreements are opened. The fortress gives the Union a defensible centre for money and powder. Prolonged arguments also show independent allies defending their autonomy from one another, making agreement harder to obtain but more substantial once all parties have committed themselves.",
+    "traits": [
+      {
+        "label_vi": "Nhiều chìa cho một rương",
+        "label_en": "Many Keys, One Chest",
+        "description_vi": "Quyết định lớn cần nhiều bên cùng hiện diện.",
+        "description_en": "Major decisions require several parties’ participation."
+      },
+      {
+        "label_vi": "Bản đồ hai bờ biển",
+        "label_en": "Maps of Both Shores",
+        "description_vi": "Điều phối chung phải tính lợi ích Scotland và Ireland.",
+        "description_en": "Common planning must accommodate Scotland and Ireland."
+      }
+    ],
+    "benefit_vi": "Giữ kho trung tâm và hỗ trợ phối hợp quân sự.",
+    "benefit_en": "Protects central stores and military coordination.",
+    "cost_vi": "Quyền phủ quyết làm phản ứng khẩn cấp chậm hơn.",
+    "cost_en": "Veto rights slow emergency responses.",
+    "status_vi": "Trung tâm điều phối, quyền địa phương được giữ.",
+    "status_en": "Coordination centre with regional rights retained.",
+    "historical_anchor_vi": "Thành Edinburgh có thật; cơ chế nhiều chìa mở rộng hiệp định liên hiệp trong lore TFAM.",
+    "historical_anchor_en": "Edinburgh Castle is historical; the shared-key system extends TFAM’s existing Union compact.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/728/"
+    ],
+    "art_prompt": "Edinburgh castle volcanic rock snow old town no New Town, torchlit clan delegates green blue silver banners, epic painterly"
+  },
+  {
+    "id": "union-inverness-field",
+    "faction_id": "scotland_ireland_union",
+    "name_vi": "Inverness — Cánh đồng của những quân kỳ sống sót",
+    "name_en": "Inverness — Field of Surviving Colours",
+    "location_vi": "Vùng Inverness, Scotland",
+    "location_en": "Inverness region, Scotland",
+    "category": "landscape",
+    "epithet_vi": "Những gia tộc nhớ ngày họ đứng cùng nhau",
+    "epithet_en": "The Clans Remember Standing Together",
+    "lore_vi": "Sau trận đánh năm 1704, những người sống sót dựng các cọc gỗ mang dấu gia tộc trên vùng đất tập kết trước trận. Wallace cho giữ nơi ấy như một điểm hẹn của các đơn vị, để lời kể về chiến thắng gắn với người có thể chỉ ra hàng quân mình từng đứng. Những gia đình mất con tới buộc vải lên cọc, còn tân binh nghe cách đối phương bị buộc giao chiến trong hệ thống mà các gia tộc cùng dựng nên. Ký ức ấy giúp liên hiệp gọi quân bằng một kinh nghiệm chung. Nó cũng có thể khiến người chỉ huy chờ đối thủ lặp lại một sai lầm cũ, trong khi chiến tranh đã mang tới những con tàu và vũ khí khác.",
+    "lore_en": "After the battle of 1704, survivors raise timber posts bearing clan marks on their pre-battle assembly ground. Wallace preserves the place as a meeting point for units, anchoring victory stories in witnesses able to indicate where their own ranks stood. Bereaved families tie cloth to the posts. Recruits learn how the opposing army was drawn into a system built jointly by the clans. That memory helps the Union summon forces through shared experience. It can also encourage commanders to expect an enemy to repeat an old mistake, even as new ships and weapons change the conditions under which another battle will be fought.",
+    "traits": [
+      {
+        "label_vi": "Vải buộc tên người",
+        "label_en": "Cloth Bearing Names",
+        "description_vi": "Gia đình giữ ký ức tổn thất bên cạnh chiến thắng.",
+        "description_en": "Families preserve loss beside victory."
+      },
+      {
+        "label_vi": "Bài học của người sống",
+        "label_en": "Lessons of Survivors",
+        "description_vi": "Cựu binh truyền kinh nghiệm phối hợp gia tộc.",
+        "description_en": "Veterans teach inter-clan coordination."
+      }
+    ],
+    "benefit_vi": "Tăng tinh thần và gắn kết giữa các đơn vị gia tộc.",
+    "benefit_en": "Strengthens morale and cooperation among clan units.",
+    "cost_vi": "Sùng bái chiến thắng cũ dễ dẫn tới giáo điều chiến thuật.",
+    "cost_en": "Reverence for an old victory can harden into tactical dogma.",
+    "status_vi": "Bãi tưởng niệm và tập kết quân.",
+    "status_en": "Memorial and military assembly ground.",
+    "historical_anchor_vi": "Địa lý Inverness là có thật; trận Wallace–Edward năm 1704 theo canon TFAM, bãi cọc là sáng tạo mới.",
+    "historical_anchor_en": "Inverness is real; Wallace’s 1704 victory over Edward follows TFAM canon, while the memorial posts are new.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.visitscotland.com/info/tours/inverness-walking-tour-b54e16f2"
+    ],
+    "art_prompt": "Inverness winter moor river Ness distant hills clan memorial timber posts with ribbons no modern castle, reverent landscape painting"
+  },
+  {
+    "id": "union-iona",
+    "faction_id": "scotland_ireland_union",
+    "name_vi": "Iona — Những trang sách nối hai bờ",
+    "name_en": "Iona — Pages Joining Two Shores",
+    "location_vi": "Đảo Iona, phía tây Scotland",
+    "location_en": "Iona, west of Scotland",
+    "category": "knowledge",
+    "epithet_vi": "Biển chia đất, con chữ nối người",
+    "epithet_en": "The Sea Divides Land; Letters Join People",
+    "lore_vi": "Trong những phần tu viện còn đứng được, người giữ Iona mở lại phòng chép sách và một kho thư nhỏ cho các đoàn đi giữa Scotland với Ireland. Sự phục hồi đến sớm nhờ hiệp định liên hiệp: các gia tộc góp gỗ, thuyền và người biết chữ để giữ một nơi có thể nhận thư khi đường chính bị cắt. Những bản dịch kinh cũ được đặt cạnh danh sách thuyền chưa về. Người đưa tin để lại dấu nhận trước khi sang bờ bên kia, khiến một chuyến đi mất tích còn có chỗ để lần theo. Iona giúp liên hiệp có tiếng nói chung từ một ký ức tôn giáo lâu đời. Việc mang thư qua biển vẫn phụ thuộc những người đủ can đảm bước xuống thuyền.",
+    "lore_en": "Within the surviving parts of Iona's abbey, custodians reopen a copying room and small letter store for travellers between Scotland and Ireland. Restoration arrives early through the Union compact: clans contribute timber, boats and literate hands to maintain a receiving point when principal routes fail. Old devotional translations stand beside lists of overdue vessels. Couriers leave receipts before crossing, giving those searching for a lost passage somewhere to begin. Iona provides a shared voice through an older religious inheritance. Carrying that voice across the water still depends upon people willing to embark, and a winter storm can silence an entire chain of correspondence.",
+    "traits": [
+      {
+        "label_vi": "Kho thư giữa hai bờ",
+        "label_en": "A Letter Store between Shores",
+        "description_vi": "Dấu nhận giúp theo dõi các chuyến liên lạc.",
+        "description_en": "Receipts help trace communication voyages."
+      },
+      {
+        "label_vi": "Tu viện phục hồi sớm",
+        "label_en": "An Early Restoration",
+        "description_vi": "Gia tộc cùng góp nguồn lực giữ nơi chép sách.",
+        "description_en": "Clans pool resources to sustain the copying house."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ thư tín, học thuật và liên kết văn hóa.",
+    "benefit_en": "Supports correspondence, scholarship and cultural ties.",
+    "cost_vi": "Bão biển làm gián đoạn; duy trì nhà trên đảo tốn vật tư.",
+    "cost_en": "Storms interrupt service; island buildings require costly supplies.",
+    "status_vi": "Phục hồi có giới hạn, giữ phần tường còn lại.",
+    "status_en": "Limited restoration retaining surviving masonry.",
+    "historical_anchor_vi": "Iona gắn với Columba và tu viện trung đại; TFAM đưa phục hồi tới sớm, không dùng kiến trúc tái thiết thế kỷ XX.",
+    "historical_anchor_en": "Iona connects with Columba and a medieval abbey; TFAM advances restoration and excludes twentieth-century reconstruction.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.historicenvironment.scot/visit/all/iona-abbey-and-nunnery/history-and-stories/"
+    ],
+    "art_prompt": "Iona partly ruined medieval abbey small repaired scriptorium on snowy island Atlantic green grey warm lamps no modern restoration painterly"
+  },
+  {
+    "id": "union-skellig",
+    "faction_id": "scotland_ireland_union",
+    "name_vi": "Skellig Michael — Bậc đá cuối biển",
+    "name_en": "Skellig Michael — Last Steps above the Sea",
+    "location_vi": "Ngoài khơi Kerry, Ireland",
+    "location_en": "Off Kerry, Ireland",
+    "category": "landscape",
+    "epithet_vi": "Chỉ người tới được mới nhìn thấy đèn",
+    "epithet_en": "Only Those Who Reach It See the Light",
+    "lore_vi": "Những bậc đá dẫn lên Skellig Michael hẹp tới mức một người mang bao hàng phải dừng lại cho người xuống đi qua. Liên hiệp cho giữ một kho trú nhỏ bên những căn nhà đá cổ, đặt dầu đèn và dây cứu hộ trong thùng chống ẩm. Người gác không sống thường trực quanh năm; các toán biển thay nhau kiểm kho khi thời tiết mở lối. Từ đây, họ báo tình trạng biển cho thuyền cá và các chuyến đi phía tây. Một ngọn đèn giữa vách đá có thể cứu mạng người lạc hướng. Chính vẻ hiểm trở cũng khiến mọi nỗ lực cứu hộ phải đánh đổi: một chiếc thuyền tới được chân đảo chưa chắc đưa nổi người bị thương lên khỏi sóng.",
+    "lore_en": "Skellig Michael's stone steps are so narrow that a laden climber must stop for someone descending. The Union keeps a small refuge store beside ancient stone cells, sealing lamp oil and rescue ropes against damp. Watchers do not remain throughout the year; maritime parties inspect supplies whenever conditions permit. They report sea conditions to fishing boats and western passages. A light among the cliffs can save a lost crew. The same terrain makes rescue costly: a vessel reaching the island's foot may still be unable to lift an injured person clear of the surf. Its value is immense in a particular emergency and sharply limited outside it.",
+    "traits": [
+      {
+        "label_vi": "Kho trên vách đá",
+        "label_en": "Cliffside Stores",
+        "description_vi": "Vật tư nhỏ được giữ cho tình huống khẩn cấp.",
+        "description_en": "Small reserves are kept for emergencies."
+      },
+      {
+        "label_vi": "Bậc đá một người",
+        "label_en": "Single-Person Steps",
+        "description_vi": "Địa thế giới hạn vận chuyển và cứu hộ.",
+        "description_en": "Terrain restricts transport and rescue."
+      }
+    ],
+    "benefit_vi": "Tạo điểm định hướng và trú khẩn cho tuyến biển tây.",
+    "benefit_en": "Provides a landmark and emergency refuge on western routes.",
+    "cost_vi": "Tiếp cận nguy hiểm, hiệu quả cứu hộ tùy thời tiết.",
+    "cost_en": "Dangerous access makes rescue weather-dependent.",
+    "status_vi": "Di tích có kho trú kiểm tra theo mùa.",
+    "status_en": "Historic site with seasonally inspected refuge stores.",
+    "historical_anchor_vi": "Skellig Michael là khu tu viện cổ trên đảo đá; kho cứu hộ liên hiệp là sáng tạo TFAM.",
+    "historical_anchor_en": "Skellig Michael is an ancient island monastic site; Union rescue stores are TFAM worldbuilding.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/757/"
+    ],
+    "art_prompt": "Skellig Michael jagged island snowy beehive stone huts steep ancient steps tiny amber refuge light Atlantic waves painterly dramatic landscape"
+  },
+  {
+    "id": "union-newgrange",
+    "faction_id": "scotland_ireland_union",
+    "name_vi": "Newgrange — Căn phòng chờ mặt trời",
+    "name_en": "Newgrange — Chamber Awaiting the Sun",
+    "location_vi": "Thung lũng Boyne, Ireland",
+    "location_en": "Boyne Valley, Ireland",
+    "category": "ruin",
+    "epithet_vi": "Một tia sáng đủ khiến người ta chờ cả năm",
+    "epithet_en": "One Ray Can Command a Year of Waiting",
+    "lore_vi": "Khi lối vào gò mộ được dọn sạch, những người khảo sát của Ireland phát hiện đường ánh sáng xuyên vào một căn phòng nằm sâu trong đất. Trong Kỷ Băng Hà, việc chờ đúng ngày trở thành một nghi thức của các cộng đồng quanh Boyne: họ tới với dầu đèn nhưng tắt hết khi người gác ra hiệu. Có những năm mây dày chỉ để lại bóng tối. Hội đồng bảo vệ khu đất khỏi việc lấy đá, đồng thời cử người ghi thời tiết và thời khắc quan sát. Địa danh giữ niềm tin rằng thế giới còn một trật tự vượt qua mùa rét. Các lời đồn về Vestigium thu hút người tìm kho báu, buộc dân địa phương phải canh giữ cả một ngọn đồi.",
+    "lore_en": "When the mound entrance is cleared, Irish surveyors discover the path by which light reaches a chamber deep within it. During the Ice Age, waiting for the appointed day becomes a local ritual: visitors bring lamps and extinguish them at the keeper's signal. Some years offer only thick cloud and darkness. The council protects the site from stone quarrying and appoints observers to record weather and timing. The monument sustains belief in an order extending beyond prolonged winter. Rumours of Vestigium attract treasure seekers, forcing nearby households to guard an entire hill while distinguishing patient observation from promises of a miraculous discovery.",
+    "traits": [
+      {
+        "label_vi": "Ánh sáng theo mùa",
+        "label_en": "Seasonal Light",
+        "description_vi": "Quan sát bầu trời kết nối cộng đồng qua thời gian.",
+        "description_en": "Sky observation connects communities across time."
+      },
+      {
+        "label_vi": "Ngọn đồi phải canh",
+        "label_en": "A Hill to Guard",
+        "description_vi": "Tin đồn cổ vật làm tăng áp lực đào trộm.",
+        "description_en": "Relic rumours increase looting pressure."
+      }
+    ],
+    "benefit_vi": "Củng cố tinh thần và việc ghi chép chu kỳ ánh sáng.",
+    "benefit_en": "Supports morale and records of the light cycle.",
+    "cost_vi": "Tin đồn dẫn tới đào phá và kỳ vọng cứu rỗi khó đáp ứng.",
+    "cost_en": "Rumours encourage destructive digging and unsustainable expectations.",
+    "status_vi": "Khu mộ cổ được bảo vệ; chưa xác nhận Vestigium.",
+    "status_en": "Protected ancient tomb; no Vestigium confirmed.",
+    "historical_anchor_vi": "Newgrange thuộc Brú na Bóinne, có liên hệ với bình minh đông chí; hoạt động quan sát và bảo hộ là biến thể TFAM.",
+    "historical_anchor_en": "Newgrange belongs to Brú na Bóinne and aligns with winter-solstice dawn; its observation programme is TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/659/"
+    ],
+    "art_prompt": "Newgrange ancient passage tomb snow grass mound weathered entrance stones low weak winter dawn, no modern reconstructed quartz facade, painterly mysterious"
+  }
+]

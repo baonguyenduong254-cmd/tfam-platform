@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-saltfeeding-leech",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Đỉa sinh trong máng nước mỏ nơi dịch quặng bạc thường ngấm qua đáy. Thay vì tìm máu, chúng ép bụng vào phần nước mặn nhất; các vòng da sinh những lỗ sáng nhận muối vào thân. Sau một đêm, viền bạc mang đầy tinh thể mịn có thể rơi khỏi da mà phần nước quanh máng vẫn còn.\n\nNgười giữ chờ tinh thể đầu tiên, cất cạnh một hạt muối biển để so, rồi cho đàn nghỉ trong bể riêng. Những câu chuyện về đỉa rút độc lan nhanh hơn sổ thử nước; ông khắc lên nắp bể hình bàn tay gạch chéo, giữ con vật khỏi bị dùng vào chuyện mà các hạt muối chưa từng kể.",
+    "lore_en": "Leeches bred in a mine trough where silver-ore fluid seeped through its bed. Instead of seeking blood, they pressed their bellies into the saltiest water; luminous pores formed along their rings and received salt. After a night, fine crystals covered their silver edges and shed while most trough water remained.\n\nTheir keeper saved the first crystal beside sea salt for comparison and rested the colony separately. Tales of poison-drawing leeches outran water-testing ledgers; he engraved a barred hand upon the lid to keep the animals from uses their salt grains had never demonstrated.",
+    "use_vi": "Rút một phần muối trong mẫu nước nhỏ rồi thu tinh thể từ đàn đã no.",
+    "use_en": "Remove some salt from a small water sample and gather crystals from a fed colony.",
+    "limits_vi": "Chỉ dùng trong bể mẫu, tránh áp trực tiếp lên người. Đàn quá no có thể vỡ; chất khác còn trong nước cần thử riêng trước mọi cách sử dụng.",
+    "limits_en": "Use in specimen tanks rather than directly on people. Overfed animals can rupture; other substances remain in the water and require testing before use.",
+    "skills": [
+      {
+        "name_vi": "Uống vị mặn",
+        "name_en": "Drink the Salt",
+        "description_vi": "Cho vài con khỏe vào lượng nước mẫu đã biết để chúng rút muối qua da, theo dõi viền bạc và chuyển ra ngay khi trắng dày.",
+        "description_en": "Place healthy leeches in a known sample quantity to take salt through their skin; watch the silver edges and remove them as white thickens."
+      },
+      {
+        "name_vi": "Nhả hạt",
+        "name_en": "Shed the Grains",
+        "description_vi": "Đặt đàn đã no lên mặt nghỉ ẩm riêng để tinh thể tách dần khỏi viền vào khay thu, giải thân trước lượt nuôi mới; ép cạo làm rách da.",
+        "description_en": "Set a fed colony upon a separate damp rest so crystals gradually shed into a tray before the next rearing cycle; scraping tears skin."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Viền bạc đếm bữa",
+        "name_en": "Silver Edges Count the Meal",
+        "description_vi": "Viền trắng dày báo đã đầy. Đàn phải được chuyển trước khi tinh thể khép kín các vòng da.",
+        "description_en": "A thick white edge warns of fullness. Move the colony before crystals encircle its skin rings."
+      }
+    ]
+  }
+]

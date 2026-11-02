@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-keeper-of-greetings",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Kính cửa quán trọ được tráng bằng lớp bạc lẫn bụi khoáng. Chủ quán chào mọi người tới, kể cả người chỉ xin trú tuyết bên hiên. Một tối khách cuối rời đi, lời chào của ông được đáp từ kính bằng giọng chính người vừa qua cửa. Trong mặt bạc có bóng nửa thân đứng nghiêng như đang nhường lối.\n\nTấm kính thay cửa vẫn giữ lời chào; cửa cũ đem đốt chẳng tạo thêm bóng nào. Người coi quán bắt đầu chào kính trước khi mở buổi. Bóng cúi đầu đáp, rồi chờ người đầu tiên thực sự bước qua, như thể lịch sự cũng đã tìm được chỗ trú trong vật chất.",
+    "lore_en": "The inn door’s glass was backed with silver containing mineral dust. Its owner greeted everyone, including those asking only for shelter beneath the eaves. One evening, after the last guest left, the glass answered in that guest’s voice. A half-length figure stood within the silver, turned as though making room.\n\nMoved to a new door, the pane kept its greeting; burning the old door produced no further figure. The innkeeper began greeting the glass before opening each day. It bowed in reply, then waited for someone actually to cross, as though courtesy had found lodging in matter.",
+    "use_vi": "Lưu và nhắc lời chào gần nhất của người thực sự qua cửa gắn kính.",
+    "use_en": "Retain and repeat the latest greeting from someone actually crossing the glass-bearing doorway.",
+    "limits_vi": "Chỉ một câu, quên lúc bình minh. Giọng giả vẫn được ghi đúng như nghe, còn người im lặng chỉ để bóng quay đầu mà chẳng thêm lời.",
+    "limits_en": "It retains one sentence and forgets at dawn. An imitated voice is recorded as heard; a silent passer merely turns the figure’s head without adding words.",
+    "skills": [
+      {
+        "name_vi": "Giữ câu chào",
+        "name_en": "Keep the Greeting",
+        "description_vi": "Chào kính đầu buổi để bóng nhận lượt rồi để nó giữ câu gần nhất từ người qua, giúp quầy khuất biết có khách.",
+        "description_en": "Greet the pane at opening so the figure accepts its watch and retains the latest crossing greeting, alerting an obscured counter."
+      },
+      {
+        "name_vi": "Xin nhắc lại",
+        "name_en": "Ask It Again",
+        "description_vi": "Chạm mép bạc rồi chào đúng câu mở buổi để bóng nhắc câu đã lưu một lần với ngữ điệu cũ; hỏi tiếp phải đợi bóng quay lại nhìn cửa.",
+        "description_en": "Touch the silver edge and repeat the opening greeting to hear the retained sentence once in its original cadence; another request must wait until the figure faces the door again."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cửa cần người qua",
+        "name_en": "A Door Requires a Crossing",
+        "description_vi": "Tiếng gọi ngoài cửa chưa qua ngưỡng được bỏ qua. Vì vậy vị trí kính phải được giữ đúng trên cánh cửa đã nhận.",
+        "description_en": "Calls from outside without a crossing are ignored. The pane therefore needs its accepted place upon the door."
+      }
+    ]
+  }
+]

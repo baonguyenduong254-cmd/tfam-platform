@@ -1,0 +1,71 @@
+{
+  "scope": "All character lore ends before TFAM's opening; later scenes used only where they explicitly establish earlier history. Alternate lives and later acquisitions excluded.",
+  "documents": [
+    {
+      "arc": 1,
+      "title": "Vol.I - TFAM - Editor Choice",
+      "document_id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw",
+      "revision": "AHj4eMQGhbX0kW5xaghtDXNmQSyz9vrHQHw-Dzt2aWaV39tVghmQMNA1JWYSevksQuSsrGnoiFikGVCAuALboHZppTyxDcF4DXiJZj-6axw",
+      "url": "https://docs.google.com/document/d/1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw"
+    },
+    {
+      "arc": 2,
+      "title": "Vol.II - TFAM - Editor Choice",
+      "document_id": "1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4",
+      "revision": "AHj4eMSqJ7bPZ-y8tBMmbOyKB-lmyDbpXztEwap5cS3aoRDdS17Fz9SjqPcg79mGn5DK3GX93NdhCBZ6B7UdtEfRAV9t5G_Xp_nTIRttpjY",
+      "url": "https://docs.google.com/document/d/1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4"
+    },
+    {
+      "arc": 3,
+      "title": "Vol.III - TFAM - Editor Choice",
+      "document_id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE",
+      "revision": "AHj4eMRFlsvIe5l67_u9QFZMssuCeYtA9xxYYf9yKsiLCLXcd4DzNULQfm_Orm12XoD_55SOqhhBYGZ5LHAcfrbzowYDALA0-8Yl7l80HLQ",
+      "url": "https://docs.google.com/document/d/1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE"
+    }
+  ],
+  "canon_anchors": {
+    "isabella_testarossa_de_aragon": [
+      "Arc I t.mocii582x6ef: age 27, queen; t.os0j59noj1nu: succession supported by Ziyad; t.alha1zitr74x: mechanical judgement."
+    ],
+    "victoria_valdes": [
+      "Arc I t.sgmde03l4hc8: Spencer home, cattle and residence four years earlier; t.2557d4c6bytx: class1700; ArcIII t.6vl9txmjtdk: trained fencing."
+    ],
+    "marco_stones": [
+      "Arc I t.d89byo9u693z, t.alha1zitr74x: academy friendship; existing dossier: former English colonel."
+    ],
+    "edward_spencer": [
+      "Arc I t.mocii582x6ef: four years in Marrakesh; t.os0j59noj1nu: Inverness responsibility; ArcII t.kgvenkepkdba:1704 recollection, distinguished from alternate-life accounts."
+    ],
+    "juliet_spencer": [
+      "Arc I t.mocii582x6ef, t.b8vtcstq4nu: household, displacement, London triggers and neighbours."
+    ],
+    "abd_al_rahman_ibn_ziyad": [
+      "Arc I t.os0j59noj1nu: pre-succession Gibraltar networks, family granary and public kitchens."
+    ],
+    "habsburg_poland_representative": [
+      "Arc I t.n6940nuyv8cy: claim as CharlesII's son, death1690; curse and eye lost in Madrid1701."
+    ],
+    "england_ruins_representative": [
+      "Arc I t.2557d4c6bytx: young Anglo-French gunner; t.m1r7qpwn5nty: gun-deck trauma; later guard rank excluded."
+    ],
+    "scotland_ireland_union_representative": [
+      "Arc I t.os0j59noj1nu and t.m1r7qpwn5nty: Inverness bait and clan system."
+    ],
+    "jose": [
+      "Arc I t.ycp6bs2hdhnz, t.m1r7qpwn5nty: established Castilian naval reputation and attention to sailors' families."
+    ],
+    "pierrot_de_kenway": [
+      "Arc I t.2i2l0cfpitp5: paired swords, theatrical cruelty and musketeer coat."
+    ],
+    "idris_ibn_abd_al_rahman": [
+      "Arc III t.l43jivxuq4ik: Ziyad's son and maritime experience; later succession excluded."
+    ],
+    "british_east_india_company_representative": [
+      "Arc II t.25nf4pqjla92: Company authority, credit, exiles and limits of commitment; new friendship with Edward excluded from prelude."
+    ],
+    "new_portuguese_empire_representative": [
+      "Arc II t.49d60xl0ymip: veteran admiral; t.s4k90j4xuhsr: independent squadron contingencies."
+    ]
+  },
+  "authored_additions": "The author authorised creation of missing backgrounds. New childhood, apprenticeship and career incidents elaborate existing dossier occupations and faction logic; they are authored TFAM fiction, not asserted real-world biography. Other prelude details retain existing alt-history dates and divergences. Later ranks, campaign outcomes and Vestigium unlocks are omitted."
+}

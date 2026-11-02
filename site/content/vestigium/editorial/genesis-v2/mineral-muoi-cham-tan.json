@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-muoi-cham-tan",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Mẻ muối đầu tiên được vét khỏi các thùng nước biển mắc trong một xác tàu khoáng. Nước đã cạn, nhưng mặt muối còn mang sóng nhỏ chạy dưới da tinh thể. Người thu gom thả nó vào bát, chờ tới hết bữa vẫn thấy hạt đứng giữa một vòng nước mặn đặc, như biển muốn giữ lại phần bờ của chính mình.\n\nVụn Vestigium từ đá chèn tàu đã mọc thành lõi mảnh trong muối. Người tinh lại bằng cùng nước biển chỉ nhận muối thường; những hạt có sóng giữ được thói tan chậm cả khi xa nơi khai. Chúng đi vào thùng cá, kéo dài thêm khoảng một người buôn có thể mang phần ăn qua đường rét.",
+    "lore_en": "The first salt was scraped from seawater barrels in an ore-wreck. Though dry, its crystals bore tiny waves beneath their skins. A collector dropped one into a bowl and found it still standing after supper within a dense briny ring, as though sea retained its own shore.\n\nVestigium fragments from the ship’s packing-stone had grown into the salt. Recrystallising the same seawater yielded ordinary grains; wave-bearing crystals kept their slow dissolution far away. In fish-barrels they extended the interval in which food could cross a frozen road.",
+    "use_vi": "Giữ quá trình đổi độ mặn của thùng nước lạnh chậm lại nhờ hạt tan từng phần.",
+    "use_en": "Slow a cold barrel’s change in salinity by gradual dissolution.",
+    "limits_vi": "Khuấy mạnh phá vòng mặn và làm muối tiêu nhanh. Các lõi lạ khiến hạt không thích hợp ăn trực tiếp; chậm tan cũng khiến người pha dễ tưởng mình chưa cho đủ.",
+    "limits_en": "Vigorous stirring breaks its briny ring. Strange cores make direct consumption unsuitable, and slow response encourages accidental overdosing.",
+    "skills": [
+      {
+        "name_vi": "Tan theo vòng riêng",
+        "name_en": "Dissolve by its Own Ring",
+        "description_vi": "Thả nguyên hạt vào nước lạnh để mỗi hạt giữ một vòng mặn quanh mình rồi tan dần. Xô nước liên tục khiến vòng vỡ và chấm dứt sự trì hoãn.",
+        "description_en": "Whole crystals in cold water keep individual briny rings and dissolve slowly. Continuous agitation breaks the rings and ends the delay."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sóng còn dưới vỏ",
+        "name_en": "Waves Beneath the Skin",
+        "description_vi": "Đập nhỏ làm những vòng sóng thôi hiện; trộn bột vào muối mới không truyền lại phản ứng.",
+        "description_en": "Crushing removes the waves; mixing its powder with fresh salt does not transmit the response."
+      }
+    ]
+  }
+]

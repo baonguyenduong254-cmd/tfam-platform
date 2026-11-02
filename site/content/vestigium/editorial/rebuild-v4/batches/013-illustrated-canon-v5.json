@@ -1,0 +1,321 @@
+[
+  {
+    "id": "complex-uno-speculum",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "canon",
+    "skills": [
+      {
+        "name_vi": "Muôn hướng cùng vươn",
+        "name_en": "Countless Reaching Paths",
+        "description_vi": "Đặt xích ở nhiều vị trí qua các mặt gương, khiến đối thủ khó đoán đòn đánh sẽ tới từ đâu và khó chọn một mục tiêu duy nhất.",
+        "description_en": "Places chains in several positions through mirrors, obscuring the direction of the next attack and making a single target difficult to choose."
+      },
+      {
+        "name_vi": "Xích trong phản chiếu",
+        "name_en": "Chains within Reflections",
+        "description_vi": "Dẫn xích qua các mặt gương để áp sát từ nhiều hướng, trong khi phần xích tương ứng ngoài gương có thể biến mất.",
+        "description_en": "Routes chains through reflections to approach from several directions while their corresponding lengths outside the mirrors can disappear."
+      },
+      {
+        "name_vi": "Cửa gương",
+        "name_en": "Mirror Passage",
+        "description_vi": "Một mặt phản chiếu có thể mở thành đường đi thật như cảnh Isabella xuất hiện qua phía bên kia.",
+        "description_en": "A reflection can open into a real passage, as when Isabella emerges on its other side."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bóng gương chạm được",
+        "name_en": "Reflections That Can Touch",
+        "description_vi": "Những gì xuất hiện trong gương có thể tác động lên chiến trường thật. Đối thủ phải đề phòng cả các hướng đánh đang nằm trong phản chiếu.",
+        "description_en": "What appears in a mirror can act upon the real battlefield. An enemy must guard against attacks still held within reflections."
+      }
+    ],
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 139,
+        "tab_id": "t.79rlxgkddqma",
+        "anchor": "Nàng kích hoạt Uno. Âm thanh đầu tiên là tiếng kính rung từ rất xa, một nốt mỏng chạy qua tường rồi nhân thành hàng trăm nốt khác. Các mặt gương bắt đầu mọc ra từ đá Hoàng cung, từ sàn, cột, trần và cả khoảng không không có điểm tựa, từng tấm sáng lên như bề mặt nước đông cứng dựng đứng giữa không trung."
+      },
+      {
+        "volume": 4,
+        "chapter": 139,
+        "tab_id": "t.79rlxgkddqma",
+        "anchor": "Ngoài gương, sợi xích hoàn toàn biến mất. Testarossa đưa tay. Trong một mặt gương, xích cuộn quanh cổ tay nàng; ở mặt khác nó treo từ trần; trong mặt thứ ba, mũi nhọn đã nằm sát sàn."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "name_vi": "Uno. Thế Giới Xích Gương Speculum",
+    "name_en": "Uno. World of Mirrored Chains Speculum",
+    "form_vi": "Miền gương và xích của Uno",
+    "form_en": "Uno’s field of mirrors and chains",
+    "lore_vi": "Một thân thể chỉ có thể đứng ở một nơi. Người mà Testarossa muốn bảo vệ lại có thể gặp hiểm nguy từ mọi phía. Khi Uno mở ra, sàn đá, cột trụ và khoảng không cùng hiện những mặt gương; trong mỗi mặt kính, sợi xích của nàng đã chờ ở một vị trí khác. Một cánh tay đưa lên, vô vàn hướng đánh cùng đổi theo. Khát vọng che chở có được hình hài trong thế giới ấy: dù hiểm nguy tìm tới từ đâu, vẫn có một bàn tay kịp vươn ra.\n\nGiữa cuộc giao tranh với đôi búp bê, những khả thể trong gương khiến đối thủ phải dè chừng nhiều nơi cùng lúc. Xích xuyên qua mặt kính, đường đi mở ra giữa phản chiếu, còn Isabella bước tới từ phía bên kia. Mỗi lối mở đều do người sử dụng chống giữ bằng chính sức mình. Qua bao mặt gương, vết thương vẫn ở đó, máu vẫn chảy; người đứng sau những khả thể ấy vẫn là Testarossa.",
+    "lore_en": "One body can stand in only one place. Those Testarossa wishes to protect may face danger from every side. When Uno opens, stone floors, pillars and empty air acquire mirrors; within each pane, her chain already waits in a different position. One raised arm changes countless lines of attack. The longing to protect takes shape in that world: wherever danger comes from, a hand may yet reach out in time.\n\nIn the battle against the paired dolls, the possibilities within the mirrors force their enemy to guard several places at once. Chains pass through glass, passages open within reflections, and Isabella steps through from the other side. The bearer sustains each opening with her own strength. Across all those mirrors, wounds remain and blood still flows; the one standing behind those possibilities is still Testarossa.",
+    "use_vi": "Khống chế chiến trường bằng nhiều vị trí khả thể, xích trong gương và lối qua mặt phản chiếu.",
+    "use_en": "Controls a battlefield through possible positions, mirrored chains and passages through reflections.",
+    "limits_vi": "Duy trì nhiều mặt gương cùng lúc làm người sử dụng hao sức. Thương tích và mất máu vẫn ảnh hưởng trực tiếp đến khả năng chiến đấu. Các mặt phản chiếu cho nàng nhiều hướng ra tay; sức lực để hành động vẫn do chính nàng bỏ ra.",
+    "limits_en": "Sustaining several mirrors at once exhausts the bearer. Wounds and blood loss continue to impair her fighting. Reflections offer more directions from which to act; the strength for those actions remains her own.",
+    "owner_vi": "Testarossa",
+    "owner_en": "Testarossa",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Tên gọi mô tả được bổ sung cho triển lãm; cơ chế dưới đây đối chiếu từ truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. Descriptive naming is supplied for the exhibition; the workings below are checked against the story.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 1,
+      "label": "Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Miền gương",
+        "name_en": "Mirror Domain",
+        "description_vi": "Những bề mặt phản chiếu giữ các vị trí khả thể và mở đường đi.",
+        "description_en": "Reflecting surfaces hold possible positions and open passages."
+      },
+      {
+        "name_vi": "Xích phản chiếu",
+        "name_en": "Reflected Chains",
+        "description_vi": "Xích tham gia nhiều mặt gương để tác động vào cùng một chiến trường.",
+        "description_en": "Chains participate in several reflections to act upon one battlefield."
+      }
+    ],
+    "classification_status": "editorial",
+    "epigraph_vi": "Nếu một mình thân thể này không thể bảo vệ được người, hãy để vô vàn khả thể này cùng ta thực hiện điều đó.",
+    "epigraph_en": "If this body alone cannot protect you, let countless possibilities stand with me and see it done.",
+    "editorial_note_vi": "Đoạn về khát vọng che chở là diễn giải văn chương theo chỉ dẫn tác giả, không khẳng định một sự kiện khai sinh mới.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "armament-veinticinco-gravitas",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Veinticinco. Trọng Kiếm Ấn Lực Gravitas",
+    "name_en": "Veinticinco. Force-Sealing Greatsword Gravitas",
+    "form_vi": "Claymore dày, các rãnh Vestigium sáng lục",
+    "form_en": "A heavy claymore with green-lit Vestigium channels",
+    "lore_vi": "Ánh lục đi dọc Veinticinco, kéo thanh kiếm của Martinez thành một Claymore có sống thép dày. Trọng lượng dường như tăng theo chiều dài; nàng hạ vai nhận nó, rồi đặt lưỡi ngang trước một trường kiếm đang bổ xuống. Âm va chạm vang như búa nện chuông, còn đôi chân nàng giữ được chỗ đứng.\n\nTrong mạng Vestigium của Gravitas, một phần lực đáng lẽ truyền hết qua vai đã bị nuốt vào lưỡi. Martinez dùng khoảnh khắc ấy để xoay hông, đánh vào mép giáp và quật đối thủ lệch trục cho người phía sau kết thúc. Cận vệ số Hai Mươi Lăm giữ một vũ khí khiến việc chặn đòn có thể trở thành chỗ mở của đòn kế tiếp. Những rãnh lục lại sáng khi đòn mới tìm đến. Martinez vẫn phải hạ vai, bám đất và tự mình vung kiếm; Gravitas cho nàng thêm một cơ hội đứng vững, rồi chính nàng quyết định dùng cơ hội ấy ra sao.",
+    "lore_en": "Green light runs along Veinticinco, drawing Martinez’s sword into a claymore with a thick steel spine. Its weight seems to grow with its length; she lowers a shoulder to receive it, then sets the blade across a descending longsword. The clash rings like a hammer upon a bell, yet her feet retain their ground.\n\nWithin Gravitas, part of the force that should have struck through her shoulder disappears into the blade. Martinez uses that moment to turn at the hip, strike an armour edge and throw her opponent off balance for the soldier behind her. A parry becomes the opening of her next attack. Green channels shine as another blow arrives. She must still brace, hold her footing and swing the sword herself; Gravitas gives her another chance to stand, and she decides what to make of it.",
+    "use_vi": "Đỡ đòn mạnh, giữ thế đứng và phản kích bằng Claymore để phá trục đối thủ.",
+    "use_en": "Parries heavy blows, holds a stance and counterattacks with the claymore to break an opponent’s axis.",
+    "limits_vi": "Lưỡi kiếm chỉ nhận bớt lực qua những lần va chạm. Người mang vẫn phải chịu phần lực còn lại và giữ được chỗ đứng để chặn, xoay, phản đòn. Nền đất trượt, thế đứng hở hoặc đòn nối tiếp đều có thể đánh gục Martinez.",
+    "limits_en": "The blade takes up part of the force in a clash. Its bearer must withstand the remainder and maintain footing to parry, turn and counter. Slippery ground, an open stance or successive blows can still bring Martinez down.",
+    "skills": [
+      {
+        "name_vi": "Tiếp lực vào lưỡi",
+        "name_en": "Receive Force into the Blade",
+        "description_vi": "Mạng Vestigium nhận một phần lực va chạm thay vì để toàn bộ truyền qua vai người giữ.",
+        "description_en": "The Vestigium network receives part of a collision’s force rather than passing all of it through the bearer’s shoulder."
+      },
+      {
+        "name_vi": "Trọng trảm lệch trục",
+        "name_en": "Off-Axis Hewing Blow",
+        "description_vi": "Dùng Claymore đánh vào mép giáp và trọng tâm để mở thế cho đồng đội.",
+        "description_en": "Strikes armour-edges and balance with the claymore to create an opening for allies."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mạng tiếp lực",
+        "name_en": "Force-Receiving Network",
+        "description_vi": "Các rãnh lục thuộc hình thái Claymore hoạt động ở thời điểm va chạm được ghi nhận.",
+        "description_en": "The green channels of the claymore activate at the recorded moment of impact."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Martinez",
+    "owner_en": "Martinez",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Mặt dây sư tử mang số Veinticinco lóe lục. Các rãnh Vestigium dọc sống kiếm sáng lên, kéo phần thép tới hình thái Claymore đầy đủ của Gravitas. Trọng lượng dường như tăng theo chiều dài, nhưng Martinez chỉ hạ vai một chút để nhận lực.",
+        "chapter": 80
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Một Conquistador Bồ vung trường kiếm hai tay vào cô. Martinez không né hoàn toàn. Claymore dựng ngang, ánh lục chạy dọc lưỡi đúng lúc hai khối thép va nhau. Âm thanh nghe như búa đập vào chuông, nhưng cô gần như không lùi; lực cú đánh bị nuốt vào mạng Vestigium trong lưỡi kiếm thay vì truyền hết qua vai.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 25,
+      "label": "Veinticinco",
+      "parent_id": "device-003"
+    },
+    "content_revision": "rebuild-v4",
+    "epigraph_vi": "Cứ giáng xuống. Ta vẫn còn đứng đây.",
+    "epigraph_en": "Strike, then. I am standing still.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "armament-tres-vinculum",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Tres. Liên Kiếm Bách Phiến Vinculum",
+    "name_en": "Tres. Hundred-Plate Linkblade Vinculum",
+    "form_vi": "Kiếm tách thành hàng trăm phiến nối bằng cáp Vestigium",
+    "form_en": "A sword separating into hundreds of plates joined by Vestigium cables",
+    "lore_vi": "Tres thức dậy bằng ánh tím. Thanh kiếm thẳng trong tay Fredo rũ xuống thành hàng trăm phiến thép, các sợi cáp gần như vô hình giữ chúng thuộc về cùng một lưỡi. Một cái xoay cổ tay đưa Vinculum qua đầu đồng đội; lần kéo về khép những đốt thép lại, như một sinh vật thu xương vào thân.\n\nGiữa trận Santiago, Fredo dùng dải kiếm quấn khiên, giật người giữ khỏi hàng, rồi khóa cán chùy trước khi nó chạm một người lính Castile. Phần đáng sợ của Vinculum nằm trong đường đi có thể đổi sau khi lưỡi đã rời trục đâm. Khoảng trống sau một tấm khiên, mép ban công và cánh tay giơ cao đều trở thành nơi Fredo có thể đưa thép tới. Mỗi vòng kiếm cũng đi ngang người của chính mình, đòi bàn tay điều khiển phải nhớ rõ ai đang đứng dưới đường cáp.",
+    "lore_en": "Tres wakes in violet light. The straight sword in Fredo’s hand falls into hundreds of steel plates, near-invisible cables preserving their belonging to one blade. A turn of the wrist carries Vinculum over his companions; the returning pull closes its joints like a creature gathering its bones.\n\nAt Santiago, Fredo winds the blade around a shield, draws its bearer out of line and locks a mace-shaft before it reaches a Castilian soldier. Vinculum’s danger lies in a path that can change after the blade has left the thrust-line. The space behind a shield, a balcony’s edge and a raised arm all become places Fredo can reach with steel. Each sweep also passes his own people, demanding a controlling hand that remembers who stands beneath its cables.",
+    "use_vi": "Khống chế nhiều góc bằng lưỡi phân đoạn, tước khí giới và mở khoảng trống trong đội hình địch.",
+    "use_en": "Controls several angles through a segmented blade, disarms enemies and opens gaps in their formation.",
+    "limits_vi": "Mỗi đường kiếm đều cần Fredo điều khiển bằng tay và cổ tay. Dải thép đi qua giữa cả địch lẫn ta; sơ suất trong một vòng quét có thể đặt đồng đội vào đường lưỡi. Khi cáp bị cản hoặc các phiến mất quỹ đạo, người cầm phải thu kiếm và lấy lại thế.",
+    "limits_en": "Fredo directs each stroke with hand and wrist. The steel passes among friend and foe; one careless sweep can place a companion in its path. When cables are obstructed or plates lose their course, the bearer must recover the blade and regain control.",
+    "skills": [
+      {
+        "name_vi": "Tản phiến",
+        "name_en": "Separate the Plates",
+        "description_vi": "Tách lưỡi thẳng thành dải thép mềm qua các liên kết cáp.",
+        "description_en": "Separates the straight blade into a flexible steel ribbon through cable joints."
+      },
+      {
+        "name_vi": "Quấn khóa khí giới",
+        "name_en": "Bind an Enemy Weapon",
+        "description_vi": "Lái dải kiếm vòng qua khiên và cán vũ khí để kéo lệch hoặc khóa chuyển động.",
+        "description_en": "Steers the blade around shields and weapon-shafts to draw them aside or lock movement."
+      },
+      {
+        "name_vi": "Thu đốt",
+        "name_en": "Close the Joints",
+        "description_vi": "Khép các đoạn thép theo lần kéo tay, đổi lại hình và đường tác động.",
+        "description_en": "Closes steel segments with a returning pull, changing their shape and line of action."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một lưỡi, nhiều khớp",
+        "name_en": "One Blade, Many Joints",
+        "description_vi": "Các phiến còn nối trong cùng một hệ cáp, cho phép đường thép uốn quanh vật cản.",
+        "description_en": "The plates remain joined in one cable system, allowing the steel path to bend around obstructions."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Fredo",
+    "owner_en": "Fredo",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Lưỡi kiếm thẳng tách thành hàng trăm phiến thép mỏng, mỗi phiến nối với phiến kế bằng những sợi cáp Vestigium gần như không nhìn thấy. Vinculum trượt khỏi chuôi thành một dải thép sống khi Fredo xoay cổ tay, quét vòng qua đầu ba người rồi rơi xuống đúng khe giữa hai đội Báo đang cố tràn vào.",
+        "chapter": 80
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Anh không cắt bừa. Dải thép quấn lấy một khiên tròn, giật người cầm lệch khỏi bạn bên cạnh; vòng thứ hai khóa cán kiếm chùy obsidian trước khi các phiến đen chạm cổ một lính Castile. Khi Fredo kéo tay về, hàng trăm phiến thép khép lại từng đoạn như một con vật thu xương vào thân.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 3,
+      "label": "Tres",
+      "parent_id": "device-003"
+    },
+    "content_revision": "rebuild-v4",
+    "epigraph_vi": "Dẫu lưỡi thép chia trăm mảnh, bàn tay này vẫn giữ trọn lời thề.",
+    "epigraph_en": "Though the blade part a hundred ways, this hand shall hold its oath entire.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "armament-siete-fidelis",
+    "category": "armament",
+    "rarity": 4,
+    "origin": "canon",
+    "skills": [
+      {
+        "name_vi": "Trọng đao biến tải",
+        "name_en": "Changing-Load Greatblade",
+        "description_vi": "Trong trạng thái bị can thiệp, bản thép tăng kích thước và thay đổi cảm nhận trọng lượng ở tay người mang.",
+        "description_en": "In the interfered-with state, the blade grows and alters the weight perceived by its bearer."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hình thái dị thường",
+        "name_en": "Aberrant State",
+        "description_vi": "Bản ghi phân biệt trang bị của Victoria với tác động chi phối từ đôi búp bê.",
+        "description_en": "The record distinguishes Victoria’s equipment from the dolls’ controlling influence."
+      }
+    ],
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 134,
+        "tab_id": "t.g1rhrvs5rcih",
+        "anchor": "Siete rung trong tay. Bản thép dài thêm gần một gang, mép mỏng hơn còn trọng lượng trong tay nàng giảm đi tới mức cổ tay tự nâng cao hơn dù phần sống đang nặng đủ để làm đá dưới mũi kiếm nứt."
+      }
+    ],
+    "content_revision": "guard-v3",
+    "name_vi": "Siete. Trọng Đao Lạc Thệ Fidelis",
+    "name_en": "Siete. Oath-Strayed Greatblade Fidelis",
+    "form_vi": "Hình thái trọng đao bị can thiệp của Siete",
+    "form_en": "Siete’s externally altered greatblade state",
+    "lore_vi": "Siete từng được đặt lên cổ Victoria trước hàng Cận vệ, trong một lời thề phụng sự Castilian. Nàng nhận trách nhiệm bảo vệ ngai vàng và những người thuộc về bổn phận ấy. Rồi đôi búp bê tìm đến tình cảm của nàng, chạm vào nỗi sợ mất người mình thương và dần uốn nghĩa của hai chữ che chở.\n\nTrong căn phòng nhà Valdes, mặt dây xuyên qua chiếc hộp còn khóa, trở về trên cổ nàng. Một bản mã tấu khổng lồ hiện trong tay, nặng đến mức mặt sàn rên dưới bóng thép mà cổ tay vẫn nâng được như thanh kiếm quen thuộc. Sau một cái chết, lưỡi dài thêm, nhẹ hơn trong tay người cầm và nặng hơn với thế giới quanh nàng.\n\nVictoria đã cứu Edward khỏi một lưỡi dao thật. Nhưng thanh kiếm lớn lên từ chính lần cứu ấy, còn đôi búp bê học được cách biến một việc đúng thành con đường dẫn nàng đi xa hơn. Ánh đỏ trên số Bảy tiếp tục cháy sau khi mã tấu tan; lời thề vẫn còn đó, đang bị một thứ khác đọc thành ý muốn của riêng nó.",
+    "lore_en": "Siete was placed around Victoria’s neck before the assembled Guard, beneath an oath of service to Castilian. She accepted the duty of protecting the throne and those entrusted to her care. Then the paired dolls found her affections, touched her fear of losing someone she loved and slowly bent the meaning of protection.\n\nIn a room at the Valdes residence, the pendant passed through its locked box and returned to her neck. An enormous machete appeared in her hand, heavy enough to make the floor groan beneath its shadow, yet her wrist raised it like her familiar sword. After a death, the blade lengthened, becoming lighter to its bearer and heavier to the surrounding world.\n\nVictoria had saved Edward from a real knife. Yet the blade grew from that very rescue, and the dolls learned how to turn one rightful act into a road carrying her further. Red light remained upon Seven after the machete vanished; the oath endured, being read by something else according to its own desire.",
+    "use_vi": "Ghi nhận hình thái trọng đao và biến đổi tải trọng trong biến cố bị chi phối.",
+    "use_en": "Records the greatblade form and altered load during an episode of external control.",
+    "limits_vi": "Đây là dạng Siete trong thời gian bị đôi búp bê can thiệp. Những lần gập khoảng cách và dẫn Victoria tới mục tiêu gắn với lời nguyền đang chi phối nàng. Dừng triển khai có thể làm mã tấu tan đi, nhưng vệt sáng trên mặt dây và ảnh hưởng còn lưu lại.",
+    "limits_en": "This is Siete’s form under the paired dolls’ interference. Folded distances and Victoria’s placement beside targets belong to the curse directing her. Ending deployment can dismiss the machete while light upon the pendant and lingering effects remain.",
+    "owner_vi": "Victoria",
+    "owner_en": "Victoria",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Tên gọi mô tả được bổ sung cho triển lãm; cơ chế dưới đây đối chiếu từ truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. Descriptive naming is supplied for the exhibition; the workings below are checked against the story.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 7,
+      "label": "Siete",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "classification_status": "editorial",
+    "epigraph_vi": "Ta đã thề giữ người bình an. Ai đã dạy lưỡi kiếm này đếm mạng người?",
+    "epigraph_en": "I swore to keep you safe. Who taught this blade to count the dead?",
+    "editorial_review_kind": "rewritten"
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "documents": [
+    {
+      "arc": "I",
+      "document_id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw"
+    },
+    {
+      "arc": "II",
+      "document_id": "1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4"
+    },
+    {
+      "arc": "III",
+      "document_id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE"
+    }
+  ],
+  "characters": {
+    "victoria_valdes": {
+      "origin": "arc-canon",
+      "source": "Arc I: Marrakesh; diễn văn về khóa học năm 1700"
+    },
+    "marco_stones": {
+      "origin": "arc-canon",
+      "source": "Arc I: Fes, hội nghị với Sheikh Ibrahim và các cộng đồng"
+    },
+    "pierrot_de_kenway": {
+      "origin": "arc-canon",
+      "source": "Arc I: Le Triomphant; Arc III: Cagliari"
+    },
+    "sheikh_ibrahim": {
+      "origin": "arc-canon",
+      "source": "Arc I: cuộc họp Fes và mái nhà kho"
+    },
+    "jose": {
+      "origin": "arc-canon",
+      "source": "Arc I: José và các yêu cầu Madrid; Arc III: hội đồng Madrid"
+    },
+    "edward_spencer": {
+      "origin": "arc-canon",
+      "source": "Arc I: Inverness, Marrakesh và diễn văn Sultan; Arc III: quyền kế vị và gia đình Spencer"
+    },
+    "juliet_spencer": {
+      "origin": "arc-canon",
+      "source": "Arc I: gia đình Spencer; Arc III: trao Dây chuyền Nữ Hộ Quốc"
+    },
+    "etienne_saint_clair": {
+      "origin": "web-expansion"
+    },
+    "livia_valeria": {
+      "origin": "web-expansion"
+    },
+    "zofia_rzewuska": {
+      "origin": "web-expansion"
+    },
+    "vera_sokolova": {
+      "origin": "web-expansion"
+    },
+    "aleksei_voronin": {
+      "origin": "web-expansion"
+    },
+    "leyla_demir": {
+      "origin": "web-expansion"
+    },
+    "selim_karaca": {
+      "origin": "web-expansion"
+    },
+    "astrid_holm": {
+      "origin": "web-expansion"
+    },
+    "mikkel_brahe": {
+      "origin": "web-expansion"
+    },
+    "mairi_macleod": {
+      "origin": "web-expansion"
+    },
+    "finn_orourke": {
+      "origin": "web-expansion"
+    },
+    "leonor_de_sa": {
+      "origin": "web-expansion"
+    },
+    "eleanor_ashcombe": {
+      "origin": "web-expansion"
+    },
+    "arjun_sen": {
+      "origin": "web-expansion"
+    },
+    "tran_dieu_lan": {
+      "origin": "web-expansion"
+    },
+    "pham_quang_khai": {
+      "origin": "web-expansion"
+    },
+    "lin_yue": {
+      "origin": "web-expansion"
+    },
+    "chen_haisheng": {
+      "origin": "web-expansion"
+    },
+    "siti_rahma": {
+      "origin": "web-expansion"
+    },
+    "daeng_ismail": {
+      "origin": "web-expansion"
+    },
+    "sakurai_aya": {
+      "origin": "web-expansion"
+    },
+    "han_seongjun": {
+      "origin": "web-expansion"
+    },
+    "borchu": {
+      "origin": "web-expansion"
+    },
+    "saran": {
+      "origin": "web-expansion"
+    },
+    "farah_qazvini": {
+      "origin": "web-expansion"
+    },
+    "bahram_kermani": {
+      "origin": "web-expansion"
+    },
+    "mekdes_hailu": {
+      "origin": "web-expansion"
+    },
+    "tesfaye_bekele": {
+      "origin": "web-expansion"
+    },
+    "aminata_kande": {
+      "origin": "web-expansion"
+    },
+    "issa_diarra": {
+      "origin": "web-expansion"
+    },
+    "nzela_mbemba": {
+      "origin": "web-expansion"
+    },
+    "manuel_soyo": {
+      "origin": "web-expansion"
+    },
+    "zawadi_mwinyi": {
+      "origin": "web-expansion"
+    },
+    "hamisi_kilwa": {
+      "origin": "web-expansion"
+    },
+    "elisabeth_van_der_meer": {
+      "origin": "web-expansion"
+    },
+    "pieter_smit": {
+      "origin": "web-expansion"
+    },
+    "ravelo": {
+      "origin": "web-expansion"
+    },
+    "rambolamanana": {
+      "origin": "web-expansion"
+    }
+  }
+}

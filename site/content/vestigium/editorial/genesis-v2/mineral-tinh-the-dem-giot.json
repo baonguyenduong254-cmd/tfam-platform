@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-tinh-the-dem-giot",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Các tinh thể được nuôi trong máng của một lò chưng cất, nơi người thợ hòa bụi quặng vào nước để mong thuốc giữ được lâu hơn. Sau một đêm nguồn lửa xanh tự tắt, đáy máng mọc mười hai vạch sáng trên từng mũi đá. Giọt thứ mười ba không thấm vào đâu: nó đứng một nhịp rồi trở lại đầu ống vừa thả.\n\nThợ đổi nước, đổi ống và đổi người đếm, chu kỳ vẫn khép ở mười hai. Họ chưa biết mình đã nuôi tinh thể hay làm một thứ biết khép vòng kết vào chất khoáng. Những viên còn nguyên được dùng như người giữ đếm không mỏi, nhưng luôn chừa một chén trống cho giọt quay về.",
+    "lore_en": "The crystals grew in a distillery trough where ore-dust was mixed with water in hope of preserving medicine. After its green fire extinguished itself, twelve luminous marks appeared upon each stone-point. The thirteenth drop stood a beat, then returned to the releasing tube.\n\nWater, tubes and counters changed; the cycle still closed at twelve. Had they grown crystals or lodged something cycle-closing in mineral? Whole samples became tireless counters, with an empty cup always reserved for the returning drop.",
+    "use_vi": "Đếm vòng mười hai giọt và tách một phần tràn khỏi chu kỳ đã được nhận.",
+    "use_en": "Count twelve-drop cycles and separate the overflow from an accepted cycle.",
+    "limits_vi": "Giọt quá sát có thể được nhận thành một. Nước pha dầu làm vạch lẫn; tinh thể chỉ đếm cách nó nhận giọt, không bảo đảm mỗi giọt có cùng lượng.",
+    "limits_en": "Close drops may count as one. Oil confuses its marks; counted drops need not have equal volume.",
+    "skills": [
+      {
+        "name_vi": "Mười hai vạch",
+        "name_en": "Twelve Marks",
+        "description_vi": "Cho từng giọt chạm đỉnh để vạch sáng lần lượt. Đếm nhầm vòng vì không nhìn lúc vạch tắt sẽ khiến cả mẻ pha sai.",
+        "description_en": "Touch drops to its point to light marks successively. Missing their reset can spoil the entire batch."
+      },
+      {
+        "name_vi": "Giọt bị trả",
+        "name_en": "The Returned Drop",
+        "description_vi": "Giữ nguyên vị trí đỉnh sau vạch cuối để giọt vượt vòng được đưa ngược về mặt thả. Dời ống nhận khiến giọt quay về chỗ trống.",
+        "description_en": "Keep its point fixed after the last mark to return the extra drop to its release-face. A moved tube leaves it returning into empty space."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vòng đủ mười hai",
+        "name_en": "A Circle of Twelve",
+        "description_vi": "Vạch tắt cùng nhau khi vòng khép; giọt quay về giữ nguyên chất vừa đưa vào, kể cả thứ nguy hiểm.",
+        "description_en": "Marks fade together upon closure. Returned drops retain their contents, including dangerous ones."
+      }
+    ]
+  }
+]

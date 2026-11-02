@@ -1,0 +1,52 @@
+{
+  "balaPowder": {
+    "volume": 1,
+    "tab_id": "t.43a8mpvqyjnw",
+    "anchor": "“Bột Vestigium tạo nhiệt cấp Thông thường, trộn với nhựa thông, lưu huỳnh và chất cháy. Đầu đạn nổ sẽ tung hỗn hợp bám lên khiên, gỗ, vải, da và bất cứ thứ gì ở quanh điểm chạm.”"
+  },
+  "balaUse": {
+    "volume": 1,
+    "tab_id": "t.43a8mpvqyjnw",
+    "anchor": "“Đốt máy công thành, kho đạn, đội hình khiên và những thứ có thể cháy. Nếu chúng vẫn đứng trong đó thì đó là lựa chọn của chúng.”"
+  },
+  "balaFactory": {
+    "volume": 1,
+    "tab_id": "t.43a8mpvqyjnw",
+    "anchor": "Marco đặt viên đạn trở lại hộp. “Tôi không muốn một vũ khí thần kỳ. Tôi muốn thứ thợ ở Fes có thể làm đủ nhiều để bắn suốt một trận. Nếu cần một viên Vestigium hiếm cho mỗi quả thì bỏ.”"
+  },
+  "balaTrial": {
+    "volume": 1,
+    "tab_id": "t.ak94gkdvsno4",
+    "anchor": "Quả thử đầu tiên đánh trúng chiếc xe công thành giả dựng giữa bãi. Vỏ thép vỡ, chất cháy bám vào gỗ rồi lan thành những dải lửa đỏ cam bất chấp lớp tuyết dưới bánh xe. Những người đứng quan sát im hẳn khi mùi nhựa cháy và khói khét bị gió đưa trở lại."
+  },
+  "balaLots": {
+    "volume": 1,
+    "tab_id": "t.ak94gkdvsno4",
+    "anchor": "Đến cuối tuần, mỗi khẩu Armstrong mới đều có sổ bắn riêng, mỗi lô Bala de Fuego đều có dấu xưởng và ngày sản xuất. Mẫu nào có tỷ lệ cháy sớm vượt giới hạn bị tháo bỏ, dù số lượng dự trữ trên báo cáo vì thế thấp đi đáng kể."
+  },
+  "fuegoName": {
+    "volume": 2,
+    "tab_id": "t.nkced193dq6n",
+    "anchor": "“Bản của Marco chỉ là nền. Cái này là Bala de Fuego Inextinguible. Thủy thủ chắc sẽ gọi Fuego Negro cho đỡ dài.”"
+  },
+  "fuegoCore": {
+    "volume": 2,
+    "tab_id": "t.nkced193dq6n",
+    "anchor": "Edward chỉ vào hai lớp phản ứng trên sơ đồ cắt. “Bột Vestigium của Marco khiến chất cháy bám mục tiêu. Đội kỹ thuật của tôi thêm một lớp thứ hai để những giọt cháy tiếp tục tự cấp nhiệt trong một khoảng thời gian.”"
+  },
+  "fuegoTrial": {
+    "volume": 2,
+    "tab_id": "t.nkced193dq6n",
+    "anchor": "Fuego Negro khiến tất cả phải lùi xa hơn. Khi đạn pháo đập vào khung gỗ phủ vải buồm cũ, vụ nổ không lớn bằng Ruptura, nhưng những giọt lửa đỏ đen bắn ra bám chặt vào vải, gỗ và dây thừng. Đội chữa cháy phun nước, ngọn lửa co lại một nhịp rồi bùng mạnh hơn ở nơi nước kéo chất cháy lan xuống."
+  },
+  "fuegoSand": {
+    "volume": 2,
+    "tab_id": "t.nkced193dq6n",
+    "anchor": "“Đủ rồi.” Edward cau mày ra hiệu dừng thử. Cát khoáng Vestigium chuyên khử nhiệt được trút xuống từ máng phía trên mới dập được phần lớn lửa. Isabella nhìn khung mục tiêu cháy đen rồi nói ngay rằng loại đạn này không được phép chiếm quá nhiều cơ số."
+  },
+  "fuegoRatio": {
+    "volume": 2,
+    "tab_id": "t.nkced193dq6n",
+    "anchor": "Edward đề nghị năm phần trăm. Isabella muốn tám. Sau hai vòng mặc cả, họ chốt ở bảy. Edward chìa tay như thể vừa kết thúc một hiệp ước thương mại, Isabella nhìn bàn tay ấy rồi bắt lấy."
+  }
+}

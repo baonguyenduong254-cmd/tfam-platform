@@ -1,0 +1,352 @@
+[
+  {
+    "id": "armament-tres-vinculum",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Tres. Liên Kiếm Bách Phiến Vinculum",
+    "name_en": "Tres. Hundred-Plate Linkblade Vinculum",
+    "form_vi": "Kiếm tách thành hàng trăm phiến nối bằng cáp Vestigium",
+    "form_en": "A sword separating into hundreds of plates joined by Vestigium cables",
+    "lore_vi": "Tres thức dậy bằng ánh tím. Thanh kiếm thẳng trong tay Fredo rũ xuống thành hàng trăm phiến thép, các sợi cáp gần như vô hình giữ chúng thuộc về cùng một lưỡi. Một cái xoay cổ tay đưa Vinculum qua đầu đồng đội; lần kéo về khép những đốt thép lại, như một sinh vật thu xương vào thân.\n\nGiữa trận Santiago, Fredo dùng dải kiếm quấn khiên, giật người giữ khỏi hàng, rồi khóa cán chùy trước khi nó chạm một người lính Castile. Phần đáng sợ của Vinculum nằm trong đường đi có thể đổi sau khi lưỡi đã rời trục đâm. Khoảng trống sau một tấm khiên, mép ban công và cánh tay giơ cao đều trở thành nơi Fredo có thể đưa thép tới. Mỗi vòng kiếm cũng đi ngang người của chính mình, đòi bàn tay điều khiển phải nhớ rõ ai đang đứng dưới đường cáp.",
+    "lore_en": "Tres wakes in violet light. The straight sword in Fredo’s hand falls into hundreds of steel plates, near-invisible cables preserving their belonging to one blade. A turn of the wrist carries Vinculum over his companions; the returning pull closes its joints like a creature gathering its bones.\n\nAt Santiago, Fredo winds the blade around a shield, draws its bearer out of line and locks a mace-shaft before it reaches a Castilian soldier. Vinculum’s danger lies in a path that can change after the blade has left the thrust-line. The space behind a shield, a balcony’s edge and a raised arm all become places Fredo can reach with steel. Each sweep also passes his own people, demanding a controlling hand that remembers who stands beneath its cables.",
+    "use_vi": "Khống chế nhiều góc bằng lưỡi phân đoạn, tước khí giới và mở khoảng trống trong đội hình địch.",
+    "use_en": "Controls several angles through a segmented blade, disarms enemies and opens gaps in their formation.",
+    "limits_vi": "Các cảnh nguồn cho thấy điều khiển bằng tay và cổ tay. Tầm với, tải cáp và số mục tiêu đồng thời chưa được định lượng; đồng đội trong quỹ đạo vẫn cần Fredo chủ động tránh.",
+    "limits_en": "The recorded scenes show control through hand and wrist. Reach, cable capacity and simultaneous target count remain unquantified; Fredo must actively avoid companions within the blade’s path.",
+    "skills": [
+      {
+        "name_vi": "Tản phiến",
+        "name_en": "Separate the Plates",
+        "description_vi": "Tách lưỡi thẳng thành dải thép mềm qua các liên kết cáp.",
+        "description_en": "Separates the straight blade into a flexible steel ribbon through cable joints."
+      },
+      {
+        "name_vi": "Quấn khóa khí giới",
+        "name_en": "Bind an Enemy Weapon",
+        "description_vi": "Lái dải kiếm vòng qua khiên và cán vũ khí để kéo lệch hoặc khóa chuyển động.",
+        "description_en": "Steers the blade around shields and weapon-shafts to draw them aside or lock movement."
+      },
+      {
+        "name_vi": "Thu đốt",
+        "name_en": "Close the Joints",
+        "description_vi": "Khép các đoạn thép theo lần kéo tay, đổi lại hình và đường tác động.",
+        "description_en": "Closes steel segments with a returning pull, changing their shape and line of action."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một lưỡi, nhiều khớp",
+        "name_en": "One Blade, Many Joints",
+        "description_vi": "Các phiến còn nối trong cùng một hệ cáp, cho phép đường thép uốn quanh vật cản.",
+        "description_en": "The plates remain joined in one cable system, allowing the steel path to bend around obstructions."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Fredo",
+    "owner_en": "Fredo",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Lưỡi kiếm thẳng tách thành hàng trăm phiến thép mỏng, mỗi phiến nối với phiến kế bằng những sợi cáp Vestigium gần như không nhìn thấy. Vinculum trượt khỏi chuôi thành một dải thép sống khi Fredo xoay cổ tay, quét vòng qua đầu ba người rồi rơi xuống đúng khe giữa hai đội Báo đang cố tràn vào.",
+        "chapter": 80
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Anh không cắt bừa. Dải thép quấn lấy một khiên tròn, giật người cầm lệch khỏi bạn bên cạnh; vòng thứ hai khóa cán kiếm chùy obsidian trước khi các phiến đen chạm cổ một lính Castile. Khi Fredo kéo tay về, hàng trăm phiến thép khép lại từng đoạn như một con vật thu xương vào thân.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 3,
+      "label": "Tres",
+      "parent_id": "device-003"
+    }
+  },
+  {
+    "id": "armament-veinticinco-gravitas",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Veinticinco. Trọng Kiếm Ấn Lực Gravitas",
+    "name_en": "Veinticinco. Force-Sealing Greatsword Gravitas",
+    "form_vi": "Claymore dày, các rãnh Vestigium sáng lục",
+    "form_en": "A heavy claymore with green-lit Vestigium channels",
+    "lore_vi": "Ánh lục đi dọc Veinticinco, kéo thanh kiếm của Martinez thành một Claymore có sống thép dày. Trọng lượng dường như tăng theo chiều dài; nàng hạ vai nhận nó, rồi đặt lưỡi ngang trước một trường kiếm đang bổ xuống. Âm va chạm vang như búa nện chuông, còn đôi chân nàng giữ được chỗ đứng.\n\nTrong mạng Vestigium của Gravitas, một phần lực đáng lẽ truyền hết qua vai đã bị nuốt vào lưỡi. Martinez dùng khoảnh khắc ấy để xoay hông, đánh vào mép giáp và quật đối thủ lệch trục cho người phía sau kết thúc. Cận vệ số Hai Mươi Lăm giữ một vũ khí khiến việc chặn đòn có thể trở thành chỗ mở của đòn kế tiếp. Nguồn chỉ cho thấy những gì diễn ra trong các lần tiếp xúc ấy; bản chất nơi sức lực đi vào còn nằm sau những rãnh lục.",
+    "lore_en": "Green light travels along Veinticinco, extending Martinez’s sword into a claymore with a thick steel spine. Its weight seems to grow with its length; she lowers a shoulder to receive it and sets the blade across a descending longsword. The collision rings like a hammer against a bell, while her feet keep their ground.\n\nWithin Gravitas’s Vestigium network, part of the force that would have passed fully through her shoulder is swallowed by the blade. Martinez uses that interval to turn her hips, strike an armour-edge and throw her opponent off-axis for the fighter behind her. Guard Twenty-Five carries a weapon in which a parry can become the opening for the next blow. The source records those contacts; the nature of the place receiving the force remains behind its green channels.",
+    "use_vi": "Đỡ đòn mạnh, giữ thế đứng và phản kích bằng Claymore để phá trục đối thủ.",
+    "use_en": "Parries heavy blows, holds a stance and counterattacks with the claymore to break an opponent’s axis.",
+    "limits_vi": "Nguồn chưa xác lập tải hấp thụ tối đa, thời gian giữ lực hay việc trả nguyên năng lượng đã nhận. Khả năng giữ thế vẫn thể hiện qua kỹ thuật và sức vóc của Martinez.",
+    "limits_en": "The source establishes no maximum absorption, storage duration or return of the exact received energy. Martinez’s technique and physical strength remain evident in her stance.",
+    "skills": [
+      {
+        "name_vi": "Tiếp lực vào lưỡi",
+        "name_en": "Receive Force into the Blade",
+        "description_vi": "Mạng Vestigium nhận một phần lực va chạm thay vì để toàn bộ truyền qua vai người giữ.",
+        "description_en": "The Vestigium network receives part of a collision’s force rather than passing all of it through the bearer’s shoulder."
+      },
+      {
+        "name_vi": "Trọng trảm lệch trục",
+        "name_en": "Off-Axis Hewing Blow",
+        "description_vi": "Dùng Claymore đánh vào mép giáp và trọng tâm để mở thế cho đồng đội.",
+        "description_en": "Strikes armour-edges and balance with the claymore to create an opening for allies."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mạng tiếp lực",
+        "name_en": "Force-Receiving Network",
+        "description_vi": "Các rãnh lục thuộc hình thái Claymore hoạt động ở thời điểm va chạm được ghi nhận.",
+        "description_en": "The green channels of the claymore activate at the recorded moment of impact."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Martinez",
+    "owner_en": "Martinez",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Mặt dây sư tử mang số Veinticinco lóe lục. Các rãnh Vestigium dọc sống kiếm sáng lên, kéo phần thép tới hình thái Claymore đầy đủ của Gravitas. Trọng lượng dường như tăng theo chiều dài, nhưng Martinez chỉ hạ vai một chút để nhận lực.",
+        "chapter": 80
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Một Conquistador Bồ vung trường kiếm hai tay vào cô. Martinez không né hoàn toàn. Claymore dựng ngang, ánh lục chạy dọc lưỡi đúng lúc hai khối thép va nhau. Âm thanh nghe như búa đập vào chuông, nhưng cô gần như không lùi; lực cú đánh bị nuốt vào mạng Vestigium trong lưỡi kiếm thay vì truyền hết qua vai.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 25,
+      "label": "Veinticinco",
+      "parent_id": "device-003"
+    }
+  },
+  {
+    "id": "armament-siete-harpax",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Siete. Song Câu Chiến Thương Harpax",
+    "name_en": "Siete. Twin-Hook War-Spear Harpax",
+    "form_vi": "Giáo có hai lưỡi móc đối xứng khi triển khai",
+    "form_en": "A spear opening into two symmetrical hooked blades",
+    "lore_vi": "Trên cánh đồng Santiago, Siete từng sáng xanh lam giữa những Cận vệ còn giữ được lá cờ Hoàng gia. Đầu giáo Harpax mở ra thành hai lưỡi móc. Người mang số Bảy đưa chúng qua mép hào, kéo những vũ khí dài và tấm khiên đang giữ chặt đường tiến của bộ binh.\n\nHarpax nhận việc thay đổi hình của hàng quân bằng cách kéo một điểm tựa ra khỏi vị trí. Một khiên lệch để hở vai người bên cạnh; một cán giáo bị ghìm buộc cả hàng sau phải chậm lại. Hồ sơ này ghi hình thái Siete xuất hiện ở Tập II, với người mang chưa được đoạn nguồn gọi tên. Victoria nhận số hiệu vào giai đoạn sau; các trạng thái quanh nàng được lưu riêng để giữ đúng lịch sử của cùng một vị trí trong hàng ngũ Cận vệ.",
+    "lore_en": "On the fields of Santiago, Siete once shone blue among the Guards still holding the royal standard. Harpax’s spear-head opened into two hooked blades. The bearer of Number Seven reached them over the trench-edge to draw aside long weapons and shields barring the infantry’s advance.\n\nHarpax changes a formation’s shape by pulling one support out of place. A displaced shield exposes the neighbouring shoulder; a trapped spear-shaft slows the line behind it. This dossier records the Siete manifestation seen in Volume II, whose bearer is unnamed in the cited passage. Victoria receives the number later; the states involving her are recorded separately to preserve the history of one place in the Guard.",
+    "use_vi": "Kéo lệch khiên và vũ khí dài, phá thế giữ mép hào để mở đường tiến.",
+    "use_en": "Draws shields and long weapons aside, breaking a trench-edge defence to open an advance.",
+    "limits_vi": "Phải móc được vào vũ khí hoặc mép chắn. Tầm kéo và tải chịu của hai lưỡi chưa được nguồn xác định. Hình thái này chưa được xác nhận là hình thái thường của Victoria.",
+    "limits_en": "Must catch a weapon or barrier-edge. The source specifies neither pulling reach nor hook capacity. This manifestation is not confirmed as Victoria’s ordinary form.",
+    "skills": [
+      {
+        "name_vi": "Khai song câu",
+        "name_en": "Open the Twin Hooks",
+        "description_vi": "Tách đầu giáo thành hai lưỡi móc đối xứng để bắt và kéo vật chắn.",
+        "description_en": "Opens the spear-head into two symmetrical hooks for catching and pulling obstructions."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thế móc đối xứng",
+        "name_en": "Symmetrical Hook Geometry",
+        "description_vi": "Hai lưỡi tạo hình bắt giữ thay cho mũi giáo chỉ đâm dọc trục.",
+        "description_en": "The twin blades provide catching geometry beyond an axial spear-point."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang Siete tại Santiago, Tập II",
+    "owner_en": "The Siete bearer at Santiago, Volume II",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Mặt dây Siete lóe xanh lam. Harpax mở đầu giáo thành hai lưỡi móc đối xứng, người mang số Bảy lập tức dùng chúng kéo vũ khí dài và khiên khỏi mép hào. Xa hơn, Diecisiete sáng trắng; La Muralla bung từng phiến khiên chồng lên nhau, mở rộng đủ che ba xạ thủ đang thay đạn phía sau.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 7,
+      "label": "Siete",
+      "parent_id": "device-003"
+    }
+  },
+  {
+    "id": "armament-diecisiete-la-muralla",
+    "category": "armament",
+    "rarity": 4,
+    "name_vi": "Diecisiete. Điệp Thuẫn Trường Thành La Muralla",
+    "name_en": "Diecisiete. Layered Rampart Shield La Muralla",
+    "form_vi": "Các phiến khiên xếp chồng quanh cánh tay, có thể bung rộng",
+    "form_en": "Overlapping shield-plates around the arm that unfold outwards",
+    "lore_vi": "La Muralla hiện giữa những tiếng súng tại Santiago bằng ánh trắng của Diecisiete. Các phiến khiên bung ra khỏi cánh tay người mang, chồng mép thành một mặt chắn lớn. Phía sau nó, ba xạ thủ có đủ chỗ thay đạn trong lúc tuyến trước vẫn phải đứng.\n\nCái tên Trường Thành đi cùng một cánh tay có thể bước tới. Mặt chắn của La Muralla tạo một khoảng làm việc cho những người đang bận đôi tay: nạp súng, kéo người ngã, chỉnh lại quai đạn. Hồ sơ giữ quy mô đã được nhìn thấy trong trận, cùng chức năng bảo vệ những thao tác khiến hàng quân tiếp tục sống. Người mang số Mười Bảy trong các đoạn này chưa có tên riêng được xác lập.",
+    "lore_en": "La Muralla appears amid Santiago’s gunfire in Diecisiete’s white light. Shield-plates unfold from its bearer’s arm, overlapping into a broad barrier. Behind it, three riflemen have room to reload while the forward line must still stand.\n\nThe name Rampart belongs to an arm that can advance. La Muralla’s face creates a working interval for people whose hands are occupied: loading a gun, dragging the fallen, resetting an ammunition strap. This dossier preserves the scale witnessed in battle and its protection of the tasks by which a formation stays alive. The Number Seventeen bearer in these passages has no established personal name.",
+    "use_vi": "Bung khiên che một nhóm nhỏ, tạo chỗ nạp đạn và giữ tuyến trong giao tranh.",
+    "use_en": "Unfolds a shield to cover a small group, making room to reload and hold a fighting line.",
+    "limits_vi": "Cần hướng mặt chắn về phía nguy hiểm và giữ được điểm đứng. Nguồn ghi che ba xạ thủ trong một cảnh, chưa định nghĩa đó là giới hạn tối đa hay bảo đảm chống mọi loại hỏa lực.",
+    "limits_en": "Requires the shield to face the threat and its bearer to hold a position. One scene records protection for three riflemen; it establishes neither a maximum nor protection against every weapon.",
+    "skills": [
+      {
+        "name_vi": "Khai điệp thuẫn",
+        "name_en": "Unfold the Layered Shield",
+        "description_vi": "Mở các phiến quanh cánh tay thành mặt chắn đủ che nhóm xạ thủ ở cảnh được ghi nhận.",
+        "description_en": "Opens plates around the arm into a face broad enough to cover the riflemen in the recorded scene."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mép chồng",
+        "name_en": "Overlapping Edges",
+        "description_vi": "Các phiến tiếp nhau thành mặt chắn khi triển khai.",
+        "description_en": "The plates join through overlapping edges when deployed."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang Diecisiete tại Santiago",
+    "owner_en": "The Diecisiete bearer at Santiago",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.scbjplgfyqs5",
+        "anchor": "Mặt dây Siete lóe xanh lam. Harpax mở đầu giáo thành hai lưỡi móc đối xứng, người mang số Bảy lập tức dùng chúng kéo vũ khí dài và khiên khỏi mép hào. Xa hơn, Diecisiete sáng trắng; La Muralla bung từng phiến khiên chồng lên nhau, mở rộng đủ che ba xạ thủ đang thay đạn phía sau.",
+        "chapter": 80
+      }
+    ],
+    "rarity_note_vi": "Cơ chế và số hiệu đối chiếu trực tiếp từ bản thảo. Kỳ tích là bậc trưng bày đề xuất cho sản phẩm; bậc riêng chưa được nguồn này xác nhận. Danh xưng mô tả được bổ sung cho triển lãm.",
+    "rarity_note_en": "Workings and number are checked directly against the manuscript. Wondrous is a proposed display rank for the creation; its independent rank is not confirmed by this source. The descriptive title is supplied for the exhibition.",
+    "classification_status": "editorial",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai được ghi nhận theo người mang số hiệu. Khả năng tái triển khai không đồng nghĩa có nhiều bản thể độc lập.",
+      "note_en": "One deployment system is recorded for its numbered bearer. Redeployment does not establish multiple independent identities."
+    },
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 17,
+      "label": "Diecisiete",
+      "parent_id": "device-003"
+    }
+  },
+  {
+    "id": "device-004",
+    "rarity": 7,
+    "classification_status": "confirmed",
+    "lore_vi": "Hai hình nhân cưới nối bằng chỉ đỏ bước vào đời Victoria bằng những hình ảnh về một gia đình có thể thuộc về nàng. Cô Dâu nuôi cảm giác được yêu và nỗi sợ mất nó; Chú Rể nhận những người đứng ngoài lễ đường ấy làm các mối đe dọa phải dọn đi. Các phép đo trong Chương 136 xác nhận bậc Thần thoại. Đến Chương 139, người quan sát phải dùng thuật ngữ tạm Cận Độc Bản cho trạng thái đang vượt khỏi vùng hiểu biết của thiết bị.\n\nTrong Chương 140, sợi chỉ giữa hai hình nhân đứt. Bảng đo vỡ, và chữ Độc Bản hiện trên phần kim loại còn lại. Chú Rể bung những sợi đỏ đen vào Hoàng cung, kéo các quan hệ mà con người tự nguyện trao cho nhau thành những đường cưỡng ép. Việc bảo vệ người thân bị nó dùng làm đòn bẩy ngay trên thân thể những người đang chiến đấu.\n\nTrạng thái ấy kết thúc khi Edward, Marco, Romeo, Victoria và Scarlet phá được cơ chế chi phối, với sự can dự của Testarossa và Uno. Chú Rể sụp thành tro chỉ. Hồ sơ giữ cả cặp ban đầu lẫn hình thái Chú Rể sau cùng trong một lịch sử, để mỗi biểu hiện được đọc tại đúng thời điểm nó đã xảy ra.",
+    "lore_en": "Two wedding dolls joined by red thread enter Victoria’s life through visions of a family that might belong to her. The Bride nurtures the feeling of being loved and the fear of losing it; the Groom treats those outside that wedding as threats to be removed. Measurements in Chapter 136 confirm Mythic rank. By Chapter 139, observers must use the provisional term Near-Unique for a state passing beyond their instruments’ understood range.\n\nIn Chapter 140, the thread between the figures breaks. The measuring panel shatters, and the word Unique appears upon the metal left behind. The Groom spreads red-black threads through the palace, turning freely given human relationships into means of compulsion. It uses the protection of loved ones as leverage upon the bodies of those fighting it.\n\nThat state ends when Edward, Marco, Romeo, Victoria and Scarlet break its coercive mechanism, with Testarossa and Uno also involved. The Groom collapses into thread-ash. This dossier keeps the initial pair and the final Groom manifestation within one history, so that each expression is read at the time it actually occurred.",
+    "use_vi": "Tạo viễn cảnh, can thiệp ký ức và quan hệ; các trạng thái cao hơn làm sai lệch ghi chép, không gian và những liên kết tự nguyện quanh mục tiêu.",
+    "use_en": "Creates visions and interferes with memory and relationships; higher states distort records, space and voluntary bonds around its targets.",
+    "limits_vi": "Mức tác động thay đổi theo từng giai đoạn. Chú Rể Độc bản bị đánh bại trong Chương 140 sau khi mạng chi phối bị phá; biểu hiện ấy không tự động mô tả khả năng của cặp ở mọi cảnh trước đó. Nguồn gốc ban đầu của hai hình nhân còn bỏ ngỏ.",
+    "limits_en": "Its reach changes by stage. The Unique Groom is defeated in Chapter 140 after its controlling network is broken; that expression does not describe the pair’s powers in every earlier scene. The original formation of the two dolls remains unresolved.",
+    "rarity_note_vi": "Độc bản xác nhận trực tiếp cho hình thái Chú Rể ở Chương 140. Cặp được đo là Thần thoại ở 136; Cận Độc Bản là thuật ngữ tạm ở 139. Bậc hiển thị là đỉnh trạng thái đã được xác nhận, không hồi tố mọi hình thái.",
+    "rarity_note_en": "Unique is explicitly confirmed for the Groom’s Chapter 140 form. The pair is measured as Mythic in 136; Near-Unique is a provisional term in 139. The displayed rank records the highest confirmed state without applying it retrospectively to all forms.",
+    "skills": [
+      {
+        "name_vi": "Dựng đời sống được hứa",
+        "name_en": "Build the Promised Life",
+        "description_vi": "Dựng các viễn cảnh về lễ đường, nhà và quan hệ quanh Victoria để dẫn nhận thức cùng lựa chọn của nàng.",
+        "description_en": "Builds visions of a wedding, home and relationships around Victoria to direct her perceptions and choices."
+      },
+      {
+        "name_vi": "Xuyên nhiễu chứng tích",
+        "name_en": "Interfere with Records",
+        "description_vi": "Ở giai đoạn Thần thoại, sai lệch lan tới ghi chép và các bằng chứng quanh mục tiêu.",
+        "description_en": "At the Mythic stage, distortions spread into records and evidence around its target."
+      },
+      {
+        "name_vi": "Xiềng lời tự nguyện",
+        "name_en": "Shackle the Freely Given Word",
+        "description_vi": "Hình thái Chú Rể Độc bản tác động những quan hệ thật, biến việc bảo vệ người khác thành điểm cưỡng ép trong mạng chỉ.",
+        "description_en": "The Unique Groom acts upon real relationships, turning protection of others into points of compulsion within its thread-network."
+      },
+      {
+        "name_vi": "Co không gian",
+        "name_en": "Contract Space",
+        "description_vi": "Các sợi của hình thái cuối xuyên vào Hoàng cung và kéo không gian quanh nó co lại.",
+        "description_en": "The final form’s threads pierce the palace and draw the surrounding space inward."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một lịch sử nhiều trạng thái",
+        "name_en": "One History, Several States",
+        "description_vi": "Cặp ban đầu, trạng thái Cận Độc Bản và hình thái Chú Rể cuối cùng được theo dõi bằng các mốc riêng.",
+        "description_en": "The original pair, Near-Unique state and final Groom form are tracked at separate points."
+      },
+      {
+        "name_vi": "Hai vai của lễ cưới",
+        "name_en": "Two Wedding Roles",
+        "description_vi": "Cô Dâu và Chú Rể có những cách tác động khác nhau lên nỗi sợ, mất mát và hiểm họa quanh người bị chi phối.",
+        "description_en": "Bride and Groom act differently upon fear, loss and perceived threats surrounding their subject."
+      }
+    ],
+    "applications": [],
+    "quantity": {
+      "kind": "finite",
+      "count": 1,
+      "note_vi": "Một cặp hình nhân trong hồ sơ; Chú Rể cuối cùng đã bị đánh bại. Số đếm mô tả căn tính bộ hiện vật, không khẳng định còn nguyên vẹn sau Chương 140.",
+      "note_en": "One recorded pair; the final Groom is defeated. The count describes the set’s identity, not its intact survival after Chapter 140."
+    },
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 136,
+        "tab_id": "t.6g4d34q5yvny",
+        "anchor": "“Thần thoại,” Evelyne nói."
+      },
+      {
+        "volume": 4,
+        "chapter": 138,
+        "tab_id": "t.mtr8vbc6qaxa",
+        "anchor": "Nàng nói thiết bị đã vượt vùng Thần thoại và tiến sát một ngưỡng không có hồ sơ đủ tin cậy để đặt tên"
+      },
+      {
+        "volume": 4,
+        "chapter": 140,
+        "tab_id": "t.21vry6q54l0j",
+        "anchor": "ĐỘC BẢN."
+      }
+    ]
+  }
+]

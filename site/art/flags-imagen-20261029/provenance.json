@@ -1,0 +1,108 @@
+{
+  "jobs": [
+    {
+      "id": "castilian_empire",
+      "brief": "Quartered crimson velvet and ivory damask, alternating two golden three-towered castles and two purple rampant lions, tiny pomegranate sprigs, dark-red piping and crenellated silver woven border."
+    },
+    {
+      "id": "holy_french_kingdom",
+      "brief": "Midnight royal blue silk with golden fleur de lis field, three large lilies triangular, silver cathedral arch embracing upper lily, ivory beaded hem."
+    },
+    {
+      "id": "western_roman_empire",
+      "brief": "Tyrian purple and oxblood, monumental golden eagle holding thunderbolt and laurel, off-center maroon vertical stripe, Roman red meander top/bottom, ivory laurel below."
+    },
+    {
+      "id": "sultanate_of_morocco",
+      "brief": "Emerald satin with broad burnt-orange hoist, ivory crescent and intricate eight-point Andalusian star, zellige jacquard, scalloped copper woven border."
+    },
+    {
+      "id": "habsburg_poland",
+      "brief": "Vertical antique-gold and crimson halves, black double-headed eagle on gold, crowned white Polish eagle on crimson, thin black-white checked hem."
+    },
+    {
+      "id": "novgorod_union",
+      "brief": "Natural linen, mulberry lower third, two brown bears flanking silver stepped throne and candle, blue river waves, Slavic red-blue folk embroidery hem."
+    },
+    {
+      "id": "ottoman_empire",
+      "brief": "Forest green silk with three ivory crescents in triangular arrangement opening toward fly, subtle ruby diamonds, Ottoman tulip-vine corners, red braided edge."
+    },
+    {
+      "id": "danes_kingdom",
+      "brief": "Wine-red wool, broad ivory offset Scandinavian cross, three small crowned navy lions in upper fly, blue Nordic knot stitching only on fly edge."
+    },
+    {
+      "id": "scotland_ireland_union",
+      "brief": "Ivory saltire quartering blue upper/lower and green hoist/fly, golden harp with silver strings near hoist, crimson lion in ivory lozenge near fly, thistle-shamrock embroidery."
+    },
+    {
+      "id": "england_ruins",
+      "brief": "Battered smoke-ivory linen, faded St George red cross, three worn golden lions in upper hoist, repaired patches soot fraying, red hand stitching, still complete rectangular flag."
+    },
+    {
+      "id": "new_portuguese_empire",
+      "brief": "Ivory and teal hoist third, golden armillary sphere around crimson shield with five tiny silver quinas, ocean-blue compass and coral jacquard, emerald rope hem."
+    },
+    {
+      "id": "british_east_india_company",
+      "brief": "Nine alternating crimson/ivory horizontal stripes, navy canton crossed golden anchors and tiny gilt ship, teal reinforced fly edge, heavy practical sailcloth."
+    },
+    {
+      "id": "annam_empire",
+      "brief": "Lacquer vermilion and broad ochre lower band, golden Lac bird with long beak tail and sweeping wings on bronze-drum sun, Dong Son angular feather and waves, indigo piping, asymmetrical feather fly hem."
+    },
+    {
+      "id": "ming_celestial_empire",
+      "brief": "Gold-yellow silk, coiling crimson five-clawed Chinese dragon chasing ivory pearl, jade and crimson clouds, scarlet hoist, jade cloud-wave hem."
+    },
+    {
+      "id": "nusantara_sultanate",
+      "brief": "Diagonally split sea-green and ivory, golden phinisi sailing ship in upper green and seven ivory stars arc, turquoise waves red clove blossom lower ivory, teak-brown gold island-woven border."
+    },
+    {
+      "id": "tokugawa_empire",
+      "brief": "Ivory silk with broad central vertical ink-purple panel, three naturalistic golden hollyhock leaves forming radial crest, crimson hoist cord, indigo sashiko stitched hem."
+    },
+    {
+      "id": "eternal_sky_khanate",
+      "brief": "Turquoise felt and silk, upright white horse carrying sweeping silver falcon-wing motif, small gold sun above, midnight fly stripe with three gold arrowheads, horsehair braid and ivory stepped hem."
+    },
+    {
+      "id": "safavid_empire",
+      "brief": "Ivory field and broad moss-green upper/lower bands, golden lion before copper sun holding curved sword, Persian plum turquoise floral arabesques, scalloped pomegranate hem."
+    },
+    {
+      "id": "aksumite_empire",
+      "brief": "Burgundy center and mustard-gold side panels, intricate ivory Ethiopian latticework processional cross above small crowned gold lion, black-red woven diamond hem, rich cotton silk."
+    },
+    {
+      "id": "songhai_empire",
+      "brief": "Ochre indigo rust cotton, broad indigo horizontal band, gold sun above three Sahel mudbrick towers and two ivory lances, rough rich strip-weave rust ivory border, lower river wave embroidery."
+    },
+    {
+      "id": "kongo_confederation",
+      "brief": "Pale ivory raffia and cloth, broad red saltire, small emerald shield with golden crocodile, six gold cowries, varied-width black-cream raffia geometric hem."
+    },
+    {
+      "id": "swahili_league",
+      "brief": "Deep teal silk, broad ivory wavy lower third, coral fly band, silver dhow and golden sun behind mast, three turquoise waves, asymmetric rope-coral bead border, Zanzibari vine jacquard."
+    },
+    {
+      "id": "cape_republic",
+      "brief": "Orange ivory slate-blue horizontal bands, navy compass rose in ivory toward hoist, small ivory three-masted ship in blue fly, muted golden protea near hoist corner, practical orange-blue sailcloth seams."
+    },
+    {
+      "id": "merina_empire",
+      "brief": "Broad ivory hoist with slender golden royal spear, crimson upper and green lower fly, elegant silver-gold long-tailed royal bird crossing colors, small golden crown, lamba red-white geometric hems."
+    }
+  ],
+  "liv": {
+    "prompt": "Full-length character concept illustration of Liv Harkon, a fourteen-year-old girl scout in a historical winter fantasy. Refined detailed anime character art, beautiful delicate precise linework, soft painterly cel shading, natural facial features and anatomy, carefully rendered eyes and hair. Youthful round cheeks, small adolescent build and shoulders, reserved alert expression. An assassin-style charcoal hood frames her face; chestnut hair peeks out. Fully buttoned high-collar ivory tunic, layered charcoal cloak with burgundy lining, loose dark trousers, gloves, practical flat ankle boots, utility belt and small pouches. Modest warm everyday adventure clothing. Neutral upright standing pose, hands relaxed, entire figure head to boots visible. Plain warm off-white background, subtle ground shadow. Detailed elegant textile tailoring and subtle silver clasps. Character art for a literary encyclopedia, polished consistent anime visual-novel rendering.",
+    "master": "art/castilian-redesign-20261028/liv-v2.png"
+  },
+  "map": {
+    "prompt": "Create a subtle antique cartographer's blank paper texture overlay for a historical fantasy atlas. Entire landscape canvas is pale ivory parchment, softly mottled warm watercolor fibers, extremely subtle tea stains at edges, elegant fine copperplate wind roses and botanical flourishes only within outermost corners, very faint ruled neatlines near edges. Central 85 percent almost uniform pale cream and clear. Flat evenly illuminated top-down scan. No map, no landmasses, no text, no characters, no objects, no deep creases. Designed as a translucent decorative layer over a real geographic map, restrained museum manuscript aesthetics.",
+    "master": "art/flags-imagen-20261029/manuscript-paper.png"
+  }
+}

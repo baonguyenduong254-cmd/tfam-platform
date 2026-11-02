@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-mica-bam-mep",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Vỉa mica bị khai lộ dưới nền một lò bọc đồng từng cháy qua đêm mà lớp kim loại không chảy. Những phiến đầu tiên được cạy lên mang mặt bạc mỏng như móng tay, tự kéo về mép các tấm đồng đã nguội. Người thợ tưởng chúng có từ tính cho tới khi thử với một lá kim loại khác và thấy phiến chỉ nhận cạnh, bỏ qua mặt phẳng rộng.\n\nBên dưới vỉa có các rễ khoáng Vestigium trông như đường viền của một vật chưa đúc. Thợ đem mica sang xưởng khác vẫn thấy từng phiến tìm chỗ kết thúc của kim loại lạnh rồi bấu vào đó. Chúng giữ một mối bám nhỏ, như đã học được rằng vật có thể được nắm ở ngay nơi nó thôi là chính mình.",
+    "lore_en": "Mica was exposed beneath a copper-lined furnace that had burnt all night without melting its lining. Its nail-thin silver flakes drew towards cooled copper edges. A craftsman assumed magnetism until other metals revealed the same preference for edges over broad surfaces.\n\nVestigium roots beneath the seam resembled the outline of an uncast object. In distant workshops the flakes still found cold metal’s ending and clung there. Their small grip seemed learnt at the very boundary where a thing ceased being itself.",
+    "use_vi": "Giữ tạm mép lá kim loại lạnh trong lúc ghép hoặc khắc chi tiết.",
+    "use_en": "Temporarily grip cold metal-leaf edges during assembly or engraving.",
+    "limits_vi": "Phiến không chịu được sức kéo lớn. Hơi nóng tay hoặc cạnh quá dày làm chỗ bám nhả; mảnh bị gãy thường kéo các phiến lân cận vào một đám khó gỡ.",
+    "limits_en": "Flakes withstand little pull. Hand-warmth or thick edges release them; broken pieces often gather neighbours into a difficult cluster.",
+    "skills": [
+      {
+        "name_vi": "Bấu mép lạnh",
+        "name_en": "Grip the Cold Edge",
+        "description_vi": "Áp cạnh tự nhiên của mica vào cạnh kim loại lạnh để giữ hai phần trong lúc làm việc. Mặt bị đánh bóng hoặc đã ấm không được nó nhận như trước.",
+        "description_en": "Press a natural mica edge to cold metal’s edge to hold work temporarily. Polished or warmed faces no longer receive its former grip."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chỉ nhận chỗ kết thúc",
+        "name_en": "Only the Ending Edge",
+        "description_vi": "Phiến giữ nguyên phản ứng sau khi tách vỉa, nhưng mài mất cạnh tự nhiên khiến nó bỏ cả mép kim loại trước từng nhận.",
+        "description_en": "Detached flakes retain it; grinding their natural edges makes them abandon previously accepted metal."
+      }
+    ]
+  }
+]

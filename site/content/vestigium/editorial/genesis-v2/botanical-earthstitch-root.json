@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-earthstitch-root",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Cây dại bám một nền nhà vừa sạt, nơi bụi khoáng trắng từ túi thuốc thử đã ngấm vào đất. Chủ nhà lấy búa gõ đóng ván mỗi ngày. Qua mỗi nhịp, rễ có những đốt trắng lại vươn qua khe rồi kéo hai mép đất gần nhau, khâu quanh phần nền chưa bị trượt.\n\nKhi người làm vườn nhấc một mảng lên, hai miếng đất rời đi cùng nhau như một chiếc bát vừa vá. Cây chuyển sang khay mới vẫn khâu theo tiếng gõ, khiến nghề ươm đất có thêm một thứ kim mọc từ bên dưới.",
+    "lore_en": "A weed clung to a house foundation that had slipped, where white mineral dust from a reagent pouch had entered the soil. Its owner hammered replacement boards each day. With every beat, white-jointed roots crossed cracks and drew their edges together, stitching around the ground that had not slid away.\n\nWhen a gardener lifted a section, two loose clods rose together like a repaired bowl. In a new tray the plant still stitched to tapping, giving nursery growers a needle that grew from below.",
+    "use_vi": "Kết các mảng đất nhỏ thành bầu ươm và giữ mép luống trong lúc gia cố.",
+    "use_en": "Bind small soil sections into root balls and hold bed edges during reinforcement.",
+    "limits_vi": "Rễ cần đất còn ẩm và nhịp gõ đều; úng hoặc mặn làm chúng rút. Mối khâu giữ mảng nhỏ, tải nền lớn cần kết cấu đỡ đã được tính riêng.",
+    "limits_en": "Roots need moist earth and steady tapping; waterlogging or salinity makes them retract. Stitching holds small sections; major ground loads need separately designed supports.",
+    "skills": [
+      {
+        "name_vi": "Khâu khe",
+        "name_en": "Stitch the Gap",
+        "description_vi": "Gõ nhịp chậm trên khay để rễ tìm mép đất đối diện và thắt lại; dừng khi hai mép vừa chạm để tránh kéo vỡ bầu.",
+        "description_en": "Tap slowly upon the tray so roots seek the facing soil edge and tighten; stop as the edges meet to avoid crushing the root ball."
+      },
+      {
+        "name_vi": "Nới mũi",
+        "name_en": "Loosen the Stitch",
+        "description_vi": "Đổi sang nhịp đôi nhẹ để một mối rễ vừa khâu nới ra cho người trồng chỉnh đất; mối đã hóa gỗ cần cắt thật bằng dao.",
+        "description_en": "Change to a light double beat to loosen a fresh stitch for adjustment; a woody stitch must be cut with a real blade."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kim mọc dưới đất",
+        "name_en": "Needles Beneath the Earth",
+        "description_vi": "Đốt trắng nằm tại chỗ rễ đổi hướng qua khe; đốt chuyển nâu báo mối khâu đang chết.",
+        "description_en": "White joints mark where roots turn across gaps; browning joints warn that a stitch is dying."
+      }
+    ]
+  }
+]

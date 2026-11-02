@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-kim-cuong-ngu-ap",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Khối than nằm dưới chân máy ép trong một hầm mỏ sập đã chịu tải suốt nhiều năm. Bên trên nó là thân máy, trần hầm và xác những người dùng vai giữ thanh chống cuối cùng. Khi đội đào cứu chạm tới, than đã kết thành một viên kim cương đục. Người rửa đá nhúng nó vào nước ấm; nắp thùng phía trên bị đẩy vọt qua mái lều.\n\nNhững đốm than bên trong vẫn nằm lệch, như một vật đang nghiến răng trong giấc ngủ. Mẫu khoáng nhận sức ép rồi giữ lại phần chuyển động đáng lẽ phải xảy ra dưới sức ép ấy. Nước ấm đánh thức nó. Một cái nhún vai bị vùi, một mái đá đã chực sụp, một cú búa chưa kịp nảy khỏi đe có thể cùng tỉnh dậy trong lòng bàn tay người dùng.\n\nCác xưởng chế máy khắc hình giọt nước lên hộp đựng đá đã nạp. Người khuân vẫn hay hỏi hộp nặng bao nhiêu. Thợ cả trả lời bằng một câu khác: bên trong đang có thứ gì muốn đứng dậy.",
+    "lore_en": "A lump of coal beneath a press in a collapsed mine had borne its load for years. Above it lay the machine, the tunnel roof and the bodies of people who had shouldered the final prop. When rescuers reached it, the coal had become a cloudy diamond. A washer dipped it in warm water; the barrel lid overhead shot through the tent roof.\n\nCarbon flecks inside remain askew, like something grinding its teeth in sleep. The mineral receives pressure and retains the movement that ought to have occurred beneath it. Warm water wakes it. A buried shrug, a roof poised to collapse and a hammerstroke that never rebounded can awaken together in its keeper’s palm.\n\nMachine shops engrave a droplet upon boxes containing charged stones. Porters still ask how heavy a box is. Their master answers a different question: what inside it wants to stand up.",
+    "use_vi": "Giữ sức ép dưới dạng chuyển động ngủ, rồi dẫn lần thức dậy vào cơ cấu, cứu hộ hoặc đòn công phá đã chuẩn bị.",
+    "use_en": "Retain pressure as sleeping motion, then conduct its awakening into mechanisms, rescue work or prepared breaching strokes.",
+    "limits_vi": "Phải nạp bằng lực tăng chậm, giữ nguyên hướng ghi và đánh dấu từng lượt. Nước ấm giải phóng phần đang gần tỉnh nhất; nhiều lượt chồng nhau có thể thức sai thứ tự. Đá nứt sẽ nhả toàn bộ chuyển động qua vết nứt, cùng những mảnh kim cương sắc như mũi khoan.",
+    "limits_en": "Charging requires slowly increasing force, preservation of its recorded direction and a mark for each loading. Warm water releases the motion nearest waking; stacked loads may awaken out of order. A cracked stone releases everything through the fracture, together with diamond splinters sharp as drills.",
+    "skills": [
+      {
+        "name_vi": "Nhận tải",
+        "name_en": "Receive the Load",
+        "description_vi": "Ép đá giữa hai bản chắc với lực tăng chậm để ru phần chuyển động vào lõi; lực giật đột ngột có thể đánh thức tải cũ.",
+        "description_en": "Press the stone between sound plates with gradually increasing force to lull motion into its core; a sudden jerk can awaken an old load.",
+        "group_vi": "Ru lực",
+        "group_en": "Lull the Force"
+      },
+      {
+        "name_vi": "Vạch hướng ngủ",
+        "name_en": "Mark the Sleeping Direction",
+        "description_vi": "Rạch một dấu than ngoài hộp theo phương nạp để xác định hướng bật khi thức; xoay đá mà quên đổi dấu làm hướng đoán sai.",
+        "description_en": "Mark the case with charcoal along the charging axis to identify its waking direction; rotating the stone without correcting the mark invalidates it.",
+        "group_vi": "Ru lực",
+        "group_en": "Lull the Force"
+      },
+      {
+        "name_vi": "Nghe giấc ép",
+        "name_en": "Hear the Compressed Dream",
+        "description_vi": "Áp đá qua một thanh gỗ để nghe tiếng rền khác nhau của các lớp tải; nghe quá lâu khiến cơ hàm người dùng tự siết.",
+        "description_en": "Listen through a wooden rod to distinguish stored load layers by their rumble; prolonged listening clenches the keeper’s jaw.",
+        "group_vi": "Ru lực",
+        "group_en": "Lull the Force"
+      },
+      {
+        "name_vi": "Chăn lạnh",
+        "name_en": "The Cold Blanket",
+        "description_vi": "Bọc đá bằng vải lạnh khô để giữ các lớp tải yên trong vận chuyển; vải thấm nước ấm biến chăn thành vật kích.",
+        "description_en": "Wrap the gem in cold dry cloth to keep its loads asleep in transit; warm wet cloth turns the blanket into a trigger.",
+        "group_vi": "Ru lực",
+        "group_en": "Lull the Force"
+      },
+      {
+        "name_vi": "Giọt gọi dậy",
+        "name_en": "The Waking Drop",
+        "description_vi": "Đặt một giọt nước ấm lên đốm than đã chọn để nhả một lớp tải; nước lan sang đốm khác có thể gọi thêm lớp bên cạnh.",
+        "description_en": "Place a warm droplet upon a chosen carbon fleck to release one load; water spreading to another fleck may wake its neighbour.",
+        "group_vi": "Đánh thức",
+        "group_en": "Awaken"
+      },
+      {
+        "name_vi": "Đẩy chốt",
+        "name_en": "Drive the Pin",
+        "description_vi": "Kẹp đá trong ống dẫn trước khi đánh thức để đưa cú bật vào chốt kim loại; ống chịu toàn bộ lực lệch và cần được neo.",
+        "description_en": "Clamp the gem in a guide tube before waking it to drive a metal pin; the tube takes the lateral force and must be anchored.",
+        "group_vi": "Đánh thức",
+        "group_en": "Awaken"
+      },
+      {
+        "name_vi": "Búa không vung",
+        "name_en": "The Unswept Hammer",
+        "description_vi": "Gắn đá sau mặt búa để nhả lực tại điểm búa đã đặt sát vật, phá chốt trong chỗ hẹp; tay cầm phải có đường thoát phản lực.",
+        "description_en": "Mount the gem behind a hammer face to release force where it already touches the work, breaking pins in confined spaces; its handle needs a recoil path.",
+        "group_vi": "Đánh thức",
+        "group_en": "Awaken"
+      },
+      {
+        "name_vi": "Nâng lại trần",
+        "name_en": "Lift the Roof Again",
+        "description_vi": "Dẫn lượt tải vào bàn kích dưới mái sập để đội lên một quãng đã tính; phải cài chống trước khi chuyển động chạy hết.",
+        "description_en": "Direct a stored load into a jack under a fallen roof to lift it a measured distance; props must be inserted before the motion finishes.",
+        "group_vi": "Đánh thức",
+        "group_en": "Awaken"
+      },
+      {
+        "name_vi": "Thức từng nấc",
+        "name_en": "Wake by Stages",
+        "description_vi": "Dùng bấc ấm chạm nối tiếp các đốm để nhả nhiều lượt nhỏ theo trật tự; bấc cháy nhanh làm các lượt nhập thành một cú.",
+        "description_en": "Touch flecks successively with a warm wick to release small loads in order; a rapidly burning wick merges them into one stroke.",
+        "group_vi": "Chia lần tỉnh",
+        "group_en": "Divide the Awakening"
+      },
+      {
+        "name_vi": "Bước máy",
+        "name_en": "The Engine’s Step",
+        "description_vi": "Cho một cơ cấu tự nhỏ nước theo vòng quay để đá đẩy các nhịp lặp cho đến khi hết tải; lỗi nhịp có thể dồn lực vào bánh đang đứng.",
+        "description_en": "Let a mechanism drip water with its rotation so the gem drives repeated strokes until spent; a timing fault can load a stationary wheel.",
+        "group_vi": "Chia lần tỉnh",
+        "group_en": "Divide the Awakening"
+      },
+      {
+        "name_vi": "Lò xo dành lại",
+        "name_en": "The Reserved Spring",
+        "description_vi": "Nạp một lượt thấp sau lượt mạnh để lớp nhẹ thức trước, báo hiệu phần lớn còn ngủ; bỏ qua dấu báo khiến người dùng tưởng đá đã rỗng.",
+        "description_en": "Store a light load after a heavy one so it wakes first and warns that the greater remains asleep; ignoring the warning can make a keeper mistake the gem for empty.",
+        "group_vi": "Chia lần tỉnh",
+        "group_en": "Divide the Awakening"
+      },
+      {
+        "name_vi": "Khiên đội",
+        "name_en": "The Lifting Shield",
+        "description_vi": "Kẹp đá sau tấm chắn đã tì vào vật đè để đẩy vật ra khỏi người mắc kẹt; tấm chắn cần giữ mặt ổn định tránh hất cả nạn nhân.",
+        "description_en": "Brace the gem behind a shield touching crushing debris to push it away from someone trapped; the shield must remain steady to avoid throwing the victim too.",
+        "group_vi": "Chia lần tỉnh",
+        "group_en": "Divide the Awakening"
+      },
+      {
+        "name_vi": "Ổ xả",
+        "name_en": "The Discharge Bed",
+        "description_vi": "Đặt đá trong ổ cát có nắp dẫn lực rồi đánh thức để xả tải không dùng; cát bị phun phải có khoang nhận kín.",
+        "description_en": "Set the gem in a covered sand bed with a force guide and awaken unwanted loads; ejected sand needs an enclosed receiving chamber.",
+        "group_vi": "Cho lực về đất",
+        "group_en": "Return Force to Earth"
+      },
+      {
+        "name_vi": "Ngừng giọt",
+        "name_en": "Stay the Drop",
+        "description_vi": "Lau khô và làm lạnh đốm chưa thấm nước để chặn lượt kế tiếp; phần tải đã thức phải có đường chạy đến hết.",
+        "description_en": "Dry and chill an unwetted fleck to stop the next load; motion already awake must still be allowed to finish.",
+        "group_vi": "Cho lực về đất",
+        "group_en": "Return Force to Earth"
+      },
+      {
+        "name_vi": "Soi than lệch",
+        "name_en": "Read the Shifted Carbon",
+        "description_vi": "Soi ngược sáng sau mỗi lượt xả để xem đốm nào còn bị kéo méo, nhận lớp tải đang giữ; tinh thể đục dày có thể che một lớp sâu.",
+        "description_en": "Backlight the gem after each discharge to find flecks still distorted by retained loads; thick clouding can conceal a deep layer.",
+        "group_vi": "Cho lực về đất",
+        "group_en": "Return Force to Earth"
+      },
+      {
+        "name_vi": "Ngủ yên",
+        "name_en": "Sleep in Peace",
+        "description_vi": "Ngâm đá đã xả trong nước ấm giữa hai bản tự do để gọi nốt những tải nhỏ ra hết; chỉ niêm hộp khi cả hai bản đã thôi dịch.",
+        "description_en": "Soak a discharged gem in warm water between freely moving plates to release remaining small loads; seal the case only when both plates cease moving.",
+        "group_vi": "Cho lực về đất",
+        "group_en": "Return Force to Earth"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chuyển động đang ngủ",
+        "name_en": "Sleeping Motion",
+        "description_vi": "Viên đá có thể nhẹ trong tay mà vẫn chứa một lần đội mái hầm. Tải đã giữ phải được gọi bằng hướng và trình tự, thay vì ước lượng qua trọng lượng hộp.",
+        "description_en": "The stone can feel light while retaining the lifting of a tunnel roof. Stored loads must be addressed by direction and sequence rather than estimated from the box’s weight."
+      }
+    ]
+  }
+]

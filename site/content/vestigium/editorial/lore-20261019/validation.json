@@ -1,0 +1,15 @@
+{
+  "records": 453,
+  "new_bilingual_dossiers": 85,
+  "utility_lore_refined": 12,
+  "canonical_profiles_revealed": 17,
+  "canonical_live_corrections": 2,
+  "changed_source_records": 114,
+  "unchanged_source_records": 339,
+  "missing_lore": 0,
+  "preserved_all_names_ranks_art_sources_quantities": true,
+  "fresh_manuscript_scope": [
+    "Absolución",
+    "Vestigia Nulla"
+  ]
+}

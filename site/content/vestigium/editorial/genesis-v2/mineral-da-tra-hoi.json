@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-da-tra-hoi",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Đá Trả Hơi được lấy khỏi một ống ngưng phủ các gân khoáng xám. Lò đã tắt mà ống còn thở từng nhịp, đưa hơi ấm về các vệt khắc trên thân như một người đang đọc lại chữ. Thợ tháo máy mở ống thấy nước rút vào đá, để ngoài mặt khô nhưng cầm lên vẫn nghe tiếng sôi từ nơi sâu hơn lòng bàn tay.\n\nCác viên mới giữ hơi ấm từ nước đã chạm rồi nhả khi quanh mình lạnh đi. Khi được khắc một nét vòng, chúng biết gửi hơi theo nét tới một miệng ra nhỏ. Người mang chúng qua đường núi gọi đó là phổi của một cái lò đã chịu đi xa khỏi nơi mình sinh ra.",
+    "lore_en": "Breath-Returning Stone came from a condenser lined with grey mineral veins. Its furnace was out, yet the pipe breathed warmth along incised marks as though rereading them. Dismantlers found water retreating into stone: dry outside, it still sounded boiling from deeper than the holding palm.\n\nDetached stones retained warmth from contacting water and released it in surrounding cold. An incised loop directed that breath to a small outlet. Mountain travellers called them the lungs of a furnace willing to leave its birthplace.",
+    "use_vi": "Giữ hơi đã nhận để làm chậm nguội một hộp, hoặc trả thành một luồng có hướng qua nét khắc.",
+    "use_en": "Keep received vapour to delay a box’s cooling, or return it along an incised outlet.",
+    "limits_vi": "Hơi bẩn mang mùi và cặn vào hốc. Rãnh khắc kín không có lối ra có thể khiến đá nứt khi nhả; người dùng phải tự kiểm vật đang được hong có chịu được ẩm.",
+    "limits_en": "Dirty vapour leaves odour and deposits. A sealed outlet-path may crack on discharge; users must check whether warmed objects tolerate damp.",
+    "skills": [
+      {
+        "name_vi": "Ủ hơi trong hốc",
+        "name_en": "Keep Vapour in the Hollow",
+        "description_vi": "Đặt đá trước nước ấm cho tới khi tiếng sôi nhỏ dần rồi cất cùng vật cần hong. Khi các hốc nguội sạch, nó cần một lượt nạp mới.",
+        "description_en": "Charge beside warm water until its boiling hushes, then store with what needs warmth. Emptied cold hollows need recharging."
+      },
+      {
+        "name_vi": "Trả theo nét khắc",
+        "name_en": "Return by the Incision",
+        "description_vi": "Vạch một đường mở tới miệng ra rồi chạm đồng vào điểm đầu để hơi đi theo. Rãnh còn cặn có thể phun cả phần bẩn từng giữ.",
+        "description_en": "Trace an open outlet-path and touch copper to its beginning. Deposits may discharge with the returned vapour."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lò có thể mang đi",
+        "name_en": "A Furnace That Travels",
+        "description_vi": "Lần nạp đầu để lại một nhịp thở riêng; hốc ám khói quá nặng thường thôi nhận thay vì tự được rửa sạch.",
+        "description_en": "The first charge leaves an individual breathing-rhythm. Heavy soot usually ends reception rather than cleaning itself."
+      }
+    ]
+  }
+]

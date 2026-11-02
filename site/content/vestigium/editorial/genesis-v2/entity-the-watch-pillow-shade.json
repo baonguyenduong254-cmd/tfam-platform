@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-watch-pillow-shade",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Chiếc gối trực được khâu từ vải bọc một đồng hồ có bụi khoáng trong máy. Người gác dùng nó cho những giấc ngủ ngắn giữa lượt tuần, luôn nói một giờ trước khi đặt đầu. Một sáng ông bị kéo tai đúng lúc hết giờ; dưới đường may, khuôn mặt vải nhăn lại như vừa bị làm phiền.\n\nThay ruột gối, mặt vẫn nằm ở lớp vỏ. Người gác ôm gối lúc còn thức bị nó nhéo nhẹ, phải đặt xuống như trả ghế cho người đang chờ làm việc. Chủ kho từ đó ghi trong sổ vật tư hai người trực và một chiếc gối chỉ biết coi đúng một người.",
+    "lore_en": "The watch pillow was sewn from wrapping cloth belonging to a clock whose works contained mineral dust. Its keeper used it for short sleeps between rounds, saying one hour before lying down. One morning an ear tug woke him exactly then; beneath a seam, a cloth face frowned as though disturbed.\n\nReplacing the stuffing left the face in its cover. Hugging it while awake earned the keeper a pinch, and he set it down like returning a colleague’s chair. The store’s inventory thereafter listed two watchmen and a pillow capable of watching only one.",
+    "use_vi": "Nhắc kết một giấc nghỉ khoảng một giờ và báo người giữ chưa chịu rời gối.",
+    "use_en": "Mark the end of an approximately hour-long rest and signal that its sleeper has not left the pillow.",
+    "limits_vi": "Cần người nằm tự nói giờ nghỉ rồi đặt đầu. Kiệt sức hay thuốc mê có thể vượt tác động, nên nơi trực vẫn cần người giám sát; dùng dồn làm tai đau và mặt vải thôi đáp.",
+    "limits_en": "The sleeper must state their rest and lie down. Exhaustion or sedation can overcome its effect, so a watch still needs supervision; repeated use hurts ears and makes the cloth face stop answering.",
+    "skills": [
+      {
+        "name_vi": "Kéo tai hết lượt",
+        "name_en": "The End-of-Watch Tug",
+        "description_vi": "Nói một giờ nghỉ rồi nằm lên mặt gối để bóng đếm và kéo tai khi hết khoảng; muốn dừng sớm phải ngồi dậy gọi nó trước khi cất.",
+        "description_en": "State an hour’s rest and lie upon the pillow so the shade counts and tugs an ear at the end; to end early, sit up and address it before storage."
+      },
+      {
+        "name_vi": "Nếp nhắc lần hai",
+        "name_en": "The Second Reminder Fold",
+        "description_vi": "Nếu người nằm chưa rời sau lần kéo, mặt vải dồn đường may thành một nếp cộm dưới má để nhắc thêm; nếp giữ cho đến khi gối được nhấc khỏi đầu.",
+        "description_en": "If the sleeper remains after the tug, the face gathers its seam into a ridge beneath the cheek as another reminder; it stays until the head leaves."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Gối nhận một người",
+        "name_en": "The Pillow Accepts One",
+        "description_vi": "Mùi vỏ gối giúp nó giữ đúng người đang canh. Hai người thay nằm giữa lượt khiến nó bắt đếm lại.",
+        "description_en": "The cover’s scent helps it keep its current sleeper. Swapping occupants mid-rest restarts its count."
+      }
+    ]
+  }
+]

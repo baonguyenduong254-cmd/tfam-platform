@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-footfall-moss",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Rêu tím phủ sàn một chòi gác bỏ hoang. Dưới ván là bụi bạc từ chiếc dấu giày khảm khoáng của người canh cũ; ngày nào ông cũng đi cùng một lối qua cửa. Khi chân người mới đặt lên ván, rêu bên dưới sáng thành cả chuỗi bước đã bị sàn che.\n\nMạng rêu mọc theo sức ép như thể nền đất là một cuốn sổ. Chồi mới lưu dấu mới, chồi già nuốt dần dấu cũ. Người cha nhận trông kho để con ở chòi bên cạnh; mỗi buổi sáng, đứa trẻ lần theo những bước bạc qua sàn và biết cha đã trở về trước khi mở cửa.",
+    "lore_en": "Violet moss covered an abandoned watch hut floor. Beneath its boards lay silver dust from the former keeper’s mineral-inlaid boot stamp; every day he had walked the same route. When a new foot touched the planks, the moss below illuminated a sequence of steps concealed by the floor.\n\nIts network grew according to pressure, as though ground were a ledger. New shoots retained fresh marks; older growth gradually swallowed former ones. A father hired to guard the store kept his child next door. Each morning the child followed silver steps across the floor and knew he had returned before opening the door.",
+    "use_vi": "Ghi hướng và chuỗi sức ép gần đây trên lối hẹp để theo dõi lượt qua hoặc kiểm tra tải di chuyển.",
+    "use_en": "Record the direction and sequence of recent pressure along narrow routes to monitor passage or moving loads.",
+    "limits_vi": "Ghi lực chạm, danh tính cần bằng chứng khác. Vật kéo và thú lớn cũng để dấu; nền phải ẩm, còn ván dày dập nhỏ hình bàn chân.",
+    "limits_en": "It records contact forces; identity needs other evidence. Dragged objects and large animals leave marks too; damp ground is required and thick boards blur footprints.",
+    "skills": [
+      {
+        "name_vi": "Ghi bước",
+        "name_en": "Record the Step",
+        "description_vi": "Trải đệm rêu dưới ván mỏng để sức ép phía trên hiện thành dấu bạc sau một nhịp; vật đè lâu tạo mảng sáng thay vì bàn chân rõ.",
+        "description_en": "Lay a pad beneath thin boards so pressure above appears as silver marks a beat later; sustained loads create bright patches rather than clear feet."
+      },
+      {
+        "name_vi": "Đọc chiều",
+        "name_en": "Read the Direction",
+        "description_vi": "Làm tối chỗ xem rồi nhìn thứ tự mép dấu sáng để nhận hướng bước gần nhất; nhiều lượt chồng nhau cần tách từng đoạn.",
+        "description_en": "Darken the viewing area and read the order in which mark edges light to infer the latest direction; overlapping passages need sectional examination."
+      },
+      {
+        "name_vi": "Chốt lượt",
+        "name_en": "Mark the Passage",
+        "description_vi": "Ấn một thanh gỗ ngang đầu đệm trước giao ca để để lại vạch chuẩn, phân biệt dấu sau đó với dấu cũ; vạch cũng mất khi rêu mọc hết lượt.",
+        "description_en": "Press a bar across the pad before a watch to leave a reference line separating later marks from old ones; growth eventually consumes that line too."
+      },
+      {
+        "name_vi": "Cho rêu quên",
+        "name_en": "Let the Moss Forget",
+        "description_vi": "Tưới ấm và cho sáng đều để chồi mới mọc nhanh, xóa dấu đã chép lại; làm vậy khiến đệm tạm thời nhận bước kém rõ.",
+        "description_en": "Water gently warm and illuminate evenly to hasten growth and erase copied traces; during growth the pad records new steps less clearly."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nền có trí nhớ",
+        "name_en": "A Floor With Memory",
+        "description_vi": "Dấu cũ bị chồi mới ăn dần từ đầu chuỗi, khiến thời gian lưu tùy sức mọc của rêu.",
+        "description_en": "New growth consumes old marks from the beginning of their sequence, making retention depend on growth."
+      }
+    ]
+  }
+]

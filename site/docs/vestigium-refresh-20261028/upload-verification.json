@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "armament-fuego-negro",
+    "kind": "full",
+    "key": "images/vestigium/full/armament-fuego-negro.webp",
+    "expected": "51133ff0fd4ff6c642f3f8fdde82ddf23e3199142c85a3d6888fe98668d2f18f",
+    "ok": true,
+    "bytes": 1813118
+  },
+  {
+    "id": "armament-fuego-negro",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/armament-fuego-negro.webp",
+    "expected": "445a09c7d474cc0e110f29dc6226bdab4fddd5ae1b9b354c3b7e34a5160678b2",
+    "ok": true,
+    "bytes": 25862
+  },
+  {
+    "id": "armament-bala-de-fuego",
+    "kind": "full",
+    "key": "images/vestigium/full/armament-bala-de-fuego.webp",
+    "expected": "3d9463cf33308cafe1e888b66a7d2377ec36bcab57db5616e4bc7c6e800c9734",
+    "ok": true,
+    "bytes": 1637040
+  },
+  {
+    "id": "armament-bala-de-fuego",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/armament-bala-de-fuego.webp",
+    "expected": "741830598acfa5a86f965e83bc0e4352e5b3dfa87df377fd176e747f7e2b993d",
+    "ok": true,
+    "bytes": 26696
+  },
+  {
+    "id": "armament-collection-6-06",
+    "kind": "full",
+    "key": "images/vestigium/full/armament-collection-6-06.webp",
+    "expected": "29e04473292e0d3ada4739c223e5d78ad6797120392949a26d823d5298b883ab",
+    "ok": true,
+    "bytes": 1032958
+  },
+  {
+    "id": "armament-collection-6-06",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/armament-collection-6-06.webp",
+    "expected": "a337db96c96a4e44a0fb15bf9d0b2d3d04c9587edd3162100134a769ad0b0744",
+    "ok": true,
+    "bytes": 22218
+  },
+  {
+    "id": "armament-collection-7-02",
+    "kind": "full",
+    "key": "images/vestigium/full/armament-collection-7-02.webp",
+    "expected": "5db72880d948d6c51ff7fe253979dac89a6ab5298d99149127820e4403b60d05",
+    "ok": true,
+    "bytes": 1583866
+  },
+  {
+    "id": "armament-collection-7-02",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/armament-collection-7-02.webp",
+    "expected": "8dae72e3648f164a4debfd70f96c4591fedbf361150517140f0b6b271f53ceda",
+    "ok": true,
+    "bytes": 31012
+  },
+  {
+    "id": "botanical-the-unnumbered-lotus",
+    "kind": "full",
+    "key": "images/vestigium/full/botanical-the-unnumbered-lotus.webp",
+    "expected": "0cc6630543c1977329443fb41f1fc922a6f14c15bb1dde01e619e4addd7b3a3a",
+    "ok": true,
+    "bytes": 1193578
+  },
+  {
+    "id": "botanical-the-unnumbered-lotus",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/botanical-the-unnumbered-lotus.webp",
+    "expected": "94359f29ebb5a691292f28851c5963305aef34472e65e90d87321c1a2cd4f5bb",
+    "ok": true,
+    "bytes": 27744
+  },
+  {
+    "id": "botanical-the-inkless-letter-tree",
+    "kind": "full",
+    "key": "images/vestigium/full/botanical-the-inkless-letter-tree.webp",
+    "expected": "f04d8fe0132c0f005815bdc50ca6ea9c0814e246259b28952b8b7cb5b756d446",
+    "ok": true,
+    "bytes": 1705586
+  },
+  {
+    "id": "botanical-the-inkless-letter-tree",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/botanical-the-inkless-letter-tree.webp",
+    "expected": "b9ce6d9499e8d89519c841133303cc157b302c1c0546ea56d85e4789da9cf77d",
+    "ok": true,
+    "bytes": 47358
+  },
+  {
+    "id": "botanical-horizon-lichen",
+    "kind": "full",
+    "key": "images/vestigium/full/botanical-horizon-lichen.webp",
+    "expected": "10863fc79436b31c47b686e6e2752cf78f47c9d6901eb4df3170b8ce5284e2bc",
+    "ok": true,
+    "bytes": 2055952
+  },
+  {
+    "id": "botanical-horizon-lichen",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/botanical-horizon-lichen.webp",
+    "expected": "7b7830ed7bcc00f486265b31f2007764290a63c3ed108b19a8d622b9fdb09f52",
+    "ok": true,
+    "bytes": 33170
+  },
+  {
+    "id": "device-044",
+    "kind": "full",
+    "key": "images/vestigium/full/device-044.webp",
+    "expected": "9cc959849dc6f8448e41f8e82c6756715e4f30e9a78d9e0076948a35f4e6b027",
+    "ok": true,
+    "bytes": 1249152
+  },
+  {
+    "id": "device-044",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-044.webp",
+    "expected": "06bd0d15102e970a93d541633805d050ba411f24f98fb26290e10eda1d8521bf",
+    "ok": true,
+    "bytes": 20864
+  },
+  {
+    "id": "device-045",
+    "kind": "full",
+    "key": "images/vestigium/full/device-045.webp",
+    "expected": "19f0c3834e393a496a210ce4d7f339ad504635351193b28971a97f8a4c7b129a",
+    "ok": true,
+    "bytes": 1494858
+  },
+  {
+    "id": "device-045",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-045.webp",
+    "expected": "c7a42e722256c8635434aeafd33c460c67c62cb5d0f5b93a6c7eef88b07690ec",
+    "ok": true,
+    "bytes": 23866
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-ca-voi-lo-tham.webp",
+    "expected": "5064daaed57b49fbeafcc5682f26e19307fb1d25f07387695be99c3d82d82ed5",
+    "ok": true,
+    "bytes": 1524794
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-ca-voi-lo-tham.webp",
+    "expected": "8c63380e066871862a16a610b116f1a877e3724537e14335624c4dd7d412c005",
+    "ok": true,
+    "bytes": 35000
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-can-lo-hoa-tuy.webp",
+    "expected": "8cca732c69d2410ffd749c1601980aeef58ebf9d0e006b628409dfcde68f5a30",
+    "ok": true,
+    "bytes": 2036576
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-can-lo-hoa-tuy.webp",
+    "expected": "4a8931b56ab2e395cda180c2e56cd100ed7d2f2f3625bcb6e47dc7d759f6a91e",
+    "ok": true,
+    "bytes": 44478
+  },
+  {
+    "id": "complex-civitas",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-civitas.webp",
+    "expected": "d5391a6cb823c2f55349e6684bcfaa5e22001a994eb3d1cdc7e398003be43b89",
+    "ok": true,
+    "bytes": 1890762
+  },
+  {
+    "id": "complex-civitas",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-civitas.webp",
+    "expected": "d82e1d8ae0c94f393a736c9145c738fc22c10ab9e3b1cb27dabf4f02d5290f09",
+    "ok": true,
+    "bytes": 36842
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-cot-buom-muoi-ba.webp",
+    "expected": "b99a575bcb7dbdb2ec148bd71f5dcdef67e7558d3a3502c34882519213174511",
+    "ok": true,
+    "bytes": 1941554
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-cot-buom-muoi-ba.webp",
+    "expected": "e13206ea175301bd4b4142e10954d9175ba4cc6f707e4c380c178ea55a8d763a",
+    "ok": true,
+    "bytes": 49338
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-giap-vuon-bach-thiet.webp",
+    "expected": "8d80d4043671d88e4d4b078e01e9b5e7f37344f7ee37191be6fbea8d83b27fc8",
+    "ok": true,
+    "bytes": 1136352
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-giap-vuon-bach-thiet.webp",
+    "expected": "df89f73cf0712e33402c031986bcc3dc809c63acc89a6d8730eafd05582817c5",
+    "ok": true,
+    "bytes": 27648
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "kind": "full",
+    "key": "images/vestigium/full/complex-vuon-trong-tieng-chuong.webp",
+    "expected": "73a9ae925a2890b208e38ff72bb7b69d6c228f400c56f5456ed9442b7e3058a5",
+    "ok": true,
+    "bytes": 1585802
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/complex-vuon-trong-tieng-chuong.webp",
+    "expected": "3fbb835bda5496a5cfa1f59abb49c4a4bbab806b91d3abbfc6e0b9f960585c88",
+    "ok": true,
+    "bytes": 37244
+  },
+  {
+    "id": "device-053",
+    "kind": "full",
+    "key": "images/vestigium/full/device-053.webp",
+    "expected": "10b3a5be0a3b2899e437066c7b5dc15317a816c348e9a7d15adb03ca78a82ead",
+    "ok": true,
+    "bytes": 1122608
+  },
+  {
+    "id": "device-053",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-053.webp",
+    "expected": "0f1b277449fc698a6ebc523c459a80327c5d4dc11a0a9f48924fc6ba84b9a06a",
+    "ok": true,
+    "bytes": 32796
+  },
+  {
+    "id": "device-061",
+    "kind": "full",
+    "key": "images/vestigium/full/device-061.webp",
+    "expected": "3c81c858d816c48ea8bdff43397e66e15dfe4d9bea2b052bc761a70c5f8ed0f5",
+    "ok": true,
+    "bytes": 1425222
+  },
+  {
+    "id": "device-061",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-061.webp",
+    "expected": "1f0e6c916c4f3c274708727c050bfe71ae3267a75f30cacd21ad9f3a76d7017a",
+    "ok": true,
+    "bytes": 32250
+  },
+  {
+    "id": "device-066",
+    "kind": "full",
+    "key": "images/vestigium/full/device-066.webp",
+    "expected": "39133d449c5538c0eb2d733ef5dc2ef0acbbab7494572647acc875b02eef1a0b",
+    "ok": true,
+    "bytes": 1812176
+  },
+  {
+    "id": "device-066",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-066.webp",
+    "expected": "370963145cabadc99d3c34c4c8bd39c41621509901a00ab9289a68e90fae4e54",
+    "ok": true,
+    "bytes": 38104
+  },
+  {
+    "id": "device-067",
+    "kind": "full",
+    "key": "images/vestigium/full/device-067.webp",
+    "expected": "b9c329e27a4d4016143005bd0488c5d137754ecf69520ff2096a16e4393c9014",
+    "ok": true,
+    "bytes": 1301762
+  },
+  {
+    "id": "device-067",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/device-067.webp",
+    "expected": "088a628d42ef94174eb35fef07e97b9f981210f9759c96287693869bcbc10958",
+    "ok": true,
+    "bytes": 23802
+  },
+  {
+    "id": "material-bot-chan-dong",
+    "kind": "full",
+    "key": "images/vestigium/full/material-bot-chan-dong.webp",
+    "expected": "7b37d6090baac33c657f0444f84ef13adc628d7f3dcdb8936cd2de3eebbef90f",
+    "ok": true,
+    "bytes": 1122414
+  },
+  {
+    "id": "material-bot-chan-dong",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-bot-chan-dong.webp",
+    "expected": "e5acfffa5fa4f1f03f85821df6fbe89be2e464c588bdb593862deafe13f731b4",
+    "ok": true,
+    "bytes": 25968
+  },
+  {
+    "id": "material-bot-mo-men",
+    "kind": "full",
+    "key": "images/vestigium/full/material-bot-mo-men.webp",
+    "expected": "01993506ec8e8f5b50bfff115e0973ec37af585475b2120d21b4e085e468d3e1",
+    "ok": true,
+    "bytes": 1512954
+  },
+  {
+    "id": "material-bot-mo-men",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-bot-mo-men.webp",
+    "expected": "38030403b50ee74fb559a107e9722fbdc48d78a00cf6caba83fdf02aaeec6c0f",
+    "ok": true,
+    "bytes": 32162
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "kind": "full",
+    "key": "images/vestigium/full/material-bot-nam-yen.webp",
+    "expected": "efcd8ea016ffe59a5ec535c4612a79163eb14fef0e68147b8d26539b60c0f17c",
+    "ok": true,
+    "bytes": 1414386
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-bot-nam-yen.webp",
+    "expected": "f9d3d2537c7b527f71c4a38c526b591a098c336b91d4c5e711e2b6732a59620a",
+    "ok": true,
+    "bytes": 30330
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "kind": "full",
+    "key": "images/vestigium/full/material-bot-tach-rung.webp",
+    "expected": "f987092b13ac637cc41bbef1695b58c8af44d2979c29829217a9b79a7f8c9ae8",
+    "ok": true,
+    "bytes": 1734928
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-bot-tach-rung.webp",
+    "expected": "0dc4f8e50a1a7b9c16cf650a0fdfd4611a1829b06cc730e96ea0d17786ff1774",
+    "ok": true,
+    "bytes": 36118
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "kind": "full",
+    "key": "images/vestigium/full/material-bot-tat-duong-muc.webp",
+    "expected": "13f4c6f74e9c1b5e6b41b7b2597c7a064c021422c07010fb6b5b52efdd11148a",
+    "ok": true,
+    "bytes": 1686636
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-bot-tat-duong-muc.webp",
+    "expected": "97b31285821b217887818f2d1e7021b144a019dc42165000a54549d65338dda5",
+    "ok": true,
+    "bytes": 39806
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "kind": "full",
+    "key": "images/vestigium/full/material-da-nhuong-luc.webp",
+    "expected": "0abb5bf35920181a80805789294810be9644dda4cdcd386330f5e38060115931",
+    "ok": true,
+    "bytes": 1763726
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-da-nhuong-luc.webp",
+    "expected": "3a9cd83190c6be108459cb18ab904510fc6d5946d0b5585ecabbfa615b6e99bc",
+    "ok": true,
+    "bytes": 27158
+  },
+  {
+    "id": "material-dat-om-re",
+    "kind": "full",
+    "key": "images/vestigium/full/material-dat-om-re.webp",
+    "expected": "fcc1139507f19897cad5467c7f89016e7d0cc80b3f89e43a7635ef61298fd7f0",
+    "ok": true,
+    "bytes": 1666244
+  },
+  {
+    "id": "material-dat-om-re",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-dat-om-re.webp",
+    "expected": "f5bc0371c301f5b3fb48fc00012931f96678ab6f17f758a6659395545235f812",
+    "ok": true,
+    "bytes": 32652
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "kind": "full",
+    "key": "images/vestigium/full/material-dich-chot-sac.webp",
+    "expected": "19bdf5b33f1bd91cff199ed49194dee4ad4a8070ccb450a6749df93a1c2de796",
+    "ok": true,
+    "bytes": 892612
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-dich-chot-sac.webp",
+    "expected": "819bb205e525660c5050d1bd43fca605ccabd6ada705c86d5330d894c7cdb9c5",
+    "ok": true,
+    "bytes": 19276
+  },
+  {
+    "id": "material-dich-doi-mep",
+    "kind": "full",
+    "key": "images/vestigium/full/material-dich-doi-mep.webp",
+    "expected": "4df73dfb142589f9af93fe8414ab12ae919d9d9d8f115b5b98fdef65630fb357",
+    "ok": true,
+    "bytes": 991208
+  },
+  {
+    "id": "material-dich-doi-mep",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-dich-doi-mep.webp",
+    "expected": "b0453dd8810e45642928ba62b1aa06a8c6d58c747588a03756e8a1b318605b80",
+    "ok": true,
+    "bytes": 25198
+  },
+  {
+    "id": "material-dong-dem-nhip",
+    "kind": "full",
+    "key": "images/vestigium/full/material-dong-dem-nhip.webp",
+    "expected": "29e2c8db40787119a3b1991f38d80fa7e44a8fb5de26c33f742950228d2bbd6d",
+    "ok": true,
+    "bytes": 1191616
+  },
+  {
+    "id": "material-dong-dem-nhip",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-dong-dem-nhip.webp",
+    "expected": "2a0e41e3ca27568b51e56d3556a4c9c564755c772bb04a1267e5909587c42667",
+    "ok": true,
+    "bytes": 24910
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "kind": "full",
+    "key": "images/vestigium/full/material-go-soi-sherwood.webp",
+    "expected": "d4ef55d794d0c9a1ff1f7871778b3521be98d793714bb502e38c19038dad0522",
+    "ok": true,
+    "bytes": 1519248
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-go-soi-sherwood.webp",
+    "expected": "6952fdc88d3c8524f2ee1435c909a232d274c76a19b1670ab31e64c6a82b85b8",
+    "ok": true,
+    "bytes": 25118
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "kind": "full",
+    "key": "images/vestigium/full/material-gom-giu-thuoc.webp",
+    "expected": "fdda1114d2899e3ba1a4937f8fa2cd694b876cd885def0c4ad571fd8fa7a6bb2",
+    "ok": true,
+    "bytes": 1271044
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-gom-giu-thuoc.webp",
+    "expected": "4dfc6f265f5ecf44d074ff106073ded00fdefe517a8c4da2aa746d03fa916415",
+    "ok": true,
+    "bytes": 20228
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "kind": "full",
+    "key": "images/vestigium/full/material-ho-bam-lanh.webp",
+    "expected": "3da1d163f7259e51a7323aedb77491a85cf8a58d87557c8bbec287bf8825896a",
+    "ok": true,
+    "bytes": 1929024
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-ho-bam-lanh.webp",
+    "expected": "8a64faf3b4c93ea1f947b9acfc519701c82cc33ab7036f33b6d1e8ba2750ddc7",
+    "ok": true,
+    "bytes": 29136
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "kind": "full",
+    "key": "images/vestigium/full/material-manh-men-giu-mua.webp",
+    "expected": "d9122b5a4e88c44e7fd4b8c682ff9342f0b264d652a834a5ac8e14a5ea8c9b5f",
+    "ok": true,
+    "bytes": 1375428
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-manh-men-giu-mua.webp",
+    "expected": "22263c2e17b5f5b3bb5767adff94ab33ff7cbdcc457c532145dd32184d7eef1b",
+    "ok": true,
+    "bytes": 25500
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "kind": "full",
+    "key": "images/vestigium/full/material-men-giu-anh-tro.webp",
+    "expected": "605e3311badba2808a63763e52d6a53a5d45d8919f50cdb6edf270cb98567d8a",
+    "ok": true,
+    "bytes": 1318108
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-men-giu-anh-tro.webp",
+    "expected": "443613a18d10a259b2c52f491caa1e7b676b53419a18c19972a33f3038b9c8b4",
+    "ok": true,
+    "bytes": 25954
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "kind": "full",
+    "key": "images/vestigium/full/material-muc-giu-kho.webp",
+    "expected": "7123371c7e3b3442a399134003b96d848da583cc1f6b40e0dc26c03ed59bf77c",
+    "ok": true,
+    "bytes": 1498612
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-muc-giu-kho.webp",
+    "expected": "92d348d0ac6735f5a059f0fbbf214ff97d52191f685e88d8c004982f5e784cb1",
+    "ok": true,
+    "bytes": 27920
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "kind": "full",
+    "key": "images/vestigium/full/material-muoi-danh-thuc-hat.webp",
+    "expected": "f7b9a0e38eb217fd6a4939af31311d4a565575c97520bc263a9b7f8e1db65cbe",
+    "ok": true,
+    "bytes": 1861144
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-muoi-danh-thuc-hat.webp",
+    "expected": "d170361fc92276283cabe94a6d67bd5362a0985090c7949188d49e03def14a54",
+    "ok": true,
+    "bytes": 34820
+  },
+  {
+    "id": "material-nhua-khau-go",
+    "kind": "full",
+    "key": "images/vestigium/full/material-nhua-khau-go.webp",
+    "expected": "22b23ce88c88cc4d2da2d7918562f0f964106aebe2434d77b6f9dd8f7ddb1930",
+    "ok": true,
+    "bytes": 1628036
+  },
+  {
+    "id": "material-nhua-khau-go",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-nhua-khau-go.webp",
+    "expected": "01257d88113f690b9ca6993f80ec5172dd8b22e2556a423a66c11852229c1675",
+    "ok": true,
+    "bytes": 30130
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "kind": "full",
+    "key": "images/vestigium/full/material-nhua-lui-chay.webp",
+    "expected": "a419d4e83aa2c532fe04969d65c532234c9ab965a487e37f80e68df2fd007d64",
+    "ok": true,
+    "bytes": 1629792
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-nhua-lui-chay.webp",
+    "expected": "f19f11e872f9e71b7f2c18df39e388286197a65427fba06297391bcc29611c44",
+    "ok": true,
+    "bytes": 29400
+  },
+  {
+    "id": "material-nhua-mot-nhip-lanh",
+    "kind": "full",
+    "key": "images/vestigium/full/material-nhua-mot-nhip-lanh.webp",
+    "expected": "d8cc54811563c3d80b837aa4962ca59c89154e942e8a1a1c2aed52c064985467",
+    "ok": true,
+    "bytes": 954734
+  },
+  {
+    "id": "material-nhua-mot-nhip-lanh",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-nhua-mot-nhip-lanh.webp",
+    "expected": "9d9b7a65d7d98ab3b040bf286c11f69e87c0e80d47333c5ce12329bb089ec5d1",
+    "ok": true,
+    "bytes": 19796
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-dew-on-the-last-step.webp",
+    "expected": "8106e0fe7bbc17ab8733c00c1eb6068a80e2c89937eaa3e360c85f028db3c751",
+    "ok": true,
+    "bytes": 2092818
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-dew-on-the-last-step.webp",
+    "expected": "617872e2db2b3af26fec5ab9e3092ae4b449c38395d685365809abd1545984af",
+    "ok": true,
+    "bytes": 27526
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-leaves-upon-white-stone.webp",
+    "expected": "888885bd966e60b6e1416425cc2636d83535f431ab5a4a57dea4dd672dec966a",
+    "ok": true,
+    "bytes": 2284908
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-leaves-upon-white-stone.webp",
+    "expected": "de010ff1e8a9e892da2527e4308b0d1c1a3dae2beba8b2dc9a720d83c2376830",
+    "ok": true,
+    "bytes": 34930
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-one-minute-of-sideways-rain.webp",
+    "expected": "76bf54b01a2a167c60fa10d4c052c1c3c7566c9f76bbea4e41249be93f4df7b8",
+    "ok": true,
+    "bytes": 2101898
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-one-minute-of-sideways-rain.webp",
+    "expected": "d391eb4519f1e779e020ae8603fc8c5790821934b122af86c408101f90c5c110",
+    "ok": true,
+    "bytes": 29700
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-rain-upon-one-tile.webp",
+    "expected": "d8e49846a80294e5de87b982c54a1be8e5ec1e6e5702fc20267848c5bb30fb6a",
+    "ok": true,
+    "bytes": 2302962
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-rain-upon-one-tile.webp",
+    "expected": "0b021fd7d73230c614ec9200b79f453d25f8793b1b8822c7e76f90466990dbd0",
+    "ok": true,
+    "bytes": 32204
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-snow-beneath-a-sealed-roof.webp",
+    "expected": "f099c2ccae5dfa2a036658c53a04cfa18a0311be6fc1428631f81e04b1b170e3",
+    "ok": true,
+    "bytes": 2102962
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-snow-beneath-a-sealed-roof.webp",
+    "expected": "0c2810bef8ae4e8d2a3da1d42eb4dc426464f44ca4ea0a927c35938de09c963e",
+    "ok": true,
+    "bytes": 24510
+  },
+  {
+    "id": "phenomenon-the-city-beneath-one-mist",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-city-beneath-one-mist.webp",
+    "expected": "3f4424b232d545fea2925fae20302cad48be5ba40075f7127d3ee3bf791f3222",
+    "ok": true,
+    "bytes": 2031606
+  },
+  {
+    "id": "phenomenon-the-city-beneath-one-mist",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-city-beneath-one-mist.webp",
+    "expected": "13636e675ba8132018ba3ef3de6ed1eceddecad282952bcc40e39665d92afb3a",
+    "ok": true,
+    "bytes": 25520
+  },
+  {
+    "id": "phenomenon-the-dawn-of-a-single-song",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-dawn-of-a-single-song.webp",
+    "expected": "1f49b4c7636d658ba94315f29ae8228852d37fa0933ca0c7abf239329b5f970a",
+    "ok": true,
+    "bytes": 1962016
+  },
+  {
+    "id": "phenomenon-the-dawn-of-a-single-song",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-dawn-of-a-single-song.webp",
+    "expected": "f3e9d2832a3d1b84ab568b14a800cad4fd43a36ed899b9dafa794329d2c3eb11",
+    "ok": true,
+    "bytes": 23554
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-flat-sea-of-the-courtyard.webp",
+    "expected": "b5f113be9c797d1edaff3139ca4f9f10f09a8965bdb6425ffcc789373f9af1d8",
+    "ok": true,
+    "bytes": 2347586
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-flat-sea-of-the-courtyard.webp",
+    "expected": "9fe8f8cc7b1271bdc207e2f0f3b86626da520287b1eb0b0a5cb3d5dae92dc138",
+    "ok": true,
+    "bytes": 30228
+  },
+  {
+    "id": "phenomenon-the-light-for-a-later-witness",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-light-for-a-later-witness.webp",
+    "expected": "8907395a0ef47d8927690081ecc46306d2e809d98c48531ca879980c934ea808",
+    "ok": true,
+    "bytes": 2137708
+  },
+  {
+    "id": "phenomenon-the-light-for-a-later-witness",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-light-for-a-later-witness.webp",
+    "expected": "0207eadb13667975df99e4c37bcff3c7cee770b58e19fd980f6663a04b0969e9",
+    "ok": true,
+    "bytes": 23888
+  },
+  {
+    "id": "phenomenon-the-load-remembering-vault",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-load-remembering-vault.webp",
+    "expected": "eb2dfeae72df9c0b4ec2075bea81f122c18c9285ccbe1d461abbb7ae408966b4",
+    "ok": true,
+    "bytes": 2190162
+  },
+  {
+    "id": "phenomenon-the-load-remembering-vault",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-load-remembering-vault.webp",
+    "expected": "10396cccbca774b37c7c9f9d05299cb8a8e5db4f6bebe7b6e3368347d1b92cee",
+    "ok": true,
+    "bytes": 28196
+  },
+  {
+    "id": "phenomenon-the-manuscript-mist-layer",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-manuscript-mist-layer.webp",
+    "expected": "494225867ea7b4a678865c6a992417a25f6fff085238cd51025734d0e91b1d62",
+    "ok": true,
+    "bytes": 1904004
+  },
+  {
+    "id": "phenomenon-the-manuscript-mist-layer",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-manuscript-mist-layer.webp",
+    "expected": "679a3e075caee3cd61ff25a70057bba14b0112deb7a0c3d4787dd224e012d3be",
+    "ok": true,
+    "bytes": 22724
+  },
+  {
+    "id": "phenomenon-the-passage-of-vanished-scents",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-passage-of-vanished-scents.webp",
+    "expected": "277072541cb3f2ac06cc138610d935c3081376787e51a695be5db32439d1d10f",
+    "ok": true,
+    "bytes": 2135674
+  },
+  {
+    "id": "phenomenon-the-passage-of-vanished-scents",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-passage-of-vanished-scents.webp",
+    "expected": "fa2d041482fe80b8f53a2c921c2eda476a939a274817488e84f73e92d351c3b8",
+    "ok": true,
+    "bytes": 28814
+  },
+  {
+    "id": "phenomenon-the-pool-holding-an-old-sky",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-pool-holding-an-old-sky.webp",
+    "expected": "644a6390d2500f35f0544bce605da0c07c7a849dc303444616cbfc8f811a954e",
+    "ok": true,
+    "bytes": 2157262
+  },
+  {
+    "id": "phenomenon-the-pool-holding-an-old-sky",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-pool-holding-an-old-sky.webp",
+    "expected": "a6ad390903789184eb2feb883e8a3e12555528a1715216b6c99b315b32553d46",
+    "ok": true,
+    "bytes": 27164
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-pool-remembering-one-wind.webp",
+    "expected": "812d0595485db635569d2dbfccbbe529c960d1204487bdf7e248690b747f22c6",
+    "ok": true,
+    "bytes": 2230806
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-pool-remembering-one-wind.webp",
+    "expected": "3e1ec9bc9c22e65d62250d1975ca7466bb79c37c511e1186445cc99807d55c76",
+    "ok": true,
+    "bytes": 30892
+  },
+  {
+    "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-quiet-hour-of-an-empty-quay.webp",
+    "expected": "8c06647f1c1fa6ce2387967a98f7b072a859af30730f6c7282eb830631e8cc71",
+    "ok": true,
+    "bytes": 2208730
+  },
+  {
+    "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-quiet-hour-of-an-empty-quay.webp",
+    "expected": "fc13c18da7e306062a2eac354e2e13cd67f27b5d7432d86454dc0ff8bd846d55",
+    "ok": true,
+    "bytes": 27202
+  },
+  {
+    "id": "phenomenon-the-quiet-zone-holding-every-note",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-quiet-zone-holding-every-note.webp",
+    "expected": "0ec9974eff1f48c033298e12fd16d9634943042ad1eba32ad8f20e3bdf48fca8",
+    "ok": true,
+    "bytes": 2195228
+  },
+  {
+    "id": "phenomenon-the-quiet-zone-holding-every-note",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-quiet-zone-holding-every-note.webp",
+    "expected": "b531feec1a8d0c859c52f3edbb268dc3227c432d555692deaad825d7ff834842",
+    "ok": true,
+    "bytes": 27610
+  },
+  {
+    "id": "phenomenon-the-rain-that-falls-once",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-rain-that-falls-once.webp",
+    "expected": "b7d64eaf8589b45db9507515b0d9876c4119e875dc85bcf58e886f598ea9cb5d",
+    "ok": true,
+    "bytes": 2248154
+  },
+  {
+    "id": "phenomenon-the-rain-that-falls-once",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-rain-that-falls-once.webp",
+    "expected": "0d8b0efb25ed4f08d2017ea3906fe611aeb73dda17540b37b863fc3d4a7e3f1e",
+    "ok": true,
+    "bytes": 32446
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-remaining-sunthread.webp",
+    "expected": "38e446cd47f702f605a85818b750cfbcb32fd9b24b18423458e5836e512b5981",
+    "ok": true,
+    "bytes": 1872418
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-remaining-sunthread.webp",
+    "expected": "14db96439495fd07e8ff5eb90d271a4f55a3800002379f122dd0a0af3dc4fcfd",
+    "ok": true,
+    "bytes": 19630
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-ring-retaining-water.webp",
+    "expected": "e27df6bda9587bd6afd1405e115575c220cfbafff500fc1cc383b13ba3049689",
+    "ok": true,
+    "bytes": 2267746
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-ring-retaining-water.webp",
+    "expected": "1b3f103a3dd3bf7adf14798a19dbb2740bf0293115b6287708aea710cec353f8",
+    "ok": true,
+    "bytes": 30582
+  },
+  {
+    "id": "phenomenon-the-room-of-two-dawns",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-room-of-two-dawns.webp",
+    "expected": "c6b5265b94097d988a7d8b7c70e64756cb8bd99cfcaeaf77737f356642b1b31c",
+    "ok": true,
+    "bytes": 2058512
+  },
+  {
+    "id": "phenomenon-the-room-of-two-dawns",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-room-of-two-dawns.webp",
+    "expected": "ad8dab1f277f2b0768e5ec47ec03b01e0a85b5e8678e844f1fe90a40c6e15eea",
+    "ok": true,
+    "bytes": 26744
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-rootshadow-garden.webp",
+    "expected": "da6ea69c83bb2d6ceb8ce963efae0f55b8b221ad86375c73aea7cf9bd1c9c327",
+    "ok": true,
+    "bytes": 2335628
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-rootshadow-garden.webp",
+    "expected": "3ad20a13afc99c38b4fe78a4af252b20d00679930a5f57fb160f5b4572d7782e",
+    "ok": true,
+    "bytes": 32482
+  },
+  {
+    "id": "phenomenon-the-space-left-for-a-return",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-space-left-for-a-return.webp",
+    "expected": "3eefa7e518f1b582f10f842a892d74111cb456e9ec3ce84357c3a579ce491e37",
+    "ok": true,
+    "bytes": 2133412
+  },
+  {
+    "id": "phenomenon-the-space-left-for-a-return",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-space-left-for-a-return.webp",
+    "expected": "3687f43001e911971cc747ee7cc0f1d0790449f9db5a594d9d20de0e1d78e356",
+    "ok": true,
+    "bytes": 28086
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-stair-of-high-notes.webp",
+    "expected": "b0dbaeceedeebed90e8c14c7b13f2d7f23c3224d8d2600a5dd56e54014468a74",
+    "ok": true,
+    "bytes": 1968642
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-stair-of-high-notes.webp",
+    "expected": "a3af26211e9810ff8ac7c8021325b29a4effca0d55227d8d51ab730e0d5eea10",
+    "ok": true,
+    "bytes": 23210
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-two-season-shadow-garden.webp",
+    "expected": "5af43a808d2c806657bb7c3727065a3430e359d21d28db65fb56deb8f9b8bd4d",
+    "ok": true,
+    "bytes": 2558968
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-two-season-shadow-garden.webp",
+    "expected": "c55d6450bf844b72febf01b9613fa74ecd4e396fbe09dd9b01644f0bbfac1ef0",
+    "ok": true,
+    "bytes": 38584
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-water-sound-alcove.webp",
+    "expected": "f500389f6ec6c67b6a90875ca1bb266f06f68028fb8f51d8e94ea9b8246eae91",
+    "ok": true,
+    "bytes": 2128678
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-water-sound-alcove.webp",
+    "expected": "a2bc6b8268dc0dd655092f834fb2f9ffa10b4ec9063429b03a87b3d563801b03",
+    "ok": true,
+    "bytes": 28566
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-the-waterline-beneath-the-lamp.webp",
+    "expected": "5d7c401562001fccdff60fc05b26b52faa51fc0e7891eb5ab5cb537ac6261946",
+    "ok": true,
+    "bytes": 1931774
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-the-waterline-beneath-the-lamp.webp",
+    "expected": "ffbc90fee1714c157a41b9ba165127dcaea5f3c1929a246fcc3156b8bfb81537",
+    "ok": true,
+    "bytes": 26082
+  },
+  {
+    "id": "phenomenon-winter-within-the-wall-niche",
+    "kind": "full",
+    "key": "images/vestigium/full/phenomenon-winter-within-the-wall-niche.webp",
+    "expected": "022cbbec8fe65a727ab4a458e03314aa0ff00a5476f7c47a3b4afba14cfd2540",
+    "ok": true,
+    "bytes": 2000426
+  },
+  {
+    "id": "phenomenon-winter-within-the-wall-niche",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/phenomenon-winter-within-the-wall-niche.webp",
+    "expected": "dc95a166ca513397f3ddf861027575ec5ea2890d3e5188e7343f9c236d0474cf",
+    "ok": true,
+    "bytes": 24896
+  },
+  {
+    "id": "material-sap-niem-mot-lan",
+    "kind": "full",
+    "key": "images/vestigium/full/material-sap-niem-mot-lan.webp",
+    "expected": "e96ec2a958b0919602d8012c9e5f2aa0e3687387e4aacf00dc0196a9a19e5e2c",
+    "ok": true,
+    "bytes": 1747792
+  },
+  {
+    "id": "material-sap-niem-mot-lan",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-sap-niem-mot-lan.webp",
+    "expected": "66e43fb819c334236a31b50e7b7f0d6e5c52afa8476d03bb2aac0f5442c45dc7",
+    "ok": true,
+    "bytes": 31352
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "kind": "full",
+    "key": "images/vestigium/full/material-sap-tra-dau.webp",
+    "expected": "7b81648d021e9f99e66e69e25281c777887122d1e1beed5ead835cab9daaf970",
+    "ok": true,
+    "bytes": 1684332
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-sap-tra-dau.webp",
+    "expected": "a82ec27d4430c6f3a5919906e0d0ea7a391a396df4dd0b98f48b5b3b3fef4fee",
+    "ok": true,
+    "bytes": 25396
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "kind": "full",
+    "key": "images/vestigium/full/material-soi-banh-nuoc.webp",
+    "expected": "3413209341212b4dbf551b274ad896992eca3addc9e90a6329ca1e482c9e0959",
+    "ok": true,
+    "bytes": 1598080
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-soi-banh-nuoc.webp",
+    "expected": "50af40356ab77a7e3e8ea1e9fa482934bb4d75cb46c0af5572ece378bfca6553",
+    "ok": true,
+    "bytes": 29530
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "kind": "full",
+    "key": "images/vestigium/full/material-soi-cham-dut.webp",
+    "expected": "eac500cc127fce29c880c2d9d640911f0367a978c54d159043b84069c726e4bf",
+    "ok": true,
+    "bytes": 1441134
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-soi-cham-dut.webp",
+    "expected": "e3379f3c656551ee4353dd6b15e53731a70de55ded8ad0f94dada549b98482c1",
+    "ok": true,
+    "bytes": 50638
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "kind": "full",
+    "key": "images/vestigium/full/material-soi-chi-ve.webp",
+    "expected": "d91d0bb396d05aac117a103cca4b27c89045f8d5c770a12e67536a786f58c308",
+    "ok": true,
+    "bytes": 1088466
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-soi-chi-ve.webp",
+    "expected": "397c19f78cd97880075e62e822b85b6fde1766bf4bf45bed0c1ad270064885b0",
+    "ok": true,
+    "bytes": 30586
+  },
+  {
+    "id": "material-than-ngu-dong",
+    "kind": "full",
+    "key": "images/vestigium/full/material-than-ngu-dong.webp",
+    "expected": "54cc5c4523c97d290d34e8951ca2ae97337e5c9d2fc8a0d25ead159ca029333f",
+    "ok": true,
+    "bytes": 1677482
+  },
+  {
+    "id": "material-than-ngu-dong",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-than-ngu-dong.webp",
+    "expected": "dda3182b37df9180e50eab0f04896c387f2dcda404346de53c7f8e557a69d839",
+    "ok": true,
+    "bytes": 27800
+  },
+  {
+    "id": "material-vai-uong-mau",
+    "kind": "full",
+    "key": "images/vestigium/full/material-vai-uong-mau.webp",
+    "expected": "4e7a41ba0da0ef0887eda0b4d5cca5cc8f7a2bb238bbc837ba5366374f788b7c",
+    "ok": true,
+    "bytes": 1527294
+  },
+  {
+    "id": "material-vai-uong-mau",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-vai-uong-mau.webp",
+    "expected": "84ef7443053dc95a8278069668f24e99b104ef45e251b05047e2c7fde3facc99",
+    "ok": true,
+    "bytes": 28602
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "kind": "full",
+    "key": "images/vestigium/full/material-voi-nhan-tro.webp",
+    "expected": "f92b83af1a210a72a6b9385af63bd9ebecfc73b37805e0355eeebee2bed5a662",
+    "ok": true,
+    "bytes": 961394
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "kind": "thumb",
+    "key": "images/vestigium/thumbs/material-voi-nhan-tro.webp",
+    "expected": "2e82363404adda11fbacfc5f6a814f8a136f852049b249c24510de64f722368a",
+    "ok": true,
+    "bytes": 21432
+  }
+]

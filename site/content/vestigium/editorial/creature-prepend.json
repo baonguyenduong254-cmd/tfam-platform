@@ -1,0 +1,290 @@
+[
+  {
+    "id": "creature-ember-beetle",
+    "mode": "prepend",
+    "lore_vi": "Người đốt lò để đàn bọ sống qua đêm trong nắm than cuối, rồi sáng ra chọn giữ chúng thay vì nhóm lửa.",
+    "lore_en": "The stoker left the beetles in his last coal overnight, then chose to keep them rather than light a fire."
+  },
+  {
+    "id": "creature-dewkeeping-snail",
+    "mode": "prepend",
+    "lore_vi": "Người làm vườn thức bên chậu khô đã thấy hơi thở mình trở thành giọt nước dưới vỏ ốc.",
+    "lore_en": "A gardener keeping vigil beside a dry pot saw his breath become a drop beneath the snail's shell."
+  },
+  {
+    "id": "creature-warmthread-silkworm",
+    "mode": "prepend",
+    "lore_vi": "Thợ dệt giữ đôi găng đầu tiên bằng thứ tơ ấy trên đôi tay đã lạnh đi của mẹ.",
+    "lore_en": "A weaver laid the first gloves made from that silk upon his mother's cooling hands."
+  },
+  {
+    "id": "creature-needlefin-minnow",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ giấu đá sau lưng vẫn bị vây cá chỉ đúng, lần nào cũng bật cười như được tìm thấy.",
+    "lore_en": "A child hiding the stone behind his back was found by the fin each time, laughing at being discovered."
+  },
+  {
+    "id": "creature-frostthread-spider",
+    "mode": "prepend",
+    "lore_vi": "Những nút sương trên mạng là tấm bản đồ gió đầu tiên người thổi kính biết đọc.",
+    "lore_en": "Dew-knots in the web were the first wind-map its glassblower keeper learnt to read."
+  },
+  {
+    "id": "creature-pale-copper-cricket",
+    "mode": "prepend",
+    "lore_vi": "Thợ kho đã chui lại vào phòng khi cánh ve đổi giọng, kéo người bạn ngủ quên khỏi chiếc bình rò.",
+    "lore_en": "A storeman returned when the insect's wings changed pitch and dragged his sleeping companion away from a leaking vessel."
+  },
+  {
+    "id": "creature-earthknot-worm",
+    "mode": "prepend",
+    "lore_vi": "Người trồng rau lần theo đường hầm chắc thành, tìm được sinh vật nhỏ đã giữ phần đất khỏi vỡ trong tay.",
+    "lore_en": "A grower followed the firm tunnel and found the small creature holding soil together in his hands."
+  },
+  {
+    "id": "creature-ash-firefly",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ chụm ngón tay sau khi đom đóm bay, cố giữ đốm sáng lâu bằng một lời ước.",
+    "lore_en": "A child cupped his fingers after the firefly left, trying to keep the light for the length of a wish."
+  },
+  {
+    "id": "creature-frostwax-bee",
+    "mode": "prepend",
+    "lore_vi": "Người giữ tổ để sáp rơi tự nhiên, coi những mẩu nhỏ là tiền thuê nhà đàn ong trả sau mùa rét.",
+    "lore_en": "The beekeeper collected fallen wax as the rent the colony paid after winter."
+  },
+  {
+    "id": "creature-veinscent-mouse",
+    "mode": "prepend",
+    "lore_vi": "Con chuột cắn thủng bao quặng quý nhất rồi tha cả giẻ lót về tổ, khiến thợ mỏ vừa mắng vừa nuôi.",
+    "lore_en": "The mouse chewed the richest ore-sack and stole its lining for a nest; the miner cursed it and kept feeding it."
+  },
+  {
+    "id": "creature-wellbell-frog",
+    "mode": "prepend",
+    "lore_vi": "Tiếng ngân dưới giếng đánh thức người gánh nước trước buổi sáng dây gàu chạm tới nền khô.",
+    "lore_en": "The well's note woke the water-carrier before the morning his bucket-rope reached dry ground."
+  },
+  {
+    "id": "creature-crevicelock-crab",
+    "mode": "prepend",
+    "lore_vi": "Thủy thủ tháo đinh quanh con cua, để nó cùng mảng ván được mang vào bể thay vì bị nạy khỏi thuyền.",
+    "lore_en": "Sailors removed the nails around the crab, taking it and its plank to a tank rather than prising it free."
+  },
+  {
+    "id": "creature-windmark-sparrow",
+    "mode": "prepend",
+    "lore_vi": "Người sửa khí cụ mở cửa phòng mỗi ngày, cho chim đủ khoảng trời để chọn quay lại.",
+    "lore_en": "The instrument-mender opened the room daily, giving the bird enough sky to choose its return."
+  },
+  {
+    "id": "creature-clearwater-shrimp",
+    "mode": "prepend",
+    "lore_vi": "Người coi bể giữ một viên bụi đã kết bên nhãn, ngạc nhiên vì thứ làm bẩn nước cũng có thể được gom lại thành vật.",
+    "lore_en": "The keeper saved one gathered dust-pellet beside its label, amazed that murk could become a thing one could hold."
+  },
+  {
+    "id": "creature-mirrorpowder-moth",
+    "mode": "prepend",
+    "lore_vi": "Vảy bướm soi ra đường rạn trong tấm kính người thợ định đặt lên nôi con.",
+    "lore_en": "Butterfly dust revealed a fracture in the glass a craftsman meant to place above his child's cradle."
+  },
+  {
+    "id": "creature-saltfeeding-leech",
+    "mode": "prepend",
+    "lore_vi": "Người giữ máng chờ tinh thể muối đầu tiên trên da đỉa, rồi cất nó cùng một hạt muối biển để so.",
+    "lore_en": "The trough-keeper saved the first crystal from its skin beside a grain of sea-salt for comparison."
+  },
+  {
+    "id": "creature-echohound",
+    "mode": "prepend",
+    "lore_vi": "Người cứu nó khỏi trạm chuông thấy con chó dừng trước một nền gạch trống, ngửi tiếng chân chủ cũ vừa tắt.",
+    "lore_en": "Its rescuer watched it stop on empty flagstones, scenting its former keeper's fading steps."
+  },
+  {
+    "id": "creature-mistreading-owl",
+    "mode": "prepend",
+    "lore_vi": "Trong sân mù, tiếng mỏ cú đưa người cha tới đúng cánh cửa con mình đang chờ.",
+    "lore_en": "In the misted courtyard, its beak-click led a father to the door where his child waited."
+  },
+  {
+    "id": "creature-scriptback-tortoise",
+    "mode": "prepend",
+    "lore_vi": "Người giữ rùa bỏ nghề đánh bóng mai sau khi thấy một đường ngà mất đi dưới giẻ.",
+    "lore_en": "Its keeper abandoned shell-polishing after watching an ivory line vanish beneath the cloth."
+  },
+  {
+    "id": "creature-knotkeeping-ray",
+    "mode": "prepend",
+    "lore_vi": "Con cá đuối bơi dưới nút dây như một thủy thủ đang giữ phần việc của mình qua ca gác.",
+    "lore_en": "The ray swam beneath the knot like a sailor holding his duty through a watch."
+  },
+  {
+    "id": "creature-thinwall-beetle",
+    "mode": "prepend",
+    "lore_vi": "Hai con bọ được chuyển sang hai phòng, còn người thợ đứng giữa tường để nghe chúng tìm nhau bằng nhịp.",
+    "lore_en": "Two beetles occupied separate rooms while a craftsman listened at the wall to their rhythmic search."
+  },
+  {
+    "id": "creature-lightanchor-seahorse",
+    "mode": "prepend",
+    "lore_vi": "Người lặn tìm lại được đốm sáng dù con hải mã đã rời chỗ ấy từ lâu.",
+    "lore_en": "A diver found the point of light though its seahorse had long since drifted away."
+  },
+  {
+    "id": "creature-stilltail-ferret",
+    "mode": "prepend",
+    "lore_vi": "Thợ đồng hồ dành cho chồn một dải vải riêng, vì đuôi nó từng giữ yên bánh răng giữa bàn tay đang run.",
+    "lore_en": "A clockmaker kept the ferret its own cloth because its tail had steadied a gear beneath his trembling hand."
+  },
+  {
+    "id": "creature-reverseink-jellyfish",
+    "mode": "prepend",
+    "lore_vi": "Tên người trên giấy ướt nổi lên trong thân sứa, rồi tan trước khi người giữ kịp gọi thành lời.",
+    "lore_en": "A wet page's name appeared within the jellyfish, fading before its keeper could speak it."
+  },
+  {
+    "id": "creature-glassantler-deer",
+    "mode": "prepend",
+    "lore_vi": "Con hươu cúi uống và cả chuồng nghe lại tiếng chuông của nơi vừa bị bỏ lại.",
+    "lore_en": "The stag bowed to drink, and the stable heard the bell of the place they had left."
+  },
+  {
+    "id": "creature-waveknot-octopus",
+    "mode": "prepend",
+    "lore_vi": "Tám tay bạch tuộc khép quanh trứng, dựng một gian phòng yên giữa nước đang trôi.",
+    "lore_en": "Eight arms closed around its eggs, making a quiet room within moving water."
+  },
+  {
+    "id": "creature-returnvoice-bat",
+    "mode": "prepend",
+    "lore_vi": "Tiếng dơi trở về sâu hơn vách đá, khiến người đào dừng đục trước một khoảng rỗng.",
+    "lore_en": "Its echo returned deeper than the rock face, stopping a digger before a concealed hollow."
+  },
+  {
+    "id": "creature-circuitmending-eel",
+    "mode": "prepend",
+    "lore_vi": "Người nhặt lươn trong bể thải đã nối lại hai đầu dây bằng cách cho nó một chỗ nằm ướt.",
+    "lore_en": "Its finder restored broken wire by giving the eel a wet place to rest."
+  },
+  {
+    "id": "creature-harbourmemory-dove",
+    "mode": "prepend",
+    "lore_vi": "Nơi tháp đèn đã bị dỡ, con bồ câu vẫn hạ xuống đúng khoảng trời trống từng có cửa sổ.",
+    "lore_en": "Where the light-tower was gone, the pigeon descended to the empty air that had held its window."
+  },
+  {
+    "id": "creature-cinderear-fox",
+    "mode": "prepend",
+    "lore_vi": "Người khai mỏ khàn tiếng sau đợt ho dài phải ngồi cả buổi cho cáo học lại lời gọi mình.",
+    "lore_en": "A miner hoarse after illness sat for hours letting the fox learn his call again."
+  },
+  {
+    "id": "creature-shadowpatch-moth",
+    "mode": "prepend",
+    "lore_vi": "Người vá áo đứng thật yên để bóng cánh bướm giữ hộ khe gió trong lúc xâu kim.",
+    "lore_en": "A coat-mender stood still while a wing-shadow held the draught aside as he threaded his needle."
+  },
+  {
+    "id": "creature-evenstep-horse",
+    "mode": "prepend",
+    "lore_vi": "Cỗ xe bệnh nhân đi qua đá gồ với nhịp móng quen như đường bằng còn nằm dưới tuyết.",
+    "lore_en": "The sick-cart crossed rough stone on hoofbeats that remembered level road beneath the snow."
+  },
+  {
+    "id": "creature-dawnstitch-crane",
+    "mode": "prepend",
+    "lore_vi": "Hạc mở cánh trên tổ, đặt những đốm bình minh đã gom được vào đúng chỗ trứng đang lạnh.",
+    "lore_en": "The crane spread its wings, setting collected dawn above the chilling eggs."
+  },
+  {
+    "id": "creature-waterseal-seal",
+    "mode": "prepend",
+    "lore_vi": "Hai con hải cẩu chạm mõm dưới nước, chia nhau một khoảng thở mong manh.",
+    "lore_en": "Two seals touched muzzles underwater, sharing a fragile pocket of breath."
+  },
+  {
+    "id": "creature-duskscale-serpent",
+    "mode": "prepend",
+    "lore_vi": "Da rắn bỏ lại trong lều còn ấm qua đêm, khiến người đi gác tưởng một con vật vẫn đang ngủ bên mình.",
+    "lore_en": "Its shed skin stayed warm in the tent, as though the watchman still had a sleeping companion."
+  },
+  {
+    "id": "creature-wordkeeping-raven",
+    "mode": "prepend",
+    "lore_vi": "Người đưa tin tập cho quạ câu nhắn cuối, rồi ngồi nghe nó lặp lại giọng mình khi đã hết người để gửi.",
+    "lore_en": "A messenger taught the crow a final message and listened to his own voice when nobody remained to receive it."
+  },
+  {
+    "id": "creature-coldsplitting-swordfish",
+    "mode": "prepend",
+    "lore_vi": "Đàn cá nhỏ đi sát mũi lam, thành một dòng bạc qua vệt nước vừa bớt lạnh.",
+    "lore_en": "Small fish followed the blue bill, a silver current through newly softened cold."
+  },
+  {
+    "id": "creature-dreamwatch-cat",
+    "mode": "prepend",
+    "lore_vi": "Người trực bệnh xá nhận ra tiếng mèo trước cả tên người nằm giường cạnh nó.",
+    "lore_en": "The infirmary watchman learnt the cat's cry before the name of the patient beside it."
+  },
+  {
+    "id": "creature-memoryarmour-pangolin",
+    "mode": "prepend",
+    "lore_vi": "Tê tê xoay vảy theo nhát gõ, như một đội lính nhỏ đang quay khiên cùng phía.",
+    "lore_en": "Its scales turned towards the tap like a small company wheeling their shields."
+  },
+  {
+    "id": "creature-seasonkeeping-swan",
+    "mode": "prepend",
+    "lore_vi": "Khi thiên nga rời tổ, người chăm thấy mùa ấm nhỏ trên nước khép lại sau nó.",
+    "lore_en": "When the swan left its nest, the keeper watched the small warm season close behind it."
+  },
+  {
+    "id": "creature-forestvoice-stag",
+    "mode": "prepend",
+    "lore_vi": "Lần hươu trở lại gốc cũ, người giữ nghe tiếng rìu của nhiều ngày trước rơi xuống giữa tuyết mới.",
+    "lore_en": "When it returned to the old tree, its keeper heard an axe from days before fall through fresh snow."
+  },
+  {
+    "id": "creature-springbearing-tortoise",
+    "mode": "prepend",
+    "lore_vi": "Người ở trạm suối đã đi hết, chỉ vòng nước trên mai rùa tiếp tục chạy như công việc chưa ai bàn giao.",
+    "lore_en": "The spring-station emptied while water still circled its shell like a duty never handed over."
+  },
+  {
+    "id": "creature-silencegiving-owl",
+    "mode": "prepend",
+    "lore_vi": "Cú khép cánh trên con non và cất tiếng động đi, tới lúc mở ra mới trả từng phần cho căn phòng.",
+    "lore_en": "The owl folded over its young, putting sound away until its opened wings returned it piece by piece."
+  },
+  {
+    "id": "creature-threshold-lynx",
+    "mode": "prepend",
+    "lore_vi": "Linh miêu bước vòng quanh chỗ cửa bị xây bít, những dấu chân sáng vẫn tôn trọng một lối đi con người đã quên.",
+    "lore_en": "The lynx circled a bricked-up doorway, its bright tracks honouring a route people had forgotten."
+  },
+  {
+    "id": "creature-eightanchor-octopus",
+    "mode": "prepend",
+    "lore_vi": "Tám hòn đá đứng trong nước quanh ổ như một bến neo dành riêng cho gia đình nhỏ.",
+    "lore_en": "Eight stones stood around its shelter like a harbour reserved for one small household."
+  },
+  {
+    "id": "creature-homeward-horse",
+    "mode": "prepend",
+    "lore_vi": "Người cứu hộ buông dây cương cho ngựa tự chọn đường, nhận lại dấu móng mình tưởng tuyết đã xóa hết.",
+    "lore_en": "A rescuer loosened the reins and recovered hoofprints he had thought the snow had erased."
+  },
+  {
+    "id": "creature-sunkenbell-whale",
+    "mode": "prepend",
+    "lore_vi": "Tiếng chuông chìm đáp lời cá voi khiến người thủy thủ nhận ra tên tàu trước khi nhìn thấy xác.",
+    "lore_en": "The answering submerged bell let a sailor recognise his ship before seeing its wreck."
+  },
+  {
+    "id": "creature-lastquay-hound",
+    "mode": "prepend",
+    "lore_vi": "Con chó già bỏ qua chiếc áo còn mùi, tiếp tục tìm người đã cởi nó giữa bến đông.",
+    "lore_en": "The old dog ignored a scented coat and sought the person who had removed it in the crowded port."
+  }
+]

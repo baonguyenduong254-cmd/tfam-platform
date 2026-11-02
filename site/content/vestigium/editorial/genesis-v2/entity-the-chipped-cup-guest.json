@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-chipped-cup-guest",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Chén sứt được vá bằng bột khoáng nhạt trong một quán ăn ven biển. Người vá để sót một miệng mẻ, vừa chỗ một bóng người nhỏ ngồi khi nước sạch được rót vào. Nước mặn từ giếng sau bão khiến khách quay lưng, dù chủ quán vẫn thấy đáy chén trong veo.\n\nQua nhiều lần nung lại, bóng giữ đúng chỗ mẻ. Người mua nâng chén đợi khách ngồi trước khi uống, coi đó là một cuộc mời nhau. Mỗi lần khách quay đi, ông đem nước kiểm lại rồi trả phần còn thừa xuống máng riêng, tránh để vị khách lẫn với thói quen tin rằng cái trong mắt luôn là cái lành.",
+    "lore_en": "A chipped cup was repaired with pale mineral powder in a seaside eating house. Its repairer left one gap, just wide enough for a tiny seated figure whenever fresh water was poured. Salty well water after a storm turned the guest’s back, although the owner could still see the bottom clearly.\n\nRepeated firing left the figure at its chip. A buyer raises the cup and waits for the guest to sit before drinking, treating it as an invitation shared. Whenever it turns away, he has the water tested and pours the remainder into a separate channel, keeping the little guest apart from the habit of trusting whatever looks clear.",
+    "use_vi": "Cho dấu sơ bộ khi nước có vị muối rõ và đối chiếu hai mẫu trên cùng chén.",
+    "use_en": "Give a preliminary sign of distinctly salty water and compare samples in the same cup.",
+    "limits_vi": "Khách nhận vị mặn rõ, các chất độc, vi sinh và lượng muối thấp cần thử riêng. Chén còn nước cũ làm mẫu mới lẫn, phải rửa trước khi so.",
+    "limits_en": "The guest recognises distinct salinity; toxins, microbes and low salt concentrations need separate tests. Old water contaminates fresh samples, requiring washing between comparisons.",
+    "skills": [
+      {
+        "name_vi": "Ngồi hay quay lưng",
+        "name_en": "Sit or Turn Away",
+        "description_vi": "Rót mẫu vào chén đã rửa để khách ngồi hướng lòng chén nếu chấp nhận, quay lưng khi nhận vị mặn rõ; xem đây là dấu chọn mẫu cần kiểm.",
+        "description_en": "Pour a sample into the washed cup so the guest faces inward when accepting or turns away at distinct salinity; use it to choose samples needing inspection."
+      },
+      {
+        "name_vi": "So hai lượt nước",
+        "name_en": "Compare Two Waters",
+        "description_vi": "Rót lần lượt hai mẫu qua chén đã rửa giữa lượt để so mức bóng nghiêng khỏi lòng chén, khoanh mẫu mặn hơn khi khác biệt đủ rõ.",
+        "description_en": "Pour two samples successively with washing between them to compare how far the figure turns away and identify a saltier sample when the difference is clear."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khách của miệng mẻ",
+        "name_en": "The Guest at the Chip",
+        "description_vi": "Vá kín miệng mẻ khiến bóng lặn vào sứ và thôi cho dấu. Chừa ghế trống là điều kiện giữ cuộc gặp.",
+        "description_en": "Sealing the chip sends the figure into the porcelain and ends its signs. Leaving its seat open sustains the meeting."
+      }
+    ]
+  }
+]

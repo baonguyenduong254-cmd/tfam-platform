@@ -1,0 +1,1427 @@
+{
+  "isabella_testarossa_de_aragon": {
+    "battlecraft": 77,
+    "insight": 94,
+    "presence": 98,
+    "rationale_vi": [
+      "Bảo vệ bản thân khi nguy cấp.",
+      "Đánh giá nhân tài, cải tổ và quyết định giữa nhiều mặt trận.",
+      "Quyền bổ nhiệm và khả năng quy tụ bộ máy Castilian."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "napoleon": {
+    "battlecraft": 81,
+    "insight": 96,
+    "presence": 95,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Napoleon Bonaparte.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế Pháp.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "marcus_aurelianus_scipio": {
+    "battlecraft": 89,
+    "insight": 88,
+    "presence": 83,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Marcus Aurelianus Scipio.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đại diện toàn quyền Tây La Mã.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "abd_al_rahman_ibn_ziyad": {
+    "battlecraft": 75,
+    "insight": 93,
+    "presence": 96,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Abd al-Rahman ibn Ziyad.",
+      "Đối chiếu chuyên môn và trách nhiệm: Sultan Maroc · Khalip phương Tây từ cuối năm 1716.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "annam_empire_representative": {
+    "battlecraft": 93,
+    "insight": 91,
+    "presence": 94,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Nguyễn Huệ.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế An Nam.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "ming_celestial_empire_representative": {
+    "battlecraft": 74,
+    "insight": 87,
+    "presence": 82,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Trịnh Khắc Sảng.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đô đốc hải quân Đại Minh.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "nusantara_sultanate_representative": {
+    "battlecraft": 81,
+    "insight": 86,
+    "presence": 90,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Sultan Hasanuddin.",
+      "Đối chiếu chuyên môn và trách nhiệm: Quốc vương Nusantara.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "tokugawa_empire_representative": {
+    "battlecraft": 82,
+    "insight": 90,
+    "presence": 92,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Tokugawa Yoshimune.",
+      "Đối chiếu chuyên môn và trách nhiệm: Tướng quân · Người chỉ huy Đế quốc Nhật Bản.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "eternal_sky_khanate_representative": {
+    "battlecraft": 91,
+    "insight": 85,
+    "presence": 88,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Anu.",
+      "Đối chiếu chuyên môn và trách nhiệm: Khả đôn Trường Thiên.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "safavid_empire_representative": {
+    "battlecraft": 94,
+    "insight": 90,
+    "presence": 85,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Nader Afshar.",
+      "Đối chiếu chuyên môn và trách nhiệm: Tổng chỉ huy quân đội Safavid.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "aksumite_empire_representative": {
+    "battlecraft": 86,
+    "insight": 81,
+    "presence": 92,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Tewodros II.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế Aksum.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "songhai_empire_representative": {
+    "battlecraft": 73,
+    "insight": 91,
+    "presence": 95,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Askia Muhammad Ture.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế Songhai.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "kongo_confederation_representative": {
+    "battlecraft": 42,
+    "insight": 86,
+    "presence": 96,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Kimpa Vita.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người bảo chứng Liên bang Kongo.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "swahili_league_representative": {
+    "battlecraft": 86,
+    "insight": 93,
+    "presence": 86,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Asha bint Salim.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đại đô đốc Liên minh Swahili.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "cape_republic_representative": {
+    "battlecraft": 37,
+    "insight": 91,
+    "presence": 88,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Adam Tas.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ tịch Hội đồng Mũi Hảo Vọng.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "merina_empire_representative": {
+    "battlecraft": 78,
+    "insight": 89,
+    "presence": 91,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Radama I.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế Merina.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "ottoman_empire_representative": {
+    "battlecraft": 62,
+    "insight": 84,
+    "presence": 91,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Ahmed III.",
+      "Đối chiếu chuyên môn và trách nhiệm: Quốc vương Ottoman.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "british_east_india_company_representative": {
+    "battlecraft": 34,
+    "insight": 94,
+    "presence": 90,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ William Beckett.",
+      "Đối chiếu chuyên môn và trách nhiệm: Huân tước · Người đứng đầu Công ty Đông Ấn Anh Quốc.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "habsburg_poland_representative": {
+    "battlecraft": 84,
+    "insight": 92,
+    "presence": 96,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Rouge von Habsburg.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng đế Habsburg – Ba Lan từ năm 1716.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "novgorod_union_representative": {
+    "battlecraft": 78,
+    "insight": 93,
+    "presence": 90,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Pyotr Romanov.",
+      "Đối chiếu chuyên môn và trách nhiệm: Tổng chấp chính Liên hiệp Novgorod.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "danes_kingdom_representative": {
+    "battlecraft": 72,
+    "insight": 91,
+    "presence": 96,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Margrete I.",
+      "Đối chiếu chuyên môn và trách nhiệm: Nữ vương Danes.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "scotland_ireland_union_representative": {
+    "battlecraft": 90,
+    "insight": 84,
+    "presence": 91,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Criston Wallace.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người thống lĩnh liên quân Scotland.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "england_ruins_representative": {
+    "battlecraft": 76,
+    "insight": 89,
+    "presence": 84,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Timothy Beaumont.",
+      "Đối chiếu chuyên môn và trách nhiệm: Sĩ quan hải quân · Xuất thân Anh–Pháp.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "new_portuguese_empire_representative": {
+    "battlecraft": 84,
+    "insight": 91,
+    "presence": 82,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Lourenço de Câmara.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đô đốc hạm đội viễn chinh.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "new_portuguese_empire_duarte": {
+    "battlecraft": 88,
+    "insight": 84,
+    "presence": 75,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Duarte de Meneses.",
+      "Đối chiếu chuyên môn và trách nhiệm: Tướng lục quân · Phái viên Hội đồng Viễn chinh.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "idris_ibn_abd_al_rahman": {
+    "battlecraft": 84,
+    "insight": 86,
+    "presence": 87,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Idris ibn Abd al-Rahman.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoàng tử Moor · Sultan Maroc từ cuối năm 1716.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "emperor_of_ravenna": {
+    "battlecraft": 68,
+    "insight": 93,
+    "presence": 98,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Hoàng đế Ravenna.",
+      "Đối chiếu chuyên môn và trách nhiệm: Quân chủ Tây La Mã.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "victoria_valdes": {
+    "battlecraft": 72,
+    "insight": 96,
+    "presence": 91,
+    "rationale_vi": [
+      "Kinh nghiệm tiền tuyến và thực thi nhiệm vụ.",
+      "Quản trị kho lương, vận tải và nhu cầu đô thị.",
+      "Gánh trách nhiệm dân chính và điều phối lực lượng."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "marco_stones": {
+    "battlecraft": 90,
+    "insight": 86,
+    "presence": 83,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Marco Stones.",
+      "Đối chiếu chuyên môn và trách nhiệm: Quân đoàn II · Ocho.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "pierrot_de_kenway": {
+    "battlecraft": 85,
+    "insight": 91,
+    "presence": 83,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Pierrot de Kenway.",
+      "Đối chiếu chuyên môn và trách nhiệm: Thuyền trưởng Le Triomphant.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "sheikh_ibrahim": {
+    "battlecraft": 31,
+    "insight": 88,
+    "presence": 94,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Sheikh Ibrahim.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đại diện cộng đồng Moor tại Fes.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "jose": {
+    "battlecraft": 69,
+    "insight": 88,
+    "presence": 86,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Don José.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đô đốc kỳ cựu · Liên hệ Habsburg.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "edward_spencer": {
+    "battlecraft": 88,
+    "insight": 98,
+    "presence": 92,
+    "rationale_vi": [
+      "Kinh nghiệm chiến trường và khả năng hành động dưới hỏa lực.",
+      "Tổ chức hải chiến từ tàu, người, tín hiệu và điều kiện thực tế.",
+      "Tạo tín nhiệm và giữ trách nhiệm chỉ huy."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "juliet_spencer": {
+    "battlecraft": 54,
+    "insight": 85,
+    "presence": 93,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Juliet Spencer.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người tổ chức cứu tế · Nữ Hộ Quốc từ cuối 1716.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "etienne_saint_clair": {
+    "battlecraft": 74,
+    "insight": 87,
+    "presence": 69,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Étienne de Saint-Clair.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám sát pháo đài.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "livia_valeria": {
+    "battlecraft": 31,
+    "insight": 94,
+    "presence": 78,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Livia Valeria.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám quan quân nhu Ravenna.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "zofia_rzewuska": {
+    "battlecraft": 66,
+    "insight": 92,
+    "presence": 83,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Zofia Rzewuska.",
+      "Đối chiếu chuyên môn và trách nhiệm: Thống lĩnh đường quân nhu phía đông.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "vera_sokolova": {
+    "battlecraft": 29,
+    "insight": 93,
+    "presence": 81,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Vera Sokolova.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản kho lương liên hiệp.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "aleksei_voronin": {
+    "battlecraft": 87,
+    "insight": 82,
+    "presence": 68,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Aleksei Voronin.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy tuần tra hồ và sông.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "leyla_demir": {
+    "battlecraft": 42,
+    "insight": 95,
+    "presence": 71,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Leyla Demir.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám quan xưởng pháo.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "selim_karaca": {
+    "battlecraft": 88,
+    "insight": 79,
+    "presence": 77,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Selim Karaca.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đoàn hộ tống biên giới.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "astrid_holm": {
+    "battlecraft": 83,
+    "insight": 91,
+    "presence": 85,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Astrid Holm.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đô đốc đội phá băng.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "mikkel_brahe": {
+    "battlecraft": 33,
+    "insight": 93,
+    "presence": 73,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Mikkel Brahe.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám sát đèn biển hoàng gia.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "mairi_macleod": {
+    "battlecraft": 58,
+    "insight": 86,
+    "presence": 94,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Mairi MacLeod.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người điều phối các gia tộc vùng cao.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "finn_orourke": {
+    "battlecraft": 86,
+    "insight": 83,
+    "presence": 72,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Finn O’Rourke.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy hộ tống biển Ireland.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "leonor_de_sa": {
+    "battlecraft": 27,
+    "insight": 95,
+    "presence": 83,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Leonor de Sá.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản sổ cảng viễn dương.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "eleanor_ashcombe": {
+    "battlecraft": 22,
+    "insight": 96,
+    "presence": 87,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Eleanor Ashcombe.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản tín dụng Công ty.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "arjun_sen": {
+    "battlecraft": 90,
+    "insight": 83,
+    "presence": 78,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Arjun Sen.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy bộ binh Công ty tại Bengal.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "tran_dieu_lan": {
+    "battlecraft": 94,
+    "insight": 85,
+    "presence": 88,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Bùi Thị Xuân.",
+      "Đối chiếu chuyên môn và trách nhiệm: Nữ tướng Tây Sơn, thống lĩnh tượng binh.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "pham_quang_khai": {
+    "battlecraft": 53,
+    "insight": 88,
+    "presence": 82,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Nguyễn Ánh.",
+      "Đối chiếu chuyên môn và trách nhiệm: Tôn thất họ Nguyễn, con tin chính trị tại Thăng Long.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "lin_yue": {
+    "battlecraft": 36,
+    "insight": 94,
+    "presence": 80,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Lâm Nguyệt.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám quan hải quan Đại Minh.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "chen_haisheng": {
+    "battlecraft": 86,
+    "insight": 85,
+    "presence": 72,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Trần Hải Sinh.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy thủy đội cửa sông.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "siti_rahma": {
+    "battlecraft": 28,
+    "insight": 91,
+    "presence": 94,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Siti Rahma.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người giữ khế ước các cảng.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "daeng_ismail": {
+    "battlecraft": 88,
+    "insight": 90,
+    "presence": 81,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Daeng Ismail.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đô đốc đoàn hộ tống quần đảo.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "sakurai_aya": {
+    "battlecraft": 43,
+    "insight": 96,
+    "presence": 69,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Sakurai Aya.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám quan xưởng cơ khí.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "han_seongjun": {
+    "battlecraft": 32,
+    "insight": 94,
+    "presence": 82,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Han Seong-jun.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người điều phối kho bán đảo.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "borchu": {
+    "battlecraft": 91,
+    "insight": 82,
+    "presence": 76,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Borchu.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đoàn hộ tống thảo nguyên.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "saran": {
+    "battlecraft": 44,
+    "insight": 87,
+    "presence": 93,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Saran.",
+      "Đối chiếu chuyên môn và trách nhiệm: Sứ giả hội đồng bộ tộc.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "farah_qazvini": {
+    "battlecraft": 38,
+    "insight": 96,
+    "presence": 74,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Farah Qazvini.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản xưởng thuốc súng.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "bahram_kermani": {
+    "battlecraft": 92,
+    "insight": 81,
+    "presence": 75,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Bahram Kermani.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đồn đường núi.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "mekdes_hailu": {
+    "battlecraft": 61,
+    "insight": 95,
+    "presence": 78,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Mekdes Hailu.",
+      "Đối chiếu chuyên môn và trách nhiệm: Giám quan lò rèn hoàng gia.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "tesfaye_bekele": {
+    "battlecraft": 91,
+    "insight": 84,
+    "presence": 77,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Tesfaye Bekele.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đường núi.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "aminata_kande": {
+    "battlecraft": 30,
+    "insight": 94,
+    "presence": 85,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Aminata Kande.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người giữ sổ thương đoàn.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "issa_diarra": {
+    "battlecraft": 87,
+    "insight": 88,
+    "presence": 79,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Issa Diarra.",
+      "Đối chiếu chuyên môn và trách nhiệm: Thống lĩnh quân đường sông.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "nzela_mbemba": {
+    "battlecraft": 39,
+    "insight": 89,
+    "presence": 94,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Nzela Mbemba.",
+      "Đối chiếu chuyên môn và trách nhiệm: Sứ giả hội đồng liên bang.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "manuel_soyo": {
+    "battlecraft": 89,
+    "insight": 82,
+    "presence": 73,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Manuel de Soyo.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đội bảo vệ cửa sông.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "zawadi_mwinyi": {
+    "battlecraft": 29,
+    "insight": 93,
+    "presence": 88,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Zawadi Mwinyi.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản hội đồng cảng.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "hamisi_kilwa": {
+    "battlecraft": 74,
+    "insight": 95,
+    "presence": 76,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Hamisi wa Kilwa.",
+      "Đối chiếu chuyên môn và trách nhiệm: Hoa tiêu trưởng đoàn hộ tống.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "elisabeth_van_der_meer": {
+    "battlecraft": 26,
+    "insight": 94,
+    "presence": 84,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Elisabeth van der Meer.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản kho cộng hòa.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "pieter_smit": {
+    "battlecraft": 89,
+    "insight": 82,
+    "presence": 71,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Pieter Smit.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy đồn ven biển.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "ravelo": {
+    "battlecraft": 49,
+    "insight": 95,
+    "presence": 79,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Ravelo.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chủ quản xưởng tàu hoàng gia.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "rambolamanana": {
+    "battlecraft": 40,
+    "insight": 92,
+    "presence": 86,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Rambolamanana.",
+      "Đối chiếu chuyên môn và trách nhiệm: Người điều phối đường đảo.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "testarossa_uno": {
+    "battlecraft": 96,
+    "insight": 91,
+    "presence": 85,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Testarossa.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Uno.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "evelyne_vesper": {
+    "battlecraft": 93,
+    "insight": 99,
+    "presence": 68,
+    "rationale_vi": [
+      "Vận dụng Vestigium và phối hợp tác chiến.",
+      "Kiểm chứng dữ kiện, đặt phép thử và thay đổi mô hình.",
+      "Ảnh hưởng trong chuyên môn và đội phối hợp."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "franco": {
+    "battlecraft": 60,
+    "insight": 89,
+    "presence": 91,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Franco Valdes.",
+      "Đối chiếu chuyên môn và trách nhiệm: Lãnh chúa Valdes · Đại diện Castile.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "cassandra": {
+    "battlecraft": 87,
+    "insight": 85,
+    "presence": 79,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Cassandra.",
+      "Đối chiếu chuyên môn và trách nhiệm: Đại tá · Diez.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "romeo_harkon": {
+    "battlecraft": 96,
+    "insight": 84,
+    "presence": 76,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Romeo Harkon.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Doce.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "fredo": {
+    "battlecraft": 94,
+    "insight": 87,
+    "presence": 82,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Fredo.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Tres.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "scarlet": {
+    "battlecraft": 97,
+    "insight": 85,
+    "presence": 73,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Scarlet.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Dos.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "martinez": {
+    "battlecraft": 89,
+    "insight": 74,
+    "presence": 65,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Martinez.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Veinticinco.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "raine": {
+    "battlecraft": 92,
+    "insight": 86,
+    "presence": 62,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Rainé.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Cinco.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "sigrid": {
+    "battlecraft": 87,
+    "insight": 88,
+    "presence": 72,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Sigrid Harkon.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Treinta y Dos.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "astrid": {
+    "battlecraft": 90,
+    "insight": 69,
+    "presence": 75,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Astrid Harkon.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Veintidós.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "freya": {
+    "battlecraft": 86,
+    "insight": 74,
+    "presence": 60,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Freya Harkon.",
+      "Đối chiếu chuyên môn và trách nhiệm: Cận vệ Hoàng gia · Cuarenta y Dos.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "liv": {
+    "battlecraft": 56,
+    "insight": 87,
+    "presence": 54,
+    "rationale_vi": [
+      "Tiếp cận kín đáo trong nhiệm vụ của đội Harkon.",
+      "Nhận ra bẫy, dấu vết và đường vào an toàn.",
+      "Phối hợp trong đội nhỏ."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "dame_elizabeth": {
+    "battlecraft": 79,
+    "insight": 91,
+    "presence": 89,
+    "rationale_vi": [
+      "Đối chiếu năng lực hành động trong hồ sơ Dame Elizabeth.",
+      "Đối chiếu chuyên môn và trách nhiệm: Chỉ huy hải quân kỳ cựu.",
+      "Đối chiếu khả năng phối hợp, dẫn dắt và trách nhiệm của vai trò hiện có."
+    ],
+    "rationale_en": [
+      "Assessed from practical action and combat described in the dossier.",
+      "Assessed from specialist knowledge, judgement and planning.",
+      "Assessed from leadership, trust and the responsibilities of the role."
+    ]
+  },
+  "nahla_al_fassi": {
+    "battlecraft": 89,
+    "insight": 82,
+    "presence": 67,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "samira_al_fassi": {
+    "battlecraft": 87,
+    "insight": 84,
+    "presence": 70,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "jesper": {
+    "battlecraft": 75,
+    "insight": 94,
+    "presence": 83,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "barbossa": {
+    "battlecraft": 86,
+    "insight": 72,
+    "presence": 81,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "leonardo_razen": {
+    "battlecraft": 91,
+    "insight": 97,
+    "presence": 81,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "millennia_stones": {
+    "battlecraft": 34,
+    "insight": 84,
+    "presence": 88,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "remi_spencer": {
+    "battlecraft": 18,
+    "insight": 82,
+    "presence": 58,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "dante_stones": {
+    "battlecraft": 20,
+    "insight": 81,
+    "presence": 56,
+    "rationale_vi": [
+      "Thực thi trong phạm vi vai trò và giai đoạn của nhân vật.",
+      "Quan sát, học hỏi và xử lý điều kiện trong hồ sơ.",
+      "Tạo tín nhiệm và gắn kết trong phạm vi quan hệ của nhân vật."
+    ],
+    "rationale_en": [
+      "Action within this character’s role and stage of life.",
+      "Observation, learning and judgement within the dossier.",
+      "Trust and connection within this character’s relationships."
+    ]
+  },
+  "lokoh": {
+    "battlecraft": 88,
+    "insight": 84,
+    "presence": 62,
+    "rationale_vi": [
+      "Ray đỏ và cơ động trong trận đối đầu Monodica.",
+      "Truy dấu và phối hợp vị trí với Razen.",
+      "Gắn bó với đồng đội; chưa có căn cứ về vai trò chỉ huy."
+    ],
+    "rationale_en": [
+      "Red rays and agility against Monodica.",
+      "Tracking and positional coordination with Razen.",
+      "Strong companionship; no established command role."
+    ]
+  }
+}

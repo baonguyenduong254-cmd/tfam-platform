@@ -1,0 +1,1678 @@
+{
+  "factions": [
+    {
+      "id": "annam_empire",
+      "capital_demo": "Thăng Long",
+      "lore_vi_1715": "Năm 1691, cuộc nổi dậy Tây Sơn cuốn Nguyễn Huệ từ miền đất võ vào cuộc tranh giành vận mệnh cả nước. Đến năm 1709, các thế lực cát cứ đã bị đánh bại; triều đình mới đặt kinh đô tại Thăng Long, lấy quốc hiệu An Nam và thu phục các vương quốc dọc lưu vực Mekong bằng chiến tranh cùng những hiệp ước bảo hộ.\n\nNăm 1715, Nguyễn Huệ cai quản ba xứ Đông Dương. Kho lương chung, đội thuyền vận tải và những xưởng pháo ven sông giữ đế quốc đứng vững giữa mùa đông kéo dài. Ở phía tây, Công ty Đông Ấn Anh dựng công sự trên đất Xiêm và Miến Điện, siết các tuyến thương mại nối An Nam với Ấn Độ.\n\nHoàng đế bắt đầu chuẩn bị một chiến dịch vượt núi. Mỗi đoàn quân được cấp đủ lương để tiến sâu; phần còn lại của triều đình phải tìm đủ lương cho những người ở nhà.",
+      "lore_en_1715": "In 1691, the Tây Sơn uprising carried Nguyễn Huệ from his provincial homeland into a struggle for the country itself. By 1709, rival courts had fallen. From Thăng Long, the new An Nam Empire extended its rule along the Mekong through conquest and protectorate treaties.\n\nIn 1715, shared granaries, river transports and provincial foundries sustained its three Indochinese territories through the long winter. To the west, the British East India Company fortified Siam and Burma, tightening the routes toward India.\n\nThe emperor prepared to cross the mountains. His armies had their campaign rations; his ministers still had to feed everyone left behind.",
+      "lore_vi_1716": "Năm 1716, Nguyễn Huệ đánh vào chuỗi kho vận của Đông Ấn Anh trên đất Xiêm. Thủy quân tiến ngược các dòng sông, trong khi các đạo quân vượt đèo cắt đường cứu viện từ Miến Điện. Những thành phố bị chiếm được đặt dưới quyền tổng trấn An Nam; quân đội công ty rút về biên giới Ấn Độ.\n\nĐế quốc giờ trải từ bờ biển Đông đến vịnh Bengal. Chiến thắng đem lại cảng, đất và nguồn thu mới, cùng những vùng dân cư có luật lệ và lòng trung thành riêng. Nguyễn Huệ giữ lại các hội đồng địa phương để thu thuế, nhưng đặt quân đồn trú trên mọi tuyến tiếp tế.\n\nỞ Thăng Long, những bản đồ chiến thắng đã được treo lên. Những tờ khai thiếu gạo vẫn tiếp tục đến mỗi sáng.",
+      "lore_en_1716": "In 1716, Nguyễn Huệ struck the Company's supply chain in Siam. River forces advanced inland while mountain columns severed reinforcements from Burma. Captured cities received An Nam governors, and Company armies withdrew toward India.\n\nThe empire now reached the Bay of Bengal. New ports and revenues came with populations whose laws and loyalties belonged to older kingdoms. Local councils retained tax duties; imperial garrisons held the supply routes.\n\nVictory maps hung in Thăng Long. Reports of empty granaries continued to arrive every morning.",
+      "historical_basis_vi": "Nguyễn Huệ và phong trào Tây Sơn thuộc lịch sử Việt Nam cuối thế kỷ XVIII; các chiến thắng chống Xiêm và Thanh diễn ra năm 1785 và 1789.",
+      "historical_basis_en": "Nguyễn Huệ and the Tây Sơn movement belong to late eighteenth-century Vietnamese history; victories against Siam and Qing forces occurred in 1785 and 1789.",
+      "historical_divergence_vi": "TFAM đưa khởi nghĩa Tây Sơn từ 1771 về 1691, chuyển thế hệ Nguyễn Huệ sớm hơn tám mươi năm và phát triển thắng lợi thống nhất thành một đế quốc Đông Dương. Chiến dịch Xiêm–Miến năm 1716 là diễn biến mới.",
+      "historical_divergence_en": "TFAM moves the Tây Sơn uprising from 1771 to 1691 and Nguyễn Huệ’s generation eighty years earlier. Unification produces an Indochinese empire; the 1716 Siam–Burma campaign is a new development.",
+      "historical_source": "https://baotanglichsu.vn/en/Articles/4204/tay-son-dynasty-1778-1802-ad",
+      "story_hook_vi": "Một vương tử Xiêm được giữ tại Thăng Long nhận lời hứa phục vị nếu giúp bắt Nguyễn Huệ trong chuyến thị sát. Người có thể ngăn âm mưu là nữ tướng đã đưa chính vương tử ấy sống khỏi cuộc vây thành.",
+      "story_hook_en": "A Siamese prince held in Thăng Long is promised restoration if he helps capture Nguyễn Huệ during an inspection. The officer able to stop him is the woman who saved his life during the siege.",
+      "traits": [
+        {
+          "id": "annam_empire_trait_1",
+          "label_vi": "Hành quân thần tốc",
+          "label_en": "Forced Marches",
+          "effect_vi": "Các đạo quân phối hợp đường sông và đường đèo để đánh vào kho vận đối phương. Tốc độ phụ thuộc vào những kho lương đã chuẩn bị trước.",
+          "effect_en": "River and mountain columns converge on enemy supply depots. Their speed depends on granaries prepared before the campaign.",
+          "effect_ui": "Các đạo quân phối hợp đường sông và đường đèo để đánh vào kho vận đối phương. Tốc độ phụ thuộc vào những kho lương đã chuẩn bị trước."
+        },
+        {
+          "id": "annam_empire_trait_2",
+          "label_vi": "Đế quốc của những dòng sông",
+          "label_en": "Empire of Rivers",
+          "effect_vi": "Thuyền vận tải nối các vùng đồng bằng với nhau, giảm gánh nặng đường bộ. Băng và những cửa sông bị phong tỏa có thể cắt đứt cả một chiến trường.",
+          "effect_en": "Transport fleets connect the lowlands. Frozen reaches and blockaded estuaries can isolate an entire theatre.",
+          "effect_ui": "Thuyền vận tải nối các vùng đồng bằng với nhau, giảm gánh nặng đường bộ. Băng và những cửa sông bị phong tỏa có thể cắt đứt cả một chiến trường."
+        },
+        {
+          "id": "annam_empire_trait_3",
+          "label_vi": "Giữ đất sau chiến thắng",
+          "label_en": "Holding the Conquest",
+          "effect_vi": "Hội đồng địa phương giữ trách nhiệm thu thuế dưới giám sát của tổng trấn. Binh lực chiếm đóng càng lớn, nguồn quân cho chiến dịch mới càng ít.",
+          "effect_en": "Local councils collect taxes under imperial governors. Every occupation garrison reduces the army available for another campaign.",
+          "effect_ui": "Hội đồng địa phương giữ trách nhiệm thu thuế dưới giám sát của tổng trấn. Binh lực chiếm đóng càng lớn, nguồn quân cho chiến dịch mới càng ít."
+        }
+      ]
+    },
+    {
+      "id": "ming_celestial_empire",
+      "capital_demo": "Bắc Kinh",
+      "lore_vi_1715": "Năm 1659, Trịnh Thành Công chiếm được Nam Kinh. Chiến thắng mở đường cho các lực lượng trung thành với nhà Minh trở lại lục địa, nối những thành phố ven biển thành một hậu phương chung và từng bước giành lại Bắc Kinh. Triều đình được phục hồi đặt quyền kiểm soát hải quan bên cạnh quyền sở hữu ruộng đất.\n\nĐến năm 1715, Thiên triều Đại Minh vẫn giữ những vùng đông dân và giàu nguồn thu nhất Trung Hoa, cùng Đài Loan. Nhưng thảo nguyên phía bắc đã thuộc về Trường Thiên; các kho biên giới phải nuôi cả binh sĩ lẫn những đoàn người chạy lạnh.\n\nHoàng đế Chu Duy Chiêu muốn đưa biên cương trở lại dưới quyền triều đình. Đô đốc Trịnh Khắc Sảng nhìn những chiến hạm Nhật xuất hiện ngoài khơi và yêu cầu giữ hạm đội ở phía đông.",
+      "lore_en_1715": "In 1659, Zheng Chenggong captured Nanjing. Ming loyalists regained a mainland foothold, linked the coastal cities and eventually recovered Beijing. The restored court built its revenues around customs as well as land.\n\nBy 1715, the Ming Celestial Empire held China’s populous heartlands and Taiwan. The northern steppe belonged to the Eternal Sky, and frontier granaries fed both soldiers and refugees from the cold.\n\nEmperor Zhu Weizhao sought to recover the borders. Admiral Zheng Keshuang watched Japanese warships offshore and argued that the fleet must remain in the east.",
+      "lore_vi_1716": "Năm 1716, cuộc chiến phía bắc giữ chân những đạo quân tốt nhất của Đại Minh. Nhật Bản vượt biển, chiếm Đài Loan rồi mở chiến dịch vào Liêu Ninh và Cát Lâm. Những tỉnh từng cung cấp thuế và quân cho triều đình trở thành chiến trường của một đối thủ đã học rất nhanh cách chiến tranh mới.\n\nTrịnh Khắc Sảng đưa phần hạm đội còn lại về bảo vệ các cửa sông, cứu được những xưởng tàu chủ chốt nhưng mất quyền chủ động trên biển. Tại Bắc Kinh, Chu Duy Chiêu mở cuộc xét lại sổ thuế, buộc các đại tộc đóng góp cho một cuộc chiến họ từng muốn giao hết cho quân đội.\n\nNgai vàng nhà Minh vẫn đứng vững. Giờ đây, từng khoản bạc giữ nó đứng vững đều có người đòi được tính vào quyền lực.",
+      "lore_en_1716": "In 1716, northern warfare tied down the best Ming armies. Japan crossed the sea, taking Taiwan before advancing into Liaoning and Jilin. Provinces that had supplied the court became battlefields against a rapidly modernizing rival.\n\nZheng Keshuang withdrew his surviving fleet to the estuaries, preserving key shipyards while surrendering the initiative at sea. In Beijing, Zhu Weizhao revised the tax registers and demanded contributions from the great landed houses.\n\nThe Ming throne endured. Every family financing its survival now expected a share of its authority.",
+      "historical_basis_vi": "Trịnh Thành Công trung thành với Nam Minh; cuộc tiến công Nam Kinh năm 1659 thất bại, còn Đài Loan được ông giành từ người Hà Lan năm 1662.",
+      "historical_basis_en": "Zheng Chenggong served the Southern Ming. His 1659 Nanjing expedition failed; he took Taiwan from the Dutch in 1662.",
+      "historical_divergence_vi": "TFAM đảo kết quả Nam Kinh năm 1659, cho nhà Minh phục hồi trên lục địa. Trịnh Khắc Sảng tiếp tục sự nghiệp hải quân của dòng họ; Chu Duy Chiêu là hoàng đế hư cấu của triều Minh phục hồi.",
+      "historical_divergence_en": "TFAM reverses the 1659 Nanjing defeat and restores the Ming on the mainland. Zheng Keshuang continues his family’s naval career; Zhu Weizhao is a fictional emperor of the restored dynasty.",
+      "historical_source": "https://www.berkshirepublishing.com/ecph-china/2018/01/16/zheng-chenggong-1624-1662/",
+      "story_hook_vi": "Triều đình triệu Trịnh Khắc Sảng về chịu xét tội sau khi mất Đài Loan. Trên đường, ông nhận một mật chỉ cứu hạm đội cùng một lệnh buộc nó đầu hàng, đều mang ấn của hoàng đế.",
+      "story_hook_en": "After Taiwan’s loss, Zheng Keshuang is summoned for trial. En route, he receives a secret order to save the fleet and another to surrender it, both bearing the emperor’s seal.",
+      "traits": [
+        {
+          "id": "ming_celestial_empire_trait_1",
+          "label_vi": "Thiên mệnh phục hồi",
+          "label_en": "The Restored Mandate",
+          "effect_vi": "Triều đình dùng ký ức phục quốc để huy động thuế và quân. Những thất bại liên tiếp làm các đại tộc đòi xét lại quyền chỉ huy.",
+          "effect_en": "The restoration legitimizes taxation and recruitment. Repeated defeats encourage great families to challenge imperial command.",
+          "effect_ui": "Triều đình dùng ký ức phục quốc để huy động thuế và quân. Những thất bại liên tiếp làm các đại tộc đòi xét lại quyền chỉ huy."
+        },
+        {
+          "id": "ming_celestial_empire_trait_2",
+          "label_vi": "Kho lương thiên triều",
+          "label_en": "Celestial Granaries",
+          "effect_vi": "Hệ thống kho và đường sông nuôi quân số lớn qua mùa đông. Tỉnh bị chiếm hoặc quan lại khai khống có thể làm sụp cả mạng tiếp tế.",
+          "effect_en": "Granaries and waterways sustain large armies through winter. Lost provinces or falsified accounts can unravel the supply network.",
+          "effect_ui": "Hệ thống kho và đường sông nuôi quân số lớn qua mùa đông. Tỉnh bị chiếm hoặc quan lại khai khống có thể làm sụp cả mạng tiếp tế."
+        },
+        {
+          "id": "ming_celestial_empire_trait_3",
+          "label_vi": "Di sản hạm đội Trịnh",
+          "label_en": "The Zheng Naval Legacy",
+          "effect_vi": "Các xưởng tàu và gia đình thủy thủ giữ kinh nghiệm chiến đấu nhiều thế hệ. Hải quân phải cạnh tranh ngân sách với chiến trường phía bắc.",
+          "effect_en": "Shipyards and seafaring families preserve generations of experience. Naval funding competes with the northern front.",
+          "effect_ui": "Các xưởng tàu và gia đình thủy thủ giữ kinh nghiệm chiến đấu nhiều thế hệ. Hải quân phải cạnh tranh ngân sách với chiến trường phía bắc."
+        }
+      ]
+    },
+    {
+      "id": "nusantara_sultanate",
+      "capital_demo": "Makassar",
+      "lore_vi_1715": "Năm 1697, Sultan Hasanuddin phá được cuộc phong tỏa Makassar và buộc người Hà Lan rút khỏi vùng biển Gowa. Các cảng từng cạnh tranh với nhau bắt đầu góp tàu, pháo và thuế cho một liên minh hải đảo, rồi công nhận ngai vàng Nusantara để giữ thương mại khỏi rơi vào tay những công ty ngoại quốc.\n\nNăm 1715, quyền lực ấy trải từ Java và Sumatra đến Borneo, bán đảo Mã Lai và các đảo phía đông. Hasanuddin giữ triều đình tại Makassar, giao thu thuế cho các cảng nhưng nắm quyền bổ nhiệm chỉ huy hải quân.\n\nGia vị vẫn đem về bạc. Mùa đông khiến mỗi chuyến tàu mất nhiều thời gian hơn, trong khi những cảng xa nhất bắt đầu hỏi họ được bảo vệ bao nhiêu so với số bạc đã nộp.",
+      "lore_en_1715": "In 1697, Sultan Hasanuddin broke the blockade of Makassar and drove Dutch forces from Gowa’s waters. Rival ports began pooling ships, guns and taxes, accepting the Nusantara throne to protect commerce from foreign companies.\n\nBy 1715, its authority reached Java, Sumatra, Borneo, the Malay Peninsula and the eastern islands. Makassar appointed naval commanders while individual ports retained tax collection.\n\nSpices still brought silver. Winter lengthened every voyage, and the most distant harbours began comparing the protection they received with the money they surrendered.",
+      "lore_vi_1716": "Năm 1716, hạm đội Nusantara chiếm các cảng chủ chốt tại Philippines và đưa những đảo Papua phía đông vào mạng lưới bảo hộ. Các vương hầu địa phương giữ ngai vị sau khi giao quyền hải quan và tiếp tế cho Makassar.\n\nLãnh thổ mở rộng nhanh hơn số chiến hạm có thể tuần tra. Hasanuddin phải chọn giữa đóng tàu chiến mới và sửa những tàu vận tải đang đưa gạo đến các đảo thiếu ăn. Ông đưa các thương hội vào hội đồng hải quân để đổi lấy vốn, đồng thời trao cho họ quyền kiểm tra sổ chi tiêu.\n\nNusantara đã đẩy được các công ty ngoại quốc khỏi nhiều cảng. Trong cung điện Makassar, những người cho ngai vàng vay tiền bắt đầu học cách ra điều kiện.",
+      "lore_en_1716": "In 1716, Nusantara seized key Philippine ports and brought eastern Papua into its protectorate network. Local rulers retained their thrones after surrendering customs and supply obligations to Makassar.\n\nThe realm expanded faster than its patrol fleet. Hasanuddin had to choose between warships and grain transports. Merchant houses entered the naval council in exchange for loans and access to expenditure records.\n\nForeign companies had lost their ports. Inside Makassar’s palace, the throne’s creditors were learning how to impose conditions.",
+      "historical_basis_vi": "Hasanuddin là Sultan Gowa thế kỷ XVII; Hiệp ước Bongaya năm 1667 buộc Gowa chấp nhận những điều kiện áp đặt của VOC.",
+      "historical_basis_en": "Hasanuddin was a seventeenth-century sultan of Gowa. The 1667 Treaty of Bongaya imposed VOC terms on his kingdom.",
+      "historical_divergence_vi": "TFAM đưa thế hệ Hasanuddin và cuộc chiến Gowa–VOC muộn hơn ba mươi năm, đảo thất bại thành thắng lợi năm 1697 và mở đường cho liên minh Nusantara.",
+      "historical_divergence_en": "TFAM moves Hasanuddin’s generation and the Gowa–VOC war thirty years later, turning defeat into victory in 1697 and enabling the Nusantara union.",
+      "historical_source": "https://repositori.kemendikdasmen.go.id/7690/1/ALBUM%20PENINGGALAN%20SEJARAH%20DAN%20PURBAKALA.pdf",
+      "story_hook_vi": "Một đảo mới sáp nhập giữ đoàn thuyền gạo và tuyên bố rời liên minh. Người được cử đi buộc cảng mở cửa là con trai của Sultan, lớn lên trong chính gia đình đang lãnh đạo cuộc ly khai.",
+      "story_hook_en": "A newly annexed island seizes the grain convoy and declares secession. The sultan sends a son raised in the very family now leading the rebellion.",
+      "traits": [
+        {
+          "id": "nusantara_sultanate_trait_1",
+          "label_vi": "Ngai vàng giữa các đảo",
+          "label_en": "Throne of the Islands",
+          "effect_vi": "Các cảng góp thuế và chiến hạm để đổi lấy quyền tự quản. Sultan giữ liên minh bằng việc phân bổ bảo vệ giữa những lợi ích cạnh tranh.",
+          "effect_en": "Ports contribute taxes and ships in exchange for autonomy. The sultan balances protection among competing interests.",
+          "effect_ui": "Các cảng góp thuế và chiến hạm để đổi lấy quyền tự quản. Sultan giữ liên minh bằng việc phân bổ bảo vệ giữa những lợi ích cạnh tranh."
+        },
+        {
+          "id": "nusantara_sultanate_trait_2",
+          "label_vi": "Hạm đội gia vị",
+          "label_en": "Spice Fleets",
+          "effect_vi": "Thương mại đường biển nuôi hải quân và mua hỏa khí. Một tuyến bị phong tỏa có thể làm nhiều cảng đồng thời thiếu tiền và lương thực.",
+          "effect_en": "Maritime commerce funds the navy and firearms. One blockade can deprive several ports of revenue and food.",
+          "effect_ui": "Thương mại đường biển nuôi hải quân và mua hỏa khí. Một tuyến bị phong tỏa có thể làm nhiều cảng đồng thời thiếu tiền và lương thực."
+        },
+        {
+          "id": "nusantara_sultanate_trait_3",
+          "label_vi": "Bậc thầy eo biển",
+          "label_en": "Masters of the Straits",
+          "effect_vi": "Hoa tiêu địa phương dẫn tàu qua luồng hẹp để tổ chức phục kích. Chiến hạm lớn của liên minh vẫn cần bến sâu và xưởng sửa tập trung.",
+          "effect_en": "Local pilots exploit narrow channels for ambushes. Larger warships still depend on deep harbours and centralized repair yards.",
+          "effect_ui": "Hoa tiêu địa phương dẫn tàu qua luồng hẹp để tổ chức phục kích. Chiến hạm lớn của liên minh vẫn cần bến sâu và xưởng sửa tập trung."
+        }
+      ]
+    },
+    {
+      "id": "tokugawa_empire",
+      "capital_demo": "Edo",
+      "lore_vi_1715": "Năm 1706, Tokugawa Yoshimune được đưa lên đứng đầu Mạc phủ trong một cuộc khủng hoảng kho lương. Cuộc cải cách Kyōhō bắt đầu sớm, mở đường cho thợ đúc, thương nhân và các phiên có năng lực đóng tàu tham gia trực tiếp vào chương trình quân bị của Edo.\n\nĐến năm 1715, Nhật Bản đã chiếm bán đảo Triều Tiên. Thiên hoàng ban danh nghĩa đế quốc cho những lãnh thổ mới, còn Mạc phủ giữ quyền chỉ huy quân đội và thu thuế. Samurai phải học sử dụng súng theo đội hình; các cảng được mở có kiểm soát để đổi nguyên liệu lấy kỹ thuật.\n\nYoshimune đã khiến các phiên cùng xây một hạm đội. Mỗi lãnh chúa đều muốn phần của mình trong những bến cảng mà hạm đội ấy sẽ chiếm.",
+      "lore_en_1715": "In 1706, a granary crisis brought Tokugawa Yoshimune to the head of the shogunate. Early Kyōhō reforms enlisted founders, merchants and shipbuilding domains in Edo’s armament programme.\n\nBy 1715, Japan held the Korean Peninsula. The emperor supplied imperial legitimacy; the shogunate commanded the army and collected taxes. Samurai learned formation musketry, and regulated ports exchanged materials for foreign techniques.\n\nYoshimune had persuaded the domains to build one fleet. Every lord expected a share of the harbours it would capture.",
+      "lore_vi_1716": "Năm 1716, Nhật Bản đánh chiếm Đài Loan và các tỉnh Liêu Ninh, Cát Lâm của Đại Minh. Hạm đội đưa pháo cùng bộ binh đến những bến được chọn trước, trong khi quân đồn trú trên bán đảo Triều Tiên bảo vệ tuyến tiếp tế phía bắc.\n\nChiến thắng củng cố quyền lực Yoshimune, đồng thời đẩy mâu thuẫn giữa Edo và các phiên ra ngoài biển. Những lãnh chúa đóng góp nhiều tàu đòi quyền quản lý đất mới; các quan thuế của Mạc phủ từ chối để nguồn bạc lọt khỏi trung ương.\n\nTrong cung, danh nghĩa đế quốc được ca tụng. Ngoài các cảng vừa chiếm, binh sĩ vẫn chờ khoản lương mà hai hệ thống quyền lực đang tranh nhau ký.",
+      "lore_en_1716": "In 1716, Japan took Taiwan, Liaoning and Jilin from the Ming. The fleet landed infantry and guns at surveyed harbours while Korean garrisons secured the northern supply route.\n\nVictory strengthened Yoshimune and carried the rivalry between Edo and the domains overseas. Lords contributing ships demanded authority over new lands; shogunal tax officers defended central revenues.\n\nThe court celebrated imperial expansion. In the captured ports, soldiers waited for wages that two competing authorities claimed the right to approve.",
+      "historical_basis_vi": "Tokugawa Yoshimune trở thành shōgun năm 1716 và khởi xướng cải cách Kyōhō. Nhật Bản Tokugawa trong lịch sử thật không chiếm Triều Tiên hay Đài Loan.",
+      "historical_basis_en": "Tokugawa Yoshimune became shogun in 1716 and initiated the Kyōhō reforms. Historical Tokugawa Japan did not conquer Korea or Taiwan.",
+      "historical_divergence_vi": "TFAM đưa Yoshimune lên nắm quyền và bắt đầu cải cách năm 1706, sớm mười năm; duy tân quân sự và chinh phục ở Đông Á là nhánh phát triển mới.",
+      "historical_divergence_en": "TFAM advances Yoshimune’s accession and reforms to 1706, ten years early. Military modernization and East Asian conquests form the new branch.",
+      "historical_source": "https://www.ebsco.com/research-starters/history/tokugawa-yoshimune",
+      "story_hook_vi": "Một chỉ huy ở Đài Loan nhận sắc lệnh đưa chiến hạm về phục vụ Thiên hoàng. Edo coi đó là phản loạn, còn vị chỉ huy đã thề trung thành với cả Mạc phủ lẫn ngai vàng.",
+      "story_hook_en": "A commander in Taiwan receives an imperial order to return his warships to the emperor. Edo calls it rebellion, but he has sworn loyalty to both throne and shogunate.",
+      "traits": [
+        {
+          "id": "tokugawa_empire_trait_1",
+          "label_vi": "Kyōhō sớm một thập kỷ",
+          "label_en": "An Early Kyōhō",
+          "effect_vi": "Chuẩn hóa thuế, xưởng đúc và quân số giúp Edo tập trung nguồn lực. Các phiên dùng đóng góp quân bị để mặc cả quyền tự chủ.",
+          "effect_en": "Standardized taxes, foundries and rolls concentrate resources in Edo. Domains leverage military contributions to negotiate autonomy.",
+          "effect_ui": "Chuẩn hóa thuế, xưởng đúc và quân số giúp Edo tập trung nguồn lực. Các phiên dùng đóng góp quân bị để mặc cả quyền tự chủ."
+        },
+        {
+          "id": "tokugawa_empire_trait_2",
+          "label_vi": "Hollyhock trên biển",
+          "label_en": "Hollyhock at Sea",
+          "effect_vi": "Các phiên đóng góp hạm đội theo định mức chung. Khi thiếu tàu hộ tống, Edo phải lựa chọn giữa tuyến chinh phục và thương mại.",
+          "effect_en": "Domains supply ships to common standards. Escort shortages force Edo to choose between conquest and commerce.",
+          "effect_ui": "Các phiên đóng góp hạm đội theo định mức chung. Khi thiếu tàu hộ tống, Edo phải lựa chọn giữa tuyến chinh phục và thương mại."
+        },
+        {
+          "id": "tokugawa_empire_trait_3",
+          "label_vi": "Hai trung tâm quyền lực",
+          "label_en": "Two Centres of Power",
+          "effect_vi": "Thiên hoàng tạo chính danh, Mạc phủ thi hành quyền lực. Quan lại ở lãnh thổ mới phải xử lý những yêu sách chồng chéo của hai hệ thống.",
+          "effect_en": "The emperor provides legitimacy and the shogunate exercises power. Overseas officers face overlapping claims from both institutions.",
+          "effect_ui": "Thiên hoàng tạo chính danh, Mạc phủ thi hành quyền lực. Quan lại ở lãnh thổ mới phải xử lý những yêu sách chồng chéo của hai hệ thống."
+        }
+      ]
+    },
+    {
+      "id": "eternal_sky_khanate",
+      "capital_demo": "Karakorum",
+      "lore_vi_1715": "Năm 1696, Galdan Boshugtu thoát được thế vây tại Zuunmod rồi đánh tan đoàn tiếp tế của đạo quân Trung Hoa. Anu sống sót sau cuộc phá vây và cùng ông triệu tập các thủ lĩnh thảo nguyên tại Karakorum. Một đại hãn quốc mới hình thành từ những lời thề bảo vệ bãi chăn, đường thương mại và quyền kế vị của từng bộ tộc.\n\nNăm 1715, Trường Thiên nắm vùng thảo nguyên từ Mông Cổ đến Trung Á, cùng những hành lang phía bắc và tây Trung Hoa. Kỵ binh của Galdan vẫn là lực lượng đáng sợ nhất trên đất trống. Những đàn ngựa cần cỏ, còn mùa đông khiến các bộ tộc phải đến kho lương thường xuyên hơn.\n\nĐại hãn bắt đầu biến những lời thề thành thuế. Các thủ lĩnh bắt đầu tính xem lời thề của họ đáng bao nhiêu.",
+      "lore_en_1715": "In 1696, Galdan Boshugtu escaped encirclement at Zuunmod and destroyed the Chinese army’s supply train. Anu survived the breakout and helped summon the steppe leaders to Karakorum. Their oaths founded a khanate protecting pastures, trade routes and local succession rights.\n\nBy 1715, the Eternal Sky commanded the steppe from Mongolia into Central Asia and the northern Chinese marches. Its cavalry dominated open ground, but winter drove herds and tribes toward state granaries.\n\nGaldan began turning the oaths into taxes. The chiefs began calculating what their allegiance was worth.",
+      "lore_vi_1716": "Năm 1716, các đội quân Trường Thiên giữ được biên giới Trung Hoa nhưng mất những hành lang phía nam Trung Á vào tay Safavid. Những kho dự trữ bị chiếm làm nhiều bộ tộc phải đưa đàn gia súc về phía bắc, nơi các bãi chăn vốn đã chịu sức ép từ người chạy lạnh.\n\nGaldan chia quyền cấp lương cho các hội đồng bộ tộc để giữ liên minh, còn Anu tổ chức lại những đoàn hộ tống bảo vệ gia đình binh sĩ. Ngai đại hãn dựa ngày càng nhiều vào khả năng giữ người sống qua mùa đông.\n\nNhững kỵ sĩ vẫn mang cờ Trường Thiên đến chân thành Đại Minh. Phía sau họ, cuộc tranh giành một thung lũng có cỏ có thể khiến cả một bộ tộc đổi phe.",
+      "lore_en_1716": "In 1716, the khanate held its Chinese marches but lost southern Central Asian corridors to the Safavids. Captured depots forced herds north toward already crowded pastures.\n\nGaldan delegated ration distribution to tribal councils, while Anu reorganized escorts for soldiers’ families. The great khan’s authority increasingly depended on keeping people alive through winter.\n\nEternal Sky riders still carried their standards to Ming walls. Behind them, a dispute over one sheltered grazing valley could change an entire tribe’s allegiance.",
+      "historical_basis_vi": "Galdan Boshugtu bị quân Thanh đánh bại tại Zuunmod năm 1696; Anu chết trong trận và Galdan mất năm 1697.",
+      "historical_basis_en": "Galdan Boshugtu was defeated by Qing forces at Zuunmod in 1696. Anu died in the battle; Galdan died in 1697.",
+      "historical_divergence_vi": "TFAM đảo kết quả Zuunmod, cho Galdan và Anu sống tiếp để xây liên minh thảo nguyên. Đối thủ trở thành Đại Minh phục hồi, phù hợp nhánh lịch sử Trung Hoa trên atlas.",
+      "historical_divergence_en": "TFAM reverses Zuunmod and lets Galdan and Anu survive to unite the steppe. Their opponent is the restored Ming, consistent with the atlas’s Chinese divergence.",
+      "historical_source": "https://en.wikipedia.org/wiki/Battle_of_Jao_Modo",
+      "story_hook_vi": "Galdan lâm bệnh giữa cuộc thương lượng kế vị. Anu phải giữ các thủ lĩnh ở lại Karakorum trong khi một đạo quân Safavid tiếp cận kho nuôi gia đình của họ.",
+      "story_hook_en": "Galdan falls ill during succession negotiations. Anu must keep the chiefs in Karakorum while a Safavid column approaches the granary feeding their families.",
+      "traits": [
+        {
+          "id": "eternal_sky_khanate_trait_1",
+          "label_vi": "Lời thề Karakorum",
+          "label_en": "The Karakorum Oaths",
+          "effect_vi": "Liên minh cung cấp quân theo cam kết của bộ tộc. Quyền chỉ huy của đại hãn bị giới hạn bởi nghĩa vụ bảo vệ gia đình và bãi chăn.",
+          "effect_en": "Tribal pledges supply the armies. The khan’s command depends on protecting families and grazing lands.",
+          "effect_ui": "Liên minh cung cấp quân theo cam kết của bộ tộc. Quyền chỉ huy của đại hãn bị giới hạn bởi nghĩa vụ bảo vệ gia đình và bãi chăn."
+        },
+        {
+          "id": "eternal_sky_khanate_trait_2",
+          "label_vi": "Kỵ binh trời rộng",
+          "label_en": "Riders of the Open Sky",
+          "effect_vi": "Đội ngựa thay phiên giúp hành quân xa và đánh vào tuyến tiếp tế. Thiếu cỏ có thể làm sức cơ động suy giảm trước khi quân đội gặp đối phương.",
+          "effect_en": "Remounts sustain long marches and supply raids. Fodder shortages can destroy mobility before battle begins.",
+          "effect_ui": "Đội ngựa thay phiên giúp hành quân xa và đánh vào tuyến tiếp tế. Thiếu cỏ có thể làm sức cơ động suy giảm trước khi quân đội gặp đối phương."
+        },
+        {
+          "id": "eternal_sky_khanate_trait_3",
+          "label_vi": "Các thành phố đường lụa",
+          "label_en": "Cities of the Silk Road",
+          "effect_vi": "Thuế thương đoàn tài trợ kho lương và hỏa khí. Mất một hành lang khiến các thủ lĩnh địa phương tranh nhau phần nguồn thu còn lại.",
+          "effect_en": "Caravan duties fund granaries and firearms. Losing a corridor intensifies competition over remaining revenues.",
+          "effect_ui": "Thuế thương đoàn tài trợ kho lương và hỏa khí. Mất một hành lang khiến các thủ lĩnh địa phương tranh nhau phần nguồn thu còn lại."
+        }
+      ]
+    },
+    {
+      "id": "safavid_empire",
+      "capital_demo": "Isfahan",
+      "lore_vi_1715": "Năm 1702, cuộc vây hãm Isfahan đẩy triều Safavid đến bờ sụp đổ. Nader Afshar đưa quân từ Khorasan đến phá vòng vây, giữ được kinh đô và buộc triều đình trao quyền tổ chức quân đội cho người vừa cứu ngai vàng.\n\nĐến năm 1715, Safavid nắm Iran, miền tây Afghanistan và hành lang Balochistan. Nader dùng những xưởng đúc tập trung cùng quân tuyển từ nhiều cộng đồng để giữ biên giới. Nhà vua còn vương miện; vị tổng chỉ huy nắm những người bảo vệ nó.\n\nIsfahan sống bằng thuế ruộng, thương mại và tiền vay của các đại gia đình. Mỗi chiến dịch mới đem về đất nhưng đòi thêm bạc. Triều đình bắt đầu sợ cả ngày Nader thất bại lẫn ngày ông chiến thắng quá lớn.",
+      "lore_en_1715": "In 1702, a siege brought the Safavid court close to collapse. Nader Afshar marched from Khorasan, relieved Isfahan and compelled the rescued throne to grant him control of military organization.\n\nBy 1715, the Safavids held Iran, western Afghanistan and the Balochistan corridor. Centralized foundries and forces recruited across communities guarded the frontier. The king retained the crown; Nader commanded its defenders.\n\nLand taxes, trade and family loans supported Isfahan. Every campaign demanded more silver. The court feared both Nader’s defeat and a victory that might make him indispensable.",
+      "lore_vi_1716": "Năm 1716, Nader giành được phần còn lại của Afghanistan và các hành lang phía nam Turkmenistan từ Trường Thiên. Những kho chiến lợi phẩm giúp quân đội tiếp tục tiến, còn việc giữ đất mới đòi một bộ máy thu thuế chưa kịp theo sau.\n\nTriều đình Isfahan đưa quan giám sát vào quân doanh để kiểm kê nguồn thu. Nader giữ họ ở lại, bắt ký từng khoản thiếu hụt và gửi bản sao về kinh đô. Cuộc giằng co giữa vương miện và quân đội bắt đầu hiện ra trên những giấy lĩnh lương.\n\nSafavid đã tránh được ngày sụp đổ. Những chiến thắng cứu triều đại giờ nuôi một quyền lực có thể thay thế nó.",
+      "lore_en_1716": "In 1716, Nader took the remaining Afghan territories and southern Turkmen corridors from the Eternal Sky. Captured stores sustained the advance, but occupation required a tax administration that lagged behind.\n\nIsfahan sent inspectors to audit military revenues. Nader kept them in camp, required their signatures on every shortage and sent copies to the capital. The struggle between crown and army appeared on ordinary pay warrants.\n\nThe Safavids had escaped collapse. Their rescuing victories now supported a power capable of replacing them.",
+      "historical_basis_vi": "Isfahan thất thủ năm 1722. Nader khôi phục quyền lực quân sự Ba Tư rồi lên ngôi năm 1736, thay thế nhà Safavid bằng triều Afshar.",
+      "historical_basis_en": "Isfahan fell in 1722. Nader restored Persian military power and took the throne in 1736, replacing the Safavids with the Afshar dynasty.",
+      "historical_divergence_vi": "TFAM chuyển cuộc khủng hoảng Isfahan và thế hệ Nader sớm hơn hai mươi năm. Kinh đô được cứu; đến 1716, Nader vẫn làm tổng chỉ huy dưới danh nghĩa Safavid.",
+      "historical_divergence_en": "TFAM moves the Isfahan crisis and Nader’s generation twenty years earlier. The capital is saved; in 1716 he still commands under the Safavid crown.",
+      "historical_source": "https://www.iranicaonline.org/articles/nader-shah/",
+      "story_hook_vi": "Các chỉ huy đề nghị tôn Nader lên ngôi sau thắng lợi Trung Á. Triều đình gửi một vương tử đến quân doanh làm người bảo chứng, đặt sinh mạng của cậu giữa vương miện cũ và vương miện đang được chuẩn bị.",
+      "story_hook_en": "Commanders propose Nader’s coronation after the Central Asian victories. The court sends a prince as guarantor, placing his life between the existing crown and the one being prepared.",
+      "traits": [
+        {
+          "id": "safavid_empire_trait_1",
+          "label_vi": "Ngai vàng được cứu",
+          "label_en": "The Rescued Crown",
+          "effect_vi": "Chính danh Safavid giữ các phe cùng phục vụ nhà nước. Quân đội trung thành với Nader khiến triều đình phải thương lượng để thi hành mệnh lệnh.",
+          "effect_en": "Safavid legitimacy holds factions together. The army’s loyalty to Nader forces the court to negotiate its orders.",
+          "effect_ui": "Chính danh Safavid giữ các phe cùng phục vụ nhà nước. Quân đội trung thành với Nader khiến triều đình phải thương lượng để thi hành mệnh lệnh."
+        },
+        {
+          "id": "safavid_empire_trait_2",
+          "label_vi": "Hỏa lực Khorasan",
+          "label_en": "Khorasan Firepower",
+          "effect_vi": "Súng bộ binh và pháo cơ động được tổ chức theo định mức chung. Các xưởng tập trung dễ thiếu nguyên liệu khi thương lộ bị cắt.",
+          "effect_en": "Common standards integrate musketry and mobile artillery. Central foundries depend on vulnerable material routes.",
+          "effect_ui": "Súng bộ binh và pháo cơ động được tổ chức theo định mức chung. Các xưởng tập trung dễ thiếu nguyên liệu khi thương lộ bị cắt."
+        },
+        {
+          "id": "safavid_empire_trait_3",
+          "label_vi": "Chiến thắng nuôi chiến dịch",
+          "label_en": "Victory Funds the Campaign",
+          "effect_vi": "Kho và nguồn thu chiếm được tài trợ quân đội. Khi chinh phục chậm lại, nghĩa vụ lương bổng quay về đè lên những tỉnh đã bị khai thác.",
+          "effect_en": "Captured stores and revenues fund the army. When conquest slows, pay obligations fall on already exhausted provinces.",
+          "effect_ui": "Kho và nguồn thu chiếm được tài trợ quân đội. Khi chinh phục chậm lại, nghĩa vụ lương bổng quay về đè lên những tỉnh đã bị khai thác."
+        }
+      ]
+    },
+    {
+      "id": "aksumite_empire",
+      "capital_demo": "Gondar",
+      "lore_vi_1715": "Năm 1715, Kassa Hailu lên ngôi tại Gondar với vương hiệu Tewodros II, sau nhiều năm dùng quân đội và các hiệp ước để gom những vương hầu vùng cao vào một nhà nước. Ông tuyên bố phục hưng Aksum, biến ký ức về đế quốc cổ thành lời hứa đưa cao nguyên trở lại vị trí trung tâm của Đông Phi.\n\nLãnh thổ mới trải từ vùng cao Ethiopia qua các cửa biển phía đông đến những hành lang của thượng lưu Nile. Xưởng pháo hoàng gia tuyển thợ từ các thành phố, còn những đoàn lương phải đi qua núi và những xứ vừa chịu khuất phục.\n\nTewodros muốn mọi vùng đất cùng chịu một luật thuế. Các vương hầu đã quỳ trước ngai vàng vẫn giữ quân riêng và sổ thu riêng trong thành của họ.",
+      "lore_en_1715": "In 1715, Kassa Hailu took the name Tewodros II at his coronation in Gondar. Years of war and treaties had united highland princes beneath a new state. He proclaimed an Aksumite restoration, promising to return the plateau to the centre of East African power.\n\nThe realm reached from Ethiopia’s highlands to eastern ports and upper Nile corridors. Royal foundries recruited urban craftsmen; supplies crossed mountains and recently subdued territories.\n\nTewodros demanded a common tax law. Princes who had knelt before him still kept private troops and revenue books behind their own walls.",
+      "lore_vi_1716": "Năm 1716, Aksum đưa quân xuống miền bắc Kenya, chiếm những hành lang đã thuộc Liên minh Swahili. Tewodros muốn bảo đảm đường vận tải từ cao nguyên đến các tuyến thương mại phía nam, đồng thời giảm lệ thuộc vào những cảng do đối thủ kiểm soát.\n\nQuân đội tiến được xuống đồng bằng; bộ máy thu thuế phải học cách giữ chúng. Những đoàn lương bị đánh trên đường núi buộc hoàng đế hoãn đóng thêm pháo để tăng số quân hộ tống. Các vương hầu cũ dùng việc cung cấp ngựa và người dẫn đường để đòi lại quyền tự quản.\n\nNgai vàng đã thống nhất các vùng đất trên bản đồ. Tewodros giờ phải thống nhất những nghĩa vụ mà từng vùng chịu gánh.",
+      "lore_en_1716": "In 1716, Aksum advanced into northern Kenya, taking corridors held by the Swahili League. Tewodros sought southern trade routes and reduced dependence on rival-controlled ports.\n\nHis soldiers reached the lowlands; his tax officers still had to hold them. Raids on mountain convoys forced him to delay new guns and recruit more escorts. Former princes traded horses and guides for renewed autonomy.\n\nThe throne had united the map. Tewodros now had to reconcile what each territory was prepared to owe it.",
+      "historical_basis_vi": "Tewodros II được đăng quang năm 1855, tìm cách thống nhất Ethiopia và xây dựng quân đội; triều đại kết thúc tại Maqdala năm 1868.",
+      "historical_basis_en": "Tewodros II was crowned in 1855, pursued Ethiopian unification and military development, and lost his kingdom at Maqdala in 1868.",
+      "historical_divergence_vi": "TFAM đưa thế hệ Tewodros và lễ đăng quang sớm hơn 140 năm, đến 1715. Việc phục hưng danh hiệu Aksum cùng lãnh thổ rộng ở Đông Phi thuộc nhánh giả tưởng.",
+      "historical_divergence_en": "TFAM moves Tewodros’s generation and coronation 140 years earlier, to 1715. The Aksumite restoration and expanded East African realm are fictional developments.",
+      "historical_source": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/maqdala-collection",
+      "story_hook_vi": "Tewodros giữ một kỹ sư ngoại quốc để hoàn thành xưởng pháo. Khi gia đình người ấy bị bắt ở biên giới Swahili, hoàng đế phải chọn giữa mở đường cứu viện và giữ bí mật quân giới.",
+      "story_hook_en": "Tewodros retains a foreign engineer to complete his foundry. When the man’s family is captured at the Swahili frontier, the emperor must choose between a rescue and preserving military secrets.",
+      "traits": [
+        {
+          "id": "aksumite_empire_trait_1",
+          "label_vi": "Phục hưng Aksum",
+          "label_en": "Aksum Restored",
+          "effect_vi": "Danh hiệu cổ gắn ngai vàng với ký ức đế quốc. Các cộng đồng vùng thấp vẫn cần thỏa thuận cụ thể về thuế và quyền cai trị.",
+          "effect_en": "The ancient name legitimizes the throne. Lowland communities still demand concrete agreements on taxation and government.",
+          "effect_ui": "Danh hiệu cổ gắn ngai vàng với ký ức đế quốc. Các cộng đồng vùng thấp vẫn cần thỏa thuận cụ thể về thuế và quyền cai trị."
+        },
+        {
+          "id": "aksumite_empire_trait_2",
+          "label_vi": "Thành lũy cao nguyên",
+          "label_en": "Highland Strongholds",
+          "effect_vi": "Các pháo đài bảo vệ kho và đường núi. Quân chiếm đóng phải giữ những trạm tiếp tế dài, dễ bị đánh khi ra khỏi thành.",
+          "effect_en": "Fortresses protect stores and passes. Occupation requires long supply chains vulnerable beyond their walls.",
+          "effect_ui": "Các pháo đài bảo vệ kho và đường núi. Quân chiếm đóng phải giữ những trạm tiếp tế dài, dễ bị đánh khi ra khỏi thành."
+        },
+        {
+          "id": "aksumite_empire_trait_3",
+          "label_vi": "Xưởng pháo hoàng gia",
+          "label_en": "Royal Foundries",
+          "effect_vi": "Triều đình tập trung thợ giỏi để giảm lệ thuộc nhập khẩu. Công nghiệp mới cạnh tranh lương thực và sức lao động với các địa phương.",
+          "effect_en": "The crown concentrates craftsmen to reduce imports. New industry competes with provincial needs for food and labour.",
+          "effect_ui": "Triều đình tập trung thợ giỏi để giảm lệ thuộc nhập khẩu. Công nghiệp mới cạnh tranh lương thực và sức lao động với các địa phương."
+        }
+      ]
+    },
+    {
+      "id": "songhai_empire",
+      "capital_demo": "Timbuktu",
+      "lore_vi_1715": "Năm 1693, Muhammad Ture giành ngôi Askia giữa các thành phố đang tranh quyền trên sông Niger. Ông khôi phục tên Songhai, dùng luật thuế thống nhất cùng những thỏa thuận với thương đoàn để nối các vương quốc Sahel vào một đế quốc mới.\n\nĐến năm 1715, Songhai giữ phần lớn Tây Phi và những hành lang phía tây hồ Chad. Timbuktu trở thành nơi các quan thuế, học giả và chủ đoàn buôn cùng quyết định dòng bạc sẽ đi đâu. Những kho muối, bến sông và đường vàng nuôi quân đội trong khi mùa đông làm nhiều vùng phải mua lương thực từ xa.\n\nAskia đã khiến các thành phố cùng đóng thuế. Ông vẫn cần khiến những người thu thuế công nhận cùng một sổ sách.",
+      "lore_en_1715": "In 1693, Muhammad Ture seized the Askia throne amid rivalry among Niger cities. He restored the Songhai name and joined Sahelian kingdoms through common taxation and caravan agreements.\n\nBy 1715, Songhai held much of West Africa and corridors west of Lake Chad. In Timbuktu, officials, scholars and caravan masters contested the movement of silver. Salt stores, river ports and gold routes supported the army while winter increased dependence on imported food.\n\nAskia had persuaded the cities to pay one treasury. Their collectors still disputed which accounts that treasury should believe.",
+      "lore_vi_1716": "Năm 1716, Songhai mở rộng sang phía đông Chad và miền tây các xứ thuộc Liên bang Kongo. Những thủ lĩnh biên giới nhận tước vị cùng quyền giữ lại một phần thuế để đổi lấy kho lương, đường qua và quân phục vụ đế quốc.\n\nChiến dịch đem lại thương lộ mới nhưng kéo quân đội xa khỏi sông Niger. Askia Muhammad đưa các học giả và viên kiểm kê theo sau đoàn quân, lập hồ sơ nghĩa vụ của từng thành phố trước khi những lời hứa chiến thắng biến thành tranh chấp.\n\nỞ Timbuktu, sự giàu có của đế quốc hiện ra trong những đoàn hàng ngày càng dài. Ngoài biên giới, các chỉ huy phải quyết định mang về bạc hay dành xe cho lương thực.",
+      "lore_en_1716": "In 1716, Songhai expanded into eastern Chad and western territories of the Kongo federation. Frontier rulers accepted titles and retained part of their taxes in exchange for stores, passage and troops.\n\nNew trade routes carried the army farther from the Niger. Askia Muhammad sent scholars and auditors behind the columns to record each city’s obligations before wartime promises became disputes.\n\nTimbuktu received longer caravans. At the frontier, commanders chose whether their wagons should return with silver or food.",
+      "historical_basis_vi": "Askia Muhammad Ture lên nắm Songhai năm 1493, phát triển bộ máy cai trị và thương mại; chuyến hành hương của ông diễn ra năm 1496.",
+      "historical_basis_en": "Askia Muhammad Ture took power in Songhai in 1493, developed administration and commerce, and undertook a pilgrimage in 1496.",
+      "historical_divergence_vi": "TFAM đưa thế hệ Askia Muhammad muộn hơn hai trăm năm, biến chương trình xây dựng nhà nước thành cuộc phục hưng Songhai từ năm 1693. Lãnh thổ Tây Phi rộng trên atlas là diễn biến mới.",
+      "historical_divergence_en": "TFAM moves Askia Muhammad’s generation two hundred years later, making his state-building a Songhai restoration from 1693. The atlas’s wider West African empire is a new development.",
+      "historical_source": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/askiya-muhammad-r-1493-1529",
+      "story_hook_vi": "Người kế vị Askia bị ám sát tại một thành phố vừa quy phục. Các học giả tìm được nhân chứng còn sống, nhưng lời khai của người ấy có thể biến một vụ giết người thành chiến tranh giữa các vùng trong đế quốc.",
+      "story_hook_en": "Askia’s heir is assassinated in a newly submitted city. Scholars find a surviving witness whose testimony could turn a murder into war among the empire’s regions.",
+      "traits": [
+        {
+          "id": "songhai_empire_trait_1",
+          "label_vi": "Luật Askia",
+          "label_en": "The Askia Registers",
+          "effect_vi": "Thuế và nghĩa vụ quân sự được ghi thành hồ sơ chung. Hiệu quả phụ thuộc vào khả năng kiểm tra những lời khai của quan địa phương.",
+          "effect_en": "Common records define taxes and military duties. Their effectiveness depends on auditing provincial declarations.",
+          "effect_ui": "Thuế và nghĩa vụ quân sự được ghi thành hồ sơ chung. Hiệu quả phụ thuộc vào khả năng kiểm tra những lời khai của quan địa phương."
+        },
+        {
+          "id": "songhai_empire_trait_2",
+          "label_vi": "Vàng, muối và bến sông",
+          "label_en": "Gold, Salt and River Ports",
+          "effect_vi": "Nhiều nguồn thu giảm lệ thuộc một tuyến thương mại. Việc giữ thương lộ xa làm tăng chi phí hộ tống và đồn trú.",
+          "effect_en": "Diversified revenues reduce dependence on one trade route. Distant corridors increase escort and garrison costs.",
+          "effect_ui": "Nhiều nguồn thu giảm lệ thuộc một tuyến thương mại. Việc giữ thương lộ xa làm tăng chi phí hộ tống và đồn trú."
+        },
+        {
+          "id": "songhai_empire_trait_3",
+          "label_vi": "Triều đình học giả",
+          "label_en": "A Court of Scholars",
+          "effect_vi": "Học giả tham gia luật, ngoại giao và quản trị thành phố. Sự thống nhất của triều đình vẫn chịu sức ép từ các lợi ích đô thị cạnh tranh.",
+          "effect_en": "Scholars contribute to law, diplomacy and civic government. Rival urban interests still divide the court.",
+          "effect_ui": "Học giả tham gia luật, ngoại giao và quản trị thành phố. Sự thống nhất của triều đình vẫn chịu sức ép từ các lợi ích đô thị cạnh tranh."
+        }
+      ]
+    },
+    {
+      "id": "kongo_confederation",
+      "capital_demo": "Mbanza Kongo",
+      "lore_vi_1715": "Năm 1706, Pedro IV đình chỉ bản án thiêu sống Kimpa Vita và chấp nhận thương lượng với phong trào của bà. Việc trở lại Mbanza Kongo năm 1709 trở thành một cuộc hòa giải có quân đội bảo chứng, đưa những vương quốc và thủ lĩnh tranh ngôi vào một liên bang cùng bảo vệ đường sông.\n\nĐến năm 1715, liên bang trải qua lưu vực Congo, vùng Angola và các hành lang đến Đại Hồ. Pedro giữ ngai tối cao; Kimpa Vita giúp các cộng đồng công nhận một trật tự chung, đổi lấy quyền gửi đại diện đến hội đồng thuế.\n\nNhững vùng đất từng bị chia cắt đã nối lại đường buôn bán. Các vua địa phương vẫn muốn giữ quyền trên người dân và số bạc đi qua bến của mình.",
+      "lore_en_1715": "In 1706, Pedro IV suspended Kimpa Vita’s execution and negotiated with her movement. The return to Mbanza Kongo in 1709 became an armed reconciliation, joining rival rulers in a federation defending river routes.\n\nBy 1715, it extended across the Congo basin, Angola and Great Lakes corridors. Pedro held the senior throne; Kimpa Vita secured communal recognition in exchange for representation on tax councils.\n\nDivided lands reopened their trade routes. Local kings still guarded authority over their people and the silver crossing their quays.",
+      "lore_vi_1716": "Năm 1716, Liên bang Kongo mất miền nam Angola vào tay Mũi Hảo Vọng, mất các vùng phía tây vào tay Songhai và các xứ ven hồ Malawi vào tay Swahili. Quân liên bang giành một phần miền bắc Namibia để giữ đường tiếp cận phía nam, nhưng thắng lợi ấy làm chuỗi tiếp tế thêm dài.\n\nKimpa Vita đi giữa các hội đồng, yêu cầu những vua hưởng lợi từ liên bang góp người và lương cho vùng đang bị đánh. Pedro IV muốn ban hành nghĩa vụ bắt buộc; những đồng minh cũ nhắc lại cam kết tự quản năm 1709.\n\nĐường sông vẫn nối các thành phố. Câu hỏi giờ là ai còn chịu gửi quân để giữ bến của một vị vua khác.",
+      "lore_en_1716": "In 1716, Kongo lost southern Angola to the Cape, western territories to Songhai and the Malawi lake districts to Swahili forces. Federal armies took part of northern Namibia to secure a southern approach, lengthening their own supply line.\n\nKimpa Vita demanded food and troops from rulers who benefited from the federation. Pedro IV sought compulsory levies; allies invoked the autonomy promised in 1709.\n\nThe rivers still connected the cities. Their rulers now disputed who must send soldiers to defend another king’s quay.",
+      "historical_basis_vi": "Kimpa Vita bị xử tử theo lệnh Pedro IV năm 1706. Pedro IV trở lại kinh đô Kongo năm 1709 trong quá trình tái thống nhất vương quốc.",
+      "historical_basis_en": "Kimpa Vita was executed on Pedro IV’s orders in 1706. Pedro returned to the Kongo capital in 1709 during the kingdom’s reunification.",
+      "historical_divergence_vi": "TFAM đảo quyết định xử tử, cho Kimpa Vita và Pedro IV cùng dựng một liên bang từ cuộc tái thống nhất. Những lãnh thổ rộng đến Đại Hồ và chiến tranh năm 1716 là phát triển mới.",
+      "historical_divergence_en": "TFAM reverses the execution and makes Kimpa Vita and Pedro IV partners in a federal reunification. Great Lakes expansion and the 1716 wars are new developments.",
+      "historical_source": "https://dacb.org/stories/congo/kimpa3-vita/",
+      "story_hook_vi": "Kimpa Vita lập nơi trú cho người chạy khỏi Angola. Một vị vua thành viên đòi giao những người ấy để đổi lấy hòa bình riêng với Mũi Hảo Vọng, rồi đưa quân đến trước khi hội đồng kịp họp.",
+      "story_hook_en": "Kimpa Vita establishes a refuge for people fleeing Angola. A member king demands their surrender for a separate peace with the Cape and arrives with troops before the council can meet.",
+      "traits": [
+        {
+          "id": "kongo_confederation_trait_1",
+          "label_vi": "Hòa ước Mbanza",
+          "label_en": "The Mbanza Settlement",
+          "effect_vi": "Các vua giữ quyền cai trị địa phương trong liên bang. Những nghĩa vụ cứu viện phải được thương lượng với nhiều hội đồng trước khi quân xuất phát.",
+          "effect_en": "Kings retain local authority. Relief obligations pass through several councils before troops can march.",
+          "effect_ui": "Các vua giữ quyền cai trị địa phương trong liên bang. Những nghĩa vụ cứu viện phải được thương lượng với nhiều hội đồng trước khi quân xuất phát."
+        },
+        {
+          "id": "kongo_confederation_trait_2",
+          "label_vi": "Mạch máu Congo",
+          "label_en": "The Congo Arteries",
+          "effect_vi": "Đường sông đưa hàng và quân qua những vùng đường bộ khó đi. Chiếm một bến chuyển tải có thể cô lập những thành phố ở sâu trong đất liền.",
+          "effect_en": "Rivers carry goods and troops through difficult terrain. Capturing a transfer port can isolate inland cities.",
+          "effect_ui": "Đường sông đưa hàng và quân qua những vùng đường bộ khó đi. Chiếm một bến chuyển tải có thể cô lập những thành phố ở sâu trong đất liền."
+        },
+        {
+          "id": "kongo_confederation_trait_3",
+          "label_vi": "Chính danh từ hòa giải",
+          "label_en": "Legitimacy Through Reconciliation",
+          "effect_vi": "Kimpa Vita gắn việc phục quốc với cam kết bảo vệ cộng đồng. Những thất hứa về cứu viện làm suy yếu trực tiếp lòng tin vào liên bang.",
+          "effect_en": "Kimpa Vita ties restoration to community protection. Broken relief promises directly weaken trust in the federation.",
+          "effect_ui": "Kimpa Vita gắn việc phục quốc với cam kết bảo vệ cộng đồng. Những thất hứa về cứu viện làm suy yếu trực tiếp lòng tin vào liên bang."
+        }
+      ]
+    },
+    {
+      "id": "swahili_league",
+      "capital_demo": "Zanzibar",
+      "lore_vi_1715": "Năm 1698, cuộc vây hãm Fort Jesus kết thúc với quyền kiểm soát pháo đài thuộc về một hội đồng các cảng Swahili. Những thành phố đã góp thuyền và lương cho cuộc chiến dùng chiến thắng để lập một liên minh hải quân, giữ quyền hải quan trước những thế lực muốn đặt toàn bộ bờ biển dưới một ngai vàng.\n\nNăm 1715, Zanzibar điều phối mạng lưới kéo dài qua Kenya, Tanzania, Mozambique và các đảo Comoros, Seychelles. Mỗi cảng giữ hội đồng riêng, góp chiến hạm theo số thuế thu được.\n\nLiên minh giàu nhờ vận tải và những kho hàng trung chuyển. Sự giàu có ấy dựa vào việc các thành phố cùng mở cửa biển; một cuộc tranh chấp thuế có thể giữ tàu ở bến lâu hơn cả một trận đánh.",
+      "lore_en_1715": "In 1698, the siege of Fort Jesus ended with the fortress controlled by a council of Swahili ports. Cities contributing ships and food formed a naval league to preserve customs authority against outside crowns.\n\nBy 1715, Zanzibar coordinated Kenya, Tanzania, Mozambique, Comoros and Seychelles. Each port retained its council and supplied warships according to customs revenues.\n\nTransport and bonded warehouses enriched the league. That wealth depended on shared access: a dispute over duties could immobilize ships longer than a battle.",
+      "lore_vi_1716": "Năm 1716, Swahili mất các hành lang miền bắc Kenya vào tay Aksum, còn Merina giành Comoros và Seychelles. Hội đồng Zanzibar chuyển lực lượng vào các xứ ven hồ Malawi để mở thêm tuyến vận tải nội địa và giữ nguồn thu sau tổn thất ngoài biển.\n\nNhững cảng bị mất tuyến hàng đòi liên minh tập trung hạm đội phản công. Những cảng đang hưởng lợi từ chiến dịch Malawi muốn giữ quân ở đất liền. Đại đô đốc Asha bint Salim phải chia các đoàn hộ tống giữa hai yêu cầu ấy, dù số tàu còn nguyên ngày càng ít.\n\nCác hội đồng vẫn ký chung một hiệp ước. Mỗi hội đồng đang vẽ một bản đồ khác cho tương lai của liên minh.",
+      "lore_en_1716": "In 1716, Aksum took northern Kenyan corridors while Merina captured Comoros and Seychelles. Zanzibar redirected troops toward the Malawi lake districts to open inland routes and recover revenue.\n\nPorts losing sea traffic demanded a naval counterattack. Those profiting from Malawi wanted the army to remain inland. Grand Admiral Asha bint Salim divided escorts between them as serviceable ships dwindled.\n\nThe councils still shared one treaty. Each was drawing a different map of the league’s future.",
+      "historical_basis_vi": "Fort Jesus tại Mombasa rơi vào tay quân Oman năm 1698 sau cuộc vây hãm kéo dài từ 1696.",
+      "historical_basis_en": "Fort Jesus at Mombasa fell to Omani forces in 1698 after a siege beginning in 1696.",
+      "historical_divergence_vi": "TFAM giữ cuộc vây hãm nhưng trao thắng lợi cho liên minh tự chủ của các cảng Swahili. Asha bint Salim là nhân vật hư cấu lãnh đạo hạm đội năm 1715–1716.",
+      "historical_divergence_en": "TFAM retains the siege but awards victory to an autonomous Swahili port coalition. Asha bint Salim is the fictional fleet commander in 1715–1716.",
+      "historical_source": "https://whc.unesco.org/uploads/nominations/1295rev.pdf",
+      "story_hook_vi": "Hội đồng quyết định bỏ một cảng để cứu hạm đội. Asha được lệnh thi hành việc rút quân, trong khi gia đình bà nằm trong số những người phải ở lại sau cánh cổng đóng.",
+      "story_hook_en": "The council votes to abandon a port to save the fleet. Asha must execute the withdrawal while her family remains among those left behind its closing gates.",
+      "traits": [
+        {
+          "id": "swahili_league_trait_1",
+          "label_vi": "Hiệp ước các cảng",
+          "label_en": "The Port Compact",
+          "effect_vi": "Các hội đồng góp thuế và quân theo lợi ích thương mại. Quyết định chung có thể bị trì hoãn khi một chiến dịch chỉ có lợi cho một nhóm cảng.",
+          "effect_en": "Councils contribute according to commercial interests. Campaigns benefiting only some ports can stall collective decisions.",
+          "effect_ui": "Các hội đồng góp thuế và quân theo lợi ích thương mại. Quyết định chung có thể bị trì hoãn khi một chiến dịch chỉ có lợi cho một nhóm cảng."
+        },
+        {
+          "id": "swahili_league_trait_2",
+          "label_vi": "Hoa tiêu gió mùa",
+          "label_en": "Monsoon Pilots",
+          "effect_vi": "Kinh nghiệm luồng biển giúp chọn tuyến vận tải an toàn hơn. Khí hậu lạnh làm quy luật cũ kém ổn định, buộc hoa tiêu khảo sát lại từng mùa.",
+          "effect_en": "Local knowledge guides safer routes. The frozen climate disrupts old patterns and demands fresh seasonal surveys.",
+          "effect_ui": "Kinh nghiệm luồng biển giúp chọn tuyến vận tải an toàn hơn. Khí hậu lạnh làm quy luật cũ kém ổn định, buộc hoa tiêu khảo sát lại từng mùa."
+        },
+        {
+          "id": "swahili_league_trait_3",
+          "label_vi": "Kho hàng liên minh",
+          "label_en": "League Warehouses",
+          "effect_vi": "Hệ thống kho trung chuyển bảo đảm lương và vật tư cho hạm đội. Thành viên giữ kho có quyền lực lớn trong việc cho phép chiến dịch tiếp tục.",
+          "effect_en": "Transfer warehouses provision the fleet. Ports controlling stores can determine whether campaigns continue.",
+          "effect_ui": "Hệ thống kho trung chuyển bảo đảm lương và vật tư cho hạm đội. Thành viên giữ kho có quyền lực lớn trong việc cho phép chiến dịch tiếp tục."
+        }
+      ]
+    },
+    {
+      "id": "cape_republic",
+      "capital_demo": "Cape Town",
+      "lore_vi_1715": "Năm 1706, bản kiến nghị của Adam Tas chống độc quyền VOC biến thành một cuộc nổi dậy tại Mũi Hảo Vọng. Những người giữ trang trại, thợ cảng và các cộng đồng kiểm soát đường vận tải cùng ép chính quyền công ty rời khỏi thành. Hội đồng lâm thời tuyên bố một nước cộng hòa, đặt quyền thu hải quan dưới sự giám sát của các đại diện đóng góp lương và quân.\n\nĐến năm 1715, nước cộng hòa đã nối những vùng phía nam châu Phi bằng các hiệp ước, đồn trại và những đoàn xe được hộ tống. Cape Town nuôi cảng bằng lương từ nội địa, rồi dùng thuế cảng để bảo vệ đường xe.\n\nTừ tự do xuất hiện trên mọi con dấu. Những cộng đồng bị buộc nhường đất cho các đoàn xe mới bắt đầu hỏi từ ấy bao gồm ai.",
+      "lore_en_1715": "In 1706, Adam Tas’s petition against VOC monopolies became an uprising at the Cape. Farmers, dockworkers and communities controlling inland transport expelled the Company administration. A provisional council placed customs under representatives contributing food and troops.\n\nBy 1715, treaties, forts and guarded wagon routes connected much of southern Africa. Inland food sustained Cape Town, and port duties defended the inland roads.\n\nFreedom appeared on every seal. Communities compelled to surrender land for new routes began asking whom that promise included.",
+      "lore_vi_1716": "Năm 1716, quân Mũi Hảo Vọng tiến vào miền nam Angola trong lúc Kongo gặp chiến tranh nhiều hướng. Cùng thời gian ấy, liên bang chiếm một phần miền bắc Namibia, cắt những tuyến đường mà Cape Town từng xem là hậu phương an toàn.\n\nAdam Tas dùng thắng lợi Angola để giữ hội đồng ủng hộ quân đội. Những người cung cấp xe và lương đòi đất tại vùng mới chiếm; các đại diện địa phương yêu cầu trả lại những bãi chăn đã trưng dụng. Ngân khố phải lựa chọn giữa bồi thường và mở thêm đồn.\n\nNước cộng hòa đã lớn hơn vùng đất từng chống một công ty. Những phương thức đem lại thắng lợi cho nó bắt đầu giống những điều cuộc nổi dậy muốn chấm dứt.",
+      "lore_en_1716": "In 1716, Cape forces entered southern Angola while Kongo fought on several fronts. The federation answered by taking part of northern Namibia and disrupting formerly secure routes.\n\nAdam Tas used the Angolan victories to maintain support for the army. Suppliers demanded land in the conquered districts; local representatives sought compensation for requisitioned pastures. The treasury had to choose between repayment and more forts.\n\nThe republic had outgrown its anti-company revolt. Its methods were beginning to resemble the practices that revolt had opposed.",
+      "historical_basis_vi": "Adam Tas tham gia kiến nghị năm 1706 phản đối hoạt động của thống đốc Willem Adriaan van der Stel và độc quyền tại Cape; ông bị bắt, còn thống đốc bị VOC bãi nhiệm năm 1707.",
+      "historical_basis_en": "Adam Tas helped organize the 1706 petition against Willem Adriaan van der Stel’s monopolies at the Cape. Tas was arrested; the VOC dismissed the governor in 1707.",
+      "historical_divergence_vi": "TFAM biến tranh chấp năm 1706 thành cuộc ly khai khỏi VOC và nước cộng hòa mở rộng qua hiệp ước lẫn chinh phục. Tư tưởng, liên minh và chức vụ của Tas được viết lại cho nhánh này.",
+      "historical_divergence_en": "TFAM turns the 1706 dispute into secession from the VOC and an expanding republic. Tas’s ideology, alliances and office are rewritten for this branch.",
+      "historical_source": "https://hipsa.org.za/publication/dagboek-van-adam-tas-1705-1706/",
+      "story_hook_vi": "Một chỉ huy thắng ở Angola trở về với quân đội trung thành riêng và đòi quyền quyết định hiến chương. Adam Tas phải dựa vào những cộng đồng từng bị hội đồng gạt khỏi quyền biểu quyết để giữ nước cộng hòa.",
+      "story_hook_en": "A victorious Angolan commander returns with a personally loyal army and demands control of the charter. Tas must turn to communities his council excluded from voting to save the republic.",
+      "traits": [
+        {
+          "id": "cape_republic_trait_1",
+          "label_vi": "Hiến chương tự do",
+          "label_en": "The Freedom Charter",
+          "effect_vi": "Hội đồng kiểm soát thuế và ngân sách quân đội. Quyền đại diện gắn với đóng góp khiến những cộng đồng nghèo dễ bị gạt khỏi quyết định.",
+          "effect_en": "The council controls taxation and military budgets. Contribution-based representation disadvantages poorer communities.",
+          "effect_ui": "Hội đồng kiểm soát thuế và ngân sách quân đội. Quyền đại diện gắn với đóng góp khiến những cộng đồng nghèo dễ bị gạt khỏi quyết định."
+        },
+        {
+          "id": "cape_republic_trait_2",
+          "label_vi": "Pháo đài đoàn xe",
+          "label_en": "Wagon Strongholds",
+          "effect_vi": "Xe vận tải có thể được kết thành công sự bảo vệ lương và người. Hệ thống cần ngựa kéo, đường đi và những điểm nước được giữ chắc.",
+          "effect_en": "Wagons form defensive enclosures around people and supplies. Draught animals, roads and secure water points sustain the system.",
+          "effect_ui": "Xe vận tải có thể được kết thành công sự bảo vệ lương và người. Hệ thống cần ngựa kéo, đường đi và những điểm nước được giữ chắc."
+        },
+        {
+          "id": "cape_republic_trait_3",
+          "label_vi": "Bản lề hai đại dương",
+          "label_en": "Hinge of Two Oceans",
+          "effect_vi": "Thuế tàu ghé Cape Town tài trợ đường vận tải nội địa. Hải quân phong tỏa có thể làm ngân khố thiếu bạc dù ruộng vẫn còn lương.",
+          "effect_en": "Cape Town’s port duties fund inland routes. A blockade can drain silver despite adequate inland food.",
+          "effect_ui": "Thuế tàu ghé Cape Town tài trợ đường vận tải nội địa. Hải quân phong tỏa có thể làm ngân khố thiếu bạc dù ruộng vẫn còn lương."
+        }
+      ]
+    },
+    {
+      "id": "merina_empire",
+      "capital_demo": "Antananarivo",
+      "lore_vi_1715": "Năm 1687, Andrianampoinimerina bắt đầu thống nhất các tiểu quốc vùng cao Madagascar. Kho lương, ruộng bậc thang và việc kiểm soát những đường xuống biển giúp ngai vàng Merina vươn khỏi cao nguyên, đưa toàn đảo vào một nhà nước có đủ nguồn lực dựng hạm đội.\n\nNăm 1710, Radama I kế vị. Đến năm 1715, ông nắm Madagascar cùng Mauritius, dùng cảng đảo để mua hỏa khí và giữ những tuyến biển phía đông châu Phi. Các sĩ quan mới phục vụ bên cạnh quý tộc cũ; triều đình thưởng đất cùng chức vụ cho những người đưa tàu về đúng hạn.\n\nRadama muốn biến biển thành đường mở rộng đế quốc. Những nhà cung cấp gạo nhắc ông rằng mỗi thủy thủ ra khơi đều để lại một phần việc trên ruộng.",
+      "lore_en_1715": "In 1687, Andrianampoinimerina began uniting Madagascar’s highland principalities. Granaries, terraced fields and control of routes to the coast enabled a state capable of building a fleet.\n\nRadama I succeeded in 1710. By 1715, he held Madagascar and Mauritius, using island ports to obtain firearms and secure eastern African sea routes. New officers served beside older nobles, winning land and office through successful voyages.\n\nRadama sought an ocean empire. Grain suppliers reminded him that every sailor left work unfinished in the fields.",
+      "lore_vi_1716": "Năm 1716, Radama đánh chiếm Comoros và Seychelles từ Liên minh Swahili. Những bến đảo cho Merina thêm điểm trú, kho sửa tàu và quyền kiểm soát đoàn hàng đi qua vùng biển của mình.\n\nHoàng đế đưa các quan thuế đến đảo mới trong khi hạm đội còn ở lại bảo vệ cuộc chiếm đóng. Chi phí giữ tàu xa nhà kéo dài nghĩa vụ lao động và làm các vùng cao thiếu người chăm ruộng. Những quý tộc từng tài trợ chiến dịch đòi đặc quyền tại cảng; các sĩ quan được phong mới muốn quyền ấy thuộc quân đội.\n\nMerina đã có một chuỗi đảo để gọi là đế quốc đại dương. Radama giờ phải giữ cho chuỗi đảo ấy đem lương về nhiều hơn số lương nó tiêu thụ.",
+      "lore_en_1716": "In 1716, Radama seized Comoros and Seychelles from the Swahili League. Their harbours provided shelter, repair stores and control over passing convoys.\n\nTax officers arrived while the fleet remained to protect the occupation. Overseas costs extended labour obligations and left highland fields short of workers. Financing nobles demanded port privileges; newly elevated officers claimed them for the navy.\n\nMerina possessed the island chain of an ocean empire. Radama had to make it bring home more food than it consumed.",
+      "historical_basis_vi": "Andrianampoinimerina cai trị Imerina khoảng 1787–1810; Radama I kế vị năm 1810 và mở rộng quyền lực Merina trên Madagascar.",
+      "historical_basis_en": "Andrianampoinimerina ruled Imerina around 1787–1810. Radama I succeeded in 1810 and expanded Merina power across Madagascar.",
+      "historical_divergence_vi": "TFAM chuyển cả hai thế hệ và quá trình thống nhất sớm hơn một thế kỷ. Mauritius, hạm đội đại dương và các cuộc chinh phục năm 1716 là phát triển giả tưởng.",
+      "historical_divergence_en": "TFAM moves both generations and unification a century earlier. Mauritius, the ocean fleet and the 1716 conquests are fictional developments.",
+      "historical_source": "https://www.treccani.it/enciclopedia/madagascar_%28Dizionario-di-Storia%29/",
+      "story_hook_vi": "Radama cho một vương hầu bại trận giữ đảo để đổi lấy con gái ông làm người bảo chứng tại Antananarivo. Khi hạm đội mất liên lạc với đảo, triều đình coi cô là tù nhân, còn vị sĩ quan bảo vệ cô nghi ngờ lệnh phản bội đã được dựng lên.",
+      "story_hook_en": "Radama lets a defeated island ruler retain his domain in exchange for sending his daughter to Antananarivo as guarantor. When contact is lost, the court treats her as a prisoner; her guard suspects the alleged betrayal was fabricated.",
+      "traits": [
+        {
+          "id": "merina_empire_trait_1",
+          "label_vi": "Kho lương cao nguyên",
+          "label_en": "Highland Granaries",
+          "effect_vi": "Ruộng và kho dự trữ giúp triều đình huy động lương cho hạm đội. Lao động bị kéo dài cho chiến tranh làm sản lượng mùa sau suy giảm.",
+          "effect_en": "Fields and reserves provision the fleet. Extended military labour duties reduce the next harvest.",
+          "effect_ui": "Ruộng và kho dự trữ giúp triều đình huy động lương cho hạm đội. Lao động bị kéo dài cho chiến tranh làm sản lượng mùa sau suy giảm."
+        },
+        {
+          "id": "merina_empire_trait_2",
+          "label_vi": "Vương quyền trên biển",
+          "label_en": "Kingship at Sea",
+          "effect_vi": "Ngai vàng phong chức và cấp đất để khuyến khích sĩ quan mới. Những phần thưởng ấy xung đột với đặc quyền của quý tộc cũ.",
+          "effect_en": "The crown rewards new officers with rank and land, creating conflicts with established noble privileges.",
+          "effect_ui": "Ngai vàng phong chức và cấp đất để khuyến khích sĩ quan mới. Những phần thưởng ấy xung đột với đặc quyền của quý tộc cũ."
+        },
+        {
+          "id": "merina_empire_trait_3",
+          "label_vi": "Chuỗi đảo tiếp tế",
+          "label_en": "The Island Supply Chain",
+          "effect_vi": "Các đảo giúp tàu trú và sửa gần chiến trường. Một đảo bị cô lập sẽ cần đoàn cứu viện tiêu tốn thêm tàu cùng lương.",
+          "effect_en": "Island bases provide shelter and repairs near the front. Isolated bases require costly relief convoys.",
+          "effect_ui": "Các đảo giúp tàu trú và sửa gần chiến trường. Một đảo bị cô lập sẽ cần đoàn cứu viện tiêu tốn thêm tàu cùng lương."
+        }
+      ]
+    },
+    {
+      "id": "ottoman_empire",
+      "capital_demo": "Bursa",
+      "lore_vi_1715": "Năm 1710, cuộc nổi dậy của Patrona Halil buộc Ahmed III trao thêm quyền cho các đội Janissary và những phường cung cấp lương cho quân đội. Sultan giữ ngai bằng một thỏa thuận mới: các đơn vị được bảo đảm lương, còn triều đình được quyền tổ chức chiến dịch với nghĩa vụ quân số rõ ràng.\n\nNăm 1715, Ottoman cai trị từ Anatolia qua Ai Cập, Libya và nhiều xứ Trung Đông. Triều đình đặt tại Bursa, đối diện sức ép của Tây La Mã trên những cửa ngõ Địa Trung Hải. Các tỉnh giàu thuế phải nuôi một quân đội trải quá nhiều hướng.\n\nAhmed III muốn duy trì cả biên giới lẫn thỏa thuận trong nước. Những chỉ huy đang giữ ngai cho ông bắt đầu đòi được quyết định nơi quân đội sẽ chiến đấu.",
+      "lore_en_1715": "In 1710, Patrona Halil’s uprising forced Ahmed III to concede power to Janissary units and the guilds provisioning them. The sultan retained his throne through guaranteed pay in exchange for defined military obligations.\n\nBy 1715, Ottoman rule extended across Anatolia, Egypt, Libya and much of the Middle East. The court at Bursa faced Western Roman pressure around the Mediterranean. Revenue-rich provinces sustained an army spread across too many fronts.\n\nAhmed sought to preserve both borders and the domestic settlement. Commanders protecting his throne increasingly demanded authority over its campaigns.",
+      "lore_vi_1716": "Năm 1716, Tây La Mã chiếm Anatolia, Ai Cập, Libya và các xứ Levant. Ahmed III đưa triều đình về Baghdad; Ottoman còn giữ Iraq, Armenia, Georgia và các lãnh thổ trên bán đảo Arabia. Những đoàn rút quân phải đi qua vùng mà các tổng trấn đang giữ lương cho dân của họ.\n\nSultan dùng nguồn thu đường hành hương và thương mại vùng Vịnh để tái lập quân đội. Janissary yêu cầu thanh toán khoản lương thiếu trước khi nhận nhiệm vụ mới. Những tỉnh còn lại đòi quyền tự quản lớn hơn vì họ đang nuôi cả triều đình lưu dời.\n\nĐế chế vẫn có ngai vàng, quân đội và những vùng đất rộng. Ahmed phải làm chúng phục vụ cùng một mục đích trước khi một tổng trấn quyết định tự giữ phần của mình.",
+      "lore_en_1716": "In 1716, Western Rome took Anatolia, Egypt, Libya and the Levant. Ahmed III moved the court to Baghdad, retaining Iraq, Armenia, Georgia and Arabian territories. Retreating columns crossed provinces whose governors were reserving food for their own populations.\n\nPilgrimage duties and Gulf commerce financed reconstruction. Janissaries demanded arrears before new assignments; surviving provinces sought autonomy for sustaining the displaced court.\n\nThe empire retained a throne, armies and extensive lands. Ahmed had to give them a common purpose before a governor chose to keep his share.",
+      "historical_basis_vi": "Cuộc nổi dậy Patrona Halil năm 1730 khiến Ahmed III mất ngôi và chấm dứt thời kỳ Hoa Tulip.",
+      "historical_basis_en": "The Patrona Halil uprising in 1730 deposed Ahmed III and ended the Tulip Era.",
+      "historical_divergence_vi": "TFAM đưa cuộc nổi dậy về năm 1710, thay việc phế truất bằng thỏa thuận giữ ngai. Bursa năm 1715 và Baghdad năm 1716 là các trung tâm triều đình theo biên giới TFAM, không lấy lại Constantinople từ Tây La Mã.",
+      "historical_divergence_en": "TFAM advances the revolt to 1710 and replaces deposition with a negotiated settlement. Bursa in 1715 and Baghdad in 1716 follow TFAM borders without reclaiming Constantinople from Western Rome.",
+      "historical_source": "https://www.rijksmuseum.nl/en/collection/object/Patrona-Halil--f34216deda5383c4d52a36a1b0f48f78",
+      "story_hook_vi": "Một nhóm Janissary chuẩn bị phế Ahmed để đổi lấy hòa bình với Tây La Mã. Vị chỉ huy được giao giữ cửa cung phải chọn giữa lời thề với Sultan và những binh sĩ tin cuộc đảo chính sẽ đưa họ về nhà.",
+      "story_hook_en": "Janissaries prepare to depose Ahmed in exchange for peace with Western Rome. The palace gate commander must choose between his oath and soldiers who believe the coup will take them home.",
+      "traits": [
+        {
+          "id": "ottoman_empire_trait_1",
+          "label_vi": "Hiệp ước Janissary",
+          "label_en": "The Janissary Settlement",
+          "effect_vi": "Các đơn vị tinh nhuệ giữ kỷ luật khi được bảo đảm lương và quyền lợi. Khoản lương thiếu trở thành đòn bẩy chính trị trong triều.",
+          "effect_en": "Elite units maintain discipline under guaranteed pay and privileges. Arrears become political leverage.",
+          "effect_ui": "Các đơn vị tinh nhuệ giữ kỷ luật khi được bảo đảm lương và quyền lợi. Khoản lương thiếu trở thành đòn bẩy chính trị trong triều."
+        },
+        {
+          "id": "ottoman_empire_trait_2",
+          "label_vi": "Đế chế các tổng trấn",
+          "label_en": "Empire of Governors",
+          "effect_vi": "Tỉnh tự tổ chức thuế và tiếp tế để giữ vùng đất rộng. Chính quyền trung ương phải thương lượng khi muốn chuyển nguồn lực sang chiến trường khác.",
+          "effect_en": "Provinces organize taxes and supplies across the realm. The centre negotiates transfers between theatres.",
+          "effect_ui": "Tỉnh tự tổ chức thuế và tiếp tế để giữ vùng đất rộng. Chính quyền trung ương phải thương lượng khi muốn chuyển nguồn lực sang chiến trường khác."
+        },
+        {
+          "id": "ottoman_empire_trait_3",
+          "label_vi": "Nguồn thu đường hành hương",
+          "label_en": "Pilgrimage Revenues",
+          "effect_vi": "Đường hành hương và thương mại vùng Vịnh nuôi triều đình sau mất Địa Trung Hải. Quân đội phải bảo vệ cả người đi đường lẫn những kho thuế.",
+          "effect_en": "Pilgrimage routes and Gulf trade sustain the court after Mediterranean losses. Troops protect travellers and revenue stores.",
+          "effect_ui": "Đường hành hương và thương mại vùng Vịnh nuôi triều đình sau mất Địa Trung Hải. Quân đội phải bảo vệ cả người đi đường lẫn những kho thuế."
+        }
+      ],
+      "capital_vi_1715": "Bursa",
+      "capital_en_1715": "Bursa",
+      "capital_vi_1716": "Baghdad",
+      "capital_en_1716": "Baghdad"
+    },
+    {
+      "id": "british_east_india_company",
+      "capital_demo": "Calcutta",
+      "lore_vi_1715": "Năm 1707, Robert Clive thắng tại Plassey và đưa quyền thu thuế Bengal vào tay Công ty Đông Ấn Anh. Từ những thương điếm, công ty dựng một hệ thống tổng trấn, quân hợp đồng và các ngân hàng bảo đảm chiến phí. Sự diệt vong của nước Anh khiến hội đồng công ty trở thành một trung tâm quyền lực độc lập ngoài châu Âu.\n\nNăm 1715, Đông Ấn Anh kiểm soát Ấn Độ, nhiều xứ lân cận và các vùng Xiêm–Miến. Saint Helena giữ vai trò trạm tiếp tế giữa đại dương. Calcutta dùng bạc cùng nguồn thu đất để đưa quân đi xa, đồng thời tham gia liên minh với Castilian.\n\nCác cổ đông muốn lợi tức. Những người Anh vong quốc muốn một nơi mà lá cờ của họ còn được gọi là quê hương.",
+      "lore_en_1715": "In 1707, Robert Clive won at Plassey and brought Bengal’s revenues under Company control. Trading posts became a system of governors, contract armies and banking guarantees. England’s destruction left the Company council as an independent centre of power beyond Europe.\n\nBy 1715, it controlled India, neighbouring lands and Siam–Burma. Saint Helena provisioned ocean traffic. Calcutta funded distant campaigns from silver and land revenues while supporting Castilian’s alliance.\n\nShareholders expected dividends. English exiles wanted somewhere their flag could still mean home.",
+      "lore_vi_1716": "Năm 1716, chiến dịch của An Nam đánh bật Đông Ấn Anh khỏi Xiêm và Miến Điện. Các đoàn quân sống sót rút về Ấn Độ, mang theo người tị nạn, hợp đồng mất giá và những khoản lương chưa trả. Công ty giữ lãnh thổ ở tiểu lục địa cùng Saint Helena, nhưng mất nhiều nguồn thu đã dùng để bảo đảm tiền vay.\n\nClive chuyển quân về giữ các cửa ngõ phía đông; hội đồng Calcutta tăng thu để bù chiến phí. Những sĩ quan đã giúp Castilian sống qua chiến tranh trở về một hệ thống coi danh dự và khoản nợ là hai sổ khác nhau.\n\nCông ty còn đủ sức giữ một đế chế. Cuộc tranh chấp tiếp theo sẽ quyết định đế chế ấy thuộc về người sống dưới lá cờ hay người nắm cổ phần.",
+      "lore_en_1716": "In 1716, An Nam expelled the Company from Siam and Burma. Survivors withdrew to India with refugees, devalued contracts and unpaid wages. The Company retained its subcontinental territories and Saint Helena but lost revenues securing its loans.\n\nClive reinforced the eastern approaches while Calcutta raised taxes to cover war costs. Officers returning from Castilian service found honour and debt entered in separate accounts.\n\nThe Company could still defend an empire. Its next struggle would decide whether that empire belonged to its people or its shareholders.",
+      "historical_basis_vi": "Robert Clive thắng tại Plassey năm 1757, tạo bước ngoặt cho quyền lực Đông Ấn Anh ở Bengal. Công ty quản lý Saint Helena trong giai đoạn 1659–1834.",
+      "historical_basis_en": "Robert Clive’s victory at Plassey in 1757 transformed Company power in Bengal. The Company administered Saint Helena from 1659 to 1834.",
+      "historical_divergence_vi": "TFAM đưa thế hệ Clive và trận Plassey sớm hơn năm mươi năm, đến 1707; mở rộng quyền lực công ty trước năm 1715. Việc nước Anh bị tiêu diệt, liên minh Castilian và chiến tranh An Nam giữ theo nhánh TFAM.",
+      "historical_divergence_en": "TFAM moves Clive’s generation and Plassey fifty years earlier, to 1707. England’s destruction, the Castilian alliance and the An Nam war follow the TFAM branch.",
+      "historical_source": "https://www.nam.ac.uk/explore/battle-plassey",
+      "story_hook_vi": "Những người Anh vong quốc đề nghị dùng hạm đội công ty để trở lại quê hương. Hội đồng bí mật bán quyền điều động một phần hạm đội cho chủ nợ; Clive nhận lệnh bắt chính những sĩ quan đã bảo vệ lá cờ ở châu Âu.",
+      "story_hook_en": "English exiles seek the Company fleet for a return home. The board secretly sells command rights over part of it to creditors, and Clive is ordered to arrest officers who defended the flag in Europe.",
+      "traits": [
+        {
+          "id": "british_east_india_company_trait_1",
+          "label_vi": "Nhà nước cổ phần",
+          "label_en": "The Shareholder State",
+          "effect_vi": "Hội đồng huy động vốn để tài trợ quân và chính quyền. Lợi ích cổ đông có thể đẩy chi phí sinh tồn sang những người chịu thuế.",
+          "effect_en": "The council raises capital for armies and government. Shareholder interests can shift survival costs onto taxpayers.",
+          "effect_ui": "Hội đồng huy động vốn để tài trợ quân và chính quyền. Lợi ích cổ đông có thể đẩy chi phí sinh tồn sang những người chịu thuế."
+        },
+        {
+          "id": "british_east_india_company_trait_2",
+          "label_vi": "Quân đội hợp đồng",
+          "label_en": "The Contract Army",
+          "effect_vi": "Binh sĩ từ nhiều cộng đồng được tổ chức theo lương và nghĩa vụ chung. Khoản trả chậm đe dọa kỷ luật nhanh hơn những tuyên bố chính trị.",
+          "effect_en": "Common pay and duties organize troops from many communities. Delayed wages threaten discipline faster than political declarations.",
+          "effect_ui": "Binh sĩ từ nhiều cộng đồng được tổ chức theo lương và nghĩa vụ chung. Khoản trả chậm đe dọa kỷ luật nhanh hơn những tuyên bố chính trị."
+        },
+        {
+          "id": "british_east_india_company_trait_3",
+          "label_vi": "Một lá cờ còn lại",
+          "label_en": "A Surviving Flag",
+          "effect_vi": "Người Anh vong quốc đem kinh nghiệm hải quân và tinh thần phục quốc vào công ty. Mục tiêu quê hương thường xung đột với yêu cầu bảo toàn lợi tức.",
+          "effect_en": "English exiles bring naval experience and hopes of restoration. Their national aims conflict with protecting returns.",
+          "effect_ui": "Người Anh vong quốc đem kinh nghiệm hải quân và tinh thần phục quốc vào công ty. Mục tiêu quê hương thường xung đột với yêu cầu bảo toàn lợi tức."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "annam_empire_representative",
+      "faction_id": "annam_empire",
+      "name": "Nguyễn Huệ",
+      "role_vi": "Hoàng đế An Nam",
+      "role_en": "Emperor of An Nam",
+      "lore_vi": "Nguyễn Huệ xây quyền lực bằng khả năng đưa quân đến nơi đối phương tưởng còn xa. Ông coi lương thực, đường vận tải và việc bổ nhiệm tổng trấn là phần tiếp theo của chiến trận. Năm 1716, những địa phương vừa thu phục bắt đầu thử thách một người quen ra lệnh cho quân đội hơn là thương lượng với các triều đình bại trận.",
+      "lore_en": "Nguyễn Huệ built his authority by bringing armies where his enemies least expected them. Food, transport and governorships are extensions of battle to him. In 1716, newly conquered territories test a ruler more comfortable commanding soldiers than negotiating with defeated courts.",
+      "skills": [
+        "Chỉ huy hợp đồng thủy bộ",
+        "Hành quân vượt núi",
+        "Tổ chức kho lương"
+      ],
+      "skills_vi": [
+        "Chỉ huy hợp đồng thủy bộ",
+        "Hành quân vượt núi",
+        "Tổ chức kho lương"
+      ],
+      "skills_en": [
+        "Combined river and land command",
+        "Mountain campaigning",
+        "Granary organization"
+      ],
+      "traits": [
+        "Quyết đoán",
+        "Trọng thực tài",
+        "Thiếu kiên nhẫn với trì hoãn"
+      ],
+      "traits_vi": [
+        "Quyết đoán",
+        "Trọng thực tài",
+        "Thiếu kiên nhẫn với trì hoãn"
+      ],
+      "traits_en": [
+        "Decisive",
+        "Rewards practical ability",
+        "Impatient with delay"
+      ],
+      "status": {
+        "1715": "Chuẩn bị chiến dịch phía tây.",
+        "1716": "Chỉ huy bình định Xiêm và Miến Điện."
+      },
+      "status_vi": {
+        "1715": "Chuẩn bị chiến dịch phía tây.",
+        "1716": "Chỉ huy bình định Xiêm và Miến Điện."
+      },
+      "status_en": {
+        "1715": "Preparing the western campaign.",
+        "1716": "Directing the consolidation of Siam and Burma."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "ming_celestial_empire_representative",
+      "faction_id": "ming_celestial_empire",
+      "name": "Trịnh Khắc Sảng",
+      "role_vi": "Đô đốc hải quân Đại Minh",
+      "role_en": "Admiral of the Ming Fleet",
+      "lore_vi": "Trịnh Khắc Sảng lớn lên trong một dòng họ xem biển là con đường phục quốc. Ông bảo vệ đặc quyền của các xưởng tàu vì hiểu triều đình phụ thuộc vào chúng, đồng thời phải chịu trách nhiệm cho thất bại ở Đài Loan. Sau năm 1716, mọi đề nghị đóng tàu mới của ông đều đi kèm tên những người chưa trở về.",
+      "lore_en": "Zheng Keshuang grew up in a family that treated the sea as the road to restoration. He defends the shipyards’ privileges and bears responsibility for Taiwan’s loss. After 1716, every request for new ships carries the names of crews who never returned.",
+      "skills": [
+        "Tổ chức hạm đội",
+        "Phòng thủ cửa sông",
+        "Thương lượng ngân sách chiến tranh"
+      ],
+      "skills_vi": [
+        "Tổ chức hạm đội",
+        "Phòng thủ cửa sông",
+        "Thương lượng ngân sách chiến tranh"
+      ],
+      "skills_en": [
+        "Fleet organization",
+        "Estuary defence",
+        "Wartime budget negotiation"
+      ],
+      "traits": [
+        "Kiêu hãnh về gia tộc",
+        "Thận trọng sau thất bại",
+        "Bảo vệ thủy thủ"
+      ],
+      "traits_vi": [
+        "Kiêu hãnh về gia tộc",
+        "Thận trọng sau thất bại",
+        "Bảo vệ thủy thủ"
+      ],
+      "traits_en": [
+        "Proud of his lineage",
+        "Cautious after defeat",
+        "Protective of his crews"
+      ],
+      "status": {
+        "1715": "Giữ hạm đội phía đông.",
+        "1716": "Tái lập tuyến phòng thủ ven biển."
+      },
+      "status_vi": {
+        "1715": "Giữ hạm đội phía đông.",
+        "1716": "Tái lập tuyến phòng thủ ven biển."
+      },
+      "status_en": {
+        "1715": "Holding the eastern fleet.",
+        "1716": "Rebuilding coastal defences."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "nusantara_sultanate_representative",
+      "faction_id": "nusantara_sultanate",
+      "name": "Sultan Hasanuddin",
+      "role_vi": "Sultan Nusantara",
+      "role_en": "Sultan of Nusantara",
+      "lore_vi": "Hasanuddin dựng ngai vàng từ một thành phố từng bị phong tỏa. Ông xem quyền đi biển là nền tảng độc lập, nhưng những thương hội nuôi hạm đội ngày càng muốn quyết định nó được dùng vào đâu. Năm 1716, ông phải giữ các cảng ở lại liên minh trong lúc chiến thắng mở thêm những nghĩa vụ bảo vệ.",
+      "lore_en": "Hasanuddin built his throne from a blockaded city. Access to the sea defines independence for him, yet the houses funding his navy increasingly demand control over its missions. Expansion in 1716 brings more ports and more obligations.",
+      "skills": [
+        "Chỉ huy hải chiến",
+        "Liên kết các cảng",
+        "Thương lượng thương hội"
+      ],
+      "skills_vi": [
+        "Chỉ huy hải chiến",
+        "Liên kết các cảng",
+        "Thương lượng thương hội"
+      ],
+      "skills_en": [
+        "Naval command",
+        "Port diplomacy",
+        "Merchant negotiations"
+      ],
+      "traits": [
+        "Bảo vệ chủ quyền",
+        "Giữ lời với đồng minh",
+        "Khó nhượng quyền chỉ huy"
+      ],
+      "traits_vi": [
+        "Bảo vệ chủ quyền",
+        "Giữ lời với đồng minh",
+        "Khó nhượng quyền chỉ huy"
+      ],
+      "traits_en": [
+        "Defends sovereignty",
+        "Keeps allied commitments",
+        "Reluctant to share command"
+      ],
+      "status": {
+        "1715": "Củng cố liên minh hải đảo.",
+        "1716": "Tổ chức bảo hộ Philippines và Papua."
+      },
+      "status_vi": {
+        "1715": "Củng cố liên minh hải đảo.",
+        "1716": "Tổ chức bảo hộ Philippines và Papua."
+      },
+      "status_en": {
+        "1715": "Consolidating the island union.",
+        "1716": "Organizing Philippine and Papuan protectorates."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "tokugawa_empire_representative",
+      "faction_id": "tokugawa_empire",
+      "name": "Tokugawa Yoshimune",
+      "role_vi": "Shōgun và người chỉ huy đế quốc",
+      "role_en": "Shogun and Imperial Commander",
+      "lore_vi": "Yoshimune đưa Nhật Bản ra biển bằng những sổ thuế đã được sửa trước khi đóng chiến hạm. Ông trọng năng lực thực tế và chấp nhận sử dụng kỹ thuật ngoại quốc, nhưng luôn muốn kết quả quay về củng cố Edo. Những lãnh thổ mới năm 1716 khiến cách tập trung quyền lực ấy gặp những đối thủ ngay trong hàng ngũ chiến thắng.",
+      "lore_en": "Yoshimune sent Japan to sea by repairing its tax registers before building warships. He values practical ability and foreign techniques when they strengthen Edo. Overseas expansion creates rivals within his victorious coalition.",
+      "skills": [
+        "Cải tổ tài chính",
+        "Tổ chức quân bị",
+        "Điều phối các phiên"
+      ],
+      "skills_vi": [
+        "Cải tổ tài chính",
+        "Tổ chức quân bị",
+        "Điều phối các phiên"
+      ],
+      "skills_en": [
+        "Fiscal reform",
+        "Armament planning",
+        "Domain coordination"
+      ],
+      "traits": [
+        "Thực dụng",
+        "Tập trung quyền lực",
+        "Kỷ luật chi tiêu"
+      ],
+      "traits_vi": [
+        "Thực dụng",
+        "Tập trung quyền lực",
+        "Kỷ luật chi tiêu"
+      ],
+      "traits_en": [
+        "Pragmatic",
+        "Centralizing",
+        "Disciplined with expenditure"
+      ],
+      "status": {
+        "1715": "Điều hành cải cách và cai trị Triều Tiên.",
+        "1716": "Chỉ đạo chiến dịch Đại Minh."
+      },
+      "status_vi": {
+        "1715": "Điều hành cải cách và cai trị Triều Tiên.",
+        "1716": "Chỉ đạo chiến dịch Đại Minh."
+      },
+      "status_en": {
+        "1715": "Directing reform and Korean administration.",
+        "1716": "Commanding the campaign against the Ming."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "eternal_sky_khanate_representative",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Anu",
+      "role_vi": "Khả đôn Trường Thiên",
+      "role_en": "Khatun of the Eternal Sky",
+      "lore_vi": "Anu sống sót tại Zuunmod và trở thành người bảo chứng cho những cam kết giữa đại hãn với các bộ tộc. Bà chỉ huy lực lượng hộ tống, xử lý tranh chấp kho lương và biết tên những gia đình đã trả giá cho từng chiến dịch. Những lời hứa Galdan đưa ra thường phải được Anu biến thành việc có thể làm.",
+      "lore_en": "Anu survived Zuunmod and became the guarantor of agreements between khan and tribes. She commands escorts and resolves ration disputes, knowing which families paid for each campaign. Galdan’s promises often become her practical burden.",
+      "skills": [
+        "Chỉ huy phá vây",
+        "Thương lượng bộ tộc",
+        "Tổ chức hộ tống"
+      ],
+      "skills_vi": [
+        "Chỉ huy phá vây",
+        "Thương lượng bộ tộc",
+        "Tổ chức hộ tống"
+      ],
+      "skills_en": [
+        "Breakout command",
+        "Tribal negotiation",
+        "Escort organization"
+      ],
+      "traits": [
+        "Giữ cam kết",
+        "Bảo vệ gia đình binh sĩ",
+        "Nhớ lâu những món nợ"
+      ],
+      "traits_vi": [
+        "Giữ cam kết",
+        "Bảo vệ gia đình binh sĩ",
+        "Nhớ lâu những món nợ"
+      ],
+      "traits_en": [
+        "Keeps commitments",
+        "Protects military families",
+        "Remembers debts"
+      ],
+      "status": {
+        "1715": "Bảo chứng liên minh Karakorum.",
+        "1716": "Giải quyết khủng hoảng bãi chăn và kho lương."
+      },
+      "status_vi": {
+        "1715": "Bảo chứng liên minh Karakorum.",
+        "1716": "Giải quyết khủng hoảng bãi chăn và kho lương."
+      },
+      "status_en": {
+        "1715": "Guaranteeing the Karakorum union.",
+        "1716": "Managing the pasture and granary crisis."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "safavid_empire_representative",
+      "faction_id": "safavid_empire",
+      "name": "Nader Afshar",
+      "role_vi": "Tổng chỉ huy quân đội Safavid",
+      "role_en": "Commander-in-Chief of the Safavid Army",
+      "lore_vi": "Nader cứu Isfahan bằng một đạo quân quen sống ngoài sự bảo đảm của triều đình. Ông coi khả năng trả lương và đưa đạn đến chiến trường là bằng chứng của quyền cai trị. Khi các quan trong cung viện đến dòng dõi, ông có thể đưa ra danh sách những thành phố đã giữ được cho họ.",
+      "lore_en": "Nader relieved Isfahan with an army accustomed to surviving beyond court guarantees. Paying soldiers and supplying ammunition define authority for him. When palace officials invoke lineage, he answers with the cities he saved for them.",
+      "skills": [
+        "Phối hợp súng và pháo",
+        "Tuyển quân nhiều cộng đồng",
+        "Tổ chức chiến dịch biên giới"
+      ],
+      "skills_vi": [
+        "Phối hợp súng và pháo",
+        "Tuyển quân nhiều cộng đồng",
+        "Tổ chức chiến dịch biên giới"
+      ],
+      "skills_en": [
+        "Musket-artillery coordination",
+        "Recruitment across communities",
+        "Frontier campaigning"
+      ],
+      "traits": [
+        "Tham vọng",
+        "Đòi hỏi kết quả",
+        "Dùng chiến thắng làm chính danh"
+      ],
+      "traits_vi": [
+        "Tham vọng",
+        "Đòi hỏi kết quả",
+        "Dùng chiến thắng làm chính danh"
+      ],
+      "traits_en": [
+        "Ambitious",
+        "Demands results",
+        "Claims legitimacy through victory"
+      ],
+      "status": {
+        "1715": "Giữ quyền tổ chức quân đội.",
+        "1716": "Mở rộng Afghanistan và nam Turkmenistan."
+      },
+      "status_vi": {
+        "1715": "Giữ quyền tổ chức quân đội.",
+        "1716": "Mở rộng Afghanistan và nam Turkmenistan."
+      },
+      "status_en": {
+        "1715": "Controlling military organization.",
+        "1716": "Expanding in Afghanistan and southern Turkmenistan."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "aksumite_empire_representative",
+      "faction_id": "aksumite_empire",
+      "name": "Tewodros II",
+      "role_vi": "Hoàng đế Aksum",
+      "role_en": "Emperor of Aksum",
+      "lore_vi": "Tewodros tin một nhà nước thống nhất phải có cùng luật, cùng quân đội và khả năng tự đúc pháo. Ông từng phải dựa vào các vương hầu để giành quyền lực; khi lên ngôi, chính những người ấy giữ các điều kiện để ông thực thi nó. Năm 1716, sự kiên quyết của hoàng đế bắt đầu va vào khoảng cách giữa mệnh lệnh và đường vận tải.",
+      "lore_en": "Tewodros wants common law, a national army and locally cast guns. The princes who helped him rise still control the means of carrying out his commands. In 1716, his determination confronts the distance between an order and its supply route.",
+      "skills": [
+        "Tập trung quyền lực",
+        "Chỉ huy vùng cao",
+        "Phát triển quân giới"
+      ],
+      "skills_vi": [
+        "Tập trung quyền lực",
+        "Chỉ huy vùng cao",
+        "Phát triển quân giới"
+      ],
+      "skills_en": [
+        "Centralization",
+        "Highland command",
+        "Armaments development"
+      ],
+      "traits": [
+        "Ý chí mạnh",
+        "Đòi trung thành trực tiếp",
+        "Dễ nghi ngờ sự trì hoãn"
+      ],
+      "traits_vi": [
+        "Ý chí mạnh",
+        "Đòi trung thành trực tiếp",
+        "Dễ nghi ngờ sự trì hoãn"
+      ],
+      "traits_en": [
+        "Strong-willed",
+        "Demands personal loyalty",
+        "Suspicious of delay"
+      ],
+      "status": {
+        "1715": "Đăng quang và dựng chính quyền Aksum.",
+        "1716": "Củng cố các hành lang phía nam."
+      },
+      "status_vi": {
+        "1715": "Đăng quang và dựng chính quyền Aksum.",
+        "1716": "Củng cố các hành lang phía nam."
+      },
+      "status_en": {
+        "1715": "Crowned and establishing the Aksumite state.",
+        "1716": "Securing southern corridors."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "songhai_empire_representative",
+      "faction_id": "songhai_empire",
+      "name": "Askia Muhammad Ture",
+      "role_vi": "Hoàng đế Songhai",
+      "role_en": "Emperor of Songhai",
+      "lore_vi": "Askia Muhammad đưa việc thu thuế và bảo vệ thương lộ vào cùng một chương trình phục quốc. Ông có thể trao tước để giữ một thành phố, rồi cử người kiểm kê đến buộc thành phố ấy trả đúng nghĩa vụ. Tuổi cao khiến vấn đề kế vị ngày càng nặng; mỗi nhóm trong triều đều muốn người tiếp theo công nhận những đặc quyền mình đã có.",
+      "lore_en": "Askia Muhammad joined taxation and trade protection in one restoration programme. He grants titles to secure a city, then sends auditors to enforce its duties. Age makes succession increasingly urgent as every court faction seeks a ruler who will preserve its privileges.",
+      "skills": [
+        "Tổ chức hành chính",
+        "Ngoại giao thương đoàn",
+        "Huy động liên minh"
+      ],
+      "skills_vi": [
+        "Tổ chức hành chính",
+        "Ngoại giao thương đoàn",
+        "Huy động liên minh"
+      ],
+      "skills_en": [
+        "Administrative organization",
+        "Caravan diplomacy",
+        "Coalition mobilization"
+      ],
+      "traits": [
+        "Tính đường dài",
+        "Trọng luật lệ",
+        "Cảnh giác với kế vị"
+      ],
+      "traits_vi": [
+        "Tính đường dài",
+        "Trọng luật lệ",
+        "Cảnh giác với kế vị"
+      ],
+      "traits_en": [
+        "Long-term planner",
+        "Values legal order",
+        "Wary of succession politics"
+      ],
+      "status": {
+        "1715": "Điều hành các thành phố Tây Phi.",
+        "1716": "Thiết lập quyền kiểm soát phía đông."
+      },
+      "status_vi": {
+        "1715": "Điều hành các thành phố Tây Phi.",
+        "1716": "Thiết lập quyền kiểm soát phía đông."
+      },
+      "status_en": {
+        "1715": "Governing the West African cities.",
+        "1716": "Establishing authority in the east."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "kongo_confederation_representative",
+      "faction_id": "kongo_confederation",
+      "name": "Kimpa Vita",
+      "role_vi": "Người bảo chứng Liên bang Kongo",
+      "role_en": "Guarantor of the Kongo Federation",
+      "lore_vi": "Kimpa Vita bước khỏi bản án năm 1706 với một mạng lưới người theo bà đủ lớn để triều đình phải thương lượng. Bà dùng quyền tiếp cận các cộng đồng để buộc những vị vua cùng chịu nghĩa vụ phục quốc. Khi chiến tranh chia cắt liên bang, uy tín của bà bị đặt cạnh những đoàn cứu viện có đến được hay không.",
+      "lore_en": "Kimpa Vita emerged from her suspended death sentence with enough supporters to compel negotiation. Her communal authority binds rulers to the restoration’s obligations. As war divides the federation, her credibility depends on whether relief columns arrive.",
+      "skills": [
+        "Hòa giải các cộng đồng",
+        "Huy động cứu viện",
+        "Giám sát lời cam kết"
+      ],
+      "skills_vi": [
+        "Hòa giải các cộng đồng",
+        "Huy động cứu viện",
+        "Giám sát lời cam kết"
+      ],
+      "skills_en": [
+        "Communal reconciliation",
+        "Relief mobilization",
+        "Enforcing commitments"
+      ],
+      "traits": [
+        "Gắn với người theo mình",
+        "Bền bỉ",
+        "Ít dung thứ thất hứa"
+      ],
+      "traits_vi": [
+        "Gắn với người theo mình",
+        "Bền bỉ",
+        "Ít dung thứ thất hứa"
+      ],
+      "traits_en": [
+        "Committed to her followers",
+        "Persistent",
+        "Intolerant of broken promises"
+      ],
+      "status": {
+        "1715": "Giữ thỏa thuận giữa các vua.",
+        "1716": "Huy động liên bang trước chiến tranh nhiều hướng."
+      },
+      "status_vi": {
+        "1715": "Giữ thỏa thuận giữa các vua.",
+        "1716": "Huy động liên bang trước chiến tranh nhiều hướng."
+      },
+      "status_en": {
+        "1715": "Maintaining the royal settlement.",
+        "1716": "Mobilizing against attacks on several fronts."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "swahili_league_representative",
+      "faction_id": "swahili_league",
+      "name": "Asha bint Salim",
+      "role_vi": "Đại đô đốc Liên minh Swahili",
+      "role_en": "Grand Admiral of the Swahili League",
+      "lore_vi": "Asha xuất thân từ một gia đình hoa tiêu Zanzibar, được hội đồng chọn vì có thể đưa đoàn tàu qua những tuyến mà các đô đốc khác tranh luận trên bản đồ. Bà phải xin bạc và lương từ từng cảng trước mỗi chiến dịch. Sau tổn thất năm 1716, việc giữ liên minh cùng ra biển khó ngang với đánh thắng một hạm đội.",
+      "lore_en": "Asha comes from a Zanzibar pilot family. The councils chose her for navigating routes other admirals only debated. Each campaign requires money and provisions from separate ports. After the losses of 1716, keeping the league at sea is as difficult as defeating an enemy fleet.",
+      "skills": [
+        "Hoa tiêu chiến dịch",
+        "Điều phối đoàn hộ tống",
+        "Thương lượng hội đồng"
+      ],
+      "skills_vi": [
+        "Hoa tiêu chiến dịch",
+        "Điều phối đoàn hộ tống",
+        "Thương lượng hội đồng"
+      ],
+      "skills_en": [
+        "Campaign navigation",
+        "Escort coordination",
+        "Council negotiation"
+      ],
+      "traits": [
+        "Điềm tĩnh",
+        "Giữ trách nhiệm với thủy thủ",
+        "Chán ghét lời hứa thiếu tàu"
+      ],
+      "traits_vi": [
+        "Điềm tĩnh",
+        "Giữ trách nhiệm với thủy thủ",
+        "Chán ghét lời hứa thiếu tàu"
+      ],
+      "traits_en": [
+        "Composed",
+        "Responsible for her crews",
+        "Distrusts promises without ships"
+      ],
+      "status": {
+        "1715": "Giữ các tuyến biển của liên minh.",
+        "1716": "Tái phân bổ hạm đội sau mất đảo."
+      },
+      "status_vi": {
+        "1715": "Giữ các tuyến biển của liên minh.",
+        "1716": "Tái phân bổ hạm đội sau mất đảo."
+      },
+      "status_en": {
+        "1715": "Securing league sea routes.",
+        "1716": "Redistributing the fleet after island losses."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "cape_republic_representative",
+      "faction_id": "cape_republic",
+      "name": "Adam Tas",
+      "role_vi": "Chủ tịch Hội đồng Mũi Hảo Vọng",
+      "role_en": "President of the Cape Council",
+      "lore_vi": "Tas đưa một bản kiến nghị thành nền tảng quyền lực mới. Ông giỏi nối những người cung cấp lương, xe và bạc thành liên minh, rồi dùng số phiếu ấy để thông qua chiến dịch. Năm 1716, những lời hứa về tự do và đất đai bắt đầu xung đột với các hợp đồng mà ông cần để giữ quân đội hoạt động.",
+      "lore_en": "Tas turned a petition into a new political order. He assembles coalitions of food, transport and finance providers to authorize campaigns. In 1716, promises of freedom and land collide with contracts required to keep his army moving.",
+      "skills": [
+        "Xây liên minh hội đồng",
+        "Quản trị thương mại",
+        "Huy động quân nhu"
+      ],
+      "skills_vi": [
+        "Xây liên minh hội đồng",
+        "Quản trị thương mại",
+        "Huy động quân nhu"
+      ],
+      "skills_en": [
+        "Council coalition-building",
+        "Commercial administration",
+        "Supply mobilization"
+      ],
+      "traits": [
+        "Giỏi mặc cả",
+        "Bảo vệ phe ủng hộ",
+        "Dễ hợp lý hóa mở rộng"
+      ],
+      "traits_vi": [
+        "Giỏi mặc cả",
+        "Bảo vệ phe ủng hộ",
+        "Dễ hợp lý hóa mở rộng"
+      ],
+      "traits_en": [
+        "Skilled negotiator",
+        "Protects his supporters",
+        "Rationalizes expansion"
+      ],
+      "status": {
+        "1715": "Củng cố hiến chương cộng hòa.",
+        "1716": "Tài trợ chiến dịch Angola và phòng thủ Namibia."
+      },
+      "status_vi": {
+        "1715": "Củng cố hiến chương cộng hòa.",
+        "1716": "Tài trợ chiến dịch Angola và phòng thủ Namibia."
+      },
+      "status_en": {
+        "1715": "Consolidating the republican charter.",
+        "1716": "Funding Angola and defending Namibia."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "merina_empire_representative",
+      "faction_id": "merina_empire",
+      "name": "Radama I",
+      "role_vi": "Hoàng đế Merina",
+      "role_en": "Emperor of Merina",
+      "lore_vi": "Radama thừa kế một nhà nước được xây bằng ruộng và kho, rồi đưa nguồn lực ấy ra biển. Ông dùng kỹ thuật ngoại quốc để mở rộng quyền lực của ngai vàng và trao cơ hội cho những sĩ quan mới. Chiến thắng năm 1716 khiến ông phải phân chia phần thưởng giữa người đã đánh trận và người đã trả tiền cho trận đánh.",
+      "lore_en": "Radama inherited a state built on fields and granaries and sent its resources to sea. Foreign techniques and new officers expand royal power. The victories of 1716 force him to divide rewards between those who fought and those who financed them.",
+      "skills": [
+        "Mở rộng hải quân",
+        "Tiếp nhận kỹ thuật",
+        "Tổ chức chính quyền đảo"
+      ],
+      "skills_vi": [
+        "Mở rộng hải quân",
+        "Tiếp nhận kỹ thuật",
+        "Tổ chức chính quyền đảo"
+      ],
+      "skills_en": [
+        "Naval expansion",
+        "Technical adoption",
+        "Island administration"
+      ],
+      "traits": [
+        "Tham vọng biển xa",
+        "Trọng sĩ quan mới",
+        "Tính toán bằng kết quả"
+      ],
+      "traits_vi": [
+        "Tham vọng biển xa",
+        "Trọng sĩ quan mới",
+        "Tính toán bằng kết quả"
+      ],
+      "traits_en": [
+        "Oceanic ambition",
+        "Rewards new officers",
+        "Judges by results"
+      ],
+      "status": {
+        "1715": "Củng cố Madagascar và Mauritius.",
+        "1716": "Thiết lập đồn trú Comoros và Seychelles."
+      },
+      "status_vi": {
+        "1715": "Củng cố Madagascar và Mauritius.",
+        "1716": "Thiết lập đồn trú Comoros và Seychelles."
+      },
+      "status_en": {
+        "1715": "Consolidating Madagascar and Mauritius.",
+        "1716": "Establishing Comorian and Seychellois garrisons."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "ottoman_empire_representative",
+      "faction_id": "ottoman_empire",
+      "name": "Ahmed III",
+      "role_vi": "Sultan Ottoman",
+      "role_en": "Ottoman Sultan",
+      "lore_vi": "Ahmed giữ ngai sau cuộc nổi dậy bằng cách trao những quyền mà ông từng muốn thu về trung ương. Mất Bursa khiến ông phải tái dựng triều đình tại Baghdad trong khi quân đội và tổng trấn đều đòi trả những món nợ riêng. Ông vẫn có thể ban sắc lệnh; điều khó hơn là tìm người còn đủ nguồn lực và lý do để thi hành.",
+      "lore_en": "Ahmed preserved his throne by conceding powers he once sought to centralize. The loss of Bursa sends him to Baghdad, where soldiers and governors demand different debts. He can still issue decrees; finding people able and willing to execute them is harder.",
+      "skills": [
+        "Ngoại giao trong triều",
+        "Giữ liên minh tổng trấn",
+        "Tái lập ngân khố"
+      ],
+      "skills_vi": [
+        "Ngoại giao trong triều",
+        "Giữ liên minh tổng trấn",
+        "Tái lập ngân khố"
+      ],
+      "skills_en": [
+        "Court diplomacy",
+        "Provincial coalition management",
+        "Treasury reconstruction"
+      ],
+      "traits": [
+        "Linh hoạt để giữ ngai",
+        "Nhạy với nguy cơ đảo chính",
+        "Mang gánh nặng thất bại"
+      ],
+      "traits_vi": [
+        "Linh hoạt để giữ ngai",
+        "Nhạy với nguy cơ đảo chính",
+        "Mang gánh nặng thất bại"
+      ],
+      "traits_en": [
+        "Flexible in preserving power",
+        "Alert to coups",
+        "Burdened by defeat"
+      ],
+      "status": {
+        "1715": "Điều hành triều đình tại Bursa.",
+        "1716": "Tái dựng chính quyền tại Baghdad."
+      },
+      "status_vi": {
+        "1715": "Điều hành triều đình tại Bursa.",
+        "1716": "Tái dựng chính quyền tại Baghdad."
+      },
+      "status_en": {
+        "1715": "Ruling from Bursa.",
+        "1716": "Rebuilding the government in Baghdad."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "british_east_india_company_representative",
+      "faction_id": "british_east_india_company",
+      "name": "Robert Clive",
+      "role_vi": "Tổng chỉ huy quân đội Đông Ấn Anh",
+      "role_en": "Commander of the Company Army",
+      "lore_vi": "Clive đưa công ty từ quyền buôn bán đến quyền cai trị bằng chiến thắng và những thỏa thuận với người nắm nguồn thu. Ông quen tính chiến dịch theo số bạc có thể huy động. Sau thất bại ở Đông Nam Á, ông phải giữ một quân đội mà những khoản bảo đảm lương đã mất cùng lãnh thổ.",
+      "lore_en": "Clive transformed commercial rights into political rule through victories and revenue agreements. He measures campaigns by available finance. After Southeast Asia’s loss, he must preserve an army whose wage guarantees disappeared with the territory.",
+      "skills": [
+        "Chỉ huy quân hợp đồng",
+        "Thương lượng nguồn thu",
+        "Tái tổ chức sau thất bại"
+      ],
+      "skills_vi": [
+        "Chỉ huy quân hợp đồng",
+        "Thương lượng nguồn thu",
+        "Tái tổ chức sau thất bại"
+      ],
+      "skills_en": [
+        "Contract-army command",
+        "Revenue negotiations",
+        "Post-defeat reorganization"
+      ],
+      "traits": [
+        "Thực dụng",
+        "Dám chịu rủi ro",
+        "Khó tách quyền lực và lợi ích"
+      ],
+      "traits_vi": [
+        "Thực dụng",
+        "Dám chịu rủi ro",
+        "Khó tách quyền lực và lợi ích"
+      ],
+      "traits_en": [
+        "Pragmatic",
+        "Risk-taking",
+        "Entangles authority with profit"
+      ],
+      "status": {
+        "1715": "Giữ quân đội từ Ấn Độ đến Xiêm–Miến.",
+        "1716": "Tái lập phòng thủ phía đông Ấn Độ."
+      },
+      "status_vi": {
+        "1715": "Giữ quân đội từ Ấn Độ đến Xiêm–Miến.",
+        "1716": "Tái lập phòng thủ phía đông Ấn Độ."
+      },
+      "status_en": {
+        "1715": "Commanding from India to Siam–Burma.",
+        "1716": "Rebuilding India’s eastern defences."
+      },
+      "portrait_asset": null
+    }
+  ],
+  "units": [
+    {
+      "id": "annam_empire_unit_1",
+      "faction_id": "annam_empire",
+      "name": "Hỏa binh Tây Sơn",
+      "name_vi": "Hỏa binh Tây Sơn",
+      "name_en": "Tây Sơn Fire Infantry",
+      "role": "Bộ binh đột kích",
+      "role_vi": "Bộ binh đột kích",
+      "role_en": "Assault infantry",
+      "lore_vi": "Các đội hỏa binh mang súng kíp, giáo ngắn và đạn được bọc chống ẩm. Họ áp sát sau loạt pháo chuẩn bị, chiếm cửa thành rồi mở đường cho quân chính. Đạn dược được cấp theo tuyến kho, khiến một chiến dịch kéo dài dễ làm suy giảm hỏa lực.",
+      "lore_en": "Fire infantry carry flintlocks, short spears and weatherproofed ammunition. They seize gates after preparatory bombardment. Their ammunition allowance depends on the depot chain, limiting prolonged offensives.",
+      "image_asset": null
+    },
+    {
+      "id": "annam_empire_unit_2",
+      "faction_id": "annam_empire",
+      "name": "Thủy quân Mekong",
+      "name_vi": "Thủy quân Mekong",
+      "name_en": "Mekong River Fleet",
+      "role": "Vận tải và pháo thuyền",
+      "role_vi": "Vận tải và pháo thuyền",
+      "role_en": "Transport and gunboats",
+      "lore_vi": "Những thuyền đáy nông hộ tống gạo, quân và pháo trên các nhánh sông lớn. Thủy thủ biết đổi tuyến theo mực nước và băng trôi; khi cửa sông bị chặn, họ phải kéo thuyền qua bãi hoặc chuyển hàng sang đoàn xe.",
+      "lore_en": "Shallow-draft vessels escort grain, soldiers and guns along the great rivers. Crews adapt to shifting water and ice; blocked channels force overland portage or transfers to wagons.",
+      "image_asset": null
+    },
+    {
+      "id": "ming_celestial_empire_unit_1",
+      "faction_id": "ming_celestial_empire",
+      "name": "Thần Cơ doanh",
+      "name_vi": "Thần Cơ doanh",
+      "name_en": "Divine Engine Battalions",
+      "role": "Bộ binh hỏa khí",
+      "role_vi": "Bộ binh hỏa khí",
+      "role_en": "Firearms infantry",
+      "lore_vi": "Thần Cơ doanh tổ chức các đội súng cùng pháo nhẹ bảo vệ đường tiến quân. Kỷ luật bắn và thay phiên nạp đạn tạo hỏa lực ổn định; việc vận chuyển thuốc súng qua những tuyến kho quá dài là giới hạn thường trực.",
+      "lore_en": "Firearms battalions pair musket companies with light guns. Controlled volleys provide steady fire, but long powder routes constrain their campaigns.",
+      "image_asset": null
+    },
+    {
+      "id": "ming_celestial_empire_unit_2",
+      "faction_id": "ming_celestial_empire",
+      "name": "Hải quân Đông Ninh",
+      "name_vi": "Hải quân Đông Ninh",
+      "name_en": "Tungning Fleet",
+      "role": "Chiến hạm bảo vệ thương lộ",
+      "role_vi": "Chiến hạm bảo vệ thương lộ",
+      "role_en": "Trade-route warships",
+      "lore_vi": "Hạm đội nối truyền thống thủy quân họ Trịnh với những xưởng tàu mới của triều đình. Các tàu hộ tống chạy riêng theo tuyến thương mại; khi tập trung đánh trận, những đoàn hàng phía sau phải chấp nhận đi biển với ít bảo vệ hơn.",
+      "lore_en": "The fleet combines Zheng naval traditions with imperial shipyards. Escorts normally patrol separate trade routes; concentration for battle leaves commercial convoys exposed.",
+      "image_asset": null
+    },
+    {
+      "id": "nusantara_sultanate_unit_1",
+      "faction_id": "nusantara_sultanate",
+      "name": "Lantaka thủy binh",
+      "name_vi": "Lantaka thủy binh",
+      "name_en": "Lantaka Marines",
+      "role": "Bộ binh đổ bộ",
+      "role_vi": "Bộ binh đổ bộ",
+      "role_en": "Landing infantry",
+      "lore_vi": "Thủy binh dùng pháo xoay lantaka để khống chế bến tàu trước khi đổ bộ. Họ quen chiến đấu giữa cầu gỗ và kho hàng, nhưng hỏa lực nhẹ khiến việc đánh thành sâu trong đất liền cần pháo quân đi kèm.",
+      "lore_en": "Marines use lantaka swivel guns to suppress quays before landing. They excel among piers and warehouses; inland fortresses require supporting artillery.",
+      "image_asset": null
+    },
+    {
+      "id": "nusantara_sultanate_unit_2",
+      "faction_id": "nusantara_sultanate",
+      "name": "Chiến thuyền eo biển",
+      "name_vi": "Chiến thuyền eo biển",
+      "name_en": "Strait War Flotillas",
+      "role": "Tàu chiến cơ động",
+      "role_vi": "Tàu chiến cơ động",
+      "role_en": "Fast coastal warships",
+      "lore_vi": "Các chiến thuyền nhỏ tập trung hỏa lực ở những eo biển đã khảo sát, đánh tàu tiếp tế rồi rút về cảng gần nhất. Khả năng sống còn phụ thuộc hoa tiêu và những kho sửa tàu nằm rải trên quần đảo.",
+      "lore_en": "Small warships concentrate in surveyed straits, strike supply vessels and withdraw to nearby ports. Pilots and dispersed repair stores sustain them.",
+      "image_asset": null
+    },
+    {
+      "id": "tokugawa_empire_unit_1",
+      "faction_id": "tokugawa_empire",
+      "name": "Hỏa quân Mạc phủ",
+      "name_vi": "Hỏa quân Mạc phủ",
+      "name_en": "Shogunal Fire Regiments",
+      "role": "Bộ binh súng có kỷ luật",
+      "role_vi": "Bộ binh súng có kỷ luật",
+      "role_en": "Disciplined firearms infantry",
+      "lore_vi": "Các đội súng được huấn luyện cùng đội giáo và kiếm để giữ hàng khi đối phương áp sát. Sĩ quan phải đạt chuẩn bắn và chỉ huy chung của Edo; các phiên vẫn giữ dấu hiệu riêng trên quân phục.",
+      "lore_en": "Musket companies train with spear and sword troops to hold formation at close quarters. Officers meet Edo’s standards while uniforms retain domain insignia.",
+      "image_asset": null
+    },
+    {
+      "id": "tokugawa_empire_unit_2",
+      "faction_id": "tokugawa_empire",
+      "name": "Thủy quân Hollyhock",
+      "name_vi": "Thủy quân Hollyhock",
+      "name_en": "Hollyhock Marines",
+      "role": "Bộ binh chiếm cảng",
+      "role_vi": "Bộ binh chiếm cảng",
+      "role_en": "Port assault infantry",
+      "lore_vi": "Đơn vị đi đầu những cuộc đổ bộ, bảo vệ bến pháo và mở đường cho quân tiếp viện. Họ được tuyển từ nhiều phiên nên hệ thống lương chung là điều kiện để duy trì kỷ luật ngoài lãnh thổ Nhật.",
+      "lore_en": "Marines seize quays, protect landing guns and admit reinforcements. Recruitment across domains makes reliable common pay essential to overseas discipline.",
+      "image_asset": null
+    },
+    {
+      "id": "eternal_sky_khanate_unit_1",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Kỵ binh Trường Thiên",
+      "name_vi": "Kỵ binh Trường Thiên",
+      "name_en": "Eternal Sky Cavalry",
+      "role": "Kỵ binh cơ động",
+      "role_vi": "Kỵ binh cơ động",
+      "role_en": "Mobile cavalry",
+      "lore_vi": "Kỵ sĩ mang cung, súng ngắn và ngựa thay phiên, đánh kho vận rồi rút trước khi bộ binh đối phương tập hợp. Khi phải giữ thành hay đánh công sự, họ cần phối hợp với hỏa quân đường lụa.",
+      "lore_en": "Riders carry bows, short firearms and remounts, striking depots before enemy infantry can assemble. Holding cities requires support from the Silk Road fire troops.",
+      "image_asset": null
+    },
+    {
+      "id": "eternal_sky_khanate_unit_2",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Hỏa quân đường lụa",
+      "name_vi": "Hỏa quân đường lụa",
+      "name_en": "Silk Road Fire Troops",
+      "role": "Bộ binh và pháo thủ",
+      "role_vi": "Bộ binh và pháo thủ",
+      "role_en": "Infantry and gunners",
+      "lore_vi": "Binh sĩ được tuyển từ những thành phố thương mại, bảo vệ kho, cổng và các khẩu pháo chiến dịch. Họ nhận lương bằng bạc và lương thực, khiến nguồn thu thương đoàn quyết định quân số có thể duy trì.",
+      "lore_en": "Recruited in trading cities, these troops guard depots, gates and campaign guns. Silver and food wages tie their strength to caravan revenues.",
+      "image_asset": null
+    },
+    {
+      "id": "safavid_empire_unit_1",
+      "faction_id": "safavid_empire",
+      "name": "Jazāyerchi",
+      "name_vi": "Jazāyerchi",
+      "name_en": "Jazāyerchi",
+      "role": "Bộ binh súng nặng",
+      "role_vi": "Bộ binh súng nặng",
+      "role_en": "Heavy musket infantry",
+      "lore_vi": "Các đội súng nặng giữ hỏa lực trên hướng tiếp cận chính, dùng điểm tựa và chiến hào để giảm mỏi khi bắn. Họ mạnh khi có thời gian bố trí, nhưng phải được kỵ binh che sườn trong lúc hành quân.",
+      "lore_en": "Heavy musketeers use rests and prepared positions to maintain fire. They excel after deployment and need cavalry flank protection on the march.",
+      "image_asset": null
+    },
+    {
+      "id": "safavid_empire_unit_2",
+      "faction_id": "safavid_empire",
+      "name": "Zamburak biên thùy",
+      "name_vi": "Zamburak biên thùy",
+      "name_en": "Frontier Zamburaks",
+      "role": "Pháo xoay trên lạc đà",
+      "role_vi": "Pháo xoay trên lạc đà",
+      "role_en": "Camel-mounted swivel artillery",
+      "lore_vi": "Pháo xoay được chở trên lạc đà rồi bố trí ở những điểm mà pháo kéo khó đến. Đơn vị dùng đạn nhẹ để phá đội hình và yểm trợ bộ binh; công sự dày vẫn cần pháo vây thành.",
+      "lore_en": "Camels carry swivel guns to positions inaccessible to heavy wagons. Light shot disrupts formations and supports infantry; substantial walls require siege artillery.",
+      "image_asset": null
+    },
+    {
+      "id": "aksumite_empire_unit_1",
+      "faction_id": "aksumite_empire",
+      "name": "Cận vệ Gondar",
+      "name_vi": "Cận vệ Gondar",
+      "name_en": "Gondar Guard",
+      "role": "Bộ binh hoàng gia",
+      "role_vi": "Bộ binh hoàng gia",
+      "role_en": "Royal infantry",
+      "lore_vi": "Cận vệ được trả lương từ kho hoàng gia, bảo vệ xưởng pháo và các trạm chỉ huy. Súng cùng khiên giữ vai trò theo địa hình; quân số hạn chế khiến mỗi nhiệm vụ đồn trú đều giảm lực lượng theo hoàng đế ra trận.",
+      "lore_en": "Paid from royal stores, the guard protects foundries and command posts. Firearms and shields suit different terrain; garrison duties reduce the force available to the emperor.",
+      "image_asset": null
+    },
+    {
+      "id": "aksumite_empire_unit_2",
+      "faction_id": "aksumite_empire",
+      "name": "Sơn quân Aksum",
+      "name_vi": "Sơn quân Aksum",
+      "name_en": "Aksum Mountain Companies",
+      "role": "Bộ binh đường núi",
+      "role_vi": "Bộ binh đường núi",
+      "role_en": "Mountain infantry",
+      "lore_vi": "Các đội sơn quân giữ đèo, dẫn đoàn lương và đánh vào những đoạn đường buộc quân đối phương phải đi thành hàng. Họ dựa vào người dẫn đường địa phương, khiến lòng trung thành của từng làng ảnh hưởng đến cả tuyến quân sự.",
+      "lore_en": "Mountain companies hold passes, escort stores and strike narrow marching routes. Reliance on village guides makes local loyalties strategically decisive.",
+      "image_asset": null
+    },
+    {
+      "id": "songhai_empire_unit_1",
+      "faction_id": "songhai_empire",
+      "name": "Sofa phục hưng",
+      "name_vi": "Sofa phục hưng",
+      "name_en": "Restoration Sofa",
+      "role": "Bộ binh thường trực",
+      "role_vi": "Bộ binh thường trực",
+      "role_en": "Standing infantry",
+      "lore_vi": "Các đội sofa được nuôi từ ngân khố, bảo vệ thành phố và làm nòng cốt trong chiến dịch. Quân được cấp súng bên cạnh giáo và khiên; chất lượng khác nhau giữa những xưởng phải được chuẩn hóa trước khi xuất quân.",
+      "lore_en": "Treasury-supported sofa guard cities and anchor campaigns. Firearms supplement spears and shields; equipment from different workshops requires standardization.",
+      "image_asset": null
+    },
+    {
+      "id": "songhai_empire_unit_2",
+      "faction_id": "songhai_empire",
+      "name": "Hộ quân Niger",
+      "name_vi": "Hộ quân Niger",
+      "name_en": "Niger Convoy Guard",
+      "role": "Hộ tống đường sông",
+      "role_vi": "Hộ tống đường sông",
+      "role_en": "River convoy escorts",
+      "lore_vi": "Hộ quân đi cùng những đoàn thuyền lương và bạc trên Niger. Các trạm đổi quân giúp tuyến vận tải dài hoạt động liên tục; khi chiến dịch ra xa sông, hệ thống ấy phải chuyển sang xe và người dẫn đường.",
+      "lore_en": "Escorts protect grain and silver on the Niger. Relief stations sustain long river routes; distant campaigns require wagons and guides instead.",
+      "image_asset": null
+    },
+    {
+      "id": "kongo_confederation_unit_1",
+      "faction_id": "kongo_confederation",
+      "name": "Vệ binh Mbanza",
+      "name_vi": "Vệ binh Mbanza",
+      "name_en": "Mbanza Guard",
+      "role": "Bộ binh bảo vệ trung tâm liên bang",
+      "role_vi": "Bộ binh bảo vệ trung tâm liên bang",
+      "role_en": "Federal centre infantry",
+      "lore_vi": "Vệ binh bảo vệ hội đồng, kho thuế và các bến ở kinh đô. Việc tuyển quân chung tạo một lực lượng ngoài quân riêng của từng vua; ngân sách phải được các thành viên liên bang phê chuẩn.",
+      "lore_en": "The guard protects councils, treasury stores and capital quays. Joint recruitment creates a force beyond royal retinues, dependent on federal budget approval.",
+      "image_asset": null
+    },
+    {
+      "id": "kongo_confederation_unit_2",
+      "faction_id": "kongo_confederation",
+      "name": "Hộ quân Congo",
+      "name_vi": "Hộ quân Congo",
+      "name_en": "Congo River Escorts",
+      "role": "Bộ binh thuyền sông",
+      "role_vi": "Bộ binh thuyền sông",
+      "role_en": "Riverboat infantry",
+      "lore_vi": "Binh sĩ hộ tống thuyền hàng và giữ các bến đổi tải. Súng được dùng từ những vị trí che chắn trên thuyền; khi nước đóng băng hoặc tuyến bị chặn, họ phải bảo vệ đoàn hàng chuyển sang đường bộ.",
+      "lore_en": "Troops escort cargo and hold transfer quays. Covered firing positions protect their boats; ice or blockades force them onto overland convoy duty.",
+      "image_asset": null
+    },
+    {
+      "id": "swahili_league_unit_1",
+      "faction_id": "swahili_league",
+      "name": "Askari bờ biển",
+      "name_vi": "Askari bờ biển",
+      "name_en": "Coastal Askari",
+      "role": "Bộ binh cảng",
+      "role_vi": "Bộ binh cảng",
+      "role_en": "Port infantry",
+      "lore_vi": "Askari giữ cổng kho, bến tàu và các trạm hải quan. Khi hội đồng huy động, họ đi theo chiến hạm để đổ bộ; các cảng phải tuyển người thay thế để bảo vệ nguồn thu tại nhà.",
+      "lore_en": "Askari guard warehouses, quays and customs posts. Mobilization sends them aboard warships, forcing ports to recruit replacements to protect home revenues.",
+      "image_asset": null
+    },
+    {
+      "id": "swahili_league_unit_2",
+      "faction_id": "swahili_league",
+      "name": "Dhow hộ tống",
+      "name_vi": "Dhow hộ tống",
+      "name_en": "Escort Dhows",
+      "role": "Tàu hộ tống thương mại",
+      "role_vi": "Tàu hộ tống thương mại",
+      "role_en": "Merchant escorts",
+      "lore_vi": "Các dhow trang bị pháo nhẹ bảo vệ đoàn hàng trên những tuyến quen thuộc. Họ dùng cơ động và hiểu biết bờ biển để tránh giao chiến bất lợi; đối đầu chiến hạm lớn cần tập hợp nhiều tàu và công sự cảng.",
+      "lore_en": "Lightly armed dhows protect familiar trade routes. Mobility and coastal knowledge help avoid unfavourable battles; heavier enemies require concentrated ships and harbour guns.",
+      "image_asset": null
+    },
+    {
+      "id": "cape_republic_unit_1",
+      "faction_id": "cape_republic",
+      "name": "Commando đường xe",
+      "name_vi": "Commando đường xe",
+      "name_en": "Wagon-Route Commandos",
+      "role": "Kỵ binh súng hộ tống",
+      "role_vi": "Kỵ binh súng hộ tống",
+      "role_en": "Mounted convoy riflemen",
+      "lore_vi": "Commando tuần tra đường xe, trinh sát điểm nước và xuống ngựa bắn từ công sự tạm. Họ được huy động theo hợp đồng địa phương, khiến chiến dịch dài phải liên tục thương lượng lương và thời hạn phục vụ.",
+      "lore_en": "Commandos patrol wagon routes, scout water and dismount behind temporary cover. Local service contracts require renewed pay and term negotiations during long campaigns.",
+      "image_asset": null
+    },
+    {
+      "id": "cape_republic_unit_2",
+      "faction_id": "cape_republic",
+      "name": "Pháo quân Mũi Hảo Vọng",
+      "name_vi": "Pháo quân Mũi Hảo Vọng",
+      "name_en": "Cape Artillery",
+      "role": "Pháo thủ cảng và chiến dịch",
+      "role_vi": "Pháo thủ cảng và chiến dịch",
+      "role_en": "Harbour and campaign gunners",
+      "lore_vi": "Pháo thủ bảo vệ Cape Town rồi cung cấp các khẩu nhẹ cho đoàn xe tiến vào nội địa. Pháo cảng được tháo đi càng nhiều, khả năng chống một cuộc tập kích từ biển càng giảm.",
+      "lore_en": "Gunners defend Cape Town and supply lighter pieces to inland columns. Every harbour gun redeployed inland weakens defence against seaborne attack.",
+      "image_asset": null
+    },
+    {
+      "id": "merina_empire_unit_1",
+      "faction_id": "merina_empire",
+      "name": "Hova hỏa binh",
+      "name_vi": "Hova hỏa binh",
+      "name_en": "Hova Fire Infantry",
+      "role": "Bộ binh cải tổ",
+      "role_vi": "Bộ binh cải tổ",
+      "role_en": "Reformed infantry",
+      "lore_vi": "Hỏa binh học đội hình súng và công sự theo chương trình triều đình. Quân tuyển từ các vùng cao phải thích nghi với nhiệm vụ trên tàu; chiến dịch xa làm nghĩa vụ phục vụ kéo dài qua mùa làm ruộng.",
+      "lore_en": "The infantry trains in musket formations and fieldworks. Highland recruits adapt to shipboard service, with overseas duty extending into agricultural seasons.",
+      "image_asset": null
+    },
+    {
+      "id": "merina_empire_unit_2",
+      "faction_id": "merina_empire",
+      "name": "Thủy binh Merina",
+      "name_vi": "Thủy binh Merina",
+      "name_en": "Merina Marines",
+      "role": "Bộ binh đổ bộ đảo",
+      "role_vi": "Bộ binh đổ bộ đảo",
+      "role_en": "Island landing infantry",
+      "lore_vi": "Thủy binh đánh chiếm bến và giữ kho trên các đảo nhỏ, đưa pháo nhẹ từ tàu lên vị trí bảo vệ. Họ cần tiếp tế thường xuyên vì đất mới chiếm chưa đủ sản lượng nuôi quân đồn trú.",
+      "lore_en": "Marines seize quays and stores, landing light guns for protection. Frequent supply is essential where captured islands cannot feed their garrisons.",
+      "image_asset": null
+    },
+    {
+      "id": "ottoman_empire_unit_1",
+      "faction_id": "ottoman_empire",
+      "name": "Janissary Baghdad",
+      "name_vi": "Janissary Baghdad",
+      "name_en": "Baghdad Janissaries",
+      "role": "Bộ binh tinh nhuệ",
+      "role_vi": "Bộ binh tinh nhuệ",
+      "role_en": "Elite infantry",
+      "lore_vi": "Các đơn vị rút về Baghdad giữ kinh nghiệm chiến đấu cùng những yêu sách lương chưa được trả. Họ làm nòng cốt cho quân đội mới; triều đình phải thống nhất sổ quân số trước khi cấp bạc để tránh nuôi các đơn vị chỉ còn trên giấy.",
+      "lore_en": "Veteran units reach Baghdad with combat experience and unpaid claims. They anchor the rebuilt army; verified rolls are needed to prevent funding paper formations.",
+      "image_asset": null
+    },
+    {
+      "id": "ottoman_empire_unit_2",
+      "faction_id": "ottoman_empire",
+      "name": "Sipahi biên thùy",
+      "name_vi": "Sipahi biên thùy",
+      "name_en": "Frontier Sipahi",
+      "role": "Kỵ binh tỉnh",
+      "role_vi": "Kỵ binh tỉnh",
+      "role_en": "Provincial cavalry",
+      "lore_vi": "Sipahi giữ đường thông tin và hộ tống quân nhu giữa các tỉnh còn lại. Nguồn nuôi quân gắn với quyền thu tại địa phương, khiến một tuyến tiếp tế đi qua nhiều thỏa thuận và nhiều vị tổng trấn.",
+      "lore_en": "Sipahi carry dispatches and escort supplies among surviving provinces. Local revenue rights bind every route to several governors and agreements.",
+      "image_asset": null
+    },
+    {
+      "id": "british_east_india_company_unit_1",
+      "faction_id": "british_east_india_company",
+      "name": "Sepoy công ty",
+      "name_vi": "Sepoy công ty",
+      "name_en": "Company Sepoys",
+      "role": "Bộ binh thường trực",
+      "role_vi": "Bộ binh thường trực",
+      "role_en": "Standing infantry",
+      "lore_vi": "Sepoy giữ thành, kho và đội hình súng trong các chiến dịch của công ty. Sĩ quan phải điều hòa lương, nghi thức cùng những nghĩa vụ khác nhau của người tuyển từ nhiều vùng; bảo đảm chung của họ là khoản trả đúng hạn.",
+      "lore_en": "Sepoys hold forts, stores and musket formations. Officers manage diverse customs and obligations; reliable pay provides their common guarantee.",
+      "image_asset": null
+    },
+    {
+      "id": "british_east_india_company_unit_2",
+      "faction_id": "british_east_india_company",
+      "name": "Thủy quân Saint Helena",
+      "name_vi": "Thủy quân Saint Helena",
+      "name_en": "Saint Helena Naval Guard",
+      "role": "Hộ tống và bảo vệ trạm tiếp tế",
+      "role_vi": "Hộ tống và bảo vệ trạm tiếp tế",
+      "role_en": "Ocean escorts and station defence",
+      "lore_vi": "Lực lượng bảo vệ Saint Helena cùng các đoàn tàu tiếp tế đi qua đảo. Pháo đài, kho nước và đội tàu hộ tống giữ tuyến hàng hoạt động; mất một đoàn lương có thể làm cả trạm chờ hàng đến chuyến sau.",
+      "lore_en": "The guard protects Saint Helena and its supply convoys. Fortifications, water stores and escorts sustain the route; a lost cargo can leave the station waiting until the next arrival.",
+      "image_asset": null
+    }
+  ]
+}

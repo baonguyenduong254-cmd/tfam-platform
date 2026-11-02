@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-icevein-lotus",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Một hạt sen nằm trong túi khoáng lam của người nuôi cá bị chìm cùng thuyền. Sang xuân, nó trồi lên giữa vòng băng chưa tan, lá bạc gạt từng mảnh băng ra mép như những bàn tay nhỏ. Người nuôi kéo được chiếc túi từ bùn: khoáng đã rỗng lõi, còn rễ sen sáng lam quanh chỗ hạt từng nằm.\n\nCác cây tách ngó tiếp tục giữ một cửa nước dưới tâm lá. Băng mới bị dồn ra ngoài, nhiệt vòng về gân; từng gợn nước trong cửa cho biết cây vẫn đang trao đổi với hồ. Người giữ trại cá đi vòng mỗi sáng, nhìn xem chiếc cửa nào đã bắt đầu khép trước khi đem bình nước ra lấy mẫu.",
+    "lore_en": "A lotus seed lay in a fish keeper’s blue mineral pouch when his boat sank. In spring it surfaced within an unmelted ice ring, silver leaves pushing fragments aside like little hands. The pouch was recovered from mud: the mineral had hollowed out, while lotus roots shone blue around the seed’s former place.\n\nPlants divided from its rhizome kept a water opening beneath each leaf centre. New ice moved outward and heat circled through the veins; ripples within the opening showed exchange with the pond continuing. Fish keepers walk their rounds each morning to see which little doors have begun closing before taking water samples.",
+    "use_vi": "Giữ cửa nước nhỏ giữa băng, gom mảnh băng ra mép và báo sức cây qua gợn lá.",
+    "use_en": "Keep small openings in ice, gather fragments at their edges and show plant condition through leaf ripples.",
+    "limits_vi": "Rễ cần nước sạch và đủ sâu khỏi bị đông cứng. Băng dày có thể nghiền lá; phần băng đã dồn vẫn cần lấy ra trước khi vòng khép ép ngược về tâm.",
+    "limits_en": "Roots need clean water deep enough to avoid freezing solid. Thick ice can crush leaves; displaced ice must be removed before its closing ring presses back upon the centre.",
+    "skills": [
+      {
+        "name_vi": "Mở tâm lá",
+        "name_en": "Open the Leaf Heart",
+        "description_vi": "Đặt lá sống nằm phẳng để một cửa nước xuất hiện dưới tâm, dùng đưa ống lấy mẫu xuống mà khỏi đập lá.",
+        "description_en": "Lay a living leaf flat to open water beneath its centre for a sampling tube without breaking the leaf."
+      },
+      {
+        "name_vi": "Đẩy vòng băng",
+        "name_en": "Push the Ice Ring",
+        "description_vi": "Vuốt nhẹ gân từ tâm ra mép để băng mới dịch ra ngoài nhanh hơn; vuốt dồn làm gân nóng và cây cần nghỉ.",
+        "description_en": "Stroke veins gently outwards to hasten the movement of new ice to the rim; repeated strokes heat the veins and require rest."
+      },
+      {
+        "name_vi": "Lấy mẫu yên",
+        "name_en": "The Quiet Sample",
+        "description_vi": "Giữ ống giữa tâm trước một nhịp gợn để hút nước ít lẫn mảnh băng; mẫu vẫn mang thành phần thật của hồ.",
+        "description_en": "Hold a tube in the centre before a ripple to draw water with fewer ice fragments; the sample retains the pond’s actual composition."
+      },
+      {
+        "name_vi": "Vành báo ép",
+        "name_en": "The Pressing Ring",
+        "description_vi": "Đặt ba que đánh dấu quanh mép để thấy băng đang ép lệch vòng và chuyển lá trước khi nó gãy; que phải được cắm ngoài vùng rễ.",
+        "description_en": "Set three markers around the rim to detect uneven ice pressure and move the leaf before it breaks; place them outside the roots."
+      },
+      {
+        "name_vi": "Chuyền cửa",
+        "name_en": "Pass the Opening",
+        "description_vi": "Cho hai lá cùng cây chạm mép trong lúc dời để cửa nước nối tạm cho một ống đi qua; tách nhanh làm băng sập vào chỗ nối.",
+        "description_en": "Let two leaves from one plant meet while repositioning to link their openings briefly for a tube; rapid separation lets ice close upon the join."
+      },
+      {
+        "name_vi": "Gợn còn sống",
+        "name_en": "The Living Ripple",
+        "description_vi": "Chạm cuống một lần để lá trả một vòng gợn, kiểm sức trao đổi trước dùng; lá không trả gợn cần được cứu rễ.",
+        "description_en": "Touch the stalk once for a answering ripple to test exchange before use; a leaf that fails to answer needs root care."
+      },
+      {
+        "name_vi": "Gom mép",
+        "name_en": "Gather the Rim",
+        "description_vi": "Đưa khay mỏng dưới mép để lấy băng đã dồn mà không phá cửa nước; cào chạm gân cắt đường nhiệt và có thể khép cửa.",
+        "description_en": "Slide a thin tray beneath the edge to remove gathered ice without breaking the opening; scraping a vein cuts its heat path and can close it."
+      },
+      {
+        "name_vi": "Khép lá nghỉ",
+        "name_en": "Close the Resting Leaf",
+        "description_vi": "Đỡ lá lên khỏi mặt nước sau khi rút hết dụng cụ để nó cuộn lại và giữ nhiệt cho ngó; để ống trong tâm lúc khép sẽ xé lá.",
+        "description_en": "Lift the leaf after removing every tool so it curls and conserves warmth for its rhizome; a tube left in its centre tears it during closure."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cửa hồ còn thở",
+        "name_en": "The Pond’s Breathing Door",
+        "description_vi": "Cây giữ phần nước trong vòng lá, sức hồ ngoài vòng tiếp tục tác động lên nó. Nhiều lá cần được kê để các vòng băng khỏi ép nhau.",
+        "description_en": "The plant keeps water within its leaf ring while the surrounding pond continues acting upon it. Multiple leaves need spacing so their ice rings do not crush one another."
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "armament-bala-de-fuego",
+    "category": "armament",
+    "rarity": 1,
+    "name_vi": "Hỏa đạn Bala de Fuego",
+    "name_en": "Incendiary Shell Bala de Fuego",
+    "form_vi": "Đạn pháo vỏ thép chứa chất cháy bám có bột Vestigium",
+    "form_en": "A steel artillery shell carrying a Vestigium-bearing adhering incendiary",
+    "lore_vi": "Marco đặt một viên đạn rỗng lên bàn ở Fes rồi mở lọ bột đỏ. Hơi ấm trên đầu ngón tay là phần Vestigium có thể được đưa vào một thứ người thợ làm lại được nhiều lần. Từ các lượt thử riêng vỏ và chất cháy, Bala de Fuego trở thành quả đạn mang ngọn lửa bám vào gỗ, vải và máy công thành giữa tuyết.\n\nGiá trị của nó hiện lên trong nhịp làm việc của xưởng: dấu lô, ngày chế tạo, sổ bắn và những mẻ phải tháo bỏ vì cháy sớm. Marco giữ lượng bột ở mức cần thiết, cất đạn trong hầm riêng và yêu cầu biết cách cứu người mình khi kho cháy. Thứ Vestigium Thông thường đi qua tay thợ, quản đốc và người kéo xe để trở thành hỏa lực có thể duy trì suốt trận.",
+    "lore_en": "Marco set an empty shell upon the table at Fes and opened a vial of red powder. The warmth upon his fingertips was a share of Vestigium that could enter something craftsmen could make repeatedly. Through separate trials of casing and incendiary, Bala de Fuego became a round carrying fire that adhered to timber, cloth and siege machinery amid snow.\n\nIts value emerged in the workshop’s rhythm: batch marks, production dates, firing books and lots dismantled for premature burning. Marco kept the powder to the necessary amount, stored rounds separately and demanded to know how his own people could be saved if the magazine burned. Common Vestigium passed through smiths, foremen and carters to become firepower sustained through a battle.",
+    "use_vi": "Phát tán chất cháy bám khi quả đạn vỡ, đốt mục tiêu dễ cháy và cản đội hình qua vùng bị phủ lửa.",
+    "use_en": "Spreads an adhering incendiary when the shell breaks, burning combustible targets and obstructing formations through the fire-covered area.",
+    "limits_vi": "Cháy sớm và tai nạn kho là rủi ro được ghi nhận. Đạn cần kiểm soát lô, kho tách và cách ứng phó cháy; sức mạnh dựa vào cả sản xuất lẫn tiếp vận.",
+    "limits_en": "Premature burning and magazine accidents are recorded risks. The round requires batch control, separate storage and fire response; its strength depends on production and supply alike.",
+    "skills": [
+      {
+        "name_vi": "Cháy bám",
+        "name_en": "Adhering Fire",
+        "description_vi": "Vỏ vỡ tung chất cháy chứa Vestigium lên các bề mặt quanh điểm chạm.",
+        "description_en": "The casing breaks to scatter Vestigium-bearing incendiary upon surfaces around impact."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thành phẩm chế tạo lặp",
+        "name_en": "Reproducible Manufacture",
+        "description_vi": "Được làm theo lô tại xưởng, dùng bột Vestigium cấp Thông thường thay cho một hiện vật hiếm cho từng quả.",
+        "description_en": "Made in workshop batches using Common Vestigium powder rather than a rare artefact for each round."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Kho pháo Castilian",
+    "owner_en": "Castilian ordnance stores",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 1,
+        "tab_id": "t.43a8mpvqyjnw",
+        "anchor": "“Bột Vestigium tạo nhiệt cấp Thông thường, trộn với nhựa thông, lưu huỳnh và chất cháy. Đầu đạn nổ sẽ tung hỗn hợp bám lên khiên, gỗ, vải, da và bất cứ thứ gì ở quanh điểm chạm.”",
+        "chapter": 29
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.43a8mpvqyjnw",
+        "anchor": "Marco đặt viên đạn trở lại hộp. “Tôi không muốn một vũ khí thần kỳ. Tôi muốn thứ thợ ở Fes có thể làm đủ nhiều để bắn suốt một trận. Nếu cần một viên Vestigium hiếm cho mỗi quả thì bỏ.”",
+        "chapter": 29
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.ak94gkdvsno4",
+        "anchor": "Quả thử đầu tiên đánh trúng chiếc xe công thành giả dựng giữa bãi. Vỏ thép vỡ, chất cháy bám vào gỗ rồi lan thành những dải lửa đỏ cam bất chấp lớp tuyết dưới bánh xe. Những người đứng quan sát im hẳn khi mùi nhựa cháy và khói khét bị gió đưa trở lại.",
+        "chapter": 30
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.ak94gkdvsno4",
+        "anchor": "Đến cuối tuần, mỗi khẩu Armstrong mới đều có sổ bắn riêng, mỗi lô Bala de Fuego đều có dấu xưởng và ngày sản xuất. Mẫu nào có tỷ lệ cháy sớm vượt giới hạn bị tháo bỏ, dù số lượng dự trữ trên báo cáo vì thế thấp đi đáng kể.",
+        "chapter": 30
+      }
+    ],
+    "classification_status": "editorial",
+    "rarity_note_vi": "Cơ chế và lịch sử chế tạo có nguồn truyện. Bậc trưng bày của thành phẩm do biên tập đề xuất; cấp của bột đầu vào không tự quyết định cấp của toàn quả đạn.",
+    "rarity_note_en": "Its workings and manufacturing history are attested in the story. The completed round’s display rank is editorial; the input powder’s rank does not determine the whole shell’s rank.",
+    "quantity": {
+      "kind": "mass-produced",
+      "note_vi": "Đã được nguồn mô tả chế tạo theo lô và dùng qua nhiều trận; số lượng kho cụ thể thay đổi.",
+      "note_en": "The source describes batch manufacture and use across battles; actual stock varies."
+    },
+    "relationships": [
+      {
+        "target_id": "material-bot-tao-nhiet",
+        "target_category": "material",
+        "relation": "crafted_with",
+        "label_vi": "Nguyên liệu Vestigium tạo nhiệt",
+        "label_en": "Heat-producing Vestigium input"
+      },
+      {
+        "target_id": "armament-fuego-negro",
+        "target_category": "armament",
+        "relation": "developed_into",
+        "label_vi": "Biến thể phát triển sau",
+        "label_en": "Later development"
+      }
+    ]
+  },
+  {
+    "id": "armament-fuego-negro",
+    "category": "armament",
+    "rarity": 2,
+    "name_vi": "Hắc hỏa đạn Fuego Negro",
+    "name_en": "Black-Fire Shell Fuego Negro",
+    "form_vi": "Bala de Fuego Inextinguible, chất cháy đỏ đen hai lớp",
+    "form_en": "Bala de Fuego Inextinguible, a two-layer red-black incendiary",
+    "lore_vi": "Fuego Negro bắt đầu từ hỏa đạn của Marco rồi đi qua đội kỹ thuật của Edward. Một lớp phản ứng bổ sung cho những giọt đang cháy tiếp tục cấp nhiệt trong một khoảng, khiến nước, hơi và tuyết khó dập ngay được chúng. Khi khung thử phủ buồm nhận đạn, lửa đỏ đen bám vào vải, gỗ và dây thừng; nước kéo chất cháy sang chỗ mới.\n\nCát khoáng khử nhiệt dập được phần lớn lửa. Sau buổi thử, Edward và Isabella giới hạn cơ số của loại đạn này trong đợt cải tiến hạm đội, đồng thời giữ kho riêng và quyền loại bỏ cả thùng khi nhiệt bất thường. Fuego Negro trao một lợi thế hải chiến cùng việc phải bảo vệ chính con tàu đang mang nó. Sự phát triển nằm trong cách hai lớp tác động tiếp sức cho nhau, chứ không đòi đổi toàn bộ nguồn Vestigium đầu vào.",
+    "lore_en": "Fuego Negro begins with Marco’s fire-shell and passes through Edward’s technical team. An added reaction layer lets burning droplets continue supplying heat for an interval, making water, vapour and snow unable to extinguish them immediately. Upon the sail-covered test frame, red-black fire clings to cloth, timber and rope; water carries the incendiary elsewhere.\n\nHeat-absorbing mineral sand extinguishes much of it. After the trial, Edward and Isabella limit its allocation during the fleet refit, while requiring separate storage and authority to discard a whole case if it heats abnormally. Fuego Negro grants a naval advantage together with the task of protecting the ship carrying it. Its development lies in two cooperating effects, without requiring replacement of the entire Vestigium input.",
+    "use_vi": "Tạo chất cháy bám tiếp tục tự cấp nhiệt trong khoảng tác dụng, đặc biệt nguy hiểm với buồm, dây và thân gỗ.",
+    "use_en": "Delivers an adhering incendiary that continues supplying its own heat during its active interval, especially dangerous to sails, rigging and wooden hulls.",
+    "limits_vi": "Nước có thể kéo chất cháy lan. Cát khử nhiệt trong cảnh thử chỉ dập phần lớn, không chứng minh vô hiệu mọi trường hợp. Quyền khai hỏa và cơ số bị kiểm soát vì hiểm họa cho cả tàu mang đạn.",
+    "limits_en": "Water can spread the incendiary. The trial’s heat-absorbing sand extinguishes much of it, without proving universal neutralisation. Firing authority and allocation are controlled because it also threatens its carrying ship.",
+    "skills": [
+      {
+        "name_vi": "Cháy bám tiếp nhiệt",
+        "name_en": "Heat-Sustained Adhering Fire",
+        "description_vi": "Giữ những giọt chất cháy hoạt động qua một lớp cấp nhiệt bổ sung sau va chạm.",
+        "description_en": "Keeps incendiary droplets active through an added heat-supplying layer after impact."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hai lớp tác động",
+        "name_en": "Two Cooperating Layers",
+        "description_vi": "Cơ chế phát triển trên nền Bala de Fuego, giữ tính bám và thêm khả năng tiếp nhiệt.",
+        "description_en": "Developed upon Bala de Fuego, retaining adherence while adding sustained heating."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Kho pháo Castilian",
+    "owner_en": "Castilian ordnance stores",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "“Bản của Marco chỉ là nền. Cái này là Bala de Fuego Inextinguible. Thủy thủ chắc sẽ gọi Fuego Negro cho đỡ dài.”",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "Edward chỉ vào hai lớp phản ứng trên sơ đồ cắt. “Bột Vestigium của Marco khiến chất cháy bám mục tiêu. Đội kỹ thuật của tôi thêm một lớp thứ hai để những giọt cháy tiếp tục tự cấp nhiệt trong một khoảng thời gian.”",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "Fuego Negro khiến tất cả phải lùi xa hơn. Khi đạn pháo đập vào khung gỗ phủ vải buồm cũ, vụ nổ không lớn bằng Ruptura, nhưng những giọt lửa đỏ đen bắn ra bám chặt vào vải, gỗ và dây thừng. Đội chữa cháy phun nước, ngọn lửa co lại một nhịp rồi bùng mạnh hơn ở nơi nước kéo chất cháy lan xuống.",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "“Đủ rồi.” Edward cau mày ra hiệu dừng thử. Cát khoáng Vestigium chuyên khử nhiệt được trút xuống từ máng phía trên mới dập được phần lớn lửa. Isabella nhìn khung mục tiêu cháy đen rồi nói ngay rằng loại đạn này không được phép chiếm quá nhiều cơ số.",
+        "chapter": 41
+      }
+    ],
+    "classification_status": "editorial",
+    "rarity_note_vi": "Cơ chế và lịch sử chế tạo có nguồn truyện. Bậc trưng bày của thành phẩm do biên tập đề xuất; cấp của bột đầu vào không tự quyết định cấp của toàn quả đạn.",
+    "rarity_note_en": "Its workings and manufacturing history are attested in the story. The completed round’s display rank is editorial; the input powder’s rank does not determine the whole shell’s rank.",
+    "quantity": {
+      "kind": "limited",
+      "note_vi": "Thành phẩm chế tạo được nhưng được hạn chế cơ số; đợt cải tiến trong chương nguồn chốt bảy phần trăm, không phải tỷ lệ cố định cho mọi chiến dịch.",
+      "note_en": "A manufacturable round with restricted allocation; the cited refit settles on seven per cent, not a permanent ratio for every campaign."
+    },
+    "relationships": [
+      {
+        "target_id": "armament-bala-de-fuego",
+        "target_category": "armament",
+        "relation": "developed_from",
+        "label_vi": "Nền hỏa đạn ban đầu",
+        "label_en": "Original incendiary-shell foundation"
+      },
+      {
+        "target_id": "material-cat-khu-nhiet",
+        "target_category": "material",
+        "relation": "countered_by",
+        "label_vi": "Cát khử nhiệt được dùng trong cảnh thử",
+        "label_en": "Heat-absorbing sand used during the trial"
+      },
+      {
+        "target_id": "material-bot-tao-nhiet",
+        "target_category": "material",
+        "relation": "crafted_with",
+        "label_vi": "Nguyên liệu Vestigium tạo nhiệt",
+        "label_en": "Heat-producing Vestigium input"
+      }
+    ]
+  }
+]

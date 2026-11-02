@@ -1,0 +1,71 @@
+{
+  "documents": [
+    {
+      "volume": 1,
+      "id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw",
+      "revision": "AHj4eMQGhbX0kW5xaghtDXNmQSyz9vrHQHw-Dzt2aWaV39tVghmQMNA1JWYSevksQuSsrGnoiFikGVCAuALboHZppTyxDcF4DXiJZj-6axw",
+      "title": "Vol.I - TFAM - Editor Choice"
+    },
+    {
+      "volume": 2,
+      "id": "1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4",
+      "revision": "AHj4eMSqJ7bPZ-y8tBMmbOyKB-lmyDbpXztEwap5cS3aoRDdS17Fz9SjqPcg79mGn5DK3GX93NdhCBZ6B7UdtEfRAV9t5G_Xp_nTIRttpjY",
+      "title": "Vol.II - TFAM - Editor Choice"
+    },
+    {
+      "volume": 3,
+      "id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE",
+      "revision": "AHj4eMRFlsvIe5l67_u9QFZMssuCeYtA9xxYYf9yKsiLCLXcd4DzNULQfm_Orm12XoD_55SOqhhBYGZ5LHAcfrbzowYDALA0-8Yl7l80HLQ",
+      "title": "Vol.III - TFAM - Editor Choice"
+    },
+    {
+      "volume": 4,
+      "id": "1VTZFZTkYmaPmTyM159XaMFHVexsUbBh1rxXmf8-qwmA",
+      "revision": "AHj4eMQKujT4ejFD7BipcDaNSxXEN50q-8gvxgVaAoa-6BvBMClWHLbJDH8qGO6We9yhBidgald9FHYWY9Csf0w4Epxv-GVUSqLIk3yvrT0",
+      "title": "Vol IV - TFAM - Editor Choice"
+    }
+  ],
+  "evidence": {
+    "vinculum": {
+      "volume": 2,
+      "tab_id": "t.scbjplgfyqs5",
+      "anchor": "Lưỡi kiếm thẳng tách thành hàng trăm phiến thép mỏng, mỗi phiến nối với phiến kế bằng những sợi cáp Vestigium gần như không nhìn thấy. Vinculum trượt khỏi chuôi thành một dải thép sống khi Fredo xoay cổ tay, quét vòng qua đầu ba người rồi rơi xuống đúng khe giữa hai đội Báo đang cố tràn vào."
+    },
+    "vinculumUse": {
+      "volume": 2,
+      "tab_id": "t.scbjplgfyqs5",
+      "anchor": "Anh không cắt bừa. Dải thép quấn lấy một khiên tròn, giật người cầm lệch khỏi bạn bên cạnh; vòng thứ hai khóa cán kiếm chùy obsidian trước khi các phiến đen chạm cổ một lính Castile. Khi Fredo kéo tay về, hàng trăm phiến thép khép lại từng đoạn như một con vật thu xương vào thân."
+    },
+    "gravitas": {
+      "volume": 2,
+      "tab_id": "t.scbjplgfyqs5",
+      "anchor": "Mặt dây sư tử mang số Veinticinco lóe lục. Các rãnh Vestigium dọc sống kiếm sáng lên, kéo phần thép tới hình thái Claymore đầy đủ của Gravitas. Trọng lượng dường như tăng theo chiều dài, nhưng Martinez chỉ hạ vai một chút để nhận lực."
+    },
+    "gravitasUse": {
+      "volume": 2,
+      "tab_id": "t.scbjplgfyqs5",
+      "anchor": "Một Conquistador Bồ vung trường kiếm hai tay vào cô. Martinez không né hoàn toàn. Claymore dựng ngang, ánh lục chạy dọc lưỡi đúng lúc hai khối thép va nhau. Âm thanh nghe như búa đập vào chuông, nhưng cô gần như không lùi; lực cú đánh bị nuốt vào mạng Vestigium trong lưỡi kiếm thay vì truyền hết qua vai."
+    },
+    "harpax": {
+      "volume": 2,
+      "tab_id": "t.scbjplgfyqs5",
+      "anchor": "Mặt dây Siete lóe xanh lam. Harpax mở đầu giáo thành hai lưỡi móc đối xứng, người mang số Bảy lập tức dùng chúng kéo vũ khí dài và khiên khỏi mép hào. Xa hơn, Diecisiete sáng trắng; La Muralla bung từng phiến khiên chồng lên nhau, mở rộng đủ che ba xạ thủ đang thay đạn phía sau."
+    },
+    "muralla": {
+      "volume": 2,
+      "tab_id": "t.6h6p4ywrxiwx",
+      "anchor": "Không ai cần giải thích những cái tên ấy. Ba nghìn kỵ binh chỉ nhìn thấy năm Vestigium cùng thức tỉnh quanh lá cờ Hoàng gia, rồi tiếng thép đập vào giáp lại nổi lên."
+    },
+    "nueve": {
+      "volume": 3,
+      "tab_id": "t.i45o0knti99t",
+      "anchor": "“Timothy Beaumont, ngươi có chấp nhận Nueve với đầy đủ nghĩa vụ của một Cận vệ Hoàng gia, trong đó có quyền từ chối mệnh lệnh trái luật, nghĩa vụ bảo vệ công dân khi mệnh lệnh và sinh mạng dân thường xung đột, cùng trách nhiệm đặt quốc gia trước cá nhân đang ngồi trên ngai?”"
+    },
+    "dolls": {
+      "volume": 4,
+      "chapter": 140,
+      "tab_id": "t.21vry6q54l0j",
+      "anchor": "ĐỘC BẢN."
+    }
+  }
+}

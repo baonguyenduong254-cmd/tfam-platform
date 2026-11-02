@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-needlefin-minnow",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Đàn cá sống trong giếng có vụn quặng bạc, ăn những con trùng nở quanh lớp bùn dưới đáy. Sau một mùa, vây lưng chúng dài thành kim mảnh, quay lệch với thân khi người đào mang một mảnh quặng lên bờ. Cá nuôi từ trứng trong nước sạch vẫn nhận mảnh cùng nguồn, còn cá thả từ sông vào giếng chỉ có vây thường.\n\nNgười đào giữ một đôi trong bình để tìm lại hộp quặng nhỏ. Con ông giấu đá sau lưng rồi bật cười mỗi lần vây chỉ đúng. Ông lấy đó làm phép thử trước khi mang cá đi làm, để người trong nhà biết lúc nào cái kim sống còn đang khỏe.",
+    "lore_en": "The fish lived in a well strewn with silver ore, eating insects hatching in its bottom mud. After a season their dorsal fins lengthened into fine needles and turned away from their bodies when a digger raised an ore fragment. Eggs hatched in clean water still recognised same-source pieces; river fish added to the well retained ordinary fins.\n\nThe digger kept a pair in a jar to find his small ore case. His child hid a stone behind his back and laughed whenever the fins pointed correctly. That became their test before work, showing whether the living needles remained healthy.",
+    "use_vi": "Chỉ hướng một mảnh quặng cùng nguồn trong vài bước quanh bình cá.",
+    "use_en": "Point towards same-source ore within a few paces of its fish jar.",
+    "limits_vi": "Cần đúng nguồn và cá khỏe; nhiều mảnh khác phía làm vây dao động. Phải có nước phù hợp, khí và chỗ bơi để phản ứng rõ.",
+    "limits_en": "It requires the correct source and healthy fish; pieces on opposite sides make fins waver. Suitable water, air and swimming room are required.",
+    "skills": [
+      {
+        "name_vi": "Vây tìm nguồn",
+        "name_en": "The Source-Seeking Fin",
+        "description_vi": "Giữ bình yên rồi xoay chậm quanh chỗ nghi có hộp nguồn để vây tìm hướng ổn định; thử lại sau khi cá bơi bình thường.",
+        "description_en": "Steady the jar and turn it slowly near a suspected source case so fins settle towards it; repeat once the fish swim normally."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kim sống trong nước",
+        "name_en": "A Living Needle in Water",
+        "description_vi": "Vây quay độc lập một phần với thân, nhưng cá sợ hãi sẽ cụp vây và thôi cho hướng.",
+        "description_en": "The fin partly turns independently of its body, but frightened fish fold it and stop indicating."
+      }
+    ]
+  }
+]

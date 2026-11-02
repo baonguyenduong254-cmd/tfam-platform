@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-wick-keeper",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Người thợ sửa dùng bụi khoáng vàng chèn một chân đèn bị nghiêng. Từ đêm ấy, mỗi lần bấc xổ, một bóng người cao bằng ngón tay lại cúi trong lửa, kéo từng sợi về chỗ cũ. Thay dầu, thay bấc, bóng vẫn tìm về cùng chân đèn; cạo lớp bụi khỏi chân, nó chuyển sang đứng trong vệt sáng trên khăn lau.\n\nBà mẹ người thợ từng kể chuyện kẻ gác ngủ trong mọi ngọn đèn. Ông làm một chiếc ghế tí hon đặt bên cạnh. Kẻ gác chỉ ngồi vào bóng của ghế, để chiếc ghế thật trống suốt đêm. Từ đó, ông chừa một chỗ bên nghiên mực cho người làm việc cùng mình.",
+    "lore_en": "A repairer used golden mineral dust to wedge a leaning lamp foot. From that night, whenever the wick frayed, a finger-high figure bent within the fire and drew its strands straight. Oil and wick were replaced, yet it returned to the same foot; when dust was scraped away, it stood in a patch of light upon the cleaning cloth.\n\nThe repairer’s mother had told him that a keeper slept in every lamp. He made a tiny chair beside it. The keeper sat only in the chair’s shadow, leaving the real seat vacant all night. Ever since, he has left room beside his inkstone for the one working with him.",
+    "use_vi": "Giữ bấc một chiếc đèn nhỏ ngay trục để lửa đều khi làm việc.",
+    "use_en": "Keep one small lamp’s wick aligned for a steady working flame.",
+    "limits_vi": "Kẻ gác chỉ chạm được bấc đang cháy của ngọn đèn nó đã nhận. Nước lạnh dập sự hiện diện một ngày; chủ vẫn phải giữ dầu và đèn đứng chắc.",
+    "limits_en": "The keeper can touch only the burning wick of its accepted lamp. Cold water suppresses its presence for a day; the owner must still supply oil and secure the lamp.",
+    "skills": [
+      {
+        "name_vi": "Gác tim đèn",
+        "name_en": "Keep the Wick",
+        "description_vi": "Đặt chân đèn có dấu khoáng trên bàn và để một chỗ bóng trống cạnh lửa để kẻ gác kéo bấc xổ về trục; bấc cháy mục phải được người dùng thay.",
+        "description_en": "Set the mineral-marked lamp upon a table with spare shadow beside the flame so its keeper draws frayed wick strands upright; a worn wick still needs human replacement."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ghế trong bóng",
+        "name_en": "The Chair Within the Shadow",
+        "description_vi": "Nó nhận chỗ nghỉ bằng hình bóng, thường ngồi khi bấc đã ngay. Động vào bóng ghế khiến nó đứng dậy kiểm đèn.",
+        "description_en": "It accepts a seat by its shadow and usually rests once the wick is straight. Touching that shadow makes it rise to inspect the lamp."
+      }
+    ]
+  }
+]

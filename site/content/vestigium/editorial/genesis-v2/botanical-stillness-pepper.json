@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-stillness-pepper",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Dây tiêu leo trên vỏ một máy sàng cũ. Người thợ lắp trong trục một mảnh Vestigium để giảm kẹt; bụi bạc lọt theo dầu máy xuống rễ. Quả tiêu lớn lên nghe cả nền xưởng rung, rồi một ngày chuyển đen hàng loạt khi dây truyền đứt, trước khi người đứng xa kịp nhận ra tiếng máy đã ngừng.\n\nNhững quả sau sinh màu bạc và giữ ký ức ngắn về nhịp gần chúng. Khi nhịp ấy mất, sắc tối chạy từ quả này sang quả khác. Thợ đặt dây tiêu bên những bánh quay khuất tầm nhìn, đếm độ dài vệt đen thay cho việc đưa tay vào máy để xem nó còn chạy.",
+    "lore_en": "A pepper vine climbed an old screening machine’s casing. A craftsman had fitted a Vestigium chip into its shaft to ease sticking; silver dust entered the roots with dripping oil. The fruit grew amid the factory’s vibration, then one day blackened together when a belt snapped, before distant workers realised the machinery had fallen silent.\n\nLater fruits grew silver and retained a brief memory of nearby rhythms. When that rhythm vanished, darkness travelled from berry to berry. Workers kept vines by wheels out of sight and counted darkened fruit rather than reaching into machinery to discover whether it was moving.",
+    "use_vi": "Báo một nhịp rung quen vừa dừng, phân biệt khoảng ngừng thoáng với ngừng lâu.",
+    "use_en": "Warn when a familiar vibration stops and distinguish a brief interruption from a longer halt.",
+    "limits_vi": "Cần cho cây quen nhịp nền trước khi canh. Máy chạy rất êm cho dấu yếu; cây khô mất phản ứng. Quả gây bỏng niêm mạc nên phải tách khỏi tiêu ăn.",
+    "limits_en": "The plant must first learn its background rhythm. Very smooth machinery gives a weak indication; dried plants lose their response. Fruit burns mucous membranes and must be kept apart from food pepper.",
+    "skills": [
+      {
+        "name_vi": "Nhận nhịp nền",
+        "name_en": "Learn the Background Beat",
+        "description_vi": "Đặt cây gần máy chạy ổn định cho cả chùm về bạc đều, giao nhịp cần canh; đổi máy phải cho cây học lại.",
+        "description_en": "Keep the vine near steady machinery until the cluster turns evenly silver, entrusting the monitored beat; a different machine requires relearning."
+      },
+      {
+        "name_vi": "Làn đen",
+        "name_en": "The Black Wave",
+        "description_vi": "Khi nhịp đã nhận dừng, quả tối dần theo hàng để người canh thấy cảnh báo từ xa; tiếng rung khác có thể ngắt làn đổi màu.",
+        "description_en": "When the accepted beat stops, fruit darkens along the cluster as a visible warning; another vibration can interrupt the wave."
+      },
+      {
+        "name_vi": "Đếm khoảng vắng",
+        "name_en": "Count the Absence",
+        "description_vi": "Đánh dấu các quả trên chùm rồi đọc điểm làn đen đã tới để so khoảng dừng dài hay ngắn; phép so cần cùng một cây và nhịp.",
+        "description_en": "Mark berries and read how far darkness travels to compare longer and shorter stoppages; comparison requires the same plant and reference beat."
+      },
+      {
+        "name_vi": "Bạc trở lại",
+        "name_en": "Silver Returns",
+        "description_vi": "Cho máy chạy đều qua một lượt hồi để chùm trả màu từ đầu, xác nhận nhịp đã về; cây chưa hồi hết có thể bỏ một lần dừng tiếp theo.",
+        "description_en": "Run the machine steadily through a recovery period so silver returns from the start, confirming the beat’s return; an unrecovered vine may miss the next halt."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Quả nhớ điều vừa mất",
+        "name_en": "Fruit Remembers What Vanished",
+        "description_vi": "Cây báo sự vắng mặt của nhịp đã nhận. Một nguồn rung mới gần hơn có thể chiếm chỗ nhịp cần canh.",
+        "description_en": "The vine signals the absence of an accepted rhythm. A nearer new vibration can displace the one being monitored."
+      }
+    ]
+  }
+]

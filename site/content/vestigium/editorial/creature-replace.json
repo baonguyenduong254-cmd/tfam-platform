@@ -1,0 +1,98 @@
+[
+  {
+    "id": "creature-voyageclosing-gull",
+    "mode": "replace",
+    "lore_vi": "Hải âu bay về một chiếc tổ đã bị biển lấy đi. Sau cánh chấm lam, một đường sáng khép lại giữa hai nơi nó vừa qua, giữ hướng ngay cả khi sương xóa cả trời lẫn nước. Người lái tàu đầu tiên theo vệt ấy tới đúng mỏm đá trống, nơi chim hạ xuống và gọi suốt đêm.~Thủy thủ kể nó đang hoàn tất chuyến về mà bờ biển đã từ chối. Họ chỉ xin một đoạn đường ngắn, rồi để chim nghỉ. Mỗi lần nó cất cánh, biển lại phải nhớ một lối vừa bị mình xóa.",
+    "lore_en": "The gull flies home to a nest the sea has taken. Behind its blue-flecked wings, a light joins its recent course and holds direction through obliterating mist. The first pilot following it reached bare rock, where the bird landed and called all night.~Sailors say it completes a homecoming the coast refused. They ask for one short passage, then let it rest. Each flight makes the sea remember a route it erased."
+  },
+  {
+    "id": "creature-springbearing-hart",
+    "mode": "replace",
+    "lore_vi": "Con hươu được tìm giữa rừng cây chết, gạc mang những nụ xanh còn đóng. Khi một nụ mở, hạt ngủ dưới chân thức dậy dù đất vẫn lạnh; lưng hươu gầy thêm như thể nó đang trả bằng chính mùa sống của mình. Người đưa nó về đã đánh dấu từng nụ bằng tên một khu vườn mất mùa.~Ở nơi trú, họ dành phần ăn tốt nhất cho con vật. Thứ đến cùng nó là lời mời mùa xuân trở lại trên một khoảnh đất vừa đủ nhỏ để một sinh mạng còn gánh nổi.",
+    "lore_en": "The stag stood among dead trees with closed green buds on its antlers. Each opening woke dormant seeds underfoot while its own back grew thinner. Its rescuer named the buds after failed gardens.~The shelter gives it the best food. It brings an invitation for spring to return upon ground small enough for one living body to bear the cost."
+  },
+  {
+    "id": "creature-onebeat-jellyfish",
+    "mode": "replace",
+    "lore_vi": "Sứa vàng khép xúc tu quanh sinh vật nhỏ, giữ một nhịp co như giữ viên ngọc mềm trong lõi xanh. Khi mở ra, nhịp ấy trở lại với cơ thể đã trao, đúng chỗ nó vừa rời. Người nuôi từng thấy hai nhịp đứng cạnh nhau trong cùng một giọt nước, rồi chớp mắt và chỉ còn một.~Các lời truyền gọi nó là sinh vật nhặt phần thừa giữa hai lần tim đập. Trong bể, một nhịp có thể đủ để người xem hiểu đời sống được nối bằng những khoảng mong manh đến đâu.",
+    "lore_en": "The gold jellyfish closes around a small creature and holds one contraction like a soft gem within its blue core. Opening returns that beat to the body that lent it. Its keeper once saw two beats side by side in a drop; a blink left one.~Tradition calls it a gatherer of what remains between heartbeats. In the tank, a single beat reveals how fragile life's joins can be."
+  },
+  {
+    "id": "creature-deep-lanternfish",
+    "mode": "replace",
+    "lore_vi": "Từ bể nước lấy trong xác tàu, con cá dài bờm sáng giữ lại những bóng vừa rời mặt nước. Trong khoang tối, chúng trôi như xác bạc của các động tác đã kết thúc; ánh đèn ngoài xóa hết. Người thợ ghi được bóng bàn tay mình còn nắm một vật đã được đặt xuống.~Thủy thủ gọi nó là rồng ăn phần sau của ánh sáng. Họ nhìn quá khứ gần qua bờm nó và phải chọn lúc tắt đèn, chấp nhận mỗi lần được thấy đều là một lần làm tan thứ đang tìm.",
+    "lore_en": "From a wreck-water tank, the long, luminous-maned fish retained shapes newly departed from water. In darkness they drifted like silver remains of completed gestures; outside light dissolved them. A craftsman recorded his hand still holding an object already set down.~Sailors call it a dragon feeding upon light's aftermath. To examine that recent past is to choose when to extinguish the lamp, knowing sight itself begins its destruction."
+  },
+  {
+    "id": "creature-returnweb-spider",
+    "mode": "replace",
+    "lore_vi": "Nhện sống ở tâm một mạng tơ cũ mà người thợ đã cắt đem sang hai phòng. Các đầu tơ vẫn căng về cùng hướng, như khoảng cách giữa chúng bị tính theo đường đi qua con nhện. Trong phòng kín, người lạc lần theo sợi tìm được phía mạng còn nhớ.~Người nuôi tránh mang nó khỏi tâm. Mỗi chân đặt trên một đường, con vật ngà giữ nguyên hình học của một nơi đã bị chia cắt, lặng lẽ làm chiếc đinh ghim các mảnh phòng vào cùng một hướng.",
+    "lore_en": "The spider remains at the centre of a web whose cut strands occupy separate rooms. Their ends still strain in one direction, as though distance were measured through its body. In windowless rooms the lost follow that retained bearing.~Its keeper never moves the centre. Each ivory foot upon a strand pins the geometry of a divided place into one direction."
+  },
+  {
+    "id": "creature-winterkeeping-nightingale",
+    "mode": "replace",
+    "lore_vi": "Người nhốt họa mi ngoài hiên nghe bài hót làm khăn trên giá lạnh cứng, trong khi phần vải cuộn khuất vẫn mềm. Chim hót lại đúng điệu, rét được trả ra như mùa đông bị tháo khỏi một lớp áo. Hát sai, dấu lạnh tan ngay.~Người nuôi học giai điệu bằng giọng mình đã khàn. Trong lời kể của họ, con chim từng giữ một mùa đông trong cổ để tiếng hót khác còn được chờ đến xuân; giờ mỗi lần mở mỏ lại phải nhớ đúng đường đặt xuống cái rét ấy.",
+    "lore_en": "A caged nightingale sang a hanging cloth stiff with cold while its hidden fold stayed soft. The exact melody released that chill like winter stripped from a coat; an error dissolved it.~Its keeper learnt the tune with a hoarse voice. His tale says the bird once held winter in its throat so other songs might await spring. Each opening of its beak must remember how to lay that cold down."
+  },
+  {
+    "id": "creature-moonreturn-tortoise",
+    "mode": "replace",
+    "lore_vi": "Con rùa lên từ một hồ đen chỉ vào đêm trăng. Mai nó nhận đường nét vật đặt lên, rồi trả bóng ấy bằng ánh trăng đã giữ, câm lặng và nguyên dạng sau khi vật được mang đi. Một người thợ để lại chiếc nhẫn trên mai trước chuyến về nhà; hình nhẫn theo rùa qua cả lần thay bể.~Người nuôi gọi mai là một mặt hồ đã học cách giữ thứ được soi mà chẳng nuốt lấy nó. Để đổi hình, họ phải cho một ánh trăng thật tìm đến đúng chỗ bóng cũ từng nằm.",
+    "lore_en": "The turtle emerged from a black pool only by moonlight. Its shell took an object's outline and returned it in retained moonlight after the object departed. A craftsman left a ring there before going home; its image survived a change of tank.~The keeper calls its shell a pool that learnt to preserve what it reflected without swallowing it. A new image requires real moonlight to find the old shadow's place."
+  },
+  {
+    "id": "creature-nightwatch-reindeer",
+    "mode": "replace",
+    "lore_vi": "Khi cả đàn ngủ, tuần lộc hạ gạc thành một vòng nghe giữa tuyết. Tiếng chân lạ chạm rìa ấy sẽ gõ vào những đốm bạc như có người đi trên xương; tiếng quen được nó cho qua. Người trông từng thấy con vật ngẩng đầu đợi một bước chân đến từ phần rừng đã bị bão lấp.~Mỗi đêm nó chỉ nhận một vòng. Những người đi xa đặt trại theo vòng ấy, trao giấc ngủ cho một sinh vật vẫn phải tự phân biệt điều thuộc về nhà với điều đang học cách giả làm quen.",
+    "lore_en": "While its herd sleeps, the reindeer lowers its antlers into a listening ring. Strange footfalls strike silver spots like feet upon bone; familiar steps pass. Its keeper once saw it await a step from storm-buried forest.~It takes one ring each night. Travellers sleep within its hearing, trusting a creature that must distinguish home from whatever is learning to sound familiar."
+  },
+  {
+    "id": "creature-the-last-bee",
+    "mode": "replace",
+    "lore_vi": "Khi vườn hoa cuối cùng bị rét giết, con ong còn mang phấn trên đôi cánh trong như kính. Mỗi năm nó chỉ trao được một hạt sống, giữ nguyên dấu của giống hoa đã mất. Những người trồng đầu tiên đã chết trước khi thế hệ hoa mới đủ nhiều để gọi là một luống.~Họ để lại sổ chăm nối tiếp nhau, mỗi trang dành cho đúng một năm. Một loài đang trở về qua thân hình nhỏ hơn móng tay, và tốc độ trở về được quyết định bởi cánh một con ong duy nhất còn nhớ đường tới mùa cũ.",
+    "lore_en": "When frost killed the last garden, one bee still carried its pollen on glasslike wings. Each year it grants one viable seed bearing the lost flower's nature. The first growers died before the returning generation could fill a bed.~Their successive care-books allot one page to each year. A species returns through a body smaller than a fingernail, at the pace of the sole bee remembering the way to its season."
+  },
+  {
+    "id": "creature-carp-of-the-nameless-well",
+    "mode": "replace",
+    "lore_vi": "Giếng đã bị lấp trước khi con cá chép trắng được mang tới kho. Trong giọt nước nơi mang, vị giếng vẫn nguyên qua mọi lần thay bể. Người từng uống ở đó nhận ra vị khoáng trên lưỡi và gọi tên xóm cũ, trong khi con cá chậm rãi mở khép chiếc mang chứa phần còn lại của nơi ấy.~Vảy đỏ duy nhất chưa từng đổi màu. Người nuôi lấy nước thật ít: muốn biết thêm về một nguồn đã mất, họ phải tiêu hao sức của sinh vật duy nhất còn mang nó.",
+    "lore_en": "The well was filled before the white carp arrived. In a drop at its gill, the well's taste survived every change of water. A former drinker recognised it and named his vanished village while the fish slowly opened and closed what held that place's remainder.~Its single red scale has never altered. Samples are taken sparingly: knowledge of a lost source spends the strength of the only creature still bearing it."
+  },
+  {
+    "id": "creature-the-horse-before-the-quay",
+    "mode": "replace",
+    "lore_vi": "Con ngựa được kéo khỏi bến ngay trước khi đá sụp. Một móng ngà giữ đúng dấu mặt bến; đến chỗ trống cũ, nó đặt được một bước trong không khí như đất còn ở đó. Bước tiếp theo buộc phải tìm mặt đất thật.~Người giữ chỉ dám dẫn nó tới bờ khi cả hai đã nhìn rõ lối xuống. Họ gọi nó là con ngựa đang đến một nơi đã thôi tồn tại, và để nguyên chiếc móng: đó là phần bến cuối cùng trên đời còn chịu nhận sức nặng của một cuộc trở về.",
+    "lore_en": "The horse was led off a quay just before it collapsed. One ivory hoof retained the stone's print and could take one step upon its old place in air. The next required real ground.~Its keeper approaches the edge only after checking a landing. They call it a horse arriving where existence has ended, preserving the hoof as the quay's last remnant still willing to bear a homecoming's weight."
+  },
+  {
+    "id": "creature-weaver-of-the-last-thread",
+    "mode": "replace",
+    "lore_vi": "Nhện đen giữ một sợi chưa dùng trong bụng trắng. Sợi ấy nối được hai đầu từ cùng tấm vải dù phần giữa đã cháy, bằng cách kéo chúng chạm nhau qua một khoảng trống vẫn nhìn thấy. Nó chỉ làm được một lần trong đời.~Người tìm đặt cạnh hộp những mảnh áo liệm, cờ rách và khăn trẻ nhỏ, rồi mang tất cả ra vì chưa chọn nổi. Mạng nhện vẫn trống. Một sự hàn gắn độc nhất đang sống trong đó, lâu dần trở nên nặng hơn chính những gì nó có thể cứu.",
+    "lore_en": "The black spider keeps one unused filament within its white abdomen. It joins ends from one cloth across a visibly missing, burnt middle, once in its life.~Its finder brought shroud-fragments, torn flags and children's cloths to the case, then removed them, unable to choose. The web remains empty. One unrepeatable repair lives there, growing heavier than the things it could save."
+  },
+  {
+    "id": "creature-owl-of-the-absent-keeper",
+    "mode": "replace",
+    "lore_vi": "Con cú bạc chỉ nhận giọng người giữ đầu tiên, đã chết trước lần sang tay thứ hai. Nghe bản ghi cũ, nó trả lại lời bằng nhịp thở của mình; các giọng khác đi qua như gió. Người kế nhiệm nhận ra sau mỗi lần gọi, cú phải ngồi rất lâu mới thở đều.~Chiếc đĩa ghi được bọc riêng. Chủ mới vẫn chăm con vật dù biết cả đời mình sẽ chẳng được nó giữ một tiếng nào. Trên cầu đậu, một lời của người vắng mặt còn sống nhờ hơi thở đang già của một sinh vật khác.",
+    "lore_en": "The silver owl recognises only its first keeper, dead before its second transfer. An old recording brings his words back on its own breath; other voices pass like wind. Afterwards it takes a long time to breathe evenly.~The recording is wrapped apart. Its new keeper cares for an animal that will never retain his voice. A dead person's words persist upon another creature's ageing breath."
+  },
+  {
+    "id": "creature-seal-of-the-last-icehole",
+    "mode": "replace",
+    "lore_vi": "Con hải cẩu trắng được tìm bên lỗ thở đóng băng, mũi chạm đúng vệt tròn từng có nước. Nó làm băng mềm theo đường viền cũ, giữ một mắt mở của hồ dù mặt hồ chung đã khép. Dời nơi, khả năng ấy mất hẳn.~Người cứu hộ dựng trạm quanh chỗ đó. Với họ, cả vùng băng có một ký ức đang thở, và sinh vật canh ký ức ấy chỉ cần rời đi là cái cửa cuối sẽ trở thành mặt đất lạnh như mọi nơi khác.",
+    "lore_en": "The white seal lay beside a frozen breathing-hole, its nose upon the remembered circle. It softened that outline into an open eye within a closed lake. Elsewhere the power vanished.~Rescuers built their station around it. For them the ice has one breathing memory. If its living keeper leaves, the final door becomes cold ground like everywhere else."
+  },
+  {
+    "id": "creature-moth-of-the-lost-colour",
+    "mode": "replace",
+    "lore_vi": "Một cánh bướm mang màu của lọ thuốc nhuộm đã bị đổ trong đám cháy xưởng. Đậu lên vải ướt, nó trả một chấm sắc ấy, rồi cần nhiều tuần để cánh đầy màu lại. Người thợ sống sót thử pha suốt đời, vẫn phải đem mẫu mới tới cạnh bướm để nhận ra chỗ mình sai.~Màu thất truyền vì thế có nhịp sống riêng. Nó ăn, nghỉ, xếp cánh, và có thể chết trước khi bàn tay con người học được cách giữ điều mắt đã nhìn thấy.",
+    "lore_en": "One wing carries a dye lost in a workshop fire. On wet cloth it returns a dot of that colour, then needs weeks to refill. The surviving dyer spent his life mixing and still brought each attempt to the butterfly to see his error.~A lost colour thus eats, rests and folds its wings. It may die before human hands learn to retain what human eyes have seen."
+  },
+  {
+    "id": "creature-tortoise-of-the-first-touch",
+    "mode": "replace",
+    "lore_vi": "Trong hõm mai rùa còn hơi ấm bàn tay đã đón nó lúc nở. Người ấy mất từ lâu; qua mỗi mùa lạnh, rùa trao chút ấm rồi ngủ dài để hồi, giữ nguyên dấu đầu tiên qua những đôi tay tiếp quản. Người nuôi mới luôn đưa cả lòng tay cho nó lựa chỗ tựa.~Họ biết hơi ấm ấy sẽ chẳng biến thành một người. Điều lạ nằm ở chỗ một cuộc gặp chỉ xảy ra một lần vẫn có thể tiếp tục sưởi ai đó, chừng nào sinh vật đã nhận nó còn được phép sống yên.",
+    "lore_en": "The turtle's shell hollow retains the first hand that held it at hatching. That person is long dead. Each winter it lends a little warmth, then sleeps to recover, preserving that first contact through successive keepers. Each offers an open palm for it to choose its rest.~The warmth will never become its former giver. The wonder is that one meeting still warms someone, while its living recipient is allowed to remain at peace."
+  }
+]

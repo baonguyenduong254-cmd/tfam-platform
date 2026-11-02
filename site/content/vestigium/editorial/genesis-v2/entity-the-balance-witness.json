@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-balance-witness",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Trục cân dược liệu được thay bằng hợp kim có hạt khoáng trong. Hai người thợ cùng nhìn lần hiệu chỉnh đầu, đọc đồng thuận khi đĩa ngang. Giữa trục xuất hiện một dáng ngồi, cúi đầu theo đúng lúc ấy. Quả cân đổi, nhân chứng vẫn giữ vị trí trong chốt treo, chờ mặt cân trở lại hình đã nhận.\n\nNgười bán thử chỉnh trục để lời cân có lợi cho mình, thấy bóng nghiêng đầu về dấu cũ dù đĩa ngoài trông đã ngay. Ông gọi người thợ trở lại. Từ đó mỗi lượt giao chuẩn đều có hai người cùng xem, biết nhân chứng chỉ giữ điều họ đã đặt trước mắt nó, còn sự đúng đắn của điều ấy vẫn cần được làm ra bằng tay.",
+    "lore_en": "A medicine scale’s pivot was replaced with an alloy holding a clear mineral grain. Two craftsmen watched its first calibration and spoke agreement as the pans levelled. A seated figure appeared within the axis and bowed at that instant. Changed weights left it at the suspension pivot, awaiting the accepted balance.\n\nA seller shifted the axis for advantage and saw the figure tilt towards its earlier mark although the pans now appeared level. He called the craftsman back. Ever since, two people witness each new reference, knowing the figure keeps what is placed before it while correctness still has to be made by human hands.",
+    "use_vi": "Giữ một trạng thái cân đã được hiệu chỉnh và báo khác biệt ở trục, vị trí đĩa hoặc lượt đối chiếu.",
+    "use_en": "Retain a calibrated balance state and signal changes in pivot, pan position or comparison turns.",
+    "limits_vi": "Chuẩn ban đầu phải được hiệu chỉnh riêng; cân sai vẫn thành ký ức của nó. Chỉ chính bộ trục trú, rung bàn và gió cần được loại trước khi đọc dấu.",
+    "limits_en": "The initial standard needs independent calibration; an incorrect scale still becomes its memory. It knows its inhabited pivot only; remove bench vibration and drafts before reading.",
+    "skills": [
+      {
+        "name_vi": "Giao thế ngang",
+        "name_en": "Entrust the Level State",
+        "description_vi": "Sau hiệu chỉnh, hai người cùng đọc nhận chuẩn để bóng cúi và giữ vị trí trục với hai đĩa lúc đó.",
+        "description_en": "After calibration, two observers acknowledge the reference so it bows and retains the pivot and pan positions."
+      },
+      {
+        "name_vi": "Đầu nghiêng báo lệch",
+        "name_en": "The Tilted Head’s Warning",
+        "description_vi": "Đặt cân yên để bóng nghiêng về phía trục khác ký ức, gọi người kiểm lại trước lần cân mới.",
+        "description_en": "Steady the scale so its head inclines towards pivot departure from memory and prompts inspection."
+      },
+      {
+        "name_vi": "Dấu hai đĩa",
+        "name_en": "The Two Pans’ Marks",
+        "description_vi": "Tháo tải rồi soi chốt để hai điểm sáng nhỏ hiện tại vị trí đĩa từng ngang, hỗ trợ nhận dây treo đã đổi dài.",
+        "description_en": "Unload and light the pivot so two little points mark the earlier level pan positions and help detect changed suspension lengths."
+      },
+      {
+        "name_vi": "Giữ lượt đối cân",
+        "name_en": "Keep the Comparison Turn",
+        "description_vi": "Chạm đế sau một lần hai vật cân nhau để bóng giữ trạng thái ấy tạm bên chuẩn gốc, cho so khi đổi bên vật.",
+        "description_en": "Touch the base after balancing two objects so the figure temporarily retains that state beside its original standard for a side-swap test."
+      },
+      {
+        "name_vi": "Đổi bên kiểm",
+        "name_en": "The Side-Swap Check",
+        "description_vi": "Đổi vị trí hai vật trong lượt vừa giữ để bóng giơ tay khi trạng thái không trở lại như cũ, khoanh sai lệch cần người thợ xét.",
+        "description_en": "Swap the retained objects’ sides so it raises a hand if balance fails to return and indicates a discrepancy for assessment."
+      },
+      {
+        "name_vi": "Gõ tìm rung",
+        "name_en": "Knock to Find Vibration",
+        "description_vi": "Gõ thử nhẹ lên chân bàn rồi nhìn bóng nhòe phía nào để tìm đường rung ngoài đang vào cân, dọn nhiễu trước đo.",
+        "description_en": "Tap a table leg lightly and watch the figure blur to locate outside vibration entering the scale before measurement."
+      },
+      {
+        "name_vi": "Trở chuẩn gốc",
+        "name_en": "Return to the First Standard",
+        "description_vi": "Lấy vật đối ra và gọi tên lượt hiệu chỉnh đã ghi để bóng bỏ trạng thái so tạm, quay về ký ức chuẩn đầu.",
+        "description_en": "Remove compared objects and name the recorded calibration turn so it drops the temporary state and returns to its original reference."
+      },
+      {
+        "name_vi": "Giao lại sau sửa",
+        "name_en": "Re-Entrust After Repair",
+        "description_vi": "Sau khi sửa và hiệu chỉnh thật, hai người cùng xác nhận lại để bóng nhả chuẩn cũ và nhận trục mới; lời nhận một người khiến nó tiếp tục chờ.",
+        "description_en": "After repair and real calibration, two observers reacknowledge so it releases the old reference; one voice alone leaves it waiting."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhân chứng giữ điều được thấy",
+        "name_en": "The Witness Keeps What It Saw",
+        "description_vi": "Hai người cùng xác nhận giúp khép lượt giao chuẩn. Người chứng có thể báo lệch nhưng không thay quả cân truy nguyên được.",
+        "description_en": "Two agreeing observers close a reference turn. The witness signals deviation while traceable weights remain necessary."
+      }
+    ]
+  }
+]

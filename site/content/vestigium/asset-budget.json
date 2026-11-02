@@ -1,0 +1,8 @@
+{
+  "purpose": "Keep full Vestigium archive below Sites expanded size limit; existing image dimensions and alpha preserved",
+  "quality": 76,
+  "files": 1100,
+  "changed": 1100,
+  "beforeBytes": 123680074,
+  "afterBytes": 101546998
+}

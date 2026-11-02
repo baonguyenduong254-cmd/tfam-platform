@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-tidechart-alga",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Tảo bám tấm bản đồ bằng bạc bị chìm trong trạm đo triều. Mực khảm khoáng từ các đường độ sâu rã ra, theo sợi tảo lớn thành những nét bạc mới. Khi nước lên, các nét rời khỏi vị trí khắc cũ, bò ngang mặt lá như một bờ biển đang tự vẽ lại.\n\nNgười gác treo tảo sát kính trong bể thông với cửa sông. Đường bạc đổi chỗ cả lúc ông ngủ, giữ lại những vạch mảnh sau lần nước dâng. Mỗi sáng ông chép phần bản đồ sống ấy rồi gạt cặn khỏi mặt kính, biết một lớp bùn đủ khiến con sông trông như đã đổi tính.",
+    "lore_en": "Algae clung to a silver chart sunk inside a tide station. Mineral-inlaid ink from its depth contours broke apart and grew through the algal threads as new silver lines. When water rose, they left their engraved positions and travelled across the frond like a coast drawing itself anew.\n\nA keeper hung the algae against glass in a tank linked to the estuary. The silver moved while he slept, retaining fine marks after a rise. Each morning he copied this living chart and cleared the glass, knowing a film of mud could make the river appear to have changed its nature.",
+    "use_vi": "Phóng đại và lưu dao động nước của một trạm thông dòng để theo mức, nhịp và áp lực cục bộ.",
+    "use_en": "Magnify and retain water fluctuations at a connected station to follow local level, rhythm and pressure.",
+    "limits_vi": "Bể phải thông với nơi đo, có thang chuẩn và được làm sạch. Dòng trong ống tắc cho hình giả; tảo ghi nơi nó tiếp xúc, còn suy rộng ra biển xa cần thêm trạm.",
+    "limits_en": "The tank must connect to the measured site, have a reference scale and remain clean. A blocked connecting pipe gives false figures; the alga records its contact point, while distant seas need additional stations.",
+    "skills": [
+      {
+        "name_vi": "Ghim bản triều",
+        "name_en": "Mount the Tidechart",
+        "description_vi": "Ép tấm tảo sống sát kính có thang để đường bạc nhận mức nước nền, tạo mốc đọc đầu tiên.",
+        "description_en": "Mount a living frond against scaled glass so its silver accepts the base water level as its first reading."
+      },
+      {
+        "name_vi": "Vạch nước lên",
+        "name_en": "Mark the Rise",
+        "description_vi": "Theo nét bạc kéo cao khi áp nước tăng để đánh dấu mức lên tại trạm; cần đối thang thật sau mỗi lần thay tảo.",
+        "description_en": "Follow silver lifting with pressure to mark a local rise; compare the physical scale whenever the alga is replaced."
+      },
+      {
+        "name_vi": "Dấu nước rút",
+        "name_en": "Mark the Recession",
+        "description_vi": "Soi xiên sau lần rút để thấy các vạch nhạt còn trên mô, chép mức vừa qua trước khi chúng bị nét mới nuốt.",
+        "description_en": "Use oblique light after recession to read faint tissue marks of the previous level before new lines consume them."
+      },
+      {
+        "name_vi": "Nhịp bến",
+        "name_en": "The Harbour’s Pulse",
+        "description_vi": "Đọc khoảng các gợn bạc chạy ngang để so nhịp nước dội qua cửa bến, hỗ trợ chọn lúc đưa thuyền nhỏ qua.",
+        "description_en": "Read spacing between travelling silver ripples to compare surges at a harbour entrance and help time a small boat’s passage."
+      },
+      {
+        "name_vi": "Dấu ống nghẽn",
+        "name_en": "The Choked Pipe’s Sign",
+        "description_vi": "Khép rồi mở van chuẩn trong một nhịp để kiểm xem tảo trả đúng đường áp hay không, nhận đường thông đang tắc trước khi tin bản đo.",
+        "description_en": "Close and reopen a reference valve in one beat to check the expected pressure line and detect obstruction before trusting readings."
+      },
+      {
+        "name_vi": "Hai bể so nhau",
+        "name_en": "Compare Two Tanks",
+        "description_vi": "Nuôi hai tấm cùng lứa trên bể nối hai vị trí để đặt hình bạc cạnh nhau, thấy chênh cục bộ; cả hai cần cùng thang và độ sạch.",
+        "description_en": "Grow same-crop fronds in tanks linked to separate sites and compare their silver figures for local differences; both need equal scales and cleanliness."
+      },
+      {
+        "name_vi": "Vạch cực gần",
+        "name_en": "The Recent Crest",
+        "description_vi": "Chạm kính bằng đầu que khi nước ở đỉnh để nét bạc tại đó giữ thêm một vạch sáng, cho người đổi ca nhận mức đã thấy; vạch mờ theo lượt nước mới.",
+        "description_en": "Touch the glass with a stick at a crest to retain one bright silver mark for the next watch; fresh water cycles fade it."
+      },
+      {
+        "name_vi": "Rửa bản sống",
+        "name_en": "Wash the Living Chart",
+        "description_vi": "Cho nước cùng nguồn chạy chậm qua mặt tảo để cuốn cặn mà giữ mô bạc, phục hồi độ đọc; chà tay làm đứt các nét cần mọc lại.",
+        "description_en": "Run same-source water slowly over the frond to remove sediment while retaining silver tissue; hand rubbing breaks lines that must regrow."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bạc theo nước",
+        "name_en": "Silver Follows Water",
+        "description_vi": "Đường bạc là mô sống đổi vị trí theo áp, cần thời gian hồi sau khi bị kéo khỏi mặt kính.",
+        "description_en": "The silver lines are living tissue displaced by pressure and need recovery after being lifted from glass."
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-bich-khoang-kep-lua",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Thợ đúc tìm thấy những tinh thể beryl xanh ở đáy một lò đã tắt qua mùa đông. Quặng đồng chảy quanh chúng thành từng vòng khép kín. Bên trong mỗi vòng, một lưỡi lửa bé bằng cánh ong vẫn cúi về phía bễ đã mục, như đang đợi nhịp thổi kế tiếp.\n\nĐêm lò tắt, người coi bễ đã giữ tay trên cần suốt lúc mái xưởng cháy sụp. Đồng nóng chảy tràn qua ổ beryl trước khi tuyết vùi kín xưởng. Những viên đá kết tinh lại trong thế giằng co ấy: lửa muốn đi, đồng buộc nó ở lại, còn một nhịp thở dang dở cứ kéo nó về phía người thợ. Vòng đồng từ đó trở thành hàm kẹp mà ngọn lửa nhận ra ngay khi đến gần.\n\nBích Khoáng Kẹp Lửa được thợ kim hoàn mang như một chiếc kìm vô hình, được lính công thành gắn lên đầu sào dài. Đặt hai viên đối diện sẽ khiến lửa lao qua lại giữa chúng. Vết cháy còn trên tường xưởng khảo nghiệm cho thấy có lần ngọn lửa đã chọn cả người đứng ở giữa.",
+    "lore_en": "Founders discovered green beryl crystals at the bottom of a furnace extinguished through winter. Copper ore had flowed around them in closed rings. Within each ring, a flame the size of a bee’s wing still leaned towards the rotten bellows, awaiting the next stroke.\n\nOn the night the furnace died, its bellows keeper had held the lever while the burning roof collapsed. Molten copper crossed the beryl bed before snow buried the shop. The stones recrystallised within that struggle: fire striving to depart, copper binding it, an unfinished breath drawing it back towards the craftsman. Ever since, flame approaching the copper ring has recognised a pair of gripping jaws.\n\nJewellers carry Flameclasp Beryl as invisible tongs; siege troops mount it upon long poles. Opposed specimens send fire lunging between them. Scorch marks on the testing house’s walls record an occasion when the flame chose the person standing between them as well.",
+    "use_vi": "Kẹp, hướng và chuyển một ngọn lửa còn gắn với nguồn cháy để gia công hoặc mở hành lang qua đám cháy.",
+    "use_en": "Clasp, direct and transfer a flame still bound to its fuel for craftwork or to open a passage through fire.",
+    "limits_vi": "Vòng đồng phải liền mạch và có chỗ cho lửa thoát khi nhả kẹp. Càng giữ lâu, hơi thở người cầm càng nóng; vòng đồng cong méo làm lửa chộp lấy vật gần nhất. Hai viên đối nhau dễ tranh cùng một ngọn lửa.",
+    "limits_en": "The copper ring must remain unbroken, with room for flame to escape when released. Holding it heats the bearer’s breath; a distorted ring makes fire seize the nearest object. Facing specimens readily fight over the same flame.",
+    "skills": [
+      {
+        "name_vi": "Kẹp ngọn",
+        "name_en": "Clasp the Flame",
+        "description_vi": "Xoay vòng đồng ngang ngọn lửa để giữ đầu lưỡi lửa tại đó; phần gốc vẫn ăn nhiên liệu và có thể lan theo dầu tràn.",
+        "description_en": "Turn the copper ring across a flame to hold its tip in place; its base continues consuming fuel and can follow spilled oil."
+      },
+      {
+        "name_vi": "Mũi hàn",
+        "name_en": "Brazing Point",
+        "description_vi": "Khép vòng bằng một sợi đồng để nén lửa thành mũi nhỏ cho công việc tinh; dây đồng chảy đứt sẽ nhả toàn bộ ngọn lửa.",
+        "description_en": "Close the ring with copper wire to compress fire into a fine working point; melting the wire releases the whole flame."
+      },
+      {
+        "name_vi": "Cúi đầu",
+        "name_en": "Bow the Fire",
+        "description_vi": "Nghiêng viên đá để kéo lửa rạp xuống, mở khoảng trống cho người vượt qua; phải giữ tư thế cho đến khi người cuối rời khỏi.",
+        "description_en": "Tilt the stone to bow the fire and open clearance for passage; the posture must be held until the last person is clear."
+      },
+      {
+        "name_vi": "Chuyền bấc",
+        "name_en": "Pass the Wick",
+        "description_vi": "Chạm vòng vào hai bấc liên tiếp để đưa ngọn lửa từ bấc này sang bấc kia; bấc nhận phải có nhiên liệu sẵn.",
+        "description_en": "Touch the ring to two successive wicks to transfer their flame; the receiving wick must already hold fuel."
+      },
+      {
+        "name_vi": "Cắt đường bén",
+        "name_en": "Sever the Kindling Path",
+        "description_vi": "Kéo vòng ngang một vệt lửa đang chạy để bứt lưỡi lửa khỏi phần nhiên liệu kế tiếp; than hồng bị bỏ lại vẫn có thể nhóm cháy lại.",
+        "description_en": "Draw the ring across a racing flame to pull it away from the next fuel; abandoned embers can still rekindle it."
+      },
+      {
+        "name_vi": "Lửa quấn sào",
+        "name_en": "Pole-Wound Fire",
+        "description_vi": "Quay ngọc gắn trên đầu sào để cuốn lưỡi lửa quanh cán kim loại, giữ nó khỏi người bên dưới; dừng quay phải nhả về nguồn cũ.",
+        "description_en": "Rotate a pole-mounted gem to coil flame around its metal shaft, keeping it from those below; stopping requires releasing it towards its old fuel."
+      },
+      {
+        "name_vi": "Thử miệng lò",
+        "name_en": "Test the Furnace Mouth",
+        "description_vi": "Đưa ngọc tới cửa lò để cảm độ giằng của ngọn lửa trong cổ tay, nhận biết đợt lửa sắp phụt; lực giằng mạnh có thể kéo trật khớp.",
+        "description_en": "Bring the gem to a furnace mouth and feel the fire’s pull in the wrist, warning of an impending flare; a strong pull can dislocate the joint."
+      },
+      {
+        "name_vi": "Nhả hàm",
+        "name_en": "Unclasp the Jaws",
+        "description_vi": "Thở qua vòng đồng rồi mở bàn tay để thả lửa theo hướng hơi thở; người dùng phải chừa đường cháy trống trước mặt.",
+        "description_en": "Breathe through the copper ring and open the hand to release fire along the breath’s direction; the bearer must leave a clear burning path ahead."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hàm đồng ghen lửa",
+        "name_en": "Jealous Copper Jaws",
+        "description_vi": "Ngọc nhận ngọn lửa như một thứ có thể nắm. Nhiên liệu và khói vẫn có hành vi riêng, khiến người chỉ chăm nhìn lửa rất dễ bị ngạt.",
+        "description_en": "The gem treats flame as something graspable. Fuel and smoke retain their own behaviour, making a keeper who watches only the fire vulnerable to suffocation."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-hourstitch-bloom",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Một bông hoa sáu cánh mọc trong khe chiếc đồng hồ sân vườn đã đứng. Rễ hút nước qua bánh răng khảm tinh thể; mỗi lần người thợ chạm tinh thể để thử máy, gân hoa lại sáng theo từng cánh. Bánh răng được tháo đi, các chồi mới vẫn giữ sáu đường sáng chờ được gọi.\n\nNgười thợ nhận cây thay tiền công. Ông đặt nó cạnh bàn rồi theo ánh cánh để căn những thao tác ngắn. Lúc mắt già khó thấy kim, sáu lần hoa đổi sáng vẫn đủ để tay ông buộc xong chiếc nút đã làm cả đời.",
+    "lore_en": "A six-petalled flower grew in the crack of a stopped garden clock. Its roots drank through a crystal-inlaid wheel; whenever a repairer touched the crystal to test the works, the flower’s veins lit petal by petal. The wheel was removed, yet new shoots retained six luminous paths awaiting a call.\n\nThe repairer accepted the plant as payment. He set it beside his bench and timed short tasks by the petals. When old eyes struggled to see a clock hand, six changes of light still let his hands finish a knot practised all his life.",
+    "use_vi": "Đếm sáu khoảng liên tiếp cho công việc ngắn khi thiếu đồng hồ dùng được.",
+    "use_en": "Count six successive intervals for short work when no working clock is available.",
+    "limits_vi": "Khoảng nhịp thay đổi theo tuổi và sức hoa, cần căn với mẫu quen. Hết sáu cánh phải chạm tinh thể lại; cây vẫn cần đất, nước và ánh sáng.",
+    "limits_en": "Intervals vary with age and plant health and need calibration. After six petals it requires another crystal touch; the plant still needs soil, water and light.",
+    "skills": [
+      {
+        "name_vi": "Khâu sáu nhịp",
+        "name_en": "Stitch Six Beats",
+        "description_vi": "Chạm tinh thể vào đài rồi rút tay để sáu cánh lần lượt sáng, mỗi cánh giữ một khoảng gần đều; lần chạm giữa lượt bắt chuỗi lại từ đầu.",
+        "description_en": "Touch a crystal to the calyx and withdraw to light six petals in turn for roughly even intervals; touching it mid-count restarts the sequence."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sáu mũi chỉ sáng",
+        "name_en": "Six Luminous Stitches",
+        "description_vi": "Cánh cuối thường yếu nhất; hoa sắp tàn có thể tắt giữa lượt, vì vậy người thợ canh bằng cây khỏe.",
+        "description_en": "The final petal is usually faintest; a dying bloom may stop mid-count, so workers use a healthy plant."
+      }
+    ]
+  }
+]

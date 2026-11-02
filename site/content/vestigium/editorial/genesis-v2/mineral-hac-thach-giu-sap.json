@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-hac-thach-giu-sap",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Mặt hắc thạch được tìm dưới nền một xưởng đúc nến chìm nửa trong đất. Sáp nhiều đời đã tràn xuống các rãnh cạnh một mẩu khoáng tối hình hạt, rồi đông thành những đường chỉ không nhận lửa mới. Người đào gỡ lớp sáp trên cùng thấy mặt đá vẫn đen ướt, tự kéo giọt mới vào đúng chỗ dấu cũ vừa rời.\n\nMẩu hạt bị lấy đi không làm phản ứng tắt: những rãnh đã học được việc giữ hình sáp. Người đúc dùng chúng lấy dấu và trả dấu, mang qua tay mình một trí nhớ nằm trong vật vốn chỉ để đặt dưới lò.",
+    "lore_en": "Black stone lay beneath a half-buried candle-foundry. Generations of wax had filled grooves beside a dark seed-shaped mineral and set into filaments unresponsive to fresh flame. Removing the upper wax exposed wet black stone drawing new drops into the departing impressions.\n\nTaking the seed away did not end it: the grooves had learnt to retain wax-shapes. Founders used them to take and return impressions, handling memory within what had merely supported a furnace.",
+    "use_vi": "Giữ sáp mềm trong đường khắc và cho một dấu đã nhận hiện lại khi nạp sáp mới.",
+    "use_en": "Hold soft wax within grooves and restore one accepted impression into fresh wax.",
+    "limits_vi": "Chỉ một hình được nhận ở mỗi vùng. Sáp đổi mẻ quá khác có thể nhận dấu méo; lửa nung trực tiếp làm rãnh mất trí nhớ và rỉ màu đen vào sáp.",
+    "limits_en": "Each region holds one shape. Very different wax may reproduce it distorted; direct fire destroys its memory and bleeds black colour.",
+    "skills": [
+      {
+        "name_vi": "Giữ mép sáp",
+        "name_en": "Hold the Wax-Edge",
+        "description_vi": "Đổ sáp vừa mềm lên mặt để nó tự dồn vào rãnh dù phiến nghiêng. Dầu bám mặt làm sáp chọn các đường bẩn khác.",
+        "description_en": "Soft wax fills its grooves even on a tilt. Surface oil misdirects it along dirtied paths."
+      },
+      {
+        "name_vi": "Trả dấu trong đá",
+        "name_en": "Return the Stone’s Impression",
+        "description_vi": "Chạm hình thật một lần rồi nạp lớp sáp mới để đá đẩy lại đường đã nhận. Chồng một hình khác sẽ thay phần trí nhớ ở cùng chỗ.",
+        "description_en": "Offer a real shape once, then fresh wax to restore its outline. A second shape replaces memory in the same region."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vết ở lại dưới lớp mềm",
+        "name_en": "A Mark Beneath Softness",
+        "description_vi": "Đá mòn dần theo số lượt nhận dấu, khiến những hình cũ nằm sâu nhất thường chỉ còn một phần.",
+        "description_en": "The surface wears with repeated impressions, leaving the deepest old forms partial."
+      }
+    ]
+  }
+]

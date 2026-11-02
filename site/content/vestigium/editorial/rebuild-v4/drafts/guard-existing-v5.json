@@ -1,0 +1,259 @@
+[
+  {
+    "id": "armament-gleipnir",
+    "epigraph_vi": "Một sợi dây còn giữ, một lối thoát còn chờ.",
+    "epigraph_en": "While one cord holds, one escape remains.",
+    "lore_vi": "Cincuenta y Dos gập thép quanh hai cẳng tay và thắt lưng Liv. Dao giấu, phi đao, móc và dây bố trí dọc người nàng, biến một thanh sabre thành những đường tiếp cận rải khắp cơ thể. Gleipnir tồn tại trong cách các phần ấy nối được với nhau.\n\nMột móc giữ điểm cao, một đường dây kéo lệch nòng súng, một lưỡi nhỏ tìm tới bàn tay vừa lộ ra. Liv đi qua những góc chết mở giữa các thao tác ấy, rồi dùng chính đường bám của mình để kéo người khác khỏi nguy hiểm. Ở nơi một lối chính đã khóa, hệ ám khí trao cho nàng công việc tìm và giữ một lối khác."
+  },
+  {
+    "id": "armament-marco-octava-forja",
+    "epigraph_vi": "Bảy khối thép, muôn việc còn chờ bàn tay.",
+    "epigraph_en": "Seven blocks of steel, countless tasks awaiting a hand.",
+    "lore_vi": "Trong tay Marco, một lưỡi thép mở thành công xưởng. Búa Octava Forja giữ quyền chỉ huy bảy khối đen viền vàng; từng khối xoay cạnh, đổi mặt và chờ một cấu trúc mới được gọi tên. Ở Fes, chúng trở thành cầu, công sự, bộ phận máy. Giữa Hoàng cung, hai khối làm cột, ba khối làm xà, hai khối giăng lưới đỡ người phía dưới.\n\nCái tên công xưởng còn mang theo những lần thất bại. Thử nghiệm đạn khối lập phương từng làm hỏng năm khẩu pháo. Khi Romeo truyền điện vào chúng, Marco có thêm một con đường tích và phóng lực; người thợ đứng giữa trận phải quyết định cấu trúc nào chịu nổi sức mạnh mình vừa vay."
+  },
+  {
+    "id": "armament-northwall",
+    "epigraph_vi": "Giữ vững nơi này, ta còn đường tiến tới.",
+    "epigraph_en": "Hold this ground, and we may yet advance."
+  },
+  {
+    "id": "armament-romeo-oathbreaker",
+    "epigraph_vi": "Mỗi nhát bổ đều có phần sức phải mang.",
+    "epigraph_en": "Every stroke carries its own weight.",
+    "traits": [
+      {
+        "name_vi": "Hai Lưỡi Mang Lôi",
+        "name_en": "Twin Lightning-Bearing Blades",
+        "description_vi": "Thép dồn về chuôi rồi mở thành đầu rìu hai lưỡi, mang điện dọc phần đầu vũ khí.",
+        "description_en": "Steel gathers towards the grip and opens into a twin-bladed axe head, carrying electricity along its head."
+      }
+    ]
+  },
+  {
+    "id": "armament-skoll-hati",
+    "epigraph_vi": "Hai tiếng súng nối nhau qua khoảng trống.",
+    "epigraph_en": "Two gunshots follow one another through the gap."
+  },
+  {
+    "id": "armament-winterthorn",
+    "epigraph_vi": "Một đường bạc đủ tìm khe hở.",
+    "epigraph_en": "One silver line can find an opening."
+  },
+  {
+    "id": "armament-oathbearer",
+    "epigraph_vi": "Bàn tay khép lại, tiếng sấm còn vang.",
+    "epigraph_en": "The hand closes; thunder still sounds.",
+    "traits": [
+      {
+        "name_vi": "Hình Thái Bổ Sung Của Doce",
+        "name_en": "Additional Doce Manifestation",
+        "description_vi": "Găng có thể cùng hiện diện với rìu Oathbreaker; cả hai đều triển khai từ Doce.",
+        "description_en": "The gauntlet can coexist with the Oathbreaker axe; both deploy from Doce."
+      }
+    ]
+  },
+  {
+    "id": "armament-collection-5-01",
+    "epigraph_vi": "Cứ qua cửa. Ta còn giữ được.",
+    "epigraph_en": "Through the gate. I can still hold.",
+    "lore_vi": "Tại một cổng phụ có đoàn thương binh đang rút, Veintiuno có thể triển khai tấm khiên cửa. Trên mặt bạc đen hiện dấu của khung cửa phía sau, và những cú va nhắm vào khoảng mở bắt đầu tìm tới khiên. Người giữ đứng trước cổng, để mọi người tiếp tục đi qua chỗ đáng lẽ phải khép lại.\n\nPosternum nhận một lối đang được bảo vệ làm phần sau của nó. Vũ khí phóng qua phía mặt chắn phải chạm bạc trước khi tới những người nằm trong ngưỡng. Mỗi lần nhận đòn, một ô vuông tối thêm trên mặt khiên. Cận vệ đọc những ô ấy như người giữ thành đọc vết nứt trên cổng: còn bao nhiêu chỗ để đứng, và ai vẫn chưa qua.",
+    "lore_en": "Veintiuno’s door-shield can deploy at a postern through which the wounded were withdrawing. The frame behind its bearer appeared upon the blackened silver, and impacts aimed at the opening began finding the shield. The keeper stood before the gate while people continued through a space that should have closed.\n\nPosternum receives a protected passage as its far side. Weapons entering through its defended face must meet silver before reaching those within the threshold. Each impact darkens a square upon the shield. The Guard reads those squares as a castellan reads cracks in a gate: how much standing room remains, and who has yet to pass."
+  },
+  {
+    "id": "armament-collection-5-02",
+    "epigraph_vi": "Thép đã chạm nhau còn nhớ dấu.",
+    "epigraph_en": "Steel that has met retains the mark.",
+    "lore_vi": "Cognitor có những ô trống trên chuôi. Sau lần thép chạm thép đầu tiên, một nét khắc hiện trong ô gần ngón cái: dấu của thứ vũ khí nó vừa chạm. Khi đối thủ đổi tay, đổi tư thế hoặc giấu lưỡi sau áo choàng, dấu ấy vẫn rung theo chính khối thép đã giao tranh.\n\nVeintitrés dùng thanh kiếm trong những cuộc đấu mà một nhịp giả có thể kéo cả đội vào thế chết. Cognitor cho bàn tay biết lúc vũ khí đã ghi dấu bắt đầu chuyển động, và lưỡi của nó tìm lại đường chạm cũ khi người giữ chủ động trả đòn. Dấu khắc ghi nhận chính vũ khí ấy; đổi sang vũ khí khác buộc người cầm kiếm học lại một cuộc gặp.",
+    "limits_vi": "Mỗi ô giữ một dấu, các dấu chồng làm chuôi rung khó đọc. Quyền nhận biết gắn với vật đã chạm; người dùng vẫn cần chọn bước, đỡ lực và tránh đòn từ vũ khí chưa được ghi dấu."
+  },
+  {
+    "id": "armament-collection-5-03",
+    "epigraph_vi": "Mũi tên còn nhớ đường về.",
+    "epigraph_en": "The bolt remembers its way back.",
+    "lore_vi": "Mũi tên của Regressus để một vòng bạc đứng trong không khí khi rời nỏ. Vòng thu nhỏ theo đường bay, ghi cả chỗ mũi tên bị gạt và quãng nó lướt sát vật cản. Veinticuatro kéo cần thứ hai để mũi tên đi ngược đường ấy.\n\nMột tên móc đã ghim vào giáp có thể giật người mặc lệch khỏi chỗ che. Mũi tên gắn dây cứu hộ mang dây về qua đúng lối vừa tìm được. Người mang Regressus phải nghĩ cả hai chiều trước khi bóp cò, bởi một vật trở lại cũng kéo những thứ đang buộc với nó qua tuyến đã ghi. Dấu bạc trên vòng ngắm tối đi ở nơi đường cũ đã bị khóa."
+  },
+  {
+    "id": "armament-collection-5-04",
+    "epigraph_vi": "Cho ta đủ thì giờ rời khỏi nhát đánh này.",
+    "epigraph_en": "Give me time to leave this blow behind."
+  },
+  {
+    "id": "armament-collection-5-05",
+    "epigraph_vi": "Dưới chân còn vững, người sau còn qua.",
+    "epigraph_en": "While the ground holds, others can pass.",
+    "lore_vi": "Đầu đá đen rạn vàng của Fundamentum được hạ lên một dấu nền do Veintisiete chọn. Tiếng nện đi xuống thay vì vang xa; mặt đất quanh dấu giữ nguyên vị trí ngay khi đất mềm dưới nó bắt đầu trượt. Trên phần nền đã được giữ, người ta đủ thời gian dựng chân chống, kéo pháo hoặc đưa cáng qua.\n\nCông binh đánh dấu cả chu vi cần giữ trước khi xin nhát búa. Một nền được gọi quá rộng sẽ nứt thành các mảng nhỏ, mỗi mảng đòi đầu chùy nhận lại. Trong chiến đấu, cận vệ có thể giữ chân khẩu đội trước sức giật hoặc khóa nơi đối phương đang muốn đào sập. Những đường vàng lan lên cán khi nền đang chịu nhiều hơn dấu ban đầu đã nhận."
+  },
+  {
+    "id": "armament-collection-5-06",
+    "epigraph_vi": "Nghe đá đáp trước khi nổ súng.",
+    "epigraph_en": "Hear the stone answer before firing.",
+    "lore_vi": "Veintiocho đặt vòng âm thoa của Resonans vào mặt chắn cần phá trước khi nạp quả đạn đồng. Vòng nhận tiếng của gỗ, đá hoặc thép bằng một nhịp rất thấp. Khi viên đạn chạm đúng mặt đã nhận, phần sức đáng lẽ tỏa quanh điểm va chạy theo tiếng đáp vào trong kết cấu.\n\nResonans được giữ cho cổng, thành và những khoang tàu mà pháo thường phải bắn nhiều lần mới mở được. Một khoảng rỗng hoặc lớp ghép sai bên trong có thể khiến đường đáp đổi hướng, làm người tính chỗ đặt quân phải suy nghĩ lại. Quả đạn cho phép đưa sức phá tới một mặt đã chọn; hậu quả khi mặt ấy đổ vẫn thuộc về toàn bộ chiến trường phía sau."
+  },
+  {
+    "id": "armament-collection-5-07",
+    "epigraph_vi": "Dưới đống đá kia còn một nhịp tim.",
+    "epigraph_en": "Beneath those stones, a heart still beats.",
+    "lore_vi": "Lưới đỏ sẫm bên tai Auscultor rung trước tiếng tim mà người mang chưa kịp nghe. Veintinueve úp tay vào vành mũ để tách một nhịp khỏi tiếng máy, rồi nhận hướng của nó qua độ căng các sợi. Trong một nhà sập, nhịp yếu nhất có thể là phần công việc cần làm trước.\n\nKhi đột kích, cận vệ dùng mũ để phân biệt bước người sau tấm chắn và nơi có người đang chờ nổ súng. Nó cũng nghe những nhịp bơm, bánh xe và cơ cấu có tiết tấu gần giống sự sống. Người giữ học cách đọc cả những lần mũ nhầm, vì một đội cứu nạn đi theo tiếng giả vẫn mất đi thời gian của người thật đang nằm dưới đá."
+  },
+  {
+    "id": "armament-collection-5-08",
+    "epigraph_vi": "Giữ một dải bờ cho người lên khỏi nước.",
+    "epigraph_en": "Hold a strip of shore for those leaving the water.",
+    "lore_vi": "Vòng san hô trắng trên Litoralis nhận đường nước khi Treinta cắm thương tại mép bờ. Sóng tiếp tục dâng ngoài ranh, còn một dải nền phía trong giữ nguyên ranh khô và ướt của lúc mũi thương chạm đất. Đoàn đổ bộ bước xuống trong khoảng đất vừa được gọi là bờ.\n\nNgười mang dùng nó đưa cáng lên khỏi nước, ghim một điểm tiếp nhận giữa bến bị phá hoặc giữ bãi tập kết khỏi một đợt triều. Litoralis làm một ranh tạm trong chuyển động rộng hơn của biển. Khi san hô chuyển xám, cận vệ phải rút người trước khi trả đường nước về với những gì đang chờ ngoài mũi thương."
+  },
+  {
+    "id": "armament-collection-6-01",
+    "epigraph_vi": "Phần đòn này, ta cùng nhận.",
+    "epigraph_en": "We shall share this blow."
+  },
+  {
+    "id": "armament-collection-6-02",
+    "epigraph_vi": "Tiếng vọng cũng có nơi dừng lại.",
+    "epigraph_en": "Even an echo has a place to end."
+  },
+  {
+    "id": "armament-collection-6-03",
+    "epigraph_vi": "Ta đứng đây như đá giữ sườn núi.",
+    "epigraph_en": "I stand here as stone holds the mountainside.",
+    "lore_vi": "Oros triển khai thành những phiến đá xám có khớp đồng đỏ. Khi Treinta y Cuatro đứng yên và xác định một mốc đất, đường viền giáp bắt đầu ăn vào cảnh quan: tuyết bám như bám lên vách núi, gió rẽ theo sườn và những cú xô phải tìm một chỗ khác để dời đi.\n\nCận vệ dùng Sơn Hình giữ lối trước cửa thành, trụ cho một dây kéo hoặc đứng cạnh phần tường đang bị phá. Một người trong giáp có thể trở thành điểm mà những người khác dựa vào để làm việc. Muốn bước tiếp, người mang phải trả mốc về cho đất; các khớp đồng mở theo thứ tự, cho thân thể nhận lại sức nặng đang được thế núi gánh hộ."
+  },
+  {
+    "id": "armament-collection-6-05",
+    "epigraph_vi": "Hãy nói rõ điều mình chịu ngừng.",
+    "epigraph_en": "Name what you agree to cease."
+  },
+  {
+    "id": "armament-collection-6-07",
+    "epigraph_vi": "Đường đạn cũ còn chỗ cho phát sau.",
+    "epigraph_en": "The former course has room for another shot."
+  },
+  {
+    "id": "armament-collection-7-01",
+    "epigraph_vi": "Ta đã nhận đưa người tới nơi.",
+    "epigraph_en": "I have undertaken to see you there."
+  },
+  {
+    "id": "armament-collection-7-03",
+    "epigraph_vi": "Những mảnh rời còn chung một tên.",
+    "epigraph_en": "The scattered pieces still share a name."
+  },
+  {
+    "id": "armament-cuarenta-cuatro-sarab",
+    "epigraph_vi": "Năm giây, một khoảng vừa đủ để tới gần.",
+    "epigraph_en": "Five seconds, just enough to draw near."
+  },
+  {
+    "id": "armament-cincuenta-cinco-qamar",
+    "epigraph_vi": "Vòng nguyệt còn bay, ta còn bước tiếp.",
+    "epigraph_en": "While the crescent flies, I keep moving."
+  },
+  {
+    "id": "armament-sesenta-uno-ignifer",
+    "epigraph_vi": "Giữ hơi nóng cho công việc còn dang dở.",
+    "epigraph_en": "Keep the heat for work yet unfinished.",
+    "traits": [
+      {
+        "name_vi": "Một Lò Ba Nhánh",
+        "name_en": "One Furnace, Three Branches",
+        "description_vi": "Buồng lửa và ba mũi dẫn cùng dùng một kho nhiệt, cho phép phân phối sức nóng giữa những vị trí khác nhau.",
+        "description_en": "The furnace chamber and three conducting lances share one heat store, distributing warmth among different positions."
+      }
+    ],
+    "lore_vi": "Ignifer được biên soạn từ ước muốn giữ hơi ấm cho đoàn quân giữa đồng băng: số Sáu Mươi Mốt triển khai một buồng lửa có thể nhận sức nóng đã được trao cho nó rồi dẫn tới những đầu nối xa thân người mang.\n\nMột mũi thương cắm xuống đất làm nền trú quân. Mũi thứ hai luồn vào nồi hơi. Mũi cuối cùng giữ bên y sĩ. Cùng thứ nhiệt đã cứu một trại quân có thể được dồn thành một lần phóng xuyên qua giáp băng; người mang phải chọn phần lửa nào ở lại với người sống.",
+    "lore_en": "Ignifer is authored from the wish to keep a marching column warm upon frozen fields: Number Sixty-One deploys a fire-chamber that receives heat freely delivered to it and conducts it towards outlets distant from its bearer.\n\nOne lance goes into the ground to prepare a refuge. Another enters a boiler. The last stays beside the surgeon. The same heat that saves a camp can be concentrated into a discharge through ice-armour; its bearer must choose which portion of fire remains with the living."
+  },
+  {
+    "id": "device-035",
+    "epigraph_vi": "Dưới lớp băng, nước vẫn tìm đường.",
+    "epigraph_en": "Beneath the ice, water still finds a way.",
+    "lore_vi": "Người mang Cinco có thể dùng kính khói khi một đoàn xe đứng trước con sông tưởng đã đóng cứng. Qua tròng kính, mặt băng trở thành lớp cửa sổ đục; bên dưới là những đường nước vẫn đang kéo nền tuyết đi. Người giữ xoay tay cầm bạc, chọn một đường đáy còn liên tục rồi đánh dấu lên bờ.\n\nVados cho phép người cầm lần theo hình của dòng chảy, thấy đáy trong phạm vi mặt nước mình đang nhìn và chỉ một tuyến vượt cho người khác. Công binh dùng nó trước khi đặt cầu phao; đội tuần tra dùng nó tìm chỗ nước đã khoét rỗng dưới chân băng. Những gì hiện trong kính tiếp tục đổi cùng dòng sông, buộc người dẫn đoàn nhìn lại trước mỗi lượt qua.",
+    "lore_en": "Cinco can use the smoked lens when a wagon column faced a river believed frozen solid. Through it the ice became a clouded window; beneath ran currents still carrying the snow’s foundation away. The keeper turned the silver handle, chose an unbroken bed-line and marked the bank.\n\nVados lets its bearer follow the shape of a current, see the bed within the water under observation and designate a crossing for others. Engineers consult it before laying pontoons; patrols use it to find water hollowing the underside of ice. What the lens reveals keeps changing with the river, requiring another look before each crossing."
+  },
+  {
+    "id": "device-036",
+    "epigraph_vi": "Gọi thêm lần nữa. Có người còn nghe.",
+    "epigraph_en": "Call once more. Someone still hears."
+  },
+  {
+    "id": "device-037",
+    "epigraph_vi": "Giữ một hơi thở cho quãng nước sâu.",
+    "epigraph_en": "Keep one breath for the deep water."
+  },
+  {
+    "id": "device-038",
+    "epigraph_vi": "Cánh cửa còn nhớ lối đã mở.",
+    "epigraph_en": "The door remembers the way it opened."
+  },
+  {
+    "id": "device-039",
+    "epigraph_vi": "Nét mực bên này tới bàn tay bên ấy.",
+    "epigraph_en": "The ink here reaches the hand over there."
+  },
+  {
+    "id": "device-040",
+    "epigraph_vi": "Nhìn rõ chỗ đau rồi hãy đặt dao.",
+    "epigraph_en": "See the hurt clearly before setting the blade.",
+    "lore_vi": "Quince đặt chân giá vào cạnh bàn, xoay ba mặt kính cho cả ba cùng soi một cơ thể. Mặt đầu phản chiếu da, mặt thứ hai soi lớp sâu hơn, mặt cuối cho thấy quan hệ giữa những phần bị che. Intus đưa các mặt phản chiếu tới những độ sâu khác nhau mà thân thể người nằm trên bàn vẫn nguyên.\n\nY sĩ dùng nó để lần theo đầu đạn, tìm đường mạch và chọn chỗ can thiệp. Kính cũng có thể nhận một khối gỗ hay thân máy, nhưng những hình ấy cần bàn tay của người hiểu chúng để đọc. Các lằn mờ trên bạc là nơi ba mặt đã mất đối chiếu, nhắc người giữ chỉnh giá trước khi tin vào một đường đi.",
+    "limits_vi": "Thân thể hoặc vật thể cần quan sát phải nằm trong vùng cả ba kính cùng soi. Chuyển động làm các lớp lệch; hình phản chiếu không tự phân loại bệnh, chữa tổn thương hay hướng dẫn người thiếu kiến thức."
+  },
+  {
+    "id": "device-041",
+    "epigraph_vi": "Dưới nền im lặng còn những khoảng trống.",
+    "epigraph_en": "Beneath the silent ground, hollows remain.",
+    "lore_vi": "Cavitas có vành đá khiến người lần đầu cầm tưởng mình đang khiêng một mảnh nền nhà. Dieciocho gõ vào mặt da, và tiếng đáp xuất hiện dưới lòng đất theo những độ sâu khác nhau. Khi người giữ ép vành xuống nền, tiếng vọng từ các khoảng rỗng tạo thành một mạng nhịp gõ có thể lần bằng đầu ngón tay.\n\nCông binh mang trống trước đội đào và những đoàn pháo phải qua mặt đường phủ tuyết. Bệnh xá dựng sau cuộc vây hãm cũng cần tiếng trống ấy, bởi một mái nhà còn đứng có thể che bên dưới một tầng hầm đã mất cột. Cavitas cho biết nơi âm thanh tìm được chỗ đi qua; quyết định chống, đào hay bỏ tuyến thuộc về người đọc mạng đáp."
+  },
+  {
+    "id": "device-042",
+    "epigraph_vi": "Ngọn đèn chờ người hết ca trở lại.",
+    "epigraph_en": "The lamp awaits the watcher’s return.",
+    "lore_vi": "Vigilia ghi nhận ca gác khi người giữ đặt tay lên chân sắt của ngọn đèn kính xanh. Trong lửa hiện một nét đứng mảnh, giữ dấu người vừa nhận nhiệm vụ. Khi người ấy đi hết tuyến, vệt sáng trở về đúng chỗ trên kính; nếu họ ngã, đèn để lại một vết chao theo hướng chưa hoàn tất.\n\nDiecinueve đặt đèn ở nơi giao ca và nối các lượt tuần bằng cùng một ngọn. Nó giúp người sau biết mình đang nhận phần việc nào, nơi nào đã được đi qua và lúc nào một sự im lặng cần được tìm hiểu. Vigilia cũng được dùng ở kho lương, trại ngủ và bệnh xá, nơi một chiếc ghế trống đôi khi quan trọng hơn tiếng động ngoài tường."
+  },
+  {
+    "id": "device-043",
+    "epigraph_vi": "Giữ cửa thêm chút nữa, người cuối còn bên trong.",
+    "epigraph_en": "Hold the door a little longer; the last one is still inside.",
+    "lore_vi": "Veinte có thể dùng đồng hồ hai mặt khi giữ một cửa kho đang sập để những người bên trong đi ra. Mặt trước chạy cùng thế giới; mặt sau đứng ở tiếng then vừa gãy. Giữa hai mặt là khoảng một việc đã bắt đầu mà vẫn chưa được khép.\n\nMora giữ một thao tác có điểm kết thúc rõ, rồi trao cho người mang những lượt hành động nằm trong khoảng ấy. Người giữ có thể đặt chống vào dưới cửa, rút một bàn tay khỏi cơ cấu hoặc xoay một tấm khiên trước lúc cú chạm hoàn tất. Việc bên ngoài vẫn tiếp diễn. Khi mặt sau đuổi kịp mặt trước, phần đã được thay đổi trở thành điều kiện thật của kết quả.\n\nNhững người dùng đồng hồ giỏi nhất thường làm việc cùng thợ và y sĩ: họ chuẩn bị sẵn thứ cần đưa vào khoảng vay. Một khoảng mở được trao cho đôi tay trống chỉ kết thúc bằng cùng tiếng gãy đã chờ từ đầu.",
+    "lore_en": "Veinte can use the double-faced clock while holding a collapsing storeroom door for those within. Its front kept the world’s time; its reverse stopped at the breaking latch. Between them lay the interval of an act begun but not yet closed.\n\nMora receives an operation with a clear ending and gives its bearer actions within that interval. The keeper can place a prop beneath a door, withdraw a hand from machinery or turn a shield before contact completes. Events outside continue. When the reverse catches the front, what has been altered becomes a real condition of the result.\n\nIts most accomplished users work beside craftsmen and surgeons, preparing what the borrowed interval needs. An opening granted to empty hands ends with the same breaking sound that waited at its beginning."
+  },
+  {
+    "id": "device-cuatro-zodiacum",
+    "epigraph_vi": "Mỗi vì sao sáng lên đều có phần phải trả.",
+    "epigraph_en": "Each star that shines exacts its share."
+  },
+  {
+    "id": "device-ochenta-nueve-orbis",
+    "epigraph_vi": "Biển trải rộng, ta còn nhìn thấy nhau.",
+    "epigraph_en": "The sea stretches wide; we can still see one another."
+  },
+  {
+    "id": "device-setenta-seis-ferraria",
+    "epigraph_vi": "Mang cả tay nghề tới nơi thiếu một chiếc chốt.",
+    "epigraph_en": "Bring the craft to where a single pin is missing.",
+    "traits": [
+      {
+        "name_vi": "Ngàm Giữ Mẫu",
+        "name_en": "Pattern-Holding Jaws",
+        "description_vi": "Những ngàm nhỏ triển khai quanh bàn tay, giữ cấu kiện mẫu để ép phôi theo hình đã lưu.",
+        "description_en": "Small jaws deploy around the hand, holding a model component to shape blanks after its retained form."
+      }
+    ]
+  },
+  {
+    "id": "complex-dos-sutura",
+    "epigraph_vi": "Còn một sợi chỉ nối người với sự sống, ta vẫn chưa buông tay.",
+    "epigraph_en": "While one thread binds you to life, I shall not let go."
+  },
+  {
+    "id": "complex-noventa-siete-palingenia",
+    "epigraph_vi": "Tiếng chuông còn gọi những con đường đã mất.",
+    "epigraph_en": "The bell still calls to streets that were lost.",
+    "traits": [
+      {
+        "name_vi": "Thành Trong Hồi Chuông",
+        "name_en": "Citadel within the Peal",
+        "description_vi": "Đường phố và công trình đã mất hiện trong miền chuông bằng những phần người mang từng trực tiếp chứng kiến.",
+        "description_en": "Lost streets and structures appear within the bell-domain from portions directly witnessed by the bearer."
+      }
+    ]
+  }
+]

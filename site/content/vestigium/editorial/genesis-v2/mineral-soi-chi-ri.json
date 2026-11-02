@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-soi-chi-ri",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Sỏi Chỉ Rỉ hình thành trong bụng một bức tượng sắt bị chôn cùng quặng xanh. Nhiều mùa nước ngầm ăn ruột tượng, đẩy rỉ vào những hòn sỏi trắng cho tới khi mỗi viên có một mắt đỏ chưa từng được khắc. Người tháo tượng đem sỏi đi cọ dụng cụ thấy mắt đỏ mở cả trên phần sắt ngoài còn sáng.\n\nMột người sửa neo lần theo các vệt mắt chỉ, tìm được chỗ xích rỗng trước khi đứt. Họ còn học được cách để mắt nhả lại rỉ đã nhận thành vảy làm mẫu. Phần tượng đã mục vì thế trao cho người dùng một thói phát hiện chính điều từng hủy mình.",
+    "lore_en": "Rust-Showing Pebbles formed inside an iron statue buried with green ore. Groundwater carried its internal rust into white gravel until every grain bore an uncarved red eye. Rubbed upon tools, those eyes opened even where the surface still shone.\n\nAn anchor-smith followed their indications to a hollow link before failure. Keepers also learnt to release retained rust as comparison-flakes. A ruined statue had passed on the habit of recognising what destroyed it.",
+    "use_vi": "Nhận dấu rỉ gần mặt sắt và lấy một phần dấu đã nhận để so với mẫu khác.",
+    "use_en": "Detect near-surface rust and extract part of its received trace for comparison.",
+    "limits_vi": "Mắt đỏ không đo được sức chịu lực còn lại. Cọ nhiều mẫu mà chưa xả làm rỉ cũ lẫn mới; bề mặt được bôi chất che có thể làm mắt đóng.",
+    "limits_en": "The red eye gives no remaining load-capacity. Unemptied samples mingle old and new rust; surface coatings may close its eye.",
+    "skills": [
+      {
+        "name_vi": "Mắt chỉ phần mục",
+        "name_en": "The Eye Finds Decay",
+        "description_vi": "Chà mặt trắng lên sắt để mắt đỏ lan về phía rỉ được nhận. Da tay rách không nên chạm vảy mới nhả.",
+        "description_en": "Rub its white face upon iron to spread red towards detected rust. Keep broken skin away from released flakes."
+      },
+      {
+        "name_vi": "Nhả một vảy chứng",
+        "name_en": "Release a Witness-Flake",
+        "description_vi": "Chạm mắt đã đỏ vào sứ sạch để rỉ được nhận kết thành một vảy. Thao tác xả mẫu khỏi mắt nhưng không trả phần sắt đã mất về vật gốc.",
+        "description_en": "Touch a reddened eye to clean porcelain to form a rust-flake. It empties the reading without restoring lost iron."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mắt của vật đã mục",
+        "name_en": "The Ruined Thing’s Eye",
+        "description_vi": "Sỏi xả hết sẽ trắng lại ở viền nhưng giữ một chấm đỏ gốc, dấu của bức tượng đầu tiên.",
+        "description_en": "Emptied stones whiten around the rim but retain the first statue’s red point."
+      }
+    ]
+  }
+]

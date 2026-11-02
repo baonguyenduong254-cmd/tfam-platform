@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">An Nam — Lạc bird standard</title><desc id="desc">An ivory Lạc bird in flight over a bronze drum sun, on deep indigo with vermilion woven borders. A fictional standard for Through Frost and Myth.</desc>
+<defs><pattern id="weave" width="36" height="24" patternUnits="userSpaceOnUse"><path d="M0 12 12 0 24 12 12 24ZM24 12 36 0 48 12 36 24Z" fill="none" stroke="#ddbb79" stroke-width="2"/></pattern><g id="bird" fill="#f3e1ad"><path d="M-148 2-28-27 29-42 55-87 62-57 88-40 162-36 99-26 68-21 49 3 16 20-32 19-94 43-64 12Z"/><path d="M-37-13-112-117-74-96 13-34 32-13ZM-57 17-132 69-100 63-9 28Z"/><path d="M17 14 31 46 58 48 58 53 24 53 10 22Z"/></g></defs>
+<path fill="#122e35" d="M0 0h900v600H0z"/><path fill="#752d30" d="M0 0h900v48H0zM0 552h900v48H0z"/><path fill="url(#weave)" d="M0 12h900v24H0zM0 564h900v24H0z"/>
+<path d="M36 64h828v472H36z" fill="none" stroke="#d4b16d" stroke-width="3"/><path d="M48 76h804v448H48z" fill="none" stroke="#d4b16d" stroke-width="1"/>
+<g transform="translate(450 300)" stroke="#c7a465" fill="none"><circle r="188" stroke-width="3"/><circle r="177"/><circle r="161" stroke-dasharray="3 11" stroke-width="8"/><circle r="145"/><circle r="135" stroke-width="2"/><path d="m0-116 17 65 41-49-18 64 60-22-45 44 65 14-65 14 45 44-60-22 18 64-41-49-17 65-17-65-41 49 18-64-60 22 45-44-65-14 65-14-45-44 60 22-18-64 41 49Z" fill="#b68c4b" stroke="none" opacity=".42"/></g>
+<use href="#bird" transform="translate(450 292) scale(1.42)"/>
+<g fill="none" stroke="#dfc58a" stroke-width="3"><path d="M332 421q29-20 59 0t59 0 59 0 59 0M352 438q24-17 49 0t49 0 49 0 49 0"/><path d="M72 94h48m-48 0v48M828 94h-48m48 0v48M72 506h48m-48 0v-48M828 506h-48m48 0v-48"/></g>
+<g fill="#d9b574"><path d="m123 300 9-12 9 12-9 12ZM759 300l9-12 9 12-9 12Z"/></g>
+</svg>

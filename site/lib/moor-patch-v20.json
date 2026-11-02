@@ -1,0 +1,202 @@
+{
+  "factions": [
+    {
+      "id": "sultanate_of_morocco",
+      "capital_demo": "Marrakesh",
+      "capital_vi_1715": "Marrakesh",
+      "capital_en_1715": "Marrakesh",
+      "capital_vi_1716": "Marrakesh",
+      "capital_en_1716": "Marrakesh",
+      "lore_vi_1715": "Những năm cuối triều Charles II, Abd al-Rahman ibn Ziyad dùng cảng, tiền và mạng lưới thương nhân qua Gibraltar để cắt những đường tiếp vận của Habsburg tại Maroc. Trong cuộc chiến kế vị, ông đặt sức mạnh gia tộc vào trật tự Castilian mới, góp phần mở đường cho Isabella de Aragón bước lên ngai vàng. Người từng bị Madrid xem nhẹ trở thành một trong những quân chủ mà triều đình phải lắng nghe.\n\nKhi mùa đông dị thường tràn xuống Atlas, Ziyad mở kho lương của mình, chặn việc các đại gia tộc bỏ Marrakesh và dựng những bếp ăn chung cho người Moor, dân Castilian cùng người tản cư. Các gia đình Anh lưu vong tìm được mái nhà giữa những cộng đồng đã chịu giá lạnh trước khi chiến tranh tới.\n\nNăm 1715, Tây La Mã đẩy chiến tranh sâu vào Bắc Phi. Quân Moor và mạng lưới Hashashin bước vào cuộc chiến bên cạnh Castilian, giữ các hành lang núi cùng những tuyến liên lạc địa phương. Ziyad đứng giữa liên minh với Madrid và trách nhiệm với những người đã đặt lòng tin vào ông. Marrakesh trở thành nơi cả một vị quân vương lẫn những người mất quê hương cùng phải bảo vệ điều họ gọi là nhà.",
+      "lore_en_1715": "In Charles II's final years, Abd al-Rahman ibn Ziyad used ports, money and merchant networks through Gibraltar to sever Habsburg supply routes in Morocco. During the succession war, he committed his house to the new Castilian order and helped open Isabella de Aragón's path to the throne. The prince once dismissed by Madrid became a ruler the court had to hear.\n\nWhen the unnatural winter reached the Atlas, Ziyad opened his granaries, prevented the great houses from abandoning Marrakesh and established shared kitchens for Moorish residents, Castilians and refugees. English families found homes among communities already enduring the cold before war arrived.\n\nIn 1715, Western Rome carried war deeper into North Africa. Moorish troops and the Hashashin network fought beside Castilian, holding mountain passages and local communications. Ziyad stood between his alliance with Madrid and his responsibility to those who trusted him. Marrakesh became a home that a sovereign and displaced families alike had to defend.",
+      "lore_vi_1716": "Năm 1716, chiến tranh đi qua Fes, Taza, Taourirt và Nador. Ziyad trực tiếp theo sát chiến trường, dùng Hashashin bám dấu đoàn áp giải và giữ liên lạc qua những tuyến mà quân La Mã tìm cách cắt đứt. Trên biển, Hoàng tử Idris ibn Abd al-Rahman chỉ huy hai mươi tàu Moor, đưa kinh nghiệm duyên hải cùng những hoa tiêu địa phương vào hạm đội liên quân của Edward Spencer.\n\nTại Palermo, Ziyad đại diện cho Maroc và nhận thêm toàn quyền của Isabella để thương lượng phần chiến tranh thuộc Castilian. Madrid công khai xác nhận Maroc đã thoát khỏi địa vị thuộc địa. Hòa ước đưa tới giải vây Fes, rút quân La Mã khỏi Algeria và trao đổi tù binh; người Moor bước vào hòa bình với quyền tự quyết được đặt rõ trên bàn ngoại giao.\n\nCuối năm, các hội đồng, thành phố và cộng đồng tôn giáo tự nguyện trao lời thề cho Ziyad. Ông nhận tước hiệu Khalip phương Tây, còn Idris kế tục quyền cai trị thế tục tại Maroc. Khalip quốc Moor thành hình từ những cộng đồng cùng lựa chọn đứng bên nhau. Thẩm quyền tinh thần ấy dừng ở nơi lời thề tự nguyện dừng lại; các cộng đồng khác giữ nguyên quyền của mình.",
+      "lore_en_1716": "In 1716, war passed through Fes, Taza, Taourirt and Nador. Ziyad followed the fighting directly, using Hashashin to track prisoner columns and preserve communications along routes Rome sought to sever. At sea, Prince Idris ibn Abd al-Rahman commanded twenty Moorish vessels, bringing coastal experience and local pilots into Edward Spencer's allied fleet.\n\nAt Palermo, Ziyad represented Morocco and received Isabella's additional authority to negotiate Castilian's part of the war. Madrid publicly affirmed that Morocco was no longer its colony. The settlement provided for the relief of Fes, Roman withdrawal from Algeria and prisoner exchange; Moorish self-determination had an explicit place at the diplomatic table.\n\nAt year's end, councils, cities and religious communities voluntarily pledged allegiance to Ziyad. He received the title Caliph of the West, while Idris succeeded to temporal rule in Morocco. The Moorish Caliphate took shape through communities choosing to stand together. Its spiritual authority extended only as far as voluntary allegiance; other communities retained their rights.",
+      "traits": [
+        {
+          "id": "hashashin_network",
+          "label_vi": "Mạng lưới Hashashin",
+          "label_en": "Hashashin Network",
+          "effect_vi": "Những nhóm nhỏ bám dấu, giữ liên lạc và hỗ trợ giải cứu bằng hiểu biết địa hình cùng mạng lưới quan sát kín đáo.",
+          "effect_en": "Small groups track movements, preserve communications and support rescues through terrain knowledge and discreet observation.",
+          "effect_ui": "Những nhóm nhỏ bám dấu, giữ liên lạc và hỗ trợ giải cứu bằng hiểu biết địa hình cùng mạng lưới quan sát kín đáo."
+        },
+        {
+          "id": "moor_field_army",
+          "label_vi": "Quân kỳ Moor",
+          "label_en": "Moorish Banner",
+          "effect_vi": "Quân Moor phối hợp với Castilian và các đồng minh, giữ quyền chỉ huy cùng căn tính của lực lượng địa phương.",
+          "effect_en": "Moorish forces cooperate with Castilian and its allies while retaining their command and identity.",
+          "effect_ui": "Quân Moor phối hợp với Castilian và các đồng minh, giữ quyền chỉ huy cùng căn tính của lực lượng địa phương."
+        },
+        {
+          "id": "atlas_rif_warfare",
+          "label_vi": "Đường núi, cửa biển",
+          "label_en": "Mountain Roads, Coastal Passages",
+          "effect_vi": "Hiểu biết Atlas–Rif và những hoa tiêu duyên hải giúp giữ các tuyến hành quân, cứu hộ và tiếp cận trên biển.",
+          "effect_en": "Atlas–Rif knowledge and coastal pilots support marching routes, rescues and naval approaches.",
+          "effect_ui": "Hiểu biết Atlas–Rif và những hoa tiêu duyên hải giúp giữ các tuyến hành quân, cứu hộ và tiếp cận trên biển."
+        },
+        {
+          "id": "sovereign_legitimacy",
+          "label_vi": "Lời thề tự nguyện",
+          "label_en": "Voluntary Allegiance",
+          "effect_vi": "Ziyad nhận quyền tinh thần từ các cộng đồng tự nguyện trao lời thề; Idris kế tục quyền cai trị thế tục tại Maroc.",
+          "effect_en": "Ziyad receives spiritual authority from voluntarily pledging communities; Idris succeeds to temporal rule in Morocco.",
+          "effect_ui": "Ziyad nhận quyền tinh thần từ các cộng đồng tự nguyện trao lời thề; Idris kế tục quyền cai trị thế tục tại Maroc."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "abd_al_rahman_ibn_ziyad",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Abd al-Rahman ibn Ziyad",
+      "role_vi": "Sultan Maroc · Khalip phương Tây từ cuối năm 1716",
+      "role_en": "Sultan of Morocco · Caliph of the West from late 1716",
+      "lore_vi": "Abd al-Rahman ibn Ziyad xây quyền lực từ cảng, thương nhân và lòng tin của những người sống tại Marrakesh. Ông dùng mạng lưới gia tộc chống các đại diện Habsburg, góp tiền, quân và tàu trong cuộc chiến kế vị rồi trở thành một người Isabella phải nghe ngay cả khi lời ông trái ý nàng.\n\nTrong mùa đông đầu tiên, Ziyad mở kho nhà mình và buộc những gia tộc lớn cùng giữ dân thành phố sống sót. Trên chiến trường Bắc Phi, ông điều hành Hashashin, phối hợp với đồng minh và trực tiếp nhận trách nhiệm về người Moor. Tại Palermo, ông giữ tư cách đại diện Maroc cùng toàn quyền được Castilian ủy thác cho cuộc thương lượng.\n\nCuối năm 1716, Ziyad nhận tước hiệu Khalip phương Tây từ các cộng đồng tự nguyện trao lời thề. Idris kế tục quyền cai trị Maroc. Quyền tinh thần của ông mang giới hạn được công nhận công khai: những người khác vẫn giữ quyền lựa chọn của mình.",
+      "lore_en": "Abd al-Rahman ibn Ziyad builds authority through ports, merchants and the trust of Marrakesh's people. He uses his family network against Habsburg representatives, contributes money, troops and ships during the succession war and becomes a voice Isabella must hear even when she dislikes his judgement.\n\nDuring the first winter, he opens his own granaries and compels the great houses to sustain the city. In North Africa's war, he directs Hashashin, cooperates with allies and takes direct responsibility for his people. At Palermo, he represents Morocco while also holding Castilian's delegated negotiating authority.\n\nAt the end of 1716, voluntarily pledging communities grant him the title Caliph of the West. Idris succeeds to Moroccan rule. Ziyad's spiritual authority has publicly recognized limits: other communities retain their choice.",
+      "skills_vi": [
+        "Điều hành mạng lưới tình báo",
+        "Ngoại giao liên minh",
+        "Thương lượng hòa ước",
+        "Huy động quyền lực địa phương"
+      ],
+      "skills_en": [
+        "Intelligence network leadership",
+        "Alliance diplomacy",
+        "Peace negotiations",
+        "Mobilizing local authority"
+      ],
+      "traits_vi": [
+        "Được dân Marrakesh tin cậy",
+        "Thẳng thắn với quân vương",
+        "Hóm hỉnh sắc sảo",
+        "Giữ quyền tự quyết"
+      ],
+      "traits_en": [
+        "Trusted by Marrakesh",
+        "Frank with sovereigns",
+        "Sharp wit",
+        "Defends self-determination"
+      ],
+      "status_vi": {
+        "1715": "Sultan tại Maroc, giữ liên minh với Castilian và bảo vệ cộng đồng Moor.",
+        "1716": "Đại diện Maroc tại Palermo; cuối năm nhận tước hiệu Khalip phương Tây, chuyển quyền cai trị thế tục cho Idris."
+      },
+      "status_en": {
+        "1715": "Sultan in Morocco, sustaining the Castilian alliance and protecting Moorish communities.",
+        "1716": "Representing Morocco at Palermo; at year’s end becomes Caliph of the West and transfers temporal rule to Idris."
+      },
+      "skills": [
+        "Điều hành mạng lưới tình báo",
+        "Ngoại giao liên minh",
+        "Thương lượng hòa ước",
+        "Huy động quyền lực địa phương"
+      ],
+      "traits": [
+        "Được dân Marrakesh tin cậy",
+        "Thẳng thắn với quân vương",
+        "Hóm hỉnh sắc sảo",
+        "Giữ quyền tự quyết"
+      ],
+      "status": {
+        "1715": "Sultan tại Maroc, giữ liên minh với Castilian và bảo vệ cộng đồng Moor.",
+        "1716": "Đại diện Maroc tại Palermo; cuối năm nhận tước hiệu Khalip phương Tây, chuyển quyền cai trị thế tục cho Idris."
+      }
+    },
+    {
+      "id": "idris_ibn_abd_al_rahman",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Idris ibn Abd al-Rahman",
+      "role_vi": "Hoàng tử Moor · Sultan Maroc từ cuối năm 1716",
+      "role_en": "Moorish Prince · Sultan of Morocco from late 1716",
+      "lore_vi": "Idris là con trai Abd al-Rahman ibn Ziyad, trưởng thành trên những tuyến thương mại nối Maroc với Iberia. Kinh nghiệm đi biển hiện ra trong bàn tay chai và cách ông đánh giá duyên hải bằng những điều hoa tiêu biết, thay vì chỉ tin vào một tấm hải đồ.\n\nTrong chiến dịch năm 1716, Idris chỉ huy hai mươi tàu Moor dưới quyền điều phối hạm đội chung của Edward Spencer. Ông đem những hoa tiêu quen bờ Melilla–Nador vào liên quân và sử dụng mạng lưới làng chài để tìm các bến tiếp tế của đối phương. Tới Palermo, ông đi cùng cha với tư cách người thừa kế, chưa có quyền ký kết.\n\nCuối năm, theo quyết định các hội đồng Moor, Idris nhận kiếm và ấn của Sultan, kế tục quyền cai trị Maroc. Ông bước lên cùng toàn bộ quyền tự quyết và trách nhiệm đối với những quyết định mang tên mình; quyền tinh thần của cha được giữ trong phạm vi những cộng đồng tự nguyện lựa chọn.",
+      "lore_en": "Idris is the son of Abd al-Rahman ibn Ziyad, formed by the trade routes between Morocco and Iberia. His seafaring experience shows in calloused hands and his reliance on what coastal pilots know rather than charts alone.\n\nIn the 1716 campaign, he commands twenty Moorish vessels under Edward Spencer's overall fleet coordination. He brings Melilla–Nador pilots into the coalition and uses fishing communities to locate enemy supply anchorages. At Palermo, he accompanies his father as heir without signing authority.\n\nAt year's end, Moorish councils transfer temporal rule to Idris. Receiving the Sultan's sword and seal, he accepts full self-determination and responsibility for decisions bearing his name. His father's spiritual authority remains confined to communities choosing it voluntarily.",
+      "skills_vi": [
+        "Chỉ huy hải đội Moor",
+        "Đọc địa hình duyên hải",
+        "Phối hợp hoa tiêu và tình báo",
+        "Điều hành thương lộ"
+      ],
+      "skills_en": [
+        "Moorish squadron command",
+        "Reading coastal terrain",
+        "Coordinating pilots and intelligence",
+        "Trade-route management"
+      ],
+      "traits_vi": [
+        "Tôn trọng kinh nghiệm địa phương",
+        "Thực tế trên biển",
+        "Chịu trách nhiệm quyền kế vị"
+      ],
+      "traits_en": [
+        "Respects local experience",
+        "Practical at sea",
+        "Accountable for succession"
+      ],
+      "status_vi": {
+        "1715": "Hoàng tử, người thừa kế Ziyad với kinh nghiệm trên các tuyến biển Maroc–Iberia.",
+        "1716": "Chỉ huy hai mươi tàu Moor, dự Palermo với tư cách người thừa kế; cuối năm trở thành Sultan Maroc."
+      },
+      "status_en": {
+        "1715": "Prince and Ziyad’s heir, experienced on Morocco–Iberia sea routes.",
+        "1716": "Commands twenty Moorish ships and attends Palermo as heir; becomes Sultan of Morocco at year’s end."
+      },
+      "skills": [
+        "Chỉ huy hải đội Moor",
+        "Đọc địa hình duyên hải",
+        "Phối hợp hoa tiêu và tình báo",
+        "Điều hành thương lộ"
+      ],
+      "traits": [
+        "Tôn trọng kinh nghiệm địa phương",
+        "Thực tế trên biển",
+        "Chịu trách nhiệm quyền kế vị"
+      ],
+      "status": {
+        "1715": "Hoàng tử, người thừa kế Ziyad với kinh nghiệm trên các tuyến biển Maroc–Iberia.",
+        "1716": "Chỉ huy hai mươi tàu Moor, dự Palermo với tư cách người thừa kế; cuối năm trở thành Sultan Maroc."
+      },
+      "portrait_asset": null
+    }
+  ],
+  "units": [
+    {
+      "id": "hashashin",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Hashashin",
+      "name_vi": "Hashashin",
+      "name_en": "Hashashin",
+      "role": "Trinh sát, bám dấu và hỗ trợ cứu hộ",
+      "role_vi": "Trinh sát, bám dấu và hỗ trợ cứu hộ",
+      "role_en": "Reconnaissance, tracking and rescue support",
+      "lore_vi": "Hashashin dưới quyền Ziyad hoạt động bằng những nhóm nhỏ, thay người bám dấu để giữ mạng lưới quan sát qua nhiều ngày. Trong chiến dịch Bắc Phi, họ lần theo các đoàn áp giải vào Taza, giữ kín vị trí, đường đi và kho dự trữ. Khi cần, các nhóm chuyển sang yểm trợ hỏa lực hoặc mở lối cứu người. Sức mạnh của mạng lưới nằm ở khả năng tiếp tục biết đối phương đang làm gì trong lúc chính mình chưa bị nhìn thấy.",
+      "lore_en": "Ziyad’s Hashashin operate in small groups, rotating trackers to sustain observation over days. In North Africa they follow prisoner columns into Taza and conceal their positions, routes and stores. When needed, teams provide fire support or open rescue paths. Their strength lies in continuing to observe the enemy while remaining unseen."
+    },
+    {
+      "id": "moor_field_infantry",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Bộ binh Moor",
+      "name_vi": "Bộ binh Moor",
+      "name_en": "Moorish Field Infantry",
+      "role": "Lực lượng chiến trường và giữ hành lang",
+      "role_vi": "Lực lượng chiến trường và giữ hành lang",
+      "role_en": "Field forces and corridor defence",
+      "lore_vi": "Quân Moor chiến đấu bên cạnh Castilian tại Bắc Phi, giữ căn tính cùng quyền chỉ huy của mình. Những đơn vị tập kết ở Gibraltar tham gia chiến dịch liên quân, trong khi lực lượng trên đất liền bảo vệ các hành lang qua Fes, Taza và vùng núi. Hồ sơ ghi nhận quân đội địa phương có trách nhiệm với cộng đồng của mình trong một liên minh nhiều quân kỳ.",
+      "lore_en": "Moorish troops fight beside Castilian in North Africa while retaining their identity and command. Forces assembled at Gibraltar join the coalition campaign; land units defend corridors through Fes, Taza and the mountains. They remain locally accountable within an alliance of several banners."
+    },
+    {
+      "id": "moor_coastal_squadron",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Hải đội Moor của Idris",
+      "name_vi": "Hải đội Moor của Idris",
+      "name_en": "Idris’s Moorish Squadron",
+      "role": "Tác chiến duyên hải và hoa tiêu",
+      "role_vi": "Tác chiến duyên hải và hoa tiêu",
+      "role_en": "Coastal operations and pilotage",
+      "lore_vi": "Hai mươi tàu Moor tham gia hạm đội chung trong chiến dịch năm 1716, trực tiếp nghe lệnh Idris. Những thuyền hoa tiêu nhỏ dẫn chiến hạm qua vùng nước gần bờ; làng chài cung cấp hiểu biết về nơi đối phương lấy nước, sửa tàu và những lối mà chiến hạm lớn khó tiếp cận. Hải đội đem kinh nghiệm địa phương vào chiến dịch thay vì chỉ bổ sung số tàu.",
+      "lore_en": "Twenty Moorish vessels join the allied fleet in the 1716 campaign under Idris’s direct command. Small pilot boats guide warships through coastal waters; fishing communities identify enemy watering and repair stations and passages difficult for large ships. The squadron contributes local knowledge as well as hulls."
+    }
+  ]
+}

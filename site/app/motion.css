@@ -1,0 +1,176 @@
+/* Shared motion rhythm: quick feedback, deliberate scene changes. */
+:root {
+  --motion-fast: 160ms;
+  --motion-ui: 260ms;
+  --motion-panel: 420ms;
+  --motion-ease: cubic-bezier(.22,.68,.24,1);
+  --motion-exit: cubic-bezier(.4,0,.8,.3);
+}
+.tfam-editorial :where(button,a,input,select,textarea) {
+  transition: color var(--motion-fast) ease,
+    background-color var(--motion-ui) ease,
+    border-color var(--motion-ui) ease,
+    box-shadow var(--motion-ui) ease,
+    opacity var(--motion-fast) ease,
+    scale var(--motion-fast) var(--motion-ease);
+}
+.tfam-editorial :where(button,a):focus-visible {
+  outline: 2px solid #d5c399;
+  outline-offset: 4px;
+}
+.tfam-editorial :where(button:not(:disabled)):active { scale: .97; }
+.tfam-editorial :where(button:disabled) { cursor: default; }
+.tfam-editorial :where(input,select,textarea):focus-visible {
+  border-color: #c7b38e;
+  box-shadow: 0 0 0 3px #c7b38e1c;
+}
+.tfam-editorial :where(.tfam-main-nav,.archive-sections,.contents-tabs,.vest-categories,.military-filters,.arrival-destinations) button {
+  transition: color var(--motion-fast) ease, border-color var(--motion-ui) ease,
+    background-color var(--motion-ui) ease, box-shadow var(--motion-ui) ease,
+    translate var(--motion-ui) var(--motion-ease), scale var(--motion-fast) ease;
+}
+.tfam-editorial :where(.tfam-main-nav,.arrival-destinations,.voyage-shortcuts) button svg {
+  transition: translate var(--motion-ui) var(--motion-ease), opacity var(--motion-ui) ease;
+}
+.tfam-editorial .tfam-main-nav button[aria-current=page] svg { translate: 0 -2px; }
+.tfam-editorial :where(.gear-toggle,.world-voyage-toggle) svg {
+  transition: rotate var(--motion-panel) var(--motion-ease);
+}
+.tfam-editorial .gear-toggle[aria-expanded=true] svg { rotate: 70deg; }
+.tfam-editorial :where(.faction-flag-frame,.faction-monogram,.highlight-person-portrait,.military-card-art,.monument-art,.vest-object-art) {
+  transition: border-color var(--motion-ui) ease, box-shadow var(--motion-ui) ease,
+    translate var(--motion-ui) var(--motion-ease);
+}
+.tfam-editorial :where(.faction-flag-frame,.faction-monogram,.highlight-person-portrait,.military-card-art,.monument-art,.vest-object-art) img {
+  transition: scale 480ms var(--motion-ease), opacity var(--motion-ui) ease;
+}
+.tfam-editorial :where(.destination-banner,.faction-strip>button,.highlight-person,.military-unit-card,.monument-card,.vest-object,.context-record,.gallery-person,.gallery-unit) {
+  transition: translate var(--motion-ui) var(--motion-ease),
+    transform var(--motion-ui) var(--motion-ease), scale var(--motion-fast) ease,
+    color var(--motion-fast) ease, background-color var(--motion-ui) ease,
+    border-color var(--motion-ui) ease, box-shadow var(--motion-ui) ease;
+}
+.tfam-editorial .banner-name { transition: color var(--motion-fast) ease; }
+@media (hover:hover) and (pointer:fine) {
+  .tfam-editorial :where(.tfam-main-nav,.arrival-destinations,.voyage-shortcuts) button:hover { translate: 0 -2px; }
+  .tfam-editorial :where(.arrival-destinations,.voyage-shortcuts) button:hover svg { translate: 2px 0; }
+  .tfam-editorial .world-voyage-toggle:hover svg { rotate: -14deg; }
+  .tfam-editorial :where(.military-unit-card,.monument-card,.highlight-person,.context-record):hover { translate: 0 -3px; }
+  .tfam-editorial :where(.destination-banner,.faction-strip>button,.highlight-person,.military-unit-card,.monument-card,.vest-object):hover :where(.faction-flag-frame,.faction-monogram,.highlight-person-portrait,.military-card-art,.monument-art,.vest-object-art) img { scale: 1.035; }
+}
+/* Content entrance also works when native View Transitions are unavailable. */
+.tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection) {
+  animation: tfam-content-arrive var(--motion-panel) var(--motion-ease) both;
+}
+.tfam-editorial .story-reader { animation: tfam-page-arrive 240ms ease-out both; }
+.tfam-editorial :where(.character-profile,.military-dossier-copy,.monument-body) {
+  animation: tfam-content-arrive 320ms var(--motion-ease) both;
+}
+.tfam-editorial :where(.site-tools-popover,.account-popover,.province-popup) {
+  transform-origin: top right;
+  animation: tfam-popover-arrive 220ms var(--motion-ease) both;
+}
+.tfam-editorial :where(.modal-backdrop,.mobile-sheet-backdrop) {
+  animation: tfam-backdrop-arrive 200ms ease-out both;
+}
+.tfam-editorial :where(.unit-dossier,.story-editor,.editor) {
+  animation: tfam-dialog-arrive 320ms var(--motion-ease) both;
+}
+.tfam-editorial :where(.military-dialog,.monument-dialog,.vest-dialog,.reader-account-dialog)[open] {
+  animation: tfam-dialog-arrive var(--motion-panel) var(--motion-ease) both;
+}
+.tfam-editorial dialog::backdrop { animation: tfam-backdrop-arrive 250ms ease-out both; }
+.tfam-editorial .reader-context-panel[open] {
+  animation: tfam-reference-arrive 320ms var(--motion-ease) both;
+}
+.tfam-editorial .reader-context-panel[data-closing=true] {
+  animation: tfam-reference-leave 180ms var(--motion-exit) both;
+}
+.tfam-editorial .reader-context-panel[data-closing=true]::backdrop {
+  animation: tfam-backdrop-leave 180ms ease both;
+}
+/* Flags arrive in a short sequence; reading and search results stay immediate. */
+.tfam-editorial .scene-in.scene-voyage .destination-banner {
+  animation: tfam-banner-arrive 600ms var(--motion-ease) both;
+  animation-delay: calc(250ms + var(--flag-order,0) * 28ms);
+}
+.tfam-editorial .scene-in.scene-voyage .banner-list .destination-banner {
+  animation: none;
+}
+.tfam-editorial .arrival-copy { animation: tfam-content-arrive 650ms var(--motion-ease) both; }
+.tfam-editorial .arrival-destinations { animation: tfam-content-arrive 500ms 100ms var(--motion-ease) both; }
+/* Keep the navigation steady while the active content changes beneath it. */
+.world-campaign:not([inert]) .atlas-content { view-transition-name: atlas-content; }
+::view-transition-group(atlas-content) { animation-duration: 420ms; animation-timing-function: var(--motion-ease); }
+::view-transition-old(root),::view-transition-new(root) { animation: none; }
+::view-transition-old(atlas-content) { animation: tfam-view-leave 180ms ease-out both; }
+::view-transition-new(atlas-content) { animation: tfam-view-arrive 420ms var(--motion-ease) both; }
+html:root[data-world-scene=vestigium]::view-transition-new(root),
+html:root[data-world-scene=reader]::view-transition-new(root) { animation: none; }
+html[data-world-scene=vestigium]::view-transition-new(atlas-content) { animation: tfam-vault-arrive 520ms var(--motion-ease) both; }
+html[data-world-scene=reader]::view-transition-new(atlas-content) { animation: tfam-page-arrive 240ms ease-out both; }
+@keyframes tfam-content-arrive { from { opacity:0; translate:0 12px; } to { opacity:1; translate:0 0; } }
+@keyframes tfam-page-arrive { from { opacity:0; } to { opacity:1; } }
+@keyframes tfam-popover-arrive { from { opacity:0; translate:0 -6px; scale:.98; } to { opacity:1; translate:0 0; scale:1; } }
+@keyframes tfam-backdrop-arrive { from { opacity:0; } to { opacity:1; } }
+@keyframes tfam-backdrop-leave { to { opacity:0; } }
+@keyframes tfam-dialog-arrive { from { opacity:0; translate:0 18px; scale:.985; } to { opacity:1; translate:0 0; scale:1; } }
+@keyframes tfam-reference-arrive { from { opacity:.4; translate:36px 0; } to { opacity:1; translate:0 0; } }
+@keyframes tfam-reference-leave { to { opacity:0; translate:36px 0; } }
+@keyframes tfam-banner-arrive { from { opacity:0; translate:0 15px; } to { opacity:1; translate:0 0; } }
+@keyframes tfam-view-leave { to { opacity:0; transform:translateY(-5px); } }
+@keyframes tfam-view-arrive { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:none; } }
+@keyframes tfam-vault-arrive { from { opacity:0; clip-path:inset(0 42% 0 42%); } to { opacity:1; clip-path:inset(0); } }
+@media (max-width:760px) {
+  :root { --motion-panel:520ms; }
+  .tfam-editorial .scene-in.scene-voyage .destination-banner { animation-delay:calc(180ms + var(--flag-order,0) * 16ms); }
+}
+/* Motion preferences apply to every layer, including the cinematic opening. */
+html[data-motion=off] .tfam-editorial *,
+html[data-motion=off] .tfam-editorial *::before,
+html[data-motion=off] .tfam-editorial *::after {
+  animation:none!important; transition:none!important; scroll-behavior:auto!important;
+}
+html[data-motion=off]::view-transition-group(*),
+html[data-motion=off]::view-transition-old(*),
+html[data-motion=off]::view-transition-new(*) { animation:none!important; }
+
+
+/* Interaction polish: named properties avoid animating geometry and map camera work. */
+.tfam-editorial :where(.character-list button,.military-filters button,.vest-depth-nav button,.contents-tabs button,.story-contents button,.reader-preferences button,.context-record,.vest-skill-group summary,.monument-body summary){
+ transition:color var(--motion-fast) ease,background-color var(--motion-ui) ease,border-color var(--motion-ui) ease,box-shadow var(--motion-ui) ease,opacity var(--motion-fast) ease,translate var(--motion-ui) var(--motion-ease);
+}
+.tfam-editorial :where(.character-list button,.story-contents button,.context-record):focus-visible{box-shadow:inset 3px 0 #c8b38a;background-color:#a5cce21a}
+.tfam-editorial :where(.destination-search,.military-search,.monument-tools label,.vest-tools label){transition:border-color var(--motion-ui) ease,box-shadow var(--motion-ui) ease,background-color var(--motion-ui) ease}
+.tfam-editorial :where(.destination-search,.military-search,.monument-tools label,.vest-tools label):focus-within{border-color:#d9c39b;box-shadow:0 3px 0 -1px #d9c39b55}
+.tfam-editorial :where(.reader-preferences,.reading-resume,.reading-checkpoint-bar){transition:background-color 300ms ease,border-color 300ms ease,color 200ms ease}
+.tfam-editorial :where(.story-prose,.chapter-copyright){transition:color 260ms ease}
+.tfam-editorial dialog[data-motion-closing=true]{pointer-events:none;animation:tfam-dialog-leave 200ms var(--motion-exit) both!important}
+.tfam-editorial dialog[data-motion-closing=true]::backdrop{animation:tfam-backdrop-leave 200ms ease both!important}
+@keyframes tfam-dialog-leave{to{opacity:0;translate:0 12px;scale:.985}}
+@media(hover:hover) and (pointer:fine){
+ .tfam-editorial :where(.character-list button,.story-contents button,.vest-depth-nav button):hover{translate:3px 0}
+ .tfam-editorial :where(.character-list button,.story-contents button,.vest-depth-nav button)[aria-selected=true]{translate:0}
+}
+@supports(interpolate-size:allow-keywords){
+ .tfam-editorial :where(.reader-preferences,.vest-skill-group,.vest-source,.monument-body details){interpolate-size:allow-keywords}
+ .tfam-editorial :where(.reader-preferences,.vest-skill-group,.vest-source,.monument-body details)::details-content{block-size:0;opacity:0;overflow:clip;transition:block-size 280ms var(--motion-ease),opacity 180ms ease,content-visibility 280ms allow-discrete}
+ .tfam-editorial :where(.reader-preferences,.vest-skill-group,.vest-source,.monument-body details)[open]::details-content{block-size:auto;opacity:1}
+}
+/* Last in the cascade: honor motion settings for all added feedback as well. */
+html[data-motion=off] .tfam-editorial dialog[data-motion-closing=true]{animation:none!important}
+
+
+/* Desktop: a legible, compositor-only entrance; no geometry or map-camera tween. */
+@media(min-width:1000px){
+ :root{--motion-ui:300ms;--motion-panel:650ms}
+ ::view-transition-group(atlas-content){animation-duration:650ms}
+ ::view-transition-old(atlas-content){animation:tfam-desktop-leave 240ms ease-out both}
+ ::view-transition-new(atlas-content){animation:tfam-desktop-arrive 650ms var(--motion-ease) both}
+ .tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection){animation:tfam-desktop-arrive 650ms var(--motion-ease) both}
+ body.tfam-editorial .atlas-content .character-profile{animation:tfam-desktop-arrive 550ms var(--motion-ease) both!important}
+ .tfam-editorial .arrival-copy{animation:tfam-desktop-arrive 850ms var(--motion-ease) both}
+ .tfam-editorial .tfam-main-nav button:hover{translate:0 -3px;background-color:#b8a47615;box-shadow:inset 0 -2px #d4bd8677}
+}
+@keyframes tfam-desktop-arrive{from{opacity:0;transform:translate3d(0,28px,0) scale(.992)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+@keyframes tfam-desktop-leave{from{opacity:1;transform:translate3d(0,0,0)}to{opacity:0;transform:translate3d(0,-12px,0)}}

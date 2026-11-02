@@ -1,0 +1,535 @@
+[
+  {
+    "id": "mineral-ngoc-cua-khong-mo",
+    "category": "mineral",
+    "rarity": 6,
+    "lore_vi": "Trong sổ của một phường thợ khóa đã mất tên thành phố, người thợ cuối cùng nhận làm cánh cửa cho một căn phòng chưa từng được xây. Khách đem tới một viên lục ngọc vuông, trả công bằng chiếc chìa đã han và dặn rằng phía bên kia có người đợi. Thợ khoét một khe xuyên tâm đá rồi lắp vào ổ. Tới lần xoay chìa đầu, cả xưởng nghe tiếng mở cửa phát ra ở phía trong bức tường không có mặt sau.\n\nNgày sau, đường phố quanh xưởng vẫn còn, nhưng các bản địa bạ thôi ghi căn nhà ấy. Người học việc trở về tìm được ổ khóa nằm trong một hốc đá nguyên; viên ngọc ở đó, khe nhỏ vừa một sợi tóc, còn chiếc chìa đã mọc rễ vào bên kia mà mắt nhìn không tới. Ông luồn tóc bạc của mình qua thử. Đầu tóc trở ra ướt nước mặn, dài hơn đoạn đã đưa vào, rồi cháy thành tro khi ông gọi tên thầy.\n\nNhững người kế nghiệp không chế được viên thứ hai. Họ chỉ tìm ra các nghi thức khiến khe ngọc chịu nhận một bề mặt làm ngưỡng, một dấu làm chìa hoặc một điều đã khép làm cánh cửa. Các phương pháp ấy liên quan đủ để sử dụng, nhưng chưa đủ để trả lời câu hỏi ngọc nối hai nơi, gấp khoảng giữa, hay đang mời một thứ có hình cánh cửa tới thay phần thế giới bị lấy đi.\n\nNgười giữ gọi nó là Ngọc Cửa Không Mở vì ở bất kỳ phép gọi nào, chính khe ngọc vẫn hẹp nguyên như cũ. Chỉ những nơi khác chịu mở. Trong xưởng cũ đã mất khỏi địa bạ, có lẽ người thợ đầu tiên vẫn đang chờ vị khách tới nhận một công việc mà mặt bên kia còn chưa chịu kết thúc.",
+    "lore_en": "In the book of a locksmiths’ guild whose city-name was lost, its final master accepted a commission for a room never built. The customer brought a square green gem, paid with a rusted key and said somebody waited beyond. The master cut a slit through its heart and fitted it into a lock. At the first turning, the workshop heard a door open within a wall that had no reverse.\n\nNext day the streets survived but their property-rolls ceased recording the house. The returning apprentice found its lock within unbroken stone, the gem’s opening hair-thin, its key rooted somewhere beyond sight. He threaded his own silver hair through. Its emerging end was salt-wet and longer than the length inserted, then burnt to ash when he named his master.\n\nSuccessors could make no second gem. They learnt rites by which its slit accepted a surface as threshold, a mark as key or something concluded as a closed door. Related enough for use, these practices did not establish whether it joined places, folded their interval or invited a door-shaped thing to replace the withdrawn part of the world.\n\nThey called it the Door That Would Not Open because its own slit never widened in any rite. Only other places opened. Within the workshop lost from the rolls, perhaps the first master still awaits a customer collecting work whose far side has not yet consented to end.",
+    "use_vi": "Nhận một ngưỡng có thật hoặc một dấu từng thuộc về ngưỡng để gọi các lối qua, khóa, chuyển giao hay khước từ. Sáu mươi bốn cách đã ghi thuộc tám nhánh; chúng là kinh nghiệm thao tác, không phải lời giải bản chất của viên ngọc.",
+    "use_en": "Accept an existing threshold or its surviving mark to invoke passage, closure, transfer or refusal. Sixty-four recorded practices form eight branches: operating experience rather than an explanation of the gem.",
+    "limits_vi": "Mỗi lượt cần xác định rõ hai phía và vật được phép qua. Khái niệm mơ hồ khiến ngọc tự chọn một nghĩa có thể bất lợi cho người gọi. Lối chưa được khép tiếp tục đòi một người giữ; dùng tên mình làm chìa nhiều lần khiến các cửa thường dần thôi nhận người ấy. Khe hẹp trong viên ngọc luôn giữ nguyên, bất kể quy mô các lối được gọi ở nơi khác.",
+    "limits_en": "Each rite requires distinct sides and a permitted traveller or burden. Ambiguity lets the gem choose a meaning hostile to its caller. An unclosed passage continues demanding a keeper. Repeatedly using one’s name as key makes ordinary doors gradually cease recognising it. The gem’s own slit remains narrow regardless of openings invoked elsewhere.",
+    "skills": [
+      {
+        "name_vi": "Nhìn mặt bên kia",
+        "name_en": "See the Far Face",
+        "description_vi": "Áp khe ngọc lên một cánh cửa từng được mở để nhìn mặt sát bên kia của đúng ngưỡng đó. Cửa đã chuyển chủ có thể chỉ nhận cái nhìn của người được chủ mới mời.",
+        "description_en": "Press the slit to a once-opened door to see its immediate far side. After ownership changes it may admit only someone invited by the new keeper.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Đọc sẹo cửa mất",
+        "name_en": "Read a Vanished Door’s Scar",
+        "description_vi": "Lần ngọc quanh vết khung đã tháo để hiện đường bao lần cuối cửa còn nguyên. Những lần xây chồng tạo nhiều đường; chọn sai sẽ gọi một thời điểm khác.",
+        "description_en": "Trace a removed frame to reveal its final intact outline. Rebuilding leaves several outlines; a mistaken choice calls another moment.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Nghe then chưa xoay",
+        "name_en": "Hear the Unturned Bolt",
+        "description_vi": "Giữ chìa áp vào đá để nghe tiếng của bộ phận đang giữ một lối đóng. Ngọc cho âm của vật cản, còn người dùng tự hiểu đó là khóa, tường hay thứ sống.",
+        "description_en": "Hold a key against the gem to hear what keeps a passage shut. The sound may belong to lock, wall or living thing; interpretation remains the user’s.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Phân cửa với miệng",
+        "name_en": "Door or Mouth",
+        "description_vi": "Chạm ngọc vào một lỗ mở; nếu lối chỉ nhận vật đi vào mà không cho vật thử trở ra, khe tiết vị mặn. Dấu ấy cảnh báo một ngưỡng đang ăn, không chỉ rõ nó là gì.",
+        "description_en": "Touch an opening. If it admits a test-object but denies its return, the slit tastes salt: warning of a consuming threshold, not identifying its nature.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Bản đồ những chỗ khép",
+        "name_en": "Map the Closures",
+        "description_vi": "Vẽ ranh một gian rồi đặt ngọc ở tâm để các lối bị bít hiện thành đường tối. Chỗ chưa từng có đường qua vẫn trống, dù người gọi tin có mật thất.",
+        "description_en": "Outline one room and set the gem at its centre to darken blocked passages. Ground never traversed remains blank despite belief in a secret chamber.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Dấu khách cuối",
+        "name_en": "The Last Guest’s Mark",
+        "description_vi": "Đặt vật từ một ngưỡng vào khe để nhận hình bàn tay cuối cùng đã tự mở nó. Găng tay và các vật trung gian cũng được giữ, che người thật bên dưới.",
+        "description_en": "Offer a threshold-fragment to receive the last hand voluntarily opening it. Gloves and other intermediaries remain in the image, concealing the person beneath.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Đếm người còn ở giữa",
+        "name_en": "Count Those Between",
+        "description_vi": "Hỏi ngọc bằng dấu đã dùng mở một lối; nó gõ đủ số dấu qua chưa hoàn tất. Bỏ rơi đồ mang tên cũng có thể tính thành một người đang mắc.",
+        "description_en": "Question it with the mark opening a passage. Knocks count incomplete crossings; abandoned possessions bearing names may count as stranded people.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "Chọn phía còn nhận mình",
+        "name_en": "Find the Side That Admits You",
+        "description_vi": "Cho dấu tay vào khe trước một ngưỡng nhiều nhánh để ánh xanh chỉ phía còn chấp nhận người gọi. Sự chấp nhận không bảo đảm phía ấy tốt lành.",
+        "description_en": "Offer a handprint at a branching threshold. Green indicates a side still accepting the caller; acceptance does not promise welcome or safety.",
+        "group_vi": "I. Những ngưỡng mắt không thấy",
+        "group_en": "I. Thresholds Beyond Sight"
+      },
+      {
+        "name_vi": "May hai mặt xa",
+        "name_en": "Stitch Distant Faces",
+        "description_vi": "Hai mặt cùng được in một dấu rồi người giữ nối nét qua khe; một đường tiếp xúc xuất hiện giữa chúng. Dấu bị xước làm mối nối trả về sai mép.",
+        "description_en": "Print one mark on two surfaces and join its strokes through the slit to connect their contact. Scratching a mark misaligns the returning edge.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Khung cửa trên vải",
+        "name_en": "A Cloth Doorframe",
+        "description_vi": "Buộc đủ bốn góc vải quanh dấu nhận để tấm vải mở thành ngưỡng tới mặt ghép. Rách một góc khiến hướng dưới và hướng bên có thể đổi chỗ.",
+        "description_en": "Tie four cloth-corners around a receiving mark to open towards its paired face. A torn corner may exchange downwards and sideways.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Khe sau lưng gương",
+        "name_en": "The Slit Behind Glass",
+        "description_vi": "Mượn một gương từng soi đúng nơi đến để mở lối sau lớp phản chiếu. Hình bị gương giữ thêm một lúc sau khi người qua, có thể gọi theo một kẻ tưởng còn đứng đó.",
+        "description_en": "Use a mirror that reflected the destination to open behind its image. A lingering likeness may attract something believing the traveller remains there.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Bậc cho khoảng trống",
+        "name_en": "A Step for Absence",
+        "description_vi": "Đặt dấu hai bờ một khoảng hụt, gọi phần giữa nhận vai một bậc thang. Bậc chỉ tồn tại cho bước đã được chỉ; người đi thêm phải xin lượt khác.",
+        "description_en": "Mark a gap’s banks and ask its interval to serve as a step. It exists for the designated crossing; another traveller requires another rite.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Nối miệng vật chứa",
+        "name_en": "Join the Vessels’ Mouths",
+        "description_vi": "Cho hai nắp cùng chạm ngọc để nối phía trong chúng qua miệng mở. Lẫn vật sở hữu trong bình có thể khiến ngọc nhận sai thứ được phép chuyển.",
+        "description_en": "Touch two lids to join their opened interiors. Named possessions mixed within may confuse what the rite permits to pass.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Cửa dưới chữ vẽ",
+        "name_en": "A Door Beneath its Drawing",
+        "description_vi": "Vẽ nguyên khung của một ngưỡng đã tự đi qua rồi chỉ mặt nhận; hình mở tới mặt ấy. Bỏ một nét cần thiết khiến phần bị quên mất chỗ đứng ở cửa ra.",
+        "description_en": "Draw a complete previously travelled doorway and designate its receiving face. Omitted essential strokes leave that omitted part without a place at the exit.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Ghép một ngưỡng gãy",
+        "name_en": "Join a Broken Threshold",
+        "description_vi": "Đưa đủ các phần còn giữ tên cửa lại quanh đá để dựng lối từng bị phá. Lối kế thừa cả điều kiện khóa cũ, kể cả lời cấm người dựng không biết.",
+        "description_en": "Gather fragments retaining a doorway’s name to restore its passage. It inherits former locks, including prohibitions unknown to its rebuilder.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Đặt bản lề lên không",
+        "name_en": "Hinge the Air",
+        "description_vi": "Gắn bản lề đã qua sử dụng vào hai dấu treo để một mặt khí biết xoay. Đóng quá mạnh gửi cú đóng tới mọi vật đang chung dấu ấy.",
+        "description_en": "Hang a used hinge between two marks to let a face of air turn. Slamming transmits that closure into everything sharing its mark.",
+        "group_vi": "II. Rèn lối bằng khe đá",
+        "group_en": "II. Forge a Passage from the Slit"
+      },
+      {
+        "name_vi": "Sợi qua nơi kín",
+        "name_en": "Thread Through the Sealed",
+        "description_vi": "Luồn một sợi được gọi tên qua khe để đầu kia tìm dấu nhận sau vách nguyên. Kéo vật quá khác bản chất sợi theo sau khiến khe cắn đứt đường.",
+        "description_en": "Name a strand and thread the slit to reach a mark beyond intact wall. Drawing a fundamentally different burden behind it makes the slit bite through.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Tay khách qua cửa",
+        "name_en": "The Guest’s Hand",
+        "description_vi": "In dấu bàn tay lên mặt ghép để tay thật chạm được phía bên kia. Vật nắm phải tự qua được ngưỡng; cưỡng kéo có thể giữ cả tay ở lại.",
+        "description_en": "Print a hand on a paired face to touch beyond. A held object must also qualify to pass; forcing it can strand the hand.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Dẫn một người theo dấu",
+        "name_en": "Lead One by the Mark",
+        "description_vi": "Người được dẫn tự đặt tên vào khóa rồi qua đúng lối người giữ đã mở. Dùng tên giả buộc cửa chọn người khác mang tên ấy hoặc trả kẻ gọi về.",
+        "description_en": "The traveller willingly names themselves into the lock and follows its opened path. A false name may summon its real bearer or return the caller.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Cáng qua ngưỡng hẹp",
+        "name_en": "A Stretcher Through Narrowness",
+        "description_vi": "Khép dấu quanh cáng để nó được tính là một vật duy nhất cùng người nằm. Ai tự bước xuống giữa lượt sẽ tách khỏi phần đang được cửa nhận.",
+        "description_en": "Enclose a stretcher in its mark so bearer and patient pass as one burden. Someone stepping off midway separates from what the doorway accepts.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Cho bầy nhận một lối",
+        "name_en": "One Passage for the Flock",
+        "description_vi": "Một sinh vật đầu đàn tự vượt rồi để dấu cho cả bầy đi theo. Cửa chỉ nhận những con thật sự theo nó; kẻ bị lùa cưỡng có thể bị giữ ngoài.",
+        "description_en": "A leading creature crosses willingly and marks passage for its flock. Only genuine followers qualify; forced stragglers may remain outside.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Chuyển vật qua bóng",
+        "name_en": "Carry Through a Shadow",
+        "description_vi": "Ấn bóng vật vào mặt nhận đã ghép; vật thật theo bóng sang phía kia. Hai nguồn sáng tạo hai bóng buộc phải chọn một trước khi gọi.",
+        "description_en": "Press an object’s shadow into a paired receiving face to draw the object through. With two shadows, one must be chosen before invocation.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Bước khỏi nơi đang đổ",
+        "name_en": "Step from the Collapse",
+        "description_vi": "Lấy một mép còn nguyên của chỗ trú đang sập làm cửa ra khẩn tới dấu an toàn đã đặt. Nếu mép mất trước khi người cuối qua, phần còn lại bị khép ở giữa.",
+        "description_en": "Use a surviving edge in a collapse to exit towards a prepared refuge-mark. If it fails before the last crossing, the remainder closes between.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Trả người đi sai",
+        "name_en": "Return the Misled Traveller",
+        "description_vi": "Gọi đúng dấu của một người đã lạc qua lối ngọc để kéo bước cuối họ trở về cửa vào. Người đã tự chấp nhận nhà mới phải tự đồng ý quay lại.",
+        "description_en": "Call the mark of someone lost through its passage to return their last step. One who has accepted a new home must consent to return.",
+        "group_vi": "III. Những vật biết qua",
+        "group_en": "III. What May Cross"
+      },
+      {
+        "name_vi": "Thư xuyên khóa",
+        "name_en": "A Letter Through the Lock",
+        "description_vi": "Gấp thư theo hình răng chìa rồi đưa qua khe để tới bên kia ngưỡng được gọi. Khóa có chủ khác chỉ nhận thư theo lời mời hoặc dấu nhận đã có.",
+        "description_en": "Fold a letter to a key’s teeth and send it through to a named threshold. Another owner’s lock requires invitation or an existing receiving mark.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Gõ từ nơi vắng",
+        "name_en": "Knock from Elsewhere",
+        "description_vi": "Chạm nhịp lên đá để cửa mang dấu nhận phát đúng nhịp ấy ở phía trong. Mọi thứ ở phía đó đều có thể nghe, kể cả kẻ người gọi muốn tránh.",
+        "description_en": "Tap the gem to sound that rhythm inside a marked door. Anything there may hear, including what the caller hopes to avoid.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Hơi qua kẽ cấm",
+        "name_en": "Breath Through the Forbidden Cleft",
+        "description_vi": "Dẫn một lượt hơi tới người đang giữ dấu bên kia cửa kín. Lối chỉ cho hơi đã được trao; dùng làm đường hút khí tự do sẽ gọi cả áp lực ngược về.",
+        "description_en": "Lend one breath to a mark-holder beyond a sealed door. Attempting unrestricted air-siphoning returns the opposing pressure.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Ánh nhìn gửi trước",
+        "name_en": "Send Sight Ahead",
+        "description_vi": "Đặt mắt vào khe để thả một đốm xanh qua lối, nhìn theo thứ nó thật đi ngang. Kẻ bắt được đốm có thể nhìn trả về mắt người gửi.",
+        "description_en": "Look into the slit to send a green mote through and see its actual route. Someone catching it may look back into the sender’s eye.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Tên còn trên ngưỡng",
+        "name_en": "The Name Upon the Threshold",
+        "description_vi": "Đọc một tên đã thật được khắc trên cửa để gửi một câu tới nơi người đó còn nhận là nhà. Người thôi nhận mọi nơi làm nhà khiến câu mắc lại trong đá.",
+        "description_en": "Read a name truly inscribed upon a door to send a sentence where its bearer still accepts home. With no accepted home, the words lodge in the gem.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Lời mời có mặt",
+        "name_en": "An Invitation Given Form",
+        "description_vi": "Trao lời mời tự nguyện vào khe để nó hiện thành một dấu có thể cầm. Dấu cho người nhận quyền tới hỏi cửa, không ép chủ tiếp nếu lời mời đã được rút trước lượt qua.",
+        "description_en": "A willing invitation becomes a holdable mark. It grants an approach to the threshold, not admission after an invitation withdrawn before crossing.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Nghe câu bị khóa",
+        "name_en": "Hear the Locked Sentence",
+        "description_vi": "Áp khe vào dấu niêm một bản viết để nghe câu đã thật bị người niêm cấm đọc. Nhiều người niêm giữ nhiều câu, có thể khiến các tiếng chồng lấn tới mất nghĩa.",
+        "description_en": "Press to a written seal to hear the sentence its sealer actually forbade. Multiple sealers yield overlapping words that may become unintelligible.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Mang lời từ cửa cũ",
+        "name_en": "Bring Words from the Old Door",
+        "description_vi": "Cho một mảnh ngưỡng kể lại lời mở cửa cuối mà nó từng nhận. Lời ấy giữ cả ý gọi người qua; đáp lại có thể khiến người nghe nhận luôn vai khách cuối.",
+        "description_en": "Let a threshold-fragment repeat its final opening words. Answering may cause the listener to inherit the last guest’s place.",
+        "group_vi": "IV. Lời đi trước thân",
+        "group_en": "IV. Words Before Bodies"
+      },
+      {
+        "name_vi": "Chốt một lối thật",
+        "name_en": "Bar the Real Passage",
+        "description_vi": "Kéo nét khóa qua một cửa đã được ngọc nhận để nó từ chối một vật được chỉ rõ. Cấm mơ hồ như mọi nguy hiểm có thể khóa luôn người muốn được cứu.",
+        "description_en": "Draw a lock-stroke across an accepted door to deny a specific burden. Vague bans such as all danger may exclude the very person needing rescue.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Rẽ vật lao qua",
+        "name_en": "Divert the Intrusion",
+        "description_vi": "Mở một lối ghép đúng trước vật đang bay để chuyển đường nó sang mặt nhận. Người dùng phải nhận diện được vật trước khi nó qua; dự đoán sai để lối trống cho thứ khác.",
+        "description_en": "Open a paired threshold before a recognised flying object to divert it. A mistaken prediction leaves passage available to something else.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Khóa bóng người đuổi",
+        "name_en": "Bar the Pursuer’s Shadow",
+        "description_vi": "Giữ bóng một kẻ đang bước qua làm then, trì hoãn bước kế tới khi bóng được nhả. Cắt mất nguồn sáng làm cả ngưỡng bỏ lệnh thay vì giam vĩnh viễn.",
+        "description_en": "Use a crossing pursuer’s shadow as bolt to delay their next step. Removing the light cancels the threshold rather than imprisoning them forever.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Đóng vào hơi độc",
+        "name_en": "Close Against the Poisoned Air",
+        "description_vi": "Cho một mẫu khí làm dấu cấm để cửa tách phần khí tương ứng tại ngưỡng. Khí đã ở trong phòng không bị lấy ra; mẫu sai có thể chặn luôn hơi cần thở.",
+        "description_en": "Use an air-sample as a prohibition-mark to bar matching air. It removes none already within; a wrong sample may exclude needed breath.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Gập đường xung đột",
+        "name_en": "Fold the Clash’s Road",
+        "description_vi": "Đặt hai mặt ghép đối nhau để luồng lực đi vào mặt đầu bị trả theo mặt sau. Nguồn không đi qua đúng mặt vẫn tác động bình thường.",
+        "description_en": "Face paired surfaces together to return an entering force through the second. Anything not crossing that face acts normally.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Khe cho người thoát",
+        "name_en": "A Cleft for Escape",
+        "description_vi": "Giao dấu thoát cho người được chỉ rồi khóa cửa với vật họ tự nguyện bỏ lại. Người còn cố giữ vật làm mình thành phần gánh cũng bị giữ ngoài.",
+        "description_en": "Give an escape-mark and bar the doorway against something the traveller willingly abandons. Clinging to that burden may bar its holder too.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Lối một phía có hẹn",
+        "name_en": "The Appointed One-Way Gate",
+        "description_vi": "Mở lối chỉ đi một chiều với một dấu hẹn cho lượt về. Hủy dấu sau khi qua làm người đi mất quyền dùng chính lối ấy quay lại.",
+        "description_en": "Open one-way passage with a return token. Destroying it after crossing removes the right to return by that route.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Khép ngưỡng đang nuốt",
+        "name_en": "Close the Devouring Threshold",
+        "description_vi": "Dùng vật từng được lỗ mở trả ra làm then, buộc nó chốt một lượt ăn. Nếu vật ấy chưa thật thuộc về phía ngoài, lệnh có thể kéo người giữ vào cùng vật.",
+        "description_en": "Bolt a consuming opening with something it has returned. If that object never truly belonged outside, the rite may draw its holder inward with it.",
+        "group_vi": "V. Phía còn được đóng",
+        "group_en": "V. What May Still Be Closed"
+      },
+      {
+        "name_vi": "Nhận chủ bằng trao tay",
+        "name_en": "A Host by Gift",
+        "description_vi": "Một người tự nguyện trao chìa qua đá để chuyển quyền giữ một ngưỡng đã nhận. Ép tay hoặc dùng vật bị trộm chỉ truyền hình chiếc chìa, không truyền sự chấp thuận.",
+        "description_en": "Willingly pass a key through the gem to transfer an accepted threshold’s keeping. Coercion or a stolen key transfers its likeness, not consent.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Tước chìa của bóng giả",
+        "name_en": "Strip the Counterfeit Key",
+        "description_vi": "Cho cửa thấy dấu trao thật để các bản chìa chỉ sao hình thôi được nhận. Chìa từng được chủ thực lòng trao vẫn còn quyền, kể cả chủ nay hối hận.",
+        "description_en": "Present the true gifting-mark so merely copied keys lose admission. A genuinely gifted key retains its right despite later regret.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Đòi ngưỡng đã cướp",
+        "name_en": "Claim the Stolen Threshold",
+        "description_vi": "Người bị tước nhà đặt dấu còn được nhà nhận vào đá để gọi một lần hỏi cửa. Lời đòi mở được cuộc đối mặt, không tự phán ai đáng sở hữu.",
+        "description_en": "A dispossessed person offers a mark their home still accepts to call once at its door. It opens confrontation, not a verdict on ownership.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Mái trú không hỏi tên",
+        "name_en": "Nameless Shelter",
+        "description_vi": "Người giữ nhận việc canh một ngưỡng cho kẻ được mời trú mà không gọi tên họ. Họ gánh mọi yêu cầu đòi danh tính tới khi khách tự rời hoặc tự nói tên.",
+        "description_en": "Keep a sheltering threshold without naming invited guests. Its keeper bears demands for identity until guests leave or name themselves.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Giấy qua cửa",
+        "name_en": "The Passage-Writ",
+        "description_vi": "Khắc một quyền qua có giới hạn lên vật thật rồi trao tự nguyện. Cửa chỉ nhận đúng quyền đã ghi, kể cả sơ suất người trao muốn sửa sau đó.",
+        "description_en": "Inscribe a bounded passage-right upon a real object and give it willingly. The doorway follows the wording, including an oversight its giver later regrets.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Nhận món nợ ở cửa",
+        "name_en": "Take the Threshold-Debt",
+        "description_vi": "Đặt tay lên đá để nhận một lượt đang bị cửa đòi thay người khác. Đổi người gánh không xóa việc phải trả; những cửa khác có thể thôi nhận người đã nợ quá nhiều.",
+        "description_en": "Accept one passage-debt on another’s behalf. Transfer does not erase repayment; other doors may refuse someone burdened with too many debts.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Rút lời mời chưa dùng",
+        "name_en": "Withdraw the Unused Invitation",
+        "description_vi": "Gọi lại dấu mời trước khi người nhận bước tới ngưỡng để quyền ấy tắt. Một chân đã được cửa nhận khiến lời mời thành lượt qua phải được hoàn tất hoặc chịu trả giá.",
+        "description_en": "Recall an invitation before its recipient reaches the threshold. A foot already admitted creates a crossing that must be completed or paid for.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Từ chối làm chiếc chìa",
+        "name_en": "Refuse to Be the Key",
+        "description_vi": "Người bị lấy tên hoặc hình làm chìa có thể tự áp tay lên đá để rút sự nhận biết của mình. Những liên kết họ còn cần cũng bị rút theo nếu cùng dùng dấu ấy.",
+        "description_en": "Someone used as a key by name or likeness may withdraw their recognition by touch. Needed links sharing that mark are withdrawn as well.",
+        "group_vi": "VI. Chìa và quyền bước qua",
+        "group_en": "VI. Keys and the Right to Cross"
+      },
+      {
+        "name_vi": "Nhìn giờ cửa đóng",
+        "name_en": "See its Closing Hour",
+        "description_vi": "Gọi dấu then cuối để thấy một lát cảnh cửa tự khép trước đây. Hình lặp đúng góc cửa từng thấy, giữ cả vật che mà người xem mong nhìn xuyên.",
+        "description_en": "Call the final bolt-mark to see its former closing. The image preserves the doorway’s angle and obstructions rather than seeing through them.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Giữ giây chưa bước",
+        "name_en": "Hold the Unstepped Second",
+        "description_vi": "Người tự nguyện dừng một bước trên ngưỡng trong khi đồng đội qua. Phần chờ bám vào bước ấy; khi được nhả, mỏi của cả lượt tìm tới chân họ cùng lúc.",
+        "description_en": "A willing keeper suspends a step while companions cross. Their waiting adheres to that step; release brings its entire fatigue into their legs.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Mở lại một lời chia tay",
+        "name_en": "Reopen a Farewell",
+        "description_vi": "Hai người từng tự khép cùng một cửa đặt dấu vào ngọc để nghe lại lời chia tay đã thật nói. Đáp bằng lời mới chỉ tới người còn đang nghe ở hiện tại.",
+        "description_en": "Two former participants offer their marks to hear the farewell they truly spoke at one door. New replies reach only the person listening now.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Ngưỡng nhận đồ đến trễ",
+        "name_en": "The Late Arrival’s Door",
+        "description_vi": "Món đã được gửi trước lúc cửa khép có thể tới phía nhận qua dấu cũ dù chủ cửa thôi nhận khách. Dấu đã kết thúc giao nhận thì không còn đường trễ ấy.",
+        "description_en": "An object sent before closure may arrive through its old mark despite the host refusing visitors. A completed delivery leaves no such late route.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Khóa một điều chưa ra",
+        "name_en": "Lock What Has Not Emerged",
+        "description_vi": "Chỉ một vật đang thành hình ở ngưỡng để nó bị giữ trước lúc ra hết. Người gọi phải còn biết vật được giữ là gì; mất nhận biết khiến cửa tự chọn cách hoàn tất.",
+        "description_en": "Hold an emerging thing before it clears the threshold. The caller must retain its identity; forgetting lets the doorway choose completion.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Trả thứ bị bỏ giữa",
+        "name_en": "Return the Thing Left Between",
+        "description_vi": "Gọi dấu một vật còn bị kẹt từ lượt qua cũ để nó rơi về phía đã gửi. Nếu phía gửi đã bị phá, đồ trở về vật hiện mang tên nơi ấy.",
+        "description_en": "Recall a burden stranded in an earlier crossing to its sending side. If that side is destroyed, it returns to what now bears that place’s name.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Cho ngày mượn cửa đêm",
+        "name_en": "Lend Day a Night-Door",
+        "description_vi": "Dùng dấu ngưỡng đã từng mở trong tối để người qua giữ phần tối ấy quanh mình tới cửa ra. Mang theo lửa sáng sẽ khiến bóng tối đòi một phần ký ức của nơi được mượn.",
+        "description_en": "An old dark opening lends its darkness through one crossing. Carrying bright fire makes that darkness claim part of the borrowed place’s memory.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Đếm lần cuối chưa tới",
+        "name_en": "Count the Unarrived Last Crossing",
+        "description_vi": "Giao một dấu chờ để ngưỡng chỉ khép sau người cuối đã được nhận. Không định danh đủ người cuối khiến cửa chờ vô hạn và đòi người giữ thay ca.",
+        "description_en": "A waiting mark closes passage after its last admitted traveller. An undefined final traveller leaves it waiting and demanding successive keepers.",
+        "group_vi": "VII. Những lần mở chưa trùng nhau",
+        "group_en": "VII. Openings Out of Step"
+      },
+      {
+        "name_vi": "Phòng sau vỏ hạt",
+        "name_en": "A Room Behind the Husk",
+        "description_vi": "Một vỏ rỗng từng làm nơi trú được đặt làm cửa tới một gian đã ghép. Người qua phải bỏ cách tự coi mình lớn hơn ngưỡng; chế giễu nghi thức khiến thân chỉ chạm vỏ thường.",
+        "description_en": "A hollow husk once used as shelter becomes a door to a paired room. Travellers must relinquish being too large for it; mocking the rite yields ordinary shell.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Bảy ổ cho một lời thật",
+        "name_en": "Seven Locks for One Truth",
+        "description_vi": "Khắc bảy ổ quanh một điều được các bên tự nhận rồi lần lượt mở. Ngưỡng chỉ nhường khi lời được nói đủ trước người đã có quyền nghe; sự thật ngoài phần đã nhận không bị buộc lộ.",
+        "description_en": "Cut seven locks around a mutually acknowledged matter and open them in order. The full admission must reach those entitled to hear; unrelated truths are not compelled.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Cửa gọi bằng tiếng hát",
+        "name_en": "The Song-Called Door",
+        "description_vi": "Dạy một ngưỡng nhận giai điệu đã hát tự nguyện tại đó làm chìa. Người hát sai phải trả một ký ức về người đã dạy thay vì chỉ thử lại vô hạn.",
+        "description_en": "Teach a threshold a willingly sung melody as key. A mistaken singer pays a memory of their teacher rather than retrying endlessly.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Cầu thang xuống trời",
+        "name_en": "Stairs Descending into Sky",
+        "description_vi": "Ghép đáy một bậc với mặt nhận cao hơn để bước xuống thành đi lên. Người mang vật tin chắc mình đang rơi có thể kéo cả vật khỏi sự nhận của bậc.",
+        "description_en": "Pair a step’s underside with a higher receiver so descent becomes ascent. A burden insistently identified as falling may pull itself outside the step’s acceptance.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Khách bước ra từ tranh",
+        "name_en": "A Guest Out of the Picture",
+        "description_vi": "Người thật tự gửi dấu vào chân dung có thể dùng hình ấy làm cửa ra của một lượt qua. Bức tranh vẽ tưởng tượng chỉ mở cho khoảng trống mang tên khách đó.",
+        "description_en": "A real person willingly marking their portrait may use it as an exit. An invented portrait opens only to an absence bearing its supposed guest’s name.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Căn nhà trong chiếc chìa",
+        "name_en": "The House Within the Key",
+        "description_vi": "Chủ giữ ngưỡng của một gian trống vào chiếc chìa để mang quyền trở lại theo mình. Thả mất chìa có thể khiến gian ấy nhận người nhặt làm vị khách đầu tiên.",
+        "description_en": "A keeper lodges an empty room’s threshold within its key, carrying return-right. A lost key may admit its finder as that room’s first guest.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Cửa để kẻ săn thành khách",
+        "name_en": "Make the Hunter a Guest",
+        "description_vi": "Người bị đuổi tự mở cửa và mời kẻ đuổi qua theo điều khoản nói rõ. Kẻ nhận lời phải bước như khách theo chính lời mời; kẻ từ chối vẫn ở ngoài với toàn bộ khả năng cũ.",
+        "description_en": "The pursued opens a door and offers explicit guest-terms. Acceptance makes the pursuer cross as that invitation’s guest; refusal leaves them outside with their former powers.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      },
+      {
+        "name_vi": "Ngưỡng không còn ai giữ",
+        "name_en": "The Door Without a Keeper",
+        "description_vi": "Người gọi tự bỏ quyền quay về để khép mọi lượt đang đòi mình canh qua viên ngọc. Những người đã ra được giữ phía ngoài; tên người gọi ở lại làm chiếc then mà chính họ không còn quyền mở.",
+        "description_en": "Relinquish your return-right to close crossings demanding your keeping. Those already out remain outside; your name stays as the bolt you can no longer open.",
+        "group_vi": "VIII. Cửa trong cổ tích",
+        "group_en": "VIII. Doors in the Tale"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngưỡng ở nơi khác",
+        "name_en": "The Threshold Elsewhere",
+        "description_vi": "Các tên ghi trên ổ có thể mất khỏi bản chép sau khi một lối được khép. Người giữ lưu dấu tay và lời chứng riêng để biết mình đã mở cho ai; ghi chép ấy cũng chỉ là cách phòng ngừa đã thử.",
+        "description_en": "Names upon a lock may vanish from copies after closure. Keepers separately retain handprints and testimony to remember whom they admitted, themselves only tried precautions."
+      }
+    ]
+  }
+]

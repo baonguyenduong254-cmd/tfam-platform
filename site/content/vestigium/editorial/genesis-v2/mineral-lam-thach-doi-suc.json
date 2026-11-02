@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-lam-thach-doi-suc",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Viên lam thạch từng nằm trong chân một chiếc máy ép ở xưởng chế chuông. Ngày bệ gỗ gãy, những người đang giữ dây nhìn thấy ánh xanh chạy xuyên thân quặng, đưa sức ép lệch khỏi người học việc và dồn vào phía tường. Tiếng đổ chỉ tới sau khi tất cả đã ngã xuống. Trong bức tường còn nguyên một hõm mang hình chiếc chuông chưa đúc xong.\n\nNgười ta tìm thấy những sợi lam mới trong mẩu quặng vốn chỉ dùng làm đá chèn. Từng sợi đi theo đường lực của lần sập, nhưng từ đó có thể đổi hướng khi hai mặt đá nhận hai điểm tựa khác nhau. Thợ đo giải thích bằng đòn bẩy rồi thất bại trước một xung đập được trả từ mặt chưa từng chạm búa. Xưởng giữ đá trong một bộ gá mở: đủ hiểu để đưa một sức nặng sang chỗ khác, chưa ai dám bảo mình biết thứ gì đã nhận sức nặng trong khoảng giữa.",
+    "lore_en": "The blue stone once supported a press in a bell-foundry. When the timber bed failed, rope-holders saw blue light cross the ore, diverting pressure from an apprentice into the wall. The crash reached them after they had fallen. The wall retained an impression of the unfinished bell.\n\nNew blue fibres had formed in ore previously used as packing-stone. They followed the collapse’s force-paths but thereafter changed direction when the stone received different supports. Craftsmen invoked levers, then failed to explain a blow returned from a face no hammer had touched. The foundry kept it in an open jig: enough understanding to send weight elsewhere, none to say what received that weight in between.",
+    "use_vi": "Đọc và chuyển hướng lực qua những mặt đã được đặt điểm tựa; lưu một xung rồi trả nó vào vật tiếp xúc. Đây là dụng cụ cho thợ hoặc người đủ biết mình đang đưa lực tới đâu.",
+    "use_en": "Read and redirect force between supported faces, or retain a pulse for release into a contacting object. Its user must understand where the force is being sent.",
+    "limits_vi": "Đường lam sẫm là dấu gần quá sức. Lực trả không phân biệt người với đồ vật; đổi điểm tựa giữa một lượt chuyển có thể làm xung trở về tay giữ. Một mạch gãy mất khả năng tương ứng vĩnh viễn.",
+    "limits_en": "Darkening blue marks approaching exhaustion. Returned force distinguishes no person from object. Moving a support mid-transfer may send the pulse back into its holder. A broken vein permanently loses its corresponding operation.",
+    "skills": [
+      {
+        "name_vi": "Đọc chỗ dồn lực",
+        "name_en": "Read the Burden",
+        "description_vi": "Áp mặt rộng vào vật đang chịu ép; ánh lam chạy về chỗ lực tập trung. Vật rung loạn cho nhiều đường chồng, cần người đọc tự phân biệt.",
+        "description_en": "Press its broad face to a loaded object. Blue runs towards concentrated force. Erratic vibration creates overlapping paths the reader must interpret."
+      },
+      {
+        "name_vi": "Đổi sức sang cạnh",
+        "name_en": "Turn Force Aside",
+        "description_vi": "Đặt hai mặt lên hai điểm tựa rồi xoay mạch sáng; một phần lực từ mặt đầu đi sang mặt thứ hai. Mặt nhận phải chịu được cú chuyển.",
+        "description_en": "Seat two faces against supports and turn the lit vein. Part of the first face’s load passes into the second; its receiving support must endure it."
+      },
+      {
+        "name_vi": "Giữ một nhát",
+        "name_en": "Keep One Blow",
+        "description_vi": "Cho đá nhận một cú gõ vào mạch còn sáng để giữ xung dưới dạng vệt lam đứng. Chạm đồng vào vệt sẽ trả lực; đá rơi cũng có thể giải phóng sớm.",
+        "description_en": "Strike an active vein to hold one blow as a standing blue streak. Copper touching it releases the force; a fall may discharge it early."
+      },
+      {
+        "name_vi": "Gõ ngược vết rạn",
+        "name_en": "Strike Back Along a Crack",
+        "description_vi": "Trả xung đã giữ qua một mũi kim loại đặt lên khe nứt, khiến lực lần theo khe thay vì tỏa đều. Không có khe thật, xung bật về đầu kim.",
+        "description_en": "Release a stored pulse through a metal point against a fracture. Force follows the fissure rather than spreading. Without a real crack, it rebounds into the point."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đường lực có trí nhớ",
+        "name_en": "Force-Paths Remember",
+        "description_vi": "Những đường lam ghi cả các điểm tựa từng được dùng, khiến viên đã qua nhiều tay luôn sáng theo nhiều lối trước khi chọn một.",
+        "description_en": "Blue veins retain previous supports; a much-used stone lights several paths before settling upon one."
+      }
+    ]
+  }
+]

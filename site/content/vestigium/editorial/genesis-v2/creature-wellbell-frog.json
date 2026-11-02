@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-wellbell-frog",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Ếch đẻ trong giếng có thành khoáng xanh. Nòng nọc ăn những mảng rêu bám vỉa, lớn lên với túi cổ trong mờ; mỗi khi người gánh lấy nhiều nước, tiếng kêu ngân như chuông nhỏ trước lúc dây gàu phải thả sâu thêm. Những con đưa sang bể có nước giếng tiếp tục báo, bể nước khác chỉ còn tiếng ếch thường.\n\nNgười gánh được đánh thức trước buổi sáng gàu chạm nền khô. Ông giữ nước gốc cho đàn, đánh vạch mức lên thành bể để học tiếng nào là nhịp lấy nước quen, tiếng nào báo một khoảng mất chưa ai nhận. Dưới miệng giếng, âm ngân nhỏ thành một phần của lịch làm việc.",
+    "lore_en": "Frogs bred in a well lined with green mineral. Tadpoles ate moss upon the vein and grew translucent throat sacs; whenever carriers drew heavily, a little bell tone sounded before their bucket ropes needed lengthening. Frogs moved into tanks of well water retained the warning; other water yielded ordinary calls.\n\nThe tone woke a carrier before a morning when his bucket reached dry ground. He preserved source water and marked tank levels to learn which call belonged to ordinary drawing and which warned of an unnoticed loss. Beneath the well mouth, the little ringing became part of the working day.",
+    "use_vi": "Theo biến động nước cục bộ và báo mức hạ khác nhịp quen trong bể dùng nguồn gốc.",
+    "use_en": "Follow local water change and warn of departures from a familiar decline in source-water tanks.",
+    "limits_vi": "Cần nguồn nước cũ cùng khoáng phù hợp để duy trì. Đổi bể phải cho học lại nhịp; trời và nước ngoài bể cần được đo riêng.",
+    "limits_en": "Original water and suitable minerals sustain the response. A new tank requires relearning; weather and outside water need separate measurement.",
+    "skills": [
+      {
+        "name_vi": "Chuông nước hạ",
+        "name_en": "The Falling-Water Bell",
+        "description_vi": "Nuôi đàn trong bể nguồn đã ổn để chúng ngân khi nước hạ ngoài nhịp quen, gọi người giữ tới kiểm thoát và rò.",
+        "description_en": "Keep the brood in an established source-water tank so an unfamiliar drop rings a warning for inspection of drains and leaks."
+      },
+      {
+        "name_vi": "Túi cổ so mức",
+        "name_en": "The Throat-Level Comparison",
+        "description_vi": "Đánh vạch mực bể rồi cho nước hạ nhẹ có kiểm soát để nhìn độ rung túi cổ, căn tiếng của đàn với các lượt lấy nước dự kiến.",
+        "description_en": "Mark the tank and lower water gently under control to compare throat vibration with planned water-drawing cycles."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cổ họng nhớ giếng",
+        "name_en": "A Throat Remembers Its Well",
+        "description_vi": "Túi cổ phản ứng theo thay đổi của chính môi trường đang sống; sức khỏe đàn cũng đổi tiếng nên cần theo hằng ngày.",
+        "description_en": "The throat responds to its own habitat’s change; colony health also alters its call and needs daily observation."
+      }
+    ]
+  }
+]

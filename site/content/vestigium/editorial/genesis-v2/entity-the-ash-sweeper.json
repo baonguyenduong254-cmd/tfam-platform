@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-ash-sweeper",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Tro từ một mẩu giấy tẩm khoáng rơi vào lò bánh đã nguội. Sáng hôm sau, người dọn thấy lớp tro bị quét thành lối hẹp trên gạch, cuối lối có bóng xám cầm chổi nhỏ. Thay viên gạch, bóng đi theo nhúm tro còn bám bàn chải và tiếp tục công việc ở viên mới.\n\nNgười dọn đặt chiếc chổi thật bên cạnh. Bóng ngừng quét, cúi đầu trước cái bóng cán chổi rồi quay lại gạt bụi. Các người làm bánh bắt đầu gọi nó là người quét, dù chưa ai nghe tiếng nó hay nhìn được mặt dưới vành mũ tro.",
+    "lore_en": "Ash from mineral-treated paper fell into a cold bread oven. Next morning its cleaner found a narrow swept path across a brick, ending at a grey figure with a tiny broom. Replacing the brick moved the figure with a pinch of ash on the brush; it continued working upon the new surface.\n\nThe cleaner set a real broom beside it. The figure stopped, bowed towards the handle’s shadow and returned to sweeping. Bakers began calling it the sweeper, although nobody had heard its voice or seen a face beneath the ash-brimmed hat.",
+    "use_vi": "Quét lớp bụi mỏng khỏi một mặt gạch nhỏ để lộ vết và khe.",
+    "use_en": "Sweep fine dust from a small brick face to expose marks and cracks.",
+    "limits_vi": "Phạm vi cỡ bàn tay, chỉ đẩy bụi nguội. Than nóng khiến nó lùi, gió mạnh làm bóng tan đến khi tro được gom yên lại.",
+    "limits_en": "Its reach is palm-sized and it moves cold dust only. Hot coal drives it back; strong wind disperses it until the ash is gathered still again.",
+    "skills": [
+      {
+        "name_vi": "Lối chổi nhỏ",
+        "name_en": "The Little Broom’s Path",
+        "description_vi": "Rắc nhúm tro có bóng lên viên gạch nguội rồi chừa mép trống để nó dồn bụi về đó; lấy bụi đi bằng chổi thật sau lượt quét.",
+        "description_en": "Set the inhabited ash upon a cold brick and leave one edge clear for dust to be swept there; remove it with a real brush afterwards."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đi theo nhúm tro",
+        "name_en": "Following a Pinch of Ash",
+        "description_vi": "Chỗ ở của bóng là nhúm tro gốc. Người dọn giữ nhúm riêng thay vì trộn nó vào tro thải.",
+        "description_en": "The figure lodges in its original ash pinch. Cleaners keep that pinch apart from waste."
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-hearthhush-chrysanthemum",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Cúc vàng mọc trong tro bếp nơi một người chép sách giấu mảnh khoáng xám để ủ nghiên mực. Qua nhiều đêm, lá hút nước tro cùng tiếng lửa nổ lách tách. Tới mùa hoa, người chép nhận ra bếp còn sáng mà tiếng đã nhỏ, còn gân lá rung theo đúng phần âm vừa biến mất.\n\nHạt gieo từ cây gốc tiếp tục đón những tiếng nhỏ lặp lại vào mô dày. Mỗi khi chủ khép cửa, lá còn run thêm một lúc như căn phòng đang trả nốt chuyện vừa nghe. Người nuôi gọi nó là hoa giữ yên; họ đặt chậu nghỉ xa phòng ngủ, bởi tiếng được nhả lúc cây mỏi thường tới muộn hơn cơn buồn ngủ của người.",
+    "lore_en": "Yellow chrysanthemums grew in hearth ash where a copyist hid a grey mineral to warm his inkstone. Night after night, their leaves drank ash water with the fire’s crackling. At flowering he noticed the hearth still shone while its sound diminished, and leaf veins trembled with precisely the portion that had vanished.\n\nSeeds retained the ability to receive small repeated sounds into thick tissue. Whenever their owner shut the door, leaves continued trembling as though the room were finishing a story. Growers call it the quiet-keeping flower; resting pots are kept away from bedrooms because sound released by a tired plant often arrives after its keeper’s sleepiness.",
+    "use_vi": "Rút bớt tiếng nhỏ lặp trong góc làm việc, cho kiểm riêng các tiếng và nhả phần âm đã giữ vào lúc chọn.",
+    "use_en": "Draw down small repeated sounds around a workspace, isolate noises for examination and release retained sound at a chosen time.",
+    "limits_vi": "Vòng tác dụng hẹp quanh chậu, tiếng lớn vẫn vượt qua. Lá rung lâu sẽ rách; cần một đêm nghỉ và phải chừa chỗ nhả âm thay vì bọc kín cả chậu.",
+    "limits_en": "Its reach is a narrow circle and loud sounds pass through. Long vibration tears leaves; it needs a night’s rest and room to release sound rather than a sealed wrapping.",
+    "skills": [
+      {
+        "name_vi": "Vòng im lò",
+        "name_en": "The Quiet Hearth Ring",
+        "description_vi": "Đặt chậu gần một nguồn lách tách nhỏ để lá nhận phần âm lặp, làm dịu góc đọc; tách khỏi lửa thật để cây khỏi cháy.",
+        "description_en": "Place the pot beside a small crackling source so leaves receive repeated sound and soften a reading corner; keep it clear of actual flame."
+      },
+      {
+        "name_vi": "Chọn tiếng nền",
+        "name_en": "Choose the Background",
+        "description_vi": "Cho cây nghe một tiếng máy đều trước khi đưa vào bàn nhiều âm để nó ưu tiên tiếng ấy; đổi nhịp lớn có thể khiến cây mất lựa chọn.",
+        "description_en": "Let the plant hear a steady machine before moving it among mixed sounds so it favours that noise; a major cadence change can lose the selection."
+      },
+      {
+        "name_vi": "Một lá thử",
+        "name_en": "The Testing Leaf",
+        "description_vi": "Chạm một lá bằng que mềm để riêng phần âm nó giữ bật ra, giúp nhận nguồn đang được hút; lá đã thử cần nghỉ một lượt.",
+        "description_en": "Touch one leaf with a soft stick to release its retained portion and identify the selected source; that leaf needs a recovery turn."
+      },
+      {
+        "name_vi": "Màn giấy yên",
+        "name_en": "The Quiet Paper Screen",
+        "description_vi": "Đặt chậu sau tấm giấy đứng để các lá cùng nhận tiếng cọ mặt bàn, giảm nhiễu cho người viết; giấy chạm lá trực tiếp có thể xả âm.",
+        "description_en": "Set the pot behind an upright sheet so leaves receive tabletop scraping together and quiet a writer’s work; direct paper-leaf contact can discharge sound."
+      },
+      {
+        "name_vi": "Dấu tiếng tới",
+        "name_en": "The Arriving Sound Mark",
+        "description_vi": "Quan sát một lá dựng riêng để thấy nó rung khi tiếng lặp được nhận, báo máy còn chạy dù tai đã bớt nghe; âm khác chen vào vẫn cần đối chiếu.",
+        "description_en": "Watch a separated leaf tremble when repeated sound is received to confirm machinery still runs despite quietened hearing; interfering sounds require comparison."
+      },
+      {
+        "name_vi": "Nhả vào gỗ",
+        "name_en": "Release Into Wood",
+        "description_vi": "Đặt chậu lên tấm gỗ riêng và vuốt lá từ gốc tới mép để phần rung thoát qua gỗ, giải cây trước khi đầy; tấm gỗ sẽ phát tiếng đã giữ.",
+        "description_en": "Set the pot upon a separate board and stroke leaves outwards to drain vibration through wood before saturation; the board sounds what was retained."
+      },
+      {
+        "name_vi": "Đổi chậu canh",
+        "name_en": "Change the Quiet Watch",
+        "description_vi": "Đặt chậu mới cạnh chậu mỏi cho cả hai nghe cùng tiếng rồi dời chậu cũ ra để chuyển phần giữ nền; đổi đột ngột làm tiếng nền trở lại một lượt.",
+        "description_en": "Let a fresh pot hear the same source beside a tired one before removing the old pot to pass the watch; abrupt replacement restores the whole background at once."
+      },
+      {
+        "name_vi": "Đêm trả tiếng",
+        "name_en": "The Night of Returned Sound",
+        "description_vi": "Để cây xa người nghỉ với lá được mở tự do cho nó nhả nốt rung từng đợt, phục hồi mô sau lượt dùng; chỉ mang lại khi gân đã thôi run.",
+        "description_en": "Rest the plant away from sleepers with leaves freely spread so remaining vibration leaves in waves and tissue recovers; return it only once veins cease trembling."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lá giữ tiếng lửa",
+        "name_en": "Leaves Hold the Fire’s Voice",
+        "description_vi": "Mô dày chứa phần âm đã rút dưới dạng rung. Lá xám trễ nhịp báo cây gần đầy, cần dừng trước khi tiếng bật trở lại.",
+        "description_en": "Thick tissue holds withdrawn sound as vibration. Grey, lagging leaves warn of near capacity and require a halt before it rebounds."
+      }
+    ]
+  }
+]

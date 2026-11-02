@@ -1,0 +1,532 @@
+[
+  {
+    "id": "armament-collection-5-01",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Khiên cửa hình chữ nhật, bạc đen",
+    "form_en": "Rectangular door shield of blackened silver",
+    "art": {
+      "kind": "shield",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Rectangular door shield of blackened silver. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintiuno. Hậu Môn Trọng Thuẫn Posternum",
+    "name_en": "Veintiuno. Postern Gate-Shield Posternum",
+    "lore_vi": "Tấm khiên cửa của Veintiuno lần đầu triển khai tại một cổng phụ có đoàn thương binh đang rút. Trên mặt bạc đen hiện dấu của khung cửa phía sau, và những cú va nhắm vào khoảng mở bắt đầu tìm tới khiên. Người giữ đứng trước cổng, để mọi người tiếp tục đi qua chỗ đáng lẽ phải khép lại.\n\nPosternum nhận một lối đang được bảo vệ làm phần sau của nó. Vũ khí phóng qua phía mặt chắn phải chạm bạc trước khi tới những người nằm trong ngưỡng. Mỗi lần nhận đòn, một ô vuông tối thêm trên mặt khiên. Cận vệ đọc những ô ấy như người giữ thành đọc vết nứt trên cổng: còn bao nhiêu chỗ để đứng, và ai vẫn chưa qua.",
+    "lore_en": "Veintiuno’s door-shield first deployed at a postern through which the wounded were withdrawing. The frame behind its bearer appeared upon the blackened silver, and impacts aimed at the opening began finding the shield. The keeper stood before the gate while people continued through a space that should have closed.\n\nPosternum receives a protected passage as its far side. Weapons entering through its defended face must meet silver before reaching those within the threshold. Each impact darkens a square upon the shield. The Guard reads those squares as a castellan reads cracks in a gate: how much standing room remains, and who has yet to pass.",
+    "use_vi": "Bảo vệ một ngưỡng hoặc lối rút bằng cách buộc đòn đi qua phía được che nhận mặt khiên làm điểm chạm.",
+    "use_en": "Defends a threshold or retreat by making attacks crossing its protected face meet the shield.",
+    "limits_vi": "Người giữ phải ở trước ngưỡng đã nhận. Mặt sau và các đường vòng ngoài phạm vi chắn vẫn cần bảo vệ; quá nhiều ô tối khiến ngưỡng mất liên kết.",
+    "limits_en": "Its bearer must remain before the received threshold. The rear and routes around the shield still need protection; too many darkened squares break the link.",
+    "skills": [
+      {
+        "name_vi": "Nhận ngưỡng",
+        "name_en": "Receive a Threshold",
+        "description_vi": "Gắn mặt sau khiên với một lối mở cụ thể.",
+        "description_en": "Binds the shield’s far side to a particular opening."
+      },
+      {
+        "name_vi": "Đón đòn qua cửa",
+        "name_en": "Receive the Crossing Blow",
+        "description_vi": "Đưa điểm chạm của đòn qua phía che về mặt bạc trước khi nó tới người trong ngưỡng.",
+        "description_en": "Brings the contact of an attack crossing the defended face onto the silver before it reaches people within."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Những ô đã chịu đòn",
+        "name_en": "Squares That Have Borne Impact",
+        "description_vi": "Vết tối lưu tải đã nhận, cho biết liên kết bảo vệ đang suy yếu ở đâu.",
+        "description_en": "Dark marks retain received impacts and reveal weakening portions of the protecting link."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 21, phá vây và hậu vệ",
+    "owner_en": "Bearer of Number 21, breakouts and rearguard action",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 21,
+      "label": "Veintiuno",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-02",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Kiếm dài khắc ô trống trên chuôi",
+    "form_en": "Long sword with blank panels on its hilt",
+    "art": {
+      "kind": "sword",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Long sword with blank panels on its hilt. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintitrés. Danh Khắc Truy Kiếm Cognitor",
+    "name_en": "Veintitrés. Name-Engraving Pursuit Blade Cognitor",
+    "lore_vi": "Cognitor có những ô trống trên chuôi. Sau lần thép chạm thép đầu tiên, một nét khắc hiện trong ô gần ngón cái: dấu của thứ vũ khí nó vừa nhận. Khi đối thủ đổi tay, đổi tư thế hoặc giấu lưỡi sau áo choàng, dấu ấy vẫn rung theo chính khối thép đã giao tranh.\n\nVeintitrés dùng thanh kiếm trong những cuộc đấu mà một nhịp giả có thể kéo cả đội vào thế chết. Cognitor cho bàn tay biết lúc vũ khí đã nhận bắt đầu chuyển, và lưỡi của nó tìm lại đường chạm cũ khi người giữ chủ động trả đòn. Danh khắc được giữ là danh của thép; đổi sang vũ khí khác buộc người cầm kiếm học lại một cuộc gặp.",
+    "lore_en": "Cognitor carries blank panels upon its hilt. After the first meeting of steel, a mark appears beside the thumb: the sign of the weapon it has received. Whether its opponent changes hands, posture or hides the blade beneath a cloak, that mark still trembles with the same steel.\n\nVeintitrés uses it in duels where a feint can lead an entire squad to its death. Cognitor tells the hand when the recognised weapon begins to move, and its edge finds the former line of contact when the keeper actively counters. The engraved name belongs to steel; a change of weapon requires the bearer to learn another meeting.",
+    "use_vi": "Nhận dấu một vũ khí qua tiếp xúc, theo chuyển động của nó và hỗ trợ phản đòn qua đường đã giao kiếm.",
+    "use_en": "Recognises a weapon through contact, follows its movement and supports counters along a previous blade-contact.",
+    "limits_vi": "Mỗi ô giữ một dấu, các dấu chồng làm chuôi rung khó đọc. Quyền nhận biết gắn với vật đã chạm; người dùng vẫn cần chọn bước, đỡ lực và tránh đòn từ vũ khí chưa được nhận.",
+    "limits_en": "Each panel retains one sign; overlapping signs make the hilt difficult to read. Recognition belongs to the contacted object; its bearer still chooses footwork, bears force and avoids unrecognised weapons.",
+    "skills": [
+      {
+        "name_vi": "Khắc danh thép",
+        "name_en": "Engrave Steel’s Name",
+        "description_vi": "Nhận căn tính chuyển động của vũ khí qua một lần giao kiếm.",
+        "description_en": "Receives a weapon’s moving identity through a meeting of blades."
+      },
+      {
+        "name_vi": "Tìm lại đường chạm",
+        "name_en": "Find the Contact Again",
+        "description_vi": "Khi chủ động phản đòn, lưỡi hướng về đường mà nó đã nhận từ vũ khí ấy.",
+        "description_en": "During an active counter, the blade tends towards a line received from that weapon."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ô danh hữu hạn",
+        "name_en": "Finite Name-Panels",
+        "description_vi": "Các ô khắc là những chỗ giữ dấu có thể nhìn thấy; quá nhiều dấu cùng thức sẽ làm chúng gây nhiễu nhau.",
+        "description_en": "The visible panels hold recognitions; too many awake together interfere with one another."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 23, đấu kiếm và bảo vệ chỉ huy",
+    "owner_en": "Bearer of Number 23, duelling and command protection",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 23,
+      "label": "Veintitrés",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-03",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Nỏ bạc có vòng ngắm khép kín",
+    "form_en": "Silver crossbow with a closed circular sight",
+    "art": {
+      "kind": "crossbow",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Silver crossbow with a closed circular sight. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veinticuatro. Hoàn Tuyến Ngân Nỏ Regressus",
+    "name_en": "Veinticuatro. Returning-Line Silver Crossbow Regressus",
+    "lore_vi": "Mũi tên của Regressus để một vòng bạc đứng trong không khí khi rời nỏ. Vòng thu nhỏ theo đường bay, ghi cả chỗ mũi tên bị gạt và quãng nó lướt sát vật cản. Veinticuatro kéo cần thứ hai để đường ấy nhận chiều trở lại.\n\nMột tên móc đã ghim vào giáp có thể giật người mặc lệch khỏi chỗ che. Mũi tên gắn dây cứu hộ mang dây về qua đúng lối vừa tìm được. Người mang Regressus phải nghĩ cả hai chiều trước khi bóp cò, bởi một vật trở lại cũng kéo những thứ đang buộc với nó qua tuyến đã ghi. Dấu bạc trên vòng ngắm tối đi ở nơi đường cũ đã bị khóa.",
+    "lore_en": "Regressus’s bolt leaves a silver ring standing in the air as it departs. The ring narrows along the flight, retaining deflections and passages close to obstructions. Veinticuatro draws the second lever to give that line a returning direction.\n\nA hooked bolt lodged in armour can pull its wearer out of cover. A rescue bolt brings its line back through the route it has found. The bearer must consider both directions before releasing the string, for a returning object also draws what is fastened to it along the recorded path. Silver upon the sight darkens where the former way has been blocked.",
+    "use_vi": "Bắn móc, kéo lệch mục tiêu và thu mũi tên hoặc dây theo đúng quỹ đạo đã ghi.",
+    "use_en": "Fires hooks, draws targets off-line and retrieves bolts or lines along their recorded trajectory.",
+    "limits_vi": "Vật cản mới có thể chặn lượt trở về. Vật nặng hoặc bám quá chặt truyền tải về nỏ và người giữ; quỹ đạo không tự tránh đồng đội đi vào sau phát bắn.",
+    "limits_en": "New obstructions can block the return. Heavy or firmly anchored loads pass strain into crossbow and bearer; the recorded path does not avoid companions entering it after the shot.",
+    "skills": [
+      {
+        "name_vi": "Ghi phi tuyến",
+        "name_en": "Retain the Flight",
+        "description_vi": "Giữ đường thực tế mũi tên vừa đi, kể cả đổi hướng do va chạm.",
+        "description_en": "Retains the bolt’s actual flight, including changes caused by contact."
+      },
+      {
+        "name_vi": "Hồi tuyến",
+        "name_en": "Return along the Line",
+        "description_vi": "Kéo vật gắn với mũi tên đi ngược đường đã nhận khi tuyến còn thông.",
+        "description_en": "Draws an object attached to the bolt back along the received route while it remains open."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một đường hai chiều",
+        "name_en": "One Path, Two Directions",
+        "description_vi": "Lượt về dùng hình đường của chính phát đã bắn thay vì tự chọn một lối mới.",
+        "description_en": "The return uses that shot’s own path instead of choosing a new route."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 24, đột kích và dây cứu hộ",
+    "owner_en": "Bearer of Number 24, assaults and rescue lines",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 24,
+      "label": "Veinticuatro",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-04",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Giáp ngực thép mờ với đĩa đồng nhỏ",
+    "form_en": "Dull steel cuirass with a small brass disc",
+    "art": {
+      "kind": "armor",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Dull steel cuirass with a small brass disc. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintiséis. Trì Thương Thiết Giáp Dilatio",
+    "name_en": "Veintiséis. Deferred-Wound Cuirass Dilatio",
+    "lore_vi": "Chiếc đĩa đồng trên Dilatio xoay một nấc khi thép trước ngực nhận đòn. Vết lõm đứng yên ở khoảnh khắc đang hình thành, giữ cú chạm như một cánh cửa khép dở. Bên trong giáp, người mang Veintiséis còn một khoảng để đổi thế, rút người hoặc nhận trợ giúp.\n\nNhững thợ sửa giáp làm các đe có mặt cong cùng dáng ngực người mặc. Khi cận vệ áp giáp vào đe và mở đĩa, phần biến dạng được trả vào lớp thép đã tháo khỏi cơ thể. Họ vá, thay và kiểm từng tấm trước lần triển khai kế. Dilatio biến thời gian trì hoãn thành công việc thật cho cả một nhóm người; bỏ qua công việc ấy là mang những cú đánh chưa đến vào trận mới.",
+    "lore_en": "The brass disc upon Dilatio turns one notch when its breastplate receives a blow. The dent holds at the moment of formation, retaining contact like a half-closed door. Within the armour, Veintiséis has an interval to change stance, withdraw or receive help.\n\nArmourers make anvils curved to the wearer’s chest. When the Guard lays the removed plate upon one and opens the disc, deformation is released into steel clear of the body. They mend, replace and inspect every plate before the next deployment. Dilatio turns delay into real work for a team; neglect means carrying blows still to arrive into another battle.",
+    "use_vi": "Hoãn biến dạng của phần giáp bị đánh, tạo thời gian rút người và tháo giáp để xử lý tải đã nhận.",
+    "use_en": "Defers deformation of a struck armour-section, allowing withdrawal and removal before the received impact is released.",
+    "limits_vi": "Chỉ giữ những đòn đã chạm vào phần giáp còn liên kết. Tháo đĩa sai lúc hoặc để tấm bị giữ vỡ giải phóng các cú chạm đang chờ; vùng cơ thể hở vẫn bị thương bình thường.",
+    "limits_en": "Holds only blows contacting linked armour-sections. Opening the disc at the wrong moment or breaking a held plate releases pending contacts; exposed body remains vulnerable.",
+    "skills": [
+      {
+        "name_vi": "Giữ vết đang lõm",
+        "name_en": "Hold the Forming Dent",
+        "description_vi": "Tách thời điểm chạm khỏi lúc biến dạng của tấm giáp được hoàn tất.",
+        "description_en": "Separates contact from completion of the plate’s deformation."
+      },
+      {
+        "name_vi": "Trả tải ngoài thân",
+        "name_en": "Release Clear of the Body",
+        "description_vi": "Khép lần va trên tấm giáp đã tháo và có mặt đỡ phù hợp.",
+        "description_en": "Completes the impact upon a removed plate with a suitable support beneath it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đĩa ghi va",
+        "name_en": "Impact-Recording Disc",
+        "description_vi": "Mỗi nấc giữ một phần va chưa khép, hiện bằng vệt sẫm trên đồng.",
+        "description_en": "Each notch retains an unfinished share of impact, visible as a dark brass mark."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 26, hộ vệ và cứu thương tiền tuyến",
+    "owner_en": "Bearer of Number 26, protection and frontline casualty extraction",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 26,
+      "label": "Veintiséis",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-05",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Búa hai tay đầu đá đen rạn vàng",
+    "form_en": "Two-handed hammer with a black stone head veined in gold",
+    "art": {
+      "kind": "hammer",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Two-handed hammer with a black stone head veined in gold. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintisiete. Tái Cơ Địa Chùy Fundamentum",
+    "name_en": "Veintisiete. Ground-Founding Hammer Fundamentum",
+    "lore_vi": "Đầu đá đen rạn vàng của Fundamentum được hạ lên một dấu nền do Veintisiete chọn. Tiếng nện đi xuống thay vì vang xa; mặt đất quanh dấu giữ nguyên vị trí ngay khi đất mềm dưới nó bắt đầu trượt. Trên phần nền được nhận, người ta đủ thời gian dựng chân chống, kéo pháo hoặc đưa cáng qua.\n\nCông binh đánh dấu cả chu vi cần giữ trước khi xin nhát búa. Một nền được gọi quá rộng sẽ nứt thành các mảng nhỏ, mỗi mảng đòi đầu chùy nhận lại. Trong chiến đấu, cận vệ có thể giữ chân khẩu đội trước sức giật hoặc khóa nơi đối phương đang muốn đào sập. Những đường vàng lan lên cán khi nền đang chịu nhiều hơn dấu ban đầu đã nhận.",
+    "lore_en": "Fundamentum’s gold-veined black head descends upon a ground-mark chosen by Veintisiete. The stroke travels down instead of sounding far; earth around the mark retains its position even as soft ground beneath begins to slip. Upon the received foundation, people gain time to brace supports, draw cannon or carry stretchers.\n\nEngineers mark the whole intended perimeter before asking for the blow. A foundation claimed too broadly cracks into smaller portions, each requiring the hammer’s renewed receipt. In battle the Guard can hold a battery’s footing against recoil or lock ground an enemy seeks to undermine. Golden lines climb the handle when the foundation bears more than its initial mark received.",
+    "use_vi": "Giữ vị trí một nền đã khoanh, phục vụ kê chống, vượt đất yếu, đặt pháo và chống đào sập.",
+    "use_en": "Holds a marked foundation’s position for shoring, weak-ground crossings, gun emplacement and countermining.",
+    "limits_vi": "Cần chọn chu vi thực và duy trì dấu. Lún vỡ ở ngoài ranh vẫn lan tới mép; mất dấu khiến nền trở lại cùng địa hình đang chuyển.",
+    "limits_en": "Requires a real perimeter and maintained marks. Failure beyond the boundary can still reach its edge; loss of the mark returns the foundation to the moving terrain.",
+    "skills": [
+      {
+        "name_vi": "Đặt nền",
+        "name_en": "Found the Ground",
+        "description_vi": "Cho phần đất trong dấu nhận một vị trí làm nền phải giữ.",
+        "description_en": "Gives marked ground a position it must retain as a foundation."
+      },
+      {
+        "name_vi": "Chia lại điểm tựa",
+        "name_en": "Redistribute the Supports",
+        "description_vi": "Dùng các nhát nối để chia một nền lớn thành các phần chịu riêng.",
+        "description_en": "Uses connected blows to divide a larger foundation into separately held portions."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vân vàng báo tải",
+        "name_en": "Gold Veins Showing Burden",
+        "description_vi": "Đường vàng mở rộng theo sức phần nền đang phải chịu, cho người giữ biết nơi cần bổ sung điểm tựa.",
+        "description_en": "Gold lines widen with the burden borne, showing where another support is needed."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 27, công binh nặng",
+    "owner_en": "Bearer of Number 27, heavy engineering",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 27,
+      "label": "Veintisiete",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-06",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Đạn đồng rỗng mang vòng âm thoa",
+    "form_en": "Hollow copper shell bearing a tuning ring",
+    "art": {
+      "kind": "ammunition",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Hollow copper shell bearing a tuning ring. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintiocho. Ứng Thanh Phá Đạn Resonans",
+    "name_en": "Veintiocho. Answering Breach-Shell Resonans",
+    "lore_vi": "Veintiocho đặt vòng âm thoa của Resonans vào mặt chắn cần phá trước khi nạp quả đạn đồng. Vòng nhận tiếng của gỗ, đá hoặc thép bằng một nhịp rất thấp. Khi viên đạn chạm đúng mặt đã nhận, phần sức đáng lẽ tỏa quanh điểm va chạy theo tiếng đáp vào trong kết cấu.\n\nResonans được giữ cho cổng, thành và những khoang tàu mà pháo thường phải bắn nhiều lần mới mở được. Một khuyết rỗng hoặc lớp ghép sai bên trong có thể khiến đường đáp đổi hướng, làm người tính chỗ đặt quân phải suy nghĩ lại. Quả đạn cho phép đưa sức phá tới một mặt đã chọn; hậu quả khi mặt ấy đổ vẫn thuộc về toàn bộ chiến trường phía sau.",
+    "lore_en": "Veintiocho sets Resonans’s tuning ring against the intended barrier before loading its copper shell. The ring receives wood, stone or steel through a low note. When the shell meets that recognised face, force that would spread around the impact follows the answering sound into the structure.\n\nResonans is reserved for gates, walls and ship-compartments that ordinary cannon must strike repeatedly to open. A cavity or faulty joint within can redirect the answer, demanding another judgment about where troops should stand. The shell carries breaching force into a chosen face; the consequences of that face falling still belong to the battlefield beyond.",
+    "use_vi": "Dồn tác động vào mặt chắn đã được vòng âm thoa nhận trước, hỗ trợ phá cổng, công sự và khoang tàu.",
+    "use_en": "Concentrates impact into a barrier previously received by its tuning ring, supporting breaches in gates, fortifications and ships.",
+    "limits_vi": "Cần tiếp xúc lấy dấu trước; lớp mặt thay đổi làm dấu lệch. Đây là đạn phá kết cấu, không có khả năng tự nhận biết dân thường hoặc giữ phần phía sau nguyên vẹn.",
+    "limits_en": "Requires prior contact to receive a mark; altered surface layers misalign it. This is a structural breaching round with no independent recognition of civilians or protection for what lies behind.",
+    "skills": [
+      {
+        "name_vi": "Nhận âm mặt chắn",
+        "name_en": "Receive the Barrier’s Note",
+        "description_vi": "Ghi tiếng đáp của bề mặt qua vòng âm thoa.",
+        "description_en": "Records a surface’s answering note through the tuning ring."
+      },
+      {
+        "name_vi": "Phá theo hồi đáp",
+        "name_en": "Breach through the Answer",
+        "description_vi": "Dẫn tác động vào phần kết cấu nhận đúng dấu khi đầu đạn chạm.",
+        "description_en": "Directs impact into the structure matching the received sign upon contact."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đạn và vòng cùng dấu",
+        "name_en": "Shell and Ring Sharing a Sign",
+        "description_vi": "Vòng phải đi cùng đúng quả đạn đã nhận; đổi vòng phá sự ăn khớp.",
+        "description_en": "The ring belongs with its received shell; exchanging it breaks their correspondence."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 28, pháo công thành",
+    "owner_en": "Bearer of Number 28, siege artillery",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 28,
+      "label": "Veintiocho",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-07",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Mũ trụ bạc, lưới tai đỏ sẫm",
+    "form_en": "Silver helm with dark red ear mesh",
+    "art": {
+      "kind": "helmet",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Silver helm with dark red ear mesh. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Veintinueve. Sinh Âm Thính Trụ Auscultor",
+    "name_en": "Veintinueve. Living-Sound Listening Helm Auscultor",
+    "lore_vi": "Lưới đỏ sẫm bên tai Auscultor rung trước tiếng tim mà người mang chưa kịp nghe. Veintinueve úp tay vào vành mũ để tách một nhịp khỏi tiếng máy, rồi nhận hướng của nó qua độ căng các sợi. Trong một nhà sập, nhịp yếu nhất có thể là phần công việc cần làm trước.\n\nKhi đột kích, cận vệ dùng mũ để phân biệt bước người sau tấm chắn và khoảng có cơ thể đang chờ nổ súng. Nó cũng nghe những nhịp bơm, bánh xe và cơ cấu có tiết tấu gần giống sự sống. Người giữ học cách đọc cả những lần mũ nhầm, vì một đội cứu nạn đi theo tiếng giả vẫn mất đi thời gian của người thật đang nằm dưới đá.",
+    "lore_en": "Auscultor’s dark-red ear mesh trembles before its bearer can hear the heartbeat. Veintinueve cups the rim to separate one rhythm from machinery, then receives its direction through the threads’ tension. In a collapsed house the faintest pulse may mark the task that must come first.\n\nDuring assaults the Guard uses the helm to distinguish movement behind barriers and the place where a body waits to fire. It also receives pumps, wheels and mechanisms with rhythms resembling life. Its keeper learns from mistaken readings, for a rescue party following a false pulse still spends the time of a real person beneath the stones.",
+    "use_vi": "Tách và định hướng nhịp cơ thể giữa tiếng máy hoặc hỗn loạn, hỗ trợ tìm kiếm và trinh sát gần.",
+    "use_en": "Separates and locates bodily rhythms amid machinery or chaos, supporting search and close reconnaissance.",
+    "limits_vi": "Nhịp đều nhân tạo có thể đánh lừa mũ. Những cơ thể không biểu lộ nhịp mà mũ nhận được sẽ không hiện; tín hiệu chỉ cho hướng, không tự xác nhận căn tính hay ý định.",
+    "limits_en": "Artificial rhythms can deceive it. Bodies without a rhythm it can receive remain absent; a signal gives direction without confirming identity or intention.",
+    "skills": [
+      {
+        "name_vi": "Lọc sinh âm",
+        "name_en": "Separate Living Sound",
+        "description_vi": "Chọn một nhịp nhận được giữa nền âm để nghe và lần hướng rõ hơn.",
+        "description_en": "Selects a received rhythm from background sound for clearer hearing and direction."
+      },
+      {
+        "name_vi": "Giữ nhịp đã gặp",
+        "name_en": "Retain a Met Rhythm",
+        "description_vi": "So một nhịp đã nhận gần với các tiếng đang tới để theo cùng nguồn qua vật che.",
+        "description_en": "Compares a recently received rhythm with incoming sounds to follow its source behind cover."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lưới căng theo hướng",
+        "name_en": "Direction-Tensioned Mesh",
+        "description_vi": "Sợi đỏ phản ánh hướng và sự rõ dần hoặc mờ đi của tín hiệu.",
+        "description_en": "Red threads indicate direction and the strengthening or fading of a signal."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 29, trinh sát và tìm người mắc kẹt",
+    "owner_en": "Bearer of Number 29, reconnaissance and trapped-person searches",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 29,
+      "label": "Veintinueve",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  },
+  {
+    "id": "armament-collection-5-08",
+    "category": "armament",
+    "rarity": 5,
+    "form_vi": "Giáo đen có vòng đá san hô trắng",
+    "form_en": "Black spear encircled by white coral stone",
+    "art": {
+      "kind": "spear",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Black spear encircled by white coral stone. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta. Định Bờ Hắc Thương Litoralis",
+    "name_en": "Treinta. Shore-Fixing Black Spear Litoralis",
+    "lore_vi": "Vòng san hô trắng trên Litoralis nhận đường nước khi Treinta cắm thương tại mép bờ. Sóng tiếp tục dâng ngoài ranh, còn một dải nền phía trong giữ được quan hệ khô và ướt đã có lúc mũi thương chạm đất. Đoàn đổ bộ bước xuống trong khoảng đất vừa được gọi là bờ.\n\nNgười mang dùng nó đưa cáng lên khỏi nước, ghim một điểm tiếp nhận giữa bến bị phá hoặc giữ bãi tập kết khỏi một đợt triều. Litoralis làm một ranh tạm trong chuyển động rộng hơn của biển. Khi san hô chuyển xám, cận vệ phải rút người trước khi trả đường nước về với những gì đang chờ ngoài mũi thương.",
+    "lore_en": "Litoralis’s white coral ring receives the waterline when Treinta plants the spear upon a shore. Waves continue rising beyond it, while a strip of ground within retains the dry-and-wet relationship present when the point met earth. A landing party steps down upon ground newly declared shore.\n\nIts bearer uses it to raise stretchers from water, secure a receiving point in a broken harbour or protect an assembly beach from a tide. Litoralis makes a temporary boundary within the sea’s greater movement. When coral greys, the Guard must withdraw people before returning the waterline to what waits beyond the spear.",
+    "use_vi": "Giữ một dải bờ tạm để đổ bộ, cứu hộ và tiếp nhận người giữa nước đang đổi.",
+    "use_en": "Holds a temporary strip of shore for landings, rescue and receiving people amid changing water.",
+    "limits_vi": "Cần có nền để ghim và đường nước thực để nhận. Sóng vượt ngoài dải giữ vẫn tác động; rút thương hoặc vòng san hô xám hoàn toàn khép hiệu lực.",
+    "limits_en": "Requires ground for the point and a real waterline to receive. Waves beyond the held strip still act; withdrawal of the spear or fully grey coral closes its effect.",
+    "skills": [
+      {
+        "name_vi": "Ghim bờ",
+        "name_en": "Pin the Shore",
+        "description_vi": "Giữ quan hệ bờ-nước trong một dải được nhận quanh điểm cắm.",
+        "description_en": "Retains the shore-water relationship within a strip received around the planted point."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "San hô cùng ranh",
+        "name_en": "Coral of the Boundary",
+        "description_vi": "Vòng trắng ngả xám theo mức đường nước đang đòi trở lại.",
+        "description_en": "The white ring greys as the displaced waterline presses to return."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 30, đổ bộ và cứu hộ bờ biển",
+    "owner_en": "Bearer of Number 30, landings and coastal rescue",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 30,
+      "label": "Treinta",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ trang bị triển khai. Số lượng bản thể và khả năng tái triển khai được ghi riêng; đây không phải thiết kế sản xuất đại trà.",
+      "note_en": "One deployed equipment system. Independent identities and redeployment are distinguished; this is not a mass-production design."
+    },
+    "rarity_note_vi": "Thiết kế mở rộng của Collection theo quyền sáng tạo tác giả đã trao. Số hiệu và quyền năng mới chưa xuất hiện trong bản thảo. Hình thể được giữ để phù hợp ảnh hiện có.",
+    "rarity_note_en": "A Collection expansion under the author’s creative authorisation. Its assigned number and revised powers are not attested in the manuscript. The physical form is retained to match existing artwork."
+  }
+]

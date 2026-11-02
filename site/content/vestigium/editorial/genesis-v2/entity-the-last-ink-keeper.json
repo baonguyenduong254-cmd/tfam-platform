@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-last-ink-keeper",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Một người chép gia phả nghiền khoáng đen vào lọ mực sắp hết để viết đủ tên cuối. Dưới đáy lọ hiện người mặc áo đen ôm giọt còn lại. Ông rửa lọ, bóng tan; rót lại mực cùng công thức, nó trở về với câu vừa viết trên mặt giọt nhỏ.\n\nKẻ giữ mực nhận một câu như phần việc phải được đọc xong trước khi bỏ lại. Người chép từng bỏ dở một cái tên rồi thấy bóng quay mặt xuống đáy suốt ngày. Từ đó, ông đọc trọn câu cuối trước khi đậy lọ, và để một giọt đủ lớn cho đôi tay nhỏ còn có thứ giữ.",
+    "lore_en": "A genealogist ground black mineral into his nearly empty ink to finish the final name. A black-coated figure appeared at the bottom, embracing the remaining drop. Washing dispersed it; refilling with the same formula returned it with the latest sentence upon that little surface.\n\nThe ink keeper accepts a sentence as work that must be read through before abandonment. Once the writer left a name unfinished and found the figure facing the bottom all day. Ever since he reads the whole final sentence before closing the bottle and leaves a drop large enough for its little hands.",
+    "use_vi": "Giữ câu vừa viết, hiện lại chữ và cho kiểm phần bị nhòe trong lượt chép gần nhất.",
+    "use_en": "Retain a just-written sentence, display its words and compare blurred portions of the latest transcription.",
+    "limits_vi": "Chỉ câu gần nhất được khép bằng một lần nhấc bút đủ lâu. Mực khác công thức xóa dấu; câu được ghi sai từ đầu vẫn được giữ đúng bản sai ấy.",
+    "limits_en": "Only the latest sentence closed by a sufficient pen lift is retained. Another formula erases it; an initially incorrect sentence is faithfully retained in that incorrect form.",
+    "skills": [
+      {
+        "name_vi": "Giữ câu cuối",
+        "name_en": "Keep the Last Sentence",
+        "description_vi": "Viết bằng mực cùng lọ rồi nhấc bút để bóng nhận câu cuối đã khép; câu mới thay trọn câu trước.",
+        "description_en": "Write with the bottle’s ink and lift the pen so the figure accepts the last closed sentence; a fresh sentence replaces the former."
+      },
+      {
+        "name_vi": "Chữ trong giọt",
+        "name_en": "Letters in the Drop",
+        "description_vi": "Soi đèn xiên vào đáy để bóng trải câu thành nét mực trên giọt, cho đọc lại mà khỏi chạm bản gốc.",
+        "description_en": "Light the bottom obliquely so the figure spreads its sentence as ink strokes upon the drop for reading without touching the original."
+      },
+      {
+        "name_vi": "Đối phần loang",
+        "name_en": "Compare the Blurred Part",
+        "description_vi": "Đưa trang vừa nhòe cạnh lọ để bóng chỉ những chữ trên giọt tương ứng với chỗ trang bị mất nét; giấy khác câu làm nó thôi chỉ.",
+        "description_en": "Hold a newly blurred page beside the bottle so the figure points to words matching the damaged part; an unrelated sentence stops its indication."
+      },
+      {
+        "name_vi": "Chép bóng",
+        "name_en": "Copy the Shadow",
+        "description_vi": "Áp giấy mỏng ngoài đáy đã lau khô rồi đọc câu lưu để nét bóng in nhạt qua kính, tạo một bản đối chiếu; lần in làm giọt nhỏ đi.",
+        "description_en": "Place thin paper outside the dried bottom and read the retained sentence so a pale ink shadow prints through glass for comparison; printing diminishes the drop."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một giọt một câu",
+        "name_en": "One Drop, One Sentence",
+        "description_vi": "Bóng dùng mực còn lại làm mặt chữ, lượng quá ít khiến các chữ dài phải hiện nối tiếp thay vì cùng lúc.",
+        "description_en": "The figure uses remaining ink as its writing surface; a scant drop shows long sentences successively rather than together."
+      }
+    ]
+  }
+]

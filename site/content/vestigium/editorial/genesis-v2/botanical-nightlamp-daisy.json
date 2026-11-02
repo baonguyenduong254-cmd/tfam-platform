@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-nightlamp-daisy",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Cúc trắng mọc dưới cửa sổ nơi chiếc đèn Vestigium được thắp mỗi tối. Một giọt dịch từ chân đèn nứt đã ngấm vào chậu. Đài hoa chuyển xanh sữa, và khi chủ nhà tắt đèn, những cánh ngoài vẫn giữ một quầng nhạt như mặt trăng nhìn qua giấy.\n\nHạt gieo từ cây ấy tiếp tục nhận ánh đèn vào gân rồi nhả lại sau tối. Người thợ đặt chậu dọc bậc xuống kho cho học trò ngủ lại khỏi lạc chân. Những cánh rụng được kẹp vào chìa khóa, đủ soi thấy một ổ khóa trước khi ánh cuối tắt trong túi áo.",
+    "lore_en": "White daisies grew beneath a window where a Vestigium lamp burned each evening. A drop leaking from its cracked foot entered their pot. The flower discs turned milky blue, and after the householder extinguished the lamp the outer petals retained a halo like moonlight through paper.\n\nTheir seeds kept the ability to take lamplight into their veins and release it after dark. A craftsman set pots along the cellar stairs for an apprentice staying overnight. Fallen petals were fastened to keys, bright enough to find one lock before their final light died in a coat pocket.",
+    "use_vi": "Đánh dấu bậc, lối đi và chìa khóa trong tối mà tránh dùng lửa.",
+    "use_en": "Mark steps, paths and keys in darkness without a flame.",
+    "limits_vi": "Ánh đủ nhận dấu ở gần; cây cần nạp lại dưới đèn Vestigium đã quen. Cánh rời tắt sớm hơn hoa sống, gió khô làm cả cây hao sáng nhanh.",
+    "limits_en": "Light suffices for nearby markers; the plant needs recharging beneath a familiar Vestigium lamp. Detached petals fade sooner than living flowers, and dry wind hastens the loss.",
+    "skills": [
+      {
+        "name_vi": "Nạp cánh",
+        "name_en": "Charge the Petals",
+        "description_vi": "Đặt hoa trong quầng đèn cho đến khi tâm sáng đều rồi chuyển ra chỗ tối để nó phát ánh chậm; nạp quá lâu làm cánh cuộn và phải cho cây nghỉ.",
+        "description_en": "Keep the bloom within a lamp halo until its disc shines evenly, then move it into darkness for slow release; excessive charging curls the petals and requires rest."
+      },
+      {
+        "name_vi": "Đốm chìa",
+        "name_en": "The Key Mote",
+        "description_vi": "Bứt một cánh đã nạp và kẹp vào vật cần đánh dấu để nó giữ đốm sáng trong một chặng ngắn; lần bứt làm hoa mẹ mất chính phần sáng ấy.",
+        "description_en": "Detach a charged petal and fasten it to a marker for a short-lived mote; the parent flower loses that share of light."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đêm nằm trong cánh",
+        "name_en": "Night Held in Petals",
+        "description_vi": "Ánh từ cánh ngoài truyền vào tâm khi nạp, rồi thoát theo chiều ngược; tâm tối báo hoa gần hết lượt sáng.",
+        "description_en": "Charging light moves from outer petals to disc, then leaves in reverse; a dark disc warns that the flower is nearly spent."
+      }
+    ]
+  }
+]

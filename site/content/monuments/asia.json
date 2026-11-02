@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "annam_empire_thang_long",
+    "faction_id": "annam_empire",
+    "name_vi": "Hoàng thành Thăng Long",
+    "name_en": "Imperial Citadel of Thăng Long",
+    "location_vi": "Thăng Long, châu thổ sông Hồng",
+    "location_en": "Thăng Long, Red River delta",
+    "category": "seat",
+    "epithet_vi": "Rồng thức dưới thành xưa",
+    "epithet_en": "The Dragon Beneath the Old Walls",
+    "lore_vi": "Nguyễn Huệ bước qua Đoan Môn sau ngày đạo quân cuối cùng của nhà Lê hạ giáo. Những nền điện chồng lên dấu tích các triều trước trở thành nơi ông nhận lời thề của các tướng Tây Sơn và con tin từ những vương quốc vừa khuất phục. Trong Kỷ Băng Hà, cung thành mở các dãy kho cho dân chạy rét; sân chầu có thêm sổ phát gạo bên cạnh danh sách quân dịch. Mỗi đoàn sứ bộ đi qua cổng đều nhìn thấy binh lính xuất thân từ một cuộc khởi nghĩa đang bảo vệ ngai vàng mới. Từ những bậc đá ấy, đường tiến quân tiếp tục kéo về phía tây.",
+    "lore_en": "Nguyễn Huệ passed through Đoan Môn after the last Lê army grounded its weapons. Palace foundations layered over earlier dynasties became the stage for Tây Sơn oaths and the reception of hostages from conquered kingdoms. During the ice age, stores within the citadel sheltered people fleeing the cold; grain registers joined muster rolls in the audience courts. Every embassy entering the gate saw soldiers born of rebellion guarding a new throne. From those stone steps, the roads of conquest continued westward.",
+    "traits": [
+      {
+        "label_vi": "Ấn của người chiến thắng",
+        "label_en": "Seal of the Victor",
+        "description_vi": "Triều đình đặt các tướng khởi nghĩa vào trung tâm bộ máy cai trị.",
+        "description_en": "Veterans of the rebellion occupy the heart of government."
+      },
+      {
+        "label_vi": "Kho mở giữa mùa rét",
+        "label_en": "Granaries in the Cold",
+        "description_vi": "Kho cung thành cấp cứu tế dưới sự giám sát trực tiếp của quan quân.",
+        "description_en": "Palace stores issue relief under direct military supervision."
+      }
+    ],
+    "benefit_vi": "Tập trung mệnh lệnh và cứu tế, giúp triều đình giữ nhịp huy động trên toàn đế quốc.",
+    "benefit_en": "Concentrates orders and relief, sustaining mobilisation across the empire.",
+    "cost_vi": "Con tin và quan lại các triều cũ khiến nội đình luôn tiềm tàng âm mưu kế vị.",
+    "cost_en": "Hostages and former officials keep succession intrigue alive within the court.",
+    "status_vi": "Kinh đô đế quốc, 1715–1716",
+    "status_en": "Imperial capital, 1715–1716",
+    "historical_anchor_vi": "Hoàng thành có lịch sử từ thời Lý; TFAM đưa cuộc nổi dậy Tây Sơn lên năm 1691.",
+    "historical_anchor_en": "The citadel dates to the Lý dynasty; TFAM advances the Tây Sơn rising to 1691.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1328/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Đoan Môn gate and dragon steps, Tây Sơn banners, grain sledges in a frosted imperial courtyard, muted vermilion and antique gold."
+  },
+  {
+    "id": "annam_empire_hoi_an",
+    "faction_id": "annam_empire",
+    "name_vi": "Hải cảng Hội An",
+    "name_en": "Harbour of Hội An",
+    "location_vi": "Hội An, miền Trung An Nam",
+    "location_en": "Hội An, central An Nam",
+    "category": "harbour",
+    "epithet_vi": "Đèn còn sáng trên sông",
+    "epithet_en": "Lanterns Above the River",
+    "lore_vi": "Bến Hội An từng đón người Nhật, người Hoa và thuyền buôn vượt những vùng biển xa. Khi quân Tây Sơn thống nhất đất nước sớm hơn lịch sử, Nguyễn Huệ giữ các hội quán cùng quyền xét sổ hàng của thương nhân để đổi lấy gỗ tàu, thuốc súng và tin tức. Băng giá khiến những chuyến biển thưa đi; các dãy nhà kho được bọc thêm ván, dầu đèn chia theo phiên trực. Năm 1715, hàng hóa từ những xứ vừa quy phục theo sông về đây trước khi đi tới kinh thành. Các chủ thuyền đọc tên người mất tích trên bến rồi lại đốt đèn dẫn chuyến tàu kế tiếp vào cửa nước.",
+    "lore_en": "Hội An had welcomed Japanese and Chinese merchants alongside ships from distant seas. After the early Tây Sơn unification, Nguyễn Huệ preserved its assembly halls and merchant accounting privileges in return for timber, powder and intelligence. The cold thinned maritime traffic; warehouses gained timber linings and lamp oil was rationed by watch. In 1715, goods from newly subjected lands reached these quays before moving towards the capital. Shipmasters read the names of the missing along the waterfront, then lit their lanterns to guide the next vessel through the river mouth.",
+    "traits": [
+      {
+        "label_vi": "Hội quán giữ lời",
+        "label_en": "Assembly-Hall Guarantees",
+        "description_vi": "Các cộng đồng thương nhân đứng ra bảo chứng hàng hóa và nợ.",
+        "description_en": "Merchant communities guarantee cargoes and credit."
+      },
+      {
+        "label_vi": "Cửa sông đổi dòng",
+        "label_en": "A Shifting River Mouth",
+        "description_vi": "Luồng lạch đòi hỏi hoa tiêu địa phương dẫn tàu.",
+        "description_en": "Local pilots are essential to navigating the changing channels."
+      }
+    ],
+    "benefit_vi": "Mở đường nhập vật tư và thu thập tin biển ngoài mạng lưới của Đông Ấn Anh.",
+    "benefit_en": "Provides supplies and maritime intelligence beyond Company networks.",
+    "cost_vi": "Triều đình phải thương lượng với thương nhân; phong tỏa cửa sông làm tê liệt cảng nhanh chóng.",
+    "cost_en": "The court must bargain with merchants; a blockade can quickly cripple the river port.",
+    "status_vi": "Thương cảng được bảo hộ",
+    "status_en": "Protected trading port",
+    "historical_anchor_vi": "Hội An phát triển như thương cảng quốc tế từ thế kỷ XV đến XIX.",
+    "historical_anchor_en": "Hội An flourished as an international trading port between the fifteenth and nineteenth centuries.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/948/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Lantern-lit timber merchant houses and covered bridge beside cold river, ocean junks at quays, weathered ochre, crimson lanterns."
+  },
+  {
+    "id": "annam_empire_my_son",
+    "faction_id": "annam_empire",
+    "name_vi": "Thánh địa Mỹ Sơn",
+    "name_en": "Sanctuary of Mỹ Sơn",
+    "location_vi": "Thung lũng Mỹ Sơn, Quảng Nam",
+    "location_en": "Mỹ Sơn valley, Quảng Nam",
+    "category": "ruin",
+    "epithet_vi": "Lửa cũ trong lòng gạch đỏ",
+    "epithet_en": "Old Fire in Red Brick",
+    "lore_vi": "Những tháp gạch đứng giữa thung lũng đã chứng kiến nhiều vương triều đi qua miền duyên hải. Sau cuộc thống nhất, triều đình Tây Sơn trao lại quyền trông coi tế tự cho các gia đình Chăm còn gìn giữ ký ức nơi đây, đổi lấy sự hợp tác trên những con đường miền núi. Mùa rét làm đá nứt và cây rừng rụng lá; người giữ đền phải chống mái, nhóm lửa xa tượng để giữ khô những bản chép tay. Quan quân đến kiểm kê từng khối phù điêu với hy vọng đọc được dấu vết Vestigium. Với cư dân trong thung lũng, mỗi món đồ bị mang đi lại là một phần tổ tiên rời khỏi nhà.",
+    "lore_en": "The brick towers had watched successive dynasties cross the coast. After unification, the Tây Sơn court restored custodial rites to Cham families who preserved the sanctuary’s memory, in exchange for cooperation along the mountain roads. Frost split stone and stripped the surrounding forest; keepers shored roofs and tended fires away from the statues to dry their manuscripts. Imperial officers inventoried the reliefs in search of possible Vestigium traces. For the valley’s inhabitants, each object removed was another fragment of their ancestors leaving home.",
+    "traits": [
+      {
+        "label_vi": "Người giữ tháp",
+        "label_en": "Keepers of the Towers",
+        "description_vi": "Các gia đình Chăm bảo tồn nghi lễ và tri thức địa phương.",
+        "description_en": "Cham families preserve local rites and knowledge."
+      },
+      {
+        "label_vi": "Gạch nhớ hơi ấm",
+        "label_en": "Brick That Holds Warmth",
+        "description_vi": "Khu tháp cung cấp nơi khảo sát vật liệu và dấu vết cổ.",
+        "description_en": "The towers offer material evidence and ancient traces for study."
+      }
+    ],
+    "benefit_vi": "Củng cố quan hệ với cộng đồng Chăm và mở hướng khảo cứu di sản cổ.",
+    "benefit_en": "Strengthens relations with Cham communities and supports the study of ancient heritage.",
+    "cost_vi": "Việc trưng thu thánh vật hoặc cưỡng bức tế tự có thể phá hủy thỏa thuận địa phương.",
+    "cost_en": "Confiscating sacred objects or coercing rites may destroy the local settlement.",
+    "status_vi": "Thánh địa được triều đình bảo hộ",
+    "status_en": "Sanctuary under imperial protection",
+    "historical_anchor_vi": "Mỹ Sơn là trung tâm tôn giáo của Champa với hệ tháp xây qua nhiều thế kỷ.",
+    "historical_anchor_en": "Mỹ Sơn was a Cham religious centre whose tower temples developed across many centuries.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/949/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Distinctive Cham red brick towers amid cold leafless mountain valley, incense and tiny custodians, restrained amber embers, no invented giant portal."
+  },
+  {
+    "id": "annam_empire_angkor",
+    "faction_id": "annam_empire",
+    "name_vi": "Angkor — Hồ chứa của những vị vua",
+    "name_en": "Angkor — Reservoirs of Kings",
+    "location_vi": "Angkor, đất Khmer",
+    "location_en": "Angkor, Khmer lands",
+    "category": "landscape",
+    "epithet_vi": "Nước vẫn chờ dưới đá",
+    "epithet_en": "Water Waiting Beneath Stone",
+    "lore_vi": "Nguyễn Huệ giữ lại những dòng họ trông coi đền và cho quân khơi lại một phần kênh dẫn quanh Angkor sau khi đất Khmer quy phục. Các hồ chứa của vương triều cũ trở thành nguồn nước dự trữ cho ruộng và trại quân trong những mùa vụ ngày càng ngắn. Việc đào vét đưa lên các bậc đá, tượng gãy và mộ người từng làm công cho những vị vua đã khuất. Dân làng nhận gạo để tiếp tục đào, còn quan lại tranh nhau quyền điều khiển cửa nước. Khi năm 1716 mở thêm chiến trường về phía tây, mỗi đấu thóc từ vùng hồ đều được ghi vào sổ tiếp vận của đế quốc.",
+    "lore_en": "After the Khmer submission, Nguyễn Huệ retained temple custodians and ordered selected channels around Angkor cleared. Reservoirs inherited from an earlier kingship became reserves for fields and army camps as growing seasons shortened. Dredging exposed stone steps, broken statues and graves of labourers who had served forgotten rulers. Villagers received grain to continue digging while officials contested control of the sluices. When the western war widened in 1716, every measure of rice from the reservoir country entered the imperial supply registers.",
+    "traits": [
+      {
+        "label_vi": "Cửa nước của đế quốc",
+        "label_en": "Imperial Sluices",
+        "description_vi": "Các hồ và kênh nối nước với những vùng canh tác còn sử dụng được.",
+        "description_en": "Reservoirs and channels feed the remaining cultivable ground."
+      },
+      {
+        "label_vi": "Ký ức Khmer",
+        "label_en": "Khmer Memory",
+        "description_vi": "Người coi đền nắm hiểu biết cần thiết để vận hành hệ thống cũ.",
+        "description_en": "Temple custodians hold the knowledge needed to operate the old system."
+      }
+    ],
+    "benefit_vi": "Duy trì sản lượng lương thực và tiếp tế cho các đạo quân phía tây.",
+    "benefit_en": "Sustains food production and supplies for the western armies.",
+    "cost_vi": "Khơi kênh tốn nhân lực; tranh quyền phân nước dễ biến thành chống đối triều đình.",
+    "cost_en": "Dredging consumes labour; disputes over water can become resistance to imperial rule.",
+    "status_vi": "Hệ thống thủy lợi phục hồi từng phần",
+    "status_en": "Hydraulic network under partial restoration",
+    "historical_anchor_vi": "Angkor có hệ thống hồ chứa, đê và kênh gắn với các kinh đô Khmer trung đại.",
+    "historical_anchor_en": "Angkor contained reservoirs, dykes and channels serving medieval Khmer capitals.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/668/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Angkor Wat silhouette beyond immense partly frozen baray, dredging crews and stone sluices, copper sunrise through grey cold."
+  },
+  {
+    "id": "annam_empire_luang_prabang",
+    "faction_id": "annam_empire",
+    "name_vi": "Luang Prabang — Thành phố của lời thề",
+    "name_en": "Luang Prabang — City of Oaths",
+    "location_vi": "Thượng lưu Mekong, đất Lào",
+    "location_en": "Upper Mekong, Lao lands",
+    "category": "sacred",
+    "epithet_vi": "Tiếng chuông trên đường núi",
+    "epithet_en": "Bells Above the Mountain Road",
+    "lore_vi": "Những người mang sắc lệnh từ Thăng Long tới Luang Prabang phải đi qua các con đường mà mưa lạnh có thể khóa suốt nhiều ngày. Nguyễn Huệ buộc những dòng họ vương thất khuất phục nhưng giữ lại tu viện và lịch bố thí của họ để biến sự đầu hàng thành một giao ước có người làm chứng. Các nhà sư ghi tên làng nhận gạo, tên người đi lính và tên các hoàng thân được đưa về kinh. Mái chùa trở thành chỗ trú cho đoàn vận tải khi sương phủ kín sông. Quyền lực đế quốc tới đây bằng quân kỳ, rồi phải học cách ở lại bằng từng lời hứa đã ban.",
+    "lore_en": "Envoys bearing decrees from Thăng Long reached Luang Prabang through roads that freezing rain could close for days. Nguyễn Huệ compelled the royal houses to submit but preserved monasteries and almsgiving calendars, turning surrender into a witnessed compact. Monks recorded villages receiving grain, men conscripted and princes sent to the capital. Temple roofs sheltered supply caravans whenever mist concealed the river. Imperial power arrived beneath military banners; remaining there required honouring each promise already given.",
+    "traits": [
+      {
+        "label_vi": "Tu viện làm chứng",
+        "label_en": "Monastic Witnesses",
+        "description_vi": "Các cộng đồng tu viện ghi nhận cứu tế và những giao ước địa phương.",
+        "description_en": "Monasteries record relief distributions and local agreements."
+      },
+      {
+        "label_vi": "Bến cao trên Mekong",
+        "label_en": "High Mekong Landing",
+        "description_vi": "Bến sông nối đoàn thuyền với đường vận tải miền núi.",
+        "description_en": "River landings connect boats with mountain caravans."
+      }
+    ],
+    "benefit_vi": "Tăng khả năng tiếp vận miền núi và duy trì thỏa thuận với các dòng họ Lào.",
+    "benefit_en": "Supports mountain logistics and agreements with Lao ruling houses.",
+    "cost_vi": "Phá lời hứa cứu tế khiến uy tín triều đình suy giảm trên cả mạng lưới tu viện.",
+    "cost_en": "Broken relief promises undermine imperial standing throughout the monastic network.",
+    "status_vi": "Trung tâm nghi lễ dưới quyền An Nam",
+    "status_en": "Ceremonial centre under An Nam",
+    "historical_anchor_vi": "Luang Prabang lưu giữ truyền thống đô thị, tu viện và vương quyền Lào.",
+    "historical_anchor_en": "Luang Prabang preserves Lao traditions of urban life, monasteries and kingship.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/479/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Precolonial Lao temple roofs above Mekong mist, mountain caravans below, frosted gilded finials, deep saffron and river slate."
+  },
+  {
+    "id": "annam_empire_ayutthaya",
+    "faction_id": "annam_empire",
+    "name_vi": "Ayutthaya — Những tháp chuông thất trận",
+    "name_en": "Ayutthaya — Towers of the Defeated",
+    "location_vi": "Ayutthaya, Xiêm; thuộc An Nam từ 1716",
+    "location_en": "Ayutthaya, Siam; An Nam possession from 1716",
+    "category": "seat",
+    "epithet_vi": "Một kinh đô, hai lần đổi cờ",
+    "epithet_en": "One Capital, Two Changes of Banner",
+    "lore_vi": "Năm 1715, thương điếm và quân bảo hộ Đông Ấn Anh vẫn kiểm soát những lối tới kinh đô Xiêm. Các tháp chùa soi xuống dòng nước lạnh, còn cầu tàu gánh hàng cho một quyền lực đặt hội đồng ở tận bên kia biển. Năm 1716, quân Nguyễn Huệ vượt núi và tiến theo sông; cửa thành mở ra cho những tờ cáo thị mang ấn mới. Triều đình An Nam giữ các kho lương cùng xưởng thuyền để nuôi cuộc tiến công sang Miến Điện. Những người sống quanh cung điện đã học cách cất cờ cũ trong vách nhà, chờ xem lời bảo hộ lần này sẽ kéo dài bao lâu.",
+    "lore_en": "In 1715, Company factories and protectorate troops still controlled approaches to the Siamese capital. Temple towers stood above cold water while the quays served a power whose council sat across the seas. In 1716, Nguyễn Huệ’s columns crossed the mountains and his river forces advanced; the gates received proclamations beneath a new seal. An Nam retained grain stores and boatyards to supply the Burmese offensive. Families around the palace learned to hide the old banners inside their walls and wait to see how long this latest promise of protection would endure.",
+    "traits": [
+      {
+        "label_vi": "Kho của cuộc tiến quân",
+        "label_en": "Stores of the Advance",
+        "description_vi": "Kho lương và xưởng thuyền hỗ trợ chiến dịch năm 1716.",
+        "description_en": "Granaries and boatyards support the campaign of 1716."
+      },
+      {
+        "label_vi": "Ngai vàng chịu giám sát",
+        "label_en": "A Throne Under Watch",
+        "description_vi": "Quan chức bản địa hoạt động dưới sự kiểm soát của quân chiếm đóng.",
+        "description_en": "Local officials operate under occupation supervision."
+      }
+    ],
+    "benefit_vi": "Từ năm 1716, cung cấp đầu mối vận tải đường sông và quân nhu về phía Miến Điện.",
+    "benefit_en": "From 1716, provides river transport and supplies towards Burma.",
+    "cost_vi": "Chỉ thuộc An Nam từ 1716; kháng cự địa phương buộc triều đình duy trì đồn trú lớn.",
+    "cost_en": "Belongs to An Nam only from 1716; local resistance requires a substantial garrison.",
+    "status_vi": "1715: ngoài quyền kiểm soát; 1716: mới chiếm",
+    "status_en": "1715: outside control; 1716: newly occupied",
+    "historical_anchor_vi": "TFAM thay đổi số phận kinh đô Xiêm trước biến cố phá hủy năm 1767 của lịch sử thật.",
+    "historical_anchor_en": "TFAM changes the Siamese capital’s fate before its historical destruction in 1767.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/576/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Ayutthaya prang towers and precolonial palace river quays, captured Company banners folded on barges, restrained frost, imperial Vietnamese supply boats."
+  },
+  {
+    "id": "ming_celestial_empire_forbidden_city",
+    "faction_id": "ming_celestial_empire",
+    "name_vi": "Tử Cấm Thành",
+    "name_en": "Forbidden City",
+    "location_vi": "Bắc Kinh, Đại Minh",
+    "location_en": "Beijing, Great Ming",
+    "category": "seat",
+    "epithet_vi": "Long ngai được giành lại",
+    "epithet_en": "The Dragon Throne Reclaimed",
+    "lore_vi": "Năm 1659, chiến thắng Nam Kinh của Trịnh Thành Công mở đường cho những đạo quân phục Minh đưa họ Chu trở lại Bắc Kinh. Tử Cấm Thành được lau sạch dấu triều đại vừa thất thế; những người tham gia phục quốc nhận chỗ đứng trong lễ thiết triều đầu tiên. Đến Kỷ Băng Hà, các điện đóng bớt cửa để giữ nhiệt, còn kho tấu sớ chất đầy báo cáo mất mùa và xin quân. Hoàng đế ngồi giữa biểu tượng quyền lực của thiên triều, nhưng những bức thư từ hạm đội họ Trịnh luôn được mang vào trước. Năm 1716, tin thất thủ ngoài biển khiến tiếng giày trong sân chầu nặng hơn cả tiếng chuông.",
+    "lore_en": "Zheng Chenggong’s victory at Nanjing in 1659 opened the road for restoration armies to return the Zhu house to Beijing. The Forbidden City shed the signs of its defeated occupiers; veterans received places in the first restored audiences. During the ice age, halls closed doors to conserve heat while memorial stores filled with failed-harvest reports and requests for soldiers. The emperor occupied the symbols of celestial authority, yet letters from Zheng fleets always arrived first. In 1716, news of maritime defeat made footsteps in the audience courts heavier than the bells.",
+    "traits": [
+      {
+        "label_vi": "Long ấn phục quốc",
+        "label_en": "Restoration Seal",
+        "description_vi": "Ngai vàng tập hợp các quan lại trung thành với cuộc phục Minh.",
+        "description_en": "The throne unites officials loyal to the Ming restoration."
+      },
+      {
+        "label_vi": "Hai trung tâm quyền lực",
+        "label_en": "Two Centres of Power",
+        "description_vi": "Quyền ban chiếu phải tính tới hạm đội họ Trịnh.",
+        "description_en": "Imperial decrees must accommodate the Zheng fleets."
+      }
+    ],
+    "benefit_vi": "Duy trì tính chính thống và hệ thống quan lại trên đại lục.",
+    "benefit_en": "Sustains dynastic legitimacy and the mainland bureaucracy.",
+    "cost_vi": "Đấu đá với họ Trịnh có thể trì hoãn quyết sách khi biên giới và biển cùng lâm nguy.",
+    "cost_en": "Conflict with the Zheng can delay decisions while land and sea frontiers are threatened.",
+    "status_vi": "Hoàng cung của vương triều phục hồi",
+    "status_en": "Palace of the restored dynasty",
+    "historical_anchor_vi": "Tử Cấm Thành được xây dưới thời Minh; TFAM đảo kết quả chiến dịch Nam Kinh năm 1659.",
+    "historical_anchor_en": "The palace was built under the Ming; TFAM reverses the outcome of the Nanjing campaign of 1659.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/439/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Vast axial Forbidden City courts in blue winter dusk, red walls and gold roofs, tiny restoration court procession, no Qing dress."
+  },
+  {
+    "id": "ming_celestial_empire_great_wall",
+    "faction_id": "ming_celestial_empire",
+    "name_vi": "Vạn Lý Trường Thành — Tuyến lửa phương Bắc",
+    "name_en": "Great Wall — Northern Fire Line",
+    "location_vi": "Các cửa ải phía bắc Đại Minh",
+    "location_en": "Northern passes of Great Ming",
+    "category": "fortress",
+    "epithet_vi": "Tường đá trước vó ngựa",
+    "epithet_en": "Stone Before the Hooves",
+    "lore_vi": "Các thế hệ quân Minh từng trấn những cửa ải với niềm tin rằng mỗi ngọn tháp còn sáng là một ngày bình yên cho đồng ruộng phía nam. Khi Galdan và Anu quy tụ thảo nguyên, triều đình phục quốc phải đưa pháo, áo rét và dân phu trở lại những đoạn tường đã xuống cấp. Năm 1715, lửa hiệu truyền tin qua đỉnh núi trắng, nhanh hơn những đoàn xe lương có thể tới nơi. Năm 1716, kỵ quân đối phương tránh chỗ mạnh để uy hiếp đường tiếp tế. Người giữ thành nhìn xuống những dấu móng ngựa ngoài tuyết rồi nhìn về phía nam, nơi phần gạo của tháng tới vẫn chưa xuất hiện.",
+    "lore_en": "Generations of Ming soldiers had guarded these passes believing that each burning tower purchased another peaceful day for the fields below. When Galdan and Anu united the steppe, the restored court sent guns, winter clothing and labourers back to decaying walls. In 1715, beacon fires carried warnings over white ridges faster than supply wagons could follow. In 1716, enemy cavalry bypassed strongpoints to threaten their roads. Garrison soldiers watched hoofprints beyond the snow, then turned south towards the route from which next month’s grain had yet to appear.",
+    "traits": [
+      {
+        "label_vi": "Lửa truyền qua núi",
+        "label_en": "Fire Across the Mountains",
+        "description_vi": "Tháp hiệu cảnh báo những hướng tập kết kỵ quân.",
+        "description_en": "Beacon towers warn of cavalry concentrations."
+      },
+      {
+        "label_vi": "Đồn xa kho lương",
+        "label_en": "Garrisons Beyond the Granaries",
+        "description_vi": "Mỗi cửa ải phụ thuộc tuyến vận tải dài qua địa hình lạnh.",
+        "description_en": "Every pass depends on lengthy supply routes through cold terrain."
+      }
+    ],
+    "benefit_vi": "Làm chậm xâm nhập tại cửa ải và tạo thời gian tập hợp quân cứu viện.",
+    "benefit_en": "Delays incursions at guarded passes and buys time for reinforcements.",
+    "cost_vi": "Tường thành kéo dài phân tán quân; giữ đủ lương khó hơn giữ đủ pháo.",
+    "cost_en": "The long wall disperses troops; feeding the posts is harder than arming them.",
+    "status_vi": "Tuyến biên phòng chịu sức ép, 1715–1716",
+    "status_en": "Frontier under pressure, 1715–1716",
+    "historical_anchor_vi": "Những phần tường Minh kết hợp thành lũy, đồn quân và tháp hiệu.",
+    "historical_anchor_en": "Ming sections combined fortifications, garrisons and beacon towers.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/438/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Ming Great Wall over immense snowy ridges, orange beacon braziers receding into distance, tiny horse patrol below, severe slate and ember palette."
+  },
+  {
+    "id": "ming_celestial_empire_grand_canal",
+    "faction_id": "ming_celestial_empire",
+    "name_vi": "Đại Vận Hà — Mạch lương của thiên triều",
+    "name_en": "Grand Canal — Artery of the Throne",
+    "location_vi": "Hành lang nam–bắc Đại Minh",
+    "location_en": "North–south corridor of Great Ming",
+    "category": "industry",
+    "epithet_vi": "Một đoàn thuyền, một triều đại",
+    "epithet_en": "A Convoy, a Dynasty",
+    "lore_vi": "Chiến thắng phục Minh trả long kỳ về kinh đô, còn việc giữ nó ở đó phụ thuộc những đoàn thuyền chở thóc. Các quan vận lương cho dựng lán sưởi cạnh âu thuyền và thuê đội phá băng mở những đoạn còn có thể lưu thông. Khi mặt nước khép lại, bao lương được chuyển sang xe trượt, phí vận tải đội lên theo từng trạm. Dọc tuyến kênh, thương nhân ứng tiền cho quan lại với quyền đòi nợ sau mùa thuế. Năm 1716, những đội quân giữ biên cương cùng chờ phần gạo đi qua những cửa nước này. Một vụ tham ô tại bến có thể biến thành cuộc tháo chạy cách đó hàng trăm dặm.",
+    "lore_en": "Restoration returned the dragon banner to the capital; keeping it there depended on grain convoys. Transport officials built warming shelters beside locks and hired ice-breaking crews wherever navigation remained possible. When the surface closed, sacks transferred to sledges and costs rose at each station. Along the canal, merchants advanced money against future tax receipts. In 1716, armies defending distant frontiers waited for grain passing through these sluices. Embezzlement at a single landing could become a military retreat hundreds of miles away.",
+    "traits": [
+      {
+        "label_vi": "Thuế đi trên nước",
+        "label_en": "Taxes Afloat",
+        "description_vi": "Thóc thuế và vật tư được tập trung dọc một hành lang vận tải.",
+        "description_en": "Tax grain and supplies gather along a single transport corridor."
+      },
+      {
+        "label_vi": "Âu thuyền giữ sinh mạng",
+        "label_en": "Locks Holding Lives",
+        "description_vi": "Đội sửa âu và phá băng quyết định nhịp đoàn vận lương.",
+        "description_en": "Lock repair and ice-breaking crews determine convoy speed."
+      }
+    ],
+    "benefit_vi": "Đưa lương từ vùng sản xuất tới kinh đô và quân đội với khả năng chuyên chở lớn.",
+    "benefit_en": "Moves grain from producing regions to the capital and army in bulk.",
+    "cost_vi": "Đóng băng, tham nhũng hoặc cắt kênh có thể gây thiếu đói trên nhiều tỉnh.",
+    "cost_en": "Freezing, corruption or canal disruption can cause shortages across many provinces.",
+    "status_vi": "Vận tải luân phiên đường nước và xe trượt",
+    "status_en": "Alternating waterborne and sledge transport",
+    "historical_anchor_vi": "Đại Vận Hà là hệ thống đường thủy lịch sử gắn với quản trị và vận lương Trung Hoa.",
+    "historical_anchor_en": "The Grand Canal historically served Chinese administration and grain transport.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1443/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Ancient Chinese canal lock, grain barges between ice sheets, sledges on snowy towpath, warehouses and braziers, no modern canal machinery."
+  },
+  {
+    "id": "ming_celestial_empire_temple_heaven",
+    "faction_id": "ming_celestial_empire",
+    "name_vi": "Thiên Đàn — Lời cầu mùa bị thử thách",
+    "name_en": "Temple of Heaven — The Trial of Harvest",
+    "location_vi": "Bắc Kinh, Đại Minh",
+    "location_en": "Beijing, Great Ming",
+    "category": "sacred",
+    "epithet_vi": "Trời im trên đàn tế",
+    "epithet_en": "Silence Above the Altar",
+    "lore_vi": "Lễ cầu mùa tiếp tục dưới triều Minh phục hồi, dù tuyết đã phủ lên những thửa ruộng mà nghi lễ hứa sẽ nuôi sống. Hoàng đế bước qua lối đá giữa tiếng nhạc lễ và hơi thở trắng của các quan. Những nhà quan sát thiên văn được giao đối chiếu lịch gieo hạt với mùa rét kéo dài; các bản ghi bất lợi phải đi qua nhiều bàn tay trước khi tới ngai vàng. Dân kinh thành chờ lễ phát lương sau mỗi kỳ tế, còn phe đối lập đếm số mùa thất bát. Tại Thiên Đàn, quyền nói thay trời được cân bằng bằng những bao thóc thật mang qua cửa kho.",
+    "lore_en": "Harvest prayers continued under the restored Ming even as snow covered the fields the rites promised to sustain. The emperor crossed the stone way amid ritual music and the pale breath of officials. Astronomers compared sowing calendars with the prolonged cold; unwelcome records passed through many hands before reaching the throne. The capital’s people awaited grain distributions after each ceremony while opponents counted failed harvests. At the Temple of Heaven, the privilege of speaking for the heavens was weighed against actual sacks carried from the stores.",
+    "traits": [
+      {
+        "label_vi": "Người đứng giữa trời đất",
+        "label_en": "Between Heaven and Earth",
+        "description_vi": "Nghi lễ liên kết hoàng đế với trách nhiệm bảo đảm mùa màng.",
+        "description_en": "Ritual binds the emperor to responsibility for the harvest."
+      },
+      {
+        "label_vi": "Lịch dưới sương giá",
+        "label_en": "Calendars Under Frost",
+        "description_vi": "Quan thiên văn tích lũy ghi chép phục vụ điều chỉnh mùa vụ.",
+        "description_en": "Astronomers accumulate records to revise agricultural timing."
+      }
+    ],
+    "benefit_vi": "Tạo điểm quy tụ tinh thần và hệ thống theo dõi lịch mùa vụ.",
+    "benefit_en": "Provides a spiritual gathering point and a record of seasonal cycles.",
+    "cost_vi": "Mất mùa kéo dài biến nghi lễ thành nơi xét tính chính thống của hoàng đế.",
+    "cost_en": "Prolonged crop failure turns ritual into a judgement on imperial legitimacy.",
+    "status_vi": "Nghi lễ duy trì giữa khủng hoảng mùa vụ",
+    "status_en": "Rites maintained through agricultural crisis",
+    "historical_anchor_vi": "Thiên Đàn được lập thời Minh để tế trời và cầu mùa.",
+    "historical_anchor_en": "The Temple of Heaven was founded under the Ming for heavenly sacrifice and harvest prayers.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/881/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Circular Ming ceremonial altar under falling snow, blue-tiled prayer hall beyond, small ritual procession in muted crimson, solemn cold sky."
+  },
+  {
+    "id": "ming_celestial_empire_dujiangyan",
+    "faction_id": "ming_celestial_empire",
+    "name_vi": "Đô Giang Yển — Cửa nước còn thở",
+    "name_en": "Dujiangyan — The Breathing Waterworks",
+    "location_vi": "Tứ Xuyên, Đại Minh",
+    "location_en": "Sichuan, Great Ming",
+    "category": "industry",
+    "epithet_vi": "Ruộng sống nhờ người giữ dòng",
+    "epithet_en": "Fields Kept by the River Wardens",
+    "lore_vi": "Khi vận tải phía bắc bị băng làm chậm, triều đình phục Minh tìm tới những thung lũng còn giữ được mùa vụ ở Tứ Xuyên. Công trình dẫn nước Đô Giang Yển được đặt dưới một chế độ bảo hộ đặc biệt: thợ giữ dòng được hoãn quân dịch, tre nứa và gỗ sửa bờ được ưu tiên qua trạm thuế. Những đội tuần kiểm mang theo que đo nước bên cạnh giáo dài. Họ phải quyết định ruộng nào được tưới trước khi lượng chảy giảm, và làng nào phải góp người sửa kè giữa mùa rét. Uy quyền ở đây được đọc qua cao độ mực nước trước khi được nghe trong chiếu chỉ.",
+    "lore_en": "When ice slowed northern transport, the restored court turned towards Sichuan’s remaining growing valleys. Dujiangyan received special protection: river wardens gained exemptions from conscription and repair timber passed tax stations first. Inspection patrols carried water gauges beside their spears. They decided which fields received dwindling flows and which villages supplied labour for winter repairs. Here authority could be read in water levels before it was heard in an imperial decree.",
+    "traits": [
+      {
+        "label_vi": "Người hiểu dòng sông",
+        "label_en": "Readers of the River",
+        "description_vi": "Kinh nghiệm địa phương duy trì việc chia dòng và tháo lũ.",
+        "description_en": "Local expertise maintains diversions and flood releases."
+      },
+      {
+        "label_vi": "Miễn dịch để giữ ruộng",
+        "label_en": "Exemptions for the Fields",
+        "description_vi": "Thợ thủy lợi được giữ lại thay vì đưa vào các đạo quân.",
+        "description_en": "Waterworkers remain at their posts rather than joining the armies."
+      }
+    ],
+    "benefit_vi": "Bảo vệ một vùng cung cấp lương thực và năng lực ứng phó thay đổi dòng chảy.",
+    "benefit_en": "Protects a food-producing region and the capacity to respond to changing flows.",
+    "cost_vi": "Ưu tiên Tứ Xuyên gây tranh chấp vật tư; trưng dụng sai thợ có thể phá vỡ hệ thống.",
+    "cost_en": "Preferential supply breeds disputes; conscripting skilled workers can disable the system.",
+    "status_vi": "Công trình được bảo hộ đặc biệt",
+    "status_en": "Waterworks under special protection",
+    "historical_anchor_vi": "Đô Giang Yển là hệ thống thủy lợi cổ dùng phân dòng sông Mân.",
+    "historical_anchor_en": "Dujiangyan is an ancient system diverting the Min River.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1001/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Ancient split-river weir and bamboo stone cages beneath cold Sichuan mountains, workers maintaining channels, surviving fields, jade-grey water."
+  },
+  {
+    "id": "nusantara_sultanate_ujung_pandang",
+    "faction_id": "nusantara_sultanate",
+    "name_vi": "Thành Ujung Pandang",
+    "name_en": "Ujung Pandang Fortress",
+    "location_vi": "Makassar, Sulawesi",
+    "location_en": "Makassar, Sulawesi",
+    "category": "fortress",
+    "epithet_vi": "Hòn đá đã đổi chủ",
+    "epithet_en": "The Stone That Changed Masters",
+    "lore_vi": "Sau khi xé bỏ những điều kiện Bongaya năm 1697, Hasanuddin giành lại thành lũy bên bờ biển Makassar và cho hạ những biểu tượng của công ty Hà Lan. Các kho từng giam hàng độc quyền trở thành nơi chia thuốc súng cho hạm đội liên quân. Ông giữ thợ xây, thợ pháo cùng những bản vẽ thu được, buộc họ sửa công trình cho các chiến hạm mang quân kỳ Nusantara. Đến năm 1715, các hoàng thân tới nhận quyền chỉ huy eo biển phải tuyên thệ tại sân thành. Ngoài tường, những người khuân gia vị vẫn nhắc nhau rằng kẻ nắm chìa khóa nhà kho sẽ quyết định hòn đảo nào được ăn qua mùa lạnh.",
+    "lore_en": "After repudiating Bongaya in 1697, Hasanuddin recovered the fortress on Makassar’s shore and removed the Dutch company’s emblems. Stores once holding monopolised cargo supplied powder to the allied fleet. He retained masons, gunners and captured plans, ordering the stronghold adapted for Nusantara warships. By 1715, princes receiving command of the straits swore their oaths in its courtyard. Outside the walls, spice porters reminded one another that whoever held the warehouse keys decided which islands would eat through the cold season.",
+    "traits": [
+      {
+        "label_vi": "Chìa khóa Makassar",
+        "label_en": "Keys of Makassar",
+        "description_vi": "Sân thành là nơi phân quyền chỉ huy các eo biển.",
+        "description_en": "The courtyard distributes commands over the straits."
+      },
+      {
+        "label_vi": "Chiến lợi phẩm còn dùng được",
+        "label_en": "Useful Spoils",
+        "description_vi": "Pháo và bản vẽ thu được được đưa vào hệ thống phòng thủ mới.",
+        "description_en": "Captured guns and plans enter the new defensive system."
+      }
+    ],
+    "benefit_vi": "Bảo vệ kinh đô biển và tập trung quân nhu hải quân.",
+    "benefit_en": "Protects the maritime capital and concentrates naval stores.",
+    "cost_vi": "Các hoàng thân nắm kho có thể dùng tiếp tế để mặc cả với Sultan.",
+    "cost_en": "Princes controlling stores can use supplies to bargain with the Sultan.",
+    "status_vi": "Thành lũy được giành lại sau Bongaya",
+    "status_en": "Fortress reclaimed after Bongaya",
+    "historical_anchor_vi": "Thành Ujung Pandang của Gowa trở thành Fort Rotterdam dưới quyền Hà Lan; TFAM đảo chiều hậu quả Bongaya.",
+    "historical_anchor_en": "Gowa’s Ujung Pandang became Dutch Fort Rotterdam; TFAM reverses the consequences of Bongaya.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.indonesia.travel/id/en/destination/sulawesi/south-sulawesi/makassar---fort-rotterdam"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Makassar coastal bastion fort with local and captured early Dutch masonry, Nusantara fleet, cold sea mist, humid stone and faint frost, teal and bronze."
+  },
+  {
+    "id": "nusantara_sultanate_borobudur",
+    "faction_id": "nusantara_sultanate",
+    "name_vi": "Borobudur — Những bậc thềm trở lại",
+    "name_en": "Borobudur — The Recovered Terraces",
+    "location_vi": "Trung Java",
+    "location_en": "Central Java",
+    "category": "sacred",
+    "epithet_vi": "Một con đường đi lên trong tro",
+    "epithet_en": "An Ascent Through Ash",
+    "lore_vi": "Cuộc thống nhất quần đảo đưa các viên chức Makassar tới những vùng đất Java mà triều đình trước đó chỉ biết qua thuế và chiến thuyền. Người dân chỉ cho họ những bậc đá của Borobudur nằm dưới đất, rễ cây và bụi núi lửa. Hasanuddin cho phép cộng đồng địa phương khai quang từng sân, đồng thời cử người ghi chép những phù điêu còn đọc được. Việc phục hồi được đưa sớm hơn lịch sử như một lời bảo đảm rằng Sultan sẽ giữ di sản của các tín ngưỡng đã quy phục. Mùa lạnh kéo người nghèo tới lán công trường nhận công và gạo. Mỗi pho tượng được đưa ra ánh sáng cũng khiến việc giữ lời của triều đình dễ bị phán xét hơn.",
+    "lore_en": "Unification brought Makassar’s officials into Javanese districts previously known chiefly through taxes and warships. Villagers showed them Borobudur’s terraces beneath earth, roots and volcanic dust. Hasanuddin permitted local custodians to clear selected courts and sent scribes to copy surviving reliefs. This early recovery became a pledge that the Sultan would preserve the inheritances of submitted faiths. Cold drove poor families to the worksheds for wages and grain. Every statue brought back into daylight made the government’s promise easier to judge.",
+    "traits": [
+      {
+        "label_vi": "Khai quang sớm",
+        "label_en": "An Early Recovery",
+        "description_vi": "Công cuộc mở lại sân tháp được đưa tới trước lịch sử thật.",
+        "description_en": "The reopening of the terraces is advanced before its historical recovery."
+      },
+      {
+        "label_vi": "Bảo hộ khác đạo",
+        "label_en": "Protection Across Faiths",
+        "description_vi": "Quyền coi sóc được giữ cho cộng đồng tín ngưỡng địa phương.",
+        "description_en": "Custodial rights remain with local religious communities."
+      }
+    ],
+    "benefit_vi": "Tăng sự chấp nhận của các cộng đồng Java và tạo nơi lưu giữ tư liệu hình tượng cổ.",
+    "benefit_en": "Builds acceptance among Javanese communities and preserves ancient visual records.",
+    "cost_vi": "Chi phí phục hồi và bảo hộ khác đạo có thể gây phản ứng từ phe giáo sĩ cứng rắn.",
+    "cost_en": "Restoration costs and protection of other faiths may provoke hardline clerics.",
+    "status_vi": "Đang khai quang có giới hạn",
+    "status_en": "Under limited clearance",
+    "historical_anchor_vi": "Borobudur là tháp Phật giáo Java cổ; TFAM đưa việc khai quang quy mô triều đình lên trước thế kỷ XIX.",
+    "historical_anchor_en": "Borobudur is an ancient Javanese Buddhist monument; TFAM advances court-sponsored clearance before the nineteenth century.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/592/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Borobudur stepped stupas emerging from roots and ash, small early eighteenth-century clearing teams, cold fog rather than snowstorm, weathered volcanic stone."
+  },
+  {
+    "id": "nusantara_sultanate_prambanan",
+    "faction_id": "nusantara_sultanate",
+    "name_vi": "Prambanan — Hội đồng dưới những đỉnh tháp",
+    "name_en": "Prambanan — Council Beneath the Spires",
+    "location_vi": "Đồng bằng Trung Java",
+    "location_en": "Central Javanese plain",
+    "category": "ruin",
+    "epithet_vi": "Những vị thần đứng ngoài ngai vàng",
+    "epithet_en": "Gods Beyond the Throne",
+    "lore_vi": "Những tháp Prambanan hiện lên trên đồng bằng như hàng giáo đá còn sót lại của một quyền lực cổ. Sau chiến thắng trước Hà Lan, các dòng họ Java chọn khu đền làm nơi trao kiến nghị về đất, nước và quyền kế thừa trước đại diện Makassar. Sultan chấp nhận để những người giữ đền tiếp tục nghi lễ, đồng thời đặt trạm thu sổ đất ở mép khu tháp. Băng giá mỏng làm đá bong, buộc các thợ chạm của nhiều cộng đồng cùng sửa những mái đã yếu. Mỗi phiên họp biến sự bảo hộ thành một cuộc thử lòng: đế quốc cần người giữ đất, còn người giữ đất muốn thấy chữ ký của mình được tôn trọng.",
+    "lore_en": "Prambanan’s spires rose above the plain like stone spears left by an older power. After victory over the Dutch, Javanese houses chose the temple precinct for petitions over land, water and inheritance before Makassar’s representatives. The Sultan allowed custodial rites to continue while placing a land-register station at the edge of the towers. Thin frost loosened masonry, bringing craftsmen from different communities to failing roofs. Each council tested the compact: the empire needed those who held the land, and the landholders wanted their signatures honoured.",
+    "traits": [
+      {
+        "label_vi": "Đá của nhiều triều",
+        "label_en": "Stone of Many Reigns",
+        "description_vi": "Di tích giữ uy tín với các dòng họ Java ngoài vương thất Makassar.",
+        "description_en": "The monument retains prestige among Javanese houses beyond Makassar’s dynasty."
+      },
+      {
+        "label_vi": "Sổ đất bên tháp",
+        "label_en": "Registers Beside the Towers",
+        "description_vi": "Quan triều đình tiếp nhận tranh chấp qua người môi giới địa phương.",
+        "description_en": "Imperial officials receive disputes through local intermediaries."
+      }
+    ],
+    "benefit_vi": "Tạo nơi hòa giải và ràng buộc các dòng họ Java vào hệ thống chung.",
+    "benefit_en": "Offers arbitration and binds Javanese houses into the common order.",
+    "cost_vi": "Những lời hứa bảo hộ tạo thêm giới hạn cho việc thu thuế và trưng dụng.",
+    "cost_en": "Protective promises restrict taxation and requisition.",
+    "status_vi": "Di tích có người coi sóc",
+    "status_en": "Ruins under active custodianship",
+    "historical_anchor_vi": "Prambanan là quần thể đền Hindu thế kỷ IX ở Java.",
+    "historical_anchor_en": "Prambanan is a ninth-century Hindu temple complex in Java.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/642/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Prambanan sharp volcanic stone towers above cold Javanese plain, petitioners at a modest timber pavilion, copper lamps, misty violet dawn."
+  },
+  {
+    "id": "nusantara_sultanate_banda",
+    "faction_id": "nusantara_sultanate",
+    "name_vi": "Banda — Những vườn nhục đậu khấu",
+    "name_en": "Banda — The Nutmeg Gardens",
+    "location_vi": "Quần đảo Banda",
+    "location_en": "Banda Islands",
+    "category": "landscape",
+    "epithet_vi": "Mùi hương từng mua bằng máu",
+    "epithet_en": "A Fragrance Bought in Blood",
+    "lore_vi": "Những vườn gia vị ở Banda mang ký ức về bạo lực độc quyền Hà Lan. Sau thắng lợi của Hasanuddin, các bản khế ước bị tịch thu và những gia đình còn sống được ghi lại quyền canh tác dưới sự bảo hộ của Makassar. Mùa lạnh khiến cây giống trở thành tài sản đáng giá hơn những bao quả khô; nhà vườn dựng hàng chắn gió và đổi chỗ trồng theo từng sườn đất. Quan thuế muốn giữ giá xuất khẩu, trong khi hạm đội cần tiền trả lính ngay. Những người chăm cây phải đứng giữa hai mệnh lệnh ấy. Khi đoàn thuyền rời bến, họ đếm số cây còn sống trước khi đếm đồng bạc nhận được.",
+    "lore_en": "Banda’s spice groves carried the memory of Dutch monopoly violence. After Hasanuddin’s victory, contracts were seized and surviving families registered cultivation rights under Makassar’s protection. Cold made living seedlings more valuable than sacks of dried fruit; growers built windbreaks and shifted planting between slopes. Tax officials sought export prices while the fleet demanded immediate pay. Cultivators stood between those orders. When the convoy left, they counted surviving trees before counting the silver they had received.",
+    "traits": [
+      {
+        "label_vi": "Giống cây là quốc khố",
+        "label_en": "Seedlings as Treasury",
+        "description_vi": "Vườn giống được bảo vệ như nguồn thu lâu dài.",
+        "description_en": "Nursery groves are protected as a long-term revenue source."
+      },
+      {
+        "label_vi": "Vết thương độc quyền",
+        "label_en": "Scars of Monopoly",
+        "description_vi": "Quyền đất cũ tiếp tục chi phối quan hệ giữa đảo và kinh đô.",
+        "description_en": "Past land dispossession continues to shape relations with the capital."
+      }
+    ],
+    "benefit_vi": "Cung cấp hàng xuất khẩu có giá trị để đổi vật tư và tài trợ hải quân.",
+    "benefit_en": "Provides valuable exports for supplies and naval finance.",
+    "cost_vi": "Thời tiết và đòi hỏi thuế có thể làm cạn vườn giống, khiến cả đảo mất nguồn sống.",
+    "cost_en": "Weather and taxation can exhaust nurseries and destroy island livelihoods.",
+    "status_vi": "Vườn gia vị phục hồi dưới bảo hộ",
+    "status_en": "Spice groves recovering under protection",
+    "historical_anchor_vi": "Banda gắn với lịch sử nhục đậu khấu và độc quyền gia vị.",
+    "historical_anchor_en": "Banda is associated with nutmeg cultivation and the spice monopoly.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/tentativelists/6065/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Banda nutmeg grove with windbreaks and historical volcanic island fort in distance, cloves and nursery shelters, chill humid mist, no deep tropical snow."
+  },
+  {
+    "id": "nusantara_sultanate_subak",
+    "faction_id": "nusantara_sultanate",
+    "name_vi": "Subak Bali — Ruộng bậc thang giữ nước",
+    "name_en": "Balinese Subak — Terraces Holding Water",
+    "location_vi": "Bali",
+    "location_en": "Bali",
+    "category": "industry",
+    "epithet_vi": "Một cửa nước, nhiều lời thề",
+    "epithet_en": "One Sluice, Many Oaths",
+    "lore_vi": "Các cộng đồng giữ nước Bali đón người của Sultan bằng lịch tưới và danh sách ruộng thay cho vàng bạc. Hasanuddin giữ cơ chế bàn bạc qua đền nước để đổi lấy thóc cho những hạm đội đi ngang quần đảo. Trong mùa lạnh, từng đoạn ruộng còn nhận đủ ánh sáng được chia lại lượt nước; những gia đình có bờ ruộng hư phải nhận lao động từ làng bên. Mệnh lệnh trưng lương của quan quân đôi khi tới đúng ngày cần giữ hạt giống. Trên các sườn núi, người giữ đền gõ chuông gọi cuộc họp, bởi một chuyến chiến hạm đầy thóc có thể để lại cả thung lũng đói vào mùa sau.",
+    "lore_en": "Bali’s water communities greeted the Sultan’s representatives with irrigation calendars and field lists rather than treasure. Hasanuddin retained deliberation through water temples in return for grain supporting fleets passing through the islands. In the cold season, surviving sunlit terraces received revised water turns; households with broken banks borrowed labour from neighbours. Military requisitions sometimes arrived on the very day seed grain had to be reserved. On the slopes, temple bells summoned councils, for one warship filled with rice could leave an entire valley hungry the following season.",
+    "traits": [
+      {
+        "label_vi": "Hội đồng cửa nước",
+        "label_en": "Sluice Councils",
+        "description_vi": "Các cộng đồng phối hợp nước, lao động và thời vụ.",
+        "description_en": "Communities coordinate water, labour and seasonal timing."
+      },
+      {
+        "label_vi": "Hạt để mùa sau",
+        "label_en": "Seed for the Next Season",
+        "description_vi": "Lượng lương cung cấp bị giới hạn bởi nhu cầu giữ giống.",
+        "description_en": "Deliveries are constrained by the need to preserve seed."
+      }
+    ],
+    "benefit_vi": "Duy trì ruộng lúa và nền tảng hợp tác tại Bali.",
+    "benefit_en": "Sustains rice terraces and cooperation in Bali.",
+    "cost_vi": "Trưng thu vượt thỏa thuận phá lịch canh tác và làm suy yếu bảo hộ của Sultan.",
+    "cost_en": "Excess requisition disrupts cultivation and weakens the Sultan’s protection.",
+    "status_vi": "Hệ thống cộng đồng được giữ quyền",
+    "status_en": "Community system retaining its rights",
+    "historical_anchor_vi": "Subak là truyền thống quản lý nước và canh tác gắn với đền nước Bali.",
+    "historical_anchor_en": "Subak is a Balinese tradition of water management and farming linked to water temples.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1194/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Balinese rice terraces and modest water temple, cold dawn mist, farmers inspecting sluice, dark volcanic earth and small green surviving fields."
+  },
+  {
+    "id": "tokugawa_empire_himeji",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Himeji — Thành Bạch Hạc",
+    "name_en": "Himeji — White Heron Castle",
+    "location_vi": "Harima, Nhật Bản",
+    "location_en": "Harima, Japan",
+    "category": "fortress",
+    "epithet_vi": "Cánh trắng dưới quân luật",
+    "epithet_en": "White Wings Under Martial Law",
+    "lore_vi": "Sau khi giành quyền năm 1706, Yoshimune đặt các thành trọng yếu vào hệ thống tiếp vận và huấn luyện thống nhất. Himeji giữ những mái trắng nhiều tầng, còn các kho bên dưới bắt đầu nhận súng, quân phục và sổ điều động theo mẫu từ Edo. Những hành lang ngoắt ngoéo từng bảo vệ một lãnh chúa giờ được dùng dạy sĩ quan cách giữ cửa và dẫn quân trong một cuộc vây hãm. Tuyết chất trên mái khiến đội bảo trì làm việc cùng đội gác. Đến năm 1715, các đơn vị đi qua Harima tới cảng nhận quân lệnh vượt biển, để lại sân thành đầy dấu giày của một đạo quân đang học cách trở thành đế quốc.",
+    "lore_en": "After taking power in 1706, Yoshimune placed strategic castles within a unified system of supply and training. Himeji retained its tiered white roofs while stores below began receiving guns, uniforms and movement registers standardised in Edo. Corridors once protecting a single lord taught officers how to hold gates and guide troops during sieges. Snow forced maintenance crews to work beside sentries. By 1715, units passing through Harima received orders for overseas deployment, leaving the courtyards marked by the boots of an army learning to become imperial.",
+    "traits": [
+      {
+        "label_vi": "Mê lộ của người giữ thành",
+        "label_en": "The Defender’s Labyrinth",
+        "description_vi": "Đường vào quanh co phục vụ phòng thủ và đào tạo sĩ quan.",
+        "description_en": "Winding approaches serve defence and officer training."
+      },
+      {
+        "label_vi": "Kho theo lệnh Edo",
+        "label_en": "Stores by Edo’s Order",
+        "description_vi": "Quân nhu được kiểm theo mẫu chung của cuộc duy tân.",
+        "description_en": "Supplies follow the common registers of the reform."
+      }
+    ],
+    "benefit_vi": "Giữ đầu mối quân sự miền tây và huấn luyện lực lượng đồn trú.",
+    "benefit_en": "Secures a western military hub and trains garrison forces.",
+    "cost_vi": "Mạng thành cũ đòi hỏi bảo trì lớn và có thể giữ lại quá nhiều quân cho chiến tranh biển.",
+    "cost_en": "Old fortresses demand maintenance and may tie down troops needed overseas.",
+    "status_vi": "Thành quân sự thuộc hệ thống duy tân",
+    "status_en": "Fortress within the reform system",
+    "historical_anchor_vi": "Himeji là thành Nhật Bản đầu thế kỷ XVII; TFAM đưa cải cách Yoshimune lên năm 1706.",
+    "historical_anchor_en": "Himeji exemplifies early seventeenth-century Japanese castle architecture; TFAM advances Yoshimune’s reforms to 1706.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/661/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Himeji white plaster keep with layered roofs and disciplined supply columns, winter blue and ivory, historically recognisable castle geometry."
+  },
+  {
+    "id": "tokugawa_empire_nikko",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Nikkō — Lăng tổ giữa rừng tuyết",
+    "name_en": "Nikkō — The Ancestor Among Snowbound Cedars",
+    "location_vi": "Nikkō, Nhật Bản",
+    "location_en": "Nikkō, Japan",
+    "category": "sacred",
+    "epithet_vi": "Lời thề trước người đã khuất",
+    "epithet_en": "Oaths Before the Departed",
+    "lore_vi": "Yoshimune đưa những sĩ quan mới tới Nikkō trước khi giao quyền chỉ huy. Họ cúi đầu trước di sản Tokugawa rồi nhận mệnh lệnh xóa bỏ một phần đặc quyền mà chính dòng họ ấy từng bảo vệ. Những mái chạm trổ giữ ánh vàng dưới lớp băng, còn đường hành lễ được dọn bằng lao động của làng quanh núi. Các gia tộc chống duy tân vẫn đóng tiền tu bổ để khẳng định lòng trung thành với tổ tiên. Triều đình ghi đủ từng khoản. Giữa rừng tuyết, việc tôn kính người sáng lập trở thành thứ ngôn ngữ chung mà cả người cải cách lẫn kẻ muốn ngăn ông đều buộc phải sử dụng.",
+    "lore_en": "Yoshimune brought newly appointed officers to Nikkō before granting commands. They bowed before Tokugawa memory, then received orders dismantling privileges the same house had once defended. Carved roofs held their gold beneath ice while neighbouring villages cleared the ceremonial road. Families opposing reform still paid for repairs to proclaim loyalty to the founder. The court recorded every contribution. Within the snowy forest, reverence for the ancestor became a shared language that reformers and their opponents alike were compelled to speak.",
+    "traits": [
+      {
+        "label_vi": "Danh nghĩa khai quốc",
+        "label_en": "The Founder’s Authority",
+        "description_vi": "Nghi lễ đặt quân đội mới trong sự tiếp nối của Tokugawa.",
+        "description_en": "Ritual frames the new army as a continuation of Tokugawa rule."
+      },
+      {
+        "label_vi": "Vàng dưới tuyết",
+        "label_en": "Gold Beneath Snow",
+        "description_vi": "Sự xa hoa được duy trì bằng đóng góp bắt buộc và bảo trì thường xuyên.",
+        "description_en": "Splendour depends on obligatory contributions and constant maintenance."
+      }
+    ],
+    "benefit_vi": "Hợp thức hóa cuộc duy tân và lời thề phục vụ của sĩ quan.",
+    "benefit_en": "Legitimises reform and officers’ oaths of service.",
+    "cost_vi": "Phe chống cải cách có thể viện chính di sản tổ tiên để chất vấn Yoshimune.",
+    "cost_en": "Opponents can invoke the same ancestral legacy against Yoshimune.",
+    "status_vi": "Trung tâm nghi lễ Tokugawa",
+    "status_en": "Tokugawa ceremonial centre",
+    "historical_anchor_vi": "Nikkō lưu giữ quần thể đền gắn với quyền lực Tokugawa trong thế kỷ XVII.",
+    "historical_anchor_en": "Nikkō preserves seventeenth-century shrines associated with Tokugawa authority.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/913/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Nikko ornate carved gateway between enormous snow-heavy cedars, subdued gold detail and vermilion, small solemn officers at steps."
+  },
+  {
+    "id": "tokugawa_empire_iwami",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Iwami Ginzan — Bạc nuôi chiến hạm",
+    "name_en": "Iwami Ginzan — Silver for the Fleet",
+    "location_vi": "Iwami, Nhật Bản",
+    "location_en": "Iwami, Japan",
+    "category": "industry",
+    "epithet_vi": "Ánh sáng phải đào từ bóng tối",
+    "epithet_en": "Light Dug from Darkness",
+    "lore_vi": "Những đường hầm bạc Iwami được đặt dưới chế độ kiểm kê mới sau cuộc duy tân. Yoshimune đổi đặc quyền khai thác lấy chỉ tiêu nộp bạc và quyền giữ thợ lành nghề tại mỏ. Đồng tiền đi từ lò luyện tới các bến tàu, trả cho gỗ, dây buồm và những khẩu pháo của hạm đội mở cửa thế giới. Mùa đông làm đường núi trơn cứng, khiến từng chuyến bạc phải có quân hộ tống cùng phu kéo. Trong hầm, những người đào mỏ chỉ biết chiến tranh đang tới gần qua số ca làm tăng lên. Trên mặt đất, quan lại tính thắng lợi bằng lượng kim loại còn có thể đưa ra biển.",
+    "lore_en": "Reform placed Iwami’s silver tunnels under new audits. Yoshimune exchanged mining privileges for quotas and the retention of skilled labour. Silver travelled from refining furnaces to the shipyards, paying for timber, rigging and the guns of the fleet opening the world. Winter hardened mountain roads, forcing escorts and hauling crews onto every convoy. Underground, miners measured the approach of war by additional shifts. Above, officials calculated victory in the metal they could still send towards the sea.",
+    "traits": [
+      {
+        "label_vi": "Tiền từ lòng núi",
+        "label_en": "Money Within the Mountain",
+        "description_vi": "Bạc khai thác hỗ trợ chi trả vật tư hải quân.",
+        "description_en": "Extracted silver finances naval supplies."
+      },
+      {
+        "label_vi": "Thợ mỏ được giữ lại",
+        "label_en": "Miners Retained",
+        "description_vi": "Lao động chuyên môn được ưu tiên trước nhu cầu tuyển quân.",
+        "description_en": "Specialist labour takes precedence over military recruitment."
+      }
+    ],
+    "benefit_vi": "Cung cấp phương tiện thanh toán cho duy tân và chiến tranh vượt biển.",
+    "benefit_en": "Finances reform and overseas warfare.",
+    "cost_vi": "Tăng chỉ tiêu gây kiệt sức lao động; tuyến núi bị gián đoạn làm chậm cả chuỗi chi trả.",
+    "cost_en": "Higher quotas exhaust workers; interrupted mountain routes delay the payment chain.",
+    "status_vi": "Mỏ chiến lược do triều đình kiểm soát",
+    "status_en": "Strategic mine under state supervision",
+    "historical_anchor_vi": "Iwami Ginzan sản xuất bạc quan trọng trong giao thương Nhật Bản thế kỷ XVI–XVII.",
+    "historical_anchor_en": "Iwami Ginzan supplied silver important to Japanese trade in the sixteenth and seventeenth centuries.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1246/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Snowy Iwami mine village and timber tunnel mouth, glowing silver refinery, escorted metal chests on sledges, dark indigo and furnace amber."
+  },
+  {
+    "id": "tokugawa_empire_changdeokgung",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Xương Đức Cung — Ngai vàng dưới giám sát",
+    "name_en": "Changdeokgung — The Watched Throne",
+    "location_vi": "Hanseong, bán đảo Triều Tiên",
+    "location_en": "Hanseong, Korean peninsula",
+    "category": "seat",
+    "epithet_vi": "Vườn im sau ngày đầu hàng",
+    "epithet_en": "The Garden After Surrender",
+    "lore_vi": "Sau cuộc chinh phục bán đảo, chính quyền Yoshimune đặt người giám sát trong khu cung điện và yêu cầu quan lại địa phương tiếp tục lập sổ dân, sổ thuế. Những sân điện được giữ nguyên để việc cai trị có gương mặt quen thuộc, trong khi lính gác mới đứng trước cổng. Khu vườn phía sau phủ băng, nơi những người từng phụng sự vương triều bàn chuyện bằng những câu ngắn và nhiều khoảng lặng. Năm 1716, các đoàn quân tiến về đông bắc đại lục lấy giấy điều động từ đây. Mỗi lệnh xuất kho lại đặt người viết sổ trước lựa chọn giữa sự sống của gia đình và ký ức về một ngai vàng đã mất quyền tự chủ.",
+    "lore_en": "After conquering the peninsula, Yoshimune’s government placed supervisors within the palace and required local officials to maintain population and tax registers. Familiar courts preserved the face of government while new sentries held the gates. Ice covered the rear gardens where former royal servants spoke in brief phrases and long silences. In 1716, troops moving towards the northeastern mainland collected movement papers here. Each store warrant forced its clerk to weigh his family’s survival against the memory of a throne that had lost its independence.",
+    "traits": [
+      {
+        "label_vi": "Quan cũ, ấn mới",
+        "label_en": "Old Clerks, New Seals",
+        "description_vi": "Bộ máy địa phương tiếp tục phục vụ dưới người giám sát Nhật Bản.",
+        "description_en": "Local administration continues beneath Japanese supervisors."
+      },
+      {
+        "label_vi": "Cung điện làm con tin",
+        "label_en": "A Palace Held Hostage",
+        "description_vi": "Bảo tồn nghi lễ đi cùng việc kiểm soát vương thất.",
+        "description_en": "Ceremonial preservation accompanies control of the royal house."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ quản trị và tiếp vận trên bán đảo bằng hệ thống sổ sách sẵn có.",
+    "benefit_en": "Supports administration and logistics through existing registers.",
+    "cost_vi": "Cưỡng bức hợp tác nuôi phản kháng và đòi hỏi giám sát liên tục.",
+    "cost_en": "Coerced cooperation breeds resistance and requires constant supervision.",
+    "status_vi": "Cung điện dưới chính quyền chiếm đóng",
+    "status_en": "Palace under occupation administration",
+    "historical_anchor_vi": "Xương Đức Cung là cung điện Joseon; TFAM đặt bán đảo dưới quyền Nhật Bản trước năm 1715.",
+    "historical_anchor_en": "Changdeokgung was a Joseon palace; TFAM places the peninsula under Japan before 1715.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/816/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Changdeokgung distinctive Korean palace halls and frozen rear garden, discreet occupation sentries, lonely vermilion doors, white and muted green."
+  },
+  {
+    "id": "tokugawa_empire_haeinsa",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Hải Ấn Tự — Kho kinh giữa hai quân kỳ",
+    "name_en": "Haeinsa — Scriptures Between Two Banners",
+    "location_vi": "Núi Gaya, bán đảo Triều Tiên",
+    "location_en": "Mount Gaya, Korean peninsula",
+    "category": "knowledge",
+    "epithet_vi": "Chữ còn, nước đã đổi chủ",
+    "epithet_en": "The Text Remains, the Ruler Changes",
+    "lore_vi": "Những kho mộc bản Hải Ấn Tự được các nhà sư đóng kín từng phiên để chống ẩm và rét. Sau khi bán đảo thất thủ, quan Nhật muốn lập danh sách toàn bộ kho kinh, còn người coi chùa yêu cầu giữ nguyên cách thông gió và quyền ra vào. Một thỏa thuận được ký: quân đội bảo vệ đường tới núi, tu viện cung cấp người chép và thông dịch cho chính quyền. Mỗi chuyến trưng dụng giấy làm thỏa thuận ấy căng thêm. Giữa tiếng búa đục băng ngoài sân, các nhà sư tiếp tục đếm từng tấm gỗ, giữ cho một thư viện có thể sống lâu hơn những người đang tranh quyền đọc nó.",
+    "lore_en": "Haeinsa’s custodians opened and closed the woodblock repositories by watch to manage damp and cold. After the peninsula fell, Japanese officials demanded a complete inventory while the monks insisted on preserving ventilation and access rules. A compact followed: the army guarded the mountain road and the monastery supplied scribes and interpreters. Each requisition of paper strained that agreement. As workers chipped ice in the courtyard, monks continued counting the blocks, protecting a library that might outlive those disputing the right to read it.",
+    "traits": [
+      {
+        "label_vi": "Kho gỗ biết thở",
+        "label_en": "Breathing Timber Repositories",
+        "description_vi": "Cách bố trí kho điều tiết điều kiện bảo quản mộc bản.",
+        "description_en": "Repository design regulates conditions around the woodblocks."
+      },
+      {
+        "label_vi": "Người chép giữ tiếng nói",
+        "label_en": "Scribes Holding a Voice",
+        "description_vi": "Tu viện bảo tồn chữ viết và kiến thức của cộng đồng bị trị.",
+        "description_en": "The monastery preserves the writing and knowledge of a conquered community."
+      }
+    ],
+    "benefit_vi": "Giữ năng lực văn thư, phiên dịch và truyền bản trên bán đảo.",
+    "benefit_en": "Preserves scribal, translation and copying skills on the peninsula.",
+    "cost_vi": "Xâm phạm kho kinh có thể đoàn kết các cộng đồng chống chính quyền chiếm đóng.",
+    "cost_en": "Violating the repositories can unite communities against occupation.",
+    "status_vi": "Được bảo hộ theo thỏa thuận giám sát",
+    "status_en": "Protected under a supervised compact",
+    "historical_anchor_vi": "Hải Ấn Tự lưu giữ mộc bản Tripitaka Koreana trong các kho chuyên biệt.",
+    "historical_anchor_en": "Haeinsa preserves the Tripitaka Koreana woodblocks in purpose-built repositories.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/737/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Haeinsa timber repository slatted ventilation windows, rows of carved woodblocks inside warm dim light, snow on Korean temple roofs, contemplative scholarly landscape."
+  },
+  {
+    "id": "tokugawa_empire_kumano",
+    "faction_id": "tokugawa_empire",
+    "name_vi": "Kumano — Những con đường hành hương",
+    "name_en": "Kumano — The Pilgrim Roads",
+    "location_vi": "Dãy núi Kii, Nhật Bản",
+    "location_en": "Kii Mountains, Japan",
+    "category": "landscape",
+    "epithet_vi": "Người sống vẫn đi qua núi",
+    "epithet_en": "The Living Still Cross the Mountains",
+    "lore_vi": "Các đường hành hương Kii trở thành mạng lưới dẫn người qua những miền núi khi mùa rét khóa các lối xe. Chính quyền duy tân cho sửa cầu gỗ và lập trạm cứu hộ cạnh những nơi nghỉ chân cũ, yêu cầu người dẫn đường báo lại các đoàn quân đi lạc hoặc dân bỏ làng. Những người hành hương nhận phần cháo bên cạnh binh sĩ chờ về đơn vị. Đền núi giữ tiếng chuông giữa sương, còn từng ngôi làng phải góp củi cho trạm sưởi. Con đường vốn dành cho sự kiếm tìm của một người giờ mang gánh nặng chuyển tin và giữ sinh mạng cho cả một vùng đất.",
+    "lore_en": "Kii’s pilgrimage paths became routes through the mountains when cold closed the wagon roads. Reform officials repaired timber bridges and established rescue posts beside older resting places, asking guides to report lost soldiers and abandoned villages. Pilgrims received porridge beside men awaiting return to their units. Mountain shrines kept their bells sounding through mist while neighbouring villages contributed fuel. Roads once serving an individual search now bore the burden of carrying messages and preserving lives across an entire region.",
+    "traits": [
+      {
+        "label_vi": "Người dẫn đường núi",
+        "label_en": "Mountain Guides",
+        "description_vi": "Tri thức hành hương hỗ trợ cứu hộ và chuyển tin.",
+        "description_en": "Pilgrimage knowledge supports rescue and messages."
+      },
+      {
+        "label_vi": "Trạm cháo bên đền",
+        "label_en": "Porridge Posts by the Shrines",
+        "description_vi": "Cơ sở nghỉ chân được mở cho quân nhân và dân chạy rét.",
+        "description_en": "Resting places admit soldiers and refugees from the cold."
+      }
+    ],
+    "benefit_vi": "Duy trì liên lạc và cứu hộ qua địa hình núi rừng.",
+    "benefit_en": "Maintains communication and rescue through mountainous country.",
+    "cost_vi": "Trạm cứu hộ tiêu thụ củi của làng; sử dụng quân sự có thể làm suy yếu uy tín thiêng.",
+    "cost_en": "Rescue posts consume village fuel; military use can undermine sacred standing.",
+    "status_vi": "Đường hành hương kiêm tuyến cứu hộ",
+    "status_en": "Pilgrim roads serving as rescue routes",
+    "historical_anchor_vi": "Kii có mạng đường hành hương liên kết những địa điểm linh thiêng lâu đời.",
+    "historical_anchor_en": "Kii contains pilgrimage routes linking ancient sacred places.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1142/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Kumano mountain stone stair and cedar forest, small shrine rescue shelter with amber lantern, pilgrims and military courier, deep winter fog, restrained composition."
+  },
+  {
+    "id": "eternal_sky_khanate_karakorum",
+    "faction_id": "eternal_sky_khanate",
+    "name_vi": "Karakorum — Ngai vàng dựng lại",
+    "name_en": "Karakorum — The Throne Raised Again",
+    "location_vi": "Thung lũng Orkhon",
+    "location_en": "Orkhon Valley",
+    "category": "seat",
+    "epithet_vi": "Đá cũ đón lời thề mới",
+    "epithet_en": "Old Stone, New Oaths",
+    "lore_vi": "Sau chiến thắng Zuunmod năm 1696, Galdan chọn Karakorum làm nơi dựng lại triều đình. Các gia tộc đưa thợ, vật liệu và người giữ con dấu tới vùng nền thành từng thuộc về những cuộc chinh phạt làm cả lục địa khiếp sợ. Cung thất mới mọc giữa đá cũ và những dãy lều vẫn có thể tháo đi trong một buổi. Anu để đội quân thân tín đóng ngoài nơi hội nghị, đủ gần để mọi người nhớ ai đã giữ Đại Hãn sống sót. Năm 1715, sứ đoàn tới đây phải qua cả cửa thành lẫn vòng lều. Một người được tiếp kiến ngai vàng trước hết phải được thảo nguyên cho phép đi qua.",
+    "lore_en": "After victory at Zuunmod in 1696, Galdan chose Karakorum for his restored court. Houses sent craftsmen, supplies and seal-keepers to foundations associated with conquests that had terrified a continent. New halls rose among old stones and tent rows that could still be struck within a morning. Anu stationed trusted troops outside the assembly, close enough to remind everyone who had kept the Great Khan alive. In 1715, embassies crossed both masonry gates and a ring of tents. An audience with the throne first required permission to pass through the steppe.",
+    "traits": [
+      {
+        "label_vi": "Hội nghị dưới hai mái",
+        "label_en": "Councils Beneath Two Roofs",
+        "description_vi": "Triều đình kết hợp cung thất cố định và trại hội nghị lưu động.",
+        "description_en": "The court combines fixed halls with mobile assembly camps."
+      },
+      {
+        "label_vi": "Người giữ lời thề Zuunmod",
+        "label_en": "Guardians of the Zuunmod Oath",
+        "description_vi": "Uy tín Anu bảo đảm an ninh cho việc phân chia quyền lực.",
+        "description_en": "Anu’s standing secures the distribution of authority."
+      }
+    ],
+    "benefit_vi": "Quy tụ sứ đoàn và các gia tộc dưới danh nghĩa Đại Hãn.",
+    "benefit_en": "Gathers embassies and houses beneath the Great Khan’s authority.",
+    "cost_vi": "Tập trung quyền lợi và gia tộc làm mỗi hội nghị thành cuộc thử thách liên minh.",
+    "cost_en": "Concentrated interests make every assembly a test of the coalition.",
+    "status_vi": "Triều đình tái lập từ sau 1696",
+    "status_en": "Court re-established after 1696",
+    "historical_anchor_vi": "Karakorum là kinh đô Mông Cổ trung đại; TFAM đảo kết quả Zuunmod để Galdan và Anu tái lập quyền lực.",
+    "historical_anchor_en": "Karakorum was a medieval Mongol capital; TFAM reverses Zuunmod so Galdan and Anu can rebuild their power.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1081/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Rebuilt early eighteenth-century Mongol court among Karakorum stone foundations, ornate great yurt council ring, snowy Orkhon valley, distant horse guards, no modern city."
+  },
+  {
+    "id": "eternal_sky_khanate_erdene_zuu",
+    "faction_id": "eternal_sky_khanate",
+    "name_vi": "Erdene Zuu — Vòng tháp giữ lời",
+    "name_en": "Erdene Zuu — The Ring of Witnesses",
+    "location_vi": "Cạnh Karakorum, thung lũng Orkhon",
+    "location_en": "Beside Karakorum, Orkhon Valley",
+    "category": "sacred",
+    "epithet_vi": "Lời thề phải có người nhớ",
+    "epithet_en": "An Oath Requires a Witness",
+    "lore_vi": "Tu viện bên nền cố đô nhận những đoàn người xin xác nhận hôn ước, quyền kế thừa và phần đất chăn sau cuộc thống nhất. Galdan cho phục hồi những khu hư hại, còn Anu yêu cầu các gia tộc ký cam kết bảo vệ đường đưa lương tới đây. Giữa mùa rét, nhà kho tu viện nuôi người chạy mất đàn gia súc, khiến người coi kho có tiếng nói vượt khỏi nghi lễ. Những bản gia phả được chép lại dưới đèn mỡ; tên một người được công nhận có thể đổi quyền chỉ huy hàng nghìn kỵ binh. Bên ngoài vòng tháp trắng, tiếng ngựa chờ luôn nhắc rằng chữ ký cũng cần người đủ sức bảo vệ.",
+    "lore_en": "The monastery beside the old capital received petitions over marriages, inheritance and grazing lands after unification. Galdan restored damaged precincts while Anu required houses to guarantee its supply roads. During the cold, monastic stores fed families who had lost their herds, giving storekeepers influence beyond ritual. Genealogies were recopied by fat lamps; recognition of a single name could change command over thousands of riders. Outside the white stupas, waiting horses reminded petitioners that signatures also required defenders.",
+    "traits": [
+      {
+        "label_vi": "Gia phả dưới đèn",
+        "label_en": "Genealogies by Lamplight",
+        "description_vi": "Tu viện ghi nhận dòng dõi và cam kết của các gia tộc.",
+        "description_en": "The monastery records lineages and agreements between houses."
+      },
+      {
+        "label_vi": "Kho gạo giữa đàn mất",
+        "label_en": "Stores for Lost Herds",
+        "description_vi": "Cứu tế duy trì cộng đồng sau những đợt chết rét gia súc.",
+        "description_en": "Relief sustains communities after winter herd losses."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ hòa giải kế thừa và duy trì cứu tế ngoài trại quân.",
+    "benefit_en": "Supports inheritance arbitration and relief beyond the military camps.",
+    "cost_vi": "Giới tăng lữ tích lũy ảnh hưởng có thể chống lại quyết định của triều đình.",
+    "cost_en": "Clerical influence may challenge court decisions.",
+    "status_vi": "Tu viện được phục hồi và bảo hộ",
+    "status_en": "Restored and protected monastery",
+    "historical_anchor_vi": "Erdene Zuu được lập cuối thế kỷ XVI gần Karakorum; TFAM duy trì nó trong cuộc phục hưng Đại Hãn quốc.",
+    "historical_anchor_en": "Erdene Zuu was founded near Karakorum in the late sixteenth century; TFAM preserves it within the khanate’s revival.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1081/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Erdene Zuu monastery white stupas and Mongol temple roofs, snow and amber fat lamps, grazing refugees with pack animals at outer gate."
+  },
+  {
+    "id": "eternal_sky_khanate_burkhan",
+    "faction_id": "eternal_sky_khanate",
+    "name_vi": "Burkhan Khaldun — Núi của lời thề Trường Thiên",
+    "name_en": "Burkhan Khaldun — Mountain of the Eternal Sky",
+    "location_vi": "Dãy Khentii",
+    "location_en": "Khentii Mountains",
+    "category": "landscape",
+    "epithet_vi": "Ngai vàng phải cúi trước đỉnh núi",
+    "epithet_en": "The Throne Bows Before the Summit",
+    "lore_vi": "Các sứ giả mang tin thống nhất tới chân Burkhan Khaldun trước khi lời xưng Đại Hãn được truyền xa. Galdan dùng sự tôn kính dành cho ngọn núi để nối các gia tộc vào di sản lớn hơn chiến thắng của riêng mình. Anu cho cấm săn trên những lối hành lễ và đặt đội cứu hộ ở thấp hơn đường tuyết. Người đến dâng lễ phải đi qua những đống đá buộc dải vải đã cứng vì băng, nghe tên tổ tiên được đọc cùng tên các bộ tộc còn bất hòa. Núi đứng ngoài quyền phân đất của triều đình; chính giới hạn ấy khiến lời thề phát ra dưới chân núi có sức nặng.",
+    "lore_en": "Messengers carried news of unification to Burkhan Khaldun before the proclamation of the Great Khan travelled farther. Galdan used reverence for the mountain to bind houses to a legacy larger than his own victory. Anu prohibited hunting along ceremonial approaches and stationed rescue crews below the snowline. Offerers passed stone cairns hung with frozen cloth and heard ancestral names beside those of tribes still divided. The mountain stood beyond the court’s allocation of land; that boundary gave oaths made beneath it their weight.",
+    "traits": [
+      {
+        "label_vi": "Đất ngoài phần chia",
+        "label_en": "Land Beyond Allotment",
+        "description_vi": "Cảnh quan thiêng được giữ ngoài việc ban đất thưởng công.",
+        "description_en": "The sacred landscape remains outside reward allotments."
+      },
+      {
+        "label_vi": "Đường lễ được canh",
+        "label_en": "Guarded Pilgrim Approaches",
+        "description_vi": "Đội dẫn đường bảo vệ người hành lễ giữa tuyết.",
+        "description_en": "Guides protect ceremonial visitors in the snow."
+      }
+    ],
+    "benefit_vi": "Tăng sức quy tụ của danh nghĩa Trường Thiên và giao ước giữa các bộ tộc.",
+    "benefit_en": "Strengthens Eternal Sky legitimacy and agreements among tribes.",
+    "cost_vi": "Chiếm dụng hoặc xúc phạm vùng cấm có thể khiến nhiều gia tộc cùng rút lời thề.",
+    "cost_en": "Appropriation or sacrilege may cause several houses to withdraw their oaths.",
+    "status_vi": "Cảnh quan thiêng được bảo vệ",
+    "status_en": "Protected sacred landscape",
+    "historical_anchor_vi": "Burkhan Khaldun gắn với việc tôn thờ núi và di sản Thành Cát Tư Hãn.",
+    "historical_anchor_en": "Burkhan Khaldun is associated with mountain worship and the legacy of Chinggis Khan.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1440/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Khentii sacred mountain above immense snowy forest, small stone ovoo with frozen blue cloth at foreground, horse pilgrims tiny, austere cobalt and white."
+  },
+  {
+    "id": "eternal_sky_khanate_altai",
+    "faction_id": "eternal_sky_khanate",
+    "name_vi": "Altai — Những đàn thú khắc trên đá",
+    "name_en": "Altai — Herds Written in Stone",
+    "location_vi": "Miền núi Altai",
+    "location_en": "Altai Mountains",
+    "category": "knowledge",
+    "epithet_vi": "Ký ức già hơn cờ trận",
+    "epithet_en": "A Memory Older Than Battle Flags",
+    "lore_vi": "Những tảng đá khắc thú và người săn nằm trên đường các đoàn di cư tránh những vùng đồng cỏ đã chết. Quan lại Karakorum muốn sao chép chúng làm bằng chứng về một thảo nguyên chung, còn người dẫn đường đọc cảnh núi và dấu nước để chọn nơi nghỉ cho đàn ngựa. Anu cho đội hộ tống đi cùng các thợ chép, yêu cầu giữ nguyên đá thay vì mang về kinh đô. Trong trại đêm, những người kể chuyện tranh nhau tổ tiên nào đã để lại hình khắc. Bản sao đi về triều đình mang một lời hứa thống nhất; những hình khắc còn lại tiếp tục thuộc về nhiều tiếng nói chưa chịu hòa làm một.",
+    "lore_en": "Animal carvings and hunters marked rocks along migrations escaping dead pasture. Karakorum’s officials copied them as evidence of a shared steppe, while guides read mountain shapes and water traces to choose horse camps. Anu sent escorts with the copyists and ordered the stones left in place. Around night fires, storytellers disputed whose ancestors had made the images. Copies carried a promise of unity back to court; the carvings themselves remained with many voices still unwilling to become one.",
+    "traits": [
+      {
+        "label_vi": "Đá ở lại núi",
+        "label_en": "Stone Remaining in the Mountains",
+        "description_vi": "Lệnh bảo tồn giữ di tích ngoài kho chiến lợi phẩm.",
+        "description_en": "Preservation orders exclude the stones from trophy stores."
+      },
+      {
+        "label_vi": "Nhiều người cùng nhớ",
+        "label_en": "Many Keepers of Memory",
+        "description_vi": "Mỗi cộng đồng diễn giải hình khắc bằng truyền thống riêng.",
+        "description_en": "Each community interprets the carvings through its own tradition."
+      }
+    ],
+    "benefit_vi": "Cung cấp tư liệu nhận diện chung và đường tiếp cận các cộng đồng miền núi.",
+    "benefit_en": "Provides shared historical material and connections with mountain communities.",
+    "cost_vi": "Dùng di sản để ép một dòng dõi thống trị có thể khơi lại tranh chấp tổ tiên.",
+    "cost_en": "Using heritage to impose one lineage may revive ancestral disputes.",
+    "status_vi": "Di tích được sao chép tại chỗ",
+    "status_en": "Monuments copied in situ",
+    "historical_anchor_vi": "Các quần thể hình khắc Altai ghi lại nhiều lớp văn hóa săn bắt và chăn thả.",
+    "historical_anchor_en": "The Altai petroglyphs record successive hunting and pastoral cultures.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1382/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Ancient Altai petroglyph boulders with recognisable deer and hunting carvings, frosted ochre stone, huge winter mountains, tiny mounted scribal expedition."
+  },
+  {
+    "id": "eternal_sky_khanate_uvs",
+    "faction_id": "eternal_sky_khanate",
+    "name_vi": "Uvs Nuur — Bồn địa của những đàn còn sống",
+    "name_en": "Uvs Nuur — Basin of the Surviving Herds",
+    "location_vi": "Miền tây bắc thảo nguyên",
+    "location_en": "Northwestern steppe",
+    "category": "landscape",
+    "epithet_vi": "Đàn ngựa là biên giới cuối cùng",
+    "epithet_en": "The Herds Are the Last Frontier",
+    "lore_vi": "Khi mùa rét kéo dài, các vùng cỏ quanh bồn địa Uvs Nuur trở thành đối tượng thương lượng giữa những gia tộc vừa tuyên thệ cùng Galdan. Triều đình đặt cọc giới mùa chăn và yêu cầu giữ lối tới các điểm nước ngọt, bởi mặt hồ mặn rộng lớn sẽ chẳng cứu được đàn ngựa khát. Năm 1716, việc điều quân sang hai hướng khiến số gia đình ở lại với đàn ít hơn. Các quản đàn phải quyết định con nào được giữ làm giống, con nào đưa tới trại pháo. Một cuộc xung đột quanh bãi trú gió có thể lấy đi số ngựa nhiều hơn cả một trận thua ngoài biên giới.",
+    "lore_en": "Prolonged cold turned grazing grounds around Uvs Nuur into bargaining points between houses newly sworn to Galdan. The court marked seasonal allotments and protected approaches to freshwater sources, for the broad salt lake could not save thirsty horses. In 1716, deployments on two fronts left fewer families with the herds. Herd wardens decided which animals remained for breeding and which went to the gun trains. A quarrel over a sheltered pasture could cost more horses than a defeat along the frontier.",
+    "traits": [
+      {
+        "label_vi": "Bãi trú gió",
+        "label_en": "Sheltered Pasture",
+        "description_vi": "Phân vùng mùa chăn giữ các đàn có nơi qua rét.",
+        "description_en": "Seasonal allotments preserve wintering grounds."
+      },
+      {
+        "label_vi": "Nước ngọt bên hồ mặn",
+        "label_en": "Fresh Water Beside Salt",
+        "description_vi": "Các điểm nước uống được bảo vệ như tài sản quân sự.",
+        "description_en": "Drinkable sources are guarded as military assets."
+      }
+    ],
+    "benefit_vi": "Duy trì đàn giống, sức kéo và nguồn ngựa bổ sung cho quân đội.",
+    "benefit_en": "Preserves breeding stock, draught power and remounts.",
+    "cost_vi": "Trưng ngựa quá mức hoặc tranh bãi chăn có thể làm suy kiệt lực lượng nhiều năm.",
+    "cost_en": "Excess requisition or pasture disputes can weaken forces for years.",
+    "status_vi": "Bãi chăn được phân quyền theo mùa",
+    "status_en": "Pasture under seasonal allotment",
+    "historical_anchor_vi": "Uvs Nuur là bồn địa kín với nhiều hệ sinh thái và hồ mặn lớn.",
+    "historical_anchor_en": "Uvs Nuur is an enclosed basin with diverse ecosystems and a large salt lake.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/769/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Vast cold Uvs Nuur salt lake basin, wind-scoured grass and snow patches, horse herds sheltering below ridge, tiny nomadic winter camp, silver and tawny earth."
+  },
+  {
+    "id": "safavid_empire_naqsh_jahan",
+    "faction_id": "safavid_empire",
+    "name_vi": "Naqsh-e Jahan — Quảng trường của hai quyền lực",
+    "name_en": "Naqsh-e Jahan — Square of Two Powers",
+    "location_vi": "Isfahan, Ba Tư",
+    "location_en": "Isfahan, Persia",
+    "category": "seat",
+    "epithet_vi": "Vương miện nhìn thanh kiếm đi qua",
+    "epithet_en": "The Crown Watches the Sword Pass",
+    "lore_vi": "Năm 1702, Nader Afshar phá vòng vây Isfahan sớm hơn những cuộc khủng hoảng của lịch sử thật và giữ ngai vàng Safavid còn đứng. Quảng trường trước cung điện đón quân chiến thắng, rồi trở thành sân khấu cho một sự phân quyền mong manh. Vua xuất hiện trên cao khi ban chiếu, còn người dân nhìn xuống đoàn hộ vệ để biết Nader có mặt hay không. Các mái vòm xanh bị sương làm bạc cạnh những cửa hàng bán lương và vải quân phục. Năm 1716, những quan lại chống người cứu thành bị đưa đi; các chủ quán chỉ cần nhìn chỗ trống trong đoàn tùy tùng để biết cán cân đã nghiêng thêm về phía nào.",
+    "lore_en": "In 1702, Nader Afshar broke the siege of Isfahan before the crises of recorded history and preserved the Safavid throne. The palace square welcomed the victorious army, then staged a precarious division of power. The king appeared above to issue decrees; people watched the escorts below to learn whether Nader was present. Frost paled blue domes beside shops selling grain and uniform cloth. In 1716, officials opposing the city’s rescuer were removed. Shopkeepers needed only the gaps in a procession to see which way the balance had shifted.",
+    "traits": [
+      {
+        "label_vi": "Ban chiếu từ trên cao",
+        "label_en": "Decrees from Above",
+        "description_vi": "Cung điện và nghi lễ tiếp tục giữ danh nghĩa Safavid.",
+        "description_en": "Palace and ceremony retain the Safavid name."
+      },
+      {
+        "label_vi": "Hộ vệ của người cứu thành",
+        "label_en": "The Rescuer’s Escort",
+        "description_vi": "Sức mạnh Nader hiện diện trong an ninh kinh đô.",
+        "description_en": "Nader’s power is embodied in the capital’s security."
+      }
+    ],
+    "benefit_vi": "Duy trì giao thương và hình ảnh thống nhất giữa triều đình với quân đội.",
+    "benefit_en": "Sustains commerce and the appearance of unity between court and army.",
+    "cost_vi": "Mỗi nghi lễ có thể phơi bày mâu thuẫn giữa vua và người nắm binh quyền.",
+    "cost_en": "Every ceremony can expose tension between king and commander.",
+    "status_vi": "Trung tâm vương quyền dưới bóng Nader",
+    "status_en": "Royal centre beneath Nader’s shadow",
+    "historical_anchor_vi": "Quảng trường Isfahan gắn với thời Shah Abbas; TFAM đưa sự cứu triều của Nader lên năm 1702.",
+    "historical_anchor_en": "Isfahan’s square is associated with Shah Abbas; TFAM advances Nader’s rescue of the dynasty to 1702.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/115/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Naqsh-e Jahan vast Safavid square with Ali Qapu and tiled mosque domes, frosted paving, cavalry procession under balcony, turquoise gold and deep wine."
+  },
+  {
+    "id": "safavid_empire_qanat",
+    "faction_id": "safavid_empire",
+    "name_vi": "Qanat — Những dòng nước dưới mùa đông",
+    "name_en": "Qanats — Water Beneath Winter",
+    "location_vi": "Cao nguyên Ba Tư",
+    "location_en": "Persian plateau",
+    "category": "industry",
+    "epithet_vi": "Đế quốc uống từ bóng tối",
+    "epithet_en": "An Empire Drinking from Darkness",
+    "lore_vi": "Dưới cao nguyên, những đường dẫn nước tiếp tục chảy khi mặt đất đã nứt vì rét. Nader đặt người bảo vệ cửa giếng và giữ thợ đào khỏi danh sách tuyển quân, đổi lại các cộng đồng phải cấp nước theo thỏa thuận cho đoàn vận tải. Từng chuỗi miệng giếng kéo qua đồng trống như dấu chân của một đạo quân đã chôn dưới đất. Người đo nước đến trước người thu thuế, bởi mức chảy giảm có thể làm cả ốc đảo phải bỏ đi. Năm 1716, khi quân tiến về Afghanistan, các cửa nước trở thành nơi thương lượng giữa quyền đi qua của quân đội và quyền sống của người ở lại.",
+    "lore_en": "Beneath the plateau, channels kept flowing while cold fractured the surface. Nader guarded shafts and exempted diggers from recruitment; in return, communities supplied agreed water to military convoys. Lines of wellheads crossed the empty ground like footprints of a buried army. Water measurers preceded tax collectors, because falling flows could empty an oasis. In 1716, as troops moved towards Afghanistan, outlets became negotiating places between the army’s right of passage and the inhabitants’ right to survive.",
+    "traits": [
+      {
+        "label_vi": "Thợ xuống trước quân đi",
+        "label_en": "Diggers Before Soldiers",
+        "description_vi": "Lao động kỹ thuật được bảo vệ khỏi trưng dụng tùy tiện.",
+        "description_en": "Technical workers are protected from arbitrary conscription."
+      },
+      {
+        "label_vi": "Quyền nước có sổ",
+        "label_en": "Registered Water Rights",
+        "description_vi": "Lượt cấp nước được phân bằng thỏa thuận cộng đồng.",
+        "description_en": "Distribution turns follow community agreements."
+      }
+    ],
+    "benefit_vi": "Giữ nguồn nước và các điểm tiếp tế trên cao nguyên.",
+    "benefit_en": "Preserves water and supply points across the plateau.",
+    "cost_vi": "Quân đội lấy quá phần nước có thể làm ruộng chết và làng tan rã.",
+    "cost_en": "Military overuse can kill fields and dissolve settlements.",
+    "status_vi": "Hệ thống nước được bảo vệ quân sự",
+    "status_en": "Water system under military protection",
+    "historical_anchor_vi": "Qanat dẫn nước ngầm qua hệ đường hầm theo độ dốc tự nhiên.",
+    "historical_anchor_en": "Qanats carry groundwater through gently sloping underground channels.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1506/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Persian qanat shaft line receding across frosted plateau, cut-stone outlet village in foreground with caravan, underground water hinted naturally, no fantasy pipes."
+  },
+  {
+    "id": "safavid_empire_tabriz",
+    "faction_id": "safavid_empire",
+    "name_vi": "Đại chợ Tabriz",
+    "name_en": "Grand Bazaar of Tabriz",
+    "location_vi": "Tabriz, tây bắc Ba Tư",
+    "location_en": "Tabriz, northwestern Persia",
+    "category": "industry",
+    "epithet_vi": "Những mái vòm giữ đường xa",
+    "epithet_en": "Vaults Holding the Long Roads",
+    "lore_vi": "Các mái gạch Tabriz che hàng hóa khỏi tuyết và che cả những cuộc mặc cả khỏi mắt quan triều đình. Nader khôi phục an ninh cho đường đoàn buôn, yêu cầu các phường nghề ứng vật tư cho quân đội theo sổ nợ có dấu riêng. Thương nhân cân bạc dưới đèn, vừa tính đường tới các biên giới đang đổi chủ vừa nghe tin về các đoàn quân phía tây. Những gia đình có người ở nhiều thành phố trở thành tai mắt mà quân đội cần hơn số ngựa họ có thể nộp. Mỗi mùa lạnh, cửa chợ đóng chặt sớm hơn; bên trong, giá lương và lời đồn vẫn tiếp tục đi xa qua những bức thư gấp nhỏ.",
+    "lore_en": "Tabriz’s brick vaults sheltered goods from snow and bargains from the court’s eyes. Nader restored caravan security and required guilds to advance military supplies against specially sealed debt registers. Merchants weighed silver by lamplight, calculating routes towards shifting frontiers while listening for news of western armies. Families connected to several cities became sources of intelligence more valuable than the horses they could provide. During the cold, market gates closed earlier; within, grain prices and rumours still travelled far in tightly folded letters.",
+    "traits": [
+      {
+        "label_vi": "Tin theo kiện hàng",
+        "label_en": "News Within the Bales",
+        "description_vi": "Mạng thương nhân cung cấp tin tức từ nhiều biên giới.",
+        "description_en": "Merchant networks carry intelligence from several frontiers."
+      },
+      {
+        "label_vi": "Nợ mang dấu kiếm",
+        "label_en": "Debt Beneath the Sword’s Seal",
+        "description_vi": "Ứng vật tư nối quyền lợi thương nhân với chiến dịch Nader.",
+        "description_en": "Supply advances bind merchant interests to Nader’s campaigns."
+      }
+    ],
+    "benefit_vi": "Phân phối vật tư, tín dụng và thông tin qua mạng đoàn buôn.",
+    "benefit_en": "Distributes goods, credit and intelligence through caravan networks.",
+    "cost_vi": "Trả nợ chậm làm cạn lòng tin; chiến tranh biên giới có thể khóa tuyến buôn.",
+    "cost_en": "Late repayment drains confidence; frontier war can close trade routes.",
+    "status_vi": "Chợ phục hồi dưới bảo hộ quân sự",
+    "status_en": "Bazaar restored under military protection",
+    "historical_anchor_vi": "Tabriz là đầu mối giao thương lịch sử trên các tuyến Á–Âu.",
+    "historical_anchor_en": "Tabriz was a historic commercial hub along Eurasian routes.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1346/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Tabriz historical brick vaulted bazaar courtyards, snow on roof domes, caravan unloading cloth and military stores, ochre and sapphire, no ocean harbour."
+  },
+  {
+    "id": "safavid_empire_soltaniyeh",
+    "faction_id": "safavid_empire",
+    "name_vi": "Soltaniyeh — Mái vòm của người chinh phục cũ",
+    "name_en": "Soltaniyeh — Dome of the Earlier Conqueror",
+    "location_vi": "Soltaniyeh, Zanjan",
+    "location_en": "Soltaniyeh, Zanjan",
+    "category": "ruin",
+    "epithet_vi": "Tên người chết lớn hơn ngai sống",
+    "epithet_en": "The Dead Name Above the Living Throne",
+    "lore_vi": "Mái vòm lam của lăng Öljaitü đứng trên đường quân tiến qua tây bắc Ba Tư. Nader cho sửa chỗ thấm, mở nhà nghỉ phía ngoài cho thương binh và yêu cầu giữ nguyên phần mộ. Những người lính Afshar đi dưới công trình của một triều đại từng sinh ra từ vó ngựa Mông Cổ, giữa lúc đồng đội họ đang tranh đất với một Đại Hãn quốc mới. Các học giả được mời đọc bia để tìm lời phù hợp cho quyền lực bảo hộ vương triều. Trong căn phòng có thương binh nằm kín, câu hỏi ai xứng đáng trị vì được nhường cho việc người nào còn đủ củi để sống qua đêm.",
+    "lore_en": "Öljaitü’s blue dome stood along the armies’ passage through northwestern Persia. Nader repaired leaks, opened outer lodgings to the wounded and ordered the tomb preserved. Afshar soldiers passed beneath a monument raised by a dynasty born from Mongol conquest while their comrades contested land with a new Great Khanate. Scholars were asked to read inscriptions for language befitting a protector of kings. In rooms crowded with wounded men, questions of rightful rule yielded to who still had enough fuel to survive the night.",
+    "traits": [
+      {
+        "label_vi": "Lăng được giữ nguyên",
+        "label_en": "The Tomb Preserved",
+        "description_vi": "Quyền bảo hộ được thể hiện bằng sửa chữa và cấm xâm phạm.",
+        "description_en": "Protection is expressed through repairs and prohibitions against violation."
+      },
+      {
+        "label_vi": "Nhà nghỉ thành quân y",
+        "label_en": "Lodgings Become Infirmaries",
+        "description_vi": "Không gian phụ cận tiếp nhận thương binh trên tuyến hành quân.",
+        "description_en": "Adjacent spaces receive wounded men along the military route."
+      }
+    ],
+    "benefit_vi": "Cung cấp điểm trú và biểu tượng quyền lực vượt qua thay đổi triều đại.",
+    "benefit_en": "Offers shelter and a symbol of authority across dynastic change.",
+    "cost_vi": "Bảo trì và cứu thương đòi hỏi vật tư của địa phương trong lúc chiến tranh kéo dài.",
+    "cost_en": "Maintenance and medical shelter consume local supplies during prolonged war.",
+    "status_vi": "Lăng được bảo hộ, khu phụ trợ tiếp nhận thương binh",
+    "status_en": "Protected tomb with adjacent wounded quarters",
+    "historical_anchor_vi": "Lăng Öljaitü được xây đầu thế kỷ XIV dưới triều Ilkhan.",
+    "historical_anchor_en": "Öljaitü’s mausoleum was built in the early fourteenth century under the Ilkhanids.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1188/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Soltaniyeh distinctive immense turquoise dome and slender minarets on snowy plateau, small military infirmary tents kept outside sacred tomb, lapis and ivory."
+  },
+  {
+    "id": "safavid_empire_persian_garden",
+    "faction_id": "safavid_empire",
+    "name_vi": "Fin — Khu vườn giữ mùa xuân",
+    "name_en": "Fin — The Garden Keeping Spring",
+    "location_vi": "Kashan, Ba Tư",
+    "location_en": "Kashan, Persia",
+    "category": "landscape",
+    "epithet_vi": "Nước chảy giữa những hàng cây rét",
+    "epithet_en": "Running Water Among Cold Trees",
+    "lore_vi": "Những người trông vườn Fin giữ nước luân chuyển qua bể và rãnh khi sương giá kéo xuống Kashan. Triều đình Safavid bảo vệ khu vườn như ký ức về một quyền lực biết sắp đặt cả đất lẫn nước; Nader lại nhìn thấy nơi nghỉ cho sứ giả và nguồn cây giống có thể đưa tới các trạm quân nhu. Nhà vườn phải che những luống cây yếu bằng vải và đổi củi với dân quanh thành. Mỗi chuyến công sai mang thêm yêu cầu lấy cây, lấy quả hoặc lấy người giỏi. Dưới những tán cypress xám, việc giữ một góc mùa xuân dần trở thành công việc thương lượng với cả hai trung tâm quyền lực.",
+    "lore_en": "Fin’s gardeners kept water moving through pools and channels as frost descended upon Kashan. The Safavid court protected the garden as a memory of power ordering both land and water; Nader saw lodgings for envoys and seedlings for supply stations. Gardeners covered vulnerable beds with cloth and bartered for fuel. Each official visit brought demands for plants, fruit or skilled workers. Beneath grey cypresses, preserving one corner of spring became a negotiation with both centres of authority.",
+    "traits": [
+      {
+        "label_vi": "Nước nối bốn vườn",
+        "label_en": "Water Joining the Garden",
+        "description_vi": "Phân nước và bóng che tạo những vùng trồng được bảo vệ.",
+        "description_en": "Water distribution and shelter create protected growing spaces."
+      },
+      {
+        "label_vi": "Người giữ giống",
+        "label_en": "Keepers of Seedlings",
+        "description_vi": "Nhà vườn bảo tồn cây phục vụ dược liệu và ghép trồng.",
+        "description_en": "Gardeners preserve plants for medicine and propagation."
+      }
+    ],
+    "benefit_vi": "Giữ cây giống, tri thức làm vườn và nơi tiếp đón ngoại giao.",
+    "benefit_en": "Preserves seedlings, horticultural knowledge and diplomatic hospitality.",
+    "cost_vi": "Đặc quyền nước và nhiên liệu cho vườn dễ gây bất mãn khi dân thiếu thốn.",
+    "cost_en": "Water and fuel privileges breed resentment during public shortages.",
+    "status_vi": "Khu vườn vương triều được duy trì có hạn",
+    "status_en": "Royal garden maintained under restrictions",
+    "historical_anchor_vi": "Fin thuộc truyền thống vườn Ba Tư phát triển qua nhiều triều đại.",
+    "historical_anchor_en": "Fin belongs to the Persian garden tradition developed across several dynasties.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1372/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Fin Persian garden cypress avenues and Safavid pavilion, flowing narrow water channels beneath frost, cloth protected planting beds, muted emerald and sandstone."
+  },
+  {
+    "id": "british_east_india_company_st_george",
+    "faction_id": "british_east_india_company",
+    "name_vi": "Pháo đài St George",
+    "name_en": "Fort St George",
+    "location_vi": "Madras, Ấn Độ",
+    "location_en": "Madras, India",
+    "category": "fortress",
+    "epithet_vi": "Một quê hương được viết bằng khế ước",
+    "epithet_en": "A Homeland Written in Contracts",
+    "lore_vi": "Khi nước Anh bị hủy diệt, các kho và văn phòng St George nhận thêm một nhiệm vụ ngoài việc bảo vệ thương mại: giữ tên tuổi những người lưu vong còn chờ tin gia đình. William Beckett đặt việc trả lương, ghi nợ và cấp chỗ ở vào cùng một hệ thống khế ước để thành phố tiếp tục hoạt động giữa mùa rét. Những tường thành che cả kho thuốc súng lẫn những bản danh sách mất tích. Năm 1716, tin thất thủ từ Xiêm và Miến Điện tới bên cạnh yêu cầu tiếp tế cho các đồng minh phương tây. Người giữ sổ phải cân từng khoản giữa cuộc chiến còn xa và những người đang đứng ngay ngoài cửa.",
+    "lore_en": "When England was destroyed, St George’s offices and warehouses acquired a duty beyond commerce: preserving the names of exiles still awaiting news of their families. William Beckett bound pay, debt and lodging into contracts that kept the settlement functioning through the cold. Its walls sheltered powder stores beside lists of the missing. In 1716, news of losses in Siam and Burma arrived alongside requests to supply western allies. Clerks weighed each allocation between distant war and the people waiting immediately outside their doors.",
+    "traits": [
+      {
+        "label_vi": "Khế ước làm mái nhà",
+        "label_en": "Contracts as Shelter",
+        "description_vi": "Quyền cư trú và khẩu phần của người lưu vong được ghi vào sổ.",
+        "description_en": "Exiles’ lodging and rations are entered into company registers."
+      },
+      {
+        "label_vi": "Pháo giữ thương điếm",
+        "label_en": "Guns Guarding the Factory",
+        "description_vi": "Công sự bảo vệ kho quân nhu và văn phòng điều hành.",
+        "description_en": "Fortifications protect supply stores and administrative offices."
+      }
+    ],
+    "benefit_vi": "Duy trì đầu mối quản trị, cứu tế và tiếp vận của công ty tại bờ đông Ấn Độ.",
+    "benefit_en": "Maintains Company administration, relief and logistics on India’s eastern coast.",
+    "cost_vi": "Quyền cứu tế gắn với hợp đồng có thể biến sự phụ thuộc thành cưỡng ép lao động.",
+    "cost_en": "Contract-bound relief can turn dependence into coerced labour.",
+    "status_vi": "Trung tâm công ty tiếp nhận người lưu vong",
+    "status_en": "Company centre receiving exiles",
+    "historical_anchor_vi": "Fort St George hình thành trong thời kỳ công ty lập cơ sở tại Madras thế kỷ XVII.",
+    "historical_anchor_en": "Fort St George developed during the Company’s seventeenth-century establishment at Madras.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://chennai.nic.in/history/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Seventeenth-century Fort St George coastal bastions and warehouses, exiled families at ration office, Company merchant ships in cold mist, brick and ivory, no later neoclassical capital."
+  },
+  {
+    "id": "british_east_india_company_bombay_castle",
+    "faction_id": "british_east_india_company",
+    "name_vi": "Thành Bombay — Của hồi môn còn lại",
+    "name_en": "Bombay Castle — The Dowry That Remained",
+    "location_vi": "Bombay, bờ tây Ấn Độ",
+    "location_en": "Bombay, western India",
+    "category": "harbour",
+    "epithet_vi": "Vương quốc mất, bến tàu còn",
+    "epithet_en": "The Kingdom Lost, the Quays Remain",
+    "lore_vi": "Những hòn đảo từng đi cùng một cuộc hôn nhân vương thất trở thành chỗ neo của quyền lực Anh ngoài quê nhà. Khi tin nước Anh bị hủy diệt tới Bombay, người giữ thành cất bản sao quyền sở hữu vào kho cùng những lá cờ được đưa về từ các tàu sống sót. Beckett duy trì xưởng sửa tàu và quyền cư trú để cảng có thể đón thêm người mà vẫn nuôi được đoàn hộ tống. Các thương nhân Ấn Độ nắm gỗ, vốn và nhân lực đóng tàu, buộc hội đồng phải thương lượng từng chuyến. Trên bến, danh nghĩa cũ của một món hồi môn tiếp tục được bảo vệ bằng lao động của những người chưa từng thấy nước Anh.",
+    "lore_en": "Islands once transferred through a royal marriage became an anchorage for English power without its homeland. When news of England’s destruction reached Bombay, the castle’s keepers stored copies of the title beside flags recovered from surviving ships. Beckett maintained repair yards and settlement rights so the port could receive more people while feeding the escort fleet. Indian merchants controlled timber, credit and shipwrights, forcing the council to bargain over every voyage. On the quays, a former royal dowry endured through the labour of people who had never seen England.",
+    "traits": [
+      {
+        "label_vi": "Văn kiện qua đại dương",
+        "label_en": "Titles Across the Ocean",
+        "description_vi": "Hồ sơ sở hữu được dùng để bảo vệ quyền cư trú và cảng.",
+        "description_en": "Title records defend settlement and harbour rights."
+      },
+      {
+        "label_vi": "Thợ tàu giữ chìa khóa",
+        "label_en": "Shipwrights Hold the Keys",
+        "description_vi": "Năng lực sửa tàu dựa vào thương nhân và lao động Ấn Độ.",
+        "description_en": "Repair capacity depends on Indian merchants and labour."
+      }
+    ],
+    "benefit_vi": "Cung cấp chỗ sửa chữa, trú đậu và tổ chức đoàn hộ tống phía tây Ấn Độ.",
+    "benefit_en": "Provides repair, shelter and escort organisation in western India.",
+    "cost_vi": "Phụ thuộc tín dụng và gỗ địa phương hạn chế quyền quyết định của hội đồng.",
+    "cost_en": "Dependence on local credit and timber constrains the council.",
+    "status_vi": "Cảng và thành lũy dưới quyền công ty",
+    "status_en": "Port and fortress under Company authority",
+    "historical_anchor_vi": "Bombay được chuyển qua hôn ước Anh–Bồ thế kỷ XVII rồi sang quyền công ty; TFAM giữ di sản đó sau khi nước Anh mất.",
+    "historical_anchor_en": "Bombay passed through a seventeenth-century Anglo-Portuguese marriage settlement and then to the Company; TFAM retains that legacy after England falls.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://mumbaicity.gov.in/en/about-district/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Early Bombay Castle and seventeenth-century island harbour, wooden ship repair yard, Indian shipwrights and English exiles, cold sea haze, no Gateway of India or modern buildings."
+  },
+  {
+    "id": "british_east_india_company_jamestown",
+    "faction_id": "british_east_india_company",
+    "name_vi": "Jamestown — Đèn giữa Đại Tây Dương",
+    "name_en": "Jamestown — Lantern in the Atlantic",
+    "location_vi": "Saint Helena, Nam Đại Tây Dương",
+    "location_en": "Saint Helena, South Atlantic",
+    "category": "harbour",
+    "epithet_vi": "Trạm nhỏ giữ đường về",
+    "epithet_en": "The Small Station Holding the Way Home",
+    "lore_vi": "Saint Helena nằm giữa những chặng biển dài đến mức một bể nước ngọt cũng có giá trị ngang khẩu pháo. Sau khi quê nhà mất, Beckett giữ trạm Jamestown như điểm hẹn của những đoàn tàu còn mang người Anh qua đại dương. Kho chứa được bổ sung chăn, dây buồm và khẩu phần dự phòng, còn người lên bờ phải khai tên để tin tức có thể tìm được họ. Mùa rét làm các sườn dốc trơ hơn và củi trở thành thứ phải tính trước chuyến đến kế tiếp. Từ bến nhỏ, mỗi tín hiệu đèn gửi ra biển vừa là lời dẫn đường vừa là lời xác nhận rằng vẫn còn ai đó đang chờ.",
+    "lore_en": "Saint Helena stood between voyages so long that a freshwater cistern could rival a gun in value. After the homeland fell, Beckett retained Jamestown as a rendezvous for convoys still carrying English people across the ocean. Stores gained blankets, rigging and reserve rations; arrivals registered their names so news might find them. Cold stripped the slopes and made fuel an item calculated before the next ship’s arrival. From the little landing, each lantern signal offered both navigation and proof that someone was still waiting.",
+    "traits": [
+      {
+        "label_vi": "Tên trong sổ bến",
+        "label_en": "Names in the Landing Register",
+        "description_vi": "Người đến được ghi nhận để nối thư và thân nhân thất lạc.",
+        "description_en": "Arrivals are recorded to reconnect letters and separated families."
+      },
+      {
+        "label_vi": "Nước cho chặng sau",
+        "label_en": "Water for the Next Leg",
+        "description_vi": "Bể chứa và vườn tiếp tế bảo đảm sức chịu đựng của đoàn tàu.",
+        "description_en": "Cisterns and supply gardens sustain convoys."
+      }
+    ],
+    "benefit_vi": "Duy trì chặng nghỉ, sửa nhẹ và liên lạc xuyên Đại Tây Dương.",
+    "benefit_en": "Maintains an Atlantic rest stop, minor repairs and communications.",
+    "cost_vi": "Nguồn nước, củi và lương thực hữu hạn khiến quá đông tàu đến cùng lúc thành khủng hoảng.",
+    "cost_en": "Limited water, fuel and food make simultaneous arrivals a crisis.",
+    "status_vi": "Trạm tiếp vận công ty, 1715–1716",
+    "status_en": "Company supply station, 1715–1716",
+    "historical_anchor_vi": "Công ty Đông Ấn Anh bắt đầu định cư Saint Helena năm 1659.",
+    "historical_anchor_en": "The English East India Company began settling Saint Helena in 1659.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.sainthelena.gov.sh/st-helena/history-and-heritage/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Early Jamestown tiny settlement in steep volcanic Atlantic valley, low fort and wooden landing, signal lantern, cold green-grey sea, no Jacob Ladder or later Georgian streets."
+  },
+  {
+    "id": "british_east_india_company_red_fort",
+    "faction_id": "british_east_india_company",
+    "name_vi": "Pháo đài Đỏ — Ấn của người bị trị",
+    "name_en": "Red Fort — Seal of the Governed",
+    "location_vi": "Delhi, Ấn Độ",
+    "location_en": "Delhi, India",
+    "category": "seat",
+    "epithet_vi": "Quyền lực đi qua cửa Lahori",
+    "epithet_en": "Power Through the Lahori Gate",
+    "lore_vi": "Trong Ấn Độ do công ty kiểm soát sớm hơn lịch sử, Delhi vẫn giữ nghi lễ và những viên chức đủ sức khiến giấy lệnh có người thi hành. Beckett lựa chọn đặt người giám sát việc chi trả và kho quân nhu thay vì xóa bỏ toàn bộ bộ máy địa phương. Các sân đá đỏ tiếp tục đón người thỉnh cầu, còn văn kiện phải có thêm sự chấp thuận của hội đồng công ty. Những sứ đoàn nhìn cờ trên cổng để biết ai có quân, rồi nhìn ngai trống để biết ai còn có danh nghĩa. Khi phương đông mất các thương điếm năm 1716, số tiền đòi từ những kho này lại tăng thêm một lần.",
+    "lore_en": "In an India brought under Company control earlier than recorded history, Delhi retained ceremonies and officials capable of making orders obeyed. Beckett supervised pay and military stores rather than abolishing the entire local administration. Red sandstone courts still received petitioners, but warrants required additional Company approval. Embassies read the flags above the gate to learn who possessed troops, then the vacant throne to learn who retained a claim. When eastern factories were lost in 1716, demands upon these treasuries rose again.",
+    "traits": [
+      {
+        "label_vi": "Ấn chồng lên ấn",
+        "label_en": "Seal Upon Seal",
+        "description_vi": "Mệnh lệnh bản địa cần sự phê chuẩn của hội đồng công ty.",
+        "description_en": "Local orders require Company council approval."
+      },
+      {
+        "label_vi": "Bộ máy còn người vận hành",
+        "label_en": "An Administration Still Staffed",
+        "description_vi": "Quan lại tiếp tục quản trị dưới chế độ giám sát.",
+        "description_en": "Officials continue governing under supervision."
+      }
+    ],
+    "benefit_vi": "Sử dụng hệ thống thu thuế và văn thư hiện hữu để giữ vùng nội địa.",
+    "benefit_en": "Uses existing fiscal and scribal institutions to administer the interior.",
+    "cost_vi": "Uy danh vương triều còn lại có thể quy tụ phản kháng chống công ty.",
+    "cost_en": "Surviving dynastic prestige can rally resistance against the Company.",
+    "status_vi": "Trung tâm hành chính bị giám sát",
+    "status_en": "Administrative centre under supervision",
+    "historical_anchor_vi": "Pháo đài Đỏ là cung thành Mughal thế kỷ XVII; TFAM đưa quyền kiểm soát của công ty lên trước những cuộc chinh phục lịch sử.",
+    "historical_anchor_en": "The Red Fort is a seventeenth-century Mughal palace-fort; TFAM advances Company control before its historical conquests.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/231/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Seventeenth-century Delhi Red Fort Lahori Gate and audience courts, discreet Company guard and Indian petitioners, fine frost on red sandstone, no colonial railway or modern street."
+  },
+  {
+    "id": "british_east_india_company_taj_mahal",
+    "faction_id": "british_east_india_company",
+    "name_vi": "Taj Mahal — Lăng trắng giữa những món nợ",
+    "name_en": "Taj Mahal — White Marble Among Debts",
+    "location_vi": "Agra, Ấn Độ",
+    "location_en": "Agra, India",
+    "category": "sacred",
+    "epithet_vi": "Lời hứa của người chết còn được giữ",
+    "epithet_en": "The Dead Promise Still Honoured",
+    "lore_vi": "Khối cẩm thạch trắng vẫn soi xuống nước khi các đoàn quan thuế công ty bắt đầu kiểm kê Agra. Những người giữ lăng đưa ra khế ước cũ về vườn, thợ và tiền nuôi công trình, yêu cầu người đang cai trị phải nhận cả nghĩa vụ cùng nguồn thu. Beckett giữ việc bảo hộ để tránh biến biểu tượng tang chế thành ngọn cờ chống đối; các viên chức tính từng khoản sửa mái và làm sạch đá như một món nợ chính trị. Sương giá làm khu vườn thưa khách, nhưng thợ chạm vẫn tới theo ca. Bên ngoài cổng, người thiếu gạo nhìn ánh trắng ấy và hỏi liệu một lời hứa với người chết có đáng giá hơn người đang sống.",
+    "lore_en": "White marble still reflected in water when Company assessors began inventorying Agra. Custodians produced older endowments for gardens, craftsmen and maintenance, demanding that whoever took the revenues also accept the obligations. Beckett preserved protection rather than turn a monument of mourning into a banner of resistance; officials counted roof repairs and stone cleaning as a political debt. Frost thinned the visitors, but craftsmen still came by watch. Beyond the gate, hungry people looked at the white stone and asked whether a promise to the dead outweighed the living.",
+    "traits": [
+      {
+        "label_vi": "Quỹ của lời hứa",
+        "label_en": "Endowment of a Promise",
+        "description_vi": "Thu nhập dành cho bảo trì phải được giữ theo thỏa thuận.",
+        "description_en": "Maintenance revenues must be preserved under agreement."
+      },
+      {
+        "label_vi": "Thợ giữ cẩm thạch",
+        "label_en": "Keepers of Marble",
+        "description_vi": "Lao động chuyên môn duy trì đá, vườn và hệ thống nước.",
+        "description_en": "Specialist workers maintain stone, gardens and water systems."
+      }
+    ],
+    "benefit_vi": "Bảo hộ di sản hỗ trợ thỏa hiệp với giới tinh hoa và cộng đồng địa phương.",
+    "benefit_en": "Heritage protection supports accommodation with local elites and communities.",
+    "cost_vi": "Chi phí bảo trì giữa thiếu đói có thể gây phản ứng; vi phạm quỹ bảo hộ lại làm mất lòng tin.",
+    "cost_en": "Maintenance amid hunger breeds resentment; violating the endowment destroys trust.",
+    "status_vi": "Lăng được bảo hộ dưới quyền công ty",
+    "status_en": "Protected mausoleum under Company authority",
+    "historical_anchor_vi": "Taj Mahal được xây thời Shah Jahan; TFAM đặt việc bảo hộ lăng trong chế độ công ty sớm.",
+    "historical_anchor_en": "The Taj Mahal was built under Shah Jahan; TFAM places its protection under an early Company regime.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/252/"
+    ],
+    "art_prompt": "TFAM original landscape concept painting, panoramic 16:9, painterly illustrated realism, early eighteenth-century alternate-history ice age, restrained ice and frost on locally authentic architecture, monumental scale, no text, no interface, no modern objects. Taj Mahal luminous marble dome and four slender minarets, frosted formal garden and partly iced reflecting pool, tiny custodians, pearl and pale rose, no crowds or modern infrastructure."
+  }
+]

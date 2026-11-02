@@ -1,0 +1,332 @@
+{
+  "completed_this_run": 40,
+  "missing_art": [
+    "device-044",
+    "device-045",
+    "device-046",
+    "device-047",
+    "device-048",
+    "device-049",
+    "device-050",
+    "device-051",
+    "device-052",
+    "device-053",
+    "device-054",
+    "device-055",
+    "device-056",
+    "device-057",
+    "device-058",
+    "device-059",
+    "device-060",
+    "device-061",
+    "device-062",
+    "device-063",
+    "device-064",
+    "device-066",
+    "device-067",
+    "device-last-lighthouse-lens"
+  ],
+  "required_replacements": [
+    "device-065"
+  ],
+  "qa_issues": [],
+  "blocker": "HTTP429 usage_limit_reached",
+  "reset_epoch": 1792368601,
+  "generation_results": [
+    {
+      "id": "device-005",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-11552553-b9d0-4401-bc26-f3c6914030d6.png"
+    },
+    {
+      "id": "device-003",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-0b6cd280-1fbd-4ea4-8267-d527be74309a.png"
+    },
+    {
+      "id": "device-006",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-b5f9c567-cd46-40dc-95f1-3a28a1300741.png"
+    },
+    {
+      "id": "device-007",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-c6b2d061-4326-41a5-bf07-02c0ef8413c6.png"
+    },
+    {
+      "id": "device-008",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-81cd59aa-52e4-400f-adac-07fa4205ec56.png"
+    },
+    {
+      "id": "device-009",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-55edad0e-03bd-4cb8-84db-7a14687eb3df.png"
+    },
+    {
+      "id": "device-010",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-dbc89719-270d-4718-8c22-ad0e56d6abc0.png"
+    },
+    {
+      "id": "device-011",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e7c0285b-89df-4467-8446-67c916459406.png"
+    },
+    {
+      "id": "device-012",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f9ab777b-1afc-4643-a90c-93f7d5d25a49.png"
+    },
+    {
+      "id": "device-013",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-5f000996-df8c-4e70-81c4-9fc1ab1453f3.png"
+    },
+    {
+      "id": "device-014",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-29d0b3d3-d7bf-478a-badd-9d253ff65bc4.png"
+    },
+    {
+      "id": "device-015",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-8552cb8c-1b70-4b3d-bd28-7ca098b42338.png"
+    },
+    {
+      "id": "device-017",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-61d5b67f-0828-449a-9dc1-daa10fb808ee.png"
+    },
+    {
+      "id": "device-016",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-83b8e3bc-6d5d-4f4e-9e65-57207edff6e3.png"
+    },
+    {
+      "id": "device-019",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-27bf98da-1380-452f-b469-61895e96ff3a.png"
+    },
+    {
+      "id": "device-018",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-aff92722-308b-4877-ac50-51b772ca7668.png"
+    },
+    {
+      "id": "device-020",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-baa19079-5c79-4b57-862a-72ac6bcca83a.png"
+    },
+    {
+      "id": "device-021",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-5e3f9152-25b2-4630-93df-589ffdb40ab9.png"
+    },
+    {
+      "id": "device-022",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-52104fb2-6ac2-4835-9501-fab7ef3ba6e4.png"
+    },
+    {
+      "id": "device-023",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-cf3597ed-126f-4b65-8867-eb243790d0fe.png"
+    },
+    {
+      "id": "device-024",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-089c5923-46e5-4289-8be8-4f9bfd4a8b76.png"
+    },
+    {
+      "id": "device-026",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f0912dab-8b02-4b35-be16-58a02e4bb062.png"
+    },
+    {
+      "id": "device-025",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-a377aa52-5b41-4c59-8610-a9b89ec34846.png"
+    },
+    {
+      "id": "device-027",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-a0a61843-0820-4209-8b3c-788631fce228.png"
+    },
+    {
+      "id": "device-028",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-0a6cd0e1-c666-49fb-bd10-b695f750f8c6.png"
+    },
+    {
+      "id": "device-029",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-265c8646-4000-4c44-b27e-8f3b64bea3bb.png"
+    },
+    {
+      "id": "device-030",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-4f0099d4-9e75-4fb1-a08c-c0af101e0980.png"
+    },
+    {
+      "id": "device-031",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-732b1948-3e04-4791-b207-8a14e1f343b6.png"
+    },
+    {
+      "id": "device-032",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-73836346-4fc0-4752-bd6f-70a632851aea.png"
+    },
+    {
+      "id": "device-033",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-d821b6b0-adda-431c-b9bf-b66651e93d28.png"
+    },
+    {
+      "id": "device-034",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-c05c61b3-0c98-4e58-819f-14457bb4bb85.png"
+    },
+    {
+      "id": "device-035",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-627b07cd-4772-47ee-a684-98ddc55b28e3.png"
+    },
+    {
+      "id": "device-036",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-4bed8b71-9f7f-48cc-bccb-1092325d27e5.png"
+    },
+    {
+      "id": "device-037",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-109fe961-6546-49d9-9d4a-736160e9a0d7.png"
+    },
+    {
+      "id": "device-038",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-14a44e24-ef74-47ff-92c5-8caf66be4157.png"
+    },
+    {
+      "id": "device-039",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-c41f6240-5107-4d8e-9467-773f9e8d4a42.png"
+    },
+    {
+      "id": "device-040",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-abce051f-1607-4b65-9544-ed845f691b47.png"
+    },
+    {
+      "id": "device-041",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-9cd3234d-0644-4884-8eed-63ff7778fd90.png"
+    },
+    {
+      "id": "device-042",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e824ff96-0018-4b4c-82e0-a0ba70c26845.png"
+    },
+    {
+      "id": "device-043",
+      "status": "complete",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-7e4bf44b-0bbd-4bc4-bf62-c3be86a334a9.png"
+    },
+    {
+      "id": "device-044",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84555}}\")"
+    },
+    {
+      "id": "device-045",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84554}}\")"
+    },
+    {
+      "id": "device-046",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84553}}\")"
+    },
+    {
+      "id": "device-047",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84552}}\")"
+    },
+    {
+      "id": "device-048",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84550}}\")"
+    },
+    {
+      "id": "device-049",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84549}}\")"
+    },
+    {
+      "id": "device-050",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84548}}\")"
+    },
+    {
+      "id": "device-051",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84546}}\")"
+    },
+    {
+      "id": "device-052",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84544}}\")"
+    },
+    {
+      "id": "device-053",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84543}}\")"
+    },
+    {
+      "id": "device-054",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84541}}\")"
+    },
+    {
+      "id": "device-055",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84540}}\")"
+    },
+    {
+      "id": "device-056",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84539}}\")"
+    },
+    {
+      "id": "device-057",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84537}}\")"
+    },
+    {
+      "id": "device-058",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84536}}\")"
+    },
+    {
+      "id": "device-059",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84534}}\")"
+    },
+    {
+      "id": "device-060",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84533}}\")"
+    },
+    {
+      "id": "device-061",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84532}}\")"
+    },
+    {
+      "id": "device-062",
+      "status": "error",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84531}}\")"
+    }
+  ]
+}

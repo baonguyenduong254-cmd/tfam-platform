@@ -1,0 +1,1375 @@
+{
+  "factions": [
+    {
+      "id": "castilian_empire",
+      "name_vi": "QUÂN ĐỘI VƯƠNG QUYỀN CASTILIA",
+      "doctrine_vi": "Tiêu chuẩn hóa · Chỉ huy phân quyền · Hiệp đồng binh chủng · Vestigium có thể tái tạo",
+      "lore_vi": "Vương quyền Castilia tái thiết sức mạnh quân sự quanh những hệ thống mà binh sĩ bình thường có thể tái lập. Chỉ huy theo nhiệm vụ giúp các đơn vị tiếp tục chiến đấu sau khi sĩ quan ngã xuống, trong khi trang bị tiêu chuẩn hóa liên kết bộ binh, kỵ binh, công binh và pháo binh qua huấn luyện cùng hậu cần chung. Các chuyên gia Vestigium phân tích và khống chế mối đe dọa bằng những phương pháp thực địa có thể lặp lại. Conquistadores cung cấp sức đột kích độc lập, còn Cận vệ Hoàng gia mang số hiệu vẫn là lực lượng dự bị đặc biệt của hoàng gia. Nền móng của cuộc cải cách là một quân đội có tổ chức thường nhật đủ sức tồn tại sau khi mất đi những cá nhân phi thường.",
+      "quote_vi": "Hệ thống tồn tại sau người hùng."
+    },
+    {
+      "id": "sultanate_of_morocco",
+      "name_vi": "ĐẾ QUỐC CALIPH MOOR",
+      "doctrine_vi": "Cơ động · Kỹ năng thực địa · Tình báo · Hậu cần phân tán",
+      "lore_vi": "Đế quốc Caliph Moor định hình chiến dịch bằng khả năng cơ động, tình báo và kiểm soát tiếp tế. Bộ binh vững vàng giữ đất trong khi xạ thủ miền núi, quân tập kích và quân cưỡi ngựa tận dụng khoảng cách cùng địa hình hiểm trở. Đội hình lạc đà mở rộng hoạt động trinh sát và hỏa lực tới vùng biên; pháo nhẹ cơ động cùng đạo quân dã chiến. Các đoàn vận tải duy trì những lực lượng phân tán bằng nước, đạn dược và sửa chữa. Trinh sát cùng Hashashin chuẩn bị những cuộc giao tranh quyết định bằng cách phá rối thông tin và đường di chuyển của đối phương, để đế quốc chọn nơi sức mạnh của mình có ý nghĩa lớn nhất.",
+      "quote_vi": "Khiến kẻ địch tới nơi trong mệt mỏi, mù mịt và chậm trễ."
+    },
+    {
+      "id": "songhai_empire",
+      "name_vi": "SONGHAI PHỤC HƯNG",
+      "doctrine_vi": "Chiến mã · Sấm sét · Đột kích · Kinh hoàng",
+      "lore_vi": "Songhai Phục hưng xây dựng quân đội quanh bài học Tondibi: phải làm chủ hỏa khí và vượt qua vùng sát thương một cách dứt khoát. Lính hỏa mai xông xáo cùng pháo dã chiến tập trung yểm trợ kỵ binh che chắn, pháo thủ cưỡi ngựa và kỵ binh đột kích bọc giáp. Bộ binh thệ ước cùng cận vệ Askia dồn ý chí vào thời khắc then chốt. Các bậc thầy lò rèn bảo dưỡng vũ khí Vestigium, còn chuyên gia nghi lễ hỗ trợ đạo quân dã chiến. Songhai tìm kiếm sự hội tụ bất ngờ của hỏa lực, tốc độ và kinh hoàng để bẻ gãy sức kháng cự trước khi trận đánh sa vào tiêu hao.",
+      "quote_vi": "Thời khắc quyết định thuộc về kẻ tới đó trước."
+    },
+    {
+      "id": "western_roman_empire",
+      "name_vi": "ĐẾ QUỐC TÂY LA MÃ",
+      "doctrine_vi": "Tiếp nối · Dung hợp · Đột biến · Khiếp sợ",
+      "lore_vi": "Ravenna chưa từng từ bỏ ngôn ngữ thị giác của thế kỷ V. Các quân đoàn nòng cốt vẫn hành quân dưới mào trụ Hậu kỳ La Mã, khiên bầu dục và quân kỳ đế quốc, nhưng vũ khí trong tay họ thuộc về năm 1717. Quanh trung tâm cổ xưa ấy tụ họp những foederati hiện đại, giáo đoàn, dị nhân, tử binh và chiến thú nhân tạo. La Mã không khước từ những thế kỷ đã qua. Nó buộc mỗi thế kỷ mới khoác lên mình y phục La Mã.",
+      "quote_vi": "Đế quốc chưa từng kết thúc. Nó chỉ học thêm những cách để tồn tại."
+    }
+  ],
+  "units": [
+    {
+      "id": "cast_01",
+      "name_vi": "VỆ BINH THÀNH TRẤN",
+      "class_vi": "Bộ binh đồn trú · Phụng sự Vương quyền",
+      "role_vi": "Giữ thành phố, kho quân nhu và pháo đài cho tới khi đạo quân dã chiến tới nơi.",
+      "lore_vi": "Binh chủng ít được ca tụng nhất trong cỗ máy chiến tranh Castilia thường lại là lực lượng giao chiến đầu tiên. Các đại đội vệ binh thành trấn bảo vệ kho vũ khí, đầu mối đường sắt, cửa cảng và thị trấn biên giới bằng vũ khí cũ nhưng còn dùng tốt. Nhiệm vụ của họ không phải tìm vinh quang; họ phải giữ cho một thành phố tiếp tục hoạt động đủ lâu để Tercio ứng cứu. Cải cách Arc IV bắt đầu tiêu chuẩn hóa kho dự trữ và báo cáo của họ, biến các đồn binh rải rác thành lớp phòng ngự đầu tiên đáng tin cậy.",
+      "traits_vi": [
+        "Đồn trú kiên định",
+        "Thông thuộc đô thị",
+        "Kho dự trữ",
+        "Tái triển khai chậm"
+      ],
+      "quote_vi": "“Bức tường đứng trước đạo quân.”"
+    },
+    {
+      "id": "cast_02",
+      "name_vi": "LÍNH HỎA MAI TERCIO",
+      "class_vi": "Bộ binh tuyến · Tercio cải tổ",
+      "role_vi": "Giữ chiến tuyến, cơ động theo đơn vị nhỏ và tiếp tục chiến đấu khi hệ thống chỉ huy gián đoạn.",
+      "lore_vi": "Lính hỏa mai là bộ mặt rõ nét nhất của cuộc cải cách năm 1717. Súng hỏa mai Spencer Modelo 1716, túi đạn, bộ quân y và thiết bị liên lạc của họ được cấp theo tiêu chuẩn chung. Quan trọng hơn vũ khí là thói quen đi cùng nó: chỉ huy cấp thấp phải chủ động hành động khi mệnh lệnh đứt đoạn, và đơn vị được huấn luyện để tiếp tục tồn tại khi mất sĩ quan, thay vì tê liệt quanh khoảng trống người ấy để lại.",
+      "traits_vi": [
+        "Trang bị tiêu chuẩn hóa",
+        "Chỉ huy theo nhiệm vụ",
+        "Kỷ luật hỏa lực",
+        "Vũ khí có thể thay thế lẫn nhau"
+      ],
+      "quote_vi": "“Chiến tuyến phải tồn tại sau người sĩ quan.”"
+    },
+    {
+      "id": "cast_03",
+      "name_vi": "LÍNH NÉM LỰU ĐẠN TERCIO",
+      "class_vi": "Bộ binh xung kích · Chuyên binh Tercio",
+      "role_vi": "Đánh phá đường phố, chiến hào, cổng và cửa mở được phòng thủ ở cự ly gần.",
+      "lore_vi": "Các đại đội lính ném lựu đạn được tuyển từ những binh sĩ đáng tin cậy vẫn tiến lên khi chiến trường quá chật hẹp cho những bài thao diễn đẹp mắt. Họ mang lựu đạn, hỏa khí ngắn cùng lưỡi lê nặng hoặc kiếm cong, thường được phối thuộc cho đội hình chuẩn bị công kích cửa mở hay cứ điểm đô thị. Mục đích của họ đơn giản đến tàn nhẫn: tạo chỗ cho phần còn lại của Tercio tràn vào, rồi giữ khoảng trống ấy đủ lâu để chiến tuyến tái lập phía sau.",
+      "traits_vi": [
+        "Xung kích cửa mở",
+        "Huấn luyện lựu đạn",
+        "Sĩ khí cao",
+        "Đột kích cự ly gần"
+      ],
+      "quote_vi": "“Mở cửa đột phá. Chúng ta sẽ nới rộng nó.”"
+    },
+    {
+      "id": "cast_04",
+      "name_vi": "THIỆN XẠ VƯƠNG QUYỀN",
+      "class_vi": "Thiện xạ · Khinh binh Vương quyền",
+      "role_vi": "Hạ sĩ quan, kíp pháo và bộ phận Vestigium lộ thiên trước khi hai chiến tuyến áp sát.",
+      "lore_vi": "Thiện xạ được lựa chọn dựa trên óc phán đoán cũng như tài bắn súng. Họ hoạt động phía trước chủ lực, săn lùng nhân sự chỉ huy, đội truyền tin và những cơ cấu dễ tổn thương giúp pháo hoặc hệ thống Vestigium của địch hoạt động. Học thuyết Castilia không yêu cầu họ một mình thắng trận. Công việc của họ là khiến đội hình địch mù hơn, chậm hơn và thiếu chắc chắn hơn đôi chút trước khi Tercio tới tầm bắn hiệu quả.",
+      "traits_vi": [
+        "Hỏa lực chính xác",
+        "Chống khinh binh",
+        "Ẩn nấp",
+        "Lựa chọn mục tiêu"
+      ],
+      "quote_vi": "“Một phát đạn, bớt một vấn đề.”"
+    },
+    {
+      "id": "cast_05",
+      "name_vi": "TRƯỜNG THƯƠNG BINH GIA CƯỜNG",
+      "class_vi": "Bộ binh chống đột kích · Trụ cột đội hình",
+      "role_vi": "Chặn kỵ binh, những đợt xông tới của xác sống và sinh vật Vestigium lớn trước khi chúng chạm tới tuyến súng.",
+      "lore_vi": "Trường thương còn được sử dụng trong quân đội Castilia vì thế giới vẫn sản sinh những thứ mà tuyến lưỡi lê không thể chặn đứng an toàn. Trường thương binh cải tổ dùng cán binh khí ngắn hơn, chắc hơn các tiền bối thế kỷ XVI và huấn luyện cạnh hỏa khí thay vì tách riêng. Họ được bố trí ở nơi chính đà lao tới là mối đe dọa: đường xung phong của kỵ binh, cửa mở, phố hẹp và lối đi dự kiến của sinh vật quá lớn để chỉ trông cậy vào đạn hỏa mai.",
+      "traits_vi": [
+        "Ghìm thế chống đỡ",
+        "Chống đột kích",
+        "Trụ cột đội hình",
+        "Dễ tổn thương trước hỏa lực kéo dài"
+      ],
+      "quote_vi": "“Có những vấn đề vẫn cần một bức tường thép.”"
+    },
+    {
+      "id": "cast_06",
+      "name_vi": "CÔNG BINH HOÀNG GIA",
+      "class_vi": "Công binh chiến đấu · Công binh Vương quyền",
+      "role_vi": "Làm đường, dựng cầu, mở cửa đột phá hoặc xây công sự mà trận đánh đòi hỏi.",
+      "lore_vi": "Công binh Hoàng gia là lý do thầm lặng khiến nhiều kế hoạch Castilia vẫn thực hiện được sau khi bản đồ không còn khớp địa hình. Họ bắc cầu qua suối, mở đường, dựng vật cản, sửa trận địa pháo hư hại và đặt thuốc nổ dưới hỏa lực. Cải cách Arc IV đưa phương pháp của họ vào sổ tay tiêu chuẩn để một cây cầu vẫn hoàn thành được sau khi sĩ quan thiết kế nó bị loại khỏi cuộc diễn tập. Chiến thắng lý tưởng của họ là một chiến trường nơi mọi người khác quên mất đã cần bao nhiêu công sức để sử dụng được nó.",
+      "traits_vi": [
+        "Công sự nhanh",
+        "Phá hủy bằng thuốc nổ",
+        "Sửa chữa thực địa",
+        "Kiểm soát cửa mở"
+      ],
+      "quote_vi": "“Chưa có đường thì mở lấy một con đường.”"
+    },
+    {
+      "id": "cast_13",
+      "name_vi": "QUÂN CHINH PHỤC",
+      "class_vi": "Bộ binh xung kích tinh nhuệ · Viễn chinh Vương quyền",
+      "role_vi": "Tiến vào những nơi bộ binh thường khó lòng sống sót và cưỡng ép một kết cục.",
+      "lore_vi": "Conquistadores không đơn thuần là những lính hỏa mai giỏi hơn. Họ là quân xung kích viễn chinh được tuyển cho đánh áp mạn, giao chiến tại cửa mở, phế tích thù địch và những cuộc chạm trán nơi đội hình thông thường không giữ được cự ly ưa thích. Trang bị thay đổi theo nhiệm vụ, nhưng thường có vũ khí cận chiến hạng nặng, hỏa khí ngắn và đồ bảo hộ. Việc huấn luyện họ tốn kém và số lượng được chủ ý giữ ít. Khi một chỉ huy yêu cầu Conquistadores, chiến trường đã trở nên bất thường.",
+      "traits_vi": [
+        "Xung kích tinh nhuệ",
+        "Đánh áp mạn",
+        "Giao chiến cửa mở",
+        "Tác chiến độc lập"
+      ],
+      "quote_vi": "“Cử Tercio tới giữ nơi ấy. Cử chúng tôi tới để tiến vào.”"
+    },
+    {
+      "id": "cast_07",
+      "name_vi": "LONG KỴ BINH HOÀNG GIA",
+      "class_vi": "Bộ binh cưỡi ngựa · Phản ứng nhanh",
+      "role_vi": "Chiếm điểm vượt, tăng viện khu vực bị đe dọa và xuống ngựa chiến đấu nơi kỵ binh không thể tác chiến.",
+      "lore_vi": "Long kỵ binh Hoàng gia dùng ngựa làm vũ khí giành thời gian hơn là biểu trưng uy danh. Họ phi gấp tới điểm then chốt, xuống ngựa và chiến đấu bằng súng carbine hoặc hỏa khí Modelo rút ngắn, trong khi ngựa được giữ nơi có che chắn. Điều này khiến họ đặc biệt hữu dụng khắp Iberia và Bắc Phi, nơi một ngã đường hay cây cầu có thể quan trọng hơn một đợt xung phong vinh quang. Họ thường là quân chính quy đầu tiên tới nơi và lực lượng cuối cùng còn khả năng cơ động.",
+      "traits_vi": [
+        "Tái triển khai nhanh",
+        "Xuống ngựa khai hỏa",
+        "Bảo vệ sườn",
+        "Triển khai linh hoạt"
+      ],
+      "quote_vi": "“Tới như kỵ binh. Đánh như bộ binh.”"
+    },
+    {
+      "id": "cast_08",
+      "name_vi": "KỴ SĨ ANDALUSIA",
+      "class_vi": "Kỵ binh đột kích · Truyền thống Andalusia",
+      "role_vi": "Phản xung phong, khai thác chiến tuyến vỡ và đánh vào pháo binh hoặc sườn sơ hở.",
+      "lore_vi": "Kỵ binh Andalusia giữ hình ảnh của nền văn hóa quân sự Castilia xưa, nhưng vị trí trong quân đội hiện đại được xác định cẩn thận. Họ được giữ làm dự bị cơ động cho tới khi bộ binh và pháo binh tạo ra khoảng trống cần thiết. Thương, kiếm cong và súng ngắn vẫn là công cụ của họ; kiên nhẫn là kỷ luật Arc IV đòi hỏi. Một đợt xung phong thất bại rất đắt giá. Một đợt xung phong đánh trúng đội hình đang chao đảo có thể kết thúc trận đánh.",
+      "traits_vi": [
+        "Xung phong có kỷ luật",
+        "Dự bị cơ động",
+        "Truy kích",
+        "Dễ tổn thương trong đấu súng kéo dài"
+      ],
+      "quote_vi": "“Xung phong là câu trả lời, không phải câu hỏi.”"
+    },
+    {
+      "id": "cast_09",
+      "name_vi": "PHÁO ĐỘI NHẸ HOÀNG GIA",
+      "class_vi": "Pháo dã chiến · Yểm trợ cơ động",
+      "role_vi": "Cơ động cùng đạo quân và đưa hỏa lực đáng tin cậy tới nơi bộ binh cần nhất.",
+      "lore_vi": "Pháo đội nhẹ thông thường thiếu vẻ ngoạn mục của pháo thử nghiệm Castilia, nhưng vẫn là lực lượng pháo binh được chỉ huy tin cậy hằng ngày. Pháo có thể nhanh chóng móc vào xe kéo, tiếp đạn qua các tuyến đã thiết lập và chuyển vị trí khi góc bắn trở nên nguy hiểm hoặc vô dụng. Tại Bắc Phi, các pháo đội này đi cùng cả đội quân bộ binh lẫn những điểm tiếp tế có công sự. Giá trị của chúng nằm ở khả năng có mặt, khai hỏa, di chuyển rồi được tiếp tế trở lại, hơn là tính mới lạ.",
+      "traits_vi": [
+        "Móc xe kéo nhanh",
+        "Yểm trợ trực tiếp",
+        "Hậu cần chung",
+        "Phục vụ dã chiến đáng tin cậy"
+      ],
+      "quote_vi": "“Khẩu pháo tới nơi đáng giá hơn khẩu pháo bị bỏ lại.”"
+    },
+    {
+      "id": "cast_10",
+      "name_vi": "ĐẠI PHÁO PHONG CẦM BỐN GIỌNG HOÀNG GIA",
+      "class_vi": "Pháo bắn nhanh · Biên chế thử nghiệm",
+      "role_vi": "Chế áp bộ binh và giữ cửa mở bằng hỏa lực tuần tự từ bốn nòng.",
+      "lore_vi": "Phong cầm Bốn Giọng Hoàng gia là mẫu hoàn thiện nhất trong số pháo nhiều nòng mới của Castilia. Bốn nòng nạp hậu lần lượt khai hỏa trong khi nòng đầu đã được mở và nạp lại. Quan trọng hơn là tính dự phòng: có thể cô lập một nòng hỏng mà không khiến toàn bộ bệ pháo câm tiếng. Nó vẫn đòi hỏi nhiều đạn và huấn luyện kíp pháo kỹ lưỡng, nhưng đã bắt đầu giống một vũ khí mà đạo quân dã chiến thực sự có thể bảo dưỡng, thay vì món lạ trong phòng thí nghiệm.",
+      "traits_vi": [
+        "Bắn tuần tự",
+        "Nòng dự phòng",
+        "Chế áp",
+        "Tiêu tốn đạn"
+      ],
+      "quote_vi": "“Bốn giọng. Một lời đáp.”"
+    },
+    {
+      "id": "cast_11",
+      "name_vi": "BÃO TỐ",
+      "class_vi": "Pháo phòng ngự hạng nặng · Trận địa chuẩn bị sẵn",
+      "role_vi": "Phủ hỏa lực liên tục lên điểm thắt và đường tiếp cận công sự.",
+      "lore_vi": "Tempestad đánh đổi cơ động lấy mật độ hỏa lực. Sáu nòng nạp hậu đặt trên khung bắn neo bằng xích, được cấp đạn qua khay và cơ cấu vận hành bằng tay. Khi đã neo chắc, nó có thể giữ nhịp bắn khốc liệt khiến những lối tiếp cận hẹp gần như không thể có người sống sót. Cái giá rất rõ: nền đất mềm, rút lui gấp và tuyến tiếp tế dài đều là kẻ thù của nó. Vì thế bộ chỉ huy Castilia xem Tempestad là vũ khí pháo đài, không phải chiến lợi phẩm để kéo theo mọi chiến dịch.",
+      "traits_vi": [
+        "Hỏa lực liên tục",
+        "Phòng thủ điểm thắt",
+        "Hậu cần nặng nề",
+        "Cơ động kém trên đất mềm"
+      ],
+      "quote_vi": "“Đừng mang bão tới nơi con đường không nuôi nổi nó.”"
+    },
+    {
+      "id": "cast_12",
+      "name_vi": "LÔI ĐÌNH",
+      "class_vi": "Pháo điện Vestigium · Pháo đội thử nghiệm",
+      "role_vi": "Phóng luồng điện khổng lồ từ trận địa đã khảo sát và chuẩn bị.",
+      "lore_vi": "Fulminante gần với một trạm điện tạm thời dựng quanh vũ khí hơn là một khẩu pháo. Neo thép, cuộn dây cách điện, bộ tích điện mô-đun và máy phát chạy hơi nước phải được lắp ráp trước khi hệ thống có thể tập trung phóng điện an toàn. Một trận địa tốt có thể mất nhiều giờ chuẩn bị. Kết quả phi thường, nhưng học thuyết Arc IV kiên quyết phân biệt sức mạnh phi thường với tính hữu dụng ngoài chiến trường. Thời tiết, địa hình và kế hoạch rút lui được xem là những phần của chính vũ khí.",
+      "traits_vi": [
+        "Điện Vestigium",
+        "Phóng điện cực mạnh",
+        "Trận địa chuẩn bị sẵn",
+        "Nhạy với thời tiết",
+        "Triển khai lâu"
+      ],
+      "quote_vi": "“Sức mạnh bắt đầu từ việc chọn địa thế.”"
+    },
+    {
+      "id": "cast_14",
+      "name_vi": "QUÂN CHINH PHỤC DI VẬT",
+      "class_vi": "Chuyên gia chống Vestigium · Tổ tiêu chuẩn hóa",
+      "role_vi": "Nhận diện, khống chế và tiêu diệt mối đe dọa Vestigium mà không lệ thuộc một người hùng hoặc di vật độc nhất.",
+      "lore_vi": "Những tổ hỗn hợp này thể hiện mục đích sâu xa nhất của cải cách Arc IV. Tri thức Reliquiario kết hợp với kỷ luật thực địa Conquistador, nhưng các tổ tiêu chuẩn được chủ ý trang bị công cụ Castilia có thể tái tạo: máy dò, thiết bị phong tỏa, đạn chuyên dụng và quy trình thành văn. Họ không mang theo một phép màu cho mọi vấn đề. Giá trị của họ là có thể huấn luyện, tiếp tế rồi cử một tổ khác đi tiếp nếu tổ đầu không trở về.",
+      "traits_vi": [
+        "Chống Vestigium",
+        "Phân tích thực địa",
+        "Khống chế",
+        "Trang bị có thể tái tạo",
+        "Không có di vật độc nhất"
+      ],
+      "quote_vi": "“Hiểu nó trước khi quyết định cách giết nó.”"
+    },
+    {
+      "id": "cast_15",
+      "name_vi": "CẬN VỆ HOÀNG GIA CASTILIA",
+      "class_vi": "Đoàn đặc nhiệm Vương quyền · Một trăm số hiệu",
+      "role_vi": "Làm quân lực chiến lược, bảo vệ Vương quyền và đối đầu mối đe dọa vượt khả năng đội hình thông thường.",
+      "lore_vi": "Cận vệ Hoàng gia là một đoàn gồm một trăm cá nhân mang số hiệu, không phải trung đoàn. Mỗi thành viên có thể sở hữu Vestigium, học thuyết chiến đấu hoặc nhiệm vụ chính trị riêng, nên Uno, IV, VII, VIII và XII không bao giờ là những quân lực thay thế lẫn nhau. Castilia có thể triển khai nhưng không thể tái tạo họ. Vì thế cải cách Arc IV xem Cận vệ là lực lượng khuếch đại sức mạnh chiến lược, đồng thời tái thiết quân đội thường để sống sót mỗi khi những con người đặc biệt ấy vắng mặt.",
+      "traits_vi": [
+        "Vestigium cá nhân",
+        "Đoàn mang số hiệu",
+        "Trực thuộc Vương quyền",
+        "Khác biệt cực lớn",
+        "Không thể thay thế"
+      ],
+      "quote_vi": "“Một trăm con người chưa bao giờ được sinh ra để làm bức tường.”"
+    },
+    {
+      "id": "cast_16",
+      "name_vi": "THIẾT GIÁP HẠM THẾ HỆ HAI",
+      "class_vi": "Thiết giáp hạm thế hệ hai · Tàu bọc giáp phá đội hình",
+      "role_vi": "Phá đội hình hạm đội địch bằng giáp, tốc độ chiến đấu cao và hỏa lực tháp pháo vẫn hiệu quả khi cơ động nhanh.",
+      "lore_vi": "Chỉ có bảy thân tàu thuộc thế hệ này. Mỗi chiếc kết hợp ba cột buồm, bốn nồi hơi, giáp thép và tháp pháo hạng nặng xoay ở mũi cùng đuôi, cho phép hành trình bằng buồm và hơi nước giảm công suất trước khi tăng vọt tới khoảng mười lăm hải lý mỗi giờ khi giao chiến. Mỗi mạn vẫn có tám khẩu pháo, nhưng học thuyết Edward hiếm khi sử dụng: con tàu được đóng để cắt ngang, chia tách và xoay trở vượt một chiến tuyến trong khi tháp pháo tiếp tục khai hỏa.",
+      "traits_vi": [
+        "Giáp thép",
+        "Bốn nồi hơi",
+        "Ba cột buồm",
+        "Tháp pháo nặng xoay",
+        "8 pháo mạn mỗi bên",
+        "Tốc độ chiến đấu 15 hải lý/giờ"
+      ],
+      "quote_vi": "“Chiến tuyến chỉ tồn tại tới khi một con tàu này cắt qua.”"
+    },
+    {
+      "id": "cast_17",
+      "name_vi": "TÀU BỌC GIÁP THẾ HỆ MỘT",
+      "class_vi": "Tàu bọc giáp thế hệ một · Pháo đài nổi",
+      "role_vi": "Trấn giữ điểm thắt và căn cứ hạm đội bằng giáp cùng hỏa lực quá nặng để chiến hạm buồm thường đánh bật.",
+      "lore_vi": "Những tàu bọc giáp đầu tiên của Castilia được hình dung như pháo đài di động hơn là thiết giáp hạm viễn dương thực thụ. Máy nồi hơi đồ sộ, kết cấu trong gia cường và lớp bảo vệ nặng khiến chúng bền bỉ khủng khiếp, nhưng mức tiêu thụ nhiên liệu và sức hành trình hạn chế khiến triển khai dài ngày phải trả giá. Quanh Gibraltar, chúng vẫn là quân lực phòng ngự đáng sợ; khi bị đưa quá xa hỗ trợ chuẩn bị sẵn, chính trọng lượng của chúng trở thành kẻ thù.",
+      "traits_vi": [
+        "Giáp cực dày",
+        "Hỏa lực pháo đài",
+        "Động lực hơi nước và buồm",
+        "Ngốn nhiên liệu",
+        "Bán kính hoạt động hạn chế"
+      ],
+      "quote_vi": "“Quá nặng để đuổi theo. Quá cứng để đánh bật.”"
+    },
+    {
+      "id": "cast_18",
+      "name_vi": "HỘ VỆ HẠM BỌC GIÁP",
+      "class_vi": "Hộ vệ hạm hơi nước bọc giáp · Hộ tống nhanh",
+      "role_vi": "Che chắn hạm đội chiến đấu, săn quân tập kích và hộ tống đội hình giá trị mà không phải điều thiết giáp hạm cho mọi mối đe dọa.",
+      "lore_vi": "Hộ vệ hạm bọc giáp bảo vệ máy móc, hầm đạn và vị trí pháo trọng yếu thay vì bọc toàn thân bằng lớp thép nặng như thiết giáp hạm. Bộ buồm đầy đủ đem lại tầm hoạt động tiết kiệm, còn hơi nước phụ trợ cung cấp đợt tăng tốc cần để chặn quân tập kích hoặc giữ vị trí cùng chủ lực hạm hiện đại. Nó đánh đổi khả năng chịu đựng hỏa lực pháo nặng lấy khả năng có mặt gần như khắp nơi chủ lực cần một tàu hộ tống cứng cáp.",
+      "traits_vi": [
+        "Bọc giáp từng phần",
+        "Hơi nước phụ trợ",
+        "Hộ tống nhanh",
+        "Hoạt động độc lập",
+        "Hỏa lực nặng hạn chế"
+      ],
+      "quote_vi": "“Đủ nhanh để tìm trận đánh. Đủ giáp để trở về.”"
+    },
+    {
+      "id": "cast_19",
+      "name_vi": "KHINH HỘ HẠM BỌC GIÁP",
+      "class_vi": "Khinh hộ hạm bọc giáp · Tàu truy đuổi ven bờ",
+      "role_vi": "Truy đuổi chiến hạm nhẹ trong vùng nước ven bờ chật hẹp nơi tàu lớn Castilia mất tự do cơ động.",
+      "lore_vi": "Khinh hộ hạm bọc giáp kết hợp mớn nước nông, máy hơi nước gọn và giáp chọn lọc quanh phần lõi chiến đấu. Chúng được thiết kế cho vùng nước hiểm hóc gần cảng, bãi cạn và mũi đất, nơi xebec, galley và tàu tập kích tìm đường thoát khỏi hạm đội lấy tàu lớn làm nòng cốt. Pháo khiêm tốn theo chuẩn Castilia, nhưng khả năng giữ tốc độ khi lặng gió khiến chúng thành những kẻ săn mồi nguy hiểm.",
+      "traits_vi": [
+        "Mớn nước nông",
+        "Hơi nước hỗ trợ",
+        "Lõi bọc giáp",
+        "Săn tàu tập kích",
+        "Hoạt động ven bờ"
+      ],
+      "quote_vi": "“Nơi thiết giáp hạm không theo được, khinh hộ hạm kết thúc cuộc truy đuổi.”"
+    },
+    {
+      "id": "cast_20",
+      "name_vi": "TUẦN DƯƠNG HẠM HƠI NƯỚC",
+      "class_vi": "Tuần dương hạm hơi nước và buồm · Tuần tra tầm xa",
+      "role_vi": "Tuần tra hải lộ xa, bảo vệ thương mại và trinh sát độc lập mà không tiêu tốn nguồn lực thiết giáp hạm.",
+      "lore_vi": "Tuần dương hạm hơi nước và buồm được đóng quanh tầm hoạt động hơn là bảo vệ tối đa. Buồm đưa nó qua những chuyến tuần tra dài với nhu cầu nhiên liệu tối thiểu; hơi nước dành cho giao chiến, đánh chặn và thoát thân. Nó có thể hộ tống đoàn tàu, săn tàu tập kích thương mại và duy trì tiếp xúc xa trước chủ lực, đem lại tầm hoạt động hiện đại cho đô đốc Castilia mà không phải dùng tàu bọc giáp vào tuần tra thường lệ.",
+      "traits_vi": [
+        "Tầm xa",
+        "Hành trình tiết kiệm",
+        "Tăng tốc hơi nước",
+        "Học thuyết tuần tra",
+        "Giáp vừa phải"
+      ],
+      "quote_vi": "“Than dành cho trận đánh. Gió dành cho hành trình.”"
+    },
+    {
+      "id": "cast_21",
+      "name_vi": "CHIẾN LIỆT HẠM HOÀNG GIA",
+      "class_vi": "Chiến liệt hạm Hoàng gia · Pháo mạn nặng",
+      "role_vi": "Giữ chiến tuyến thông thường và duy trì hỏa lực pháo mạn phía sau các tàu chuyên dụng nhanh hơn.",
+      "lore_vi": "Chiến liệt hạm Hoàng gia vẫn là xương sống về số lượng của chiến tranh viễn dương Castilia. Thân tàu được giằng chắc, tiêu chuẩn đạn dược dùng chung khắp hạm đội Vương quyền và kíp pháo luyện giữ hỏa lực ngay cả khi mất dây buồm hoặc sĩ quan. Tàu bọc giáp hiện đại chưa khiến chúng lỗi thời; chỉ thu hẹp những trận đánh chúng được giao đảm nhiệm.",
+      "traits_vi": [
+        "Pháo mạn nặng",
+        "Thân tàu gia cường",
+        "Đạn dược tiêu chuẩn hóa",
+        "Thủy thủ đáng tin cậy",
+        "Quay trở chậm"
+      ],
+      "quote_vi": "“Gỗ cũ. Kỷ luật mới.”"
+    },
+    {
+      "id": "cast_22",
+      "name_vi": "CHIẾN HẠM BỐN TẦNG PHÁO",
+      "class_vi": "Chiến hạm bốn tầng · Tàu nặng của hội đồng",
+      "role_vi": "Giữ một khu vực cố định bằng sức nặng pháo mạn khổng lồ trên thân gỗ và trừng phạt mọi đội hình buộc phải vào cung bắn.",
+      "lore_vi": "Chiến hạm bốn tầng do các hội đồng Andalusia đưa ra chiến trường chậm chạp, đồ sộ và dứt khoát theo truyền thống. Giá trị của chúng nằm ở mật độ pháo khổng lồ sau thân gỗ gia cường, biến mỗi chiếc thành bức tường cơ động khi đặt đúng chỗ. Chúng không đuổi kẻ địch nhanh; chúng khiến cái giá tiến vào một phần mặt biển trở nên quá đắt.",
+      "traits_vi": [
+        "Bốn tầng pháo",
+        "Pháo mạn khổng lồ",
+        "Thân gỗ gia cường",
+        "Kiểm soát khu vực",
+        "Cơ động rất thấp"
+      ],
+      "quote_vi": "“Nó không truy đuổi. Nó chờ ngươi bước vào tầm bắn.”"
+    },
+    {
+      "id": "cast_23",
+      "name_vi": "HỘ VỆ HẠM HOÀNG GIA",
+      "class_vi": "Hộ vệ hạm Hoàng gia · Che chắn hạm đội",
+      "role_vi": "Trinh sát, che chắn hạm đội, đuổi tàu hư hại và đánh hậu cần trước khi đội hình nặng nhập trận.",
+      "lore_vi": "Hộ vệ hạm Hoàng gia làm những công việc giúp chủ lực hạm Castilia tránh phí sức. Chúng đi xa phía trước trinh sát, bảo vệ sườn hở, chuyển tín hiệu, truy đuổi tàu địch tê liệt và đánh tàu tiếp tế sơ hở. Tại Melilla, các hộ vệ hạm nhiều lần tiến vào vùng nước mà chiến tuyến nặng không tới, chứng minh rằng thấy trận đánh trước thường hữu ích hơn mang thêm một tầng pháo.",
+      "traits_vi": [
+        "Che chắn hạm đội",
+        "Trinh sát",
+        "Truy kích",
+        "Tập kích hậu cần",
+        "Kỹ năng hàng hải cao"
+      ],
+      "quote_vi": "“Hạm đội nhìn thấy vì hộ vệ hạm đã có mặt.”"
+    },
+    {
+      "id": "cast_24",
+      "name_vi": "TÀU CUTTER TRINH SÁT",
+      "class_vi": "Cutter hạm đội · Truyền tin và trinh sát",
+      "role_vi": "Chuyển tín hiệu, sĩ quan và báo cáo trinh sát nhanh hơn chiến tuyến có thể đổi vị trí.",
+      "lore_vi": "Cutter hạm đội nhỏ tới mức dễ bị xem nhẹ, cho tới khi đô đốc cần chuyển thông tin lập tức. Mớn nước nông và diện tích buồm lớn giúp nó hoạt động dọc bờ, chở hoa tiêu, chuyển lệnh và giữ liên lạc giữa những đội hình bị khói hay thời tiết chia cắt. Nó chẳng có lý do ở lại cuộc đấu pháo nghiêm trọng; vũ khí của nó là giữ cho hạm đội được thông tin và kết nối.",
+      "traits_vi": [
+        "Tốc độ cực cao",
+        "Chuyển tiếp tín hiệu",
+        "Trinh sát ven bờ",
+        "Mớn nước nông",
+        "Sức chiến đấu tối thiểu"
+      ],
+      "quote_vi": "“Hạm đội không thể lên tiếng đã thua một nửa.”"
+    },
+    {
+      "id": "moor_01",
+      "name_vi": "BỘ BINH NHÀ NƯỚC",
+      "class_vi": "Bộ binh chính quy · Phụng sự nhà nước",
+      "role_vi": "Tạo chiến tuyến hỏa lực vững vàng để các binh chủng cơ động hơn của đế quốc xoay chuyển quanh đó.",
+      "lore_vi": "Lính hỏa mai Makhzen là bộ mặt thông thường của quân đội Moor: quân chính quy hưởng lương, được tiếp tế đầy đủ và huấn luyện giữ đất mà khinh binh cùng kỵ binh không thể giữ. Họ không được giao đấu hỏa lực vượt Tercio Castilia cải tổ trong cuộc đấu kéo dài. Giá trị của họ là sự vững vàng. Một đội quân có thể tập kích, phân tán và chuyển hướng khắp chiến trường vì đâu đó phía sau có một khối bộ binh vẫn đứng nguyên khi cuộc cơ động kết thúc.",
+      "traits_vi": [
+        "Chiến tuyến vững vàng",
+        "Yểm trợ linh hoạt",
+        "Hỏa lực vừa phải",
+        "Sĩ khí đáng tin cậy"
+      ],
+      "quote_vi": "“Phải có người vẫn đứng đó khi bụi tan.”"
+    },
+    {
+      "id": "moor_02",
+      "name_vi": "THIỆN XẠ RIF",
+      "class_vi": "Thiện xạ · Khinh binh miền núi",
+      "role_vi": "Khống chế sống núi, đèo và địa hình chia cắt bằng hỏa lực tầm xa chọn lọc.",
+      "lore_vi": "Lính súng trường Rif được tuyển từ những cộng đồng nơi khoảng cách, gió và đá luôn quan trọng hơn hình học thao trường. Súng dài của họ xoay trở chậm trong cận chiến nhưng nguy hiểm từ các sườn dốc che được cả người bắn lẫn đường lui. Họ ưu tiên sĩ quan, kíp pháo và liên lạc viên lộ diện, rồi đổi chỗ trước khi đòn đáp trả tới. Đối đầu họ, chiến trường thường có vẻ trống rỗng cho tới khi một người quan trọng ngã xuống.",
+      "traits_vi": [
+        "Hỏa lực tầm xa",
+        "Ẩn nấp miền núi",
+        "Săn sĩ quan",
+        "Yếu khi xung kích gần"
+      ],
+      "quote_vi": "“Nếu ngươi thấy sống núi, sống núi cũng thấy ngươi.”"
+    },
+    {
+      "id": "moor_03",
+      "name_vi": "KHINH BINH ATLAS",
+      "class_vi": "Bộ binh nhẹ · Chuyên địa hình hiểm trở",
+      "role_vi": "Quấy rối, phục kích và chiếm địa thế mà bộ binh theo đội hình không khai thác hiệu quả.",
+      "lore_vi": "Khinh binh Atlas mang nhẹ và xem địa hình khó là chỗ che chắn hơn là vật cản. Họ đi từng nhóm nhỏ qua khe rãnh, làng đổ nát và đường núi, bắn từ những góc khiến cách phản ứng thông thường trở nên khó khăn. Nhiệm vụ của họ hiếm khi là giữ trung tâm. Thay vào đó, họ làm các rìa đội hình mất máu, ép lính bảo vệ vào những lộ trình bất đắc dĩ và khiến địch phải nhìn sang hai bên trong khi chủ lực Moor chọn nơi nhập trận.",
+      "traits_vi": [
+        "Phục kích",
+        "Cơ động địa hình hiểm trở",
+        "Quấy rối",
+        "Trụ tuyến kém"
+      ],
+      "quote_vi": "“Núi không cần đội hình.”"
+    },
+    {
+      "id": "moor_04",
+      "name_vi": "BỘ BINH BIÊN THÙY SA MẠC",
+      "class_vi": "Bộ binh biên giới · Vệ binh sa mạc",
+      "role_vi": "Giữ giếng, đường đoàn lữ hành và đồn lẻ ngoài tầm tăng viện thuận tiện.",
+      "lore_vi": "Khoảng cách định hình các đại đội biên thùy. Quân phục và vũ khí của họ thiếu đồng bộ hơn Makhzen, nhưng sĩ quan hiểu phép tính thực tiễn của sa mạc: nước, bóng râm, đạn, sức vật thồ và số ngày trước khi viện binh tới được. Họ tuần tra giếng cùng đường lữ hành, hộ tống đội khảo sát và giữ đồn cô quạnh nơi trận đánh có thể bắt đầu bằng im lặng thay vì tiếng súng.",
+      "traits_vi": [
+        "Sức bền sa mạc",
+        "Tuần tra độc lập",
+        "Kỷ luật dùng nước",
+        "Trang bị không đồng đều"
+      ],
+      "quote_vi": "“Đếm nước trước khi đếm quân địch.”"
+    },
+    {
+      "id": "moor_09",
+      "name_vi": "CẬN VỆ CALIPH",
+      "class_vi": "Cận vệ tinh nhuệ · Dự bị thông thường",
+      "role_vi": "Giữ vị trí mà Sultan hoặc Caliph không thể để mất.",
+      "lore_vi": "Cận vệ Caliph đáp ứng nhu cầu của quân Moor về một đội hình có thể đơn giản đứng vững và chiến đấu. Vũ trang tốt hơn, trang bị đồng đều hơn quân tỉnh, họ bảo vệ người trị vì, các sở chỉ huy trọng yếu và lực lượng dự bị cuối cùng của đạo quân dã chiến. Khác Hashashin, uy thế của họ được phô bày có chủ ý. Khi Cận vệ vào tuyến, thông điệp là cam kết rõ ràng: nhà nước đã quyết định mảnh đất này quan trọng.",
+      "traits_vi": [
+        "Sĩ khí tinh nhuệ",
+        "Dốc sức chiến đấu",
+        "Nhiệm vụ cận vệ",
+        "Số lượng hạn chế"
+      ],
+      "quote_vi": "“Cờ còn đứng, nhà nước còn tồn tại.”"
+    },
+    {
+      "id": "moor_05",
+      "name_vi": "XẠ THỦ LẠC ĐÀ",
+      "class_vi": "Yểm trợ hỏa lực cơ động · Đội hình đặc trưng",
+      "role_vi": "Tạo hỏa lực hỏa mai dày bất ngờ từ một trạm bắn nhỏ và rất cơ động.",
+      "lore_vi": "Xạ thủ lạc đà là một trong những hệ thống chiến trường đặc sắc nhất của đế quốc. Con vật quỳ xuống, giá bắn được dựng và một kíp nhỏ luân chuyển nhiều súng đã nạp qua tay một xạ thủ trong khi người khác nạp lại. Kết quả là nhịp bắn vượt xa số người trông thấy. Khi sức ép tăng, giá được gấp lại, lạc đà đứng lên và cả điểm hỏa lực chuyển chỗ trước khi pháo địch kịp hiệu chỉnh vào nó.",
+      "traits_vi": [
+        "Hỏa khí vận hành theo kíp",
+        "Trạm bắn cơ động",
+        "Mật độ hỏa lực cao",
+        "Dễ tổn thương khi cố định"
+      ],
+      "quote_vi": "“Ba người, sáu súng, một đám bụi.”"
+    },
+    {
+      "id": "moor_06",
+      "name_vi": "TRINH SÁT LẠC ĐÀ",
+      "class_vi": "Trinh sát · Tuần tra sâu trong sa mạc",
+      "role_vi": "Nhìn xa hơn, đi lâu hơn và mang thông tin trở về thay vì chiến lợi phẩm.",
+      "lore_vi": "Trinh sát lạc đà không phải kỵ binh xung kích. Giá trị của họ được đo bằng lộ trình vẽ lại, giếng xác nhận, dấu vết đọc được và đội quân phát hiện trước khi đối phương biết mình bị quan sát. Một đội tuần tra giỏi có thể biệt phái nhiều ngày, sinh hoạt gọn nhẹ đủ để tránh dấu vết hậu cần làm lộ lực lượng lớn. Trên Sahara, điều này khiến họ là một trong những đơn vị giá trị chiến lược nhất của đế quốc dù hiện diện chiến đấu khiêm tốn.",
+      "traits_vi": [
+        "Trinh sát mở rộng",
+        "Sức bền sa mạc",
+        "Đọc dấu vết",
+        "Tránh cận chiến"
+      ],
+      "quote_vi": "“Báo cáo chính là chiến thắng.”"
+    },
+    {
+      "id": "moor_07",
+      "name_vi": "KỴ THƯƠNG GUICH",
+      "class_vi": "Kỵ binh đột kích · Kỵ binh liên kết nhà nước",
+      "role_vi": "Khai thác sườn hở, đội hình vỡ và pháo binh rút lui.",
+      "lore_vi": "Kỵ thương Guich giữ sức đánh của kỵ binh đế quốc mà không cố thành hiệp sĩ châu Âu bọc giáp. Họ dựa vào tốc độ, tài cưỡi ngựa bản địa và kỷ luật chờ tới khi địch đã bận giao chiến. Đợt xung phong tốt nhất tới sau khi đạn súng trường, địa hình hiểm trở hoặc đơn vị khác phá trật tự mục tiêu. Chỉ huy Guich đánh quá sớm sẽ phí ngựa; người tới đúng lúc biến rối loạn thành sụp đổ.",
+      "traits_vi": [
+        "Xung phong nhanh",
+        "Khai thác sườn",
+        "Truy kích",
+        "Sức trụ hạn chế"
+      ],
+      "quote_vi": "“Đánh đội hình sau khi nó quên mất hình dạng của mình.”"
+    },
+    {
+      "id": "moor_08",
+      "name_vi": "KỴ BINH SÚNG CARBINE",
+      "class_vi": "Khinh kỵ binh · Kỵ binh bắn rồi cơ động",
+      "role_vi": "Quấy rối đội quân, che sườn và kéo kẻ địch chậm hơn khỏi vị trí.",
+      "lore_vi": "Kỵ binh súng carbine làm mờ ranh giới giữa kỵ binh và khinh binh. Họ bắn từ yên hoặc sau khi nhanh chóng xuống ngựa, rồi di chuyển trước khi địch xoay cả đội hình về phía mình. Họ đặc biệt hữu hiệu với đội quân đang hành tiến và quân hộ tống pháo, nơi vài phút hỗn loạn quan trọng hơn thương vong. Mục đích của họ là biến sự phiền nhiễu thành hiệu quả tác chiến: buộc chỉ huy phí thời gian, đạn dược và sự chú ý.",
+      "traits_vi": [
+        "Bắn trên ngựa",
+        "Giả rút lui",
+        "Che chắn",
+        "Sức đột kích thấp"
+      ],
+      "quote_vi": "“Khiến chúng quay lại. Rồi khiến chúng quay lại lần nữa.”"
+    },
+    {
+      "id": "moor_11",
+      "name_vi": "PHÁO BINH NHÀ NƯỚC",
+      "class_vi": "Pháo nhẹ · Yểm trợ cơ động",
+      "role_vi": "Bắn, chuyển chỗ rồi bắn tiếp trước khi hỏa lực phản pháo kịp hiệu chỉnh.",
+      "lore_vi": "Pháo dã chiến Moor ưu tiên những khẩu chịu được nhịp độ đạo quân. Khi cần, họ hy sinh cỡ nòng để di chuyển dễ hơn, móc xe kéo nhanh hơn và đi được những đường gần như không đáng gọi là đường. Các pháo đội phải thường xuyên đổi góc, yểm trợ ngắn cho kỵ binh và bộ binh rồi rời đi trước khi tuyến pháo nặng hơn của địch hoàn tất đáp trả. Cơ động là lý do pháo sống sót, chứ không chỉ phần phụ của hỏa lực.",
+      "traits_vi": [
+        "Móc xe kéo nhanh",
+        "Yểm trợ hỏa lực cơ động",
+        "Thích nghi địa hình",
+        "Đạn pháo nặng nhẹ hơn"
+      ],
+      "quote_vi": "“Khẩu pháo ở quá lâu sẽ thành mốc địa hình.”"
+    },
+    {
+      "id": "moor_12",
+      "name_vi": "SƠN PHÁO",
+      "class_vi": "Pháo thồ · Yểm trợ cao điểm",
+      "role_vi": "Đưa pháo tới đèo, sống núi và đường hẹp mà đội kéo pháo thường không tiếp cận được.",
+      "lore_vi": "Sơn pháo được chủ ý làm đủ nhỏ để tháo rời cho vật thồ mang. Đạn của chúng không thể đọ sức nặng với pháo pháo đài, nhưng so sánh ấy bỏ lỡ điều cốt yếu. Một khẩu pháo nhẹ trên sống núi nơi địch không hề chờ có pháo có thể khống chế con đường, lối vào làng hoặc đội quân đang leo dốc. Chỉ huy Moor dùng chúng biến địa hình khó từ giới hạn thành bệ hỏa lực.",
+      "traits_vi": [
+        "Vận tải bằng vật thồ",
+        "Tiếp cận cao điểm",
+        "Hỏa lực bất ngờ",
+        "Đạn pháo nhẹ"
+      ],
+      "quote_vi": "“Trận địa tưởng bất khả thi thường là trận địa tốt nhất.”"
+    },
+    {
+      "id": "moor_10",
+      "name_vi": "HASHASHIN",
+      "class_vi": "Chuyên gia thâm nhập · Cơ quan tình báo",
+      "role_vi": "Trinh sát, phá hoại, đánh dấu mục tiêu, giải cứu người và phá rối chỉ huy địch mà không bị ghìm vào trận.",
+      "lore_vi": "Hashashin đáng sợ nhất khi không ai chứng minh được họ từng có mặt. Họ đi qua thành phố, doanh trại và chiến tuyến đứt gãy với dấu hiệu nhận diện tối thiểu, chuyển tin qua mạng lưới lặng lẽ thay vì phô diễn kịch tính. Công việc gồm trinh sát, phá hoại, giải cứu và loại bỏ có chọn lọc vấn đề không thể giải quyết công khai. Họ không phải sát thủ tuyến đầu để đấu cả đội hình. Nếu một đơn vị Hashashin đang đánh như bộ binh thường, chuyện đã sai từ trước.",
+      "traits_vi": [
+        "Thâm nhập",
+        "Phá hoại",
+        "Giải cứu",
+        "Mạng lưới tình báo",
+        "Tránh giao chiến công khai"
+      ],
+      "quote_vi": "“Kẻ địch nên thấy kết quả trước khi thấy bàn tay.”"
+    },
+    {
+      "id": "moor_13",
+      "name_vi": "ĐOÀN VẬN TẢI NHÀ NƯỚC",
+      "class_vi": "Đội hình hậu cần · Xương sống tác chiến",
+      "role_vi": "Giữ nước, đạn, thuốc men và vật cưỡi dự phòng lưu chuyển trong đạo quân phân tán.",
+      "lore_vi": "Binh đoàn lữ vận là đội hình người ngoài xem nhẹ cho tới khi chính quân họ bắt đầu ngừng lại. Nó quản lý nước, đạn, vật thồ, xưởng dã chiến, yên thay thế và kiện quân y qua mạng lưới được thiết kế để sống sót trước đường hỏng và các đội quân chia cách. Khả năng cơ động Moor tồn tại vì hậu cần đã được dạy cách đi tương tự. Một cuộc tập kích kỵ binh vượt quá tiếp tế là một câu chuyện; cuộc tập kích gặp đoàn vận tải kế đúng nơi dự định trở thành học thuyết.",
+      "traits_vi": [
+        "Tiếp tế phân tán",
+        "Quản lý nước",
+        "Hậu cần vật thồ",
+        "Sửa chữa thực địa",
+        "Sức chiến đấu thấp"
+      ],
+      "quote_vi": "“Cơ động là hậu cần khoác chiếc áo nhanh hơn.”"
+    },
+    {
+      "id": "nav26_moor_01",
+      "name_vi": "THUYỀN VEN BỜ",
+      "class_vi": "Thuyền trinh sát ven bờ · Canh bãi cạn",
+      "role_vi": "Theo dõi lối vào cảng và chuyển cảnh báo qua vùng nước quá nông cho tàu hộ tống hạm đội.",
+      "lore_vi": "Thân thuyền ven bờ nhẹ kết hợp ván ghép chồng và ghép phẳng mang một buồm tam giác, mái chèo dài và pháo xoay ở mũi. Hoa tiêu địa phương dùng nó kiểm tra bãi cạn, nhận diện tàu lạ và chuyển tín hiệu giữa chòi canh. Mạn khô thấp giúp dễ ẩn dọc mũi đất, nhưng hạn chế sức chịu đựng ngoài khơi và khiến nó dễ bị đánh khi hộ vệ hạm tới gần.",
+      "traits_vi": [
+        "Mớn nước nông",
+        "Hoa tiêu ven bờ",
+        "Truyền tin nhanh",
+        "Pháo xoay",
+        "Sức chịu biển kém"
+      ],
+      "quote_vi": "“Cảng nghe thấy trước khi chân trời trả lời.”"
+    },
+    {
+      "id": "nav26_moor_02",
+      "name_vi": "XEBEC TƯỚC ĐOẠT SALÉ",
+      "class_vi": "Xebec corsair Salé · Tập kích thương mại",
+      "role_vi": "Chặn tàu buôn, áp sát bằng buồm tam giác và áp đảo boong tàu đơn lẻ bằng đánh áp mạn.",
+      "lore_vi": "Xưởng corsair Salé đóng xebec dài, hẹp với ba cột buồm tam giác nghiêng và mái chèo phụ. Pháo xoay quét lan can mục tiêu trong khi móc sắt cùng boong chiến đấu đông người chuẩn bị chiếm tàu. Bộ buồm thưởng công thủy thủ giỏi trong gió ven bờ đổi hướng. Thiết kế phục vụ bắt chiến lợi phẩm; sóng lừng sâu Đại Tây Dương và đấu pháo mạn nặng phơi bày kết cấu nhẹ.",
+      "traits_vi": [
+        "Buồm tam giác",
+        "Mái chèo phụ",
+        "Móc áp mạn",
+        "Thủy thủ corsair",
+        "Thân tàu nhẹ"
+      ],
+      "quote_vi": "“Mang chiến lợi phẩm về với hàng hóa nguyên vẹn.”"
+    },
+    {
+      "id": "nav26_moor_03",
+      "name_vi": "GALLEY XUNG KÍCH",
+      "class_vi": "Galley xung kích · Đột nhập cảng",
+      "role_vi": "Phá lối vào cảng kín và đưa lực lượng áp mạn tập trung tới trong lúc lặng gió.",
+      "lore_vi": "Mũi gỗ nhô như mỏ, pháo mũi nặng và hàng mái chèo dài tạo trục chiến đấu hướng thẳng vào xích chắn cảng cùng tàu neo. Buồm tam giác giữ sức người chèo trên hành trình, còn sàn bảo vệ giữa tàu che các đại đội xung kích. Sức mạnh phụ thuộc vùng nước kín, yên; sóng lắc phá cả bệ pháo lẫn nhịp chèo.",
+      "traits_vi": [
+        "Pháo mũi nặng",
+        "Xung kích bằng mái chèo",
+        "Sàn áp mạn",
+        "Công kích nước yên",
+        "Mạn khô thấp"
+      ],
+      "quote_vi": "“Tới xích chắn, cứ giữ mái chèo chuyển động.”"
+    },
+    {
+      "id": "nav26_moor_04",
+      "name_vi": "POLACRE HỘ TỐNG ĐOÀN TÀU",
+      "class_vi": "Polacre đoàn tàu · Hộ tống thương thuyền",
+      "role_vi": "Bảo vệ đoàn tàu Đại Tây Dương bằng tầm hành trình bền bỉ và pháo mạn hộ tống đáng tin cậy.",
+      "lore_vi": "Polacre kết hợp thân chở hàng tiết kiệm với buồm vuông phía trước và buồm tam giác cột lái. Trận địa pháo gia cường cho đủ hỏa lực đuổi corsair nhẹ mà không hy sinh nước cùng nhu yếu phẩm cho hành trình hộ tống dài. Nó đi theo cửa sổ thời tiết của thương thuyền và giữ sức thủy thủ. Hộ vệ hạm chuyên chiến đấu vẫn có thể vượt nó khi truy đuổi.",
+      "traits_vi": [
+        "Bộ buồm hỗn hợp",
+        "Tầm hộ tống xa",
+        "Trận địa pháo gia cường",
+        "Dự trữ đoàn tàu",
+        "Truy đuổi khiêm tốn"
+      ],
+      "quote_vi": "“Mọi cánh buồm sau ta đều tới cảng kế tiếp.”"
+    },
+    {
+      "id": "nav26_moor_05",
+      "name_vi": "HỘ VỆ HẠM TRUY ĐUỔI",
+      "class_vi": "Hộ vệ hạm truy đuổi · Săn tàu tập kích",
+      "role_vi": "Đuổi kịp tàu tư chiến địch và giữ tiếp xúc phía trước hạm đội chiến đấu của đế quốc.",
+      "lore_vi": "Thợ đóng tàu nghiên cứu hộ vệ hạm thông thường Castilia đã kéo dài thân tàu Moor, tinh chỉnh đường nét dưới nước và đặt pháo đội kỷ luật trên một boong chiến đấu. Sĩ quan Maghreb giữ cách áp sát hung hãn của truyền thống corsair, nhưng ưu tiên bắn hệ buồm trước khi áp mạn. Con tàu dành trọng lượng cho tốc độ và điều khiển buồm, nên không thích hợp đấu kéo dài với tàu hai tầng pháo.",
+      "traits_vi": [
+        "Đường thân thanh thoát",
+        "Một tầng pháo",
+        "Bắn hệ buồm",
+        "Che chắn hạm đội",
+        "Chịu hỏa lực nặng hạn chế"
+      ],
+      "quote_vi": "“Đoạt gió trước. Đoạt tàu sau.”"
+    },
+    {
+      "id": "nav26_moor_06",
+      "name_vi": "CHIẾN LIỆT HẠM",
+      "class_vi": "Chiến liệt hạm hai tầng · Pháo mạn liên tục",
+      "role_vi": "Giữ chiến tuyến trước chiến hạm gỗ thông thường và che cho tàu áp mạn nhẹ.",
+      "lore_vi": "Khung sồi dày đỡ hai boong pháo liên tục dưới bộ buồm vuông viễn dương. Đế quốc vận dụng cách giằng thân và quy trình đạn dược quan sát trên tàu gỗ Castilia, kết hợp tài hàng hải Maghreb. Những tàu này có thể thách thức chiến tuyến địch thông thường bằng hỏa lực kỷ luật. Lớp gỗ bảo vệ gần như không có lời đáp trước chủ lực hạm bọc giáp hiện đại hoặc pháo bắn ngoài tầm hiệu quả của chúng.",
+      "traits_vi": [
+        "Hai tầng pháo",
+        "Khung sồi nặng",
+        "Pháo mạn kỷ luật",
+        "Buồm viễn dương",
+        "Bảo vệ bằng gỗ"
+      ],
+      "quote_vi": "“Để tàu nhỏ đi qua sau pháo của chúng ta.”"
+    },
+    {
+      "id": "nav26_moor_07",
+      "name_vi": "NGÔI NHÀ CỦA BIỂN",
+      "class_vi": "Kỳ hạm hạng nặng · Chỉ huy trận đánh",
+      "role_vi": "Làm trụ chủ lực và điều phối tín hiệu chiến đấu trong khi duy trì pháo mạn nặng nhất của Moor.",
+      "lore_vi": "Thân tàu buồm lớn nhất đế quốc mang ba tầng chiến đấu, sàn tín hiệu rộng và dự trữ kiểm soát hư hại bổ sung. Xà ngang rộng cùng khung sâu đỡ pháo nặng, trong khi bộ buồm cân bằng cẩn thận giữ kỳ hạm hữu dụng tại các trạm Đại Tây Dương. Của cải và nhân lực lành nghề tập trung trong mỗi thân tàu. Mớn sâu hạn chế cảng tiếp cận, và ngay con tàu gỗ đồ sộ này vẫn lệ thuộc gió.",
+      "traits_vi": [
+        "Ba tầng pháo",
+        "Tín hiệu hạm đội",
+        "Pháo nặng",
+        "Mớn nước sâu",
+        "Nhu cầu thủy thủ cao"
+      ],
+      "quote_vi": "“Hạm đội chuyển hướng khi hiệu kỳ chúng ta tung lên.”"
+    },
+    {
+      "id": "nav26_moor_08",
+      "name_vi": "TÀU ĐẠN PHÁO",
+      "class_vi": "Ketch pháo cối · Oanh kích bãi neo",
+      "role_vi": "Oanh kích pháo đài ven biển và bãi neo chật từ vị trí khảo sát sau tuyến hộ tống.",
+      "lore_vi": "Hai súng cối nặng nằm trong bệ gỗ liên kết với kết cấu sống đáy, bộ buồm được dời về đuôi để mở cung bắn. Kíp oanh kích Moor làm việc từ trạm neo và quan sát bờ thay vì đuổi mục tiêu trên biển. Thân tàu gọn mang tải công thành có sức phá hủy khác thường, nhưng giếng cối mở và pháo phòng vệ nhẹ khiến bảo vệ từ hạm đội là thiết yếu.",
+      "traits_vi": [
+        "Hai súng cối",
+        "Bệ gia cường",
+        "Oanh kích khi neo",
+        "Buồm dồn sau",
+        "Lệ thuộc hộ tống"
+      ],
+      "quote_vi": "“Đo cảng trước khi châm ngòi.”"
+    },
+    {
+      "id": "nav26_moor_09",
+      "name_vi": "TÀU CHỞ QUÂN",
+      "class_vi": "Vận tải quân vũ trang · Vận chuyển viễn chinh",
+      "role_vi": "Chở lính, súc vật và vật tư công thành giữa cảng an toàn cùng bãi đổ bộ chuẩn bị sẵn.",
+      "lore_vi": "Thân gỗ rộng nhường không gian boong pháo cho chỗ lính nằm thông gió, chuồng ngựa tháo được và cửa hầm hàng lớn. Pháo đội phía trên khiêm tốn bảo vệ việc lên tàu, còn xuồng cùng cần cẩu dỡ vật tư sau khi hộ tống giữ vững bờ. Con tàu cho đế quốc tầm viễn chinh bền bỉ. Quá tải người, thời tiết xấu và bãi đổ bộ còn tranh chấp có thể biến sức chở giá trị thành gánh nặng nguy hiểm.",
+      "traits_vi": [
+        "Chỗ nằm cho lính",
+        "Chuồng ngựa",
+        "Cần cẩu hàng",
+        "Xuồng đổ bộ",
+        "Cần hộ tống"
+      ],
+      "quote_vi": "“Đạo quân đi trong khoảng không dưới những cánh buồm.”"
+    },
+    {
+      "id": "song_01",
+      "name_vi": "BỘ BINH GAO",
+      "class_vi": "Bộ binh chính quy · Quân đội phục hưng",
+      "role_vi": "Tiến dưới hỏa lực, mở đường cho đơn vị đột kích và giữ đất sau đòn đánh.",
+      "lore_vi": "Lính hỏa mai Gao chứng minh đế quốc phục hưng đã học bài học Tondibi thay vì trốn tránh. Hỏa khí của họ là nền móng thông thường của quân đội mới Songhai, nhưng học thuyết tiến công mạnh hơn trung đoàn tuyến Castilia. Loạt bắn được dùng để gây rối và áp sát, thay vì duy trì một cuộc đấu đẹp mắt chỉ vì chính nó. Họ trông đợi kỵ binh, bộ binh xung kích hoặc lưỡi lê của chính mình kết thúc cuộc tranh luận.",
+      "traits_vi": [
+        "Huấn luyện hỏa lực tiến công",
+        "Tiến dưới hỏa lực",
+        "Sĩ khí mạnh",
+        "Chỉ huy kém linh hoạt hơn"
+      ],
+      "quote_vi": "“Súng mở đường. Chúng ta vẫn phải bước đi.”"
+    },
+    {
+      "id": "song_03",
+      "name_vi": "CUNG BINH SAHEL",
+      "class_vi": "Bộ binh xạ kích nhẹ · Truyền thống biên thùy",
+      "role_vi": "Duy trì sức ép tầm xa không cần thuốc súng, khói hay gánh nặng hậu cần của hỏa khí.",
+      "lore_vi": "Cung vẫn phục vụ Songhai vì thời hiện đại chưa khiến sự im lặng, tốc độ hoặc độc lập trở nên vô dụng. Cung binh Sahel hoạt động được nơi thuốc súng hiếm, thời tiết khó khăn hoặc tiếng hỏa mai sẽ làm lộ đội tuần tra quá sớm. Nhịp bắn khiến họ hữu dụng trước quân nhẹ và súc vật lộ thiên, còn nhu cầu tiếp tế đơn giản hợp chiến dịch biên thùy. Họ được giữ lại vì vài công cụ cũ vẫn giải quyết được vấn đề hiện đại, chứ không do hoài niệm.",
+      "traits_vi": [
+        "Loạt bắn nhanh",
+        "Khai hỏa im lặng",
+        "Không lệ thuộc thuốc súng",
+        "Yếu trước giáp nặng"
+      ],
+      "quote_vi": "“Không phải cơn bão nào cũng cần sấm.”"
+    },
+    {
+      "id": "song_04",
+      "name_vi": "THỆ VỆ TONDIBI",
+      "class_vi": "Bộ binh hỏa khí tinh nhuệ · Đoàn tưởng niệm",
+      "role_vi": "Tiến qua thương vong do hỏa khí mà không mất liên kết, phá tuyến súng địch ở cự ly gần.",
+      "lore_vi": "Thệ vệ biến vết thương dân tộc thành bài huấn luyện. Mỗi thành viên được dạy chuyện đế quốc gặp hỏa khí Maroc tại Tondibi rồi sụp đổ. Câu trả lời của họ là rèn luyện cho tới khi tiếng súng không còn chi phối quyết định. Thệ vệ vẫn đổ máu và chết như mọi người, nhưng những loạt bắn khiến bộ binh thường dao động hiếm khi chặn được bước tiến của họ. Họ mang hỏa khí tốt nhất Songhai và công khai khoác trên mình ký ức Tondibi.",
+      "traits_vi": [
+        "Không sợ hỏa lực súng",
+        "Kỷ luật hỏa lực tinh nhuệ",
+        "Sĩ khí xung kích",
+        "Số lượng hạn chế"
+      ],
+      "quote_vi": "“Chúng ta không còn sợ sấm.”"
+    },
+    {
+      "id": "song_11",
+      "name_vi": "QUÂN PHÁ TRẬN TONDIBI",
+      "class_vi": "Bộ binh xung kích · Cận chiến hạng nặng",
+      "role_vi": "Tiến vào cửa mở và đội hình rối loạn bằng binh khí chém nặng trước khi địch phục hồi.",
+      "lore_vi": "Quân phá trận là người thường được huấn luyện cho cự ly gần phi thường. Họ mang lưỡi đao nặng kiểu falx, rìu và mã tấu chiến được thiết kế để biến đà lao thành một nhát sát thương. Giáp nhẹ hơn Thệ vệ vì tốc độ quan trọng hơn trụ trong cuộc đấu hỏa mai. Nhiều Con của Tondibi tương lai được tuyển từ các đại đội phá trận, nhưng phần lớn vẫn là binh sĩ phàm trần có danh tiếng từ huấn luyện thay vì phúc lành.",
+      "traits_vi": [
+        "Binh khí chém nặng",
+        "Xung kích cửa mở",
+        "Sát thương cận chiến cao",
+        "Dễ tổn thương trước tiếp xúc"
+      ],
+      "quote_vi": "“Một khoảng mở. Một nhát chém. Cứ tiến lên.”"
+    },
+    {
+      "id": "song_14",
+      "name_vi": "NHỮNG NGƯỜI CON TONDIBI",
+      "class_vi": "Bộ binh đột kích huyền thoại · Đoàn Vestigium cấp Miracle",
+      "role_vi": "Vượt vùng sát thương hỏa khí, nghiền sĩ khí và biến xung phong thành công thành tàn sát tức thì ở cự ly gần.",
+      "lore_vi": "Những Người Con Tondibi là danh hiệu, không phải chỉ giới tính; nam nữ sống qua nghi thức đều thừa hưởng cùng tên. Họ mặc nhiều lớp trang phục nghi lễ sa mạc, mang falx hoặc mã tấu Vestigium cấp Miracle có lưỡi cháy đỏ theo đà vung. Giao ước của đấng bảo trợ tước khả năng giết chóc khỏi vũ khí được ngài nhận là hỏa khí. Họ không sợ hãi và đáp lại bằng nỗi kinh hoàng tỏa ra. Tuy nhiên phúc lành không khiến họ bất khả xâm phạm: vướng trói, vũ khí cán dài, hiệu ứng chống Vestigium và trận đánh tước đà lao vẫn chặn được họ.",
+      "traits_vi": [
+        "Không sợ hãi",
+        "Gây sợ hãi",
+        "Miễn nhiễm hỏa khí",
+        "Xung phong hủy diệt",
+        "Lưỡi đao Vestigium cấp Miracle"
+      ],
+      "quote_vi": "“Giờ sấm sợ chúng ta.”"
+    },
+    {
+      "id": "song_02",
+      "name_vi": "THƯƠNG BINH DENDI",
+      "class_vi": "Bộ binh tuyến · Chống kỵ binh",
+      "role_vi": "Làm trụ chiến tuyến và bảo vệ hỏa khí trước kỵ binh hoặc đột kích bất ngờ.",
+      "lore_vi": "Thương binh Dendi được chủ ý giữ đơn giản. Thương dài, khiên gọn và kỷ luật đội hình dày cho Songhai lời đáp rẻ mà đáng tin trước kỵ binh cùng xung kích gần. Họ thường đứng cạnh lính hỏa mai hoặc pháo binh, cho phép quân giá trị hơn tiếp tục bắn thay vì phá đội hình tự vệ. Họ không thắng chiến tranh bằng sự ngoạn mục. Họ cho đơn vị ngoạn mục một nơi an toàn để trở về.",
+      "traits_vi": [
+        "Ghìm thế chống đỡ",
+        "Chống kỵ binh",
+        "Đội hình dày",
+        "Hỏa lực tầm xa hạn chế"
+      ],
+      "quote_vi": "“Đứng đủ lâu để sấm làm việc.”"
+    },
+    {
+      "id": "song_05",
+      "name_vi": "KỴ BINH KURMINA",
+      "class_vi": "Kỵ binh nhẹ · Trinh sát và đánh sườn",
+      "role_vi": "Trinh sát, che chắn, truy kích và xuất hiện ở sườn trước khi đội hình chậm hơn phản ứng.",
+      "lore_vi": "Kỵ binh Kurmina tạo sức cơ động thường nhật của đế quốc phục hưng. Họ nhẹ hơn Thiết kỵ và ít lệ thuộc hỏa khí chuyên dụng hơn Lôi kỵ, nên dễ triển khai qua chiến dịch dài. Tổ hợp cung, carbine và kiếm cong tùy từng đội. Mục đích luôn nhất quán: tìm địch, giấu hướng di chuyển thật của Songhai rồi biến rút lui thành tháo chạy khi đòn chính giáng xuống.",
+      "traits_vi": [
+        "Kỵ binh nhanh",
+        "Trinh sát",
+        "Truy kích",
+        "Vũ trang linh hoạt"
+      ],
+      "quote_vi": "“Thấy trước. Chuyển trước. Đuổi sau cùng.”"
+    },
+    {
+      "id": "song_06",
+      "name_vi": "THIẾT KỴ DENDI",
+      "class_vi": "Kỵ binh đột kích nặng · Đội hình đặc trưng",
+      "role_vi": "Phá bộ binh suy yếu bằng loạt súng ngắn nối ngay với đợt xung phong thương tập trung.",
+      "lore_vi": "Thiết kỵ là hình ảnh phần lớn người ngoại quốc gắn với sức mạnh Songhai. Người và ngựa mang giáp chần nhiều lớp, được gia cường bằng giáp lưới hoặc tấm kim loại ở nơi tài lực cho phép. Đòn đánh xoay quanh một chuỗi dữ dội: áp sát dưới bảo vệ, bắn súng ngắn ở cự ly gần, hạ thương và đánh trước khi mục tiêu phục hồi. Họ không phải hiệp sĩ châu Âu mang sắc sa mạc. Giáp, ngựa và học thuyết thuộc Sahel, thích nghi với thời đại lạnh hơn và vũ trang nặng hơn.",
+      "traits_vi": [
+        "Xung phong nặng",
+        "Giáp ngựa chần bông",
+        "Đột kích súng ngắn",
+        "Truy kích mạnh",
+        "Thay thế tốn kém"
+      ],
+      "quote_vi": "“Phát súng mở khoảng trống. Chiến mã khiến nó tồn tại mãi.”"
+    },
+    {
+      "id": "song_07",
+      "name_vi": "LÔI KỴ GAO",
+      "class_vi": "Kỵ binh hỏa khí · Che chắn tiến công",
+      "role_vi": "Phá rối bộ binh và kỵ binh bằng hỏa khí trên ngựa, rồi xung phong hoặc thoát ly trước khi trật tự trở lại.",
+      "lore_vi": "Lôi kỵ đại diện thế hệ lớn lên sau khi Songhai quyết định hỏa khí sẽ không bao giờ còn là bí mật của kẻ khác. Trang bị carbine, súng ngắn và kiếm cong, họ chiến đấu từ yên thay vì chỉ dùng ngựa vận chuyển. Một đội có thể quấy rối, chuyển vòng, bắn tiếp hoặc lập tức chuyển sang truy kích gần. Họ thiếu lớp bảo vệ áp đảo của Thiết kỵ, nhưng tốc độ khiến họ là binh chủng kỵ binh thoải mái nhất khi hoạt động ngay trong chu kỳ quyết định của địch.",
+      "traits_vi": [
+        "Hỏa khí trên ngựa",
+        "Cơ động nhanh",
+        "Xung phong linh hoạt",
+        "Giáp nhẹ"
+      ],
+      "quote_vi": "“Chúng ta đã học làm ra sấm của mình.”"
+    },
+    {
+      "id": "song_08",
+      "name_vi": "LẠC ĐÀ BINH SAHARA",
+      "class_vi": "Kỵ binh tập kích sâu · Tác chiến sa mạc",
+      "role_vi": "Đánh đường lữ hành, đồn xa và đường rút ngoài tầm dễ tiếp cận của kỵ binh thường.",
+      "lore_vi": "Quân tập kích lạc đà đưa sức mạnh Songhai vào khoảng trống giữa các đạo quân. Họ vượt những quãng dài nơi ngựa tốn quá nhiều nước hoặc đoàn tiếp tế lớn sẽ tự báo vị trí từ xa nhiều dặm. Mục tiêu hiếm khi là điểm mạnh nhất mặt trận địch. Họ đốt kho, bắt người dẫn đường, cắt liên lạc và buộc chỉ huy bảo vệ những tuyến từng có vẻ quá trống vắng để đáng bận tâm.",
+      "traits_vi": [
+        "Tập kích sâu",
+        "Sức bền sa mạc",
+        "Phá rối tiếp tế",
+        "Đột kích trực diện kém"
+      ],
+      "quote_vi": "“Con đường sau đạo quân vẫn là một phần trận đánh.”"
+    },
+    {
+      "id": "song_09",
+      "name_vi": "CẬN VỆ ASKIA",
+      "class_vi": "Kỵ binh nặng đế quốc · Hộ vệ ngai vàng",
+      "role_vi": "Bảo vệ Askia và tung đợt xung phong dự bị cuối vào điểm quyết định.",
+      "lore_vi": "Cận vệ Askia kết hợp uy thế chính trị với mục đích chiến trường. Kỵ sĩ nhận giáp, ngựa và vũ khí tốt nhất triều đình duy trì nổi, nhưng nguồn lực quan trọng nhất là kỷ luật: họ không bị tiêu hao sớm. Được giữ gần người trị vì hoặc tổng chỉ huy, Cận vệ tồn tại cho lúc phải cứu chiến tuyến, khai thác đột phá hoặc khi an toàn của chính ngai vàng thành một phần trận đánh.",
+      "traits_vi": [
+        "Cận vệ đế quốc",
+        "Kỵ binh nặng",
+        "Sĩ khí phi thường",
+        "Dự bị chiến lược",
+        "Số lượng rất hạn chế"
+      ],
+      "quote_vi": "“Con ngựa cuối cùng chuyển bước khi ngai vàng quyết định.”"
+    },
+    {
+      "id": "song_10",
+      "name_vi": "PHÁO BINH GAO",
+      "class_vi": "Pháo dã chiến · Hỏa lực tập trung",
+      "role_vi": "Tập trung pháo thuốc súng vào điểm được chọn cho đòn đánh quyết định Songhai.",
+      "lore_vi": "Binh đoàn Sấm là câu trả lời có tổ chức cho vũ khí từng phá nát đế quốc cũ. Học thuyết pháo Songhai chuộng tập trung hơn cầu kỳ kỹ thuật: vài khẩu đáng tin đặt nơi hỏa lực chuẩn bị được một đợt xung kích quyết định. Kíp luyện đổi chỗ táo bạo và xử lý đạn nhanh, nhưng không có chiều sâu công nghiệp Castilia. Niềm kiêu hãnh đến từ điều đơn giản và chính trị hơn: sấm không còn tới từ phía bên kia chiến trường.",
+      "traits_vi": [
+        "Oanh kích tập trung",
+        "Kíp pháo tiến công",
+        "Pháo dã chiến đáng tin",
+        "Hỗ trợ công nghiệp vừa phải"
+      ],
+      "quote_vi": "“Giờ sấm thuộc về chúng ta.”"
+    },
+    {
+      "id": "song_12",
+      "name_vi": "BẬC THẦY LÒ RÈN GAO",
+      "class_vi": "Binh đoàn chế tác · Kho vũ khí nghi lễ",
+      "role_vi": "Bảo dưỡng, kiểm tra và chuẩn bị vũ khí Vestigium mà thợ giáp thường không thể phục vụ an toàn.",
+      "lore_vi": "Các bậc thầy lò rèn đứng giữa xưởng, thư khố và đền thờ. Họ sửa vỏ Vestigium hư hại, thử lõi bất ổn và chuẩn bị vũ khí cấp Miracle dành cho các đội hình hiếm nhất đế quốc. Công việc được chủ ý tổ chức thành thể chế: thánh khí chỉ một thiên tài hiểu được là gánh nặng Songhai đã học cách sợ. Họ theo các đại quân thành phân đội nhỏ và được bảo vệ kỹ như sĩ quan pháo binh cao cấp.",
+      "traits_vi": [
+        "Bảo dưỡng Vestigium",
+        "Kho vũ khí nghi lễ",
+        "Sửa chữa thực địa",
+        "Giá trị chiến lược cao",
+        "Sức mạnh tuyến đầu thấp"
+      ],
+      "quote_vi": "“Phép màu vẫn cần người biết nó nứt ở đâu.”"
+    },
+    {
+      "id": "song_13",
+      "name_vi": "TƯ TẾ ZIMA SAHEL",
+      "class_vi": "Tư tế kiêm luật gia Vestigium · Hỗ trợ nghi lễ",
+      "role_vi": "Diễn giải giao ước thần linh, duy trì kết giới và xác định giới hạn nghi lễ của đội hình được ban phúc.",
+      "lore_vi": "Các thầy bói không phải pháp sư chiến trường ném lửa qua chiến tuyến. Họ là nhà thần học, luật gia và chuyên gia Vestigium chịu trách nhiệm về biên giới nguy hiểm giữa ngôn ngữ với luật siêu nhiên. Khi phúc lành phụ thuộc điều một vị thần nhận là hỏa khí, phải có người quyết định vũ khí mới, chất nổ và hệ thống Vestigium khớp định nghĩa ấy ra sao. Phán quyết có thể quyết định lớp phòng vệ thiêng có hoạt động hay không, khiến tranh luận giáo lý thành chuyện sống còn quân sự.",
+      "traits_vi": [
+        "Thẩm quyền nghi lễ",
+        "Diễn giải giao ước",
+        "Kết giới",
+        "Tri thức chống Vestigium",
+        "Trực tiếp chiến đấu tối thiểu"
+      ],
+      "quote_vi": "“Luật thần vẫn là luật. Phải có người đọc nó.”"
+    },
+    {
+      "id": "nav26_song_01",
+      "name_vi": "THUYỀN SORKO",
+      "class_vi": "Xuồng pháo sông · Bảo vệ điểm vượt",
+      "role_vi": "Hộ tống đội quân đường sông, trinh sát bờ đổ bộ và chế áp phục kích cạnh điểm vượt tranh chấp.",
+      "lore_vi": "Người chèo Sorko cải biến thuyền độc mộc dài Niger bằng bệ pháo gỗ nâng cao và tấm chắn nhẹ cho người chèo. Pháo xoay mũi che đường tiếp cận, còn mái chèo dự phòng với mớn nông giữ thuyền hữu dụng giữa luồng và cồn cát. Thủy thủ đọc sông giỏi hơn mọi đô đốc xa xôi. Thân hẹp không mang nổi pháo nặng hoặc sống qua đấu kéo dài với chiến hạm ven bờ.",
+      "traits_vi": [
+        "Hoa tiêu sông",
+        "Động lực mái chèo",
+        "Pháo xoay mũi",
+        "Mớn nước nông",
+        "Kết cấu nhẹ"
+      ],
+      "quote_vi": "“Điểm vượt thuộc về người biết luồng.”"
+    },
+    {
+      "id": "nav26_song_02",
+      "name_vi": "THUYỀN GAO",
+      "class_vi": "Sà lan tiếp tế sông · Duy trì đạo quân",
+      "role_vi": "Chuyển ngũ cốc, thuốc súng và quân bổ sung dọc Niger giữa các kho sông được bảo vệ.",
+      "lore_vi": "Thân sông rộng, mớn thấp mang rương thuốc súng kín dưới mái che khô nâng cao, với bao hàng và vò nước tách khỏi kho vũ khí. Sào, mái chèo và buồm đơn giản tháo được giúp thủy thủ địa phương đi các đoạn sông khác nhau. Sà lan hỗ trợ chiến dịch bộ Songhai bằng khối lượng và độ tin cậy. Cạn theo mùa làm giảm tải, và hộ tống phải giữ chắc bờ trước khi nó dỡ hàng.",
+      "traits_vi": [
+        "Mái che hàng",
+        "Thân nông",
+        "Buồm tháo được",
+        "Tách thuốc súng",
+        "Lệ thuộc bờ"
+      ],
+      "quote_vi": "“Trận đánh kế tiếp bắt đầu từ thứ ta dỡ xuống.”"
+    },
+    {
+      "id": "nav26_song_03",
+      "name_vi": "TÀU VEN BỜ",
+      "class_vi": "Vận tải ven bờ vũ trang · Chuyên chở duyên hải",
+      "role_vi": "Chở quân và vật tư giữa bãi neo kín bờ tây dưới hộ tống.",
+      "lore_vi": "Số ít tàu vận tải đi biển Songhai dùng kỹ thuật đóng gỗ vùng miền và tri thức buồm thực tiễn thu được qua buôn bán ven bờ. Thân chắc, bộ buồm tam giác khiêm tốn và pháo phòng vệ hạn chế bảo vệ hàng mà không tự nhận tạo thành hạm đội chiến đấu. Những tàu này nối tiếp tế sông với các chặng biển ngắn. Chúng lệ thuộc hoa tiêu, cảng kín và thời tiết thuận; một hải đội viễn dương lớn có thể cắt tuyến của chúng chẳng mấy khó khăn.",
+      "traits_vi": [
+        "Chuyên chở ven bờ",
+        "Pháo đội khiêm tốn",
+        "Hoa tiêu địa phương",
+        "Bãi neo kín",
+        "Tầm viễn dương hạn chế"
+      ],
+      "quote_vi": "“Con tàu hữu dụng đưa đạo quân xa thêm một bến cảng.”"
+    },
+    {
+      "id": "rome_01",
+      "name_vi": "BIÊN BINH HỎA KHÍ",
+      "class_vi": "Bộ binh hỏa khí biên giới · Quân trưng tập phòng ngự",
+      "role_vi": "Giữ đồn, đường và kho biên giới bằng hỏa mai có khiên che cho tới khi đạo quân dã chiến tới.",
+      "lore_vi": "Ngay năm 1717, Limitanei vẫn rõ nét Hậu kỳ La Mã: mũ có mào, khiên bầu dục, giáp lưới nhiều lớp và áo len dày vẫn định hình dáng người. Thay đổi nằm ở vũ khí tay kia. Đại đội Pyrobolarii mang hỏa mai biên thùy chắc bền, súng thành và giá bắn đơn giản thiết kế để phục vụ lâu xa Ravenna. Họ kém tinh luyện hơn Comitatenses nhưng khó bị đánh bật khỏi địa thế chuẩn bị sẵn, nơi khiên che, bậc bắn và công sự cũ biến họ thành lớp phòng vệ đầu tiên ngoan cường của đế quốc.",
+      "traits_vi": [
+        "Huấn luyện biên thùy",
+        "Hỏa lực phòng ngự",
+        "Khiên che",
+        "Tác chiến tiêu hao",
+        "Tái triển khai chậm"
+      ],
+      "quote_vi": "“Biên giới đã cũ. Thuốc súng thì chưa.”"
+    },
+    {
+      "id": "rome_02",
+      "name_vi": "BỘ BINH DÃ CHIẾN TÂY LA MÃ",
+      "class_vi": "Bộ binh hỏa khí tuyến · Nòng cốt dã chiến",
+      "role_vi": "Làm bộ binh dã chiến chính La Mã, kết hợp hỏa khí với kỷ luật khiên Hậu kỳ La Mã.",
+      "lore_vi": "Comitatenses là nghịch lý thị giác ngay tim Ravenna. Họ hành quân dưới quân kỳ thế kỷ V với khiên bầu dục, mũ sống nổi và các lớp giáp lưới hoặc giáp phiến phân đoạn, nhưng vũ khí chính là hỏa mai đá lửa kiểu La Mã. Spatha vẫn là kiếm phụ, không phải lời đáp trước tuyến súng. Huấn luyện luân phiên hàng bắn được bảo vệ với bước tiến có khiên, giữ liên kết của đội hình cổ trong khi tung loạt đạn hiện đại. Với người ngoại quốc, họ trông như lịch sử không chịu chết, cho tới loạt khai hỏa hiệp đồng đầu tiên.",
+      "traits_vi": [
+        "Huấn luyện La Mã",
+        "Loạt bắn có khiên",
+        "Liên kết đội hình",
+        "Nòng cốt dã chiến"
+      ],
+      "quote_vi": "“Đội hình sống còn. Vũ khí đổi thay.”"
+    },
+    {
+      "id": "rome_03",
+      "name_vi": "CẤM BINH HỎA KHÍ",
+      "class_vi": "Bộ binh hỏa khí tinh nhuệ · Tuyến cận vệ đế quốc",
+      "role_vi": "Giữ trung tâm đế quốc và bắn loạt cự ly gần có kỷ luật dưới sức ép cực lớn.",
+      "lore_vi": "Palatini Sclopetarii là những đại đội hỏa khí tinh nhuệ của đạo quân dã chiến đế quốc. Giáp sang hơn, vũ khí được bảo dưỡng tốt hơn và phù hiệu đỏ tía gắn rõ với Ravenna. Khác cận vệ nghi lễ, họ phải chiến đấu ở nơi tồi tệ nhất trận. Hỏa mai nặng, khiên gia cường và huấn luyện xuất sắc giúp họ chịu nhiễu loạn đủ bẻ gãy bộ binh thường. Khi quân kỳ đế quốc tiến lên, Sclopetarii thường là những người nam nữ mở chỗ cho nó.",
+      "traits_vi": [
+        "Loạt bắn tinh nhuệ",
+        "Sĩ khí đế quốc",
+        "Khiên nặng",
+        "Kỷ luật cự ly gần"
+      ],
+      "quote_vi": "“Nơi sắc tía đứng, chiến tuyến đứng.”"
+    },
+    {
+      "id": "rome_04",
+      "name_vi": "PHI TIÊU BINH HỎA CÔNG",
+      "class_vi": "Bộ binh bắn loạt hỗn hợp · Yểm trợ cháy",
+      "role_vi": "Phá rối đội hình đang tiến bằng lao nhỏ có đối trọng, hũ lửa và hỏa khí tầm ngắn.",
+      "lore_vi": "Plumbatarii giữ một thói quen chiến trường lâu đời nhất La Mã: làm địch bị thương trước khi hai tuyến thật sự gặp nhau. Lao nhỏ có đối trọng truyền thống đã tiến hóa thành họ đạn gây cháy, gây nổ và truyền tín hiệu mang cạnh hỏa khí gọn. Họ được bố trí trước tuyến chính hoặc sau hàng khiên, phủ đường tiếp cận bằng khói, tia lửa và những vụ nổ bất ngờ trước khi lùi vào đội hình. Vũ khí trông cổ xưa cho tới khi một quả rơi giữa xe đạn hoặc đội quân xung kích chật kín.",
+      "traits_vi": [
+        "Loạt bắn mở đầu",
+        "Đạn gây cháy",
+        "Phá rối",
+        "Kho vũ khí hỗn hợp"
+      ],
+      "quote_vi": "“Vết thương đầu nên tới trước mệnh lệnh đầu.”"
+    },
+    {
+      "id": "rome_05",
+      "name_vi": "THIỆN XẠ LÔI ĐÌNH",
+      "class_vi": "Thiện xạ · Khinh binh hỏa khí La Mã",
+      "role_vi": "Lần lượt hạ sĩ quan, pháo thủ và đội tín hiệu ngoài chiến tuyến chính.",
+      "lore_vi": "Ravenna giữ tên cổ Sagittarii rất lâu sau khi cung không còn định nghĩa binh đoàn. Các đại đội Fulminis nay mang súng trường nòng dài và đạn chuẩn bị kỹ, hoạt động như thiện xạ quanh hai sườn đạo quân dã chiến. Y phục vẫn rõ nét La Mã, nhưng chiến thuật hiện đại: quan sát, bắn chọn lọc và đổi chỗ có chủ ý sau phát đạn. Họ tồn tại để loại bỏ số ít người mà sự vắng mặt có thể khiến cả đội hình lớn chần chừ.",
+      "traits_vi": [
+        "Hỏa lực chính xác",
+        "Săn sĩ quan",
+        "Che chắn khinh binh",
+        "Kỷ luật tầm xa"
+      ],
+      "quote_vi": "“La Mã vẫn gọi họ là cung thủ. Kẻ địch hiểu rõ hơn.”"
+    },
+    {
+      "id": "rome_06",
+      "name_vi": "TRỌNG SÚNG BINH",
+      "class_vi": "Bộ binh hỏa khí nặng · Yểm trợ xuyên giáp",
+      "role_vi": "Phá mục tiêu bọc giáp và điểm bắn có công sự bằng súng cầm tay quá cỡ cùng súng thành.",
+      "lore_vi": "Manuballistarii mang vũ khí quá nặng cho nhiệm vụ tuyến thường: súng thành dài, hậu duệ súng hỏa mai sơ kỳ gia cường và súng cỡ lớn khốc liệt bắn từ móc hoặc giá. Kíp đi theo cặp, một người mang đạn và dụng cụ hỗ trợ, xạ thủ xử lý chính vũ khí. Họ chậm, lộ rõ và rất tốn tiếp tế, nhưng ít đội hình bộ binh thích hứng hỏa lực ấy. Ravenna dùng họ nơi hỏa mai thường không đáng tin để xuyên giáp, chướng ngại hoặc da quái vật.",
+      "traits_vi": [
+        "Hỏa lực xuyên giáp",
+        "Cỡ nòng nặng",
+        "Nạp lại chậm",
+        "Cơ động theo kíp"
+      ],
+      "quote_vi": "“Nếu hỏa mai không giết nổi nó, mang hỏa mai nặng hơn.”"
+    },
+    {
+      "id": "rome_07",
+      "name_vi": "THUẪN BINH HỎA KHÍ",
+      "class_vi": "Bộ binh xung kích có khiên · Đội hình hỏa khí",
+      "role_vi": "Tiến qua hỏa lực địch và bắn loạt từ sau những khiên La Mã chồng lên nhau.",
+      "lore_vi": "Testudinarii là bằng chứng rõ nhất Ravenna hiện đại hóa mà vẫn giữ ngôn ngữ thân thể cũ. Khiên bầu dục rộng chồng nhau phía trước trong khi xạ thủ chuyên trách bắn qua khe được kiểm soát và qua vai được bảo vệ. Đây không phải đội hình quy giáp cổ nguyên xi hành quân qua đất trống; nó là lời đáp thế kỷ XVII hình thành từ cùng bản năng. Testudinarii chậm, vụng trên đất chia cắt, nhưng đáng sợ trong phố, cửa mở và lối hẹp nơi hỏa lực địch chỉ tới từ một hướng.",
+      "traits_vi": [
+        "Tiến có khiên",
+        "Loạt bắn gần",
+        "Xung kích cửa mở",
+        "Đội hình chịu đựng cao"
+      ],
+      "quote_vi": "“Cứ để thế kỷ đập vào khiên trước.”"
+    },
+    {
+      "id": "rome_10",
+      "name_vi": "SEKBAN ĐỒNG MINH ANATOLIA",
+      "class_vi": "Foederati năm 1717 · Bộ binh đá lửa",
+      "role_vi": "Cung cấp bộ binh hỏa khí linh hoạt cho chiến dịch khắp Anatolia, Syria và biên thùy đông.",
+      "lore_vi": "Sekban foederati không mặc kiểu La Mã. Họ vào quân ngũ đế quốc với y phục Anatolia thế kỷ XVIII rõ nét: áo dài, đai quấn, mũ thực dụng và hỏa khí địa phương ưa chuộng, thêm phù hiệu numerus La Mã thay vì thay bản sắc. Ravenna trọng họ vì họ đã hiểu địa hình, đường sá và chiến tranh phi chính quy miền đông. Lòng trung thành theo hợp đồng, chính trị và thường thực dụng khiến họ đúng như foederati xưa nay vẫn vậy.",
+      "traits_vi": [
+        "Bộ binh đá lửa",
+        "Kỹ năng thực địa miền đông",
+        "Phục vụ hợp đồng",
+        "Đội hình linh hoạt"
+      ],
+      "quote_vi": "“La Mã tuyển mộ thế kỷ mà nó không thể trở thành.”"
+    },
+    {
+      "id": "rome_11",
+      "name_vi": "ARMATOLOI HY LẠP",
+      "class_vi": "Foederati năm 1717 · Khinh binh miền núi",
+      "role_vi": "Trinh sát, phục kích và tranh đường núi bằng súng dài cùng kiến thức bản địa.",
+      "lore_vi": "Các đội Armatoloi Hy Lạp phục vụ Ravenna bởi đế quốc hiểu rằng người am tường đèo núi từ thuở nhỏ sẽ bảo vệ những con đèo ấy tốt hơn cả. Họ mặc y phục Hy Lạp và Balkan thế kỷ XVIII, mang súng trường nòng dài, súng ngắn và đao cong; các thủ lĩnh bản địa vẫn chỉ huy đơn vị dưới quyền điều phối tác chiến của La Mã. Họ đặc biệt giỏi lẩn vào làng mạc, những dải sống núi và sườn đồi có rừng, rồi bất ngờ xuất hiện bên sườn địch. Đại bàng trên phù hiệu thuộc về La Mã; gần như mọi thứ còn lại vẫn mang bản sắc địa phương mà họ luôn tự hào.",
+      "traits_vi": [
+        "Sơn chiến",
+        "Súng dài",
+        "Phục kích",
+        "Lãnh đạo bản địa",
+        "Đội hình thưa"
+      ],
+      "quote_vi": "“Đại bàng có thể sở hữu con đường. Chúng tôi sở hữu ngọn núi.”"
+    },
+    {
+      "id": "rome_12",
+      "name_vi": "PANDUR BALKAN",
+      "class_vi": "Foederati năm 1717 · Quân phi chính quy biên thùy",
+      "role_vi": "Tập kích rừng, làng và hành lang biên giới nơi thao luyện La Mã chính quy trở nên nặng nề.",
+      "lore_vi": "Các đội quân liên minh Pandur được tuyển từ những vùng biên quân sự đầy bạo lực của Croatia, Serbia, Bosnia và các miền lân cận. Súng hỏa mai nòng dài, áo khoác sẫm màu, kiếm cong và trang bị cá nhân pha tạp của họ hoàn toàn khác lực lượng nòng cốt mang diện mạo thế kỷ V của Ravenna, và chính sự khác biệt ấy khiến đế quốc trọng dụng họ. Họ giỏi tuần tra, giao chiến trong làng, phục kích trong rừng và tập kích trừng phạt tại những nơi đội hình tuyến nghiêm ngặt mất đi lợi thế. Sĩ quan La Mã hiếm khi ép họ ăn mặc giống quân La Mã; một phù hiệu đánh số, tên trong sổ lương và quân kỳ được giao đã được xem là đủ.",
+      "traits_vi": [
+        "Quân phi chính quy biên thùy",
+        "Đánh rừng",
+        "Hỏa mai dài",
+        "Tập kích",
+        "Kỷ luật không đều"
+      ],
+      "quote_vi": "“La Mã đếm họ. Nó không thuần hóa họ.”"
+    },
+    {
+      "id": "rome_15",
+      "name_vi": "TÍN BINH RAVENNA",
+      "class_vi": "Bộ binh giáo phái đế quốc · Chiến tuyến cuồng tín",
+      "role_vi": "Giữ đất nguyền và tiếp tục tiến công nơi sĩ khí thường sụp đổ.",
+      "lore_vi": "Cultores là lính giáo phái đế quốc thay vì dân thường áo lễ bị kéo khỏi đền. Họ mặc quân phục La Mã giản lược bên ngoài dây nghi lễ, phiến dâng nguyện và vật di tích, mang hỏa mai cạnh dao hiến tế cùng spatha ngắn. Bài giảng mô tả chính La Mã là sự tiếp nối thiêng liêng sống động phải vượt mọi hoàng đế, dịch bệnh và thế kỷ. Đức tin khiến họ chống sợ hãi nguy hiểm, nhưng cũng dễ bị giới tư tế Ravenna tiêu dùng tại nơi chỉ huy sẽ ngần ngại cử chính quy tới.",
+      "traits_vi": [
+        "Cuồng tín",
+        "Bộ binh hỏa khí",
+        "Kháng sợ hãi",
+        "Giáo phái đế quốc",
+        "Nhiệt tín có thể tiêu hao"
+      ],
+      "quote_vi": "“La Mã già hơn cái chết. Hãy chứng tỏ mình xứng đáng.”"
+    },
+    {
+      "id": "rome_17",
+      "name_vi": "QUÂN ĐOÀN BINH ĐỘT BIẾN",
+      "class_vi": "Bộ binh nặng đột biến · Quân đoàn tha hóa",
+      "role_vi": "Tiến qua đau đớn và chấn động với thân thể biến đổi để sống sót ở cự ly gần trên chiến trường.",
+      "lore_vi": "Mutati từng là quân đoàn binh thường, và Ravenna khẳng định họ vẫn vậy. Đột biến khác nhau: xương dày dưới da, giáp hòa vào mô sẹo, mắt phụ mở dưới vành mũ hoặc tay giữ khiên lớn tới mức không nhả được. Nhiều người vẫn mang hỏa khí, dù cơ thể biến đổi thường buộc phải làm báng, cò và đai riêng. Thao luyện La Mã sống sót dưới dạng quái dị. Một đại đội lớn Mutati có thể trông như ác mộng hành quân đúng nhịp hoàn hảo, chính là lý do đế quốc triển khai họ nơi kinh hoàng hữu dụng.",
+      "traits_vi": [
+        "Gây sợ hãi",
+        "Thể chất tăng cường",
+        "Dùng được hỏa khí",
+        "Kỷ luật tha hóa",
+        "Khó thay thế"
+      ],
+      "quote_vi": "“Thân thể đổi thay. Số hiệu thì không.”"
+    },
+    {
+      "id": "rome_18",
+      "name_vi": "QUÂN ĐOÀN TỬ BINH",
+      "class_vi": "Bộ binh hỏa khí xác sống · Quân đoàn tử binh",
+      "role_vi": "Nghiền bước tiến mà không mệt mỏi, mất sĩ khí hay bận tâm thương vong.",
+      "lore_vi": "Quân đoàn tử binh là biểu hiện sát nghĩa nhất việc Ravenna không chịu giải ngũ lính. Quân chết được đưa về trong trang bị Hậu kỳ La Mã hư hại, thường cùng khiên, hỏa mai và dấu đơn vị lúc sống. Thao luyện súng chậm hơn Comitatenses sống nhưng nhất quán đáng sợ: xác chết không nao trước đạn đáp trả, đói hoặc lạnh. Sĩ quan dùng họ cho tiến công tiêu hao, vùng nhiễm bẩn và vị trí không trông đợi thu hồi đơn vị. Ngay sau chết, danh sách quân vẫn đủ.",
+      "traits_vi": [
+        "Không tan vỡ",
+        "Không biết mệt",
+        "Huấn luyện hỏa khí",
+        "Tác chiến tiêu hao",
+        "Dễ tổn thương trước thanh tẩy"
+      ],
+      "quote_vi": "“Một loạt bắn. Một bước. Một loạt bắn. Một bước. Mãi mãi.”"
+    },
+    {
+      "id": "rome_09",
+      "name_vi": "CẬN KỴ CUNG ĐÌNH",
+      "class_vi": "Kỵ binh cận vệ tinh nhuệ · Tích hợp hỏa khí",
+      "role_vi": "Bảo vệ chỉ huy đế quốc và tung xung phong dự bị có súng ngắn yểm trợ vào thời khắc quyết định.",
+      "lore_vi": "Scholae vẫn là thể chế cung đình từ thời khác, nhưng vai trò chiến trường hoàn toàn thực chiến. Kỵ sĩ mặc giáp Hậu kỳ La Mã chế tác lộng lẫy ngoài lớp chống lạnh, mang carbine hoặc cặp súng ngắn cạnh thương dài và spatha. Họ được giữ sát chỉ huy cấp cao, nơi tốc độ giúp cứu khu vực sụp đổ hoặc khai thác nơi đã bị bộ binh và pháo đánh vỡ. Ravenna gọi họ người bảo hộ cổ xưa; địch trải nghiệm họ như kỵ binh nặng kỷ luật mang hỏa lực hiện đại.",
+      "traits_vi": [
+        "Kỵ binh cận vệ",
+        "Loạt súng ngắn",
+        "Xung phong dự bị",
+        "Uy thế đế quốc"
+      ],
+      "quote_vi": "“Danh dự xưa. Sấm mới.”"
+    },
+    {
+      "id": "rome_13",
+      "name_vi": "KHINH KỴ VLACH",
+      "class_vi": "Foederati năm 1717 · Kỵ binh nhẹ",
+      "role_vi": "Che chắn đạo quân, trinh sát thung lũng sông và đuổi địch tan vỡ khắp biên thùy đông.",
+      "lore_vi": "Kỵ sĩ Vlach từ Wallachia và Moldavia cho Ravenna binh chủng xây dựng vì đường xa hơn nghi lễ. Họ mang carbine, súng ngắn, kiếm cong và thương nhẹ theo sở thích địa phương, cưỡi trong đội hình thưa hơn Scholae. Nhiệm vụ là trinh sát, che chắn, chặn thư tín và truy kích. Hồ sơ đế quốc gọi họ kỵ binh foederati. Thực địa, họ vẫn là người biên giới Danube có tốc độ cho Ravenna biết chuyện đang xảy ra nhiều ngày trước khi quân đoàn tới được.",
+      "traits_vi": [
+        "Kỵ binh nhanh",
+        "Hỏa lực carbine",
+        "Trinh sát",
+        "Truy kích",
+        "Bảo vệ nhẹ"
+      ],
+      "quote_vi": "“Danube gửi cảnh báo trên lưng ngựa.”"
+    },
+    {
+      "id": "rome_14",
+      "name_vi": "COSSACK ĐỒNG MINH RUTHENIA",
+      "class_vi": "Foederati năm 1717 · Kỵ binh súng",
+      "role_vi": "Tập kích tuyến tiếp tế và đánh kỵ chiến linh hoạt bằng carbine, súng ngắn cùng kiếm cong.",
+      "lore_vi": "Cossack foederati Ruthenia thuộc những phụ trợ độc lập nhất Ravenna. Chiến thuật hỏa khí trên ngựa, cơ động thảo nguyên và tình huynh đệ nội bộ mạnh khiến họ hữu ích mọi nơi đội quân La Mã cứng nhắc sẽ quá chậm. Họ đánh đoàn vận tải, che điểm vượt sông và có thể xuống ngựa bắn carbine chính xác rồi lên ngựa lại. Trung thành dựa vào hiệp ước, đặc quyền và tiền trả hơn đồng hóa văn hóa, thỏa thuận hoàn toàn quen với Tây đế quốc sau mười ba thế kỷ thuê ngoại nhân bảo vệ lợi ích La Mã.",
+      "traits_vi": [
+        "Hỏa khí trên ngựa",
+        "Chiến tranh tập kích",
+        "Có thể xuống ngựa",
+        "Cơ động cao",
+        "Trung thành hợp đồng"
+      ],
+      "quote_vi": "“Hiệp ước của La Mã. Ngựa của chúng tôi.”"
+    },
+    {
+      "id": "rome_08",
+      "name_vi": "PHÁO BINH SẤM SÉT",
+      "class_vi": "Binh đoàn pháo La Mã · Yểm trợ công thành thuốc súng",
+      "role_vi": "Cung cấp đại bác, oanh kích và hỏa lực công thành La Mã hóa cho đạo quân dã chiến cùng mặt trận công sự.",
+      "lore_vi": "Ballistarii giữ tên cổ trong khi tiếp thu mọi loại pháo hữu dụng Ravenna gặp. Kho pháo nay gồm đại bác, pháo công thành nặng, máy phóng tên được bộ phận Vestigium gia cường và khí cụ công thành gây cháy phát triển từ thiết kế La Mã cũ. Kíp vẫn tổ chức quanh quân kỳ, numeri và lệnh nghi thức hóa quen mắt với sĩ quan Hậu kỳ Cổ đại. Chỉ tiếng sấm thay đổi. Ballistarii ít thử nghiệm hơn pháo Castilia nhưng dày dạn khốc liệt trong hạ tường và nuôi vây hãm dài.",
+      "traits_vi": [
+        "Kỹ thuật công thành",
+        "Pháo thuốc súng",
+        "Yểm trợ gây cháy",
+        "Oanh kích có phương pháp"
+      ],
+      "quote_vi": "“Đế quốc từng ném đá. Giờ nó ném sấm.”"
+    },
+    {
+      "id": "rome_16",
+      "name_vi": "BỐC SƯ ĐỎ",
+      "class_vi": "Bốc sư chiến tranh · Hỗ trợ nghi lễ Vestigium",
+      "role_vi": "Giải điềm, ổn định nghi thức và cố vấn chỉ huy về hiện tượng Vestigium tha hóa.",
+      "lore_vi": "Bốc sư Đỏ là nơi tôn giáo La Mã, tình báo chiến trường và nghiên cứu Vestigium khó tách rời. Họ xem máu, nội tạng, mẫu cộng hưởng và di vật chiếm được bằng phương pháp trông như lễ nghi cho tới khi dự đoán bắt đầu khớp diễn biến chiến trường. Mỗi phân đội mang dụng cụ, dao nghi lễ, bảng niêm phong và hỏa khí tự vệ. Họ không ném phép qua tuyến. Nguy hiểm nằm ở việc nói cho chỉ huy đế quốc biết khi nào địa điểm, xác hoặc di vật khai thác được, và khi nào nó sắp thành thứ tệ hơn.",
+      "traits_vi": [
+        "Đọc điềm",
+        "Phân tích Vestigium",
+        "Ổn định nghi lễ",
+        "Tác động sĩ khí",
+        "Trực tiếp chiến đấu thấp"
+      ],
+      "quote_vi": "“Thần linh không im lặng. Phần lớn lính chỉ không đọc nổi báo cáo.”"
+    },
+    {
+      "id": "rome_19",
+      "name_vi": "QUÂN THUẦN CHIẾN THÚ",
+      "class_vi": "Người điều khiển chiến thú · Yểm trợ quái vật",
+      "role_vi": "Điều khiển thú đột biến để phá đội hình, săn kẻ trốn và quét không gian công sự.",
+      "lore_vi": "Bestiarii có gốc từ người thuần thú, chuyên gia đấu trường và người giữ súc vật quân đội, nhưng chuồng hiện đại chứa những thứ chưa đấu trường nào trưng bày. Chó săn đột biến, lợn rừng bọc giáp, thú họ mèo dị dạng và loài săn mồi chịu ảnh hưởng Vestigium được nuôi hoặc bắt cho nhiệm vụ riêng. Người điều khiển mặc đồ lao động La Mã gia cường, mang carbine, sào gây sốc và xích trói, được luyện giết chính thú mình khi mất kiểm soát. Phân đội Bestiarii giống chiếc lồng di động đầy quyết định tồi Ravenna đã học vũ khí hóa hơn là một đơn vị đơn nhất.",
+      "traits_vi": [
+        "Chiến thú",
+        "Yểm trợ kinh hoàng",
+        "Lần dấu",
+        "Rủi ro kiểm soát",
+        "Hỏa khí người điều khiển"
+      ],
+      "quote_vi": "“Dây xích là một phần vũ khí.”"
+    },
+    {
+      "id": "rome_20",
+      "name_vi": "CỰ NHÂN TỬ VONG",
+      "class_vi": "Nỗi kinh hoàng công thành · Khí cụ xung kích quái vật",
+      "role_vi": "Phá cổng, nghiền bộ binh dày và biến đường tiếp cận được bảo vệ thành hoảng loạn.",
+      "lore_vi": "Colossi Mortis không phải loài tự nhiên. Chúng là sinh thể chiến tranh lắp ghép từ xác khổng lồ, giáp ghép, cơ bảo quản và khung Vestigium cho cả khối chuyển động với mục đích ghê tởm. Phiến La Mã cùng dấu đơn vị được bắt bu-lông thẳng vào thịt để ngay quái vật vẫn đọc được về hành chính với Ravenna. Colossi chậm, khó chở và không thể giấu, nhưng che giấu không phải chức năng. Chúng được thả khi đế quốc muốn tường, cổng hoặc đội hình hiểu rằng quy mô thông thường không còn áp dụng.",
+      "traits_vi": [
+        "Kinh hoàng",
+        "Phá cổng",
+        "Sức mạnh quái vật",
+        "Bền bỉ cực độ",
+        "Chậm",
+        "Hậu cần khó khăn"
+      ],
+      "quote_vi": "“Ngay quái vật cũng nhận một số hiệu.”"
+    },
+    {
+      "id": "nav26_rome_01",
+      "name_vi": "LIBURNA CẢNH GIỚI",
+      "class_vi": "Liburnian trinh sát · Che chắn ven bờ",
+      "role_vi": "Thăm dò lối tiếp cận ven bờ và giữ tiếp xúc phía trước hạm đội đế quốc.",
+      "lore_vi": "Tàu trinh sát đế quốc giữ thân hẹp, thấp cùng dãy chèo liên tục của liburnian, được phóng lớn để mang pháo nhẹ dưới bộ buồm thực dụng. Nó có thể dò vịnh nhỏ và lướt qua lúc lặng gió khi tàu lớn phải chờ gió. Người chèo đem lại độc lập chiến thuật nhưng cần không gian, nước và thức ăn, hạn chế triển khai dài. Pháo dùng cảnh báo và trì hoãn hơn là phân định hải chiến.",
+      "traits_vi": [
+        "Dãy chèo",
+        "Pháo nhẹ",
+        "Trinh sát ven bờ",
+        "Cơ động nước yên",
+        "Sức bền hạn chế"
+      ],
+      "quote_vi": "“Đại bàng thấy trước khi hạm đội tới.”"
+    },
+    {
+      "id": "nav26_rome_02",
+      "name_vi": "TRIREME MŨI HÚC",
+      "class_vi": "Galley húc · Phá đội hình",
+      "role_vi": "Đánh vào thân gỗ sơ hở và buộc tàu địch phá đội hình trong vùng nước chật.",
+      "lore_vi": "Mũi húc nhô bọc đồng được liên kết vào gỗ lớn phía trước, còn dãy chèo mở rộng tạo tốc độ áp sát ngắn mà dữ dội cho mũi. Pháo mũi nhẹ dọn đường trước va chạm. Thiết kế lệ thuộc góc thuận và mục tiêu không thể né; đòn hụt có thể xé khung của chính nó hoặc để nó mắc cạnh pháo đội vượt trội. Đô đốc dành nó cho vùng nước kín và chiến tuyến rối loạn.",
+      "traits_vi": [
+        "Mũi húc kết cấu",
+        "Bứt tốc mái chèo",
+        "Pháo mũi",
+        "Lệ thuộc góc",
+        "Rủi ro va chạm"
+      ],
+      "quote_vi": "“Một khoảng mở. Một đòn đánh.”"
+    },
+    {
+      "id": "nav26_rome_03",
+      "name_vi": "QUẠ CỦA QUÂN ĐOÀN",
+      "class_vi": "Tàu áp mạn · Xung kích cầu trên biển",
+      "role_vi": "Buộc sát tàu địch bất động và biến boong chiếm được thành chiến trường bộ binh.",
+      "lore_vi": "Galley rộng này mang cầu áp mạn có bản lề thay cho tháp đơn bấp bênh của tiền thân cổ. Xích móc cố định mục tiêu trước khi cầu dốc có khiên hạ từ giữa tàu. Pháo và sàn chiến đấu được bảo vệ yểm trợ vượt cầu. Kết cấu thêm làm boong chật và tăng trọng lượng trên mặt nước, khiến biển động và pháo địch chính xác là đe dọa nghiêm trọng trước khi quân đoàn binh giao chiến được.",
+      "traits_vi": [
+        "Cầu bản lề",
+        "Xích móc",
+        "Sàn có khiên",
+        "Học thuyết áp mạn",
+        "Nặng phần trên"
+      ],
+      "quote_vi": "“Khi cầu hạ xuống, biển hóa thành đường.”"
+    },
+    {
+      "id": "nav26_rome_04",
+      "name_vi": "QUINQUEREME SẤM RỀN",
+      "class_vi": "Galleass pháo binh · Pháo đội mũi",
+      "role_vi": "Tập trung hỏa lực nặng phía trước đánh phòng thủ cảng và tàu giữ lối hẹp.",
+      "lore_vi": "Quinquereme tiến hóa mở rộng mũi bè quanh bệ pháo gia cường, với dãy chèo phía sau vị trí bắn. Buồm đưa thân tàu giữa các trạm; chèo phối hợp căn hướng pháo khi gió không cho hướng thuận. Trọng lượng dồn trước cùng nhu cầu lao động biến nó thành tàu công thành chuyên dụng. Tàu địch tới được sườn có thể đánh nơi pháo mạnh nhất không đáp trả được.",
+      "traits_vi": [
+        "Pháo đội mũi nặng",
+        "Căn hướng bằng chèo",
+        "Bệ công thành",
+        "Thân rộng",
+        "Đáp trả sườn yếu"
+      ],
+      "quote_vi": "“Đưa mũi vào hướng bắn.”"
+    },
+    {
+      "id": "nav26_rome_05",
+      "name_vi": "DROMON MANG LỬA",
+      "class_vi": "Galley phun lửa · Công kích cảng tầm gần",
+      "role_vi": "Đuổi tàu khỏi bãi neo kín bằng vòi phun chất cháy tầm ngắn.",
+      "lore_vi": "Bồn được bảo vệ và thiết bị tạo áp lực bằng tay cấp cho vòi phun chất cháy đặt mũi. Chắn nhiệt cùng kho tách rời giảm nguy hiểm mà không loại bỏ nó. Mái chèo giữ tàu trên đường tiếp cận trong khi hạm đội chế áp phòng thủ. Hướng gió, rò rỉ và đạn địch có thể quay vũ khí chống chính thủy thủ, nên sĩ quan đế quốc chỉ tung dromon khi đường công kích cùng rút lui còn kiểm soát được.",
+      "traits_vi": [
+        "Vòi phun chất cháy",
+        "Bơm tay",
+        "Tiếp cận bằng chèo",
+        "Nhạy với gió",
+        "Nguy cơ cháy"
+      ],
+      "quote_vi": "“Biết gió trước khi mở van.”"
+    },
+    {
+      "id": "nav26_rome_06",
+      "name_vi": "HỎA THUYỀN",
+      "class_vi": "Hỏa thuyền hy sinh · Phong tỏa bãi neo",
+      "role_vi": "Đe dọa bãi neo chật và ép quân thủ cắt dây neo dưới hỏa lực hạm đội.",
+      "lore_vi": "Một thân tàu buồm chấp nhận hy sinh được bố trí các khoang chứa chất dễ cháy, ngòi cháy chậm và những móc sắt để mắc vào hệ thống dây buồm địch. Thủy thủ đoàn nhỏ điều khiển tàu cho tới lúc có thể hạ xuồng thoát thân, rồi để ngọn lửa hoàn tất chặng tiếp cận cuối cùng. Chiến thuật này tận dụng sự hỗn loạn và gió thuận hơn là độ chính xác. Gió đổi hướng, lửa bén sớm hoặc việc đối phương kịp kéo tàu ra xa đều có thể khiến con tàu bị tiêu phí trước khi chạm mục tiêu.",
+      "traits_vi": [
+        "Hầm dễ cháy",
+        "Móc mắc dây buồm",
+        "Xuồng thoát",
+        "Thân tàu hy sinh",
+        "Lệ thuộc gió"
+      ],
+      "quote_vi": "“Một thân tàu đổi lấy bãi neo trống.”"
+    },
+    {
+      "id": "nav26_rome_07",
+      "name_vi": "CHIẾN HẠM ĐẾ QUỐC",
+      "class_vi": "Chiến hạm gỗ hạng nặng · Chiến tuyến đế quốc",
+      "role_vi": "Duy trì pháo mạn đế quốc trong khi galley nhẹ đánh vào khoảng mở nó tạo ra.",
+      "lore_vi": "Thân buồm gỗ sâu kết hợp khung ngang La Mã, mũi mỏ nổi bật và hành lang giữa tàu được bảo vệ quanh hai tầng pháo. Pháo nặng phục vụ đánh tuyến thông thường, còn mái chèo dài tháo được hỗ trợ cơ động sát cảng thay vì đẩy tàu vượt đại dương. Kết cấu lai chắc nhưng tốn công. Khối lượng và hành lang lộ khiến hỗ trợ hạm đội thiết yếu trước địch nhanh, tầm xa.",
+      "traits_vi": [
+        "Hai tầng pháo",
+        "Khung nặng",
+        "Mũi mỏ",
+        "Mái chèo cảng",
+        "Nhu cầu lao động cao"
+      ],
+      "quote_vi": "“Giữ chiến tuyến tới khi galley tiến vào.”"
+    },
+    {
+      "id": "nav26_rome_08",
+      "name_vi": "SOÁI HẠM HẠM ĐỘI",
+      "class_vi": "Galleon chỉ huy · Điều phối hạm đội",
+      "role_vi": "Điều phối hải đội đế quốc và duy trì tín hiệu qua hoạt động ven bờ phân tán.",
+      "lore_vi": "Tàu chỉ huy kết hợp bộ buồm viễn dương với đuôi cong cao và sân tín hiệu mở của truyền thống hải quân La Mã. Phòng hải đồ được bảo vệ, dây buồm dự phòng và xuồng truyền tin hỗ trợ hạm đội pha tàu xung kích chèo với tàu buồm nặng. Pháo đội vừa phải giữ chỗ cho công việc chỉ huy. Đuôi nổi bật phô quyền uy và tạo mục tiêu hấp dẫn, còn cảng nông vẫn ngoài tầm sống đáy sâu của nó.",
+      "traits_vi": [
+        "Sân tín hiệu",
+        "Xuồng truyền tin",
+        "Dự trữ chỉ huy",
+        "Buồm viễn dương",
+        "Mục tiêu nổi bật"
+      ],
+      "quote_vi": "“Nhiều mũi tàu. Một quyền chỉ huy.”"
+    },
+    {
+      "id": "nav26_rome_09",
+      "name_vi": "VẬN TẢI HẠM QUÂN SỰ",
+      "class_vi": "Vận tải quân đoàn · Tiếp tế ven bờ",
+      "role_vi": "Chuyển phân đội quân đoàn và thiết bị công thành giữa cảng đế quốc cùng bãi biển đã giữ chắc.",
+      "lore_vi": "Oneraria quân sự phát triển thân chở hàng La Mã tròn thành tàu buồm vận tải rộng với xà bốc hàng nặng và khoang dự trữ bảo vệ. Mái chèo cùng cơ cấu lái hỗ trợ chặng cuối vào cảng, vài khẩu pháo bảo vệ lên tàu. Sức mạnh thực tiễn là số quân và vật tư đưa tới trong một chuyến. Nó không thể đánh xuyên phong tỏa và cần bãi đổ bộ an toàn trước khi hầm chật kín trở nên hữu dụng.",
+      "traits_vi": [
+        "Thân chở hàng tròn",
+        "Xà bốc hàng",
+        "Chuyên chở quân",
+        "Hỗ trợ vào cảng",
+        "Lệ thuộc hộ tống"
+      ],
+      "quote_vi": "“Quân đoàn hành quân từ cửa hầm tàu.”"
+    }
+  ]
+}

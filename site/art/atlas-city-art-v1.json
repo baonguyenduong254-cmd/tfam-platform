@@ -1,0 +1,19 @@
+{
+  "tool": "Built-in imagegen",
+  "source": "art/atlas-city-sheet-v1.png",
+  "cells": {
+    "columns": 4,
+    "rows": 2
+  },
+  "exports": [
+    "iberian",
+    "european",
+    "moorish",
+    "east-asian",
+    "persian",
+    "african",
+    "maritime",
+    "slavic"
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: a production sprite ATLAS for a high quality hand-painted 2D world map in Through Frost and Myth. Create ONE landscape transparent PNG sprite sheet, exactly FOUR COLUMNS by TWO ROWS, eight distinct small LARGE CITIES, each entirely contained in its equal-size cell with generous transparent margin, no overlap between cells. No text, labels, grid lines, UI or frames. Unified art direction: sophisticated painted miniature cityscapes for a frozen early-eighteenth-century alternate history atlas; fine architectural detail with natural organic silhouette, slightly elevated orthographic camera looking down about 55 degrees; muted ivory limestone, slate-blue shadows, weathered bronze, subtle warm amber window light, snow on rooftops. Render architecture as beautiful coherent little urban neighborhoods, not abstract symbols, emojis, icons or CAD. Soft irregular snow-covered terrain at the foundation that gently fades to REAL TRANSPARENCY with soft contact shadows, no circular pedestal, no tile base, no floating island, no hard cutout edge. Consistent northwest light, restrained painterly 2.5D, NOT photoreal, NOT shiny plastic 3D. Top row left to right: 1 Iberian royal capital with cathedral, palace and dense white stone rooftops; 2 northern European Gothic and baroque capital with narrow spires and slate roofs; 3 Moorish/Ottoman capital with layered ochre houses, tiled domes and slender minarets; 4 East Asian imperial capital with red walls and green glazed tiered palace roofs. Bottom row left to right: 5 Indian/Persian imperial city with sandstone courts, gardens and elegant domes; 6 West/Central African royal capital with earthen palace towers and dense walled compounds; 7 tropical maritime trading capital with timber and stone harbor architecture and a few tiny masts, snowy mist; 8 northern Slavic capital with timber-and-stone citadel, onion domes, steep snow-covered roofs. Each city must read as a distinct inhabited city, rich but legible when reduced to a small map vignette. Equal visual size and same camera for every cell. No people closeups, no flags, no giant monuments outside city, no text anywhere."
+}

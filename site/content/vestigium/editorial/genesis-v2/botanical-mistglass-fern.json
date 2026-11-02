@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-mistglass-fern",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Dương xỉ mọc trong bể rửa kính của một xưởng mài quặng. Bụi Vestigium nằm trong bùn dưới rễ; sương từ bể leo lên các đường gân rồi căng giữa những lá đối nhau. Khi người thợ đem cây ra sân khô, những ô cửa mờ vẫn dựng lại sau mỗi lần bị ngón tay chọc thủng.\n\nLá mới mang mép trong như thủy tinh non. Người giữ xưởng nuôi cả một hàng cây bên cửa thông khí, nhìn bụi xám mắc lại trên những tấm sương. Buổi tối, lũ trẻ thích áp mặt sau lá để khuôn mặt mình tan thành một bóng mềm trong khung cửa nhỏ.",
+    "lore_en": "Fern grew in a glass-washing tank at a mineral-grinding shop. Vestigium dust lay in the mud beneath its roots; mist climbed the veins and stretched between opposing leaves. When a worker carried it into the dry yard, its clouded windows rebuilt themselves after every puncture of a finger.\n\nNew leaves bore edges like young glass. The shop keeper raised a row by the air vent and watched grey dust catch upon the mist sheets. In the evening, children pressed their faces behind the fronds to dissolve into soft silhouettes within those little windows.",
+    "use_vi": "Dựng màng sương bắt bụi thô hoặc tạo màn che mờ cho góc làm việc.",
+    "use_en": "Raise mist membranes to catch coarse dust or make a translucent screen around a workspace.",
+    "limits_vi": "Rễ cần nước có lượng Vestigium rất nhỏ; quá nhiều làm lá trong giòn rồi gãy. Gió mạnh xé màng nhanh hơn cây tái tạo; màng chưa được chứng minh lọc khí độc hay mầm bệnh.",
+    "limits_en": "Roots need water carrying a tiny Vestigium trace; excess makes the translucent leaves brittle. Strong wind tears membranes faster than regrowth; filtration of toxic gases or pathogens has not been established.",
+    "skills": [
+      {
+        "name_vi": "Căng kính sương",
+        "name_en": "Stretch the Mistglass",
+        "description_vi": "Xếp hai lá sống đối nhau sau khi tưới rễ để sương căng thành mặt giữa chúng, giữ bụi lớn đang trôi nhẹ; chạm tay làm màng rách và rơi bụi đã giữ.",
+        "description_en": "Face two living leaves after watering the roots to stretch mist between them and catch gently drifting coarse dust; a touch tears the pane and drops its trapped dust."
+      },
+      {
+        "name_vi": "Khép màn lá",
+        "name_en": "Close the Frond Screen",
+        "description_vi": "Ghép các cặp lá thành hàng để nhiều ô mờ che đường nhìn trực tiếp trong khoảng gần; các khe giữa lá vẫn để ánh và vật nhỏ đi qua.",
+        "description_en": "Arrange leaf pairs in a row so cloudy panes obscure a direct close-range view; gaps between fronds still admit light and small objects."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cửa sổ sống",
+        "name_en": "Living Windows",
+        "description_vi": "Màng mọc theo cặp lá. Một lá héo làm ô kính nghiêng về phía còn sống, báo cây đang thiếu nước.",
+        "description_en": "Membranes grow between leaf pairs. A withered leaf tilts its pane towards the surviving side, warning of water shortage."
+      }
+    ]
+  }
+]

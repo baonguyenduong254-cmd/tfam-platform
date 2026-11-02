@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-footprint-clerk",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Tấm lau giày kho muối được nhuộm bằng thứ mực lẫn bụi quặng đen. Từng ngày người quản kho đứng lên nó trước lúc chép sổ. Một tối dấu giày mới xuất hiện bên cạnh bóng người mực, tay phẳng kéo dấu cũ khỏi vải như thu một trang đã dùng.\n\nGiặt xong, bóng vẫn trở về ở lần bước tiếp theo. Nó chỉ nhận đế giày, để người đi chân trần qua mà chẳng chép. Chủ kho cởi giày thử rồi cười vì lần đầu được thư ký cửa cho vào mà khỏi để chứng từ. Từ đó ông vẫn hỏi ai mang giày, thay vì tin dấu đế tự nói được tên người.",
+    "lore_en": "A salt-store boot cloth was dyed with ink containing black ore dust. Each day the steward stood upon it before making his entries. One evening a fresh print appeared beside an ink figure whose flat hand drew the old mark from the cloth like collecting a spent page.\n\nWashing left it able to return with the next step. It accepts soles and lets bare feet pass unrecorded. The steward tried removing his shoes and laughed at entering without a receipt for once. Ever since he still asks who wore the shoes instead of trusting a sole to name its owner.",
+    "use_vi": "Giữ và đối chiếu hình đế giày gần nhất trên tấm vải cửa.",
+    "use_en": "Retain and compare the latest shoe-sole pattern upon a doorway cloth.",
+    "limits_vi": "Chỉ một dấu, giày đổi chủ vẫn cùng hình. Dấu đế bùn quá dày mất nét; vải gấp trong lúc nhận tạo hình sai và cần làm lại lượt.",
+    "limits_en": "Only one print is kept; transferred shoes retain the same pattern. Thick mud blurs detail, while folded cloth distorts a reading and requires a fresh turn.",
+    "skills": [
+      {
+        "name_vi": "Nhận đế cuối",
+        "name_en": "Accept the Last Sole",
+        "description_vi": "Trải vải phẳng và để một giày bước đủ mặt để bóng in đường đế gần nhất bằng mực, thay dấu cũ.",
+        "description_en": "Lay the cloth flat and let one sole rest fully upon it so the figure inks its latest pattern over the old."
+      },
+      {
+        "name_vi": "Chỉ chỗ khác",
+        "name_en": "Point to the Difference",
+        "description_vi": "Đặt giày nghi vấn cạnh dấu đã lưu mà tránh giẫm lên vải để bóng chỉ các rãnh không khớp; đế mòn cần đánh giá lại bằng mắt.",
+        "description_en": "Set a questioned shoe beside the stored print without stepping on the cloth so the figure points to mismatched grooves; wear needs visual assessment."
+      },
+      {
+        "name_vi": "Chép ra giấy",
+        "name_en": "Copy Onto Paper",
+        "description_vi": "Áp giấy mỏng lên vải rồi gõ một lần cạnh dấu để người chép đẩy mực in sang, giữ bản trước lượt mới; giấy lấy đi chút mực cần nạp bù.",
+        "description_en": "Lay thin paper upon the cloth and tap beside the print so the clerk pushes an impression across before a fresh crossing; replenish the ink taken by paper."
+      },
+      {
+        "name_vi": "Gạt lượt cũ",
+        "name_en": "Clear the Old Turn",
+        "description_vi": "Lật mép vải rồi vuốt phẳng để bóng kéo dấu cũ xuống đường may, mở lượt trống mà không cần người giẫm thử; mực cặn cần giặt khi đường may đầy.",
+        "description_en": "Lift and smooth the cloth edge so the figure draws the old mark into its seam, opening a blank turn without a test step; wash built-up ink when the seam fills."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ghi giày ghi lượt",
+        "name_en": "Record the Shoe and the Turn",
+        "description_vi": "Người chép xóa dấu trước để nhận dấu sau, nên mọi bản cần lưu phải được chép khỏi vải trước lượt qua kế.",
+        "description_en": "The clerk erases the previous print for the next, so records must be copied before another crossing."
+      }
+    ]
+  }
+]

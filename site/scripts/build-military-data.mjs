@@ -1,0 +1,15 @@
+import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import path from 'node:path';
+const input=path.resolve(process.argv[2]||'data/military-source'),out=path.resolve('public/military');
+const en=JSON.parse(readFileSync(path.join(input,'units-en.json'),'utf8')),factions=JSON.parse(readFileSync(path.join(input,'factions-en.json'),'utf8')),vi=[];
+for(let i=1;i<=6;i++)vi.push(JSON.parse(readFileSync(path.join(input,'translations',`group${i}.json`),'utf8')));
+const unitVi=new Map(vi.flatMap(v=>v.units).map(u=>[u.id,u])),factionVi=new Map(vi.flatMap(v=>v.factions).map(f=>[f.id,f]));
+if(unitVi.size!==en.length||factionVi.size!==factions.length)throw Error('Translation coverage mismatch');
+const merged=en.map(u=>{const v=unitVi.get(u.id);if(!v)throw Error('Missing translation: '+u.id);for(const key of ['name_vi','class_vi','role_vi','lore_vi','quote_vi'])if(typeof v[key]!=='string'||!v[key].trim())throw Error(u.id+' missing '+key);if(v.traits_vi?.length!==u.traits_en.length)throw Error('Trait count mismatch: '+u.id);if(!existsSync(path.resolve('public'+u.artwork)))throw Error('Missing artwork: '+u.id);return {...u,...v,thumbnail:u.artwork.replace(/\.webp$/,'.thumb.webp')};});
+const source=JSON.parse(readFileSync(path.join(input,'source.json'),'utf8'));
+const version=createHash('sha256').update(JSON.stringify([merged,factions,vi.flatMap(v=>v.factions)])).digest('hex').slice(0,16);
+mkdirSync(out,{recursive:true});mkdirSync(path.join(out,'factions'),{recursive:true});
+const manifest={version,source_revision:source.revision,imported_at:source.imported_at,unit_count:merged.length,factions:factions.map(f=>{const rows=merged.filter(u=>u.faction_id===f.id),translated=factionVi.get(f.id);if(!translated)throw Error('Missing faction: '+f.id);for(const key of ['name_vi','doctrine_vi','lore_vi','quote_vi'])if(!translated[key]?.trim())throw Error('Missing faction field '+f.id+' '+key);const branches={};for(const u of rows)branches[u.branch]=(branches[u.branch]||0)+1;writeFileSync(path.join(out,'factions',f.id+'.json'),JSON.stringify(rows));return {...f,...translated,count:rows.length,branches,data_url:'/military/factions/'+f.id+'.json'};})};
+writeFileSync(path.join(out,'manifest.json'),JSON.stringify(manifest));
+console.log(JSON.stringify({factions:manifest.factions.length,units:merged.length,version}));

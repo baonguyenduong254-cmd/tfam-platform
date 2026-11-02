@@ -1,0 +1,348 @@
+[
+  {
+    "id": "device-043",
+    "lore_vi": "Đồng hồ hai mặt xuất hiện khi Veinte giữ một cửa kho đang sập để những người bên trong đi ra. Mặt trước chạy cùng thế giới; mặt sau đứng ở tiếng then vừa gãy. Giữa hai mặt là khoảng một việc đã bắt đầu mà vẫn chưa được khép.\n\nMora nhận một thao tác có đường kết thúc rõ, rồi trao cho người mang những lượt hành động nằm trong khoảng ấy. Người giữ có thể đặt chống vào dưới cửa, rút một bàn tay khỏi cơ cấu hoặc xoay một tấm khiên trước lúc cú chạm hoàn tất. Việc bên ngoài vẫn tiếp diễn. Khi mặt sau đuổi kịp mặt trước, phần đã được thay đổi trở thành điều kiện thật của kết quả.\n\nNhững người dùng đồng hồ giỏi nhất thường làm việc cùng thợ và y sĩ: họ chuẩn bị sẵn thứ cần đưa vào khoảng vay. Một khoảng mở được trao cho đôi tay trống chỉ kết thúc bằng cùng tiếng gãy đã chờ từ đầu.",
+    "lore_en": "The double-faced clock appeared while Veinte held a collapsing storeroom door for those within. Its front kept the world’s time; its reverse stopped at the breaking latch. Between them lay the interval of an act begun but not yet closed.\n\nMora receives an operation with a clear ending and gives its bearer actions within that interval. The keeper can place a prop beneath a door, withdraw a hand from machinery or turn a shield before contact completes. Events outside continue. When the reverse catches the front, what has been altered becomes a real condition of the result.\n\nIts most accomplished users work beside craftsmen and surgeons, preparing what the borrowed interval needs. An opening granted to empty hands ends with the same breaking sound that waited at its beginning.",
+    "use_vi": "Mở một khoảng thao tác trong tiến trình chưa khép để người giữ chủ động can thiệp trước khi kết quả tới.",
+    "use_en": "Opens an acting interval within an unfinished process so its keeper can intervene before the result arrives.",
+    "limits_vi": "Chỉ nhận một tiến trình đang diễn ra và một điểm kết thúc đã xác định. Những sự kiện ngoài tiến trình vẫn tiếp tục; dùng giờ vay để đổi mục tiêu làm hai mặt mất khớp và khép khoảng ngay.",
+    "limits_en": "Receives one unfolding process with an identified ending. Events beyond it continue; changing the purpose during borrowed time misaligns the faces and immediately closes the interval.",
+    "skills": [
+      {
+        "name_vi": "Nhận hồi chưa khép",
+        "name_en": "Receive the Unclosed Interval",
+        "description_vi": "Gắn mặt sau với thời điểm khởi phát của một tiến trình chưa hoàn tất.",
+        "description_en": "Binds the reverse face to the start of an incomplete process."
+      },
+      {
+        "name_vi": "Hành động giữa hai mặt",
+        "name_en": "Act between the Faces",
+        "description_vi": "Cho người mang can thiệp trong khoảng được đồng hồ giữ, để điều kiện mới ảnh hưởng kết quả.",
+        "description_en": "Lets the bearer intervene within the retained interval so new conditions affect the outcome."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hai giờ cùng thật",
+        "name_en": "Two Times Equally Real",
+        "description_vi": "Mặt trước và sau giữ hai mốc của cùng một việc; chênh lệch nhìn thấy là phần thao tác còn được vay.",
+        "description_en": "The faces retain two points of one event; their visible difference is the remaining borrowed interval."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "name_vi": "Veinte. Song Diện Hoãn Chung Mora",
+    "name_en": "Veinte. Two-Faced Interval Clock Mora",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 20,
+      "label": "Veinte",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Người mang số 20",
+    "owner_en": "Bearer of Number 20",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu; hình thể giữ theo ảnh đã có.",
+      "note_en": "One number-bound deployment system; its shape follows the existing illustration."
+    },
+    "classification_status": "editorial",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "armament-collection-7-03",
+    "lore_vi": "Integritas có một đường đen chạy dọc sống bạc như chỉ khâu trên vết thương đã kín. Treinta y Ocho đặt lưỡi vào hai mặt gãy, và đường đen nhận tên của vật trước lúc nó vỡ. Những mảnh ở xa cùng rung lên khi được gọi về trong căn tính ấy.\n\nQuyền năng của kiếm nằm ở việc cắt đường chia ra khỏi một vật. Một cổng thành bị phá, chiếc tàu tan thành gỗ và những mảnh kính đã thất lạc có thể nhận lại quan hệ nguyên vẹn. Vật liệu từng bị mang đi dùng vào thứ khác sẽ đòi được nhận diện; gọi nó trở về có thể làm trống chính chỗ người đời sau đã xây bằng nó.\n\nNgười cận vệ giữ sổ về từng lần phục hồi và nơi các phần đã được lấy lại. Mỗi đường chia được kiếm nhận nằm thêm một đoạn trên sống đen, chờ được đặt xuống một vật phế đã chọn để khép công việc. Integritas có thể trả sự nguyên vẹn cho một thành phố; những người sống vẫn phải quyết định thành phố nào họ đang muốn dựng lại, và ai đang ở trên phần vật liệu được gọi tên.",
+    "lore_en": "Integritas bears a black line along its silver spine like stitching upon a closed wound. Treinta y Ocho sets the blade between broken faces, and the line receives the object’s name before it broke. Distant portions tremble when called back into that identity.\n\nThe sword’s authority is to cut the division out of an object. A shattered gate, a ship reduced to timber or lost fragments of glass can regain their relationship of wholeness. Material reused elsewhere must be identified; calling it back can empty the very place later people built with it.\n\nThe Guard keeps a ledger of restorations and the sources of reclaimed portions. Each received division adds a length to the black spine, waiting to be laid into chosen scrap to close the work. Integritas can return wholeness to a city; the living must still decide which city they seek to rebuild, and who stands upon the material being named.",
+    "use_vi": "Nhận căn tính của một vật vô tri trước lúc vỡ, gọi đúng phần về và đưa đường chia sang nơi khác để phục hồi tính nguyên vẹn.",
+    "use_en": "Receives an inanimate object’s identity before fracture, recalls its true portions and transfers division elsewhere to restore wholeness.",
+    "limits_vi": "Cần các mặt gãy hoặc dấu đủ để nhận đúng vật. Phần được gọi là vật thật, kể cả vật đã được tái dùng; phục hồi có thể phá cấu trúc đang giữ chúng. Kiếm không tự xác lập căn tính của người sống hoặc hồi sinh người chết.",
+    "limits_en": "Requires broken faces or sufficient traces to identify the object. Recalled portions are real material, including reused material; restoration can break structures holding them. The sword does not independently establish a living person’s identity or resurrect the dead.",
+    "skills": [
+      {
+        "name_vi": "Đọc căn tính gãy",
+        "name_en": "Read the Broken Identity",
+        "description_vi": "Nhận những phần từng thuộc cùng một vật qua mặt chia còn dấu.",
+        "description_en": "Recognises portions once belonging to one object through surviving division-marks."
+      },
+      {
+        "name_vi": "Gọi phần nguyên vẹn",
+        "name_en": "Recall the Whole",
+        "description_vi": "Đưa đúng phần trở lại quan hệ của vật được nhận, qua các đường chia mà kiếm đã chạm.",
+        "description_en": "Returns true portions to the received object’s relationship through divisions the sword has touched."
+      },
+      {
+        "name_vi": "Đặt đường chia xuống",
+        "name_en": "Lay the Division Down",
+        "description_vi": "Chuyển đường chia được giữ trên sống kiếm vào vật phế đã chọn để khép lần phục hồi.",
+        "description_en": "Transfers division retained upon the spine into selected scrap to close the restoration."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một vật có lịch sử",
+        "name_en": "An Object with a History",
+        "description_vi": "Kiếm nhận sự tiếp nối vật liệu và căn tính, để mỗi lần phục hồi liên quan những nơi các phần thật đã đi tới.",
+        "description_en": "The sword receives continuity of material and identity, linking restoration to places its real portions have reached."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "name_vi": "Treinta y Ocho. Hồi Nguyên Ngân Kiếm Integritas",
+    "name_en": "Treinta y Ocho. Wholeness-Restoring Silver Sword Integritas",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 38,
+      "label": "Treinta y Ocho",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Người mang số 38",
+    "owner_en": "Bearer of Number 38",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu; hình thể giữ theo ảnh đã có.",
+      "note_en": "One number-bound deployment system; its shape follows the existing illustration."
+    },
+    "classification_status": "editorial",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "mineral-ngoc-mot-hat-muoi",
+    "lore_vi": "Hạt muối đen được tìm trong viên ngọc ở đáy một giếng đã cạn. Giọt nước đầu tiên chạm mặt đá mang vị biển mà người khai giếng chỉ biết qua lời tổ mẫu. Khi giọt rơi xuống nền, một vệt sóng chạy trên cát khô và vỏ sò vùi sâu bắt đầu mở miệng.\n\nBiển trong Ngọc Một Hạt Muối giữ căn tính của một nơi đã bị thời đại lấy mất. Nước được viên ngọc nhận có thể mở thành một phần biển ấy trên vùng đất còn dấu bờ cũ. Người đứng trong ranh nghe sóng, chịu sức nước và nhìn thấy đường chân trời của một biển từng thuộc về thế giới. Những con tàu còn nằm trong cát có thể được chạm tới qua mặt nước đã trở về.\n\nKhi ranh khép, đất khô trở lại nhưng người và vật đã được đưa ra vẫn ở ngoài. Viên ngọc nhẹ dần sau các lần mở. Người giữ tranh luận đó là phần biển bị dùng mất, hay thế giới đang thôi gánh một lịch sử đã từng bị chôn. Họ lưu mọi dấu bờ từng nhận, vì gọi sai nơi có thể trả lại một đáy sâu thay cho dải nước người dùng đã tưởng mình hiểu.",
+    "lore_en": "The black grain was found within a gem at the bottom of a dry well. The first drop touching its face tasted of a sea its finder knew only through a grandmother’s account. When it reached the ground, a wave-line crossed dry sand and deeply buried shells began opening.\n\nThe sea within One Grain of Salt retains the identity of a place taken by time. Water received by the gem can open into a portion of that sea upon land still bearing its former shore. Within the boundary people hear surf, bear the water’s weight and see the horizon of a sea once belonging to the world. Ships still lying in sand can be reached through returned water.\n\nWhen the boundary closes, dry land returns, while people and objects brought out remain beyond it. The gem grows lighter after openings. Its keepers dispute whether the sea is being spent or the world is relinquishing the weight of buried history. They retain every recognised shore-mark: a mistaken place can return an abyss in place of the shallows its user believed understood.",
+    "use_vi": "Mở một phần biển đã mất lên vùng còn dấu bờ của chính biển ấy, cho phép đi vào, cứu tìm hoặc đưa vật ra trước khi khép.",
+    "use_en": "Opens a portion of a lost sea upon land bearing its shore-traces, allowing entry, recovery and removal before closure.",
+    "limits_vi": "Cần nước chạm ngọc, dấu bờ đúng nguồn và một ranh được nhận. Người trong ranh chịu hiểm họa thật của biển cũ. Đá nhẹ dần theo các lượt mở; nguồn biển trong hạt và mức còn lại chưa được giải thích hoàn toàn.",
+    "limits_en": "Requires water touching the gem, a matching shore-trace and a received boundary. Those within face the old sea’s real hazards. The stone lightens with openings; the grain’s sea and remaining extent are not fully understood.",
+    "skills": [
+      {
+        "name_vi": "Nhận vị biển",
+        "name_en": "Receive the Sea’s Taste",
+        "description_vi": "Đối chiếu nước cùng dấu bờ để nhận phần biển đã mất có thể gọi.",
+        "description_en": "Matches water and shore-trace to receive the lost sea that can be called."
+      },
+      {
+        "name_vi": "Mở hải giới",
+        "name_en": "Open the Sea-Boundary",
+        "description_vi": "Cho phần biển đã nhận hiện hữu trong ranh trên đất còn thuộc lịch sử của nó.",
+        "description_en": "Makes the received sea present within a boundary upon land belonging to its history."
+      },
+      {
+        "name_vi": "Khép bờ cũ",
+        "name_en": "Close the Former Shore",
+        "description_vi": "Thu phần biển về ngọc sau khi người giữ rút đường gọi; những vật đã đưa khỏi ranh ở lại ngoài.",
+        "description_en": "Withdraws the sea into the gem when the calling path is closed; objects already removed remain outside."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển còn căn tính",
+        "name_en": "A Sea Retaining Identity",
+        "description_vi": "Quyền năng đi theo một biển cụ thể cùng dấu của nó, không nhận mọi nước mặn làm cùng nguồn.",
+        "description_en": "Its authority follows one particular sea and its traces, rather than treating all salt water as one origin."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "botanical-thermal-balance-orchid",
+    "lore_vi": "Hai cánh hổ phách và lam của Lan Cân Nhiệt vốn nằm trên một thân cây mọc qua vách lò ươm. Một phía chịu sức nóng, phía kia phủ băng, còn củ ở giữa tiếp tục sống. Qua những mùa rễ đan kín đường vách, cây học lấy quan hệ hai phía thay cho một mức ấm duy nhất.\n\nKhi cánh được dẫn tới hai khoang và rễ còn liền, lan có thể đưa phần nóng lạnh nó đã nhận từ bên này sang bên kia, kể cả theo chiều khiến bên lạnh lạnh thêm. Người làm vườn đặt cánh lam vào kho, cánh hổ phách cạnh lò; thợ luyện kim dùng một chậu lan để tách chỗ giữ phôi khỏi chỗ cần hạ nhiệt.\n\nCác lớp vỏ củ sẫm dần theo chênh lệch đang mang. Người trồng thêm nước, đổi khoang hoặc cho cây nghỉ khi rễ co lại. Trong một khu trú mùa đông, chăm được chậu lan có thể quyết định kho thuốc và luống rau cùng tồn tại cạnh một lò chung.",
+    "lore_en": "The Thermal-Balance Orchid’s amber and blue petals belonged to a plant growing through a nursery-furnace wall. One side bore heat, the other ice, while the bulb between survived. Through seasons in which roots filled the wall-path, the plant learned the relationship of two sides rather than one degree of warmth.\n\nWhen its petals are led into two chambers with roots intact, the orchid can carry received heat-and-cold from one side to the other, even in a direction making the colder side colder. Gardeners set blue petals in stores and amber beside a furnace; metalworkers use a plant to separate a hot holding-place from one needing cooling.\n\nBulb-layers darken with the difference they carry. Keepers add water, change chambers or rest the plant as roots contract. Within a winter refuge, tending the orchid can decide whether medicine stores and vegetable beds survive beside one shared furnace.",
+    "use_vi": "Dẫn quan hệ nóng lạnh giữa hai khoang đã nối vào cùng cây, phục vụ sưởi, bảo quản và gia công.",
+    "use_en": "Conducts the relationship of heat and cold between two chambers linked through one plant, supporting heating, storage and manufacture.",
+    "limits_vi": "Cần rễ sống liền, nước và hai vùng mà cây đã nhận. Chênh lệch vượt sức cây làm củ rạn; cắt cánh hoặc để rễ khô phá đường dẫn. Người dùng phải theo dõi vật trong cả hai khoang.",
+    "limits_en": "Requires intact living roots, water and two regions received by the plant. Excess difference cracks its bulb; severed petals or dry roots break conduction. Both chambers’ contents require attention.",
+    "skills": [
+      {
+        "name_vi": "Nối hai cực",
+        "name_en": "Join the Two Poles",
+        "description_vi": "Nhận hai vùng qua cánh hổ phách và lam trong cùng một hệ rễ.",
+        "description_en": "Receives two regions through amber and blue petals within one root system."
+      },
+      {
+        "name_vi": "Chuyển nhiệt có hướng",
+        "name_en": "Directed Thermal Transfer",
+        "description_vi": "Dẫn phần nóng lạnh giữa hai vùng theo hướng người trồng thiết lập bằng đường cánh.",
+        "description_en": "Carries heat-and-cold between the regions along a direction established through the petals."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Củ mang chênh lệch",
+        "name_en": "Bulb Bearing Difference",
+        "description_vi": "Màu vỏ và độ co của rễ biểu hiện mức vận hành của cây.",
+        "description_en": "Bulb colour and root contraction display the plant’s working condition."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "botanical-twelve-knot-root",
+    "lore_vi": "Rễ Mười Hai Nút mọc dưới một máy nước có bánh cam gãy. Nhựa len vào những chỗ chốt từng chạm nhau, còn mười hai bướu vàng lớn theo đúng vòng lặp mà máy đã mất. Người thợ tháo trục nghe tiếng gõ tiếp tục chạy quanh rễ trong lúc guồng đứng yên.\n\nMỗi bướu nhận một xung và khoảng chờ, rồi trao lượt sang bướu kế. Khi được gắn với chốt cơ khí, rễ giữ được một trình tự vận hành: mở van, chờ nước đầy, đổi đường bơm, nhả tải. Xưởng dệt, cối xay và khu ươm dùng cùng giống cây theo những chuỗi rất khác nhau.\n\nNgười vận hành cần hiểu thao tác mình gửi vào từng nút. Rễ lặp đúng cả lỗi đã dạy, và các thân khác nguồn ghép vào chỉ chảy nhựa. Phường thợ vì thế giữ người trồng cạnh thợ máy, chăm một hệ sống có thể mang trật tự công việc qua nhiều ca liên tiếp.",
+    "lore_en": "Twelve-Knot Root grew beneath a water-machine with a broken cam. Sap entered the places where pegs had once met, and twelve golden knots followed the cycle the machine had lost. The smith removing its shaft heard knocking continue around the root while the wheel stood still.\n\nEach knot receives an impulse and a waiting interval, then passes its turn onward. Attached to mechanical catches, the root retains a working sequence: open a valve, wait for a vessel, redirect a pump, release a load. Weaving shops, mills and nurseries teach the same plant very different cycles.\n\nAn operator must understand what is entrusted to each knot. The root repeats taught errors faithfully, while grafts from unrelated stems merely bleed sap. Guilds therefore keep growers beside mechanicians, tending a living system that can carry the order of work across successive watches.",
+    "use_vi": "Giữ và lặp một chuỗi tối đa mười hai thao tác hoặc khoảng chờ qua các đầu nối cơ khí.",
+    "use_en": "Retains and repeats a sequence of up to twelve operations or waiting intervals through mechanical connections.",
+    "limits_vi": "Mười hai nút phải thuộc cùng thân còn sống. Tổn thương một nút cắt chuỗi; cây cần nhựa, nước và thời gian hồi. Trình tự sai vẫn được thực hiện đúng như đã dạy.",
+    "limits_en": "The twelve knots must belong to one living stem. A damaged knot breaks the chain; the plant needs sap, water and recovery. A faulty sequence is performed as faithfully as taught.",
+    "skills": [
+      {
+        "name_vi": "Ghi lượt",
+        "name_en": "Record a Turn",
+        "description_vi": "Cho từng bướu nhận một xung cùng khoảng chờ tương ứng.",
+        "description_en": "Lets each knot receive an impulse and its associated wait."
+      },
+      {
+        "name_vi": "Tuần hoàn mười hai nút",
+        "name_en": "Twelve-Knot Cycle",
+        "description_vi": "Truyền lượt qua các bướu rồi trở lại đầu khi hệ đã nhận tín hiệu khép vòng.",
+        "description_en": "Passes turns through the knots and returns to the beginning upon a received closing signal."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thứ tự sống",
+        "name_en": "A Living Order",
+        "description_vi": "Nhịp nằm trong một cơ thể thực vật liên tục, khiến việc nuôi cây là một phần bảo trì máy.",
+        "description_en": "The sequence resides in a continuous plant body, making cultivation part of machine maintenance."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "botanical-dawnbearing-white-pine",
+    "lore_vi": "Bạch Tùng được tìm trong hầm ươm đã qua một mùa không mở cửa. Thân cây thấp, lá hồng vàng, nhưng mỗi sớm cả luống non đều nghiêng về nó. Vòng gỗ giữ nhịp một bình minh mà mặt đất phía trên đã lâu không còn nhận đúng hẹn.\n\nKhi rễ chạm đủ các mép của một nền trồng, cây có thể cho nơi ấy một ngày sống riêng. Ánh sáng mọc dần từ thân, luân phiên sắc cùng những khoảng nghỉ mà cây trong vùng nhận như ngày thật. Người và sinh vật trú dưới nhịp ấy tìm lại được thời gian thức, ngủ và lớn lên ngay giữa mùa tối.\n\nNhững nhà vườn quanh Bạch Tùng trở thành nơi phải giữ cả đất, nước và đường tiếp tế. Bình minh giúp cây quang dưỡng; nó vẫn cần rễ có chất để nuôi quả, nền đủ ấm để sống và người gieo biết mùa của từng giống. Một cây thấp có thể đổi tương lai của cả khu dân cư bằng những điều dân cư ấy tiếp tục làm quanh ánh lá.",
+    "lore_en": "The White Pine was found in a nursery shut through a season. Its trunk was low and its needles rose-gold, yet each morning the seedlings turned towards it. Its growth-rings retained the rhythm of a dawn the ground above had long ceased receiving on time.\n\nWhen roots reach enough edges of a growing-bed, the tree can give that place a day of its own. Light rises gradually from the trunk, passing through colours and rests that plants within receive as a real day. People and creatures sheltered in the rhythm recover a time to wake, sleep and grow amid the dark season.\n\nGardens around it become places whose soil, water and supply routes must all be kept. Dawn supports growth through light; roots still need substance to feed fruit, ground warm enough to live and sowers who know each crop’s season. One small tree can change a settlement’s future through what its inhabitants continue doing around its luminous needles.",
+    "use_vi": "Thiết lập nhịp ngày có ánh sáng sống cho vùng rễ đã nhận, duy trì sinh cảnh và canh tác qua mùa tối.",
+    "use_en": "Establishes a living daylight rhythm for a root-received region, sustaining habitat and cultivation through the dark season.",
+    "limits_vi": "Phạm vi theo mạng rễ còn liền và nền đã được nhận. Cây cần nước, khoáng và chăm sóc; ánh ngày không tự tạo đất màu, thức ăn hay nền chống rét. Bứng rễ làm nhịp vùng mất ổn định cho tới khi được nhận lại.",
+    "limits_en": "Its reach follows intact roots and received ground. The tree needs water, minerals and care; daylight does not itself supply fertile soil, food or protection from freezing. Uprooting destabilises the region’s rhythm until it is received anew.",
+    "skills": [
+      {
+        "name_vi": "Nhận miền rễ",
+        "name_en": "Receive the Root-Region",
+        "description_vi": "Gắn các điểm rễ với nền trồng để xác lập nơi có thể trao nhịp ngày.",
+        "description_en": "Binds root-points to a growing-bed, establishing where daylight rhythm may be granted."
+      },
+      {
+        "name_vi": "Bình minh mọc rễ",
+        "name_en": "Rooted Dawn",
+        "description_vi": "Triển khai chu kỳ ánh sáng mà cây và sinh vật trong vùng nhận như một ngày sống.",
+        "description_en": "Unfolds a light-cycle received by plants and creatures within as a living day."
+      },
+      {
+        "name_vi": "Giữ mùa tối",
+        "name_en": "Hold through the Dark Season",
+        "description_vi": "Duy trì nhịp khi trời ngoài vùng vẫn tối, cho phép một sinh cảnh có thời gian sinh trưởng riêng.",
+        "description_en": "Maintains the rhythm while the outer sky stays dark, giving a habitat its own growing time."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cây nhỏ, ngày có thật",
+        "name_en": "A Small Tree, a Real Day",
+        "description_vi": "Chiều cao của cây và phạm vi nhịp ngày là hai điều khác nhau; mạng rễ xác định vùng chứ không phải tầm bóng thân.",
+        "description_en": "Tree height and daylight reach are distinct; roots define the region rather than the trunk’s shadow."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "entity-the-burier-of-cannon-echoes",
+    "lore_vi": "Một hầm pháo bỏ hoang giữ quá nhiều lần nổ trong cùng lớp đất. Tiếng cũ trở về mỗi khi người dọn chạm xẻng vào nền, cho tới ngày một bóng áo đất bước lên với hai miếng đồng che tai. Nó hỏi tiếng nào còn cần được nghe, rồi gom phần dư thành từng nắm tối trong tay.\n\nNgười Chôn Tiếng Đại Bác nhận dư âm đã bám vào đất, tường hoặc khí cụ. Nó có thể kéo một trường tiếng dội xuống những hốc chôn, cho người đang ở đó nghe lại đồng đội và người mắc kẹt. Trước trận mới, cận vệ tìm nó để khép các vòng tiếng nổ đang khiến một hầm hoặc thành phố tiếp tục run theo trận cũ.\n\nThực thể ghét người kể chiến công thay cho việc nói rõ mình muốn giữ ai khỏi âm nào. Nó đánh dấu nơi đã chôn và yêu cầu được để yên những hốc ấy. Đất bị xới trả phần tiếng về, đôi khi bằng cả một chuỗi nổ mà người đào tưởng đã thuộc quá khứ.",
+    "lore_en": "An abandoned gun-chamber held too many explosions within the same earth. Old sound returned whenever a clearing shovel touched its floor, until an earth-robed figure emerged with copper covers over its ears. It asked which sounds still needed hearing, then gathered the remainder as dark handfuls.\n\nThe Burier receives echoes attached to earth, walls or instruments. It can draw a field of reverberation into burial-hollows, allowing those present to hear companions and trapped people again. Before renewed fighting, the Guard seeks it to close circuits of explosions still shaking a chamber or city with an old battle.\n\nIt dislikes tales of victory offered instead of a clear account of whom someone wishes protected from which sound. The being marks its burials and asks that they be left undisturbed. Excavation returns their contents, sometimes as a sequence of detonations the diggers believed belonged to the past.",
+    "use_vi": "Thu và chôn các trường dư âm đã nhận, tách tiếng dội khỏi vùng cần nghe hoặc khỏi công trình đang bị cộng hưởng.",
+    "use_en": "Receives and buries fields of echo, separating reverberation from a place needing hearing or a resonating structure.",
+    "limits_vi": "Cần nhận đúng âm và chỗ đã giữ nó. Chôn âm không chặn mảnh pháo, lửa hay mọi sức phá trực tiếp. Đào hốc đã chôn làm âm trở lại; sự hợp tác phụ thuộc lựa chọn của thực thể.",
+    "limits_en": "Requires recognition of a sound and the place retaining it. Burial stops neither fragments, fire nor every direct destructive effect. Digging a burial releases its sound; cooperation depends upon the being’s choice.",
+    "skills": [
+      {
+        "name_vi": "Bốc lớp dư âm",
+        "name_en": "Lift an Echo-Layer",
+        "description_vi": "Tách một trường tiếng dội cùng nguồn khỏi vật hoặc vùng đang giữ.",
+        "description_en": "Separates a same-origin field of reverberation from its retaining object or region."
+      },
+      {
+        "name_vi": "Chôn tiếng",
+        "name_en": "Bury the Sound",
+        "description_vi": "Cho dư âm nhận một hốc đất làm nơi tiếp tục ngân thay vùng cần bảo vệ.",
+        "description_en": "Gives the echo an earthen hollow in which to continue instead of the protected place."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một chủ thể biết từ chối",
+        "name_en": "A Subject Able to Refuse",
+        "description_vi": "Thực thể chọn âm sẽ nhận và yêu cầu người dùng tôn trọng các mốc chôn.",
+        "description_en": "The being chooses which sounds to receive and asks users to respect its burial marks."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "Kiệm lời, ghét khoe chiến công và hỏi kỹ mục đích trước khi nhận việc. Nó nhớ những người quay lại giữ lời về các hốc chôn.",
+    "behavior_en": "Taciturn, dislikes boasting of victory and questions a purpose before accepting work. It remembers those returning to honour their promises about burial-hollows.",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  },
+  {
+    "id": "entity-the-keeper-of-the-unburnt-library",
+    "lore_vi": "Người áo tro bước ra từ kho sách cháy khi những người sống sót cùng kể lại một trang họ từng đọc. Các câu hiện thành giấy sáng quanh tay nó. Một người nhớ thiếu, giấy chừa trắng; hai người nhớ khác, hai trang đứng cạnh nhau thay vì ép chữ thành một lời duy nhất.\n\nThư Viện Chưa Cháy lớn lên từ ký ức được trao tự nguyện. Những người kể dành một giấc ngủ để thực thể xếp lại các trang, rồi có thể trở vào thư viện trong giấc kế để đọc, chép và đối chiếu. Một thành phố mất kho luật, một phường mất sổ máy hay một gia đình mất thư đều có thể tìm tới cùng một giá sách.\n\nCác bản sao mang ra là chữ người sống đã chép bằng mực thật. Thực thể giữ cả chỗ do dự và nguồn kể, để thư viện tiếp tục làm việc như một nơi có nhiều nhân chứng. Nó đang cứu điều lửa đã lấy qua những phần con người còn giữ được, và để phần chưa ai biết đứng nguyên thành khoảng trống.",
+    "lore_en": "The ash-robed keeper emerged from a burned archive when survivors recounted a page they had read. Sentences became luminous paper around its hands. Where memory failed, the sheet remained blank; where two people differed, two pages stood beside one another instead of forcing the words into one account.\n\nThe Unburnt Library grows from memories freely entrusted. Narrators offer a sleep in which the being arranges their pages, then may return in their next sleep to read, copy and compare. A city losing its laws, a guild losing its machine-books and a family losing letters can all approach the same shelf.\n\nCopies carried out are words the living have written in real ink. The being preserves hesitation and attribution so the library works as a place of many witnesses. It rescues what fire took through the portions people still retain, allowing what nobody knows to remain an open space.",
+    "use_vi": "Dựng thư viện có thể đọc trong giấc ngủ từ những văn bản người thật còn nhớ, giữ nhiều lời chứng và cho chép lại ra ngoài.",
+    "use_en": "Builds a sleep-accessible library from texts real people remember, preserves multiple testimonies and allows copying into the outer world.",
+    "limits_vi": "Cần người từng đọc tự trao ký ức và thời gian ngủ. Nhớ sai vẫn thành trang sai; phần chưa đọc không tự được điền. Người chép phải dùng vật liệu thật và giữ nguồn nếu muốn bản sao có giá trị chứng cứ.",
+    "limits_en": "Requires a former reader’s voluntary memory and sleeping time. Mistaken recollection becomes a mistaken page; unread portions are not supplied. Copyists need real materials and attribution for evidentiary value.",
+    "skills": [
+      {
+        "name_vi": "Nhận trang trong người đọc",
+        "name_en": "Receive the Reader’s Page",
+        "description_vi": "Dựng chữ theo phần văn bản một người thực sự còn nhớ.",
+        "description_en": "Forms text from the portion a reader genuinely retains."
+      },
+      {
+        "name_vi": "Mở thư viện chưa cháy",
+        "name_en": "Open the Unburnt Library",
+        "description_vi": "Cho người đã kết lời hẹn trở vào miền đọc qua giấc ngủ.",
+        "description_en": "Admits those with an established appointment to its reading-domain through sleep."
+      },
+      {
+        "name_vi": "Giữ các bản khác nhau",
+        "name_en": "Preserve Differing Accounts",
+        "description_vi": "Đặt những lời nhớ khác cạnh nhau cùng nguồn kể thay vì hòa chúng thành một sự thật duy nhất.",
+        "description_en": "Sets differing recollections beside their sources rather than merging them into one asserted truth."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khoảng trắng có nguồn",
+        "name_en": "Attributable Blank Spaces",
+        "description_vi": "Phần thiếu và do dự được giữ như dấu của giới hạn nhân chứng.",
+        "description_en": "Absences and hesitation remain as marks of each witness’s limits."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "Điềm đạm, thích người chép trả bút về đúng chỗ. Nó để người kể rời đi khi mệt và thường giữ một ghế trống cho người chưa đủ can đảm nhớ lại.",
+    "behavior_en": "Calm, fond of copyists returning pens to their place. It lets tired narrators leave and often keeps a chair for someone not yet ready to remember.",
+    "rarity_note_vi": "Hồ sơ mở rộng được biên tập lại theo quyền sáng tạo tác giả đã trao. Bậc là phân loại của Collection, không phải xác nhận từ bản thảo.",
+    "rarity_note_en": "An expansion revised under the author’s creative authorisation. Its rank is a Collection classification, not a manuscript confirmation."
+  }
+]

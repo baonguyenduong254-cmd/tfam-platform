@@ -1,0 +1,41 @@
+{
+  "capital_demo": "Paris",
+  "lore_vi_1715": "Năm 1714, ở tuổi mười sáu, Napoleon bước lên ngai vàng nước Pháp.\n\nTriều đại mới không bắt đầu bằng những lời hứa cải cách, mà bằng một cuộc thanh trừng. Những phe phái bảo thủ từng kìm giữ quyền lực hoàng gia bị loại bỏ, trong khi những tàn dư cuối cùng của Đế chế La Mã Thần thánh bị quân Pháp nghiền nát. Tại Vienna, Napoleon kết thúc luôn quyền lực của Giáo hoàng cũ, rồi dựng nên một Giáo hoàng mới tại Paris, trực tiếp đặt trung tâm tôn giáo dưới cái bóng của ngai vàng Pháp.\n\nTừ đó, nước Pháp không còn chỉ là một vương quốc. Napoleon tuyên bố sự ra đời của Vương quốc Pháp Thần Thánh, một quốc gia tự xem mình là người kế thừa trật tự thiêng liêng mà châu Âu cũ đã để lại.\n\nSau khi củng cố quyền lực trong nước, Napoleon nhanh chóng chuyển ánh mắt ra bên ngoài. Ông xác định liên minh giữa Castilian và Danes là thế lực ổn định và nguy hiểm nhất đối với tham vọng của mình, rồi chủ động tuyên chiến với cả hai.\n\nChỉ trong một thời gian ngắn, vị vua mười bảy tuổi đã phá bỏ những nền móng chính trị và tôn giáo tồn tại suốt nhiều thế hệ, đồng thời đẩy nước Pháp vào một cuộc chiến với những cường quốc mạnh nhất còn lại của lục địa.\n\nVà giờ đây, Napoleon không còn muốn nước Pháp được kính trọng.\n\nÔng muốn cả châu Âu phải biết sợ.",
+  "lore_en_1715": "In 1714, at the age of sixteen, Napoleon ascended the throne of France.\n\nHis reign did not begin with promises of reform, but with a purge. The conservative factions that had long restrained royal authority were dismantled, while the last remnants of the Holy Roman Empire were crushed by French power. In Vienna, Napoleon brought an end to the authority of the old Pope, then installed a new pontiff in Paris, placing the spiritual center of his realm beneath the shadow of the French crown.\n\nFrance was no longer to be merely a kingdom. Napoleon proclaimed the birth of the Holy French Kingdom, a state that claimed for itself the sacred authority abandoned by the old order of Europe.\n\nWith his domestic rivals destroyed, Napoleon turned outward. He identified the alliance between Castilian and the Danes as the most stable and dangerous bloc standing against his ambitions, and declared war upon both.\n\nWithin little more than a year, the seventeen-year-old king had shattered political and religious institutions that had endured for generations, while committing France to war against some of the strongest powers still standing on the continent.\n\nNapoleon no longer sought merely to make France respected.\n\nHe intended to make Europe afraid.",
+  "lore_vi_1716": "Tham vọng của Napoleon đã đưa nước Pháp vào chiến tranh, nhưng chiến tranh không mang lại cho ông chiến thắng mà ông từng hình dung.\n\nTrên các mặt trận chống Castilian, quân Pháp liên tiếp thất bại. Những chiến dịch được kỳ vọng sẽ phá vỡ đối thủ lại dần bào mòn chính nguồn lực và vị thế của Vương quốc Pháp Thần Thánh. Một nước Pháp từng bước vào chiến tranh với ý định áp đặt trật tự của mình lên châu Âu cuối cùng buộc phải đối diện với giới hạn của chính sức mạnh ấy.\n\nNăm 1716, Napoleon tham dự Hội nghị Palermo và lựa chọn con đường hòa bình.\n\nĐó không phải là sự kết thúc của nước Pháp, cũng không phải sự chấm dứt tham vọng của vị vua trẻ. Nhưng chiến tranh đã chứng minh rằng quyền lực không thể chỉ được xây dựng bằng chinh phục.\n\nKhi tiếng súng dần im xuống, Vương quốc Pháp Thần Thánh bước vào một thời kỳ mới. Không còn bị cuốn vào những mặt trận bất tận, Napoleon giờ phải tìm một con đường khác để khẳng định vị thế của nước Pháp giữa một châu Âu đang tái định hình sau chiến tranh.",
+  "lore_en_1716": "Napoleon’s ambition had carried France into war, but war did not deliver the triumph he had envisioned.\n\nAcross the campaigns against Castilian, French forces suffered defeat after defeat. Operations intended to break France’s rival instead began to drain the resources and prestige of the Holy French Kingdom itself. A nation that had entered the conflict seeking to impose its own order upon Europe was eventually forced to confront the limits of its power.\n\nIn 1716, Napoleon attended the Palermo Conference and chose the path of peace.\n\nIt was not the end of France, nor the end of the young king’s ambition. But the war had demonstrated that power could not be built through conquest alone.\n\nAs the guns fell silent, the Holy French Kingdom entered a new era. Freed from the demands of continuous war, Napoleon now had to find another path through which France could reassert its place in a Europe being reshaped by peace.",
+  "traits": [
+    {
+      "id": "unquestioned_divine_mandate",
+      "label_vi": "Thánh Ý Bất Khả Nghi",
+      "label_en": "Unquestioned Divine Mandate",
+      "effect_vi": "Giáo hội tại Paris tuyên bố ngai vàng Pháp là hiện thân của thiên ý. Binh sĩ Pháp được nuôi dạy để tin rằng phục vụ quốc gia là bổn phận thiêng liêng, vì vậy họ gần như không dao động trước thất bại, thương vong hay mệnh lệnh tự sát. Một khi đã nhận lệnh, họ không quay đầu.",
+      "effect_en": "The Church of Paris proclaims the French Crown as the earthly instrument of divine will. French soldiers are raised to regard service to the nation as a sacred duty, making them extraordinarily resistant to fear, defeat, and catastrophic losses. Once given an order, they do not turn back.",
+      "effect_ui": "Giáo hội tại Paris tuyên bố ngai vàng Pháp là hiện thân của thiên ý. Binh sĩ Pháp được nuôi dạy để tin rằng phục vụ quốc gia là bổn phận thiêng liêng, vì vậy họ gần như không dao động trước thất bại, thương vong hay mệnh lệnh tự sát. Một khi đã nhận lệnh, họ không quay đầu."
+    },
+    {
+      "id": "knightly_legacy",
+      "label_vi": "Di Sản Hiệp Sĩ",
+      "label_en": "Knightly Legacy",
+      "effect_vi": "Quân đội Pháp kết hợp hiệu quả các đơn vị mang truyền thống chiến tranh thời trung cổ với tổ chức và học thuyết quân sự mới. Kỵ sĩ, trọng giáp và những đội hình cận chiến không bị xem là tàn dư lỗi thời, mà được tái tổ chức để phối hợp cùng hỏa lực, pháo binh và bộ binh hiện đại.",
+      "effect_en": "The French army effectively integrates units rooted in medieval warfare with modern organization and doctrine. Knights, heavy armor, and close-combat formations are not treated as obsolete relics, but reorganized to operate alongside firearms, artillery, and contemporary infantry.",
+      "effect_ui": "Quân đội Pháp kết hợp hiệu quả các đơn vị mang truyền thống chiến tranh thời trung cổ với tổ chức và học thuyết quân sự mới. Kỵ sĩ, trọng giáp và những đội hình cận chiến không bị xem là tàn dư lỗi thời, mà được tái tổ chức để phối hợp cùng hỏa lực, pháo binh và bộ binh hiện đại."
+    },
+    {
+      "id": "grand_army",
+      "label_vi": "Đại Quân Pháp",
+      "label_en": "The Grand Army",
+      "effect_vi": "Quân đội Pháp được tổ chức thành những đội hình có tính cơ động và kỷ luật cao, có khả năng duy trì chiến dịch liên tục và tái tập hợp nhanh sau tổn thất.",
+      "effect_en": "The French army is organized around highly disciplined and mobile formations, capable of sustaining prolonged campaigns and rapidly reforming after heavy losses.",
+      "effect_ui": "Quân đội Pháp được tổ chức thành những đội hình có tính cơ động và kỷ luật cao, có khả năng duy trì chiến dịch liên tục và tái tập hợp nhanh sau tổn thất."
+    },
+    {
+      "id": "born_of_purge",
+      "label_vi": "Sinh Ra Từ Thanh Trừng",
+      "label_en": "Born of the Purge",
+      "effect_vi": "Những cuộc thanh trừng đầu triều Napoleon đã phá bỏ tầng lớp quý tộc và bộ máy bảo thủ cũ, mở đường cho một nhà nước nơi địa vị được quyết định nhiều hơn bởi năng lực và lòng trung thành.",
+      "effect_en": "Napoleon’s early purges shattered the old conservative aristocracy, creating a state in which advancement depends increasingly upon ability and loyalty rather than inherited privilege.",
+      "effect_ui": "Những cuộc thanh trừng đầu triều Napoleon đã phá bỏ tầng lớp quý tộc và bộ máy bảo thủ cũ, mở đường cho một nhà nước nơi địa vị được quyết định nhiều hơn bởi năng lực và lòng trung thành."
+    }
+  ]
+}

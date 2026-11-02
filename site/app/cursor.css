@@ -1,0 +1,13 @@
+/* Native SVG pointers follow the hardware cursor; no RAF loop or hidden cursor. */
+@media (hover:hover) and (pointer:fine) and (forced-colors:none){
+ body.tfam-editorial{cursor:url('/cursors/frost-compass.svg') 4 3,auto}
+ .tfam-editorial :is(button:not(:disabled),a[href],summary,label[for],[role=button],[role=tab],select,input:is([type=checkbox],[type=radio],[type=range],[type=button],[type=submit])){cursor:url('/cursors/frost-command.svg') 4 3,pointer}
+ .tfam-editorial .seal-object{cursor:url('/cursors/frost-hold.svg') 4 3,grab}
+ .tfam-editorial .seal-object:active{cursor:url('/cursors/frost-hold.svg') 4 3,grabbing}
+ .tfam-editorial :is(textarea,[contenteditable=true],input:not([type=checkbox],[type=radio],[type=range],[type=button],[type=submit],[type=reset],[type=color],[type=file])){cursor:text}
+ .tfam-editorial :is(button:disabled,input:disabled,[aria-disabled=true]){cursor:not-allowed}
+ .tfam-editorial :is([aria-busy=true],button[data-loading=true]){cursor:progress}
+ /* Atlas navigation keeps its explicit grab / grabbing / crosshair state. */
+ .tfam-editorial .maplibregl-canvas-container{cursor:grab}
+ .tfam-editorial .maplibregl-canvas-container:active{cursor:grabbing}
+}

@@ -1,0 +1,43 @@
+{
+  "id": "lokoh",
+  "name": "Lokoh",
+  "name_vi": "Lokoh",
+  "name_en": "Lokoh",
+  "faction_id": "castilian_empire",
+  "affiliations": [
+    "castilian_empire"
+  ],
+  "castilian_branch": "guard",
+  "guard_number": 90,
+  "role_vi": "Cận vệ Hoàng gia · Noventa",
+  "role_en": "Royal Guard · Noventa",
+  "office_vi": "Truy dấu · Yểm trợ tác chiến · XC",
+  "office_en": "Tracking · Combat support · XC",
+  "canon_arcs": "V",
+  "portrait_asset": "/portraits/castilian/royal33/lokoh.webp",
+  "portrait_thumbnail": "/portraits/castilian/royal33/lokoh-thumb.webp",
+  "lore_vi": "Lokoh là chó cáo lông đỏ nâu mang mặt dây XC, số hiệu Noventa của Cận vệ Hoàng gia Castilian. Nó sát cánh cùng Leonardo Razen, lần theo dấu mùi trên đồ vận tải và phối hợp với anh bằng những pha đổi hướng, cắn đứt điểm neo và bắn ray đỏ. Tính khí nghịch ngợm của nó vẫn hiện rõ giữa những nhiệm vụ nguy hiểm, từ chuyện ngoạm vật liệu đến việc cắn tay Razen trên giường bệnh.\n\nHuyền hỏa xanh nhạt của Lokoh có thể hàn liền xương và gân thịt bị thương. Trong trận đối đầu Monodica, nó dùng ngọn lửa ấy cứu cánh tay Razen, rồi vận dụng chiếc đèn đồng chín vòng khắc để mở Cửu Hồ Tuyệt Tích. Chín bóng cáo chia nhau những quỹ đạo tấn công và nhận phản lực trong thời gian các ngọn lửa còn sáng. Việc dốc sức kéo dài khiến nó bị thương nặng và phải được đồng đội đưa ra khỏi chiến trường.",
+  "lore_en": "Lokoh is a reddish-brown fox-dog bearing the XC pendant, the number Noventa of the Castilian Royal Guard. It fights beside Leonardo Razen, tracking scents left on transport equipment and coordinating sudden turns, bites against anchor points and red rays. Its mischievous temper survives dangerous assignments, from chewing materials to biting Razen’s fingers during recovery.\n\nLokoh’s pale blue healing fire can mend broken bone and torn tissue. Against Monodica, it repairs Razen’s arm, then draws on a brass lantern with nine engraved rings to unleash Cửu Hồ Tuyệt Tích. Nine fox apparitions follow separate trajectories, attacking and receiving recoil while their corresponding flames remain lit. Prolonged exertion leaves Lokoh badly injured and dependent on its comrades for evacuation.",
+  "traits_vi": [
+    "Nhanh trí: Đọc vị trí, đổi hướng và phối hợp với Razen.",
+    "Gắn bó: Ở lại hỗ trợ đồng đội ngay khi bị thương.",
+    "Nghịch ngợm: Có thói quen ngoạm đồ vật và trêu chọc Razen."
+  ],
+  "traits_en": [
+    "Quick-witted: Reads positions and coordinates with Razen.",
+    "Loyal: Continues supporting a wounded companion.",
+    "Mischievous: Chews objects and needles Razen."
+  ],
+  "skills_vi": [
+    "Truy dấu: Nhận ra dấu mùi còn bám trên đồ vận tải.",
+    "Ray đỏ: Tấn công từ nhiều góc và gây sức ép lên điểm neo.",
+    "Huyền hỏa: Lửa xanh nhạt hàn liền xương và gân thịt.",
+    "Cửu Hồ Tuyệt Tích: Đèn đồng mở chín bóng cáo; thời gian vận hành phụ thuộc các ngọn lửa và sức chịu đựng của Lokoh."
+  ],
+  "skills_en": [
+    "Tracking: Follows scent traces left on transport equipment.",
+    "Red rays: Attacks from changing angles and pressures anchor points.",
+    "Healing fire: Pale blue flames mend bone and tissue.",
+    "Cửu Hồ Tuyệt Tích: A brass lantern projects nine fox apparitions, limited by its flames and Lokoh’s endurance."
+  ]
+}

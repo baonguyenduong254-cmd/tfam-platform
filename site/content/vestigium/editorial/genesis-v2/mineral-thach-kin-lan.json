@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-thach-kin-lan",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Thợ lấy đá tìm được obsidian đen khép quanh một vệt vàng. Ông đánh dấu chỗ vệt chạm mặt ngoài, xoay khối đá một vòng rồi thấy vàng biến mất ở đầu này và hiện ở đầu kia, trong khi dấu tay mình đứng lại trên phần kính đen nguyên vẹn. Một hạt bụi dính vệt vàng cũng đi cùng, trở ra mang lớp sương lạnh của nơi chưa được mở.\n\nKhối đá sinh từ dung nham đông quanh một mạch vàng đang bị kéo dài. Hai đầu mạch gặp nhau trong lúc vỏ ngoài khép, tạo một con đường mà phần đầu và phần cuối cùng nằm trong một vòng kín. Vàng tiếp tục đi trên đường ấy. Khi có vật mang dấu vàng cùng chạm, nó nhận vật vào lượt đi rồi trả ở đầu còn lại, qua một lòng đá chưa cần bị khoét rỗng.\n\nThợ chế hộp dùng ngọc chuyển dấu niêm từ mặt trong ra mặt ngoài. Các xưởng dựng cơ cấu có đường truyền giấu trọn trong khối kín, để gió, nước và bàn tay không tới phần đang chạy. Có hộp vẫn nghe đồ bên trong trượt mỗi lần xoay dù kiểm kê đã ghi là rỗng. Người giữ chúng chừa một khay trống tại đầu trả, bởi đường trong đá có thể dài hơn số vòng mà chủ hộp đã đếm.",
+    "lore_en": "A stonecutter found black obsidian closed around a gold streak. He marked its surface contact, turned the block once and saw gold vanish at one end and emerge at the other while his mark remained upon intact black glass. A dust grain upon the streak travelled with it and returned bearing cold dew from somewhere never opened.\n\nThe stone had formed as lava cooled around a gold vein being stretched. Its ends met while the outer shell closed, making a path whose beginning and ending belonged to one sealed circuit. Gold continued upon it. A touching object bearing the same gold mark can join the passage and emerge at its other end through stone that has never been hollowed.\n\nBox makers use the gem to carry seal marks from inside to outside. Workshops build mechanisms whose transmission lies wholly within closed blocks, beyond wind, water or hands. Some boxes still sound as though their contents slide when turned, although inventories list them empty. Keepers leave a receiving tray at the return end, for the road inside can exceed the turns an owner has counted.",
+    "use_vi": "Cho vật mang dấu vàng đi qua một đường kín trong chính khối đá hoặc vỏ chứa đã nối nó, truyền đồ nhỏ, tín hiệu và chuyển động giữa hai mặt đã chọn.",
+    "use_en": "Pass gold-marked objects along a sealed road within the stone or its joined casing, conveying small items, signals and movement between two chosen faces.",
+    "limits_vi": "Đầu nhận và đầu trả phải thuộc cùng khối hoặc vỏ kín đã liền đường vàng. Cần xoay đủ vòng chậm theo chiều đã giao; quay giật làm vật mắc giữa lối. Mỗi lượt mòn một phần vệt vàng, cần vàng cùng nguồn để nối; pha vàng khác có thể dựng nhánh không biết cửa ra. Khối nứt đổi hình đường trong trước khi người dùng kịp thấy.",
+    "limits_en": "Entry and return must belong to one block or sealed casing joined by continuous gold. It needs a complete slow turn in its appointed direction; jerks strand objects between. Each journey wears the streak and needs same-source gold for repair; alien gold may create a branch with an unknown exit. A fracture reshapes the inner road before its keeper can see it.",
+    "skills": [
+      {
+        "name_vi": "Nhận vệt vàng",
+        "name_en": "Accept the Gold Streak",
+        "description_vi": "Chạm một lá vàng cùng nguồn vào vệt gốc để tạo dấu cho vật được đi, rồi đặt vật tại đầu nhận đã chọn.",
+        "description_en": "Touch same-source gold leaf to the original streak to mark a travelling object, then place it at the chosen entry.",
+        "group_vi": "Dựng hai mặt",
+        "group_en": "Establish Both Faces"
+      },
+      {
+        "name_vi": "Đánh cửa trả",
+        "name_en": "Mark the Return",
+        "description_vi": "Miết vàng từ vệt gốc lên mặt đối của cùng vỏ liền để gọi đó là đầu trả; mặt chưa nối đủ chỉ giữ dấu ngoài.",
+        "description_en": "Rub original-streak gold upon the opposite face of one continuous casing to appoint its return; an incomplete link leaves only an outer mark.",
+        "group_vi": "Dựng hai mặt",
+        "group_en": "Establish Both Faces"
+      },
+      {
+        "name_vi": "Vòng thử bụi",
+        "name_en": "The Dust Trial",
+        "description_vi": "Cho một hạt bụi có dấu đi qua đủ vòng để xác nhận hai cửa nối đúng, hứng hạt ra trước khi gửi vật giá trị.",
+        "description_en": "Send a marked dust grain through a full turn to verify the exits and catch it before sending valuables.",
+        "group_vi": "Dựng hai mặt",
+        "group_en": "Establish Both Faces"
+      },
+      {
+        "name_vi": "Kim chỉ chiều",
+        "name_en": "The Direction Needle",
+        "description_vi": "Đặt một mảnh vàng nhọn tại đầu nhận để nó nghiêng theo chiều cần xoay, giữ dấu hướng khi cả khối được chuyển chỗ.",
+        "description_en": "Place a pointed gold fragment at the entry so it leans along the required turning direction and preserves orientation after moving the block.",
+        "group_vi": "Dựng hai mặt",
+        "group_en": "Establish Both Faces"
+      },
+      {
+        "name_vi": "Hạt qua đá",
+        "name_en": "A Grain Through Stone",
+        "description_vi": "Đặt một vật nhỏ đã nhận dấu lên đầu vào và xoay đều để nó lặn qua vệt, trở ra đầu trả sau lượt đủ; kích thước phải lọt hình cửa vàng.",
+        "description_en": "Set a small marked item upon the entry and turn evenly so it enters the streak and emerges after a complete passage; it must fit the gold aperture’s shape.",
+        "group_vi": "Vật đi trong khối",
+        "group_en": "Objects Within the Block"
+      },
+      {
+        "name_vi": "Thư gấp kín",
+        "name_en": "The Sealed Folded Letter",
+        "description_vi": "Bọc giấy cuộn bằng lá vàng có dấu để gửi qua vỏ hộp mà khỏi mở nắp, hứng đúng chiều để giấy khỏi rách.",
+        "description_en": "Wrap rolled paper in marked gold leaf to send it through a box casing without opening the lid; receive its orientation correctly to avoid tearing.",
+        "group_vi": "Vật đi trong khối",
+        "group_en": "Objects Within the Block"
+      },
+      {
+        "name_vi": "Sợi qua mặt liền",
+        "name_en": "Thread Through the Solid Face",
+        "description_vi": "Gửi đầu sợi có dấu trước rồi quay chậm để phần còn lại lần theo đường kín, luồn dây qua khối chưa khoan; giật hai đầu có thể cắt sợi trong lối.",
+        "description_en": "Send a marked thread end first and turn slowly so the rest follows through an undrilled block; pulling both ends can sever it inside.",
+        "group_vi": "Vật đi trong khối",
+        "group_en": "Objects Within the Block"
+      },
+      {
+        "name_vi": "Viên niêm trong hộp",
+        "name_en": "The Seal Within the Box",
+        "description_vi": "Đưa một viên sáp có dấu vào khay nhận kín bên trong vỏ đã nối, đặt dấu niêm mà khỏi đưa tay vào; cần biết khay không bị đồ khác che.",
+        "description_en": "Send a marked wax pellet into a linked inner tray to set a seal without reaching inside; verify the tray is unobstructed.",
+        "group_vi": "Vật đi trong khối",
+        "group_en": "Objects Within the Block"
+      },
+      {
+        "name_vi": "Dây chạy giấu",
+        "name_en": "The Hidden Running Cord",
+        "description_vi": "Cho sợi dẫn đi liên tục qua hai cửa để truyền kéo trong lòng vỏ, che khỏi nước và tay ngoài; mặt vỏ nứt sẽ kẹt dây.",
+        "description_en": "Run a cord continuously through both gates to transmit pull inside a casing sheltered from water and hands; a cracked shell jams it.",
+        "group_vi": "Truyền cơ cấu",
+        "group_en": "Convey the Mechanism"
+      },
+      {
+        "name_vi": "Hạt gõ hai mặt",
+        "name_en": "Grains Knock at Both Faces",
+        "description_vi": "Gửi chuỗi hạt nhỏ có khoảng theo vòng xoay để chúng gõ vào khay trả thành mã nhịp; quay nhanh làm khoảng nhập lại.",
+        "description_en": "Send spaced grains with the turning cycle so they knock a code upon the return tray; fast turning merges intervals.",
+        "group_vi": "Truyền cơ cấu",
+        "group_en": "Convey the Mechanism"
+      },
+      {
+        "name_vi": "Chốt tới mặt khuất",
+        "name_en": "The Pin Reaches the Hidden Face",
+        "description_vi": "Đưa chốt đã đánh dấu vào đường kín hướng tới lẫy ở mặt khuất để mở cơ cấu đúng khớp; chốt sai hình có thể mắc và chặn lượt sau.",
+        "description_en": "Send a marked pin to a hidden latch through the sealed road; a wrong-shaped pin may lodge and block later turns.",
+        "group_vi": "Truyền cơ cấu",
+        "group_en": "Convey the Mechanism"
+      },
+      {
+        "name_vi": "Dầu một giọt",
+        "name_en": "One Drop of Oil",
+        "description_vi": "Bọc một giọt dầu trong màng vàng mỏng đã nhận để đưa tới điểm bôi kín, cho vỏ màng được cơ cấu trong nghiền mở; lượng cần căn trước.",
+        "description_en": "Wrap one oil drop in accepted thin gold film for delivery to a sealed lubrication point where the mechanism crushes it; calibrate the quantity first.",
+        "group_vi": "Truyền cơ cấu",
+        "group_en": "Convey the Mechanism"
+      },
+      {
+        "name_vi": "Đưa mẫu vào kín",
+        "name_en": "Put a Sample Into Seclusion",
+        "description_vi": "Gửi mẫu nhỏ đã bọc qua vỏ hộp nối ngọc để đưa vào môi trường trong đã chuẩn bị, tránh mở nắp giữa lượt; lớp bọc phải được lấy ra cùng mẫu khi kết.",
+        "description_en": "Send a wrapped specimen through a linked casing into its prepared environment without lifting the lid; retrieve its wrapping with it afterwards.",
+        "group_vi": "Lòng hộp và kho",
+        "group_en": "The Box and Store"
+      },
+      {
+        "name_vi": "Lấy phần đã hẹn",
+        "name_en": "Take the Appointed Portion",
+        "description_vi": "Đặt khay trong đúng đầu nhận ngược rồi xoay đủ lượt để đưa phần mẫu đã đánh dấu ra ngoài, giữ vật chưa có dấu trong hộp.",
+        "description_en": "Set an inner tray at the reverse entry and complete its turn to retrieve a marked portion while unmarked contents stay inside.",
+        "group_vi": "Lòng hộp và kho",
+        "group_en": "The Box and Store"
+      },
+      {
+        "name_vi": "Niêm biết đường",
+        "name_en": "The Path-Knowing Seal",
+        "description_vi": "Đặt hai lá vàng cùng lượt ở trong và ngoài đường kín để khi vỏ bị mở sai chỗ, lá ngoài nhăn theo đoạn đường bị đứt, báo niêm cần kiểm.",
+        "description_en": "Place gold leaves from one passage inside and outside so improper casing opening wrinkles the outer leaf with the severed road and flags seal inspection.",
+        "group_vi": "Lòng hộp và kho",
+        "group_en": "The Box and Store"
+      },
+      {
+        "name_vi": "Hộp đổi mặt nhận",
+        "name_en": "Change the Box’s Receiving Face",
+        "description_vi": "Chuyển khay trả tới mặt khác của cùng vỏ đã nối vàng khi đường rỗng để định nơi đồ sẽ ra, rồi thử bụi trước lượt thật.",
+        "description_en": "Move the return tray to another gold-linked face while the road is empty, then test with dust before actual use.",
+        "group_vi": "Lòng hộp và kho",
+        "group_en": "The Box and Store"
+      },
+      {
+        "name_vi": "Chốt cửa từ trong",
+        "name_en": "Bolt the Door From Within",
+        "description_vi": "Nối đường qua chính khối khóa để gửi chốt từ mặt khuất vào lẫy, giữ tay ngoài tầm qua khe; khối khóa cần được chuẩn bị từ trước.",
+        "description_en": "Prepare a road within a lock to send its bolt from the hidden face into the catch, keeping hands clear of the gap.",
+        "group_vi": "Đường trong giao tranh",
+        "group_en": "The Road in Conflict"
+      },
+      {
+        "name_vi": "Dây báo qua giáp",
+        "name_en": "The Signal Cord Through Armour",
+        "description_vi": "Luồn một sợi nhẹ qua tấm giáp vỏ kín đã nối để mang nhịp tay tới người cùng chạm mà khỏi có lỗ hở; dây kẹt cần tháo giáp thay vì kéo mạnh.",
+        "description_en": "Pass a light cord through a prepared solid armour plate to carry hand signals without an opening; a jam requires plate removal rather than force.",
+        "group_vi": "Đường trong giao tranh",
+        "group_en": "The Road in Conflict"
+      },
+      {
+        "name_vi": "Mũi dò mặt sau",
+        "name_en": "The Far-Face Probe",
+        "description_vi": "Gửi một đầu dò nhỏ có dấu qua vật che do mình chuẩn bị để kiểm mặt sau khi không đưa mắt ra; đầu dò chạm vật vẫn phải truyền dấu về bằng dây.",
+        "description_en": "Send a marked probe through a prepared cover to test its far side without exposing eyes; contact findings still need a return cord.",
+        "group_vi": "Đường trong giao tranh",
+        "group_en": "The Road in Conflict"
+      },
+      {
+        "name_vi": "Chuyền kíp qua vỏ",
+        "name_en": "Pass the Fitting Through the Casing",
+        "description_vi": "Đưa một bộ phận nhỏ tới cơ cấu kín từ mặt an toàn để hoàn tất thao tác lắp, giảm phải mở vật che; vật nguy hiểm cần được thiết kế đường nhận riêng từ trước.",
+        "description_en": "Pass a small fitting into a sealed mechanism from a sheltered face to finish assembly without opening cover; hazardous components need a purpose-designed receiver.",
+        "group_vi": "Đường trong giao tranh",
+        "group_en": "The Road in Conflict"
+      },
+      {
+        "name_vi": "Nghe vật còn đi",
+        "name_en": "Hear What Still Travels",
+        "description_vi": "Áp thanh gỗ lên vệt để nghe tiếng nhỏ của đồ còn giữa lối, tránh nhận nhầm đường đã rỗng; nhiều vật làm tiếng chồng.",
+        "description_en": "Listen through a wooden rod upon the streak for items still travelling, avoiding a false empty reading; several objects overlap their sounds.",
+        "group_vi": "Đọc lòng đường",
+        "group_en": "Read the Inner Road"
+      },
+      {
+        "name_vi": "Lá vàng báo mòn",
+        "name_en": "The Wear-Warning Leaf",
+        "description_vi": "Ép lá cùng nguồn lên mặt gốc để đường mòn hiện mỏng trên lá, chọn đoạn cần nối trước lúc vệt đứt.",
+        "description_en": "Press same-source leaf to the original face so worn sections print faintly and indicate where repair is needed.",
+        "group_vi": "Đọc lòng đường",
+        "group_en": "Read the Inner Road"
+      },
+      {
+        "name_vi": "Bụi dò thứ tự",
+        "name_en": "Dust Tests the Order",
+        "description_vi": "Gửi hai hạt khác màu nối lượt để kiểm thứ tự ra khi nghi đường đã đổi, giữ đồ thật ở ngoài cho đến khi cả hai trở về.",
+        "description_en": "Send differently coloured grains in order to test changed passage and keep valuables outside until both return.",
+        "group_vi": "Đọc lòng đường",
+        "group_en": "Read the Inner Road"
+      },
+      {
+        "name_vi": "Nhận nhánh lạ",
+        "name_en": "Recognise the Alien Branch",
+        "description_vi": "Soi vệt dưới hai đèn đối diện để bóng nhánh vàng không cùng nguồn hiện lệch, khoanh đoạn cần ngừng; mở khối để xem có thể phá luôn đường.",
+        "description_en": "Light the streak from opposite sides to reveal an offset shadow of alien-gold branching and mark a section to stop; opening the block can destroy its road.",
+        "group_vi": "Đọc lòng đường",
+        "group_en": "Read the Inner Road"
+      },
+      {
+        "name_vi": "Lùi một vòng",
+        "name_en": "Reverse One Turn",
+        "description_vi": "Khi nghe vật kẹt, xoay ngược đúng một vòng chậm để gọi phần vừa vào về cửa cũ; quay tiếp có thể gọi cả các phần đã trả.",
+        "description_en": "At a jam, reverse exactly one slow turn to call the latest entry back; further reversal may recall already delivered portions.",
+        "group_vi": "Gỡ phần mắc",
+        "group_en": "Free the Stranded Part"
+      },
+      {
+        "name_vi": "Dẫn bằng sợi cũ",
+        "name_en": "Lead With the Old Thread",
+        "description_vi": "Cho một sợi đã đi trọn đường trở vào trước để vật mắc nhận cùng lượt mà theo nó ra; sợi đứt để lại thêm một phần cản.",
+        "description_en": "Send a previously completed thread through first so a stranded item can follow its recognised passage; a broken thread adds another obstruction.",
+        "group_vi": "Gỡ phần mắc",
+        "group_en": "Free the Stranded Part"
+      },
+      {
+        "name_vi": "Nối vàng gốc",
+        "name_en": "Join the Original Gold",
+        "description_vi": "Đắp vàng cùng nguồn lên đoạn ngoài đã mòn khi đường đứng yên để vệt trong liền lại, rồi thử bụi nhẹ; đắp khi đồ đang đi có thể khóa nó giữa hai lớp.",
+        "description_en": "Apply same-source gold to a worn outer segment while motion is still to mend the inner streak, then test with dust; repair during passage may trap items between layers.",
+        "group_vi": "Gỡ phần mắc",
+        "group_en": "Free the Stranded Part"
+      },
+      {
+        "name_vi": "Nhả vào khay trống",
+        "name_en": "Release Into the Empty Tray",
+        "description_vi": "Chọn một mặt trả có khoảng trống lớn rồi quay đều cho mọi phần còn lạc tìm lối ra, dành đủ thời gian thay vì giật khối.",
+        "description_en": "Choose a return face with a large clear tray and turn evenly until stray portions find their exit, allowing time rather than jolting the block.",
+        "group_vi": "Gỡ phần mắc",
+        "group_en": "Free the Stranded Part"
+      },
+      {
+        "name_vi": "Đếm đồ trở",
+        "name_en": "Count What Returned",
+        "description_vi": "Đặt các vật đã ra lên tấm dấu trước lượt để vệt vàng sáng khi đủ đồ cùng dấu đã khép, kiểm còn thiếu trong đường.",
+        "description_en": "Set returned items upon the pre-use mark sheet so the gold brightens when every marked item has completed its path, checking for missing contents.",
+        "group_vi": "Khép vòng kín",
+        "group_en": "Close the Sealed Circuit"
+      },
+      {
+        "name_vi": "Ngừng tại đầu liền",
+        "name_en": "Stop at the Joined End",
+        "description_vi": "Kết vòng khi hai đầu vệt cùng hiện đủ ngoài mặt để đường nghỉ ở chỗ nối, tránh dừng với vật còn nửa vào nửa ra.",
+        "description_en": "End rotation when both streak ends appear fully at the surface so the road rests at its join rather than leaving an object half inside.",
+        "group_vi": "Khép vòng kín",
+        "group_en": "Close the Sealed Circuit"
+      },
+      {
+        "name_vi": "Che mặt gọi",
+        "name_en": "Cover the Calling Face",
+        "description_vi": "Bọc đầu nhận bằng vật khô không mang dấu vàng sau khi đường rỗng để đồ ngẫu nhiên khỏi bị nhận vào lượt mới.",
+        "description_en": "Cover an empty road’s entry with dry unmarked material to keep stray objects from joining a fresh passage.",
+        "group_vi": "Khép vòng kín",
+        "group_en": "Close the Sealed Circuit"
+      },
+      {
+        "name_vi": "Vòng yên cuối",
+        "name_en": "The Final Quiet Circuit",
+        "description_vi": "Xoay khối rỗng một vòng chậm trên khay sạch để hạt còn sót tự trở về rồi cất với mặt trả quay xuống khay, giữ một nơi nhận cho thứ về muộn.",
+        "description_en": "Turn the empty block slowly over a clean tray so remaining grains return, then store with its return face towards the tray to receive late arrivals.",
+        "group_vi": "Khép vòng kín",
+        "group_en": "Close the Sealed Circuit"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đường kín còn dài",
+        "name_en": "The Sealed Road Remains Long",
+        "description_vi": "Kích thước ngoài đá không cho biết chiều dài lối trong. Những vật cùng lượt vào thường giữ thứ tự ra nếu vòng xoay vẫn đều.",
+        "description_en": "Outer dimensions do not reveal the inner road’s length. Items entering together generally preserve their exit order while turning remains even."
+      }
+    ]
+  }
+]

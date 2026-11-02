@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-knotkeeping-ray",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Cá đuối con lớn trong vũng triều ôm xác tàu chở quặng đồng. Dây neo mục quấn dưới bụng, khoáng từ vỏ tàu vào mép vây thành viền đồng. Nó học bơi mà vẫn giữ nút đang tuột, tiết một lớp màng khiến đường sợi tiếp xúc chịu ở nguyên vị trí dưới dòng kéo.\n\nNgười lặn gỡ cả đoạn dây khỏi xác tàu để giữ nó cùng cá trong bể. Nút mới được buộc dưới bụng cũng giữ, miễn con vật còn bơi và thở. Nó được dùng với dây lấy mẫu nhẹ; mỗi lần thả, người coi để một dải nước trống cho vây có chỗ làm công việc của mình.",
+    "lore_en": "A young ray grew in a tide pool around a copper-ore wreck. Rotten anchor cord wound beneath its belly and mineral entered its fin edges as copper bands. It learnt to swim while retaining a slipping knot, secreting a membrane that kept contacting strands in place beneath the pull.\n\nA diver removed the whole cord section to keep it with the ray in a tank. Fresh knots beneath its belly held too, provided it kept swimming and breathing. It serves light sampling lines; keepers leave clear water around its fins for the work.",
+    "use_vi": "Giữ một nút dây dưới nước và cho chuyển giữ tạm trong lúc người dùng thay mối buộc.",
+    "use_en": "Hold one underwater knot and permit temporary handover while a user replaces its fastening.",
+    "limits_vi": "Chỉ một nút nhẹ nằm đúng dưới bụng; con vật phải còn bơi thở. Dây siết thân hoặc dòng mạnh làm nó bị thương, nên tải thật cần neo riêng.",
+    "limits_en": "It holds one light knot correctly beneath its belly while swimming and breathing. Constricting cord or strong current injures it, so real loads need separate anchorage.",
+    "skills": [
+      {
+        "name_vi": "Giữ nút dưới bụng",
+        "name_en": "Hold the Belly Knot",
+        "description_vi": "Đưa một nút dây nhẹ tới dưới bụng lúc cá bơi đều để màng giữ các sợi khỏi trượt, ổn dây mẫu trong lượt lấy.",
+        "description_en": "Present a light knot beneath its steadily swimming belly so membrane keeps strands from slipping during sampling."
+      },
+      {
+        "name_vi": "Báo sợi kéo",
+        "name_en": "Signal the Pulling Strand",
+        "description_vi": "Quan sát viền đồng dựng tại bên dây đang kéo để biết tải lệch, kịp đưa dây về neo thường trước khi cá mỏi.",
+        "description_en": "Read raised copper edging on the pulling side to detect uneven load and return it to an ordinary anchor before fatigue."
+      },
+      {
+        "name_vi": "Chuyền nút mới",
+        "name_en": "Pass to the Fresh Knot",
+        "description_vi": "Đặt nút thay sát nút đang giữ để cá chuyển màng sang mối mới khi sợi cũ được nới, giúp thay dây mẫu trong nước.",
+        "description_en": "Place a replacement beside the held knot so membrane shifts as the old strands are loosened, allowing an underwater sampling-line change."
+      },
+      {
+        "name_vi": "Nhả cùng nhịp vây",
+        "name_en": "Release With the Fin Beat",
+        "description_vi": "Đỡ dây bằng neo rồi đưa nút theo chiều quạt vây để màng nhả có kiểm soát, kết lượt mà không kéo thân cá.",
+        "description_en": "Support the line with an anchor and move its knot along the fin stroke for controlled release without pulling the ray."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vây giữ cùng nhịp bơi",
+        "name_en": "Fins Hold With the Swim",
+        "description_vi": "Màng ở nơi sợi chạm chỉ được duy trì qua chuyển động vây. Cá dừng mệt thì màng lỏng dần, báo cần thay.",
+        "description_en": "The strand-contact membrane is sustained by fin motion. Tiring to a stop loosens it and warns of replacement."
+      }
+    ]
+  }
+]

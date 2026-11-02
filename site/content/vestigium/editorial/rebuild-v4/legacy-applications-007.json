@@ -1,0 +1,2056 @@
+{
+  "mineral-ngoc-cua-khong-mo": [
+    {
+      "name_vi": "Nhìn mặt bên kia",
+      "name_en": "See the Far Face",
+      "description_vi": "Áp khe ngọc lên một cánh cửa từng được mở để nhìn mặt sát bên kia của đúng ngưỡng đó. Cửa đã chuyển chủ có thể chỉ nhận cái nhìn của người được chủ mới mời.",
+      "description_en": "Press the slit to a once-opened door to see its immediate far side. After ownership changes it may admit only someone invited by the new keeper.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Đọc sẹo cửa mất",
+      "name_en": "Read a Vanished Door’s Scar",
+      "description_vi": "Lần ngọc quanh vết khung đã tháo để hiện đường bao lần cuối cửa còn nguyên. Những lần xây chồng tạo nhiều đường; chọn sai sẽ gọi một thời điểm khác.",
+      "description_en": "Trace a removed frame to reveal its final intact outline. Rebuilding leaves several outlines; a mistaken choice calls another moment.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Nghe then chưa xoay",
+      "name_en": "Hear the Unturned Bolt",
+      "description_vi": "Giữ chìa áp vào đá để nghe tiếng của bộ phận đang giữ một lối đóng. Ngọc cho âm của vật cản, còn người dùng tự hiểu đó là khóa, tường hay thứ sống.",
+      "description_en": "Hold a key against the gem to hear what keeps a passage shut. The sound may belong to lock, wall or living thing; interpretation remains the user’s.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Phân cửa với miệng",
+      "name_en": "Door or Mouth",
+      "description_vi": "Chạm ngọc vào một lỗ mở; nếu lối chỉ nhận vật đi vào mà không cho vật thử trở ra, khe tiết vị mặn. Dấu ấy cảnh báo một ngưỡng đang ăn, không chỉ rõ nó là gì.",
+      "description_en": "Touch an opening. If it admits a test-object but denies its return, the slit tastes salt: warning of a consuming threshold, not identifying its nature.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Bản đồ những chỗ khép",
+      "name_en": "Map the Closures",
+      "description_vi": "Vẽ ranh một gian rồi đặt ngọc ở tâm để các lối bị bít hiện thành đường tối. Chỗ chưa từng có đường qua vẫn trống, dù người gọi tin có mật thất.",
+      "description_en": "Outline one room and set the gem at its centre to darken blocked passages. Ground never traversed remains blank despite belief in a secret chamber.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Dấu khách cuối",
+      "name_en": "The Last Guest’s Mark",
+      "description_vi": "Đặt vật từ một ngưỡng vào khe để nhận hình bàn tay cuối cùng đã tự mở nó. Găng tay và các vật trung gian cũng được giữ, che người thật bên dưới.",
+      "description_en": "Offer a threshold-fragment to receive the last hand voluntarily opening it. Gloves and other intermediaries remain in the image, concealing the person beneath.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Đếm người còn ở giữa",
+      "name_en": "Count Those Between",
+      "description_vi": "Hỏi ngọc bằng dấu đã dùng mở một lối; nó gõ đủ số dấu qua chưa hoàn tất. Bỏ rơi đồ mang tên cũng có thể tính thành một người đang mắc.",
+      "description_en": "Question it with the mark opening a passage. Knocks count incomplete crossings; abandoned possessions bearing names may count as stranded people.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "Chọn phía còn nhận mình",
+      "name_en": "Find the Side That Admits You",
+      "description_vi": "Cho dấu tay vào khe trước một ngưỡng nhiều nhánh để ánh xanh chỉ phía còn chấp nhận người gọi. Sự chấp nhận không bảo đảm phía ấy tốt lành.",
+      "description_en": "Offer a handprint at a branching threshold. Green indicates a side still accepting the caller; acceptance does not promise welcome or safety.",
+      "group_vi": "I. Những ngưỡng mắt không thấy",
+      "group_en": "I. Thresholds Beyond Sight"
+    },
+    {
+      "name_vi": "May hai mặt xa",
+      "name_en": "Stitch Distant Faces",
+      "description_vi": "Hai mặt cùng được in một dấu rồi người giữ nối nét qua khe; một đường tiếp xúc xuất hiện giữa chúng. Dấu bị xước làm mối nối trả về sai mép.",
+      "description_en": "Print one mark on two surfaces and join its strokes through the slit to connect their contact. Scratching a mark misaligns the returning edge.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Khung cửa trên vải",
+      "name_en": "A Cloth Doorframe",
+      "description_vi": "Buộc đủ bốn góc vải quanh dấu nhận để tấm vải mở thành ngưỡng tới mặt ghép. Rách một góc khiến hướng dưới và hướng bên có thể đổi chỗ.",
+      "description_en": "Tie four cloth-corners around a receiving mark to open towards its paired face. A torn corner may exchange downwards and sideways.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Khe sau lưng gương",
+      "name_en": "The Slit Behind Glass",
+      "description_vi": "Mượn một gương từng soi đúng nơi đến để mở lối sau lớp phản chiếu. Hình bị gương giữ thêm một lúc sau khi người qua, có thể gọi theo một kẻ tưởng còn đứng đó.",
+      "description_en": "Use a mirror that reflected the destination to open behind its image. A lingering likeness may attract something believing the traveller remains there.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Bậc cho khoảng trống",
+      "name_en": "A Step for Absence",
+      "description_vi": "Đặt dấu hai bờ một khoảng hụt, gọi phần giữa nhận vai một bậc thang. Bậc chỉ tồn tại cho bước đã được chỉ; người đi thêm phải xin lượt khác.",
+      "description_en": "Mark a gap’s banks and ask its interval to serve as a step. It exists for the designated crossing; another traveller requires another rite.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Nối miệng vật chứa",
+      "name_en": "Join the Vessels’ Mouths",
+      "description_vi": "Cho hai nắp cùng chạm ngọc để nối phía trong chúng qua miệng mở. Lẫn vật sở hữu trong bình có thể khiến ngọc nhận sai thứ được phép chuyển.",
+      "description_en": "Touch two lids to join their opened interiors. Named possessions mixed within may confuse what the rite permits to pass.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Cửa dưới chữ vẽ",
+      "name_en": "A Door Beneath its Drawing",
+      "description_vi": "Vẽ nguyên khung của một ngưỡng đã tự đi qua rồi chỉ mặt nhận; hình mở tới mặt ấy. Bỏ một nét cần thiết khiến phần bị quên mất chỗ đứng ở cửa ra.",
+      "description_en": "Draw a complete previously travelled doorway and designate its receiving face. Omitted essential strokes leave that omitted part without a place at the exit.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Ghép một ngưỡng gãy",
+      "name_en": "Join a Broken Threshold",
+      "description_vi": "Đưa đủ các phần còn giữ tên cửa lại quanh đá để dựng lối từng bị phá. Lối kế thừa cả điều kiện khóa cũ, kể cả lời cấm người dựng không biết.",
+      "description_en": "Gather fragments retaining a doorway’s name to restore its passage. It inherits former locks, including prohibitions unknown to its rebuilder.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Đặt bản lề lên không",
+      "name_en": "Hinge the Air",
+      "description_vi": "Gắn bản lề đã qua sử dụng vào hai dấu treo để một mặt khí biết xoay. Đóng quá mạnh gửi cú đóng tới mọi vật đang chung dấu ấy.",
+      "description_en": "Hang a used hinge between two marks to let a face of air turn. Slamming transmits that closure into everything sharing its mark.",
+      "group_vi": "II. Rèn lối bằng khe đá",
+      "group_en": "II. Forge a Passage from the Slit"
+    },
+    {
+      "name_vi": "Sợi qua nơi kín",
+      "name_en": "Thread Through the Sealed",
+      "description_vi": "Luồn một sợi được gọi tên qua khe để đầu kia tìm dấu nhận sau vách nguyên. Kéo vật quá khác bản chất sợi theo sau khiến khe cắn đứt đường.",
+      "description_en": "Name a strand and thread the slit to reach a mark beyond intact wall. Drawing a fundamentally different burden behind it makes the slit bite through.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Tay khách qua cửa",
+      "name_en": "The Guest’s Hand",
+      "description_vi": "In dấu bàn tay lên mặt ghép để tay thật chạm được phía bên kia. Vật nắm phải tự qua được ngưỡng; cưỡng kéo có thể giữ cả tay ở lại.",
+      "description_en": "Print a hand on a paired face to touch beyond. A held object must also qualify to pass; forcing it can strand the hand.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Dẫn một người theo dấu",
+      "name_en": "Lead One by the Mark",
+      "description_vi": "Người được dẫn tự đặt tên vào khóa rồi qua đúng lối người giữ đã mở. Dùng tên giả buộc cửa chọn người khác mang tên ấy hoặc trả kẻ gọi về.",
+      "description_en": "The traveller willingly names themselves into the lock and follows its opened path. A false name may summon its real bearer or return the caller.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Cáng qua ngưỡng hẹp",
+      "name_en": "A Stretcher Through Narrowness",
+      "description_vi": "Khép dấu quanh cáng để nó được tính là một vật duy nhất cùng người nằm. Ai tự bước xuống giữa lượt sẽ tách khỏi phần đang được cửa nhận.",
+      "description_en": "Enclose a stretcher in its mark so bearer and patient pass as one burden. Someone stepping off midway separates from what the doorway accepts.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Cho bầy nhận một lối",
+      "name_en": "One Passage for the Flock",
+      "description_vi": "Một sinh vật đầu đàn tự vượt rồi để dấu cho cả bầy đi theo. Cửa chỉ nhận những con thật sự theo nó; kẻ bị lùa cưỡng có thể bị giữ ngoài.",
+      "description_en": "A leading creature crosses willingly and marks passage for its flock. Only genuine followers qualify; forced stragglers may remain outside.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Chuyển vật qua bóng",
+      "name_en": "Carry Through a Shadow",
+      "description_vi": "Ấn bóng vật vào mặt nhận đã ghép; vật thật theo bóng sang phía kia. Hai nguồn sáng tạo hai bóng buộc phải chọn một trước khi gọi.",
+      "description_en": "Press an object’s shadow into a paired receiving face to draw the object through. With two shadows, one must be chosen before invocation.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Bước khỏi nơi đang đổ",
+      "name_en": "Step from the Collapse",
+      "description_vi": "Lấy một mép còn nguyên của chỗ trú đang sập làm cửa ra khẩn tới dấu an toàn đã đặt. Nếu mép mất trước khi người cuối qua, phần còn lại bị khép ở giữa.",
+      "description_en": "Use a surviving edge in a collapse to exit towards a prepared refuge-mark. If it fails before the last crossing, the remainder closes between.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Trả người đi sai",
+      "name_en": "Return the Misled Traveller",
+      "description_vi": "Gọi đúng dấu của một người đã lạc qua lối ngọc để kéo bước cuối họ trở về cửa vào. Người đã tự chấp nhận nhà mới phải tự đồng ý quay lại.",
+      "description_en": "Call the mark of someone lost through its passage to return their last step. One who has accepted a new home must consent to return.",
+      "group_vi": "III. Những vật biết qua",
+      "group_en": "III. What May Cross"
+    },
+    {
+      "name_vi": "Thư xuyên khóa",
+      "name_en": "A Letter Through the Lock",
+      "description_vi": "Gấp thư theo hình răng chìa rồi đưa qua khe để tới bên kia ngưỡng được gọi. Khóa có chủ khác chỉ nhận thư theo lời mời hoặc dấu nhận đã có.",
+      "description_en": "Fold a letter to a key’s teeth and send it through to a named threshold. Another owner’s lock requires invitation or an existing receiving mark.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Gõ từ nơi vắng",
+      "name_en": "Knock from Elsewhere",
+      "description_vi": "Chạm nhịp lên đá để cửa mang dấu nhận phát đúng nhịp ấy ở phía trong. Mọi thứ ở phía đó đều có thể nghe, kể cả kẻ người gọi muốn tránh.",
+      "description_en": "Tap the gem to sound that rhythm inside a marked door. Anything there may hear, including what the caller hopes to avoid.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Hơi qua kẽ cấm",
+      "name_en": "Breath Through the Forbidden Cleft",
+      "description_vi": "Dẫn một lượt hơi tới người đang giữ dấu bên kia cửa kín. Lối chỉ cho hơi đã được trao; dùng làm đường hút khí tự do sẽ gọi cả áp lực ngược về.",
+      "description_en": "Lend one breath to a mark-holder beyond a sealed door. Attempting unrestricted air-siphoning returns the opposing pressure.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Ánh nhìn gửi trước",
+      "name_en": "Send Sight Ahead",
+      "description_vi": "Đặt mắt vào khe để thả một đốm xanh qua lối, nhìn theo thứ nó thật đi ngang. Kẻ bắt được đốm có thể nhìn trả về mắt người gửi.",
+      "description_en": "Look into the slit to send a green mote through and see its actual route. Someone catching it may look back into the sender’s eye.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Tên còn trên ngưỡng",
+      "name_en": "The Name Upon the Threshold",
+      "description_vi": "Đọc một tên đã thật được khắc trên cửa để gửi một câu tới nơi người đó còn nhận là nhà. Người thôi nhận mọi nơi làm nhà khiến câu mắc lại trong đá.",
+      "description_en": "Read a name truly inscribed upon a door to send a sentence where its bearer still accepts home. With no accepted home, the words lodge in the gem.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Lời mời có mặt",
+      "name_en": "An Invitation Given Form",
+      "description_vi": "Trao lời mời tự nguyện vào khe để nó hiện thành một dấu có thể cầm. Dấu cho người nhận quyền tới hỏi cửa, không ép chủ tiếp nếu lời mời đã được rút trước lượt qua.",
+      "description_en": "A willing invitation becomes a holdable mark. It grants an approach to the threshold, not admission after an invitation withdrawn before crossing.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Nghe câu bị khóa",
+      "name_en": "Hear the Locked Sentence",
+      "description_vi": "Áp khe vào dấu niêm một bản viết để nghe câu đã thật bị người niêm cấm đọc. Nhiều người niêm giữ nhiều câu, có thể khiến các tiếng chồng lấn tới mất nghĩa.",
+      "description_en": "Press to a written seal to hear the sentence its sealer actually forbade. Multiple sealers yield overlapping words that may become unintelligible.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Mang lời từ cửa cũ",
+      "name_en": "Bring Words from the Old Door",
+      "description_vi": "Cho một mảnh ngưỡng kể lại lời mở cửa cuối mà nó từng nhận. Lời ấy giữ cả ý gọi người qua; đáp lại có thể khiến người nghe nhận luôn vai khách cuối.",
+      "description_en": "Let a threshold-fragment repeat its final opening words. Answering may cause the listener to inherit the last guest’s place.",
+      "group_vi": "IV. Lời đi trước thân",
+      "group_en": "IV. Words Before Bodies"
+    },
+    {
+      "name_vi": "Chốt một lối thật",
+      "name_en": "Bar the Real Passage",
+      "description_vi": "Kéo nét khóa qua một cửa đã được ngọc nhận để nó từ chối một vật được chỉ rõ. Cấm mơ hồ như mọi nguy hiểm có thể khóa luôn người muốn được cứu.",
+      "description_en": "Draw a lock-stroke across an accepted door to deny a specific burden. Vague bans such as all danger may exclude the very person needing rescue.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Rẽ vật lao qua",
+      "name_en": "Divert the Intrusion",
+      "description_vi": "Mở một lối ghép đúng trước vật đang bay để chuyển đường nó sang mặt nhận. Người dùng phải nhận diện được vật trước khi nó qua; dự đoán sai để lối trống cho thứ khác.",
+      "description_en": "Open a paired threshold before a recognised flying object to divert it. A mistaken prediction leaves passage available to something else.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Khóa bóng người đuổi",
+      "name_en": "Bar the Pursuer’s Shadow",
+      "description_vi": "Giữ bóng một kẻ đang bước qua làm then, trì hoãn bước kế tới khi bóng được nhả. Cắt mất nguồn sáng làm cả ngưỡng bỏ lệnh thay vì giam vĩnh viễn.",
+      "description_en": "Use a crossing pursuer’s shadow as bolt to delay their next step. Removing the light cancels the threshold rather than imprisoning them forever.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Đóng vào hơi độc",
+      "name_en": "Close Against the Poisoned Air",
+      "description_vi": "Cho một mẫu khí làm dấu cấm để cửa tách phần khí tương ứng tại ngưỡng. Khí đã ở trong phòng không bị lấy ra; mẫu sai có thể chặn luôn hơi cần thở.",
+      "description_en": "Use an air-sample as a prohibition-mark to bar matching air. It removes none already within; a wrong sample may exclude needed breath.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Gập đường xung đột",
+      "name_en": "Fold the Clash’s Road",
+      "description_vi": "Đặt hai mặt ghép đối nhau để luồng lực đi vào mặt đầu bị trả theo mặt sau. Nguồn không đi qua đúng mặt vẫn tác động bình thường.",
+      "description_en": "Face paired surfaces together to return an entering force through the second. Anything not crossing that face acts normally.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Khe cho người thoát",
+      "name_en": "A Cleft for Escape",
+      "description_vi": "Giao dấu thoát cho người được chỉ rồi khóa cửa với vật họ tự nguyện bỏ lại. Người còn cố giữ vật làm mình thành phần gánh cũng bị giữ ngoài.",
+      "description_en": "Give an escape-mark and bar the doorway against something the traveller willingly abandons. Clinging to that burden may bar its holder too.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Lối một phía có hẹn",
+      "name_en": "The Appointed One-Way Gate",
+      "description_vi": "Mở lối chỉ đi một chiều với một dấu hẹn cho lượt về. Hủy dấu sau khi qua làm người đi mất quyền dùng chính lối ấy quay lại.",
+      "description_en": "Open one-way passage with a return token. Destroying it after crossing removes the right to return by that route.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Khép ngưỡng đang nuốt",
+      "name_en": "Close the Devouring Threshold",
+      "description_vi": "Dùng vật từng được lỗ mở trả ra làm then, buộc nó chốt một lượt ăn. Nếu vật ấy chưa thật thuộc về phía ngoài, lệnh có thể kéo người giữ vào cùng vật.",
+      "description_en": "Bolt a consuming opening with something it has returned. If that object never truly belonged outside, the rite may draw its holder inward with it.",
+      "group_vi": "V. Phía còn được đóng",
+      "group_en": "V. What May Still Be Closed"
+    },
+    {
+      "name_vi": "Nhận chủ bằng trao tay",
+      "name_en": "A Host by Gift",
+      "description_vi": "Một người tự nguyện trao chìa qua đá để chuyển quyền giữ một ngưỡng đã nhận. Ép tay hoặc dùng vật bị trộm chỉ truyền hình chiếc chìa, không truyền sự chấp thuận.",
+      "description_en": "Willingly pass a key through the gem to transfer an accepted threshold’s keeping. Coercion or a stolen key transfers its likeness, not consent.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Tước chìa của bóng giả",
+      "name_en": "Strip the Counterfeit Key",
+      "description_vi": "Cho cửa thấy dấu trao thật để các bản chìa chỉ sao hình thôi được nhận. Chìa từng được chủ thực lòng trao vẫn còn quyền, kể cả chủ nay hối hận.",
+      "description_en": "Present the true gifting-mark so merely copied keys lose admission. A genuinely gifted key retains its right despite later regret.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Đòi ngưỡng đã cướp",
+      "name_en": "Claim the Stolen Threshold",
+      "description_vi": "Người bị tước nhà đặt dấu còn được nhà nhận vào đá để gọi một lần hỏi cửa. Lời đòi mở được cuộc đối mặt, không tự phán ai đáng sở hữu.",
+      "description_en": "A dispossessed person offers a mark their home still accepts to call once at its door. It opens confrontation, not a verdict on ownership.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Mái trú không hỏi tên",
+      "name_en": "Nameless Shelter",
+      "description_vi": "Người giữ nhận việc canh một ngưỡng cho kẻ được mời trú mà không gọi tên họ. Họ gánh mọi yêu cầu đòi danh tính tới khi khách tự rời hoặc tự nói tên.",
+      "description_en": "Keep a sheltering threshold without naming invited guests. Its keeper bears demands for identity until guests leave or name themselves.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Giấy qua cửa",
+      "name_en": "The Passage-Writ",
+      "description_vi": "Khắc một quyền qua có giới hạn lên vật thật rồi trao tự nguyện. Cửa chỉ nhận đúng quyền đã ghi, kể cả sơ suất người trao muốn sửa sau đó.",
+      "description_en": "Inscribe a bounded passage-right upon a real object and give it willingly. The doorway follows the wording, including an oversight its giver later regrets.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Nhận món nợ ở cửa",
+      "name_en": "Take the Threshold-Debt",
+      "description_vi": "Đặt tay lên đá để nhận một lượt đang bị cửa đòi thay người khác. Đổi người gánh không xóa việc phải trả; những cửa khác có thể thôi nhận người đã nợ quá nhiều.",
+      "description_en": "Accept one passage-debt on another’s behalf. Transfer does not erase repayment; other doors may refuse someone burdened with too many debts.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Rút lời mời chưa dùng",
+      "name_en": "Withdraw the Unused Invitation",
+      "description_vi": "Gọi lại dấu mời trước khi người nhận bước tới ngưỡng để quyền ấy tắt. Một chân đã được cửa nhận khiến lời mời thành lượt qua phải được hoàn tất hoặc chịu trả giá.",
+      "description_en": "Recall an invitation before its recipient reaches the threshold. A foot already admitted creates a crossing that must be completed or paid for.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Từ chối làm chiếc chìa",
+      "name_en": "Refuse to Be the Key",
+      "description_vi": "Người bị lấy tên hoặc hình làm chìa có thể tự áp tay lên đá để rút sự nhận biết của mình. Những liên kết họ còn cần cũng bị rút theo nếu cùng dùng dấu ấy.",
+      "description_en": "Someone used as a key by name or likeness may withdraw their recognition by touch. Needed links sharing that mark are withdrawn as well.",
+      "group_vi": "VI. Chìa và quyền bước qua",
+      "group_en": "VI. Keys and the Right to Cross"
+    },
+    {
+      "name_vi": "Nhìn giờ cửa đóng",
+      "name_en": "See its Closing Hour",
+      "description_vi": "Gọi dấu then cuối để thấy một lát cảnh cửa tự khép trước đây. Hình lặp đúng góc cửa từng thấy, giữ cả vật che mà người xem mong nhìn xuyên.",
+      "description_en": "Call the final bolt-mark to see its former closing. The image preserves the doorway’s angle and obstructions rather than seeing through them.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Giữ giây chưa bước",
+      "name_en": "Hold the Unstepped Second",
+      "description_vi": "Người tự nguyện dừng một bước trên ngưỡng trong khi đồng đội qua. Phần chờ bám vào bước ấy; khi được nhả, mỏi của cả lượt tìm tới chân họ cùng lúc.",
+      "description_en": "A willing keeper suspends a step while companions cross. Their waiting adheres to that step; release brings its entire fatigue into their legs.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Mở lại một lời chia tay",
+      "name_en": "Reopen a Farewell",
+      "description_vi": "Hai người từng tự khép cùng một cửa đặt dấu vào ngọc để nghe lại lời chia tay đã thật nói. Đáp bằng lời mới chỉ tới người còn đang nghe ở hiện tại.",
+      "description_en": "Two former participants offer their marks to hear the farewell they truly spoke at one door. New replies reach only the person listening now.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Ngưỡng nhận đồ đến trễ",
+      "name_en": "The Late Arrival’s Door",
+      "description_vi": "Món đã được gửi trước lúc cửa khép có thể tới phía nhận qua dấu cũ dù chủ cửa thôi nhận khách. Dấu đã kết thúc giao nhận thì không còn đường trễ ấy.",
+      "description_en": "An object sent before closure may arrive through its old mark despite the host refusing visitors. A completed delivery leaves no such late route.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Khóa một điều chưa ra",
+      "name_en": "Lock What Has Not Emerged",
+      "description_vi": "Chỉ một vật đang thành hình ở ngưỡng để nó bị giữ trước lúc ra hết. Người gọi phải còn biết vật được giữ là gì; mất nhận biết khiến cửa tự chọn cách hoàn tất.",
+      "description_en": "Hold an emerging thing before it clears the threshold. The caller must retain its identity; forgetting lets the doorway choose completion.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Trả thứ bị bỏ giữa",
+      "name_en": "Return the Thing Left Between",
+      "description_vi": "Gọi dấu một vật còn bị kẹt từ lượt qua cũ để nó rơi về phía đã gửi. Nếu phía gửi đã bị phá, đồ trở về vật hiện mang tên nơi ấy.",
+      "description_en": "Recall a burden stranded in an earlier crossing to its sending side. If that side is destroyed, it returns to what now bears that place’s name.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Cho ngày mượn cửa đêm",
+      "name_en": "Lend Day a Night-Door",
+      "description_vi": "Dùng dấu ngưỡng đã từng mở trong tối để người qua giữ phần tối ấy quanh mình tới cửa ra. Mang theo lửa sáng sẽ khiến bóng tối đòi một phần ký ức của nơi được mượn.",
+      "description_en": "An old dark opening lends its darkness through one crossing. Carrying bright fire makes that darkness claim part of the borrowed place’s memory.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Đếm lần cuối chưa tới",
+      "name_en": "Count the Unarrived Last Crossing",
+      "description_vi": "Giao một dấu chờ để ngưỡng chỉ khép sau người cuối đã được nhận. Không định danh đủ người cuối khiến cửa chờ vô hạn và đòi người giữ thay ca.",
+      "description_en": "A waiting mark closes passage after its last admitted traveller. An undefined final traveller leaves it waiting and demanding successive keepers.",
+      "group_vi": "VII. Những lần mở chưa trùng nhau",
+      "group_en": "VII. Openings Out of Step"
+    },
+    {
+      "name_vi": "Phòng sau vỏ hạt",
+      "name_en": "A Room Behind the Husk",
+      "description_vi": "Một vỏ rỗng từng làm nơi trú được đặt làm cửa tới một gian đã ghép. Người qua phải bỏ cách tự coi mình lớn hơn ngưỡng; chế giễu nghi thức khiến thân chỉ chạm vỏ thường.",
+      "description_en": "A hollow husk once used as shelter becomes a door to a paired room. Travellers must relinquish being too large for it; mocking the rite yields ordinary shell.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Bảy ổ cho một lời thật",
+      "name_en": "Seven Locks for One Truth",
+      "description_vi": "Khắc bảy ổ quanh một điều được các bên tự nhận rồi lần lượt mở. Ngưỡng chỉ nhường khi lời được nói đủ trước người đã có quyền nghe; sự thật ngoài phần đã nhận không bị buộc lộ.",
+      "description_en": "Cut seven locks around a mutually acknowledged matter and open them in order. The full admission must reach those entitled to hear; unrelated truths are not compelled.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Cửa gọi bằng tiếng hát",
+      "name_en": "The Song-Called Door",
+      "description_vi": "Dạy một ngưỡng nhận giai điệu đã hát tự nguyện tại đó làm chìa. Người hát sai phải trả một ký ức về người đã dạy thay vì chỉ thử lại vô hạn.",
+      "description_en": "Teach a threshold a willingly sung melody as key. A mistaken singer pays a memory of their teacher rather than retrying endlessly.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Cầu thang xuống trời",
+      "name_en": "Stairs Descending into Sky",
+      "description_vi": "Ghép đáy một bậc với mặt nhận cao hơn để bước xuống thành đi lên. Người mang vật tin chắc mình đang rơi có thể kéo cả vật khỏi sự nhận của bậc.",
+      "description_en": "Pair a step’s underside with a higher receiver so descent becomes ascent. A burden insistently identified as falling may pull itself outside the step’s acceptance.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Khách bước ra từ tranh",
+      "name_en": "A Guest Out of the Picture",
+      "description_vi": "Người thật tự gửi dấu vào chân dung có thể dùng hình ấy làm cửa ra của một lượt qua. Bức tranh vẽ tưởng tượng chỉ mở cho khoảng trống mang tên khách đó.",
+      "description_en": "A real person willingly marking their portrait may use it as an exit. An invented portrait opens only to an absence bearing its supposed guest’s name.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Căn nhà trong chiếc chìa",
+      "name_en": "The House Within the Key",
+      "description_vi": "Chủ giữ ngưỡng của một gian trống vào chiếc chìa để mang quyền trở lại theo mình. Thả mất chìa có thể khiến gian ấy nhận người nhặt làm vị khách đầu tiên.",
+      "description_en": "A keeper lodges an empty room’s threshold within its key, carrying return-right. A lost key may admit its finder as that room’s first guest.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Cửa để kẻ săn thành khách",
+      "name_en": "Make the Hunter a Guest",
+      "description_vi": "Người bị đuổi tự mở cửa và mời kẻ đuổi qua theo điều khoản nói rõ. Kẻ nhận lời phải bước như khách theo chính lời mời; kẻ từ chối vẫn ở ngoài với toàn bộ khả năng cũ.",
+      "description_en": "The pursued opens a door and offers explicit guest-terms. Acceptance makes the pursuer cross as that invitation’s guest; refusal leaves them outside with their former powers.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    },
+    {
+      "name_vi": "Ngưỡng không còn ai giữ",
+      "name_en": "The Door Without a Keeper",
+      "description_vi": "Người gọi tự bỏ quyền quay về để khép mọi lượt đang đòi mình canh qua viên ngọc. Những người đã ra được giữ phía ngoài; tên người gọi ở lại làm chiếc then mà chính họ không còn quyền mở.",
+      "description_en": "Relinquish your return-right to close crossings demanding your keeping. Those already out remain outside; your name stays as the bolt you can no longer open.",
+      "group_vi": "VIII. Cửa trong cổ tích",
+      "group_en": "VIII. Doors in the Tale"
+    }
+  ],
+  "mineral-thach-no-mot-nhip": [
+    {
+      "name_vi": "Vết kim nhận việc",
+      "name_en": "The Needle Accepts the Event",
+      "description_vi": "Chạm đá vào vật vừa khởi chuyển động và gọi rõ hậu quả cần giữ để vết kim mở; gọi mơ hồ có thể nhận một hậu quả khác đang gần hơn.",
+      "description_en": "Touch the stone to an object beginning its motion and name the consequence to hold so a scar opens; ambiguity may accept another, nearer consequence.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Nghe phía đến",
+      "name_en": "Hear the Arrival",
+      "description_vi": "Áp đá qua một mảnh gỗ để nghe tiếng hậu quả còn đang nợ, nhận nó sẽ tới phía nào; nghe trực tiếp lâu có thể khiến tai thành nơi nó tìm tới.",
+      "description_en": "Listen through wood to the sound of the owed consequence and learn its approaching side; prolonged direct listening may make the ear its destination.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Soi đường nợ",
+      "name_en": "See the Debt’s Path",
+      "description_vi": "Chiếu đèn qua vết kim để hiện một sợi tối nối vật với nơi nhận đã chọn; vật khuất vẫn cần được nhận đúng từ trước.",
+      "description_en": "Shine through a scar to reveal a dark thread between object and chosen receiver; a concealed object must already have been correctly identified.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Chọn mặt trả",
+      "name_en": "Choose the Repayment Face",
+      "description_vi": "Đặt đá lên một bề mặt chịu được hậu quả trước khi giữ việc để chọn mặt trả, tránh để đá tự chọn bàn tay người dùng.",
+      "description_en": "Set the stone against a surface able to bear the consequence before holding the event, choosing its repayment face before the stone chooses the keeper’s hand.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Đếm nhịp người giữ",
+      "name_en": "Count the Keeper’s Beat",
+      "description_vi": "Người giữ đặt một ngón lên mạch mình để nhận khoảng nợ đang mở bằng nhịp riêng; nhịp rối làm các dấu mở khó phân biệt.",
+      "description_en": "Keep a finger upon one’s pulse to recognise the opened debt by a personal beat; an irregular pulse confuses opening signs.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Mốc trước sau",
+      "name_en": "Mark Before and After",
+      "description_vi": "Đặt hai hòn sỏi hai bên đá khi nhận việc để đánh dấu đầu khởi và đầu trả, giữ thứ tự khi phải chuyển vị trí.",
+      "description_en": "Place pebbles on either side when accepting an event to mark initiation and repayment and preserve their order during movement.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Dấu nợ lạc",
+      "name_en": "The Straying Debt’s Sign",
+      "description_vi": "Vuốt mép vết kim bằng chỉ khô để sợi chỉ nghiêng về nơi hậu quả đang tìm tới sai đường; chỉ cháy đen báo phải chuẩn bị trả ngay.",
+      "description_en": "Stroke a scar’s edge with dry thread so it leans towards a wrongly approaching consequence; blackening warns that repayment must be prepared immediately.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Đọc phần còn thiếu",
+      "name_en": "Read the Missing Part",
+      "description_vi": "Soi phản chiếu vết kim trên nước để thấy đoạn hậu quả chưa đến dưới dạng khoảng đen; nước rung làm nhiều đoạn trông như một.",
+      "description_en": "Reflect a scar upon water to see its unarrived portion as darkness; rippling water can merge separate portions.",
+      "group_vi": "Nhận khoản nợ",
+      "group_en": "Recognise the Debt"
+    },
+    {
+      "name_vi": "Chạm chưa tới",
+      "name_en": "The Unarrived Touch",
+      "description_vi": "Nhận một vật đang sắp va để giữ khoảnh khắc chạm giữa vật và mặt đích, dành thời gian kéo người khỏi khoảng ấy.",
+      "description_en": "Accept an object about to strike and hold its contact with the target surface, gaining time to remove someone from between them.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Búa chờ đe",
+      "name_en": "The Hammer Awaits the Anvil",
+      "description_vi": "Giao cú búa đang xuống cho đá để đặt lại chi tiết dưới đe trước khi cho đòn đến; đe đổi chỗ phải đổi luôn mặt trả.",
+      "description_en": "Entrust a descending hammerstroke to reset the workpiece beneath it before arrival; moving the anvil requires moving the repayment face too.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Đạn đợi giáp",
+      "name_en": "The Shot Awaits the Armour",
+      "description_vi": "Đánh dấu trước một tấm giáp rồi nhận cú đạn chạm nó để người mặc đổi tư thế, dẫn đòn vào phần chịu lực tốt hơn; viên đạn vẫn phải được trả vào vật nhận.",
+      "description_en": "Premark armour and accept a projectile’s contact so its wearer can change posture towards a stronger section; the shot still needs a receiving material.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Đỡ vật rơi",
+      "name_en": "Receive the Falling Object",
+      "description_vi": "Giữ lần chạm đất của một vật đã nhận để đặt đệm hoặc dây hãm vào đường cuối; đệm phải chịu được phần chuyển động còn lại.",
+      "description_en": "Hold a marked object’s ground contact to insert padding or a brake into its final path; the receiver must withstand its remaining motion.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Răng cưa chờ tay",
+      "name_en": "The Sawtooth Awaits the Hand",
+      "description_vi": "Nhận lần chạm giữa răng cưa và vật đã đánh dấu để rút tay khỏi vùng cắt, rồi cho răng đến vật đỡ thay thế.",
+      "description_en": "Accept contact between a sawtooth and a marked object so a hand can leave the cutting zone, then let the tooth arrive upon replacement support.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Sóng đập bến",
+      "name_en": "The Wave Strikes the Quay",
+      "description_vi": "Đặt mặt trả tại một trụ đã chọn để hoãn một cú sóng đến trụ trong lúc người vượt qua; nước ngoài quan hệ đã chọn vẫn chảy.",
+      "description_en": "Choose a pier as repayment face and postpone one wave’s strike while people cross; water outside the selected relationship continues moving.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Giữ dây khỏi quất",
+      "name_en": "Stay the Whipping Rope",
+      "description_vi": "Nhận lần dây đứt sắp quất vào mặt đã đánh dấu, dùng khoảng nợ buộc đầu dây vào vật nhận; chạm đầu dây khác có thể tạo va chạm mới ngoài khoản giữ.",
+      "description_en": "Accept a snapping rope’s approaching strike upon a marked face and use the debt to secure its end to a receiver; another end can create a new impact outside the held debt.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Cửa chờ ngưỡng",
+      "name_en": "The Door Awaits Its Threshold",
+      "description_vi": "Giữ cú sập của cánh cửa đã nhận để người mắc kẹt rời ngưỡng, rồi trả cú đến vào chốt đệm; sức nặng cánh vẫn cần kê.",
+      "description_en": "Hold a marked door’s slam so someone trapped can leave, then repay it into a padded stop; the door’s weight still needs bracing.",
+      "group_vi": "Giữ cú chạm",
+      "group_en": "Hold the Impact"
+    },
+    {
+      "name_vi": "Lửa đợi bấc",
+      "name_en": "Fire Awaits the Wick",
+      "description_vi": "Nhận lần một bấc đã đánh dấu sắp bắt lửa để dời nhiên liệu hoặc đặt nắp, tạo nguyên nhân mới chặn ngọn lửa trước khi trả.",
+      "description_en": "Accept a marked wick’s ignition to remove fuel or fit a cover, providing a fresh cause to stop the flame before repayment.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Thuốc đợi tia",
+      "name_en": "Powder Awaits the Spark",
+      "description_vi": "Giữ quan hệ giữa tia lửa và một mồi thuốc đã nhận để lấy mồi ra khỏi kho thuốc; phần đang cháy khác vẫn cần được dập.",
+      "description_en": "Hold the relationship between a spark and marked priming powder to remove it from the magazine; other burning material still needs extinguishing.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Vết nứt đợi mở",
+      "name_en": "The Crack Awaits Opening",
+      "description_vi": "Đánh dấu đầu nứt đang lan rồi giữ lần nó vượt qua một mối nối, cho thời gian đặt đai chịu tải; vết khác có thể tiếp tục lan.",
+      "description_en": "Mark an advancing crack tip and hold its passage through a joint, gaining time to fit a load-bearing band; other cracks may advance.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Nước đợi tràn",
+      "name_en": "Water Awaits Overflow",
+      "description_vi": "Nhận mép nước sắp vượt một bờ đã đánh dấu để đặt máng dẫn nơi trả, chuyển đợt tràn vào bể có chuẩn bị.",
+      "description_en": "Accept water about to overtop a marked edge to fit a channel at its repayment face and direct the overflow into a prepared basin.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Rễ đợi gãy",
+      "name_en": "The Root Awaits Breaking",
+      "description_vi": "Giữ lần một rễ chịu tải sắp đứt để người trèo chuyển dây sang điểm chắc hơn; phần đất đang trượt vẫn có thể cuốn cả cây.",
+      "description_en": "Hold the imminent breaking of a load-bearing root so a climber can shift their line to a sounder point; sliding earth may still take the whole tree.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Hơi đợi van",
+      "name_en": "Steam Awaits the Valve",
+      "description_vi": "Nhận lần hơi sắp bật van đã đánh dấu để đưa đường xả tới chỗ trống; áp trong lò vẫn tăng nên phải giải nguồn cùng lúc.",
+      "description_en": "Accept steam about to open a marked valve and route its vent towards clear space; boiler pressure continues rising and its source needs relief too.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Mực đợi giấy",
+      "name_en": "Ink Awaits the Paper",
+      "description_vi": "Giữ lần giọt mực sắp chạm một trang đã nhận để đổi trang hoặc đặt lớp thấm, cứu dòng chữ khỏi vết loang.",
+      "description_en": "Hold an ink drop’s contact with a marked page to replace the page or insert blotting material and save writing from a stain.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Băng đợi khép",
+      "name_en": "Ice Awaits Closure",
+      "description_vi": "Nhận lần một khe băng sắp khép tại điểm đã đánh dấu để rút dây hoặc ống ra; lực từ phần hồ ngoài khe tiếp tục dồn tới.",
+      "description_en": "Accept an ice gap’s closure at a marked point to remove a rope or tube; force from surrounding ice continues approaching.",
+      "group_vi": "Giữ sự khởi phát",
+      "group_en": "Hold the Onset"
+    },
+    {
+      "name_vi": "Rút khỏi đòn",
+      "name_en": "Leave the Blow",
+      "description_vi": "Người đã cùng đánh dấu với đá nhận thấy khoảng nợ mở và bước khỏi nơi đòn sẽ đến; quay lại trước khi trả đặt họ vào đúng đường cũ.",
+      "description_en": "Someone jointly marked with the stone can recognise its opening and leave the blow’s arrival point; returning before repayment puts them back in its path.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Đưa cáng qua sập",
+      "name_en": "Carry the Litter Through Collapse",
+      "description_vi": "Giữ lần một mảng thành đã nhận chạm đất để đội cứu khiêng cáng qua đường trống bên dưới; các mảnh chưa nhận vẫn rơi.",
+      "description_en": "Hold a marked wall section’s ground impact so rescuers carry a litter through the space below; unmarked fragments still fall.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Thắt nút còn thiếu",
+      "name_en": "Tie the Missing Knot",
+      "description_vi": "Giữ lần dây neo đã nhận tuột khỏi mấu để thắt thêm nút chịu lực trước khi quan hệ được trả; mấu yếu có thể thành nơi đứt mới.",
+      "description_en": "Hold a marked anchor line slipping off its peg to add a load-bearing knot before repayment; a weak peg may become the new failure point.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Lời trước tiếng vỡ",
+      "name_en": "Words Before the Breaking",
+      "description_vi": "Giữ tiếng va đã nhận tới tai một người để họ nghe được một lời cảnh báo trước tiếng nổ; sóng khí và mảnh văng cần được xử lý riêng.",
+      "description_en": "Hold an accepted impact’s sound from one listener so a warning reaches them before the crash; air pressure and fragments require separate handling.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Nhìn trong một nhịp",
+      "name_en": "Look Within a Beat",
+      "description_vi": "Đưa mắt theo sợi tối của khoản nợ để quan sát hướng vật sắp tới rõ hơn; nhìn quá lâu làm các chuyển động khác ngoài khoản trở nên khó theo.",
+      "description_en": "Follow a debt’s dark thread to see the approaching object’s direction more clearly; prolonged viewing makes other motion difficult to track.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Chuyền người giữ",
+      "name_en": "Pass the Keeper",
+      "description_vi": "Người thứ hai tự chạm đá và nhận nhịp trước khi người đầu rút tay để chuyển vai canh; mất tiếp xúc cả hai khiến khoản tự tìm mặt trả.",
+      "description_en": "A second keeper touches the stone and accepts its beat before the first withdraws, transferring the watch; losing both contacts makes the debt seek its own receiver.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Chọn một người qua",
+      "name_en": "Choose One to Pass",
+      "description_vi": "Đặt dấu tiếp xúc của một người lên đá để khoảng nợ mở được cảm nhận riêng bởi họ, giúp điều phối cứu hộ; họ vẫn cần người ngoài giữ mặt trả.",
+      "description_en": "Place one person’s contact mark upon the stone so they alone perceive the opening and coordinate a rescue; someone outside must still maintain the repayment face.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Trả bước đã mượn",
+      "name_en": "Repay the Borrowed Step",
+      "description_vi": "Sau khi thoát, người đã đi trong khoảng nợ đứng yên và gõ một nhịp lên đất để khép quan hệ của mình; bỏ qua khiến bước chân tiếp tục trễ tiếng.",
+      "description_en": "After escape, the person who moved within the debt stands still and taps the ground once to close their link; neglect leaves footsteps sounding late.",
+      "group_vi": "Người trong khoảng đợi",
+      "group_en": "People Within the Interval"
+    },
+    {
+      "name_vi": "Mặt đỡ mới",
+      "name_en": "The New Receiving Face",
+      "description_vi": "Cho mặt nhận cũ chạm một vật đỡ mới rồi trượt đá qua điểm tiếp xúc để chuyển nơi trả; vật mới phải gánh đủ hậu quả đã giữ.",
+      "description_en": "Touch the old receiver to a new support and slide the stone across their contact to transfer repayment; the new object must bear the full held consequence.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Trả vào cát",
+      "name_en": "Repay Into Sand",
+      "description_vi": "Nối mặt trả với một hòm cát đã neo để cú chạm kết thúc trong cát, dùng cho xả va; hòm kín quá có thể vỡ vì cát bị dồn.",
+      "description_en": "Join the repayment face to an anchored sand chest so an impact ends in sand; an overconfined chest may burst under displaced grains.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Dồn tới đe",
+      "name_en": "Bring It to the Anvil",
+      "description_vi": "Đưa khoản va đang nợ vào một tấm đe cùng chạm vật đã nhận, dùng sức đó cho công việc; khung đe chịu cả phản lực và cần kê chắc.",
+      "description_en": "Move an owed impact into an anvil touching the marked object and use the force for work; its frame receives recoil and needs bracing.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Đổi cửa ngân",
+      "name_en": "Change the Sounding Door",
+      "description_vi": "Chuyển nơi một tiếng đã nhận sẽ vang sang tấm gỗ đang nối đá, gửi tiếng báo về phía chọn; người giữ nghe một âm dư trong xương sau đó.",
+      "description_en": "Transfer the arrival of an accepted sound into a wooden panel connected to the stone to direct a signal; the keeper hears a residual tone in bone afterwards.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Trả xuống móng",
+      "name_en": "Repay Through Foundations",
+      "description_vi": "Nối khoản chấn đã nhận vào móng có đường tản lực để tránh mặt sàn đang có người; móng yếu chỉ chuyển tai họa xuống dưới.",
+      "description_en": "Join an accepted shock to a foundation with a dispersal path instead of an occupied floor; a weak foundation merely moves disaster below.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Gập đường tới",
+      "name_en": "Fold the Arrival Path",
+      "description_vi": "Đặt hai mặt đang chạm cùng đá thành góc để hậu quả đi tới qua góc ấy, đổi hướng cú đến; góc quá nhọn có thể làm mặt nhận vỡ.",
+      "description_en": "Angle two faces touching the stone so the consequence arrives through their corner and changes direction; a sharp corner may shatter the receiver.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Chọn vật hy sinh",
+      "name_en": "Choose the Sacrificial Receiver",
+      "description_vi": "Đánh dấu một vật khác bằng chính vết tiếp xúc của vật đang nợ để nó nhận phần hậu quả tương ứng; hình dấu sai để phần còn lại quay về chủ cũ.",
+      "description_en": "Mark another object with the debtor’s exact contact trace to let it receive the matching consequence; an inaccurate trace returns the remainder to its original owner.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Trả về nguồn",
+      "name_en": "Return to the Source",
+      "description_vi": "Đưa mặt trả trở lại điểm đã sinh cú chuyển động để hậu quả kết tại nguồn, như nhả cú bật về chính lò xo; nguồn phải chịu được lần nhận ngược.",
+      "description_en": "Bring repayment back to the motion’s origin, such as returning recoil into its spring; the source must endure receiving it in reverse.",
+      "group_vi": "Đổi nơi hậu quả",
+      "group_en": "Move the Consequence"
+    },
+    {
+      "name_vi": "Đầu rồi cuối",
+      "name_en": "First, Then Last",
+      "description_vi": "Vạch hai nấc trên mặt trả để một hậu quả kéo dài đến theo hai chặng, dành khoảng giữa cho điều chỉnh; hai chặng vẫn thuộc cùng một khoản.",
+      "description_en": "Mark two stages on a receiving face so a prolonged consequence arrives in two passages with room to adjust between; both remain parts of one debt.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Tiếng đến sau lực",
+      "name_en": "Sound After Force",
+      "description_vi": "Tách lần nghe khỏi lần chạm trong cùng khoản va để cho lực kết thúc trước rồi mới nhả tiếng, hữu ích khi cần nghe lệnh trong lúc thao tác.",
+      "description_en": "Separate hearing from contact within one impact debt so force ends before sound is released, allowing commands to be heard during the work.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Lực đến sau tiếng",
+      "name_en": "Force After Sound",
+      "description_vi": "Nhả phần tiếng của khoản va trước như dấu cảnh báo rồi giữ phần chạm cho đến khi mặt đỡ đã sẵn; tiếng báo tiêu chính phần âm đó.",
+      "description_en": "Release an impact debt’s sound first as warning and retain contact until support is ready; the warning spends that sound portion.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Từ rìa vào tâm",
+      "name_en": "From Edge to Centre",
+      "description_vi": "Dẫn một lần tiếp xúc rộng tới theo mép rồi vào giữa để vật đỡ nhận tải dần; vật quá giòn có thể nứt tại mép trước lúc nhận hết.",
+      "description_en": "Lead broad contact from edge to centre so its support takes the load gradually; a brittle receiver may crack at the edge before full arrival.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Giữ chặng cuối",
+      "name_en": "Hold the Final Passage",
+      "description_vi": "Cho phần đầu hậu quả tới rồi giữ phần cuối để kịp đặt chốt hoàn tất, như giữ một vòng quay trước lúc khóa; vật phải còn cùng đường nhận.",
+      "description_en": "Let the first portion arrive and retain the last to fit a finishing catch, such as holding a rotation before locking; the object must remain on its receiving path.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Hẹn theo dấu chạm",
+      "name_en": "Appoint the Touch",
+      "description_vi": "Đặt một nút gỗ nối đá làm dấu trả để người canh chủ động chạm nhả khoản; nút bị đụng ngoài ý muốn cũng có thể gọi đến.",
+      "description_en": "Fit a wooden button connected to the stone as a repayment trigger; an unintended touch can summon arrival too.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Hẹn theo tiếng gọi",
+      "name_en": "Appoint the Call",
+      "description_vi": "Giao một tiếng gõ riêng vào đá để nhả hậu quả khi tiếng ấy trở lại qua vật dẫn, dùng lúc hai tay bận; tiếng trùng từ bên ngoài vẫn là nguy cơ.",
+      "description_en": "Entrust a distinctive knock to release the consequence when it returns through a conductor, useful with occupied hands; an outside matching sound remains dangerous.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Khép phần đã tới",
+      "name_en": "Close What Arrived",
+      "description_vi": "Sau mỗi chặng trả, vuốt vết kim từ đầu tới điểm đã khép để phần còn lại hiện riêng, tránh nhầm khoản đã trả với khoản đang giữ.",
+      "description_en": "After each repayment stage, stroke the scar from its start to the closed point so the remainder appears separately and settled portions are not mistaken for held ones.",
+      "group_vi": "Sắp thứ tự đến",
+      "group_en": "Order the Arrivals"
+    },
+    {
+      "name_vi": "Gọi khoản quên",
+      "name_en": "Call the Forgotten Debt",
+      "description_vi": "Đặt đá giữa hai mốc trước sau còn giữ để vết của khoản bị bỏ dở sáng trở lại, tìm phần hậu quả chưa được trả.",
+      "description_en": "Set the stone between preserved before-and-after markers to illuminate an abandoned debt’s scar and locate its unarrived consequence.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Đọc người mắc",
+      "name_en": "Read the Bound Person",
+      "description_vi": "Cho một sợi tóc tự nguyện vào sợi tối để xem chủ tóc còn bị nối khoản nào; tóc xoắn quanh vết báo họ chưa khép bước mượn.",
+      "description_en": "Place a freely given hair upon the dark thread to see whether its owner remains linked; coiling around the scar warns of an unclosed borrowed step.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Trả chậm qua vật mềm",
+      "name_en": "Slow Repayment Through Soft Matter",
+      "description_vi": "Dẫn khoản va vào nhiều lớp vật mềm cùng tiếp xúc để giãn thời gian kết thúc của một lần đến; lớp cuối vẫn phải nhận phần chưa tiêu.",
+      "description_en": "Lead an impact debt through contacting soft layers to lengthen its completion; the final layer still receives the unspent portion.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Ngắt nguồn sinh thêm",
+      "name_en": "Stop Fresh Accrual",
+      "description_vi": "Dùng khoảng nợ tháo nguồn đang tạo thêm hậu quả, như ngừng búa máy trước khi trả cú đầu; chỉ khoản đã nhận được giữ, phần phát sinh khác vẫn tới.",
+      "description_en": "Use the debt interval to stop a source producing more consequences, such as halting a hammer before repaying its first stroke; only the accepted debt is held and fresh events still arrive.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Cho vật khác đáp",
+      "name_en": "Let Another Object Answer",
+      "description_vi": "Dựng một va chạm mới đủ sức đỡ hậu quả cũ ngay tại mặt trả để chúng gặp nhau, như dùng lò xo hãm cú rơi; sai hướng có thể cộng lực thay vì triệt bớt.",
+      "description_en": "Arrange a fresh interaction capable of bearing the old consequence at its repayment face, such as a spring braking a fall; a wrong direction can add forces instead of reducing them.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Xóa dấu đã trả",
+      "name_en": "Clear the Settled Mark",
+      "description_vi": "Rửa vết kim đã khép bằng nước từng chạm vật nhận để phần đen nông nhạt, phân biệt khỏi nợ còn mở; vết sâu tới lõi vẫn giữ sẹo.",
+      "description_en": "Wash a settled scar with water that touched its receiver to pale shallow blackness and distinguish it from open debt; deep core-reaching scars remain.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Chỗ trống cuối sổ",
+      "name_en": "The Ledger’s Last Space",
+      "description_vi": "Đặt đá lên sổ đã ghi đủ các lượt để một khoảng mực trống hiện trước tên khoản chưa khép, hỗ trợ rà nợ; sổ thiếu lượt khiến khoảng ấy chỉ đánh dấu phần đã biết.",
+      "description_en": "Place the stone upon a complete use ledger so a blank ink space appears before an unclosed debt’s entry; an incomplete ledger marks only known debts.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Trao lại nhịp canh",
+      "name_en": "Return the Watch Beat",
+      "description_vi": "Khi mọi khoản đã trả, người giữ gõ nhịp riêng lên vòng đá rồi rút tay để bước và tiếng tim nhận lại cùng lúc; còn nợ làm nhịp đáp vang từ nơi khác.",
+      "description_en": "Once debts are settled, the keeper taps their own beat and withdraws so footsteps and heartbeat reunite; remaining debt makes the answer sound elsewhere.",
+      "group_vi": "Đòi nợ và trả nợ",
+      "group_en": "Calling and Settling"
+    },
+    {
+      "name_vi": "Nghe chân tháp",
+      "name_en": "Hear the Tower’s Foot",
+      "description_vi": "Đặt đá đỏ lên đất trống lúc canh để nghe âm trầm của khoản sinh ra nó, nhận vết sâu đang tiến tới tâm; mỗi lần nghe kéo giấc mơ tháp gần hơn.",
+      "description_en": "Set the red stone upon clear ground to hear the low founding debt and sense deep scars nearing the centre; each listening draws the tower dream closer.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Vành giữ kim",
+      "name_en": "The Scar-Holding Band",
+      "description_vi": "Ép một vòng kim loại liền quanh đá để vết kim mới đi theo vành ngoài trước khi hướng tâm, dành thêm lượt chuẩn bị trả; vòng vỡ sẽ thả các vết về đường ngắn nhất.",
+      "description_en": "Fit an unbroken metal band so new scars follow the outer circuit before turning inward, gaining preparation time; a broken band releases them along the shortest path.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Khoảng đợi của thành",
+      "name_en": "The Citadel’s Interval",
+      "description_vi": "Đánh dấu đồng thời chân móng và mặt đất khi một kết cấu lớn bắt đầu sụp để giữ một lần chạm chung của nó, mở đường cứu nhiều người; mảnh rời khỏi quan hệ chung vẫn có thể rơi tới.",
+      "description_en": "Mark foundation and ground together as a great structure begins collapsing to hold its shared contact and open a rescue route; fragments departing that relationship may still strike.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Trả chuông vào chuông",
+      "name_en": "Repay the Bell Into a Bell",
+      "description_vi": "Dựng một chuông nhận trên nền riêng rồi nối đá để xả phần ngân sâu đang đòi tới vào nó; chuông nhận có thể nứt và người đứng gần chịu tiếng rất lớn.",
+      "description_en": "Raise a receiving bell upon its own footing and connect the stone to discharge demanding deep resonance into it; the bell may crack and nearby people face immense sound.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Đổi một nhịp đời",
+      "name_en": "Exchange a Living Beat",
+      "description_vi": "Người giữ tự nguyện giao một nhịp tim đã đánh dấu để kéo dài một khoản cứu người quá sức, rồi nằm xuống nhận nhịp trả; lần trao có thể làm họ kiệt sức hoặc chết nếu cơ thể không chịu được.",
+      "description_en": "The keeper may freely offer a marked heartbeat to extend an overwhelming rescue debt, then lie down to receive its return; the exchange can exhaust or kill a body unable to bear it.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Để tai họa qua",
+      "name_en": "Let the Calamity Pass",
+      "description_vi": "Sau khi mở đủ lối cứu, tháo dấu trì ở một vùng đã bỏ trống để tai họa được hoàn tất tại đó, thay vì tiếp tục kéo nợ sâu vào đá.",
+      "description_en": "After rescue routes are clear, remove the holding mark from an evacuated region and let the calamity finish there rather than drive its debt deeper into the stone.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Niêm tiếng cuối",
+      "name_en": "Seal the Final Sound",
+      "description_vi": "Đặt đá đã trả các khoản dùng vào hộp có mặt nhận riêng và một khoảng trống trước nó, giữ phần âm gốc khỏi vô tình chọn người mở hộp; niêm cần được kiểm sau mỗi lần chuyển.",
+      "description_en": "Box the stone after settling use debts with a dedicated receiving face and space before it so its founding sound does not casually select the opener; inspect the seal after every move.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    },
+    {
+      "name_vi": "Nghe đủ rồi buông",
+      "name_en": "Hear It Through and Release",
+      "description_vi": "Một ghi chép chưa được xác nhận mô tả việc đưa đá về nền tháp cũ, trả đầy đủ tiếng chuông gốc và để vết kim khép từ tâm ra ngoài; bản chép kết thúc trước khi nói người thực hiện đã trở về.",
+      "description_en": "An unverified account describes returning the stone to its old tower footing, repaying the entire founding peal and letting scars close from centre to rim; the account ends before stating whether its keeper returned.",
+      "group_vi": "Tiếng chuông dưới đá",
+      "group_en": "The Bell Beneath the Stone"
+    }
+  ],
+  "mineral-manh-da-chua-roi": [
+    {
+      "name_vi": "Dấu của hướng xuống",
+      "name_en": "The Mark of Down",
+      "description_vi": "Treo vật làm dấu trên hộp để biết nơi nó sẽ nhận là dưới trong nghi thức. Dấu đổi theo vật, không cho một hướng chung đáng tin với mọi thứ.",
+      "description_en": "Hang a token over the box to reveal its ritual downwards. Different burdens answer differently; this is no universal direction.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Nghe điểm chạm",
+      "name_en": "Hear the Contact",
+      "description_vi": "Cho bụi từ vật vào hộp để nghe âm nơi nó đang hướng tới. Âm thuộc nơi nhận được gọi, có thể đã khác địa hình người dùng nhớ.",
+      "description_en": "Offer an object’s dust to hear its approaching contact. The named receiver may differ from remembered terrain.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Vẽ đường đã rơi",
+      "name_en": "Draw the Fallen Path",
+      "description_vi": "Lần dấu trên một vật vừa chạm đất để hiện đường rơi gần nhất bằng bóng. Động tác xảy ra sau đó có thể cắt hình trước khi đọc hết.",
+      "description_en": "Trace a recently grounded object to reveal its latest descent in shadow. Later movement may cut the image short.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Nhận phần còn treo",
+      "name_en": "Find the Suspended Share",
+      "description_vi": "Đặt dấu vật trên đáy để nghe đủ số nhịp còn bị hộp giữ hộ. Một vật ghép nhiều nguồn cho nhiều nhịp, cần tách từng nguồn trước.",
+      "description_en": "Lay a burden’s mark upon the bottom to hear its held beats. Composite origins answer separately and must be distinguished.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Mắt dưới vực",
+      "name_en": "An Eye Beneath the Abyss",
+      "description_vi": "Nhìn qua khoảng hở để thấy mặt đầu tiên một vật thử sẽ chạm khi thả xuống. Giữ thử trong tay quá lâu có thể khiến chính tay thành mặt ấy.",
+      "description_en": "Look through the gap for a test-object’s first contact. Holding it too long may designate the hand itself.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Tên của nơi đỡ",
+      "name_en": "Name the Support",
+      "description_vi": "Áp một mẩu nền vào nắp để đá nhận địa điểm chịu đỡ. Nền đã bị đổi tên theo nghi thức khác có thể nhận bằng tên cũ.",
+      "description_en": "Touch ground-fragment to lid to designate support. A ritually renamed place may still answer by its former name.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Lời của mảnh vỡ",
+      "name_en": "The Fragment’s Account",
+      "description_vi": "Đặt những mảnh cùng một vật quanh hộp để nghe thứ tự chúng lìa nhau khi rơi. Phần thất lạc để khoảng lặng, không được hộp tự điền.",
+      "description_en": "Arrange matching fragments to hear their order of separation. Missing pieces remain silence rather than invented testimony.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Độ nặng người tự nhận",
+      "name_en": "The Burden Freely Claimed",
+      "description_vi": "Một người tự nói việc mình đang gánh trước hộp để nó hiện thành bóng trên nắp. Hộp nhận cách họ hiểu việc ấy, không phân xử đúng sai.",
+      "description_en": "State a freely claimed burden and see its shadow upon the lid. The box receives that understanding, not a verdict.",
+      "group_vi": "I. Đọc một cuộc rơi",
+      "group_en": "I. Reading a Fall"
+    },
+    {
+      "name_vi": "Bàn tay dưới vật",
+      "name_en": "The Hand Beneath",
+      "description_vi": "Đặt bóng tay dưới dấu vật đang rơi để giữ nó trước mặt nhận. Rút tay thật khỏi dấu làm phần đang giữ tiếp tục rơi.",
+      "description_en": "Set a hand-shadow beneath a falling burden’s mark to suspend contact. Withdrawing the real hand resumes its descent.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Một mái chưa xuống",
+      "name_en": "A Roof Not Yet Down",
+      "description_vi": "Gọi đường viền mái vào hộp để giữ phần đang sập trong hình ấy. Mảnh đã rời khỏi đường viền tự rơi và có thể làm đứt dấu.",
+      "description_en": "Name a roof-outline to hold its collapse within that shape. Detached debris falls independently and may break the mark.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Giọt không chạm nền",
+      "name_en": "The Ungrounded Drop",
+      "description_vi": "Đón một giọt bằng dấu hộp để nó đứng trước chỗ rơi. Mọi chất hòa trong giọt cũng bị giữ, kể cả thứ gây hại cho người sau nhận.",
+      "description_en": "Catch a drop by the box-sign before landing. Its contents remain, including hazards passed to its eventual receiver.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Dừng dây đứt ở mép",
+      "name_en": "Hold the Parting Rope",
+      "description_vi": "Đánh dấu hai đầu dây đang lìa để giữ khoảng cuối giữa chúng. Lực vẫn tìm người gánh; bỏ cả hai điểm nhận cho dây quất về hộp.",
+      "description_en": "Mark parting rope-ends to hold their final interval. Force still demands a bearer; abandoning both receivers whips it towards the box.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Kết bọt trong vực",
+      "name_en": "Knot a Bubble in the Deep",
+      "description_vi": "Gọi một bọt đang nổi như vật rơi về mặt nước để giữ nó ở một độ sâu. Đổi mặt nhận bằng lời mơ hồ có thể làm bọt sụp.",
+      "description_en": "Name a rising bubble as falling towards the surface to suspend it below. Ambiguous reassignment may collapse it.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Giữ tro khỏi tản",
+      "name_en": "Keep Ash from Scattering",
+      "description_vi": "Cho tro mới nhận cùng dấu để các hạt đứng theo hình trước lúc tan ra. Tro pha nguồn khác tạo hình chen nhau khó giải.",
+      "description_en": "Give fresh ash one sign to retain its pre-scattering shape. Mixed sources produce competing figures.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Lưỡi đao chưa tới",
+      "name_en": "The Unarrived Blade",
+      "description_vi": "Đưa dấu đao vào khoảng hở trước lượt đánh để giữ đầu lưỡi trước chạm. Người dùng phải tự nhận phần sức còn đang đòi đi tiếp.",
+      "description_en": "Mark a blade before its stroke to hold its point before contact. The user accepts the force still demanding continuation.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Giữ vật đang được trao",
+      "name_en": "Hold the Offered Thing",
+      "description_vi": "Hai người cùng nhận một món trao qua hộp để nó treo giữa tay cho tới lúc bên nhận sẵn sàng. Rút sự thuận khiến đồ về người trao.",
+      "description_en": "Two willing parties suspend a gift until its recipient is ready. Withdrawn consent returns it to the giver.",
+      "group_vi": "II. Giữ trước khi chạm",
+      "group_en": "II. Holding Before Contact"
+    },
+    {
+      "name_vi": "Rơi về mặt tường",
+      "name_en": "Fall Towards the Wall",
+      "description_vi": "Chỉ một tường bằng dấu rồi giao vật cho nó làm mặt nhận. Vật đi theo hướng ấy cho tới chạm, kể cả khi hướng người dùng tưởng là ngang.",
+      "description_en": "Name a wall as receiver and release a burden towards it, even when that direction appears horizontal.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Lên là một kiểu xuống",
+      "name_en": "Up as Down",
+      "description_vi": "Cho mặt trên một nơi ghép nhận dấu đáy, khiến vật đang rơi tìm lên đó. Đường bị ngắt trả vật về hướng xuống nó nhận trước.",
+      "description_en": "Give an upper surface the bottom-sign to draw a fall upwards. Interrupted passage restores its earlier downwards.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Bẻ góc tại bóng",
+      "name_en": "Turn Upon a Shadow",
+      "description_vi": "Vẽ một góc trên bóng hộp để đường vật rơi đổi tại góc ấy. Bóng bị che trước lượt qua làm góc biến mất.",
+      "description_en": "Draw an angle upon the box-shadow to bend descent there. Obscuring that shadow before passage removes the turn.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Tách hai lần chạm",
+      "name_en": "Separate Two Contacts",
+      "description_vi": "Một vật sắp đập hai mặt được chỉ nhận từng mặt nối tiếp thay vì cùng lúc. Người gọi phải giữ nguyên thứ tự tới hết lượt.",
+      "description_en": "Designate successive rather than simultaneous contacts against two surfaces. Their order must be maintained throughout.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Rơi quanh một người",
+      "name_en": "Fall Around a Person",
+      "description_vi": "Người được che tự đứng trong dấu kín để vật mang cùng lệnh rơi vòng ngoài dấu. Vật không được nhận diện từ trước vẫn có thể vào.",
+      "description_en": "A consenting person stands within a closed mark diverting designated falls around it. Unrecognised burdens may still enter.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Đường về của viên đá",
+      "name_en": "The Stone’s Returning Road",
+      "description_vi": "Cho một vật từng rơi vào dấu đi ngược về điểm vừa được thả. Vật chỉ trở đường cũ, không lấy lại phần đã mất do va chạm.",
+      "description_en": "Return a marked fall along its recent release-path. Damage from completed impact is not restored.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Dồn rơi vào một điểm",
+      "name_en": "Converge the Falling",
+      "description_vi": "Các vật đã cùng nhận một dấu được hướng tới một điểm bỏ trống. Chạm sớm giữa chúng sẽ kết thúc lượt riêng ngay trên đường.",
+      "description_en": "Direct similarly marked burdens to one clear point. Early collisions complete their respective passages en route.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Cho người khác chọn bờ",
+      "name_en": "Let Another Choose the Shore",
+      "description_vi": "Trao quyền định mặt nhận cho một người tự nguyện khác khi vật còn treo. Người ấy nhận cả trách nhiệm trả chạm sau đó.",
+      "description_en": "Give a willing successor destination-choice while the burden remains held. They inherit its eventual contact-debt.",
+      "group_vi": "III. Đổi hướng của sự rơi",
+      "group_en": "III. Turning the Fall"
+    },
+    {
+      "name_vi": "Nền bằng hơi thở",
+      "name_en": "Ground Made of Breath",
+      "description_vi": "Một người tự thở vào dấu để hơi thành chỗ đặt chân qua một lượt. Hụt hơi giữa đường khiến nền co theo phần còn được trao.",
+      "description_en": "Willing breath forms footing for one passage. Faltering breath contracts the offered ground.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Đứng trên bóng hộp",
+      "name_en": "Stand upon the Box’s Shadow",
+      "description_vi": "Giao bóng hộp làm nền cho người đã được nhận dấu. Khi mặt chiếu đổi, người đứng phải tìm nền thật trước lúc bóng tách.",
+      "description_en": "Lend the box-shadow as footing to marked travellers. Changing its projection requires real ground before separation.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Mái nước cứng",
+      "name_en": "A Firm Water-Roof",
+      "description_vi": "Đặt một mặt nước vào dấu nhận lực để bước trên đó như bước trên vật. Sóng mang nước nguồn khác vào có thể phá mặt nhận.",
+      "description_en": "Designate a water-surface as support. Incoming water from another source may break that receiving face.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Bậc ở chỗ đã mất",
+      "name_en": "The Lost Step",
+      "description_vi": "Lấy mẩu cầu thang vỡ làm dấu để gọi đúng một bậc từng có. Nó nhận bước theo hình cũ, kể cả vết mẻ cũ gây hụt chân.",
+      "description_en": "A broken stair-fragment recalls one former step, including old chips capable of tripping its user.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Mượn lưng ngọn gió",
+      "name_en": "Borrow the Wind’s Back",
+      "description_vi": "Chỉ một luồng gió đang có làm đường đỡ vật mang dấu. Gió đổi chiều cho vật phải nhận một mặt khác bất ngờ.",
+      "description_en": "Use an existing wind-current to support a marked burden. Changed wind may suddenly present another receiving face.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Nền đi theo cáng",
+      "name_en": "Ground Beneath the Stretcher",
+      "description_vi": "Đánh dấu cáng cùng bệnh nhân thành một gánh để nền tạm theo họ qua khoảng hụt. Người khiêng rời dấu mất phần đỡ riêng.",
+      "description_en": "Mark stretcher and patient as one burden with travelling support. Bearers leaving its boundary lose their own footing.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Đất trong vỏ hộp",
+      "name_en": "Earth Within the Box",
+      "description_vi": "Gửi một nắm đất tự nguyện trao vào nắp để dựng mặt đứng ở nơi đã ghép dấu. Đất bị giật lấy chỉ hiện như bụi không chịu tải.",
+      "description_en": "Willingly given earth creates a standing surface at a paired mark. Stolen earth appears as dust without support.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Rút nền đã mượn",
+      "name_en": "Withdraw Borrowed Ground",
+      "description_vi": "Gọi đủ tên những vật đang trên mặt mượn để trả chúng về nền thật được chỉ. Quên một vật để nó đứng lại trên phần nền chưa được phép khép.",
+      "description_en": "Name every supported burden to return it to real ground. An omitted one remains upon an unclosed remnant.",
+      "group_vi": "IV. Mượn nơi làm nền",
+      "group_en": "IV. Borrowing Ground"
+    },
+    {
+      "name_vi": "Cho tiếng đổ tới muộn",
+      "name_en": "Let the Crash Arrive Late",
+      "description_vi": "Giữ âm của một va chạm bằng dấu hộp rồi trả ở nơi chọn. Tác động đã xảy ra vẫn xảy ra, còn âm bị dồn có thể làm hại nơi nghe.",
+      "description_en": "Hold an impact’s sound for another receiver. Its physical result remains, and accumulated sound may harm listeners.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Đợi một bàn tay khác",
+      "name_en": "Wait for Another Hand",
+      "description_vi": "Một vật đang tuột được giữ cho tới khi người được gọi thật chạm nó. Người ấy không tới khiến hộp tiếp tục đòi người canh.",
+      "description_en": "Hold a slipping burden until a named person actually touches it. If they never arrive, the box demands continued keeping.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Tạm hoãn vết lõm",
+      "name_en": "Defer the Dent",
+      "description_vi": "Lấy dấu một mặt trước khi đập để vết lõm chờ cùng vật. Người giữ phải chỉ chỗ trả; dấu mất khiến mặt gốc nhận lại ngay.",
+      "description_en": "Mark a surface before impact to defer its dent. Without a receiving place, lost marking restores it immediately.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Gom những giây hụt",
+      "name_en": "Gather the Falling Seconds",
+      "description_vi": "Gọi các lần giữ của cùng một vật thành một khoảng chờ duy nhất để nó đi hết. Mỏi của người đã giữ cũng tới cùng lượt.",
+      "description_en": "Gather one burden’s held intervals into a continuous release. Its former keepers’ fatigue arrives with them.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Mốc trước mép vực",
+      "name_en": "The Point Before the Edge",
+      "description_vi": "Đặt dấu trên đường một người tự đi để bước trượt sau đó được trả về mép ấy. Chỉ đường đã nhận được dùng; vết thương đã có ở lại.",
+      "description_en": "Mark a willingly travelled path to return a later slip to its edge. Existing injuries remain.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Một chuyến đến sau mình",
+      "name_en": "An Arrival After Oneself",
+      "description_vi": "Tách hành lý tự mang khỏi bước người qua để đồ tới sau theo cùng dấu. Rút dấu nhận trước lúc đến khiến nó mắc giữa lượt.",
+      "description_en": "Let personally carried baggage arrive after its traveller by the same mark. Early withdrawal strands it between crossings.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Khóa lúc vật chưa lìa",
+      "name_en": "Lock Before Separation",
+      "description_vi": "Giữ một bộ phận đang rời vật gốc ở khoảnh trước đứt để thợ kịp thay. Quá trình hỏng vẫn còn và cần được xử lý thật.",
+      "description_en": "Hold a failing part before separation for replacement. Its actual damage still requires repair.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Kết thúc một khoảng đợi",
+      "name_en": "End the Waiting",
+      "description_vi": "Người đang gánh một lượt trì hoãn tự gọi chỗ trả để hoàn tất ngay. Không có chỗ trống hợp lệ, chính người gọi thành nơi nhận.",
+      "description_en": "A keeper names a receiver to end their delay. Without a valid empty receiver, the caller becomes it.",
+      "group_vi": "V. Khoảng giữa những thời điểm",
+      "group_en": "V. Between Moments"
+    },
+    {
+      "name_vi": "Cân việc chưa trả",
+      "name_en": "Weigh the Unrepaid",
+      "description_vi": "Đặt dấu các lượt lên nắp để thấy chúng đè thành những vòng riêng. Vòng cho biết việc nào đang gánh, không quy thành con số chung.",
+      "description_en": "Place passage-marks upon the lid to see separate burden-rings. They identify debts without one universal measure.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Chia người cùng giữ",
+      "name_en": "Share the Keeping",
+      "description_vi": "Những người tự nhận cùng đặt tay để một lượt giữ được chia trách nhiệm. Rút tay không báo đẩy phần của họ sang những người còn lại.",
+      "description_en": "Willing keepers touch together to share one holding. Unannounced withdrawal burdens those remaining.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Nhận nợ thay",
+      "name_en": "Take Another’s Debt",
+      "description_vi": "Đọc đúng dấu một người tự nguyện trao để đổi người hộp đòi. Nhận nhầm dấu có thể mang cả lượt cũ người trao chưa nhớ.",
+      "description_en": "Accept a willingly offered sign to become its debtor. An imprecise sign may include older forgotten passages.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Vật trả cho vật",
+      "name_en": "Matter Repays Matter",
+      "description_vi": "Cho một vật được phép bỏ nhận phần va của vật cần cứu. Cả nguồn gốc và các thứ gắn cùng vật nhận có thể bị tính vào khoản trả.",
+      "description_en": "Offer expendable matter to receive another burden’s impact. Its attached things and provenance may enter repayment too.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Ghi sẹo thay tên",
+      "name_en": "Record a Scar, Not a Name",
+      "description_vi": "Khắc dấu tổn thương đã tự nhận lên nẹp để nó gánh một lượt theo dấu ấy. Sẹo lành hoặc bị xóa khiến việc giữ phải tìm chỗ khác.",
+      "description_en": "A willingly recorded scar-sign bears one holding. Healing or erasure forces the debt to seek elsewhere.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Trả từng phần",
+      "name_en": "Repay in Portions",
+      "description_vi": "Chia đường nhận thành các điểm kế tiếp để một cú đập được trả từng phần. Bỏ một điểm dồn phần còn lại vào điểm sau.",
+      "description_en": "Partition an impact among successive receivers. An omitted receiver passes its remainder to the next.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Đòi vật mượn trở về",
+      "name_en": "Recall the Borrowed Thing",
+      "description_vi": "Gọi món đã được đánh dấu là cho mượn về chỗ người cho đang giữ. Quà đã trao thật không còn được nhận bằng lệnh này.",
+      "description_en": "Recall a marked loan to its keeper. A genuine completed gift no longer qualifies.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Xóa chữ đã trả đủ",
+      "name_en": "Erase the Settled Entry",
+      "description_vi": "Người nhận và người gánh cùng chấp nhận một lượt đã kết để dấu nó thôi đòi tiếp. Một bên giả thuận chỉ làm chữ mờ rồi trở lại.",
+      "description_en": "Both receiver and bearer acknowledge completion to end further claims. False agreement merely fades the mark temporarily.",
+      "group_vi": "VI. Sổ nợ của sức nặng",
+      "group_en": "VI. Weight’s Ledger"
+    },
+    {
+      "name_vi": "Đi theo đường đá",
+      "name_en": "Walk the Stone’s Road",
+      "description_vi": "Một người tự nhận cùng hướng với vật làm dấu để bước theo đường rơi đã uốn. Rời hướng giữa đường buộc họ tự tìm mặt đỡ.",
+      "description_en": "Accept a marked burden’s bent descent as a walking road. Leaving its direction requires finding other support.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Qua vực không đặt cầu",
+      "name_en": "Cross Without a Bridge",
+      "description_vi": "Đánh dấu đủ hai bờ rồi cho bước đầu rơi tới bờ kia như một cuộc tới nơi. Sai tên bờ để người đi tìm nơi cùng mang tên ấy.",
+      "description_en": "Mark both banks and cast the first step as arrival across. A mistaken name seeks another bearer of that name.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Lên tháp bằng mặt ngoài",
+      "name_en": "Ascend the Tower’s Outside",
+      "description_vi": "Lấy mặt tường làm dưới trong một lượt tự leo, cho người bước theo nó. Cửa sổ mở trên đường trở thành khoảng hụt thực.",
+      "description_en": "Designate the wall as downwards for one climb. An opened window becomes a real gap.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Đường cho người khiếm thị",
+      "name_en": "A Road for Unseeing Feet",
+      "description_vi": "Trao một sợi chỉ từ hộp cho người tự nhận dẫn để mỗi bước biết mặt tiếp theo. Dấu bị đổi khiến sợi kéo về nơi nhận cũ.",
+      "description_en": "An offered box-thread guides consenting feet to their next support. Changed markings pull towards the former receiver.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Hành lý tìm người",
+      "name_en": "Baggage Finds its Bearer",
+      "description_vi": "Cho một món tự mang dấu tay chủ để nó rơi tới phía chủ đã nhận. Chủ bỏ quyền giữ giữa lượt khiến đồ tìm ngưỡng cuối còn nhận tên họ.",
+      "description_en": "A personally marked possession falls towards its willing bearer. Renounced keeping sends it to the last threshold accepting that name.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Lối đưa người bị bỏ",
+      "name_en": "A Road for the Abandoned",
+      "description_vi": "Một người còn ở trong dấu cứu được gọi qua theo đường vật cuối vừa ra. Người đã tự từ chối dấu ấy cần tự nhận lại trước.",
+      "description_en": "Call a stranded rescue-participant along the last burden’s exit-path. Someone refusing the mark must first accept it again.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Đi bằng vết chân cũ",
+      "name_en": "Walk by the Old Footprints",
+      "description_vi": "Dùng dấu chân thật làm các điểm mặt nhận cho một lượt trở về. Dấu chân bịa có thể để trống mặt ngay dưới người dùng.",
+      "description_en": "Actual footprints become receiving points for one return. Invented tracks may leave nothing underfoot.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Gấp đường xuống vào hộp",
+      "name_en": "Fold the Descent into the Box",
+      "description_vi": "Người giữ tự đi hết một đường rồi cất dấu nó dưới nắp để lần sau mở lại. Cảnh đã đổi vẫn cần được nhìn trước, vì hộp chỉ giữ đường cũ.",
+      "description_en": "Walk a route and store its marks beneath the lid for reopening. Changed terrain requires checking; the box retains the old road.",
+      "group_vi": "VII. Những con đường giữa trời",
+      "group_en": "VII. Roads Between Sky and Earth"
+    },
+    {
+      "name_vi": "Đỡ đòn bằng khoảng thiếu",
+      "name_en": "Parry with the Missing Interval",
+      "description_vi": "Đặt dấu hộp trước một cú đang tới để nó phải đi qua khoảng chưa chạm. Người giữ nhận việc trả đòn ấy sau, kể cả khi đối thủ đã rời.",
+      "description_en": "A marked parry sends an incoming blow through uncompleted contact. Its keeper must repay it even after the attacker leaves.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Khiên hướng sang đất",
+      "name_en": "An Earthward Shield",
+      "description_vi": "Cho mặt khiên làm cửa nhận lực còn nền làm nơi trả. Khiên rời tiếp xúc dấu trước lúc xả sẽ tự nhận sức đã giữ.",
+      "description_en": "Pair shield-receiver with ground-outlet. Losing contact before discharge makes the shield take its held force.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Mũi tên đổi nơi chạm",
+      "name_en": "The Arrow’s New Contact",
+      "description_vi": "Đánh dấu mũi tên trước phát để chỉ một mặt nhận khác trên tuyến đã nhìn. Mục tiêu rời mặt ấy khiến tên vẫn tới chỗ trống.",
+      "description_en": "Mark an arrow for another observed receiving face. If the target leaves, the arrow reaches empty space.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Giáp chia nhát búa",
+      "name_en": "Armour Dividing the Hammer",
+      "description_vi": "Các mảnh giáp cùng nhận dấu để một nhát được chia thành những lần chạm nhỏ. Mảnh giáp thiếu đẩy phần nhận của nó vào cơ thể dưới chỗ ấy.",
+      "description_en": "Marked armour divides a blow among contacts. A missing plate sends its share into the body beneath.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Gót neo chiến tuyến",
+      "name_en": "Heel-Anchored Line",
+      "description_vi": "Người tự đứng giữ điểm nhận của cả hàng để các bước đẩy bị đưa xuống gót họ. Họ phải được thay hoặc tự nhận đủ phần còn dồn.",
+      "description_en": "A willing anchor takes a rank’s pushing steps into their heels. They need relief or must bear the accumulated remainder.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Đập chốt bằng nợ cũ",
+      "name_en": "Break the Pin with Old Debt",
+      "description_vi": "Trả một cú đã được hộp nhận vào đúng chốt đã đánh dấu. Không tự tăng sức cú cũ, nhưng chuyển đủ cái đập tới nơi người dùng chọn.",
+      "description_en": "Discharge an accepted blow into a marked pin. It adds no force but relocates the whole retained strike.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Quay đầu thứ đuổi",
+      "name_en": "Turn What Pursues",
+      "description_vi": "Cho vật đang lao theo dấu người dùng nhận chính điểm thả của nó làm dưới. Vật vô ý thức quay đường dễ hơn kẻ đang tự chọn hướng khác.",
+      "description_en": "Make a pursuing burden accept its release-point as downwards. Mindless objects turn more readily than a being choosing otherwise.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Vùng không được thả",
+      "name_en": "The No-Release Ground",
+      "description_vi": "Gọi một khoảng kín làm nơi mọi vật được trao theo dấu phải giữ trong tay. Vật rơi do người ngoài dấu không bị luật ấy nhận.",
+      "description_en": "Designate a closed space where marked offerings must remain held. Unmarked outsiders’ falling objects are unaffected.",
+      "group_vi": "VIII. Sức nặng trong giao tranh",
+      "group_en": "VIII. Burdens in Battle"
+    },
+    {
+      "name_vi": "Đón trẻ đang ngã",
+      "name_en": "Catch the Falling Child",
+      "description_vi": "Người cứu tự gọi đứa trẻ còn trong một cú ngã để đặt mặt nhận dưới họ. Ngọc không sửa việc đã chạm xong hoặc bảo đảm người cứu gọi đúng lúc.",
+      "description_en": "Name a child during an unfinished fall to offer support. Completed impact remains; timing belongs to the rescuer.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Giữ cáng khỏi lật",
+      "name_en": "Keep the Stretcher Level",
+      "description_vi": "Những tay khiêng cùng nhận một mặt dưới để cáng không tách nghiêng riêng. Một người đổi ý khiến phần nghiêng tìm tới các tay còn giữ.",
+      "description_en": "Consenting bearers share one downwards for the stretcher. A changed mind sends its tilting share to those remaining.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Bước ra khỏi đống sập",
+      "name_en": "Step from the Rubble",
+      "description_vi": "Một người được gọi làm vật còn chưa chạm trong chính khoảng cứu rồi theo dấu ra. Vật găm trong họ cũng phải được nhận hoặc sẽ giữ họ lại.",
+      "description_en": "Treat a rescue-subject as unlanded within the marked interval. Embedded objects must also qualify or hold them back.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Nẹp xương trước lệch",
+      "name_en": "Brace Before Displacement",
+      "description_vi": "Lấy hai mặt xương đang tự tách làm một cuộc lìa cần giữ cho tới lúc nẹp thật tới. Dấu chỉ giữ vị trí, còn tổn thương cần người chữa.",
+      "description_en": "Hold separating bone-faces until real splinting arrives. Position is retained; treatment remains necessary.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Giữ máu trên đường về",
+      "name_en": "Keep Blood upon its Return",
+      "description_vi": "Người bệnh tự nhận giọt đang rời mình thuộc về cơ thể để hộp giữ nó trước mặt nhận ngoài. Huyết đã hỏng không được đổi thành lành bởi lời gọi.",
+      "description_en": "A willing patient claims escaping blood as belonging within, holding it before external contact. Spoilt blood is not made sound by naming.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Chia cơn đau rơi xuống",
+      "name_en": "Share the Falling Pain",
+      "description_vi": "Người bệnh và người đỡ cùng nhận một đợt đau đang tới để chia việc chịu qua dấu. Chia cảm giác không chuyển nguồn thương tích.",
+      "description_en": "Patient and supporter willingly share an approaching pain-wave. Shared sensation does not transfer its injury-source.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Đợi người chữa tới",
+      "name_en": "Await the Healer",
+      "description_vi": "Giữ một người còn tự đáp ở ngưỡng gục trong lúc người cứu còn thực hiện việc đưa chữa. Bỏ việc cứu mà chỉ muốn giữ mãi khiến hộp đòi giá khác chưa biết.",
+      "description_en": "Hold a responding person before collapse while rescue actively continues. Mere indefinite keeping invites an unknown further price.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Trả người về tay thật",
+      "name_en": "Return to Real Hands",
+      "description_vi": "Đọc tên người đã tự nhận đón để chuyển gánh cứu từ hộp tới tay họ. Người không biết mình được gọi có thể chỉ nhận bóng, để thân còn mắc.",
+      "description_en": "Transfer rescue into a named, willing receiver’s hands. An uninformed recipient may receive only a shadow, stranding the body.",
+      "group_vi": "IX. Giữ người khỏi một kết thúc",
+      "group_en": "IX. Keeping a Life from its Ending"
+    },
+    {
+      "name_vi": "Thác nước treo",
+      "name_en": "A Hanging Cascade",
+      "description_vi": "Vạch một mặt nhận trước thác để dòng đang rơi đứng thành màn. Nước mới vẫn tới và đòi chỗ, buộc người giữ mở đường thoát.",
+      "description_en": "Mark a receiver before a cascade to hold a falling curtain. Incoming water still demands an outlet.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Gió bỏ qua trại",
+      "name_en": "The Wind Skips the Camp",
+      "description_vi": "Cho một luồng đã nhận đi qua khoảng thiếu rồi trả phía bên kia trại. Luồng ngoài dấu vẫn vào; mở rộng dấu cần người gánh thêm.",
+      "description_en": "Pass a marked current through omitted contact and release beyond camp. Other winds enter; expansion requires further keeping.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Đóng băng ở mặt chưa tới",
+      "name_en": "Freeze Before Arrival",
+      "description_vi": "Giữ giọt trước chạm trong khi nhận một dấu lạnh có thật để nó kết băng treo. Băng khi nhả vẫn mang cả sức rơi đang nợ.",
+      "description_en": "Suspend a drop against an existing cold-mark to form hanging ice. Release retains its owed descent.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Chia dòng độc khỏi cửa",
+      "name_en": "Divide the Tainted Current",
+      "description_vi": "Cho mẫu riêng làm dấu để dòng tương ứng rơi sang mặt khác tại một cửa nhận. Pha chất đổi mẫu có thể thoát khỏi lệnh chia.",
+      "description_en": "A sample-mark diverts matching current at a receiving opening. A changed mixture may escape its designation.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Mặt hồ như chiếc nắp",
+      "name_en": "The Lake as Lid",
+      "description_vi": "Gọi bề mặt hồ trong dấu như nắp hộp để giữ một phần bên dưới chưa trồi qua. Nắp chỉ giữ phần đã gọi, không tự cai quản cả hồ.",
+      "description_en": "Name a marked lake-surface as lid to hold a designated rising burden. It does not govern the whole lake.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Lối cát trôi qua người",
+      "name_en": "Sand Passes the Traveller",
+      "description_vi": "Người đi tự nhận đường giữa một luồng cát đã đánh dấu để hạt qua khoảng thiếu. Bụi chưa mang dấu vẫn chạm và có thể gây hại.",
+      "description_en": "A consenting traveller parts marked sand through omitted contact. Unmarked dust still reaches them.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Lửa không rơi vào dầu",
+      "name_en": "Fire Misses the Oil",
+      "description_vi": "Gọi giọt lửa đang rơi thuộc mặt nhận khác trước khi nó gặp dầu. Nhiệt đã truyền và ngọn khác không bị xóa.",
+      "description_en": "Redirect a falling burning drop before oil-contact. Transmitted heat and other flames remain.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Hơi còn trong bình vỡ",
+      "name_en": "Vapour Within the Broken Vessel",
+      "description_vi": "Giữ đường bao bình gốc như mặt nhận của hơi sau lúc vỏ nứt. Mở một phần để xả cần gọi rõ, tránh hộp hiểu cả hơi phải được thả.",
+      "description_en": "Preserve a vessel’s former outline as vapour-receiver after cracking. A partial vent must be explicit to avoid releasing everything.",
+      "group_vi": "X. Những dòng được coi là vật",
+      "group_en": "X. Currents Accepted as Burdens"
+    },
+    {
+      "name_vi": "Đặt tiếng ở bậc cửa",
+      "name_en": "Leave Sound at the Door",
+      "description_vi": "Một lời tự gửi được giữ trước chạm tai cho tới khi người nhận bước qua dấu. Người nhận không đến khiến lời còn ở hộp.",
+      "description_en": "A willing message waits before hearing until its recipient crosses a mark. No arrival leaves it within the box.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Giữ bóng đèn đã tắt",
+      "name_en": "Keep the Extinguished Lamp’s Shadow",
+      "description_vi": "Nhận bóng ngay trước khi đèn tắt để nó còn chỉ đồ vật từng che sáng. Vật đã đổi chỗ không tự cập nhật trong bóng giữ.",
+      "description_en": "Hold the pre-extinction shadow to show former obstructions. Changed objects do not update it.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Bẻ ánh nhìn vào nền",
+      "name_en": "Turn the Gaze Earthward",
+      "description_vi": "Người tự nhìn qua dấu có thể gửi ánh nhìn sang mặt nhận dưới thay vì vật phía trước. Kẻ nhìn khác không bị buộc nhìn theo.",
+      "description_en": "A willing marked observer sends sight into a lower receiver rather than ahead. Other eyes are not compelled.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Một lời không rơi xuống đất",
+      "name_en": "A Word Not Falling to Earth",
+      "description_vi": "Giữ lời đã tự nguyện nói như vật treo để người cùng nhận nghe hết ở lượt sau. Thay nghĩa sau khi nói không thay phần hộp giữ.",
+      "description_en": "Hold willingly spoken words for later consenting listeners. Later reinterpretation does not alter the retained wording.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Tiếng bước đi trước",
+      "name_en": "Footsteps Going Ahead",
+      "description_vi": "Gửi nhịp chân đã thật bước tới một dấu khác để phát trước lúc thân tới. Nhịp báo cả đường người dùng đang muốn tới cho kẻ nghe.",
+      "description_en": "Send actual footfalls to another mark before arrival. Listeners learn the intended destination too.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Hắt ánh về người đốt",
+      "name_en": "Return Light to its Kindler",
+      "description_vi": "Một ngọn được chủ tự nhận có thể trả ánh đã gửi vào dấu về mặt họ chọn. Những vật sống cần sáng ở đường cũ vẫn mất phần ấy.",
+      "description_en": "A willing light-owner redirects marked illumination. Living things dependent upon its former route lose that light.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Khoảng lặng có người canh",
+      "name_en": "A Guarded Silence",
+      "description_vi": "Người giữ nhận tiếng tới một vùng vào hộp để người trong cùng dấu được nghe im. Tiếng phải được trả ở nơi có người canh khác.",
+      "description_en": "A keeper accepts arriving sounds for marked listeners’ silence. Another guarded place must receive their release.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Chuông rơi từ trời",
+      "name_en": "A Bell Falling from the Sky",
+      "description_vi": "Cho một tiếng chuông đã thu rơi tới dấu treo cao để phát từ đó. Người dùng phải tự nhận nơi mọi tiếng dội trở lại.",
+      "description_en": "Drop a retained peal into an elevated mark. Its caller accepts the returning echoes’ receiver.",
+      "group_vi": "XI. Tiếng và ánh cũng có chỗ tới",
+      "group_en": "XI. Sound and Light Have Destinations"
+    },
+    {
+      "name_vi": "Đặt lời hứa xuống",
+      "name_en": "Set Down the Promise",
+      "description_vi": "Một người tự nhận lời hứa của mình thành dấu để tạm để gánh cảm giác vào hộp. Trách nhiệm với người được hứa vẫn nguyên và phải nhận lại.",
+      "description_en": "A willing promiser temporarily deposits its felt burden. Their responsibility to its recipient remains and must be resumed.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Nhớ bằng dấu nặng",
+      "name_en": "Remember by Weight",
+      "description_vi": "Gắn một ký ức tự trao với vật làm dấu để nhận lại khi vật được cầm. Mất vật khiến việc gọi lại qua hộp mất đường, không tự xóa đời đã sống.",
+      "description_en": "Bind a willingly offered memory to a token. Losing it removes this retrieval-path, not the life lived.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Lời thú nhận chưa rơi",
+      "name_en": "The Unlanded Confession",
+      "description_vi": "Người nói giữ lời trước khi tới người nghe, tự chọn lúc thả. Nếu họ chết trước, quyền thả ở lại với người đã được chỉ nhận.",
+      "description_en": "Hold a confession before its listener and choose release. If its speaker dies, the designated receiver inherits that choice.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Dẫn người khỏi cơn choáng",
+      "name_en": "Lead Out of Dizziness",
+      "description_vi": "Người đang choáng tự nhận dấu chân mình là nền để lấy lại hướng trong một lượt. Vết chân không thật cho cảm giác vững sai chỗ.",
+      "description_en": "A willing dizzy traveller takes their actual footprints as orientation. False tracks give deceptive stability.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Giữ tên khỏi rơi khỏi sổ",
+      "name_en": "Keep a Name in the Record",
+      "description_vi": "Người có tên tự đặt dấu vào hộp để các bản chép mang cùng niêm giữ tên chưa bị xóa. Bản chưa nhận dấu và ký ức người khác không bị cai quản.",
+      "description_en": "A willing name-bearer protects marked copies from erasure. Unmarked records and other minds remain outside it.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Trao một lần mang tang",
+      "name_en": "Lend One Mourning",
+      "description_vi": "Hai người tự nguyện chia một khoảng tang như gánh để người đang kiệt được nghỉ. Người nhận phải sống đủ cảm giác ấy trước khi trả.",
+      "description_en": "Two consenting people share a mourning-interval so the exhausted may rest. Its receiver must experience it before returning it.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Nhặt điều vừa bỏ dở",
+      "name_en": "Retrieve the Interrupted Thing",
+      "description_vi": "Gọi dấu một công việc vừa tự dừng để thấy bước cuối chưa hoàn tất. Hộp nhắc việc đã có, không cung cấp kiến thức người làm chưa biết.",
+      "description_en": "Recall an interrupted task to see its last incomplete step. It supplies no knowledge its worker lacked.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Thôi gánh điều không phải mình",
+      "name_en": "Release the Unowned Burden",
+      "description_vi": "Người bị giao sai một khoản qua dấu hộp tự đọc lại việc đã thật nhận để phần gán thêm rơi khỏi họ. Khoản họ từng tự thuận vẫn ở lại.",
+      "description_en": "Restate the burden truly accepted to shed falsely assigned additions. A share once willingly accepted remains.",
+      "group_vi": "XII. Những điều một người có thể gánh",
+      "group_en": "XII. What a Person May Bear"
+    },
+    {
+      "name_vi": "Neo người đang mộng rơi",
+      "name_en": "Anchor the Falling Dreamer",
+      "description_vi": "Người ngủ đã tự trao dấu trước được gọi giữ một mặt đỡ trong cơn rơi mộng. Dấu chỉ nhận cơn ấy, không kiểm soát mọi giấc mơ.",
+      "description_en": "Prior consent grants a dreamer footing in one falling dream. The mark does not control all dreams.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Mang lời tới bên gối",
+      "name_en": "Carry Words to the Pillow",
+      "description_vi": "Gửi một câu qua vật được người ngủ tự để làm dấu nhận. Họ nghe trong mộng như tiếng ngoài, có thể hiểu sai theo cảnh đang mơ.",
+      "description_en": "Send a sentence through the sleeper’s chosen token. They hear it within a dream and may misinterpret it.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Cất cú ngã chưa tỉnh",
+      "name_en": "Keep the Fall Before Waking",
+      "description_vi": "Người mơ tự giữ đoạn rơi trước khi thức để kể lại qua hộp. Cảm giác sợ được giữ cùng, khiến người đọc cũng chịu một phần.",
+      "description_en": "A willing dreamer retains their pre-waking fall for retelling. Its fear remains and burdens the reader.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Đường ra khỏi lặp mộng",
+      "name_en": "A Road from the Repeating Dream",
+      "description_vi": "Đánh dấu trước một vật thật người ngủ chấp nhận để cơn lặp có một mặt nhận cuối. Vật bị lấy đi làm đường ra mất giữa giấc.",
+      "description_en": "A preaccepted real token gives a repeating dream an endpoint. Removing it loses the exit within sleep.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Mặt đất được cùng mơ",
+      "name_en": "Shared Dream-Ground",
+      "description_vi": "Những người tự thuận đặt dấu chung để nhận cùng một mặt đứng khi ngủ. Họ đem cả hình dung riêng vào, có thể tranh nhau làm nền ấy đổi.",
+      "description_en": "Consenting sleepers share marked dream-ground. Their different imaginings may contest and alter its surface.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Trả tiếng gọi tỉnh",
+      "name_en": "Return the Waking Call",
+      "description_vi": "Giữ tiếng gọi người ngủ đã đồng ý nhận để nó tới khi họ chạm mép rơi trong mộng. Không bảo đảm cơ thể đang bệnh có thể tỉnh theo.",
+      "description_en": "An agreed waking call arrives at a dream-fall’s edge. An ill body may still fail to wake.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Xem bóng của cơn ác mộng",
+      "name_en": "View the Nightmare’s Shadow",
+      "description_vi": "Người mơ tự trao dấu để bóng cơn rơi hiện trên nắp. Nó là lời chứng của giấc, không chứng minh thứ trong mộng tồn tại ngoài đời.",
+      "description_en": "A dreamer offers its mark to show a nightmare upon the lid. Dream-testimony does not prove waking existence.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Cho giấc mơ được khép",
+      "name_en": "Let the Dream Conclude",
+      "description_vi": "Người còn tỉnh tự nhận phần đợi của một giấc bị giữ để người ngủ đi tới cuối. Sau đó người đỡ phải tự ngủ qua một phần dư ảnh.",
+      "description_en": "An awake helper accepts a held dream’s waiting so it may finish. They must later sleep through its residue.",
+      "group_vi": "XIII. Những cuộc rơi trong giấc ngủ",
+      "group_en": "XIII. Falls Within Sleep"
+    },
+    {
+      "name_vi": "Bánh răng mượn một lượt",
+      "name_en": "The Borrowed Turn",
+      "description_vi": "Giữ sức một vật đang rơi để trả qua đúng một vòng máy đã được chỉ. Mọi chỗ máy kẹt vẫn nhận sức và có thể vỡ.",
+      "description_en": "Repay a falling burden through one designated machine-turn. Existing jams receive that force and may break.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Trục nhận lực từ bóng",
+      "name_en": "A Shaft Driven by Shadow",
+      "description_vi": "Gọi bóng trục làm nơi nhận một xung đã giữ để trục thật quay. Che mất bóng khiến xung tìm phần trục gần dấu hộp nhất.",
+      "description_en": "Give a retained pulse to a shaft-shadow to turn its real shaft. Lost shadow redirects it into the shaft nearest the sign.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Tháo đinh trước sức đè",
+      "name_en": "Withdraw the Loaded Nail",
+      "description_vi": "Cho sức đang đè chốt vào hộp trong lúc chốt được tháo. Đưa chốt thay phải tự nhận đủ vị trí trước khi trả tải.",
+      "description_en": "Hold a loaded fastening’s burden during removal. Its replacement must fully accept position before repayment.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Cầu tự mang tên bờ",
+      "name_en": "A Bridge Named for its Banks",
+      "description_vi": "Các phần cầu cùng dấu được đỡ theo hai bờ đã nhận trong lúc ghép. Một bờ bị phá làm phần đỡ chọn bờ còn lại gánh hết.",
+      "description_en": "Marked bridge-parts are supported between accepted banks during assembly. Destroying one bank burdens the other entirely.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Cửa van chờ tay thợ",
+      "name_en": "The Sluice Awaiting its Worker",
+      "description_vi": "Giữ một lượt dòng trước mặt van để thợ đổi bộ phận. Dòng phía sau tiếp tục tới và cần một đường xả khác.",
+      "description_en": "Hold one flow against a sluice during repair. Incoming water still needs another outlet.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Giàn nâng không cáp",
+      "name_en": "A Cableless Hoist",
+      "description_vi": "Dùng dấu hộp nối khay với điểm người nâng tự nhận để chuyển tải qua khoảng thiếu. Người nhận vẫn phải gánh cái giá lượt nâng.",
+      "description_en": "Join tray and a willing lifting-point through the missing interval. Its accepted keeper still bears the lifting-debt.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Thân tàu nhớ thăng bằng",
+      "name_en": "A Hull Remembering Balance",
+      "description_vi": "Lấy dấu thăng bằng thật của tàu để giữ một lần nghiêng trước lật. Nước tràn và hàng dồn phải được xử lý trước khi mở giữ.",
+      "description_en": "Hold a roll against the hull’s actual balanced mark. Flooding and shifted cargo must be corrected before release.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Ngừng máy mà giữ việc",
+      "name_en": "Stop the Engine, Keep the Work",
+      "description_vi": "Gom một vòng đang chạy vào dấu để máy đứng cho người ra. Khi trả, việc tiếp tục từ chỗ đã nhận, kể cả cơ cấu nguy hiểm chưa tháo.",
+      "description_en": "Store a running turn to stop an engine for escape. Release resumes its mechanism, including unremoved hazards.",
+      "group_vi": "XIV. Máy móc chưa chịu đứng yên",
+      "group_en": "XIV. Engines Refusing Stillness"
+    },
+    {
+      "name_vi": "Cho bóng giữ thay",
+      "name_en": "Let the Shadow Keep",
+      "description_vi": "Người tự nhận cho bóng mình gánh một vật đang được giữ qua hộp. Bóng phải còn chạm dấu, và mỏi của nó trở về khi sáng đổi.",
+      "description_en": "A willing keeper lends their shadow one holding. It must touch the mark; changed light returns its fatigue.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Dấu tay không thân",
+      "name_en": "The Bodiless Handprint",
+      "description_vi": "Lấy dấu bàn tay đã tự trao làm điểm nhận một món để chờ chủ tới. Người giả tay không tự có quyền lấy món khỏi dấu.",
+      "description_en": "A willingly given handprint receives an object pending its owner. An imitation hand gains no taking-right.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Đổi phần bị nhắm",
+      "name_en": "Exchange the Aimed Share",
+      "description_vi": "Người tự nguyện đứng giữa một đòn và bóng mình để chọn bóng làm mặt nhận. Đòn được giữ vẫn cần trả; phá bóng không xóa đòn.",
+      "description_en": "Willingly make your shadow a blow’s receiving face. The held blow still needs repayment; destroying shadow does not erase it.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Bóng đi giữ đường",
+      "name_en": "A Shadow Keeps the Road",
+      "description_vi": "Gửi bóng chân đã tự trao qua một lối để nó đánh dấu nơi thật chịu đỡ. Nơi không có ánh cho bóng sẽ bỏ một đoạn chưa biết.",
+      "description_en": "Send willing foot-shadows ahead to mark real support. Unlit places leave an unknown stretch.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Áo trống nhận một lượt",
+      "name_en": "The Empty Coat’s Turn",
+      "description_vi": "Một chủ tự trao áo như vật mang dấu thân để áo nhận một lực đã gọi. Xé áo sẽ trả lực tại chỗ thay vì cho biến mất.",
+      "description_en": "A willingly given coat receives a designated force as its wearer’s token. Tearing releases it there.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Giữ chỗ cho người thiếu",
+      "name_en": "Keep the Missing Person’s Place",
+      "description_vi": "Người đã tự để dấu chờ có thể được giữ một phần nền trong nhóm đang di chuyển. Kẻ chưa đồng ý không được ép thành người phải theo.",
+      "description_en": "A prior willing waiting-mark reserves footing within a travelling group. Unconsenting people cannot be forced to follow.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Trả bóng cho vật thật",
+      "name_en": "Return the Shadow to its Thing",
+      "description_vi": "Gọi đúng dấu một bóng bị giữ để nó trở về vật còn nhận nó. Vật đã phá hủy khiến bóng thành phần nợ chưa biết nơi trả.",
+      "description_en": "Return a held shadow to its accepting object. Destroyed originals leave an unpaid share without a known receiver.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Người canh bằng hình mình",
+      "name_en": "A Keeper in One’s Likeness",
+      "description_vi": "Người tự để dấu đứng lại canh một lượt giữ trong lúc thân đi gọi giúp. Mọi cái giá tích trong hình tới thân khi họ nhận lại.",
+      "description_en": "A willing likeness keeps one holding while its body seeks aid. Reclaiming it returns all accumulated cost.",
+      "group_vi": "XV. Bóng gánh phần người",
+      "group_en": "XV. Shadows Bearing the Human Share"
+    },
+    {
+      "name_vi": "Mượn đáy của trời",
+      "name_en": "Borrow Heaven’s Bottom",
+      "description_vi": "Chỉ phần trời qua một vòng thật làm mặt nhận của vật được gọi để nó hướng lên. Không có vòng còn nguyên, lệnh có thể gọi thứ ở trên xuống thay.",
+      "description_en": "An intact real ring frames sky as a burden’s receiver. Broken framing may instead call something above downwards.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Bầu trời đặt trong nắp",
+      "name_en": "A Sky Within the Lid",
+      "description_vi": "Đón hình trời thực vào nắp để tạo nơi định hướng cho một lối chưa chạm. Mây đổi không sửa bản đã giữ; người dùng phải chấp nhận trời cũ.",
+      "description_en": "Retain a real sky upon the lid to orient uncompleted passage. Changed clouds do not update it; its user accepts the former sky.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Lần rơi của một cái tên",
+      "name_en": "The Falling of a Name",
+      "description_vi": "Một người tự trao cách được gọi cho hộp để bước qua nơi chỉ nhận tên ấy bằng vật làm dấu. Người mang dấu gánh cách người khác sẽ gọi mình tới lúc trả.",
+      "description_en": "A willing name-bearer lends address to a token crossing a name-bound threshold. Its carrier bears that address until return.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Trả vật về câu kể",
+      "name_en": "Return the Thing to its Tale",
+      "description_vi": "Một vật mở rộng từng được gọi từ câu chuyện qua dấu hộp có thể được trả lại cùng câu còn nguyên. Vật gốc ngoài nghi thức không bị xóa vì ai kể chuyện về nó.",
+      "description_en": "A thing invoked through the box from a tale may return by that intact telling. Ordinary originals are not erased by stories told about them.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Giữ điều chưa được công nhận",
+      "name_en": "Hold the Unacknowledged",
+      "description_vi": "Các bên tự thuận cho một kết quả còn dang nhận khoảng chờ trước khi thành kết thúc chung. Người đã chịu hậu quả thật vẫn giữ hậu quả ấy.",
+      "description_en": "Willing parties defer an unfinished shared outcome before acknowledgement. Actual consequences already suffered remain.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Đặt hòn đá cuối cùng",
+      "name_en": "Place the Final Stone",
+      "description_vi": "Người xây tự nhận phần còn thiếu của một nơi trú để hộp giữ hình hoàn tất cho tới khi đá thật được đặt. Bỏ xây khiến hình đòi người nhận ở lại.",
+      "description_en": "A willing builder borrows shelter’s completed form until real masonry arrives. Abandoned building demands the accepting keeper remain.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Khép những hướng đã vay",
+      "name_en": "Close the Borrowed Directions",
+      "description_vi": "Người giữ gọi đủ mọi dấu hướng đang mượn để trả chúng về nền gốc theo thứ tự. Dấu bị quên còn đòi một nơi nhận và có thể theo người đi.",
+      "description_en": "Name and return borrowed directions in order. A forgotten sign still seeks a receiver and may follow its departing keeper.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    },
+    {
+      "name_vi": "Cho mảnh đá được rơi",
+      "name_en": "Let the Fragment Fall",
+      "description_vi": "Người giữ tự nhận làm nơi trả cuối rồi mở hộp tới cả khoảng hở gốc. Hồ sơ chỉ ghi điều kiện gọi, chưa ghi ai đã hoàn tất và còn trở về kể; kết quả sau đó vẫn bỏ trống.",
+      "description_en": "Accept yourself as final receiver and open the box to its original interval. Records give this invocation, but no completed return and testimony. What follows remains unwritten.",
+      "group_vi": "XVI. Mép của điều được coi là thật",
+      "group_en": "XVI. The Edge of the Real"
+    }
+  ]
+}

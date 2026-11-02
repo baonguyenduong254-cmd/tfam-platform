@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-frostwax-bee",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Đàn ong trú trong khe quặng qua một mùa rét mất hết hoa. Chúng lót tổ bằng bụi khoáng lẫn nhựa cây, sống nhờ phần mật cũ. Sang xuân, ong non mang lông trắng và chân hổ phách; sáp mới mềm trong lạnh nhưng cứng lại ngay khi người giữ làm ướt tay bằng nước ấm.\n\nNhững tổ chia đàn vẫn cho cùng thứ sáp, dù được đưa tới vườn sạch. Người giữ thu những mẩu rơi tự nhiên, gọi đó là tiền thuê nhà ong trả sau mùa rét. Thợ vận chuyển nắn sáp trong kho lạnh rồi chạm nước ấm để khóa hình, giữ lọ đi qua hành trình có băng mà nút khỏi nứt.",
+    "lore_en": "The bees sheltered in an ore cleft through a flowerless winter. They lined the hive with mineral dust and tree resin and lived upon old honey. In spring, young bees bore white hair and amber legs; their fresh wax stayed pliant in frost but hardened when the keeper touched it with warm wet hands.\n\nDivided colonies kept producing that wax in clean gardens. The keeper gathers naturally fallen pieces and calls them the rent bees pay after winter. Carriers shape it in cold stores and touch it with warm water to lock its form, keeping bottle stops from cracking on icy journeys.",
+    "use_vi": "Thu sáp để tạo nút và mối vá định hình bằng nước ấm cho đồ vận chuyển lạnh.",
+    "use_en": "Gather wax for warm-water-set stops and patches upon cold-transport goods.",
+    "limits_vi": "Đàn cần hoa, thức ăn và thời gian; ép sáp làm tổ suy. Sáp đã nạp bẩn phải tách khỏi đồ thuốc và thực phẩm, còn áp cao có thể đẩy bật nút.",
+    "limits_en": "The colony needs flowers, food and time; forced harvest weakens it. Contaminated wax must stay apart from medicines and food, and high pressure can expel a stop.",
+    "skills": [
+      {
+        "name_vi": "Nắn trong giá",
+        "name_en": "Shape It in Frost",
+        "description_vi": "Làm lạnh sáp sạch để nắn theo cổ lọ hoặc đường nứt nhỏ, cho nó ôm đều trước lúc khóa; mảnh quá mỏng dễ bị kéo rách.",
+        "description_en": "Chill clean wax to shape it around a bottle neck or small crack before setting; overly thin pieces tear under pull."
+      },
+      {
+        "name_vi": "Chạm ấm khóa hình",
+        "name_en": "Warm Touch, Fixed Shape",
+        "description_vi": "Quét nước ấm lên sáp đã nắn để nó cứng giữ hình trong chuyến lạnh; muốn tháo phải làm lạnh rồi gỡ từng phần tránh vỡ lọ.",
+        "description_en": "Brush warm water over shaped wax to harden it for a cold journey; chill and remove it sectionally to avoid breaking the bottle."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sáp ngược mùa",
+        "name_en": "Wax Against the Season",
+        "description_vi": "Sáp chuyển trạng thái theo tiếp xúc nước ấm chứ riêng hơi nóng khô chưa cho cùng độ khóa.",
+        "description_en": "Wax changes state upon warm-water contact; dry heat alone does not give the same lock."
+      }
+    ]
+  }
+]

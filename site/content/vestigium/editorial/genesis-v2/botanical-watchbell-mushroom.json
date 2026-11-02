@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-watchbell-mushroom",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Nấm mũ đồng mọc trong hốc tường phía sau một chiếc chuông gác có quả lắc khoáng tím. Ánh đuốc mỗi đêm quét qua hốc cùng bóng cánh tay kéo chuông. Khi chuông được thay, nấm vẫn rung lên vào lúc cánh tay người gác chắn ngang ánh sáng.\n\nTrong bào tử có những chấm tím giống bụi quả lắc. Các tai mới lớn trong hộp nuôi tiếp tục nhận bóng chuyển qua như một cuộc gọi. Người gác già để một cụm bên cửa sổ: tiếng rung nhỏ giúp ông biết ai vừa tới trước khi đầu gối đủ sức đưa ông đứng lên.",
+    "lore_en": "Copper-capped mushrooms grew in a wall hollow behind a watch bell with a violet mineral clapper. Torchlight swept the hollow each night with the arm-shadow pulling the bell. After the bell was replaced, the mushrooms still trembled whenever the watchman’s arm crossed the light.\n\nTheir spores held violet points like clapper dust. New caps in cultivation continued receiving a moving shadow as a summons. An old watchman kept a cluster by his window: its little vibration told him of arrivals before his knees could lift him from his chair.",
+    "use_vi": "Báo bóng người hoặc vật qua một lối sáng cố định và lưu dấu lượt qua gần nhất.",
+    "use_en": "Warn of people or objects crossing a fixed light path and retain the most recent passage signal.",
+    "limits_vi": "Cần nguồn sáng ổn định; mây, đèn rung và vật nuôi gây báo ngoài ý muốn. Nấm già bỏ sót bóng nhỏ, còn tiếng rung cần nơi tương đối yên để nghe.",
+    "limits_en": "A stable light source is required; clouds, wavering lamps and animals cause unintended warnings. Old caps miss small shadows, and their vibration needs relative quiet to hear.",
+    "skills": [
+      {
+        "name_vi": "Chuông bóng",
+        "name_en": "The Shadow Bell",
+        "description_vi": "Đặt nấm dưới khe sáng để mũ rung khi một bóng đi ngang; xoay chậu cho bóng thử đi qua trước mỗi lượt gác để nhận sức cây.",
+        "description_en": "Set the mushroom beneath a light slit so its cap vibrates when a shadow crosses; test a shadow before each watch to assess its condition."
+      },
+      {
+        "name_vi": "Rung còn lưu",
+        "name_en": "The Retained Tremor",
+        "description_vi": "Chạm rất nhẹ mặt dưới mũ sau khi có báo để nó lặp lại một lần rung gần nhất, phân biệt lượt ngắn hay dài; lần chạm ấy xóa dấu đã gọi.",
+        "description_en": "Touch the cap’s underside gently after a warning to repeat its latest vibration once and distinguish short from long passage; the touch erases the recalled trace."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tai gác dưới ánh",
+        "name_en": "Watchful Caps Beneath the Light",
+        "description_vi": "Cụm lớn chia rung sang nhau. Tách mũ khỏi cuống khiến lượt báo còn lưu tắt dần rồi mất.",
+        "description_en": "A cluster shares vibration among its caps. Detaching a cap makes its retained warning gradually fade."
+      }
+    ]
+  }
+]

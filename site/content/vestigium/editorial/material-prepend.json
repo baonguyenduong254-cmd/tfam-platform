@@ -1,0 +1,266 @@
+[
+  {
+    "id": "material-bot-chan-dong",
+    "mode": "prepend",
+    "lore_vi": "Trong kho mùa đông, những gói bột đổi xám là thứ đầu tiên người giữ kiểm mỗi sáng, trước cả khóa cửa.",
+    "lore_en": "In the winter storehouse, the keeper checked the greying packets each morning before even testing the lock."
+  },
+  {
+    "id": "material-sap-giu-mep",
+    "mode": "prepend",
+    "lore_vi": "Thợ làm hộp giữ một lá sáp mỏng trên bàn như lá cờ của nghề mình.",
+    "lore_en": "A box-maker kept a thin wax leaf on his bench as the flag of his trade."
+  },
+  {
+    "id": "material-cat-bao-nuoc",
+    "mode": "prepend",
+    "lore_vi": "Người gác kho lần theo hàng cát sẫm tới chỗ nước đang bò dưới chân cửa.",
+    "lore_en": "The storekeeper followed the darkened grains to water creeping beneath the door."
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "mode": "prepend",
+    "lore_vi": "Nhãn trên quan tài của người thợ đóng hộp còn bám nguyên sau chuyến xe lạnh cuối cùng.",
+    "lore_en": "The label on the box-maker's coffin held through his final journey in the cold."
+  },
+  {
+    "id": "material-dau-dem-vong",
+    "mode": "prepend",
+    "lore_vi": "Một vệt lam dừng sai chỗ đã cứu người thợ khỏi tháo cả bộ máy đồng hồ của thành phố.",
+    "lore_en": "A blue trace stopping in the wrong place spared a craftsman from dismantling the town clock."
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "mode": "prepend",
+    "lore_vi": "Thợ đào hầm đặt khay bột cạnh giường, sợ mặt nước rung trước khi nghe đất chuyển.",
+    "lore_en": "A tunneller kept the powder-tray by his bed, fearing water would tremble before the earth could be heard moving."
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "mode": "prepend",
+    "lore_vi": "Người dọn lò giữ nhúm bột trắng trong túi áo đã cháy thủng, nơi lửa từng lấy mất một ngón tay.",
+    "lore_en": "A furnace-sweeper carried the white dust in a scorched pocket, beside the place fire had cost him a finger."
+  },
+  {
+    "id": "material-soi-giu-nep",
+    "mode": "prepend",
+    "lore_vi": "Nếp áo đầu tiên một học trò may được nằm mãi trên đầu sợi thử của thầy.",
+    "lore_en": "An apprentice's first successful seam remained folded in the master's trial thread."
+  },
+  {
+    "id": "material-bot-so-ri",
+    "mode": "prepend",
+    "lore_vi": "Mẻ bột nâu đầu tiên được ghim cạnh chiếc đinh còn nguyên đầu nhưng ruột đã mục.",
+    "lore_en": "The first brown batch was pinned beside a nail with an intact head and a rotten heart."
+  },
+  {
+    "id": "material-nhua-nhan-suong",
+    "mode": "prepend",
+    "lore_vi": "Trong kiện chăn gửi tới trạm núi, một miếng nhựa xanh đục khiến người nhận mở hết lớp bọc trước khi quá muộn.",
+    "lore_en": "In blankets sent to a mountain station, one cloudy-green patch made the recipient strip the wrapping before it was too late."
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "mode": "prepend",
+    "lore_vi": "Những thẻ hàng đi qua mưa tuyết vẫn giữ tên người nhận, còn giấy quanh chữ nát dần trong tay.",
+    "lore_en": "Tags carried through sleet retained their recipients' names while the surrounding paper disintegrated in the hand."
+  },
+  {
+    "id": "material-dich-chi-muoi",
+    "mode": "prepend",
+    "lore_vi": "Thợ đóng thùng đánh dấu bằng dịch cả chỗ nước mắt mình từng rơi, rồi phải cạo lại mặt gỗ.",
+    "lore_en": "A cooper tested even the spot where his tears had fallen and had to scrape the wood again."
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "mode": "prepend",
+    "lore_vi": "Người học việc mở nhầm hộp lương trước ngày phát đã nhìn dấu sáp nổi lên đậm như lời thú nhận.",
+    "lore_en": "An apprentice who opened the pay chest early watched its wax impression darken like a confession."
+  },
+  {
+    "id": "material-bot-em-rong-roc",
+    "mode": "prepend",
+    "lore_vi": "Trên giàn treo lạnh, nhúm bột khiến tiếng ròng rọc dịu xuống vừa đủ để nghe người phía dưới gọi.",
+    "lore_en": "On the cold hoist, the powder quietened the pulley enough to hear someone calling below."
+  },
+  {
+    "id": "material-soi-niu-giot",
+    "mode": "prepend",
+    "lore_vi": "Người pha thuốc nhìn từng giọt đứng dọc sợi như chuỗi hạt đếm những liều còn lại.",
+    "lore_en": "An apothecary watched drops stand along the thread like beads counting the doses left."
+  },
+  {
+    "id": "material-dich-nhuom-ap",
+    "mode": "prepend",
+    "lore_vi": "Vệt đỏ dưới kính là chữ ký của một bàn tay mạnh hơn lời người khuân hàng khai.",
+    "lore_en": "The red mark beneath glass testified to a heavier hand than the porter admitted."
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "mode": "prepend",
+    "lore_vi": "Tấm nhựa cháy dở được đóng khung trong xưởng; người thợ chỉ vào phần trắng khi kể mình đã kịp buông tay.",
+    "lore_en": "The half-burnt resin hung framed in the workshop; the craftsman pointed to its white patch when recalling how he let go in time."
+  },
+  {
+    "id": "material-muc-chi-xuoc",
+    "mode": "prepend",
+    "lore_vi": "Một nét sáng trong lưỡi dao mới mài khiến người thợ đặt nó xuống trước khi trao cho con.",
+    "lore_en": "A shining line in a newly honed blade made a craftsman set it down before handing it to his son."
+  },
+  {
+    "id": "material-tam-bot-giam-mui",
+    "mode": "prepend",
+    "lore_vi": "Người coi hương liệu giữ mùi của lô hàng cuối cùng bên cạnh sổ tên người thuyền trưởng mất tích.",
+    "lore_en": "A spice-keeper retained the scent of a final cargo beside the missing captain's entry in his ledger."
+  },
+  {
+    "id": "material-bot-mo-men",
+    "mode": "prepend",
+    "lore_vi": "Đường lục hiện trên chiếc bát gia truyền chỉ đúng chỗ người mẹ luôn dùng ngón tay nâng đỡ.",
+    "lore_en": "The green line on an heirloom bowl marked the place its owner had always supported with her finger."
+  },
+  {
+    "id": "material-thoi-dan-diu",
+    "mode": "prepend",
+    "lore_vi": "Thỏi kim loại trong tay thợ học nghề đen dần qua từng lần cứu mẩu kính mỏng khỏi nứt.",
+    "lore_en": "The apprentice's ingot darkened each time it spared a thin glass piece from cracking."
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "mode": "prepend",
+    "lore_vi": "Người chép giữ lại bản thử đầu tiên, nơi chữ còn nguyên mà tờ giấy đã giòn như lá chết.",
+    "lore_en": "The copyist kept the first trial: letters intact, paper brittle as a dead leaf."
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "mode": "prepend",
+    "lore_vi": "Thợ khắc kê lớp bột dưới bàn để tiếng chân đoàn quân ngoài phố khỏi đi vào nét đục.",
+    "lore_en": "An engraver laid powder beneath his bench to keep marching feet in the street out of his chisel-work."
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "mode": "prepend",
+    "lore_vi": "Sợi được nung theo đường cong của một chiếc nôi; chủ xưởng vẫn giữ cuộn ấy sau khi đứa trẻ lớn.",
+    "lore_en": "The fibre was set to the curve of a cradle. Its maker kept the coil long after the child grew up."
+  },
+  {
+    "id": "material-sap-dong-vet",
+    "mode": "prepend",
+    "lore_vi": "Người vá bể nghe nước ngừng nhỏ ở trước mặt rồi bắt đầu nhỏ phía sau lưng.",
+    "lore_en": "A cistern-mender heard the dripping stop before him and begin behind his back."
+  },
+  {
+    "id": "material-dau-giu-gon",
+    "mode": "prepend",
+    "lore_vi": "Người đo rung bảo học trò đừng thở mạnh, để đường gợn cuối còn đủ lâu cho một nét vẽ.",
+    "lore_en": "A vibration-tester told his apprentice to breathe gently so the last ripple would survive one more pen-stroke."
+  },
+  {
+    "id": "material-men-dong-lanh",
+    "mode": "prepend",
+    "lore_vi": "Trong lò gốm, mảnh men thất bại luôn được đặt cạnh mảnh đẹp nhất như hai nửa của cùng một bài học.",
+    "lore_en": "In the pottery, a failed glaze stood beside the finest piece as two halves of one lesson."
+  },
+  {
+    "id": "material-bot-chua-dong",
+    "mode": "prepend",
+    "lore_vi": "Một người nhặt phế liệu mua được bữa tối đầu tiên bằng phần đồng nhúm bột để dành lại.",
+    "lore_en": "A scrap-picker bought his first supper with the copper the powder had spared."
+  },
+  {
+    "id": "material-dich-giu-mat",
+    "mode": "prepend",
+    "lore_vi": "Thợ thổi kính nhìn lớp màng giữ miệng lỗ như một hơi thở đang nín trước lúc vỡ.",
+    "lore_en": "A glassblower watched the film span an opening like breath held before breaking."
+  },
+  {
+    "id": "material-soi-niu-am",
+    "mode": "prepend",
+    "lore_vi": "Người thợ kéo một tín hiệu qua sợi cho con ở buồng bên, báo cha vẫn còn đang làm việc.",
+    "lore_en": "A craftsman tapped the thread to his child next door, saying that father was still at work."
+  },
+  {
+    "id": "material-thoi-tra-luc",
+    "mode": "prepend",
+    "lore_vi": "Vết lõm trên hộp thỏi được giữ nguyên, ghi nhớ lần người mang quên rằng vật bên trong vẫn còn nợ lực.",
+    "lore_en": "The dent in its case remained, recalling the carrier who forgot that the ingot still owed force."
+  },
+  {
+    "id": "material-nhua-cat-sang",
+    "mode": "prepend",
+    "lore_vi": "Thợ nhựa đếm những bọt tối đi như đếm từng ô cửa sổ đã tắt trong khu phố.",
+    "lore_en": "The resin-worker counted dying bubbles like windows going dark along a street."
+  },
+  {
+    "id": "material-bot-goi-giot",
+    "mode": "prepend",
+    "lore_vi": "Một vòng bột cứu được giọt thuốc cuối khỏi khe sàn, trước đôi mắt của người đã đi cả ngày để mua nó.",
+    "lore_en": "A powder-ring recovered the last medicinal drop from a floor-crack before the person who had walked all day to buy it."
+  },
+  {
+    "id": "material-men-nhan-xo",
+    "mode": "prepend",
+    "lore_vi": "Người nhận kiện sứ đặt ngón tay lên vân đỏ, rồi yêu cầu mở hộp trước mặt người giao.",
+    "lore_en": "The porcelain buyer touched the red vein and asked that the crate be opened before its carrier."
+  },
+  {
+    "id": "material-sap-muon-khuon",
+    "mode": "prepend",
+    "lore_vi": "Chiếc khuôn cũ in lại nếp lá mà người thợ vườn đã mang tới từ một cây chết rét.",
+    "lore_en": "The old mould restored the leaf-vein a gardener had brought from a frost-killed tree."
+  },
+  {
+    "id": "material-dich-ngung-men",
+    "mode": "prepend",
+    "lore_vi": "Thợ lò gọi vòng chậm nguội là mắt men; mỗi khi mắt mở, cả xưởng lùi khỏi tấm gốm.",
+    "lore_en": "Kiln-workers called the slow-cooling circle the glaze's eye. Whenever it opened, the workshop stepped back."
+  },
+  {
+    "id": "material-soi-chua-bong",
+    "mode": "prepend",
+    "lore_vi": "Người dệt lần đầu thắt nút dưới đèn đã thấy bóng dây đứt trước khi sợi thật chịu buông.",
+    "lore_en": "The first weaver to knot it beneath a lamp saw the shadow part before the thread would yield."
+  },
+  {
+    "id": "material-thoi-tinh-am",
+    "mode": "prepend",
+    "lore_vi": "Thỏi được nhúng xuống bể thử; tiếng búa tắt ở mặt nước như bị chôn dưới một lớp đất trong veo.",
+    "lore_en": "The ingot entered its testing pool, and hammer-sound died at the waterline as though buried under transparent earth."
+  },
+  {
+    "id": "material-muc-doi-mat",
+    "mode": "prepend",
+    "lore_vi": "Người thư lại nhìn nét chữ đi xuyên tấm kính, cảm giác như vừa trao lời cho một người đứng phía bên kia cửa đóng.",
+    "lore_en": "A clerk watched writing cross the glass, as though handing words to someone beyond a closed door."
+  },
+  {
+    "id": "material-dich-nho-doc",
+    "mode": "prepend",
+    "lore_vi": "Một người thợ mang dịch từ máng cũ sang khay mới rồi nhìn nó tiếp tục nhớ con dốc đã mất.",
+    "lore_en": "A craftsman moved the fluid to a new tray and watched it remember the slope it had left."
+  },
+  {
+    "id": "material-nhua-noi-vet",
+    "mode": "prepend",
+    "lore_vi": "Hai giọt nhựa cùng mẻ tìm nhau qua kính sạch; người pha giữ chai gốc như người giữ tên một gia đình.",
+    "lore_en": "Two drops from one batch reached across clean glass. The mixer kept their bottle as one keeps a family name."
+  },
+  {
+    "id": "material-bot-giu-ria-lua",
+    "mode": "prepend",
+    "lore_vi": "Người canh lò đợi vòng bột hóa đen mới kể tiếp câu chuyện, như vừa nghe một lời đình chiến hết hạn.",
+    "lore_en": "The furnace-watchman waited for the ring to blacken before continuing his tale, as though a truce had just expired."
+  },
+  {
+    "id": "material-tam-sap-hai-dau",
+    "mode": "prepend",
+    "lore_vi": "Một người thợ lấy dấu nhẫn cưới, rồi phát hiện mặt sau tấm sáp cũng mang vòng tròn giống hệt.",
+    "lore_en": "A craftsman took an impression of a wedding ring and found its circle on the wax's far side too."
+  },
+  {
+    "id": "material-dau-ghim-hoi",
+    "mode": "prepend",
+    "lore_vi": "Những bọt hơi đứng dưới dầu khiến thợ lò nghĩ tới một cơn mưa đang bị giữ lại trước lúc rơi.",
+    "lore_en": "The vapour caught beneath oil reminded a furnace-worker of rain held back before its fall."
+  }
+]

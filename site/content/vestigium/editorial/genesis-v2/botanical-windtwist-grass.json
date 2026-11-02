@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-windtwist-grass",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Cỏ mọc trong chiếc quạt thông gió vỡ, rễ xuyên qua một vòng khoáng xanh ở trục. Lá bị gió xoắn quanh cánh quạt suốt mùa rồi lớn theo hình xoắn ấy. Khi người thợ tháo trục đem đi, từng ngọn cỏ vẫn tự vặn, kéo không khí chạy ngược dòng vừa ép nó cúi xuống.\n\nNgười làm quạt giữ cả bụi trong chụp kính để học trò nhìn thấy những xoáy nhỏ. Ở những căn xưởng thấp, một chậu đủ đẩy hơi ẩm khỏi hốc dao; ở bàn thổi thủy tinh, người ta cắt lá đã rách ngay, trước khi luồng gió bất chợt quay vào ngọn lửa.",
+    "lore_en": "Grass grew inside a broken ventilator, its roots piercing a blue mineral ring around the shaft. Air twisted its leaves around the blades through a season, and they grew into that spiral. When a repairer removed the shaft, each tip still turned, pulling air against the flow that had bent it.\n\nA fan maker kept the whole tuft under glass so apprentices could see its little vortices. In low workshops, one pot pushes damp air from a blade recess; at glassblowing benches, torn leaves are cut away before a sudden reversal sends air into the flame.",
+    "use_vi": "Dẫn những luồng gió sát ngọn cho hộp mẫu, hốc dụng cụ và chỉ hướng lưu thông khí nhỏ.",
+    "use_en": "Conduct near-tip airflows for specimen boxes, tool recesses and small ventilation indicators.",
+    "limits_vi": "Rễ cần nạp khoáng vừa đủ; cây thiếu sức chỉ xoay ngắt quãng. Lá rách đảo hướng khó đoán, còn luồng nhỏ cần nối đường khí thật để đổi khí cho không gian lớn.",
+    "limits_en": "Roots need moderate mineral feeding; weakened plants turn intermittently. Torn leaves reverse unpredictably, while small currents require real air channels to ventilate larger spaces.",
+    "skills": [
+      {
+        "name_vi": "Vặn luồng",
+        "name_en": "Twist the Current",
+        "description_vi": "Cho ngọn lá chạm luồng khí nhẹ để nó dựng xoáy ngược sát mép, đẩy hơi ẩm sang một phía; hướng chậu quyết định chỗ khí dồn.",
+        "description_en": "Let leaf tips meet a light airflow to raise a counter-vortex along their edges and push damp air aside; pot orientation determines where it gathers."
+      },
+      {
+        "name_vi": "Thổi hốc",
+        "name_en": "Blow the Recess",
+        "description_vi": "Chụm các ngọn vào miệng hốc để luồng nhỏ đẩy không khí cũ ra khe đã mở; hốc kín hoàn toàn chỉ đảo khí bên trong.",
+        "description_en": "Gather tips at a recess opening to push stale air through a prepared outlet; a fully sealed recess only recirculates its contents."
+      },
+      {
+        "name_vi": "Cờ xoáy",
+        "name_en": "The Vortex Flag",
+        "description_vi": "Treo sợi chỉ giữa hai lá để đọc hướng xoáy và thử cây trước khi đặt gần việc nhạy lửa; chỉ bị ướt làm phép thử sai.",
+        "description_en": "Suspend a thread between two leaves to read the vortex and test the plant before flame-sensitive work; a wet thread invalidates the test."
+      },
+      {
+        "name_vi": "Đổi chiều có dấu",
+        "name_en": "Marked Reversal",
+        "description_vi": "Xoay chậu chậm qua luồng vào để dẫn xoáy sang bên đối diện mà khỏi bẻ lá; xoay quá nhanh dễ làm một ngọn tự rách.",
+        "description_en": "Turn the pot slowly across incoming air to lead its vortex to the opposite side without bending leaves; a fast turn can tear a tip."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lá nhớ vòng xoáy",
+        "name_en": "Leaves Remember the Vortex",
+        "description_vi": "Vết ở chân lá cho chiều xoắn gốc, giúp nhận lá đã đảo do hỏng thay vì đổi gió tự nhiên.",
+        "description_en": "A mark at each leaf base shows its original twist, distinguishing damage-induced reversal from a changing draft."
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-soundknot-pine",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Thông xanh đen mọc quanh một hốc núi nơi tiếng gọi luôn trở về thiếu âm cuối. Rễ xuyên vào lớp khoáng bạc, còn quả mọc ra có vảy khép quá chặt. Một người hái đặt quả bên bếp; tiếng con mình gọi từ ngoài cửa hôm trước bỗng vang lên giữa những hạt rỗng rơi xuống than.\n\nNhững người trồng thử nhận ra khoáng đã vào hạt và vảy, cho quả giữ một đoạn âm trước khi nó đi hết vào không khí. Mỗi quả mở được một lần. Người con mang quả tới giường cha để giữ tiếng gọi tên mình; thợ máy mang quả về xưởng để thầy nghe tiếng trục sai. Sau cùng họ đều cất lại phần vỏ nhẹ, biết âm thanh vừa trả sẽ chẳng quay về đó nữa.",
+    "lore_en": "Dark pine grew around a mountain hollow where calls always returned without their final sound. Roots pierced silver mineral, and its cones grew with unusually tight scales. A gatherer set one by the hearth; his child’s call from the previous day sounded among hollow seeds dropping into the coals.\n\nCultivators found that mineral had entered seeds and scales, letting a cone keep a sound before it finished passing into air. Each cone opens once. A child brought one to a father’s bedside to preserve the calling of their name; mechanics brought cones home so a master could hear a faulty shaft. Afterwards they kept the light shells, knowing the returned sound would never enter them again.",
+    "use_vi": "Thu một đoạn âm rồi chọn cách nhả duy nhất của quả cho tín hiệu, đối chiếu hoặc kỷ vật.",
+    "use_en": "Gather a sound and choose a cone’s single release for signalling, comparison or remembrance.",
+    "limits_vi": "Mỗi quả ghi và phát một lần, tám cách dùng là các lựa chọn trên lượt ấy. Âm gần lấn âm xa; tiếng giữ được chỉ chứng minh đã thu một tiếng, danh tính người nói cần căn cứ khác.",
+    "limits_en": "Each cone records and plays once; its eight uses are alternatives within that turn. Near sounds mask distant ones; a retained voice establishes only that a sound was captured, while speaker identity requires other evidence.",
+    "skills": [
+      {
+        "name_vi": "Khép tiếng đầu",
+        "name_en": "Close Upon the First Sound",
+        "description_vi": "Chạm quả vào khoáng nuôi rồi bỏ chụp khi âm cần giữ vang để vảy khép quanh đoạn đầu; mọi tiếng chen vào cùng lúc cũng bị thu.",
+        "description_en": "Touch the cone to its feeding mineral and uncover it as the intended sound begins so its scales close around the opening passage; simultaneous noises are captured too."
+      },
+      {
+        "name_vi": "Mở qua ấm",
+        "name_en": "Open With Warmth",
+        "description_vi": "Ủ quả đã thu trong tay để nó phát đoạn âm ra không khí một lần; hơ quá nóng làm tiếng vỡ cùng vảy.",
+        "description_en": "Warm a recorded cone in the hands for its single airborne playback; excessive heat breaks sound with the scales."
+      },
+      {
+        "name_vi": "Lời sát tai",
+        "name_en": "Words Beside the Ear",
+        "description_vi": "Bọc quả bằng vải chừa một khe rồi làm ấm để lần phát hướng về người nghe gần; vải dày hút mất các âm nhỏ.",
+        "description_en": "Wrap the cone with one slit and warm it to direct playback at a nearby listener; thick cloth absorbs faint syllables."
+      },
+      {
+        "name_vi": "Tiếng qua bàn",
+        "name_en": "Sound Through the Bench",
+        "description_vi": "Áp cuống quả vào ván khi mở để phần rung phát qua bàn cho người đặt tay nghe, hữu ích nơi ồn; ván nứt làm đoạn âm đứt.",
+        "description_en": "Press the stalk against a board while opening so vibration reaches a listener touching the bench, useful amid noise; cracked wood breaks the passage."
+      },
+      {
+        "name_vi": "Dấu mở thư",
+        "name_en": "The Letter’s Opening Mark",
+        "description_vi": "Buộc quả kín vào thư cùng mảnh giấy cách nhiệt để người nhận tự làm ấm và nghe tín hiệu đã hẹn; thư đi qua bếp nóng có thể tiêu lượt trước.",
+        "description_en": "Bind a sealed cone to a letter with insulating paper so its recipient warms it for an agreed signal; a hot stove en route can spend it early."
+      },
+      {
+        "name_vi": "Đối tiếng máy",
+        "name_en": "Compare the Machine",
+        "description_vi": "Mở quả cạnh một máy đang chạy để so tiếng đã thu với tiếng hiện tại, tìm thay đổi rõ; một lần nghe nên có người ghi lại ngay.",
+        "description_en": "Open the cone beside working machinery to compare its captured sound with the present and find clear changes; a scribe should record the single hearing immediately."
+      },
+      {
+        "name_vi": "Hạt nhận tai",
+        "name_en": "The Listening Seed",
+        "description_vi": "Trước khi mở, áp một hạt còn nằm trong quả vào vật dẫn để chọn người đang chạm vật ấy làm nơi nhận phần rung; người khác ở gần chỉ nghe phần âm rò qua vảy.",
+        "description_en": "Before opening, press a seed still inside the cone to a conductor to choose someone touching it as the receiver of its vibration; nearby others hear only sound leaking through the scales."
+      },
+      {
+        "name_vi": "Lời đợi tuyết tan",
+        "name_en": "Words Awaiting the Thaw",
+        "description_vi": "Bọc quả đã thu bằng tuyết sạch rồi để dưới mái che để giữ tiếng qua chặng lạnh; khi lớp tuyết cuối tan chạm vảy, quả tự mở lần phát đã dành cho người chờ.",
+        "description_en": "Wrap a recorded cone in clean snow beneath shelter to preserve its sound through a cold journey; when the final melt touches its scales, the cone opens its single playback for the waiting listener."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vỏ còn tiếng đã đi",
+        "name_en": "The Shell After Sound",
+        "description_vi": "Quả đã phát có vảy xám, nhẹ và hạt rỗng. Đánh bóng vỏ làm mất dấu nhận biết, dễ khiến người nhận tin nhầm một quả đã cạn.",
+        "description_en": "A spent cone has grey scales, low weight and hollow seeds. Polishing erases these signs and can mislead a recipient into trusting an empty cone."
+      }
+    ]
+  }
+]

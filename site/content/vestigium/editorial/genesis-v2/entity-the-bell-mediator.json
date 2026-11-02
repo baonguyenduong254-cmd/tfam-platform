@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-bell-mediator",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Hai quả chuông cùng khuôn được đúc bằng đồng pha bụi khoáng bạc, một quả nguội trong nước, quả kia ngoài gió. Thợ gõ thử luân phiên, cãi nhau về tiếng nào đã sai. Giữa hai bóng chuông trên tường, một dáng bạc hiện ra, giơ từng tay khi mỗi âm bắt đầu lệch khỏi âm còn lại.\n\nNgười hòa giải đi theo chỗ hai âm gặp, xuất hiện lại khi cặp chuông được dời sang xưởng khác. Hai thợ học cách chờ lượt, bởi hình bạc chỉ nhận một tiếng trọn rồi mới quay sang tiếng kia. Nó giữ cuộc so như một người nghe kiên nhẫn, còn việc tiếng nào nên được chọn vẫn phải do người làm chuông quyết định.",
+    "lore_en": "Two bells from one mould were cast with silver mineral dust, one cooled in water and one in air. Their founders alternated test strikes and argued over which had gone wrong. Between their wall shadows, a silver figure appeared, raising a hand as each tone began departing from the other.\n\nThe mediator follows the meeting of their sounds and reappeared after the pair moved workshops. Both founders learnt to wait, for it accepts a whole tone before turning to the next. It keeps the comparison like a patient listener; deciding which tone to prefer remains the founders’ work.",
+    "use_vi": "So một cặp chuông về cao độ, ngân và chỗ lệch, giữ âm mẫu cho lượt chỉnh sau.",
+    "use_en": "Compare a bell pair’s pitch, sustain and discrepancies, retaining a reference for later adjustment.",
+    "limits_vi": "Chỉ một cặp trong lượt; âm nổ lớn xóa mẫu và có thể gây ù tai người nghe. Chuông thay hình phải cho nhận lại, còn chuẩn tín hiệu cần được chọn trước.",
+    "limits_en": "It accepts one pair per turn; a loud blast erases its reference and may deafen listeners temporarily. Reshaped bells need reacceptance and signal standards must be chosen beforehand.",
+    "skills": [
+      {
+        "name_vi": "Nhận hai chuông",
+        "name_en": "Accept the Pair",
+        "description_vi": "Gõ mỗi chuông một lần trọn ngân để hình bạc đứng giữa hai bóng và nhận quan hệ so của chúng.",
+        "description_en": "Sound each bell through its full decay so the silver figure stands between their shadows and accepts the pair."
+      },
+      {
+        "name_vi": "Tay chỉ cao thấp",
+        "name_en": "Hands Indicate Pitch",
+        "description_vi": "Gõ luân phiên để một tay hình nâng theo âm cao hơn, giúp tìm hướng chỉnh; cần giữ lực gõ tương đương.",
+        "description_en": "Alternate strikes so a hand rises with the higher tone and guides adjustment; keep strikes comparable."
+      },
+      {
+        "name_vi": "Vệt ngân dài",
+        "name_en": "The Long Sustain Trace",
+        "description_vi": "Soi hình dưới đèn thấp để áo bạc kéo dài theo âm còn ngân, so thời gian tắt của hai chuông.",
+        "description_en": "View it under low light so its silver coat lengthens with remaining resonance and compares decay times."
+      },
+      {
+        "name_vi": "Chỗ tiếng rạn",
+        "name_en": "The Broken Tone’s Place",
+        "description_vi": "Đánh thử nhẹ rồi nhìn tay hình chạm lên bóng chuông tại phần âm xuất hiện rung rạn, chọn nơi người thợ cần kiểm trực tiếp.",
+        "description_en": "Strike lightly and watch its hand touch a bell shadow where a rattling component appears, selecting a site for direct inspection."
+      },
+      {
+        "name_vi": "Giữ âm chọn",
+        "name_en": "Keep the Chosen Tone",
+        "description_vi": "Chạm chuông được chọn sau khi gõ để hình giữ âm ấy làm mẫu cho lần chỉnh cặp kia; gõ nhầm đổi chuẩn.",
+        "description_en": "Touch the selected bell after striking so the figure retains it as reference for the other; touching the wrong one changes the standard."
+      },
+      {
+        "name_vi": "Ngân mẫu trong tay",
+        "name_en": "The Reference in the Hand",
+        "description_vi": "Đặt bàn tay lên bệ giữa hai bóng để cảm một lượt rung mẫu khi cần nhớ lại, nghe qua vật dẫn thay vì gõ chuông thật.",
+        "description_en": "Rest a hand upon the base between shadows to feel one reference vibration without striking the real bell."
+      },
+      {
+        "name_vi": "So sau mài",
+        "name_en": "Compare After Grinding",
+        "description_vi": "Cho chuông vừa chỉnh gõ riêng để hình đặt hai tay cách nhau theo phần lệch với mẫu, kiểm tiến độ từng lượt.",
+        "description_en": "Sound the adjusted bell alone so the figure spaces its hands according to departure from reference and shows each adjustment’s progress."
+      },
+      {
+        "name_vi": "Đáp cho im",
+        "name_en": "Answer Into Silence",
+        "description_vi": "Gõ âm mẫu rồi âm còn lại đúng thứ tự nhận để hình cúi và nhả cuộc so, kết lượt trước khi đổi cặp.",
+        "description_en": "Sound reference then partner in their accepted order so the figure bows and releases the comparison before a fresh pair."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nghe đủ rồi đáp",
+        "name_en": "Hear Fully, Then Answer",
+        "description_vi": "Hình bạc bỏ phần chồng khi hai chuông cùng gõ. Nghe luân phiên giúp nó giữ đúng nguồn mỗi âm.",
+        "description_en": "The figure discards overlapping portions from simultaneous strikes. Alternation preserves each source."
+      }
+    ]
+  }
+]

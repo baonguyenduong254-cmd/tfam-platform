@@ -1,0 +1,126 @@
+{
+  "version": "c44660445d735ee5",
+  "count": 134,
+  "factions": [
+    {
+      "id": "castilian_empire",
+      "count": 7,
+      "url": "/monuments/castilian_empire.json"
+    },
+    {
+      "id": "sultanate_of_morocco",
+      "count": 9,
+      "url": "/monuments/sultanate_of_morocco.json"
+    },
+    {
+      "id": "songhai_empire",
+      "count": 6,
+      "url": "/monuments/songhai_empire.json"
+    },
+    {
+      "id": "western_roman_empire",
+      "count": 6,
+      "url": "/monuments/western_roman_empire.json"
+    },
+    {
+      "id": "holy_french_kingdom",
+      "count": 5,
+      "url": "/monuments/holy_french_kingdom.json"
+    },
+    {
+      "id": "habsburg_poland",
+      "count": 6,
+      "url": "/monuments/habsburg_poland.json"
+    },
+    {
+      "id": "novgorod_union",
+      "count": 5,
+      "url": "/monuments/novgorod_union.json"
+    },
+    {
+      "id": "ottoman_empire",
+      "count": 5,
+      "url": "/monuments/ottoman_empire.json"
+    },
+    {
+      "id": "danes_kingdom",
+      "count": 7,
+      "url": "/monuments/danes_kingdom.json"
+    },
+    {
+      "id": "scotland_ireland_union",
+      "count": 5,
+      "url": "/monuments/scotland_ireland_union.json"
+    },
+    {
+      "id": "england_ruins",
+      "count": 5,
+      "url": "/monuments/england_ruins.json"
+    },
+    {
+      "id": "new_portuguese_empire",
+      "count": 6,
+      "url": "/monuments/new_portuguese_empire.json"
+    },
+    {
+      "id": "british_east_india_company",
+      "count": 5,
+      "url": "/monuments/british_east_india_company.json"
+    },
+    {
+      "id": "annam_empire",
+      "count": 6,
+      "url": "/monuments/annam_empire.json"
+    },
+    {
+      "id": "ming_celestial_empire",
+      "count": 5,
+      "url": "/monuments/ming_celestial_empire.json"
+    },
+    {
+      "id": "nusantara_sultanate",
+      "count": 5,
+      "url": "/monuments/nusantara_sultanate.json"
+    },
+    {
+      "id": "tokugawa_empire",
+      "count": 6,
+      "url": "/monuments/tokugawa_empire.json"
+    },
+    {
+      "id": "eternal_sky_khanate",
+      "count": 5,
+      "url": "/monuments/eternal_sky_khanate.json"
+    },
+    {
+      "id": "safavid_empire",
+      "count": 5,
+      "url": "/monuments/safavid_empire.json"
+    },
+    {
+      "id": "aksumite_empire",
+      "count": 5,
+      "url": "/monuments/aksumite_empire.json"
+    },
+    {
+      "id": "kongo_confederation",
+      "count": 5,
+      "url": "/monuments/kongo_confederation.json"
+    },
+    {
+      "id": "swahili_league",
+      "count": 5,
+      "url": "/monuments/swahili_league.json"
+    },
+    {
+      "id": "cape_republic",
+      "count": 5,
+      "url": "/monuments/cape_republic.json"
+    },
+    {
+      "id": "merina_empire",
+      "count": 5,
+      "url": "/monuments/merina_empire.json"
+    }
+  ]
+}

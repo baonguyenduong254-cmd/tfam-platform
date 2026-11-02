@@ -1,0 +1,97 @@
+{
+  "id": "armament-robert-vestigia-nulla",
+  "category": "armament",
+  "rarity": 6,
+  "origin": "canon",
+  "sources": [
+    {
+      "volume": 4,
+      "chapter": "Ngoại truyện 1",
+      "tab_id": "t.q54yc9q0o2a9",
+      "anchor": "Robert khóa ổ đinh vào thân Clavador. “Vestigia Nulla. Chín mươi chín cây đinh, mỗi cây là một điểm kéo."
+    },
+    {
+      "volume": 4,
+      "chapter": "Ngoại truyện 1",
+      "tab_id": "t.q54yc9q0o2a9",
+      "anchor": "Robert nói rất bình thản. “Tên thật của tôi là Robert Salcedo. Cận vệ Hoàng gia Castilian số chín mươi chín."
+    },
+    {
+      "volume": 4,
+      "chapter": "Ngoại truyện 1",
+      "tab_id": "t.q54yc9q0o2a9",
+      "anchor": "Robert chỉ cây đinh. “Nếu bỏ lại, tôi phải chờ mười hai giờ để có lại một cây.”"
+    }
+  ],
+  "name_vi": "Noventa y Nueve. Đinh Neo Truy Tốc Vestigia Nulla",
+  "name_en": "Noventa y Nueve. Accelerating Anchor Nails Vestigia Nulla",
+  "form_vi": "Khẩu phóng đinh Clavador thân đen, nòng vuông và bộ chín mươi chín đinh thép",
+  "form_en": "Black, square-barrelled Clavador nail launcher and a set of ninety-nine steel nails",
+  "epigraph_vi": "Ừ. Cây này bỏ lại.",
+  "epigraph_en": "Yes. This one stays behind.",
+  "lore_vi": "Mười một tháng trong Hắc Điểu, Robert Falk giấu Clavador dưới vỏ dụng cụ leo núi. Khi những người còn lại bị Colossis ép tới bãi đá, hắn tháo khóa dây đai và nói tên thật: Robert Salcedo. Khẩu phóng đinh thân đen mở mạng điểm kéo trên vách, cây và cột đá.\n\nVestigia Nulla đưa hắn lao giữa chín mươi chín đinh neo, càng có quãng đường càng tăng tốc. Mỗi cú xuyên làm tốc độ và gia tốc tụt mạnh; đồng đội phải mở khoảng trống để hắn lấy lại đà. Một Colossis giật cột neo khỏi đất, bẻ lệch đường lao và ném vai hắn vào đá.\n\nKhi chỉ còn ba người đi tiếp, Robert dừng trước cây đinh mắc trong xác quái vật. Bỏ lại nó nghĩa là chờ mười hai giờ để có lại một cây. Zofia gọi hắn đi. Lần đầu tiên, hắn biết rõ một cây đinh ở đâu mà vẫn quay lưng bỏ lại.",
+  "lore_en": "For eleven months in Blackbird, Robert Falk hid Clavador beneath a climbing-tool casing. When Colossis pressed the survivors into a quarry, he unlocked his harness and gave his true name: Robert Salcedo. The black launcher spread pulling points across rock, trees and pillars.\n\nVestigia Nulla sent him between ninety-nine nail anchors, gathering speed with distance. Each penetration sharply reduced speed and acceleration; his companions had to open space for him to recover momentum. One Colossis tore an anchor pillar from the ground, bending his course and driving his shoulder into stone.\n\nWith only three people left to continue, Robert stopped before a nail lodged in a monster’s corpse. Leaving it meant waiting twelve hours to regain one nail. Zofia called him onward. For the first time, he knew exactly where a nail lay and still turned away from it.",
+  "use_vi": "Dùng Clavador đặt đinh làm điểm kéo, nối quãng lao để cơ động và tích tốc xuyên vật cản khi có đường đủ dài.",
+  "use_en": "Use Clavador to place pulling anchors, linking runs for movement and building penetrating speed where sufficient distance is available.",
+  "limits_vi": "Có chín mươi chín đinh; có thể thu hồi, còn mất một cây phải chờ mười hai giờ để có lại một cây. Xuyên vật cản làm tốc độ và gia tốc tụt mạnh, cần khoảng trống lấy lại đà. Neo bị dời làm quỹ đạo lệch; đổi hướng quá gắt và va khi chưa đủ tốc vẫn gây thương tích. Robert chưa từng chạm trần gia tốc, chưa đủ để khẳng định quyền năng vô hạn.",
+  "limits_en": "Ninety-nine nails are available. They can be retrieved; losing one requires twelve hours to regain one. Penetrating an obstacle sharply reduces speed and acceleration, requiring open space to rebuild momentum. A shifted anchor deflects the course; excessively sharp turns and impacts below sufficient speed still cause injury. Robert has not reached its ceiling, which does not establish unlimited power.",
+  "skills": [
+    {
+      "name_vi": "Đinh Neo Điểm Kéo",
+      "name_en": "Nail Pulling Anchors",
+      "description_vi": "Bắn đinh bằng Clavador rồi chọn chúng làm điểm kéo cơ thể; chuyển điểm để đổi đường lao.",
+      "description_en": "Fires nails through Clavador and selects them as points pulling the body, changing anchors to alter the course."
+    },
+    {
+      "name_vi": "Tích Tốc Xuyên Chướng",
+      "name_en": "Accumulated Penetrating Speed",
+      "description_vi": "Tăng tốc khi có quãng đường; qua một ngưỡng có thể xuyên những vật cản lớn, rồi mất mạnh tốc độ và gia tốc sau mỗi lần xuyên.",
+      "description_en": "Builds speed with distance; beyond a threshold it can penetrate large obstacles, sharply losing speed and acceleration after each penetration."
+    }
+  ],
+  "traits": [
+    {
+      "name_vi": "Ổ Sáu Đinh",
+      "name_en": "Six-Nail Magazine",
+      "description_vi": "Clavador có ổ sáu viên; những đinh còn lại nằm trong các ống riêng dọc hai hông Robert.",
+      "description_en": "Clavador has a six-nail magazine; the remaining nails are stored in individual tubes along Robert’s flanks."
+    }
+  ],
+  "applications": [
+    {
+      "name_vi": "Đường Lao Do Đồng Đội Mở",
+      "name_en": "A Run Opened by Companions",
+      "description_vi": "Đồng đội mở khe giáp và khoảng trống sau cú xuyên, cho Robert nối lại đà thay vì mắc giữa những lớp chắn liên tiếp.",
+      "description_en": "Companions open armour gaps and space after penetration, allowing Robert to regain momentum instead of becoming trapped between successive barriers."
+    }
+  ],
+  "rarity_note_vi": "Tạm xếp Thần thoại theo quyền năng cơ động, tích tốc và xuyên chướng đã thể hiện. Ngoại truyện xác nhận số hiệu Chín Mươi Chín, chưa nêu bậc sản phẩm; đây là phân loại biên tập.",
+  "rarity_note_en": "Provisionally Mythic for the demonstrated movement, acceleration and penetration. The side story establishes Number Ninety-Nine without stating the equipment’s rank; this is editorial classification.",
+  "quantity": {
+    "kind": "singleton",
+    "count": 1,
+    "note_vi": "Một bộ trang bị của Robert gồm Clavador và chín mươi chín đinh hữu hạn; số lượng một tính theo bộ, không theo từng cây đinh.",
+    "note_en": "One equipment set belonging to Robert comprises Clavador and ninety-nine finite nails; the count refers to the set rather than individual nails."
+  },
+  "royal_guard": {
+    "number": 99,
+    "label": "Noventa y Nueve",
+    "relation": "deployment",
+    "parent_id": "device-003"
+  },
+  "owner_vi": "Robert Salcedo, nằm vùng dưới tên Robert Falk trong Trinh Sát Đoàn Hắc Điểu",
+  "owner_en": "Robert Salcedo, infiltrating the Blackbird Reconnaissance Corps as Robert Falk",
+  "behavior_vi": "",
+  "behavior_en": "",
+  "content_revision": "rebuild-v4",
+  "classification_status": "editorial",
+  "editorial_review_kind": "rewritten",
+  "art": {
+    "kind": "armament",
+    "materials": [
+      "black metal",
+      "steel"
+    ],
+    "description": "A black square-barrelled nail launcher with a six-round magazine and narrow steel nails carried in individual harness tubes. No lettering."
+  }
+}

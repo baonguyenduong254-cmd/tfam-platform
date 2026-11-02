@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-mac-ngoc-re-am",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Dưới nền một nhà chuông đổ, người đào đá tìm thấy mạch onyx chia đôi đúng chỗ quả chuông đã rơi. Những vân trắng tẽ như chạc cây. Gõ một nhánh, nhánh kia trả tiếng sau khi bàn tay đã rời đá; chặn cả hai, tiếng gõ lại vang trong răng người đang nghe.\n\nMạch đá vốn nằm giữa hai lối hầm dẫn tiếng cầu nguyện về một hốc chung. Đêm chuông rơi, một tiếng ngân đi xuống cả hai đường, rồi mắc lại khi mái hầm ép kín. Onyx mọc qua phần đá nứt, chia tiếng ngân thành hai cuộc đến nơi. Người cắt mẫu nhận ra có thể chọn cuộc đến nào sớm, cuộc đến nào muộn, thậm chí đổi nơi một âm thanh sẽ được nghe.\n\nCác đội công binh dùng ngọc nghe móng tường. Người đưa tin dùng nó giấu một câu trong cán gậy. Trong vài tòa án, ghế nhân chứng được bọc nỉ dày sau khi cùng một lời khai đã vang lên bằng hai giọng ở hai đầu phòng, lệch nhau đúng một nhịp tim.",
+    "lore_en": "Beneath a fallen bell house, quarrymen found an onyx vein forking precisely where the bell had landed. White bands branched like a tree. Strike one limb and the other answered after the hand had left; stop both and the knock sounded in the listener’s teeth.\n\nThe vein had lain between two tunnels carrying prayers into one hollow. On the night the bell fell, a single peal travelled down both passages and was trapped when their roofs collapsed. Onyx grew across the fractured stone, dividing that peal into two arrivals. Cut specimens allowed their keepers to choose which arrival came early, which came late, and even change where a sound would be heard.\n\nSappers use the gem to listen through foundations. Couriers hide a sentence in a staff. In certain courts, witness chairs were thickly felted after one testimony sounded in two voices at opposite ends of a chamber, separated by exactly one heartbeat.",
+    "use_vi": "Chia đường truyền âm qua vật tiếp xúc, điều chỉnh điểm đến và độ trễ cho liên lạc, dò cấu trúc hoặc đánh lạc hướng.",
+    "use_en": "Divide sound paths through contacted matter and adjust destination and delay for communication, structural sounding or deception.",
+    "limits_vi": "Phải nối âm vào một nhánh và cho nhánh kia tiếp xúc nơi nhận. Âm giữ lâu ăn mòn thính giác người canh nhịp; nếu cả hai lối bị bịt, tiếng sẽ tìm xương người cầm làm đường ra. Mỗi lượt chỉ giữ được một chuỗi âm rõ ràng.",
+    "limits_en": "Sound must enter one limb while the other touches its receiving medium. Long delays erode the keeper’s hearing; if both outlets are stopped, sound seeks the bearer’s bones as an exit. Only one clear sequence can be retained at a time.",
+    "skills": [
+      {
+        "name_vi": "Chạc nhận âm",
+        "name_en": "The Receiving Fork",
+        "description_vi": "Áp nhánh vào nguồn rung để dẫn âm vào đá; âm ngoài tiếp xúc vẫn đi theo không khí như thường.",
+        "description_en": "Press a limb to a vibrating source to lead sound into the stone; sound outside that contact continues through air normally.",
+        "group_vi": "Nhận tiếng",
+        "group_en": "Receive Sound"
+      },
+      {
+        "name_vi": "Hai nhịp",
+        "name_en": "Twin Beats",
+        "description_vi": "Bẻ góc đặt ngọc để chia một tiếng gõ thành hai lần đến; khoảng cách giữa hai nhịp lệ thuộc thời gian người dùng giữ đầu nhánh.",
+        "description_en": "Angle the gem to split a knock into two arrivals; the interval depends on how long its keeper holds the limb’s tip.",
+        "group_vi": "Nhận tiếng",
+        "group_en": "Receive Sound"
+      },
+      {
+        "name_vi": "Đo tiếng rỗng",
+        "name_en": "Measure the Hollow",
+        "description_vi": "Gõ nhánh thứ nhất trên tường rồi nghe nhánh thứ hai để nhận khoảng rỗng qua độ trễ; vữa rời khiến nhiều tiếng vọng chồng nhau.",
+        "description_en": "Tap the first limb against a wall and listen at the second to gauge cavities by delay; loose mortar superimposes echoes.",
+        "group_vi": "Nhận tiếng",
+        "group_en": "Receive Sound"
+      },
+      {
+        "name_vi": "Răng nghe",
+        "name_en": "Hearing Teeth",
+        "description_vi": "Cắn nhẹ nhánh bọc vải để nghe rung trong xương hàm giữa tiếng ồn; dùng lâu làm răng ê và lời nói sau đó vấp nhịp.",
+        "description_en": "Bite a cloth-wrapped limb to hear vibration through the jaw amid noise; prolonged use aches the teeth and makes subsequent speech falter.",
+        "group_vi": "Nhận tiếng",
+        "group_en": "Receive Sound"
+      },
+      {
+        "name_vi": "Lời trong cán gậy",
+        "name_en": "Words Within a Staff",
+        "description_vi": "Nói sát đầu ngọc đang áp cán gỗ để gửi câu tới đầu kia; gỗ nứt phát tán các âm tiết dọc đường.",
+        "description_en": "Speak beside the gem against a wooden shaft to send a sentence to its far end; cracks spill syllables along the way.",
+        "group_vi": "Dẫn lời",
+        "group_en": "Conduct Speech"
+      },
+      {
+        "name_vi": "Tường có tai",
+        "name_en": "The Listening Wall",
+        "description_vi": "Áp hai nhánh vào hai mặt nối của cùng một khối tường để chuyển nơi nghe sang mặt xa; mất tiếp xúc sẽ trả toàn bộ tiếng giữ vào tai người dùng.",
+        "description_en": "Touch both limbs to connected faces of one wall to shift listening to the far face; breaking contact releases the retained sound into the keeper’s ear.",
+        "group_vi": "Dẫn lời",
+        "group_en": "Conduct Speech"
+      },
+      {
+        "name_vi": "Tiếng bỏ túi",
+        "name_en": "Pocketed Sound",
+        "description_vi": "Bịt một nhánh bằng sáp sau khi nhận câu ngắn để hoãn lần đến thứ hai; sáp ấm nhả câu bất kể có người đang chờ nghe.",
+        "description_en": "Wax one limb after receiving a short sentence to postpone its second arrival; warming wax releases it whether anyone is waiting or not.",
+        "group_vi": "Dẫn lời",
+        "group_en": "Conduct Speech"
+      },
+      {
+        "name_vi": "Chia người nghe",
+        "name_en": "Divide the Audience",
+        "description_vi": "Áp mỗi nhánh lên một vật dẫn để gửi nửa đầu câu sang một bên và nửa sau sang bên kia; muốn hiểu trọn phải ghép lời hai người nghe.",
+        "description_en": "Touch each limb to a conductor to send a sentence’s first half one way and its second the other; both listeners must compare accounts to understand it fully.",
+        "group_vi": "Dẫn lời",
+        "group_en": "Conduct Speech"
+      },
+      {
+        "name_vi": "Chốt tiếng búa",
+        "name_en": "Hold the Hammerstroke",
+        "description_vi": "Giữ âm một nhát búa trong nhánh để công việc im đi tại điểm tiếp xúc; lực búa vẫn truyền vào vật và tiếng được nhả sẽ trở lại dồn dập.",
+        "description_en": "Hold a hammerstroke’s sound in a limb to quiet the contact point; its force still enters the work and released sound returns in a rush.",
+        "group_vi": "Giữ nhịp",
+        "group_en": "Keep the Measure"
+      },
+      {
+        "name_vi": "Nhịp thợ xa",
+        "name_en": "The Distant Worker’s Beat",
+        "description_vi": "Chia một tiếng chuẩn qua hai thanh nối để hai nhóm làm việc cùng nhịp dù cách tường; thanh lệch vị trí làm một nhóm nhận nhịp chậm.",
+        "description_en": "Split a reference beat through two linked rods to synchronise crews across a wall; a displaced rod delays one crew’s beat.",
+        "group_vi": "Giữ nhịp",
+        "group_en": "Keep the Measure"
+      },
+      {
+        "name_vi": "Câu nói chen sau",
+        "name_en": "The Following Sentence",
+        "description_vi": "Để một câu đã giữ vang sau tiếng gõ đã hẹn, tạo thông báo có dấu mở riêng; mọi tiếng gõ giống dấu mở đều có thể kích nó.",
+        "description_en": "Let a retained sentence follow an agreed knock, making a message with a release signal; any matching knock can trigger it.",
+        "group_vi": "Giữ nhịp",
+        "group_en": "Keep the Measure"
+      },
+      {
+        "name_vi": "Cắt tiếng hồi",
+        "name_en": "Sever the Return",
+        "description_vi": "Chặn một nhánh bằng nỉ rồi nhả đầu kia để tháo tiếng vọng đang lặp; miếng nỉ phải được bỏ khỏi ngọc trước lần nhận âm mới.",
+        "description_en": "Stop one limb with felt and release the other to drain a repeating echo; the felt must be removed before fresh sound is received.",
+        "group_vi": "Giữ nhịp",
+        "group_en": "Keep the Measure"
+      },
+      {
+        "name_vi": "Bước chân mượn",
+        "name_en": "Borrowed Footsteps",
+        "description_vi": "Nhận nhịp bước qua ván rồi gửi nó tới tấm ván khác đang nối ngọc, làm người nghe định sai vị trí; ván thực dưới chân vẫn rung.",
+        "description_en": "Receive footsteps through a board and send them to another board connected to the gem, misleading listeners about their source; the real floor still vibrates.",
+        "group_vi": "Lạc đường âm",
+        "group_en": "Misdirect Sound"
+      },
+      {
+        "name_vi": "Chuông hai cửa",
+        "name_en": "Bell at Two Doors",
+        "description_vi": "Dẫn cùng một tiếng báo vào hai ngưỡng nối bằng dây căng, đặt mỗi lần đến theo thứ tự; dây đứt dồn âm về cửa gần.",
+        "description_en": "Conduct one warning into two thresholds joined by taut wire and order their arrivals; a broken wire sends the sound to the nearer door.",
+        "group_vi": "Lạc đường âm",
+        "group_en": "Misdirect Sound"
+      },
+      {
+        "name_vi": "Lời dưới nước",
+        "name_en": "Speech Beneath Water",
+        "description_vi": "Áp nhánh nhận vào mặt nạ thợ lặn và nhánh kia vào dây dẫn để lời đi trong vật thay vì bị nước nuốt; giọng nói rung mạnh làm ngọc đau nhói trong hàm người nhận.",
+        "description_en": "Touch one limb to a diver’s mask and the other to a conducting line so speech travels through matter rather than being swallowed by water; a strong voice makes the gem ache in the receiver’s jaw.",
+        "group_vi": "Lạc đường âm",
+        "group_en": "Misdirect Sound"
+      },
+      {
+        "name_vi": "Trả ngân",
+        "name_en": "Release the Peal",
+        "description_vi": "Mở cả hai nhánh hướng vào khoảng trống để xả âm đã giữ thành một tiếng dài; người đứng giữa hai hướng chịu toàn bộ phần chồng tiếng.",
+        "description_en": "Open both limbs towards empty space to discharge retained sound as a long peal; anyone between their directions receives the full overlap.",
+        "group_vi": "Lạc đường âm",
+        "group_en": "Misdirect Sound"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hai cuộc đến",
+        "name_en": "Two Arrivals",
+        "description_vi": "Ngọc chia hành trình của âm. Người nghe ở hai đầu có thể nhận các phần khác nhau của cùng một tiếng, khiến bằng chứng nghe được cần được ghép lại.",
+        "description_en": "The gem divides sound’s journey. Listeners at opposite ends may receive different portions of the same utterance, so their evidence must be reassembled."
+      }
+    ]
+  }
+]

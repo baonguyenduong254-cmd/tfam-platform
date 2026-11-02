@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-crevicelock-crab",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Cua làm tổ trong lỗ thủng của một thuyền chở quặng. Nước mặn đưa bụi lam qua mang; các đời lột vỏ sau để lại đường khoáng sáng, còn càng dẹt tiết màng ôm kín đường chân đang bám. Người vá thuyền nhận ra nước quanh con cua ngừng rỉ dù tấm ván vẫn nứt.\n\nÔng tháo đinh quanh cả mảng ván để đem cua vào bể. Lớp màng theo con vật, sống chừng nào nó giữ khe và tan khi nó đi. Người coi mẫu dùng thói quen trú hốc ấy để vá tạm những thùng nhỏ, để cua chọn khe trước khi nhờ nó giữ nước.",
+    "lore_en": "Crabs nested in the breach of an ore boat. Saltwater carried blue dust through their gills; later moults left luminous mineral lines, while flattened claws secreted a membrane around their gripping legs. A repairer saw water stop leaking beside a crab despite the cracked plank.\n\nHe removed the surrounding nails and carried the whole plank into a tank. The membrane followed the animal, lasting while it occupied the cleft and dissolving upon departure. Specimen keepers use that sheltering habit for temporary small-vessel repairs and let the crab choose a gap before asking it to hold water.",
+    "use_vi": "Giữ kín tạm một khe nhỏ dưới nước mặn và cho kiểm vị trí rò bằng màng.",
+    "use_en": "Temporarily seal a small saltwater gap and locate leaks through membrane placement.",
+    "limits_vi": "Chỉ áp nông và khe vừa thân, cần nước mặn cùng chỗ thở. Cua rời đi màng tan, vì vậy mối vá thường phải sẵn trước khi chuyển nó.",
+    "limits_en": "It suits shallow pressure and body-sized gaps, needing saltwater and breathing space. Its departure dissolves the seal, so permanent repair must be ready first.",
+    "skills": [
+      {
+        "name_vi": "Màng khóa khe",
+        "name_en": "The Cleft-Locking Membrane",
+        "description_vi": "Đặt mảnh trú có cua gần khe rò để nó bám và trải màng qua mép, giữ nước tạm trong lúc chuẩn bị vá thật.",
+        "description_en": "Place its occupied shelter near a leak so it grips and spreads membrane across the edges, holding water while a real repair is prepared."
+      },
+      {
+        "name_vi": "Càng tìm nước rỉ",
+        "name_en": "Claws Find the Leak",
+        "description_vi": "Cho cua bám mặt trong thùng ngập nông để nó nghiêng càng tới đường nước đang rỉ, chỉ nơi cần vá; dòng quá mạnh làm nó bỏ chạy.",
+        "description_en": "Let the crab grip a shallowly flooded vessel interior so its claws lean towards seepage and indicate repair sites; excessive flow drives it away."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhà của càng",
+        "name_en": "The Claw’s Home",
+        "description_vi": "Màng bảo vệ khe con vật đang trú. Kéo càng khỏi khe làm nó nhả màng và có thể bị thương.",
+        "description_en": "The membrane protects its occupied shelter. Pulling a claw out releases the seal and can injure the crab."
+      }
+    ]
+  }
+]

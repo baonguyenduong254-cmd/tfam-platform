@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-ngoc-ngang-doc",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Ngọc xám được nhặt dưới nền một xưởng ép dầu dựng trên sườn núi. Người thợ đổ dầu lau bụi, thấy giọt chạy ngược sống lục lên đầu đá cao hơn rồi đứng đó. Bên dưới nền cũ còn các rãnh đá nguyên vẹn, từ bể chân dốc trèo lên tận chiếc cối đã đổ. Suốt nhiều năm, dầu đã ngấm qua mạch khoáng chạy cùng rãnh và chờ một cỗ máy không còn ai kéo.\n\nMạch ngọc kết lại đúng lúc mái xưởng sập, giữ trong sống lục hướng mà những giọt dầu từng được đưa tới. Với nó, đầu nguồn và đầu đích là hai nơi có thứ tự riêng, đủ để một chất lỏng đi tới bất chấp đất bên dưới dựng đứng hay lộn ngược. Người dùng lấy dầu vạch lối, giao cho ngọc một đầu đích; phần dầu còn cùng dấu sẽ tìm tới đó cho đến khi sống lục mất màu.\n\nCác xưởng đèn đưa bể dầu xuống hầm mà bấc trên tháp vẫn được nuôi. Những thuyền nhỏ trượt qua triền đá trên một đường dầu đang tự đi lên, đổi cả cách người ta nghĩ về bến cảng. Người thợ đèn đầu tiên gọi giọt trở về là cuộc trở về nhỏ nhất mình từng thấy. Người giữ sau viết thêm vào sổ: phải biết mình đã gọi đầu nào là nhà, vì dầu nhớ lời giao lâu hơn bàn tay nhớ đã vẽ gì.",
+    "lore_en": "The grey gem was recovered beneath an oil press built upon a mountainside. A worker poured oil over it and saw a drop climb its green ridge to the higher tip, then wait. Beneath the old floor, intact channels climbed from a lower cistern to the fallen press. For years oil had seeped through a mineral vein along them, awaiting a machine nobody turned.\n\nThe vein set when the workshop roof fell, retaining within its green spine the direction in which drops had once been carried. Source and destination became places with their own order, enough to send a liquid onwards despite upright or inverted ground. A keeper draws an oil path and entrusts an endpoint; oil sharing that mark seeks it until the green spine loses colour.\n\nLamp works keep their oil tanks underground while tower wicks remain supplied. Small boats slide over rock inclines upon an oil road travelling uphill, changing the meaning of a harbour. The first lamp maker called the returning drop the smallest homecoming he had seen. A later keeper added: remember which end you named home, for oil remembers its commission longer than a hand remembers its drawing.",
+    "use_vi": "Giao hướng đến cho dầu cùng dấu nguồn, tạo đường dẫn ngược dốc, mặt đỡ trượt và cơ cấu chuyển tải theo lối dầu đã vạch.",
+    "use_en": "Entrust a destination to same-source oil, making uphill channels, sliding supports and load-moving mechanisms along drawn oil paths.",
+    "limits_vi": "Cần dầu thật liên tục trên lối và điểm đích rõ. Nước cắt vệt làm các đoạn nhận những đích khác; lửa theo dầu vẫn cháy. Sống lục nhạt theo lượng dầu và tải mang, dùng đến trắng có thể đảo đầu nguồn với đầu đích rồi kéo toàn tuyến trở lại cùng lúc.",
+    "limits_en": "A continuous real oil path and clear endpoint are required. Water cutting the line gives sections different destinations; fire following oil still burns. The green spine pales with oil volume and carried load; exhausting it to white may exchange source and destination and recall the whole route at once.",
+    "skills": [
+      {
+        "name_vi": "Chọn đầu nhà",
+        "name_en": "Choose the Home End",
+        "description_vi": "Chạm đầu cao của sống lục vào một điểm có dầu để giao đích, rồi kéo ngọc về nguồn giữ vệt liên tục.",
+        "description_en": "Touch the high end of the green spine to an oiled point to appoint the destination, then draw it back to the source along an unbroken trace.",
+        "group_vi": "Vạch lối",
+        "group_en": "Draw the Road"
+      },
+      {
+        "name_vi": "Dầu nhận dấu",
+        "name_en": "Oil Accepts the Mark",
+        "description_vi": "Cho dầu nguồn đi qua rãnh ngọc để cùng nhận hướng đến, tách khỏi các loại dầu khác chưa giao lối.",
+        "description_en": "Pass source oil through the gem’s groove to share its destination and distinguish it from unassigned oils.",
+        "group_vi": "Vạch lối",
+        "group_en": "Draw the Road"
+      },
+      {
+        "name_vi": "Đọc sống lục",
+        "name_en": "Read the Green Spine",
+        "description_vi": "Nghiêng đá dưới đèn để thấy đoạn lục đã nhạt theo lượt, chọn lúc nghỉ trước khi đầu đích đảo.",
+        "description_en": "Tilt the stone beneath light to read paled green sections and stop before destination reversal.",
+        "group_vi": "Vạch lối",
+        "group_en": "Draw the Road"
+      },
+      {
+        "name_vi": "Vạch thử một giọt",
+        "name_en": "Trial With One Drop",
+        "description_vi": "Thả một giọt cùng nguồn tại đầu thấp để kiểm nó đi tới đúng đích, xác nhận đường sau mỗi lần dời ngọc.",
+        "description_en": "Release one same-source drop at the low end to verify its destination after each movement of the gem.",
+        "group_vi": "Vạch lối",
+        "group_en": "Draw the Road"
+      },
+      {
+        "name_vi": "Giọt leo dốc",
+        "name_en": "The Uphill Drop",
+        "description_vi": "Mở đầu nguồn để dầu cùng dấu bò dọc đường lên cao, cấp một rãnh hoặc bình chờ; vệt hở rẽ dầu khỏi tuyến.",
+        "description_en": "Open the source so marked oil climbs its path into a waiting groove or vessel; a broken trace diverts it.",
+        "group_vi": "Dẫn dầu",
+        "group_en": "Conduct the Oil"
+      },
+      {
+        "name_vi": "Dòng trên trần",
+        "name_en": "The Ceiling Flow",
+        "description_vi": "Vạch đường dầu liền trên mặt trên của một khoang để dầu đi dọc trần, tránh lối người dưới; rơi giọt do vệt đứt vẫn gây trơn.",
+        "description_en": "Draw a continuous overhead oil path to carry flow across a chamber ceiling clear of people below; breaks still shed slippery drops.",
+        "group_vi": "Dẫn dầu",
+        "group_en": "Conduct the Oil"
+      },
+      {
+        "name_vi": "Bấc cao",
+        "name_en": "The High Wick",
+        "description_vi": "Nối đích vào bể nhỏ nuôi bấc trên tháp để dầu từ kho thấp tìm lên, giữ bể có đường tràn an toàn.",
+        "description_en": "Appoint a small tower-wick reservoir as destination so oil rises from a lower store, leaving a safe overflow route.",
+        "group_vi": "Dẫn dầu",
+        "group_en": "Conduct the Oil"
+      },
+      {
+        "name_vi": "Thu dầu tràn",
+        "name_en": "Gather the Spilled Oil",
+        "description_vi": "Chạm ngọc vào vệt đổ còn cùng nguồn rồi kéo đường tới thùng để phần dầu nối dấu tự trở về; dầu đã cháy hoặc lẫn nước có thể bỏ đoạn.",
+        "description_en": "Touch a connected same-source spill and draw a route to a cask so it returns; burnt or water-mixed portions may leave gaps.",
+        "group_vi": "Dẫn dầu",
+        "group_en": "Conduct the Oil"
+      },
+      {
+        "name_vi": "Cổng vệt",
+        "name_en": "The Trace Gate",
+        "description_vi": "Đặt một bản khô cắt đường để dừng dầu tại đó, mở lại bằng cách nối vệt; dầu dồn trước cổng cần khoang chứa.",
+        "description_en": "Cut the route with a dry plate to stop oil there and reopen by restoring the trace; upstream oil needs holding space.",
+        "group_vi": "Đường chia và khép",
+        "group_en": "Branch and Close the Road"
+      },
+      {
+        "name_vi": "Hai đích nối lượt",
+        "name_en": "Two Destinations in Turn",
+        "description_vi": "Giao đích thứ hai sau khi đóng vệt tới đích đầu để chuyển dầu theo lượt, cấp các bình lần lượt thay vì tranh dòng.",
+        "description_en": "Appoint a second destination after closing the first branch so vessels are supplied in sequence rather than competing.",
+        "group_vi": "Đường chia và khép",
+        "group_en": "Branch and Close the Road"
+      },
+      {
+        "name_vi": "Khúc ngoặt liền",
+        "name_en": "The Continuous Bend",
+        "description_vi": "Bôi dầu qua một miếng cong đặt tại góc để dòng nhận đường ngoặt êm, tránh nhảy khỏi mép; góc rời làm dầu tìm đường ngắn tới đích.",
+        "description_en": "Oil a curved piece at a corner for a smooth turn; a separated corner makes oil seek a shorter way to its destination.",
+        "group_vi": "Đường chia và khép",
+        "group_en": "Branch and Close the Road"
+      },
+      {
+        "name_vi": "Vòng về bể",
+        "name_en": "The Reservoir Loop",
+        "description_vi": "Dựng đường trả khác chỉ nhận sau lúc đường đi khép để thu dầu đã dùng về bể, cho tái dùng với một lượt dấu mới.",
+        "description_en": "Build a separate return admitted only after the outward route closes to recover used oil for a newly marked turn.",
+        "group_vi": "Đường chia và khép",
+        "group_en": "Branch and Close the Road"
+      },
+      {
+        "name_vi": "Khay trượt lên",
+        "name_en": "The Rising Tray",
+        "description_vi": "Đặt khay đáy rộng trên vệt đủ dày để dầu đang leo mang nó lên dốc, dùng rãnh thật giữ hai bên.",
+        "description_en": "Set a broad tray upon a thick enough climbing trace to carry it uphill, using real side rails.",
+        "group_vi": "Mang vật theo dầu",
+        "group_en": "Carry Things With Oil"
+      },
+      {
+        "name_vi": "Thuyền qua triền",
+        "name_en": "The Hillside Boat",
+        "description_vi": "Lót một đường dầu rộng trên giàn chắc để thuyền nhẹ trượt qua đoạn dốc khô, đưa tải theo lối mà ngọc đã nhận; cần dây hãm khi kết lượt.",
+        "description_en": "Lay a broad oil road upon a sound frame so a light boat slides over a dry incline; brake lines are required when the turn ends.",
+        "group_vi": "Mang vật theo dầu",
+        "group_en": "Carry Things With Oil"
+      },
+      {
+        "name_vi": "Hạt tới phễu",
+        "name_en": "Grains to the Funnel",
+        "description_vi": "Rải hạt nhẹ lên dòng dầu nguồn để đưa tới phễu cao, rồi tách bằng lưới; vật cần khô phải được bọc trước.",
+        "description_en": "Set light grains upon source oil for delivery to a raised funnel and separation by mesh; items needing dryness must be wrapped.",
+        "group_vi": "Mang vật theo dầu",
+        "group_en": "Carry Things With Oil"
+      },
+      {
+        "name_vi": "Đưa cáng theo máng",
+        "name_en": "Carry the Litter Along the Trough",
+        "description_vi": "Đặt cáng trên ván đỡ trong máng dầu đã thử để chuyển người qua dốc với ít rung; dầu phải tách khỏi người và được hãm bằng dây riêng.",
+        "description_en": "Set a litter on a support board in a tested oil trough for low-vibration incline travel; keep oil apart from the patient and use separate brake lines.",
+        "group_vi": "Mang vật theo dầu",
+        "group_en": "Carry Things With Oil"
+      },
+      {
+        "name_vi": "Bánh nhận dòng",
+        "name_en": "The Flow-Receiving Wheel",
+        "description_vi": "Cho dầu đi lên qua cánh bánh trước khi vào bể đích để lấy chuyển động quay, đổi tải máy theo sức sống lục còn lại.",
+        "description_en": "Run climbing oil across wheel blades before the destination basin to obtain rotation, adjusting machine load to the remaining green spine.",
+        "group_vi": "Máy theo lối dầu",
+        "group_en": "Machines Follow the Oil Road"
+      },
+      {
+        "name_vi": "Tạ dầu nâng",
+        "name_en": "The Oil-Lifted Weight",
+        "description_vi": "Dẫn dầu vào gầu gắn tạ để nó lên theo tuyến rồi nhả tại đỉnh, kéo một cơ cấu nhẹ bằng chặng leo.",
+        "description_en": "Feed oil into a weighted bucket so it climbs the route and empties at the top, driving a light mechanism by its ascent.",
+        "group_vi": "Máy theo lối dầu",
+        "group_en": "Machines Follow the Oil Road"
+      },
+      {
+        "name_vi": "Trục bôi hai phía",
+        "name_en": "Lubricate Both Sides",
+        "description_vi": "Vạch tuyến quanh trục để dầu tới mặt khuất rồi trở về khay, nuôi điểm bôi khó chạm; trục xoay có thể làm vệt đứt cần canh.",
+        "description_en": "Draw a route around a shaft to reach its hidden face and return to a tray; rotation can break the trace and needs watching.",
+        "group_vi": "Máy theo lối dầu",
+        "group_en": "Machines Follow the Oil Road"
+      },
+      {
+        "name_vi": "Van gọi đích",
+        "name_en": "The Destination Valve",
+        "description_vi": "Cho van đặt bản đích chạm rồi rời ngọc để cơ cấu mở hoặc dừng lượt dầu theo tiếp xúc, dùng trong máy có nhịp chậm.",
+        "description_en": "Let a valve bring the destination plate into and out of contact with the gem to start or stop oil delivery in a slow-cycle machine.",
+        "group_vi": "Máy theo lối dầu",
+        "group_en": "Machines Follow the Oil Road"
+      },
+      {
+        "name_vi": "Đường kéo hàng",
+        "name_en": "The Supply Haul",
+        "description_vi": "Dựng tuyến máng dầu sau vật che để đưa kiện nhẹ lên lũy mà khỏi kéo dây qua đỉnh, tránh lộ người nâng; phải giữ lửa xa dầu.",
+        "description_en": "Build a screened oil trough to carry light packages up a rampart without a rope over the crest; keep fire away.",
+        "group_vi": "Lối trên chiến địa",
+        "group_en": "Roads in the Field"
+      },
+      {
+        "name_vi": "Dốc trả người đuổi",
+        "name_en": "The Pursuer’s Returning Slope",
+        "description_vi": "Đổi đích của một vệt trơn đã chuẩn bị để dầu đột ngột chạy ngược dưới chân kẻ đuổi; người chưa rời tuyến cũng chịu tác động.",
+        "description_en": "Change a prepared slippery trace’s destination to send oil abruptly backwards beneath pursuers; anyone still on the route is affected.",
+        "group_vi": "Lối trên chiến địa",
+        "group_en": "Roads in the Field"
+      },
+      {
+        "name_vi": "Dây không vắt đỉnh",
+        "name_en": "The Line Below the Crest",
+        "description_vi": "Đặt đầu dây nhẹ trên khay dầu để đưa nó tới mấu cao, rồi dùng dây ấy kéo neo thật; dây dầu mang lên chưa phải neo chịu người.",
+        "description_en": "Send a light line end on an oil tray to a high peg, then use it to draw a real anchorage; the delivered line is not itself a person-bearing anchor.",
+        "group_vi": "Lối trên chiến địa",
+        "group_en": "Roads in the Field"
+      },
+      {
+        "name_vi": "Mồi lửa đổi đường",
+        "name_en": "The Rerouted Burning Wick",
+        "description_vi": "Chỉ với vệt đã cô lập, đổi đầu đích để dầu đang bén lửa chạy về bể nhận chịu cháy, rút nguồn khỏi chỗ cần cứu; đường sai sẽ kéo lửa theo.",
+        "description_en": "On an isolated trace, change the destination to send burning oil into a fire-bearing receiver and withdraw fuel from a rescue area; a wrong route carries fire with it.",
+        "group_vi": "Lối trên chiến địa",
+        "group_en": "Roads in the Field"
+      },
+      {
+        "name_vi": "Nhận lối còn nhớ",
+        "name_en": "Read the Remembered Path",
+        "description_vi": "Rắc ít bụi khô cạnh vệt để hình dầu đang kéo về hiện rõ, phát hiện điểm đứt trước khi đặt tải.",
+        "description_en": "Scatter dry dust beside a trace to reveal the oil’s pull and find breaks before loading.",
+        "group_vi": "Dấu về của giọt",
+        "group_en": "The Drop’s Homeward Signs"
+      },
+      {
+        "name_vi": "Giọt chọn nguồn",
+        "name_en": "The Source-Choosing Drop",
+        "description_vi": "Đặt hai giọt từ hai bình gần ngọc đã nhận để giọt cùng nguồn tìm đường trước, hỗ trợ tách dầu đúng lượt; dầu trộn cho dấu lẫn.",
+        "description_en": "Place drops from two vessels near an accepted gem so the same-source drop seeks its road first; mixed oil gives confused signs.",
+        "group_vi": "Dấu về của giọt",
+        "group_en": "The Drop’s Homeward Signs"
+      },
+      {
+        "name_vi": "So mặt lộn",
+        "name_en": "Compare the Inverted Face",
+        "description_vi": "Bôi một đường thử qua mặt dưới tấm ván rồi lật chậm để kiểm lối còn liên tục trước khi dùng trên trần.",
+        "description_en": "Lay a test trace beneath a board and turn it slowly to check continuity before overhead use.",
+        "group_vi": "Dấu về của giọt",
+        "group_en": "The Drop’s Homeward Signs"
+      },
+      {
+        "name_vi": "Vệt báo cạn lục",
+        "name_en": "The Fading-Green Trace",
+        "description_vi": "Để một giọt chuẩn ở rãnh phụ để nó chậm và dừng trước tuyến chính khi sống lục yếu, tạo dấu nhắc phải tháo tải.",
+        "description_en": "Keep a reference drop in a side groove so it slows and stops before the main route as green fades, warning that loads must be removed.",
+        "group_vi": "Dấu về của giọt",
+        "group_en": "The Drop’s Homeward Signs"
+      },
+      {
+        "name_vi": "Thu tải trước",
+        "name_en": "Unload First",
+        "description_vi": "Dời vật khỏi mặt dầu rồi khép đầu nguồn để tuyến cuối chạy hết tới đích, tránh trả dốc đột ngột dưới tải.",
+        "description_en": "Remove objects before closing the source so remaining oil completes its path, avoiding an abrupt return of slope beneath loads.",
+        "group_vi": "Đưa lối về yên",
+        "group_en": "Bring the Road to Rest"
+      },
+      {
+        "name_vi": "Xóa đầu đích",
+        "name_en": "Erase the Destination",
+        "description_vi": "Lau khô bản đích sau khi dầu tới hết để sống lục thôi gọi nơi ấy, mở lượt giao mới; dầu còn giữa đường sẽ rơi về nền thật.",
+        "description_en": "Dry the destination plate after full arrival to release its summons for a fresh assignment; oil remaining mid-route falls back towards actual ground.",
+        "group_vi": "Đưa lối về yên",
+        "group_en": "Bring the Road to Rest"
+      },
+      {
+        "name_vi": "Nghỉ trên đá bằng",
+        "name_en": "Rest Upon Level Stone",
+        "description_vi": "Đặt ngọc ngang trên đá sạch, cho một giọt dầu nguồn đi tự do hết sống lục để màu hồi dần nếu lõi chưa bạc hết.",
+        "description_en": "Rest the gem level upon clean stone and let one source-oil drop freely traverse its spine so colour gradually returns if the core is not fully blanched.",
+        "group_vi": "Đưa lối về yên",
+        "group_en": "Bring the Road to Rest"
+      },
+      {
+        "name_vi": "Khép đường về",
+        "name_en": "Close the Homeward Road",
+        "description_vi": "Sau khi thu dầu, lau vệt từ nguồn tới đích theo thứ tự để từng đoạn ngừng nhớ, tránh một giọt lạc gọi cả tuyến khi cất.",
+        "description_en": "After recovery, wipe from source to destination in order so each section releases its memory and a stray drop cannot summon the whole route in storage.",
+        "group_vi": "Đưa lối về yên",
+        "group_en": "Bring the Road to Rest"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lối đi có đầu đích",
+        "name_en": "A Road With a Destination",
+        "description_vi": "Ngọc làm dầu nghe thứ tự hai đầu thay cho độ dốc. Vật đặt trên dầu chỉ được mang theo khi tiếp xúc đủ rộng và có đường giữ khỏi trượt ngang.",
+        "description_en": "The gem makes oil follow the order of its ends rather than slope. Objects ride only with enough contact and a path preventing sideways slip."
+      }
+    ]
+  }
+]

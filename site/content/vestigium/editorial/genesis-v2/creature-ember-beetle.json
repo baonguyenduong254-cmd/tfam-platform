@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-ember-beetle",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Một đàn bọ đen bị nhốt trong kiện than đã trộn bụi khoáng đỏ. Khi kho lạnh đóng kín, chúng gặm phần bụi bám ngoài than để sống. Qua mùa ấy, lớp vỏ mới vẫn lạnh dưới tay, còn bụng đỏ như một hòn than giấu trong tro. Những lứa trứng nuôi riêng tiếp tục mang ánh đỏ sau bữa khoáng đầu.\n\nNgười đốt lò tìm đàn trong nắm than cuối, giữ chúng thay vì nhóm lửa. Đêm ấy ông đặt hộp thuốc cạnh ổ. Tới sáng bông bọc lọ vẫn ấm, đàn bọ nằm im thành một vòng quanh chỗ chúng đã ăn sạch.",
+    "lore_en": "Black beetles were trapped inside a coal bale mixed with red mineral dust. Sealed in a cold store, they survived upon dust coating the coal. After that season their new shells remained cold to the hand while their bellies glowed like coals hidden in ash. Separately raised generations kept that glow after a first mineral meal.\n\nA stoker found them within his final handful of coal and kept them instead of lighting it. That night he set medicine beside their nest. By morning the bottle wrapping remained warm and the beetles lay still around the patch they had eaten clean.",
+    "use_vi": "Ủ một hộp nhỏ bằng ổ bọ đã ăn đúng khoáng quen.",
+    "use_en": "Warm a small box with a colony fed its familiar mineral.",
+    "limits_vi": "Đàn cần nghỉ hai ngày sau một đêm tỏa nhiệt. Quặng lạ gây chết; phải giữ hộp thoáng và có vách ngăn để bọ khỏi chạm thuốc.",
+    "limits_en": "The colony needs two days’ rest after a warming night. Unfamiliar ore kills it; ventilate its box and separate insects from medicine.",
+    "skills": [
+      {
+        "name_vi": "Ổ than sống",
+        "name_en": "The Living Coal Nest",
+        "description_vi": "Cho đàn ăn lượng bụi khoáng đã quen rồi đặt ổ sau vách hộp để bụng đỏ tỏa ấm suốt lượt đêm; ngừng dùng khi ánh bụng nhạt.",
+        "description_en": "Feed the colony its familiar mineral dust and set the nest behind a box divider for overnight warmth; end use when bellies pale."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lạnh vỏ đỏ lòng",
+        "name_en": "Cold Shell, Glowing Heart",
+        "description_vi": "Nhiệt truyền từ ổ cả khi vỏ từng con lạnh, khiến kiểm đàn cần nhìn bụng thay vì chỉ sờ vỏ.",
+        "description_en": "Warmth passes from the colony while individual shells remain cold, so carers inspect bellies rather than merely touch shells."
+      }
+    ]
+  }
+]

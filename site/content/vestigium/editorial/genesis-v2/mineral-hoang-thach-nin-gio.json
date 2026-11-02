@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-hoang-thach-nin-gio",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Hoàng thạch từng nằm ở vách một hang thổi suốt ngày đêm. Khi các thợ mở mạch vàng nhạt bên dưới, gió trong hang ngừng còn bụi trên áo họ vẫn bị kéo ngang. Họ tìm được lớp lỗ kim trên đá, mỗi lỗ chứa một chấm tối tự lùi sâu trước hơi thở người.\n\nMang ra khỏi hang, đá giữ sát mình một khoảng không khí chịu đứng yên, rồi trả thành một luồng nhỏ khi bị gõ. Những thợ đèn nhờ vậy có thể làm việc dưới một vách gió. Họ gọi nó là phần hang đã ngậm một cơn thổi vào trong, để mỗi viên luôn có một hơi riêng chờ được mở.",
+    "lore_en": "The yellow stone lined a cavern that blew day and night. Opening a pale-gold seam stopped the cavern wind while dust upon miners’ coats still pulled sideways. Needle-holes in the stone held dark points retreating before human breath.\n\nOutside, it retained a still air-layer and returned a small current when tapped. Lamp-workers sheltered work against draughts, calling it cavern-stone that had swallowed wind, each piece keeping a breath awaiting release.",
+    "use_vi": "Tạo một lớp khí yên sát dụng cụ hoặc nhả luồng khí đã nhận thành một hơi có hướng.",
+    "use_en": "Keep a still air-layer beside tools or discharge its received air in a directed breath.",
+    "limits_vi": "Khoảng yên đi theo phần lỗ còn mở, không tự bao cả người. Bịt lỗ bằng dầu hoặc nghiền nhỏ khiến hơi bị giữ thoát đồng loạt, có thể hất lửa sang vật sát bên.",
+    "limits_en": "The still layer follows open pores, not an entire person. Oil-clogging or crushing releases retained air together and may scatter nearby flame.",
+    "skills": [
+      {
+        "name_vi": "Mặt khí yên",
+        "name_en": "The Still Air-Face",
+        "description_vi": "Hướng mặt lỗ về ngọn đèn để giữ lớp khí sát đó thôi chao. Dụng cụ ra khỏi khoảng sát đá mất phần che ngay.",
+        "description_en": "Face the pores towards a lamp to still its immediate air. Tools leaving that vicinity lose protection."
+      },
+      {
+        "name_vi": "Hơi trả có hướng",
+        "name_en": "A Directed Returning Breath",
+        "description_vi": "Xoay mặt từng nhận gió về đường muốn thổi rồi gõ nhẹ; khí nhả thành một lượt. Lỗ bị bẩn có thể làm lượt nhả rẽ sai.",
+        "description_en": "Turn its wind-receiving face towards the desired outlet and tap for one discharge. Dirty pores may bend it astray."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lỗ biết lùi",
+        "name_en": "Retreating Pores",
+        "description_vi": "Chấm tối trong lỗ chạy ngược hướng hơi tới; soi quá gần khiến người nhìn nhầm chiều nguồn gió ngoài.",
+        "description_en": "Dark points retreat against incoming air, sometimes confusing close observers about outside wind-direction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "bonds": {
+    "edward_spencer": [
+      {
+        "id": "juliet_spencer",
+        "kind": "spouse"
+      }
+    ],
+    "juliet_spencer": [
+      {
+        "id": "edward_spencer",
+        "kind": "spouse"
+      }
+    ],
+    "marco_stones": [
+      {
+        "id": "millennia_stones",
+        "kind": "spouse"
+      }
+    ],
+    "millennia_stones": [
+      {
+        "id": "marco_stones",
+        "kind": "spouse"
+      }
+    ],
+    "evelyne_vesper": [
+      {
+        "id": "leonardo_razen",
+        "kind": "special"
+      }
+    ],
+    "leonardo_razen": [
+      {
+        "id": "evelyne_vesper",
+        "kind": "special"
+      },
+      {
+        "id": "lokoh",
+        "kind": "companion"
+      }
+    ],
+    "lokoh": [
+      {
+        "id": "leonardo_razen",
+        "kind": "companion"
+      }
+    ]
+  },
+  "items": {
+    "evelyne_vesper": [
+      {
+        "id": "device-cuatro-zodiacum",
+        "name_vi": "Cuatro. Thiên Đồ Thập Nhị Zodiacum",
+        "name_en": "Cuatro. Twelvefold Firmament Zodiacum",
+        "href": "/vestigium#vestigium/royal-guard/device-cuatro-zodiacum",
+        "image": "/vestigium/thumbs/device-cuatro-zodiacum.webp"
+      }
+    ],
+    "edward_spencer": [
+      {
+        "id": "armament-edward-academy-sabre",
+        "name_vi": "Sabre Học viện của Edward",
+        "name_en": "Edward’s Academy Sabre",
+        "href": "/vestigium#vestigium/royal-guard/armament-edward-academy-sabre",
+        "image": "/vestigium/thumbs/armament-edward-academy-sabre.webp"
+      }
+    ],
+    "liv": [
+      {
+        "id": "armament-gleipnir",
+        "name_vi": "Cincuenta y Dos. Tơ Khóa Liệp Ảnh Gleipnir",
+        "name_en": "Cincuenta y Dos. Shadow-Hunting Tethers Gleipnir",
+        "href": "/vestigium#vestigium/royal-guard/armament-gleipnir",
+        "image": "/vestigium/thumbs/armament-gleipnir.webp"
+      }
+    ],
+    "marco_stones": [
+      {
+        "id": "armament-marco-octava-forja",
+        "name_vi": "Ocho. Công Xưởng Thất Khối Octava Forja",
+        "name_en": "Ocho. Seven-Block Foundry Octava Forja",
+        "href": "/vestigium#vestigium/royal-guard/armament-marco-octava-forja",
+        "image": "/vestigium/thumbs/armament-marco-octava-forja.webp"
+      },
+      {
+        "id": "armament-marco-academy-sabre",
+        "name_vi": "Sabre Học viện của Marco",
+        "name_en": "Marco’s Academy Sabre",
+        "href": "/vestigium#vestigium/royal-guard/armament-marco-academy-sabre",
+        "image": "/vestigium/thumbs/armament-edward-academy-sabre.webp"
+      }
+    ],
+    "astrid": [
+      {
+        "id": "armament-northwall",
+        "name_vi": "Veintidós. Song Thuẫn Bắc Thành Northwall",
+        "name_en": "Veintidós. Northern Rampart Shields Northwall",
+        "href": "/vestigium#vestigium/royal-guard/armament-northwall",
+        "image": "/vestigium/thumbs/armament-northwall.webp"
+      }
+    ],
+    "romeo_harkon": [
+      {
+        "id": "armament-romeo-oathbreaker",
+        "name_vi": "Doce. Lôi Phủ Phá Thệ Oathbreaker",
+        "name_en": "Doce. Oathbreaking Thunderaxe Oathbreaker",
+        "href": "/vestigium#vestigium/royal-guard/armament-romeo-oathbreaker",
+        "image": "/vestigium/thumbs/armament-romeo-oathbreaker.webp"
+      },
+      {
+        "id": "armament-oathbearer",
+        "name_vi": "Doce. Thiết Thủ Thừa Lôi Oathbearer",
+        "name_en": "Doce. Thunder-Bearing Hand Oathbearer",
+        "href": "/vestigium#vestigium/royal-guard/armament-oathbearer",
+        "image": "/vestigium/thumbs/armament-oathbearer.webp"
+      },
+      {
+        "id": "armament-romeo-academy-sabre",
+        "name_vi": "Sabre Học viện của Romeo",
+        "name_en": "Romeo’s Academy Sabre",
+        "href": "/vestigium#vestigium/royal-guard/armament-romeo-academy-sabre",
+        "image": "/vestigium/thumbs/armament-edward-academy-sabre.webp"
+      }
+    ],
+    "freya": [
+      {
+        "id": "armament-skoll-hati",
+        "name_vi": "Cuarenta y Dos. Song Nha Truy Nguyệt Sköll và Hati",
+        "name_en": "Cuarenta y Dos. Moon-Chasing Fangs Sköll and Hati",
+        "href": "/vestigium#vestigium/royal-guard/armament-skoll-hati",
+        "image": "/vestigium/thumbs/armament-skoll-hati.webp"
+      }
+    ],
+    "victoria_valdes": [
+      {
+        "id": "armament-victoria-academy-sabre",
+        "name_vi": "Sabre Học viện của Victoria",
+        "name_en": "Victoria’s Academy Sabre",
+        "href": "/vestigium#vestigium/royal-guard/armament-victoria-academy-sabre",
+        "image": "/vestigium/thumbs/armament-victoria-academy-sabre.webp"
+      },
+      {
+        "id": "armament-siete-fidelis",
+        "name_vi": "Siete. Mã Tấu Sai Lệch",
+        "name_en": "Siete. Distorted Greatblade",
+        "href": "/vestigium#vestigium/royal-guard/armament-siete-fidelis",
+        "image": "/vestigium/thumbs/armament-siete-fidelis.webp"
+      },
+      {
+        "id": "armament-siete-victoria-fidelis",
+        "name_vi": "Siete. Kiếm Giải Phược Absolución",
+        "name_en": "Siete. Unbinding Thrusting Sword Absolución",
+        "href": "/vestigium#vestigium/royal-guard/armament-siete-victoria-fidelis",
+        "image": "/vestigium/thumbs/guard-v9-007.webp"
+      }
+    ],
+    "sigrid": [
+      {
+        "id": "armament-winterthorn",
+        "name_vi": "Treinta y Dos. Liễu Kiếm Đông Cức Winterthorn",
+        "name_en": "Treinta y Dos. Winterthorn Rapier Winterthorn",
+        "href": "/vestigium#vestigium/royal-guard/armament-winterthorn",
+        "image": "/vestigium/thumbs/armament-winterthorn.webp"
+      }
+    ],
+    "nahla_al_fassi": [
+      {
+        "id": "armament-cuarenta-cuatro-sarab",
+        "name_vi": "Cuarenta y Cuatro. Nguyệt Liềm Hư Bộ Sarāb",
+        "name_en": "Cuarenta y Cuatro. Phantom-Step Crescent Sarāb",
+        "href": "/vestigium#vestigium/royal-guard/armament-cuarenta-cuatro-sarab",
+        "image": "/vestigium/thumbs/armament-cuarenta-cuatro-sarab.webp"
+      }
+    ],
+    "samira_al_fassi": [
+      {
+        "id": "armament-cincuenta-cinco-qamar",
+        "name_vi": "Cincuenta y Cinco. Luân Nguyệt Du Hành Qamar",
+        "name_en": "Cincuenta y Cinco. Wandering Moonwheel Qamar",
+        "href": "/vestigium#vestigium/royal-guard/armament-cincuenta-cinco-qamar",
+        "image": "/vestigium/thumbs/armament-cincuenta-cinco-qamar.webp"
+      }
+    ],
+    "fredo": [
+      {
+        "id": "armament-tres-vinculum",
+        "name_vi": "Tres. Liên Kiếm Bách Phiến Vinculum",
+        "name_en": "Tres. Hundred-Plate Linkblade Vinculum",
+        "href": "/vestigium#vestigium/royal-guard/armament-tres-vinculum",
+        "image": "/vestigium/thumbs/armament-tres-vinculum.webp"
+      }
+    ],
+    "martinez": [
+      {
+        "id": "armament-veinticinco-gravitas",
+        "name_vi": "Veinticinco. Trọng Kiếm Ấn Lực Gravitas",
+        "name_en": "Veinticinco. Force-Sealing Greatsword Gravitas",
+        "href": "/vestigium#vestigium/royal-guard/armament-veinticinco-gravitas",
+        "image": "/vestigium/thumbs/armament-veinticinco-gravitas.webp"
+      }
+    ],
+    "england_ruins_representative": [
+      {
+        "id": "armament-guard-009-bastion",
+        "name_vi": "Nueve. Thiên Tiễn Heavenfall và Thiên Hống Heavenroar",
+        "name_en": "Nueve. Heavenfall and Heavenroar",
+        "href": "/vestigium#vestigium/royal-guard/armament-guard-009-bastion",
+        "image": "/vestigium/thumbs/guard-v9-009.webp"
+      }
+    ],
+    "testarossa_uno": [
+      {
+        "id": "complex-uno-speculum",
+        "name_vi": "Uno. Thế Giới Xích Gương Speculum",
+        "name_en": "Uno. World of Mirrored Chains Speculum",
+        "href": "/vestigium#vestigium/royal-guard/complex-uno-speculum",
+        "image": "/vestigium/thumbs/complex-uno-speculum.webp"
+      }
+    ],
+    "scarlet": [
+      {
+        "id": "complex-dos-sutura",
+        "name_vi": "Dos. Huyết Chỉ Sinh Mệnh Sutura",
+        "name_en": "Dos. Lifeblood Sutures Sutura",
+        "href": "/vestigium#vestigium/royal-guard/complex-dos-sutura",
+        "image": "/vestigium/thumbs/complex-dos-sutura.webp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-pale-copper-cricket",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Trứng nằm trong bó rơm bọc một bình khoáng đang rò. Con non nở ra mang cánh ánh đồng nhạt; mỗi khi hơi bình lan tới, tiếng cánh dựng cao như một sợi dây vừa bị siết. Các lứa nuôi tách bình vẫn giữ phản ứng với cùng thứ hơi, khiến người giữ biết biến đổi đã ở trong cơ thể chúng.\n\nMột người trực nghe tiếng đổi lúc cửa kho đóng, kéo được bạn đang ngủ khỏi góc có bình nứt. Sau đó ông luôn mang một hộp nuôi dự phòng và kiểm bình bằng dụng cụ. Ông nhớ rất rõ rằng sinh vật nhỏ cũng có lúc lạnh quá để cất tiếng.",
+    "lore_en": "Eggs lay in straw wrapping a leaking mineral bottle. Hatchlings bore pale copper wings; whenever its vapour reached them, their sound rose like a tightened wire. Later broods raised away from the bottle retained their response to the same vapour, placing the change within their bodies.\n\nA watchman heard the shift behind a closed storeroom door and pulled a sleeping friend from beside a cracked bottle. Afterwards he always kept a spare rearing box and tested bottles with instruments too. He remembered that a small creature can be too cold to make a sound.",
+    "use_vi": "Báo sự xuất hiện của đúng loại hơi khoáng mà đàn đã nhận qua tiếng cánh.",
+    "use_en": "Warn of the specific mineral vapour accepted by the brood through wing sound.",
+    "limits_vi": "Khói bếp làm nhiễu, rét sâu làm câm. Phản ứng chỉ với loại hơi đã biết; kho vẫn cần kiểm tra thông khí và rò bằng cách riêng.",
+    "limits_en": "Kitchen smoke interferes and deep cold silences it. Its response covers the known vapour only; ventilation and leaks require independent checks.",
+    "skills": [
+      {
+        "name_vi": "Đổi giọng báo hơi",
+        "name_en": "The Vapour Warning Tone",
+        "description_vi": "Đặt hộp nuôi ấm thoáng ở vùng canh để tiếng cánh chuyển cao khi hơi khoáng quen tới; đối chiếu với hộp ở vùng sạch trước khi nhận dấu.",
+        "description_en": "Keep a warm ventilated box at the watch point so wings rise in pitch upon familiar vapour; compare with a clean-area box before accepting the warning."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cánh biết một mùi",
+        "name_en": "Wings Know One Scent",
+        "description_vi": "Tiếng nền khác nhau theo đàn, nên người canh cần nghe lúc sạch hơi trước mỗi ca.",
+        "description_en": "The baseline differs between broods, so a keeper must hear it in clean air before each watch."
+      }
+    ]
+  }
+]

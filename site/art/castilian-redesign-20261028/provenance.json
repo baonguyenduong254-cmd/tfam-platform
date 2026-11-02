@@ -1,0 +1,203 @@
+{
+  "tool": "Built-in Imagegen",
+  "references": "Three author-supplied style references, 28 October 2026. New original character illustrations.",
+  "characters": [
+    {
+      "id": "isabella_testarossa_de_aragon",
+      "name": "Isabella",
+      "brief": "Queen of Castilian; chestnut hair, amber eyes",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Queen of Castilian; chestnut hair, amber eyes",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-0cca718c-bd41-419d-a269-a113508d9f20.png",
+      "master_sha256": "6710b9b26462abe20d3d6b80c494e370647450591cb1483e1b8af0f6135cab3c",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "testarossa_uno",
+      "name": "Testarossa · Uno",
+      "brief": "Adult woman apparently 27, extraordinarily long vivid crimson-red hair, one red eye and one amber eye, same refined face as Queen Isabella. A living guardian, Royal Guard Uno. White fitted blouse, crimson necktie, black officer coat worn on shoulders with wine-red lining and gold filigree, fitted dark trousers, black high-heeled boots, black gloves, small golden lion pendant with I. A slim sheathed sabre. Standing elegantly with one gloved hand on hip, confident knowing smile.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman apparently 27, extraordinarily long vivid crimson-red hair, one red eye and one amber eye, same refined face as Queen Isabella. A living guardian, Royal Guard Uno. White fitted blouse, crimson necktie, black officer coat worn on shoulders with wine-red lining and gold filigree, fitted dark trousers, black high-heeled boots, black gloves, small golden lion pendant with I. A slim sheathed sabre. Standing elegantly with one gloved hand on hip, confident knowing smile.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-f5f2d4ca-69d5-44fa-b27a-1df22a6d1492.png",
+      "master_sha256": "7ece8f97b07bb2cc2bc9002e43ac33b91ca33c42c312c9f992f873f58381a1ef",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "evelyne_vesper",
+      "name": "Evelyne Vesper · IV",
+      "brief": "Adult woman, very long slightly untidy black hair, fine round eyeglasses, silver-gray eyes with thin amber iris ring, intelligent reserved gaze. Castilian Royal Guard IV and scholarly investigator. Silver KEY pendant clearly separate from tiny gold lion pendant. Tailored gray-white officer coat over fitted black high-neck lace blouse, ink-black long skirt with modest side slit over patterned stockings and dark boots, gold star hair ornament. Holds a small notebook and pencil, poised seated on plain low stool, full body. Refined academic elegance.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman, very long slightly untidy black hair, fine round eyeglasses, silver-gray eyes with thin amber iris ring, intelligent reserved gaze. Castilian Royal Guard IV and scholarly investigator. Silver KEY pendant clearly separate from tiny gold lion pendant. Tailored gray-white officer coat over fitted black high-neck lace blouse, ink-black long skirt with modest side slit over patterned stockings and dark boots, gold star hair ornament. Holds a small notebook and pencil, poised seated on plain low stool, full body. Refined academic elegance.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-9868f717-dcd0-4b6f-aa95-a77359a6e0fd.png",
+      "master_sha256": "1e56d6e2019efbe1a729986c8d077d9833adfeb6e524d192ab56d1b107efef51",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "id": "sigrid",
+      "name": "Sigrid · XXXII",
+      "brief": "21-year-old adult female fencer, flowing SILVER-WHITE hair and violet eyes as the author's new approved visual direction, hair half braided with black ribbon and delicate gold ornament. Castilian Royal Guard XXXII. White fitted tunic, silver shoulder armor with ornate gold edging, dark leggings and elegant black armored boots, charcoal cape with gold embroidery. A very slender rapier Winterthorn held downward, only one sword. Calm observant expression, relaxed standing pose. Beautiful adult knight, restrained tasteful fashion sensuality.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: 21-year-old adult female fencer, flowing SILVER-WHITE hair and violet eyes as the author's new approved visual direction, hair half braided with black ribbon and delicate gold ornament. Castilian Royal Guard XXXII. White fitted tunic, silver shoulder armor with ornate gold edging, dark leggings and elegant black armored boots, charcoal cape with gold embroidery. A very slender rapier Winterthorn held downward, only one sword. Calm observant expression, relaxed standing pose. Beautiful adult knight, restrained tasteful fashion sensuality.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-c7d3317b-57b5-4ff6-ab72-f236a64e1d7e.png",
+      "master_sha256": "ed8707b1ab42f5dd705ce717c7602993cad5b3ade602d902af6266e074004309",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "victoria_valdes",
+      "name": "Victoria Valdes · Siete",
+      "brief": "Adult woman around 29, golden blonde hair in loose low bun, capable warm face, discerning blue eyes. Governor of Marrakesh and Royal Guard VII in later canon. Pale gray fitted administrative officer coat with gold trim, warm cream silk blouse, burgundy waistcoat, black trousers and polished riding boots, small lion pendant. Ledger under one arm, red pencil in other hand. Comfortable seated with legs crossed on plain stool, confident civil administrator rather than fighter.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman around 29, golden blonde hair in loose low bun, capable warm face, discerning blue eyes. Governor of Marrakesh and Royal Guard VII in later canon. Pale gray fitted administrative officer coat with gold trim, warm cream silk blouse, burgundy waistcoat, black trousers and polished riding boots, small lion pendant. Ledger under one arm, red pencil in other hand. Comfortable seated with legs crossed on plain stool, confident civil administrator rather than fighter.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-9c899a1f-486d-4718-9475-1674e6a0c26b.png",
+      "master_sha256": "20410223c785fa01b978fc1150b97c60616cd494e2961cb630dccc7a3a4bbb75",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "id": "marco_stones",
+      "name": "Marco Stones · Ocho",
+      "brief": "Adult man around 29, broad strong build, dark short brown hair, composed steady eyes, slight stubble, mature handsome square jaw. Former English colonel and commander of Second Legion, Castilian Royal Guard VIII. Pearl-gray long military coat, burgundy collar, fitted black waistcoat, cream shirt, dark trousers tucked into practical black boots, gold lion pendant. Restrained silver shoulder plates. Arms folded, sheathed sabre at hip, grounded full-length standing pose. Attractive masculine adult, fine tailoring and broad shoulders, no excessive armor.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult man around 29, broad strong build, dark short brown hair, composed steady eyes, slight stubble, mature handsome square jaw. Former English colonel and commander of Second Legion, Castilian Royal Guard VIII. Pearl-gray long military coat, burgundy collar, fitted black waistcoat, cream shirt, dark trousers tucked into practical black boots, gold lion pendant. Restrained silver shoulder plates. Arms folded, sheathed sabre at hip, grounded full-length standing pose. Attractive masculine adult, fine tailoring and broad shoulders, no excessive armor.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-66d453c2-e5f4-48ef-bacc-833fd04e9c7c.png",
+      "master_sha256": "986fe59caf980fd59d107762c842e4e6a4f5eec3249004ebd1196fcb7de81de5",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "romeo_harkon",
+      "name": "Romeo Harkon · Doce",
+      "brief": "Adult man around 29, PLATINUM-BLOND longish hair, visible old scar along chin, mischievous lively grin, tall lean athletic build. Castilian Royal Guard XII. Open gray officer coat over burgundy waistcoat and ivory shirt, black gloves, belted dark trousers, riding boots, little gold lion pendant. Heavy single-bladed battle axe resting on ground beside him, hand on axe haft, other hand on hip. Relaxed confident handsome soldier. Subtly open collar, broad chest, fully clothed.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult man around 29, PLATINUM-BLOND longish hair, visible old scar along chin, mischievous lively grin, tall lean athletic build. Castilian Royal Guard XII. Open gray officer coat over burgundy waistcoat and ivory shirt, black gloves, belted dark trousers, riding boots, little gold lion pendant. Heavy single-bladed battle axe resting on ground beside him, hand on axe haft, other hand on hip. Relaxed confident handsome soldier. Subtly open collar, broad chest, fully clothed.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-bd58fb72-821d-4b43-a965-9e6a444a051b.png",
+      "master_sha256": "bff3f831fcc137539cec08d0d02192d7a3f488698b9973174c659e13f763fdb6",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "id": "fredo",
+      "name": "Fredo · Tres",
+      "brief": "Adult man late twenties, slicked-back golden blond hair, sharp clean-shaven face, observant gray-blue eyes, confident subtle smirk. Castilian Royal Guard III and royal aide. Very well-tailored pearl-gray officer coat with discreet crimson piping, black waistcoat, white shirt, fitted dark trousers, gloves, tall boots, lion pendant. Pistol holstered, one hand holding folded orders, other behind back. Elegant straight military posture, refined handsome adult fashion illustration.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult man late twenties, slicked-back golden blond hair, sharp clean-shaven face, observant gray-blue eyes, confident subtle smirk. Castilian Royal Guard III and royal aide. Very well-tailored pearl-gray officer coat with discreet crimson piping, black waistcoat, white shirt, fitted dark trousers, gloves, tall boots, lion pendant. Pistol holstered, one hand holding folded orders, other behind back. Elegant straight military posture, refined handsome adult fashion illustration.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-9ac90e3c-6757-4277-a7c1-eff8820f94f0.png",
+      "master_sha256": "45010a186d5d7bc1dea1834602474c0884c006f311a574f826ece2ce519e2766",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "scarlet",
+      "name": "Scarlet · Dos",
+      "brief": "Clearly ADULT woman early twenties, slightly tousled short-to-medium red hair, pale skin, cool ash-gray eyes, serious youthful adult face. Castilian Royal Guard II. Full human form, no horror or exposed injuries. Fitted pearl-gray high-collared officer jacket with black trim, black gloves, dark fitted trousers, thigh-high black cavalry boots, burgundy short cape, gold lion pendant. Fine spool of silvery thread wrapped around gloved fingers, subtle skill motif without surreal extra limbs. Standing turned three-quarter, emotionally restrained.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Clearly ADULT woman early twenties, slightly tousled short-to-medium red hair, pale skin, cool ash-gray eyes, serious youthful adult face. Castilian Royal Guard II. Full human form, no horror or exposed injuries. Fitted pearl-gray high-collared officer jacket with black trim, black gloves, dark fitted trousers, thigh-high black cavalry boots, burgundy short cape, gold lion pendant. Fine spool of silvery thread wrapped around gloved fingers, subtle skill motif without surreal extra limbs. Standing turned three-quarter, emotionally restrained.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-7ff5be07-d4ac-4273-8cb3-bdb69d08de0c.png",
+      "master_sha256": "c8e9272cac8aaaa5972b4cc1cf572c5facebff89d5cd978d413b47367356f53a",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "cassandra",
+      "name": "Cassandra · Diez",
+      "brief": "Adult woman late twenties, deep BLUE hair tied in a low ponytail, alert decisive eyes, confident officer demeanor. Colonel and Castilian Royal Guard X. Pearl-gray tailored military coat with burgundy sash and golden shoulder braid, fitted black trousers, tall heeled riding boots, gloves, small gold lion pendant. One hand on sabre hilt with blade sheathed, other on folded field map. Strong elegant standing pose, sculpted adult anatomy.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman late twenties, deep BLUE hair tied in a low ponytail, alert decisive eyes, confident officer demeanor. Colonel and Castilian Royal Guard X. Pearl-gray tailored military coat with burgundy sash and golden shoulder braid, fitted black trousers, tall heeled riding boots, gloves, small gold lion pendant. One hand on sabre hilt with blade sheathed, other on folded field map. Strong elegant standing pose, sculpted adult anatomy.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-e660f73d-b610-411d-b631-6afc5cf79199.png",
+      "master_sha256": "792301d9950abc4d31d29f470edbfc1d1d9f0504440192323b212c8b868de5fe",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "martinez",
+      "name": "Martinez · XXV",
+      "brief": "Adult woman late twenties, short dark brown hair, warm olive skin, determined practical gaze, athletic build. Castilian Royal Guard XXV, expert in battlefield survival. Fitted gray-white officer coat with deep burgundy lining, black leather gloves, dark trousers, sturdy boots, small gold lion pendant. One hand holding closed field notebook, other resting on sabre sheath. Calm resilient full-body standing pose. Original attractive mature anime woman; no invented supernatural motif.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman late twenties, short dark brown hair, warm olive skin, determined practical gaze, athletic build. Castilian Royal Guard XXV, expert in battlefield survival. Fitted gray-white officer coat with deep burgundy lining, black leather gloves, dark trousers, sturdy boots, small gold lion pendant. One hand holding closed field notebook, other resting on sabre sheath. Calm resilient full-body standing pose. Original attractive mature anime woman; no invented supernatural motif.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-f32e10d4-2858-40c4-bd21-26d34d594415.png",
+      "master_sha256": "a1d0e0ef5bb6a936fe7f9505edee862b92f70e24741bcdef1489b7e1ca259f05",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "franco",
+      "name": "Franco",
+      "brief": "Mature adult man in his fifties, short iron-gray hair, neatly trimmed gray beard, composed tired but kind eyes, senior command presence. Castilian senior army staff officer overseeing military reorganization. Pearl-gray long officer coat with burgundy inner lining and restrained silver braid, dark waistcoat, cream shirt, trousers and black boots. Holds a sealed folder, spectacles in his other hand, dignified full-body standing pose. Handsome age lines, no royal crown or invented Guard number.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Mature adult man in his fifties, short iron-gray hair, neatly trimmed gray beard, composed tired but kind eyes, senior command presence. Castilian senior army staff officer overseeing military reorganization. Pearl-gray long officer coat with burgundy inner lining and restrained silver braid, dark waistcoat, cream shirt, trousers and black boots. Holds a sealed folder, spectacles in his other hand, dignified full-body standing pose. Handsome age lines, no royal crown or invented Guard number.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-50e43a67-a409-45ef-bb73-30a1a3528bf2.png",
+      "master_sha256": "b7a4e6fe3c0325c8e18f873a803e8aa37f3d659a4a4e45ac3e9b2328e795fbc0",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "jose",
+      "name": "Don José",
+      "brief": "Older adult man in his late fifties or sixties, weathered Mediterranean face, gray hair, short gray mustache and beard, heavy brow and tired discerning eyes. Castilian admiral and Lisbon naval commander. Long dark navy naval coat with gold braid, burgundy waistcoat, white cravat, dark trousers and naval boots. One hand rests on closed ship log, other holds officer's hat at his side. Full-body dignified standing pose; visibly older than young officers, realistic mature proportions.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Older adult man in his late fifties or sixties, weathered Mediterranean face, gray hair, short gray mustache and beard, heavy brow and tired discerning eyes. Castilian admiral and Lisbon naval commander. Long dark navy naval coat with gold braid, burgundy waistcoat, white cravat, dark trousers and naval boots. One hand rests on closed ship log, other holds officer's hat at his side. Full-body dignified standing pose; visibly older than young officers, realistic mature proportions.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-38f02543-2750-4d9b-ab34-425c01ef7804.png",
+      "master_sha256": "26d6a1c6dd792da4067295fb0a3587bf695480af52b0c1973c0a6131d425ee04",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "edward_spencer",
+      "name": "Edward Spencer",
+      "brief": "Adult man around 29, short dark brown hair, handsome strong weathered clean-shaven face, calm blue-gray eyes, athletic broad shoulders. English exile serving as Castilian admiral. Dark navy high-collared admiral coat with gold braid and ivory shirt, fitted dark trousers, black polished boots. Sheathed naval sabre at hip; gloved hand holds bicorne, other near belt. Full-length commanding standing pose. Subtle open collar, attractive masculine adulthood, no crown, not generic middle-aged sea captain.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult man around 29, short dark brown hair, handsome strong weathered clean-shaven face, calm blue-gray eyes, athletic broad shoulders. English exile serving as Castilian admiral. Dark navy high-collared admiral coat with gold braid and ivory shirt, fitted dark trousers, black polished boots. Sheathed naval sabre at hip; gloved hand holds bicorne, other near belt. Full-length commanding standing pose. Subtle open collar, attractive masculine adulthood, no crown, not generic middle-aged sea captain.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-077bb28c-dd66-46a8-9caf-1083bf6bc522.png",
+      "master_sha256": "c5651e922377066cd9a19cc683f0638f1d0cc62bee23b1a5f74588ac30a049f2",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "timothy_beaumont",
+      "name": "Timothy Beaumont",
+      "brief": "Clearly adult male naval officer in his early twenties, youthful clean-shaven Anglo-French face, chestnut hair, bright focused gray eyes, lean build. Talented gunnery officer serving Castilian navy. Dark navy tailored naval coat with fine brass buttons, cream shirt with high collar, burgundy neckcloth, fitted trousers and black boots. Small worn leather gunnery notebook in one hand, pencil in other, friendly determined expression. Full-body casual upright pose, original handsome anime adult.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Clearly adult male naval officer in his early twenties, youthful clean-shaven Anglo-French face, chestnut hair, bright focused gray eyes, lean build. Talented gunnery officer serving Castilian navy. Dark navy tailored naval coat with fine brass buttons, cream shirt with high collar, burgundy neckcloth, fitted trousers and black boots. Small worn leather gunnery notebook in one hand, pencil in other, friendly determined expression. Full-body casual upright pose, original handsome anime adult.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-1663f28c-1c6a-442e-b2b0-1a6694585dd8.png",
+      "master_sha256": "d6b176cb1c8e958db00a29b3638cf5d523983006d0dc3fd5e043729d0491a220",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "raine",
+      "name": "Rainé · Cinco",
+      "brief": "Adult woman late twenties, RED-BROWN bob cut to chin, thin scar across LEFT eyebrow, intense thoughtful eyes, Castilian Royal Guard V. Tailored pearl-gray military coat, black fitted trousers, burgundy short cape, black heeled boots, gold lion pendant. Five small optical lens discs shown only as restrained transparent glass equipment near hand, no huge magical rings. One hand holds one brass lens, other on hip. Battle-ready elegant full-length standing pose.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult woman late twenties, RED-BROWN bob cut to chin, thin scar across LEFT eyebrow, intense thoughtful eyes, Castilian Royal Guard V. Tailored pearl-gray military coat, black fitted trousers, burgundy short cape, black heeled boots, gold lion pendant. Five small optical lens discs shown only as restrained transparent glass equipment near hand, no huge magical rings. One hand holds one brass lens, other on hip. Battle-ready elegant full-length standing pose.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-1b3fb82e-6136-4cfd-bb2d-dea74469aa85.png",
+      "master_sha256": "bc54e97dc56810715ef6425ccbef41c102aa7fae57a62e9f34043f3a2a4ca075",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "astrid",
+      "name": "Astrid · XXII",
+      "brief": "Adult female Castilian royal guard, older sisterly athletic presence, dark ash-blonde braid, lively grin. Gray-white fitted military tunic and short cape with burgundy lining, black cavalry leggings, practical tall boots, small gold lion pendant. Two compact serrated steel shields Northwall strapped to forearms. Full-body planted balanced stance, substantial believable shields, beautifully detailed steel and leather. Tasteful adult anime design, no nudity.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult female Castilian royal guard, older sisterly athletic presence, dark ash-blonde braid, lively grin. Gray-white fitted military tunic and short cape with burgundy lining, black cavalry leggings, practical tall boots, small gold lion pendant. Two compact serrated steel shields Northwall strapped to forearms. Full-body planted balanced stance, substantial believable shields, beautifully detailed steel and leather. Tasteful adult anime design, no nudity.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-1af467ae-14ef-41bb-9cad-f5dd86da70c9.png",
+      "master_sha256": "6c1caae4a587ff8680df6ff74c1f43655ba124a62028259bee1b6dc8ed7222fc",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "freya",
+      "name": "Freya · XLII",
+      "brief": "Adult female Castilian royal guard, energetic bold expression, medium golden-blonde hair tied back. Gray-white fitted officer coat, burgundy vest, black trousers and tall boots, small gold lion pendant. Two flintlock pistols held safely with muzzles toward ground at her sides, no firing, no modern guns. Full-body relaxed asymmetrical stance. Elegant athletic mature anime character art, restrained gold details.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Adult female Castilian royal guard, energetic bold expression, medium golden-blonde hair tied back. Gray-white fitted officer coat, burgundy vest, black trousers and tall boots, small gold lion pendant. Two flintlock pistols held safely with muzzles toward ground at her sides, no firing, no modern guns. Full-body relaxed asymmetrical stance. Elegant athletic mature anime character art, restrained gold details.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-da50a00f-6151-4c0b-8796-fbb04858e3c0.png",
+      "master_sha256": "c24a4977dc340c4bed8f9ee30d2615a614359937b4d165b4abbd892b6f39a82e",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "dame_elizabeth",
+      "name": "Dame Elizabeth",
+      "brief": "Mature adult woman in her fifties, dignified weathered Mediterranean naval officer, dark hair streaked with silver in low bun, penetrating eyes, strong authoritative expression. Veteran Castilian naval commander at Lisbon. Dark navy tailored naval coat with gold braid over cream blouse, burgundy waistcoat, dark long trousers and black heeled naval boots. One hand holds naval officer hat, the other a closed ship log. Full-length dignified standing pose. Attractive age lines, practical elegance, no royal crown.",
+      "prompt": "Use case: stylized-concept. Asset: ONE polished full-length character illustration for Through Frost and Myth website. Reference images are STYLE references only, not edit targets. Match their mature nearly realistic anime character art: refined thin linework, sculpted soft skin shading, ornate gold metalwork, exquisitely rendered silk wool leather and individual hair strands. Natural adult proportions, fashion editorial elegance and subtle tasteful fanservice only for explicitly adult subjects. Full body head to soles, comfortable margins, off-white plain background, light grounded shadow, elegant asymmetrical pose. No text, no watermark, no collage, no extra people, no franchise designs, no nudity. Character: Mature adult woman in her fifties, dignified weathered Mediterranean naval officer, dark hair streaked with silver in low bun, penetrating eyes, strong authoritative expression. Veteran Castilian naval commander at Lisbon. Dark navy tailored naval coat with gold braid over cream blouse, burgundy waistcoat, dark long trousers and black heeled naval boots. One hand holds naval officer hat, the other a closed ship log. Full-length dignified standing pose. Attractive age lines, practical elegance, no royal crown.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-299914bf-59a3-449e-8f73-1e9ca952938b.png",
+      "master_sha256": "c1dede8f010ae32a9421cdac6d5fb0052867a6dbcb62d8e2f88d4eba1f6bd21b",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "liv",
+      "name": "Liv Harkon",
+      "prompt": "Create a wholesome illustrated portrait of Liv Harkon, a fourteen-year-old girl scout in a snowy fantasy story. Head and shoulders only. Short ash-brown hair, thoughtful curious expression, gray wool hood and thick burgundy winter scarf wrapped high around her neck, plain gray winter coat. Gentle hand-drawn anime storybook illustration with beautiful fine lines and soft painterly colors. Pale ivory background. A quiet, resourceful young adventurer. No text or watermark.",
+      "source": "/workspace/scratch/7a12d44cba84/generated_images/exec-3a435c63-9735-456f-8481-b50aa1fda677.png",
+      "master_sha256": "4e9b89d0709f6c4ae36c5cc7a4b2337ce6030513d57b72cdc9182fe276c08f9b"
+    }
+  ]
+}

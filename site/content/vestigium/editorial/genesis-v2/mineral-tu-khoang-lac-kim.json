@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-tu-khoang-lac-kim",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Tử khoáng vốn nằm trong một vỉa sắt quanh hốc có những kim loại lỏng chạy ngược nhau. Thợ mang mẫu tới trạm đo thấy kim la bàn lặp cùng một nhịp lệch dù đá đã được đặt đứng yên. Lúc đưa vào hộp chì, đá phát một tiếng thấp; kim trong cả phòng cùng quay như nghe chung một tên.\n\nVỉa cũ bị bịt lại, mẫu vẫn giữ được các nhịp riêng. Thợ khí cụ dùng chúng nhận những khoảng hướng bị giấu, gửi nhịp và đánh lạc các kim đã nhận dấu. Họ đọc được việc quặng đang làm với kim, nhưng chẳng ai biết hướng mà nó đang gọi về có nằm trong cùng thế giới với phương bắc họ vẫn vẽ.",
+    "lore_en": "The purple ore surrounded a hollow of counter-running liquid metals. At a survey station its stationary sample made compasses repeat one deviation. Enclosing it in lead produced a low note; every needle turned as though hearing one name.\n\nEven after its seam was sealed, samples retained individual rhythms. Instrument-makers used them to detect concealed directions, send pulses and mislead marked needles. They could read its effects without knowing whether its called direction belonged to the same world as their mapped north.",
+    "use_vi": "Tạo và đọc một số quan hệ định hướng quanh các kim đã được mẫu nhận, dùng trong thử khí cụ hoặc truyền dấu.",
+    "use_en": "Create and read directional relations among accepted needles for instrument trials or signalling.",
+    "limits_vi": "Kim đang dẫn người thật đi cũng có thể bị gọi lạc. Hộp chì làm yếu nhịp chứ không chứng minh đã cắt hết liên hệ; đem mẫu đi phải báo người dùng la bàn quanh đó.",
+    "limits_en": "Working navigation can also be misled. Lead weakens rhythm without proving complete isolation; nearby navigators must be warned.",
+    "skills": [
+      {
+        "name_vi": "Làm kim lạc nhịp",
+        "name_en": "Set the Needle Astray",
+        "description_vi": "Đưa mặt quặng tới kim đã nhận để nó lệch theo nhịp. Kim không cùng dấu có thể vẫn bị nhiễu nhưng không đáp đúng lệnh.",
+        "description_en": "An accepted needle follows the ore’s rhythmic deviation. Unpaired needles may be disturbed without obeying."
+      },
+      {
+        "name_vi": "Gửi nhịp qua kim",
+        "name_en": "Send a Needle-Pulse",
+        "description_vi": "Chạm hai kim cùng mẫu rồi gõ một kim để nhịp hiện ở kim kia. Vật kim loại thêm vào giữa lượt có thể chia nhịp sang chỗ khác.",
+        "description_en": "Pair needles by contact, then tap one to pulse the other. Added metal may divert part of the signal."
+      },
+      {
+        "name_vi": "Nhận chỗ không đáp",
+        "name_en": "Find the Unanswering Place",
+        "description_vi": "Lần mẫu quanh một vùng để tìm nơi nhịp kim bị nuốt hoặc đổi. Nó chỉ vùng mất đáp, không tự gọi tên thứ đang nằm trong đó.",
+        "description_en": "Sweep a region to find where needle-rhythm vanishes or changes. It locates silence without identifying its cause."
+      },
+      {
+        "name_vi": "Giữ một hướng giả",
+        "name_en": "Keep a False Bearing",
+        "description_vi": "Cho một kim đã được xoay theo ý làm mẫu rồi quặng giữ hướng ấy cho nhóm kim ghép. Xóa mẫu gốc khiến các kim phải tự tìm đường về.",
+        "description_en": "Offer a deliberately turned reference-needle to fix paired needles upon its bearing. Removing that reference forces their own recovery."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Phương gọi chưa có tên",
+        "name_en": "An Unnamed Called Direction",
+        "description_vi": "Các mẫu chung vỉa có nhịp gần nhau, nhưng chỉ một lần chạm mới thiết lập đủ dấu để chủ động dùng cùng nhau.",
+        "description_en": "Kindred samples have similar rhythms, but deliberate pairing requires their contact."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-stitch-counter",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Thợ may dùng một hạt khoáng làm chặn cuộn chỉ. Bà thường đọc số mũi cho cô học trò mù theo tay, tới mười hai thì đổi chiều đếm. Sau một mùa, đầu cuộn chỉ sáng lên thành một cái đầu bé xíu, chớp theo số cả khi bà đã ngừng đọc.\n\nĐổi kim, đổi vải, kẻ đếm vẫn ngồi trên cuộn. Thợ may cố đếm sai để chọc nó; nút sáng tắt cho đến khi bà đọc lại đủ đường vừa khâu. Từ đó bà luôn cảm ơn trước khi cất cuộn chỉ, với vẻ nghiêm trang dành cho một người học nghề rất dễ tự ái.",
+    "lore_en": "A seamstress weighted a thread spool with a mineral bead. She counted stitches aloud for a blind apprentice following her hands, reversing after twelve. After a season, the spool end shone as a tiny head, flashing the count even after her voice stopped.\n\nNeedles and cloth changed; the counter remained upon the spool. The seamstress deliberately miscounted to tease it, and its light died until she correctly recounted the seam. Ever since, she thanks it before putting the spool away, with the gravity due a touchy apprentice.",
+    "use_vi": "Đếm những đoạn tối đa mười hai mũi khâu để người thợ theo trình tự.",
+    "use_en": "Count runs of up to twelve stitches for a worker following a sequence.",
+    "limits_vi": "Hai người cùng khâu qua cuộn làm lẫn số. Nó đếm lần kim đi chứ đường chỉ bền hay yếu cần được kiểm bằng tay; quá mười hai phải chốt lượt mới.",
+    "limits_en": "Two people sewing from the spool confuse the count. It counts needle passages; seam strength needs manual inspection. After twelve, a fresh run must be set.",
+    "skills": [
+      {
+        "name_vi": "Chớp theo mũi",
+        "name_en": "Flash With the Stitch",
+        "description_vi": "Chạm kim vào đầu cuộn trước mũi đầu rồi khâu một người để nút sáng chớp số sau mỗi mũi; đọc xác nhận khi hết đoạn để trả về đầu.",
+        "description_en": "Touch the needle to the spool before the first stitch and work alone so the light flashes its count after each passage; acknowledge the total to reset."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Người đếm cần được nghe",
+        "name_en": "The Counter Needs Acknowledgement",
+        "description_vi": "Nút sáng đứng yên khi người thợ dừng. Đọc lại đúng số hiện có làm nó nghiêng đầu rồi nhận lượt kế.",
+        "description_en": "The light waits when work stops. Reciting the correct current count makes it bow and accept the next run."
+      }
+    ]
+  }
+]

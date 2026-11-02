@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-huyet-ngoc-chot-mach",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Huyết Ngọc Chốt Mạch bắt đầu từ những hạt khoáng đỏ sống trong lòng một khe nước có thớ giống gân. Người giữ nguồn cắm máng để chia dòng, qua đêm thấy các hạt lớn lên thành đá, còn nước ở phía sau chúng đứng nguyên như có một cánh cửa chìm. Ông xoay viên đầu tiên, dòng chảy nối lại đúng phần vừa bị cắt, mang theo giọt đỏ đã ở trong đá từ trước.\n\nNhững người pha thuốc đem mẫu tới xưởng, cho nhiều thứ dịch lần lượt đi qua rãnh rồi ghi cách ngọc nhận, giữ, nhớ và trả chúng. Tới lượt máu của một người tự cho, rãnh tự đổi hình theo một mạng mạch không nhìn thấy. Từ đó tám phép chốt được dùng ở trạm cứu và các máy nước, cùng mang một câu hỏi: viên đá đang giữ chất lỏng, hay đang thuyết phục một dòng rằng nó vẫn còn thuộc về nơi chưa chịu buông mình?",
+    "lore_en": "Bloodvein Gate-Jade began as red grains within a water-cleft ribbed like tendon. A spring-keeper installed a dividing channel; overnight the grains became stone and held water behind an invisible gate. Turning the first gem restored the interrupted flow with a red drop already within its core.\n\nApothecaries tried different liquids, recording acceptance, holding, memory and return. Blood willingly offered by one person reshaped its groove to an unseen vessel-network. Eight gating practices thereafter served rescue-stations and waterworks. Did it hold liquid, or persuade a current it still belonged where it had not yet been released?",
+    "use_vi": "Nhận một dòng qua rãnh rồi điều tiết, đọc dấu hoặc đưa phần còn cùng nguồn về chỗ được chỉ. Các ứng dụng trên sinh thể cần người đó tự nhận dấu khi còn có thể.",
+    "use_en": "Accept a flow through its groove to regulate, read or return related fluid. Living applications require that person’s willing mark while possible.",
+    "limits_vi": "Rãnh bẩn có thể giữ thứ không muốn cùng dòng. Chốt không tự chữa nơi rách; thả dòng quá sớm trả mọi phần đã dồn. Dấu của hai sinh thể không được coi như một chỉ vì dịch trông giống nhau.",
+    "limits_en": "Dirty grooves may retain unwanted contents. Gating does not heal a wound; early release returns accumulation. Similar-looking fluids from two beings do not share identity.",
+    "skills": [
+      {
+        "name_vi": "Chốt rãnh",
+        "name_en": "Gate the Groove",
+        "description_vi": "Xoay mặt đỏ theo dấu dòng để chất lỏng dừng ở rãnh nhận. Dòng tới thêm vẫn cần chỗ đợi, có thể tràn ở phía trước.",
+        "description_en": "Turn the red face by its current-sign to halt flow in the groove. Arriving fluid still needs space upstream."
+      },
+      {
+        "name_vi": "Mở phần đã chọn",
+        "name_en": "Release the Chosen Share",
+        "description_vi": "Đếm một phần qua rãnh rồi gọi lại đúng dấu để chỉ phần ấy được đi. Đếm lẫn nhiều nguồn làm phần chọn mang tạp theo.",
+        "description_en": "Count a portion through the groove and recall its sign to release that portion. Mixed sources contaminate the selection."
+      },
+      {
+        "name_vi": "Chia hai lòng nước",
+        "name_en": "Divide the Current",
+        "description_vi": "Khắc hai nhánh nhận ngoài đá cho một dòng chia theo hai dấu. Xóa một nhánh dồn phần còn lại sang nhánh kia.",
+        "description_en": "Provide two receiving paths for division. Erasing one sends its remainder into the other."
+      },
+      {
+        "name_vi": "Giữ dấu dịch",
+        "name_en": "Keep the Fluid’s Mark",
+        "description_vi": "Cho một giọt qua ngọc để vạch đỏ giữ dấu so với mẫu sau. Dấu chỉ nói quan hệ với mẫu đầu, không tự đặt tên chất.",
+        "description_en": "Offer a drop for comparison with a later sample. It reveals relation, not the substance’s name."
+      },
+      {
+        "name_vi": "Gọi giọt cùng nguồn",
+        "name_en": "Recall a Kindred Drop",
+        "description_vi": "Một giọt còn mang dấu có thể được dẫn về miệng nhận bằng nét ướt. Dòng đã hòa đổi dấu có thể chỉ trả một phần.",
+        "description_en": "Guide a still-marked drop along a wet trace. A changed mixture may return only partly."
+      },
+      {
+        "name_vi": "Khóa chỗ máu đang rời",
+        "name_en": "Gate the Departing Blood",
+        "description_vi": "Người tự nhận ngọc đặt cạnh vết rách để dòng được giữ trước miệng ngoài. Chỗ tổn thương vẫn cần được khép, và dấu không nhận máu của người khác.",
+        "description_en": "A willing bearer gates blood at an open injury. The wound still needs closure; another person’s blood is not accepted."
+      },
+      {
+        "name_vi": "Nối hai miệng máng",
+        "name_en": "Join the Channels’ Mouths",
+        "description_vi": "Hai đầu máng nhận cùng dòng được ngọc làm một khoảng liên tục qua khe ngắn. Gãy một đầu làm phần nối trả xuống khoảng trống.",
+        "description_en": "Pair channel-ends bearing one current across a short gap. A broken end spills the joined share into it."
+      },
+      {
+        "name_vi": "Xả dấu trước đổi dòng",
+        "name_en": "Clear Before Changing",
+        "description_vi": "Mở rãnh về vật nhận bỏ để đẩy phần dấu cũ ra trước lượt mới. Vật bỏ lại giữ dấu, nên không dùng lại tùy tiện.",
+        "description_en": "Discharge old identity into a discard-receiver before recharging. That receiver retains the sign and should not be reused casually."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dòng còn nhận nguồn",
+        "name_en": "A Current Owning its Source",
+        "description_vi": "Vạch đỏ đổi theo chính dòng đã nạp; ký ức cũ có thể trồi lại khi cùng nguồn trở về sau thời gian dài.",
+        "description_en": "Red lines follow the charged current; old memory may return when its source returns."
+      }
+    ]
+  }
+]

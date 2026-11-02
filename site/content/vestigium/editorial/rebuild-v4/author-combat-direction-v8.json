@@ -1,0 +1,51 @@
+{
+  "status": "author-directions-recorded-implementation-pending",
+  "priority": "Combat premise, names and silhouettes before further lore polishing and art production.",
+  "approved_author_facts": [
+    {
+      "concept": "sound-disc",
+      "form_vi": "Đĩa",
+      "functions_vi": [
+        "Phá âm thanh",
+        "Thu âm thanh",
+        "Phóng sonic boom"
+      ],
+      "number": null
+    },
+    {
+      "concept": "mountain-breaking-gauntlet",
+      "form_vi": "Găng tay",
+      "functions_vi": [
+        "Phá núi"
+      ],
+      "number": null
+    },
+    {
+      "concept": "guard-nine",
+      "number": 9,
+      "replaces": "Bastion, previous collection invention",
+      "components": [
+        {
+          "name": "Heavenfall",
+          "form_vi": "Bộ găng",
+          "functions_vi": [
+            "Chín thanh thiên tiễn từ trên trời giáng xuống theo hiệu lệnh người dùng"
+          ]
+        },
+        {
+          "name": "Heavenroar",
+          "form_vi": "Súng trường đá lửa ba nòng",
+          "functions_vi": [
+            "Tự hồi đạn sau chín giây"
+          ]
+        }
+      ]
+    }
+  ],
+  "unestablished_details": [
+    "Numbers and final names for sound disc and mountain-breaking gauntlet",
+    "Precise target range, duration, ammunition reset scope, costs and origin histories",
+    "Any additional powers beyond author examples"
+  ],
+  "design_direction_vi": "Hình dáng rõ, hiệu ứng chiến đấu cụ thể và ấn tượng; cơ chế trung tâm có nhiều cách dùng. Giới hạn tạo đối sách thực trong trận. Tránh khóa vào cứu hộ, sự đồng ý của địch hoặc công việc dân sinh."
+}

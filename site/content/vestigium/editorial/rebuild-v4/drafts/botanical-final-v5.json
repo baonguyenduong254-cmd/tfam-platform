@@ -1,0 +1,1884 @@
+[
+  {
+    "id": "botanical-dewkeeping-moss",
+    "epigraph_vi": "*“Sương cũng biết đợi một bàn tay.”*",
+    "epigraph_en": "*“Even dew can await a hand.”*",
+    "lore_vi": "Rêu mọc trên thành giếng đã uống nước rỉ qua một mảnh khoáng lam suốt nhiều mùa. Khi giếng cạn, người hái kéo nó lên và thấy từng giọt vẫn treo dưới lá, rung theo bước chân mà chẳng chịu rơi. Trong rễ, những hạt lam đã lớn thành các nút nhỏ giống mắt lưới.\n\nMảnh khoáng mất dấu sau khi thành giếng sập; những đệm rêu đem trồng nơi khác tiếp tục giữ nước trái hướng rơi. Người hái đầu tiên mang cả mảnh vách về đặt cạnh giường mẹ. Tới sáng, bà đã có một chén nước để uống, còn sương bám dưới lá vẫn đợi bàn tay tới đón.",
+    "lore_en": "Moss upon a well wall had drunk seepage through a blue mineral fragment for many seasons. When the well dried, a gatherer lifted it and found drops hanging beneath the leaves, trembling with each footstep yet refusing to fall. Within its roots, blue grains had grown into little mesh-like knots.\n\nThe mineral vanished when the shaft collapsed; transplanted pads continued holding water against its falling direction. The first gatherer carried a piece of wall home beside his mother’s bed. By morning she had a cup to drink, while dew beneath the leaves still awaited a receiving hand.",
+    "traits": [
+      {
+        "name_vi": "Mắt lưới lam",
+        "name_en": "Blue Mesh",
+        "description_vi": "Các nút khoáng trong rễ nối thành mắt lưới; dưới tán, giọt nước tròn vẫn treo khi đệm bị lật.",
+        "description_en": "Mineral knots in the roots form a mesh; round drops hang beneath the canopy even when the pad is inverted."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hứng sương",
+        "name_en": "Gather Dew",
+        "description_vi": "Úp đệm còn sống trên bình để tán kéo sương gần vào lá, rồi vuốt nhẹ cho nước rơi xuống vật hứng.",
+        "description_en": "Invert a living pad over a vessel to draw nearby dew into its leaves, then stroke gently to release the water."
+      }
+    ],
+    "limits_vi": "Mỗi đệm cỡ bàn tay giữ được khoảng một chén trước khi tràn. Muối làm các nút lam co chết; nước hứng vẫn cần lọc theo nguồn.",
+    "limits_en": "A hand-sized pad holds roughly a cup before overflowing. Salt kills the blue knots; collected water still needs treatment appropriate to its source.",
+    "use_vi": "Gom sương và giữ nước dưới tán rêu để thu từng chén trong hầm hoặc vách giếng.",
+    "use_en": "Gather dew and retain water beneath the moss canopy for collection by the cup in tunnels or wells.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-warmneedle-grass",
+    "epigraph_vi": "*“Một bó cỏ mang bếp qua đêm.”*",
+    "epigraph_en": "*“A bundle of grass carries the hearth through the night.”*",
+    "lore_vi": "Một bụi cỏ chui qua khe quặng đỏ bên lò than. Mỗi đêm thợ tắt lửa, những đầu lá trắng vẫn ấm trong tuyết. Quặng sau đó được đem đi luyện, còn cỏ mọc lại với những vòng đồng sáng chạy từ gốc tới ngọn. Thứ nó nhận từ đá đã vào cả chồi non.\n\nNgười chăn dê lấy cỏ lót túi hạt giống, rồi nhận ra bó còn rễ giữ được hơi ấm của một viên sỏi nóng tới sáng. Trong những túp lều xa đường củi, người ta nâng bó cỏ khỏi bếp bằng cả hai tay như nâng một con chim đang ngủ.",
+    "lore_en": "A tuft of grass pushed through red ore beside a charcoal furnace. Each night after the fire died, its white tips remained warm in snow. The ore was later smelted, yet the grass returned with shining copper rings running from root to tip. What it had taken from stone had entered its new shoots.\n\nA goatherd lined a seed pouch with it and discovered that a rooted bundle kept a hot pebble’s warmth until morning. In huts far from the wood road, people lift the grass from their hearths with both hands as though carrying a sleeping bird.",
+    "traits": [
+      {
+        "name_vi": "Vòng đồng",
+        "name_en": "Copper Rings",
+        "description_vi": "Vòng sáng chạy dọc lá kim; thứ tự chúng nhạt đi cho thấy phần nhiệt còn nằm trong bó.",
+        "description_en": "Luminous rings run along the needles; their fading sequence reveals the heat remaining in the bundle."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ủ kim",
+        "name_en": "Warm the Needles",
+        "description_vi": "Đặt bụi còn rễ cạnh đá nóng để các vòng nhận nhiệt, rồi bọc vải cho cỏ nhả ấm chậm vào túi hạt hoặc bàn tay.",
+        "description_en": "Set a rooted clump beside heated stone to charge its rings, then wrap it in cloth to release warmth slowly into seed bags or hands."
+      }
+    ],
+    "limits_vi": "Phải nạp bằng nhiệt sẵn có; bó càng khô càng giữ kém và dễ cháy. Cỏ rời gốc chỉ còn tác dụng trong lần ủ đầu.",
+    "limits_en": "It needs an existing heat source; drier bundles retain less and ignite easily. Rootless grass works only for its first warming.",
+    "use_vi": "Giữ hơi ấm cho túi hạt, găng tay hoặc hộp dụng cụ trong chặng đường ngắn.",
+    "use_en": "Retain warmth for seed pouches, gloves or toolboxes over a short journey.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-chalkveil-lichen",
+    "epigraph_vi": "*“Phấn trắng nhớ đường về lò.”*",
+    "epigraph_en": "*“White chalk remembers the way to the forge.”*",
+    "lore_vi": "Địa y phủ lên vỏ cây cạnh một lò rèn bị bỏ lại sau trận lở núi. Dưới rễ cây, bụi quặng đã bám thành lớp trắng trên thanh sắt còn nóng mỗi khi tuyết tan. Qua nhiều lần mọc lại, địa y sinh thứ phấn tự tách khỏi vỏ rồi đi ngược gió về phía sắt nung.\n\nNgười học việc tìm được mẫu nhờ vệt phấn trên cổ áo mình: nó kéo dài về chiếc đinh nóng đang chìm trong tuyết. Từ đó các xưởng treo mảnh địa y trong hộp kính, để lớp phấn mỏng chỉ về những ống dẫn mà bàn tay chưa dám chạm.",
+    "lore_en": "Lichen covered bark beside a forge abandoned after a mountain slide. Beneath the roots, ore dust had whitened an iron bar that still warmed whenever snow melted. Through repeated growth, the lichen developed chalk that detached from bark and travelled against the wind towards heated iron.\n\nAn apprentice found the specimen through a chalk streak on his collar: it stretched towards a hot nail buried in snow. Workshops now hang bark pieces in glass boxes, letting the fine powder point towards pipes that hands dare not touch.",
+    "traits": [
+      {
+        "name_vi": "Phấn nổi",
+        "name_en": "Floating Chalk",
+        "description_vi": "Phấn tự tách khỏi mặt địa y thành những hạt nhẹ; khi tụ lại, chúng dựng được một vệt giữa không khí đứng.",
+        "description_en": "Chalk sheds from the lichen in light grains which gather into a streak in still air."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dò sắt nóng",
+        "name_en": "Find Heated Iron",
+        "description_vi": "Đặt địa y trong hộp kính yên để vệt phấn nghiêng về kim loại nóng gần nhất, lần theo hướng ấy tới đường ống hoặc vật bị vùi.",
+        "description_en": "Set the lichen still inside glass to incline its chalk towards the nearest heated metal, then follow that direction to a pipe or buried object."
+      }
+    ],
+    "limits_vi": "Tầm nhận biết vài bước; phấn hết phải chờ địa y mọc lại. Bụi kích ứng mắt và đường thở nên cần hộp kính kín.",
+    "limits_en": "Its reach is a few paces; spent chalk requires regrowth. Dust irritates eyes and airways, requiring a sealed glass case.",
+    "use_vi": "Chỉ vị trí kim loại quá nóng sau vải che hoặc trong góc tối của xưởng.",
+    "use_en": "Indicate overheated metal behind cloth or in dark workshop recesses.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-knocking-pea",
+    "epigraph_vi": "*“Ba hạt canh một đêm sương.”*",
+    "epigraph_en": "*“Three peas keep watch over a dewy night.”*",
+    "lore_vi": "Một giàn đậu mọc trên hòm la bàn cũ chôn dưới luống rau. Kim la bàn đã rỉ, còn ba mảnh khoáng lam trong ổ kim ngấm vào rễ qua nước mưa. Vụ sau, mỗi quả chỉ có ba hạt, cùng quay phần nhọn về một phía như đang chờ lệnh.\n\nKhi sương xuống, chúng gõ vào vỏ. Người giữ vườn nghe tiếng trong túi hạt lúc đang khóa nhà kính, quay lại che những chồi non trước đêm rét. Các hạt sinh sau vẫn giữ thói quen ấy, khiến một quả đậu khô cũng đủ làm chiếc chuông nhỏ cho kho lương.",
+    "lore_en": "A pea vine grew over an old compass chest buried beneath a vegetable bed. Its needle had rusted, while three blue mineral chips from the pivot seeped into roots with rainwater. The next crop bore three peas to each pod, all pointing one way as though awaiting an order.\n\nWhen dew descended, they knocked against their shells. A gardener heard them in his seed pouch while locking the glasshouse and returned to cover young shoots before the freeze. Later generations retained the habit, making a dry pod a little bell for a granary.",
+    "traits": [
+      {
+        "name_vi": "Quả ba hạt",
+        "name_en": "Three-Pea Pod",
+        "description_vi": "Mỗi quả mang ba hạt quay chung phần nhọn; lòng vỏ khô vang như một hộp gỗ bé.",
+        "description_en": "Each pod carries three peas pointing the same way; its dry shell rings like a little wooden box."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gõ báo ẩm",
+        "name_en": "Knock for Damp",
+        "description_vi": "Treo quả tách khỏi vách để nghe hạt gõ nhanh dần khi ẩm tăng, báo lúc cần che luống hoặc đóng kho hạt.",
+        "description_en": "Suspend the pod clear of walls to hear its peas knock faster as damp rises, signalling when to cover beds or shut a seed store."
+      }
+    ],
+    "limits_vi": "Nhịp chỉ báo xu hướng, cần so với quả đã quen. Rung tàu che tiếng; vỏ bị nứt khiến hạt gõ loạn và mất dấu báo.",
+    "limits_en": "The beat indicates a trend and needs a familiar reference pod. Ship vibration masks it; a cracked shell produces disorderly knocks and loses the warning.",
+    "use_vi": "Báo không khí đang ẩm lên trong kho hạt và hộp thuốc súng.",
+    "use_en": "Warn of rising humidity in seed stores and powder cases.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-silverturn-leaf",
+    "epigraph_vi": "*“Lá quay về thứ ánh sáng nằm trong đá.”*",
+    "epigraph_en": "*“The leaves turn towards a light inside stone.”*",
+    "lore_vi": "Cây bụi mọc sát nơi người đào khoáng rửa tay. Bùn từ những viên đá dị thường ngấm qua đất, kết thành các đốm bạc dưới mặt lá. Sau một mùa, mặt nhạt của mọi lá non đều xoay về chiếc máng, dù ánh sáng chiếu từ phía ngược lại.\n\nNgười học trò giấu một mảnh khoáng trong nhẫn và bị cành lá vạch ra trước cả khi thầy lục túi. Cây được đem trồng trong chậu đất sạch; lá mới vẫn bạc. Dường như nó đã học một kiểu hướng sáng dành cho thứ mắt người chỉ thấy như đá bình thường.",
+    "lore_en": "A shrub grew beside the place where mineral diggers washed their hands. Mud from anomalous stones entered the soil and formed silver specks beneath its leaves. After one season, every young leaf turned its pale face towards the wash trough despite light coming from the opposite side.\n\nA pupil hid a mineral chip in a ring and was betrayed by a branch before his master searched a pocket. The shrub was transplanted into clean earth; new leaves remained silver. It seemed to have learnt a kind of light-seeking for something human eyes saw only as ordinary stone.",
+    "traits": [
+      {
+        "name_vi": "Mặt bạc non",
+        "name_en": "Young Silver Faces",
+        "description_vi": "Đốm bạc hiện từ mặt dưới lá non và lớn cùng phiến lá, giữ được trên các chồi sinh ở đất sạch.",
+        "description_en": "Silver spots emerge beneath young leaves and grow with them, persisting in shoots raised in clean soil."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Tìm ánh khoáng",
+        "name_en": "Seek Mineral Light",
+        "description_vi": "Đưa từng mẫu qua cành sống rồi xoay cây; mặt bạc tiếp tục hướng về mẫu có dấu dung hợp mà cây nhận ra.",
+        "description_en": "Pass specimens singly beside a living branch, then turn the plant; silver faces keep seeking a sample whose infusion the plant recognises."
+      }
+    ],
+    "limits_vi": "Tầm phản ứng khoảng một bàn tay, cành cắt chỉ giữ được một buổi. Nhiều mẫu làm lá quay lưỡng lự; một số Vestigium vẫn chưa từng gây phản ứng.",
+    "limits_en": "Its reach is roughly a handspan and a cut branch lasts half a day. Multiple specimens make leaves waver; some Vestigium have never elicited a response.",
+    "use_vi": "Hỗ trợ tìm mẫu nghi chứa Vestigium ở khoảng cách rất gần trên bàn phân loại.",
+    "use_en": "Help locate suspected Vestigium specimens at close range on a sorting bench.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-slowink-fungus",
+    "epigraph_vi": "*“Một nét còn sót đủ gọi cả giọt mực đi.”*",
+    "epigraph_en": "*“One surviving stroke can summon a whole drop of ink.”*",
+    "lore_vi": "Nấm mọc sau gáy một cuốn sổ nợ ướt. Mực trong sổ được nghiền bằng quặng đen mang từ mỏ bỏ hoang; khi giấy mục, sợi nấm bò qua nét chữ rồi kết thành những gân tím dưới mũ. Dịch nấm bắt đầu đi ngược độ dốc để tìm những nét mực còn giữ họ hàng với nó.\n\nNgười chép sách nhỏ một giọt lên trang gần trắng. Tên người chủ cũ từ từ đậm lên, theo sau là khoản nợ đã bị cạo khỏi giấy. Ông cắt một tai nấm đem nuôi; dịch từ lứa sau vẫn bò tìm chữ, còn những trang bị tưới quá tay chỉ còn một vũng đen giống lời khai bị bóp nghẹt.",
+    "lore_en": "Fungus grew behind the spine of a soaked debt ledger. Its ink had been ground from black ore carried out of an abandoned mine; as paper rotted, fungal threads followed the writing and formed violet veins beneath their caps. Their fluid began travelling uphill to find ink strokes that retained a kinship with it.\n\nA copyist placed a drop upon an almost white page. Its former owner’s name slowly darkened, followed by a debt scraped from the paper. He cultivated a fungal ear; later crops still sent fluid seeking words, while overwatered pages became black pools like smothered testimony.",
+    "traits": [
+      {
+        "name_vi": "Gân tím",
+        "name_en": "Violet Veins",
+        "description_vi": "Dưới mũ, gân tím đậm theo thứ mực đã nuôi sợi nấm; dịch sánh giữ sắc ấy khi rời tai.",
+        "description_en": "Veins beneath the cap darken with the ink feeding the mycelium; the thick fluid retains that colour after leaving the fruiting body."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lần nét",
+        "name_en": "Follow the Stroke",
+        "description_vi": "Chấm dịch lên nét mờ để nó bò theo phần sắc tố còn lại, làm chữ đậm lên; thấm phần dư khi nét vừa rõ.",
+        "description_en": "Dab fluid on a faded stroke so it crawls along surviving pigment and darkens the writing; blot excess once the stroke is clear."
+      }
+    ],
+    "limits_vi": "Dịch làm nhòe giấy mỏng và chỉ tìm phần mực còn dấu. Phải thử một góc; bản độc nhất cần người bảo quản quyết định trước khi chạm dịch.",
+    "limits_en": "The fluid blurs thin paper and follows only surviving ink traces. Test a corner; unique documents require a conservator’s decision before application.",
+    "use_vi": "Làm nổi nét mực cũ trên giấy để chép hoặc khảo sát dấu sửa chữa.",
+    "use_en": "Darken old ink strokes on paper for transcription or examination of alterations.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-stillwater-sedge",
+    "epigraph_vi": "*“Giữa chuyến biển, một lòng nước được nghỉ.”*",
+    "epigraph_en": "*“Amid the voyage, one pocket of water rests.”*",
+    "lore_vi": "Cói mọc trong chiếc chậu đặt dưới chuông đồng nứt. Mỗi hồi chuông làm nước tràn, chỉ khoang giữa ba cọng vẫn phẳng. Khi người giữ chuông đào rễ, những hạt khoáng nhạt đã đan thành tam giác trong bùn, lớn theo nhịp rung dội xuống từ chiếc chuông.\n\nChậu được chuyển lên thuyền. Khoang yên vẫn nằm giữa thân cói, mang theo cả ảnh mặt người soi. Một đứa trẻ áp má xuống gần nước và nhận ra lần đầu tiên trong chuyến biển rằng hình mình có thể đứng im, dù bụng vẫn lắc theo sóng.",
+    "lore_en": "Sedge grew in a bowl beneath a cracked bronze bell. Every peal spilled water, yet the pocket between three stems remained flat. When the bell keeper exposed the roots, pale mineral grains had woven a triangle in the mud, growing to the repeated vibration above.\n\nThe bowl was carried aboard a boat. Its still pocket remained between the stems, along with a viewer’s reflection. A child leaned close and discovered for the first time on the voyage that her image could stand still even while her stomach rolled with the sea.",
+    "traits": [
+      {
+        "name_vi": "Tam giác rễ",
+        "name_en": "Root Triangle",
+        "description_vi": "Ba đốt khoáng nhạt trong bùn nối bằng rễ chung; thân cói mọc đúng trên ba đỉnh.",
+        "description_en": "Three pale mineral knots in the mud join through shared roots, with sedge stems rising at the three corners."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dựng lòng yên",
+        "name_en": "Raise the Still Pocket",
+        "description_vi": "Xếp ba thân sống quanh vùng nước cần giữ phẳng; khoang yên đi cùng thân, cho phép soi vật hoặc lấy giọt giữa rung nhẹ.",
+        "description_en": "Arrange three living stems around water to be kept level; the still pocket follows them, allowing inspection or collection of a drop amid gentle motion."
+      }
+    ],
+    "limits_vi": "Khoang rộng khoảng lòng bàn tay; sóng mạnh phá được. Rễ bị cắt làm mất khoang và cói cần nước ngọt để sống.",
+    "limits_en": "The pocket spans roughly a palm and strong waves can break it. Cut roots end it; the sedge needs fresh water to live.",
+    "use_vi": "Giữ một khoang nước yên cho thao tác nhỏ giọt, soi mẫu hoặc cân nổi khi thuyền neo.",
+    "use_en": "Hold a still pocket of water for drop work, specimen viewing or flotation weighing aboard an anchored boat.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-hourstitch-bloom",
+    "epigraph_vi": "*“Sáu cánh đủ cho một nút buộc.”*",
+    "epigraph_en": "*“Six petals suffice for one knot.”*",
+    "lore_vi": "Một bông hoa sáu cánh mọc trong khe chiếc đồng hồ sân vườn đã đứng. Rễ hút nước qua bánh răng khảm tinh thể; mỗi lần người thợ chạm tinh thể để thử máy, gân hoa lại sáng theo từng cánh. Bánh răng được tháo đi, các chồi mới vẫn giữ sáu đường sáng chờ được gọi.\n\nNgười thợ nhận cây thay tiền công. Ông đặt nó cạnh bàn rồi theo ánh cánh để căn những thao tác ngắn. Lúc mắt già khó thấy kim, sáu lần hoa đổi sáng vẫn đủ để tay ông buộc xong chiếc nút đã làm cả đời.",
+    "lore_en": "A six-petalled flower grew in the crack of a stopped garden clock. Its roots drank through a crystal-inlaid wheel; whenever a repairer touched the crystal to test the works, the flower’s veins lit petal by petal. The wheel was removed, yet new shoots retained six luminous paths awaiting a call.\n\nThe repairer accepted the plant as payment. He set it beside his bench and timed short tasks by the petals. When old eyes struggled to see a clock hand, six changes of light still let his hands finish a knot practised all his life.",
+    "traits": [
+      {
+        "name_vi": "Sáu gân sáng",
+        "name_en": "Six Luminous Veins",
+        "description_vi": "Mỗi cánh mang một gân khoáng riêng, đổi sáng lần lượt từ cánh sát cuống tới cánh ngoài.",
+        "description_en": "Each petal bears its own mineral vein, lighting in sequence from the stalk-side petal to the outermost."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khâu sáu nhịp",
+        "name_en": "Stitch Six Beats",
+        "description_vi": "Chạm tinh thể vào đài để khởi sáu khoảng sáng nối nhau, dùng chúng căn một thao tác ngắn; chạm lại bắt đầu lượt mới.",
+        "description_en": "Touch a crystal to the calyx to begin six successive intervals of light and time a brief task; another touch starts a fresh sequence."
+      }
+    ],
+    "limits_vi": "Khoảng nhịp thay đổi theo tuổi và sức hoa, cần căn với mẫu quen. Hết sáu cánh phải chạm tinh thể lại; cây vẫn cần đất, nước và ánh sáng.",
+    "limits_en": "Intervals vary with age and plant health and need calibration. After six petals it requires another crystal touch; the plant still needs soil, water and light.",
+    "use_vi": "Đếm sáu khoảng liên tiếp cho công việc ngắn khi thiếu đồng hồ dùng được.",
+    "use_en": "Count six successive intervals for short work when no working clock is available.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-mistglass-fern",
+    "epigraph_vi": "*“Sương tìm được khung của mình.”*",
+    "epigraph_en": "*“Mist finds its frame.”*",
+    "lore_vi": "Dương xỉ mọc trong bể rửa kính của một xưởng mài quặng. Bụi Vestigium nằm trong bùn dưới rễ; sương từ bể leo lên các đường gân rồi căng giữa những lá đối nhau. Khi người thợ đem cây ra sân khô, những ô cửa mờ vẫn dựng lại sau mỗi lần bị ngón tay chọc thủng.\n\nLá mới mang mép trong như thủy tinh non. Người giữ xưởng nuôi cả một hàng cây bên cửa thông khí, nhìn bụi xám mắc lại trên những tấm sương. Buổi tối, lũ trẻ thích áp mặt sau lá để khuôn mặt mình tan thành một bóng mềm trong khung cửa nhỏ.",
+    "lore_en": "Fern grew in a glass-washing tank at a mineral-grinding shop. Vestigium dust lay in the mud beneath its roots; mist climbed the veins and stretched between opposing leaves. When a worker carried it into the dry yard, its clouded windows rebuilt themselves after every puncture of a finger.\n\nNew leaves bore edges like young glass. The shop keeper raised a row by the air vent and watched grey dust catch upon the mist sheets. In the evening, children pressed their faces behind the fronds to dissolve into soft silhouettes within those little windows.",
+    "traits": [
+      {
+        "name_vi": "Mép kính non",
+        "name_en": "Young Glass Edges",
+        "description_vi": "Mép lá trong và gân bạc đối xứng tạo thành những khung tự nhiên; màng sương căng theo hình từng cặp lá.",
+        "description_en": "Clear edges and symmetrical silver veins form natural frames; mist membranes follow the shape of each frond pair."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Căng kính sương",
+        "name_en": "Stretch Mistglass",
+        "description_vi": "Tưới rễ rồi đặt hai lá đối nhau để sương dệt một ô mờ, giữ bụi thô và làm mềm hình vật phía sau.",
+        "description_en": "Water the roots and face two fronds towards one another to weave a cloudy pane that catches coarse dust and softens objects seen through it."
+      }
+    ],
+    "limits_vi": "Rễ cần nước có lượng Vestigium rất nhỏ; quá nhiều làm lá trong giòn rồi gãy. Gió mạnh xé màng nhanh hơn cây tái tạo; màng chưa được chứng minh lọc khí độc hay mầm bệnh.",
+    "limits_en": "Roots need water carrying a tiny Vestigium trace; excess makes the translucent leaves brittle. Strong wind tears membranes faster than regrowth; filtration of toxic gases or pathogens has not been established.",
+    "use_vi": "Dựng màng sương bắt bụi thô hoặc tạo màn che mờ cho góc làm việc.",
+    "use_en": "Raise mist membranes to catch coarse dust or make a translucent screen around a workspace.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-redmarrow-bulb",
+    "epigraph_vi": "*“Dưới đất, than đỏ vẫn mọc vòng.”*",
+    "epigraph_en": "*“Beneath the earth, red embers still grow in rings.”*",
+    "lore_vi": "Những củ hành đầu tiên mọc trong túi đất khâu từ áo người giữ vườn đã chết rét. Trong túi có bột khoáng đỏ ông dùng thử cho luống ươm. Khi đất đóng cứng, rễ hành xoắn quanh từng hạt khoáng, còn phần tủy chia thành những vòng đỏ sẫm giữ hơi ấm của da áo.\n\nNgười con đem túi vào nhà rồi phát hiện củ hành hút lạnh khỏi bầu đất bên cạnh. Đặt lại ra rét, chúng nhả hơi ấm ấy xuống rễ. Các lứa sau tiếp tục chu kỳ, mỗi lần bớt một vòng đỏ, như những mẩu than được chôn để giữ một khu vườn qua đêm.",
+    "lore_en": "The first bulbs grew in a soil pouch sewn from the coat of a gardener who had frozen to death. It held red mineral powder he had been testing in nursery beds. As earth hardened, onion roots twisted around each grain and their marrow divided into dark red rings retaining the coat’s last warmth.\n\nHis child brought the pouch indoors and found the bulbs drawing cold away from the neighbouring root ball. Set back into frost, they released warmth around their roots. Later crops continued the cycle, losing one red ring each time, like little buried coals keeping a garden through the night.",
+    "traits": [
+      {
+        "name_vi": "Tủy khoanh đỏ",
+        "name_en": "Red-Ringed Marrow",
+        "description_vi": "Tủy chia thành các vòng đỏ sẫm; vòng đã cạn chuyển bạc, để lộ tuổi làm việc của từng củ.",
+        "description_en": "The marrow forms dark red rings; exhausted rings turn silver, revealing each bulb’s working age."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ ấm bầu",
+        "name_en": "Warm the Root Ball",
+        "description_vi": "Chôn củ nguyên vỏ cạnh cây non để nó nhả hơi ấm đã nhận vào đất lạnh; chuyển về luống ấm giúp các vòng còn sống hồi nhiệt.",
+        "description_en": "Bury an unpeeled bulb beside a seedling to release stored warmth into cold soil; return it to a warm bed to recharge the surviving rings."
+      }
+    ],
+    "limits_vi": "Chỉ bảo vệ vùng đất sát củ; củ cần được hồi trong đất ấm giữa các lượt. Bóc vỏ làm chu kỳ hỏng, ăn phải gây nôn và cây có thể cạn sau nhiều đêm rét.",
+    "limits_en": "Only nearby soil is protected; bulbs need recovery in warm earth between uses. Peeling breaks the cycle, ingestion causes vomiting, and repeated freezing nights can exhaust them.",
+    "use_vi": "Đệm nhiệt cho bầu ươm và đánh dấu củ đã cạn qua vòng tủy.",
+    "use_en": "Buffer nursery-root temperatures and show spent bulbs through their marrow rings.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-coppercord-weed",
+    "epigraph_vi": "*“Có tiếng chuông tới bằng đầu ngón tay.”*",
+    "epigraph_en": "*“Some bells arrive through the fingertips.”*",
+    "lore_vi": "Một sợi chuông báo chìm trong bể nuôi rong sau vụ cầu tàu gãy. Chuông có hạt Vestigium trong quả lắc; nước mặn đưa bụi đồng và khoáng vào từng dải rong quấn quanh dây. Lá mọc mới hiện một đường đồng liền, chạy từ gốc đến chóp.\n\nThợ lặn chạm đầu lá, thấy đầu kia giật ngay trong tay người trên bờ dù dải rong đang chùng. Họ nuôi nó dọc thành bể, gọi những lần co giật là tiếng chuông không cần tai. Một nút thắt nhỏ đủ khiến tín hiệu chạy vòng về người vừa gửi.",
+    "lore_en": "An alarm cord sank into a weed tank when a pier collapsed. Its bell held a Vestigium grain in the clapper; saltwater carried copper dust and mineral into weed wound around the line. New fronds developed one continuous copper vein from root to tip.\n\nA diver touched one end and saw the other twitch in the shore keeper’s hand despite the slack frond. They raised it along the tank walls, calling its contractions a bell that needed no ears. A small knot could send the signal looping back to its sender.",
+    "traits": [
+      {
+        "name_vi": "Gân đồng liền",
+        "name_en": "Unbroken Copper Vein",
+        "description_vi": "Một đường đồng sống chạy suốt dải rong; phần phiến hai bên mềm và thả chùng như dải lụa.",
+        "description_en": "A living copper line runs the frond’s length, while the blade hangs soft and slack on either side like silk."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chạm truyền",
+        "name_en": "Carry Touch",
+        "description_vi": "Bóp một đầu theo nhịp để đầu kia co giật cùng thứ tự, đưa mật hiệu giữa người lặn và người giữ dây.",
+        "description_en": "Squeeze one end in rhythm so the other contracts in the same sequence, carrying signals between a diver and the line keeper."
+      }
+    ],
+    "limits_vi": "Dải quá hai sải tay mất rõ tín hiệu. Cần nước mặn và gân còn ướt; gân dập hoặc nút thắt gây xung lặp, nên phải thử tín hiệu trước khi lặn.",
+    "limits_en": "Signals lose clarity beyond two armspans. Saltwater and a wet vein are required; bruises or knots cause looping pulses, so signalling must be tested before diving.",
+    "use_vi": "Truyền tín hiệu chạm dưới nước và báo một bộ phận bể đang bị kéo mở.",
+    "use_en": "Transmit underwater touch signals and warn when a tank fitting is pulled open.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-rustdrinking-nettle",
+    "epigraph_vi": "*“Gỉ sắt cũng có mùa bay.”*",
+    "epigraph_en": "*“Even iron rust has a season of flight.”*",
+    "lore_vi": "Tầm ma mọc quanh giàn sắt nơi người thợ để những tấm giáp nứt dính bụi quặng. Gỉ theo nước mưa vào rễ, còn các hạt khoáng mắc ở chân lông lá. Lứa chồi sau mang lông cam; vụn gỉ trên thanh sắt sát chúng bắt đầu tự nhấc qua khe hở, đậu lên cây như một bầy bướm bụi.\n\nNgười thợ tưởng cây bệnh cho đến khi nhận ra mối tán dưới gốc đã sạch gỉ. Ông đem chậu vào xưởng, dùng từng cây cho một mẻ chi tiết rồi cắt những nốt cam đầy ứ. Bàn tay quên găng của ông giữ vệt bỏng suốt mùa ấy.",
+    "lore_en": "Nettles grew around an iron rack where a craftsman left cracked armour coated in ore dust. Rain carried rust into their roots, while mineral grains lodged at the bases of their leaf hairs. New shoots bore orange bristles; rust on nearby iron began lifting across the gap to settle upon them like dusty moths.\n\nThe craftsman thought the plant diseased until he saw the rivet beneath it cleared of rust. He brought the pot indoors, used each plant for one batch of fittings and cut away swollen orange nodules. His ungloved hand bore burns throughout that season.",
+    "traits": [
+      {
+        "name_vi": "Nốt cam",
+        "name_en": "Orange Nodules",
+        "description_vi": "Lông lá mang hạt khoáng ở chân; lượng gỉ đã hút kết thành nốt cam dọc mép.",
+        "description_en": "Mineral grains sit at the bases of leaf hairs; absorbed rust forms orange nodules along the margins."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Uống gỉ",
+        "name_en": "Drink Rust",
+        "description_vi": "Đưa sắt gỉ gần lông lá để vụn gỉ tự nhấc khỏi bề mặt, vượt khe hở rồi đậu vào nốt cam.",
+        "description_en": "Bring rusty iron beside the leaf hairs to lift rust from its surface, across the gap and into orange nodules."
+      }
+    ],
+    "limits_vi": "Cây nhận phần gỉ đã có, kim loại bị mất vẫn cần sửa. Lông gây rát; nốt đầy phải được cắt bằng găng và bỏ riêng để tránh chết cả cây.",
+    "limits_en": "The plant takes existing rust; lost metal still needs repair. Hairs burn the skin; full nodules must be cut with gloves and discarded separately to preserve the plant.",
+    "use_vi": "Rút gỉ khỏi chi tiết sắt nhỏ và chỉ vị trí gỉ còn ẩn trong khe.",
+    "use_en": "Draw rust from small iron fittings and reveal corrosion remaining in crevices.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-nightlamp-daisy",
+    "epigraph_vi": "*“Cánh rụng vẫn soi đường về ổ khóa.”*",
+    "epigraph_en": "*“Even a fallen petal lights the way to a lock.”*",
+    "lore_vi": "Cúc trắng mọc dưới cửa sổ nơi chiếc đèn Vestigium được thắp mỗi tối. Một giọt dịch từ chân đèn nứt đã ngấm vào chậu. Đài hoa chuyển xanh sữa, và khi chủ nhà tắt đèn, những cánh ngoài vẫn giữ một quầng nhạt như mặt trăng nhìn qua giấy.\n\nHạt gieo từ cây ấy tiếp tục nhận ánh đèn vào gân rồi nhả lại sau tối. Người thợ đặt chậu dọc bậc xuống kho cho học trò ngủ lại khỏi lạc chân. Những cánh rụng được kẹp vào chìa khóa, đủ soi thấy một ổ khóa trước khi ánh cuối tắt trong túi áo.",
+    "lore_en": "White daisies grew beneath a window where a Vestigium lamp burned each evening. A drop leaking from its cracked foot entered their pot. The flower discs turned milky blue, and after the householder extinguished the lamp the outer petals retained a halo like moonlight through paper.\n\nTheir seeds kept the ability to take lamplight into their veins and release it after dark. A craftsman set pots along the cellar stairs for an apprentice staying overnight. Fallen petals were fastened to keys, bright enough to find one lock before their final light died in a coat pocket.",
+    "traits": [
+      {
+        "name_vi": "Đài xanh sữa",
+        "name_en": "Milk-Blue Heart",
+        "description_vi": "Đài đổi xanh sữa khi đủ sáng; cánh ngoài giữ một quầng nhạt nhìn như trăng qua giấy.",
+        "description_en": "The heart turns milky blue when charged; outer petals retain a pale halo like moonlight through paper."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gửi đèn vào cánh",
+        "name_en": "Lodge Light in Petals",
+        "description_vi": "Cho hoa nhận ánh đèn Vestigium quen rồi mang vào chỗ tối; hoa sống và cánh vừa hái nhả ánh đủ tìm dấu ở gần.",
+        "description_en": "Charge the flower beneath its accustomed Vestigium lamp, then carry it into darkness; the living bloom and freshly picked petals release light enough to find nearby markings."
+      }
+    ],
+    "limits_vi": "Ánh đủ nhận dấu ở gần; cây cần nạp lại dưới đèn Vestigium đã quen. Cánh rời tắt sớm hơn hoa sống, gió khô làm cả cây hao sáng nhanh.",
+    "limits_en": "Light suffices for nearby markers; the plant needs recharging beneath a familiar Vestigium lamp. Detached petals fade sooner than living flowers, and dry wind hastens the loss.",
+    "use_vi": "Đánh dấu bậc, lối đi và chìa khóa trong tối mà tránh dùng lửa.",
+    "use_en": "Mark steps, paths and keys in darkness without a flame.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-earthstitch-root",
+    "epigraph_vi": "*“Đất rời học cách đi cùng nhau.”*",
+    "epigraph_en": "*“Parted earth learns to travel together.”*",
+    "lore_vi": "Cây dại bám một nền nhà vừa sạt, nơi bụi khoáng trắng từ túi thuốc thử đã ngấm vào đất. Chủ nhà lấy búa gõ đóng ván mỗi ngày. Qua mỗi nhịp, rễ có những đốt trắng lại vươn qua khe rồi kéo hai mép đất gần nhau, khâu quanh phần nền chưa bị trượt.\n\nKhi người làm vườn nhấc một mảng lên, hai miếng đất rời đi cùng nhau như một chiếc bát vừa vá. Cây chuyển sang khay mới vẫn khâu theo tiếng gõ, khiến nghề ươm đất có thêm một thứ kim mọc từ bên dưới.",
+    "lore_en": "A weed clung to a house foundation that had slipped, where white mineral dust from a reagent pouch had entered the soil. Its owner hammered replacement boards each day. With every beat, white-jointed roots crossed cracks and drew their edges together, stitching around the ground that had not slid away.\n\nWhen a gardener lifted a section, two loose clods rose together like a repaired bowl. In a new tray the plant still stitched to tapping, giving nursery growers a needle that grew from below.",
+    "traits": [
+      {
+        "name_vi": "Đốt trắng",
+        "name_en": "White Joints",
+        "description_vi": "Rễ mang những đốt khoáng trắng mọc dài qua khe đất, tạo mắt nối quanh từng mảng nền.",
+        "description_en": "White mineral joints grow along roots crossing earthen cracks, forming linked loops around each clod."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khâu đất",
+        "name_en": "Stitch Earth",
+        "description_vi": "Gõ đều bên nền ẩm để rễ vươn qua vết nứt và kéo hai mép đất sát nhau, giữ bầu ươm hoặc mép luống mới.",
+        "description_en": "Tap steadily beside damp ground to draw roots across cracks and pull their edges together, securing a nursery root ball or fresh bed edge."
+      }
+    ],
+    "limits_vi": "Rễ cần đất còn ẩm và nhịp gõ đều; úng hoặc mặn làm chúng rút. Mối khâu giữ mảng nhỏ, tải nền lớn cần kết cấu đỡ đã được tính riêng.",
+    "limits_en": "Roots need moist earth and steady tapping; waterlogging or salinity makes them retract. Stitching holds small sections; major ground loads need separately designed supports.",
+    "use_vi": "Kết các mảng đất nhỏ thành bầu ươm và giữ mép luống trong lúc gia cố.",
+    "use_en": "Bind small soil sections into root balls and hold bed edges during reinforcement.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-palesalt-bean",
+    "epigraph_vi": "*“Muối nở trắng ngoài vỏ.”*",
+    "epigraph_en": "*“Salt blossoms white upon the shell.”*",
+    "lore_vi": "Giàn đậu mọc trên nền kho muối từng giữ những thùng khoáng từ biển sâu. Rễ hút nước qua bột trắng bám đáy thùng, còn vỏ quả sinh những đường xoắn li ti. Người trồng nếm hạt rồi nhổ ra vì lưỡi tê; trên vỏ, muối đang nổi thành sợi dài như chữ viết.\n\nCác lứa sau đưa muối trong nước tưới ra ngoài vỏ thay vì giữ trong mô. Một người đi biển mang về cả dây đậu để cứu khu vườn bị nước mặn tràn. Cây giữ được vài chậu non qua đợt ấy; vỏ quả trắng kín khiến người chăm biết phải thu chúng trước khi chúng rạn ra trên đất.",
+    "lore_en": "A bean vine grew upon a salt store floor that had held barrels of deep-sea minerals. Roots drank through white powder at their bottoms, and pods developed tiny spirals. A grower tasted a seed and spat it out with a numb tongue; salt was rising upon its shell in long writing-like threads.\n\nLater crops moved irrigation salt onto their pod surfaces instead of retaining it in their tissues. A sailor brought a whole vine home to save a garden flooded by seawater. It preserved several young pots; white-encrusted shells told their keeper to harvest them before they cracked over the earth.",
+    "traits": [
+      {
+        "name_vi": "Vân xoắn quả",
+        "name_en": "Spiralled Pods",
+        "description_vi": "Vỏ quả mang các đường xoắn nhỏ; tinh thể muối kết dọc chúng thành những sợi trắng.",
+        "description_en": "Fine spirals mark the pod shells; salt crystallises along them in white threads."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đưa muối ra vỏ",
+        "name_en": "Draw Salt to the Shell",
+        "description_vi": "Tưới nước lợ qua luống để rễ nhận muối rồi đưa nó lên vỏ quả, giảm mặn quanh các chậu cây cần cứu.",
+        "description_en": "Pass brackish water through the bed so roots take up salt and carry it to the pod shells, reducing salinity around threatened plants."
+      }
+    ],
+    "limits_vi": "Khả năng hút hữu hạn theo vụ; vỏ đầy sẽ rạn và trả muối. Hạt gây tê, tránh ăn; nước đã qua cây vẫn phải được kiểm trước mọi mục đích uống.",
+    "limits_en": "Uptake is limited per crop; full shells crack and return salt. Seeds cause numbness and must not be eaten; treated water still requires testing before any drinking use.",
+    "use_vi": "Rút bớt muối khỏi một lượng nước tưới nhỏ và biểu thị lượng tích tụ trên vỏ quả.",
+    "use_en": "Remove some salt from a small irrigation supply and display accumulation upon pod shells.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-watchbell-mushroom",
+    "epigraph_vi": "*“Một cái bóng đủ đánh thức chuông.”*",
+    "epigraph_en": "*“One shadow is enough to wake a bell.”*",
+    "lore_vi": "Nấm mũ đồng mọc trong hốc tường phía sau một chiếc chuông gác có quả lắc khoáng tím. Ánh đuốc mỗi đêm quét qua hốc cùng bóng cánh tay kéo chuông. Khi chuông được thay, nấm vẫn rung lên vào lúc cánh tay người gác chắn ngang ánh sáng.\n\nTrong bào tử có những chấm tím giống bụi quả lắc. Các tai mới lớn trong hộp nuôi tiếp tục nhận bóng chuyển qua như một cuộc gọi. Người gác già để một cụm bên cửa sổ: tiếng rung nhỏ giúp ông biết ai vừa tới trước khi đầu gối đủ sức đưa ông đứng lên.",
+    "lore_en": "Copper-capped mushrooms grew in a wall hollow behind a watch bell with a violet mineral clapper. Torchlight swept the hollow each night with the arm-shadow pulling the bell. After the bell was replaced, the mushrooms still trembled whenever the watchman’s arm crossed the light.\n\nTheir spores held violet points like clapper dust. New caps in cultivation continued receiving a moving shadow as a summons. An old watchman kept a cluster by his window: its little vibration told him of arrivals before his knees could lift him from his chair.",
+    "traits": [
+      {
+        "name_vi": "Mũ đồng tím",
+        "name_en": "Violet-Dusted Bronze Cap",
+        "description_vi": "Mũ màu đồng ôm khoang rỗng, bào tử tím lấp lánh trong các nếp dưới vành.",
+        "description_en": "The bronze-coloured cap encloses a hollow chamber, with violet spores glittering beneath its rim."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gác bóng",
+        "name_en": "Watch the Shadows",
+        "description_vi": "Đặt nấm trước ánh đèn đứng yên để bóng đi ngang khiến mũ rung thành tiếng nhỏ, báo có vật vừa qua ngưỡng.",
+        "description_en": "Set the fungus before a steady lamp so a passing shadow makes its cap ring softly, warning that something has crossed the threshold."
+      }
+    ],
+    "limits_vi": "Cần nguồn sáng ổn định; mây, đèn rung và vật nuôi gây báo ngoài ý muốn. Nấm già bỏ sót bóng nhỏ, còn tiếng rung cần nơi tương đối yên để nghe.",
+    "limits_en": "A stable light source is required; clouds, wavering lamps and animals cause unintended warnings. Old caps miss small shadows, and their vibration needs relative quiet to hear.",
+    "use_vi": "Báo bóng người hoặc vật qua một lối sáng cố định và lưu dấu lượt qua gần nhất.",
+    "use_en": "Warn of people or objects crossing a fixed light path and retain the most recent passage signal.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-blacklead-orchid",
+    "epigraph_vi": "*“Tiếng đồng đặt sức nặng lên cánh giấy.”*",
+    "epigraph_en": "*“Bronze voices lay their weight on paper petals.”*",
+    "lore_vi": "Lan mọc trong chiếc mũ sắt đặt trên mộ người thợ chuông. Bên trong mũ có một mảnh quặng ông vẫn mang để thử tiếng đồng. Vào ngày quả chuông mới được kéo lên tháp, cánh hoa đồng loạt sụp xuống, lún cả vành mũ vào đất. Tiếng ngân hết, chúng lại dựng lên nhẹ như giấy.\n\nNgười nuôi đem hạt gieo trong chậu sạch vẫn nhận được hoa tím tro có sống cánh đen. Thứ quặng đã lắng vào dòng sống của lan giữ một mối đáp giữa kim loại va nhau và sức nặng. Các người giữ cửa dùng chậu lan kéo chốt bằng tiếng kìm gõ; trong phòng nhạc, người chăm bọc mọi chân ghế để hoa khỏi tự nghiền mình giữa một bản diễn.",
+    "lore_en": "The orchid grew inside an iron helmet placed upon a bell founder’s grave. Within lay an ore chip he had carried to test bronze tones. On the day a new bell was raised, every petal dropped, driving the helmet rim into the earth. When its peal ended, they rose again light as paper.\n\nSeeds grown in clean pots still produced ash-violet flowers with black petal spines. The ore had settled into the orchid’s living line, keeping a correspondence between colliding metal and weight. Gatekeepers use its pot to pull catches with a tapped pair of tongs; in music rooms, carers pad every chair leg so the flowers do not crush themselves during a performance.",
+    "traits": [
+      {
+        "name_vi": "Sống cánh đen",
+        "name_en": "Black Petal Ribs",
+        "description_vi": "Cánh tím tro có sống đen đậm; khi nhận tiếng kim loại, cả đài hạ thấp đồng loạt như một vành cân.",
+        "description_en": "Ash-violet petals bear dark ribs; at metallic sound the whole flower lowers together like a weighing pan."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nặng theo tiếng",
+        "name_en": "Weight at a Sound",
+        "description_vi": "Gõ kim loại quen để cánh tăng sức nặng, kéo chốt hoặc ép một tấm khuôn đặt dưới đài; tiếng tắt cho cánh nhẹ trở lại.",
+        "description_en": "Strike a familiar metal to increase the petals’ weight, draw a latch or press a mould beneath the flower; silence lets the petals lighten again."
+      }
+    ],
+    "limits_vi": "Cánh cần được đỡ bằng đài và giá mềm, ép giữa vật cứng làm hoa nát. Tiếng kim loại ngoài ý muốn vẫn kích nặng; mỗi lượt cần khoảng im để hồi.",
+    "limits_en": "Petals need support from their calyx and a soft cradle; crushing between hard objects destroys them. Unintended metallic sound also triggers weight, and each use needs quiet recovery.",
+    "use_vi": "Dùng tiếng kim loại điều khiển đối trọng, chốt nhỏ và dấu báo tải.",
+    "use_en": "Use metallic sound to control counterweights, small catches and load indicators.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-waterseeking-willow",
+    "epigraph_vi": "*“Rễ biết nơi nước còn đi.”*",
+    "epigraph_en": "*“Roots know where water still travels.”*",
+    "lore_vi": "Một cành liễu được giâm để đánh dấu miệng giếng bị xây bít. Người mang nước đặt ở đó một viên khoáng lam, mong người lạc đường nhận ra chỗ từng có nguồn. Qua mùa đất nứt, rễ liễu bỏ bình tưới đứng yên để luồn vào mạch nước đang chạy sau tường giếng.\n\nKhi đào cây lên, người ta thấy các rễ nhỏ xếp như đàn cá hướng về thượng nguồn, đầu rễ có chấm lam trong. Cành giâm từ cây ấy tiếp tục tìm chuyển động nước. Người sửa ống mang nó đi trước búa đục, còn những người đóng vách giấu đường ngầm thường trồng một chậu đối diện để biết bí mật của mình vẫn đang chảy.",
+    "lore_en": "A willow cutting marked a well mouth sealed with masonry. A water carrier left a blue mineral beside it so lost travellers might recognise the former source. Through a season of cracked earth, its roots ignored a still watering jar and entered moving water behind the well wall.\n\nWhen lifted, its fine roots lay like fish facing upstream, each tip bearing a clear blue point. Cuttings continued seeking water in motion. Pipe repairers carry one ahead of their chisels, while those hiding channels behind walls sometimes keep a pot opposite to know their secret is still flowing.",
+    "traits": [
+      {
+        "name_vi": "Đàn rễ lam",
+        "name_en": "Blue Root Shoal",
+        "description_vi": "Các rễ mảnh có đầu lam trong, cùng xếp về một hướng như đàn cá trước dòng chảy.",
+        "description_en": "Slender roots have translucent blue tips and align like a shoal facing a current."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hỏi đường nước",
+        "name_en": "Ask the Water’s Way",
+        "description_vi": "Giữ bầu đủ ẩm bên vách để đầu rễ đổi hướng về dòng nước đang chảy phía sau, dẫn người thợ tìm đoạn ống cần mở.",
+        "description_en": "Keep the root ball damp beside a wall so the tips turn towards flowing water beyond it, guiding a craftsperson to the pipe section to uncover."
+      }
+    ],
+    "limits_vi": "Rễ đổi hướng chậm, cần được tưới để sống. Nhiều dòng làm rễ quấn; vách dày khiến tín hiệu yếu và mở kiểm tra vẫn cần thiết trước khi đục.",
+    "limits_en": "Roots turn slowly and need watering. Multiple flows tangle them; thick barriers weaken the response, and inspection is still needed before excavation.",
+    "use_vi": "Lần dòng nước qua vật cản mỏng, tìm nhánh ống đang chạy và khoanh vùng rò.",
+    "use_en": "Trace moving water through thin obstructions, distinguish active pipe branches and narrow down leaks.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-frostneedle-bloom",
+    "epigraph_vi": "*“Nhụy giữ mùa đông, rễ giữ mùa ươm.”*",
+    "epigraph_en": "*“The pistil keeps winter; the roots keep the growing season.”*",
+    "lore_vi": "Hoa được tìm thấy trên khăn tay buộc quanh bình thuốc thử khoáng. Bình đã vỡ trong đêm rét; rễ hoa dại mọc qua vải, uống thứ dịch bạc còn sót. Đến khi người hái trở lại, nhụy dài phủ kim băng còn gốc ấm đến mức tuyết rút thành một vòng tròn.\n\nCây đã chia đôi công việc của một mùa đông: đẩy cái lạnh lên nhụy, giữ hơi ấm xuống rễ. Người chăm nuôi hoa trong chén hai ngăn để dùng cả hai phía. Những chiếc kim mỏng rơi khỏi nhụy tan rất nhanh, để lại một tiếng lách tách như ai đang khâu sương vào vải.",
+    "lore_en": "The flower was found upon a handkerchief tied around a mineral reagent bottle. It had broken on a freezing night; wild roots grew through the cloth and drank the remaining silver fluid. When the gatherer returned, long stamens bore ice needles while the roots were warm enough to clear a ring in the snow.\n\nThe plant had divided winter’s work: cold sent to its stamens, warmth kept at its roots. Carers raise it in divided bowls to use both ends. Fine needles falling from the stamens melt swiftly, leaving a crackle like someone stitching dew into cloth.",
+    "traits": [
+      {
+        "name_vi": "Kim trên nhụy",
+        "name_en": "Needles on the Pistil",
+        "description_vi": "Nhụy dài phủ kim băng mỏng trong khi gốc tỏa hơi ấm, tạo hai miền nhiệt trên cùng một thân.",
+        "description_en": "Fine ice needles coat the long pistil while the base radiates warmth, forming two thermal regions on one stem."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chia lạnh ấm",
+        "name_en": "Part Cold from Warmth",
+        "description_vi": "Cấp nước cho rễ rồi dẫn nhụy vào chén cần lạnh; cây dồn phần lạnh lên kim băng và trả nhiệt xuống bầu.",
+        "description_en": "Water the roots and guide the pistil into a vessel to be cooled; the plant gathers cold in its ice needles and returns heat to the root ball."
+      }
+    ],
+    "limits_vi": "Cần cấp nước cùng vi lượng khoáng quen thuộc. Nhiệt dồn ở gốc có thể giết cây; nhụy gãy làm trao đổi dừng và chảy hết kim băng.",
+    "limits_en": "It needs water with a familiar mineral trace. Accumulated root heat can kill it; a broken stamen stops the exchange and melts its needles.",
+    "use_vi": "Làm lạnh mẫu nhỏ, giữ rễ ươm ấm và dùng kim sương nhận mức hoạt động của cây.",
+    "use_en": "Cool small specimens, warm nursery roots and read the plant’s activity through its frost needles.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-footfall-moss",
+    "epigraph_vi": "*“Sàn nhà biết ai đã đi qua bằng sức nặng.”*",
+    "epigraph_en": "*“The floor knows passage by its weight.”*",
+    "lore_vi": "Rêu tím phủ sàn một chòi gác bỏ hoang. Dưới ván là bụi bạc từ chiếc dấu giày khảm khoáng của người canh cũ; ngày nào ông cũng đi cùng một lối qua cửa. Khi chân người mới đặt lên ván, rêu bên dưới sáng thành cả chuỗi bước đã bị sàn che.\n\nMạng rêu mọc theo sức ép như thể nền đất là một cuốn sổ. Chồi mới lưu dấu mới, chồi già nuốt dần dấu cũ. Người cha nhận trông kho để con ở chòi bên cạnh; mỗi buổi sáng, đứa trẻ lần theo những bước bạc qua sàn và biết cha đã trở về trước khi mở cửa.",
+    "lore_en": "Violet moss covered an abandoned watch hut floor. Beneath its boards lay silver dust from the former keeper’s mineral-inlaid boot stamp; every day he had walked the same route. When a new foot touched the planks, the moss below illuminated a sequence of steps concealed by the floor.\n\nIts network grew according to pressure, as though ground were a ledger. New shoots retained fresh marks; older growth gradually swallowed former ones. A father hired to guard the store kept his child next door. Each morning the child followed silver steps across the floor and knew he had returned before opening the door.",
+    "traits": [
+      {
+        "name_vi": "Chồi nuốt dấu",
+        "name_en": "Trace-Swallowing Shoots",
+        "description_vi": "Dấu mới sáng bạc trên nền tím; chồi già phủ lên các vệt trước theo lớp, cho mạng rêu một chiều sâu thời gian.",
+        "description_en": "Fresh marks shine silver on violet; older shoots cover earlier traces in layers, giving the moss a depth of time."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ghi bước",
+        "name_en": "Record Footfalls",
+        "description_vi": "Trải mạng rêu ẩm dưới ván mỏng để sức ép chân in thành chuỗi sáng, rồi vén ván đọc hướng và nhịp bước.",
+        "description_en": "Spread damp moss beneath thin boards to print foot pressure in luminous sequences, then lift the boards to read direction and pace."
+      }
+    ],
+    "limits_vi": "Ghi lực chạm, danh tính cần bằng chứng khác. Vật kéo và thú lớn cũng để dấu; nền phải ẩm, còn ván dày dập nhỏ hình bàn chân.",
+    "limits_en": "It records contact forces; identity needs other evidence. Dragged objects and large animals leave marks too; damp ground is required and thick boards blur footprints.",
+    "use_vi": "Ghi hướng và chuỗi sức ép gần đây trên lối hẹp để theo dõi lượt qua hoặc kiểm tra tải di chuyển.",
+    "use_en": "Record the direction and sequence of recent pressure along narrow routes to monitor passage or moving loads.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-scentlock-sapling",
+    "epigraph_vi": "*“Một giọt nhựa khép cửa quanh hương.”*",
+    "epigraph_en": "*“A drop of resin closes its door around a scent.”*",
+    "lore_vi": "Cây dầu nảy trong một hòm hương bị chìm, rễ ôm chiếc bình khoáng vỡ giữa quế và vải áo. Nhựa đầu mùa đóng thành những giọt trong, mỗi giọt giữ riêng mùi của thứ đã chạm nó. Người vớt mang một giọt qua lửa; hương quế của chiếc hòm cũ trở lại nguyên vẹn giữa mùi bùn.\n\nCành giâm vẫn cho nhựa khóa mùi, từng giọt đứng cạnh nhau mà chẳng trộn hương. Một học trò giữ mùi khăn mẹ trong lá gói nhựa, tránh hong mẫu gần bếp. Khi đi xa, cậu chỉ mở gói lúc có cửa sổ để hương có đường rời phòng sau khi đã được nhớ lại.",
+    "lore_en": "An oil tree sprouted inside a sunken perfume chest, its roots embracing a broken mineral bottle among cinnamon and cloth. Its first resin formed clear drops, each holding the scent of whatever touched it. A salvager warmed one over a flame; the old chest’s cinnamon returned intact amid the smell of mud.\n\nCuttings still yielded scent-locking resin, neighbouring drops keeping separate fragrances. An apprentice preserved his mother’s scarf in a resin packet and kept it away from the stove. Travelling, he opened it only beside a window so the fragrance could leave the room after being remembered.",
+    "traits": [
+      {
+        "name_vi": "Giọt hương riêng",
+        "name_en": "Separate Scent Drops",
+        "description_vi": "Nhựa trong kết thành từng giọt có ranh riêng; các mùi chạm vào các giọt khác nhau vẫn đứng tách cạnh nhau.",
+        "description_en": "Clear resin forms discrete drops; scents touching different drops remain separate beside one another."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khóa rồi mở hương",
+        "name_en": "Seal and Open Scent",
+        "description_vi": "Cho nhựa chạm vật cần giữ mùi rồi gói kín; làm ấm giọt để gọi hương trở lại cho đối chiếu hàng hoặc nhận một kỷ vật.",
+        "description_en": "Touch resin to an object whose scent is to be kept and wrap it tightly; warm the drop to release the scent for comparing goods or recalling a keepsake."
+      }
+    ],
+    "limits_vi": "Nhựa giữ mùi cảm nhận, còn độc tính và thành phần gốc cần xét riêng. Nhiệt mạnh xả hết một lần; mặt gói sần làm mùi rò sớm.",
+    "limits_en": "Resin retains perceived scent; toxicity and original composition require separate assessment. Strong heat releases it all at once, and rough wrapping makes scent leak early.",
+    "use_vi": "Lưu và giải mùi cho đối chiếu hàng hóa, dấu nhận biết hoặc kỷ vật.",
+    "use_en": "Store and release scents for goods comparison, recognition signals or keepsakes.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-stillness-pepper",
+    "epigraph_vi": "*“Khoảng im chạy đen qua chùm quả.”*",
+    "epigraph_en": "*“Silence runs black through the fruit.”*",
+    "lore_vi": "Dây tiêu leo trên vỏ một máy sàng cũ. Người thợ lắp trong trục một mảnh Vestigium để giảm kẹt; bụi bạc lọt theo dầu máy xuống rễ. Quả tiêu lớn lên nghe cả nền xưởng rung, rồi một ngày chuyển đen hàng loạt khi dây truyền đứt, trước khi người đứng xa kịp nhận ra tiếng máy đã ngừng.\n\nNhững quả sau sinh màu bạc và giữ ký ức ngắn về nhịp gần chúng. Khi nhịp ấy mất, sắc tối chạy từ quả này sang quả khác. Thợ đặt dây tiêu bên những bánh quay khuất tầm nhìn, đếm độ dài vệt đen thay cho việc đưa tay vào máy để xem nó còn chạy.",
+    "lore_en": "A pepper vine climbed an old screening machine’s casing. A craftsman had fitted a Vestigium chip into its shaft to ease sticking; silver dust entered the roots with dripping oil. The fruit grew amid the factory’s vibration, then one day blackened together when a belt snapped, before distant workers realised the machinery had fallen silent.\n\nLater fruits grew silver and retained a brief memory of nearby rhythms. When that rhythm vanished, darkness travelled from berry to berry. Workers kept vines by wheels out of sight and counted darkened fruit rather than reaching into machinery to discover whether it was moving.",
+    "traits": [
+      {
+        "name_vi": "Quả bạc đen",
+        "name_en": "Silver and Black Berries",
+        "description_vi": "Quả non ánh bạc; khi nhịp quen ngừng, vệt đen lan lần lượt qua chùm thay vì đổi màu cùng lúc.",
+        "description_en": "Young berries shine silver; when a familiar rhythm stops, black spreads through the cluster in sequence rather than all at once."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Canh nhịp mất",
+        "name_en": "Watch for a Lost Beat",
+        "description_vi": "Cho dây nhận nhịp máy đang chạy rồi giữ cạnh bệ; chiều dài vệt đen báo khoảng ngừng đã kéo dài tới đâu.",
+        "description_en": "Let the vine learn a running machine’s rhythm and keep it beside the mount; the length of the black streak shows how long the interruption has lasted."
+      }
+    ],
+    "limits_vi": "Cần cho cây quen nhịp nền trước khi canh. Máy chạy rất êm cho dấu yếu; cây khô mất phản ứng. Quả gây bỏng niêm mạc nên phải tách khỏi tiêu ăn.",
+    "limits_en": "The plant must first learn its background rhythm. Very smooth machinery gives a weak indication; dried plants lose their response. Fruit burns mucous membranes and must be kept apart from food pepper.",
+    "use_vi": "Báo một nhịp rung quen vừa dừng, phân biệt khoảng ngừng thoáng với ngừng lâu.",
+    "use_en": "Warn when a familiar vibration stops and distinguish a brief interruption from a longer halt.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-windtwist-grass",
+    "epigraph_vi": "*“Cỏ trả gió theo chiều nó chọn.”*",
+    "epigraph_en": "*“The grass returns wind in a direction of its own.”*",
+    "lore_vi": "Cỏ mọc trong chiếc quạt thông gió vỡ, rễ xuyên qua một vòng khoáng xanh ở trục. Lá bị gió xoắn quanh cánh quạt suốt mùa rồi lớn theo hình xoắn ấy. Khi người thợ tháo trục đem đi, từng ngọn cỏ vẫn tự vặn, kéo không khí chạy ngược dòng vừa ép nó cúi xuống.\n\nNgười làm quạt giữ cả bụi trong chụp kính để học trò nhìn thấy những xoáy nhỏ. Ở những căn xưởng thấp, một chậu đủ đẩy hơi ẩm khỏi hốc dao; ở bàn thổi thủy tinh, người ta cắt lá đã rách ngay, trước khi luồng gió bất chợt quay vào ngọn lửa.",
+    "lore_en": "Grass grew inside a broken ventilator, its roots piercing a blue mineral ring around the shaft. Air twisted its leaves around the blades through a season, and they grew into that spiral. When a repairer removed the shaft, each tip still turned, pulling air against the flow that had bent it.\n\nA fan maker kept the whole tuft under glass so apprentices could see its little vortices. In low workshops, one pot pushes damp air from a blade recess; at glassblowing benches, torn leaves are cut away before a sudden reversal sends air into the flame.",
+    "traits": [
+      {
+        "name_vi": "Lá xoắn",
+        "name_en": "Twisted Blades",
+        "description_vi": "Lá mọc xoắn quanh gân xanh, tiếp tục vặn chậm ngay cả khi thân quạt cũ đã rời gốc.",
+        "description_en": "Blades spiral about green veins and keep turning slowly even after the old fan frame is removed."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vặn luồng",
+        "name_en": "Twist the Current",
+        "description_vi": "Đặt ngọn theo đường cần thông để vòng lá kéo không khí sát mình, đưa hơi ẩm ra khỏi hốc dụng cụ hoặc đổi hướng một luồng gió nhỏ.",
+        "description_en": "Point the tips along a desired passage so the coiled blades draw nearby air, clearing damp from tool recesses or turning a small draught."
+      }
+    ],
+    "limits_vi": "Rễ cần nạp khoáng vừa đủ; cây thiếu sức chỉ xoay ngắt quãng. Lá rách đảo hướng khó đoán, còn luồng nhỏ cần nối đường khí thật để đổi khí cho không gian lớn.",
+    "limits_en": "Roots need moderate mineral feeding; weakened plants turn intermittently. Torn leaves reverse unpredictably, while small currents require real air channels to ventilate larger spaces.",
+    "use_vi": "Dẫn những luồng gió sát ngọn cho hộp mẫu, hốc dụng cụ và chỉ hướng lưu thông khí nhỏ.",
+    "use_en": "Conduct near-tip airflows for specimen boxes, tool recesses and small ventilation indicators.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-ashring-fungus",
+    "epigraph_vi": "*“Tro trở về đất bằng những hạt nặng.”*",
+    "epigraph_en": "*“Ash returns to earth in heavy grains.”*",
+    "lore_vi": "Nấm trắng mọc trên đĩa tro của lò đốt giấy tẩm khoáng. Trong tro, sợi nấm tìm những mảnh từng đi qua lửa rồi đưa chúng lên viền mũ. Chỉ sau một đêm, viền xám thành vòng nổi; gõ nhẹ, vòng rơi xuống đĩa thành những hạt nặng, kéo theo tro đang lơ lửng gần nó.\n\nNhững cụm nuôi từ bào tử tiếp tục nhận tro nguội mà bỏ bụi đá nằm cạnh. Người giữ kho đem chúng vào hộp xử lý sau các đợt cháy, thay mũ trước khi vòng xám ăn vào tâm trắng. Tiếng hạt rơi xuống đĩa nghe như một cơn ho đã được lấy khỏi căn phòng.",
+    "lore_en": "White mushrooms grew upon the ash plate of a furnace burning mineral-treated papers. Their threads found fragments that had passed through fire and brought them to the cap edges. Overnight the grey rims became raised rings; a light tap shed them as heavy grains, drawing nearby suspended ash along.\n\nSpore-grown clusters kept accepting cold ash while ignoring adjacent stone dust. Storekeepers use them inside processing cases after fires, replacing caps before grey rings reach their white centres. Grains falling upon the plate sound like a cough taken out of the room.",
+    "traits": [
+      {
+        "name_vi": "Vành tro nổi",
+        "name_en": "Raised Ash Ring",
+        "description_vi": "Mũ trắng giữ một viền xám nổi, tăng độ dày khi nhận thêm tro nguội trong không khí.",
+        "description_en": "A raised grey rim encircles the white cap and thickens as it takes in more cold airborne ash."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kết tro",
+        "name_en": "Granulate Ash",
+        "description_vi": "Đặt cụm nấm giữa hộp chứa tro bay để nó kéo tro vào vành; gõ nhẹ cho vành kết hạt rơi xuống khay.",
+        "description_en": "Set a cluster inside a case of drifting ash to draw it into the rim; tap gently to drop the rim as collected grains into a tray."
+      }
+    ],
+    "limits_vi": "Mũ chỉ nhận tro đã nguội; khói nóng làm mô hỏng, còn khí độc vẫn cần xử lý riêng. Nấm đầy tro phải cách ly và thay, tránh để hạt rơi trở lại vùng đã dọn.",
+    "limits_en": "Caps accept only cooled ash; hot smoke damages tissue and toxic gases need separate treatment. Laden mushrooms must be isolated and replaced, with shed grains kept from cleaned areas.",
+    "use_vi": "Thu tro nguội lơ lửng trong hộp xử lý và gom thành hạt dễ lấy ra.",
+    "use_en": "Collect airborne cold ash inside processing cases and gather it into removable grains.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-capillary-rose",
+    "epigraph_vi": "*“Một bông hồng vẽ mạch của căn nhà.”*",
+    "epigraph_en": "*“A rose draws the house’s veins.”*",
+    "lore_vi": "Hồng trắng mọc trong sân một thợ làm ống thủy tinh. Ông tưới nó bằng nước tráng những ống đã thử dịch khoáng đỏ; qua một mùa, gân hoa bắt đầu đổi hình theo dòng nước chạy trong ống để cạnh chậu. Cắt một cành mang sang nhà khác, gân mới vẫn chia nhánh quanh những đoạn dòng bị nghẽn, như một bản vẽ sống của đường chảy bên ngoài.\n\nNgười thợ trồng cây sau mặt kính để giữ dịch sạch. Khách tới xưởng nhìn bông hồng đỏ dần theo nước và nói căn nhà đã có mạch máu. Ông chỉ vào chỗ gân ngắt trên cánh rồi tháo đúng đoạn ống phía sau tường: ở đó mắc một chiếc răng sữa chưa ai nhớ đã rơi vào bể từ bao giờ.",
+    "lore_en": "White roses grew in a glass-pipe maker’s courtyard. He watered them with rinsings from tubes tested with red mineral fluid; after a season, their veins changed shape with water running through tubes beside the pots. Cuttings carried elsewhere still branched around interrupted flows, like living drawings of external channels.\n\nThe craftsman grew them behind glass to keep liquids clean. Visitors watched a rose redden with the water and said the house had acquired blood vessels. He pointed to a gap in a petal vein and opened the corresponding pipe behind the wall: it held a milk tooth nobody remembered losing into the tank.",
+    "traits": [
+      {
+        "name_vi": "Gân đổi dòng",
+        "name_en": "Flow-Changing Veins",
+        "description_vi": "Gân đỏ tự chia nhánh và ngắt nét theo đường nước gần cây, khiến mỗi bông mang một hình khác.",
+        "description_en": "Red veins branch and break according to nearby water flow, giving each flower a different pattern."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hiện mạch ống",
+        "name_en": "Reveal Pipe Veins",
+        "description_vi": "Đặt hồng bên một hệ ống đang chảy để cánh phản chiếu các nhánh, bọt khí và đoạn nghẽn thành nét đỏ cần lần theo.",
+        "description_en": "Set the rose beside flowing pipes to mirror their branches, air pockets and blockages in red strokes that can be followed."
+      }
+    ],
+    "limits_vi": "Cây cần nước sạch giữa các lượt, tránh cho dịch lạ chạm rễ. Nhiều hệ gần nhau tạo hình lẫn; gân cho biết chuyển động chứ thành phần dịch và tình trạng cơ thể cần cách xác định riêng.",
+    "limits_en": "The plant needs clean water between uses; keep unfamiliar fluids off its roots. Nearby systems superimpose patterns; veins reveal movement, while composition and bodily conditions require separate assessment.",
+    "use_vi": "Phản chiếu đường chảy trong một hệ ống gần để tìm gián đoạn, bọt khí và so các nhánh.",
+    "use_en": "Mirror flow in a nearby pipe system to locate interruptions, bubbles and compare branches.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-cadence-bamboo",
+    "epigraph_vi": "*“Cả khoảng ngừng cũng được giữ trong đốt.”*",
+    "epigraph_en": "*“Even the pause is kept within the joint.”*",
+    "lore_vi": "Trúc đen mọc sát đường máng dẫn vào một cối giã có chốt khoáng vàng. Mỗi nhịp cối, nước dội vào gốc; mỗi lần nghỉ, khoảng im lắng trong đốt. Người chặt một cây làm cán cuốc nghe lại tiếng cối từ đoạn trúc đã rời bụi, bao gồm cả quãng dừng khi người vận hành vấp chân.\n\nCác đốt vàng giữ được một chuỗi rung cùng những khoảng chưa phát tiếng giữa chúng. Người cha gõ lời ru bằng khớp tay lên đoạn trúc, nhận lại cả chỗ mình đã ngừng vì mệt. Thợ dùng nó nhắc trình tự công việc; những người đưa tin chỉ gửi những chuỗi đã quy ước, để người nhận còn biết đâu là lời gửi, đâu là tiếng va trên đường.",
+    "lore_en": "Black bamboo grew beside the race feeding a stamping mill with a golden mineral catch. Each stroke washed its roots; each pause settled into a node. A worker cut a culm for a hoe handle and heard the mill again from the detached length, including the pause when its operator had stumbled.\n\nThe golden nodes retain a sequence of vibrations together with the intervals before sound. A father tapped a lullaby with his knuckles and received even the places where exhaustion had stopped him. Craftsmen use it to recall work sequences; couriers send agreed patterns so recipients can distinguish messages from impacts gathered on the road.",
+    "traits": [
+      {
+        "name_vi": "Đốt vàng rỗng",
+        "name_en": "Hollow Golden Joints",
+        "description_vi": "Những đốt vàng chia chuỗi rung thành các khoang nối nhau, giữ cả khoảng im giữa hai tiếng.",
+        "description_en": "Golden joints divide a vibration sequence into linked chambers, preserving the silence between sounds."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ghi nhịp gõ",
+        "name_en": "Inscribe a Tapped Rhythm",
+        "description_vi": "Gõ một chuỗi lên thân rồi chạm đốt đầu để trúc phát lại tiếng và khoảng nghỉ, truyền một thao tác hoặc mật hiệu đã quy ước.",
+        "description_en": "Tap a sequence onto the culm, then touch its first joint to replay sounds and pauses, conveying a procedure or agreed signal."
+      }
+    ],
+    "limits_vi": "Chỉ giữ một chuỗi, va mạnh ghi đè. Trúc thiếu nước đổi khoảng trễ; đốt non giữ kém, còn đoạn cắt cần được bọc ẩm để dùng lại lâu.",
+    "limits_en": "Only one sequence is retained and a hard impact overwrites it. Dehydration changes delay; young nodes retain poorly, while cut lengths need damp wrapping for repeated use.",
+    "use_vi": "Ghi và phát lại một chuỗi gõ có khoảng nghỉ để hướng dẫn thao tác hoặc trao tín hiệu.",
+    "use_en": "Record and repeat a tapped sequence with pauses for procedural guidance or signalling.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-icevein-lotus",
+    "epigraph_vi": "*“Một cửa nước mở giữa mùa đóng kín.”*",
+    "epigraph_en": "*“A water door opens in the closed season.”*",
+    "lore_vi": "Một hạt sen nằm trong túi khoáng lam của người nuôi cá bị chìm cùng thuyền. Sang xuân, nó trồi lên giữa vòng băng chưa tan, lá bạc gạt từng mảnh băng ra mép như những bàn tay nhỏ. Người nuôi kéo được chiếc túi từ bùn: khoáng đã rỗng lõi, còn rễ sen sáng lam quanh chỗ hạt từng nằm.\n\nCác cây tách ngó tiếp tục giữ một cửa nước dưới tâm lá. Băng mới bị dồn ra ngoài, nhiệt vòng về gân; từng gợn nước trong cửa cho biết cây vẫn đang trao đổi với hồ. Người giữ trại cá đi vòng mỗi sáng, nhìn xem chiếc cửa nào đã bắt đầu khép trước khi đem bình nước ra lấy mẫu.",
+    "lore_en": "A lotus seed lay in a fish keeper’s blue mineral pouch when his boat sank. In spring it surfaced within an unmelted ice ring, silver leaves pushing fragments aside like little hands. The pouch was recovered from mud: the mineral had hollowed out, while lotus roots shone blue around the seed’s former place.\n\nPlants divided from its rhizome kept a water opening beneath each leaf centre. New ice moved outward and heat circled through the veins; ripples within the opening showed exchange with the pond continuing. Fish keepers walk their rounds each morning to see which little doors have begun closing before taking water samples.",
+    "traits": [
+      {
+        "name_vi": "Mạch lam vòng lá",
+        "name_en": "Blue Leaf Circuit",
+        "description_vi": "Rễ lam sáng quanh chỗ hạt cũ, nối với gân bạc trên lá; băng vụn dồn thành vành quanh mặt nước hở.",
+        "description_en": "Blue roots glow around the old seed site and join the leaves’ silver veins; ice fragments form a ring about open water."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở cửa băng",
+        "name_en": "Open an Ice Door",
+        "description_vi": "Cho ngó sống bám dưới mặt hồ để lá gom băng ra rìa, duy trì một khoảng nước hở cho lấy nước hoặc trao đổi khí.",
+        "description_en": "Anchor a living rhizome beneath the pond surface so its leaves gather ice at the rim, maintaining open water for drawing water or exchanging air."
+      }
+    ],
+    "limits_vi": "Rễ cần nước sạch và đủ sâu khỏi bị đông cứng. Băng dày có thể nghiền lá; phần băng đã dồn vẫn cần lấy ra trước khi vòng khép ép ngược về tâm.",
+    "limits_en": "Roots need clean water deep enough to avoid freezing solid. Thick ice can crush leaves; displaced ice must be removed before its closing ring presses back upon the centre.",
+    "use_vi": "Giữ cửa nước nhỏ giữa băng, gom mảnh băng ra mép và báo sức cây qua gợn lá.",
+    "use_en": "Keep small openings in ice, gather fragments at their edges and show plant condition through leaf ripples.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-soundknot-pine",
+    "epigraph_vi": "*“Quả thông khép quanh một tiếng gọi.”*",
+    "epigraph_en": "*“A pine cone closes around a call.”*",
+    "lore_vi": "Thông xanh đen mọc quanh một hốc núi nơi tiếng gọi luôn trở về thiếu âm cuối. Rễ xuyên vào lớp khoáng bạc, còn quả mọc ra có vảy khép quá chặt. Một người hái đặt quả bên bếp; tiếng con mình gọi từ ngoài cửa hôm trước bỗng vang lên giữa những hạt rỗng rơi xuống than.\n\nNhững người trồng thử nhận ra khoáng đã vào hạt và vảy, cho quả giữ một đoạn âm trước khi nó đi hết vào không khí. Mỗi quả mở được một lần. Người con mang quả tới giường cha để giữ tiếng gọi tên mình; thợ máy mang quả về xưởng để thầy nghe tiếng trục sai. Sau cùng họ đều cất lại phần vỏ nhẹ, biết âm thanh vừa trả sẽ chẳng quay về đó nữa.",
+    "lore_en": "Dark pine grew around a mountain hollow where calls always returned without their final sound. Roots pierced silver mineral, and its cones grew with unusually tight scales. A gatherer set one by the hearth; his child’s call from the previous day sounded among hollow seeds dropping into the coals.\n\nCultivators found that mineral had entered seeds and scales, letting a cone keep a sound before it finished passing into air. Each cone opens once. A child brought one to a father’s bedside to preserve the calling of their name; mechanics brought cones home so a master could hear a faulty shaft. Afterwards they kept the light shells, knowing the returned sound would never enter them again.",
+    "traits": [
+      {
+        "name_vi": "Vảy ôm âm",
+        "name_en": "Sound-Holding Scales",
+        "description_vi": "Vảy quả khép chặt quanh các hạt rỗng; khi mở, chúng lần lượt dựng lên từ cuống tới đỉnh.",
+        "description_en": "The cone’s scales close tightly around hollow seeds; when opened, they rise in sequence from base to tip."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Buộc tiếng vào quả",
+        "name_en": "Bind Sound in a Cone",
+        "description_vi": "Để quả chín nhận một đoạn âm gần nó rồi giữ kín; hơ ấm hoặc tách vảy để trả nguyên đoạn ấy trong một lần mở.",
+        "description_en": "Let a ripe cone receive a nearby passage of sound and keep it closed; warm it or part its scales to return that passage in one opening."
+      }
+    ],
+    "limits_vi": "Mỗi quả ghi và phát một lần, tám cách dùng là các lựa chọn trên lượt ấy. Âm gần lấn âm xa; tiếng giữ được chỉ chứng minh đã thu một tiếng, danh tính người nói cần căn cứ khác.",
+    "limits_en": "Each cone records and plays once; its eight uses are alternatives within that turn. Near sounds mask distant ones; a retained voice establishes only that a sound was captured, while speaker identity requires other evidence.",
+    "use_vi": "Thu một đoạn âm rồi chọn cách nhả duy nhất của quả cho tín hiệu, đối chiếu hoặc kỷ vật.",
+    "use_en": "Gather a sound and choose a cone’s single release for signalling, comparison or remembrance.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-veilmist-vine",
+    "epigraph_vi": "*“Giàn nho dệt rèm bằng nước tưới.”*",
+    "epigraph_en": "*“The vine weaves curtains from its watering.”*",
+    "lore_vi": "Nho leo kín cửa một kho chứa bình khoáng vỡ. Dịch trong kho thấm ra chân tường, vào rễ, rồi dồn trong các quả trắng xanh chưa bao giờ chín trong. Một sáng người giữ mở cửa, sương trong chùm nho kéo theo bàn tay ông, chăng thành rèm đúng nơi giàn đã che suốt mùa.\n\nNhững dây chiết vẫn dựng sương theo hình cành sống. Nước tưới được nâng lên thành vô số giọt treo, trở về khi rèm rách rồi lại dệt kín khoảng giữa lá. Cả xóm quen cảnh cửa kho mờ trước bình minh, còn người chăm ghi mực nước trong bồn: giàn nho có thể giấu một ô cửa cùng lúc uống cạn phần nước dành cho ngày hôm sau.",
+    "lore_en": "A vine covered the doorway of a store containing broken mineral bottles. Their fluid seeped through the wall into its roots and gathered within green-white grapes that never ripened clear. One morning its keeper opened the door and mist followed his hand from a cluster, hanging as a curtain precisely where the vine had shaded all season.\n\nLayered cuttings still raise mist along their living branches. Irrigation lifts into countless suspended drops, returning after a tear and weaving the gaps between leaves again. The neighbourhood knows the store window clouds before dawn; its carer marks the basin level, for a vine can hide a doorway while drinking tomorrow’s water.",
+    "traits": [
+      {
+        "name_vi": "Quả sương xanh",
+        "name_en": "Blue Mist Grapes",
+        "description_vi": "Quả trắng xanh giữ màu đục qua các mùa, nối với màn bằng những dải giọt nhỏ treo giữa cành.",
+        "description_en": "Blue-white grapes remain cloudy through the seasons, linked to the curtain by strands of suspended droplets between branches."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dệt màn sương",
+        "name_en": "Weave a Mist Curtain",
+        "description_vi": "Dẫn dây sống quanh cửa rồi tưới rễ để giọt nước dệt kín giàn; vật xuyên qua để lại vết rách hiện hình chuyển động.",
+        "description_en": "Train living vines around a doorway and water their roots to weave droplets across the trellis; passing objects leave rents that reveal their movement."
+      }
+    ],
+    "limits_vi": "Cần nước thật và quả còn trên dây. Gió mạnh xé màn; nước đọng làm sắt gỉ, còn người dùng phải nhìn bồn để nhận cây sắp cạn.",
+    "limits_en": "Real water and attached fruit are required. Strong wind tears the curtain; condensation rusts iron, and keepers must watch the basin for depletion.",
+    "use_vi": "Dệt màn sương theo giàn sống để che tầm nhìn gần, giữ ẩm và hiện chuyển động xuyên rèm.",
+    "use_en": "Weave mist along a living trellis to screen nearby views, retain humidity and reveal movement through the curtain.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-needlecompass-tuber",
+    "epigraph_vi": "*“Củ giống giữ một hướng về nhà.”*",
+    "epigraph_en": "*“The seed tuber keeps a homeward bearing.”*",
+    "lore_vi": "Một người vận chuyển giấu củ giống trong hòm quặng để khỏi đóng băng. Đến nơi, củ đã chia thành những múi xám, chồi đỏ ngoặt về vách hòm dù đèn đặt bên kia. Người ta lấy quặng đi; chồi vẫn nghiêng theo chiếc xe khuất dần ngoài cổng.\n\nKhoáng đã để lại trong củ một dấu nguồn, được rễ nuôi như ký ức về nơi từng cho nó qua đêm. Các củ con chỉ giữ mối ấy khi còn liền nhau qua thân mẹ. Người giữ giống gọi đây là cây nhớ nhà. Những kẻ trộn hàng gọi nó bằng tên khác và thường hỏi trước liệu cắt củ ra có khiến nó quên được không.",
+    "lore_en": "A transporter hid seed tubers in an ore chest to keep them from freezing. At arrival they had divided into grey lobes, their red shoots bent towards the chest wall despite a lamp on the other side. The ore was removed; the shoots still leaned after the wagon disappearing beyond the gate.\n\nMineral had left a source mark within the tuber, nourished like a memory of the shelter that had kept it alive. Daughter tubers retain that relationship only while joined through their parent. Seed keepers call it a homesick plant. Ore adulterators use another name and often first ask whether cutting the tuber makes it forget.",
+    "traits": [
+      {
+        "name_vi": "Múi xám chồi đỏ",
+        "name_en": "Grey Lobes, Red Shoots",
+        "description_vi": "Củ tách thành múi xám quanh lõi chung; các chồi đỏ nghiêng cùng hướng dù nguồn sáng đổi chỗ.",
+        "description_en": "The tuber divides into grey lobes around a shared core; red shoots lean together even when the light is moved."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ dấu nguồn",
+        "name_en": "Keep the Source Mark",
+        "description_vi": "Nuôi củ bên một nguồn quặng để chồi giữ hướng về dấu ấy, rồi dùng củ còn liền mẹ đối chiếu các lô và phát hiện nguồn bị trộn.",
+        "description_en": "Raise the tuber beside an ore source so its shoots retain a bearing towards that mark, then use offspring still joined to the parent to compare lots and detect mixed sources."
+      }
+    ],
+    "limits_vi": "Tầm rõ trong một căn nhà nhỏ, yếu qua vách dày. Củ chỉ giữ một nguồn; tách đôi mất dấu và nhiều mảnh cùng nguồn khác phía làm chồi lưỡng lự.",
+    "limits_en": "Its clear reach spans a small house and weakens through thick walls. Each tuber retains one source; halving erases it and same-source fragments in different directions make shoots waver.",
+    "use_vi": "Giữ dấu một nguồn quặng để đối chiếu lô gần, chỉ hướng và phát hiện dấu nguồn bị trộn.",
+    "use_en": "Retain one ore source’s mark to compare nearby lots, indicate direction and detect admixture.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-tidechart-alga",
+    "epigraph_vi": "*“Dòng sông viết tiếp khi người gác ngủ.”*",
+    "epigraph_en": "*“The river keeps writing while its keeper sleeps.”*",
+    "lore_vi": "Tảo bám tấm bản đồ bằng bạc bị chìm trong trạm đo triều. Mực khảm khoáng từ các đường độ sâu rã ra, theo sợi tảo lớn thành những nét bạc mới. Khi nước lên, các nét rời khỏi vị trí khắc cũ, bò ngang mặt lá như một bờ biển đang tự vẽ lại.\n\nNgười gác treo tảo sát kính trong bể thông với cửa sông. Đường bạc đổi chỗ cả lúc ông ngủ, giữ lại những vạch mảnh sau lần nước dâng. Mỗi sáng ông chép phần bản đồ sống ấy rồi gạt cặn khỏi mặt kính, biết một lớp bùn đủ khiến con sông trông như đã đổi tính.",
+    "lore_en": "Algae clung to a silver chart sunk inside a tide station. Mineral-inlaid ink from its depth contours broke apart and grew through the algal threads as new silver lines. When water rose, they left their engraved positions and travelled across the frond like a coast drawing itself anew.\n\nA keeper hung the algae against glass in a tank linked to the estuary. The silver moved while he slept, retaining fine marks after a rise. Each morning he copied this living chart and cleared the glass, knowing a film of mud could make the river appear to have changed its nature.",
+    "traits": [
+      {
+        "name_vi": "Nét bạc di động",
+        "name_en": "Travelling Silver Lines",
+        "description_vi": "Các đường bạc tự rời vị trí cũ trên phiến tảo, để lại vạch mảnh sau từng lượt nước lên.",
+        "description_en": "Silver lines move from their former positions on the blade, leaving fine marks after each rise in water."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vẽ nhịp triều",
+        "name_en": "Draw the Tidal Rhythm",
+        "description_vi": "Nuôi tảo trong bể thông trực tiếp với trạm nước để đường bạc phóng đại dao động mức và áp lực, giữ vạch cho lần đọc kế.",
+        "description_en": "Grow the alga in a tank connected directly to a water station so its silver lines magnify level and pressure changes, retaining marks for the next reading."
+      }
+    ],
+    "limits_vi": "Bể phải thông với nơi đo, có thang chuẩn và được làm sạch. Dòng trong ống tắc cho hình giả; tảo ghi nơi nó tiếp xúc, còn suy rộng ra biển xa cần thêm trạm.",
+    "limits_en": "The tank must connect to the measured site, have a reference scale and remain clean. A blocked connecting pipe gives false figures; the alga records its contact point, while distant seas need additional stations.",
+    "use_vi": "Phóng đại và lưu dao động nước của một trạm thông dòng để theo mức, nhịp và áp lực cục bộ.",
+    "use_en": "Magnify and retain water fluctuations at a connected station to follow local level, rhythm and pressure.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-hearthhush-chrysanthemum",
+    "epigraph_vi": "*“Lá nhận phần lách tách của lửa.”*",
+    "epigraph_en": "*“The leaves receive the crackle of the fire.”*",
+    "lore_vi": "Cúc vàng mọc trong tro bếp nơi một người chép sách giấu mảnh khoáng xám để ủ nghiên mực. Qua nhiều đêm, lá hút nước tro cùng tiếng lửa nổ lách tách. Tới mùa hoa, người chép nhận ra bếp còn sáng mà tiếng đã nhỏ, còn gân lá rung theo đúng phần âm vừa biến mất.\n\nHạt gieo từ cây gốc tiếp tục đón những tiếng nhỏ lặp lại vào mô dày. Mỗi khi chủ khép cửa, lá còn run thêm một lúc như căn phòng đang trả nốt chuyện vừa nghe. Người nuôi gọi nó là hoa giữ yên; họ đặt chậu nghỉ xa phòng ngủ, bởi tiếng được nhả lúc cây mỏi thường tới muộn hơn cơn buồn ngủ của người.",
+    "lore_en": "Yellow chrysanthemums grew in hearth ash where a copyist hid a grey mineral to warm his inkstone. Night after night, their leaves drank ash water with the fire’s crackling. At flowering he noticed the hearth still shone while its sound diminished, and leaf veins trembled with precisely the portion that had vanished.\n\nSeeds retained the ability to receive small repeated sounds into thick tissue. Whenever their owner shut the door, leaves continued trembling as though the room were finishing a story. Growers call it the quiet-keeping flower; resting pots are kept away from bedrooms because sound released by a tired plant often arrives after its keeper’s sleepiness.",
+    "traits": [
+      {
+        "name_vi": "Gân run muộn",
+        "name_en": "Late-Trembling Veins",
+        "description_vi": "Mô lá dày rung theo âm đã thu, thường tiếp tục run sau khi nguồn tiếng bên ngoài dừng.",
+        "description_en": "Thick leaf tissue vibrates with absorbed sound, often continuing after the outside source has stopped."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ yên góc bếp",
+        "name_en": "Quiet the Hearth Corner",
+        "description_vi": "Đặt cúc gần tiếng nhỏ lặp để lá rút bớt âm; chuyển cây ra nơi trống rồi vuốt gân cho phần tiếng được giữ thoát ra.",
+        "description_en": "Place the chrysanthemum beside a small repeated sound to draw it into its leaves; move the plant to an open place and stroke the veins to release what was held."
+      }
+    ],
+    "limits_vi": "Vòng tác dụng hẹp quanh chậu, tiếng lớn vẫn vượt qua. Lá rung lâu sẽ rách; cần một đêm nghỉ và phải chừa chỗ nhả âm thay vì bọc kín cả chậu.",
+    "limits_en": "Its reach is a narrow circle and loud sounds pass through. Long vibration tears leaves; it needs a night’s rest and room to release sound rather than a sealed wrapping.",
+    "use_vi": "Rút bớt tiếng nhỏ lặp trong góc làm việc, cho kiểm riêng các tiếng và nhả phần âm đã giữ vào lúc chọn.",
+    "use_en": "Draw down small repeated sounds around a workspace, isolate noises for examination and release retained sound at a chosen time.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-seamweaving-briar",
+    "epigraph_vi": "*“Gai tìm được hai mép của một chỗ rách.”*",
+    "epigraph_en": "*“The thorns find both edges of a tear.”*",
+    "lore_vi": "Tường vi leo qua mái nhà may bị gió xé, rễ ăn vào đống vải vụn bọc một thoi Vestigium. Suốt mùa ấy, thợ vẫn kéo kim dưới giàn gai. Sang xuân, một tấm bạt tuột khỏi đinh bị cành giữ lại; giữa hai mép rách, những sợi nhựa xanh tự luồn qua nhau rồi thắt nút.\n\nBụi gai được chiết trồng quanh sân phơi. Thợ căng áo buồm thủng giữa các cành, để cây vá những đường dài trong lúc họ sửa chỗ chịu lực. Chiều xuống, sân đầy những cánh buồm mang đường khâu xanh, như một đàn thú vừa mọc lại da.",
+    "lore_en": "The briar climbed across a tailor’s storm-torn roof, its roots feeding on cloth scraps wrapped around a Vestigium shuttle. All season the workers drew their needles beneath its thorns. In spring a loose sheet of canvas caught upon a branch; green resin fibres threaded themselves across its torn edges and knotted together.\n\nCuttings were planted around the drying yard. Sailmakers stretched damaged sails between the branches, letting the plant mend long tears while they repaired the load-bearing seams. By evening the yard filled with sails bearing green stitches, like a herd of creatures newly grown their skins.",
+    "traits": [
+      {
+        "name_vi": "Sợi nhựa sống",
+        "name_en": "Living Resin Thread",
+        "description_vi": "Gai tiết sợi xanh có nút nhỏ đều nhau; đường khâu chuyển vàng khi sợi rời bụi và bắt đầu khô.",
+        "description_en": "Thorns exude green fibres with regularly spaced knots; stitches turn yellow as detached fibres begin to dry."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đan mép",
+        "name_en": "Weave Edges",
+        "description_vi": "Đưa hai mép vật dệt vào cành để gai kéo chúng sát và đan sợi qua chỗ rách theo sức căng.",
+        "description_en": "Present two textile edges to a branch so the thorns draw them together and weave fibres across the tear according to its tension."
+      },
+      {
+        "name_vi": "Dệt mảng",
+        "name_en": "Weave a Patch",
+        "description_vi": "Căng khung giữa các nhánh để bụi đan một tấm lưới sống, làm bạt che hoặc lưới giữ hàng trong lúc còn nối gốc.",
+        "description_en": "Stretch a frame between branches to weave a living mesh, usable as a covering or cargo net while joined to the root."
+      }
+    ],
+    "limits_vi": "Cây cần nước và chất dinh dưỡng để sinh sợi. Sợi rời mục sau vài ngày; gai chỉ nhận vật dệt, đưa da thịt vào khiến nó bị đâm và giữ lại.",
+    "limits_en": "The plant requires water and nutrients to grow thread. Detached fibres rot within days; thorns recognise textiles, and flesh placed among them is pierced and held.",
+    "use_vi": "Đưa hai mép vật dệt vào cành để gai kéo chúng sát và đan sợi qua chỗ rách theo sức căng. Căng khung giữa các nhánh để bụi đan một tấm lưới sống, làm bạt che hoặc lưới giữ hàng trong lúc còn nối gốc.",
+    "use_en": "Present two textile edges to a branch so the thorns draw them together and weave fibres across the tear according to its tension. Stretch a frame between branches to weave a living mesh, usable as a covering or cargo net while joined to the root.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-witnessseal-oak",
+    "epigraph_vi": "*“Lá đỏ giữ điều bàn tay đã mở.”*",
+    "epigraph_en": "*“The red leaf keeps what a hand has opened.”*",
+    "lore_vi": "Sồi non mọc xuyên bản khế ước chôn dưới nền một kho hàng, cạnh chiếc ấn Vestigium đã vỡ. Nhựa theo các nếp giấy vào lá, để mỗi lá lớn lên mang một đường gấp sẵn. Người chủ thử buộc lá quanh miệng hòm; sáng sau, nhựa đỏ chỉ chạy trên đúng đường người học việc đã nạy.\n\nSồi được nuôi giữa sân của phường gửi hàng. Những cành thấp vươn qua vách vào các gian kho, mang lá niêm từng cánh cửa. Mùa thu đến, sân đỏ rực từ những lá đã mở; người trồng giữ các nhánh niêm trong nhà ấm cho tới khi hàng được nhận đủ.",
+    "lore_en": "A young oak grew through a contract buried beneath a warehouse floor beside a broken Vestigium seal. Sap followed the paper’s creases into its leaves, each growing with a fold already formed. The owner tried binding one around a chest; by morning red sap marked precisely where an apprentice had prised it open.\n\nThe oak was raised in a carriers’ guild courtyard. Low branches reached through walls into storerooms, bearing leaves to seal each door. Autumn reddened the yard with leaves that had been opened; the grower kept sealing branches warm indoors until every consignment was received.",
+    "traits": [
+      {
+        "name_vi": "Gân niêm",
+        "name_en": "Sealing Veins",
+        "description_vi": "Lá dày mang một nếp gấp tự nhiên; nhựa đỏ khô thành đường trong suốt như thạch lựu.",
+        "description_en": "Thick leaves bear a natural crease; red sap dries in translucent lines like pomegranate jelly."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Niêm sống",
+        "name_en": "Living Seal",
+        "description_vi": "Gấp lá còn gắn cành quanh chốt hoặc miệng hòm để nó nhận hình kín; lần mở sau làm gân trên chỗ bị tách đỏ vĩnh viễn.",
+        "description_en": "Fold an attached leaf around a latch or chest opening to receive its closed shape; a later opening permanently reddens the veins at the parted point."
+      },
+      {
+        "name_vi": "Truyền vết mở",
+        "name_en": "Carry the Opening Mark",
+        "description_vi": "Cho các lá niêm chung một cành; khi một lá bị mở, giọt nhựa đỏ hiện ở mắt cành tương ứng để người giữ ngoài kho nhận biết.",
+        "description_en": "Use sealing leaves upon one branch; when a leaf is opened, red sap appears at its corresponding branch node for a keeper outside the store to see."
+      }
+    ],
+    "limits_vi": "Lá cần còn cuống và nhựa sống. Va chạm làm bung nếp cũng để dấu; cây ghi sự tách mép, không cho danh tính hay ý định người chạm.",
+    "limits_en": "Leaves need attached stalks and living sap. An accidental unfolding also leaves a mark; the oak records separation, not the identity or intent of the hand.",
+    "use_vi": "Gấp lá còn gắn cành quanh chốt hoặc miệng hòm để nó nhận hình kín; lần mở sau làm gân trên chỗ bị tách đỏ vĩnh viễn. Cho các lá niêm chung một cành; khi một lá bị mở, giọt nhựa đỏ hiện ở mắt cành tương ứng để người giữ ngoài kho nhận biết.",
+    "use_en": "Fold an attached leaf around a latch or chest opening to receive its closed shape; a later opening permanently reddens the veins at the parted point. Use sealing leaves upon one branch; when a leaf is opened, red sap appears at its corresponding branch node for a keeper outside the store to see.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-smokepart-orchid",
+    "epigraph_vi": "*“Khói rẽ như lau trước mũi thuyền.”*",
+    "epigraph_en": "*“Smoke parts like reeds before a prow.”*",
+    "lore_vi": "Hai cụm địa lan mọc hai bên lỗ thông của một lò nhuộm. Bụi khoáng trắng trong thuốc nhuộm bám rễ nhiều năm; cánh mới mọc cong về phía nhau qua luồng khói. Khi ống khói sập, người thợ thấy một đường sáng còn nối hai cụm hoa, còn muội đen trút xuống quanh rễ.\n\nÔng mang lan xuống cầu thang hầm. Cánh dựng lên theo hai hàng, tách khói thành vách cuộn hai bên và để ngọn đèn cuối bậc hiện ra. Từ đó mỗi giàn lan được trồng cùng một rãnh gom bụi; sau một lần mở lối, người chăm xúc khỏi rãnh cả thứ bóng tối vừa có hình để đi qua.",
+    "lore_en": "Two orchid clumps grew on either side of a dye furnace vent. White mineral dust from the dyes coated their roots for years; new petals curved towards one another across the smoke. When the chimney collapsed, a bright lane still joined the flowers while black soot poured around their roots.\n\nThe dyer brought them to the cellar stair. Petals rose in two rows, parting smoke into curling walls and revealing the lamp at the foot of the steps. Each trellis was thereafter planted beside a collecting channel; after a passage was opened, the keeper shovelled out the very darkness through which people had walked.",
+    "traits": [
+      {
+        "name_vi": "Cánh cong đôi",
+        "name_en": "Paired Curving Petals",
+        "description_vi": "Cánh trắng cong vào nhau; những hạt muội hiện rõ như đàn kiến đen trượt xuống gân.",
+        "description_en": "White petals curve towards one another; soot grains show like black ants sliding down their veins."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chia khói",
+        "name_en": "Part Smoke",
+        "description_vi": "Dẫn hai hàng lan dọc lối để cánh đẩy hạt khói sang hai bên, mở đường nhìn và giữ dấu người đang qua.",
+        "description_en": "Train two orchid rows along a passage to drive smoke particles aside, clearing sight and revealing figures passing through."
+      },
+      {
+        "name_vi": "Dẫn muội về rễ",
+        "name_en": "Lead Soot to the Roots",
+        "description_vi": "Cho rễ bám rãnh ướt để cánh đưa hạt đã tách xuống một nơi gom, duy trì lối mở lâu hơn.",
+        "description_en": "Anchor the roots in a wet channel so petals carry separated particles to one collection point, sustaining the open lane."
+      }
+    ],
+    "limits_vi": "Cây chuyển hạt khói; khí độc và thiếu dưỡng khí vẫn còn. Lửa trực tiếp đốt cánh, rãnh đầy khiến muội dội ngược và cây cần được rửa giữa các lượt.",
+    "limits_en": "The plant moves smoke particles; poisonous gases and oxygen shortage remain. Direct flame burns the petals, a full channel drives soot back, and plants need washing between uses.",
+    "use_vi": "Dẫn hai hàng lan dọc lối để cánh đẩy hạt khói sang hai bên, mở đường nhìn và giữ dấu người đang qua. Cho rễ bám rãnh ướt để cánh đưa hạt đã tách xuống một nơi gom, duy trì lối mở lâu hơn.",
+    "use_en": "Train two orchid rows along a passage to drive smoke particles aside, clearing sight and revealing figures passing through. Anchor the roots in a wet channel so petals carry separated particles to one collection point, sustaining the open lane.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-bridge-thread-shrub",
+    "epigraph_vi": "*“Rễ chạm được bờ bên kia trước bàn chân.”*",
+    "epigraph_en": "*“Roots reach the far bank before a foot.”*",
+    "lore_vi": "Cây mọc trên hai mố cầu sập, hạt gốc mắc trong sợi chão quấn đá Vestigium. Mỗi mùa nước lên, rễ nổi vươn tìm phần gỗ còn lại ở bờ đối diện. Người đốn củi kéo một sợi sang cọc; cả bụi lập tức căng lại, chia sức kéo qua những đốt sáng như một bàn tay mở ngón.\n\nNgười làng nuôi rễ qua khe suối, cho chúng bện dày qua nhiều mùa rồi đắp mặt đi bằng ván. Cây vẫn nằm trên bờ trong một vòng đất ẩm. Ai sửa cầu đều phải xuống chăm gốc trước; bên dưới bước chân họ, nhịp sống của một bụi cây đang giữ hai phần đất liền nhau.",
+    "lore_en": "The shrub grew upon two ruined bridge abutments, its first seed caught in rope wound about a Vestigium stone. Each high-water season its aerial roots sought the remaining timber across the gap. A woodcutter pulled one strand to a post; the whole shrub tightened at once, distributing the pull through luminous joints like an opening hand.\n\nVillagers trained roots across the stream, letting them braid thickly through several seasons before laying planks over them. The shrub remained on the bank in a ring of damp soil. Every bridge repair began with tending its base; beneath their feet, one shrub’s living pulse held two pieces of land together.",
+    "traits": [
+      {
+        "name_vi": "Đốt chia lực",
+        "name_en": "Load-Sharing Joints",
+        "description_vi": "Rễ nổi có đốt sáng nối thành các bó đan chéo; vạch nhạt chạy dọc bó đang chịu tải.",
+        "description_en": "Aerial roots bear luminous joints in crossing bundles; pale lines run along a bundle under load."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Bắc sợi",
+        "name_en": "Span the Gap",
+        "description_vi": "Dẫn một rễ sống tới điểm neo bên kia để bụi tự căng và sinh thêm sợi quanh đường nối.",
+        "description_en": "Guide a living root to an anchor across a gap so the shrub tensions it and grows more strands about the link."
+      },
+      {
+        "name_vi": "Chia tải",
+        "name_en": "Share the Load",
+        "description_vi": "Cho nhiều bó cùng chạm mặt đỡ để lực dồn lên một chỗ được truyền qua các đốt tới những neo khác.",
+        "description_en": "Bring several bundles into contact with a deck so force on one point passes through the joints to other anchors."
+      }
+    ],
+    "limits_vi": "Bề rộng và tải phụ thuộc tuổi bụi, số bó rễ cùng độ chắc của neo. Cây mất nước sẽ nhả sức căng nhanh; rễ bị đốt hoặc chặt không mọc bù kịp giữa lúc chịu tải.",
+    "limits_en": "Span and load depend on age, root bundles and anchor strength. Dehydration quickly releases tension; burned or severed roots cannot regrow during a crossing.",
+    "use_vi": "Dẫn một rễ sống tới điểm neo bên kia để bụi tự căng và sinh thêm sợi quanh đường nối. Cho nhiều bó cùng chạm mặt đỡ để lực dồn lên một chỗ được truyền qua các đốt tới những neo khác.",
+    "use_en": "Guide a living root to an anchor across a gap so the shrub tensions it and grows more strands about the link. Bring several bundles into contact with a deck so force on one point passes through the joints to other anchors.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-turningbell-flower",
+    "epigraph_vi": "*“Tiếng chuông nở ở phía chiếc lá được gọi.”*",
+    "epigraph_en": "*“The bell blooms on the side of the summoned leaf.”*",
+    "lore_vi": "Hoa chuông mọc trong khe quả chuông nứt, nơi người thợ đã đóng một nêm khoáng để đổi hướng tiếng. Rễ uống nước đọng qua nêm; các lá mang gân xoắn giống đường sóng trên đồng. Khi chuông bị tháo khỏi tháp, tiếng búa vẫn vang ngoài cửa sổ mỗi lần người thợ chạm lá hướng ấy.\n\nÔng trồng hoa quanh sân gọi thợ. Người đứng dưới mái gửi tiếng vào đài, người trên giàn giáo nghe nó nở ngay cạnh lá gần mình. Những ngày có gió, cả sân trông như im lặng cho đến khi một bông chuông duy nhất gọi đúng người cần nghe.",
+    "lore_en": "The bellflower grew in the crack of a bell where its maker had driven a mineral wedge to turn the sound. Its roots drank water pooled through the wedge; spiral veins formed in the leaves like waves across bronze. After the bell left the tower, hammer blows still rang outside whichever window the maker touched a leaf towards.\n\nHe planted the flowers around a workers’ yard. A person beneath the roof spoke into the calyx, and someone on the scaffold heard the sound bloom beside the nearest leaf. On windy days the yard seemed silent until a single flower called precisely where it was needed.",
+    "traits": [
+      {
+        "name_vi": "Gân xoắn hướng âm",
+        "name_en": "Spiral Sound Veins",
+        "description_vi": "Gân chạy xoắn từ đài tới từng lá; lá nhận hướng mở rộng như một tai nhỏ.",
+        "description_en": "Veins spiral from the calyx to each leaf; a leaf receiving a bearing opens like a little ear."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi qua lá",
+        "name_en": "Call through a Leaf",
+        "description_vi": "Chạm một lá rồi đưa âm ngắn vào đài để tiếng thoát về phía lá ấy, vượt qua tiếng nền ở các hướng khác.",
+        "description_en": "Touch a leaf and feed a brief sound into the calyx to send it towards that leaf, passing background noise in other directions."
+      },
+      {
+        "name_vi": "Đổi cửa tiếng",
+        "name_en": "Change the Sound Door",
+        "description_vi": "Vuốt sang lá khác trong khoảng nghỉ để chuyển nơi âm kế tiếp hiện ra mà đài hoa vẫn đứng yên.",
+        "description_en": "Stroke another leaf during a pause to change where the next sound emerges while the calyx remains still."
+      }
+    ],
+    "limits_vi": "Hoa giữ từng đoạn ngắn và cần khoảng nghỉ để gân hồi. Nhiều lá cùng bị chạm chia tiếng thành mảnh; tiếng quá mạnh làm rách nhụy.",
+    "limits_en": "The flower holds brief passages and needs pauses for its veins to recover. Simultaneous touches split the sound; excessive volume tears the stamens.",
+    "use_vi": "Chạm một lá rồi đưa âm ngắn vào đài để tiếng thoát về phía lá ấy, vượt qua tiếng nền ở các hướng khác. Vuốt sang lá khác trong khoảng nghỉ để chuyển nơi âm kế tiếp hiện ra mà đài hoa vẫn đứng yên.",
+    "use_en": "Touch a leaf and feed a brief sound into the calyx to send it towards that leaf, passing background noise in other directions. Stroke another leaf during a pause to change where the next sound emerges while the calyx remains still.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-pulsebreak-reed",
+    "epigraph_vi": "*“Đốt trúc khép lại trước cơn xung.”*",
+    "epigraph_en": "*“The reed joints close before the surge.”*",
+    "lore_vi": "Ngọc trúc mọc quanh đường dây của một guồng bơm mang lõi Vestigium. Mỗi lần van kẹt, xung dội làm bụi trúc sáng từng đốt từ dưới lên. Người thợ thay dây thấy một sợi rễ đã chui vào đầu nối, bọc phần khoáng bằng mô trắng; phía trên nó, các đốt già mang vòng đen như mắt gỗ cháy.\n\nÔng nuôi cả hàng dọc đường dẫn vào xưởng. Khi nguồn bùng quá mạnh, thân trúc khép các khoang theo thứ tự, cắt ngọn xung thành những lượt nhỏ trước khi nhả về guồng. Sau một lần cứu máy, hàng lá vẫn xanh, còn một thân giữa bụi đã hóa đen tới ngọn.",
+    "lore_en": "The reed grew around the wiring of a Vestigium-cored pump. Whenever a valve jammed, the returning surge lit its joints from base to tip. Replacing the wire, a mechanic found a root inside the coupling, wrapping the mineral in white tissue; above it, old joints bore black rings like scorched wood knots.\n\nHe grew a row along the workshop feed. When the source flared, its chambers closed in sequence, dividing the peak into smaller turns before releasing them to the wheel. After saving the machinery, the leaves remained green while one stem at the row’s heart had blackened to its tip.",
+    "traits": [
+      {
+        "name_vi": "Khoang xung",
+        "name_en": "Surge Chambers",
+        "description_vi": "Thân chia khoang bằng màng trắng; đốt đã tiêu hao giữ vòng đen rõ ngay cả khi lá phía trên còn xanh.",
+        "description_en": "White membranes divide the stem into chambers; spent joints retain black rings even beneath green leaves."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chặn đỉnh",
+        "name_en": "Arrest the Peak",
+        "description_vi": "Quấn đường dẫn sát thân sống để các đốt nhận đỉnh xung Vestigium và hãm nó bằng cách khép khoang lần lượt.",
+        "description_en": "Wrap a conduit against the living stem so its joints receive a Vestigium surge peak and arrest it by closing chambers in sequence."
+      },
+      {
+        "name_vi": "Nhả theo đốt",
+        "name_en": "Release by Joint",
+        "description_vi": "Mở các mắt còn sáng từ thấp lên cao để phần xung đã giữ thoát thành những lượt nhỏ hơn vào đường dẫn.",
+        "description_en": "Open surviving bright nodes from bottom to top to release stored impulse into the conduit in smaller turns."
+      }
+    ],
+    "limits_vi": "Sức giữ tùy số đốt sống và nguồn cây đã quen. Xung vượt sức làm thân vỡ; đốt cháy cần mùa mới mọc bù và dây dẫn phải còn tiếp xúc liên tục.",
+    "limits_en": "Capacity depends on living joints and the source the plant knows. Excessive surges burst the stem; spent joints take a season to replace and the conduit must remain in continuous contact.",
+    "use_vi": "Quấn đường dẫn sát thân sống để các đốt nhận đỉnh xung Vestigium và hãm nó bằng cách khép khoang lần lượt. Mở các mắt còn sáng từ thấp lên cao để phần xung đã giữ thoát thành những lượt nhỏ hơn vào đường dẫn.",
+    "use_en": "Wrap a conduit against the living stem so its joints receive a Vestigium surge peak and arrest it by closing chambers in sequence. Open surviving bright nodes from bottom to top to release stored impulse into the conduit in smaller turns.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-retracing-inkcap",
+    "epigraph_vi": "*“Nấm lần theo đường nước đã lấy chữ đi.”*",
+    "epigraph_en": "*“The fungus follows the path by which water carried writing away.”*",
+    "lore_vi": "Nấm mực mọc trên bè sách bị ngập, sợi xuyên qua trang giấy có bột Vestigium trong mực. Nước đã kéo chữ xuống đáy gáy; mũ nấm lớn lên lại có những nét đen chạy từ vành về tâm. Người đóng sách đặt một trang vào dưới mũ, thấy dịch từ các nét bò ngược theo vết thấm, trả một cái tên về đúng dòng.\n\nÔng giữ bè sách thành vườn nấm nhỏ sau xưởng. Những trang được cứu phơi thành hàng, mỗi trang còn một quầng nước nhạt quanh chữ. Người tới nhận sách thường đứng đọc rất lâu ở cửa, như cần chắc rằng điều vừa trở về vẫn sẽ ở đó khi mình chớp mắt.",
+    "lore_en": "Inkcap grew upon a raft of flooded books, its threads piercing paper whose ink contained Vestigium powder. Water had dragged words into the bindings; the growing caps bore black strokes running from rim to centre. A bookbinder placed a page beneath one and watched fluid crawl back along the seepage, returning a name to its proper line.\n\nHe kept the book raft as a small fungus garden behind his workshop. Rescued sheets dried in rows, each bearing a pale water halo around the writing. Those collecting their books often read a long while at the door, as though to be sure what had returned would remain when they blinked.",
+    "traits": [
+      {
+        "name_vi": "Mũ vân chữ",
+        "name_en": "Script-Veined Cap",
+        "description_vi": "Vân đen chạy từ vành về tâm như mực bị hút ngược; dịch dưới mũ trong hơn dịch ở mép.",
+        "description_en": "Black lines run from rim to centre like ink drawn backwards; fluid beneath the cap is clearer than that at its edges."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hồi nét",
+        "name_en": "Return the Stroke",
+        "description_vi": "Đặt giấy còn vết thấm dưới mũ để dịch dẫn sắc tố sót về đường cũ, gọi lại phần chữ bị nước kéo rời.",
+        "description_en": "Place paper with surviving seepage beneath the cap so its fluid guides remaining pigment back along the former strokes."
+      },
+      {
+        "name_vi": "Tách lớp loang",
+        "name_en": "Part the Stain Layers",
+        "description_vi": "Cho dịch trong từ tâm đi trước để các vệt loang khác độ sâu nổi lần lượt, giúp tách dòng chồng trên giấy dày.",
+        "description_en": "Lead with clear fluid from the centre to raise stains at different depths in sequence, helping separate overlapping lines on thick paper."
+      }
+    ],
+    "limits_vi": "Chỉ lần được sắc tố còn trong giấy. Giấy mục có thể rách theo dòng dịch; tưới quá tay dồn chữ thành một mảng và mực khác loại có thể bị kéo lẫn.",
+    "limits_en": "Only pigment remaining in the paper can be followed. Rotten paper may tear along the fluid’s course; excess merges writing into a stain and different inks may be drawn together.",
+    "use_vi": "Đặt giấy còn vết thấm dưới mũ để dịch dẫn sắc tố sót về đường cũ, gọi lại phần chữ bị nước kéo rời. Cho dịch trong từ tâm đi trước để các vệt loang khác độ sâu nổi lần lượt, giúp tách dòng chồng trên giấy dày.",
+    "use_en": "Place paper with surviving seepage beneath the cap so its fluid guides remaining pigment back along the former strokes. Lead with clear fluid from the centre to raise stains at different depths in sequence, helping separate overlapping lines on thick paper.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-longnight-cedar",
+    "epigraph_vi": "*“Mùa hè nằm cuộn trong vòng gỗ.”*",
+    "epigraph_en": "*“Summer lies coiled within the wood.”*",
+    "lore_vi": "Tuyết tùng bén rễ qua vòm một nhà tắm bỏ hoang, ôm chiếc bồn đá Vestigium từng giữ nước nóng. Suốt nhiều mùa nắng, rễ hút hơi ấm từ nền đá; tới mùa tối đầu tiên sau khi mái sập, tuyết quanh thân tan thành một khoảng khô. Người tìm củi bổ thử một vết, thấy bên trong sáng vàng như có buổi chiều nằm dưới vỏ.\n\nHọ giữ cây và dựng nhà quanh tán. Qua mỗi mùa sáng, nó cuộn nhiệt vào những vòng mới; lúc mùa rét dài tới, các vòng mở dần từ ngoài vào trong. Người trong nhà nghe gỗ ngân trầm trước khi hơi ấm đổi lượt, đo thời gian trú đông bằng tiếng một khu rừng đang chậm rãi thở ra.",
+    "lore_en": "The cedar rooted through the vault of an abandoned bathhouse, embracing the Vestigium stone basin that had once held hot water. Through sunny seasons its roots drew warmth from the floor; in the first dark season after the roof fell, snow melted to a dry ring around the trunk. A wood-gatherer cut a notch and found gold shining within, as though an afternoon lay beneath the bark.\n\nThey spared it and built around its crown. Each bright season it coiled heat into new rings; through the long cold, these opened from outside inward. The household heard a low wooden note before the warmth changed turns, measuring their winter shelter by the sound of a forest slowly breathing out.",
+    "traits": [
+      {
+        "name_vi": "Vòng hổ phách",
+        "name_en": "Amber Rings",
+        "description_vi": "Vòng đã nạp có ánh vàng dưới vỏ mỏng; thân ngân một âm trầm khi nhiệt đổi sang vòng kế.",
+        "description_en": "Charged rings glow gold beneath thin bark; the trunk hums a low note when warmth passes to the next ring."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cuộn mùa ấm",
+        "name_en": "Coil the Warm Season",
+        "description_vi": "Cho rễ nhận nền nóng và tán nhận nắng trong mùa sáng để cây xếp nhiệt thành các vòng dự trữ sâu trong thân.",
+        "description_en": "Let roots receive warm ground and the crown receive sunshine during the bright season to layer heat in reserves deep within the trunk."
+      },
+      {
+        "name_vi": "Mở mùa trong gỗ",
+        "name_en": "Unfold the Season in Wood",
+        "description_vi": "Vuốt nhựa trên thân xuống một rễ dẫn để cây nhả phần nhiệt đã giữ vào nền nhà và luống quanh mạng rễ qua nhiều tuần.",
+        "description_en": "Stroke sap down the trunk towards a guiding root to release stored heat into the floor and beds around the roots over many weeks."
+      }
+    ],
+    "limits_vi": "Lượng nhiệt phụ thuộc phần đã nạp qua mùa trước. Chặt thân phá các vòng chứa, rễ bị úng mất đường nhả và cây cạn cần cả mùa sáng để hồi.",
+    "limits_en": "Heat depends on the previous season’s charge. Cutting breaks the storage rings, waterlogged roots lose their release paths, and an exhausted tree needs a bright season to recover.",
+    "use_vi": "Cho rễ nhận nền nóng và tán nhận nắng trong mùa sáng để cây xếp nhiệt thành các vòng dự trữ sâu trong thân. Vuốt nhựa trên thân xuống một rễ dẫn để cây nhả phần nhiệt đã giữ vào nền nhà và luống quanh mạng rễ qua nhiều tuần.",
+    "use_en": "Let roots receive warm ground and the crown receive sunshine during the bright season to layer heat in reserves deep within the trunk. Stroke sap down the trunk towards a guiding root to release stored heat into the floor and beds around the roots over many weeks.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-scentmemory-rose",
+    "epigraph_vi": "*“Một ngày đã đi qua vẫn còn những cửa hương.”*",
+    "epigraph_en": "*“A vanished day still has doors of scent.”*",
+    "lore_vi": "Bụi hồng mọc quanh thùng dầu thơm khảm Vestigium bị chôn dưới vườn cũ. Rễ ăn qua các lớp sáp vốn niêm hương từng vụ; cánh nở cũng xếp thành từng tầng kín. Trong lần đầu cắt tỉa, người trồng gõ kéo lên thành thùng và ngửi thấy cơn mưa buổi sớm, khói bếp trưa rồi mùi táo vừa bổ, theo đúng thứ tự ngày hôm trước.\n\nÔng để hoa nhận hương khu vườn suốt một ngày, rồi mang cây vào gian tối. Theo nhịp gõ, các lớp hương mở thành từng miền đứng trong phòng; bước qua mỗi miền là đi từ vườn ướt tới nhà bếp, từ bóng trưa tới mùi đất tối. Những người trông vườn bắt đầu giữ mùa bằng hoa còn sống, mỗi mùa có một cách gõ để trở về.",
+    "lore_en": "The rose grew around a buried perfume cask inlaid with Vestigium. Roots pierced wax layers that had sealed the scent of each harvest; its petals likewise flowered in closed tiers. While pruning, the grower tapped his shears against the cask and smelled morning rain, midday smoke and a newly cut apple, in the precise order of the day before.\n\nHe let a bloom receive the garden’s scents through a day, then carried it indoors. At a tapping rhythm, the scent layers opened into separate regions of the dark room; crossing them meant travelling from wet garden to kitchen, from noon shade to evening earth. Garden keepers began preserving seasons in living flowers, each with its own rhythm of return.",
+    "traits": [
+      {
+        "name_vi": "Tầng hương kín",
+        "name_en": "Sealed Scent Tiers",
+        "description_vi": "Cánh xếp thành các tầng tuyến thơm đổi màu, mỗi tầng giữ ranh hương riêng ngay cả khi hoa đã khép.",
+        "description_en": "Petals form tiers of colour-changing scent glands, each retaining its own scent boundary even when the flower closes."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gói một ngày",
+        "name_en": "Wrap a Day",
+        "description_vi": "Cho hoa mở từ sáng tới tối để các tầng nhận thứ tự hương đi qua, giữ một ngày bằng những lớp mùi có thể gọi riêng.",
+        "description_en": "Let a flower stand open from morning to night so its tiers receive passing scents in order, keeping a day in separately callable layers."
+      },
+      {
+        "name_vi": "Dựng vườn hương",
+        "name_en": "Raise the Scent Garden",
+        "description_vi": "Gõ nhịp đã dạy để hoa trải các lớp thành những miền hương kề nhau quanh cây, cho người bước lần theo thứ tự chúng đã được nhận.",
+        "description_en": "Tap the learned rhythm to spread the layers into neighbouring scent regions around the plant, allowing people to walk their received sequence."
+      }
+    ],
+    "limits_vi": "Hoa chỉ giữ những mùi đã tới cánh và có thể giữ cả mùi độc. Hương chồng khó tách; mở lại nhiều lần làm từng tầng nhạt đi, còn đổi nhịp sai đảo đường vào các lớp.",
+    "limits_en": "The flower holds only scents that reached its petals and may retain harmful ones. Overlapping scents are hard to divide; repeated openings fade each tier, and a mistaken rhythm changes the route through them.",
+    "use_vi": "Cho hoa mở từ sáng tới tối để các tầng nhận thứ tự hương đi qua, giữ một ngày bằng những lớp mùi có thể gọi riêng. Gõ nhịp đã dạy để hoa trải các lớp thành những miền hương kề nhau quanh cây, cho người bước lần theo thứ tự chúng đã được nhận.",
+    "use_en": "Let a flower stand open from morning to night so its tiers receive passing scents in order, keeping a day in separately callable layers. Tap the learned rhythm to spread the layers into neighbouring scent regions around the plant, allowing people to walk their received sequence.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-silent-silver-willow",
+    "epigraph_vi": "*“Dưới liễu, tiếng sông chảy thành bạc.”*",
+    "epigraph_en": "*“Beneath the willow, the river’s voice runs silver.”*",
+    "lore_vi": "Liễu mọc bên cửa cống lắp một trục Vestigium để hạ tiếng guồng. Rễ ôm trục đã gãy nhiều năm, cành càng dài dòng nước càng im. Một đêm cành quét mặt sông, người chèo thuyền thấy những vệt bạc nổi thành vòng, rồi tiếng guồng từ mùa trước ngân lên từ cả mặt nước.\n\nNgười trồng dẫn cành thành vòm qua bến. Ban ngày, tiếng búa và chân ngựa lắng vào lá, để một khoảng yên mở giữa thành phố; tới giờ xả, họ thả các đầu cành xuống một hồ riêng. Nước bạc cuộn lên thành những ngọn sóng có tiếng, mang cả ngày ồn ào đi vòng trong hồ cho tới khi đêm mòn hết.",
+    "lore_en": "The willow grew beside a sluice fitted with a Vestigium axle to hush its wheel. Roots embraced the broken axle for years; as branches lengthened, the stream grew quieter. One night a branch swept the river, and a boatman saw silver rings rise before the old wheel’s voice sounded from the whole surface.\n\nGrowers trained its branches into a vault above the landing. By day, hammer blows and hoofbeats settled into the leaves, opening quiet within the city; at release time they lowered the branch tips into a separate pool. Silver water curled into sounding waves, carrying the noisy day in circles until the night had worn it away.",
+    "traits": [
+      {
+        "name_vi": "Âm thành gợn",
+        "name_en": "Sound Becomes Ripples",
+        "description_vi": "Lá bạc mang các đường gợn nổi thay cho gân thẳng; cành đầy âm rủ thấp dù trời đứng gió.",
+        "description_en": "Silver leaves bear raised ripples instead of straight veins; sound-laden branches droop even in still air."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Trồng vòm lặng",
+        "name_en": "Grow a Quiet Vault",
+        "description_vi": "Cho cành liền rễ bao quanh một khoảng để rung âm đi vào lá, tạo miền yên dưới tán đang sống.",
+        "description_en": "Surround a space with rooted branches to draw sound vibration into the leaves, creating quiet beneath the living crown."
+      },
+      {
+        "name_vi": "Trả tiếng xuống hồ",
+        "name_en": "Return Voices to the Pool",
+        "description_vi": "Hạ đầu cành xuống nước để phần âm đã nhận thoát thành sóng bạc, hoặc dồn nhiều cành cho một đợt sóng mạnh.",
+        "description_en": "Lower branch tips into water to release held sound as silver waves, or gather several branches for a stronger wave."
+      }
+    ],
+    "limits_vi": "Tán chỉ giữ âm tới được nó và có sức chứa theo lá sống. Cành gãy trả âm tại chỗ; hồ xả dội tiếng trở lại nơi có bờ cứng và cây cần một khoảng ngủ sau khi cạn.",
+    "limits_en": "The crown holds only sound that reaches it, with capacity set by living leaves. Broken branches release sound locally; hard banks reflect the discharge, and the tree needs sleep after emptying.",
+    "use_vi": "Cho cành liền rễ bao quanh một khoảng để rung âm đi vào lá, tạo miền yên dưới tán đang sống. Hạ đầu cành xuống nước để phần âm đã nhận thoát thành sóng bạc, hoặc dồn nhiều cành cho một đợt sóng mạnh.",
+    "use_en": "Surround a space with rooted branches to draw sound vibration into the leaves, creating quiet beneath the living crown. Lower branch tips into water to release held sound as silver waves, or gather several branches for a stronger wave.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-lightpart-iris",
+    "epigraph_vi": "*“Ánh sáng đi qua hoa mang theo những con đường.”*",
+    "epigraph_en": "*“Light passes through the flower bearing roads.”*",
+    "lore_vi": "Diên vĩ nảy từ một khe tháp đèn, nơi bột lăng kính Vestigium rơi suốt nhiều năm. Trong đêm sương đặc, người gác thấy các dải màu của hoa tiếp tục chạy qua vách đá rồi uốn ra biển. Một chiếc thuyền đi vào dải vàng bỗng hiện rõ dưới chân tháp, dù nó còn ngoài tầm đèn.\n\nNgười giữ tháp học cách xoay từng cánh để những dải sáng nhận các lối nhìn khác nhau. Họ trải ánh lên bản đồ, thấy mỏm đá sau lưng mình và cửa vịnh khuất cùng nằm trong một vòng màu. Vào đêm có thuyền về, tháp mở hoa về bờ, cho người đi biển theo dải sáng cong qua sương như theo một con đường treo.",
+    "lore_en": "The iris sprouted in a lighthouse crack where Vestigium prism dust had fallen for years. On a fogbound night the keeper saw its coloured bands continue through stone and curl out to sea. A boat entering the gold band appeared clearly at the tower’s foot although it remained beyond the lamp’s reach.\n\nKeepers learned to turn each petal so its light bands received different lines of sight. Spread over a chart, they showed the headland behind the tower and the hidden harbour mouth within one ring of colour. On returning nights the flowers opened shorewards, letting sailors follow curved light through fog like a suspended road.",
+    "traits": [
+      {
+        "name_vi": "Dải sáng có bờ",
+        "name_en": "Light with Edges",
+        "description_vi": "Các dải màu giữ mép sắc và uốn theo cánh; vật đi vào dải hiện bóng ở tâm hoa.",
+        "description_en": "Colour bands keep sharp edges and bend with the petals; objects entering a band cast an image at the flower’s centre."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Bẻ lối nhìn",
+        "name_en": "Bend the Sightline",
+        "description_vi": "Xoay cánh dưới nguồn sáng Vestigium để gửi dải màu vòng qua một góc khuất và đưa hình trên đường dải về tâm.",
+        "description_en": "Turn petals beneath Vestigium light to send a colour band around an obstruction and return images along its path to the centre."
+      },
+      {
+        "name_vi": "Dệt đường quang",
+        "name_en": "Weave a Light Road",
+        "description_vi": "Cho nhiều dải nối mép nhau thành đường sáng cong, đánh dấu một lối đi qua sương hoặc dẫn mắt dọc bờ hiểm.",
+        "description_en": "Join several bands edge to edge into a curved light road, marking passage through fog or guiding sight along a dangerous coast."
+      }
+    ],
+    "limits_vi": "Dải cần đường liên tục trong không khí hoặc nước trong; vật chắn đặc cắt đường đang đi qua. Nguồn sáng yếu làm hình nhòe, ánh quá mạnh làm cánh đục và các dải chồng gây lẫn hình.",
+    "limits_en": "Bands need a continuous path through air or clear water; solid barriers cut a path crossing them. Weak light blurs images, excessive light clouds petals, and overlapping bands confuse views.",
+    "use_vi": "Xoay cánh dưới nguồn sáng Vestigium để gửi dải màu vòng qua một góc khuất và đưa hình trên đường dải về tâm. Cho nhiều dải nối mép nhau thành đường sáng cong, đánh dấu một lối đi qua sương hoặc dẫn mắt dọc bờ hiểm.",
+    "use_en": "Turn petals beneath Vestigium light to send a colour band around an obstruction and return images along its path to the centre. Join several bands edge to edge into a curved light road, marking passage through fog or guiding sight along a dangerous coast.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-waterlock-lotus",
+    "epigraph_vi": "*“Mặt hồ có thể mở ra thành một con đường.”*",
+    "epigraph_en": "*“The lake surface can unfold into a road.”*",
+    "lore_vi": "Sen bén ngó quanh chiếc neo Vestigium ở đáy một hồ sâu. Mỗi khi nước dâng, lá vẫn đứng đúng một mặt ngang; thuyền kéo neo khiến cả một khoảng nước nhấc lên như tấm lụa trong. Người chèo đặt mái chèo lên đó và thấy nó nằm yên, còn bóng cá vẫn bơi phía dưới.\n\nNgó sen được dẫn dọc hai bờ. Các lá mở nối nhau thành những phiến nước chịu bước người, trong suốt tới mức đoàn đưa dâu tưởng mình đi qua bầu trời lộn ngược. Người giữ hồ đi cuối, chạm cuống cho đường mềm lại từng đoạn; sau gót ông, cá tiếp tục đi qua chỗ những bánh xe vừa lăn.",
+    "lore_en": "The lotus rooted around a Vestigium anchor at the bottom of a deep lake. Each rising tide left its leaves upon the same level; hauling the anchor lifted a patch of water like clear silk. A boatman laid his oar upon it and watched it rest while fish still swam below.\n\nRhizomes were trained between the banks. The leaves joined their openings into water plates that bore human steps, so clear that a bridal party felt they crossed an inverted sky. The lake keeper came last, touching stalks to soften the road section by section; behind his heels fish passed where wheels had just rolled.",
+    "traits": [
+      {
+        "name_vi": "Phiến nước trong",
+        "name_en": "Clear Water Plates",
+        "description_vi": "Bên dưới mỗi lá có một phiến nước giữ mặt phẳng, mép hiện gợn tròn khi tải di chuyển.",
+        "description_en": "A level water plate lies beneath each leaf, with circular ripples at its edges as loads move."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khóa mặt hồ",
+        "name_en": "Lock the Lake Surface",
+        "description_vi": "Vuốt gân lá tới cuống để lớp nước bên dưới nhận độ cứng, chịu tải trên mặt trong khi nước sâu vẫn chảy.",
+        "description_en": "Stroke the leaf veins towards the stalk to harden the water beneath, bearing surface loads while deeper water continues to flow."
+      },
+      {
+        "name_vi": "Nối đường sen",
+        "name_en": "Join the Lotus Road",
+        "description_vi": "Cho các phiến của cùng mạng ngó chạm mép để lực đi qua chúng, bắc đường trong suốt giữa các điểm bờ đã neo.",
+        "description_en": "Bring plates belonging to one rhizome network edge to edge to distribute force, spanning a transparent road between anchored banks."
+      }
+    ],
+    "limits_vi": "Tải theo số lá trưởng thành và rễ bám đáy. Sóng vượt mép phiến, ngó đứt hoặc lá khép làm đoạn đường trở về nước; cây phải nghỉ giữa những lượt tải lớn.",
+    "limits_en": "Capacity depends on mature leaves and bottom anchorage. Waves overtopping a plate, severed rhizomes or closed leaves return a section to water; the plant must rest between heavy loads.",
+    "use_vi": "Vuốt gân lá tới cuống để lớp nước bên dưới nhận độ cứng, chịu tải trên mặt trong khi nước sâu vẫn chảy. Cho các phiến của cùng mạng ngó chạm mép để lực đi qua chúng, bắc đường trong suốt giữa các điểm bờ đã neo.",
+    "use_en": "Stroke the leaf veins towards the stalk to harden the water beneath, bearing surface loads while deeper water continues to flow. Bring plates belonging to one rhizome network edge to edge to distribute force, spanning a transparent road between anchored banks.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-crackreading-thorn",
+    "epigraph_vi": "*“Đá nghe thấy đường vỡ trước tiếng búa.”*",
+    "epigraph_en": "*“Stone hears its breaking path before the hammer.”*",
+    "lore_vi": "Cây gai mọc trên chiếc nêm đá của một mỏ đã bỏ. Nêm mang khoáng Vestigium, còn rễ lần mãi theo những khe sâu trong vách. Người thợ nhổ một gai cắm lên phiến đá thì nghe từ gốc một tiếng ngân kéo dài; vết sáng mảnh chạy trong đá, vẽ đúng đường phiến sẽ tách khi bị đục.\n\nHọ mang cả bụi tới đập nước đang rạn. Gai dựng thành những đường trắng trên mặt tường, một số dừng ở vữa, một số đi sâu dưới lòng sông. Thợ xây chèn chống theo đường ấy rồi mở một vết xả có chủ đích. Dòng nước chảy khỏi khe được chọn, để phần tường còn lại đứng qua mùa lũ.",
+    "lore_en": "The thorn grew upon a stone wedge in an abandoned quarry. The wedge held Vestigium, and roots followed deep fissures through the rock. A worker pressed a thorn to a slab and heard a long note from the shrub’s base; a fine light drew within the stone the precise path by which it would part under a chisel.\n\nThey brought the whole shrub to a cracking dam. White lines rose upon its wall, some stopping in mortar and others descending beneath the river. Masons braced those paths, then opened a deliberate spill. Water escaped through the chosen fracture, leaving the remaining wall standing through the flood season.",
+    "traits": [
+      {
+        "name_vi": "Gai ngân đá",
+        "name_en": "Stone-Singing Thorns",
+        "description_vi": "Gai trong có lõi trắng, ngân khác âm trên từng chất liệu; những rễ nhỏ luôn chọn khe để lớn.",
+        "description_en": "Clear thorns have white cores and sing different notes upon different materials; their fine roots always choose cracks for growth."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đọc mạch vỡ",
+        "name_en": "Read the Fracture Veins",
+        "description_vi": "Áp gai sống lên vật rắn để các khe kín cùng đường có thể vỡ hiện thành vân sáng nối về chỗ chạm.",
+        "description_en": "Press a living thorn against a solid to reveal concealed cracks and possible breaking paths as luminous veins returning to the contact."
+      },
+      {
+        "name_vi": "Dẫn đường tách",
+        "name_en": "Guide the Parting",
+        "description_vi": "Giữ một hàng gai dọc đường đã đọc để sức đục hoặc sức ép dồn theo khe ấy, cho người thợ tách phiến lớn đúng nơi chọn.",
+        "description_en": "Hold a line of thorns along a revealed path to concentrate chiselling or pressure there, allowing a large slab to part at a chosen place."
+      }
+    ],
+    "limits_vi": "Cần tiếp xúc trực tiếp và thời gian nhận từng vật liệu. Nhiều lớp rời làm vân đứt; cây chỉ dẫn đường có thể tách, còn lực mở vẫn phải được cấp và chấn động bất ngờ có thể đổi đường.",
+    "limits_en": "Direct contact and time to receive each material are required. Separate layers break the veins; the plant guides possible parting paths, but force must still be supplied and sudden shocks can change them.",
+    "use_vi": "Áp gai sống lên vật rắn để các khe kín cùng đường có thể vỡ hiện thành vân sáng nối về chỗ chạm. Giữ một hàng gai dọc đường đã đọc để sức đục hoặc sức ép dồn theo khe ấy, cho người thợ tách phiến lớn đúng nơi chọn.",
+    "use_en": "Press a living thorn against a solid to reveal concealed cracks and possible breaking paths as luminous veins returning to the contact. Hold a line of thorns along a revealed path to concentrate chiselling or pressure there, allowing a large slab to part at a chosen place.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-seven-season-papercap",
+    "epigraph_vi": "*“Bảy mùa mưa cùng ở dưới một mũ nấm.”*",
+    "epigraph_en": "*“Seven rainy seasons live beneath one cap.”*",
+    "lore_vi": "Nấm mọc trong hòm hạt giống được bọc bảy lớp giấy tẩm các loại muối Vestigium. Hòm nằm dưới mái dột nhiều năm, nhưng khi mở ra, mỗi lớp giấy có một độ ẩm riêng như vừa được lấy từ một mùa khác. Sợi nấm đã dệt bảy lớp ấy thành mũ bậc, để giọt mưa rơi lên tầng trên biến mất rồi đọng lại ở tầng cuối.\n\nNgười ươm đặt những tầng mũ quanh luống, dựng một vườn có bảy miền ẩm dưới cùng mái. Dương xỉ mở lá trong một miền trong khi hạt khô ngủ ở miền bên cạnh. Khi ngoài trời bão, giọt nước dừng trên ranh vô hình giữa hai tầng, khiến khu vườn có những rèm mưa đứng yên suốt đêm.",
+    "lore_en": "The fungus grew in a seed chest wrapped in seven papers treated with different Vestigium salts. The chest lay for years beneath a leaking roof, yet each layer opened at its own humidity, as if lifted from a different season. Mycelium had woven them into a tiered cap, where rain vanished upon the upper layer and condensed upon the last.\n\nGrowers arranged its tiers around beds, raising a garden of seven moisture regions beneath one roof. Ferns unfolded in one while dry seeds slept next door. During storms, drops stopped along the unseen boundary between tiers, leaving curtains of motionless rain within the garden all night.",
+    "traits": [
+      {
+        "name_vi": "Bảy tầng mũ",
+        "name_en": "Seven Cap Tiers",
+        "description_vi": "Mũ chia bảy bậc mỏng như giấy, mỗi bậc có màu ngà khác nhau và viền giọt riêng.",
+        "description_en": "The cap divides into seven paper-thin tiers, each a different ivory shade with its own droplet fringe."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chia bảy mùa ẩm",
+        "name_en": "Divide Seven Moist Seasons",
+        "description_vi": "Dẫn các tầng còn chung sợi quanh khu trồng để mỗi tầng giữ một miền ẩm khác nhau, chuyển nước thừa xuống tầng thấp.",
+        "description_en": "Train tiers sharing one mycelium around growing beds so each sustains a different humidity region and passes excess water to a lower tier."
+      },
+      {
+        "name_vi": "Giữ rèm mưa",
+        "name_en": "Hold a Rain Curtain",
+        "description_vi": "Đưa mép hai tầng tới đường nước rơi để giọt bị giữ trên ranh, rồi hạ tầng nhận cho mưa chảy tới nơi cần tưới.",
+        "description_en": "Place two tier edges across falling water to hold drops at their boundary, then lower the receiving tier to send rain towards a bed needing water."
+      }
+    ],
+    "limits_vi": "Các miền cần mạng sợi còn liền, nguồn nước cùng chỗ thoát. Nấm không sửa mực hay hồi mô đã chết; gió mạnh xé ranh ẩm, còn bào tử mọc lẫn trong vật cất nếu để chúng chạm trực tiếp.",
+    "limits_en": "Regions require unbroken mycelium, water and drainage. The fungus cannot restore ink or dead tissue; strong wind tears moisture boundaries, and spores colonise stored objects if allowed direct contact.",
+    "use_vi": "Dẫn các tầng còn chung sợi quanh khu trồng để mỗi tầng giữ một miền ẩm khác nhau, chuyển nước thừa xuống tầng thấp. Đưa mép hai tầng tới đường nước rơi để giọt bị giữ trên ranh, rồi hạ tầng nhận cho mưa chảy tới nơi cần tưới.",
+    "use_en": "Train tiers sharing one mycelium around growing beds so each sustains a different humidity region and passes excess water to a lower tier. Place two tier edges across falling water to hold drops at their boundary, then lower the receiving tier to send rain towards a bed needing water.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-mistwindow-orchid",
+    "epigraph_vi": "*“Hai bông hoa mở cùng một khoảng trời.”*",
+    "epigraph_en": "*“Two flowers open the same patch of sky.”*",
+    "lore_vi": "Lan mọc trong khung cửa nhà kính khảm một tấm Vestigium trong suốt. Khi khung bị tháo mang qua núi, hai củ bám ở hai đầu cũng bị chia. Một sớm người chăm tưới chậu, sương giữa cánh mở ra để lộ khu vườn bên kia núi, với một bàn tay đang làm đúng cử chỉ ấy.\n\nHọ nhận ra hai củ vẫn lấy chung một khoảng không. Dẫn rễ vòng thành khung và cho hoa nở cùng lúc, màng sương đủ rộng để người bước qua, mang hơi lạnh miền cao xuống vườn thấp. Từ ấy người trồng giữ lịch nở ở cả hai nhà; mỗi lần cửa mở, hoa bên này rung trong gió của nơi bên kia.",
+    "lore_en": "The orchids grew in a greenhouse frame inlaid with clear Vestigium. When the frame was carried across the mountain, bulbs at its ends were divided too. One morning, mist between the petals opened onto the garden beyond the mountain, where a hand was making the same watering gesture.\n\nThey learned that the two bulbs still drew upon one space. With roots trained into frames and flowers opening together, the mist widened enough for a person to cross, bringing upland cold into the lower garden. Growers thereafter kept flowering calendars at both houses; whenever the door opened, flowers on this side trembled in the wind of the other.",
+    "traits": [
+      {
+        "name_vi": "Củ đôi một cửa",
+        "name_en": "Twin Bulbs, One Door",
+        "description_vi": "Hai củ sinh từ cùng một khung mang vòng rễ đối xứng; sương giữa cánh hiện ngược màu khi củ kia sắp nở.",
+        "description_en": "Bulbs from the same frame bear symmetrical root rings; their petal mist reverses colour when the partner is about to bloom."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở cửa nhìn",
+        "name_en": "Open the Viewing Window",
+        "description_vi": "Cho một bông nhận nước trong để màng sương hiện nơi quanh củ ghép đôi, nhìn qua khoảng cách giữa hai chậu.",
+        "description_en": "Give a flower clear water to show the surroundings of its paired bulb through the mist, looking across the distance between the pots."
+      },
+      {
+        "name_vi": "Nở lối qua",
+        "name_en": "Flower a Passage",
+        "description_vi": "Cho cả hai mạng rễ thành khung và nở đồng thời để hai mặt sương nhập thành một ngưỡng có thể bước qua.",
+        "description_en": "Train both root networks into frames and flower them together to unite their mist faces into a threshold that can be crossed."
+      }
+    ],
+    "limits_vi": "Chỉ hai củ cùng gốc nối được nhau. Cửa rộng theo khung rễ sống và kéo nước từ cả hai bên; một phía khép hoa sẽ đẩy vật đang qua về phía nó đã vào, còn rễ đứt làm cặp mất liên hệ.",
+    "limits_en": "Only bulbs of one origin can connect. Door width follows the living root frames and draws water from both sides; closing one flower pushes a crossing object back to its entry side, while severed roots break the pair’s link.",
+    "use_vi": "Cho một bông nhận nước trong để màng sương hiện nơi quanh củ ghép đôi, nhìn qua khoảng cách giữa hai chậu. Cho cả hai mạng rễ thành khung và nở đồng thời để hai mặt sương nhập thành một ngưỡng có thể bước qua.",
+    "use_en": "Give a flower clear water to show the surroundings of its paired bulb through the mist, looking across the distance between the pots. Train both root networks into frames and flower them together to unite their mist faces into a threshold that can be crossed.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-axeclosing-oak",
+    "epigraph_vi": "*“Vết rìu khép lại, rừng vẫn đứng.”*",
+    "epigraph_en": "*“The axe wound closes, and the forest stands.”*",
+    "lore_vi": "Sồi mọc quanh chiếc rìu Vestigium bị bỏ giữa một khu rừng khai thác. Rễ ôm cả những gốc đã đốn, đưa nhựa vào từng vòng gỗ còn sống. Sau trận gió lớn, người đi rừng thấy một thân sồi gãy treo ngang bỗng tự nâng lên; các thớ vàng tìm nhau qua khoảng không, ghép tán về đúng bầu trời cũ.\n\nCây mẹ được để lại giữa khu đốn. Rễ của nó nối vào những cây cùng loài, giữ hình của cả khoảnh rừng trong mạng gỗ ngầm. Khi bão qua, tiếng thân răng rắc vang suốt đêm; đến sáng, những cành còn sống đã tìm lại vị trí, còn lớp nhựa vàng trải trên sẹo như nắng bị giữ trong vỏ.",
+    "lore_en": "The oak grew around a Vestigium axe abandoned in a felled forest. Its roots embraced cut stumps, carrying sap into every living wood ring. After a gale, a forester saw a half-broken oak lift itself; golden fibres sought one another through air and joined its crown to its old place in the sky.\n\nThe parent tree was spared at the clearing’s centre. Its roots joined other oaks, keeping the grove’s form within an underground wood network. After storms, trunks cracked all night; by morning surviving branches had found their places again, and gold sap lay upon scars like sunshine caught beneath bark.",
+    "traits": [
+      {
+        "name_vi": "Sẹo vàng",
+        "name_en": "Golden Scars",
+        "description_vi": "Mỗi đường ghép giữ một vân vàng theo thớ cũ; rễ ghép giữa hai cây có vòng gỗ liên tục đi qua chỗ nối.",
+        "description_en": "Every join retains a golden line along the former grain; grafted roots between trees share continuous wood rings."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi lại hình cây",
+        "name_en": "Recall the Tree’s Form",
+        "description_vi": "Dẫn nhựa qua phần gãy còn sống để các thớ nhận đúng mép cũ, kéo cành hoặc thân trở về hình trước khi bị cắt.",
+        "description_en": "Lead sap through a living break so fibres recognise their former edges and draw branch or trunk back into its shape before the cut."
+      },
+      {
+        "name_vi": "Giữ hình rừng",
+        "name_en": "Keep the Grove’s Form",
+        "description_vi": "Ghép rễ cây mẹ với các sồi đang sống để mạng chung chia sức hồi phục, khép những vết gãy trên nhiều cây trong cùng lượt.",
+        "description_en": "Graft the parent’s roots to living oaks so the network shares recovery reserves and closes breaks across several trees in one cycle."
+      }
+    ],
+    "limits_vi": "Gỗ chết hoặc phần đã bị mang khỏi miền rễ không được gọi lại. Cây dùng nhựa và dự trữ của cả mạng; hồi một thân lớn khiến khu rừng cần nhiều mùa để lại sức.",
+    "limits_en": "Dead wood and pieces carried beyond the root region cannot be recalled. Sap and reserves are drawn from the whole network; restoring a large trunk leaves the grove needing several seasons to recover.",
+    "use_vi": "Dẫn nhựa qua phần gãy còn sống để các thớ nhận đúng mép cũ, kéo cành hoặc thân trở về hình trước khi bị cắt. Ghép rễ cây mẹ với các sồi đang sống để mạng chung chia sức hồi phục, khép những vết gãy trên nhiều cây trong cùng lượt.",
+    "use_en": "Lead sap through a living break so fibres recognise their former edges and draw branch or trunk back into its shape before the cut. Graft the parent’s roots to living oaks so the network shares recovery reserves and closes breaks across several trees in one cycle.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "botanical-longharp-vine",
+    "epigraph_vi": "*“Cả thung lũng cúi xuống nghe một dây đàn.”*",
+    "epigraph_en": "*“An entire valley bends to hear one string.”*",
+    "lore_vi": "Giàn dây được tìm trên nền một nhạc đường đã mất mái. Các bông giữ từng âm riêng, chờ một rung động ở gốc để cùng mở miệng; cả giàn khi ấy thành nhạc cụ có nhựa sống thay dây đàn. Người chăm già nói hoa mới chỉ nhận được một âm, nên mỗi lần rụng là một phần bản nhạc được chôn. Rễ đã ăn sâu vào dây đồng của cây đàn chôn dưới nền, nơi một mạch khoáng lam tiếp tục ngân sau khi người chơi cuối cùng qua đời.\n\nHọ để giàn nở lại trong yên lặng, rồi dạy từng bông bằng những nốt còn nhớ. Một khu vườn có thể già đi trước khi bản hợp âm tìm đủ giọng của mình.",
+    "lore_en": "The vine occupied a roofless music-house. Each blossom held a note, awaiting a tremor at the root to sing together. Sap had become the string of a living instrument. Its old keeper said every fallen flower buried part of the music. Its roots had entered the copper strings of an instrument buried beneath the floor, where a blue mineral seam still rang after the final player’s death.\n\nNew flowers were taught the remembered notes in silence. A garden could grow old before the chord recovered all its voices.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Rễ đã ăn sâu vào dây đồng của cây đàn chôn dưới nền, nơi một mạch khoáng lam tiếp tục ngân sau khi người chơi cuối cùng qua đời.",
+        "description_en": "Its roots had entered the copper strings of an instrument buried beneath the floor, where a blue mineral seam still rang after the final player’s death."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gảy trời",
+        "name_en": "Pluck the Sky",
+        "description_vi": "Gảy gốc để hợp âm đi qua không khí thành những dây vô hình, treo cả cầu đá hoặc chiến thuyền giữa các bông hoa đang ngân.",
+        "description_en": "Pluck the root to carry a chord through air as invisible strings, suspending a stone bridge or warship between the singing blossoms."
+      },
+      {
+        "name_vi": "Khép bản nhạc",
+        "name_en": "Close the Score",
+        "description_vi": "Cho các hoa cùng tắt một nốt để cắt đứt mọi rung động mang nốt ấy trong thung lũng, dập một cơn chấn động trước khi nó chạm làng.",
+        "description_en": "Silence one shared note to sever every vibration bearing it throughout the valley, ending a tremor before it reaches the village."
+      }
+    ],
+    "limits_vi": "Mỗi bông giữ một nốt đã học. Đứt dây vô hình làm cả chùm hoa rụng; phải nuôi lại và truyền lại bản nhạc qua nhiều mùa.",
+    "limits_en": "Each blossom holds one learnt note. Breaking an invisible string sheds its entire cluster; regrowth and the teaching of the score take many seasons.",
+    "use_vi": "Gảy gốc để hợp âm đi qua không khí thành những dây vô hình, treo cả cầu đá hoặc chiến thuyền giữa các bông hoa đang ngân. Cho các hoa cùng tắt một nốt để cắt đứt mọi rung động mang nốt ấy trong thung lũng, dập một cơn chấn động trước khi nó chạm làng.",
+    "use_en": "Pluck the root to carry a chord through air as invisible strings, suspending a stone bridge or warship between the singing blossoms. Silence one shared note to sever every vibration bearing it throughout the valley, ending a tremor before it reaches the village.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-shadowbalance-lotus",
+    "epigraph_vi": "*“Bóng nhường đường, thành lũy mở lưng.”*",
+    "epigraph_en": "*“Shadow yields, and the fortress bares its back.”*",
+    "lore_vi": "Ao sen đã cạn, nhưng bóng một lá vẫn lệch khỏi phía đèn. Được nạp lại bằng khoáng, lá kéo bóng sang bên vừa đủ mở mặt khuất trên vật đặt cạnh, như thế giới chớp mắt và để lộ một góc sau lưng mình. Dưới đáy ao, rễ quấn qua chiếc gương khoáng vỡ đã giữ bóng nguyệt thực suốt nhiều mùa; nhựa cây đen dần từ đó.\n\nNgười quan sát đánh dấu chỗ đứng bằng hai vạch, cấm dời chậu trong lúc xem. Trong lời kể của người vớt, sen học cách cân bóng sau khi hoa đầu tiên nở dưới một mặt trăng bị mây che trọn.",
+    "lore_en": "The pond was dry, yet one leaf's shadow leaned away from the lamp. Recharged with mineral, it drew the shadow aside to expose a hidden face, as though the world blinked and revealed a corner behind itself. Beneath the pond, its roots crossed a broken mineral mirror that had held an eclipsed moon’s shadow for many seasons; from then its sap darkened.\n\nObservers mark their footing and leave the pot unmoved. Its salvager said the lotus learnt to weigh shadow after its first flower opened beneath a completely clouded moon.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Dưới đáy ao, rễ quấn qua chiếc gương khoáng vỡ đã giữ bóng nguyệt thực suốt nhiều mùa; nhựa cây đen dần từ đó.",
+        "description_en": "Beneath the pond, its roots crossed a broken mineral mirror that had held an eclipsed moon’s shadow for many seasons; from then its sap darkened."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lật mặt bóng",
+        "name_en": "Turn the Shadow",
+        "description_vi": "Nghiêng lá để mặt khuất của vật mang bóng quay ra phía người nhìn, mở lối qua lưng một thành lũy mà tường vẫn đứng nguyên.",
+        "description_en": "Tilt a leaf to turn the concealed face of a shadowed object towards the beholder, opening passage through a fortress’s back while its walls remain standing."
+      },
+      {
+        "name_vi": "Đổi bờ đêm",
+        "name_en": "Exchange the Shores of Night",
+        "description_vi": "Nối bóng hai lá trên cùng mặt nước để người bước vào bóng này đi ra bóng kia, dù hai bờ hồ cách nhau cả dãy núi.",
+        "description_en": "Join two leaf shadows upon the same water so a person entering one emerges from the other, even when a mountain range divides the shores."
+      }
+    ],
+    "limits_vi": "Hai đầu phải cùng được nuôi bởi một mặt nước liên tục. Mỗi người qua làm một lá hóa trắng; khi lá cuối bạc màu, mọi lối đang mở khép lại.",
+    "limits_en": "Both ends must be nourished by one continuous body of water. Each traveller whitens a leaf; when the last loses its colour, every open passage closes.",
+    "use_vi": "Nghiêng lá để mặt khuất của vật mang bóng quay ra phía người nhìn, mở lối qua lưng một thành lũy mà tường vẫn đứng nguyên. Nối bóng hai lá trên cùng mặt nước để người bước vào bóng này đi ra bóng kia, dù hai bờ hồ cách nhau cả dãy núi.",
+    "use_en": "Tilt a leaf to turn the concealed face of a shadowed object towards the beholder, opening passage through a fortress’s back while its walls remain standing. Join two leaf shadows upon the same water so a person entering one emerges from the other, even when a mountain range divides the shores.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-frostpassing-grass",
+    "epigraph_vi": "*“Mùa đông tới bờ bên kia trước tiếng chân.”*",
+    "epigraph_en": "*“Winter reaches the far bank before the footfall.”*",
+    "lore_vi": "Bó cỏ mọc xuyên hai phía một thân thú đã hóa băng. Chạm sương giá vào lá đầu khiến lá cuối trắng ngay, trong khi các lá giữa vẫn xanh; hơi ấm trả ở rễ thành một làn thở. Người đào thấy trong mạch cỏ những đường bạc ngắn hơn cả khoảng cách chúng nối. Xương con thú ôm một mạch khoáng tím; rễ cỏ xuyên qua đó đúng mùa băng nuốt xác, nhận lấy con đường lạnh chưa kịp khép giữa hai bên sườn.\n\nHọ gọi cây là lối tắt của mùa đông. Khi trưng bày, cả bó được để nguyên: những lá giữa là phần đường đã bị bỏ qua, nhưng vẫn sống để giữ hai đầu của chuyến đi.",
+    "lore_en": "The grass pierced both sides of a frozen beast. Frost on its first leaf whitened the last while those between stayed green; warmth escaped at the root like breath. Silver veins seemed shorter than the distances they joined. The beast’s bones enclosed a violet mineral vein; the roots pierced it as ice consumed the carcass, inheriting a cold road still open between its flanks.\n\nGatherers call it winter's shortcut. The whole bunch remains intact: its middle leaves are the omitted road, still living to hold the journey's ends.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Xương con thú ôm một mạch khoáng tím; rễ cỏ xuyên qua đó đúng mùa băng nuốt xác, nhận lấy con đường lạnh chưa kịp khép giữa hai bên sườn.",
+        "description_en": "The beast’s bones enclosed a violet mineral vein; the roots pierced it as ice consumed the carcass, inheriting a cold road still open between its flanks."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dẫn mùa đông",
+        "name_en": "Lead Winter",
+        "description_vi": "Đặt hai đầu một bụi cỏ vào băng và nước để chuyển cả một miền giá rét qua mạng rễ, đóng con sông xa trong khi vườn nguồn tan tuyết.",
+        "description_en": "Set the ends of one clump in ice and water to send a region’s cold through its roots, freezing a distant river as snow thaws at the source garden."
+      },
+      {
+        "name_vi": "Cắt đường giá",
+        "name_en": "Cut the Frost Road",
+        "description_vi": "Khép lá giữa lại để giữ một cơn rét trong khoảng đường bị bỏ qua, rồi mở đầu lá đã chọn cho nó tràn ra thành tường băng.",
+        "description_en": "Fold the middle blades to hold a cold wave within the omitted distance, then open a chosen tip to release it as an ice wall."
+      }
+    ],
+    "limits_vi": "Chỉ mạng rễ còn sống giữ được đường tắt. Hơi ấm dồn về gốc có thể đốt chết cả bụi; lượng giá giữ lâu khiến các lá giữa lần lượt giòn vỡ.",
+    "limits_en": "Only living roots sustain the shortcut. Heat gathered at the base can burn the whole clump; cold stored too long makes the middle blades crumble one by one.",
+    "use_vi": "Đặt hai đầu một bụi cỏ vào băng và nước để chuyển cả một miền giá rét qua mạng rễ, đóng con sông xa trong khi vườn nguồn tan tuyết. Khép lá giữa lại để giữ một cơn rét trong khoảng đường bị bỏ qua, rồi mở đầu lá đã chọn cho nó tràn ra thành tường băng.",
+    "use_en": "Set the ends of one clump in ice and water to send a region’s cold through its roots, freezing a distant river as snow thaws at the source garden. Fold the middle blades to hold a cold wave within the omitted distance, then open a chosen tip to release it as an ice wall.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-nighttrace-fungus",
+    "epigraph_vi": "*“Đêm đi rồi, những bước chân còn đứng lại.”*",
+    "epigraph_en": "*“Night departs; its footsteps remain.”*",
+    "lore_vi": "Nấm mọc dưới một sân khấu ngầm nơi khán phòng đã bị đóng kín. Mũ giữ bóng đi qua ánh đèn trong một đêm; làm lạnh, những dáng mờ đứng chồng lên nhau như cả đoàn người bị ép vào bề dày một cánh cửa. Những sợi nấm ăn qua sáp đèn lẫn bột khoáng rơi từ trần; mỗi đêm sáng tắt lại kết thêm một lớp đen trong mũ.\n\nNgười coi tiêu bản vẽ riêng từng lớp trước khi chúng tan. Có bản vẽ ghi một bóng đứng mãi cùng chỗ trong khi mọi bóng khác đi ngang. Người ghi đã đánh dấu đó là điều mình thấy, rồi dời chiếc đèn khỏi chỗ ngồi.",
+    "lore_en": "The fungus grew beneath a sealed underground theatre. Its caps held a night's lamplit shadows; chilled, those figures overlapped like a crowd pressed into a door's thickness. Its threads fed through lamp wax mixed with mineral dust fallen from the ceiling; each night’s extinguished light laid another black layer within the caps.\n\nThe keeper drew each layer before it faded. One drawing recorded a stationary shape among all the passing ones. He marked it as testimony, then moved the lamp away from his chair.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Những sợi nấm ăn qua sáp đèn lẫn bột khoáng rơi từ trần; mỗi đêm sáng tắt lại kết thêm một lớp đen trong mũ.",
+        "description_en": "Its threads fed through lamp wax mixed with mineral dust fallen from the ceiling; each night’s extinguished light laid another black layer within the caps."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dựng đêm cũ",
+        "name_en": "Raise the Former Night",
+        "description_vi": "Làm lạnh cả mạng nấm để bóng của một đêm đã qua đứng dậy trong không gian thật, lặp nguyên đường đi qua quảng trường hay hành lang đã bị phá.",
+        "description_en": "Chill the whole fungal web to raise a former night’s shadows in real space, retracing their paths through a square or ruined passage."
+      },
+      {
+        "name_vi": "Mượn lối bóng",
+        "name_en": "Borrow the Shadow’s Road",
+        "description_vi": "Bước đúng vào một bóng đang trở về để theo đường nó từng đi, xuyên qua vật cản dựng lên sau đêm được giữ.",
+        "description_en": "Step precisely into a returning shadow and follow its former road through barriers erected after the preserved night."
+      }
+    ],
+    "limits_vi": "Chỉ giữ một đêm giữa hai lần mọc mũ. Lệch khỏi bóng khiến người đi bị trả về nơi bắt đầu; ánh bình minh xóa cả đường lẫn những hình đã gọi.",
+    "limits_en": "Only one night can be held between cap growths. Straying from a shadow returns the traveller to the beginning; dawn erases both road and summoned figures.",
+    "use_vi": "Làm lạnh cả mạng nấm để bóng của một đêm đã qua đứng dậy trong không gian thật, lặp nguyên đường đi qua quảng trường hay hành lang đã bị phá. Bước đúng vào một bóng đang trở về để theo đường nó từng đi, xuyên qua vật cản dựng lên sau đêm được giữ.",
+    "use_en": "Chill the whole fungal web to raise a former night’s shadows in real space, retracing their paths through a square or ruined passage. Step precisely into a returning shadow and follow its former road through barriers erected after the preserved night.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-countercadence-lichen",
+    "epigraph_vi": "*“Đá có quyền giữ nhịp riêng.”*",
+    "epigraph_en": "*“Stone has the right to its own rhythm.”*",
+    "lore_vi": "Địa y được bóc khỏi hai viên tinh thể từng rung đến mức người trong hầm nghiến răng vì đau. Giữa hai nhịp trùng nhau, mặt địa y tự chen một nhịp lệch; các vòng đỏ sẫm dần, như da đang nhận tiếng động thành vết bỏng. Hai tinh thể vốn lớn từ cùng mạch khoáng đỏ bị trận sập chia đôi; địa y nối qua khe, lớn lên giữa hai tiếng gọi luôn tìm nhau.\n\nThợ khai khoáng đặt tên nó là tiếng phản đối của đá. Mỗi vùng đỏ đã chết giữ im lặng vĩnh viễn; phần còn sống tiếp tục cãi lại những thứ muốn cả hầm phải rung theo mình.",
+    "lore_en": "The lichen was stripped from crystals whose resonance made miners grind their teeth in pain. It inserted a contrary beat between matching pulses; red rings darkened like skin taking sound as a burn. The crystals had grown from one red mineral seam divided by a collapse; the lichen bridged the cleft and grew between calls forever seeking one another.\n\nMiners call it stone's protest. Spent red patches remain silent for ever while living tissue continues disputing whatever would make the whole tunnel share its rhythm.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Hai tinh thể vốn lớn từ cùng mạch khoáng đỏ bị trận sập chia đôi; địa y nối qua khe, lớn lên giữa hai tiếng gọi luôn tìm nhau.",
+        "description_en": "The crystals had grown from one red mineral seam divided by a collapse; the lichen bridged the cleft and grew between calls forever seeking one another."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Bẻ nhịp đất",
+        "name_en": "Break the Earth’s Cadence",
+        "description_vi": "Ép địa y xuống nền để vòng đỏ lan thành nhịp đối nghịch, tách một ngọn đồi khỏi chấn động đang chạy qua lòng đất.",
+        "description_en": "Press the lichen to the ground so its red rings spread a contrary beat, separating a hill from a tremor travelling through the earth."
+      },
+      {
+        "name_vi": "Trả tiếng sấm",
+        "name_en": "Return the Thunder",
+        "description_vi": "Giữ một rung động lớn trong những vòng sống rồi thả ngược về nguồn, khiến tiếng chuông hoặc cú giáng trở lại đúng nơi đã phát.",
+        "description_en": "Hold a mighty vibration within living rings and release it towards its source, returning a bell’s toll or a blow to the place that made it."
+      }
+    ],
+    "limits_vi": "Mỗi nhịp bị giữ thiêu chết một vòng. Hai nguồn đổi nhịp cùng lúc có thể xé mạng địa y; vùng đỏ đã chết cần nhiều năm mới được mép sống phủ lại.",
+    "limits_en": "Each captive beat burns a ring to death. Two sources changing cadence together may tear the web; living margins take years to cover a spent red region.",
+    "use_vi": "Ép địa y xuống nền để vòng đỏ lan thành nhịp đối nghịch, tách một ngọn đồi khỏi chấn động đang chạy qua lòng đất. Giữ một rung động lớn trong những vòng sống rồi thả ngược về nguồn, khiến tiếng chuông hoặc cú giáng trở lại đúng nơi đã phát.",
+    "use_en": "Press the lichen to the ground so its red rings spread a contrary beat, separating a hill from a tremor travelling through the earth. Hold a mighty vibration within living rings and release it towards its source, returning a bell’s toll or a blow to the place that made it.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-the-lastseed-tree",
+    "epigraph_vi": "*“Một khu rừng chờ trong lòng một hạt.”*",
+    "epigraph_en": "*“A forest waits within one seed.”*",
+    "lore_vi": "Cây mọc trên huyệt của một vườn cây đã bị đốt. Nó chỉ mang một quả, bên trong hiện hệ rễ giống hệt cây mẹ, tới cả chỗ rễ đã cụt. Giâm cành chỉ được cây thường; giết cây để lấy mầm làm cả quả chết theo. Tro cây trộn cùng những hạt khoáng hổ phách từ giếng vườn nứt vỡ; rễ non đã uống cả hai trước mùa mưa đầu.\n\nNgười trông phải chờ cây mẹ kết thúc đời mình trước khi một đời khác được bắt đầu. Các thế hệ người giữ đã qua đi bên cùng một quả. Trong lời truyền, khu vườn bị thiêu đang nén toàn bộ quyền trở lại vào một hạt duy nhất, và học cách đợi lâu hơn lòng tham của người sống.",
+    "lore_en": "The tree rose from the grave of a burnt orchard. It bore one fruit containing its mother's root-system, down to severed roots. Cuttings became ordinary trees; killing the mother killed the seed. Tree ash mingled with amber mineral grains from the orchard’s shattered well; the young roots drank both before the first rains.\n\nKeepers must await one life ending before another begins. Generations have passed beside the same fruit. Tradition says the destroyed orchard has compressed its whole right of return into one seed, learning to outwait human greed.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Tro cây trộn cùng những hạt khoáng hổ phách từ giếng vườn nứt vỡ; rễ non đã uống cả hai trước mùa mưa đầu.",
+        "description_en": "Tree ash mingled with amber mineral grains from the orchard’s shattered well; the young roots drank both before the first rains."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gieo lại miền xanh",
+        "name_en": "Sow the Green Realm Again",
+        "description_vi": "Khi cây mẹ chết tự nhiên, gieo quả vào đất từng thuộc vườn cũ để cả rừng cây đã mất mọc lại trong một bình minh, mang hình và tuổi trước ngày bị đốt.",
+        "description_en": "When the mother dies naturally, sow its fruit in the former orchard’s soil to restore its lost forest within one dawn, bearing the forms and ages it had before the burning."
+      },
+      {
+        "name_vi": "Gửi rừng vào quả",
+        "name_en": "Entrust the Forest to the Fruit",
+        "description_vi": "Cho rễ chạm những cây còn sống để thu hình của chúng vào quả, giữ một khu rừng qua hỏa hoạn, nước lũ hoặc nhiều đời đất hoang.",
+        "description_en": "Let roots touch living trees to gather their forms into the fruit, preserving a forest through fire, flood or generations of desolation."
+      }
+    ],
+    "limits_vi": "Chỉ một quả mang quyền kế tiếp. Hủy cây mẹ trước lúc già chết làm mọi hình cây trong quả chết theo; mỗi lần tái sinh phải chờ một đời cây trọn vẹn.",
+    "limits_en": "Only one fruit carries the succession. Destroying the mother before natural death kills every tree-form within it; each restoration requires a complete tree’s lifetime.",
+    "use_vi": "Khi cây mẹ chết tự nhiên, gieo quả vào đất từng thuộc vườn cũ để cả rừng cây đã mất mọc lại trong một bình minh, mang hình và tuổi trước ngày bị đốt. Cho rễ chạm những cây còn sống để thu hình của chúng vào quả, giữ một khu rừng qua hỏa hoạn, nước lũ hoặc nhiều đời đất hoang.",
+    "use_en": "When the mother dies naturally, sow its fruit in the former orchard’s soil to restore its lost forest within one dawn, bearing the forms and ages it had before the burning. Let roots touch living trees to gather their forms into the fruit, preserving a forest through fire, flood or generations of desolation.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-gardeners-imprint-orchid",
+    "epigraph_vi": "*“Bàn tay đã khuất vẫn biết mở một khu vườn.”*",
+    "epigraph_en": "*“The departed hand still knows how to open a garden.”*",
+    "lore_vi": "Củ lan được lấy khỏi bàn tay người làm vườn chết trong nhà kính. Nó chỉ mở theo nhịp chạm của người chăm đầu tiên; người kế nhiệm học được nhịp ấy rồi vẫn phải chờ cánh tự quyết định giãn ra. Áp lực ghi trên cánh thay đổi chậm theo tuổi cây. Ông từng hòa một thứ khoáng trắng vào nước tưới suốt đời; khi bàn tay khép lại, củ đã lớn xuyên chiếc nhẫn mang cùng màu đá.\n\nNgười giữ biết một nhịp tay có thể được truyền dạy, còn bàn tay gốc đã thành đất từ lâu. Mỗi mùa nở vì thế giống một cuộc nhận mặt giữa thứ còn sống và thói quen của người đã khuất, kéo dài bằng chính việc chăm sóc.",
+    "lore_en": "The bulb came from a gardener's hand in a frozen glasshouse. It opened to its first keeper's touch-pattern; successors learnt it and still waited for petals to relax. The imprint altered slowly as the plant aged. Throughout his life he had mixed a white mineral into its water; as his hand closed, the bulb had grown through a ring bearing the same stone.\n\nA touch can be taught; the first hand has long become earth. Each flowering resembles a recognition between a living thing and the habit of someone dead, sustained by care itself.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Ông từng hòa một thứ khoáng trắng vào nước tưới suốt đời; khi bàn tay khép lại, củ đã lớn xuyên chiếc nhẫn mang cùng màu đá.",
+        "description_en": "Throughout his life he had mixed a white mineral into its water; as his hand closed, the bulb had grown through a ring bearing the same stone."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi tay người trồng",
+        "name_en": "Call the Gardener’s Hand",
+        "description_vi": "Lặp đúng nhịp chạm đầu tiên để bóng bàn tay người trồng hiện trên mọi cây nối chung rễ, chăm cả khu vườn trong một đêm bằng những động tác đã được lan giữ.",
+        "description_en": "Repeat the first pattern of touch to manifest the gardener’s hands upon every root-linked plant, tending an entire garden overnight with movements the orchid preserved."
+      },
+      {
+        "name_vi": "Đánh thức mùa nở",
+        "name_en": "Awaken the Flowering Season",
+        "description_vi": "Đặt lan giữa một miền cây ngủ để nhịp chăm cũ đi qua đất, gọi những mầm còn sống thức dậy cùng lúc dù mùa đông vẫn phủ bên ngoài.",
+        "description_en": "Set the orchid among sleeping plants so the remembered tending passes through soil, awakening every surviving bud together while winter remains outside."
+      }
+    ],
+    "limits_vi": "Lan chỉ giữ được những việc bàn tay đầu tiên từng làm. Mỗi mùa bị gọi sớm lấy một năm tuổi củ; ép lan mở bằng nhịp sai làm ký ức chăm sóc phai vĩnh viễn.",
+    "limits_en": "The orchid preserves only acts its first hand performed. Each season summoned early costs the bulb a year of life; forcing it open with a false cadence permanently fades its memory of care.",
+    "use_vi": "Lặp đúng nhịp chạm đầu tiên để bóng bàn tay người trồng hiện trên mọi cây nối chung rễ, chăm cả khu vườn trong một đêm bằng những động tác đã được lan giữ. Đặt lan giữa một miền cây ngủ để nhịp chăm cũ đi qua đất, gọi những mầm còn sống thức dậy cùng lúc dù mùa đông vẫn phủ bên ngoài.",
+    "use_en": "Repeat the first pattern of touch to manifest the gardener’s hands upon every root-linked plant, tending an entire garden overnight with movements the orchid preserved. Set the orchid among sleeping plants so the remembered tending passes through soil, awakening every surviving bud together while winter remains outside.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-willow-of-one-sea-drop",
+    "epigraph_vi": "*“Biển nhớ đường về qua một chiếc lá.”*",
+    "epigraph_en": "*“The sea remembers its home through one leaf.”*",
+    "lore_vi": "Cây liễu được mang về cùng một giọt biển mắc giữa vòng rễ, còn nguyên ngay cả khi dốc ngược. Muối đưa vào hiện dần trên lá thành những bờ trắng. Người thủy thủ nuôi cây ghi rằng trên một lá già, vệt muối giống đúng đảo quê mình trước khi bờ bị xói. Vòng rễ từng mọc qua hạch khoáng lam trong bụng một xác tàu; khi hạch rã, nước biển giữ chỗ của nó giữa những rễ đã hóa trong.\n\nMỗi vảy được cất theo ngày. Cây có lẽ chỉ đang chuyển muối; lời truyền lại bảo một vùng biển đã tìm cách mọc lên đất liền, từng chiếc lá là một bờ để nó thử nhớ lại.",
+    "lore_en": "The willow arrived with a sea-drop held among its roots, intact even when inverted. Added salt emerged upon leaves as white coasts. Its sailor-grower recorded one old leaf resembling his island before erosion. The root ring had grown through a blue mineral nodule inside a wreck; when it dissolved, seawater occupied its place among roots turned translucent.\n\nEach flake is kept by date. Perhaps the tree merely transfers salt. Tradition says a sea has learnt to grow on land, trying to remember its shores one leaf at a time.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Vòng rễ từng mọc qua hạch khoáng lam trong bụng một xác tàu; khi hạch rã, nước biển giữ chỗ của nó giữa những rễ đã hóa trong.",
+        "description_en": "The root ring had grown through a blue mineral nodule inside a wreck; when it dissolved, seawater occupied its place among roots turned translucent."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở biển trong giọt",
+        "name_en": "Open the Sea within the Drop",
+        "description_vi": "Nhúng vòng rễ vào nước để giọt giữa rễ mở thành cửa biển, đón cả con triều tràn qua một lòng chảo khô rồi thu nước trở lại khi lá khép.",
+        "description_en": "Immerse the root ring so its central drop opens as a sea gate, admitting a whole tide into a dry basin and gathering it back when the leaves close."
+      },
+      {
+        "name_vi": "Gọi bờ đã mất",
+        "name_en": "Call the Lost Shore",
+        "description_vi": "Thả chiếc lá mang đúng vệt muối xuống nước để bờ đảo mà nó nhớ hiện ra dưới chân, giữ người và thuyền trên miền đất đã bị biển nuốt.",
+        "description_en": "Lay a leaf bearing the right salt trace upon water to raise its remembered island shore beneath one’s feet, sustaining people and ships upon land the sea has swallowed."
+      }
+    ],
+    "limits_vi": "Giọt gốc phải luôn nằm trong vòng rễ. Mỗi bờ hiện dùng hết một lá già; lấy nước quá xa bờ được nhớ làm rễ rách và toàn bộ biển đã gọi dội về cửa mở.",
+    "limits_en": "The original drop must remain within its root ring. Each manifested shore consumes an old leaf; drawing water too far from the remembered coast tears the roots and drives the summoned sea back through its gate.",
+    "use_vi": "Nhúng vòng rễ vào nước để giọt giữa rễ mở thành cửa biển, đón cả con triều tràn qua một lòng chảo khô rồi thu nước trở lại khi lá khép. Thả chiếc lá mang đúng vệt muối xuống nước để bờ đảo mà nó nhớ hiện ra dưới chân, giữ người và thuyền trên miền đất đã bị biển nuốt.",
+    "use_en": "Immerse the root ring so its central drop opens as a sea gate, admitting a whole tide into a dry basin and gathering it back when the leaves close. Lay a leaf bearing the right salt trace upon water to raise its remembered island shore beneath one’s feet, sustaining people and ships upon land the sea has swallowed.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-the-unfallen-rose",
+    "epigraph_vi": "*“Một cánh còn treo, cả tháp còn đứng.”*",
+    "epigraph_en": "*“While one petal hangs, the tower stands.”*",
+    "lore_vi": "Bông hồng được tìm trong căn phòng mà mọi hoa khác đã rụng thành bụi. Các cánh lìa cuống vẫn treo đúng chỗ, theo cả khi chậu chuyển; nước mang Vestigium gọi chúng động nhẹ như một bàn tay vừa thôi thả. Gieo hạt qua nhiều đời chỉ cho những bông biết rơi như thường. Bụi khoáng từ chiếc bình nứt đã ngấm vào cuống đúng ngày căn phòng bị bỏ lại; từng mạch lam khép quanh khoảnh khắc cánh bắt đầu lìa.\n\nNgười giữ đánh dấu từng khoảng hở. Họ đang nuôi phần cuối một lần nở đã từ chối đi tới tàn, và mỗi cánh còn treo giữ lại một chỗ mà sự mất mát chưa được nhận vào.",
+    "lore_en": "The rose stood in a room where every other flower was dust. Severed petals hung in place and travelled with the pot; Vestigium-water stirred them like a hand ceasing to release. Generations of seed yielded flowers that fell normally. Mineral dust from the cracked vase entered the stem on the day the room was abandoned; blue veins closed around the instant the petals began to part.\n\nKeepers chart each interval. They tend the end of a flowering that refused to proceed to decay, every suspended petal reserving a place loss has not yet entered.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Bụi khoáng từ chiếc bình nứt đã ngấm vào cuống đúng ngày căn phòng bị bỏ lại; từng mạch lam khép quanh khoảnh khắc cánh bắt đầu lìa.",
+        "description_en": "Mineral dust from the cracked vase entered the stem on the day the room was abandoned; blue veins closed around the instant the petals began to part."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ phút chia lìa",
+        "name_en": "Hold the Moment of Parting",
+        "description_vi": "Đặt cánh hoa lên vết gãy để những phần đã lìa tiếp tục cùng đứng trong hình cũ, giữ cầu sập, tháp đổ hoặc thân thuyền bị xé qua một cuộc sơ tán.",
+        "description_en": "Lay a petal upon a break so separated pieces remain standing in their former shape, sustaining a fallen bridge, collapsing tower or torn hull through an evacuation."
+      },
+      {
+        "name_vi": "Trả về đài hoa",
+        "name_en": "Return to the Calyx",
+        "description_vi": "Gọi những cánh đã đặt trở lại để kéo các phần chúng giữ khớp vào nhau một lần cuối, khép một vết đứt còn giữ đủ mép.",
+        "description_en": "Recall placed petals to draw their captive pieces together for one final joining, closing a break whose edges remain complete."
+      }
+    ],
+    "limits_vi": "Mỗi cánh chỉ giữ một lần chia lìa và phải còn liên hệ với đài. Vật cháy mất hoặc đã mục chẳng được tái tạo; cánh hóa bụi sau lần ghép cuối.",
+    "limits_en": "Each petal sustains one parting and must remain linked to the calyx. Burnt or rotted matter cannot be recreated; the petal becomes dust after its final joining.",
+    "use_vi": "Đặt cánh hoa lên vết gãy để những phần đã lìa tiếp tục cùng đứng trong hình cũ, giữ cầu sập, tháp đổ hoặc thân thuyền bị xé qua một cuộc sơ tán. Gọi những cánh đã đặt trở lại để kéo các phần chúng giữ khớp vào nhau một lần cuối, khép một vết đứt còn giữ đủ mép.",
+    "use_en": "Lay a petal upon a break so separated pieces remain standing in their former shape, sustaining a fallen bridge, collapsing tower or torn hull through an evacuation. Recall placed petals to draw their captive pieces together for one final joining, closing a break whose edges remain complete.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-the-ungrown-bamboo",
+    "epigraph_vi": "*“Ngọn mai sau che bóng người hôm nay.”*",
+    "epigraph_en": "*“Tomorrow’s shoot shades today’s traveller.”*",
+    "lore_vi": "Một bóng ngọn trúc hiện trên tường trước ngày chồi thật nhú. Người chăm bắt đầu ghi những đường bóng, rồi chứng kiến có đường thành ngọn, có đường ở lại trên tường như những đời cây đã lỡ. Dời chậu phá mối tương ứng ấy. Rễ chạm mặt gương khoáng chôn dưới tường, nơi bóng những măng chưa nảy đã in trước trong suốt một mùa mưa.\n\nChỉ cây này giữ được sự chờ đợi kỳ dị. Người trồng để nguyên vị trí, dành một bức tường cho những điều cây có thể trở thành. Trong bụi trúc, tương lai mang hình lá và vẫn có thể chết trước lúc được mọc.",
+    "lore_en": "A bamboo-tip's shadow appeared before its shoot. Its keeper recorded lines that became stems and others that remained upon the wall like unlived trees. Moving the pot broke the correspondence. Its roots touched a mineral mirror buried beneath the wall, where shadows of unsprouted shoots had appeared throughout a rainy season.\n\nOnly this plant sustains that waiting. Its grower leaves an entire wall to what it might become. Among these stems, the future has leaves and can perish before it grows.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Rễ chạm mặt gương khoáng chôn dưới tường, nơi bóng những măng chưa nảy đã in trước trong suốt một mùa mưa.",
+        "description_en": "Its roots touched a mineral mirror buried beneath the wall, where shadows of unsprouted shoots had appeared throughout a rainy season."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mượn thân mai sau",
+        "name_en": "Borrow Tomorrow’s Stems",
+        "description_vi": "Dẫn bóng ngọn lên đất trống để cả rừng trúc của những mùa chưa tới hiện thành thân thật, dựng cầu, chắn lũ hoặc nâng một đoàn người qua vực.",
+        "description_en": "Guide the shoot shadows over bare ground to manifest the bamboo forest of future seasons as real stems, bridging a gulf, holding a flood or lifting travellers across a chasm."
+      },
+      {
+        "name_vi": "Bỏ một đường mọc",
+        "name_en": "Forsake a Growing Road",
+        "description_vi": "Cắt một bóng trước khi nó thành thân để xóa đúng đường sinh trưởng ấy, khiến một rễ đang xuyên thành phải tìm đường khác trong hiện tại.",
+        "description_en": "Cut a shadow before it becomes a stem to erase that particular growth, forcing a root piercing a wall to seek another road in the present."
+      }
+    ],
+    "limits_vi": "Mỗi thân mượn lấy đi một mùa sinh trưởng của bụi gốc. Di chuyển rễ làm mọi thân tương lai tan ngay; bóng bị cắt sẽ vĩnh viễn thiếu khỏi tán trúc.",
+    "limits_en": "Every borrowed stem costs the parent clump one growing season. Moving the roots dissolves all future stems at once; a severed shadow remains absent from its crown for ever.",
+    "use_vi": "Dẫn bóng ngọn lên đất trống để cả rừng trúc của những mùa chưa tới hiện thành thân thật, dựng cầu, chắn lũ hoặc nâng một đoàn người qua vực. Cắt một bóng trước khi nó thành thân để xóa đúng đường sinh trưởng ấy, khiến một rễ đang xuyên thành phải tìm đường khác trong hiện tại.",
+    "use_en": "Guide the shoot shadows over bare ground to manifest the bamboo forest of future seasons as real stems, bridging a gulf, holding a flood or lifting travellers across a chasm. Cut a shadow before it becomes a stem to erase that particular growth, forcing a root piercing a wall to seek another road in the present.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-the-unnumbered-lotus",
+    "epigraph_vi": "*“Một hạt đủ nặng để giữ một bầu trời.”*",
+    "epigraph_en": "*“One seed weighs enough to hold a sky.”*",
+    "lore_vi": "Đài sen luôn giữ một hạt khi nhìn, còn cân ghi sức nặng thay đổi như thủy triều. Người đầu tiên thử đếm từng nhắm mắt rồi nhận ra mình đã lỡ mất thứ tự trước số một. Hạt vẫn nguyên; vết rạn trên đài chạy vòng quanh nó mà chẳng chạm tới. Củ sen đã lớn quanh một hạch khoáng rỗng, nuôi bằng nước triều đi vào rồi trở lại qua cùng một khe dù hai lượt chẳng bao giờ chạm nhau.\n\nNgười trồng gọi nó là hạt được để dành trước khi khu vườn học cách phân chia. Hai chiếc cân đặt cạnh nhau tiếp tục cãi về trọng lượng, còn mắt người chỉ thấy một vật đang chờ được tính vào thế giới.",
+    "lore_en": "The pod shows one seed while scales record a tidal weight. The first counter closed his eyes and lost the sequence before one. The seed remains whole; a crack circles it without contact. Its bulb grew around a hollow mineral nodule, nourished by a tide entering and returning through one cleft although the two passages never met.\n\nIts grower calls it a seed reserved before the garden learnt division. Two scales continue disputing its weight while the eye sees one thing waiting to be counted into the world.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Củ sen đã lớn quanh một hạch khoáng rỗng, nuôi bằng nước triều đi vào rồi trở lại qua cùng một khe dù hai lượt chẳng bao giờ chạm nhau.",
+        "description_en": "Its bulb grew around a hollow mineral nodule, nourished by a tide entering and returning through one cleft although the two passages never met."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đặt sức nặng",
+        "name_en": "Lay Down Weight",
+        "description_vi": "Đặt hạt lên vật cần giữ rồi khép đài, dồn vào đó sức nặng của những hạt chưa được đếm để ghim một chiến thuyền hoặc ngọn núi đang trượt.",
+        "description_en": "Set the seed upon an object and close the pod, gathering the weight of uncounted seeds into it to pin a warship or sliding mountain."
+      },
+      {
+        "name_vi": "Bỏ khỏi phép đếm",
+        "name_en": "Remove from the Count",
+        "description_vi": "Mở đài dưới vật đã chạm hạt để rút sức nặng của nó khỏi thế giới trong một lượt thở, cho cả tòa tháp nổi qua nền đang sụp.",
+        "description_en": "Open the pod beneath an object touched by the seed to withdraw its weight from the world for one breath, allowing a tower to float above collapsing foundations."
+      }
+    ],
+    "limits_vi": "Một lượt chỉ nhận một vật liền khối. Người giữ phải nhìn hạt suốt lượt; mất dấu nó khiến toàn bộ sức nặng trở về cùng lúc và làm đài rạn thêm.",
+    "limits_en": "One working accepts a single continuous object. The keeper must watch the seed throughout; losing sight returns all its weight at once and deepens the pod’s cracks.",
+    "use_vi": "Đặt hạt lên vật cần giữ rồi khép đài, dồn vào đó sức nặng của những hạt chưa được đếm để ghim một chiến thuyền hoặc ngọn núi đang trượt. Mở đài dưới vật đã chạm hạt để rút sức nặng của nó khỏi thế giới trong một lượt thở, cho cả tòa tháp nổi qua nền đang sụp.",
+    "use_en": "Set the seed upon an object and close the pod, gathering the weight of uncounted seeds into it to pin a warship or sliding mountain. Open the pod beneath an object touched by the seed to withdraw its weight from the world for one breath, allowing a tower to float above collapsing foundations.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-the-inkless-letter-tree",
+    "epigraph_vi": "*“Lá mở ra, lời hẹn có một con đường.”*",
+    "epigraph_en": "*“The leaf opens, and a promise finds a road.”*",
+    "lore_vi": "Cây duy nhất mọc từ gáy một cuốn thư đã bị ngâm tới trắng giấy. Đặt bản viết bên cạnh làm gân lá dần mang dáng những nét chữ, luôn sai một chỗ nhỏ; rời nguồn lâu, lá lại trắng. Người trồng từng đặt thư mẹ bên gốc, rồi giữ chiếc lá chép thiếu chính tên mình. Mực cũ trong gáy sách đã kết với bột khoáng người chép dùng rắc khô giấy; rễ cây tìm được đường chữ qua chính lớp bụi ấy.\n\nCác bản mẫu được lưu cùng lá, để mỗi lời đọc đều có phần im lặng đối chiếu. Trong chuyện kể của người trồng, cây là cánh rừng đang tập nói thứ con người dùng để gọi nhau về.",
+    "lore_en": "The sole tree grew from the spine of a book washed blank. Nearby writing shaped its leaf-veins, always with a small error; separated too long, they whitened. Its grower once offered his mother's letter and kept the leaf that omitted his name. Old ink within the spine had joined mineral powder the scribe scattered to dry his pages; the roots found their road into writing through that dust.\n\nLeaves remain beside their models, every reading paired with its silence. The grower's tale calls it a forest learning the language people use to summon one another home.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Mực cũ trong gáy sách đã kết với bột khoáng người chép dùng rắc khô giấy; rễ cây tìm được đường chữ qua chính lớp bụi ấy.",
+        "description_en": "Old ink within the spine had joined mineral powder the scribe scattered to dry his pages; the roots found their road into writing through that dust."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Trồng lời viết",
+        "name_en": "Plant the Written Word",
+        "description_vi": "Đặt một bản mô tả đường đi dưới rễ để gân lá dựng chính con đường ấy giữa hai nơi đã được ghi, cho người cầm lá bước qua quãng xa trong một lần sang trang.",
+        "description_en": "Place a written route beneath the roots so leaf veins establish that road between its named places, carrying the leaf’s bearer across the distance in one turning of the page."
+      },
+      {
+        "name_vi": "Giữ lời còn đọc",
+        "name_en": "Keep the Readable Word",
+        "description_vi": "Nuôi một bản thư bằng nhựa để lời trong thư hiện thành cảnh quanh người đọc, giữ nguyên tiếng nói và sự việc người viết đã trực tiếp chứng kiến.",
+        "description_en": "Nourish a letter with sap so its words manifest as a scene around the reader, preserving the voice and events its author directly witnessed."
+      }
+    ],
+    "limits_vi": "Mỗi lá luôn thiếu một nét; người dùng phải tìm và bù đúng nét ấy trước khi bước vào. Văn sai sự thật tạo đường đứt, còn lá cháy mang theo cảnh đã giữ.",
+    "limits_en": "Every leaf lacks one stroke; its bearer must find and supply it before entering. False writing creates a broken road, while a burnt leaf takes its preserved scene with it.",
+    "use_vi": "Đặt một bản mô tả đường đi dưới rễ để gân lá dựng chính con đường ấy giữa hai nơi đã được ghi, cho người cầm lá bước qua quãng xa trong một lần sang trang. Nuôi một bản thư bằng nhựa để lời trong thư hiện thành cảnh quanh người đọc, giữ nguyên tiếng nói và sự việc người viết đã trực tiếp chứng kiến.",
+    "use_en": "Place a written route beneath the roots so leaf veins establish that road between its named places, carrying the leaf’s bearer across the distance in one turning of the page. Nourish a letter with sap so its words manifest as a scene around the reader, preserving the voice and events its author directly witnessed.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "botanical-horizon-lichen",
+    "epigraph_vi": "*“Phía bên kia một đường vàng là chỗ để trở về.”*",
+    "epigraph_en": "*“Beyond one golden line lies a place to return to.”*",
+    "lore_vi": "Dải địa y mọc trên hòn đá lấy từ mỏm bờ cuối cùng còn lộ khi triều lên. Đường vàng giữ ngang dù đá nghiêng; chia mẫu làm mọi mảnh mất đường, bào tử mới cũng chỉ mọc thành địa y thường. Nước triều từng rửa qua một vệt khoáng vàng trên đá chủ, nuôi địa y đúng nơi trời và biển gặp nhau vào buổi nước dâng cuối cùng.\n\nNgười vớt mang cả đá và rễ về, gọi đó là phần đường chân trời đã chịu ở lại trên đất. Khi nhìn đúng ngang, đường vàng mảnh đến mức gần mất. Một thế giới có thể nằm ở phía bên kia nó, còn toàn bộ sự tồn tại của lối nhìn ấy phụ thuộc vào một mạng sống dễ bị xé rách.",
+    "lore_en": "The lichen grew on the last rock left above a rising tide. Its gold line remained level when tilted; divided fragments lost it, and spores yielded ordinary growth. Tidal water had washed a gold mineral vein upon the host stone, nourishing the lichen where sky and sea met at the final rising tide.\n\nThe salvager brought stone and roots together, calling it a horizon willing to remain on land. Seen level, the line almost disappears. A world may lie beyond it, its prospect sustained by one living web that a careless hand could tear.",
+    "traits": [
+      {
+        "name_vi": "Mạch sống dung hợp",
+        "name_en": "Infused Living Veins",
+        "description_vi": "Nước triều từng rửa qua một vệt khoáng vàng trên đá chủ, nuôi địa y đúng nơi trời và biển gặp nhau vào buổi nước dâng cuối cùng.",
+        "description_en": "Tidal water had washed a gold mineral vein upon the host stone, nourishing the lichen where sky and sea met at the final rising tide."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gấp hai chân trời",
+        "name_en": "Fold Two Horizons",
+        "description_vi": "Xoay đá chủ tới đường vàng trùng chân trời thật để kéo một bờ xa từng được nhìn thấy tới sát người đứng trước đá, cho tàu bước qua như qua một lạch hẹp.",
+        "description_en": "Turn the host stone until its gold line meets the true horizon, drawing a once-seen distant shore beside the observer so ships cross as though through a narrow channel."
+      },
+      {
+        "name_vi": "Đặt lại đường ngang",
+        "name_en": "Set the Level Again",
+        "description_vi": "Cho đường vàng chạm nền để cả miền trong tầm nhìn nhận mặt ngang của nó, giữ nhà cửa đứng thẳng giữa đất đang nghiêng hoặc sóng đang dựng.",
+        "description_en": "Touch the gold line to the ground so the visible region accepts its level, keeping buildings upright amid tilting earth or rising waves."
+      }
+    ],
+    "limits_vi": "Đá chủ cùng mạng địa y phải nguyên vẹn. Mỗi lần gấp bờ xóa một phần đường vàng; chỉ ánh mặt trời đầu tiên trên biển yên mới nuôi đường ấy trở lại.",
+    "limits_en": "Host stone and lichen web must remain whole. Every folded shore erases part of the gold line; only first sunlight upon a calm sea restores it.",
+    "use_vi": "Xoay đá chủ tới đường vàng trùng chân trời thật để kéo một bờ xa từng được nhìn thấy tới sát người đứng trước đá, cho tàu bước qua như qua một lạch hẹp. Cho đường vàng chạm nền để cả miền trong tầm nhìn nhận mặt ngang của nó, giữ nhà cửa đứng thẳng giữa đất đang nghiêng hoặc sóng đang dựng.",
+    "use_en": "Turn the host stone until its gold line meets the true horizon, drawing a once-seen distant shore beside the observer so ships cross as though through a narrow channel. Touch the gold line to the ground so the visible region accepts its level, keeping buildings upright amid tilting earth or rising waves.",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  }
+]

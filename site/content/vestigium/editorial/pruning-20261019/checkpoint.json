@@ -1,0 +1,16 @@
+{
+  "before": 602,
+  "removed": 149,
+  "remaining": 453,
+  "canon_preserved": 39,
+  "guard_preserved": 107,
+  "cutouts_pending": 0,
+  "author_decision": "2026-10-19: Only phenomenon may retain scene backgrounds; remove about 30% of non-guard records with canon and promising concepts protected.",
+  "status": "implementation complete; source preservation, artwork, guard coverage, TypeScript and existing tests passed",
+  "cutouts_completed": 26,
+  "public_bytes_before": 250579405,
+  "public_bytes_after": 247042107,
+  "public_bytes_saved": 3537298,
+  "browser_qa": "not available in this environment",
+  "source_anchors_freshly_verified": false
+}

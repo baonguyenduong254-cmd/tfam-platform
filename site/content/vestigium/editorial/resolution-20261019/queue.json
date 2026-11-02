@@ -1,0 +1,474 @@
+[
+  {
+    "id": "botanical-willow-of-one-sea-drop",
+    "name": "Liễu Một Giọt Biển",
+    "category": "botanical",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/botanical-willow-of-one-sea-drop.webp",
+    "size": [
+      242,
+      221
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-6d0dcee0-bba0-448c-bb37-83e6f4cf829d.png",
+    "artwork": "/vestigium/art/botanical-willow-of-one-sea-drop.webp",
+    "thumbnail": "/vestigium/thumbs/botanical-willow-of-one-sea-drop.webp",
+    "transparent_fraction": 0.41528607658046085
+  },
+  {
+    "id": "botanical-the-unfallen-rose",
+    "name": "Hồng Cánh Chưa Rơi",
+    "category": "botanical",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/botanical-the-unfallen-rose.webp",
+    "size": [
+      274,
+      300
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-1426788c-3ed4-4840-8fc9-ebae05b14e86.png",
+    "artwork": "/vestigium/art/botanical-the-unfallen-rose.webp",
+    "thumbnail": "/vestigium/thumbs/botanical-the-unfallen-rose.webp",
+    "transparent_fraction": 0.6238849080072953
+  },
+  {
+    "id": "botanical-the-inkless-letter-tree",
+    "name": "Cây Thư Không Mực",
+    "category": "botanical",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/botanical-the-inkless-letter-tree.webp",
+    "size": [
+      242,
+      234
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "botanical-horizon-lichen",
+    "name": "Địa Y Đường Chân Trời",
+    "category": "botanical",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/botanical-horizon-lichen.webp",
+    "size": [
+      371,
+      297
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "name": "Gỗ sồi Sherwood",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-go-soi-sherwood.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "name": "Hồ Bám Lạnh",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-ho-bam-lanh.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "name": "Bột Nằm Yên",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-bot-nam-yen.webp",
+    "size": [
+      300,
+      300
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "name": "Mực Giữ Khô",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-muc-giu-kho.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-bot-em-rong-roc",
+    "name": "Bột Êm Ròng Rọc",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-bot-em-rong-roc.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-aebdfe1e-f7bb-4ae5-88ac-2ce4f93bc785.png",
+    "artwork": "/vestigium/art/material-bot-em-rong-roc.webp",
+    "thumbnail": "/vestigium/thumbs/material-bot-em-rong-roc.webp",
+    "transparent_fraction": 0.4512081276120561
+  },
+  {
+    "id": "material-soi-niu-giot",
+    "name": "Sợi Níu Giọt",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-soi-niu-giot.webp",
+    "size": [
+      300,
+      300
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-32c6a021-761c-4215-b2f5-81ff8f207710.png",
+    "artwork": "/vestigium/art/material-soi-niu-giot.webp",
+    "thumbnail": "/vestigium/thumbs/material-soi-niu-giot.webp",
+    "transparent_fraction": 0.7192766242124087
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "name": "Nhựa Lùi Cháy",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-nhua-lui-chay.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "name": "Bột Tách Rung",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-bot-tach-rung.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "name": "Sợi Chỉ Về",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-soi-chi-ve.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "name": "Sợi Chậm Đứt",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-soi-cham-dut.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "name": "Men Giữ Ảnh Tro",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-men-giu-anh-tro.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "name": "Bột Tắt Đường Mực",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-bot-tat-duong-muc.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-tam-ep-tra-sang",
+    "name": "Tấm Ép Trả Sáng",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-tam-ep-tra-sang.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f67e624a-9a97-4ea1-bea4-d2fc8277b557.png",
+    "artwork": "/vestigium/art/material-tam-ep-tra-sang.webp",
+    "thumbnail": "/vestigium/thumbs/material-tam-ep-tra-sang.webp",
+    "transparent_fraction": 0.543677774979714
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "name": "Mảnh Men Giữ Mưa",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-manh-men-giu-mua.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-bot-con-mot-hat",
+    "name": "Bột Còn Một Hạt",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-bot-con-mot-hat.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-1d88c0dd-bc4f-4a8e-8213-d405604373e3.png",
+    "artwork": "/vestigium/art/material-bot-con-mot-hat.webp",
+    "thumbnail": "/vestigium/thumbs/material-bot-con-mot-hat.webp",
+    "transparent_fraction": 0.5897097390424009
+  },
+  {
+    "id": "material-than-ngu-dong",
+    "name": "Than Ngủ Đông",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-than-ngu-dong.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "name": "Sỏi Bánh Nước",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-soi-banh-nuoc.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-dat-om-re",
+    "name": "Đất Ôm Rễ",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-dat-om-re.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "name": "Muối Đánh Thức Hạt",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-muoi-danh-thuc-hat.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "name": "Gốm Giữ Thuốc",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-gom-giu-thuoc.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "material-cat-nghe-khuon",
+    "name": "Cát Nghe Khuôn",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-cat-nghe-khuon.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-2cf0309b-dc0b-4450-9d15-061771f9b63a.png",
+    "artwork": "/vestigium/art/material-cat-nghe-khuon.webp",
+    "thumbnail": "/vestigium/thumbs/material-cat-nghe-khuon.webp",
+    "transparent_fraction": 0.5141473918230403
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "name": "Đá Nhường Lực",
+    "category": "material",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/material-da-nhuong-luc.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "device-053",
+    "name": "Đàn giữ bình minh",
+    "category": "device",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/device-053.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "device-061",
+    "name": "Khung ảnh người chứng cuối",
+    "category": "device",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/device-061.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "device-066",
+    "name": "Vương miện Ravenna",
+    "category": "device",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/device-066.webp",
+    "size": [
+      243,
+      243
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "armament-collection-7-02",
+    "name": "Khiên Khoảng Trống",
+    "category": "armament",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/armament-collection-7-02.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "armament-fuego-negro",
+    "name": "Hắc hỏa đạn Fuego Negro",
+    "category": "armament",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/armament-fuego-negro.webp",
+    "size": [
+      334,
+      334
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "name": "Khu Vườn Của Bóng Rễ",
+    "category": "phenomenon",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/phenomenon-the-rootshadow-garden.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "phenomenon-the-river-of-one-survey",
+    "name": "Dòng Sông Của Một Bản Đo",
+    "category": "phenomenon",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/phenomenon-the-river-of-one-survey.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "completed",
+    "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-3c68446b-70a6-4168-bbd7-56f313edcee8.png",
+    "artwork": "/vestigium/art/phenomenon-the-river-of-one-survey.webp",
+    "thumbnail": "/vestigium/thumbs/phenomenon-the-river-of-one-survey.webp",
+    "transparent_fraction": 0.0
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "name": "Biển Phẳng Trong Sân Kín",
+    "category": "phenomenon",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/phenomenon-the-flat-sea-of-the-courtyard.webp",
+    "size": [
+      372,
+      372
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "name": "Căn Lò Hỏa Tủy",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-can-lo-hoa-tuy.webp",
+    "size": [
+      243,
+      243
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "name": "Giáp Vườn Bạch Thiết",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-giap-vuon-bach-thiet.webp",
+    "size": [
+      243,
+      243
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "name": "Cá Voi Lò Thẳm",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-ca-voi-lo-tham.webp",
+    "size": [
+      243,
+      243
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "name": "Vườn Trong Tiếng Chuông",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-vuon-trong-tieng-chuong.webp",
+    "size": [
+      270,
+      270
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "name": "Cột Buồm Thứ Mười Ba",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-cot-buom-muoi-ba.webp",
+    "size": [
+      243,
+      243
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "complex-civitas",
+    "name": "Cựu Thành Hồi Khóa Civitas",
+    "category": "complex",
+    "path": "/workspace/sites/tfam-resume/public/vestigium/art/complex-civitas.webp",
+    "size": [
+      270,
+      270
+    ],
+    "status": "pending"
+  }
+]

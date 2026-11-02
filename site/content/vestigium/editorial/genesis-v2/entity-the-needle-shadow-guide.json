@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-needle-shadow-guide",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Học viên hàng hải thay chốt kim la bàn bằng mẩu khoáng trong bộ dụng cụ cũ. Từ đó dưới bóng kim có một người nhỏ đứng chỉ hướng. Chuyển đèn, bóng người vẫn nằm theo trục đã nhận thay vì chạy cùng bóng kim thật.\n\nNgười dẫn có thể giữ một hướng thêm ít phút khi kim được thu lại. Học viên thử cạnh thùng sắt và thấy nó giữ cả hướng sai, hiểu rằng vị khách trung thành với dấu đã được giao. Em bắt đầu cảm ơn bóng trước khi cất, đồng thời dời mọi mẩu sắt ra xa trong lần nhận kế.",
+    "lore_en": "A navigation pupil replaced a compass pivot with mineral from an old tool kit. A little pointing person then stood beneath the needle’s shadow. Moving the lamp left it upon the accepted axis rather than following the real needle shadow.\n\nThe guide could keep a heading for a few minutes after the needle was folded away. Tested beside iron barrels, it faithfully retained the wrong heading too. The pupil began thanking it before storage and removing every iron scrap before the next acceptance.",
+    "use_vi": "Giữ hướng tham khảo vừa được la bàn nhận và giúp so thay đổi ngắn khi cất dụng cụ.",
+    "use_en": "Retain a newly accepted compass reference and compare short-term changes while the instrument is stowed.",
+    "limits_vi": "Giữ cả sai số từ kim. Rung mạnh xóa dấu; vài phút sau bóng mờ nên cần đo mới bằng la bàn đã hiệu chỉnh.",
+    "limits_en": "It retains the needle’s errors too. Strong vibration erases the mark; after a few minutes it fades and needs a fresh calibrated reading.",
+    "skills": [
+      {
+        "name_vi": "Nhận kim đứng",
+        "name_en": "Accept the Settled Needle",
+        "description_vi": "Để kim ổn định rồi chạm chốt khoáng để bóng nhận trục và chỉ theo nó; kim còn rung truyền một hướng lẫn.",
+        "description_en": "Wait for the needle to settle and touch its mineral pivot so the figure accepts the axis; an unsettled needle gives a confused heading."
+      },
+      {
+        "name_vi": "Hướng sau khi cất",
+        "name_en": "Heading After Stowing",
+        "description_vi": "Gập kim nhẹ trong khi giữ mặt đế ngang để bóng tiếp tục chỉ trục đã nhận vài phút, dùng vượt một chỗ hẹp thiếu tay.",
+        "description_en": "Fold the needle gently while keeping its base level so the figure retains the heading for a few minutes through a hands-occupied passage."
+      },
+      {
+        "name_vi": "So góc vừa đổi",
+        "name_en": "Compare the Turn",
+        "description_vi": "Xoay đế chậm cạnh một vạch đã chọn để đọc khoảng giữa tay bóng và vạch, so góc vừa rẽ; nghiêng đế phá phép so.",
+        "description_en": "Turn the base slowly beside a chosen mark and read the gap to its pointing hand to compare a recent turn; tilting invalidates it."
+      },
+      {
+        "name_vi": "Trả hướng cũ",
+        "name_en": "Release the Old Heading",
+        "description_vi": "Gõ hai lần lên chốt sau khi đã ghi hướng để bóng hạ tay, xóa dấu trước một phép đo mới và tránh nhầm hai lượt.",
+        "description_en": "Tap the pivot twice after recording the heading so the figure lowers its arm and clears the reference before another reading."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Trung thành với hướng được giao",
+        "name_en": "Faithful to the Given Heading",
+        "description_vi": "Bóng giữ trục đã nhận, còn đúng hay sai với đất thật cần người học kiểm trước.",
+        "description_en": "The figure preserves its accepted axis; the navigator must first establish its correctness against real ground."
+      }
+    ]
+  }
+]

@@ -1,0 +1,429 @@
+{
+  "completed": [
+    {
+      "id": "creature-ember-beetle",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-12854b24-c2b9-462b-bc81-dfd76d4179b3.png"
+    },
+    {
+      "id": "creature-dewkeeping-snail",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-a79f0656-e37b-4e2d-a87e-fc5561dd2fd4.png"
+    },
+    {
+      "id": "creature-warmthread-silkworm",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-cae3d2b0-da15-4daf-bb03-5b66139df231.png"
+    },
+    {
+      "id": "creature-needlefin-minnow",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-3b12333f-7321-4aa0-929c-83beb90998a9.png"
+    },
+    {
+      "id": "creature-frostthread-spider",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-8f88b4ca-79c6-413d-a8fa-7b913e2eaf3c.png"
+    },
+    {
+      "id": "creature-pale-copper-cricket",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-bc61910f-c3b0-4f51-bceb-f64bf3711d18.png"
+    },
+    {
+      "id": "creature-earthknot-worm",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-997fba5e-8ada-4428-ad30-2bb2079bf306.png"
+    },
+    {
+      "id": "creature-ash-firefly",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-3e44fbdc-eef8-4ebb-8e0e-dfe53b185f2b.png"
+    },
+    {
+      "id": "creature-frostwax-bee",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-43730794-f100-448a-a9de-0878063488d8.png"
+    },
+    {
+      "id": "creature-wellbell-frog",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-d1fcc4de-a325-449e-a80b-0ab448fe9613.png"
+    },
+    {
+      "id": "creature-crevicelock-crab",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e0afb8f7-dfb8-4cdb-8908-3f7bd2449811.png"
+    },
+    {
+      "id": "creature-veinscent-mouse",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-9ea8e650-4b2e-4564-942c-d71fb76dfe27.png"
+    },
+    {
+      "id": "creature-windmark-sparrow",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f72f2b9b-8999-45f6-85f4-a7e62a5793ad.png"
+    },
+    {
+      "id": "creature-clearwater-shrimp",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-99796d29-222a-47d4-8022-845d2e238429.png"
+    },
+    {
+      "id": "creature-mirrorpowder-moth",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-03b1c19a-037e-44c4-a3ef-966856f06a0f.png"
+    },
+    {
+      "id": "creature-saltfeeding-leech",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-4d067424-e34e-4fc2-a0f3-4e285b5b7689.png"
+    },
+    {
+      "id": "creature-echohound",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-c2866aeb-d308-4e80-b8bf-0a983350afcd.png"
+    },
+    {
+      "id": "creature-mistreading-owl",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-9e20efe7-7636-41d0-b450-63c72bda57a0.png"
+    },
+    {
+      "id": "creature-scriptback-tortoise",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e1600149-6ad9-4827-b1cc-0ab6bf35588d.png"
+    },
+    {
+      "id": "creature-thinwall-beetle",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-9c3a2ec5-b4dc-4f28-ba69-706f1bde6d8b.png"
+    },
+    {
+      "id": "creature-knotkeeping-ray",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-64b95e26-7022-43e5-9cc5-d6cd5fce2b96.png"
+    },
+    {
+      "id": "creature-lightanchor-seahorse",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-5c5a71f8-41db-4887-b6b8-3dc3f6aadb0b.png"
+    },
+    {
+      "id": "creature-stilltail-ferret",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-6a9435a4-fbf9-4908-8730-3b395e3abb94.png"
+    },
+    {
+      "id": "creature-glassantler-deer",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-99ca992d-8814-45e6-883c-f049c2b0af62.png"
+    },
+    {
+      "id": "creature-reverseink-jellyfish",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-dacf3809-c1b9-411f-9a9a-62c0aebd29e4.png"
+    },
+    {
+      "id": "creature-waveknot-octopus",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-05646085-a601-4cd7-a246-61fb1580efb8.png"
+    },
+    {
+      "id": "creature-returnvoice-bat",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-80dfde18-58d1-47a5-8f17-27a494c3a344.png"
+    },
+    {
+      "id": "creature-circuitmending-eel",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e0eedb1d-f631-4cfe-ac23-07cdc49ee7a6.png"
+    },
+    {
+      "id": "creature-cinderear-fox",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-0493fead-31cc-4cb0-83f3-9c42d106c5b8.png"
+    },
+    {
+      "id": "creature-harbourmemory-dove",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-ba70badd-81d0-4f81-9bfc-5ba5cb5bb13a.png"
+    },
+    {
+      "id": "creature-shadowpatch-moth",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f6060b20-b54b-4aeb-9b7e-260fd8b41fac.png"
+    },
+    {
+      "id": "creature-evenstep-horse",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-34c1208d-4b38-4341-ade6-c35ef24bdd28.png"
+    },
+    {
+      "id": "creature-dawnstitch-crane",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-be869750-5590-4456-bbb4-13fb3aaf5001.png"
+    },
+    {
+      "id": "creature-waterseal-seal",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-620c2f57-b69e-4f18-babf-0ed6ed006d57.png"
+    },
+    {
+      "id": "creature-duskscale-serpent",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-492f0c7d-8c31-40b3-bc50-0716a5ff9e7e.png"
+    },
+    {
+      "id": "creature-wordkeeping-raven",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-04f8faac-264f-4653-9597-a8ed2f0f62e0.png"
+    },
+    {
+      "id": "creature-coldsplitting-swordfish",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-358cbf88-4dde-465f-98f9-a1536ab21574.png"
+    },
+    {
+      "id": "creature-dreamwatch-cat",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-d4b71562-4e7b-4db0-b762-9333cdae0319.png"
+    },
+    {
+      "id": "creature-memoryarmour-pangolin",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-e5327c03-5a06-49d4-a868-ee64c7b2d4e4.png"
+    },
+    {
+      "id": "creature-seasonkeeping-swan",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-27c1081e-5d9d-41eb-bd27-c7f42fc80e3b.png"
+    },
+    {
+      "id": "creature-forestvoice-stag",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-a6993016-2f66-47c2-8bdc-8e3c946935d2.png"
+    },
+    {
+      "id": "creature-springbearing-tortoise",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-b329a289-c2e3-43b9-9a2d-afcb8dd80cf8.png"
+    },
+    {
+      "id": "creature-silencegiving-owl",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-6a34ac6f-aff3-4276-bf9e-923958997013.png"
+    },
+    {
+      "id": "creature-threshold-lynx",
+      "master": "/workspace/scratch/1d1c43f947cb/generated_images/exec-f31c1925-684e-4aff-9da9-cbd1daefe32d.png"
+    }
+  ],
+  "errors": [
+    {
+      "id": "creature-eightanchor-octopus",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84568}}\")"
+    },
+    {
+      "id": "creature-homeward-horse",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84567}}\")"
+    },
+    {
+      "id": "creature-eightanchor-octopus",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84566}}\")"
+    },
+    {
+      "id": "creature-homeward-horse",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84566}}\")"
+    },
+    {
+      "id": "creature-sunkenbell-whale",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84565}}\")"
+    },
+    {
+      "id": "creature-lastquay-hound",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84564}}\")"
+    },
+    {
+      "id": "creature-lastquay-hound",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84563}}\")"
+    },
+    {
+      "id": "creature-sunkenbell-whale",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84563}}\")"
+    },
+    {
+      "id": "creature-voyageclosing-gull",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84562}}\")"
+    },
+    {
+      "id": "creature-springbearing-hart",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84561}}\")"
+    },
+    {
+      "id": "creature-voyageclosing-gull",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84560}}\")"
+    },
+    {
+      "id": "creature-springbearing-hart",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84560}}\")"
+    },
+    {
+      "id": "creature-onebeat-jellyfish",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84559}}\")"
+    },
+    {
+      "id": "creature-deep-lanternfish",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84559}}\")"
+    },
+    {
+      "id": "creature-deep-lanternfish",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84558}}\")"
+    },
+    {
+      "id": "creature-onebeat-jellyfish",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84557}}\")"
+    },
+    {
+      "id": "creature-returnweb-spider",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84556}}\")"
+    },
+    {
+      "id": "creature-winterkeeping-nightingale",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84555}}\")"
+    },
+    {
+      "id": "creature-returnweb-spider",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84554}}\")"
+    },
+    {
+      "id": "creature-winterkeeping-nightingale",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84553}}\")"
+    },
+    {
+      "id": "creature-moonreturn-tortoise",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84552}}\")"
+    },
+    {
+      "id": "creature-nightwatch-reindeer",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84551}}\")"
+    },
+    {
+      "id": "creature-moonreturn-tortoise",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84550}}\")"
+    },
+    {
+      "id": "creature-nightwatch-reindeer",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84550}}\")"
+    },
+    {
+      "id": "creature-the-last-bee",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84549}}\")"
+    },
+    {
+      "id": "creature-carp-of-the-nameless-well",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84548}}\")"
+    },
+    {
+      "id": "creature-the-last-bee",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84547}}\")"
+    },
+    {
+      "id": "creature-carp-of-the-nameless-well",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84547}}\")"
+    },
+    {
+      "id": "creature-the-horse-before-the-quay",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84546}}\")"
+    },
+    {
+      "id": "creature-weaver-of-the-last-thread",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84546}}\")"
+    },
+    {
+      "id": "creature-weaver-of-the-last-thread",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84545}}\")"
+    },
+    {
+      "id": "creature-the-horse-before-the-quay",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84544}}\")"
+    },
+    {
+      "id": "creature-owl-of-the-absent-keeper",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84543}}\")"
+    },
+    {
+      "id": "creature-seal-of-the-last-icehole",
+      "attempt": 0,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84543}}\")"
+    },
+    {
+      "id": "creature-seal-of-the-last-icehole",
+      "attempt": 1,
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84542}}\")"
+    }
+  ],
+  "updated": "2026-10-18T00:41:07.719387+00:00",
+  "completed_ids": [
+    "creature-ember-beetle",
+    "creature-dewkeeping-snail",
+    "creature-warmthread-silkworm",
+    "creature-needlefin-minnow",
+    "creature-frostthread-spider",
+    "creature-pale-copper-cricket",
+    "creature-earthknot-worm",
+    "creature-ash-firefly",
+    "creature-frostwax-bee",
+    "creature-veinscent-mouse",
+    "creature-wellbell-frog",
+    "creature-crevicelock-crab",
+    "creature-windmark-sparrow",
+    "creature-clearwater-shrimp",
+    "creature-mirrorpowder-moth",
+    "creature-saltfeeding-leech",
+    "creature-echohound",
+    "creature-mistreading-owl",
+    "creature-scriptback-tortoise",
+    "creature-knotkeeping-ray",
+    "creature-thinwall-beetle",
+    "creature-lightanchor-seahorse",
+    "creature-stilltail-ferret",
+    "creature-reverseink-jellyfish",
+    "creature-glassantler-deer",
+    "creature-waveknot-octopus",
+    "creature-returnvoice-bat",
+    "creature-circuitmending-eel",
+    "creature-harbourmemory-dove",
+    "creature-cinderear-fox",
+    "creature-shadowpatch-moth",
+    "creature-evenstep-horse",
+    "creature-dawnstitch-crane",
+    "creature-waterseal-seal",
+    "creature-duskscale-serpent",
+    "creature-wordkeeping-raven",
+    "creature-coldsplitting-swordfish",
+    "creature-dreamwatch-cat",
+    "creature-memoryarmour-pangolin",
+    "creature-seasonkeeping-swan",
+    "creature-forestvoice-stag",
+    "creature-springbearing-tortoise",
+    "creature-silencegiving-owl",
+    "creature-threshold-lynx"
+  ],
+  "missing_ids": [
+    "creature-eightanchor-octopus",
+    "creature-homeward-horse",
+    "creature-sunkenbell-whale",
+    "creature-lastquay-hound",
+    "creature-voyageclosing-gull",
+    "creature-springbearing-hart",
+    "creature-onebeat-jellyfish",
+    "creature-deep-lanternfish",
+    "creature-returnweb-spider",
+    "creature-winterkeeping-nightingale",
+    "creature-moonreturn-tortoise",
+    "creature-nightwatch-reindeer",
+    "creature-the-last-bee",
+    "creature-carp-of-the-nameless-well",
+    "creature-the-horse-before-the-quay",
+    "creature-weaver-of-the-last-thread",
+    "creature-owl-of-the-absent-keeper",
+    "creature-seal-of-the-last-icehole",
+    "creature-moth-of-the-lost-colour",
+    "creature-tortoise-of-the-first-touch"
+  ],
+  "qa_errors": [],
+  "status": "stopped_global_quota",
+  "stop_reason": "Parent confirmed global HTTP429 usage_limit_reached; active pipeline terminated to prevent additional requests."
+}

@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "armament-fuego-negro",
+    "name": "Hắc hỏa đạn Fuego Negro",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "“Bản của Marco chỉ là nền. Cái này là Bala de Fuego Inextinguible. Thủy thủ chắc sẽ gọi Fuego Negro cho đỡ dài.”",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "Edward chỉ vào hai lớp phản ứng trên sơ đồ cắt. “Bột Vestigium của Marco khiến chất cháy bám mục tiêu. Đội kỹ thuật của tôi thêm một lớp thứ hai để những giọt cháy tiếp tục tự cấp nhiệt trong một khoảng thời gian.”",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "Fuego Negro khiến tất cả phải lùi xa hơn. Khi đạn pháo đập vào khung gỗ phủ vải buồm cũ, vụ nổ không lớn bằng Ruptura, nhưng những giọt lửa đỏ đen bắn ra bám chặt vào vải, gỗ và dây thừng. Đội chữa cháy phun nước, ngọn lửa co lại một nhịp rồi bùng mạnh hơn ở nơi nước kéo chất cháy lan xuống.",
+        "chapter": 41
+      },
+      {
+        "volume": 2,
+        "tab_id": "t.nkced193dq6n",
+        "anchor": "“Đủ rồi.” Edward cau mày ra hiệu dừng thử. Cát khoáng Vestigium chuyên khử nhiệt được trút xuống từ máng phía trên mới dập được phần lớn lửa. Isabella nhìn khung mục tiêu cháy đen rồi nói ngay rằng loại đạn này không được phép chiếm quá nhiều cơ số.",
+        "chapter": 41
+      }
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "51133ff0fd4ff6c642f3f8fdde82ddf23e3199142c85a3d6888fe98668d2f18f",
+    "r2_full_key": "images/vestigium/full/armament-fuego-negro.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/armament-fuego-negro.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; no source image upscaling",
+    "png_sha256": "e3dd927271cc0978bf877469eae98a1a77aad7b63235654753311b9a2e217c61",
+    "hash_target": "lossless WebP full image",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "armament-bala-de-fuego",
+    "name": "Hỏa đạn Bala de Fuego",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 1,
+        "tab_id": "t.43a8mpvqyjnw",
+        "anchor": "“Bột Vestigium tạo nhiệt cấp Thông thường, trộn với nhựa thông, lưu huỳnh và chất cháy. Đầu đạn nổ sẽ tung hỗn hợp bám lên khiên, gỗ, vải, da và bất cứ thứ gì ở quanh điểm chạm.”",
+        "chapter": 29
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.43a8mpvqyjnw",
+        "anchor": "Marco đặt viên đạn trở lại hộp. “Tôi không muốn một vũ khí thần kỳ. Tôi muốn thứ thợ ở Fes có thể làm đủ nhiều để bắn suốt một trận. Nếu cần một viên Vestigium hiếm cho mỗi quả thì bỏ.”",
+        "chapter": 29
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.ak94gkdvsno4",
+        "anchor": "Quả thử đầu tiên đánh trúng chiếc xe công thành giả dựng giữa bãi. Vỏ thép vỡ, chất cháy bám vào gỗ rồi lan thành những dải lửa đỏ cam bất chấp lớp tuyết dưới bánh xe. Những người đứng quan sát im hẳn khi mùi nhựa cháy và khói khét bị gió đưa trở lại.",
+        "chapter": 30
+      },
+      {
+        "volume": 1,
+        "tab_id": "t.ak94gkdvsno4",
+        "anchor": "Đến cuối tuần, mỗi khẩu Armstrong mới đều có sổ bắn riêng, mỗi lô Bala de Fuego đều có dấu xưởng và ngày sản xuất. Mẫu nào có tỷ lệ cháy sớm vượt giới hạn bị tháo bỏ, dù số lượng dự trữ trên báo cáo vì thế thấp đi đáng kể.",
+        "chapter": 30
+      }
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "3d9463cf33308cafe1e888b66a7d2377ec36bcab57db5616e4bc7c6e800c9734",
+    "r2_full_key": "images/vestigium/full/armament-bala-de-fuego.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/armament-bala-de-fuego.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; no source image upscaling",
+    "png_sha256": "aeb9a0484dcb7390aad4cc4c925c62d2a90ea9b55a141091b73068d56b2be36b",
+    "hash_target": "lossless WebP full image",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "armament-collection-6-06",
+    "name": "Găng Đỡ Một Lần",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "29e04473292e0d3ada4739c223e5d78ad6797120392949a26d823d5298b883ab",
+    "r2_full_key": "images/vestigium/full/armament-collection-6-06.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/armament-collection-6-06.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; no source image upscaling",
+    "png_sha256": "1479591164c6ad63791f391f759f8bb9dac94a3813dd804b587bb8b34c7b227d",
+    "hash_target": "lossless WebP full image",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "armament-collection-7-02",
+    "name": "Khiên Khoảng Trống",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "5db72880d948d6c51ff7fe253979dac89a6ab5298d99149127820e4403b60d05",
+    "r2_full_key": "images/vestigium/full/armament-collection-7-02.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/armament-collection-7-02.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; no source image upscaling",
+    "png_sha256": "97f9ef115453c3727f73bc807b012665f3d5675c4d335b68b5e366a63af0508d",
+    "hash_target": "lossless WebP full image",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "botanical-the-unnumbered-lotus",
+    "name": "Sen Hạt Thứ Không",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "0cc6630543c1977329443fb41f1fc922a6f14c15bb1dde01e619e4addd7b3a3a",
+    "r2_full_key": "images/vestigium/full/botanical-the-unnumbered-lotus.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/botanical-the-unnumbered-lotus.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; regenerated from collection dossier",
+    "old_size": [
+      413,
+      345
+    ],
+    "prompt_file": "batch-2-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "679a0401bdf272b5c98745a71f339b67b0d2c1b238037015a72b46c5f9781b06",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "botanical-the-inkless-letter-tree",
+    "name": "Cây Thư Không Mực",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "f04d8fe0132c0f005815bdc50ca6ea9c0814e246259b28952b8b7cb5b756d446",
+    "r2_full_key": "images/vestigium/full/botanical-the-inkless-letter-tree.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/botanical-the-inkless-letter-tree.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; regenerated from collection dossier",
+    "old_size": [
+      242,
+      234
+    ],
+    "prompt_file": "batch-2-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9610b65091ce1d982e8cd68c59a490aeaa30e3c958f590444647e2d33832d6a5",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "botanical-horizon-lichen",
+    "name": "Địa Y Đường Chân Trời",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "10863fc79436b31c47b686e6e2752cf78f47c9d6901eb4df3170b8ce5284e2bc",
+    "r2_full_key": "images/vestigium/full/botanical-horizon-lichen.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/botanical-horizon-lichen.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; regenerated from collection dossier",
+    "old_size": [
+      371,
+      297
+    ],
+    "prompt_file": "batch-2-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "2f3db894652366fabcec868712818e85633433fb0aafc50fd6ffb6fd3bd65ad5",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-044",
+    "name": "La bàn người trở về",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1312,
+      1199
+    ],
+    "alpha": true,
+    "sha256": "9cc959849dc6f8448e41f8e82c6756715e4f30e9a78d9e0076948a35f4e6b027",
+    "r2_full_key": "images/vestigium/full/device-044.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-044.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; regenerated from collection dossier",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "batch-2-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9b8ec4889e322e80a96cdaa3e29c5834d2bf5e0090f84faa5607493a3d723d16",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-045",
+    "name": "Hộp nhạc giữ tang",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "19f0c3834e393a496a210ce4d7f339ad504635351193b28971a97f8a4c7b129a",
+    "r2_full_key": "images/vestigium/full/device-045.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-045.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; regenerated from collection dossier",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "batch-2-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a0109f6327d468dba31a58e42393ce73d875bb4aca41cf28f6b1727634eb729d",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "name": "Cá Voi Lò Thẳm",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "5064daaed57b49fbeafcc5682f26e19307fb1d25f07387695be99c3d82d82ed5",
+    "r2_full_key": "images/vestigium/full/complex-ca-voi-lo-tham.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-ca-voi-lo-tham.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      243,
+      243
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "c33d667447c6c2fa79fe47136a1f13b7b0ca9138a1266c1ce88ae8938fc9f8c9",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "name": "Căn Lò Hỏa Tủy",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "8cca732c69d2410ffd749c1601980aeef58ebf9d0e006b628409dfcde68f5a30",
+    "r2_full_key": "images/vestigium/full/complex-can-lo-hoa-tuy.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-can-lo-hoa-tuy.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      243,
+      243
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ab0540ffc83ae710b2a0af232bac10c83f909396b02fbf9557d4ff54e0ccb2b7",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-civitas",
+    "name": "Cựu Thành Hồi Khóa Civitas",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "d5391a6cb823c2f55349e6684bcfaa5e22001a994eb3d1cdc7e398003be43b89",
+    "r2_full_key": "images/vestigium/full/complex-civitas.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-civitas.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      270,
+      270
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "69652da51feceea69efd9698de422bd7b50fbf6f3aeb3b04ab2eec4df2436068",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "name": "Cột Buồm Thứ Mười Ba",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "b99a575bcb7dbdb2ec148bd71f5dcdef67e7558d3a3502c34882519213174511",
+    "r2_full_key": "images/vestigium/full/complex-cot-buom-muoi-ba.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-cot-buom-muoi-ba.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      243,
+      243
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "8948dc6573b15b8c55057eedb723af06ff3dc712733650f1e846d5c765f51fce",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "name": "Giáp Vườn Bạch Thiết",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "8d80d4043671d88e4d4b078e01e9b5e7f37344f7ee37191be6fbea8d83b27fc8",
+    "r2_full_key": "images/vestigium/full/complex-giap-vuon-bach-thiet.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-giap-vuon-bach-thiet.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      243,
+      243
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "fda4a1a5ebb308f9243760a12f6be171108ef28837c0d0c1807aa3dba68ee0cd",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "name": "Vườn Trong Tiếng Chuông",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "73a9ae925a2890b208e38ff72bb7b69d6c228f400c56f5456ed9442b7e3058a5",
+    "r2_full_key": "images/vestigium/full/complex-vuon-trong-tieng-chuong.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/complex-vuon-trong-tieng-chuong.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      270,
+      270
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ccc0d7bc36e7fb7d24d1c2cf0e4a5d6ec45fb642c3c1371a53313043055b8e24",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-053",
+    "name": "Đàn giữ bình minh",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "10b3a5be0a3b2899e437066c7b5dc15317a816c348e9a7d15adb03ca78a82ead",
+    "r2_full_key": "images/vestigium/full/device-053.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-053.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "f111fd0ab2ee20ccd5b66c0e8bca4166b2510e866b8921145796da6d79530bf6",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-061",
+    "name": "Khung ảnh người chứng cuối",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "3c81c858d816c48ea8bdff43397e66e15dfe4d9bea2b052bc761a70c5f8ed0f5",
+    "r2_full_key": "images/vestigium/full/device-061.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-061.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "5cabd3990c5abdc673cb14f9487cf4ce6abfeb1735e5c158688d6c0d69ed2acd",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-066",
+    "name": "Vương miện Ravenna",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 1,
+        "chapter": 2,
+        "tab_id": "t.ze6h0pvulad8",
+        "anchor": "Nó chính là một Vestigium cấp Thần Thoại đang được cất giữ ngay tại trung khu quyền lực tối cao của họ."
+      }
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "39133d449c5538c0eb2d733ef5dc2ef0acbbab7494572647acc875b02eef1a0b",
+    "r2_full_key": "images/vestigium/full/device-066.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-066.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      243,
+      243
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "f15554679f411f2a619c9067b7bf180b1f7075a5e17b8001b1e5879efbe8832c",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "device-067",
+    "name": "Chuông lời thề hồi hương",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 132,
+        "tab_id": "t.n9h17cv6twd9",
+        "anchor": "Qua hơn bốn mươi năm được truyền trong một gia đình thủy thủ, nó lên Hiếm rồi Kỳ tích"
+      }
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "b9c329e27a4d4016143005bd0488c5d137754ecf69520ff2096a16e4393c9014",
+    "r2_full_key": "images/vestigium/full/device-067.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/device-067.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "512c24a2200414471fc0aee202a6df6f5ffce9369175d555170fee092f84981f",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-bot-chan-dong",
+    "name": "Bột Chặn Đọng",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "7b37d6090baac33c657f0444f84ef13adc628d7f3dcdb8936cd2de3eebbef90f",
+    "r2_full_key": "images/vestigium/full/material-bot-chan-dong.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-bot-chan-dong.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "c8f00d6fbbe5ad4a4d96781c0689432c1636a2b90f57e0250075c2124b1ff2cc",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-bot-mo-men",
+    "name": "Bột Mở Men",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "01993506ec8e8f5b50bfff115e0973ec37af585475b2120d21b4e085e468d3e1",
+    "r2_full_key": "images/vestigium/full/material-bot-mo-men.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-bot-mo-men.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9f2d98b1cf63c05d7840a5cada12cacb023cf89618d443b18216dbc3a63da385",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "name": "Bột Nằm Yên",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "efcd8ea016ffe59a5ec535c4612a79163eb14fef0e68147b8d26539b60c0f17c",
+    "r2_full_key": "images/vestigium/full/material-bot-nam-yen.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-bot-nam-yen.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      300,
+      300
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "3ad649eefcf53ae59ae5f2ea1d4f01ebc7d54fc3bf189231bc477fab9cf3774c",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "name": "Bột Tách Rung",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "f987092b13ac637cc41bbef1695b58c8af44d2979c29829217a9b79a7f8c9ae8",
+    "r2_full_key": "images/vestigium/full/material-bot-tach-rung.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-bot-tach-rung.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a37d66ce96ee131e17ad9d00497d9d2164d0e911fa0bfaee6d2bfcaac0355624",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "name": "Bột Tắt Đường Mực",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "13f4c6f74e9c1b5e6b41b7b2597c7a064c021422c07010fb6b5b52efdd11148a",
+    "r2_full_key": "images/vestigium/full/material-bot-tat-duong-muc.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-bot-tat-duong-muc.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "05eefe149d7cec2be25a510be75a16f4b0b91f63426c21a46f78adf8d99f618b",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "name": "Đá Nhường Lực",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "0abb5bf35920181a80805789294810be9644dda4cdcd386330f5e38060115931",
+    "r2_full_key": "images/vestigium/full/material-da-nhuong-luc.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-da-nhuong-luc.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a36d6d14fcb7c5d86f89d719e86882bceabbfdae5b683b507c94b1f1763aca02",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-dat-om-re",
+    "name": "Đất Ôm Rễ",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "fcc1139507f19897cad5467c7f89016e7d0cc80b3f89e43a7635ef61298fd7f0",
+    "r2_full_key": "images/vestigium/full/material-dat-om-re.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-dat-om-re.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "f20b5e7a5e0c82f02693e298701670ea6d32c6167fcd994402402e29b089bddc",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "name": "Dịch Chốt Sắc",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "19bdf5b33f1bd91cff199ed49194dee4ad4a8070ccb450a6749df93a1c2de796",
+    "r2_full_key": "images/vestigium/full/material-dich-chot-sac.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-dich-chot-sac.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ff5d378a8fa2ddaea92c35e0f9b60afe8dc9146cd2d1ad0bcf13b61c22452f4d",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-dich-doi-mep",
+    "name": "Dịch Đổi Mép",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "4df73dfb142589f9af93fe8414ab12ae919d9d9d8f115b5b98fdef65630fb357",
+    "r2_full_key": "images/vestigium/full/material-dich-doi-mep.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-dich-doi-mep.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "77454443e25787ba226ed1749016859f496f5f88d25ceadbdc2786e953ab6841",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-dong-dem-nhip",
+    "name": "Đồng Đếm Nhịp",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "29e2c8db40787119a3b1991f38d80fa7e44a8fb5de26c33f742950228d2bbd6d",
+    "r2_full_key": "images/vestigium/full/material-dong-dem-nhip.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-dong-dem-nhip.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "5a70c5ca8f9420c88ecdc0ed024fcbc8658261d1fa431d4397e496522b1472de",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "name": "Gỗ sồi Sherwood",
+    "origin": "canon",
+    "sources": [
+      {
+        "volume": 1,
+        "chapter": 19,
+        "tab_id": "t.5vkg0sqbnvsv",
+        "anchor": "Nhờ những thớ gỗ đan chặt sở hữu độ dai và cứng vượt xa gỗ thông thường, HMS Red Baron mới có thể trơ trơ gánh chịu hàng chục phát đại bác"
+      }
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "d4ef55d794d0c9a1ff1f7871778b3521be98d793714bb502e38c19038dad0522",
+    "r2_full_key": "images/vestigium/full/material-go-soi-sherwood.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-go-soi-sherwood.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "bd8f35bdb1dccf9e59b22eebc564813eb118ad4a856978ebba0300bbeed7b766",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "name": "Gốm Giữ Thuốc",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "fdda1114d2899e3ba1a4937f8fa2cd694b876cd885def0c4ad571fd8fa7a6bb2",
+    "r2_full_key": "images/vestigium/full/material-gom-giu-thuoc.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-gom-giu-thuoc.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ff6e9229aa5c3c33ebbb7cd3bf5fda90bede39ad094c6d73aa0c39f9a8201ae3",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "name": "Hồ Bám Lạnh",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "3da1d163f7259e51a7323aedb77491a85cf8a58d87557c8bbec287bf8825896a",
+    "r2_full_key": "images/vestigium/full/material-ho-bam-lanh.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-ho-bam-lanh.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "3452423b87438980fa993f9ef95f1ccb7c5eb9d2d5053c41dd10a6203346e256",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "name": "Mảnh Men Giữ Mưa",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "d9122b5a4e88c44e7fd4b8c682ff9342f0b264d652a834a5ac8e14a5ea8c9b5f",
+    "r2_full_key": "images/vestigium/full/material-manh-men-giu-mua.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-manh-men-giu-mua.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "30955e8cf0881541a364aaf1c62bb6dc49b73f91208434f4f4131234a1261c7e",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "name": "Men Giữ Ảnh Tro",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "605e3311badba2808a63763e52d6a53a5d45d8919f50cdb6edf270cb98567d8a",
+    "r2_full_key": "images/vestigium/full/material-men-giu-anh-tro.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-men-giu-anh-tro.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "fcf6fe88ad07bae0cd3f25e70d51f39a0a193cbf80af37ebe0cfdf10c55abcb8",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "name": "Mực Giữ Khô",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "7123371c7e3b3442a399134003b96d848da583cc1f6b40e0dc26c03ed59bf77c",
+    "r2_full_key": "images/vestigium/full/material-muc-giu-kho.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-muc-giu-kho.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "7d941d45bcb17427eea2028aaabcca1c297bf6bd32ce7c6c0098f8ebf0d05899",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "name": "Muối Đánh Thức Hạt",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "f7b9a0e38eb217fd6a4939af31311d4a565575c97520bc263a9b7f8e1db65cbe",
+    "r2_full_key": "images/vestigium/full/material-muoi-danh-thuc-hat.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-muoi-danh-thuc-hat.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "4f95b3197bbec6370496e00c7248fbafee15a2203829d70f2a5430bd598e0eb8",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-nhua-khau-go",
+    "name": "Nhựa Khâu Gỗ",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "22b23ce88c88cc4d2da2d7918562f0f964106aebe2434d77b6f9dd8f7ddb1930",
+    "r2_full_key": "images/vestigium/full/material-nhua-khau-go.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-nhua-khau-go.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "453de6d8fee24b363efd838cb79598bebfa2f26c97c7014c181a4c1c5bcce6b1",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "name": "Nhựa Lùi Cháy",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "a419d4e83aa2c532fe04969d65c532234c9ab965a487e37f80e68df2fd007d64",
+    "r2_full_key": "images/vestigium/full/material-nhua-lui-chay.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-nhua-lui-chay.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a032b0efb6d1627b884c779f2b6fb89a83d902c13db44f8513b68469b458d510",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-nhua-mot-nhip-lanh",
+    "name": "Nhựa Một Nhịp Lạnh",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "d8cc54811563c3d80b837aa4962ca59c89154e942e8a1a1c2aed52c064985467",
+    "r2_full_key": "images/vestigium/full/material-nhua-mot-nhip-lanh.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-nhua-mot-nhip-lanh.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "30dc2665a140aad23e1e9ce993e12e5d24596d8e04216e579b52be967eda869e",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "name": "Dấu Sương Bậc Cuối",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "8106e0fe7bbc17ab8733c00c1eb6068a80e2c89937eaa3e360c85f028db3c751",
+    "r2_full_key": "images/vestigium/full/phenomenon-dew-on-the-last-step.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-dew-on-the-last-step.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "b535111b6f0793a7171a14f449a346c51f5f3b391871dc9c96cd2f5d8c7a1ec1",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "name": "Mùa Lá Trên Đá Trắng",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "888885bd966e60b6e1416425cc2636d83535f431ab5a4a57dea4dd672dec966a",
+    "r2_full_key": "images/vestigium/full/phenomenon-leaves-upon-white-stone.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-leaves-upon-white-stone.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ade657c6ce43858287dd4449aa4341a4d8c961b728ff01291a296b3cd9824cdb",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "name": "Một Phút Mưa Nằm Ngang",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "76bf54b01a2a167c60fa10d4c052c1c3c7566c9f76bbea4e41249be93f4df7b8",
+    "r2_full_key": "images/vestigium/full/phenomenon-one-minute-of-sideways-rain.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-one-minute-of-sideways-rain.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "1b185378d690f78bce006e5e6d0040898ba5d4db112de252333eee621413dffc",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "name": "Mưa Trong Một Viên Gạch",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "d8e49846a80294e5de87b982c54a1be8e5ec1e6e5702fc20267848c5bb30fb6a",
+    "r2_full_key": "images/vestigium/full/phenomenon-rain-upon-one-tile.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-rain-upon-one-tile.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "1f91a581e5ff2fdda44d88e104148cd11e497292e1cb7dc13f50f35ef8a053ec",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "name": "Tuyết Rơi Dưới Mái Kín",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "f099c2ccae5dfa2a036658c53a04cfa18a0311be6fc1428631f81e04b1b170e3",
+    "r2_full_key": "images/vestigium/full/phenomenon-snow-beneath-a-sealed-roof.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-snow-beneath-a-sealed-roof.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "2c076401c39062aa36ab6c8fb53c36aa1c25496dff694cb484d4ef8897b4e21b",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-city-beneath-one-mist",
+    "name": "Thành Phố Dưới Một Lớp Sương",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "3f4424b232d545fea2925fae20302cad48be5ba40075f7127d3ee3bf791f3222",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-city-beneath-one-mist.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-city-beneath-one-mist.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9069aa06f0328c0b08ebb76f90d8065034a0ff28cfaa751750bfece8d1a2ad20",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-dawn-of-a-single-song",
+    "name": "Bình Minh Của Một Câu Hát",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "1f49b4c7636d658ba94315f29ae8228852d37fa0933ca0c7abf239329b5f970a",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-dawn-of-a-single-song.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-dawn-of-a-single-song.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "c8976cd195e7cfead61968e6ac3d658c70df5ee82a0189b3953622d6162ce922",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "name": "Biển Phẳng Trong Sân Kín",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "b5f113be9c797d1edaff3139ca4f9f10f09a8965bdb6425ffcc789373f9af1d8",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-flat-sea-of-the-courtyard.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-flat-sea-of-the-courtyard.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "6d1b9bb923e1a3137f1ef64b05cedff0c029f58790c11fcf616914c3981e10c0",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-light-for-a-later-witness",
+    "name": "Vết Sáng Dành Cho Người Đến Sau",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "8907395a0ef47d8927690081ecc46306d2e809d98c48531ca879980c934ea808",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-light-for-a-later-witness.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-light-for-a-later-witness.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "78a0566896a1d6acc76d9322260edf8ab4976c94577ff1b5166a52385021e3f8",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-load-remembering-vault",
+    "name": "Vòm Đá Nhớ Tải",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "eb2dfeae72df9c0b4ec2075bea81f122c18c9285ccbe1d461abbb7ae408966b4",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-load-remembering-vault.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-load-remembering-vault.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ab5e6c66a2bc2d81a7dbe458aad39edc86d6ef8c6cb0efef6260b18fb019d210",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-manuscript-mist-layer",
+    "name": "Tầng Sương Của Bản Thảo",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "494225867ea7b4a678865c6a992417a25f6fff085238cd51025734d0e91b1d62",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-manuscript-mist-layer.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-manuscript-mist-layer.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "37ee1ea9248d944c34652e57a6fcb081ba2cacfc4e1ff0e46e6ee1386e3b7bf4",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-passage-of-vanished-scents",
+    "name": "Lối Đi Của Những Mùi Đã Mất",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "277072541cb3f2ac06cc138610d935c3081376787e51a695be5db32439d1d10f",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-passage-of-vanished-scents.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-passage-of-vanished-scents.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "4198fd5f4b7ae1e51c8cbd1e6f49dd823e9b510fe0bba951b49afec8530d9e03",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-pool-holding-an-old-sky",
+    "name": "Mặt Hồ Giữ Bầu Trời Cũ",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "644a6390d2500f35f0544bce605da0c07c7a849dc303444616cbfc8f811a954e",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-pool-holding-an-old-sky.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-pool-holding-an-old-sky.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "7a9aa94f87be0be32ae70afbdc44a6592ed5339201f16b80574db8e4f4bea781",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "name": "Hồ Nước Nhớ Một Cơn Gió",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "812d0595485db635569d2dbfccbbe529c960d1204487bdf7e248690b747f22c6",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-pool-remembering-one-wind.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-pool-remembering-one-wind.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "40df1f401fbddb356593645ff8af290047111664974b3f47e54a39488e962920",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+    "name": "Giờ Lặng Của Một Bến Vắng",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "8c06647f1c1fa6ce2387967a98f7b072a859af30730f6c7282eb830631e8cc71",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-quiet-hour-of-an-empty-quay.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-quiet-hour-of-an-empty-quay.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "44466285f00993dd711ae38e6e86197b35856a672699378eafe047e3c8704fc9",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-quiet-zone-holding-every-note",
+    "name": "Vùng Im Mang Đủ Âm Thanh",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "0ec9974eff1f48c033298e12fd16d9634943042ad1eba32ad8f20e3bdf48fca8",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-quiet-zone-holding-every-note.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-quiet-zone-holding-every-note.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "0b6d55db05ced9b7071d9286289cd4c1948c9d8264f06114733ea2988634d8bd",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-rain-that-falls-once",
+    "name": "Cơn Mưa Chỉ Rơi Một Lần",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "b7d64eaf8589b45db9507515b0d9876c4119e875dc85bcf58e886f598ea9cb5d",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-rain-that-falls-once.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-rain-that-falls-once.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "f0ed29048b9504212fd7650ac67ae0b4d7275fe75474ee53c7323d70c1d1e539",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "name": "Sợi Nắng Còn Lại",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "38e446cd47f702f605a85818b750cfbcb32fd9b24b18423458e5836e512b5981",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-remaining-sunthread.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-remaining-sunthread.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "56f86818ff407433417d55b767010d77438c62e3fb6c57b3d2f83acd523e8c56",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "name": "Mặt Nước Giữ Vòng",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "e27df6bda9587bd6afd1405e115575c220cfbafff500fc1cc383b13ba3049689",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-ring-retaining-water.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-ring-retaining-water.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "08ab271e5fb05c38a2157dbb4c461a79b224f77fefff3c3880c5534abfdb1aec",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-room-of-two-dawns",
+    "name": "Gian Nhà Có Hai Bình Minh",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "c6b5265b94097d988a7d8b7c70e64756cb8bd99cfcaeaf77737f356642b1b31c",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-room-of-two-dawns.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-room-of-two-dawns.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "ff08ab02854cd851c382588469c6697ac9e8b36e659b317ec0e786a383894e15",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "name": "Khu Vườn Của Bóng Rễ",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "da6ea69c83bb2d6ceb8ce963efae0f55b8b221ad86375c73aea7cf9bd1c9c327",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-rootshadow-garden.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-rootshadow-garden.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "6f07d62a54915d3811b9f98af3870664e256a0b428ac462c702a3e4429200e68",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-space-left-for-a-return",
+    "name": "Khoảng Trống Để Một Người Trở Về",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "3eefa7e518f1b582f10f842a892d74111cb456e9ec3ce84357c3a579ce491e37",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-space-left-for-a-return.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-space-left-for-a-return.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "d43d07dc0e07f9eeff0f1841e7516b8be4a0f22485d83d890c07e70793897ed6",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "name": "Bậc Thang Của Những Âm Cao",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "b0dbaeceedeebed90e8c14c7b13f2d7f23c3224d8d2600a5dd56e54014468a74",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-stair-of-high-notes.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-stair-of-high-notes.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "fc287189f91072886d7f76092b6ad1504bb28791fdbfa79b037ce31093041329",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "name": "Vườn Bóng Có Hai Mùa",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "5af43a808d2c806657bb7c3727065a3430e359d21d28db65fb56deb8f9b8bd4d",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-two-season-shadow-garden.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-two-season-shadow-garden.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "286e3336a33ed487d19337cd93c143c962a0b9bc9316e8e47ec4fc33610bab20",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "name": "Hốc Đá Giữ Tiếng Nước",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "f500389f6ec6c67b6a90875ca1bb266f06f68028fb8f51d8e94ea9b8246eae91",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-water-sound-alcove.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-water-sound-alcove.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "0c62a79738dd4815352909c4d8943ca3d633178580a25c03e3016ebe3961c6bf",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "name": "Mạch Nước Dưới Bóng Đèn",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "5d7c401562001fccdff60fc05b26b52faa51fc0e7891eb5ab5cb537ac6261946",
+    "r2_full_key": "images/vestigium/full/phenomenon-the-waterline-beneath-the-lamp.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-the-waterline-beneath-the-lamp.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "87cbf72ef26e466f0c6bf1b0f8ea0b6c728744198492df8895dd50d4c6b4ed6c",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "phenomenon-winter-within-the-wall-niche",
+    "name": "Mùa Đông Trong Hốc Tường",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": false,
+    "sha256": "022cbbec8fe65a727ab4a458e03314aa0ff00a5476f7c47a3b4afba14cfd2540",
+    "r2_full_key": "images/vestigium/full/phenomenon-winter-within-the-wall-niche.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/phenomenon-winter-within-the-wall-niche.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "e52dd84586236d4bc9e08ab920d47e0c64ba0c26c13dae5cfff432a4cc904b52",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-sap-niem-mot-lan",
+    "name": "Sáp Niêm Một Lần",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "e96ec2a958b0919602d8012c9e5f2aa0e3687387e4aacf00dc0196a9a19e5e2c",
+    "r2_full_key": "images/vestigium/full/material-sap-niem-mot-lan.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-sap-niem-mot-lan.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a6e78c9fc108c68ff4e0ba0cc55c11fb4c7ac5bb188da8fd3543dfe2d4594a0b",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "name": "Sáp Trả Dấu",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "7b81648d021e9f99e66e69e25281c777887122d1e1beed5ead835cab9daaf970",
+    "r2_full_key": "images/vestigium/full/material-sap-tra-dau.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-sap-tra-dau.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      414,
+      414
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "32b870d217d1784eead7fe9bd07088265abe82869b44fa07d78789ea8d5078eb",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "name": "Sỏi Bánh Nước",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "3413209341212b4dbf551b274ad896992eca3addc9e90a6329ca1e482c9e0959",
+    "r2_full_key": "images/vestigium/full/material-soi-banh-nuoc.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-soi-banh-nuoc.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9e81952a7a5beb03dbd5c9d35c07bb65ecf802627086e0d1fe4352a608226c51",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "name": "Sợi Chậm Đứt",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "eac500cc127fce29c880c2d9d640911f0367a978c54d159043b84069c726e4bf",
+    "r2_full_key": "images/vestigium/full/material-soi-cham-dut.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-soi-cham-dut.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "a4db7b8b5d6adb1b427ba1963bc299dd28b5c9bc275511632191ab436fbe8093",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "name": "Sợi Chỉ Về",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "d91d0bb396d05aac117a103cca4b27c89045f8d5c770a12e67536a786f58c308",
+    "r2_full_key": "images/vestigium/full/material-soi-chi-ve.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-soi-chi-ve.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      372,
+      372
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "9d6f6a5d78fde1e4d8179ace0c9447135fabd0417dadea7b79197fd8d7d8c632",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-than-ngu-dong",
+    "name": "Than Ngủ Đông",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "54cc5c4523c97d290d34e8951ca2ae97337e5c9d2fc8a0d25ead159ca029333f",
+    "r2_full_key": "images/vestigium/full/material-than-ngu-dong.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-than-ngu-dong.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      334,
+      334
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "336709709522137cd802cc1d65a532c6eafd64ce3a30f03d199acd2271a82be4",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-vai-uong-mau",
+    "name": "Vải Uống Máu",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "4e7a41ba0da0ef0887eda0b4d5cca5cc8f7a2bb238bbc837ba5366374f788b7c",
+    "r2_full_key": "images/vestigium/full/material-vai-uong-mau.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-vai-uong-mau.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "remaining-prompts.json",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "87c04931e9a40b415ec21dc3dfb1507f304338bf8ae1b6caafce7dc1110b0728",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "name": "Vôi Nhận Tro",
+    "origin": "collection",
+    "sources": [],
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "sha256": "f92b83af1a210a72a6b9385af63bd9ebecfc73b37805e0355eeebee2bed5a662",
+    "r2_full_key": "images/vestigium/full/material-voi-nhan-tro.webp",
+    "r2_thumbnail_key": "images/vestigium/thumbs/material-voi-nhan-tro.webp",
+    "status": "uploaded-verified",
+    "method": "built-in ImageGen; dossier-based regeneration",
+    "old_size": [
+      460,
+      460
+    ],
+    "prompt_file": "material-voi-nhan-tro-prompt.txt",
+    "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
+    "png_sha256": "4d16ae467a171773d3313a2538fdfffa4cb65c2d0a03e6c9eb5dbe9edebd75d9",
+    "hash_target": "lossless WebP full image",
+    "r2_verified_at": "2026-10-28T15:06:21Z"
+  }
+]

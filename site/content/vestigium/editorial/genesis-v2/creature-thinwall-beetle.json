@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-thinwall-beetle",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Đàn bọ trú trong những viên gạch phơi bằng bùn trộn khoáng vàng. Hai nửa ổ bị xây vào hai phía của một vách ngăn. Khi người thợ gõ bên này, cánh bọ bên kia rung đúng nhịp dù những con thường không cùng ổ đứng cạnh chẳng đáp.\n\nÔng tách từng đôi sang hai phòng để thử. Những vết sáng dưới cánh khép thành hình cùng nhau ở mỗi lần gọi, giữ mối liên hệ của ổ qua lớp gạch mỏng. Người thợ đứng giữa tường nghe chúng tìm nhau, rồi làm các hốc trú có nắp để việc đưa tin khỏi phải bắt đầu bằng một con bọ đang hoảng.",
+    "lore_en": "The colony nested in bricks dried from mud mixed with golden mineral. Two nest halves were built into opposite sides of a partition. When a worker tapped one side, beetles beyond vibrated in the same sequence while unrelated neighbours remained still.\n\nHe tested pairs in separate rooms. Bright marks beneath their wings closed into matching shapes at each summons, retaining their nest relationship through thin brick. Hearing them seek one another, he built covered shelters so a message need not begin with a frightened insect.",
+    "use_vi": "Truyền nhịp gõ ngắn qua vách mỏng giữa hai con cùng tổ và báo tiếp xúc bị đứt.",
+    "use_en": "Transmit short knocks through thin walls between nestmates and signal a broken contact.",
+    "limits_vi": "Vách dày hơn bàn tay làm liên hệ yếu hoặc mất. Chỉ nhịp gõ đã tập, lời nói cần mã hóa; đàn lạnh hoặc sợ hãi ngừng trả.",
+    "limits_en": "Walls thicker than a hand weaken or sever the link. It carries trained knocks, requiring coded speech; cold or frightened beetles stop answering.",
+    "skills": [
+      {
+        "name_vi": "Gõ hai phía",
+        "name_en": "Knock Across Both Sides",
+        "description_vi": "Đặt hai con cùng tổ trong hốc đối diện trên vách mỏng để cánh đầu nhận nhịp gõ và cánh kia lặp lại.",
+        "description_en": "Place nestmates in facing hollows upon a thin wall so one receives knocks and the other repeats them."
+      },
+      {
+        "name_vi": "Trả dấu nhận",
+        "name_en": "Return the Receipt",
+        "description_vi": "Gõ chuỗi đáp đã tập ở đầu nhận để con bên gửi rung lại, xác nhận đường liên hệ còn thông.",
+        "description_en": "Tap a trained reply at the receiving end to make the sending beetle answer and confirm the link."
+      },
+      {
+        "name_vi": "Cánh báo rời vách",
+        "name_en": "Wings Signal Lost Contact",
+        "description_vi": "Giữ một nhịp chuẩn lặp thưa để khi một con bị dời, cánh bên kia mở sáng rồi thôi trả, báo chỗ trú cần kiểm.",
+        "description_en": "Send spaced reference beats so removal of one makes the other open bright wings and stop answering, warning of shelter disruption."
+      },
+      {
+        "name_vi": "Chọn một đôi",
+        "name_en": "Choose One Pair",
+        "description_vi": "Cho một đôi nhận cùng nhịp gõ riêng trước khi tách để chúng ưu tiên chuỗi đó giữa đàn cùng ổ; nhiều đôi gọi trùng vẫn có thể lẫn.",
+        "description_en": "Give one pair a distinctive shared beat before separation so it favours that sequence among nestmates; matching calls from several pairs can still confuse it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ổ còn qua vách",
+        "name_en": "A Nest Across the Wall",
+        "description_vi": "Cùng ổ là điều kiện ghép đôi. Đổi một con khác lứa cần thử lại thay vì cho rằng màu cánh giống là đủ.",
+        "description_en": "Shared nesting binds the pair. Replacing one with a different brood requires testing rather than trusting matching wing colour."
+      }
+    ]
+  }
+]

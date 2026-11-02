@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-thach-giam-rung",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Trong một lò đúc chuông, thợ lấy quặng có gân vàng làm đá kê khuôn. Một lần nứt khuôn khiến tiếng chuông mới đúc tắt giữa hồi, còn những gân đá sáng lên theo đúng nốt vừa mất. Đập thử, đá trả tiếng từ mặt khác mà không cần quả chuông cũ ở gần.\n\nNgười thợ cắt mẫu nghe nhiều lớp gõ nằm trong một vết sáng, như vật đang giữ cả cuộc đi của âm thanh thay vì phần rung ở ngoài. Họ tìm tám cách giao cho nó một nhịp rồi nhận lại điều nhịp ấy đã mang: có thể là lệnh gác, một chỗ rỗng trong vách, hoặc đợt cộng hưởng sắp phá chính món đang được đo. Các viên vì thế được cất xa nhau, tránh những tiếng chưa trả tìm đường nhập thành một hồi lớn hơn mọi người từng định giữ.",
+    "lore_en": "A bell-founder supported a mould with gold-veined ore. When the mould cracked, its new bell fell silent midway through a peal while stone-veins lit to the lost note. A trial blow returned the sound from another face without the bell nearby.\n\nCutting exposed layers of knocking within one luminous scar, as though the stone retained sound’s journey rather than merely exterior vibration. Eight practices entrusted rhythms carrying watch-orders, hidden hollows or destructive resonance. Samples were stored apart lest unreturned sounds join into a peal larger than intended.",
+    "use_vi": "Nhận, giữ và dùng lại rung động để truyền dấu, thử vật hoặc giảm một đợt cộng hưởng đã nhận.",
+    "use_en": "Receive, retain and reuse vibration for signalling, examining matter or reducing an accepted resonance.",
+    "limits_vi": "Mỗi vệt giữ một nhịp; ghi chồng có thể hợp âm ngoài dự định. Xả mạnh làm vân vàng nứt và trả phần đang giữ vào mọi thứ chạm mẫu. Tiếng trả không tự chứng minh được ý nghĩa người nghe gán.",
+    "limits_en": "Each streak holds a rhythm; overwriting may form unintended harmony. Violent discharge cracks veins into contacting matter. Returned sound does not prove its interpretation.",
+    "skills": [
+      {
+        "name_vi": "Giữ nhịp gõ",
+        "name_en": "Keep a Knock",
+        "description_vi": "Áp đá lên vật để nhận một chuỗi gõ ngắn. Rung tiếp theo trên cùng vân ghi đè chuỗi trước.",
+        "description_en": "Contact retains one brief knocking sequence. Further vibration on that vein overwrites it."
+      },
+      {
+        "name_vi": "Trả qua đồng",
+        "name_en": "Return Through Copper",
+        "description_vi": "Chạm đồng vào vệt được chỉ để phát nhịp qua đầu đồng. Các phần đồng nối chung cũng nhận tiếng và có thể làm lộ người gửi.",
+        "description_en": "Copper releases a designated streak through its other end. Connected copper may reveal the sender."
+      },
+      {
+        "name_vi": "Đếm tiếng chạm",
+        "name_en": "Count the Contacts",
+        "description_vi": "Giữ đá trong một mối nối để các lần va thành chấm sáng riêng. Rung kéo dài có thể bị nhận là nhiều tiếng chạm nhỏ.",
+        "description_en": "A joint’s impacts become separate lights. Sustained vibration may count as multiple contacts."
+      },
+      {
+        "name_vi": "Tìm hốc bằng lời đáp",
+        "name_en": "Find the Hollow by its Answer",
+        "description_vi": "Gửi một nhịp qua mặt vật rồi nghe phần trở về để so hốc với mẫu đặc. Khác vật liệu cũng đổi lời đáp và cần được phân biệt.",
+        "description_en": "Send a pulse through matter and compare its answer with a solid reference. Different materials also alter it."
+      },
+      {
+        "name_vi": "Cắt một cộng hưởng",
+        "name_en": "Cut One Resonance",
+        "description_vi": "Cho đá nhận đúng nhịp đang lặp để hút một phần vào vân. Nhịp đổi ngay sau khiến phần mới tiếp tục ngoài lệnh.",
+        "description_en": "Match a repeating rhythm to draw part into a vein. A changed rhythm continues outside its acceptance."
+      },
+      {
+        "name_vi": "Gửi dấu qua hai mẫu",
+        "name_en": "Send Between Samples",
+        "description_vi": "Hai mẫu từng chung vân được chạm để một nhịp nhận ở đây trả ở kia. Nứt một mẫu khiến phần chưa tới bị trả vào mẫu còn lại.",
+        "description_en": "Pair kindred veins to relay a pulse. One broken sample returns the undelivered remainder into the other."
+      },
+      {
+        "name_vi": "Giữ tiếng cuối trước vỡ",
+        "name_en": "Keep the Pre-Break Sound",
+        "description_vi": "Đặt đá ở điểm được thử để lưu lượt rung ngay trước lúc vật gãy. Đá cùng vỡ có thể chỉ giữ một phần nhịp.",
+        "description_en": "Record the vibration before a tested object breaks. A breaking recorder may retain only part."
+      },
+      {
+        "name_vi": "Nhả thành nhịp tay",
+        "name_en": "Release as a Handbeat",
+        "description_vi": "Người tự nhận áp vân lên tay để nghe nhịp bằng cảm giác. Âm quá nặng có thể gây đau hoặc làm tay mất cảm giác tạm thời.",
+        "description_en": "A willing palm receives rhythm as touch. Heavy recordings may hurt or numb it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Âm có đường ở lại",
+        "name_en": "A Sound with Somewhere to Remain",
+        "description_vi": "Vân vàng chỉ hiện sau lượt nhận đầu và tối dần sau mỗi lần xả; nung sáng lại chỉ che màu, không phục hồi vân đã chết.",
+        "description_en": "Gold veins appear after reception and darken with discharge. Heating brightens colour without restoring spent paths."
+      }
+    ]
+  }
+]

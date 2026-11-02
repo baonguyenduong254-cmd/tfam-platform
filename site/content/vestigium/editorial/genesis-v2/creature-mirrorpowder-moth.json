@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-mirrorpowder-moth",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Bướm đêm nở trong kho kính, nơi người mài dùng bột khoáng bạc vá các thấu kính lỗi. Sâu ăn giấy gói dính bột, qua kén thành cánh có vảy như những mảnh gương nhỏ. Vảy rơi trên kính lành màu xám; tới mép một vết nứt mới, chúng dựng sáng dù ánh đèn không đổi.\n\nNgười thợ phát hiện đường rạn trên tấm kính định lắp cạnh nôi con. Ông nuôi đàn bằng giấy sạch, thu vảy tự rơi thay vì cạo cánh. Mỗi sáng một mảnh kính thử đã nứt được đặt cạnh khay, nhắc ông rằng phép nhìn cũng cần được thử trước khi tin.",
+    "lore_en": "Moths emerged in a glass store where a grinder used silver mineral powder upon flawed lenses. Caterpillars ate dusty wrapping and became wings scaled like tiny mirrors. Fallen scales stayed grey on sound glass; at a new crack’s edge they shone upright despite unchanged lamplight.\n\nThe worker discovered a fracture in a pane intended beside his child’s cradle. He raised the colony on clean paper and gathered naturally shed scales rather than scraping wings. Each morning he sets a cracked reference beside the tray, remembering that a means of seeing also needs testing.",
+    "use_vi": "Hiện vết nứt mới trên mặt kính và hỗ trợ lần đường rạn khó thấy.",
+    "use_en": "Reveal fresh surface cracks in glass and trace otherwise obscure fractures.",
+    "limits_vi": "Bột hoạt động khoảng một ngày, dễ kích mắt. Vết cũ bẩn có thể không nhận; hình sáng chỉ vị trí cần kiểm chứ sức chịu của kính phải đánh giá riêng.",
+    "limits_en": "Powder works for roughly a day and irritates eyes. Dirty old cracks may not respond; brightness marks inspection sites, while glass strength needs separate assessment.",
+    "skills": [
+      {
+        "name_vi": "Rắc soi rạn",
+        "name_en": "Dust the Fracture",
+        "description_vi": "Rắc vảy vừa thu qua chụp lên kính khô để những hạt gặp rạn mới sáng, đánh dấu đường cần kiểm trước khi lau sạch.",
+        "description_en": "Dust dry glass with fresh scales under a cover so grains meeting a fresh fracture shine and mark inspection lines before cleaning."
+      },
+      {
+        "name_vi": "Lần mép sáng",
+        "name_en": "Follow the Bright Edge",
+        "description_vi": "Nghiêng kính chậm dưới đèn để vảy sáng nối theo mép rạn, phân biệt đường nứt với vết xước ngoài khi hình đáp đủ rõ; cần đối mảnh chuẩn.",
+        "description_en": "Tilt glass slowly beneath a lamp so bright scales link along a fracture edge and help distinguish it from surface scratching when response is clear; compare with a reference pane."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vảy còn nhận kính",
+        "name_en": "Scales Still Recognise Glass",
+        "description_vi": "Khả năng còn trong vảy rụng một thời gian ngắn, giúp thu mẫu mà không làm hỏng cánh sống.",
+        "description_en": "The property remains briefly in shed scales, allowing collection without harming living wings."
+      }
+    ]
+  }
+]

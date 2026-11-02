@@ -1,0 +1,21 @@
+{
+  "scope": "Western Roman dossier only; author-authorized creative extension",
+  "canon_sources": [
+    {
+      "file": "Vol.I - TFAM - Editor Choice",
+      "document_id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw",
+      "passages": "Isabella and Marco: Ottoman European retreat, Tunis staging point, Mythic Crown of Ravenna; capabilities undisclosed."
+    },
+    {
+      "file": "Vol.III - TFAM - Editor Choice",
+      "document_id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE",
+      "passages": "Taourirt: distributed command, artillery striking infiltrated headquarters, Comitatenses and Foederati Janissary; Palermo settlement; final Ravenna scene: Marcus, unnamed Emperor, Bellum Sacrum, human trials, planned stable/unstable Vestigium deployments."
+    }
+  ],
+  "creative_extension": {
+    "historical_anchor": "Odoacer deposes Romulus Augustulus at Ravenna in 476.",
+    "reference": "https://www.turismo.ra.it/en/culture-and-history/city-gates/porta-teguriense/",
+    "new_web_history": "Transposed to 1676; Romulus defeats the mutiny, consolidating provincial stores and distributed legion command. This origin and its administrative reforms are newly authored, not asserted to occur in Editor Choice.",
+    "limits": "No current Emperor personal name assigned; Crown abilities undisclosed; Bellum Sacrum remains preparation at end of 1716. Existing territorial snapshots unchanged."
+  }
+}

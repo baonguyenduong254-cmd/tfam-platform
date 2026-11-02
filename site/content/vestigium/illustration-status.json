@@ -1,0 +1,21 @@
+{
+  "state": "artwork_complete",
+  "records": 602,
+  "illustrated": 602,
+  "missing": {
+    "mineral": [],
+    "botanical": [],
+    "creature": [],
+    "material": [],
+    "device": [],
+    "armament": [],
+    "phenomenon": [],
+    "entity": [],
+    "complex": []
+  },
+  "missing_count": 0,
+  "required_replacements": [],
+  "publication": "All 602 exhibits illustrated in GPT v98. UI completion pass follows; Royal Guard prose remains deferred by author.",
+  "canon_decision": "Royal Guard pendants 1 through 100 remain Wondrous; quantity is independent of rarity.",
+  "verification": "All published art and thumbnail paths decoded; four Academy sabres intentionally share one artwork."
+}

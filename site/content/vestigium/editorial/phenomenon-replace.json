@@ -1,0 +1,98 @@
+[
+  {
+    "id": "phenomenon-the-city-beneath-one-mist",
+    "mode": "replace",
+    "lore_vi": "Mở bốn bản đo trên sàn, người khảo sát thấy phố dựng lên dưới sương, cùng một góc nhà có bốn cách quay mặt. Chỗ các thời điểm cãi nhau tách thành hai lối đi; người bước vòng có thể đứng giữa hai bức tường từng chiếm đúng một khoảng đất.~Dưới một lớp sương, thành phố giữ những đời sống đã thay chỗ nhau mà chưa bên nào chịu nhường. Người xem đem theo thước, nhưng thường trở ra với câu hỏi một căn nhà đã đi đâu sau lần bị phá, và nó có thật thôi chiếm chỗ chỉ vì người sống dựng một cái khác lên trên.",
+    "lore_en": "Four surveys opened upon the floor raised streets beneath mist. One corner faced four ways; conflicting dates split into separate passages. A visitor could stand between walls that had occupied the same ground.~The city held successive lives unwilling to yield their place. Surveyors entered with rulers and left asking where a demolished house goes, and whether building over it truly ends its claim upon space."
+  },
+  {
+    "id": "phenomenon-the-pool-holding-an-old-sky",
+    "mode": "replace",
+    "lore_vi": "Mái che được dựng trên hồ sau khi người coi thấy sao vẫn ở vị trí của một buổi cũ. Nhật ký xác nhận bầu trời trong nước tiếp tục cuộc quan sát đã kết thúc, còn bầu trời thật ở ngoài đã đi xa. Chim bay ngang chỉ có bóng khi bước qua lớp trời được lưu.~Các đời coi hồ truyền nhau một mặt đêm có thể bị xóa để nhận mặt mới. Chưa ai chọn làm: họ sợ xóa mất nơi duy nhất một phần bầu trời vẫn còn đứng đúng chỗ trước lúc những người từng nhìn nó bắt đầu chết.",
+    "lore_en": "A roof went over the pool when stars remained in an old night's positions. The journal confirmed a completed observation continuing in water while the real sky moved on. Birds cast shadows only across the stored sky.~Successive keepers could erase it for a new image. None has chosen to destroy the sole place where part of heaven still stands as it did before its observers began to die."
+  },
+  {
+    "id": "phenomenon-the-room-of-two-dawns",
+    "mode": "replace",
+    "lore_vi": "Hai người trực ở hai ngày khác nhau cùng giữ một lần rạng sáng trong căn phòng cửa kép. Từ đó, mặt vật đặt vào nhận hai cách ngày bắt đầu, một bên ấm sắc vàng, bên kia nhạt như sáng qua vải tang. Chúng cùng tồn tại trên cùng một mặt mà chẳng hòa thành một màu.~Người nhìn phải đứng giữa hai cửa. Có người gọi nơi ấy là ngã ba của những buổi sáng: đi qua ngày này đã buộc một ngày khác ở lại, và gian nhà giữ nguyên điều đời người thường quên ngay khi mở mắt.",
+    "lore_en": "Two watches retained dawns from different days in the double-doored room. An object's face received both beginnings, one gold, one pale as light through mourning-cloth, without their blending.~Visitors stood between the doors. Some called it a junction of mornings: entering one day leaves another behind, and the room preserves what a life forgets upon opening its eyes."
+  },
+  {
+    "id": "phenomenon-the-quiet-zone-holding-every-note",
+    "mode": "replace",
+    "lore_vi": "Trong phòng kín, tiếng nói hiện thành đường sáng trong khi tai chỉ nghe im lặng. Những đường đi xuyên nhau mang hình các động tác miệng đã kết thúc; mở cửa, cả mạng tắt cùng lúc, như căn phòng vừa thôi giữ một lồng ngực thứ hai.~Người ghi âm đứng ngoài chỉ thấy người bên trong nói mà không có tiếng. Người bên trong lại thấy lời mình đi tới vách và quay về, mang theo hình của điều bị buộc phải ở lại trong một chỗ kín cho tới lúc cánh cửa nhận được quyền mở.",
+    "lore_en": "Inside the sealed room, speech became light-paths while ears heard silence. Finished mouth-movements crossed as luminous lines; opening the door extinguished them together, as though a second ribcage had ceased holding breath.~Those outside saw soundless speech. Those inside watched words reach walls and return, bearing what confinement kept until a door was permitted to open."
+  },
+  {
+    "id": "phenomenon-the-felled-tree-shadow-court",
+    "mode": "replace",
+    "lore_vi": "Hàng cây đã đốn chỉ còn gốc, nhưng bóng tán được đo trước đó vẫn phủ sân đúng chỗ. Những nhánh chưa từng ghi kết thúc đột ngột như bị rìu chặt ngay trong ánh sáng. Người trồng mới đi giữa bóng cũ, đặt cây con vào những chỗ tối dành sẵn.~Đến mùa nắng, các bóng ấy chẳng cho hơi mát của lá. Chúng giữ hình một khu vườn đã mất cùng phần thiếu của người từng đo nó, để cả ký ức cũng mang những vết cụt do sự lơ đãng của người sống để lại.",
+    "lore_en": "The felled trees were stumps, yet measured canopies still shadowed the yard. Unrecorded branches ended as though axed in light. New saplings entered dark places reserved for them.~Those shadows offered no leafy coolness. They preserved a vanished garden and its surveyor's omissions: even memory bore amputations left by the living person's inattention."
+  },
+  {
+    "id": "phenomenon-rain-preserving-the-gaps",
+    "mode": "replace",
+    "lore_vi": "Dưới vòm nước thử, đồ vật được dời đi mà mưa vẫn tránh đúng hình cũ. Những cột không mưa đứng như người trong một cuộc họp đã tan; người quan sát đi vòng thấy phần trống có đường vai, mặt bàn và cạnh một ghế không còn nữa.~Hiện tượng giữ bố cục đã ghi cho tới khi người trực hủy dấu. Căn buồng được gọi là nơi mưa còn lịch sự với những thứ đã vắng mặt. Xóa một khoảng rỗng ở đây có nghĩa cho phép nước lần đầu chạm tới chỗ thế giới từng nhận là đang có một vật ở lại.",
+    "lore_en": "Removed objects left dry silhouettes beneath the test-spray. Rainless columns stood like people after a meeting, retaining shoulder-lines, tabletops and an absent chair.~The pattern lasted until its keeper erased it. Here rain still honoured departed things. Erasing an absence allowed water for the first time to touch a place the world had recognised as occupied."
+  },
+  {
+    "id": "phenomenon-the-load-remembering-vault",
+    "mode": "replace",
+    "lore_vi": "Khi tải được nhấc khỏi vòm, đường sáng vẫn giữ dáng đá đã chịu ép. Một mô hình khác đặt đúng tâm nhận cùng quy tắc: căn phòng nhớ hình biến dạng, chồng nó cạnh hình hiện tại như hai lần một người cùng đứng thẳng sau khi cúi.~Người thợ dỡ vòm đầu tiên ghi rằng họ nghe tiếng thở dài khi ánh lực rời đá. Lời ấy ở lại trong sổ, còn những đường sáng tiếp tục giữ chứng tích sức nặng đã đi qua vật chất mà mắt thường thường bỏ quên ngay lúc nó được lấy đi.",
+    "lore_en": "After unloading, light retained the arch's compressed form. Another model at the centre inherited the rule: the room overlaid deformation and recovery like a body straightening twice.~The first dismantler recorded a sigh as force-light left stone. That remains testimony. The paths preserve the passage of weight through matter, ordinarily forgotten the moment a burden is lifted."
+  },
+  {
+    "id": "phenomenon-the-dawn-of-a-single-song",
+    "mode": "replace",
+    "lore_vi": "Giai điệu phải được hát trọn mới mở rạng ngày trong phòng. Đổi giọng vẫn được, đổi lời theo đúng nhạc vẫn được; bỏ một nhịp ở cuối khiến ánh sáng dừng lại trước lúc chạm nền, như mặt trời mắc trên mép của một câu chưa nói hết.~Những người tập hát giữ đủ phần lặng giữa các nốt. Trong căn phòng ấy, bình minh được trao cho một cấu trúc người sống phải cùng nhau đi hết; ai vội kết thúc sẽ để cả đoàn đứng lại trong màu trời còn chưa đủ sáng để gọi là ngày.",
+    "lore_en": "The melody must finish to open dawn. New voices and new words upon the same music succeed; omit the final beat and light stops above the floor like a sun caught upon an unfinished sentence.~Singers preserve even the silences. Dawn belongs to a structure they must complete together; a hurried ending leaves everyone within a sky not yet bright enough to become day."
+  },
+  {
+    "id": "phenomenon-the-blank-beyond-the-map",
+    "mode": "replace",
+    "lore_vi": "Bản đồ được mở trong phòng niêm, khoảng chưa đo tràn xuống nền thành màu trắng không có bóng. Người bước vào vẫn đi, nhưng mép xuất phát trở lại dưới chân họ như cả khoảng đường vừa từ chối nhận người. Số liệu giả chỉ làm giấy bẩn, chẳng thu hẹp được một tấc trắng.~Người vẽ gọi đó là phần thế giới còn quyền chưa được biết. Họ dựng đường vòng quanh nó; qua ba lần bước, người thử quên chính lối mình đã đi. Trên sàn, một khoảng trống của tri thức đã tìm được cách trở thành nơi thật, và lấy lại từ người nhìn thứ họ vẫn quen nhận là của mình: một con đường.",
+    "lore_en": "An opened map spilled its unmeasured places onto the floor as shadowless white. Feet moved, yet their starting edge returned beneath them, as though the road refused admission. Invented measurements merely dirtied paper.~Its cartographer called it the world's right to remain unknown. After three crossings the traveller forgot the route taken. A gap in knowledge had become a real place and reclaimed what observers assumed they owned: a road."
+  },
+  {
+    "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+    "mode": "replace",
+    "lore_vi": "Trạm đo đóng cửa vẫn giữ bóng cọc neo của bến mất. Chạm vào bóng, vật nhỏ trong vòng sáng dừng giữa một cú rơi; đồng hồ ngoài rìa tiếp tục chạy, còn tiếng dây neo vẫn cọ qua một khoảng không có dây.~Người coi chưa từng giữ được thân người trong giờ lặng ấy. Họ để một quả cân nhỏ làm chứng và nhận ra cái bóng đang bảo quản phần bến trước khoảnh khắc mọi thứ bị buộc phải rời đi. Một nơi có thể mất khỏi biển mà vẫn chưa nhận tin mình đã kết thúc.",
+    "lore_en": "The closed station retained a lost quay's mooring-shadow. Touching it arrested a small falling object while clocks beyond continued and ropes creaked where none remained.~No body has entered that still hour. A small weight bears witness to a harbour preserved before its enforced departure. A place may vanish from the sea without receiving notice of its own ending."
+  },
+  {
+    "id": "phenomenon-the-night-rejecting-an-invented-star",
+    "mode": "replace",
+    "lore_vi": "Các sao ghi dưới trời thật vẫn sáng xuyên vôi mới trên trần. Thêm một ngôi sao do tưởng tượng, điểm ấy rời trần thành mực trên tay người vẽ, như đêm vừa trả lại phần con người tự nhét vào mình. Dấu lưu lâu hơn mọi lần rửa trong ngày.~Người coi đài để một khoảng tối nguyên giữa những chòm đã biết. Có người xin thêm ánh cho đẹp, rồi phải đứng trước đêm với bàn tay bẩn. Nơi ấy chỉ nhận sự gặp gỡ đã xảy ra; mỗi đốm thật là phần vũ trụ từng chịu đứng trước một đôi mắt hữu hạn.",
+    "lore_en": "Recorded stars shone through fresh ceiling-whitewash. An invented star returned as ink upon its painter's hand, night rejecting what people had inserted into it. The mark outlasted the day's washing.~The keeper preserved darkness among known constellations. Someone requesting a prettier heaven stood ink-handed before it. Each admitted point belonged to a meeting that had occurred: the universe consenting to stand before finite eyes."
+  },
+  {
+    "id": "phenomenon-the-rain-that-falls-once",
+    "mode": "replace",
+    "lore_vi": "Những giọt hổ phách đứng dưới vòm qua nhiều mùa, giữ toàn bộ trận mưa đã được thu trước khi trạm bỏ hoang. Mở nghi thức, chúng rơi rồi đi ngược lên đúng một lần; các đường giao nhau thành lưới sáng, để trong khoảnh khắc người xem đứng giữa cả xuống và về.~Nước vẫn chỉ từng ấy. Điều độc nhất là cơ hội nhìn một sự rơi đi hết đường rồi được gọi trở lại mà chưa hề được phép làm lần thứ hai. Người giữ khóa vòm với khoảng trời thu nhỏ đang chờ tiêu hết buổi mưa cuối cùng của mình.",
+    "lore_en": "Amber drops hung for seasons beneath the vault, holding a rainfall collected before abandonment. The rite let them fall and rise once, their paths crossing into a light-net, observers briefly amid both descent and return.~The water remained finite. Unrepeatable was the chance to see a fall finish and be recalled. The keeper locks a small sky awaiting the spending of its final rain."
+  },
+  {
+    "id": "phenomenon-the-court-of-the-unnamed-shadow",
+    "mode": "replace",
+    "lore_vi": "Vật được mang khỏi sân mà hình còn nguyên, miễn người ghi chưa đặt tên nó. Tên người sau áp vào đều đứng ngoài ranh, như chữ đang gõ một cửa không nhận người. Thử viết tên lên bóng làm nét mực trượt ra đất ở cạnh.~Sân giữ một lần nhìn trước khi thế giới bị chia vào những tiếng gọi quen. Người coi phải đi vòng trong im lặng, canh một thứ đã được thấy mà vẫn còn quyền chưa trở thành điều người khác bảo nó phải là. Đặt tên có thể đóng việc nhận biết, và cũng có thể chấm dứt một sự tự do.",
+    "lore_en": "An unnamed observation remained after its object left. Later names stood outside its outline like visitors at an unwelcoming door; ink slid from image to ground.~The yard preserves seeing before the world is divided into familiar terms. Its keeper circles silently, guarding something seen yet still free from what others say it must be. Naming can finish recognition and end a freedom."
+  },
+  {
+    "id": "phenomenon-the-light-for-a-later-witness",
+    "mode": "replace",
+    "lore_vi": "Người trước tự nguyện để lại một quan sát thành vệt sáng, mọi chỗ chưa chắc thắt thành nút. Vệt đợi người đến sau chấp nhận đọc cả phần thiếu rồi mới trao, tự xóa ngay khi việc nhận được hoàn tất. Người chỉ muốn lấy hình đẹp luôn thấy một dây ánh rối không mở.~Trong kho, người coi không dám gọi mình là chủ. Họ giữ một cuộc bàn giao có thể đi xuyên tuổi thọ, nơi tri thức chỉ chịu sống tiếp khi cả sự hữu hạn của người gửi cũng được người nhận mang theo.",
+    "lore_en": "A willing observer left one light-record, uncertainty tied as knots. It waited for a successor to accept its gaps, then transferred and erased itself. Those seeking a clean image found only tangled light.~No keeper claims ownership. They guard a handover crossing lifetimes, where knowledge continues only when the recipient also carries its maker's limits."
+  },
+  {
+    "id": "phenomenon-the-water-that-keeps-no-face",
+    "mode": "replace",
+    "lore_vi": "Mặt nước giữ cảnh cũ nhưng cho người tự nguyện rút mặt mình ra để lại một khoảng trơn. Bước vào đúng vùng ấy khiến mặt người nhìn nhòa trong mọi gương cùng phòng. Những phần khác của cơ thể vẫn nguyên, như căn phòng chấp nhận có một người nhưng chưa nhận quyền được giữ mặt họ.~Người coi đánh dấu rìa bằng dây, để mỗi lượt ra vào là một lựa chọn rõ ràng. Nước im, gương mất mặt, và một người có thể đứng giữa mọi cách nhìn mình mà vẫn giữ được phần dành riêng khỏi ánh mắt thế giới.",
+    "lore_en": "The water retained its scene while consenting withdrawals left smooth places where faces had been. Entering one blurred the observer's face in every room-mirror. The body remained: presence was admitted without a right to retain identity.~A cord marks the edge, making entry deliberate. Silent water and faceless mirrors allow a person to stand among every view of themselves while reserving something from the world's gaze."
+  },
+  {
+    "id": "phenomenon-the-space-left-for-a-return",
+    "mode": "replace",
+    "lore_vi": "Ghế trong nhà trọ nguội bếp vẫn giữ một vệt ấm đúng bàn tay mỗi đêm. Người ra đi đã tự đặt dấu hẹn; người chờ có quyền giải niêm, nhưng qua các đời ghi sổ, tên người nhận chìa khóa thay mãi còn ghế chưa được dời.~Khách đến hỏi ai được hẹn, người coi chỉ có thể chỉ vào chỗ ngồi. Nơi ấy giữ một lời về nhà lâu hơn những người đủ nhớ câu chuyện. Hủy dấu sẽ rất dễ; điều khiến nó thành độc bản là qua ngần ấy mùa, vẫn luôn có một người chọn để chỗ trống tiếp tục được ấm.",
+    "lore_en": "The inn's hearth was cold, yet its chair held a hand-sized warmth nightly. A departing guest had willingly marked a return. Those waiting could release it, but successive keyholders left the chair unmoved.~Asked whom it awaited, the keeper could only indicate the seat. A homecoming outlived its story's rememberers. The seal would be easy to break. Its singularity is that through every season someone still chose to leave the empty place warm."
+  }
+]

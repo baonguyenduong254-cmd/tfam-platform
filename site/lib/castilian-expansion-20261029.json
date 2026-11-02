@@ -1,0 +1,303 @@
+[
+  {
+    "id": "nahla_al_fassi",
+    "name": "Nahla al-Fassi",
+    "name_vi": "Nahla al-Fassi",
+    "name_en": "Nahla al-Fassi",
+    "faction_id": "sultanate_of_morocco",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "guard",
+    "guard_number": 44,
+    "role_vi": "Cận vệ Hoàng gia · Cuarenta y Cuatro",
+    "role_en": "Royal Guard · Cuarenta y Cuatro",
+    "office_vi": "Trinh sát và tác chiến lệch pha · 44",
+    "office_en": "Reconnaissance and phasing · 44",
+    "lore_vi": "Nahla al-Fassi và em gái Samira có xuất thân Moor, mang làn da màu đồng và ký ức quê nhà vào hàng ngũ Cận vệ Castilian. Nàng giữ vai thẳng, giọng thấp và tác phong kỷ luật; số hiệu Cuarenta y Cuatro đi cùng lưỡi shotel Sarāb.\n\nKhả năng lệch pha của Nahla có giới hạn năm giây. Trong chiến dịch Bắc Phi, khoảng thời gian ngắn ấy trở thành một điều kiện mà đồng đội phải nhớ chính xác mỗi khi chọn thời điểm tiếp cận.",
+    "lore_en": "Nahla al-Fassi and her younger sister Samira were born among the Moor and serve in the Castilian Royal Guard. Bronze-skinned, disciplined and quiet-voiced, she bears the number Cuarenta y Cuatro and the shotel Sarāb.\n\nHer phasing lasts at most five seconds. During the North African campaign, that narrow limit becomes a crucial condition for anyone planning an approach.",
+    "traits_vi": [
+      "Kỷ luật: Giữ tư thế và nhịp làm việc điềm tĩnh.",
+      "Gắn bó gia đình: Quan hệ với Samira là một phần căn tính của nàng."
+    ],
+    "traits_en": [
+      "Discipline: Maintains a composed bearing and measured work.",
+      "Family ties: Her bond with Samira is part of her identity."
+    ],
+    "skills_vi": [
+      "Sarāb: Shotel gắn với cơ chế lệch pha.",
+      "Giới hạn năm giây: Thời lượng lệch pha tối đa được xác nhận trong Arc IV."
+    ],
+    "skills_en": [
+      "Sarāb: Shotel associated with phasing.",
+      "Five-second limit: The maximum duration confirmed in Arc IV."
+    ],
+    "canon_arcs": "III–IV",
+    "portrait_asset": "/portraits/castilian/royal32/nahla_al_fassi.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/nahla_al_fassi-thumb.webp"
+  },
+  {
+    "id": "samira_al_fassi",
+    "name": "Samira al-Fassi",
+    "name_vi": "Samira al-Fassi",
+    "name_en": "Samira al-Fassi",
+    "faction_id": "sultanate_of_morocco",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "guard",
+    "guard_number": 55,
+    "role_vi": "Cận vệ Hoàng gia · Cincuenta y Cinco",
+    "role_en": "Royal Guard · Cincuenta y Cinco",
+    "office_vi": "Tác chiến cơ động · 55",
+    "office_en": "Mobile combat · 55",
+    "lore_vi": "Samira là em gái Nahla al-Fassi, một Cận vệ gốc Moor phục vụ Castilian. Mái tóc đen, làn da màu đồng và sự tò mò của nàng hiện diện trong ký ức đồng đội, bên cạnh một chi tiết rất đời thường: cốc cà phê trên bàn chỉ huy từng giữ ánh mắt nàng lâu đến mức Edward nhắc Timothy chuẩn bị riêng cho nàng một cốc.\n\nQamar gắn khả năng lệch pha của Samira với chuyển động của lưỡi ném. Trạng thái ấy tiếp tục khi vũ khí còn rời tay và còn chuyển động, khiến việc đọc quỹ đạo trở thành phần thiết yếu khi đối đầu hoặc phối hợp với nàng.",
+    "lore_en": "Samira is Nahla al-Fassi’s younger sister, a Moor-born member of the Castilian Royal Guard. Her black hair, bronze skin and curiosity remain in her comrades’ memories alongside her fascination with the coffee on the command table.\n\nQamar ties her phasing to the movement of her thrown blade. The condition persists while the weapon is out of her hand and still moving, making its trajectory essential to any response.",
+    "traits_vi": [
+      "Tò mò: Chú ý tới những điều bình dị giữa công vụ.",
+      "Cơ động: Đọc không gian qua vị trí và quỹ đạo."
+    ],
+    "traits_en": [
+      "Curiosity: Notices ordinary pleasures amid duty.",
+      "Mobility: Reads space through positions and trajectories."
+    ],
+    "skills_vi": [
+      "Qamar: Lưỡi ném gắn với trạng thái lệch pha.",
+      "Điều kiện chuyển động: Lệch pha khi Qamar rời tay và còn chuyển động."
+    ],
+    "skills_en": [
+      "Qamar: A thrown blade linked to phasing.",
+      "Motion condition: Phasing persists while the released weapon keeps moving."
+    ],
+    "canon_arcs": "III–IV",
+    "portrait_asset": "/portraits/castilian/royal32/samira_al_fassi.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/samira_al_fassi-thumb.webp"
+  },
+  {
+    "id": "jesper",
+    "name": "Jesper",
+    "name_vi": "Jesper",
+    "name_en": "Jesper",
+    "faction_id": "castilian_empire",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "guard",
+    "guard_number": 68,
+    "role_vi": "Cận vệ Hoàng gia · Sesenta y Ocho",
+    "role_en": "Royal Guard · Sesenta y Ocho",
+    "office_vi": "Nằm vùng và điều khiển con rối · 68",
+    "office_en": "Infiltration and puppet control · 68",
+    "lore_vi": "Jesper có mái tóc vàng tro chải gọn ra sau, đôi mắt xám và vẻ bình thản của một người đã sống quá lâu dưới tên giả. Sesenta y Ocho thâm nhập sâu vào hệ thống Tây La Mã ở Valencia, dùng chính lực lượng đang bị mình giữ để mở một mặt trận từ bên trong.\n\nAnh phân biệt những mệnh lệnh đơn giản có thể để cơ thể tự thực hiện với sự can thiệp trực tiếp đòi hỏi độ chính xác cao. Khi một ý chí khác chạm được vào hệ thống ấy, công việc kiểm soát của anh trở thành cuộc đấu giành từng xác nhận và từng mệnh lệnh.",
+    "lore_en": "Ash-blond hair slicked back, grey eyes and an untroubled expression conceal Jesper’s deep-cover service. Sesenta y Ocho infiltrates the Western Roman system at Valencia and turns controlled troops into an internal front.\n\nHe distinguishes simple standing orders from precise direct intervention. When another will reaches into that network, every order and confirmation becomes contested.",
+    "traits_vi": [
+      "Điềm tĩnh: Giữ vỏ bọc và quan sát phản ứng.",
+      "Tính toán: Phân bổ mức can thiệp theo nhiệm vụ."
+    ],
+    "traits_en": [
+      "Composure: Maintains cover while observing reactions.",
+      "Calculation: Allocates intervention to each task."
+    ],
+    "skills_vi": [
+      "Điều khiển con rối: Ban lệnh đơn giản hoặc can thiệp trực tiếp.",
+      "Nằm vùng: Tận dụng danh tính giả và cơ cấu quân địch."
+    ],
+    "skills_en": [
+      "Puppet control: Simple orders or precise direct intervention.",
+      "Infiltration: Exploits false identities and enemy structures."
+    ],
+    "canon_arcs": "IV",
+    "portrait_asset": "/portraits/castilian/royal32/jesper.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/jesper-thumb.webp"
+  },
+  {
+    "id": "barbossa",
+    "name": "Barbossa",
+    "name_vi": "Barbossa",
+    "name_en": "Barbossa",
+    "faction_id": "castilian_empire",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "guard",
+    "guard_number": 37,
+    "role_vi": "Chuẩn Đô đốc · Treinta y Siete",
+    "role_en": "Rear Admiral · Treinta y Siete",
+    "office_vi": "Hải quân · Hồ sơ kỷ luật Gibraltar",
+    "office_en": "Navy · Gibraltar disciplinary record",
+    "lore_vi": "Barbossa ngoài bốn mươi, tóc muối tiêu, da sạm nắng và chiếc mũi từng gãy. Phong thái ngoài biển lâu năm đi cùng sự tự tin có thể biến thành bất chấp; anh mang số Treinta y Siete trong lực lượng hải quân Castilian.\n\nỞ Gibraltar, việc tự ý triển khai Ghost Ship đặt phân hạm của anh vào góc bắn của pháo bờ. Hồ sơ ghi nhận hệ quả nhân mạng và việc Scarlet thu lại dây chuyền sau cuộc đối chất với Edward; số hiệu ở đây được lưu theo quá trình phục vụ.",
+    "lore_en": "Barbossa is over forty, with salt-and-pepper hair, sun-weathered skin and a once-broken nose. His long experience at sea supports a confidence that can become recklessness. He serves in the Castilian navy as Treinta y Siete.\n\nAt Gibraltar, unauthorised use of Ghost Ship exposes his squadron to coastal guns. This historical service record retains his number while noting the casualties and Scarlet’s subsequent confiscation of the pendant.",
+    "traits_vi": [
+      "Kiêu hãnh: Tin mạnh vào năng lực và kinh nghiệm của mình.",
+      "Bất tuân: Quyết định riêng gây hệ quả cho phân hạm."
+    ],
+    "traits_en": [
+      "Pride: Strong faith in his experience and capabilities.",
+      "Disobedience: Private decisions affect his squadron."
+    ],
+    "skills_vi": [
+      "Ghost Ship: Quyền năng hải chiến gắn với Treinta y Siete.",
+      "Chỉ huy phân hạm: Kinh nghiệm chiến đấu trên biển."
+    ],
+    "skills_en": [
+      "Ghost Ship: Naval power associated with Treinta y Siete.",
+      "Squadron command: Experience of fighting at sea."
+    ],
+    "canon_arcs": "IV",
+    "portrait_asset": "/portraits/castilian/royal32/barbossa.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/barbossa-thumb.webp"
+  },
+  {
+    "id": "leonardo_razen",
+    "name": "Leonardo Razen",
+    "name_vi": "Leonardo Razen",
+    "name_en": "Leonardo Razen",
+    "faction_id": "castilian_empire",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "guard",
+    "guard_number": 100,
+    "role_vi": "Thợ săn Vestigium · Cien",
+    "role_en": "Vestigium hunter · Cien",
+    "office_vi": "Mạng lưới tin tức và phong ấn · 100",
+    "office_en": "Intelligence networks and sealing · 100",
+    "lore_vi": "Leonardo Razen hoạt động như một thợ săn Vestigium độc lập, mang theo những tuyến tin tức trải qua nhiều thành phố châu Âu. Anh là bạn cũ của Isabella và đã đưa Evelyne tới Castilian sau biến cố Wardenholf; mặt dây Cien ghi nhận mối liên hệ với Vương miện ngay cả khi anh rời khỏi tầm mắt triều đình.\n\nTới Arc V, áo khoác sẫm, những ống đánh dấu bằng đồng và chiếc nỏ trở thành dấu vết của một phương pháp chiến đấu dựa vào chuẩn bị, phối hợp và những điều kiện phong ấn phải được dựng đủ.",
+    "lore_en": "An independent Vestigium hunter, Leonardo Razen maintains information routes across European cities. An old friend of Isabella, he brought Evelyne to Castilian after the Wardenholf crisis. The Cien pendant records his bond to the Crown even during his long absence.\n\nIn Arc V, his dark coat, brass marking tubes and crossbow accompany a method built around preparation, cooperation and carefully completed sealing conditions.",
+    "traits_vi": [
+      "Chuẩn bị: Tạo điều kiện trước khi tung biện pháp quyết định.",
+      "Gắn bó: Lời hứa với Evelyne xuyên qua nhiều năm vắng mặt."
+    ],
+    "traits_en": [
+      "Preparation: Establishes conditions for decisive measures.",
+      "Attachment: His promise to Evelyne persists through years of absence."
+    ],
+    "skills_vi": [
+      "Nỏ Vestigium: Công cụ can thiệp trong tác chiến.",
+      "Tứ Trụ Tuyệt Giới: Dựng đủ các trụ theo điều kiện phong ấn."
+    ],
+    "skills_en": [
+      "Vestigium crossbow: A tool for intervention in battle.",
+      "Four Pillars: Completes the structures required by the seal."
+    ],
+    "canon_arcs": "IV ngoại truyện · V",
+    "portrait_asset": "/portraits/castilian/royal32/leonardo_razen.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/leonardo_razen-thumb.webp"
+  },
+  {
+    "id": "millennia_stones",
+    "name": "Millennia Stones",
+    "name_vi": "Millennia Stones",
+    "name_en": "Millennia Stones",
+    "faction_id": "england_ruins",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "household",
+    "guard_number": null,
+    "role_vi": "Gia đình Stones",
+    "role_en": "The Stones household",
+    "office_vi": "Đời sống gia đình và cộng đồng",
+    "office_en": "Family and community",
+    "lore_vi": "Millennia là vợ Marco và mẹ Dante. Căn nhà Stones nằm trong mạng lưới hàng xóm mà gia đình Spencer dựa vào giữa những đợt công vụ và chiến dịch; nàng giữ nhịp sống riêng của gia đình bên cạnh trách nhiệm quân sự của chồng.\n\nMột buổi tối ở Madrid cho thấy nét thanh lịch của nàng qua chiếc váy xanh rừng, cổ áo kín, tay áo tới cổ tay, tóc búi thấp bằng trâm bạc và đôi găng mỏng màu kem.",
+    "lore_en": "Millennia is Marco’s wife and Dante’s mother. The Stones household is part of the neighbourhood network supporting the Spencers through deployments and royal duties. She preserves her family’s life alongside her husband’s military responsibilities.\n\nAn evening in Madrid reveals her quiet elegance: a forest-green dress, restrained neckline, long sleeves, a low bun held by silver pins and cream gloves.",
+    "traits_vi": [
+      "Quán xuyến: Duy trì đời sống gia đình khi người thân làm nhiệm vụ.",
+      "Tình thân: Giữ quan hệ với hàng xóm và những đứa trẻ."
+    ],
+    "traits_en": [
+      "Organisation: Keeps a family functioning through deployments.",
+      "Care: Maintains ties with neighbours and children."
+    ],
+    "skills_vi": [
+      "Tổ chức gia đình: Chia sẻ công việc và chăm sóc.",
+      "Gắn kết cộng đồng: Duy trì sự hỗ trợ giữa các gia đình."
+    ],
+    "skills_en": [
+      "Household management: Shares work and care.",
+      "Community ties: Sustains support between families."
+    ],
+    "canon_arcs": "III–IV",
+    "portrait_asset": "/portraits/castilian/royal32/millennia_stones.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/millennia_stones-thumb.webp"
+  },
+  {
+    "id": "remi_spencer",
+    "name": "Remi Spencer",
+    "name_vi": "Remi Spencer",
+    "name_en": "Remi Spencer",
+    "faction_id": "england_ruins",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "household",
+    "guard_number": null,
+    "role_vi": "Con trai Edward và Juliet",
+    "role_en": "Edward and Juliet’s son",
+    "office_vi": "Gia đình Spencer · Nhân vật trẻ em",
+    "office_en": "Spencer household · Child character",
+    "lore_vi": "Remi lớn lên giữa ký ức London của cha mẹ và căn nhà mới ở Castilian. Cậu đi học, làm bài địa lý và đặt những câu hỏi thẳng thắn khiến những người lớn từng quen chỉ huy chiến dịch phải dừng lại tìm câu trả lời.\n\nQuan hệ với Dante, những bữa ăn và việc chuẩn bị đón em giúp giữ cho đời sống gia đình hiện diện giữa các biến cố của triều đình. Chỉ số hồ sơ của Remi được đọc theo phạm vi đời sống và sự phát triển của một đứa trẻ.",
+    "lore_en": "Remi grows up between his parents’ memories of London and a new home in Castilian. School, geography homework and his direct questions repeatedly leave experienced commanders searching for an answer.\n\nHis friendship with Dante, family meals and preparations for a new sibling preserve ordinary life amid royal crises. His dossier attributes describe a child’s interests and development.",
+    "traits_vi": [
+      "Tò mò: Đặt câu hỏi và muốn hiểu chuyện người lớn.",
+      "Gắn bó: Quan tâm tới cha mẹ, Dante và em nhỏ."
+    ],
+    "traits_en": [
+      "Curiosity: Asks questions about the adult world.",
+      "Attachment: Cares for family, Dante and his new sibling."
+    ],
+    "skills_vi": [
+      "Học hỏi: Bài tập địa lý, bản đồ và ghi chép.",
+      "Quan sát: Nhận ra thay đổi trong gia đình."
+    ],
+    "skills_en": [
+      "Learning: Geography, maps and notes.",
+      "Observation: Notices changes at home."
+    ],
+    "canon_arcs": "III–IV",
+    "portrait_asset": "/portraits/castilian/royal32/remi_spencer.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/remi_spencer-thumb.webp"
+  },
+  {
+    "id": "dante_stones",
+    "name": "Dante Stones",
+    "name_vi": "Dante Stones",
+    "name_en": "Dante Stones",
+    "faction_id": "england_ruins",
+    "affiliations": [
+      "castilian_empire"
+    ],
+    "castilian_branch": "household",
+    "guard_number": null,
+    "role_vi": "Con trai Marco và Millennia",
+    "role_en": "Marco and Millennia’s son",
+    "office_vi": "Gia đình Stones · Nhân vật trẻ em",
+    "office_en": "Stones household · Child character",
+    "lore_vi": "Dante là con trai Marco và Millennia, bạn của Remi. Những mô hình cầu gỗ, câu hỏi về thời gian cha trở về và những cuộc thương lượng rất nghiêm túc của một đứa trẻ làm hiện rõ cái giá đời thường phía sau lịch quân vụ.\n\nHồ sơ này đặt Dante trong gia đình và cộng đồng ở Castilian. Cậu có đời sống, cách học và quyền được lớn lên của riêng mình.",
+    "lore_en": "Dante is Marco and Millennia’s son and Remi’s friend. Wooden bridge models, questions about his father’s return and a child’s earnest negotiations reveal the everyday cost of military service.\n\nThis dossier places him within Castilian family and community life, with his own interests and right to grow up.",
+    "traits_vi": [
+      "Ham học: Quan tâm tới mô hình và cách vật thể vận hành.",
+      "Thẳng thắn: Nêu điều mình mong đợi ở người lớn."
+    ],
+    "traits_en": [
+      "Learning: Interested in models and how things work.",
+      "Directness: Tells adults what he expects from them."
+    ],
+    "skills_vi": [
+      "Mô hình thủ công: Tìm hiểu các kết cấu bằng vật liệu nhỏ.",
+      "Hợp tác: Chơi và học cùng Remi."
+    ],
+    "skills_en": [
+      "Craft models: Explores structures with small materials.",
+      "Cooperation: Plays and learns alongside Remi."
+    ],
+    "canon_arcs": "III–IV",
+    "portrait_asset": "/portraits/castilian/royal32/dante_stones.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/dante_stones-thumb.webp"
+  },
+  {
+    "id": "juliet_spencer",
+    "portrait_asset": "/portraits/castilian/royal32/juliet_spencer.webp",
+    "portrait_thumbnail": "/portraits/castilian/royal32/juliet_spencer-thumb.webp"
+  }
+]

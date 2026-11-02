@@ -1,0 +1,98 @@
+[
+  {
+    "id": "entity-the-keeper-of-the-unburnt-library",
+    "mode": "replace",
+    "lore_vi": "Trong kho cháy, nó bước giữa các trang than, dựng lại chữ từ ký ức của người từng đọc trước ngọn lửa. Chỗ chưa đọc để trắng; chỗ nhớ sai vẫn hiện trọn, khiến cả một thư viện có thể mọc lên với những vết thương mang dạng câu hoàn chỉnh.~Mỗi trang lấy một đêm mơ của người trao. Người coi già ngủ ngày càng đen, còn quanh mình sách ngày càng sáng. Thực thể chờ bên giá, mang một thư viện chưa cháy được xây từ những giấc mơ sẽ chẳng còn đến với người sống để trả lại họ điều lửa đã lấy.",
+    "lore_en": "Within the burnt store it rebuilt pages from a former reader's memory. Unread spaces stayed blank; remembered errors appeared whole, raising a library wounded in complete sentences.~Each page cost its giver a dreaming night. The old keeper slept ever darker while books brightened around him. Beside the shelves waited an unburnt library built from dreams that would never return, repaying what fire had taken."
+  },
+  {
+    "id": "entity-the-witness-of-first-snow",
+    "mode": "replace",
+    "lore_vi": "Bóng người trong kính tuyết vỡ mang nhiều lớp áo trắng trong suốt, mỗi lớp khớp một lõi tuyết đã trực tiếp chạm. Nó mở được ba mặt cắt, cho người khảo sát nhìn những đợt rơi đã nén thành thời gian dưới đất.~Người liên kết mất cảm giác nóng lạnh một ngày sau mỗi lần. Họ phải nhờ người khác giữ tay khỏi bếp, trong khi thực thể đứng giữa phòng ấm vẫn mang nguyên những lớp mùa đã chết. Nó chứng kiến tuyết, giữ ranh giới rất rõ với thứ đã gọi tuyết đến, như một nhân chứng cũng có phần trời mình chưa từng được phép nhìn.",
+    "lore_en": "The figure in broken snow-glass wore transparent white layers matching cores it had touched. It opened three cross-sections, fallen seasons compressed into time beneath ground.~Its linked observer lost heat-and-cold sensation for a day and needed another hand kept between skin and hearth. In warmth the figure still wore dead seasons, witnessing snow while retaining the boundary around whatever had called it: a witness with a sky it had never been allowed to see."
+  },
+  {
+    "id": "entity-the-counter-of-closed-doors",
+    "mode": "replace",
+    "lore_vi": "Mọi cửa đã tháo, người cao gầy vẫn đi vặn khóa trong những khung trống của cùng hành lang. Nó đếm đủ tiếng rồi cho một người bước qua chỗ bị chắn, ra ở cửa cuối, lớp bụi trên tay còn nguyên. Đường bị bỏ qua để lại trong đầu người ấy một chỗ trống vừa khít lối về nhà suốt một ngày.~Thợ dỡ giữ lại từng khung có đánh số. Họ đã phá vật liệu của hành lang nhưng chưa phá được ý niệm về những cánh cửa phải lần lượt mở. Thực thể canh chính thứ tự ấy, như một câu chuyện chỉ cho qua khi mọi đoạn đã bị lấy đi vẫn được gọi đủ tên.",
+    "lore_en": "Though all doors were removed, the tall figure turned locks within their empty corridor-frames. After counting every click it passed one person beyond an obstruction, dust intact upon the hand. For a day the omitted road left a homeward-road-shaped blank in the traveller's mind.~Numbered frames remain. Builders had removed material but not the order of openings. The figure guards a story admitting passage only when every missing portion is named."
+  },
+  {
+    "id": "entity-the-infirmary-rhythm-keeper",
+    "mode": "replace",
+    "lore_vi": "Bệnh xá có ba chiếc giường được nó nhận nhịp. Người chăm thức cùng, nghe thực thể đếm hơi như dệt một tấm vải mỏng qua những lồng ngực khác nhau; nhịp đổi, nó gọi. Chỗ một người vừa được chuyển đi để lại khoảng lặng mà nó vẫn nghiêng đầu chờ được bàn giao.~Nó chẳng nhận lời chữa lành. Điều kỳ dị là một thực thể có thể mang sự chú ý bền bỉ tới mức người sống phải trả bằng chính giấc ngủ để theo cùng, giữ ba đời người ở trong tầm nghe mà chẳng tự cho mình quyền quyết định đời nào được ở lại.",
+    "lore_en": "It accepted three beds' breathing-rhythms. The human watcher stayed awake while it counted like weaving across different chests; a change brought a call. An emptied bed left a silence towards which it inclined, awaiting handover.~It promised no healing. Its unyielding attention cost the watcher sleep, keeping three lives within hearing without claiming authority over which might remain."
+  },
+  {
+    "id": "entity-the-echo-interlocutor",
+    "mode": "replace",
+    "lore_vi": "Hai dáng người đứng ở hai đầu hẻm đá, tự nhận là hai phía của cùng một cuộc trò chuyện. Câu đã đồng ý được đưa qua hành lang rồi trở về với đúng chỗ dừng, còn người nói mất giọng sau nhiều lượt như đang cho cả hai mượn chung cổ họng.~Chúng luôn đợi câu trước kết thúc. Người gác ghi rằng khi một bên im quá lâu, dáng bên kia mỏng dần. Có thể cái tồn tại ở đây là một khoảng giữa hai người, có được hình người chỉ vì nó vẫn chờ lời đáp.",
+    "lore_en": "Two figures at opposite passage-ends called themselves sides of one conversation. Accepted sentences crossed with their pauses intact; repeated use cost the speaker's voice, as though lending both one throat.~They await every sentence's end. A keeper recorded one figure thinning during the other's long silence. Perhaps what exists here is an interval taking human form because it still awaits an answer."
+  },
+  {
+    "id": "entity-the-bridge-shadow-builder",
+    "mode": "replace",
+    "lore_vi": "Người dựng cầu đứng trong bóng vòm còn sót sau khi mọi nhịp thật đã tháo. Đặt các thanh cũ đúng thứ tự, nó gọi cấu hình thành ánh, từng chỗ chạm hiện như khớp xương của một thân thể rộng hơn người đang nhìn. Ai bước lên hình sẽ thấy tất cả tắt ngay.~Người liên kết mất cảm giác chiều sâu sau lượt dài, cần được dắt qua bậc thật. Thực thể giữ một chiếc cầu còn đủ hình để được nhớ mà chẳng đủ vật chất để cứu một bước hụt; khoảng cách giữa hai điều ấy chính là vực nó buộc người xem phải mang ra khỏi phòng.",
+    "lore_en": "The builder stood within a dismantled arch's shadow. Correctly ordered old timbers raised its luminous joints like bones of a larger body. A step upon the image extinguished it.~Long use stole the observer's depth-perception, requiring guidance over real steps. The figure preserved a bridge complete enough for remembrance yet unable to save a falling foot. Between those states lay the abyss every visitor carried from the room."
+  },
+  {
+    "id": "entity-the-tide-in-a-bowl-bearer",
+    "mode": "replace",
+    "lore_vi": "Trên núi, người mang triều nghiêng chiếc chén có nhịp của một bến xa. Nước trong ấy lên xuống theo chuỗi đã được ghi, còn thực thể nghe phép đo mới để chỉ chỗ khác. Nó giữ sai số nhỏ với vẻ kiên nhẫn mà người trạm chẳng ai còn đủ sức có.~Đứt chuỗi làm người liên kết mất thăng bằng. Trong sổ cũ, một người viết mình đã cảm thấy bến đổi chỗ dưới chân ngay trên sườn núi khô. Thực thể vẫn ôm chén, gánh một quan hệ giữa đất và biển mà khoảng cách đã không cắt nổi.",
+    "lore_en": "On a mountain it tilted a bowl bearing a distant harbour's measured tide. It compared fresh readings with patient attention no exhausted station-worker could match.~A broken sequence cost its linked observer balance. One wrote that he felt a quay move beneath his feet upon dry mountainside. The bowl-bearer continued carrying a relation between land and sea that distance had failed to sever."
+  },
+  {
+    "id": "entity-the-final-performance-keeper",
+    "mode": "replace",
+    "lore_vi": "Sân khấu đã khóa, thực thể vẫn cúi chào trước những ghế rỗng. Nó dựng buổi diễn cuối từ lời nhớ tự nguyện của đoàn, giữ các chỗ bất đồng thành những dáng chồng nhau giữa một động tác. Người muốn bỏ phần lệch bị nó mời ra khỏi buổi dựng.~Mỗi người góp phải nhận lại trọn cảm xúc của đêm ấy. Có người đã già vẫn khóc ở đúng cánh gà mình từng đứng trẻ. Thực thể giữ một kết thúc nhiều phía, cho mọi người cùng có mặt mà chẳng bắt ký ức ai chịu chết để một bản duy nhất được lên ngôi.",
+    "lore_en": "Behind locked doors it bowed to empty seats. Willing memories rebuilt the final performance, disagreements appearing as overlapping gestures. Anyone demanding their removal was excluded.~Contributors received that night's full emotion. An aged actor still wept at his younger self's wing-position. The figure kept a many-sided ending in which no memory had to die so one account could reign."
+  },
+  {
+    "id": "entity-the-keeper-of-one-apology",
+    "mode": "replace",
+    "lore_vi": "Lời xin lỗi tự nguyện tụ thành một người chờ ngoài cửa, mang nguyên ngữ điệu người gửi mà chẳng có quyền bắt cửa mở. Người nhận có thể từ chối; lúc được nghe, lời chỉ trao một lần, rồi thực thể mất toàn bộ ký ức về người đã giao mình.~Người trông đã thấy nó tập đứng ở đúng khoảng cách để người bên trong khỏi sợ. Trong dáng ấy, một lời biết lỗi đã có thân thể và phải học cách chờ. Nếu ngày cửa mở tới, kẻ mang lời sẽ được hoàn tất chính mình bằng việc quên người mà vì họ mình từng được sinh ra.",
+    "lore_en": "A willing apology became a figure waiting outside a door, carrying its sender's inflection without power to force an opening. The recipient could refuse. When heard once, it lost every memory of its sender.~Its keeper saw it practise an unthreatening distance. An admission had grown a body and learnt waiting. Fulfilment would mean forgetting the person for whom it had been born."
+  },
+  {
+    "id": "entity-the-witness-of-the-blank-page",
+    "mode": "replace",
+    "lore_vi": "Mọi tên gán cho nó rơi xuống tờ giấy, còn gương mặt bên trang vẫn trắng. Nó giữ một khoảng chưa biết trong bản sao, khiến bàn tay người chép lướt qua chỗ ấy dù trí muốn điền cho đủ. Người ký phải đọc rõ điều mình chưa biết trước khi được nhận giúp.~Trong kho có những tên do nhiều thế hệ đặt, mực đã đè dày như một khuôn mặt thứ hai. Thực thể vẫn nguyên bên cạnh, canh cái trống duy nhất chưa bị lời giải lấy mất. Trước nó, tri thức có một người gác chịu tồn tại để một câu trả lời còn được phép đến sau.",
+    "lore_en": "Every assigned name fell onto paper while its face remained blank. It held an unknown space in a copy, passing the pen over it until the signer admitted what was not known.~Generations of names thickened into a second face upon the page. Beside it the figure guarded the one vacancy explanations had not consumed: a custodian existing so an answer might still arrive later."
+  },
+  {
+    "id": "entity-the-bearer-of-the-last-chair",
+    "mode": "replace",
+    "lore_vi": "Chiếc ghế trên lưng thực thể mang tên người vừa bị loại khỏi cuộc bàn bạc. Vai gỗ hằn chân ghế sâu đến mức lộ những vòng tuổi cây; lời người ấy đã tự gửi đi được phát hết câu dù cả phòng muốn chen. Sau câu cuối, người gánh vẫn đứng, đợi cuộc họp nhận rằng phần nghe đã thật sự xảy ra.~Nó không có quyền bỏ phiếu. Điều nó mang nặng hơn một cái ghế: trong một căn phòng tự chọn cách quyết định đời người, có một chỗ bị lấy đi vẫn phải được tính là từng có người ngồi.",
+    "lore_en": "Its back-chair bore the name of someone excluded from discussion. Chair-legs pressed through wooden shoulders into growth-rings. Entrusted words played to their end despite interruptions; afterwards it awaited acknowledgement that listening had occurred.~It held no vote. Its burden exceeded furniture: within a room choosing others' futures, a removed place must still count as once occupied."
+  },
+  {
+    "id": "entity-the-witness-of-an-unlit-fire",
+    "mode": "replace",
+    "lore_vi": "Nó ngồi bên lò chưa từng đốt, hai tay than lạnh ôm đốm vàng. Nhận mẩu than cuối của lò cũ, đốm nuốt ngọn lửa rồi đứng yên như một mắt mở. Muốn nhận lại, người ta phải gọi đúng tên thợ đã gửi; mỗi đời hiện diện chỉ cho một lần nhận và một lần trao.~Sau lần trao, nó thành than vụn. Người giữ đứng trước một ngọn lửa có thể đi qua hành trình cuối bằng thân thể kẻ được tạo ra để chính mình chẳng bao giờ được sưởi ấm. Ngày nhóm lò mới cũng sẽ là ngày nhân chứng duy nhất của cuộc đi ấy bị đốt vào sự bắt đầu.",
+    "lore_en": "Beside an unfired kiln it held a gold point in cold charcoal hands. The old kiln's last ember entered and stood like an open eye. Release required the entrusting worker's name, with one reception and one giving per existence.~Afterwards it crumbled. A final fire travelled in a body made to carry warmth it would never enjoy. The new kiln's beginning would consume its journey's sole witness."
+  },
+  {
+    "id": "entity-the-folded-horizon-bearer",
+    "mode": "replace",
+    "lore_vi": "Trong phòng kín trên đất liền, muối cứ mọc trên áo người mang chân trời. Nếp áo mở thành dải các cảnh đã đo dọc hành trình, những chỗ thiếu đứt thành mép trắng như biển bị xé khỏi một trang giấy. Người theo dõi lâu mất phương hướng ngay trước cửa phòng thật.~Nó khép áo bằng động tác của người cuộn một con đường lại để mang trên vai. Lời chứng đầu gọi nó là kẻ đã đi tới nơi chân trời chạm đất rồi quay về thiếu mất phía sau lưng. Những bản đo chỉ cho thấy phần nó còn đủ sức đặt nối nhau trước mắt người.",
+    "lore_en": "Salt grew upon its coat in a landlocked room. Its folds opened measured scenes along a voyage, gaps torn white as sea from paper. Prolonged viewing disoriented observers at the real door.~It closed its coat like someone rolling a road for carrying. The first witness called it a traveller returning from the horizon's contact with earth without the space behind its back. Its surveys show what it can still join before human eyes."
+  },
+  {
+    "id": "entity-the-keeper-of-its-own-name",
+    "mode": "replace",
+    "lore_vi": "Số kho khắc trên tay bị cái tên nó tự chọn phủ lên. Một sợi niêm cưỡng ép rơi thành bụi khi tên ấy được đọc đúng, nhưng mỗi lần cắt buộc nó phải bỏ vĩnh viễn một ký ức tự chọn. Người coi nhìn lòng tay nhiều lần, nhận ra chữ đứng thẳng hơn trong khi giọng kể về quá khứ ngắn dần.~Nó chỉ nhận liên kết với người công nhận tên mình. Một kẻ sống đang tự chuộc khỏi quyền sở hữu bằng chính lịch sử khiến nó thành mình; nếu được hoàn toàn tự do, câu hỏi còn lại là nó sẽ nhớ ai để gọi cuộc tự do ấy là đã trở về.",
+    "lore_en": "Its chosen name covered the inventory-number on its palm. Correctly spoken, it turned a coercive seal to dust, at the permanent cost of a chosen memory. Its keeper saw straighter letters and an ever-shorter account of the past.~It accepts only those recognising its name. A living being buys itself from ownership with the history making it itself. In complete freedom, whom would it still remember enough to call that freedom a homecoming?"
+  },
+  {
+    "id": "entity-the-sleeper-between-two-knocks",
+    "mode": "replace",
+    "lore_vi": "Người ngủ nằm trong cửa kho mất bản lề, chỉ mở khoảng lặng cho người đã canh mình trọn một đêm. Tiếng gõ đầu kéo mọi âm trong kho chậm lại; tiếng sau trả hết cùng lúc. Người liên kết mất giọng tới sáng, còn các bước chân vẫn đi theo thời gian của chân.~Người canh đã thấy bụi nhảy sau khi chiếc hòm từ lâu thôi dịch. Họ ngồi giữa hai tiếng gõ như ngồi trong khoảng thế giới chưa nghe tin điều gì vừa xảy ra, biết mọi im lặng ở đây đều còn nguyên một lúc phải chịu nhận toàn bộ câu trả lời.",
+    "lore_en": "The sleeper occupied a hingeless warehouse-door, granting its interval only after an all-night vigil. One knock slowed all sound; the next returned it together. The linked keeper lost voice until dawn while feet continued in their own time.~Dust leapt long after a chest stopped moving. Between knocks, watchers sat within a world not yet hearing what had happened, knowing silence would eventually receive the whole answer at once."
+  },
+  {
+    "id": "entity-the-keeper-of-tomorrows-place",
+    "mode": "replace",
+    "lore_vi": "Mỗi tối nó ôm một khoảng sáng không hình bên chiếc ghế được giữ cho người đã tự hẹn trở lại. Vật nhỏ để dấu được nó giữ thành hình chiếu, chờ lần về đầu tiên, dù lời hẹn chẳng trao quyền biết tương lai. Người coi nhà vẫn phải dành chỗ thật.~Có đêm thực thể chỉnh ghế như sắp đón khách, rồi ngồi chờ tới sáng với cùng vẻ chăm chú. Nó mang phần ngày mai con người đã chọn tin tới mức chịu để trống một chỗ trong hiện tại. Chừng nào ghế chưa bị lấy đi, điều chưa xảy ra vẫn có một người coi mình là đáng được đón.",
+    "lore_en": "Each evening it held shapeless light beside a chair reserved for someone who had promised return. An entrusted small object remained as projection until that first return, without any knowledge of the future. The housekeeper still had to reserve real space.~Some nights it straightened the chair and waited till dawn. It bore the tomorrow people trusted enough to leave a place empty today. While the chair remained, something unarrived was still considered worth welcoming."
+  }
+]

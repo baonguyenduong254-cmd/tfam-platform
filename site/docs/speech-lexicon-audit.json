@@ -1,0 +1,1107 @@
+{
+  "source": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site/api/story/{chapter_id}",
+  "retrieved_at": "2026-10-20T02:35:01.092407+00:00",
+  "scope": "Arc I–III, live Vietnamese text; suggested device-TTS readings, not IPA or a native-voice certification",
+  "chapter_count": 126,
+  "lexicon_count": 468,
+  "matched_term_count": 465,
+  "chapters": [
+    {
+      "id": "chapter_001",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_002",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_003",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_004",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_005",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_006",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_007",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_008",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_009",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_010",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_011",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_012",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_013",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_014",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_015",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_016",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_017",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_018",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_019",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_020",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_021",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_022",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_023",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_024",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_025",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_026",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_027",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_028",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_029",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_030",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_031",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_032",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "chapter_033",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_034",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_035",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_036",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_037",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_038",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_039",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_040",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_041",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_042",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_043",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_044",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_045",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_046",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_047",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_048",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_049",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_050",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_051",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_052",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_053",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_054",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_055",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_056",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_057",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_058",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_059",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_060",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_061",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_062",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_063",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_064",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_065",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_066",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_067",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_068",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_069",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_070",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_071",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_072",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_073",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_074",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_075",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_076",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_077",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_078",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_079",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_080",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_081",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_082",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_083",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "chapter_084",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_085",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_086",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_087",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_088",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_089",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_090",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_091",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_092",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_093",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_094",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_095",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_096",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_097",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_098",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_099",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_100",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_101",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_102",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_103",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_104",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_105",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_106",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_107",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_108",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_109",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_110",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_111",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_112",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_113",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_114",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_115",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_116",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_117",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_118",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_119",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_120",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_121",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_122",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "chapter_123",
+      "arc": 3,
+      "revision": 0
+    },
+    {
+      "id": "extra_1_12",
+      "arc": 1,
+      "revision": 0
+    },
+    {
+      "id": "extra_2_27",
+      "arc": 2,
+      "revision": 0
+    },
+    {
+      "id": "extra_2_42",
+      "arc": 2,
+      "revision": 0
+    }
+  ],
+  "matched_terms": [
+    "Edward",
+    "Spencer",
+    "Isabella",
+    "Juliet",
+    "Timothy",
+    "Beaumont",
+    "Romeo",
+    "Harkon",
+    "Marco",
+    "Stone",
+    "Stones",
+    "Remi",
+    "Rhyme",
+    "Scarlet",
+    "Fredo",
+    "Beckett",
+    "Castilian",
+    "Castillian",
+    "Castilia",
+    "Victoria",
+    "Rouge",
+    "Madrid",
+    "Testarossa",
+    "Testa",
+    "Martinez",
+    "José",
+    "Freya",
+    "Sultan",
+    "Sir",
+    "Franco",
+    "Trafalgar",
+    "Fes",
+    "Vestigium",
+    "Liv",
+    "Pierrot",
+    "Santiago",
+    "Cassandra",
+    "Astrid",
+    "Millennia",
+    "Millenia",
+    "Sigrid",
+    "Lourenço",
+    "Marrakesh",
+    "Lisbon",
+    "Elizabeth",
+    "EIC",
+    "HMS",
+    "Tomás",
+    "Napoleon",
+    "Morales",
+    "Gibraltar",
+    "Dante",
+    "Habsburg",
+    "Habsburgo",
+    "Valencia",
+    "Duarte",
+    "Galicia",
+    "Melilla",
+    "Nador",
+    "Tercio",
+    "Margaret",
+    "Esteban",
+    "Marcus",
+    "Ravenna",
+    "Moor",
+    "Taza",
+    "Tagus",
+    "Toulouse",
+    "San",
+    "Conquistador",
+    "Conquistadores",
+    "London",
+    "Abd",
+    "Rahman",
+    "Iberia",
+    "Red Baron",
+    "Idris",
+    "Reina",
+    "Hassan",
+    "Étienne",
+    "Navarre",
+    "Navarra",
+    "Wave",
+    "Palermo",
+    "Valdes",
+    "Valdés",
+    "Porto",
+    "Sebastián",
+    "Sebastian",
+    "Concha",
+    "Haarlem",
+    "Omar",
+    "Pyrenees",
+    "Castile",
+    "Reliquiario",
+    "Reliquario",
+    "Reliquiarios",
+    "Reliquia",
+    "Janissary",
+    "Nahla",
+    "Samira",
+    "Gabriel",
+    "Wallace",
+    "Bella",
+    "Atocha",
+    "Dos",
+    "Aragón",
+    "Aragon",
+    "Sabre",
+    "Taourirt",
+    "Ziyad",
+    "Andalusia",
+    "Andalucia",
+    "Andalucía",
+    "Amber",
+    "Ottoman",
+    "Barcelona",
+    "Palma",
+    "Ceuta",
+    "Tangier",
+    "Hashashin",
+    "Maroc",
+    "Don",
+    "Diamond",
+    "Vic",
+    "Bala",
+    "Oathbreaker",
+    "Almirante",
+    "Cagliari",
+    "Agincourt",
+    "Frenesia",
+    "Martha",
+    "Austerlitz",
+    "Tunis",
+    "Calle",
+    "Fuego",
+    "Kraków",
+    "Krakow",
+    "Tres",
+    "Comitatenses",
+    "Thompson",
+    "Gendarmes",
+    "Gendarme",
+    "Paris",
+    "Cádiz",
+    "Morocco",
+    "Perpignan",
+    "Frigate",
+    "Uno",
+    "Oslo",
+    "Ocho",
+    "Luna",
+    "Pilar",
+    "Nueve",
+    "Claymore",
+    "Fernando",
+    "Marseille",
+    "Excalibur",
+    "Toledo",
+    "Hale",
+    "Ibrahim",
+    "Sutura",
+    "Legatus",
+    "Danes",
+    "Criston",
+    "Doce",
+    "Santa",
+    "Siete",
+    "Bordeaux",
+    "Caen",
+    "Scotland",
+    "Portsmouth",
+    "Inverness",
+    "Nottingham",
+    "Sherwood",
+    "Vila",
+    "Kenway",
+    "Triomphant",
+    "Monte",
+    "Urgull",
+    "Armstrong",
+    "Zahra",
+    "Castilla",
+    "Octava Forja",
+    "Sicily",
+    "Coruña",
+    "María",
+    "Maria",
+    "Noia",
+    "Lucía",
+    "Algeria",
+    "Veinticinco",
+    "Ruptura",
+    "Quebranta Cascos",
+    "Mayor",
+    "Bali",
+    "Câmara",
+    "Magister",
+    "Rif",
+    "Beatriz",
+    "Novgorod",
+    "Mariabell",
+    "Dame",
+    "Obradoiro",
+    "Sheikh",
+    "William",
+    "Leiden",
+    "Meneses",
+    "Diecisiete",
+    "Harcourt",
+    "Northwall",
+    "Qamar",
+    "Casablanca",
+    "Thames",
+    "True Hero",
+    "Berber",
+    "Mousquetaires Noirs",
+    "Jdid",
+    "Miriam",
+    "Nuestra Señora",
+    "Bonaparte",
+    "Orbis",
+    "Valhalla",
+    "Oathbearer",
+    "Biscay",
+    "Celt",
+    "Berenguela",
+    "Tifawt",
+    "Copenhagen",
+    "Ochenta",
+    "Aventureiros",
+    "Winterthorn",
+    "Fassi",
+    "Flanders",
+    "Rennes",
+    "Manche",
+    "Redcoats",
+    "XII",
+    "VIII",
+    "VII",
+    "XIII",
+    "XIV",
+    "XVI",
+    "XVII",
+    "XVIII",
+    "XIX",
+    "Aksel",
+    "Cartagena",
+    "Mateo",
+    "Vinculum",
+    "Ulla",
+    "Gleipnir",
+    "Militum",
+    "Scipio",
+    "Atlas",
+    "Vienna",
+    "Ireland",
+    "Westminster",
+    "Balanza",
+    "Filo",
+    "Rayo",
+    "Diez",
+    "Sevilla",
+    "Baltic",
+    "Morion",
+    "Guercif",
+    "Plaza",
+    "Rotterdam",
+    "Amsterdam",
+    "Mallorca",
+    "Vargas",
+    "Bernardo",
+    "Mendoza",
+    "Puerta",
+    "Gravitas",
+    "Alfama",
+    "Padrón",
+    "Veintidós",
+    "Cuarenta",
+    "Cincuenta",
+    "Odin",
+    "Sarāb",
+    "Bashir",
+    "Alps",
+    "Balkan",
+    "Reminisce",
+    "James",
+    "Hartwell",
+    "Dover",
+    "Charles",
+    "Bilbao",
+    "Sombra",
+    "Trueno",
+    "Sol",
+    "Acero",
+    "Compostela",
+    "Algiers",
+    "Algier",
+    "Lapis",
+    "Thomas",
+    "Mahmud",
+    "Amina",
+    "Ramera",
+    "Negro",
+    "King",
+    "Seven Seas",
+    "Collection",
+    "Brittany",
+    "Van Heem",
+    "Retiro",
+    "Pontecesures",
+    "Thor",
+    "Hispania",
+    "Cuatro",
+    "Sardinia",
+    "Aurelianus",
+    "Halcyone",
+    "Atlantic",
+    "Venator",
+    "Tom",
+    "Djellaba",
+    "Sahara",
+    "Yorkshire",
+    "Henry",
+    "Edinburgh",
+    "Jerez",
+    "Frontera",
+    "Corvette",
+    "Kent",
+    "Mota",
+    "Midlands",
+    "Roca",
+    "Escudo",
+    "Bastión",
+    "Praza",
+    "Bourbon",
+    "Salamanca",
+    "Qadiri",
+    "Ezra",
+    "Tafukt",
+    "Haye",
+    "Tim",
+    "Cabrera",
+    "Harpax",
+    "Muralla",
+    "Arousa",
+    "Catoira",
+    "Treinta",
+    "Hati",
+    "Foederati",
+    "Latin",
+    "Alboran",
+    "Cinco",
+    "Forcas",
+    "Fatima",
+    "Azurena",
+    "Isa",
+    "Colegio Imperial",
+    "Bellum Sacrum",
+    "Gaul",
+    "Adriatic",
+    "Libya",
+    "Shakespeare",
+    "Tudor",
+    "Anne",
+    "Bab Doukkala",
+    "Dublin",
+    "Pamplona",
+    "Catalonia",
+    "Robin Hood",
+    "Seine",
+    "Rhine",
+    "Danube",
+    "Galley",
+    "Skagerrak",
+    "Bristol",
+    "Lekeitio",
+    "Clara",
+    "Catalina",
+    "Parte Vieja",
+    "South Downs",
+    "Hampshire",
+    "Winchester",
+    "Itchen",
+    "Berkshire",
+    "Oxfordshire",
+    "Leicestershire",
+    "Warwickshire",
+    "Trent",
+    "Nottinghamshire",
+    "Fens",
+    "Cambridgeshire",
+    "Cambridge",
+    "Essex",
+    "Canterbury",
+    "Hazaña",
+    "Pozo",
+    "Cadenas",
+    "Silencio",
+    "Trono",
+    "Cima",
+    "Muro",
+    "Venganza",
+    "Colmillo",
+    "Vilar",
+    "Gothic",
+    "Sidi Kacem",
+    "Carbine",
+    "Oran",
+    "Blida",
+    "Meknes",
+    "Karouine",
+    "Burgundy",
+    "Louvre",
+    "Jerónimo",
+    "Ginés",
+    "Quai",
+    "Caribe",
+    "Despeñaperros",
+    "Córdoba",
+    "Cordoba",
+    "Alicante",
+    "Málaga",
+    "Bombay",
+    "Inextinguible",
+    "Scheveningen",
+    "Alfonso",
+    "Martín",
+    "Diego",
+    "Zaragoza",
+    "Antwerp",
+    "Scheldt",
+    "Texel",
+    "Brunn",
+    "Granada",
+    "Coimbra",
+    "Pikes",
+    "Marsh",
+    "Bergen",
+    "Leo",
+    "East India Company",
+    "Ragusa",
+    "Smyrna",
+    "Alexandria",
+    "Cyrenaica",
+    "Ukraine",
+    "Rome",
+    "Warsaw",
+    "Crown",
+    "Xebec",
+    "Equites",
+    "Malta",
+    "Segovia",
+    "Alvarez",
+    "Amen",
+    "Francisco",
+    "Javier",
+    "Cien",
+    "Wales",
+    "Caliph",
+    "Amir",
+    "Mu'minin",
+    "Sicilia",
+    "Cornwall",
+    "Los"
+  ]
+}

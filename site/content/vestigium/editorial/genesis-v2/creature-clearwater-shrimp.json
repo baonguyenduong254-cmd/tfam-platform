@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-clearwater-shrimp",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Tôm trong bể rửa quặng bỏ hoang ăn những mảng xanh mang bụi Vestigium. Thân trở nên gần trong suốt, râu xanh dài hơn; hạt đục quanh chân bắt đầu tự tụ thành viên dù chân chỉ quạt rất khẽ. Lứa sinh sau trong nước sạch tiếp tục làm những hạt lơ lửng gặp nhau, để chất hòa tan trôi qua như trước.\n\nNgười coi bể đặt một viên bụi cạnh nhãn mẫu, ngạc nhiên vì thứ vừa làm mờ cả thùng đã thành vật có thể nhặt. Ông dùng đàn cho nước rửa dụng cụ, giữ riêng các bể chứa chất khác nhau để đôi râu nhỏ khỏi đem cặn của một công việc sang công việc kế.",
+    "lore_en": "Shrimp in an abandoned ore-washing tank ate green films carrying Vestigium dust. Their bodies became almost transparent and antennae lengthened green; suspended particles gathered into pellets around their feet despite barely moving legs. Later broods in clean water still brought suspended grains together while dissolved substances passed unchanged.\n\nA tank keeper placed one dust pellet beside a specimen label, astonished that what had clouded a whole vessel had become something he could pick up. He uses the colony for tool-rinsing water and keeps different substances in separate tanks so little antennae do not carry one task’s residue into the next.",
+    "use_vi": "Gom hạt đục lơ lửng thành viên và đưa cặn tới vùng thu trong bể rửa.",
+    "use_en": "Gather suspended clouding into pellets and move sediment towards a collection zone in rinse tanks.",
+    "limits_vi": "Chất hòa tan và mầm bệnh cần xử lý riêng; tránh dùng nước có thứ gây độc cho đàn. Bể đầy cặn làm tôm ngạt, phải lấy viên ra đều.",
+    "limits_en": "Dissolved substances and pathogens need separate treatment; avoid water poisonous to the colony. Accumulated sludge suffocates shrimp, requiring regular pellet removal.",
+    "skills": [
+      {
+        "name_vi": "Kết bụi",
+        "name_en": "Bind the Dust",
+        "description_vi": "Thả đàn vào nước rửa đã nguội và phù hợp để râu gom hạt treo thành viên nặng gần chân; chờ lắng trước khi gạn.",
+        "description_en": "Place the colony in cooled suitable rinse water so antennae gather suspended grains into heavy pellets; wait for settling before decanting."
+      },
+      {
+        "name_vi": "Dẫn cặn",
+        "name_en": "Lead the Sediment",
+        "description_vi": "Đặt mảnh trú sạch thành hàng tới đĩa thu để đàn đẩy các viên khi đổi chỗ, dồn cặn về nơi dễ lấy; cần bỏ mảnh bẩn sau lượt.",
+        "description_en": "Arrange clean shelters towards a collection plate so moving shrimp push pellets into reach; remove dirty shelters afterwards."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Râu gọi hạt",
+        "name_en": "Antennae Call the Grains",
+        "description_vi": "Hạt bám qua khoảng rất ngắn quanh râu. Đàn cần được trải đều để bể đục được xử lý thay vì chỉ một góc.",
+        "description_en": "Grains gather within a short reach of the antennae. Distribute the colony so the whole cloudy tank, rather than one corner, is treated."
+      }
+    ]
+  }
+]

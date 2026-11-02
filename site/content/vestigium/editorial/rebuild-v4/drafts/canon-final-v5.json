@@ -1,0 +1,211 @@
+[
+  {
+    "id": "armament-edward-academy-sabre",
+    "epigraph_vi": "Bốn mũi kiếm chạm nhau, ánh vàng lại sáng.",
+    "epigraph_en": "Four sword-points meet, and gold shines again.",
+    "lore_vi": "Học viện Hoàng gia chỉ trao bốn thanh sabre cho bốn học viên đứng đầu khóa: Edward, Marco, Romeo và Victoria. Các thợ rèn dùng những mảnh Vestigium được xác định là tàn tích Excalibur làm lõi. Edward giữ một thanh trong bộ ấy.\n\nKhi bốn mũi kiếm chạm nhau, ánh vàng cộng hưởng nối chúng lại trong cùng một khoảnh khắc. Mỗi thanh mang một hành trình riêng sau ngày tốt nghiệp, nhưng dấu nhận biết của bộ bốn còn nằm trong lõi thép. Bốn thanh vẫn giữ kiểu dáng gần như nhau; ánh vàng yếu đi khi những mũi kiếm rời nhau, rồi còn lưu trên lưỡi thép.",
+    "lore_en": "The Royal Academy awarded only four sabres to its four leading graduates: Edward, Marco, Romeo and Victoria. Smiths used fragments identified as remnants of Excalibur for their cores. Edward keeps one blade from that set.\n\nWhen their four points meet, golden resonance joins them for a moment. Each blade has followed its own journey since graduation, while the set’s shared mark remains within the steel. The four retain almost identical forms; the gold weakens as their points part, lingering along the blades."
+  },
+  {
+    "id": "armament-gam-bao",
+    "epigraph_vi": "Tiếng nổ còn nặng hơn bàn tay giữ súng.",
+    "epigraph_en": "The report weighs heavier than the hand that holds the gun.",
+    "traits": [
+      {
+        "name_vi": "Một Khẩu Súng, Hai Giai Đoạn",
+        "name_en": "One Gun, Two Stages",
+        "description_vi": "Dạng cũ có một nòng đồng; Timothy gia cố cùng khẩu súng thành hai nòng thép bắn độc lập hoặc cùng lúc.",
+        "description_en": "The earlier form has one brass barrel; Timothy reinforces the same weapon into twin steel barrels that fire independently or together."
+      }
+    ],
+    "lore_vi": "Sultan Abd al-Rahman cho Edward mượn Gầm Bão, báu vật cũ của một nhánh hoàng gia Morocco. Nòng đồng của nó dùng Vestigium khuếch đại động năng và áp lực của đạn chì thường; ở cự ly gần, một phát có thể mang sức công phá ngang pháo hạng nặng. Sultan dặn anh giữ súng như đồ mượn và tránh thử ngay trong sân nhà.\n\nVề sau, Timothy mang cùng khẩu súng tới xưởng ở Toledo. Ba đêm cùng thợ rèn cho nó báng được gia cố, hai nòng thép và buồng thuốc kép theo bản vẽ của chàng pháo thủ. Hai nòng có thể bắn riêng hoặc cùng lúc. Khi khoe lại với Edward, cậu tự hào gọi báu vật cũ ấy là báu vật mới của mình.",
+    "lore_en": "Sultan Abd al-Rahman lends Edward Gầm Bão, an old treasure of a Moroccan royal branch. Vestigium within its brass barrel amplifies the momentum and pressure of ordinary lead shot; at close range a discharge can strike with the force of a heavy cannon. The Sultan reminds him that it is borrowed and forbids a trial in the yard.\n\nLater, Timothy takes the same gun to a Toledo workshop. Three nights with the smiths give it a reinforced stock, twin steel barrels and paired powder chambers following the gunner’s drawings. The barrels can fire separately or together. Showing Edward the result, he proudly calls the old treasure his new one."
+  },
+  {
+    "id": "armament-victoria-academy-sabre",
+    "epigraph_vi": "Bốn mũi kiếm chạm nhau, ánh vàng lại sáng.",
+    "epigraph_en": "Four sword-points meet, and gold shines again.",
+    "lore_vi": "Học viện Hoàng gia chỉ trao bốn thanh sabre cho bốn học viên đứng đầu khóa: Edward, Marco, Romeo và Victoria. Các thợ rèn dùng những mảnh Vestigium được xác định là tàn tích Excalibur làm lõi. Victoria giữ một thanh trong bộ ấy.\n\nKhi bốn mũi kiếm chạm nhau, ánh vàng cộng hưởng nối chúng lại trong cùng một khoảnh khắc. Mỗi thanh mang một hành trình riêng sau ngày tốt nghiệp, nhưng dấu nhận biết của bộ bốn còn nằm trong lõi thép. Bốn thanh vẫn giữ kiểu dáng gần như nhau; ánh vàng yếu đi khi những mũi kiếm rời nhau, rồi còn lưu trên lưỡi thép.",
+    "lore_en": "The Royal Academy awarded only four sabres to its four leading graduates: Edward, Marco, Romeo and Victoria. Smiths used fragments identified as remnants of Excalibur for their cores. Victoria keeps one blade from that set.\n\nWhen their four points meet, golden resonance joins them for a moment. Each blade has followed its own journey since graduation, while the set’s shared mark remains within the steel. The four retain almost identical forms; the gold weakens as their points part, lingering along the blades."
+  },
+  {
+    "id": "armament-marco-academy-sabre",
+    "epigraph_vi": "Bốn mũi kiếm chạm nhau, ánh vàng lại sáng.",
+    "epigraph_en": "Four sword-points meet, and gold shines again.",
+    "lore_vi": "Học viện Hoàng gia chỉ trao bốn thanh sabre cho bốn học viên đứng đầu khóa: Edward, Marco, Romeo và Victoria. Các thợ rèn dùng những mảnh Vestigium được xác định là tàn tích Excalibur làm lõi. Marco giữ một thanh trong bộ ấy.\n\nKhi bốn mũi kiếm chạm nhau, ánh vàng cộng hưởng nối chúng lại trong cùng một khoảnh khắc. Mỗi thanh mang một hành trình riêng sau ngày tốt nghiệp, nhưng dấu nhận biết của bộ bốn còn nằm trong lõi thép. Bốn thanh vẫn giữ kiểu dáng gần như nhau; ánh vàng yếu đi khi những mũi kiếm rời nhau, rồi còn lưu trên lưỡi thép.",
+    "lore_en": "The Royal Academy awarded only four sabres to its four leading graduates: Edward, Marco, Romeo and Victoria. Smiths used fragments identified as remnants of Excalibur for their cores. Marco keeps one blade from that set.\n\nWhen their four points meet, golden resonance joins them for a moment. Each blade has followed its own journey since graduation, while the set’s shared mark remains within the steel. The four retain almost identical forms; the gold weakens as their points part, lingering along the blades."
+  },
+  {
+    "id": "armament-romeo-academy-sabre",
+    "epigraph_vi": "Bốn mũi kiếm chạm nhau, ánh vàng lại sáng.",
+    "epigraph_en": "Four sword-points meet, and gold shines again.",
+    "lore_vi": "Học viện Hoàng gia chỉ trao bốn thanh sabre cho bốn học viên đứng đầu khóa: Edward, Marco, Romeo và Victoria. Các thợ rèn dùng những mảnh Vestigium được xác định là tàn tích Excalibur làm lõi. Romeo giữ một thanh trong bộ ấy.\n\nKhi bốn mũi kiếm chạm nhau, ánh vàng cộng hưởng nối chúng lại trong cùng một khoảnh khắc. Mỗi thanh mang một hành trình riêng sau ngày tốt nghiệp, nhưng dấu nhận biết của bộ bốn còn nằm trong lõi thép. Bốn thanh vẫn giữ kiểu dáng gần như nhau; ánh vàng yếu đi khi những mũi kiếm rời nhau, rồi còn lưu trên lưỡi thép.",
+    "lore_en": "The Royal Academy awarded only four sabres to its four leading graduates: Edward, Marco, Romeo and Victoria. Smiths used fragments identified as remnants of Excalibur for their cores. Romeo keeps one blade from that set.\n\nWhen their four points meet, golden resonance joins them for a moment. Each blade has followed its own journey since graduation, while the set’s shared mark remains within the steel. The four retain almost identical forms; the gold weakens as their points part, lingering along the blades."
+  },
+  {
+    "id": "device-001",
+    "epigraph_vi": "Chợ còn sáng, người còn tìm tới nhau.",
+    "epigraph_en": "While the market stays lit, people still find one another.",
+    "traits": [
+      {
+        "name_vi": "Ánh Vàng Cam Dưới Mái Chợ",
+        "name_en": "Amber Light beneath the Market Roof",
+        "description_vi": "Đèn nhỏ bằng quả đấm, phát sáng vàng cam ổn định và tỏa hơi nóng sạch hơn vôi đỏ.",
+        "description_en": "Fist-sized lamps give steady amber light and cleaner warmth than red lime."
+      }
+    ],
+    "lore_vi": "Dưới mái chợ Marrakesh, những chiếc đèn nhỏ bằng quả đấm treo dọc các đà gỗ. Ánh vàng cam của chúng giữ đều, hơi nóng sạch hơn vôi đỏ trong chuồng bò nhà Edward. Người bán và người mua đi lại dưới dãy đèn ấy giữa mùa đông kéo dài.\n\nMỗi chiếc có giá đủ nuôi một gia đình nghèo trong nhiều tuần. Chính quyền thành phố trả tiền duy trì cả dãy, giữ cho chợ tiếp tục mở giữa lúc đời sống khó khăn. Người ta nói chợ còn đỏ lửa thì Marrakesh vẫn còn nhịp tim.",
+    "lore_en": "Beneath Marrakesh market’s roof, fist-sized lamps hang along the wooden beams. Their amber light stays steady, their warmth cleaner than the red lime in Edward’s cattle shed. Buyers and sellers pass beneath them through the prolonged winter.\n\nEach costs enough to feed a poor family for weeks. The city pays to maintain the row, keeping the market open through hardship. People say that while its fires remain lit, Marrakesh still has a heartbeat."
+  },
+  {
+    "id": "device-002",
+    "epigraph_vi": "Cho đầu bên kia nghe rõ điều cần làm.",
+    "epigraph_en": "Let the far end hear clearly what must be done.",
+    "traits": [
+      {
+        "name_vi": "Ánh Xanh Khi Liên Lạc",
+        "name_en": "Blue Communication Light",
+        "description_vi": "Quả cầu bừng xanh trong tay Fredo khi chuyển yêu cầu tới Lisbon và chờ xác nhận từng mục.",
+        "description_en": "The sphere shines blue in Fredo’s hand while carrying requests to Lisbon and awaiting confirmation of each item."
+      }
+    ],
+    "lore_vi": "Trên đường tới Lisbon, Edward yêu cầu Fredo dùng quả cầu Vestigium liên lạc với Bộ chỉ huy hải quân. Anh cần buồm và dây chằng được xử lý chống băng, đồng thời muốn những chiến hạm lớn sẵn sàng nhổ neo khi mình tới nơi.\n\nQuả cầu bừng xanh trong tay Fredo. Anh truyền từng yêu cầu rồi chờ đầu bên kia xác nhận lại từng mục, ghi chúng vào cuốn sổ đang viết dở tiểu thuyết. Khi ánh xanh tắt, những cụm đèn đầu tiên của Lisbon đã hiện cuối đường chân trời.",
+    "lore_en": "On the journey to Lisbon, Edward asks Fredo to contact naval headquarters through the Vestigium sphere. He needs sails and rigging treated against ice and large warships ready to depart when he arrives.\n\nThe sphere shines blue in Fredo’s hand. He transmits each request and waits for confirmation of every item, writing them into the notebook holding his unfinished novel. When the blue light dies, Lisbon’s first clusters of lamps have appeared on the horizon."
+  },
+  {
+    "id": "device-003",
+    "epigraph_vi": "Một con số, một người nhận phần đứng chắn.",
+    "epigraph_en": "One number, one person accepting the duty to stand guard."
+  },
+  {
+    "id": "device-066",
+    "epigraph_vi": "Có những cuộc chiến hướng về một chiếc vương miện.",
+    "epigraph_en": "Some wars turn towards a single crown.",
+    "traits": [
+      {
+        "name_vi": "Bảo Vật Tại Ravenna",
+        "name_en": "Relic Held at Ravenna",
+        "description_vi": "Theo thông tin Isabella nắm được, vương miện được giữ tại trung khu quyền lực tối cao của Tây La Mã.",
+        "description_en": "According to Isabella’s intelligence, the crown is held at Western Rome’s highest seat of power."
+      }
+    ],
+    "skills": []
+  },
+  {
+    "id": "device-067",
+    "epigraph_vi": "Cùng một thành phố, cùng lời hẹn trở về.",
+    "epigraph_en": "One city, one promise to return.",
+    "traits": [
+      {
+        "name_vi": "Bốn Mươi Năm Trong Một Gia Đình",
+        "name_en": "Forty Years within One Family",
+        "description_vi": "Chuông được truyền trong một gia đình thủy thủ hơn bốn mươi năm, qua các bậc Thông thường, Hiếm rồi Kỳ tích.",
+        "description_en": "The bell passed within one seafaring family for over forty years, rising from Common through Rare to Wondrous."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chuông Báo Lời Hẹn",
+        "name_en": "Bell of the Shared Promise",
+        "description_vi": "Rung khi hai người đã thề cùng trở về một ngôi nhà bước vào cùng một thành phố.",
+        "description_en": "Rings when two people who have sworn to return to one home enter the same city."
+      }
+    ]
+  },
+  {
+    "id": "device-068",
+    "epigraph_vi": "Đào về phía tiếng gõ, nơi ánh đèn còn sáng.",
+    "epigraph_en": "Dig towards the knocking, where the lamps still shine.",
+    "traits": [
+      {
+        "name_vi": "Sáu Đèn Trong Hồ Sơ León",
+        "name_en": "Six Lamps in the León Record",
+        "description_vi": "Báo cáo ghi sáu đèn cùng duy trì ánh sáng bất thường sau một vụ sập hầm.",
+        "description_en": "The report records six lamps sustaining unusually prolonged light after a mine collapse."
+      }
+    ]
+  },
+  {
+    "id": "device-069",
+    "epigraph_vi": "Giữ xương yên, nghe cả hơi thở người mang.",
+    "epigraph_en": "Hold the bone still, and heed the wearer’s breath.",
+    "traits": [
+      {
+        "name_vi": "Lực Giữ Sau Khi Lõi Tắt",
+        "name_en": "Fixing Force after the Core Goes Dark",
+        "description_vi": "Trong ba ca được báo cáo, đai vẫn giữ lực sau khi lõi tắt; nhiệt độ và sự mệt mỏi của bệnh nhân thay đổi cùng lúc.",
+        "description_en": "In three reported cases, the brace retained its force after the core went dark, alongside changes in patient temperature and fatigue."
+      }
+    ]
+  },
+  {
+    "id": "entity-testarossa",
+    "epigraph_vi": "Chiếc hộp rồi sẽ lại được mở ra.",
+    "epigraph_en": "The box will open again."
+  },
+  {
+    "id": "material-bot-tao-nhiet",
+    "epigraph_vi": "Một chút hơi ấm đỏ nằm trong lọ.",
+    "epigraph_en": "A little red warmth rests within the glass.",
+    "traits": [
+      {
+        "name_vi": "Tinh Thể Đỏ Tỏa Ấm",
+        "name_en": "Warm Red Crystals",
+        "description_vi": "Bột tinh thể đỏ trong lọ tỏa ánh ấm dịu lên đầu ngón tay Marco.",
+        "description_en": "The red crystalline powder in its jar casts a gentle warm light upon Marco’s fingertips."
+      }
+    ]
+  },
+  {
+    "id": "material-mo-chong-bang-canon",
+    "epigraph_vi": "Giữ dây mềm cho buồm còn đón gió.",
+    "epigraph_en": "Keep the rigging supple so the sails may catch the wind.",
+    "traits": [
+      {
+        "name_vi": "Lớp Mỡ Giữ Nhiệt",
+        "name_en": "Heat-Retaining Grease Layer",
+        "description_vi": "Mỡ cá voi giữ nhiệt và kháng nước; bột Vestigium pha trong lớp phủ duy trì hơi ấm.",
+        "description_en": "Whale fat retains heat and resists water; the Vestigium powder within the coating sustains warmth."
+      }
+    ]
+  },
+  {
+    "id": "material-cat-khu-nhiet",
+    "epigraph_vi": "Trút cát xuống nơi nước đã làm lửa lan.",
+    "epigraph_en": "Pour sand where water has spread the fire.",
+    "traits": [
+      {
+        "name_vi": "Cát Khoáng Khử Nhiệt",
+        "name_en": "Heat-Quenching Mineral Sand",
+        "description_vi": "Vật liệu ở dạng cát khoáng, được trút từ máng lên khung thử đang cháy Fuego Negro.",
+        "description_en": "The material takes the form of mineral sand, poured from a chute onto a test frame burning with Fuego Negro."
+      }
+    ]
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "epigraph_vi": "Thớ sồi giữ thêm cho thủy thủ một loạt pháo.",
+    "epigraph_en": "Oak grain gives the crew one more broadside.",
+    "traits": [
+      {
+        "name_vi": "Thớ Sồi Ngàn Năm",
+        "name_en": "Ancient Oak Grain",
+        "description_vi": "Sồi ngàn năm từ vùng Sherwood thẩm thấu Vestigium có thớ đan chặt, dai và cứng vượt gỗ thường.",
+        "description_en": "Ancient oaks from Vestigium-suffused Sherwood have tightly interwoven grain, tougher and harder than ordinary wood."
+      }
+    ]
+  },
+  {
+    "id": "mineral-voi-do",
+    "epigraph_vi": "Thêm một đêm ấm cho đàn bò sau vách.",
+    "epigraph_en": "One more warm night for the cattle beyond the wall.",
+    "traits": [
+      {
+        "name_vi": "Vỏ Xám, Vết Nứt Đỏ",
+        "name_en": "Grey Shell, Red Cracks",
+        "description_vi": "Khối xám đục gần bằng nắm tay có vết nứt đỏ âm ỉ, tỏa hơi nóng kèm mùi lưu huỳnh.",
+        "description_en": "The cloudy grey, fist-sized mass has dull red cracks and gives off heat with a sulphurous smell."
+      }
+    ]
+  }
+]

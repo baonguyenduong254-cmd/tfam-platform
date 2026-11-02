@@ -1,0 +1,422 @@
+[
+  {
+    "id": "armament-collection-6-01",
+    "category": "armament",
+    "rarity": 6,
+    "form_vi": "Hai nửa khiên bạc nối bằng sợi lam",
+    "form_en": "Two silver half-shields joined by blue filaments",
+    "art": {
+      "kind": "shield",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Two silver half-shields joined by blue filaments. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Uno. Lưỡng Ngạn Song Thuẫn Gemini",
+    "name_en": "Treinta y Uno. Two-Shore Shields Gemini",
+    "lore_vi": "Hai nửa bạc của Gemini cách nhau một bước khi Treinta y Uno triển khai, nhưng sợi lam giữa chúng có thể đi xa hơn đôi mắt. Người nhận nửa thứ hai đặt tay vào lòng khiên, chọn cùng cận vệ cách chia lần chạm sẽ tới. Đòn đánh một phía xuất hiện trên cả hai mặt dưới dạng hai phần của cùng một vết.\n\nGemini từng giữ một cầu phao bằng hai đội đứng ở hai đầu: mỗi bên đỡ một phần tải của những bước đang qua. Trong chiến trận, một khiên nhận pháo kích trước cổng, nửa kia đặt trên giá thép sau tuyến để cùng gánh. Người trao nửa khiên phải nói rõ mình đang xin người kia nhận điều gì, bởi đường lam trung thành với thỏa thuận ấy cả khi người đứng trước đã đổi ý vì sợ.",
+    "lore_en": "Gemini’s silver halves stand a pace apart when Treinta y Uno deploys, though the blue filament between them can run beyond sight. The second recipient sets a hand within the shield and agrees with the Guard how the coming contact will be divided. A blow upon one side appears upon both faces as portions of one wound.\n\nGemini once held a pontoon bridge through teams stationed at either end, each bearing a share of the crossing feet. In battle one shield receives cannon-fire before a gate while the other rests upon a steel frame behind the line. The bearer must explain what the recipient is being asked to carry: the blue path remains faithful to that agreement even when fear makes the person in front wish it changed.",
+    "use_vi": "Chia một lần va hoặc tải đang tiếp xúc giữa hai nửa khiên theo quan hệ nhận đã thiết lập.",
+    "use_en": "Divides a contact or applied burden between two shield-halves through their established receiving relationship.",
+    "limits_vi": "Cả hai nửa cần chỗ nhận tải thực. Phần được chuyển không biến mất; mất điểm tựa hoặc phá một nửa dồn sự mất cân bằng về phần còn lại. Đổi cách chia cần khép lần nhận trước.",
+    "limits_en": "Both halves require an actual support for the burden. The transferred share remains; loss of a support or destruction of one half sends the imbalance into the other. A changed division requires the former receipt to close.",
+    "skills": [
+      {
+        "name_vi": "Kết hai bờ",
+        "name_en": "Join Two Shores",
+        "description_vi": "Nối hai mặt khiên thành hai nơi cùng nhận một lần tác động.",
+        "description_en": "Joins the two shield-faces as recipients of one event."
+      },
+      {
+        "name_vi": "Phân gánh",
+        "name_en": "Divide the Burden",
+        "description_vi": "Chia phần nhận theo cách đã xác lập trước khi đòn hoặc tải tới.",
+        "description_en": "Divides receipt according to an arrangement established before impact or loading."
+      },
+      {
+        "name_vi": "Gom về một mặt",
+        "name_en": "Gather to One Face",
+        "description_vi": "Khép mối chia sau khi tải đã được chuyển sang nơi đủ sức nhận.",
+        "description_en": "Closes the division once the burden has passed into a sufficient receiver."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vết chung",
+        "name_en": "A Shared Mark",
+        "description_vi": "Một sự kiện để lại những phần vết khớp nhau trên hai mặt bạc, cho biết mối chia vẫn còn hiệu lực.",
+        "description_en": "One event leaves corresponding portions of a mark upon both silver faces, showing the division remains active."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 31, phòng tuyến và công binh",
+    "owner_en": "Bearer of Number 31, defensive lines and engineering",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 31,
+      "label": "Treinta y Uno",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  },
+  {
+    "id": "armament-collection-6-02",
+    "category": "armament",
+    "rarity": 6,
+    "form_vi": "Kiếm mỏng có lưỡi như thủy tinh khói",
+    "form_en": "Thin sword with a smoked-glass edge",
+    "art": {
+      "kind": "sword",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Thin sword with a smoked-glass edge. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Tres. Đoạn Hồi Kính Kiếm Intercisio",
+    "name_en": "Treinta y Tres. Echo-Severing Glassblade Intercisio",
+    "lore_vi": "Lưỡi thủy tinh khói của Intercisio chỉ có một mép sáng khi Treinta y Tres đưa nó vào tiếng vọng. Trong một tháp chuông, người mang nghe cùng tiếng va chạy qua vòm đá ba lần rồi chém ngang đường trở lại. Lần ngân tiếp theo tắt ở đúng chỗ thép vừa đi qua, để những vết nứt trên trần thôi nhận thêm sức từ âm cũ.\n\nIntercisio nhận sự trở lại của một chuyển động. Nó có thể cắt đường cộng hưởng giữa các mảng công trình, một nhịp cưỡng ép đang lặp trong khí cụ, hoặc lượt công kích đã được một quyền năng buộc tái diễn. Cận vệ phải nhận ra vòng trước khi xuống kiếm. Nhát đầu của điều chưa từng xảy ra vẫn đến như mọi nhát đầu khác.",
+    "lore_en": "Intercisio’s smoked-glass blade shows one bright edge when Treinta y Tres sets it into an echo. In a bell-tower, its bearer hears the same collision pass through the stone vault three times and cuts across its returning path. The next peal ends where the blade has passed, leaving the ceiling’s cracks without another feeding from the old sound.\n\nIntercisio receives the return of a motion. It can sever resonance between building portions, a forced rhythm repeating within a device or an attack compelled by another power to recur. The Guard must recognise the circuit before cutting. The first stroke of something never yet experienced still arrives as any first stroke does.",
+    "use_vi": "Cắt một quan hệ tái diễn đã được nhận, từ cộng hưởng vật chất tới chu kỳ cưỡng ép của Vestigium.",
+    "use_en": "Severs a recognised relationship of recurrence, from material resonance to a compelled Vestigium cycle.",
+    "limits_vi": "Cần quan sát hoặc tiếp xúc đủ để nhận cùng một vòng lặp. Cắt một nhánh chỉ dừng sự trở lại qua nhánh ấy; tác động ban đầu và những đường chưa nhận vẫn tồn tại.",
+    "limits_en": "Requires enough observation or contact to recognise one recurring circuit. Cutting a branch stops recurrence through that branch; the initial event and unrecognised paths remain.",
+    "skills": [
+      {
+        "name_vi": "Nghe vòng trở lại",
+        "name_en": "Hear the Returning Circuit",
+        "description_vi": "Làm hiện đường mà cùng một tác động đang quay lại qua.",
+        "description_en": "Reveals the path by which the same effect returns."
+      },
+      {
+        "name_vi": "Đoạn hồi",
+        "name_en": "Sever Recurrence",
+        "description_vi": "Chém vào quan hệ đã nhận để lượt tiếp theo mất đường trở lại qua nó.",
+        "description_en": "Cuts the recognised relationship so its next occurrence loses that route of return."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kính giữ dấu lặp",
+        "name_en": "Glass Retaining Recurrence",
+        "description_vi": "Mỗi vòng nhận được hiện thành đường khói trên lưỡi; các vòng khác nhau cần được phân biệt trước khi cắt.",
+        "description_en": "Each recognised circuit appears as a smoke-line upon the edge; different circuits must be distinguished before cutting."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 33, phá cộng hưởng và chống chu kỳ cưỡng ép",
+    "owner_en": "Bearer of Number 33, resonance-breaking and countering compelled cycles",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 33,
+      "label": "Treinta y Tres",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  },
+  {
+    "id": "armament-collection-6-03",
+    "category": "armament",
+    "rarity": 6,
+    "form_vi": "Giáp phiến đá xám, khớp đồng đỏ",
+    "form_en": "Grey stone plate armour with red copper joints",
+    "art": {
+      "kind": "armor",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Grey stone plate armour with red copper joints. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Cuatro. Sơn Hình Thạch Giáp Oros",
+    "name_en": "Treinta y Cuatro. Mountain-Form Stone Armour Oros",
+    "lore_vi": "Oros triển khai thành những phiến đá xám có khớp đồng đỏ. Khi Treinta y Cuatro đứng yên và nhận tên một mốc đất, đường viền giáp bắt đầu ăn vào cảnh quan: tuyết bám như bám lên vách núi, gió rẽ theo sườn và những cú xô phải tìm một chỗ khác để dời đi.\n\nCận vệ dùng Sơn Hình giữ lối trước cửa thành, trụ cho một dây kéo hoặc đứng cạnh phần tường đang bị phá. Một người trong giáp có thể trở thành điểm mà những người khác dựa vào để làm việc. Muốn bước tiếp, người mang phải trả mốc về cho đất; các khớp đồng mở theo thứ tự, cho thân thể nhận lại sức nặng đang được thế núi gánh hộ.",
+    "lore_en": "Oros deploys as grey stone plates with red-copper joints. When Treinta y Cuatro stands still and receives the name of a ground-mark, the armour’s outline begins entering the landscape: snow settles as upon a cliff, wind divides around its slopes and shoves must find somewhere else to move.\n\nThe Guard uses Mountain-Form to hold a way before a gate, anchor a hauling line or stand beside a wall under demolition. One armoured person can become a point upon which others rely to work. To move again, the bearer must return the mark to the earth; copper joints open in order, giving the body back the burden that the mountain’s stance has borne.",
+    "use_vi": "Nhận tư cách một mốc địa hình để giữ vị trí trước sức xô, làm điểm tựa cho phòng thủ và cứu kéo.",
+    "use_en": "Assumes the standing of a terrain-mark to hold position against displacement and anchor defence or hauling.",
+    "limits_vi": "Cần đứng trên nền còn được nhận làm đất của mốc. Di chuyển hoặc nền bị tách khỏi quan hệ ấy làm Sơn Hình khép. Giáp giữ vị trí; những phần cơ thể ngoài mặt che vẫn có thể bị tấn công.",
+    "limits_en": "Requires ground still recognised as belonging to its mark. Movement or severance of that relationship closes Mountain-Form. The armour holds position; uncovered portions of the body remain open to attack.",
+    "skills": [
+      {
+        "name_vi": "Nhận dáng núi",
+        "name_en": "Receive the Mountain’s Stance",
+        "description_vi": "Gắn hình đứng với mốc đất để lực xô phải tác động qua quan hệ địa hình thay vì chỉ khối lượng người mặc.",
+        "description_en": "Binds the standing form to a ground-mark, requiring displacement to act through terrain rather than merely the wearer’s mass."
+      },
+      {
+        "name_vi": "Trả mốc",
+        "name_en": "Return the Mark",
+        "description_vi": "Mở từng khớp để khép Sơn Hình và lấy lại khả năng đi.",
+        "description_en": "Opens joints in sequence to close Mountain-Form and restore walking."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khớp đồng trả tải",
+        "name_en": "Copper Joints Returning Burden",
+        "description_vi": "Mức sẫm ở khớp cho biết phần thế đứng cần được trả trước khi bước.",
+        "description_en": "Darkening joints show which portion of the stance must be returned before moving."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 34, giữ cửa và neo cứu kéo",
+    "owner_en": "Bearer of Number 34, gate-holding and rescue anchoring",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 34,
+      "label": "Treinta y Cuatro",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  },
+  {
+    "id": "armament-collection-6-05",
+    "category": "armament",
+    "rarity": 6,
+    "form_vi": "Thương bạc có mũi dẹt hình lá",
+    "form_en": "Silver lance with a flat leaf-shaped head",
+    "art": {
+      "kind": "spear",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Silver lance with a flat leaf-shaped head. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Cinco. Hạ Kỳ Đình Thương Armistitium",
+    "name_en": "Treinta y Cinco. Truce-Sealing Lance Armistitium",
+    "lore_vi": "Tua bạc của Armistitium đứng ngược khi Treinta y Cinco đặt thương giữa hai hàng quân. Từng người muốn bước vào đình chiến chạm vũ khí lên cán và nói phần việc mình chấp nhận ngừng. Khi lời cuối được nhận, tua rủ xuống; thép trong ranh vừa gọi mất đường hoàn tất những hành động đã được tự nguyện cấm.\n\nNhờ khoảng ấy, hai phía có thể thu xác, chuyển thương binh hoặc mở cổng bàn giao. Người giữ thương đọc những dấu đỏ trên lá thép để biết lời nào đang bị ép tới bờ vi phạm. Armistitium nhận đúng điều các bên đã nói, kể cả những chỗ họ bỏ trống. Một hiệp ước viết cẩu thả có thể để nguyên con đường cho kẻ đủ khôn tiếp tục cuộc chiến bằng cách chưa hề được ngừng.",
+    "lore_en": "Armistitium’s silver tassel stands upright when Treinta y Cinco sets the lance between two formations. Each person entering the truce touches a weapon to its shaft and states what action they agree to cease. When the last promise is received, the tassel falls; steel within the named boundary loses its way to completing the actions freely forbidden.\n\nWithin that interval both sides can recover bodies, move the wounded or open a gate for handover. The lance-keeper reads red marks upon its leaf-shaped head to see which terms are being pressed towards violation. Armistitium receives precisely what the parties say, including their omissions. Careless terms may leave a path for someone clever enough to continue war by a means never suspended.",
+    "use_vi": "Đặt hiệu lực siêu nhiên lên những hành vi đã được người tham gia tự nguyện ngừng trong một ranh đình chiến.",
+    "use_en": "Places supernatural force upon actions participants have freely agreed to suspend within a truce boundary.",
+    "limits_vi": "Chỉ ràng buộc người đã nhận lời cùng hành vi được gọi rõ. Người ngoài chưa tham gia vẫn có thể tấn công; tranh chấp ngoài điều khoản phải được thương lượng. Rút thương khép ranh sau khi những người được bảo hộ có thời gian rời.",
+    "limits_en": "Binds only those who have assented and actions clearly named. Outsiders may still attack; disputes beyond the terms require negotiation. Withdrawal closes the boundary after protected participants have time to leave.",
+    "skills": [
+      {
+        "name_vi": "Nhận điều ngừng",
+        "name_en": "Receive the Suspended Act",
+        "description_vi": "Ghi hành vi cùng người tự nguyện cam kết ngừng nó.",
+        "description_en": "Records an action and the person freely agreeing to suspend it."
+      },
+      {
+        "name_vi": "Hạ kỳ đình chiến",
+        "name_en": "Lower the Truce Standard",
+        "description_vi": "Giữ hành động đã bị điều khoản cấm ở trạng thái chưa thể hoàn tất trong ranh.",
+        "description_en": "Holds a forbidden action unable to complete within the boundary."
+      },
+      {
+        "name_vi": "Hiện mép vi phạm",
+        "name_en": "Reveal the Edge of Breach",
+        "description_vi": "Làm đỏ dấu điều khoản đang bị người nhận đẩy tới ngưỡng thực hiện.",
+        "description_en": "Reddens the mark of a term its participant is pressing towards fulfilment of the forbidden act."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lời được giữ nguyên",
+        "name_en": "Terms Kept Exact",
+        "description_vi": "Hiệu lực theo lời đã nhận và phạm vi gọi rõ, để người thương lượng chịu trách nhiệm về cách họ nói.",
+        "description_en": "Its force follows received terms and named scope, leaving negotiators responsible for their wording."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 35, đình chiến và bàn giao",
+    "owner_en": "Bearer of Number 35, truces and handovers",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 35,
+      "label": "Treinta y Cinco",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  },
+  {
+    "id": "armament-collection-6-07",
+    "category": "armament",
+    "rarity": 6,
+    "form_vi": "Súng dài hai khóa đối xứng, báng ngà",
+    "form_en": "Long gun with paired locks and an ivory-coloured stock",
+    "art": {
+      "kind": "rifle",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Long gun with paired locks and an ivory-coloured stock. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Seis. Hồi Tuyến Trùng Tỏa Repetitor",
+    "name_en": "Treinta y Seis. Returning-Flight Twinlock Repetitor",
+    "lore_vi": "Hai khóa súng của Repetitor không nổ cùng lúc. Khóa đầu bắn một phát thật, để báng ngà giữ hình đường đạn đã đi. Khóa sau nhận hình ấy và đưa viên đạn kế vào đường cũ từ vị trí người mang đang đứng, như thể một vết vừa vạch trong không gian đã trở thành nòng súng dài hơn mắt nhìn.\n\nTreinta y Seis dùng phát đầu để tìm một tuyến qua ô cửa, mép tường hoặc khe giữa các bộ phận đang chuyển. Phát sau có thể theo lại tuyến ấy dù khẩu súng đã đổi chỗ. Địch học cách đóng đường đã thấy đạn đi qua, vì Repetitor giữ quỹ đạo cùng tất cả những chỗ nó từng phải đi lọt. Người giữ phải chọn lúc một đường cũ còn thuộc về chiến trường hiện tại.",
+    "lore_en": "Repetitor’s two locks never fire together. The first releases a real shot, allowing the ivory-coloured stock to retain its flight. The second receives that shape and feeds the next ball into the old line from the bearer’s present position, as though a fresh mark in space had become a barrel longer than sight.\n\nTreinta y Seis uses the first shot to find a route through a window, wall-edge or gap between moving components. The next can follow it even after the gun has moved. Enemies learn to close a route through which they have seen a ball pass, for Repetitor retains the trajectory and every opening it once fitted. Its bearer must choose when an old line still belongs to the present battlefield.",
+    "use_vi": "Ghi một đường bắn thực rồi dẫn phát kế vào cùng hình quỹ đạo sau khi đổi vị trí khai hỏa.",
+    "use_en": "Records an actual shot and feeds the next ball into the same trajectory after the firing position changes.",
+    "limits_vi": "Một đường giữ cho một lượt tiếp theo. Cửa đóng, giáp mới hoặc vật đi vào tuyến sẽ nhận đạn; súng không tự giữ mục tiêu cũ ở đúng chỗ. Bắn ghi lại thay đường trước.",
+    "limits_en": "A retained path serves one following shot. A closed shutter, new armour or object entering the route receives the ball; the gun does not keep the old target in place. Recording anew replaces the former path.",
+    "skills": [
+      {
+        "name_vi": "Đệ nhất tỏa",
+        "name_en": "First Lock",
+        "description_vi": "Bắn và giữ hình quỹ đạo thực tế.",
+        "description_en": "Fires and retains the actual trajectory."
+      },
+      {
+        "name_vi": "Đệ nhị tỏa",
+        "name_en": "Second Lock",
+        "description_vi": "Nối phát kế vào hình đường đã ghi từ vị trí hiện tại của súng.",
+        "description_en": "Joins the next shot from the gun’s present position to the retained path."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Báng giữ đường",
+        "name_en": "Stock Retaining the Path",
+        "description_vi": "Một đường sáng hiện trong báng theo quỹ đạo, mờ ở những đoạn đã bị vật mới che.",
+        "description_en": "A bright line within the stock follows the trajectory, dimming where new obstructions cover it."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 36, hỏa lực chọn tuyến",
+    "owner_en": "Bearer of Number 36, route-selective fire",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 36,
+      "label": "Treinta y Seis",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  },
+  {
+    "id": "armament-collection-7-01",
+    "category": "armament",
+    "rarity": 7,
+    "form_vi": "Giáo thép tối với lá cờ trống",
+    "form_en": "Dark steel spear carrying a blank pennant",
+    "art": {
+      "kind": "spear",
+      "materials": [
+        "weathered steel",
+        "muted brass"
+      ],
+      "description": "Dark steel spear carrying a blank pennant. Isolated complete artifact; no person, no scenery, no lettering."
+    },
+    "name_vi": "Treinta y Siete. Vị Hạ Chiến Thương Inclinata",
+    "name_en": "Treinta y Siete. The Unlowered Escort Spear Inclinata",
+    "lore_vi": "Lá cờ trên Inclinata trống cho tới khi người mang Treinta y Siete nhận một người đang sống vào sự hộ tống của mình. Tên đích đến hiện bằng những đường sẫm trong vải. Khi thương còn dựng, hành động bảo vệ ấy giữ một quyền lạ: những gì muốn hoàn tất việc buộc người hộ tống dừng phải đi qua ngọn cờ trước.\n\nĐòn chém, cửa sập và một quyền năng khiến đôi chân quên bước đều có thể trở thành những vết trên vải. Cận vệ vẫn đổ máu, vẫn phải tìm đường và có thể bị đẩy lạc; thân thể tiếp tục mang phần nhiệm vụ chưa khép thay vì nhận ngay kết thúc mà hiểm họa đã gọi. Inclinata cho một người đứng giữa mệnh lệnh phải dừng và người còn cần được đưa đi.\n\nĐến khi người được hộ tống bước vào nơi đã hẹn, cờ rủ xuống. Những vết chờ trở về với thế giới theo thứ tự người mang chọn. Có lần sự hoàn tất là một cuộc nghỉ dài bên bệnh xá; có lần là cánh cổng sập sau lưng một đoàn người vừa kịp qua. Số Ba Mươi Bảy phải chuẩn bị cả nơi để hành trình kết thúc, bởi sức mạnh giữ chưa hạ cũng giữ nguyên những gì chưa được giải quyết.",
+    "lore_en": "Inclinata’s pennant is blank until Treinta y Siete receives a living person into their escort. The destination appears in dark threads. While the spear stands, that act of protection holds a strange authority: anything seeking to complete the escort’s forced halt must first pass through the pennant.\n\nA sword-cut, collapsing gate or power making the legs forget their next step can become marks upon its cloth. The Guard still bleeds, must find a route and can be driven astray; the body carries the unfinished duty rather than immediately receiving the ending called by the threat. Inclinata places one person between the command to stop and someone still needing passage.\n\nWhen the escorted person reaches the promised place, the pennant falls. Pending marks return to the world in an order its bearer chooses. Sometimes completion means a long recovery beside an infirmary; sometimes a gate falls behind people just carried through. Number Thirty-Seven must prepare somewhere for the journey to finish, for the power to remain unlowered preserves what remains unresolved.",
+    "use_vi": "Giữ việc hộ tống khỏi một kết thúc cưỡng ép bằng cách nhận những lần buộc dừng vào lá cờ cho tới lúc nhiệm vụ được khép.",
+    "use_en": "Keeps an escort from a compelled ending by receiving forced halts into its pennant until the duty closes.",
+    "limits_vi": "Cần người được hộ tống còn sống, đích cụ thể và sự nhận việc thật. Người mang từ bỏ, đổi nhiệm vụ hoặc lá cờ bị tách khỏi thương làm các vết đang giữ đòi kết thúc. Nó giữ hành động tiếp tục; thương tích và đường đi vẫn cần được xử lý.",
+    "limits_en": "Requires a living charge, a specific destination and a genuine undertaking. Abandonment, changed duty or separation of pennant and spear lets pending marks claim their endings. It sustains continuation; wounds and the route still require attention.",
+    "skills": [
+      {
+        "name_vi": "Nhận hộ tống",
+        "name_en": "Receive the Escort",
+        "description_vi": "Ghi người sống và đích đến cụ thể thành điều chưa được phép hạ.",
+        "description_en": "Records a living charge and specific destination as an undertaking not yet to be lowered."
+      },
+      {
+        "name_vi": "Giữ lần buộc dừng",
+        "name_en": "Hold the Compelled Halt",
+        "description_vi": "Đưa một tác động muốn khép việc tiếp tục vào vết trên cờ.",
+        "description_en": "Receives an effect seeking to close continuation as a pennant-mark."
+      },
+      {
+        "name_vi": "Khép đường về",
+        "name_en": "Close the Passage",
+        "description_vi": "Trả các vết đã nhận theo thứ tự chọn khi nhiệm vụ hoàn tất và có nơi nhận hậu quả.",
+        "description_en": "Releases received marks in a chosen order once the duty is complete and consequences have somewhere to arrive."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cờ mang việc chưa xong",
+        "name_en": "Pennant of Unfinished Duty",
+        "description_vi": "Các vết giữ bản chất của những lần cản trở, giúp người mang chuẩn bị cách giải quyết thay vì quên chúng.",
+        "description_en": "Its marks preserve the nature of obstructions, allowing preparation for their resolution rather than forgetting them."
+      }
+    ],
+    "applications": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "Người mang số 37, hộ tống qua hiểm họa vượt thường",
+    "owner_en": "Bearer of Number 37, escorts through extraordinary danger",
+    "origin": "collection",
+    "sources": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 37,
+      "label": "Treinta y Siete",
+      "parent_id": "device-003"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai gắn số hiệu. Những phần cùng hệ không được tính thành nhiều hiện vật độc lập.",
+      "note_en": "One number-bound deployment system. Portions of that system are not counted as independent objects."
+    },
+    "rarity_note_vi": "Sáng tác mở rộng cho Collection theo quyền tác giả đã trao. Số hiệu cùng cơ chế mới chưa được ghi trong bản thảo. Giữ hình thể của hiện vật đã có ảnh.",
+    "rarity_note_en": "An authorised Collection expansion. Its number and revised workings are not attested in the manuscript. The shape of the illustrated object is retained."
+  }
+]

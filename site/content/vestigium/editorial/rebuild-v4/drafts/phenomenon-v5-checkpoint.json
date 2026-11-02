@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "phenomenon-inward-dew",
+    "epigraph_vi": "Sương tìm về tâm.",
+    "epigraph_en": "Dew finds the centre.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Viền tròn khô bao quanh tâm ướt; dấu nằm ở khoảng trống trong khung.",
+        "description_en": "A dry circular rim surrounds a wet centre; the mark occupies the space within the frame."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt đĩa nông dưới tâm để hứng giọt vào cùng một chỗ, tránh để chúng chảy vào mộng gỗ.",
+        "description_en": "Place a shallow dish beneath the centre to catch drops together and keep them out of wooden joints."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người thợ thay kính ba lần rồi giữ lại khung cũ, nhận ra điều dị thường nằm trong một chỗ trống.\n\nMột ô kính trong nhà ươm bỏ trống luôn khô ở viền nhưng ướt ở tâm, kể cả sau khi thay kính. Dấu tròn giữ nguyên theo vị trí khung. Hơi nước trong một gang tay tụ về tâm thay vì bám đều mặt lạnh.",
+    "lore_en": "After replacing the glass three times, the craftsman kept its old frame: the anomaly occupied an absence.\n\nOne pane in an empty nursery stays dry at its rim and wet in the centre, even after replacement. The circle remains fixed to the frame. Vapour within a handspan gathers centrally instead of coating the cold surface.",
+    "skills": [
+      {
+        "name_vi": "Sương Đọng Ngược",
+        "name_en": "Inward Dew",
+        "description_vi": "Hơi nước trong một gang tay tụ về tâm thay vì bám đều mặt lạnh.",
+        "description_en": "Vapour within a handspan gathers centrally instead of coating the cold surface."
+      }
+    ],
+    "use_vi": "Thu một ít sương cho việc xem độ trong của nước đọng.",
+    "use_en": "Collects a little dew for inspecting condensation clarity.",
+    "limits_vi": "Chỉ vài giọt mỗi đêm; không tạo nước và ngừng khi không khí quá khô.",
+    "limits_en": "Produces a few drops nightly, creates no water and stops in very dry air."
+  },
+  {
+    "id": "phenomenon-the-standing-ashline",
+    "epigraph_vi": "Tro nguội vẫn đứng.",
+    "epigraph_en": "Cold ash still stands.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Dải tro lơ lửng luôn song song với phiến đá, rung nhẹ theo mặt bàn.",
+        "description_en": "The floating ashline always lies parallel to the stone, trembling with the table."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt một tấm kính trước dải tro và đánh dấu độ rung để so hai cách kê chân bàn.",
+        "description_en": "Set glass before the ashline and mark its tremor to compare two ways of supporting the table."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người quét lò lùa tro xuống rồi nhìn một dải bụi đứng dậy, như việc dọn dẹp vừa bị từ chối.\n\nTrong phòng thử lò, tro nguội luôn nằm thành vệt nổi trên cùng một phiến đá. Cọ sạch rồi rắc tro mới vẫn tái lập dải ấy. Chỉ bụi tro rất nhẹ được giữ lơ lửng, lộ rõ mỗi đợt rung bàn.",
+    "lore_en": "A furnace-sweeper brushed the ash away and watched it stand again, refusing his labour.\n\nA furnace test room holds cold ash above one flagstone. Cleaning and adding fresh ash reproduce the same ribbon. Only very light ash remains suspended, revealing each vibration of the table.",
+    "skills": [
+      {
+        "name_vi": "Vệt Tro Đứng",
+        "name_en": "The Standing Ashline",
+        "description_vi": "Chỉ bụi tro rất nhẹ được giữ lơ lửng, lộ rõ mỗi đợt rung bàn.",
+        "description_en": "Only very light ash remains suspended, revealing each vibration of the table."
+      }
+    ],
+    "use_vi": "Quan sát rung nhỏ của mặt bàn trong một lượt thử ngắn.",
+    "use_en": "Reveals small tabletop vibrations during a short trial.",
+    "limits_vi": "Gió xóa hình và tro gây kích ứng hô hấp; cần che kín, không dùng trên lửa.",
+    "limits_en": "Draughts erase it and ash irritates lungs; enclosure is required and flames excluded."
+  },
+  {
+    "id": "phenomenon-the-slow-light-pool",
+    "epigraph_vi": "Đèn tắt, nền còn sáng.",
+    "epigraph_en": "The lamp goes out; the floor still shines.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Đốm sáng mang đúng sắc của ngọn đèn vừa chiếu vào.",
+        "description_en": "The patch carries the colour of the lamp that last shone upon it."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Cho trẻ tập nhận biết trình tự sáng tối bằng hai tấm chắn, mỗi lần cách nhau một nhịp tay.",
+        "description_en": "Let children practise recognising light and dark sequences with two shutters, one hand-beat apart."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Học trò che đèn chơi trốn tìm đã thấy sàn còn giữ mắt sáng thêm một nhịp.\n\nMột nền phòng học cũ giữ đốm sáng thêm vài nhịp sau khi đèn bị che. Đổi đèn và phủ lại nền không chuyển được vị trí đốm. Ánh vừa nhận nhạt dần theo một khoảng trễ ngắn có thể đo.",
+    "lore_en": "A pupil hiding a lamp during a game saw the floor keep its bright eye a beat longer.\n\nAn old classroom floor retains a light patch briefly after a lamp is covered. New lamps and resurfacing do not move it. Received light fades through a short measurable delay.",
+    "skills": [
+      {
+        "name_vi": "Vũng Ánh Sáng Chậm",
+        "name_en": "The Slow Light Pool",
+        "description_vi": "Ánh vừa nhận nhạt dần theo một khoảng trễ ngắn có thể đo.",
+        "description_en": "Received light fades through a short measurable delay."
+      }
+    ],
+    "use_vi": "So thứ tự đóng mở hai tấm chắn sáng trong mô hình nhỏ.",
+    "use_en": "Compares the order of two light shutters in a small model.",
+    "limits_vi": "Ánh rất yếu, không giữ quá vài nhịp; bụi phủ làm khó nhìn.",
+    "limits_en": "The light is faint, lasts only moments and is obscured by dust."
+  },
+  {
+    "id": "phenomenon-the-timber-scent-corner",
+    "epigraph_vi": "Gỗ đi rồi, hương nán lại.",
+    "epigraph_en": "The wood leaves; its scent lingers.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Hương đậm nhất ở ngang thắt lưng và lan thành lớp mỏng sát góc kho.",
+        "description_en": "The scent is strongest at waist height and spreads in a thin layer beside the storeroom corner."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt lần lượt hai mảnh gỗ vừa bào, để người học nghề nhận sự khác biệt sau khi cất mẫu.",
+        "description_en": "Place two freshly planed pieces there in turn, letting an apprentice distinguish their scents after removal."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người coi kho ghé góc trống mỗi sáng, ngửi mùi một thân cây đã bị chở đi từ lâu.\n\nGóc kho rỗng tiếp tục thoảng mùi gỗ mới dù ván đã dỡ. Khi đặt mẫu gỗ khác vào, mùi mới lưu lại rồi tắt trước buổi sáng. Khoảng khí giữ mùi vật vừa đặt trong đó lâu hơn phòng xung quanh.",
+    "lore_en": "Every morning the keeper visited the empty corner to smell timber carted away long before.\n\nAn empty store corner smells of fresh timber after its boards are removed. Another wood sample leaves a scent that fades before morning. The air pocket retains a deposited object’s scent longer than the surrounding room.",
+    "skills": [
+      {
+        "name_vi": "Góc Phòng Giữ Mùi Gỗ",
+        "name_en": "The Timber-Scent Corner",
+        "description_vi": "Khoảng khí giữ mùi vật vừa đặt trong đó lâu hơn phòng xung quanh.",
+        "description_en": "The air pocket retains a deposited object’s scent longer than the surrounding room."
+      }
+    ],
+    "use_vi": "So mùi hai mẫu gỗ trong các lượt thử riêng.",
+    "use_en": "Compares timber scents in separate trials.",
+    "limits_vi": "Không nhận diện hóa chất; mùi mạnh che mùi cũ và gây nhức đầu nếu đứng lâu.",
+    "limits_en": "Identifies no chemicals; strong scents overwrite old ones and prolonged exposure causes headache."
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "epigraph_vi": "Bậc đá nhớ một bước.",
+    "epigraph_en": "The stone remembers one step.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Dấu ẩm hiện từ gót tới mũi theo nhịp đặt chân.",
+        "description_en": "The damp mark appears from heel to toe with the placing of a foot."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Rắc ít phấn ngoài mép bậc để phân biệt dấu mới với vết nước do lau dọn.",
+        "description_en": "Dust chalk outside the step edge to distinguish a fresh mark from cleaning water."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Dấu giày khô hiện trên bậc đã lau khiến người gác quay đầu trước khi nghe cửa khép.\n\nMột cầu thang kho hiện dấu ẩm sau mỗi lần có người đi qua bậc cuối. Dấu vẫn xuất hiện với giày khô và trên đá được lau sạch. Bậc giữ đường bao bước chân gần nhất trong vài phút.",
+    "lore_en": "Dry footprints on washed stone made the watchman turn before the door shut.\n\nA store stair shows moisture after someone crosses its final step. Dry footwear and a cleaned surface leave the same result. The step retains the latest footprint outline for several minutes.",
+    "skills": [
+      {
+        "name_vi": "Dấu Sương Bậc Cuối",
+        "name_en": "Dew on the Last Step",
+        "description_vi": "Bậc giữ đường bao bước chân gần nhất trong vài phút.",
+        "description_en": "The step retains the latest footprint outline for several minutes."
+      }
+    ],
+    "use_vi": "Nhận biết một lần qua cửa vừa diễn ra khi người trực ở xa.",
+    "use_en": "Indicates a recent passage while an attendant is elsewhere.",
+    "limits_vi": "Không lưu danh tính hay chiều đi; nhiều người giẫm làm dấu lẫn.",
+    "limits_en": "Stores neither identity nor direction; overlapping steps confuse the outline."
+  },
+  {
+    "id": "phenomenon-ticks-in-the-mortar",
+    "epigraph_vi": "Vữa nhận nhịp tay.",
+    "epigraph_en": "Mortar takes the hand’s rhythm.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Tiếng tích phát từ mạch vữa, âm khô và đều như hai hạt gỗ chạm nhau.",
+        "description_en": "The ticking comes from the mortar joint, dry and regular as two wooden beads meeting."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Gõ nhịp trước một lượt quay tay để hai thợ ở hai đầu phòng giữ cùng tốc độ.",
+        "description_en": "Tap in a beat before hand-turning work so workers at opposite ends of the room keep one pace."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người thợ dỡ chiếc đồng hồ để sửa rồi ngồi nghe bức tường tiếp tục thay nó làm việc.\n\nMột đoạn tường nhà thợ vẫn gõ đều sau khi đồng hồ được dỡ. Trát mạch mới giữ nhịp nhưng làm tiếng nhỏ hơn. Mạch vữa lặp nhịp đều vừa được gõ vào tường một lúc ngắn.",
+    "lore_en": "A craftsman removed the clock for repair and listened as the wall carried on its duty.\n\nA workshop wall keeps ticking after its clock is removed. Fresh pointing retains the rhythm at lower volume. The joint briefly repeats an even beat tapped against the wall.",
+    "skills": [
+      {
+        "name_vi": "Tiếng Tích Trong Vữa",
+        "name_en": "Ticks in the Mortar",
+        "description_vi": "Mạch vữa lặp nhịp đều vừa được gõ vào tường một lúc ngắn.",
+        "description_en": "The joint briefly repeats an even beat tapped against the wall."
+      }
+    ],
+    "use_vi": "Giữ nhịp khi một thợ làm động tác lặp trong phạm vi nghe.",
+    "use_en": "Provides a beat for repetitive work within hearing range.",
+    "limits_vi": "Nhịp lệch sau một phút; gõ nhịp mới ghi đè ngay.",
+    "limits_en": "Drifts after a minute; a new beat immediately overwrites it."
+  },
+  {
+    "id": "phenomenon-the-window-dust-ring",
+    "epigraph_vi": "Bụi chỉ đường gió.",
+    "epigraph_en": "Dust points the wind’s way.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Vòng bụi nghiêng cùng hướng khí xuyên cửa, mép phía đón gió luôn mỏng hơn.",
+        "description_en": "The dust ring tilts with the draught through the window; its windward edge is always thinner."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Che lần lượt các khe cửa và nhìn vòng bụi để tìm khe cần trám trong mùa lạnh.",
+        "description_en": "Cover window gaps in turn and watch the ring to find which needs sealing in cold weather."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Thợ đóng sách nhìn bụi giấy vẽ lại đường gió, nhớ những trang mình đã cắt bỏ.\n\nỞ khung cửa xưởng đóng sách, bụi tự chia thành vòng mảnh thay vì rơi xuống. Thay bụi phấn bằng bụi giấy vẫn giữ cùng hình. Bụi trong một vòng nhỏ đổi hướng khi luồng khí xuyên khung thay đổi.",
+    "lore_en": "A binder watched paper-dust draw the draught and remembered discarded pages.\n\nDust in a bindery window forms a thin ring rather than falling. Paper dust and chalk produce the same shape. Dust within a small ring changes direction with airflow through the frame.",
+    "skills": [
+      {
+        "name_vi": "Vòng Bụi Cửa Sổ",
+        "name_en": "The Window Dust Ring",
+        "description_vi": "Bụi trong một vòng nhỏ đổi hướng khi luồng khí xuyên khung thay đổi.",
+        "description_en": "Dust within a small ring changes direction with airflow through the frame."
+      }
+    ],
+    "use_vi": "Xem hướng lọt khí trong một cửa thử được che kín.",
+    "use_en": "Shows leakage direction in an enclosed test window.",
+    "limits_vi": "Không đo lưu lượng; bụi mịn cần được giữ trong hộp để tránh hít.",
+    "limits_en": "Measures no flow rate; fine dust must remain enclosed against inhalation."
+  },
+  {
+    "id": "phenomenon-the-nails-offset-shadow",
+    "epigraph_vi": "Một chiếc đinh cũng biết dốc.",
+    "epigraph_en": "Even a nail knows a slope.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bóng sắt tách thành một nét nhỏ, nghiêng về phía nền thấp.",
+        "description_en": "The iron shadow forms a small stroke leaning towards the lower side of the floor."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Kê nêm từng chút dưới một tấm ván mỏng, nhìn hướng bóng rồi kiểm lại bằng nước.",
+        "description_en": "Wedge a thin board little by little, watch the shadow direction, then check it with water."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Đứa trẻ dựng đinh lên ô sàn, thấy cái bóng nhỏ nhất phòng tự chọn một hướng khác.\n\nMột ô sàn xưởng cho bóng chiếc đinh nghiêng khác ánh đèn, trong khi mọi vật lớn vẫn đổ bóng đúng. Dấu hiệu tồn tại qua nhiều cách chiếu. Bóng của vật sắt nhẹ lệch theo độ nghiêng bề mặt bên dưới.",
+    "lore_en": "A child stood a nail upon the tile and saw the room's smallest shadow choose another direction.\n\nOne workshop floor square tilts a nail’s shadow despite changing lamps, while larger objects cast ordinary shadows. Small iron objects cast a shadow offset by the surface’s tilt.",
+    "skills": [
+      {
+        "name_vi": "Bóng Lệch Của Đinh",
+        "name_en": "The Nail’s Offset Shadow",
+        "description_vi": "Bóng của vật sắt nhẹ lệch theo độ nghiêng bề mặt bên dưới.",
+        "description_en": "Small iron objects cast a shadow offset by the surface’s tilt."
+      }
+    ],
+    "use_vi": "So mặt nghiêng rất nhỏ trong một phạm vi bàn tay.",
+    "use_en": "Compares small surface inclinations within a handspan.",
+    "limits_vi": "Chưa có thang đo chuẩn; vật quá lớn và ánh tản làm hiệu ứng mất.",
+    "limits_en": "Has no calibrated scale; large objects and diffuse light defeat the effect."
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "epigraph_vi": "Mưa còn một chỗ để về.",
+    "epigraph_en": "Rain has one place left to return to.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Giọt xuất hiện sát mặt hốc cũ, trong khi viên gạch đem đi vẫn khô.",
+        "description_en": "Drops appear just above the old recess while the removed brick remains dry."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt các khay riêng theo giờ để xem nước đầu và cuối một trận mưa khác nhau ra sao.",
+        "description_en": "Set out separate hourly trays to compare water from the beginning and end of a shower."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người làm sân mang viên gạch đi rồi quay lại, thấy mưa vẫn tìm đúng chỗ viên gạch từng nằm.\n\nMột sân phơi có đúng viên gạch nhận nước sau mưa lâu hơn phần còn lại. Đào gạch lên chuyển đi làm hiệu ứng tắt; hốc cũ vẫn nhận giọt. Hốc giữ nước mưa quanh nó rồi trả lại thành giọt chậm.",
+    "lore_en": "A yard-worker removed the brick and returned to find rain still seeking its former place.\n\nA drying yard has one tile receiving water long after rain. Moving the tile ends its effect, while the old recess keeps receiving drops. The recess retains nearby rainwater and releases it as slow drops.",
+    "skills": [
+      {
+        "name_vi": "Mưa Trong Một Viên Gạch",
+        "name_en": "Rain upon One Tile",
+        "description_vi": "Hốc giữ nước mưa quanh nó rồi trả lại thành giọt chậm.",
+        "description_en": "The recess retains nearby rainwater and releases it as slow drops."
+      }
+    ],
+    "use_vi": "Thu mẫu một trận mưa trong vài giờ sau khi trời tạnh.",
+    "use_en": "Collects a rainfall sample for a few hours after the shower.",
+    "limits_vi": "Lượng nước hữu hạn và có thể bẩn; không được xem như nguồn uống.",
+    "limits_en": "The supply is finite and may be contaminated; it is not drinking water."
+  },
+  {
+    "id": "phenomenon-the-under-table-draught",
+    "epigraph_vi": "Chiếc bàn đã đi, gió còn làm việc.",
+    "epigraph_en": "The table has gone; the draught still works.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Dải khí chạy sát nền giữa hai vết chân bàn cũ.",
+        "description_en": "The current runs close to the floor between the old table-foot marks."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Xếp dụng cụ đã lau trên giá thưa ngang dòng khí để nước ở chuôi cũng thoát được.",
+        "description_en": "Lay wiped tools on an open rack across the current so moisture can leave their handles too."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Đôi găng rửa sạch hong khô đúng nơi một chiếc bàn không còn đứng, như được bàn tay cũ tiếp tục chăm.\n\nMột góc xưởng luôn có dòng khí chạy một chiều dù cửa đã đóng. Di chuyển bàn không chuyển được dải gió bám theo hai vết chân cũ. Dòng khí nhỏ đẩy hơi ẩm khỏi một vùng thấp, không làm lạnh cả phòng.",
+    "lore_en": "Washed gloves dried where a vanished table had stood, as though its old hands still tended them.\n\nOne workshop corner has one-way airflow with the doors shut. Moving its table leaves the ribbon between the old leg marks. A small current moves moisture out of one low patch without cooling the room.",
+    "skills": [
+      {
+        "name_vi": "Dải Gió Dưới Bàn",
+        "name_en": "The Under-Table Draught",
+        "description_vi": "Dòng khí nhỏ đẩy hơi ẩm khỏi một vùng thấp, không làm lạnh cả phòng.",
+        "description_en": "A small current moves moisture out of one low patch without cooling the room."
+      }
+    ],
+    "use_vi": "Hong một dụng cụ nhỏ sau khi rửa bằng nước sạch.",
+    "use_en": "Dries a small tool after rinsing.",
+    "limits_vi": "Không diệt mầm bệnh; đồ ướt nhiều làm vùng xung quanh ẩm hơn.",
+    "limits_en": "Disinfects nothing; heavy wet loads dampen the surrounding area."
+  },
+  {
+    "id": "phenomenon-lamplight-pollen",
+    "epigraph_vi": "Hạt sáng nở trong khí ấm.",
+    "epigraph_en": "Bright motes bloom in warm air.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Hạt vàng chỉ hiện trong ánh đèn và đi theo những vòng khí nhỏ.",
+        "description_en": "Golden motes appear only in lamplight and follow small air eddies."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Thay độ cao chụp đèn rồi quan sát các vòng hạt để tránh đặt giấy vào luồng nóng.",
+        "description_en": "Alter the lamp-shade height and watch the mote loops to keep paper out of hot currents."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người quét lớp học đợi bụi vàng rơi, tới lúc tắt đèn mới hiểu mình sẽ chẳng hứng được hạt nào.\n\nTrong một phòng học bỏ trống, đèn sáng tạo bụi vàng trên không nhưng khay hứng luôn sạch. Hạt tắt cùng ánh đèn, tái xuất ở đúng khoảng khí. Hạt sáng bám theo những dòng đối lưu yếu trong khoảng khí ấy.",
+    "lore_en": "A school-sweeper waited for gold dust to settle and learnt only at lamplight's end that none could be caught.\n\nA vacant classroom lamp raises golden airborne dust, yet collecting trays remain clean. The specks vanish with the lamp and return in the same space. Luminous specks trace weak convection within that air pocket.",
+    "skills": [
+      {
+        "name_vi": "Phấn Hoa Của Ánh Đèn",
+        "name_en": "Lamplight Pollen",
+        "description_vi": "Hạt sáng bám theo những dòng đối lưu yếu trong khoảng khí ấy.",
+        "description_en": "Luminous specks trace weak convection within that air pocket."
+      }
+    ],
+    "use_vi": "Quan sát hướng khí nóng quanh một mẫu đèn nhỏ.",
+    "use_en": "Visualises warm air around a small lamp specimen.",
+    "limits_vi": "Không lấy được hạt thật; nguồn nhiệt mạnh khiến hình rối và người xem lóa mắt.",
+    "limits_en": "Yields no physical particles; strong heat scrambles the pattern and dazzles observers."
+  },
+  {
+    "id": "phenomenon-the-spoons-quiet-gap",
+    "epigraph_vi": "Một tiếng ngân có chỗ nghỉ.",
+    "epigraph_en": "A ringing note has a resting place.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Khi bát nằm đúng ô đá, âm ngân như bị khoét một khe hẹp ở giữa.",
+        "description_en": "With the bowl on the stone square, its ringing seems to have a narrow gap cut through it."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Lót vải ở từng vị trí dưới bát để so phần tiếng va với phần ngân còn lại.",
+        "description_en": "Place cloth beneath different parts of the bowl to compare the impact sound with its remaining ring."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người đầu bếp thử từng bát, phát hiện chỗ im vẫn chờ ở ô đá sau khi cả chồng bát đã được dời.\n\nMột gian bếp nhận tiếng gõ thìa bị hụt đúng lúc bát nằm trên ô đá cũ. Đổi bát vẫn tạo vòng tối, nên vật chứa không được giữ như nguồn. Vùng khí giảm một phần âm ngân kim loại nhỏ trong phạm vi chiếc bát.",
+    "lore_en": "The cook tried every bowl and found the silence awaiting them after the stack had gone.\n\nA kitchen loses spoon taps over one old paving square. New bowls produce the same dark ring, so no vessel is treated as its source. The air pocket diminishes part of a small metallic resonance within bowl width.",
+    "skills": [
+      {
+        "name_vi": "Khe Im Của Tiếng Thìa",
+        "name_en": "The Spoon’s Quiet Gap",
+        "description_vi": "Vùng khí giảm một phần âm ngân kim loại nhỏ trong phạm vi chiếc bát.",
+        "description_en": "The air pocket diminishes part of a small metallic resonance within bowl width."
+      }
+    ],
+    "use_vi": "So tiếng va chạm nhỏ trong thử nghiệm đồ bếp.",
+    "use_en": "Compares small impacts during kitchenware trials.",
+    "limits_vi": "Không tạo im lặng hoàn toàn và không bảo vệ thính lực trước tiếng lớn.",
+    "limits_en": "Creates no complete silence and offers no hearing protection from loud noise."
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "epigraph_vi": "Sợi sáng chờ tới tối.",
+    "epigraph_en": "The light-thread waits until dark.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Vệt nắng căng thẳng giữa hai dấu chốt, vàng nhạt ngay cả khi mây che trời.",
+        "description_en": "The light-thread stretches taut between two peg marks, pale gold even under cloud."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt những tờ giấy cùng cỡ dưới sợi sáng để kiểm hàng mép trước khi đóng thành tập.",
+        "description_en": "Place equal-sized sheets beneath the thread to align their edges before binding."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người dệt đã mang khung đi, còn đường nắng giữ nguyên độ căng giữa hai dấu chốt rỗng.\n\nTrong phòng dệt đã tháo khung, một sợi nắng giữ nguyên vị trí giữa hai dấu chốt. Nó hiện cả ngày nhiều mây nếu đã nhận ánh sáng trước đó. Vùng giữ một vệt sáng mảnh tới lúc trời tối rồi xả hết.",
+    "lore_en": "The weaver took the loom; sunlight retained its tension between empty peg-marks.\n\nIn a dismantled weaving room, a sunthread remains between two peg marks. It appears on cloudy days after receiving earlier light. The space stores a thin light trace until dusk, then releases it.",
+    "skills": [
+      {
+        "name_vi": "Sợi Nắng Còn Lại",
+        "name_en": "The Remaining Sunthread",
+        "description_vi": "Vùng giữ một vệt sáng mảnh tới lúc trời tối rồi xả hết.",
+        "description_en": "The space stores a thin light trace until dusk, then releases it."
+      }
+    ],
+    "use_vi": "Lấy đường tham chiếu thị giác khi đặt các mẫu thẳng hàng.",
+    "use_en": "Provides a visual reference when aligning small specimens.",
+    "limits_vi": "Không đủ sáng để đọc; vị trí cố định và không làm chuẩn đo đạc chính xác.",
+    "limits_en": "Too dim for reading, fixed in place and unsuitable for precision measurement."
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "epigraph_vi": "Nước để lại vòng tay.",
+    "epigraph_en": "Water keeps the circle of a hand.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Gợn tròn giữ tâm tại chỗ chạm đầu tiên dù người tạo đã rút tay.",
+        "description_en": "Circular ripples keep their centre at the first touch after the hand withdraws."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Dùng cùng một chậu và lượng nước để dạy người mới phân biệt chạm mạnh với chạm lệch.",
+        "description_en": "Use one basin and water quantity to teach a novice to distinguish forceful touches from off-centre ones."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Một gợn nước sống lâu hơn bàn tay đã tạo nó, để người gánh nước quay lại nhận ra chính dấu mình.\n\nMột sân giếng giữ gợn trên chậu sau khi mặt nước khác đã yên. Thay chậu đồng bằng chậu gốm vẫn được vòng cũ khi đặt đúng dấu chân. Gợn lưu một xung chạm rồi giảm biên độ rất chậm.",
+    "lore_en": "A ripple outlived its making hand, allowing the returning water-carrier to recognise his own trace.\n\nA well yard keeps a basin rippling after other water settles. Copper and pottery basins show the same ring at marked positions. A ripple retains one contact pulse and loses amplitude unusually slowly.",
+    "skills": [
+      {
+        "name_vi": "Mặt Nước Giữ Vòng",
+        "name_en": "The Ring-Retaining Water",
+        "description_vi": "Gợn lưu một xung chạm rồi giảm biên độ rất chậm.",
+        "description_en": "A ripple retains one contact pulse and loses amplitude unusually slowly."
+      }
+    ],
+    "use_vi": "Xem hình gợn do những cách chạm nước khác nhau tạo ra.",
+    "use_en": "Compares ripple shapes from different water contacts.",
+    "limits_vi": "Không giữ lực tác động; rung nền và nước bẩn làm mẫu hỏng.",
+    "limits_en": "Retains no usable impact force; ground vibration and dirty water spoil the pattern."
+  },
+  {
+    "id": "phenomenon-the-dewless-step",
+    "epigraph_vi": "Sương đứng sang hai bên.",
+    "epigraph_en": "Dew steps to either side.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Dải khô luôn ở giữa bậc; hai mép sáng ướt trước cả sân.",
+        "description_en": "A dry strip always occupies the step centre; both edges shine wet before the yard does."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Kẻ ranh hai mép để khách đặt thư vào phần khô và đặt chân tránh vùng trơn.",
+        "description_en": "Mark both edges so visitors leave letters in the dry part and step clear of slippery margins."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người đưa thư đặt giấy ở thềm khô rồi phải vuốt nước trên hai cạnh như chia chỗ ngồi cho sương.\n\nNgười trông kho đánh dấu bậc thềm luôn khô trước bình minh. Hiệu ứng ở lại trên vị trí cũ khi bậc đá được đảo mặt và thay mới. Hơi ẩm bị dồn sang hai cạnh bậc, tạo một vùng khô hẹp.",
+    "lore_en": "A courier set paper on the dry threshold and wiped its wet edges as though making room for dew.\n\nA keeper marked a step staying dry before dawn. The effect remained at its location when the stone was reversed and replaced. Moisture shifts towards the step’s edges, leaving a narrow dry centre.",
+    "skills": [
+      {
+        "name_vi": "Bậc Thềm Không Đọng Sương",
+        "name_en": "The Dewless Step",
+        "description_vi": "Hơi ẩm bị dồn sang hai cạnh bậc, tạo một vùng khô hẹp.",
+        "description_en": "Moisture shifts towards the step’s edges, leaving a narrow dry centre."
+      }
+    ],
+    "use_vi": "Giữ một chỗ đặt mẫu giấy ngắn hạn trong đêm ẩm.",
+    "use_en": "Keeps a small paper sample dry briefly on damp nights.",
+    "limits_vi": "Các cạnh trơn hơn; không khử ẩm trong phòng hoặc chống nước mưa trực tiếp.",
+    "limits_en": "Edges become slippery; it neither dries a room nor repels direct rain."
+  },
+  {
+    "id": "phenomenon-sound-along-the-beam",
+    "epigraph_vi": "Tiếng gỗ có đường sáng.",
+    "epigraph_en": "Wood’s sound has a path of light.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Vệt sáng chạy dọc thớ gỗ vừa nhận tiếng gõ rồi tắt ở cuối nhịp.",
+        "description_en": "A light-line runs along the struck grain and fades at the beat’s end."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đánh dấu cùng một điểm gõ trên hai thanh gỗ để so đường truyền trước khi chọn gỗ làm đàn.",
+        "description_en": "Mark the same striking point on two timbers and compare transmission paths before choosing instrument wood."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người thợ thay dầm đã đánh dấu chỗ sáng trên nền, giữ một ghế trống cho tiếng gõ của gỗ mới.\n\nMột dầm thử trong kho mộc phát vệt sáng khi nhận tiếng gõ. Dầm khác lắp cùng chỗ cũng phát, còn dầm cũ mang ra sân thì im. Âm truyền qua vật gỗ tại vị trí ấy hiện thành một đường sáng ngắn.",
+    "lore_en": "The beam-replacer marked the light's place and left an empty seat for the new timber's knock.\n\nA trial beam lights under tapping. A replacement lights at the same position, while the original stays dark in the yard. Sound passing through timber at that position appears as a brief luminous line.",
+    "skills": [
+      {
+        "name_vi": "Vệt Âm Trên Dầm",
+        "name_en": "Sound along the Beam",
+        "description_vi": "Âm truyền qua vật gỗ tại vị trí ấy hiện thành một đường sáng ngắn.",
+        "description_en": "Sound passing through timber at that position appears as a brief luminous line."
+      }
+    ],
+    "use_vi": "So sự truyền âm giữa các mẫu gỗ trong cùng điều kiện.",
+    "use_en": "Compares sound transmission through timber under matching conditions.",
+    "limits_vi": "Không cho sức chịu tải hoặc vị trí mục chắc chắn; mỗi lượt chỉ hiện một nhịp gõ.",
+    "limits_en": "Reveals neither load capacity nor certain rot locations; shows one tap at a time."
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "epigraph_vi": "Tuyết mọc từ hơi nhà.",
+    "epigraph_en": "Snow grows from the house’s breath.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bông tuyết kết ngay dưới xà, sáu nhánh trong và rơi rất chậm.",
+        "description_en": "Snowflakes form directly beneath the beam, with six clear branches, and fall very slowly."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đưa kính đã làm lạnh vào dưới xà để hứng bông nguyên vẹn cho thợ vẽ quan sát.",
+        "description_en": "Hold chilled glass beneath the beam to catch intact flakes for an illustrator."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người trực kho ngẩng lên giữa những bông tuyết rơi trong nhà kín, giơ tay như thử xem mái còn ở đó.\n\nMột nhà kho khóa kín có tuyết kết từ hơi nước dưới xà, dù mái không thủng. Dấu kết tinh vẫn ở lại khi xà được thay, khiến người khảo sát khoanh riêng cột khí. Hơi ẩm của một vùng nhỏ kết thành bông rồi tan khi chạm nền.",
+    "lore_en": "Beneath indoor snow, the warehouse watchman raised a hand as though checking the roof still existed.\n\nA sealed store forms snow beneath an intact roof. Replacing the beam leaves crystallisation in place, prompting the surveyors to isolate the air column. Moisture in a small pocket crystallises and melts upon reaching the floor.",
+    "skills": [
+      {
+        "name_vi": "Tuyết Rơi Dưới Mái Kín",
+        "name_en": "Snow beneath a Sealed Roof",
+        "description_vi": "Hơi ẩm của một vùng nhỏ kết thành bông rồi tan khi chạm nền.",
+        "description_en": "Moisture in a small pocket crystallises and melts upon reaching the floor."
+      }
+    ],
+    "use_vi": "Thu mẫu hình tinh thể trước khi nó tan dưới kính quan sát.",
+    "use_en": "Collects temporary crystal forms for close inspection.",
+    "limits_vi": "Rút nhiệt từ vùng xung quanh và làm sàn ướt; không tạo mùa đông trong phạm vi lớn.",
+    "limits_en": "Draws heat from its surroundings and wets the floor; creates no wider winter."
+  },
+  {
+    "id": "phenomenon-the-last-sentence-passage",
+    "epigraph_vi": "Hành lang giữ hộ một câu.",
+    "epigraph_en": "The passage keeps a sentence.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Tiếng phát lại có hướng đi ngược về người vừa rời đoạn giữa hai hốc.",
+        "description_en": "The repeated voice travels back towards whoever has just left the stretch between the alcoves."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đọc trọn một mệnh lệnh, bước ra ngoài rồi nghe lại để sửa chỗ dễ nghe lầm trước khi truyền đi.",
+        "description_en": "Read an order in full, step outside and hear it again to correct ambiguous wording before passing it on."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người tu sĩ quay lưng sau lời chào, nghe chính mình gọi lại từ đoạn hành lang không ai đứng.\n\nMột hành lang tu viện lặp đúng câu cuối sau khi người nói đã quay lưng. Chỉ đoạn giữa hai hốc tường giữ lời; đổi đồ đạc không kéo được âm ra xa. Một câu dưới mười nhịp thở được phát lại sau cùng khoảng im lặng.",
+    "lore_en": "A monk turned after his farewell and heard himself called back from an empty passage.\n\nA cloister repeats the final sentence after its speaker turns away. Only the span between two niches retains it, despite changed furnishings. One sentence shorter than ten breaths repeats after an equal interval of silence.",
+    "skills": [
+      {
+        "name_vi": "Hành Lang Của Câu Vừa Nói",
+        "name_en": "The Last-Sentence Passage",
+        "description_vi": "Một câu dưới mười nhịp thở được phát lại sau cùng khoảng im lặng.",
+        "description_en": "One sentence shorter than ten breaths repeats after an equal interval of silence."
+      }
+    ],
+    "use_vi": "Đối chiếu cách đọc một thông báo ngắn trước khi sao lại.",
+    "use_en": "Checks the reading of a short announcement before transcription.",
+    "limits_vi": "Người đứng trong vùng đều nghe được; câu mới thay câu cũ, không dùng giữ bí mật.",
+    "limits_en": "Everyone inside can hear it; new words overwrite old ones, so privacy is absent."
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "epigraph_vi": "Lá xanh đổ bóng mùa úa.",
+    "epigraph_en": "Green leaves cast autumn shadows.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bóng lá hiện sắc vàng nâu theo từng mảng, gân vẫn giữ đường xanh sẫm.",
+        "description_en": "Leaf shadows show yellow-brown patches while their veins retain dark green lines."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt lá vừa tưới cạnh lá để khô của cùng cây để người chăm vườn học đọc sự đổi sắc.",
+        "description_en": "Set watered and dried leaves from the same plant together so gardeners can learn the colour change."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Những lá xanh được đặt lên sân lần lượt khoác bóng úa, khiến người trồng nhìn cây như nhìn trước một cuộc chia tay.\n\nSân một vườn ươm hiện bóng lá đã úa dù cây thật còn xanh. Dấu ấy bám theo nền sân, chỉ hiện ở mẫu lá được đặt trên đường ranh. Màu bóng đổi theo lượng nước trong lá vừa được đặt.",
+    "lore_en": "Green leaves placed upon the yard took ageing shadows, making their grower see a farewell waiting within them.\n\nA nursery yard casts yellowing leaf shadows while their plants remain green. The effect belongs to the paving and only touches samples placed across its boundary. Shadow colour shifts with the water content of a newly placed leaf.",
+    "skills": [
+      {
+        "name_vi": "Mùa Lá Trên Đá Trắng",
+        "name_en": "Leaves upon White Stone",
+        "description_vi": "Màu bóng đổi theo lượng nước trong lá vừa được đặt.",
+        "description_en": "Shadow colour shifts with the water content of a newly placed leaf."
+      }
+    ],
+    "use_vi": "So các mẫu lá cùng loài trong một lượt quan sát cục bộ.",
+    "use_en": "Compares leaves of the same species in one local trial.",
+    "limits_vi": "Không cho mức nước bằng số; bệnh, sắc tố và lớp sáp làm khó diễn giải.",
+    "limits_en": "Gives no numerical water content; disease, pigment and wax complicate interpretation."
+  },
+  {
+    "id": "phenomenon-the-shallow-mirror-inlet",
+    "epigraph_vi": "Triều gõ cửa sân khô.",
+    "epigraph_en": "The tide knocks at a dry courtyard.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Gợn bạc lan trên đá từ phía bến rồi thu về cùng một đường rìa.",
+        "description_en": "Silver ripples spread across the stone from the quay and withdraw along one edge."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt thước khắc cạnh rìa gợn và ghi giờ để người bốc hàng chọn lúc ra bến kiểm mớn nước.",
+        "description_en": "Set a marked rule beside the ripple edge and record the hour so porters can choose when to inspect the quay’s water depth."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người gác bến bị ốm vẫn đọc được triều trên nền sân, đặt ghế vào cạnh một vịnh không có nước.\n\nMột phiến sân gần bến xuất hiện gợn theo triều dù nước không tới. Chuyển phiến đi chỉ để lại gợn trên nền cũ, nên hiện tượng được theo dõi tại chỗ. Độ rộng gợn đổi theo mức triều thực tại bến cạnh đó.",
+    "lore_en": "A sick harbour-watchman read the tide on his courtyard and set a chair beside a waterless bay.\n\nPaving near a quay ripples with the tide though water never reaches it. Moving the slab leaves ripples in its former bed, so study remains local. Ripple width changes with the actual tide at the adjacent quay.",
+    "skills": [
+      {
+        "name_vi": "Vịnh Nhỏ Trong Gương Cạn",
+        "name_en": "The Shallow-Mirror Inlet",
+        "description_vi": "Độ rộng gợn đổi theo mức triều thực tại bến cạnh đó.",
+        "description_en": "Ripple width changes with the actual tide at the adjacent quay."
+      }
+    ],
+    "use_vi": "Theo dõi xu hướng lên xuống của triều từ trong sân kín.",
+    "use_en": "Tracks the nearby tide’s rising or falling tendency from an enclosed yard.",
+    "limits_vi": "Không báo sóng lớn và cần hiệu chỉnh bằng thước nước; bến bị cải tạo có thể mất liên hệ.",
+    "limits_en": "Warns of no large waves; needs a gauge reference and may fail after quay alterations."
+  },
+  {
+    "id": "phenomenon-the-heat-holding-fold",
+    "epigraph_vi": "Góc tối để dành hơi lò.",
+    "epigraph_en": "The dark corner saves the kiln’s warmth.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Hơi ấm tụ thành một nếp hẹp, luồng khí ngang miệng nếp luôn cong vào trong.",
+        "description_en": "Warmth gathers in a narrow fold; air crossing its mouth always curves inward."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt bát keo trong khay cát trước miệng nếp, xoay đều để tránh một phía bị nóng quá.",
+        "description_en": "Set a glue bowl in a sand tray before the fold and turn it to keep one side from overheating."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Thợ lò đẩy ghế vào góc tối sau ca dài, nhận hơi ấm được căn phòng để dành từ trước.\n\nMột buồng nung nguội chậm ở đúng góc dù gạch đã được thay. Đo riêng cho thấy góc ấy nhận nhiệt từ vật đặt gần rồi trả lại sau. Khoảng tối lưu một lượng nhiệt nhỏ theo chu kỳ nhận và trả.",
+    "lore_en": "After a long watch the stoker drew his chair into warmth the room had saved.\n\nOne kiln room corner cools slowly despite replaced bricks. Separate readings show it taking heat from nearby objects and returning it later. The dark pocket stores a small quantity of heat through a charging and release cycle.",
+    "skills": [
+      {
+        "name_vi": "Nếp Tối Giữ Nhiệt",
+        "name_en": "The Heat-Holding Fold",
+        "description_vi": "Khoảng tối lưu một lượng nhiệt nhỏ theo chu kỳ nhận và trả.",
+        "description_en": "The dark pocket stores a small quantity of heat through a charging and release cycle."
+      }
+    ],
+    "use_vi": "Giữ một mẫu keo ấm thêm ít phút trong thử nghiệm có nhiệt kế.",
+    "use_en": "Keeps a glue sample warm briefly during a monitored trial.",
+    "limits_vi": "Không sinh nhiệt; chạm vùng đang xả có thể bỏng và tải quá mức làm nứt đồ chứa.",
+    "limits_en": "Creates no heat; release can burn skin, and overload cracks vessels."
+  },
+  {
+    "id": "phenomenon-the-twice-coughed-room",
+    "epigraph_vi": "Một hơi thành hai lối.",
+    "epigraph_en": "One breath becomes two paths.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Hai nhánh khí đối xứng để lại hai quầng sương cùng kích cỡ trên kính.",
+        "description_en": "The paired air branches leave equal mist circles upon glass."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Thổi hơi qua ống vào vùng chia rồi đặt hai dải vải mỏng để thấy hướng thoát hai bên.",
+        "description_en": "Blow through a tube into the dividing area and place two thin cloth strips to show the outlets."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người trông phòng đếm hai dấu sương trước khi chấp nhận mình vẫn chỉ có một hơi thở.\n\nTrong một phòng nghỉ cũ, tiếng ho đơn tạo hai dấu sương trên kính dù chỉ một người có mặt. Thử bằng ống thổi cũng tạo hình, gỡ bỏ giả thuyết hồn người. Luồng khí ấm bị chia thành hai nhánh tại một mặt cắt cố định.",
+    "lore_en": "The keeper counted two mist-marks before accepting that he still had only one breath.\n\nAn old rest room makes two glass traces from one cough. A bellows reproduces the effect, weakening claims of a haunting. Warm airflow splits into two paths at a fixed section of the room.",
+    "skills": [
+      {
+        "name_vi": "Phòng Có Hai Lần Ho",
+        "name_en": "The Twice-Coughed Room",
+        "description_vi": "Luồng khí ấm bị chia thành hai nhánh tại một mặt cắt cố định.",
+        "description_en": "Warm airflow splits into two paths at a fixed section of the room."
+      }
+    ],
+    "use_vi": "Nghiên cứu đường thoát hơi trong mô hình thông gió nhỏ.",
+    "use_en": "Studies vapour paths in a small ventilation model.",
+    "limits_vi": "Không lọc khí độc; vùng chia hẹp và thay nhiệt độ mạnh làm hướng đổi.",
+    "limits_en": "Filters no toxic gas; the split is narrow and large temperature changes alter its course."
+  },
+  {
+    "id": "phenomenon-the-undried-inkline",
+    "epigraph_vi": "Nét bút được nán thêm.",
+    "epigraph_en": "The pen-stroke is granted a little longer.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Nét mực nằm đúng dải treo ánh ướt lâu hơn những nét kề bên.",
+        "description_en": "A stroke aligned with the suspended band gleams wet longer than neighbouring strokes."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Xoay trang để nét cần sửa nằm trùng dải, thấm mực thừa rồi viết lại trước lúc nó khô.",
+        "description_en": "Turn the page to align the stroke needing correction, blot excess ink and rewrite before it dries."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người chép bàn giao chỗ nét sáng trong không khí, như bàn giao phần công việc vẫn chưa chịu khô.\n\nMột bàn sao sách giữ đường mực sáng ngay cả sau khi lau. Khi mặt bàn thay mới, dải vẫn nằm trong không khí cao đúng bằng mặt cũ. Nó kéo chậm sự khô của một nét mực vừa nằm trùng đường.",
+    "lore_en": "A copyist handed over the luminous line in air like unfinished work unwilling to dry.\n\nA copying desk retains a bright ink line after cleaning. A new surface leaves the line suspended at the former tabletop height. It delays drying for a fresh ink stroke laid along the line.",
+    "skills": [
+      {
+        "name_vi": "Đường Mực Chưa Khô",
+        "name_en": "The Undried Inkline",
+        "description_vi": "Nó kéo chậm sự khô của một nét mực vừa nằm trùng đường.",
+        "description_en": "It delays drying for a fresh ink stroke laid along the line."
+      }
+    ],
+    "use_vi": "Cho người chép thêm thời gian sửa một nét bút ngắn.",
+    "use_en": "Allows a copyist extra time to adjust one short stroke.",
+    "limits_vi": "Mực dễ lem và không bảo quản văn bản; sau vài phút vẫn khô bình thường.",
+    "limits_en": "Ink smears easily; it preserves no document and dries normally after a few minutes."
+  },
+  {
+    "id": "phenomenon-the-brass-night-ring",
+    "epigraph_vi": "Đồng rung thì đêm đổi sắc.",
+    "epigraph_en": "When brass trembles, the night changes colour.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Vòng sáng ôm khoảng treo kèn, sắc đi từ vàng sang tím theo độ rung.",
+        "description_en": "The luminous ring surrounds the former horn space, shifting from gold to violet with vibration."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Treo chuông thử ở cùng độ cao để so hai lần gõ mà khỏi áp tai sát miệng chuông.",
+        "description_en": "Hang a trial bell at the same height to compare two strikes without putting an ear to its mouth."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Kèn đã được mang đi, còn vòng đêm trên tường giữ chỗ một nhạc cụ khác đến thử giọng.\n\nMột kho nhạc cụ hiện vòng sáng nơi kèn đã treo nhiều năm. Nhạc cụ khác đặt vào làm vòng đổi màu nhưng không nhận được tiếng nói hay ý thức. Độ rung của đồ đồng trong vòng hiện bằng màu sáng tương đối.",
+    "lore_en": "The horn departed; its night-ring reserved room for another instrument to try its voice.\n\nAn instrument store shows a halo where a horn once hung. Other instruments change its colour without producing speech or signs of awareness. Vibration of brass within the ring appears as relative luminous colour.",
+    "skills": [
+      {
+        "name_vi": "Vòng Đêm Của Đồng Thau",
+        "name_en": "The Brass Night Ring",
+        "description_vi": "Độ rung của đồ đồng trong vòng hiện bằng màu sáng tương đối.",
+        "description_en": "Vibration of brass within the ring appears as relative luminous colour."
+      }
+    ],
+    "use_vi": "So hai cách gõ lên một mẫu đồng trong buồng thử.",
+    "use_en": "Compares two striking methods upon a brass specimen.",
+    "limits_vi": "Không đo được lực bằng số; vật rung mạnh làm người xem hoa mắt.",
+    "limits_en": "Gives no numerical force reading; strong vibration disorients observers."
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "epigraph_vi": "Dưới chậu còn một tán cây.",
+    "epigraph_en": "Another canopy lies beneath the pot.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bóng rễ phân nhánh từ đáy chậu, đầu non hiện nhạt hơn rễ già.",
+        "description_en": "Root shadows branch from the pot base; young tips appear paler than old roots."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Xoay chậu từng phần tư vòng, vẽ bốn mặt bóng để chọn lúc chuyển cây sang chậu lớn.",
+        "description_en": "Turn the pot by quarter turns and draw four shadow views to judge when it needs a larger pot."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người nhổ cây đặt chậu mới lên dấu rễ, thấy dưới đất cũng có một cách giữ hình người tới trước.\n\nMột sân nghiên cứu giữ bóng rễ sau khi các chậu được dời. Đặt chậu mới lên dấu cũ cho thấy mạng chỉ bám phần rễ đang tiếp xúc đất trong chậu. Vùng nền hiện đường bao rễ gần đáy chậu thành bóng mỏng.",
+    "lore_en": "A gardener set a new pot upon the root-mark and saw that ground too could retain a predecessor's form.\n\nA research yard retains root shadows after pots are moved. New pots show that the network follows roots actually touching their soil. The paving renders root outlines near a pot’s base as thin shadows.",
+    "skills": [
+      {
+        "name_vi": "Khu Vườn Của Bóng Rễ",
+        "name_en": "The Rootshadow Garden",
+        "description_vi": "Vùng nền hiện đường bao rễ gần đáy chậu thành bóng mỏng.",
+        "description_en": "The paving renders root outlines near a pot’s base as thin shadows."
+      }
+    ],
+    "use_vi": "Xem sự phát triển rễ của cây nhỏ mà chưa cần nhổ lên.",
+    "use_en": "Observes small-plant root growth before uprooting.",
+    "limits_vi": "Không thấy mọi độ sâu; mỗi lượt kéo nước khỏi đất và cần bù ẩm cẩn thận.",
+    "limits_en": "Cannot show every depth; each viewing draws moisture from the soil and requires careful replacement."
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "epigraph_vi": "Mái vòm đổi chiều rơi.",
+    "epigraph_en": "The vault changes the way of falling.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Mọi giọt trong vùng vòm cùng ngả ngang; giọt ngoài rìa vẫn rơi thẳng.",
+        "description_en": "Every drop beneath the vault turns sideways; drops beyond its edge fall straight."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt máng hứng dọc hướng rơi ngang để đưa nước qua một giá vật mẫu mà khỏi tưới từ trên.",
+        "description_en": "Lay a receiving channel along the sideways fall to carry water across a sample rack without watering it from above."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Một phút mưa đi ngang khiến người ở dưới vòm nghiêng đầu theo, như trần nhà vừa đổi hướng đất.\n\nDưới một vòm thử thoát nước, giọt rơi đổi chiều dù gió ngoài sân đứng. Bản ghi chỉ thấy độ lệch ở nước đi qua đúng mặt vòm. Trong một phút sau tiếng gõ, lượng nước nhỏ trượt ngang theo cùng hướng.",
+    "lore_en": "One minute of sideways rain tilted every watching head, as though the roof had changed earth's direction.\n\nDrops beneath a drainage-test arch change course in still air. Records confine the shift to water crossing the arch’s plane. For a minute after a knock, a small water quantity slides laterally in one direction.",
+    "skills": [
+      {
+        "name_vi": "Một Phút Mưa Nằm Ngang",
+        "name_en": "One Minute of Sideways Rain",
+        "description_vi": "Trong một phút sau tiếng gõ, lượng nước nhỏ trượt ngang theo cùng hướng.",
+        "description_en": "For a minute after a knock, a small water quantity slides laterally in one direction."
+      }
+    ],
+    "use_vi": "Quan sát tách dòng ở một máng thử được che chắn.",
+    "use_en": "Observes flow separation in an enclosed trial channel.",
+    "limits_vi": "Không chặn lũ; nước tích quá nhiều phá nhịp và có thể dội vào người đứng cạnh.",
+    "limits_en": "Stops no flood; excessive accumulation breaks the rhythm and splashes bystanders."
+  },
+  {
+    "id": "phenomenon-the-flower-colour-chamber",
+    "epigraph_vi": "Hoa đi rồi, màu ở lại.",
+    "epigraph_en": "Flowers leave; their colour stays.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Sắc hoa phủ tường thành lớp sáng mịn, giữ riêng cả những vệt loang trên cánh.",
+        "description_en": "Flower colour covers the walls as smooth light, retaining even petal mottling."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "So một dải vải nhuộm mới với màu tường ở hai khoảng cách để phát hiện sắc chỉ khớp khi nhìn gần.",
+        "description_en": "Compare fresh dyed cloth with the wall colour at two distances to catch a match that works only close up."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người nhuộm tháo hết hoa khỏi phòng mà tường vẫn mang sắc ấy tới cuối buổi, như một bàn tay dính màu.\n\nMột phòng nhuộm cũ hiện màu hoa trên tường dù hoa đã được cất. Mỗi mẫu mới chỉ hiện khi đặt vào vùng giữa phòng, tách khỏi mọi bình chứa riêng. Màu nhìn dưới cùng nguồn sáng được lưu tới cuối buổi để so.",
+    "lore_en": "The dyer removed the flowers; the walls wore their colour until evening like stained hands.\n\nAn old dye room keeps flower colours on its walls after removal. Fresh samples appear only at the room centre, independently of their vessels. Colours seen under one light source persist until the session ends.",
+    "skills": [
+      {
+        "name_vi": "Buồng Giữ Sắc Hoa",
+        "name_en": "The Flower-Colour Chamber",
+        "description_vi": "Màu nhìn dưới cùng nguồn sáng được lưu tới cuối buổi để so.",
+        "description_en": "Colours seen under one light source persist until the session ends."
+      }
+    ],
+    "use_vi": "Đối chiếu sắc thuốc nhuộm thử với màu hoa tham khảo.",
+    "use_en": "Compares trial dyes against a floral colour reference.",
+    "limits_vi": "Không giữ sắc tố thật; người nhìn lâu giảm phân biệt màu tạm thời.",
+    "limits_en": "Preserves no actual pigment; prolonged viewing temporarily impairs colour discrimination."
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "epigraph_vi": "Đá còn nghe dòng chảy.",
+    "epigraph_en": "The stone still hears the stream.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Tiếng nước nằm gọn trong hốc, nghe gần miệng hốc rõ hơn đứng trước bể cũ.",
+        "description_en": "The water-sound stays inside the alcove and is clearer at its mouth than before the old tank."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đóng mở vòi theo một nhịp định sẵn, rồi nghe mẫu lưu để tìm lần van bị ngắt chậm.",
+        "description_en": "Open and close a tap to a set beat, then hear the retained pattern to find a delayed valve response."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Thợ tháo bể dừng việc khi nghe hốc đá còn rót nước, rồi đặt một chén khô dưới tiếng chảy.\n\nMột hốc dưới bể cũ giữ tiếng rót nước sau khi bể tháo. Tiếng ở lại đúng thể tích hốc, chỉ cập nhật khi nước thực chảy qua phía trước. Nó giữ mẫu âm của một dòng nước, cho phép so nhịp ngắt sau đó.",
+    "lore_en": "The dismantler paused at water still pouring in the hollow and set a dry cup beneath its sound.\n\nAn alcove beneath a removed tank retains pouring sounds. They stay inside its volume and update only when real water passes before it. It retains one stream’s acoustic pattern for later interruption comparisons.",
+    "skills": [
+      {
+        "name_vi": "Hốc Đá Giữ Tiếng Nước",
+        "name_en": "The Water-Sound Alcove",
+        "description_vi": "Nó giữ mẫu âm của một dòng nước, cho phép so nhịp ngắt sau đó.",
+        "description_en": "It retains one stream’s acoustic pattern for later interruption comparisons."
+      }
+    ],
+    "use_vi": "Đối chiếu hoạt động một vòi nước qua hai lượt kiểm.",
+    "use_en": "Compares a water outlet across two inspection rounds.",
+    "limits_vi": "Không phát hiện mọi rò rỉ; tiếng giả vẫn ghi được và nghe lâu gây ù tai.",
+    "limits_en": "Detects not every leak; false sounds can be recorded and long listening causes ringing."
+  },
+  {
+    "id": "phenomenon-the-slow-shadow-length",
+    "epigraph_vi": "Vật đi trước bóng.",
+    "epigraph_en": "The object goes before its shadow.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bóng cũ và bóng mới nối bằng một dải xám mỏng trên nền.",
+        "description_en": "Old and new shadows join through a thin grey band on the ground."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Kéo mẫu qua các vạch cách đều để người học so tốc độ tay bằng độ dài dải bóng.",
+        "description_en": "Draw a sample across evenly spaced marks so a learner can judge hand speed from the shadow band’s length."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người đo nắng chuyển mẫu rồi thấy bóng còn nán, như vật đã bước trước phần thuộc về mình.\n\nMột sân đo nắng ghi bóng vật đứng chậm lại một nhịp sau khi vật đổi chỗ. Mặt nền mới không xóa khoảng trễ, xác nhận vị trí mới là phần cố định. Bóng giữ ngắn vị trí trước của một vật nhỏ để chồng so với vị trí mới.",
+    "lore_en": "A surveyor moved the sample and watched its shadow linger, as though the thing had outrun its own belonging.\n\nA sundial yard records an object’s shadow lagging behind its movement. Resurfacing leaves the delay, identifying the location as the constant. A small object’s shadow briefly retains its former position for comparison with the new one.",
+    "skills": [
+      {
+        "name_vi": "Chiều Dài Của Bóng Chậm",
+        "name_en": "The Slow Shadow Length",
+        "description_vi": "Bóng giữ ngắn vị trí trước của một vật nhỏ để chồng so với vị trí mới.",
+        "description_en": "A small object’s shadow briefly retains its former position for comparison with the new one."
+      }
+    ],
+    "use_vi": "Quan sát quỹ đạo mẫu chuyển động chậm trong vùng sân.",
+    "use_en": "Observes a slow specimen’s movement across the marked yard.",
+    "limits_vi": "Không làm chậm vật thật; dùng khi đi lại có thể khiến người xem bước hụt.",
+    "limits_en": "Slows no physical object; watching while walking can cause missteps."
+  },
+  {
+    "id": "phenomenon-the-wall-less-vapour-cage",
+    "epigraph_vi": "Căn buồng còn giữ hơi mình.",
+    "epigraph_en": "The room still holds its breath.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Hơi ẩm có cạnh phẳng và góc vuông trùng nền buồng giặt đã dỡ.",
+        "description_en": "The moisture has flat sides and right angles matching the dismantled washroom."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đưa từng dải vải qua ranh hơi để so tốc độ hút ẩm của vải dùng làm khăn và áo lót.",
+        "description_en": "Pass cloth strips through the vapour boundary to compare moisture absorption for towels and undergarments."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người dỡ vách bước vào lớp hơi còn mang hình căn buồng, hiểu có những ngôi nhà mất gạch trước khi chịu mất bên trong.\n\nMột phòng giặt bị dỡ vách vẫn giữ khối hơi có cạnh thẳng. Những cạnh ấy khớp gian buồng cũ nhưng nguồn duy trì chưa xác định. Hơi ẩm dưới một ngưỡng bị giữ trong khối tới khi cửa sổ mở.",
+    "lore_en": "A wall-breaker entered vapour retaining the room's shape: some houses lose their bricks before surrendering their inside.\n\nA dismantled laundry partition leaves a straight-edged vapour block. Its edges match the old cubicle; the sustaining source remains unknown. Moisture below a threshold remains within the block until a window opens.",
+    "skills": [
+      {
+        "name_vi": "Lồng Hơi Không Vách",
+        "name_en": "The Wall-less Vapour Cage",
+        "description_vi": "Hơi ẩm dưới một ngưỡng bị giữ trong khối tới khi cửa sổ mở.",
+        "description_en": "Moisture below a threshold remains within the block until a window opens."
+      }
+    ],
+    "use_vi": "Khảo sát sự khuếch tán của lượng hơi nhỏ trong điều kiện cố định.",
+    "use_en": "Studies diffusion of small vapour quantities under fixed conditions.",
+    "limits_vi": "Không giữ khí độc an toàn; quá ngưỡng hơi thoát đột ngột và làm sàn ướt.",
+    "limits_en": "Cannot safely contain toxic gas; excess vapour escapes suddenly and wets the floor."
+  },
+  {
+    "id": "phenomenon-the-needletrace-mist",
+    "epigraph_vi": "Sương vẽ điều tay vừa làm.",
+    "epigraph_en": "Mist draws what the hand has done.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Mỗi đường kim để một nét bạc, chỗ tay dừng đọng hạt sáng lớn hơn.",
+        "description_en": "Each needle path leaves a silver line; pauses gather larger bright beads."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Luyện mũi khâu trên mẫu tối màu, nhìn nét bạc để sửa những lần nhấc kim quá cao.",
+        "description_en": "Practise stitches on dark cloth and use the silver trace to correct over-high needle lifts."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Đường kim nằm trong sương sau khi tay dừng, cho người học việc thấy cả chỗ mình đã run.\n\nMột bàn luyện khâu có sương giữ đường kim trong không khí. Thay kim thép bằng xương vẫn tạo nét, cho thấy hiệu ứng nhận chuyển động chứ không nhận kim loại. Nét mảnh giữ quỹ đạo một đầu nhọn trong vài nhịp thở.",
+    "lore_en": "The needle's mist-trace survived the hand, showing an apprentice even his tremor.\n\nA sewing-practice table leaves needle paths in mist. Bone and steel needles both work, pointing to motion rather than metal. A fine trace retains one pointed tip’s path for several breaths.",
+    "skills": [
+      {
+        "name_vi": "Vệt Kim Trên Sương",
+        "name_en": "The Needletrace Mist",
+        "description_vi": "Nét mảnh giữ quỹ đạo một đầu nhọn trong vài nhịp thở.",
+        "description_en": "A fine trace retains one pointed tip’s path for several breaths."
+      }
+    ],
+    "use_vi": "Kiểm động tác tay chậm khi luyện một đường khâu mẫu.",
+    "use_en": "Reviews slow hand motion while practising a seam.",
+    "limits_vi": "Không lưu vật đi quá nhanh; hơi đậm làm người dùng lẫn nét thật với nét còn lại.",
+    "limits_en": "Misses rapid movement; dense mist confuses the actual tip with its retained trace."
+  },
+  {
+    "id": "phenomenon-the-borrowed-dusk-window",
+    "epigraph_vi": "Chiều gửi màu qua cửa bịt.",
+    "epigraph_en": "Evening sends colour through a sealed window.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Ô cửa sáng đỏ từ rìa vào tâm, như trời chiều đang khép lại phía bên kia.",
+        "description_en": "The window reddens from edge to centre, as though evening were closing beyond it."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt các mẫu sơn cùng một hàng để người sửa tranh kiểm sắc dưới ánh chiều đã lưu.",
+        "description_en": "Arrange paint samples in a row so a restorer can check them under retained evening light."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người coi kho mở cửa quay vào bức tường đỏ, đón hoàng hôn qua ô cửa chẳng còn nhìn thấy trời.\n\nÔ cửa trong một kho kín chuyển đỏ vào cùng khoảng giờ dù bị xây bịt phía ngoài. Thợ khảo sát ghi nhận màu theo ánh đã chiếu vào nó buổi trước. Một phần ánh sáng được trả lại trễ, giữ màu thay vì độ sáng ban đầu.",
+    "lore_en": "The keeper opened towards a red wall, receiving sunset through a window that no longer saw sky.\n\nAn enclosed store opening reddens at a regular hour despite an outer wall. Surveyors link its colour to light received during the previous session. Part of the light returns late, preserving hue rather than original brightness.",
+    "skills": [
+      {
+        "name_vi": "Ô Cửa Mượn Hoàng Hôn",
+        "name_en": "The Borrowed-Dusk Window",
+        "description_vi": "Một phần ánh sáng được trả lại trễ, giữ màu thay vì độ sáng ban đầu.",
+        "description_en": "Part of the light returns late, preserving hue rather than original brightness."
+      }
+    ],
+    "use_vi": "So màu vật dưới một mẫu ánh chiều đã lưu.",
+    "use_en": "Compares objects under a retained dusk-colour sample.",
+    "limits_vi": "Không kéo dài ngày thật; ánh yếu và mỗi lượt cần được nạp lại dưới trời.",
+    "limits_en": "Does not extend daylight; the faint effect requires fresh outdoor exposure."
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "epigraph_vi": "Gió thôi, hồ còn nhắc.",
+    "epigraph_en": "The wind is gone; the pool repeats it.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Gợn trở lại cùng vị trí đỉnh, nhưng cỏ ven bờ đứng yên.",
+        "description_en": "Ripples return with the same crests while the bank grass stands still."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Thả lần lượt hai dáng phao cùng trọng lượng, đếm nhịp nghiêng để chọn hình dễ đứng vững.",
+        "description_en": "Float two shapes of equal weight in turn and count their rocking beats to choose the steadier form."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Nước mới nhận lại cùng một cơn gió, còn người ngồi bờ phải học cách nhận ra gợn đã từng qua mắt mình.\n\nTrong sân đo gió đóng cửa, hồ nông lặp lại đường gợn của một lượt thử cũ. Xả nước làm vòng lặp dừng, nhưng nước mới tái lập khi được chạm cùng nghi thức. Vùng nước lặp một mẫu mặt sóng đã nhận mà không tái tạo gió trên bờ.",
+    "lore_en": "New water received the same wind while its shore-watcher learnt to recognise a ripple already seen.\n\nA closed wind-testing yard repeats one old ripple pattern in its shallow pool. Draining stops it, but fresh water restores it after the same contact ritual. The water repeats one received surface pattern without recreating wind ashore.",
+    "skills": [
+      {
+        "name_vi": "Hồ Nước Nhớ Một Cơn Gió",
+        "name_en": "The Pool Remembering One Wind",
+        "description_vi": "Vùng nước lặp một mẫu mặt sóng đã nhận mà không tái tạo gió trên bờ.",
+        "description_en": "The water repeats one received surface pattern without recreating wind ashore."
+      }
+    ],
+    "use_vi": "So dáng phao nhỏ qua nhiều lần trong một mẫu sóng cục bộ.",
+    "use_en": "Compares small floats repeatedly under one local wave pattern.",
+    "limits_vi": "Không mở rộng ra biển; nền hồ lạnh dần và cần ngưng trước khi đóng băng.",
+    "limits_en": "Cannot extend to sea; the pool bed cools and trials must stop before freezing."
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "epigraph_vi": "Tai nghe, tường dựng bậc.",
+    "epigraph_en": "The ear listens; the wall raises steps.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bậc sáng càng cao càng mỏng, rung cùng hơi ngân của từng nốt.",
+        "description_en": "The higher light-steps grow thinner and tremble with each sustained note."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Cho người mới hát theo một nhạc cụ rồi so bậc của hai giọng để nhận chỗ bị chênh.",
+        "description_en": "Have a novice sing beside an instrument and compare their steps to recognise a mismatch."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Học trò đi bằng ngón tay trên các bậc sáng, nối tai mình với mắt trước khi đánh lại gam.\n\nMột phòng luyện đàn xuất hiện các bậc sáng trên tường khi chơi gam. Nhạc cụ đổi vẫn tạo bậc tại cùng cao độ tương đối trong phòng. Các âm liên tiếp hiện thành độ cao thị giác để người học so quãng.",
+    "lore_en": "A pupil walked fingers up the light-steps, joining ear to eye before playing the scale again.\n\nA music room grows light steps on its wall during scales. Different instruments produce steps at the same relative pitches. Successive notes become visual heights for comparing intervals.",
+    "skills": [
+      {
+        "name_vi": "Bậc Thang Của Những Âm Cao",
+        "name_en": "The Stair of High Notes",
+        "description_vi": "Các âm liên tiếp hiện thành độ cao thị giác để người học so quãng.",
+        "description_en": "Successive notes become visual heights for comparing intervals."
+      }
+    ],
+    "use_vi": "Hỗ trợ luyện nghe bằng hình đối chiếu trong một phòng cố định.",
+    "use_en": "Supports interval practice with visual comparison in one fixed room.",
+    "limits_vi": "Bậc không chịu người; hợp âm dày làm chói mắt và không tự xác định âm chuẩn.",
+    "limits_en": "Steps bear no weight; dense chords dazzle, and the effect supplies no absolute tuning standard."
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "epigraph_vi": "Hai mùa cùng đổ bóng.",
+    "epigraph_en": "Two seasons cast shadows together.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Tán cũ ánh xanh nhạt; tán đang sống đậm màu và lay theo gió.",
+        "description_en": "The old canopy glows pale green; the living canopy is darker and moves with the wind."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đánh dấu phần cành vừa tỉa trên bóng cũ để tính khoảng trống cho giàn đỡ cây mới.",
+        "description_en": "Mark newly pruned branches on the old shadow to plan gaps for a fresh support trellis."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Hai tán bóng đứng cạnh nhau dưới cây nhỏ, như một mùa đã qua chịu ngồi cùng mùa còn sống.\n\nMột ô vườn thử giữ đồng thời bóng lá hiện tại và bóng lá của lần ghi trước. Nguồn dị thường nằm trong ô đất; cây đem đi chỉ còn bóng thường. Nó chồng hai đường bao tán cây để chỉ ra thay đổi giữa hai lần.",
+    "lore_en": "Two canopies stood beside the sapling like a departed season sitting with a living one.\n\nA test plot holds both present leaf shadows and those from the previous recording. Removed plants cast ordinary shadows, locating the anomaly in the soil. It overlays two canopy outlines to reveal change between sessions.",
+    "skills": [
+      {
+        "name_vi": "Vườn Bóng Có Hai Mùa",
+        "name_en": "The Two-Season Shadow Garden",
+        "description_vi": "Nó chồng hai đường bao tán cây để chỉ ra thay đổi giữa hai lần.",
+        "description_en": "It overlays two canopy outlines to reveal change between sessions."
+      }
+    ],
+    "use_vi": "Theo dõi một cây nhỏ trong nghiên cứu rụng lá và sinh trưởng.",
+    "use_en": "Tracks a small tree during leaf-fall and growth studies.",
+    "limits_vi": "Không đảo mùa; mỗi lần lưu bóng mới khiến đất cạn ẩm và cần thời gian nghỉ.",
+    "limits_en": "Reverses no season; recording dries the soil and requires a recovery interval."
+  },
+  {
+    "id": "phenomenon-the-chamber-of-lit-fissures",
+    "epigraph_vi": "Đá rạn thì bóng tối sáng lên.",
+    "epigraph_en": "When stone cracks, darkness lights.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Rạn mới phát ánh trắng mảnh, đoạn ngừng mở chuyển dần sang vàng.",
+        "description_en": "Fresh cracks give off fine white light; stretches that stop opening gradually yellow."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Tăng tải từng nấc nhỏ dưới sự trông coi của thợ để ghi vị trí rạn đầu tiên trên mẫu bỏ.",
+        "description_en": "Increase a discard sample’s load in small stages under a mason’s supervision and record the first crack."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Thợ thử đá tắt bớt đèn để đường rạn chịu hiện, đổi khoảng sáng mình quen lấy một điều đang vỡ.\n\nMột phòng thử đá hiện đường sáng trùng các vết rạn đang mở. Mẫu vật thay mới vẫn được đọc trong vùng giữa phòng, còn đưa ra ngoài thì mất hiệu ứng. Nó làm vết rạn bề mặt đang tiến triển hiện rõ trong ánh mờ.",
+    "lore_en": "A stone-tester dimmed his lamp to see the fracture, exchanging familiar light for the sight of breaking.\n\nA stone-testing chamber reveals lines matching opening fissures. Replacement specimens work only in its central zone. It makes advancing surface cracks visible in dim light.",
+    "skills": [
+      {
+        "name_vi": "Buồng Của Những Vết Nứt Sáng",
+        "name_en": "The Chamber of Lit Fissures",
+        "description_vi": "Nó làm vết rạn bề mặt đang tiến triển hiện rõ trong ánh mờ.",
+        "description_en": "It makes advancing surface cracks visible in dim light."
+      }
+    ],
+    "use_vi": "Quan sát mẫu thử cùng tải kiểm soát và dụng cụ đo riêng.",
+    "use_en": "Observes controlled specimens alongside independent instruments.",
+    "limits_vi": "Không thấy hết rạn trong lõi; ánh kéo dài gây đau đầu và không thay được tính toán an toàn.",
+    "limits_en": "Misses internal fissures; prolonged light causes headache and replaces no safety calculation."
+  },
+  {
+    "id": "phenomenon-the-silence-between-two-bells",
+    "epigraph_vi": "Hai chuông chừa một khoảng im.",
+    "epigraph_en": "Two bells leave a space for silence.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Ranh lặng uốn thành hai cung đối xứng giữa hai miệng chuông.",
+        "description_en": "The quiet boundary curves into two symmetrical arcs between the bell mouths."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Di chuyển một chuông từng chút để người đúc nhìn sự đổi chỗ của vùng lặng trước khi chỉnh âm.",
+        "description_en": "Move one bell slightly at a time so the founder can inspect the quiet zone’s movement before tuning."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Giữa hai chuông, người học việc nghe một khoảng im có cạnh, rồi bước vòng thay vì bước qua nó.\n\nTrong sân đúc chuông, hai tiếng cùng cao độ để lại khoảng lặng có ranh giới rõ. Hiệu ứng lặp ở cùng khoảng sân với chuông thay thế được chỉnh đúng. Âm một dải hẹp giảm trong khoảng giữa, các âm khác vẫn đi qua.",
+    "lore_en": "Between the bells, an apprentice heard an edged silence and walked around rather than through it.\n\nTwo equally pitched bells in a foundry yard leave a bounded quiet patch. Tuned replacements reproduce it at the same location. One narrow frequency band weakens in the middle while other sounds pass.",
+    "skills": [
+      {
+        "name_vi": "Khoảng Lặng Giữa Hai Chuông",
+        "name_en": "The Silence between Two Bells",
+        "description_vi": "Âm một dải hẹp giảm trong khoảng giữa, các âm khác vẫn đi qua.",
+        "description_en": "One narrow frequency band weakens in the middle while other sounds pass."
+      }
+    ],
+    "use_vi": "Khảo sát giao thoa âm với chuông thử và thiết bị bảo hộ.",
+    "use_en": "Studies acoustic interference with trial bells and protective equipment.",
+    "limits_vi": "Không che lời nói toàn bộ; lệch cao độ phá vùng và có thể tăng âm ở mép.",
+    "limits_en": "Cannot conceal all speech; mistuning breaks the patch and may amplify edge sound."
+  },
+  {
+    "id": "phenomenon-the-curtain-of-past-rain",
+    "epigraph_vi": "Mưa đã tạnh vẫn có đường rơi.",
+    "epigraph_en": "Ended rain still has a path.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Giọt sáng xuyên qua tay khô, giữ đúng những chỗ giao nhau của trận nước cũ.",
+        "description_en": "Luminous drops pass through a dry hand, keeping the crossings of the former shower."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt tấm chắn mới vào hình mưa để dự kiến chỗ nước bắn tới trước khi mở vòi thử thật.",
+        "description_en": "Set a new shield within the rain-image to estimate splash reach before opening a real test spray."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người đứng dưới hiên khô đưa tay vào hình mưa, thấy da vẫn khô mà ký ức lạnh đã kịp trở về.\n\nMột mái hiên giữ hình cơn mưa cũ sau khi sân khô. Bản dựng lặp được dưới nước tưới thử và không mang thêm khối lượng vào khay cân. Nó giữ hình đường rơi của một lượt nước ngắn để phát lại.",
+    "lore_en": "A watcher reached into remembered rain with a dry hand and felt cold remembrance arrive first.\n\nAn eave retains an old shower after its yard dries. Controlled sprinkling reproduces the image without adding measurable water to collecting trays. It retains and replays the trajectories of one brief water fall.",
+    "skills": [
+      {
+        "name_vi": "Tấm Màn Của Mưa Đã Qua",
+        "name_en": "The Curtain of Past Rain",
+        "description_vi": "Nó giữ hình đường rơi của một lượt nước ngắn để phát lại.",
+        "description_en": "It retains and replays the trajectories of one brief water fall."
+      }
+    ],
+    "use_vi": "So tán nước của hai vòi thử qua các lượt tách biệt.",
+    "use_en": "Compares two sprinkler patterns across separate sessions.",
+    "limits_vi": "Không giữ được lượng nước chính xác; người quan sát có thể tưởng mưa thật và trượt trên nền ướt sẵn.",
+    "limits_en": "Preserves no exact volume; observers may mistake it for real rain and misjudge an already wet floor."
+  },
+  {
+    "id": "phenomenon-the-lettershadow-table",
+    "epigraph_vi": "Trang giấy nhấc đi, nét còn đợi.",
+    "epigraph_en": "The page lifts; its strokes wait.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Bóng chữ nằm ngang bằng mặt bàn cũ, cả nét run và vết mực bắn đều hiện.",
+        "description_en": "The lettershadows lie level with the old tabletop, showing shaky strokes and ink splashes alike."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đặt bản sao dưới bóng, dò từng hàng để tìm nét thiếu trước khi đóng quyển.",
+        "description_en": "Place a copy beneath the shadow and inspect each line for missing strokes before binding."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người chép nhấc tờ gốc, để bóng chữ chờ bản sao như một người thầy còn cúi bên bàn.\n\nMột bàn chép giữ bóng nét chữ khi tờ gốc đã được nhấc. Thay mặt gỗ không xóa vùng lưu, nhưng dòng mới chỉ có khi được viết trực tiếp tại đó. Nó lưu một trang đường nét nhìn được, cho phép so bản sao cùng vị trí.",
+    "lore_en": "A copyist lifted the original, leaving letter-shadows awaiting their copy like a teacher bent over the desk.\n\nA copying table retains stroke shadows after the original sheet is lifted. Replacing the top leaves the retention zone, but fresh writing must occur there. It retains one page of visible strokes for comparison with a copy at the same position.",
+    "skills": [
+      {
+        "name_vi": "Bàn Sao Bóng Chữ",
+        "name_en": "The Lettershadow Table",
+        "description_vi": "Nó lưu một trang đường nét nhìn được, cho phép so bản sao cùng vị trí.",
+        "description_en": "It retains one page of visible strokes for comparison with a copy at the same position."
+      }
+    ],
+    "use_vi": "Giảm bỏ sót nét khi sao một trang trong điều kiện được giám sát.",
+    "use_en": "Reduces missed strokes while copying a supervised page.",
+    "limits_vi": "Không biết nghĩa hoặc phát hiện giả mạo; người chép bị lưu ảnh trên mắt sau lượt dài.",
+    "limits_en": "Knows no meaning and detects no forgery; long sessions leave visual afterimages."
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "epigraph_vi": "Nóng lạnh gặp nhau thành sáng.",
+    "epigraph_en": "Heat and cold meet as light.",
+    "traits": [
+      {
+        "name_vi": "Dấu hiện",
+        "name_en": "Manifestation",
+        "description_vi": "Ranh sáng lượn theo những xoáy nhỏ ở chỗ hai dòng nước nhập lại.",
+        "description_en": "The bright boundary follows small eddies where the two streams join."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cách vận dụng",
+        "name_en": "Practical application",
+        "description_vi": "Đổi góc vách ngăn trong máng, so độ dài ranh sáng để chọn cách trộn nước đều hơn.",
+        "description_en": "Alter a channel divider’s angle and compare the bright boundary length to choose more even mixing."
+      }
+    ],
+    "content_revision": "rebuild-v5",
+    "classification_status": "editorial",
+    "editorial_review_kind": "retained-lore-curated-abilities",
+    "editorial_note_vi": "Lịch sử hình thành thuộc sáng tác bộ sưu tập; chưa xác lập sự kiện mới trong bản thảo.",
+    "editorial_note_en": "The formation history is a collection invention and establishes no new manuscript event.",
+    "lore_vi": "Người dẫn nước nhìn hai dòng gặp nhau dưới bóng đèn, thấy đường ranh của nóng lạnh chạy ngược ánh mình vẫn tin.\n\nMột phòng dẫn nước có vệt sáng chạy ngược nét bóng đèn. Khi máng được đổi hình, vệt sáng theo nước trong đúng vùng nền cũ chứ không theo máng ra xa. Nó hiện ranh giới hai dòng nước khác nhiệt vừa gặp nhau.",
+    "lore_en": "The water-worker watched warm and cold meet, their boundary running against the lamplight he had trusted.\n\nA water room carries light against a lamp’s shadow. Reshaped channels redirect it within the old floor zone but cannot carry it elsewhere. It reveals the boundary where two water streams of different temperatures meet.",
+    "skills": [
+      {
+        "name_vi": "Mạch Nước Dưới Bóng Đèn",
+        "name_en": "The Waterline beneath the Lamp",
+        "description_vi": "Nó hiện ranh giới hai dòng nước khác nhiệt vừa gặp nhau.",
+        "description_en": "It reveals the boundary where two water streams of different temperatures meet."
+      }
+    ],
+    "use_vi": "Theo dõi trộn nước trong máng nhỏ có nhiệt kế đối chiếu.",
+    "use_en": "Tracks mixing in a small channel with thermometer checks.",
+    "limits_vi": "Không lọc hay làm sạch nước; đổi nhiệt quá nhanh gây chói và làm mất nét.",
+    "limits_en": "Neither filters nor cleans water; rapid temperature changes dazzle and erase the boundary."
+  }
+]

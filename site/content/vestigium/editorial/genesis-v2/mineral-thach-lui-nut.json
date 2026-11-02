@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-thach-lui-nut",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Thạch Lùi Nứt bắt đầu từ một mảnh đá kẹt giữa hai vách của một trận động đất đã ngừng quá đột ngột. Người khai mỏ chạm đục vào khe nghe tiếng đổ chạy xa dưới chân mình, trong khi ngọn đèn trên mũ đứng yên. Họ đào ra một khối có đường nứt đen cuộn trong lõi, hai đầu đường cứ chậm rãi rời nhau rồi trở về trước lúc thật sự tách.\n\nỞ lớp đất quanh nó có vết của một cánh rừng đã hóa đá. Những rễ bị xé vẫn nối trong bóng của nhau; một con côn trùng mắc đúng giữa mặt gãy còn nguyên ở cả hai nửa. Thợ đem mẫu ra khỏi núi mới nhận ra đá giữ được một việc sắp vỡ ở ngay trước đoạn cuối, rồi cho sức ấy đi lùi, đổi đường hoặc chuyển nơi phải nhận.\n\nNgười dựng thành quý nó hơn một đội thợ, người phá thành tìm nó như tìm một bản án chưa thi hành. Cả hai thường quên điều thợ mỏ đầu tiên khắc lên nẹp: món này đã giữ lại một phần của ngày núi nứt, và mỗi lần được gọi dùng là một lần hỏi xem phần núi ấy còn chịu đợi bao lâu.",
+    "lore_en": "Fracture-Retreat Stone began as a piece trapped between the walls of an earthquake that had stopped too abruptly. A miner touching its cleft heard collapse travel beneath him while the lamp upon his helmet remained still. They uncovered a block whose black inner crack repeatedly approached separation, then returned before parting.\n\nThe surrounding strata bore a petrified forest. Torn roots remained joined within one another’s shadows; an insect caught upon the fracture survived whole in both halves. Removed from the mountain, the stone could hold a breaking immediately before its conclusion, then send that progression backwards, aside or elsewhere.\n\nFortress-builders valued it above a company of masons; besiegers sought it like an unexecuted sentence. Both forgot the first miner’s inscription: it retained part of the day the mountain broke. Every use asked how much longer that mountain would consent to wait.",
+    "use_vi": "Giữ, đọc và điều khiển tiến trình nứt vỡ qua những đường đã được đá nhận. Có thể cứu một kết cấu, mở một vật cản hoặc giữ nguyên một bằng chứng sắp mất; thao tác phải có nơi cho vết nứt kết thúc.",
+    "use_en": "Hold, read and direct fracture through paths accepted by the stone. It may preserve a structure, open an obstruction or retain failing evidence. An operation needs somewhere for its fracture to end.",
+    "limits_vi": "Phần vỡ bị giữ vẫn tồn tại như một món nợ. Hủy điểm nhận, phá nẹp hoặc cố xóa mọi đường thoát khiến đá chọn chính vật đang giữ nó để trả. Những khe đã tách hẳn chỉ được nối nếu còn đủ hai mặt gốc; tái tạo phần thất lạc chưa thuộc những cách dùng đã biết.",
+    "limits_en": "Held breaking remains a debt. Destroying the receiving point, breaking its brace or closing every outlet makes the stone repay into what holds it. Fully separated faces can be joined only with both original surfaces present; rebuilding missing matter lies outside known practice.",
+    "skills": [
+      {
+        "name_vi": "Chốt đầu nứt",
+        "name_en": "Pin the Crack-Tip",
+        "description_vi": "Áp mạch đen ngang một khe đang chạy để giữ đầu khe tại đó. Người giữ phải duy trì tiếp xúc; buông bất ngờ cho khe đi tiếp với toàn bộ phần đã bị dồn.",
+        "description_en": "Lay the black vein across an advancing crack to pin its tip. Maintain contact; sudden release sends it onward with its accumulated burden.",
+        "group_vi": "Giữ vật chưa vỡ",
+        "group_en": "Hold the Unbroken"
+      },
+      {
+        "name_vi": "Nẹp bằng bóng",
+        "name_en": "Brace with Shadow",
+        "description_vi": "Đặt đá và hai mặt gãy cùng dưới một nguồn sáng; bóng của nẹp giữ mặt thật sát nhau. Đổi nguồn sáng giữa chừng làm nẹp mất hình.",
+        "description_en": "Place stone and broken faces beneath one light. The brace’s shadow holds the real faces together; changing the light midway dissolves it.",
+        "group_vi": "Giữ vật chưa vỡ",
+        "group_en": "Hold the Unbroken"
+      },
+      {
+        "name_vi": "Lùi một đường rạn",
+        "name_en": "Retrace a Fracture",
+        "description_vi": "Lần ngược mạch từ đầu khe về gốc để phần vừa nứt khép theo đường cũ. Những mảnh đã rơi khỏi vị trí phải được đưa lại trước khi lần.",
+        "description_en": "Trace from tip towards origin to close a recent crack along its former path. Fallen pieces must first be restored to position.",
+        "group_vi": "Giữ vật chưa vỡ",
+        "group_en": "Hold the Unbroken"
+      },
+      {
+        "name_vi": "Giữ mảnh tại chỗ",
+        "name_en": "Keep the Fragment",
+        "description_vi": "Cho một mảnh đang bong chạm lõi rồi chốt bóng nó lên vật gốc; mảnh còn đứng đúng chỗ để được sửa. Cắt bóng khỏi vật làm nó rơi.",
+        "description_en": "Touch a detaching piece to the core and pin its shadow to its parent. It remains for repair; severing that shadow lets it fall.",
+        "group_vi": "Giữ vật chưa vỡ",
+        "group_en": "Hold the Unbroken"
+      },
+      {
+        "name_vi": "Đường vỡ cũ",
+        "name_en": "Old Break-Paths",
+        "description_vi": "Soi đá qua mặt vật để thấy dấu những lần gãy đã được ghép. Lớp phục chế đẹp vẫn hiện sẹo; hình cho thấy chỗ gãy, không tự kể ai gây ra.",
+        "description_en": "Look through the stone to reveal repaired breaks. Fine restoration still bears scars; their shapes do not identify who caused them.",
+        "group_vi": "Đọc điều vật đã chịu",
+        "group_en": "Read the Burdened Matter"
+      },
+      {
+        "name_vi": "Nghe điểm sắp lìa",
+        "name_en": "Hear the Parting Point",
+        "description_vi": "Đặt tai lên nẹp khi đá chạm vật; tiếng rạn chỉ phía đoạn đang gần tách nhất. Dùng lâu khiến người nghe cảm cả đau của những mặt gãy khác quanh mình.",
+        "description_en": "Listen at the brace while it touches an object to locate its nearest parting. Prolonged use makes surrounding fractures hurt the listener as well.",
+        "group_vi": "Đọc điều vật đã chịu",
+        "group_en": "Read the Burdened Matter"
+      },
+      {
+        "name_vi": "Rập mặt đã mất",
+        "name_en": "Cast the Missing Face",
+        "description_vi": "Ấp đá vào một mặt gãy còn nguyên để dựng hình đen của mặt đối diện trước khi tách. Bản rập chỉ là hình; chạm phá nó sẽ xóa lượt đọc.",
+        "description_en": "Press to an intact fracture-face to raise a black image of its former counterpart. This is an image; breaking it by touch erases the reading.",
+        "group_vi": "Đọc điều vật đã chịu",
+        "group_en": "Read the Burdened Matter"
+      },
+      {
+        "name_vi": "Phân vỡ với mở",
+        "name_en": "Distinguish Break from Opening",
+        "description_vi": "Kéo mạch quanh khớp nối để đá phân biệt khe do gãy với khe được tạo để mở. Nối lẫn vật từ nhiều nguồn khiến câu trả lời tách thành nhiều đường khó đọc.",
+        "description_en": "Trace a joint to distinguish damage from an intended opening. Mixed-origin repairs produce several difficult answers.",
+        "group_vi": "Đọc điều vật đã chịu",
+        "group_en": "Read the Burdened Matter"
+      },
+      {
+        "name_vi": "Rẽ khe sang phế liệu",
+        "name_en": "Divert into Scrap",
+        "description_vi": "Nối vật cần cứu với mảnh nhận bằng một nét bụi đá; khe đang chạy rẽ theo nét vào mảnh ấy. Đứt nét cho khe trở lại nơi đầu tiên.",
+        "description_en": "Join the threatened object to scrap with stone-dust. The fracture diverts along it; a broken line returns it to its original site.",
+        "group_vi": "Dời nơi phải vỡ",
+        "group_en": "Move the Breaking"
+      },
+      {
+        "name_vi": "Gửi rạn xuống nền",
+        "name_en": "Send the Crack Earthward",
+        "description_vi": "Đặt nẹp tựa đất rồi chỉ một vùng được phép nhận; một đường rạn đi từ vật xuống vùng đó. Nền kín hoặc không còn chỗ nhận trả lại lực nứt vào nẹp.",
+        "description_en": "Ground the brace and designate a receiving patch. A fracture passes into it; sealed or exhausted ground returns the breaking to the brace.",
+        "group_vi": "Dời nơi phải vỡ",
+        "group_en": "Move the Breaking"
+      },
+      {
+        "name_vi": "Chia một lần vỡ",
+        "name_en": "Divide One Breaking",
+        "description_vi": "Đặt các mảnh nhận quanh đá để chia phần đang tách thành nhiều khe nhỏ. Phải giữ đủ mọi mảnh tới hết lượt; lấy một mảnh khiến các mảnh còn lại nhận phần thiếu.",
+        "description_en": "Arrange receivers around it to divide one separation into smaller cracks. Keep all in place; removing one burdens the rest with its share.",
+        "group_vi": "Dời nơi phải vỡ",
+        "group_en": "Move the Breaking"
+      },
+      {
+        "name_vi": "Đổi người nhận của nẹp",
+        "name_en": "Change the Brace’s Receiver",
+        "description_vi": "Trước lúc chốt đầu nứt được mở, áp một nẹp mới đã nhận cùng dấu để chuyển việc gánh. Hai nẹp phải chạm nhau; nhấc cũ trước tạo khoảng trả nợ ngay.",
+        "description_en": "Before releasing a pinned tip, touch it with a new brace bearing the same mark. Both must meet; lifting the old first creates immediate repayment.",
+        "group_vi": "Dời nơi phải vỡ",
+        "group_en": "Move the Breaking"
+      },
+      {
+        "name_vi": "Mở vật theo sẹo",
+        "name_en": "Open Along the Scar",
+        "description_vi": "Trả một đường rạn đã giữ vào sẹo cũ của vật cản để nó tách theo chỗ từng yếu. Không có sẹo tương ứng, đá chọn đường ngắn qua phần gần tay nhất.",
+        "description_en": "Return a held crack into an obstruction’s old scar. Without a matching scar, the stone chooses the shortest route through the part nearest the hand.",
+        "group_vi": "Cho một kết thúc đúng chỗ",
+        "group_en": "Give the Breaking its End"
+      },
+      {
+        "name_vi": "Cắt dây đang xé",
+        "name_en": "Sever the Tearing Link",
+        "description_vi": "Chạm đá vào mối nối đang kéo hai vật cùng vỡ, chỉ định mối nối làm nơi kết thúc. Mối bị hủy và phần nứt dừng ở đó; thao tác cũng phá mọi thứ cùng chia mối.",
+        "description_en": "Touch a joint tearing two objects and name it the endpoint. It breaks and the crack ends there, destroying everything sharing that joint.",
+        "group_vi": "Cho một kết thúc đúng chỗ",
+        "group_en": "Give the Breaking its End"
+      },
+      {
+        "name_vi": "Khâu hai mặt gốc",
+        "name_en": "Stitch the Original Faces",
+        "description_vi": "Áp đủ hai mặt gãy vào đá rồi lần trọn đường đen để chúng nhận nhau trở lại. Một sẹo đen ở lại; những vết khâu chồng nhau làm vật ngày càng dễ nhận nợ vỡ mới.",
+        "description_en": "Fit both original faces and trace the full black path to reunite them. A dark scar remains; overlapping seams make the object increasingly liable to new fracture-debt.",
+        "group_vi": "Cho một kết thúc đúng chỗ",
+        "group_en": "Give the Breaking its End"
+      },
+      {
+        "name_vi": "Trả ngày núi nứt",
+        "name_en": "Return the Mountain’s Day",
+        "description_vi": "Mở hết các đầu mạch vào một khối nhận đã chọn để giải phần rạn đang giữ cùng lúc. Khối nhận phải được bỏ trống; mọi liên kết với nó sẽ thành đường cho phần vỡ lan tiếp.",
+        "description_en": "Open every vein into a designated mass to release all retained fracture together. Isolate that mass; every remaining connection becomes a route for the breaking to continue.",
+        "group_vi": "Cho một kết thúc đúng chỗ",
+        "group_en": "Give the Breaking its End"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngày núi chưa vỡ hết",
+        "name_en": "The Mountain’s Unfinished Day",
+        "description_vi": "Đường đen tự rút lại khi người dùng chuẩn bị đúng nơi nhận; lúc mọi đường đều bị khóa, tiếng rạn phát ra từ phía sau người giữ dù đá đang ở trước mặt.",
+        "description_en": "The black path withdraws when an appropriate receiver is prepared. With every outlet closed, cracking sounds behind its holder although the stone remains in front."
+      }
+    ]
+  }
+]

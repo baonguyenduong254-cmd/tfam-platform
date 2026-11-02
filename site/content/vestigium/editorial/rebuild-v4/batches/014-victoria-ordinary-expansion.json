@@ -1,0 +1,69 @@
+[
+  {
+    "id": "armament-siete-victoria-fidelis",
+    "category": "armament",
+    "rarity": 4,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Rẽ Lưỡi Hộ Nhân",
+        "name_en": "The Sheltering Parry",
+        "description_vi": "Đón một đòn bằng thân kiếm rồi dẫn hướng đánh trượt sang bên, mở khoảng trống cho người nàng đang che chở rời nguy hiểm.",
+        "description_en": "Meets an attack with the blade and guides its course aside, opening space for the protected person to leave danger."
+      },
+      {
+        "name_vi": "Giữ Tuyến",
+        "name_en": "Holding the Line",
+        "description_vi": "Trong tầm đường kiếm, những đòn đã được nàng nhìn rõ phải vượt qua thế chặn của Fidelis trước khi chạm người đứng sau. Nàng vẫn phải trực tiếp ứng đòn.",
+        "description_en": "Within her sword’s reach, attacks she has clearly seen must pass Fidelis’s guard before reaching the person behind her. She must still meet them herself."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lời thề tự nguyện",
+        "name_en": "A Freely Given Oath",
+        "description_vi": "Ánh vàng đáp lại quyết định che chở của Victoria; lời sai khiến của người khác tự nó chưa đủ khiến kiếm chọn mục tiêu.",
+        "description_en": "The gold answers Victoria’s decision to protect; another person’s command alone does not make the sword choose a target."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v5",
+    "name_vi": "Siete. Thệ Kiếm Hộ Vệ Fidelis",
+    "name_en": "Siete. Guardian Oathblade Fidelis",
+    "form_vi": "Sabre thanh mảnh, đường ánh vàng dọc rãnh thép",
+    "form_en": "A slender sabre with a golden line along its fuller",
+    "lore_vi": "Khi Isabella hỏi sẽ làm gì nếu Nữ hoàng ra lệnh sai, Victoria chọn nói sự thật và chịu trách nhiệm cho lời mình nói. Siete được đặt lên cổ nàng sau câu trả lời ấy. Lời thề của một người cận vệ từ đó mang cả quyền đứng chắn trước hiểm nguy lẫn bổn phận nhìn rõ điều mình đang bảo vệ.\n\nFidelis được hình dung từ lời thề ấy: một lưỡi kiếm thanh mảnh đủ để bàn tay quen thuộc tìm lại thế đứng, đủ dài để ngăn một nhát chém đang tìm tới người phía sau. Ánh vàng dọc rãnh thép sáng lên khi Victoria quyết định che chở ai. Mỗi lần đỡ, nàng có thể dẫn đường đòn đánh trượt theo lưỡi, rẽ khỏi người cần cứu.\n\nQuyền lựa chọn vẫn nằm trong tay nàng. Bảo vệ một người đôi khi là hạ kiếm để họ tự bước đi; có lúc lại là giữ kiếm ngang trước một mệnh lệnh nàng đã nhận ra sai lầm.",
+    "lore_en": "When Isabella asked what she would do if the Queen gave a wrongful order, Victoria chose to speak the truth and answer for her words. Siete was placed around her neck after that reply. A guard’s oath thus carried both the right to stand against danger and the duty to see clearly what she was protecting.\n\nFidelis is imagined from that oath: a slender blade familiar enough for her hand to recover its stance, long enough to intercept a stroke aimed at someone behind her. Gold along the fuller kindles when Victoria chooses whom to shield. With each parry, she can guide an attack along the blade and turn it away from the person in her care.\n\nThe choice remains hers. Protecting someone may mean lowering the sword so they can walk freely; at times it means holding the blade across an order she has recognised as wrong.",
+    "use_vi": "Hộ vệ cự ly gần, gạt đòn và mở đường rút cho người đang được che chở.",
+    "use_en": "Close protection, deflection and opening a withdrawal route for someone under guard.",
+    "limits_vi": "Victoria phải nhận biết đòn đánh và kịp đưa kiếm vào thế. Nhiều hướng tấn công cùng lúc có thể vượt sức nàng; Fidelis giữ đường kiếm chứ không thay nàng quyết định ai đúng, ai sai.",
+    "limits_en": "Victoria must recognise an attack and bring the blade into position in time. Several simultaneous directions can exceed her strength; Fidelis holds a line of defence without deciding right and wrong for her.",
+    "owner_vi": "Victoria",
+    "owner_en": "Victoria",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Diễn giải sáng tác cho hình thái thường còn thiếu chi tiết trong hồ sơ. Victoria nhận Siete ở Tập III Chương 122; ngoại hình và kỹ năng của hình thái thường ở đây được biên soạn mở rộng, tách khỏi mã tấu bị búp bê can thiệp.",
+    "rarity_note_en": "An original interpretation of the ordinary form whose details remain incomplete in the dossier. Victoria receives Siete in Volume III Chapter122; the appearance and powers presented here are original expansion, distinct from the machete under the dolls’ interference.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 7,
+      "label": "Siete",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "classification_status": "editorial",
+    "epigraph_vi": "Ta sẽ đứng về phía người cần được che chở, kể cả khi phải nói lời trái ý ngai vàng.",
+    "epigraph_en": "I shall stand beside those who need protection, even when I must speak against the throne.",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "sword",
+      "description": "A slender sabre with a golden line along its fuller"
+    }
+  }
+]

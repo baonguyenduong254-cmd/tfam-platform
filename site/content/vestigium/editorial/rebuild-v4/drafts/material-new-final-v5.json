@@ -1,0 +1,734 @@
+[
+  {
+    "id": "material-than-ngu-dong",
+    "category": "material",
+    "rarity": 1,
+    "name_vi": "Than Ngủ Đông",
+    "name_en": "Winter-Sleep Coal",
+    "form_vi": "Khối than đen có thớ vàng mờ",
+    "form_en": "Black coal with faint golden grain",
+    "origin": "collection",
+    "epigraph_vi": "Lửa ngủ dưới một mùa tuyết.",
+    "epigraph_en": "Fire sleeps beneath a season of snow.",
+    "lore_vi": "Một vỉa than lộ ra dưới nền nhà tắm đã bị tuyết chôn kín nhiều năm. Nước nóng cuối cùng trong bể rút vào khe đá đúng đêm mái nhà sập; đến mùa đào lại, những thớ vàng trong than vẫn ấm như ván ghế vừa có người ngồi. Người đốt lò giữ một khối bên chiếc chậu vỡ để nhớ cách tìm được nó.\n\nThan nhận hơi nóng từ lò rồi nhả chậm qua mặt đá, đủ giữ một gian ngủ nhỏ ấm suốt ca đêm. Mỗi lần nguội, ánh vàng rút vào lõi; người trông nhà xếp các khối đã dùng riêng để hôm sau đưa trở lại bếp.",
+    "lore_en": "A coal seam emerged beneath a bathhouse long buried in snow. The last hot water drained into cracks on the night its roof fell; when the site was dug out, the coal’s golden grain remained as warm as a bench someone had just left. A stoker kept a lump beside the broken basin to remember its discovery.\n\nThe coal receives furnace heat and releases it slowly through its surface, enough to warm a small sleeping room through a night watch. As it cools, the gold retreats into the core; household keepers set spent lumps aside to return to the hearth next day.",
+    "use_vi": "Giữ hơi ấm trong phòng ngủ, xe cứu thương và kho thuốc.",
+    "use_en": "Keeps sleeping rooms, casualty carts and medicine stores warm.",
+    "limits_vi": "Cần nguồn nhiệt để nạp; khối ngập nước nứt và mất sức giữ.",
+    "limits_en": "Requires heat to recharge; immersion cracks the lump and destroys its retention.",
+    "skills": [
+      {
+        "name_vi": "Nhận và nhả nhiệt",
+        "name_en": "Receives and releases heat",
+        "description_vi": "Giữ hơi ấm trong phòng ngủ, xe cứu thương và kho thuốc.",
+        "description_en": "Keeps sleeping rooms, casualty carts and medicine stores warm."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Khối than đen có thớ vàng mờ.",
+        "description_en": "Black coal with faint golden grain."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Ca ngủ trên xe",
+        "name_en": "Sleeping on the Road",
+        "description_vi": "Đặt than đã nạp trong hộp đá dưới băng cáng để giữ ấm qua ca vận chuyển; đổi khối khi vân vàng rút vào lõi.",
+        "description_en": "Set charged coal in a stone box beneath a stretcher bench for warmth during transport; exchange it as the gold grain retreats."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Black coal with faint golden grain. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Sỏi Bánh Nước",
+    "name_en": "Waterwheel Pebbles",
+    "form_vi": "Sỏi tròn xanh xếp trong rọ đồng",
+    "form_en": "Round blue pebbles in a copper cage",
+    "origin": "collection",
+    "epigraph_vi": "Dòng sông còn quay trong đá.",
+    "epigraph_en": "The river still turns inside the stone.",
+    "lore_vi": "Ở chân một cối xay bị lũ cuốn, đá cuội cứ lăn ngược lên bờ mỗi khi nước rút. Chúng từng nằm giữa hai phiến bánh nghiền suốt mùa đói, khi cả làng thay nhau đẩy bánh bằng tay vì dòng sông đóng băng. Người sửa cối nhặt chúng vào chiếc rọ đồng, nghe tiếng gỗ quay từ trong những hòn đá nhẵn.\n\nKhi được nhúng vào nước đang chảy, cả rọ nghiêng đều theo một hướng và kéo trục nhỏ nối với nó. Thợ xay dùng sức ấy cho quạt sấy hạt, để bánh lớn dành hết lực cho những bao lúa vừa tới.",
+    "lore_en": "At the foot of a mill swept away by flood, pebbles rolled back up the bank whenever the water ebbed. They had lain between two millstones throughout a hungry season, while villagers took turns pushing the wheel by hand because the river had frozen. The millwright gathered them into a copper cage and heard turning timber within the smooth stones.\n\nImmersed in flowing water, the whole cage tilts steadily in one direction and draws a small shaft attached to it. Millers use that force for grain-drying fans, leaving the great wheel’s strength for newly arrived sacks.",
+    "use_vi": "Vận hành quạt sấy, máy khuấy và bơm nước nhỏ tại xưởng ven sông.",
+    "use_en": "Drives drying fans, stirrers and small pumps in riverside workshops.",
+    "limits_vi": "Nước đứng làm sỏi ngừng quay; trục kẹt khiến các hòn mài vụn nhau.",
+    "limits_en": "Still water stops the pebbles; a seized shaft makes them grind one another apart.",
+    "skills": [
+      {
+        "name_vi": "Kéo trục chậm",
+        "name_en": "Slow shaft draw",
+        "description_vi": "Vận hành quạt sấy, máy khuấy và bơm nước nhỏ tại xưởng ven sông.",
+        "description_en": "Drives drying fans, stirrers and small pumps in riverside workshops."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Sỏi tròn xanh xếp trong rọ đồng.",
+        "description_en": "Round blue pebbles in a copper cage."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Quạt phơi lúa",
+        "name_en": "Grain-Drying Fan",
+        "description_vi": "Dành chuyển động chậm của rọ sỏi cho quạt kho, để bánh xay chính tiếp tục nghiền lúa khi dòng sông yếu.",
+        "description_en": "Devote the cage’s slow motion to a storehouse fan so the main wheel can keep grinding when the river weakens."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Round blue pebbles in a copper cage. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-dat-om-re",
+    "category": "material",
+    "rarity": 1,
+    "name_vi": "Đất Ôm Rễ",
+    "name_en": "Root-Cradling Earth",
+    "form_vi": "Đất nâu xốp có sợi trắng mềm",
+    "form_en": "Porous brown earth with soft white threads",
+    "origin": "collection",
+    "epigraph_vi": "Rễ non cũng cần một bàn tay.",
+    "epigraph_en": "A young root needs a hand too.",
+    "lore_vi": "Một vườn ươm nằm cạnh bãi cây bị bão quật có những túi đất tự cuộn quanh rễ trần. Suốt mùa đông trước, người giữ vườn đã bọc từng cây con bằng áo cũ rồi chôn chúng dưới hàng cây lớn. Khi áo mục, những sợi trắng xuất hiện trong đất, giữ nguyên hình lòng bàn tay từng vun từng gốc một.\n\nĐất bám thành bầu nhẹ, giữ khoảng khí quanh rễ trong những chuyến xe xóc. Đến luống mới, người trồng tưới nước rồi mở từng mép đất; các sợi nhả dần khi gặp đất ấm, để rễ tự tìm đường mọc tiếp.",
+    "lore_en": "A nursery beside a windthrown grove held pockets of earth that curled around bare roots. Through the previous winter, its keeper had wrapped each seedling in old clothing and buried them beneath larger trees. As the cloth decayed, white threads appeared in the soil, retaining the shape of the hands that had banked each stem.\n\nThe earth forms a light ball that holds air around roots during jolting cart journeys. At the new bed, growers water it and open its edges; the threads gradually release in warm soil, allowing the roots to find their own way onward.",
+    "use_vi": "Vận chuyển cây giống và cứu rễ cây vừa bị lở đất.",
+    "use_en": "Transports seedlings and shelters roots exposed by landslips.",
+    "limits_vi": "Giữ quá lâu trong bầu kín làm rễ thiếu chỗ; đất không thay nước hoặc dinh dưỡng.",
+    "limits_en": "Prolonged confinement crowds the roots; the earth supplies neither water nor nutrients.",
+    "skills": [
+      {
+        "name_vi": "Bầu đất tự giữ",
+        "name_en": "Self-holding root ball",
+        "description_vi": "Vận chuyển cây giống và cứu rễ cây vừa bị lở đất.",
+        "description_en": "Transports seedlings and shelters roots exposed by landslips."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Đất nâu xốp có sợi trắng mềm.",
+        "description_en": "Porous brown earth with soft white threads."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Chuyển vườn sau lở",
+        "name_en": "Moving a Nursery after a Slip",
+        "description_vi": "Bọc rễ cây vừa bật khỏi sườn dốc thành bầu thoáng, chuyển tới luống mới rồi mở bầu trước khi rễ chen kín.",
+        "description_en": "Wrap roots torn from a slope in airy balls, move them to fresh beds and open the balls before the roots crowd."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Porous brown earth with soft white threads. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Muối Đánh Thức Hạt",
+    "name_en": "Seed-Waking Salt",
+    "form_vi": "Hạt muối hổ phách trong túi lanh",
+    "form_en": "Amber salt grains in a linen pouch",
+    "origin": "collection",
+    "epigraph_vi": "Mùa xuân gõ từ dưới vỏ.",
+    "epigraph_en": "Spring knocks from beneath the husk.",
+    "lore_vi": "Trong một kho lương cháy dở, những hạt giống dưới chum muối vẫn nảy mầm khi tuyết còn phủ cửa. Nước dập lửa đã mang muối qua tro rơm rồi đông lại trên miệng chum, nơi người giữ kho từng đặt bàn tay đếm số phần gieo còn lại. Lớp kết tinh mới có màu hổ phách và tiếng lách tách rất khẽ khi gặp ánh sáng.\n\nTúi muối đặt cạnh khay gieo khiến hạt sống cùng tỉnh trong một buổi, giúp người làm vườn chăm chung một lứa. Sau lần đánh thức, muối nhạt màu; các túi cũ được treo riêng khỏi giống mới để giữ đúng lịch gieo.",
+    "lore_en": "In a half-burnt granary, seeds beneath a salt jar sprouted while snow still covered the door. Firefighting water had carried salt through straw ash and frozen upon the jar’s mouth, where the keeper had rested a hand while counting the remaining sowing portions. The new amber crystals crackled faintly in light.\n\nA salt pouch beside a sowing tray wakes living seeds within the same morning, letting gardeners tend one cohort together. After awakening them, the salt pales; old pouches hang apart from fresh seed to preserve the sowing schedule.",
+    "use_vi": "Sắp lịch gieo trong nhà kính và cứu mùa trồng ngắn.",
+    "use_en": "Coordinates greenhouse sowing and helps make use of short growing seasons.",
+    "limits_vi": "Chỉ tác động hạt còn sống; mầm vẫn cần đủ ấm, sáng và nước.",
+    "limits_en": "Only living seeds respond; sprouts still need warmth, light and water.",
+    "skills": [
+      {
+        "name_vi": "Đánh thức cùng lứa",
+        "name_en": "Wakes a cohort",
+        "description_vi": "Sắp lịch gieo trong nhà kính và cứu mùa trồng ngắn.",
+        "description_en": "Coordinates greenhouse sowing and helps make use of short growing seasons."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Hạt muối hổ phách trong túi lanh.",
+        "description_en": "Amber salt grains in a linen pouch."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Lứa gieo cùng sáng",
+        "name_en": "One Morning’s Sowing",
+        "description_vi": "Đặt túi cạnh một khay hạt đã chọn để mầm cùng xuất hiện, rồi chuyển túi nhạt màu khỏi khu giống chưa tới lịch.",
+        "description_en": "Place a pouch beside a selected seed tray for coordinated sprouting, then remove the pale pouch from seed awaiting its season."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Amber salt grains in a linen pouch. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-vai-uong-mau",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Vải Uống Máu",
+    "name_en": "Blood-Drinking Cloth",
+    "form_vi": "Vải lanh ngà có đường chỉ đỏ khép kín",
+    "form_en": "Ivory linen with closed red stitchwork",
+    "origin": "collection",
+    "epigraph_vi": "Giữ phần đỏ ở phía ngoài da.",
+    "epigraph_en": "Keep the red beyond the skin.",
+    "lore_vi": "Tại một trạm cứu thương bỏ lại sau trận lở đá, cuộn băng cuối cùng khô nguyên giữa các chậu nước đỏ. Người giặt băng từng vá nhiều mảnh vải bằng cùng một sợi chỉ, rồi tiếp tục rửa tới lúc nước giếng đóng thành gương. Khi nắng trở lại, đường chỉ đỏ đã khép thành những vòng nhỏ, mỗi vòng ôm một khoảng vải sạch.\n\nVải hút máu từ mặt băng sang lớp ngoài, để người chăm thấy ngay mức thấm mà đỡ phải mở vết thương nhiều lần. Nó được cất thành từng đoạn riêng trong hòm thuốc; một mảnh đã dùng mang dấu đỏ suốt đời.",
+    "lore_en": "At an aid station abandoned after a rockfall, the last bandage roll remained dry among basins of red water. Its washer had joined many scraps with one thread and kept washing until the well froze into a mirror. When sunlight returned, the red stitching had closed into small rings, each enclosing clean cloth.\n\nThe cloth draws blood from the dressing’s inner face to its outer layer, letting attendants see saturation without repeatedly uncovering a wound. Separate lengths are stored in medicine chests; a used piece carries its red mark for life.",
+    "use_vi": "Theo dõi băng thấm trong cứu hộ và chăm thương tích.",
+    "use_en": "Makes dressing saturation visible during rescue and wound care.",
+    "limits_vi": "Không làm liền vết thương hoặc thay cầm máu; mỗi đoạn chỉ dùng một lần.",
+    "limits_en": "Does not close wounds or replace bleeding control; each length serves once.",
+    "skills": [
+      {
+        "name_vi": "Dẫn máu ra mặt ngoài",
+        "name_en": "Draws blood outward",
+        "description_vi": "Theo dõi băng thấm trong cứu hộ và chăm thương tích.",
+        "description_en": "Makes dressing saturation visible during rescue and wound care."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Vải lanh ngà có đường chỉ đỏ khép kín.",
+        "description_en": "Ivory linen with closed red stitchwork."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Đọc mặt băng",
+        "name_en": "Reading the Dressing",
+        "description_vi": "Người chăm nhìn vết đỏ hiện ngoài lớp băng để nhận ra chỗ cần kiểm tra, kết hợp với chăm sóc và cầm máu thông thường.",
+        "description_en": "An attendant watches red marks upon the dressing’s outer face to identify areas needing inspection alongside ordinary care and bleeding control."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Ivory linen with closed red stitchwork. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "category": "material",
+    "rarity": 1,
+    "name_vi": "Gốm Giữ Thuốc",
+    "name_en": "Medicine-Keeping Ceramic",
+    "form_vi": "Mảnh gốm trắng có vân xanh dưới men",
+    "form_en": "White ceramic with blue grain beneath its glaze",
+    "origin": "collection",
+    "epigraph_vi": "Chiếc hũ nhớ một độ ấm.",
+    "epigraph_en": "The jar remembers one warmth.",
+    "lore_vi": "Một người làm hũ để riêng mẻ gốm nung trong đêm tuyết chặn cửa lò. Bên ngoài, những gia đình chờ lấy bình đựng thuốc; bên trong, lửa được nuôi bằng các mảnh kệ cuối cùng. Sau khi mở lò, thợ thấy vân xanh nằm dưới men như đường gân của bàn tay lạnh. Hũ nguội tới hơi ấm của lòng người rồi giữ ở đó qua hết đêm.\n\nNhững mảnh cùng mẻ được ghép vào hộp đựng thuốc để giảm thay đổi nhiệt khi đi đường. Người giữ thuốc đặt một mảnh bên ngoài hộp; khi vân xanh trắng đi, cả lớp lót cần được đưa trở lại gian ấm.",
+    "lore_en": "A potter set aside the batch fired on a night when snow blocked the kiln door. Families waited outside for medicine jars; within, the fire consumed the last shelf boards. On opening the kiln, the potter found blue grain beneath the glaze like veins in a cold hand. The jars cooled to human warmth and held it throughout the night.\n\nSherds from that firing line medicine boxes to soften temperature changes on the road. Keepers place one sherd outside the box; when its blue grain whitens, the entire lining must return to a warm room.",
+    "use_vi": "Bảo quản thuốc nhạy với rét trong các chuyến cứu trợ.",
+    "use_en": "Shelters cold-sensitive medicines during relief journeys.",
+    "limits_vi": "Chỉ làm chậm đổi nhiệt; không bảo đảm thuốc còn tốt và không làm sạch thuốc.",
+    "limits_en": "Only slows temperature change; it neither guarantees medicine’s condition nor purifies it.",
+    "skills": [
+      {
+        "name_vi": "Đệm nhiệt cho hũ",
+        "name_en": "Buffers a jar’s warmth",
+        "description_vi": "Bảo quản thuốc nhạy với rét trong các chuyến cứu trợ.",
+        "description_en": "Shelters cold-sensitive medicines during relief journeys."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Mảnh gốm trắng có vân xanh dưới men.",
+        "description_en": "White ceramic with blue grain beneath its glaze."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Hòm thuốc qua đèo",
+        "name_en": "Medicine Chest on the Pass",
+        "description_vi": "Lót hòm bằng những mảnh cùng mẻ, đặt một mảnh ngoài nắp làm dấu nhắc khi cả hòm cần trở về gian ấm.",
+        "description_en": "Line a chest with sherds from one firing, keeping a sherd outside its lid as a reminder to return the chest to warmth."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "White ceramic with blue grain beneath its glaze. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-nhua-khau-go",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Nhựa Khâu Gỗ",
+    "name_en": "Wood-Stitching Resin",
+    "form_vi": "Nhựa nâu có sợi sáng như chỉ lanh",
+    "form_en": "Brown resin threaded with flax-like light",
+    "origin": "collection",
+    "epigraph_vi": "Thớ gỗ tìm lại người láng giềng.",
+    "epigraph_en": "The grain finds its neighbour again.",
+    "lore_vi": "Một xưởng đóng thuyền dùng hết dây khâu ván sau cơn lũ, phải giữ mối ghép bằng nhựa cây rỉ từ thân liễu mắc giữa hai sườn tàu. Suốt mùa sửa chữa, gỗ sống ấy mọc rễ vào đống dăm ướt. Khi người thợ nhấc thân cây ra, nhựa kéo thành những sợi sáng, nối hai mặt ván theo chiều thớ như đã học đường đi của rễ.\n\nNhựa giúp giữ mối nứt khô trong lúc người thợ đặt nẹp thật. Các sợi đổi màu theo phần gỗ đang chịu sức ép, nhờ vậy một mối ghép từng qua sóng lớn còn để lại dấu cho lần sửa sau.",
+    "lore_en": "After a flood, a boatyard exhausted its stitching cord and held joints with resin from a willow trunk lodged between two hull frames. Through the repair season, the living wood rooted in wet shavings. When workers lifted the trunk away, its resin drew into shining threads, joining plank faces along the grain as though it had learned the roots’ paths.\n\nThe resin holds a dry split while workers fit a lasting brace. Its threads change colour with the timber bearing strain, leaving a record of heavy seas for the next repair.",
+    "use_vi": "Sửa đồ gỗ, cáng và ván thuyền trong thời gian chờ gia cố.",
+    "use_en": "Mends furniture, stretchers and hull planks pending reinforcement.",
+    "limits_vi": "Gỗ mục hoặc bề mặt ngập nước không giữ được sợi; mối nối vẫn cần nẹp chịu tải.",
+    "limits_en": "Rotten wood and submerged faces cannot retain the threads; loaded joints still require braces.",
+    "skills": [
+      {
+        "name_vi": "Bắc sợi qua thớ",
+        "name_en": "Threads across the grain",
+        "description_vi": "Sửa đồ gỗ, cáng và ván thuyền trong thời gian chờ gia cố.",
+        "description_en": "Mends furniture, stretchers and hull planks pending reinforcement."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Nhựa nâu có sợi sáng như chỉ lanh.",
+        "description_en": "Brown resin threaded with flax-like light."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Nẹp cáng gãy",
+        "name_en": "Bracing a Broken Stretcher",
+        "description_vi": "Giữ hai mặt gỗ vừa nứt bằng nhựa trong lúc buộc nẹp chịu tải, theo vệt đổi màu để kiểm tra mối đã chịu sức ép.",
+        "description_en": "Hold freshly split wood with resin while fitting a load-bearing brace, following its changed threads to inspect stressed joints."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Brown resin threaded with flax-like light. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-cat-nghe-khuon",
+    "category": "material",
+    "rarity": 3,
+    "name_vi": "Cát Nghe Khuôn",
+    "name_en": "Mould-Listening Sand",
+    "form_vi": "Cát bạc hạt thô trong hộp gỗ",
+    "form_en": "Coarse silver sand in a wooden box",
+    "origin": "collection",
+    "epigraph_vi": "Chỗ rỗng cũng để lại tiếng chân.",
+    "epigraph_en": "An empty place leaves footsteps too.",
+    "lore_vi": "Một người đúc chuông giữ lại cát dưới quả chuông nứt, bởi đêm nào nó cũng rung theo phần âm thanh đã mất. Suốt nhiều năm, cát nằm trong hốc chân đế, chịu những lần gõ gọi người trở về từ cánh đồng tối. Khi nền xưởng được nâng lên, các hạt bạc xếp thành vòng đúng quanh vết rỗng dưới đáy, mặc cho người quét vừa san phẳng chúng.\n\nRắc quanh khuôn nguội, cát dịch về chỗ thành mỏng hoặc túi rỗng kín. Người đúc theo các vòng bạc để chọn nơi xem xét lại, dùng cùng một hộp qua nhiều mùa cho tới khi tiếng rung lắng hẳn.",
+    "lore_en": "A bell founder kept the sand beneath a cracked bell because each night it trembled with the missing portion of its voice. For years it had lain in the plinth’s hollow, bearing the strokes that called workers home from dark fields. When the workshop floor was raised, silver grains ringed a cavity below, though a sweeper had just levelled them.\n\nScattered around a cold mould, the sand shifts towards thin walls or enclosed cavities. Founders follow the silver rings to choose areas for closer inspection, using one box through many seasons until its trembling falls silent.",
+    "use_vi": "Kiểm tra khuôn đúc, chuông và bộ phận máy trước khi sử dụng.",
+    "use_en": "Helps inspect casting moulds, bells and machine parts before use.",
+    "limits_vi": "Chỉ báo vùng bất thường gần mặt cát; các khoang chồng nhau làm dấu nhập nhòe.",
+    "limits_en": "Indicates irregular regions near the sand’s surface; overlapping cavities blur the signs.",
+    "skills": [
+      {
+        "name_vi": "Vạch vùng rỗng",
+        "name_en": "Traces hollow regions",
+        "description_vi": "Kiểm tra khuôn đúc, chuông và bộ phận máy trước khi sử dụng.",
+        "description_en": "Helps inspect casting moulds, bells and machine parts before use."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Cát bạc hạt thô trong hộp gỗ.",
+        "description_en": "Coarse silver sand in a wooden box."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Rà thân chuông",
+        "name_en": "Checking a Bell Body",
+        "description_vi": "Rắc cát quanh thân chuông nguội và xem vòng hạt dồn về đâu trước khi người thợ quyết định chỗ cần kiểm tra sâu.",
+        "description_en": "Scatter sand around a cold bell and read its gathering rings before deciding which regions need deeper inspection."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Coarse silver sand in a wooden box. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "category": "material",
+    "rarity": 3,
+    "name_vi": "Đá Nhường Lực",
+    "name_en": "Yielding Stone",
+    "form_vi": "Phiến đá xám có vòng trắng đồng tâm",
+    "form_en": "Grey slabs with concentric white rings",
+    "origin": "collection",
+    "epigraph_vi": "Một bước lún cho tường đứng thêm.",
+    "epigraph_en": "One yielding step lets the wall stand longer.",
+    "lore_vi": "Nền một nhà kho sau động đất có những phiến đá trượt khỏi nhau mà cột trên vẫn thẳng. Chúng được lấy từ vách núi từng liên tục nhận tuyết lở, mỗi mùa trắng thêm một vòng quanh lõi xám. Người xây giữ chúng làm bậc cửa vì mặt đá bằng; chỉ khi tường rung, các vòng trắng mới mở ra như những mí mắt đang chịu một giấc mơ nặng.\n\nPhiến đá chịu dịch một đoạn ngắn để phân tán cú giật truyền qua chân cột. Sau trận rung, đường vòng đã mở giữ nguyên khoảng hở, cho người xây biết phần nền cần thay trước khi đưa kho vào dùng tiếp.",
+    "lore_en": "After an earthquake, a storehouse floor held slabs that had slid apart beneath columns still standing straight. They came from a cliff struck repeatedly by avalanches, each season adding a white ring around the grey core. Builders had used them as level thresholds; only when the walls shook did the white rings open like eyelids beneath a heavy dream.\n\nA slab yields a short distance to spread a jolt travelling through a column’s foot. Afterwards its opened rings retain their gaps, showing builders which foundation sections need replacement before the storehouse returns to service.",
+    "use_vi": "Lót nền kho, chân máy và cột nhà tại nơi thường rung chuyển.",
+    "use_en": "Beds storehouses, machinery and columns in places subject to shaking.",
+    "limits_vi": "Mỗi vòng chỉ mở một lần; phiến hết vòng trở thành đá thường và phải thay.",
+    "limits_en": "Each ring opens once; a slab with no closed rings left becomes ordinary stone and needs replacement.",
+    "skills": [
+      {
+        "name_vi": "Nhường cú giật",
+        "name_en": "Yields beneath a jolt",
+        "description_vi": "Lót nền kho, chân máy và cột nhà tại nơi thường rung chuyển.",
+        "description_en": "Beds storehouses, machinery and columns in places subject to shaking."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Phiến đá xám có vòng trắng đồng tâm.",
+        "description_en": "Grey slabs with concentric white rings."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Chân máy chịu rung",
+        "name_en": "A Machine Bed under Vibration",
+        "description_vi": "Đặt phiến dưới chân máy nặng, kiểm tra các vòng đã mở sau một đợt rung để thay đúng phần nền đã tiêu sức giữ.",
+        "description_en": "Bed heavy machinery upon slabs and inspect opened rings after shaking to replace the portions that have spent their yielding capacity."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Grey slabs with concentric white rings. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-soi-giu-luoi",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Sợi Giữ Lưỡi",
+    "name_en": "Edge-Keeping Fibre",
+    "form_vi": "Sợi đen có chấm bạc ở hai đầu",
+    "form_en": "Black fibres with silver points at both ends",
+    "origin": "collection",
+    "epigraph_vi": "Bao giữ im điều sắc bén.",
+    "epigraph_en": "The sheath keeps sharpness quiet.",
+    "lore_vi": "Trong một hòm đồ thợ mài bị bỏ giữa đèo, những sợi lót bao vẫn ôm đúng hình các lưỡi thép đã lấy đi. Chúng được kéo từ lớp vỏ cây mọc quanh một tảng đá mài cũ, nơi người đi đường từng dừng sửa dao trước mùa tuyết. Mỗi thớ đen mang hai chấm bạc ở đầu, như đã giữ được khoảnh khắc lưỡi sắc dừng giữa hai đường kéo.\n\nDệt thành lớp lót, sợi giữ lưỡi khỏi chạm thành bao khi người mang chạy hoặc ngã. Những người sửa khí giới dùng nó để cất cả dao mổ và kiếm; bao cũ được mở kiểm tra khi các chấm bạc mờ đi.",
+    "lore_en": "In a grinder’s chest abandoned on a mountain pass, sheath-lining fibres still held the shapes of blades removed from them. They came from bark grown around an old whetstone where travellers had sharpened knives before winter. Each black strand bore a silver point at either end, as though preserving the instant an edge paused between two strokes.\n\nWoven into a lining, the fibres keep an edge away from its sheath’s walls when the bearer runs or falls. Armourers store surgical knives as well as swords in it; old sheaths are opened for inspection when the silver points dim.",
+    "use_vi": "Lót bao vũ khí và hộp dụng cụ sắc để bảo quản khi vận chuyển.",
+    "use_en": "Lines weapon sheaths and sharp-tool cases for transport.",
+    "limits_vi": "Không tăng sức cắt hoặc tự mài thép; lưỡi bẩn làm sợi bết rồi mất khoảng giữ.",
+    "limits_en": "Neither strengthens cutting nor sharpens steel; dirty edges mat the fibres and destroy their clearance.",
+    "skills": [
+      {
+        "name_vi": "Giữ khoảng quanh mép",
+        "name_en": "Holds clearance around an edge",
+        "description_vi": "Lót bao vũ khí và hộp dụng cụ sắc để bảo quản khi vận chuyển.",
+        "description_en": "Lines weapon sheaths and sharp-tool cases for transport."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Sợi đen có chấm bạc ở hai đầu.",
+        "description_en": "Black fibres with silver points at both ends."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Hòm dao đi đường",
+        "name_en": "Travelling Blade Case",
+        "description_vi": "Lót từng ngăn đựng dao bằng sợi, lau sạch lưỡi trước khi cất và mở ngăn kiểm tra lúc chấm bạc mờ.",
+        "description_en": "Line separate knife compartments with fibre, clean blades before storage and open the lining for inspection when its silver points dim."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Black fibres with silver points at both ends. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-men-lang-bua",
+    "category": "material",
+    "rarity": 2,
+    "name_vi": "Men Lặng Búa",
+    "name_en": "Hammer-Hushing Glaze",
+    "form_vi": "Men nâu đen trên miếng gốm mỏng",
+    "form_en": "Brown-black glaze on thin ceramic tiles",
+    "origin": "collection",
+    "epigraph_vi": "Tiếng búa nghỉ dưới một lớp men.",
+    "epigraph_en": "The hammer’s voice rests beneath a glaze.",
+    "lore_vi": "Một người tráng gốm dựng lò cạnh xưởng rèn, nơi tiếng búa theo con nhỏ vào giấc ngủ mỗi chiều. Bà đem những mảnh gốm lỗi kê dưới chân đe để bớt rung sàn. Sau một mùa cùng chịu nóng lạnh của hai lò, lớp men sẫm bắt đầu giữ lại tiếng va đầu tiên rồi thả nó thành tiếng rì rầm lúc đêm xuống.\n\nCác miếng men giúp xưởng nhỏ giảm tiếng gõ truyền sang phòng bên cạnh. Người thợ mang chúng ra sân sau ca làm, nghe phần tiếng đã giữ dần trở về; mặt men sáng lại khi đợt rì rầm cuối tan trong gió.",
+    "lore_en": "A glazier built her kiln beside a forge whose hammers followed her child into sleep each afternoon. She placed flawed tiles beneath the anvil to soften the floor’s trembling. After a season sharing both furnaces’ heat and cold, the dark glaze began retaining the first impact’s sound and releasing it as a murmur after nightfall.\n\nThe glazed tiles soften knocking carried from a small workshop into adjoining rooms. After work, craftspeople take them into the yard and hear the stored sound return; their surfaces brighten when the final murmur fades into the wind.",
+    "use_vi": "Lót chân đe, bàn máy và vách ngăn quanh xưởng thủ công.",
+    "use_en": "Beds anvils and workbenches and lines partitions around craft workshops.",
+    "limits_vi": "Chỉ giữ một phần tiếng; dùng quá lâu làm men rạn và trả âm thành một tiếng bật lớn.",
+    "limits_en": "Stores only part of the sound; prolonged use cracks the glaze and returns it in a loud report.",
+    "skills": [
+      {
+        "name_vi": "Giữ tiếng va",
+        "name_en": "Stores impact sound",
+        "description_vi": "Lót chân đe, bàn máy và vách ngăn quanh xưởng thủ công.",
+        "description_en": "Beds anvils and workbenches and lines partitions around craft workshops."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Men nâu đen trên miếng gốm mỏng.",
+        "description_en": "Brown-black glaze on thin ceramic tiles."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Đe gần nhà ở",
+        "name_en": "An Anvil beside Dwellings",
+        "description_vi": "Kê men dưới chân đe trong ca làm ngắn rồi mang các miếng ra sân nhả âm trước khi mặt men bắt đầu rạn.",
+        "description_en": "Bed an anvil upon glazed tiles for short shifts, then carry them outside to release sound before the glaze begins to crack."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Brown-black glaze on thin ceramic tiles. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "material-dong-dem-nhip",
+    "category": "material",
+    "rarity": 3,
+    "name_vi": "Đồng Đếm Nhịp",
+    "name_en": "Beat-Counting Copper",
+    "form_vi": "Lá đồng mỏng có vân hình sóng",
+    "form_en": "Thin copper leaves with wave-like grain",
+    "origin": "collection",
+    "epigraph_vi": "Bánh răng nhớ lượt mình đi.",
+    "epigraph_en": "The gear remembers its turn.",
+    "lore_vi": "Dưới đáy một tháp đồng hồ cháy, thợ nhặt được những lá đồng rơi khỏi quả lắc. Ngọn lửa đã ăn hết mặt số khi người giữ tháp còn đếm giờ cho đoàn người chạy qua cầu; từng tiếng ông gọi vang vào giếng cầu thang rồi mất trong khói. Các lá đồng nguội xuống với vân sóng khép đều, tiếp tục rung theo nhịp quả lắc đã chảy thành một vệt trên sàn.\n\nĐặt cạnh một trục quay, lá đồng rung lệch khi trục bỏ một nhịp quen thuộc. Những người trông máy treo nó trong tầm mắt để nhận ra dây curoa trượt hoặc bánh răng đang kẹt trước khi cả gian xưởng cùng dừng.",
+    "lore_en": "At the foot of a burnt clock tower, workers recovered copper leaves fallen from its pendulum. Fire had consumed the dial while the keeper still counted hours for fugitives crossing the bridge; each call rang into the stairwell and vanished in smoke. The leaves cooled with evenly closed waves, still trembling to the beat of the pendulum melted across the floor.\n\nBeside a turning shaft, a copper leaf trembles out of step when the shaft misses a familiar beat. Machine keepers hang it within sight to notice a slipping belt or catching gear before the whole workshop stops.",
+    "use_vi": "Theo dõi nhịp cối xay, bơm và máy nâng hàng.",
+    "use_en": "Monitors mills, pumps and cargo hoists.",
+    "limits_vi": "Phải nghe máy chạy đều trước; nhiều trục gần nhau khiến lá đồng lẫn nhịp.",
+    "limits_en": "Must first hear the machine running steadily; nearby shafts can confuse its rhythm.",
+    "skills": [
+      {
+        "name_vi": "Báo nhịp máy lệch",
+        "name_en": "Signals an altered beat",
+        "description_vi": "Theo dõi nhịp cối xay, bơm và máy nâng hàng.",
+        "description_en": "Monitors mills, pumps and cargo hoists."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dấu hình thành",
+        "name_en": "Mark of formation",
+        "description_vi": "Lá đồng mỏng có vân hình sóng.",
+        "description_en": "Thin copper leaves with wave-like grain."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Theo dõi bơm kho",
+        "name_en": "Watching a Storehouse Pump",
+        "description_vi": "Cho lá nghe nhịp bơm đều trước ca, treo riêng khỏi trục khác và dừng kiểm tra khi nó rung lệch.",
+        "description_en": "Let a leaf learn the pump’s steady beat before a shift, hang it away from other shafts and stop for inspection when its rhythm changes."
+      }
+    ],
+    "relationships": [],
+    "sources": [],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "rarity_note_vi": "Bậc biên tập đề xuất cho vật liệu sáng tác bổ sung.",
+    "rarity_note_en": "Proposed editorial rank for an original material addition.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Số lượng còn tồn tại chưa được xác nhận; bậc sức mạnh được xếp riêng.",
+      "note_en": "Surviving quantity is unconfirmed; power rank is assessed separately."
+    },
+    "art": {
+      "kind": "material",
+      "description": "Thin copper leaves with wave-like grain. Isolated specimen, transparent background, no text."
+    },
+    "editorial_review_kind": "new-practical-material",
+    "editorial_review_version": "v5-final"
+  }
+]

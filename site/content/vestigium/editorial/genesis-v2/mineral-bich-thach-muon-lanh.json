@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-bich-thach-muon-lanh",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Trong hốc băng dưới một dòng sông đã đổi cửa, người tìm quặng lấy được viên ngọc xanh giữ giọt trắng đứng giữa lõi. Băng quanh nó đã tan qua nhiều mùa; giọt bên trong vẫn phủ sương lên mặt đá mỗi lần có bàn tay tới gần. Những hạt cát mắc ở mép giọt chuyển động chậm như đang rơi trong một mùa đông khác.\n\nMạch bích thạch từng lớn quanh bọt nước bị nhốt dưới đáy băng. Khi dòng sông xé mất khối băng ấy, khoáng vật giữ lại quan hệ với trạng thái lạnh chưa chịu rời đi. Đặt ngọc cạnh một nguồn băng mới sẽ cho giọt trắng nhận thêm một cách đông; người sử dụng mượn cách ấy đem tới một vật khác, rồi cần trả phần nhiệt đã nhận về nơi có thể chịu nó.\n\nNhững người chở thuốc giữ ngọc trong hộp ngăn kép. Các kỹ sư cho nó mượn cái lạnh để ghép kim loại, mở những cơ cấu đang nóng, giữ hạt giống qua đường xa. Trong vài bản ghi, một chiếc cầu băng đã tồn tại qua cả buổi trưa sau khi nguồn băng tan hết. Khi sập, dòng nước dưới cầu nóng đến mức cá nổi trắng mặt sông. Người ta kể từ đó những món đồ được cứu bằng lạnh mượn đều cần biết nơi mùa đông của chúng sẽ trả về.",
+    "lore_en": "Within an ice hollow beneath a river that had changed its mouth, an ore seeker found a green gem holding a white drop at its centre. Surrounding ice had thawed over many seasons, yet the drop still frosted the stone when a hand approached. Sand grains along its edge moved slowly, as though falling through another winter.\n\nThe beryl vein had grown around a water bubble trapped beneath ice. When the river tore that ice away, the mineral retained its relationship with a cold state that had not departed. Set beside fresh ice, the white drop accepts another manner of freezing; a keeper borrows that manner for another object, then must return received heat somewhere able to bear it.\n\nMedicine carriers keep it in double-chambered cases. Engineers borrow cold to fit metal, open heated mechanisms and carry seeds far. Certain records describe an ice bridge surviving through midday after its source ice had melted. When it fell, water below grew hot enough to turn fish white across the river. Ever since, keepers say that everything saved by borrowed cold must know where its winter will be repaid.",
+    "use_vi": "Mượn một trạng thái lạnh từ nguồn đã nhận, giữ hoặc truyền nó cho vật được nối, rồi đưa phần nhiệt tích về một nơi trả đã chuẩn bị.",
+    "use_en": "Borrow a cold state from an accepted source, retain or transmit it to connected objects, then send accumulated heat to a prepared return site.",
+    "limits_vi": "Phải ghi nguồn lạnh và nơi trả nhiệt; nguồn cũ tan vẫn có thể để một khoản mượn mở nhưng giọt trắng sẽ đục nhanh hơn. Đá không phân biệt thứ cần giữ mát với thứ sẽ hỏng khi đông. Khoản quá lớn làm giọt trắng nứt, trả nhiệt theo mọi mặt đang chạm và có thể đốt chính vật vừa được cứu.",
+    "limits_en": "Both cold source and heat return site must be recorded; a melted source can leave a loan open but clouds the white drop faster. The gem does not distinguish what needs cooling from what freezing will ruin. Excess debt cracks the drop and returns heat through every contacting face, potentially burning what was just saved.",
+    "skills": [
+      {
+        "name_vi": "Dấu nguồn băng",
+        "name_en": "Mark the Ice Source",
+        "description_vi": "Đặt ngọc vào băng đã chọn cho giọt trắng nhận một trạng thái lạnh, rồi đánh dấu nguồn trên hộp; lần nhận mới thay mối nguồn cũ sau khi nợ đã trả.",
+        "description_en": "Set the gem in chosen ice so its white drop accepts a cold state, then mark the source on the case; a fresh source replaces the old after settlement.",
+        "group_vi": "Nhận mùa lạnh",
+        "group_en": "Accept the Cold Season"
+      },
+      {
+        "name_vi": "Mặt trả nhiệt",
+        "name_en": "The Heat-Return Face",
+        "description_vi": "Cho một mặt ngọc chạm bể nhận trước khi mở lượt mượn để chọn nơi nhiệt sẽ về; bể phải có chỗ chịu nóng và giãn nở.",
+        "description_en": "Touch one gem face to a receiving basin before borrowing to appoint heat’s return; the basin needs capacity for warmth and expansion.",
+        "group_vi": "Nhận mùa lạnh",
+        "group_en": "Accept the Cold Season"
+      },
+      {
+        "name_vi": "Đọc giọt trắng",
+        "name_en": "Read the White Drop",
+        "description_vi": "Soi xiên để thấy phần trong còn lại của giọt, nhận nợ gần đầy qua lớp đục tiến vào tâm; mỗi nguồn cần một bản chuẩn riêng.",
+        "description_en": "Light the drop obliquely to read its remaining clear portion and advancing cloud as debt fills; each source needs its own reference.",
+        "group_vi": "Nhận mùa lạnh",
+        "group_en": "Accept the Cold Season"
+      },
+      {
+        "name_vi": "Sợi nối lạnh",
+        "name_en": "The Cold Link",
+        "description_vi": "Làm ướt một dây dẫn từ ngọc tới vật cần giữ để truyền trạng thái theo đường đã chọn; đứt đường làm vật bắt đầu trở về nhiệt quanh nó.",
+        "description_en": "Wet a conducting line between gem and object to transmit the state along a chosen path; severing it lets the object return towards its surroundings.",
+        "group_vi": "Nhận mùa lạnh",
+        "group_en": "Accept the Cold Season"
+      },
+      {
+        "name_vi": "Hộp thuốc lạnh",
+        "name_en": "The Cool Medicine Case",
+        "description_vi": "Nối ngọc qua vách ngăn tới lớp đệm hộp để giữ điều kiện mát đã nhận, tránh chạm trực tiếp lọ; nhiệt độ cần được kiểm phù hợp từng thứ thuốc.",
+        "description_en": "Link through a divider to a case liner to retain an accepted cool condition without touching bottles directly; check temperature for each medicine.",
+        "group_vi": "Giữ vật qua đường",
+        "group_en": "Keep Things on the Journey"
+      },
+      {
+        "name_vi": "Hạt qua mùa nóng",
+        "name_en": "Seeds Through Heat",
+        "description_vi": "Truyền lạnh vào lớp đất ẩm quanh túi hạt để giữ chậm nhịp nảy trong chuyến đi; hạt cần được hồi dần khi gieo.",
+        "description_en": "Transmit cold into damp earth around a seed pouch to slow germination during travel; restore it gradually before sowing.",
+        "group_vi": "Giữ vật qua đường",
+        "group_en": "Keep Things on the Journey"
+      },
+      {
+        "name_vi": "Mực khỏi lên men",
+        "name_en": "Ink Against Fermentation",
+        "description_vi": "Giữ một bình mực trong ổ lạnh nối ngọc để giảm đổi chất giữa chặng nóng, cho người chép dùng lại; mực đã hỏng vẫn cần bỏ.",
+        "description_en": "Keep an ink bottle in a gem-linked cool cradle to reduce change through a warm journey; already spoiled ink must still be discarded.",
+        "group_vi": "Giữ vật qua đường",
+        "group_en": "Keep Things on the Journey"
+      },
+      {
+        "name_vi": "Mẫu còn hình",
+        "name_en": "The Preserved Specimen",
+        "description_vi": "Làm lạnh khay mẫu theo một mặt đá để giữ hình mô nhỏ cho chuyến chuyển, ghi thời gian và cách nhận; lạnh quá làm mẫu vỡ cấu trúc.",
+        "description_en": "Cool a specimen tray through one gem face to preserve small tissue forms in transit, recording time and method; excessive cold can disrupt their structure.",
+        "group_vi": "Giữ vật qua đường",
+        "group_en": "Keep Things on the Journey"
+      },
+      {
+        "name_vi": "Vòng co",
+        "name_en": "The Contracting Ring",
+        "description_vi": "Nối một vòng kim loại vào ngọc để nó co đều khi tháo mối lắp, tránh làm lạnh cả cơ cấu; vật giòn cần thử bằng mẫu riêng.",
+        "description_en": "Join a metal ring to the gem for even contraction while dismantling a fit without chilling the whole assembly; test brittle materials separately.",
+        "group_vi": "Làm việc với kim loại",
+        "group_en": "Work With Metal"
+      },
+      {
+        "name_vi": "Chốt lạnh qua lỗ",
+        "name_en": "The Chilled Pin",
+        "description_vi": "Làm lạnh chốt trước lúc lắp để nó lọt lỗ đã căn, rồi cắt nối cho chốt hồi nở; để hồi sớm có thể kẹt giữa đường.",
+        "description_en": "Chill a pin for insertion into an aligned hole, then disconnect so it expands back; premature warming can trap it halfway.",
+        "group_vi": "Làm việc với kim loại",
+        "group_en": "Work With Metal"
+      },
+      {
+        "name_vi": "Lưỡi giữ sắc",
+        "name_en": "The Cold-Kept Edge",
+        "description_vi": "Dẫn lạnh vào cán trong lúc mài để mép dụng cụ khỏi quá nóng, nhả nợ vào bể riêng sau lượt; nước mài vẫn phải được kiểm.",
+        "description_en": "Lead cold into a handle while grinding to limit edge overheating and repay into a separate basin afterwards; grinding water still needs monitoring.",
+        "group_vi": "Làm việc với kim loại",
+        "group_en": "Work With Metal"
+      },
+      {
+        "name_vi": "Khóa nóng tạm nghỉ",
+        "name_en": "The Hot Lock’s Respite",
+        "description_vi": "Chạm ngọc qua bản dẫn tới một khóa nóng để mở thao tác sửa ngắn; khóa còn nguồn nung sẽ tiếp tục dồn nợ nhanh.",
+        "description_en": "Touch through a conducting plate to cool a hot lock briefly for repair; continuing heat input rapidly accumulates debt.",
+        "group_vi": "Làm việc với kim loại",
+        "group_en": "Work With Metal"
+      },
+      {
+        "name_vi": "Khuôn băng nhỏ",
+        "name_en": "The Little Ice Mould",
+        "description_vi": "Nối chén nước vào trạng thái nguồn lạnh để đông theo khuôn, tạo mẫu dùng một lượt; khi tháo nối băng bắt đầu chịu nhiệt thật.",
+        "description_en": "Join a water cup to the cold-source state to freeze a one-use mould; disconnected ice meets the actual surrounding warmth.",
+        "group_vi": "Dựng vật bằng băng",
+        "group_en": "Build With Ice"
+      },
+      {
+        "name_vi": "Cầu lạnh mượn",
+        "name_en": "The Borrowed-Cold Bridge",
+        "description_vi": "Truyền trạng thái dọc một giàn ướt để dựng đường băng ngắn chịu bước; tải cần được giàn đỡ và nơi trả nhiệt phải sẵn trước khi người qua.",
+        "description_en": "Transmit the state along a wet frame to raise a short ice path; the frame must carry the load and the heat return must be ready before crossing.",
+        "group_vi": "Dựng vật bằng băng",
+        "group_en": "Build With Ice"
+      },
+      {
+        "name_vi": "Nêm sương",
+        "name_en": "The Frost Wedge",
+        "description_vi": "Cho nước trong một khe đá nhận đông để tạo nêm giãn mở khe có kiểm soát; lực có thể tách thêm vết ngoài dự tính.",
+        "description_en": "Freeze water within a rock cleft as an expanding wedge under control; force can open unintended fractures too.",
+        "group_vi": "Dựng vật bằng băng",
+        "group_en": "Build With Ice"
+      },
+      {
+        "name_vi": "Vỏ hứng băng",
+        "name_en": "The Ice Receiving Shell",
+        "description_vi": "Đông lớp nước quanh một khuôn cong để làm khay hứng vật nhẹ, rồi dời nó với một dây nối lạnh còn nguyên; rời dây khiến khay yếu dần.",
+        "description_en": "Freeze a water layer around a curved mould into a light receiving tray and move it with an intact cold link; disconnection weakens it progressively.",
+        "group_vi": "Dựng vật bằng băng",
+        "group_en": "Build With Ice"
+      },
+      {
+        "name_vi": "Đường trơn",
+        "name_en": "The Slippery Line",
+        "description_vi": "Nối một vệt nước đã rải vào ngọc để tạo đoạn băng trơn tại lối hẹp, cản bước đuổi; người dùng phải biết đường tránh cho đồng đội.",
+        "description_en": "Join a laid water stripe to the gem to ice a narrow pursuit route; allies need an agreed safe path.",
+        "group_vi": "Lạnh trong giao tranh",
+        "group_en": "Cold in Conflict"
+      },
+      {
+        "name_vi": "Chốt giáp đông",
+        "name_en": "The Frozen Armour Catch",
+        "description_vi": "Đặt nước lên một khớp giáp rồi chạm đầu dẫn để đông chốt trong thời gian ngắn; chủ giáp có thể phá băng bằng lực hoặc nhiệt.",
+        "description_en": "Wet an armour joint and touch a lead to freeze its catch briefly; its wearer can break the ice by force or heat.",
+        "group_vi": "Lạnh trong giao tranh",
+        "group_en": "Cold in Conflict"
+      },
+      {
+        "name_vi": "Màn hơi trắng",
+        "name_en": "The White Vapour Screen",
+        "description_vi": "Đưa mặt lạnh qua hơi nước sẵn để kết màn mù gần, che một cuộc rút ngắn; gió dời màn có thể che luôn người dùng.",
+        "description_en": "Pass the cold face through existing vapour to condense nearby fog over a short withdrawal; wind may obscure the keeper too.",
+        "group_vi": "Lạnh trong giao tranh",
+        "group_en": "Cold in Conflict"
+      },
+      {
+        "name_vi": "Đầu dây bám băng",
+        "name_en": "The Ice-Gripping Line",
+        "description_vi": "Nối một đầu dây ướt vào ngọc rồi ép lên đá để băng khóa điểm bám tạm; cần neo thật bổ sung trước khi treo người.",
+        "description_en": "Join a wet line end to the gem and press it against stone for a temporary ice grip; add a real anchor before suspending anyone.",
+        "group_vi": "Lạnh trong giao tranh",
+        "group_en": "Cold in Conflict"
+      },
+      {
+        "name_vi": "Sương hiện hơi",
+        "name_en": "Frost Reveals the Breath",
+        "description_vi": "Đưa mặt lạnh cạnh một khe nghi rò hơi để sương kết theo luồng, hiện hướng cần kiểm; hơi độc vẫn cần được cô lập.",
+        "description_en": "Bring the cold face beside suspected vapour seepage so frost reveals its direction; toxic vapour still requires isolation.",
+        "group_vi": "Dấu lạnh cho mắt",
+        "group_en": "Cold Signs for the Eye"
+      },
+      {
+        "name_vi": "Bản vân đông",
+        "name_en": "The Frosted Texture Print",
+        "description_vi": "Làm ẩm một bề mặt rồi cho đông mỏng để gờ và khe hiện qua tinh thể, hỗ trợ xem vết chạm; rã băng có thể làm bẩn chứng cứ.",
+        "description_en": "Dampen a surface and freeze it thinly so crystals reveal ridges and gaps for inspection; thawing can contaminate evidence.",
+        "group_vi": "Dấu lạnh cho mắt",
+        "group_en": "Cold Signs for the Eye"
+      },
+      {
+        "name_vi": "Vạch còn lạnh",
+        "name_en": "The Still-Cold Mark",
+        "description_vi": "Đặt một giọt nước trên vật đang nối để xem nó giữ đúng trạng thái nguồn hay đã yếu qua cách đông; giọt cần giống mẫu đã căn.",
+        "description_en": "Place a water drop upon a connected object and compare freezing with its calibrated reference to check the borrowed state.",
+        "group_vi": "Dấu lạnh cho mắt",
+        "group_en": "Cold Signs for the Eye"
+      },
+      {
+        "name_vi": "Đèn sương xanh",
+        "name_en": "The Blue Frost Lamp",
+        "description_vi": "Cho lớp sương kết trên một tấm kính trước đèn để tán sáng thành quầng xanh nhạt, đánh dấu chỗ đặt ngọc trong tối; kính có thể giòn do chênh nhiệt.",
+        "description_en": "Frost a pane before a lamp to diffuse a pale blue marker for the gem in darkness; thermal difference can make the pane brittle.",
+        "group_vi": "Dấu lạnh cho mắt",
+        "group_en": "Cold Signs for the Eye"
+      },
+      {
+        "name_vi": "Bể nhận đầu",
+        "name_en": "The First Receiving Basin",
+        "description_vi": "Mở mặt trả vào bể đã chọn để nhiệt tích nhả từng phần qua nước, theo dõi mức nóng trước khi mở thêm.",
+        "description_en": "Open the return face into its appointed basin to release heat in portions through water, monitoring warmth before more release.",
+        "group_vi": "Chuyển nợ nhiệt",
+        "group_en": "Transfer the Heat Debt"
+      },
+      {
+        "name_vi": "Chia bể",
+        "name_en": "Divide the Basin",
+        "description_vi": "Cho hai bể chạm cùng bản nhận trước khi tách nhánh để nhiệt về hai nơi, tránh dồn một bể quá nóng; mất một bể chuyển phần còn lại sang bể kia.",
+        "description_en": "Touch two basins to one receiving plate before branching to divide heat; losing one shifts its remainder into the other.",
+        "group_vi": "Chuyển nợ nhiệt",
+        "group_en": "Transfer the Heat Debt"
+      },
+      {
+        "name_vi": "Dẫn ấm sang ổ",
+        "name_en": "Lead Warmth to the Nest",
+        "description_vi": "Dùng đường trả đi qua lớp đệm ổ ươm để tận dụng nhiệt đang nhả rồi đưa dư về bể; phải giữ vật sống tách khỏi mặt trả trực tiếp.",
+        "description_en": "Pass the return through a nursery liner to use released warmth before sending excess to the basin; living things must stay clear of the direct return face.",
+        "group_vi": "Chuyển nợ nhiệt",
+        "group_en": "Transfer the Heat Debt"
+      },
+      {
+        "name_vi": "Trả trước khi dời",
+        "name_en": "Repay Before Moving",
+        "description_vi": "Xả một phần nợ trước khi chuyển hộp qua chặng nóng mới để giọt trắng còn chỗ nhận; chuyển bể trả cần khóa lượt lạnh trước.",
+        "description_en": "Discharge part of the debt before moving into another hot stage so the drop retains capacity; changing return basins requires closing the cold turn first.",
+        "group_vi": "Chuyển nợ nhiệt",
+        "group_en": "Transfer the Heat Debt"
+      },
+      {
+        "name_vi": "Hồi vật chậm",
+        "name_en": "Restore the Object Slowly",
+        "description_vi": "Giảm tiếp xúc dây lạnh từng đoạn để vật trở về nhiệt quanh nó dần, tránh cú đổi đột ngột; phần nợ đã tích vẫn cần trả hết.",
+        "description_en": "Reduce the cold-link contact in stages so the object returns gradually towards ambient warmth; accrued debt still needs full repayment.",
+        "group_vi": "Khép mùa mượn",
+        "group_en": "Close the Borrowed Season"
+      },
+      {
+        "name_vi": "Ngắt nguồn đã tan",
+        "name_en": "Release the Melted Source",
+        "description_vi": "Đặt phần nước tan của nguồn cũ cạnh đá rồi khép mọi dây để thôi gọi trạng thái băng đã mất, mở đường trả nốt khoản kéo dài.",
+        "description_en": "Set meltwater from the old source beside the gem and close every link to stop invoking its vanished ice state and settle an extended loan.",
+        "group_vi": "Khép mùa mượn",
+        "group_en": "Close the Borrowed Season"
+      },
+      {
+        "name_vi": "Rửa giọt trong",
+        "name_en": "Clear the White Drop",
+        "description_vi": "Sau khi trả đủ nhiệt, cho ngọc nghỉ cạnh nguồn lạnh cũ để giọt trở trong nếu chưa nứt; giọt vẫn đục báo còn khoản cần kiểm.",
+        "description_en": "After full repayment, rest the gem beside its old cold source so an uncracked drop clears; continued cloud warns of unresolved debt.",
+        "group_vi": "Khép mùa mượn",
+        "group_en": "Close the Borrowed Season"
+      },
+      {
+        "name_vi": "Mùa đông về chỗ",
+        "name_en": "Winter Goes Home",
+        "description_vi": "Đặt đá giữa dấu nguồn và dấu bể trả đã nguội, tháo dây cuối theo phía vật được cứu để kết lượt, cho cả hai trở lại điều kiện thật.",
+        "description_en": "Place the gem between the source mark and the cooled return-basin mark, removing the last link from the saved object’s side to end the turn and restore real conditions.",
+        "group_vi": "Khép mùa mượn",
+        "group_en": "Close the Borrowed Season"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mùa đông cần đường về",
+        "name_en": "Winter Needs a Way Home",
+        "description_vi": "Người giữ mượn một trạng thái chứ đo nhiệt ngoài hộp không nói hết khoản đang tích. Độ đục giọt là dấu quan trọng để biết phải kết lượt.",
+        "description_en": "A state is borrowed; an outer temperature reading does not reveal the whole accrued debt. Drop clouding is a crucial sign to end a turn."
+      }
+    ]
+  }
+]

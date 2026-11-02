@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-lam-ngoc-mu-khoi",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Lam ngọc kết dưới một lò hương nơi khói trôi xuống thay vì lên. Những người đào mở lòng lò thấy tinh thể mọc quanh một khoáng Vestigium giống mí mắt khép, từng lớp giữ đúng hình luồng hương đã đi qua. Khi được mang ra sáng, một viên tách khói làm hai, để giữa chúng hiện một đường nhìn sâu hơn khoảng thật của căn phòng.\n\nThợ trông đèn học mở, rẽ và ghi đường khói. Có lần người nhìn thấy sau màn một cánh cửa đã bị dỡ trước khi lò được xây; kẻ khác chỉ thấy mặt tường hiện tại. Hai lời đều được ghi lại. Ngọc cho một quyền nhìn, nhưng những thứ nó nhận làm phần cần bị che chưa chắc trùng điều mắt người gọi là hiện tại.",
+    "lore_en": "Blue gems condensed beneath an incense-furnace whose smoke descended. Excavators found crystals around an eyelid-shaped Vestigium mineral, their layers retaining passing incense. In daylight one parted smoke into two currents and exposed a sight-line deeper than the room’s actual interval.\n\nLampkeepers learnt to open, divert and record smoke-paths. One observer saw a door removed before the furnace was built; another saw the present wall. Both accounts remained. The gem granted sight, but its selection of concealment did not necessarily share human eyes’ present.",
+    "use_vi": "Tách các hạt khói, giữ đường nhìn hoặc dùng màn khói làm dấu và mặt ghi hình.",
+    "use_en": "Part smoke-particles, preserve sight-lines or use smoke as a mark and recording surface.",
+    "limits_vi": "Khí không mang hạt vẫn đi qua. Hình ngoài tầm nhìn trực tiếp có thể là dấu cũ; người dùng không được coi nó như lời xác nhận người ở đó hiện vẫn còn sống. Màn bị gió đổi nguồn có thể trả bụi đã giữ về mắt.",
+    "limits_en": "Particleless gases pass. Images beyond direct sight may be old traces, not proof of present life. Changed wind may return retained dust into the eyes.",
+    "skills": [
+      {
+        "name_vi": "Khe nhìn giữa khói",
+        "name_en": "A Sight-Cleft in Smoke",
+        "description_vi": "Hướng ngọc theo một tuyến để khói tách khỏi đúng khe ấy. Đổi hướng liên tục làm bụi dồn quanh mặt người giữ.",
+        "description_en": "Aim one line to part its smoke. Constant turning gathers dust around the holder’s face."
+      },
+      {
+        "name_vi": "Rẽ màn khỏi cửa",
+        "name_en": "Part the Door’s Curtain",
+        "description_vi": "Vạch khung cửa bằng ngọc để hạt khói qua rìa thay vì giữa. Nguồn khói mới chưa được nhận vẫn có thể lấp khung.",
+        "description_en": "Trace a doorframe to route accepted particles around it. Unaccepted smoke may still fill it."
+      },
+      {
+        "name_vi": "Giữ hình vừa khuất",
+        "name_en": "Keep the Newly Hidden Image",
+        "description_vi": "Cho một cảnh thật qua ngọc rồi phủ khói để hình còn trên màn. Nó giữ đường nét được nhìn, kể cả chỗ người nhìn đã bỏ sót.",
+        "description_en": "View a real scene and cover it with smoke to retain its seen outline, including omissions."
+      },
+      {
+        "name_vi": "Dấu lối trong màn",
+        "name_en": "A Trail Within the Curtain",
+        "description_vi": "Chạm ngọc vào các điểm nối để khói dựng một dấu đi liên tục. Người ngoài dấu cũng nhìn thấy đường nếu có cùng góc.",
+        "description_en": "Join marked points into a smoke-trail. Others sharing its viewing angle can see it too."
+      },
+      {
+        "name_vi": "Thu bụi về vòng",
+        "name_en": "Gather Dust to the Ring",
+        "description_vi": "Đặt một khay nhận cùng ngọc để hạt được kéo khỏi khe nhìn xuống đó. Khay no hoặc bị dời sẽ cho bụi rơi lại gần đá.",
+        "description_en": "A paired tray gathers cleared particles. A full or moved tray drops them near the gem."
+      },
+      {
+        "name_vi": "Lật mặt bị che",
+        "name_en": "Turn the Hidden Face",
+        "description_vi": "Xoay một vòng lam để hình mặt sát sau màn được đưa lên trước. Cảnh ấy có thể mang dấu lần trước màn được nhận, cần kiểm bằng mắt thật.",
+        "description_en": "Turn a ring to bring the immediate hidden face forward. It may retain an earlier acceptance and needs direct checking."
+      },
+      {
+        "name_vi": "Mượn bóng khói",
+        "name_en": "Borrow a Smoke-Shadow",
+        "description_vi": "Người tự đứng theo dấu ngọc cho bóng mình ở lại trên màn khi bước sang. Gió phá màn cắt cả bóng và có thể kéo cảm giác hướng của họ lệch theo.",
+        "description_en": "Leave a willing shadow upon smoke while stepping aside. Broken smoke may pull its bearer’s orientation with it."
+      },
+      {
+        "name_vi": "Khép lại mắt ngọc",
+        "name_en": "Close the Gem’s Eye",
+        "description_vi": "Gọi toàn bộ dấu đang mở về một khay để các vòng ngừng ghi. Quên một dấu khiến phần cảnh đó tiếp tục bám vào khói quanh mẫu.",
+        "description_en": "Recall open marks to a tray and close recording. A forgotten mark keeps its scene clinging around the sample."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mí mắt ở trong đá",
+        "name_en": "An Eyelid Within Stone",
+        "description_vi": "Các vòng lam khép khi người dùng cố nhìn mọi phía cùng lúc; chỉ chọn một đường khiến chúng chịu mở.",
+        "description_en": "Blue rings close when asked to see everywhere; one chosen route persuades them open."
+      }
+    ]
+  }
+]

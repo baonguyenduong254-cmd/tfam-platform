@@ -1,0 +1,27 @@
+/** Short editorial introductions distilled from the published faction lore. */
+export const factionTaglines:Record<string,{vi:string;en:string}>={
+ castilian_empire:{vi:'Một Tây Ban Nha dưới triều Isabella Testarossa de Aragón, nữ quân chủ hoàn toàn hư cấu.',en:'A Spain ruled by Isabella Testarossa de Aragón, an entirely fictional monarch.'},
+ holy_french_kingdom:{vi:'Một Napoleon mười sáu tuổi đưa cả ngai vàng lẫn giáo quyền về Paris.',en:'A sixteen-year-old Napoleon brings crown and papacy beneath the shadow of Paris.'},
+ western_roman_empire:{vi:'Romulus Augustulus đánh bại Odoacer, và đại bàng Tây La Mã tiếp tục hành quân.',en:'Romulus Augustulus defeats Odoacer, and the eagle of Western Rome marches on.'},
+ sultanate_of_morocco:{vi:'Một Maroc nơi người Moor và người Anh lưu vong cùng bảo vệ điều họ gọi là nhà.',en:'A Morocco where Moors and English exiles stand together to defend what they call home.'},
+ habsburg_poland:{vi:'Những ngai vàng mất vào tay Napoleon tìm đường trở lại từ liên minh Áo–Ba Lan.',en:'From an Austrian–Polish alliance, the crowns lost to Napoleon seek their road home.'},
+ novgorod_union:{vi:'Một nước Nga thống nhất dưới tiếng chuông Novgorod, với Pyotr Romanov do nghị hội bầu lên.',en:'A Russia united beneath the bell of Novgorod, with Pyotr Romanov elected by its council.'},
+ ottoman_empire:{vi:'Ahmed III sống sót qua cuộc binh biến, rồi dùng chính chiến thắng ấy tái đúc đế quốc.',en:'Ahmed III survives the revolt against his throne, then uses its defeat to reforge his empire.'},
+ danes_kingdom:{vi:'Margrete I trở lại Kalmar, đặt bốn vương quốc phương bắc dưới cùng một vương miện.',en:'Margrete I returns to Kalmar and binds four northern kingdoms beneath one crown.'},
+ scotland_ireland_union:{vi:'Chiến thắng của Criston Wallace mở ra một quần đảo nơi Scotland và Ireland tự định vận mệnh.',en:'Criston Wallace’s victory opens an age in which Scotland and Ireland determine their own fate.'},
+ england_ruins:{vi:'Một nước Anh đã mất, chỉ còn sống trong ký ức của những người vượt biển lưu vong.',en:'An England lost, living on in the memories of those who crossed the sea into exile.'},
+ new_portuguese_empire:{vi:'Mất thế đứng tại Iberia, vương triều Bồ Đào Nha dựng một đế quốc mới từ Rio de Janeiro.',en:'Driven from its Iberian foothold, the Portuguese crown builds a new empire from Rio de Janeiro.'},
+ british_east_india_company:{vi:'Khi nước Anh sụp đổ, một công ty trở thành nơi nương tựa của cả dân tộc lưu vong.',en:'When England falls, a trading company becomes the refuge of a nation in exile.'},
+ annam_empire:{vi:'Một Đại Việt nơi Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ sinh sớm hơn thời đại.',en:'A Đại Việt where Nguyễn Nhạc, Nguyễn Huệ and Nguyễn Lữ are born before their time.'},
+ ming_celestial_empire:{vi:'Trịnh Thành Công phục hưng nhà Minh, để long ngai tồn tại dưới bóng những chiến hạm họ Trịnh.',en:'Zheng Chenggong restores the Ming, leaving the Dragon Throne beneath the shadow of his family’s fleet.'},
+ nusantara_sultanate:{vi:'Hasanuddin đánh bật người Hà Lan, rồi thống nhất quần đảo dưới quân kỳ Makassar.',en:'Hasanuddin drives out the Dutch, then unites the archipelago beneath the banner of Makassar.'},
+ tokugawa_empire:{vi:'Yoshimune biến samurai thành sĩ quan, và đưa một Nhật Bản cải cách vượt biển sang Triều Tiên.',en:'Yoshimune turns samurai into officers and carries a reformed Japan across the sea to Korea.'},
+ eternal_sky_khanate:{vi:'Anu cứu Galdan tại Zuunmod, mở đường cho một Đại Hãn quốc trở lại Karakorum.',en:'Anu saves Galdan at Zuunmod, opening the road for a new Great Khanate to return to Karakorum.'},
+ safavid_empire:{vi:'Nader cứu vương triều Safavid, rồi giữ binh quyền thay cho chiếc vương miện được dâng tới.',en:'Nader saves the Safavid dynasty, choosing command of its armies over the crown he is offered.'},
+ aksumite_empire:{vi:'Tewodros II xuất hiện sớm giữa thời đại băng giá, phục hưng Aksum bằng tiếng đại bác.',en:'Tewodros II rises before his time and restores Aksum to the thunder of cannon.'},
+ songhai_empire:{vi:'Muhammad Ture tái lập Songhai, đưa Timbuktu trở lại trung tâm của một đế quốc chinh phạt.',en:'Muhammad Ture restores Songhai and returns Timbuktu to the heart of a conquering empire.'},
+ kongo_confederation:{vi:'Kimpa Vita sống qua phiên tòa, rồi đưa đức tin bản địa tới trước những ngai vàng Kongo.',en:'Kimpa Vita survives her trial and brings an African faith before the thrones of Kongo.'},
+ swahili_league:{vi:'Các thương cảng Swahili tự giải phóng Mombasa, rồi trao hạm đội chung cho Asha bint Salim.',en:'The Swahili ports liberate Mombasa themselves, then entrust their united fleet to Asha bint Salim.'},
+ cape_republic:{vi:'Bản kiến nghị của Adam Tas trở thành cuộc cách mạng giành lấy cửa ngõ Mũi Hảo Vọng.',en:'Adam Tas’s petition becomes a revolution that seizes the gateway of the Cape.'},
+ merina_empire:{vi:'Madagascar thống nhất sớm, và Radama I đưa tham vọng của Merina ra khắp đại dương.',en:'Madagascar unites before its time, and Radama I carries Merina’s ambitions onto the ocean.'}
+};

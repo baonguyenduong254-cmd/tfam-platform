@@ -1,0 +1,272 @@
+[
+  {
+    "id": "device-005",
+    "mode": "prepend",
+    "lore_vi": "Hộp kim được lôi khỏi băng cùng chìa kho nhà người gác đã bỏ đi. Chiếc kim đầu tiên xoay khiến thợ tưởng có ai bên dưới đang mở khóa mùa đông.",
+    "lore_en": "The needles were pulled from ice with the departed keeper's house-key. The first turning made the craftsman imagine someone below unlocking winter."
+  },
+  {
+    "id": "device-006",
+    "mode": "prepend",
+    "lore_vi": "Người may khóa vào áo con trước ca gác đầu. Tới sáng, vạt áo khô nằm giữa những phần vải nặng sương như một khoảng được chăm sóc riêng.",
+    "lore_en": "A mother sewed it into her son's coat before his first watch. By morning its dry seam lay among dew-heavy cloth like a separately tended place."
+  },
+  {
+    "id": "device-007",
+    "mode": "prepend",
+    "lore_vi": "Trong lò gốm, đĩa rè dưới chồng bát trước khi chiếc dưới cùng chịu rạn. Người học việc đặt tên nó theo giọng thầy những ngày trái gió.",
+    "lore_en": "In the pottery it rasped beneath a stack before the bottom bowl cracked. An apprentice named it for his master's voice on ill-tempered days."
+  },
+  {
+    "id": "device-008",
+    "mode": "prepend",
+    "lore_vi": "Người chưng cất đánh dấu bằng than mỗi lần ống đếm hết vòng. Sau một đêm sốt, ông dựa vào những dấu ấy để biết mình còn đủ thuốc cho ai.",
+    "lore_en": "A distiller marked each completed circuit in charcoal. After a feverish night, those marks told him whom he still had medicine for."
+  },
+  {
+    "id": "device-009",
+    "mode": "prepend",
+    "lore_vi": "Chiếc nút nằm lại trên cổ áo lính gác đã sờn, giữ nếp chỉnh tề lâu hơn cả người từng biết cách vuốt nó thẳng. Thợ may nhận ra lõi nút luôn lạnh sau mỗi lần vải tự trở về.",
+    "lore_en": "The button remained on a worn sentry's collar, outlasting the hand that had smoothed it. Its tailor noticed the core always cooled when the cloth returned to its fold."
+  },
+  {
+    "id": "device-010",
+    "mode": "prepend",
+    "lore_vi": "Một người bán gạo dùng quả cân qua mùa gió lùa, đếm bảy nhịp trước khi nhận tiền của người mua. Lạnh từ lõi bạc dần làm sợi treo trắng sương.",
+    "lore_en": "A rice-seller counted seven swings before accepting payment in the draughty market. Cold from the silver core slowly frosted its cord."
+  },
+  {
+    "id": "device-011",
+    "mode": "prepend",
+    "lore_vi": "Trong bếp phát chẩn, chiếc thìa đi qua mọi nồi trước khi trẻ được gọi vào. Chấm xám nhỏ từng buộc người đầu bếp đổ bỏ cả phần ăn mình đã thức đêm nấu.",
+    "lore_en": "In a relief kitchen the spoon visited every pot before the children entered. Its grey spot once made the cook discard a meal he had spent the night preparing."
+  },
+  {
+    "id": "device-012",
+    "mode": "prepend",
+    "lore_vi": "Thợ may tìm được hai chụp đèn trong hộp đồ của một người lính mù một mắt. Bóng sợi chỉ bước lệch khỏi bóng vải, mở ra đường khâu cho những đôi tay đã mỏi vì rét.",
+    "lore_en": "A tailor found the twin shades among a one-eyed soldier's things. Thread-shadow stepped away from cloth-shadow, exposing a seam for hands wearied by cold."
+  },
+  {
+    "id": "device-013",
+    "mode": "prepend",
+    "lore_vi": "Con dấu được nhặt trên kiện hàng không bao giờ tới đúng cảng. Những đốm trắng đầu tiên mọc trên sáp khiến người nhận biết biển đã chạm vào vật bên trong trước mình.",
+    "lore_en": "The seal came from cargo that never reached its intended port. White spots in its wax told the recipient the sea had touched the contents first."
+  },
+  {
+    "id": "device-014",
+    "mode": "prepend",
+    "lore_vi": "Người sửa yên tháo sợi lông bàn chải để tìm bí quyết, nhưng sợi rời chỉ còn như sừng thường. Cả bàn chải nguyên mới biết gỡ mùa đông khỏi da thuộc mà không xé phần da theo.",
+    "lore_en": "A saddler detached a bristle to learn its secret; alone it was ordinary horn. Only the whole brush knew how to lift winter from leather without tearing the hide."
+  },
+  {
+    "id": "device-015",
+    "mode": "prepend",
+    "lore_vi": "Một người gác đêm thôi thổi vì hụt hơi, nghe nốt cuối tự trở lại từ lòng sáo. Từ đó tiếng gọi đổi ca luôn có một giọng thứ hai theo sau, nhỏ và trễ như người còn buồn ngủ.",
+    "lore_en": "A night-watchman ran out of breath and heard the last note return from within the flute. Thereafter every change-of-watch call had a second voice, soft and late as someone still half asleep."
+  },
+  {
+    "id": "device-016",
+    "mode": "prepend",
+    "lore_vi": "Người thợ đóng sách lắp kẹp cho học trò hay ngủ gục. Đêm ông chết, nó vẫn rung trên dòng cuối chưa ai đọc tiếp, giữ một công việc nhỏ hơn mọi nỗi đau trong phòng.",
+    "lore_en": "A binder made it for a drowsy apprentice. On the night he died it still trembled over the unfinished final line, keeping a duty smaller than all the grief in the room."
+  },
+  {
+    "id": "device-017",
+    "mode": "prepend",
+    "lore_vi": "Bình được thổi cho người buôn hương mang mùi quê nhà sang bến khác. Đổ hết mẫu đầu, người ấy vẫn nhận ra nó mỗi lần mở nắp, tới khi chẳng còn nhớ rõ gương mặt người đã trao.",
+    "lore_en": "It was blown for a scent-merchant taking home across the sea. The first sample was gone, yet its smell returned at every opening, long after the giver's face had grown uncertain."
+  },
+  {
+    "id": "device-018",
+    "mode": "prepend",
+    "lore_vi": "Thợ làm len tìm thấy lõi lược phát ấm sau mỗi lượt kéo tro. Những chiếc răng xám được giữ nguyên, mang việc bẩn của một đám cháy ra khỏi từng sợi áo còn cứu được.",
+    "lore_en": "A wool-worker found its core warming after each passage through ash. Its grey teeth carried a fire's dirty aftermath out of every salvageable thread."
+  },
+  {
+    "id": "device-019",
+    "mode": "prepend",
+    "lore_vi": "Người gác cửa già lắp vòng vào then khi tay mình bắt đầu yếu. Tiếng rung nhắc ông quay lại, để nỗi quên được sửa trước khi cả nhà chìm vào giấc ngủ.",
+    "lore_en": "An ageing doorkeeper fitted it when his hands weakened. Its vibration called him back, letting forgetfulness be repaired before the household slept."
+  },
+  {
+    "id": "device-020",
+    "mode": "prepend",
+    "lore_vi": "Thợ tháo một đường may sai rồi nhìn qua kính, thấy bóng sợi vẫn nằm nguyên trên áo. Ông lần theo bóng ấy để học chỗ người thợ trước đã từng đặt tay.",
+    "lore_en": "A tailor unpicked a faulty seam and saw its thread-shadow still in the coat. He followed it to learn where the earlier maker's hand had rested."
+  },
+  {
+    "id": "device-021",
+    "mode": "prepend",
+    "lore_vi": "Chiếc chuông treo ở bến đổi giọng theo sương, khiến người lái đò nhắm mắt vẫn biết khoảng trắng trước mũi đã dày thêm. Vòng khoáng quanh miệng chuông luôn ướt khi trời khô.",
+    "lore_en": "Hung at a landing, its changing note told a ferryman how thick the whiteness ahead had grown. The mineral ring around its mouth stayed wet in dry air."
+  },
+  {
+    "id": "device-022",
+    "mode": "prepend",
+    "lore_vi": "Người đi đường nhặt địa bàn dưới ghế quán trọ và thấy kim ngoảnh về ba nơi mình vừa chịu ngồi nghỉ. Những điểm dừng biến thành một sợi dây ngắn buộc người sống với đường đã qua.",
+    "lore_en": "A traveller found it beneath an inn bench and saw its needle favour his three recent resting places. Those halts became a short tether to the road behind."
+  },
+  {
+    "id": "device-023",
+    "mode": "prepend",
+    "lore_vi": "Khung gỗ được dựng trước chiếc tủ gia truyền, để lộ những khoảng nhạt nơi mọt đã ăn thành phòng rỗng. Người chủ lần đầu thấy đồ vật cũ có thể mất dần ruột mà bề ngoài vẫn như một ký ức nguyên vẹn.",
+    "lore_en": "Before an heirloom cabinet, the frame exposed pale chambers eaten by worms. Its owner saw how an old thing could lose its heart while preserving memory's outward shape."
+  },
+  {
+    "id": "device-024",
+    "mode": "prepend",
+    "lore_vi": "Thầy thuốc đặt đồng hồ cạnh nồi sắc và nhìn cát chậm đi khi nước cô. Hạt đen trong eo thủy tinh mang mùi dược liệu dù chưa từng được mở để chạm thuốc.",
+    "lore_en": "An apothecary watched its sand slow beside a reducing pot. The black grain in its glass neck smelled of herbs despite the vessel never being opened."
+  },
+  {
+    "id": "device-025",
+    "mode": "prepend",
+    "lore_vi": "Thợ lặn chia cặp ống cho người bạn ở đầu dây, tập nhịp gọi nhau trước khi xuống. Dưới nước tối, những tiếng gõ đến như một bàn tay đặt vào mặt nạ.",
+    "lore_en": "Divers divided the paired tubes and rehearsed their calls before descending. In dark water the knocks arrived like a hand upon the mask."
+  },
+  {
+    "id": "device-026",
+    "mode": "prepend",
+    "lore_vi": "Người chép thấy nét bút đã mất tờ gốc nổi lại trên giấy ép. Bàn giữ sức nặng của từng lần viết, trả về phần lời tưởng đã theo người mang giấy rời khỏi phòng.",
+    "lore_en": "A copyist saw lost writing rise upon pressed paper. The desk held the pressure of every stroke, returning words thought to have departed with their page."
+  },
+  {
+    "id": "device-027",
+    "mode": "prepend",
+    "lore_vi": "Người làm khóa để lại ba vòng thay cho một chìa, buộc kho lương chỉ mở dưới những bàn tay cùng chấp nhận giữ nó. Vòng nguội đi khi một người rút ý thuận, để hai người còn lại cảm được sự vắng mặt ấy.",
+    "lore_en": "The maker left three rings in place of a key, entrusting the granary to consenting hands. A ring cooled when consent was withdrawn, letting the other keepers feel the absence."
+  },
+  {
+    "id": "device-028",
+    "mode": "prepend",
+    "lore_vi": "Người ghi lời khai nhận ra một tiếng nấc vẫn nằm trong nét chữ đã khô. Từ đó ông đợi người nói lấy lại hơi trước khi đặt bút, biết cả phần run cũng sẽ bị giữ theo.",
+    "lore_en": "A recorder discovered a sob within dried writing. Thereafter he let witnesses recover their breath before putting pen down, knowing the tremor would be kept too."
+  },
+  {
+    "id": "device-029",
+    "mode": "prepend",
+    "lore_vi": "Đèn được chuyển qua nhiều bệnh xá cùng những tấm băng cũ làm mẫu. Dưới ánh của nó, người trực thấy từng lớp đỏ tách nhau như một tờ giấy đau đớn đang được mở ra.",
+    "lore_en": "The lamp travelled between infirmaries with old bandages for reference. Beneath it, layers of red parted like a painful folded page."
+  },
+  {
+    "id": "device-030",
+    "mode": "prepend",
+    "lore_vi": "Thợ dệt lấy hơi nóng từ nồi nước cuối ca đưa vào dải vải mới. Khi lõi khung bắt đầu sáng, những sợi dọc trông như một hàng cửa sổ nhỏ đang có người ở.",
+    "lore_en": "A weaver fed the last pot's warmth into fresh cloth. As the frame's core lit, its warp resembled a row of inhabited windows."
+  },
+  {
+    "id": "device-031",
+    "mode": "prepend",
+    "lore_vi": "Cối được giữ từ một xưởng nằm cạnh đường pháo kéo. Bên ngoài, cửa kính rung; trong lòng cối, bột vẫn yên như chưa hề biết có đoàn quân đi qua.",
+    "lore_en": "The mortar came from a workshop beside an artillery road. Windows shook while its powder lay as though unaware of the passing army."
+  },
+  {
+    "id": "device-032",
+    "mode": "prepend",
+    "lore_vi": "Người thợ thấy vạch cũ hiện cạnh mép gỗ co lại, như thanh thước đang nhớ hộ thân cây hình mình trước rét. Ông giữ cả mảnh gỗ ngắn làm chứng cho lần đo đầu.",
+    "lore_en": "A craftsman saw the old mark beside shrunken wood, as though the ruler remembered the tree's pre-winter shape. He kept that short piece as the first measurement's witness."
+  },
+  {
+    "id": "device-033",
+    "mode": "prepend",
+    "lore_vi": "Đôi găng ra đời sau lần thợ kính đứt tay trong nhà lạnh. Nó lấy hơi ấm từ chính cổ tay để ép mép vỡ lại, khiến mỗi lần cứu kính đều để người cứu lạnh thêm.",
+    "lore_en": "The gloves followed a glassworker's cut in a cold house. They took his wrist's warmth to press broken edges together, each saved pane leaving its saviour colder."
+  },
+  {
+    "id": "device-034",
+    "mode": "prepend",
+    "lore_vi": "Người giữ mẫu tìm hạt tuyết nguyên trong nắp giữa mùa ấm của một gian lò. Nó làm thứ sống bên dưới chậm đổi khác, như để dành một đoạn mùa còn chưa được dùng.",
+    "lore_en": "The keeper found intact snow in the lid amid a furnace-room's warmth. It slowed the living sample's change as though reserving an unspent length of season."
+  },
+  {
+    "id": "device-035",
+    "mode": "prepend",
+    "lore_vi": "Người qua sông giơ kính trước lớp băng, thấy những dòng sáng vẫn đi bên dưới mặt chết. Thợ lắp lõi từng ghi trên cán: nước còn đường của nó.",
+    "lore_en": "A river-crosser saw bright currents travelling beneath the dead surface. The core-setter had inscribed the handle: water still has its road."
+  },
+  {
+    "id": "device-036",
+    "mode": "prepend",
+    "lore_vi": "Tên đầu tiên được viết cho một đứa trẻ lạc chợ. Chuông rung giữa bao tiếng gọi, trao một tiếng rất nhỏ cho người mẹ đã khản cổ.",
+    "lore_en": "Its first name belonged to a child lost in a market. Among the cries, the bell lent one small note to a mother whose voice was gone."
+  },
+  {
+    "id": "device-037",
+    "mode": "prepend",
+    "lore_vi": "Thợ lặn thử bình bằng hơi mình trước khi trao cho người khác. Trong thành trong, những giọt nước tụ lại theo đúng nhịp thở đã được gửi vào, như một người còn ngồi chờ phía sau lớp đồng.",
+    "lore_en": "The diver tried it with his own breath before handing it on. Inside, droplets gathered to its stored rhythm, like someone waiting behind the copper."
+  },
+  {
+    "id": "device-038",
+    "mode": "prepend",
+    "lore_vi": "Bản lề được tháo khỏi cửa một căn nhà cháy, vẫn kéo về phía người đã thoát. Lắp sang cánh mới, nó giữ hướng mở ấy như một thói quen cứu người chưa chịu chết cùng gỗ cũ.",
+    "lore_en": "The hinge came from a burnt house and still pulled towards its survivors' route. On a new door it kept that direction like a rescuing habit outliving its wood."
+  },
+  {
+    "id": "device-039",
+    "mode": "prepend",
+    "lore_vi": "Hai người giữ thư đổi nhau giấy trắng cùng lô rồi đi về hai bờ. Nét mực xuất hiện trong hộp bên kia, để một đường viết có thể được chạm ở nơi bàn tay chưa từng tới.",
+    "lore_en": "The correspondents divided blank sheets from one batch. Ink appeared across the water, letting a written line be touched where its writing hand had never been."
+  },
+  {
+    "id": "device-040",
+    "mode": "prepend",
+    "lore_vi": "Giá gương được làm cho người chữa có bàn tay run. Khi ảnh mạch tách khỏi ảnh những ngón của mình, ông lần đầu nhìn người bệnh mà bớt thấy nỗi sợ của chính mình che lên.",
+    "lore_en": "It was made for a healer with trembling hands. The separated pulse-image let him examine a patient with less of his own fear obscuring the view."
+  },
+  {
+    "id": "device-041",
+    "mode": "prepend",
+    "lore_vi": "Người gõ trống đánh dấu bằng phấn từng mảng nền đổi màu rung. Một người nghe dưới hầm đáp lại, cho tấm da trống thành mặt cửa mà hai phía cùng tìm đến.",
+    "lore_en": "Its drummer chalked patches where vibration changed colour. Someone below answered, turning the drumskin into a door sought from both sides."
+  },
+  {
+    "id": "device-042",
+    "mode": "prepend",
+    "lore_vi": "Đèn được để lại cho người chép danh sách sau một ca cứu hộ dài. Mỗi lần mí mắt ông khép, lửa nhỏ xuống theo, buộc người vào thay phải ngồi tỉnh cùng ánh sáng.",
+    "lore_en": "The lamp remained with a rescuer copying names after a long watch. It dimmed as his eyes closed, requiring his replacement to sit awake with the light."
+  },
+  {
+    "id": "device-043",
+    "mode": "prepend",
+    "lore_vi": "Chiếc đồng hồ được đặt cạnh một thao tác khó mà người thợ chỉ có một cơ hội làm đúng. Kim phụ đi chậm trong cảm nhận, để từng hạt bụi trên lưỡi dụng cụ trở nên rõ như đá. Sau đó mệt mỏi dồn về cùng lúc.~Sổ thợ gọi đó là phút vay từ chính cơ thể: tay có thêm khoảng để lựa, còn người vẫn phải trả đủ đời sống đã tiêu trong phút ấy.",
+    "lore_en": "The watch stood beside a delicate operation offering one chance. Its subsidiary hand slowed in perception until dust on the tool looked like stone. Afterwards exhaustion arrived together.~The craftsman's book calls it a minute borrowed from the body: the hand gains room to choose while its owner repays every part of the life spent within it."
+  },
+  {
+    "id": "device-044",
+    "mode": "prepend",
+    "lore_vi": "Một thủy thủ mất quê nhận la bàn rồi thấy kim chỉ về bếp của người đã cho mình ngủ nhờ. Càng cố nghĩ tới thành phố sinh ra, kim càng đứng yên theo hướng ấy. Trong lõi có một vòng kim loại đổi ấm khi người cầm thôi chống lại điều mình nhận được.~Người đi xa vì thế giữ nó cất kín, chỉ mở khi đã dám biết nơi nào từng thực sự đón mình vào.",
+    "lore_en": "A sailor without a homeland received the compass and saw it point to a host's kitchen. Thinking of his birthplace could not move it. A metal ring warmed when he ceased resisting what it offered.~Travellers keep it closed until they dare discover where they were truly welcomed."
+  },
+  {
+    "id": "device-045",
+    "mode": "prepend",
+    "lore_vi": "Người đóng hộp làm nó cho một giọng hát đã yếu vì bệnh. Bài được hát tự nguyện tới nốt cuối, rồi người hát chẳng còn sức lặp lại. Nhiều năm sau, cơ cấu đồng vẫn mở đúng chỗ lấy hơi, giữ cả nhịp chờ trước một chữ khó.~Gia đình chỉ lên dây trong ngày có người chịu ngồi nghe hết. Cái chết giữ được im lặng của mình, còn bài hát giữ cách một người từng tự chọn bước ra khỏi im lặng ấy.",
+    "lore_en": "Its maker built it for a voice weakened by illness. One willing performance reached the final note; its singer could not repeat it. Years later brass still opened at the same breaths and waited before the same difficult word.~The family winds it only for listeners who stay to the end. Death keeps its silence; the song preserves how someone chose to emerge from it."
+  },
+  {
+    "id": "device-046",
+    "mode": "prepend",
+    "lore_vi": "Người chuyển thư sống sót sau trận lở tuyết đã nhớ tới dấu ấn đúng lúc sắp rẽ khỏi đường. Từ đó, phong thư mang một sự hiện diện nhỏ trong trí người đưa, đủ lên tiếng bằng cảm giác quên điều quan trọng.~Các lá thư thất lạc khác vẫn nằm trong kho. Người giữ ấn hiểu thứ quý ở nó là khả năng buộc một người bận rộn nhớ rằng còn ai đó đang chờ ở cuối việc mình được giao.",
+    "lore_en": "A courier survived an avalanche after remembering its seal before a wrong turning. Thereafter the letter lived in its carrier's mind as the feeling of something important left undone.~Other lost letters remain in storage. The seal's worth is its insistence that a busy person remember someone waiting at the end of an entrusted task."
+  },
+  {
+    "id": "device-047",
+    "mode": "prepend",
+    "lore_vi": "Kính được mài từ mặt gương của một người chuyên cạo hồ sơ cũ. Dưới nó, chữ mất màu trở lại khi kẻ xóa vẫn còn nhớ, như vết cắt tìm được phần da từng mang mình. Người dùng đầu tiên nhìn tới một dòng rồi úp kính xuống rất lâu.~Khi ký ức người xóa mất đi, cửa đọc cũng khép. Kẻ giữ chứng cứ vì thế phải chạy đua với chính sự lãng quên của người muốn chôn nó.",
+    "lore_en": "The lens came from a record-eraser's mirror. Through it, scraped letters returned while their eraser still remembered, like a cut finding the skin that bore it. Its first user read one line, then laid the glass down for a long time.~When that memory goes, the window closes. Evidence must outrun the forgetting of the person who wished to bury it."
+  },
+  {
+    "id": "device-048",
+    "mode": "prepend",
+    "lore_vi": "Hai người buôn đặt kỷ vật lên cân trước chuyến chia đường. Kim đứng giữa cho tới ngày một bên tự hiểu lời mình theo nghĩa tiện hơn; từ đó đĩa nghiêng dù chẳng ai dời vật.~Chiếc cân được truyền tay giữa những người sợ lời hứa đổi hình trong miệng mình. Nó giữ nguyên câu đã được nhận, còn người đứng trước phải tự nhìn khoảng lệch giữa câu ấy và điều mình đang muốn nó có nghĩa.",
+    "lore_en": "Two merchants set keepsakes upon the balance before parting. It held level until one privately gave the agreement a more convenient meaning; then it tilted without either object moving.~It passes among people fearing what their own promises may become. The original words remain, confronting each owner with the interval between their agreement and their wishes."
+  },
+  {
+    "id": "device-049",
+    "mode": "prepend",
+    "lore_vi": "Chìa khóa được nhặt trên cổ một người coi bệnh xá đã ngủ gục trước cửa. Khi phòng còn đang cứu chữa, ổ giữ cánh cửa khỏi những lần mở nhầm; răng chìa ấm lên theo tiếng chân ngoài hành lang.~Người tiếp quản đeo nó bên thắt lưng, dành cho nơi người bên trong cần thêm một khoảng tập trung mà thế giới bên ngoài thường chẳng biết giữ. Chìa chỉ giữ ngưỡng cửa, để việc sống chết vẫn ở trong những bàn tay đang làm việc.",
+    "lore_en": "The key was found around an infirmary keeper's neck where he had fallen asleep outside. While treatment continued, the lock resisted mistaken openings; its teeth warmed to footsteps in the corridor.~His successor wears it for rooms needing a little concentration the world seldom grants. It holds the threshold, leaving life and death in the working hands within."
+  }
+]

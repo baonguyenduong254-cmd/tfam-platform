@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-thach-hut-muoi",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Người quét ống khói ném những hòn đá trắng vào một đoạn lò đã ám lớp bụi đen có ánh xanh. Sau lần quét, mấy viên không chịu rơi: chúng bám dưới trần bằng những sợi muội kéo căng. Anh tháo được chúng xuống, nhìn từng lỗ trên đá mở ra như lỗ chân lông vừa học cách thở.\n\nChỉ phần đá đã ngâm trong bụi lò ấy giữ được phản ứng. Đặt cạnh bấc, chúng kéo hạt muội vào lòng mình và đen dần từ ngoài vào. Những người dùng đầu tiên gọi đó là thói ăn của ống khói đã chuyển sang đá. Khi viên cuối cùng đen kín, nó vỡ nhẹ như vật đã bị nuôi no bằng chính phần bẩn của ánh sáng.",
+    "lore_en": "A chimney-sweeper threw white stones into a flue coated in blue-glinting soot. After sweeping, several hung beneath its ceiling by taut soot-filaments. He detached them and watched their pores open like skin newly learning to breathe.\n\nOnly stones soaked in that furnace-dust retained the response. Beside a wick they drew soot inward and darkened. Early users called it a chimney’s appetite transferred into stone. Once fully black, the last sample crumbled as though fed to fullness upon light’s dirty remainder.",
+    "use_vi": "Gom muội từ một ngọn đèn gần mặt đá, giúp mặt kính hoặc đồ bên cạnh bớt ám khói.",
+    "use_en": "Gather soot from a nearby lamp, reducing deposits on glass and surrounding objects.",
+    "limits_vi": "Khí không mang hạt muội vẫn đi qua. Đá đen kín có thể rã bụi; đem gần nước hoặc để trẻ chạm sẽ chuyển cái bẩn đã giữ sang nơi khác.",
+    "limits_en": "Sootless gases pass freely. A blackened stone may shed dust; water or a child’s touch can transfer its burden elsewhere.",
+    "skills": [
+      {
+        "name_vi": "Gọi hạt muội",
+        "name_en": "Call the Soot",
+        "description_vi": "Đặt mặt trắng hướng về ngọn bấc để muội đi vào các lỗ. Dời đá quay mặt đen lại không lọc thêm và có thể nhả bụi đã giữ.",
+        "description_en": "Face its white side towards a wick to draw soot into its pores. A saturated face accepts no more and may release retained dust."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ăn phần bẩn của sáng",
+        "name_en": "Eating Light’s Dirt",
+        "description_vi": "Độ trắng còn lại cho biết phần mặt chưa no; cạo lớp ngoài không trả lại sức chứa bên trong.",
+        "description_en": "Remaining white shows unsated surface; scraping does not restore interior capacity."
+      }
+    ]
+  }
+]

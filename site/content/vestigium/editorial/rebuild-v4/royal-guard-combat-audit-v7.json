@@ -1,0 +1,981 @@
+{
+  "status": "audit-only-live-unchanged",
+  "basis": "Read current source use, skills and limits for102 deployment dossiers spanning100 Guard numbers. This is a combat-role editorial audit, not fresh manuscript verification.",
+  "author_direction": "Prioritize final names and forms, all Guard gear needs meaningful combat utility in any form. Do not equate non-damaging support with uselessness. Civilian concepts can survive in general collection.",
+  "counts": {
+    "canon-protected": 17,
+    "core-redesign": 25,
+    "canon-correction": 1,
+    "combat-core-present-needs-refinement": 44,
+    "scope-redesign": 15
+  },
+  "priority_redesign_numbers": [
+    5,
+    6,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    35,
+    40,
+    45,
+    46,
+    48,
+    50,
+    51,
+    53,
+    54,
+    56,
+    57,
+    58,
+    60,
+    62,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    75,
+    76,
+    79,
+    81,
+    83,
+    84,
+    86,
+    90,
+    91,
+    93,
+    98
+  ],
+  "findings": [
+    "Civilian production and rescue concepts dominate too many slots.",
+    "Consent, treatment-only and rescue-only triggers frequently prevent the claimed battlefield use.",
+    "Names imply authority absent from actual mechanics.",
+    "Repeated recognition/identity/door/forge concepts reduce variety.",
+    "High ranks do not consistently earn their power scale."
+  ],
+  "records": [
+    {
+      "number": 1,
+      "id": "complex-uno-speculum",
+      "name_vi": "Uno. Thế Giới Xích Gương Speculum",
+      "rarity": 6,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 2,
+      "id": "complex-dos-sutura",
+      "name_vi": "Dos. Huyết Chỉ Sinh Mệnh Sutura",
+      "rarity": 5,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 3,
+      "id": "armament-tres-vinculum",
+      "name_vi": "Tres. Liên Kiếm Bách Phiến Vinculum",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 4,
+      "id": "device-cuatro-zodiacum",
+      "name_vi": "Cuatro. Thiên Đồ Thập Nhị Zodiacum",
+      "rarity": 6,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 5,
+      "id": "device-035",
+      "name_vi": "Cinco. Thủy Kính Dẫn Lộ Vados",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Soi băng và đáy sông; giới hạn sóng phá quan sát, không có quyền chiến đấu riêng."
+    },
+    {
+      "number": 6,
+      "id": "device-036",
+      "name_vi": "Seis. Hồi Danh Truy Chung Vocator",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Gọi người quen và chờ trả lời; không theo được mục tiêu im lặng hay cưỡng ép đối phương."
+    },
+    {
+      "number": 7,
+      "id": "armament-siete-fidelis",
+      "name_vi": "Siete. Trọng Đao Lạc Thệ Fidelis",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 7,
+      "id": "armament-siete-victoria-fidelis",
+      "name_vi": "Siete. Thệ Kiếm Hộ Vệ Fidelis",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "canon-correction",
+      "finding_vi": "Hồ sơ sabre Fidelis tự sáng tác đang thay chỗ Absolución. Phải đối chiếu bản thảo rồi thay đúng hồ sơ."
+    },
+    {
+      "number": 8,
+      "id": "armament-marco-octava-forja",
+      "name_vi": "Ocho. Công Xưởng Thất Khối Octava Forja",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 9,
+      "id": "armament-guard-009-bastion",
+      "name_vi": "Nueve. Pháo Lệnh Hải Tâm Bastion",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Có công phá mạn tàu thật. Mục công dụng viết yếu hơn kỹ năng; phải làm rõ đường truyền lực khi biển động."
+    },
+    {
+      "number": 10,
+      "id": "armament-guard-010-concordia",
+      "name_vi": "Diez. Chiến Kỳ Hợp Quân Concordia",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ phương hướng cho cả quân đội chống nhiễu không gian là lợi thế chỉ huy có giá trị; cần nêu rõ phạm vi đội hình."
+    },
+    {
+      "number": 11,
+      "id": "device-037",
+      "name_vi": "Once. Hải Tức Tàng Bình Anhelus",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Giữ một hơi thở cho người ngậm bình; công dụng quá hẹp, không tác động trận đánh."
+    },
+    {
+      "number": 12,
+      "id": "armament-oathbearer",
+      "name_vi": "Doce. Thiết Thủ Thừa Lôi Oathbearer",
+      "rarity": 5,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 12,
+      "id": "armament-romeo-oathbreaker",
+      "name_vi": "Doce. Lôi Phủ Phá Thệ Oathbreaker",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 13,
+      "id": "device-038",
+      "name_vi": "Trece. Hồi Môn Tinh Bản Limen",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Mở lại đúng cánh cửa còn đủ bản lề và khung; phụ thuộc vật thể nguyên vẹn, thiên cứu hộ."
+    },
+    {
+      "number": 14,
+      "id": "device-039",
+      "name_vi": "Catorce. Song Bờ Thư Hạp Epistola",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Chép nét viết qua một cặp giấy dùng một lượt; liên lạc hữu ích nhưng chưa đủ đặc sắc cho cận vệ."
+    },
+    {
+      "number": 15,
+      "id": "device-040",
+      "name_vi": "Quince. Ngoại Khoa Tam Kính Intus",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Ba kính phải cùng soi vật đứng đủ yên; chủ yếu chẩn đoán, chưa có thao tác chiến đấu."
+    },
+    {
+      "number": 16,
+      "id": "device-051",
+      "name_vi": "Dieciséis. Địa Cầu Bến Mất Portolano",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Mở hải trình mất cho cả đoàn tàu là cơ động chiến lược mạnh; giữ điều kiện ký ức nhưng chốt cách đóng mở dưới hỏa lực."
+    },
+    {
+      "number": 17,
+      "id": "armament-guard-017-humerus",
+      "name_vi": "Diecisiete. Giáp Vai Gánh Thành Humerus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ gánh đống sập trong một cam kết cứu người; chưa chặn được đòn đánh như giáp cận vệ."
+    },
+    {
+      "number": 18,
+      "id": "device-041",
+      "name_vi": "Dieciocho. Địa Mạch Thạch Cổ Cavitas",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Dò khoảng rỗng bằng hồi âm; năng lực công binh còn sơ cấp, không can thiệp địa tầng."
+    },
+    {
+      "number": 19,
+      "id": "device-042",
+      "name_vi": "Diecinueve. Trường Dạ Giám Đăng Vigilia",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Chỉ ghi ca trực và điểm kết thúc, không phát hiện xâm nhập hay phản ứng bảo vệ."
+    },
+    {
+      "number": 20,
+      "id": "device-043",
+      "name_vi": "Veinte. Song Diện Hoãn Chung Mora",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Can thiệp trước kết quả có tiềm năng phản đòn lớn. Khái niệm một tiến trình còn mơ hồ, cần ví dụ chiến đấu và thời lượng."
+    },
+    {
+      "number": 21,
+      "id": "armament-collection-5-01",
+      "name_vi": "Veintiuno. Hậu Môn Trọng Thuẫn Posternum",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Chuyển điểm chạm đòn về khiên là phòng thủ thực. Cần chốt sức chịu và phạm vi ngưỡng."
+    },
+    {
+      "number": 22,
+      "id": "armament-northwall",
+      "name_vi": "Veintidós. Song Thuẫn Bắc Thành Northwall",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 23,
+      "id": "armament-collection-5-02",
+      "name_vi": "Veintitrés. Danh Khắc Truy Kiếm Cognitor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Theo vũ khí đã giao kiếm và dẫn phản đòn đủ khác biệt; cần tốc độ nhận dấu và khả năng đọc nhiều dấu."
+    },
+    {
+      "number": 24,
+      "id": "armament-collection-5-03",
+      "name_vi": "Veinticuatro. Hoàn Tuyến Ngân Nỏ Regressus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Kéo mục tiêu ngược quỹ đạo móc có thể khóa, giật và phá đội hình; tải hồi về người giữ là giới hạn chiến thuật hợp lý."
+    },
+    {
+      "number": 25,
+      "id": "armament-veinticinco-gravitas",
+      "name_vi": "Veinticinco. Trọng Kiếm Ấn Lực Gravitas",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 26,
+      "id": "armament-collection-5-04",
+      "name_vi": "Veintiséis. Trì Thương Thiết Giáp Dilatio",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Hoãn biến dạng giáp là phòng thủ thật; cần phân biệt lực truyền vào cơ thể với việc tấm giáp chưa biến dạng."
+    },
+    {
+      "number": 27,
+      "id": "armament-collection-5-05",
+      "name_vi": "Veintisiete. Tái Cơ Địa Chùy Fundamentum",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ nền pháo và chống đào sập có giá trị công binh; chưa rõ giữ được nền trước đòn phá đất chủ động tới mức nào."
+    },
+    {
+      "number": 28,
+      "id": "armament-collection-5-06",
+      "name_vi": "Veintiocho. Ứng Thanh Phá Đạn Resonans",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Đạn phá kết cấu có giá trị, nhưng buộc chạm lấy dấu trước bắn làm người dùng phải tới đúng mục tiêu nguy hiểm. Xem lại cách lấy dấu."
+    },
+    {
+      "number": 29,
+      "id": "armament-collection-5-07",
+      "name_vi": "Veintinueve. Sinh Âm Thính Trụ Auscultor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Dò nhịp người qua vật che hỗ trợ săn mục tiêu; chỉ cho hướng và dễ bị nhịp máy lừa đang quá ít với bậc5."
+    },
+    {
+      "number": 30,
+      "id": "armament-collection-5-08",
+      "name_vi": "Treinta. Định Bờ Hắc Thương Litoralis",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ bờ phục vụ đổ bộ là lợi thế chiến dịch, nhưng thương chưa có đòn hoặc khống chế ngoài cắm bờ. Cần phát triển."
+    },
+    {
+      "number": 31,
+      "id": "armament-collection-6-01",
+      "name_vi": "Treinta y Uno. Lưỡng Ngạn Song Thuẫn Gemini",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Chia tải hai khiên có thể cứu tuyến thủ và chuyển va; cần lượng tải tối đa và hình học hai nơi nhận."
+    },
+    {
+      "number": 32,
+      "id": "armament-winterthorn",
+      "name_vi": "Treinta y Dos. Liễu Kiếm Đông Cức Winterthorn",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 33,
+      "id": "armament-collection-6-02",
+      "name_vi": "Treinta y Tres. Đoạn Hồi Kính Kiếm Intercisio",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Cắt chu kỳ tái diễn là đối kháng Vestigium rõ, giữ ý tưởng; chốt đủ quan sát là bao lâu."
+    },
+    {
+      "number": 34,
+      "id": "armament-collection-6-03",
+      "name_vi": "Treinta y Cuatro. Sơn Hình Thạch Giáp Oros",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giáp nhận sức trụ của địa hình là phòng thủ mạnh, dù phải đứng yên; giới hạn cơ thể hở có đối sách rõ."
+    },
+    {
+      "number": 35,
+      "id": "armament-collection-6-05",
+      "name_vi": "Treinta y Cinco. Hạ Kỳ Đình Thương Armistitium",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ chặn hành vi của người tự nguyện ký đình chiến; đối phương chưa nhận lời vẫn đánh bình thường."
+    },
+    {
+      "number": 36,
+      "id": "armament-collection-6-07",
+      "name_vi": "Treinta y Seis. Hồi Tuyến Trùng Tỏa Repetitor",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Lặp quỹ đạo từ vị trí bắn khác có ích cho bắn góc; mô tả hiện chưa làm rõ đường được tịnh tiến hay giữ nguyên trong không gian."
+    },
+    {
+      "number": 37,
+      "id": "armament-collection-7-01",
+      "name_vi": "Treinta y Siete. Vị Hạ Chiến Thương Inclinata",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Trì hoãn kết thúc hộ tống có tầm Độc bản, nhưng việc nhận rồi trả hậu quả quá trừu tượng; phải chốt đòn cụ thể và sức chứa."
+    },
+    {
+      "number": 38,
+      "id": "armament-collection-7-03",
+      "name_vi": "Treinta y Ocho. Hồi Nguyên Ngân Kiếm Integritas",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Gọi mảnh thật trở về và chuyển đường gãy có thể phục hồi hay phá chiến cụ khác; cần thể hiện quyền chiến đấu, tránh chỉ là sửa đồ."
+    },
+    {
+      "number": 39,
+      "id": "phenomenon-guard-039-auster",
+      "name_vi": "Treinta y Nueve. Hành Lang Nghịch Phong Auster",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Tách khói, bão và đạn nhẹ là mạnh; điều kiện chỉ cứu người làm hụt cơ động chủ động. Cần xem lại phạm vi lời nguyện."
+    },
+    {
+      "number": 40,
+      "id": "device-055",
+      "name_vi": "Cuarenta. Bộ Chữ Dẫn Thanh Vox",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Trả giọng nói và giữ lời chứng; quyền Thần thoại chỉ giải một tình huống hẹp."
+    },
+    {
+      "number": 41,
+      "id": "complex-guard-041-viridarium",
+      "name_vi": "Cuarenta y Uno. Lâm Mạch Công Binh Viridarium",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Rễ dựng lũy chặn xung phong đủ mạnh; điều kiện không theo lệnh chiếm đất là khóa đạo đức do người viết thêm, cần xét lại."
+    },
+    {
+      "number": 42,
+      "id": "armament-skoll-hati",
+      "name_vi": "Cuarenta y Dos. Song Nha Truy Nguyệt Sköll và Hati",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 43,
+      "id": "armament-guard-043-pelagor",
+      "name_vi": "Cuarenta y Tres. Hải Pháo Vấn Triều Pelagor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Xung triều đánh nhiều mạn tàu có hỏa lực thật; chốt điều kiện nhận mặt nước và giới hạn số mục tiêu."
+    },
+    {
+      "number": 44,
+      "id": "armament-cuarenta-cuatro-sarab",
+      "name_vi": "Cuarenta y Cuatro. Nguyệt Liềm Hư Bộ Sarāb",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 45,
+      "id": "device-guard-045-horrea",
+      "name_vi": "Cuarenta y Cinco. Thương Khố Mãn Mùa Horrea",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Kho mùa vụ chỉ nhận nông sản; mạnh về hậu cần dân sinh nhưng không có triển khai chiến đấu."
+    },
+    {
+      "number": 46,
+      "id": "complex-guard-046-molendina",
+      "name_vi": "Cuarenta y Seis. Mộc Luân Xưởng Hành Molendina",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Truyền động trong một xưởng đã học việc; hiện là máy sản xuất, không triển khai chiến cụ."
+    },
+    {
+      "number": 47,
+      "id": "device-guard-047-mensura",
+      "name_vi": "Cuarenta y Siete. Trắc Đồ Chiết Cảnh Mensura",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Mô hình nhìn sâu địa hình có thể khám công sự mà không lộ người; cần tốc độ dựng, vùng bao và độ chính xác thời gian thực."
+    },
+    {
+      "number": 48,
+      "id": "device-048",
+      "name_vi": "Cuarenta y Ocho. Cân Lời Ước Pactum",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ giữ nghĩa đã cùng chấp nhận, không buộc địch mới; quyền chống khế ước quá hẹp."
+    },
+    {
+      "number": 49,
+      "id": "device-guard-049-salubris",
+      "name_vi": "Cuarenta y Nueve. Dịch Khí Minh Diện Salubris",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Mặt nạ cho đội hình chống khí độc hữu dụng; chỉ tách một tác nhân đã biết và cấm thải về đối phương hạn chế quá nhiều."
+    },
+    {
+      "number": 50,
+      "id": "device-057",
+      "name_vi": "Cincuenta. Chìa Khóa Sơ Môn Primordia",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Mỗi người chỉ một lần tháo căn tính cưỡng ép; thiếu vai trò lặp lại trong giao chiến."
+    },
+    {
+      "number": 51,
+      "id": "phenomenon-guard-051-nubila",
+      "name_vi": "Cincuenta y Uno. Vân Đình Giám Vũ Nubila",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Điều phối mưa trên ruộng đã chăm; ràng quyền thời tiết vào nông nghiệp."
+    },
+    {
+      "number": 52,
+      "id": "armament-gleipnir",
+      "name_vi": "Cincuenta y Dos. Tơ Khóa Liệp Ảnh Gleipnir",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 53,
+      "id": "entity-guard-053-cinis",
+      "name_vi": "Cincuenta y Tres. Người Gác Hỏa Chủng Cinis",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Giữ mạch bếp và hỏa chủng; thực thể chưa được trao quyền giao chiến."
+    },
+    {
+      "number": 54,
+      "id": "device-054",
+      "name_vi": "Cincuenta y Cuatro. Chuông Hải Lộ Sinh Tồn Salvator",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Lối đi chỉ tới người sống đáp chuông, tự khép theo cứu nạn; cơ động mạnh nhưng bị bó vào cứu tàu."
+    },
+    {
+      "number": 55,
+      "id": "armament-cincuenta-cinco-qamar",
+      "name_vi": "Cincuenta y Cinco. Luân Nguyệt Du Hành Qamar",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 56,
+      "id": "device-056",
+      "name_vi": "Cincuenta y Seis. Kim Khâu Căn Tính Nomen",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ neo tên tự chọn chống xóa căn tính; trùng Primordia và Ignota, quá chuyên biệt."
+    },
+    {
+      "number": 57,
+      "id": "device-guard-057-follis",
+      "name_vi": "Cincuenta y Siete. Hỏa Tuyến Phong Nang Follis",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Chia chế độ khí và nhiệt trong lò; không vươn được ra giao chiến."
+    },
+    {
+      "number": 58,
+      "id": "device-058",
+      "name_vi": "Cincuenta y Ocho. Đĩa Ngày Bị Tước Lịch Exilium",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Giữ chứng cứ một ngày đã mất; quyền Độc bản chưa tạo tác động đối đầu tương xứng."
+    },
+    {
+      "number": 59,
+      "id": "armament-guard-059-clavus",
+      "name_vi": "Cincuenta y Nueve. Thiết Đinh Tước Liên Clavus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Tách liên kết giáp hoặc máy đang vận hành là khống chế mạnh. Giữ cơ chế, chốt tầm cắm đinh và tốc độ tác động."
+    },
+    {
+      "number": 60,
+      "id": "device-049",
+      "name_vi": "Sesenta. Chìa Khóa Tĩnh Ngưỡng Limen",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ mở bảo hộ khi thật đang chăm sóc; tác dụng phụ thuộc căn phòng nguyên vẹn và hoàn cảnh chữa bệnh."
+    },
+    {
+      "number": 61,
+      "id": "armament-sesenta-uno-ignifer",
+      "name_vi": "Sesenta y Uno. Lò Tâm Hành Quân Ignifer",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Nhiệt dùng cho sinh tồn lẫn công phá đã có vai trò rõ; cần dung lượng lò và cách nạp trong trận."
+    },
+    {
+      "number": 62,
+      "id": "device-062",
+      "name_vi": "Sesenta y Dos. Ấn Chung Nghĩa Giải Ước Absolutio",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Phải được người có quyền tự nguyện giải khế; không giải được cưỡng chế của kẻ địch chưa chấp thuận."
+    },
+    {
+      "number": 63,
+      "id": "device-063",
+      "name_vi": "Sesenta y Tres. Đồng Hồ Nhịp Cuối Ultima",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Cần gửi việc ngay trước chết, tối đa một ngày; phần lớn đời chiến đấu người mang không sử dụng được."
+    },
+    {
+      "number": 64,
+      "id": "device-064",
+      "name_vi": "Sesenta y Cuatro. Hộp Thư Vắng Chủ Epistola",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Gửi lời thú nhận tự nguyện, người nhận được từ chối; gần như không dùng trong đối đầu."
+    },
+    {
+      "number": 65,
+      "id": "device-guard-065-recales",
+      "name_vi": "Sesenta y Cinco. Tro Hoàn Luyện Đỉnh Recales",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Thu hồi phế liệu đúng mẫu; tái chế chứ chưa có quyền phá hoặc tái cấu trúc chiến cụ đang dùng."
+    },
+    {
+      "number": 66,
+      "id": "device-guard-066-astrolabium",
+      "name_vi": "Sesenta y Seis. Thiên Vĩ Hoàng Hôn Astrolabium",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Giữ hình sao từng thấy rồi vẫn tự tính vị trí; mạnh lời kể hơn hiệu quả chiến trường."
+    },
+    {
+      "number": 67,
+      "id": "device-guard-067-transitus",
+      "name_vi": "Sesenta y Siete. Việt Chướng Luân Xa Transitus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Đưa trục xe qua chướng ngại có thể triển khai pháo và xung phong; cần giới hạn kích thước và điều kiện mặt đường."
+    },
+    {
+      "number": 68,
+      "id": "complex-guard-068-linteum",
+      "name_vi": "Sesenta y Ocho. Quân Y Bạch Trướng Linteum",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Bệnh xá nhiều gian là hỗ trợ quân y cấp chiến dịch, nhưng bản thân chưa hồi phục; cần phân biệt năng lực không gian và y thuật thật."
+    },
+    {
+      "number": 69,
+      "id": "device-guard-069-aestuarium",
+      "name_vi": "Sesenta y Nueve. Triều Nhịp Luân Tâm Aestuarium",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Phải đi hết kênh, ghi cửa và giữ lời hẹn cấp nước; điều tiết chiến trường bị bó vào hệ tưới."
+    },
+    {
+      "number": 70,
+      "id": "device-059",
+      "name_vi": "Setenta. Đèn Dấu Người Chưa Gặp Ignota",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Giữ dấu nhận biết nhưng không biết vị trí hoặc khuôn mặt; công dụng truy sát bị loại ngay trong giới hạn."
+    },
+    {
+      "number": 71,
+      "id": "armament-guard-071-abyssus",
+      "name_vi": "Setenta y Uno. Trầm Hải Định Neo Abyssus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Neo tàu theo khối nước hữu dụng cho pháo kích và chống kéo trôi; điều kiện ở lại vì cứu người cản dùng chiến thuật độc lập."
+    },
+    {
+      "number": 72,
+      "id": "material-guard-072-fulmen",
+      "name_vi": "Setenta y Dos. Dẫn Hỏa Kim Sa Fulmen",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Đồng bộ hàng trăm điểm kích hoạt là lợi thế bẫy, pháo và công phá; cần đưa ví dụ ấy vào hồ sơ thay máy sản xuất."
+    },
+    {
+      "number": 73,
+      "id": "phenomenon-guard-073-passus",
+      "name_vi": "Setenta y Tres. Trận Bộ Đồng Hành Passus",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ đội hình qua khoảng cách biến dạng là cơ động hữu ích; nên làm rõ vai trò ngoài đúng tình huống địch bóp không gian."
+    },
+    {
+      "number": 74,
+      "id": "armament-guard-074-vela",
+      "name_vi": "Setenta y Cuatro. Phân Vụ Trường Phiên Vela",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Hai mặt nhìn cho đoàn quân là ngụy trang mạnh. Móc cố định là điểm yếu có thể giao chiến được."
+    },
+    {
+      "number": 75,
+      "id": "entity-guard-075-faber",
+      "name_vi": "Setenta y Cinco. Thợ Đúc Không Ngủ Faber",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ đúc với thiết kế rõ và vật liệu; thực thể không ngủ nhưng chưa có quyền chiến đấu, trùng hai xưởng."
+    },
+    {
+      "number": 76,
+      "id": "device-setenta-seis-ferraria",
+      "name_vi": "Setenta y Seis. Công Xưởng Dã Chiến Ferraria",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Sao phụ tùng bằng mẫu và vật liệu; là xưởng bảo trì, trùng Faber và Forma."
+    },
+    {
+      "number": 77,
+      "id": "armament-guard-077-reversor",
+      "name_vi": "Setenta y Siete. Trọng Phản Huyền Chùy Reversor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Đổi hướng toàn bộ một xung va có đòn phản công rõ; điều kiện chọn mặt trước tạo đối sách hợp lý."
+    },
+    {
+      "number": 78,
+      "id": "device-guard-078-clamor",
+      "name_vi": "Setenta y Ocho. Hiệu Lệnh Viễn Minh Clamor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giọng chỉ huy xác thực khắp mạng có ích thực với đạo quân; cần chỉ ra hiệu lệnh giữa giao chiến và khả năng tái bố trí mốc."
+    },
+    {
+      "number": 79,
+      "id": "device-guard-079-forma",
+      "name_vi": "Setenta y Nueve. Bách Hình Thiết Khuôn Forma",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Suy hình phụ tùng đã mất; vẫn phải đúc bằng vật liệu, trùng vai trò sản xuất."
+    },
+    {
+      "number": 80,
+      "id": "device-060",
+      "name_vi": "Ochenta. Cối Nén Thanh Âm Silentium",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Thu âm nguy hiểm có thể phòng ngự, nhưng hạt chỉ mở trong miền đúng dấu làm phản kích không tự do. Chưa xứng Độc bản nếu chỉ thế."
+    },
+    {
+      "number": 81,
+      "id": "phenomenon-guard-081-vernalis",
+      "name_vi": "Ochenta y Uno. Hàn Tuyến Hồi Xuân Vernalis",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Gọi mùa sinh trưởng cho đất; nông nghiệp là công dụng trung tâm."
+    },
+    {
+      "number": 82,
+      "id": "armament-guard-082-vestitor",
+      "name_vi": "Ochenta y Dos. Truy Diệm Phản Pháo Vestitor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Truy dấu phát bắn là phản pháo thật; bắt hai dấu và mất khóa ngay khi bệ dịch chuyển làm kém hiệu quả với tàu hoặc pháo cơ động."
+    },
+    {
+      "number": 83,
+      "id": "complex-guard-083-lucerna",
+      "name_vi": "Ochenta y Tres. Hải Đăng Ngư Quần Lucerna",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Cá dẫn đường đã bơi, cần ăn và sống để giữ tuyến; chưa có trinh sát hoặc chế áp đối phương."
+    },
+    {
+      "number": 84,
+      "id": "device-guard-084-seminarium",
+      "name_vi": "Ochenta y Cuatro. Vạn Chủng Tàng Hạp Seminarium",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Tra lịch sử dòng hạt; tủ lưu trữ nông học."
+    },
+    {
+      "number": 85,
+      "id": "device-guard-085-architectum",
+      "name_vi": "Ochenta y Cinco. Định Hình Lam Đồ Architectum",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ công trình chưa khép có thể dựng công sự dã chiến, song vẫn cần vật liệu và neo đúng. Phải có ví dụ triển khai nhanh mới đủ cận vệ."
+    },
+    {
+      "number": 86,
+      "id": "device-guard-086-vulneris",
+      "name_vi": "Ochenta y Seis. Hậu Chấn Y Kính Vulneris",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Soi dấu thương và nguồn gây hại nhưng không tác động được chúng; kính quân y cần lợi thế rõ hơn."
+    },
+    {
+      "number": 87,
+      "id": "armament-guard-087-viator",
+      "name_vi": "Ochenta y Siete. Liên Kiều Hành Ngoa Viator",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Bước nối cọc có cơ động đột kích rõ; phải cắm cọc trước là giới hạn chiến thuật, không tự coi là nhược điểm cần bỏ."
+    },
+    {
+      "number": 88,
+      "id": "complex-guard-088-nauta",
+      "name_vi": "Ochenta y Ocho. Ly Triều Hải Thạch Nauta",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Miền nước riêng cho một tàu có thể bảo vệ và cơ động chiến hạm; cần làm rõ vật thể và hỏa lực qua mép miền."
+    },
+    {
+      "number": 89,
+      "id": "device-ochenta-nueve-orbis",
+      "name_vi": "Ochenta y Nueve. Hải Quyền Tam Khí Orbis",
+      "rarity": 4,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 90,
+      "id": "entity-guard-090-somnus",
+      "name_vi": "Noventa. Kẻ Giữ Ngọn Nến Trong Mộng Somnus",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "scope-redesign",
+      "finding_vi": "Chỉ bảo hộ người ngủ đã mời; không ép tỉnh hoặc ảnh hưởng đối thủ, quá hẹp cho Thần thoại."
+    },
+    {
+      "number": 91,
+      "id": "device-guard-091-navicula",
+      "name_vi": "Noventa y Uno. Thiên Lý Chỉ Chu Navicula",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Thư khô đi trong nước theo bến đã biết; thiếu cơ chế chiến đấu và kém đa dụng."
+    },
+    {
+      "number": 92,
+      "id": "complex-guard-092-porticus",
+      "name_vi": "Noventa y Dos. Tái Kiến Ngân Môn Porticus",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Cửa không gian mạnh nhưng chỉ cùng xưởng đã đo; cần mở phạm vi chiến đấu hoặc chuyển ý tưởng xưởng sang bộ chung."
+    },
+    {
+      "number": 93,
+      "id": "device-guard-093-umbra",
+      "name_vi": "Noventa y Tres. Ảnh Tuyến Thiên Chung Umbra",
+      "rarity": 4,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Giữ lịch bóng mặt trời; vẫn phải chuẩn hóa lại khi đổi phương trời."
+    },
+    {
+      "number": 94,
+      "id": "entity-guard-094-janitor",
+      "name_vi": "Noventa y Cuatro. Người Đứng Ngoài Cửa Tuyết Janitor",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Canh cửa chống giả dạng và cưỡng ép là hộ vệ đúng vai. Chốt tác dụng trước hỏa lực phá cửa và phản ứng khi chủ bị ép nói."
+    },
+    {
+      "number": 95,
+      "id": "phenomenon-guard-095-ripa",
+      "name_vi": "Noventa y Cinco. Cố Giang Phân Thủy Ripa",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Gọi sông ngầm cũ có thể phá hậu tuyến và đổi địa hình; cần chốt phạm vi nước gọi cùng thời gian triển khai."
+    },
+    {
+      "number": 96,
+      "id": "device-guard-096-vitae",
+      "name_vi": "Noventa y Seis. Sinh Thể Đồng Đăng Vitae",
+      "rarity": 6,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Giữ người sống qua ngừng tim phổi là quân y mạnh. Cần số người và nhịp tối đa, giữ ranh không hồi sinh."
+    },
+    {
+      "number": 97,
+      "id": "complex-noventa-siete-palingenia",
+      "name_vi": "Noventa y Siete. Di Sản Thành Trì Palingenia",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Dựng thành ký ức thành nơi đi được có thể tạo chiến trường; cần thể hiện công sự, chặn đường và quy mô trước khi chốt bậc7."
+    },
+    {
+      "number": 98,
+      "id": "material-guard-098-aurea",
+      "name_vi": "Noventa y Ocho. Mãn Kho Kim Chủng Aurea",
+      "rarity": 5,
+      "origin": "collection",
+      "status": "core-redesign",
+      "finding_vi": "Bảo toàn sức giống, cần trọn mùa mọc; thuộc bộ dân sinh."
+    },
+    {
+      "number": 99,
+      "id": "armament-robert-vestigia-nulla",
+      "name_vi": "Noventa y Nueve. Đinh Neo Truy Tốc Vestigia Nulla",
+      "rarity": 6,
+      "origin": "canon",
+      "status": "canon-protected",
+      "finding_vi": "Giữ cơ chế nguồn truyện; sửa thiếu sót hồ sơ bằng tra bản thảo, không buff hoặc nerf tùy hứng."
+    },
+    {
+      "number": 100,
+      "id": "phenomenon-guard-100-terminus",
+      "name_vi": "Cien. Vô Danh Giới Trụ Terminus",
+      "rarity": 7,
+      "origin": "collection",
+      "status": "combat-core-present-needs-refinement",
+      "finding_vi": "Ranh thực tại có tiềm năng lớn nhưng chỉ nói giữ sự phân biệt, ví dụ bụi độc quá nhỏ. Cần một luật giao chiến cụ thể cùng đối sách."
+    }
+  ]
+}

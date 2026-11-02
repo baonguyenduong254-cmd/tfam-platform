@@ -1,0 +1,52 @@
+/* Balanced flanks keep navigation centred: music left, account tools right. */
+.campaign-app .command-bar.command-bar-with-tools{
+ display:grid;
+ grid-template-columns:minmax(120px,1fr) minmax(0,960px) minmax(120px,1fr);
+ align-items:center;
+ gap:12px;
+ padding:14px 12px;
+ overflow:visible;
+ z-index:90;
+}
+.command-bar-with-tools .command-music-slot{grid-column:1;grid-row:1;justify-self:start;min-width:0;width:100%}
+.campaign-app .command-bar-with-tools .tfam-main-nav{
+ grid-column:2;
+ grid-row:1;
+ justify-self:center;
+ width:min(960px,100%);
+ min-width:0;
+}
+.command-bar-with-tools .command-utilities{
+ grid-column:3;
+ grid-row:1;
+ justify-self:end;
+ display:flex;
+ align-items:center;
+ gap:8px;
+ min-width:0;
+}
+.command-utilities .site-tools{position:relative;inset:auto;z-index:auto}
+.command-utilities .gear-toggle,.command-utilities .reader-account-button{
+ width:44px;height:44px;min-width:44px;min-height:44px;padding:8px;
+ border:1px solid #b5dce17a;border-radius:50%;
+ background:linear-gradient(145deg,#34525e,#071823);
+ box-shadow:inset 0 1px 5px #d9faff40,0 3px 12px #0008;
+ display:grid;place-items:center;
+}
+.command-utilities .reader-account-button img{width:28px;height:28px;object-fit:cover;border-radius:50%}
+.command-utilities .site-tools-popover{
+ position:absolute;top:54px;right:0;bottom:auto;
+ width:min(340px,calc(100vw - 32px));
+ max-height:min(70dvh,calc(100dvh - 32px));
+ overflow:auto;
+}
+@media(max-width:1100px){
+ .campaign-app .command-bar.command-bar-with-tools{grid-template-columns:minmax(0,1fr) auto}
+ .campaign-app .command-bar-with-tools .tfam-main-nav{grid-column:1/-1;grid-row:2}
+ .command-bar-with-tools .command-music-slot{grid-column:1;grid-row:1}
+ .command-bar-with-tools .command-utilities{grid-column:2}
+}
+@media(max-width:700px){
+ .campaign-app .command-bar.command-bar-with-tools{padding:12px 10px;gap:10px}
+ .command-bar-with-tools .command-utilities{flex-direction:row}
+}

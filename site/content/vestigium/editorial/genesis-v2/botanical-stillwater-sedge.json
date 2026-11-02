@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-stillwater-sedge",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Cói mọc trong chiếc chậu đặt dưới chuông đồng nứt. Mỗi hồi chuông làm nước tràn, chỉ khoang giữa ba cọng vẫn phẳng. Khi người giữ chuông đào rễ, những hạt khoáng nhạt đã đan thành tam giác trong bùn, lớn theo nhịp rung dội xuống từ chiếc chuông.\n\nChậu được chuyển lên thuyền. Khoang yên vẫn nằm giữa thân cói, mang theo cả ảnh mặt người soi. Một đứa trẻ áp má xuống gần nước và nhận ra lần đầu tiên trong chuyến biển rằng hình mình có thể đứng im, dù bụng vẫn lắc theo sóng.",
+    "lore_en": "Sedge grew in a bowl beneath a cracked bronze bell. Every peal spilled water, yet the pocket between three stems remained flat. When the bell keeper exposed the roots, pale mineral grains had woven a triangle in the mud, growing to the repeated vibration above.\n\nThe bowl was carried aboard a boat. Its still pocket remained between the stems, along with a viewer’s reflection. A child leaned close and discovered for the first time on the voyage that her image could stand still even while her stomach rolled with the sea.",
+    "use_vi": "Giữ một khoang nước yên cho thao tác nhỏ giọt, soi mẫu hoặc cân nổi khi thuyền neo.",
+    "use_en": "Hold a still pocket of water for drop work, specimen viewing or flotation weighing aboard an anchored boat.",
+    "limits_vi": "Khoang rộng khoảng lòng bàn tay; sóng mạnh phá được. Rễ bị cắt làm mất khoang và cói cần nước ngọt để sống.",
+    "limits_en": "The pocket spans roughly a palm and strong waves can break it. Cut roots end it; the sedge needs fresh water to live.",
+    "skills": [
+      {
+        "name_vi": "Lòng nước đứng",
+        "name_en": "The Standing Water Pocket",
+        "description_vi": "Đặt ba cọng còn chung rễ quanh vật cần soi để khoang giữa chúng yên lại; hạ vật thật chậm vì va trực tiếp vẫn làm khoang vỡ.",
+        "description_en": "Arrange three jointly rooted stems around the object being viewed so the space between settles; lower objects slowly, since direct impact still breaks the pocket."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ba thân một mặt",
+        "name_en": "Three Stems, One Surface",
+        "description_vi": "Khoang đi theo khoảng giữa thân sống, khiến đổi vị trí cọng cói cũng đổi hình phần nước yên.",
+        "description_en": "The pocket follows the space between living stems, so rearranging them reshapes the still region."
+      }
+    ]
+  }
+]

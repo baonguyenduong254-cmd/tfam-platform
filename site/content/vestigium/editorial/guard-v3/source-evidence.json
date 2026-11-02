@@ -1,0 +1,800 @@
+{
+  "documents": [
+    {
+      "volume": 1,
+      "document_id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw",
+      "revision": "AHj4eMQGhbX0kW5xaghtDXNmQSyz9vrHQHw-Dzt2aWaV39tVghmQMNA1JWYSevksQuSsrGnoiFikGVCAuALboHZppTyxDcF4DXiJZj-6axw",
+      "title": "Vol.I - TFAM - Editor Choice"
+    },
+    {
+      "volume": 2,
+      "document_id": "1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4",
+      "revision": "AHj4eMSqJ7bPZ-y8tBMmbOyKB-lmyDbpXztEwap5cS3aoRDdS17Fz9SjqPcg79mGn5DK3GX93NdhCBZ6B7UdtEfRAV9t5G_Xp_nTIRttpjY",
+      "title": "Vol.II - TFAM - Editor Choice"
+    },
+    {
+      "volume": 3,
+      "document_id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE",
+      "revision": "AHj4eMRFlsvIe5l67_u9QFZMssuCeYtA9xxYYf9yKsiLCLXcd4DzNULQfm_Orm12XoD_55SOqhhBYGZ5LHAcfrbzowYDALA0-8Yl7l80HLQ",
+      "title": "Vol.III - TFAM - Editor Choice"
+    },
+    {
+      "volume": 4,
+      "document_id": "1VTZFZTkYmaPmTyM159XaMFHVexsUbBh1rxXmf8-qwmA",
+      "revision": "AHj4eMS2LaU6m7l-4lYwhk1CBDQyhYMt5ptFGduS4EmRHyQv3r2w2j9JgOWFInc_kSXVizCZ1U0qTwAltAOmBtYQMcVo7ZZ-tQze9kuYazE",
+      "title": "Vol IV - TFAM - Editor Choice"
+    }
+  ],
+  "excerpts": {
+    "pendants": {
+      "volume": 1,
+      "chapter": 11,
+      "tab_id": "t.dy76d18194mt",
+      "anchor": "“Marco là Ocho, Romeo là Doce. Nếu ngài định hỏi tôi có giỏi hơn hai người đó không, câu trả lời vẫn là có.” Fredo kéo mặt dây chuyền nằm ngay lại trên cổ áo. “Còn San Sebastián, tôi thích tự mình tới nơi rồi mới tuyên bố chiến thắng.”",
+      "paragraph": 2746
+    },
+    "academy": {
+      "volume": 1,
+      "chapter": 3,
+      "tab_id": "t.sgmde03l4hc8",
+      "anchor": "Chúng không phải những thanh kiếm nghi lễ bình thường. Năm xưa, Học viện Hoàng gia chỉ trao bốn thanh cho bốn học viên đứng đầu khóa. Những thợ rèn đã dùng các mảnh Vestigium được xác định là tàn tích của Excalibur để tạo lõi cho chúng, không đủ để tái sinh thanh kiếm huyền thoại, nhưng đủ khiến bốn vũ khí mang cùng một cộng hưởng.",
+      "paragraph": 1118
+    },
+    "academyRank": {
+      "volume": 1,
+      "chapter": 3,
+      "tab_id": "t.sgmde03l4hc8",
+      "anchor": "Bốn Vestigium cấp Kỳ Tích.",
+      "paragraph": 1119
+    },
+    "dos": {
+      "volume": 2,
+      "chapter": 34,
+      "tab_id": "t.ju9a82vsj2t5",
+      "anchor": "Vai phải cô gái trượt khỏi chốt khớp. Tiếp đó là khuỷu tay, rồi đến đầu gối. Lần lượt hông, mắt cá, từng đốt sống, xương bả vai cho tới những đoạn xương sườn méo lệch đều rời rạc dần.",
+      "paragraph": 156
+    },
+    "dosHealing": {
+      "volume": 3,
+      "chapter": 101,
+      "tab_id": "t.bp5ymwckkx9j",
+      "anchor": "“Timothy, tôi không muốn biến một chuyện anh may mắn sống sót thành lời hứa rằng Sutura chữa được mọi thứ. Tôi có thể nối mô, mạch máu, cơ và nhiều thứ mà y sĩ bình thường không chạm tới, nhưng liệt do tổn thương thần kinh là một câu chuyện khác.”",
+      "paragraph": 7123
+    },
+    "dosLimits": {
+      "volume": 4,
+      "chapter": 141,
+      "tab_id": "t.bqyitlj0a2im",
+      "anchor": "Scarlet ngẫm một chút rồi tựa khuỷu tay lên bàn. “Thường thì tôi trả phần lớn. Sutura dùng dự trữ của tôi để giữ mạch, khép mô và dẫn đường, còn cơ thể người bệnh vẫn phải tự lo nhiệt, đường huyết, oxy với mấy thứ còn lại.”",
+      "paragraph": 3410
+    },
+    "octava": {
+      "volume": 3,
+      "chapter": 88,
+      "tab_id": "t.o0iyyu5p0178",
+      "anchor": "Các cạnh đều được vát sắc, còn sáu mặt liên tục đổi trạng thái giữa lớp kim loại đen, những ô lưới vàng mảnh và các mảng trong suốt để lộ lõi sáng bên trong. Cả bảy khối không ngừng xoay, lệch tầng và đổi vị trí quanh vai Marco như những cỗ máy luôn chờ được tái cấu hình.",
+      "paragraph": 1515
+    },
+    "oathbreaker": {
+      "volume": 3,
+      "chapter": 84,
+      "tab_id": "t.0",
+      "anchor": "Lưỡi sabre rung lên, phần thép dày dần quanh sống kiếm rồi co rút mạnh về phía chuôi. Trong vài nhịp thở, Oathbreaker hiện ra dưới hình thái một chiếc rìu hai lưỡi nặng nề, những đường sáng như sét bò quanh đầu rìu và kêu lách tách trong không khí lạnh.",
+      "paragraph": 41
+    },
+    "oathbearer": {
+      "volume": 3,
+      "chapter": 88,
+      "tab_id": "t.o0iyyu5p0178",
+      "anchor": "Khi rút khỏi ngọn đồi đêm qua, Romeo mệt tới mức chỉ nhớ mang mán rằng Oathbreaker đã thu về dạng ban đầu, còn mặt dây Doce trước ngực thì dịu nhiệt dần. Mãi đến sáng nay, lúc anh kéo nó ra khỏi lớp áo để coi lại vết cháy, sợi dây chuyền mới bất ngờ biến chuyển theo cách chưa từng thấy.",
+      "paragraph": 1499
+    },
+    "astrid": {
+      "volume": 3,
+      "chapter": 84,
+      "tab_id": "t.0",
+      "anchor": "Bốn cô gái cùng rút sabre. Astrid chạm vào mặt dây sư tử mang chữ Veintidós; ánh sáng chạy xuống lưỡi kiếm, tách khối thép thành cặp khiên răng cưa Northwall. Sigrid chạm mặt dây Treinta y Dos; sabre của cô kéo dài và mảnh đi thành Winterthorn, một thanh liễu kiếm hẹp đến mức gần như chỉ còn là một đường bạc.",
+      "paragraph": 43
+    },
+    "freya": {
+      "volume": 3,
+      "chapter": 84,
+      "tab_id": "t.0",
+      "anchor": "Mặt dây Cuarenta y Dos lóe sáng trên ngực Freya; thanh sabre tách dọc sống kiếm rồi co rút thành cặp súng lục đá lửa Sköll và Hati. Liv là người cuối cùng chạm vào Cincuenta y Dos; lưỡi sabre gập lại thành Gleipnir, một hệ dao giấu tay, phi đao, dây móc và ám khí khóa dọc hai cẳng tay, thắt lưng cùng cổ tay mà Romeo chưa bao giờ buồn đếm cho đủ.",
+      "paragraph": 44
+    },
+    "alFassi": {
+      "volume": 3,
+      "chapter": 98,
+      "tab_id": "t.l43jivxuq4ik",
+      "anchor": "“Cuarenta y Cuatro là Nahla al-Fassi, Cincuenta y Cinco là Samira al-Fassi. Hai chị em sinh ở Fes, lớn lên trong một nhánh Reliquario của Maroc rồi được chuyển sang hệ Cận vệ sau khi năng lực của họ ổn định.”",
+      "paragraph": 6406
+    },
+    "sarab": {
+      "volume": 3,
+      "chapter": 98,
+      "tab_id": "t.l43jivxuq4ik",
+      "anchor": "“Sarāb cho phép tôi lệch pha trong năm giây. Hết khoảng đó tôi trở lại bình thường và phải chờ ít nhất năm giây trước lần dùng tiếp theo; kiếm, giáo và đạn chì bay thẳng thường khó chạm tới tôi, nhưng mảnh văng, lửa, sóng xung kích và vụ nổ vẫn gây thương tích vì năng lực này không đưa tôi ra khỏi không gian.”",
+      "paragraph": 6473
+    },
+    "qamar": {
+      "volume": 3,
+      "chapter": 98,
+      "tab_id": "t.l43jivxuq4ik",
+      "anchor": "“Với tôi, trạng thái lệch pha gắn liền với vòng Qamar. Miễn là vũ khí rời tay và còn bay trên không, tôi an toàn trước các đòn đánh trực tiếp; nhưng khi thu hồi, hoặc lúc nó bị chặn lại hay ghim chặt vào đâu đó, tôi sẽ lập tức trở về bình thường. Do đó, một đối thủ cáo già chỉ cần tìm cách ép tôi nhận lại chakram sớm hơn tính toán.”",
+      "paragraph": 6475
+    },
+    "orbis": {
+      "volume": 2,
+      "chapter": 66,
+      "tab_id": "t.746ayxchnoqv",
+      "anchor": "Morales kéo mặt dây ra, giữ nó giữa hai ngón tay rồi kích hoạt. Ánh vàng chạy dọc những đường chạm và ba vật thể lần lượt hiện ra trên thùng gỗ trước mặt: một kính viễn vọng bằng đồng đen, một la bàn không khắc phương hướng và một cuộn hải đồ trắng không mang tên bờ biển nào. Ba hải cụ hợp thành Orbis, hình thái giải phóng của Ochenta y Nueve.",
+      "paragraph": 5721
+    },
+    "orbisPower": {
+      "volume": 2,
+      "chapter": 66,
+      "tab_id": "t.746ayxchnoqv",
+      "anchor": "Qua chiếc kính, một chiến hạm không còn chỉ là buồm, gỗ và pháo. Nếu Morales giữ mục tiêu đủ lâu, Vestigium sẽ tìm trong cấu trúc con tàu một điểm chí tử duy nhất rồi đánh dấu nó bằng một quầng sáng đỏ chỉ ông nhìn thấy. Một viên đạn pháo chạm đúng điểm ấy sẽ không chỉ làm thủng mạn. Toàn bộ con tàu sẽ nổ theo chuỗi, như thể Vestigium đã chỉ cho thuốc súng, dầm chịu lực và sức căng của thân tàu cùng một nơi để chết.",
+      "paragraph": 5722
+    },
+    "orbisRank": {
+      "volume": 2,
+      "chapter": 66,
+      "tab_id": "t.746ayxchnoqv",
+      "anchor": "Ít người trên cầu cảng nhớ rằng Đô đốc không phải chức danh duy nhất Morales mang. Dưới cổ áo hải quân, một sợi dây chuyền vàng chạm đầu sư tử nằm sát xương ức; giữa mặt dây là con số 89. Trong hồ sơ Cận vệ Hoàng gia, con số ấy còn có một cách gọi ngắn hơn, giống Dos hay Tres của những người khác: Ochenta y Nueve. Morales là người mang số Tám Mươi Chín, một trong những Cận vệ được ngai Castilian trao Vestigium cấp Kỳ Tích khi năng lực con người bình thường không còn đủ.",
+      "paragraph": 5720
+    },
+    "zodiac": {
+      "volume": 4,
+      "chapter": 138,
+      "tab_id": "t.mtr8vbc6qaxa",
+      "anchor": "Ở bên trong, Testarossa đặt một tay lên vai Isabella và chuẩn bị phá tường. Cùng lúc phía ngoài, Evelyne kích hoạt Zodiacum: Twelve Stars, một vòng tinh quang rất mảnh dựng sau lưng nàng rồi khóa vào trình tự không thể đổi thứ tự sau khi đã bắt đầu.",
+      "paragraph": 2478
+    },
+    "starfall": {
+      "volume": 4,
+      "chapter": 139,
+      "tab_id": "t.79rlxgkddqma",
+      "anchor": "“Zodiacum mở khóa: Starfall.”",
+      "paragraph": 2798
+    },
+    "starfallLimits": {
+      "volume": 4,
+      "chapter": 139,
+      "tab_id": "t.79rlxgkddqma",
+      "anchor": "Những sợi mới mọc ra nhanh hơn Evelyne có thể nhắm. Nàng gọi Sagittarius lần nữa, và mặt dây IV nóng thêm khi một đường nứt mảnh chạy qua số bốn. Cơn đau xuyên từ xương ức ra vai cho nàng hiểu cái giá: Starfall cho phép lặp cung nhưng vẫn dùng chung một tổng năng lượng, vì vậy mỗi lần một chòm sao được gọi lại, phần còn lại của thiên đồ sẽ tối đi.",
+      "paragraph": 2810
+    },
+    "uno": {
+      "volume": 4,
+      "chapter": 139,
+      "tab_id": "t.79rlxgkddqma",
+      "anchor": "Nàng kích hoạt Uno. Âm thanh đầu tiên là tiếng kính rung từ rất xa, một nốt mỏng chạy qua tường rồi nhân thành hàng trăm nốt khác. Các mặt gương bắt đầu mọc ra từ đá Hoàng cung, từ sàn, cột, trần và cả khoảng không không có điểm tựa, từng tấm sáng lên như bề mặt nước đông cứng dựng đứng giữa không trung.",
+      "paragraph": 2614
+    },
+    "unoMirror": {
+      "volume": 4,
+      "chapter": 139,
+      "tab_id": "t.79rlxgkddqma",
+      "anchor": "Ngoài gương, sợi xích hoàn toàn biến mất. Testarossa đưa tay. Trong một mặt gương, xích cuộn quanh cổ tay nàng; ở mặt khác nó treo từ trần; trong mặt thứ ba, mũi nhọn đã nằm sát sàn.",
+      "paragraph": 2621
+    },
+    "siete": {
+      "volume": 4,
+      "chapter": 134,
+      "tab_id": "t.g1rhrvs5rcih",
+      "anchor": "Franco đặt tờ kiểm chứng trước mặt con gái. Victoria đọc tới dòng “Edward có nhiều con đường để trở về” rồi dừng, bởi trong cảnh trước mắt những con đường ấy đang bận cứu người khác đúng như bản chất của họ.",
+      "paragraph": 1877
+    },
+    "sieteMore": {
+      "volume": 4,
+      "chapter": 134,
+      "tab_id": "t.g1rhrvs5rcih",
+      "anchor": "Siete rung trong tay. Bản thép dài thêm gần một gang, mép mỏng hơn còn trọng lượng trong tay nàng giảm đi tới mức cổ tay tự nâng cao hơn dù phần sống đang nặng đủ để làm đá dưới mũi kiếm nứt.",
+      "paragraph": 1889
+    }
+  },
+  "chapter_tabs": {
+    "1": {
+      "t.mocii582x6ef": {
+        "chapter": 1,
+        "title": "Chương 1: Ngày Mai Không Còn Như Hôm Nay"
+      },
+      "t.ze6h0pvulad8": {
+        "chapter": 2,
+        "title": "Chương 2: Ba Ngả Đường"
+      },
+      "t.sgmde03l4hc8": {
+        "chapter": 3,
+        "title": "Chương 3: Những Người Cũ, Những Con Đường Mới"
+      },
+      "t.d89byo9u693z": {
+        "chapter": 4,
+        "title": "Chương 4: Những Hoài Bão"
+      },
+      "t.b8vtcstq4nu": {
+        "chapter": 5,
+        "title": "Chương 5: Một Marrakesh Thân Thương"
+      },
+      "t.2557d4c6bytx": {
+        "chapter": 6,
+        "title": "Chương 6: Bữa Tiệc Cho Ai Ở Lại"
+      },
+      "t.os0j59noj1nu": {
+        "chapter": 7,
+        "title": "Chương 7: Để Chiến Thắng"
+      },
+      "t.4sfes8g6a0tk": {
+        "chapter": 8,
+        "title": "Chương 8: Tạm Biệt Marrakesh"
+      },
+      "t.alha1zitr74x": {
+        "chapter": 9,
+        "title": "Chương 9: Thiên Tài Của Castilian"
+      },
+      "t.kz0g7lgjo4bf": {
+        "chapter": 10,
+        "title": "Chương 10: Danh Xưng Trở Lại"
+      },
+      "t.dy76d18194mt": {
+        "chapter": 11,
+        "title": "Chương 11: Những Điều Chưa Được Thử Bằng Máu"
+      },
+      "t.ycp6bs2hdhnz": {
+        "chapter": 12,
+        "title": "Chương 12: Những Đô Đốc Ở Lisbon"
+      },
+      "t.m1r7qpwn5nty": {
+        "chapter": 13,
+        "title": "Chương 13: Mưu Phản Tại Lisbon"
+      },
+      "t.d5zkshov3ack": {
+        "chapter": 14,
+        "title": "Chương 14: Tiến Đến Hải Chiến"
+      },
+      "t.ats672n3mrzv": {
+        "chapter": 15,
+        "title": "Chương 15: Đại Phẫu Con Tàu"
+      },
+      "t.362qlnfdl3mg": {
+        "chapter": 16,
+        "title": "Chương 16: Đêm Trước La Concha"
+      },
+      "t.tuhz6l11q416": {
+        "chapter": 17,
+        "title": "Chương 17: Hải Chiến La Concha - Phần 1"
+      },
+      "t.4c1hweiqr8u5": {
+        "chapter": 18,
+        "title": "Chương 18: Hải Chiến La Concha - Phần 2"
+      },
+      "t.5vkg0sqbnvsv": {
+        "chapter": 19,
+        "title": "Chương 19: Hải Chiến La Concha - Phần 3"
+      },
+      "t.ocg4214nynq6": {
+        "chapter": 20,
+        "title": "Chương 20: Sự Chuộc Tội của Huyền Thoại"
+      },
+      "t.llkmljz86kfn": {
+        "chapter": 21,
+        "title": "Chương 21: Những Người Còn Sống"
+      },
+      "t.jz4bgzh2uqd1": {
+        "chapter": 22,
+        "title": "Chương 22: Những Người Đã Khuất"
+      },
+      "t.pjtzuatzovyr": {
+        "chapter": 23,
+        "title": "Chương 23: Người Trong Gương"
+      },
+      "t.i5xsj7bmg0e": {
+        "chapter": 24,
+        "title": "Chương 24: Những Quyết Định"
+      },
+      "t.n6940nuyv8cy": {
+        "chapter": 25,
+        "title": "Chương 25: Sắc Đỏ Trỗi Dậy"
+      },
+      "t.qywqjm8zyweq": {
+        "chapter": 26,
+        "title": "Chương 26: Về Nhà"
+      },
+      "t.xfaoalqf8uc8": {
+        "chapter": 27,
+        "title": "Chương 27: Một Chỗ Bên Bàn Ăn"
+      },
+      "t.pttbumrsx735": {
+        "chapter": 28,
+        "title": "Chương 28: Phần Thưởng Vì Đã Sống"
+      },
+      "t.43a8mpvqyjnw": {
+        "chapter": 29,
+        "title": "Chương 29: Những Kẻ Kiệt Xuất"
+      },
+      "t.ak94gkdvsno4": {
+        "chapter": 30,
+        "title": "Chương 30: Kẻ Cân Bằng"
+      },
+      "t.8q74xiirbw0v": {
+        "chapter": 31,
+        "title": "Chương 31: Fes & Chiến Tranh"
+      },
+      "t.2i2l0cfpitp5": {
+        "chapter": 32,
+        "title": "Chương 32: Màn Kịch Đẫm Máu"
+      }
+    },
+    "2": {
+      "t.ut4n0yxmabpm": {
+        "chapter": 33,
+        "title": "Chương 33: Madrid Mùa Giáng Sinh"
+      },
+      "t.ju9a82vsj2t5": {
+        "chapter": 34,
+        "title": "Chương 34: Cận Vệ Số Dos"
+      },
+      "t.4fse9qiovwd2": {
+        "chapter": 35,
+        "title": "Chương 35: Bình Yên Trong Tâm Trí"
+      },
+      "t.5e89r7iokxou": {
+        "chapter": 36,
+        "title": "Chương 36: Cuộc Họp Giữa Đêm"
+      },
+      "t.3an4hsdqql9v": {
+        "chapter": 37,
+        "title": "Chương 37: Buổi Tra Khảo Bất Ngờ"
+      },
+      "t.25nf4pqjla92": {
+        "chapter": 38,
+        "title": "Chương 38: Công ty Đông Ấn Anh Quốc"
+      },
+      "t.q63rabmnscgn": {
+        "chapter": 39,
+        "title": "Chương 39: Cuộc Trò Chuyện Của Hai Quý Ông"
+      },
+      "t.rw2jsye52u34": {
+        "chapter": 40,
+        "title": "Chương 40: Huyết Mạch Phía Nam"
+      },
+      "t.nkced193dq6n": {
+        "chapter": 41,
+        "title": "Chương 41: Bảy Pháo Đài Ra Khơi"
+      },
+      "t.kgvenkepkdba": {
+        "chapter": 42,
+        "title": "Chương 42: Một Thế Giới Không Có Mùa Đông"
+      },
+      "t.y62znxsb7a1e": {
+        "chapter": 43,
+        "title": "Chương 43: Người Không Thể Tìm Lại"
+      },
+      "t.49c25jvk93r": {
+        "chapter": 44,
+        "title": "Chương 44: Một Gia Đình Dưới Hoa Tulip"
+      },
+      "t.tucfcxkc6bng": {
+        "chapter": 45,
+        "title": "Chương 45: Hai Mươi Bảy Năm Dưới Hoa Tulip"
+      },
+      "t.ifeyxim0uz8": {
+        "chapter": 46,
+        "title": "Chương 46: Những Ký Ức Chưa Từng Tồn Tại"
+      },
+      "t.os8wlxv5h4nh": {
+        "chapter": 47,
+        "title": "Chương 47: Những Điều Còn Lại"
+      },
+      "t.5fgy3572ahr9": {
+        "chapter": 48,
+        "title": "Chương 48: Hải Chiến Palma"
+      },
+      "t.1hx2xeyr0a7t": {
+        "chapter": 49,
+        "title": "Chương 49: Khi Đại Bàng Gãy Cánh"
+      },
+      "t.n3olwnef8r0p": {
+        "chapter": 50,
+        "title": "Chương 50: Những Người Trở Về"
+      },
+      "t.fm04hlsbfwkv": {
+        "chapter": 51,
+        "title": "Chương 51: Điều Không Thể Giấu"
+      },
+      "t.dp5o2btt4d2q": {
+        "chapter": 52,
+        "title": "Chương 52: Một Người Vợ, Hai Cuộc Đời"
+      },
+      "t.sgt2ukgc5zvt": {
+        "chapter": 53,
+        "title": "Chương 53: Nụ Hôn Trước Tiếng Súng"
+      },
+      "t.pw9rn918caec": {
+        "chapter": 54,
+        "title": "Chương 54: Những Kẻ Không Có Trên Bàn Cờ"
+      },
+      "t.8g8sezcitqlp": {
+        "chapter": 55,
+        "title": "Chương 55: Những Người Băng Qua Biển Lửa"
+      },
+      "t.ovmuzmb8apk2": {
+        "chapter": 56,
+        "title": "Chương 56: Phước Lành Của Quái Vật"
+      },
+      "t.8tgtwsmioin0": {
+        "chapter": 57,
+        "title": "Chương 57: Quân Vương Không Ngai"
+      },
+      "t.qk0yyfbcwaku": {
+        "chapter": 58,
+        "title": "Chương 58: Người Không Trở Về"
+      },
+      "t.fhw6slimwi5d": {
+        "chapter": 59,
+        "title": "Chương 59: Dòng Đời Sau Hoa Tulip"
+      },
+      "t.kz5zdypm9wkh": {
+        "chapter": 60,
+        "title": "Chương 60: Những Người Đi Tìm Người Không Trở Về"
+      },
+      "t.6d1ql5viauwm": {
+        "chapter": 61,
+        "title": "Chương 61: Agincourt Lần Thứ Ba"
+      },
+      "t.w45ty8gdkgfk": {
+        "chapter": 62,
+        "title": "Chương 62: Những Người Còn Ở Lại"
+      },
+      "t.7nxgipfhhfvu": {
+        "chapter": 63,
+        "title": "Chương 63: Người Ở"
+      },
+      "t.vcu6mkkedh04": {
+        "chapter": 64,
+        "title": "Chương 64: Một Đế Chế Không Còn Kẻ Mở Đường"
+      },
+      "t.cg5nyyvtxoq0": {
+        "chapter": 65,
+        "title": "Chương 65: Hai Dòng Đời"
+      },
+      "t.746ayxchnoqv": {
+        "chapter": 66,
+        "title": "Chương 66: Đại Kỳ Habsburg"
+      },
+      "t.49d60xl0ymip": {
+        "chapter": 67,
+        "title": "Chương 67: Đại Hải Chiến Tagus I"
+      },
+      "t.s4k90j4xuhsr": {
+        "chapter": 68,
+        "title": "Chương 68: Đại Hải Chiến Tagus II"
+      },
+      "t.1qwcyq45qu6w": {
+        "chapter": 69,
+        "title": "Chương 69: Đại Hải Chiến Tagus III"
+      },
+      "t.cml9l75sr2hn": {
+        "chapter": 70,
+        "title": "Chương 70: Lisbon Không Đầu Hàng"
+      },
+      "t.oemn35jlrw8i": {
+        "chapter": 71,
+        "title": "Chương 71: Con Đường Về Santiago"
+      },
+      "t.12egrgea5jg9": {
+        "chapter": 72,
+        "title": "Chương 72: Phần Chưa Được Vẽ"
+      },
+      "t.flexeda8jkcq": {
+        "chapter": 73,
+        "title": "Chương 73: Ngày Hội Quân Madrid"
+      },
+      "t.irhnlibkydr7": {
+        "chapter": 74,
+        "title": "Chương 74: Một Ánh Sáng Rất Nhỏ"
+      },
+      "t.dpxeoewh6bt8": {
+        "chapter": 75,
+        "title": "Chương 75: Kẻ Mở Đường Trở Về"
+      },
+      "t.bscgn8xlkeon": {
+        "chapter": 76,
+        "title": "Chương 76: Santiago Trong Vòng Vây"
+      },
+      "t.6h6p4ywrxiwx": {
+        "chapter": 77,
+        "title": "Chương 77: Mở Đường Tới Santiago"
+      },
+      "t.fp52h5580odu": {
+        "chapter": 78,
+        "title": "Chương 78: Khi Hai Kẻ Thù Che Lưng Cho Nhau"
+      },
+      "t.c9kg8s6kcd0y": {
+        "chapter": 79,
+        "title": "Chương 79: Biển Lửa Ngoài Santiago"
+      },
+      "t.scbjplgfyqs5": {
+        "chapter": 80,
+        "title": "Chương 80: Đại Chiến Santiago"
+      },
+      "t.f1lfab78g167": {
+        "chapter": 81,
+        "title": "Chương 81: Cuộc Vây Thành Đã Chết"
+      },
+      "t.bovbntr66u3y": {
+        "chapter": 82,
+        "title": "Chương 82: Người Không Quỳ"
+      },
+      "t.6pu83twt0lsp": {
+        "chapter": 83,
+        "title": "Chương 83: Chúng Ta Về Nhà"
+      }
+    },
+    "3": {
+      "t.0": {
+        "chapter": 84,
+        "title": "Chương 84: Kẻ Chặt Đầu"
+      },
+      "t.dhvdc0rbinrw": {
+        "chapter": 85,
+        "title": "Chương 85: Những Đứa Con Của Phương Bắc"
+      },
+      "t.z77tdx24vufl": {
+        "chapter": 86,
+        "title": "Chương 86: Những Người Chưa Về"
+      },
+      "t.pp4zl5vgw6mk": {
+        "chapter": 87,
+        "title": "Chương 87: Câu Trả Lời Từ Valhalla"
+      },
+      "t.o0iyyu5p0178": {
+        "chapter": 88,
+        "title": "Chương 88: Hướng Bắc"
+      },
+      "t.4kovp98b7dtw": {
+        "chapter": 89,
+        "title": "Chương 89: Một Ngày Không Có Tiếng Súng"
+      },
+      "t.2pytamhy2c2r": {
+        "chapter": 90,
+        "title": "Chương 90: Điều Edward Spencer Muốn"
+      },
+      "t.u66hjmxxujh8": {
+        "chapter": 91,
+        "title": "Chương 91: Một Mái Nhà Rộng Hơn"
+      },
+      "t.lub6n18c6olf": {
+        "chapter": 92,
+        "title": "Chương 92: Những Khoản Nợ Của Đế Chế"
+      },
+      "t.5hbdz3u5lx3r": {
+        "chapter": 93,
+        "title": "Chương 93: Đóng Những Cuộc Chiến Cũ"
+      },
+      "t.cy0cx347s8am": {
+        "chapter": 94,
+        "title": "Chương 94: Một Đế Chế Học Lại Cách Chiến Đấu"
+      },
+      "t.tqvc04ply6v7": {
+        "chapter": 95,
+        "title": "Chương 95: Đức Tin, Luật Và Mệnh Lệnh"
+      },
+      "t.g1rxs6cvegq6": {
+        "chapter": 96,
+        "title": "Chương 96: Ba Con Sói Biển"
+      },
+      "t.e6z1ipd7iys3": {
+        "chapter": 97,
+        "title": "Chương 97: Đường Về Nhà"
+      },
+      "t.l43jivxuq4ik": {
+        "chapter": 98,
+        "title": "Chương 98: Ngày Xuất Quân"
+      },
+      "t.46wlbp9jeuf": {
+        "chapter": 99,
+        "title": "Chương 99: Hải Chiến Melilla"
+      },
+      "t.4v74m9dtfh1o": {
+        "chapter": 100,
+        "title": "Chương 100: Tiến Đánh Nador"
+      },
+      "t.bp5ymwckkx9j": {
+        "chapter": 101,
+        "title": "Chương 101: Những Đứa Con Trở Về"
+      },
+      "t.wuju3loxxz88": {
+        "chapter": 102,
+        "title": "Chương 102: Hội Nghị Palermo"
+      },
+      "t.wyt6xfnj2vqm": {
+        "chapter": 103,
+        "title": "Chương 103: Khi Một Đế Chế Rút Quân"
+      },
+      "t.h27t18qxsmkj": {
+        "chapter": 104,
+        "title": "Chương 104: Con Tốt Không Di Chuyển"
+      },
+      "t.qqykw4knyjng": {
+        "chapter": 105,
+        "title": "Chương 105: Cái Giá Của Toulouse"
+      },
+      "t.1qm7b6yy7vpw": {
+        "chapter": 106,
+        "title": "Chương 106: Những Quân Cờ Trong Cùng Một Hộp"
+      },
+      "t.ygs7iuz8nsdl": {
+        "chapter": 107,
+        "title": "Chương 107: Khi Chiến Thắng Trở Về Nhà"
+      },
+      "t.c598565quy2s": {
+        "chapter": 108,
+        "title": "Chương 108: Bốn Giờ Chiều Ở Toulouse"
+      },
+      "t.ohhraya8gurv": {
+        "chapter": 109,
+        "title": "Chương 109: Lần Sau Không Ở Chiến Trường"
+      },
+      "t.73ij6ng6rlcc": {
+        "chapter": 110,
+        "title": "Chương 110: Để Một Kẻ Thù Rời Đi"
+      },
+      "t.rbf87e6u5bln": {
+        "chapter": 111,
+        "title": "Chương 111: Chuyến Tàu Không Ra Tiền Tuyến"
+      },
+      "t.qe23e7vebc1w": {
+        "chapter": 112,
+        "title": "Chương 112: Sự Chuộc Tội của Một Người Con"
+      },
+      "t.3lonz87jn56l": {
+        "chapter": 113,
+        "title": "Chương 113: Chiếc Đồng Hồ Vẫn Chạy"
+      },
+      "t.6vl9txmjtdk": {
+        "chapter": 114,
+        "title": "Chương 114: Người Ở Lại Sau Cùng"
+      },
+      "t.4nq1dt5hngcr": {
+        "chapter": 115,
+        "title": "Chương 115: Một Đám Cưới Không Có Ngai"
+      },
+      "t.8x9z40k3cgfy": {
+        "chapter": 116,
+        "title": "Chương 116: Gõ Từng Cánh Cửa"
+      },
+      "t.hcp61seskr0n": {
+        "chapter": 117,
+        "title": "Chương 117: Hai Cô Dâu"
+      },
+      "t.xcqgogzfrn3z": {
+        "chapter": 118,
+        "title": "Chương 118: Trước Khi Cánh Cửa Mở"
+      },
+      "t.q2pf3tobpcmv": {
+        "chapter": 119,
+        "title": "Chương 119: Ba Dòng Đời, Một Lời Thề"
+      },
+      "t.fk2w4jjd8whb": {
+        "chapter": 120,
+        "title": "Chương 120: Bữa Tiệc Của Những Người Sống"
+      },
+      "t.p74mdebqv2o9": {
+        "chapter": 121,
+        "title": "Chương 121: Sau Khi Cửa Khép Lại"
+      },
+      "t.i45o0knti99t": {
+        "chapter": 122,
+        "title": "Chương 122: Ngày Trời Mở Cửa"
+      },
+      "t.58pmalx8kbs4": {
+        "chapter": 123,
+        "title": "Chương 123: Tạm Biệt"
+      }
+    },
+    "4": {
+      "t.yr6jyoqhda1g": {
+        "chapter": 124,
+        "title": "Chương 124: Ánh Sáng Đủ Để Nhận Ra Một Ngày"
+      },
+      "t.qwdn7tws7dvs": {
+        "chapter": 125,
+        "title": "Chương 125: Một Lần Nữa Của Chắc Chắn"
+      },
+      "t.4hzo0wsytj89": {
+        "chapter": 126,
+        "title": "Chương 126: Những Người Không Thể Thay Thế"
+      },
+      "t.4u5kla2yviu": {
+        "chapter": 127,
+        "title": "Chương 127: Một Người Có Thể Sống Bao Nhiêu Lần"
+      },
+      "t.z3x9uztwmp86": {
+        "chapter": 128,
+        "title": "Chương 128: Khi Một Đời Người Được Trả Lại"
+      },
+      "t.9o8mxvvqukt": {
+        "chapter": 129,
+        "title": "Chương 129: Một Quốc Gia Không Cần Chung Họ"
+      },
+      "t.uzcq562rrf2m": {
+        "chapter": 130,
+        "title": "Chương 130: Vật Chứng Không Thuộc Về Hồ Sơ"
+      },
+      "t.tb2rotg23u11": {
+        "chapter": 131,
+        "title": "Chương 131: Nửa Còn Lại Của Một Kết Luận"
+      },
+      "t.n9h17cv6twd9": {
+        "chapter": 132,
+        "title": "Chương 132: Sợi Chỉ Biết Đường Qua Biển"
+      },
+      "t.sklfvs57e541": {
+        "chapter": 133,
+        "title": "Chương 133: Cuộc Đời Edward Đang Sống"
+      },
+      "t.g1rhrvs5rcih": {
+        "chapter": 134,
+        "title": "Chương 134: Sai Số Mang Số Bảy"
+      },
+      "t.h05oqarhw57": {
+        "chapter": 135,
+        "title": "Chương 135: Khi Các Khả Năng Bắt Đầu Biến Mất"
+      },
+      "t.6g4d34q5yvny": {
+        "chapter": 136,
+        "title": "Chương 136: Một Lời Nói Dối Biết Đủ Sự Thật"
+      },
+      "t.uy1pxra2nmu5": {
+        "chapter": 137,
+        "title": "Chương 137: Điều Được Gọi Là Bảo Vệ"
+      },
+      "t.mtr8vbc6qaxa": {
+        "chapter": 138,
+        "title": "Chương 138: Bảy Chòm Sao Và Một Câu Hỏi Dở Dang"
+      },
+      "t.79rlxgkddqma": {
+        "chapter": 139,
+        "title": "Chương 139: Bầu Trời Rơi Xuống Sau Libra"
+      },
+      "t.21vry6q54l0j": {
+        "chapter": 140,
+        "title": "Chương 140: Người Ta Yêu Vẫn Có Quyền Lựa Chọn"
+      },
+      "t.bqyitlj0a2im": {
+        "chapter": 141,
+        "title": "Chương 141: Những Thứ Bắt Đầu Muốn"
+      },
+      "t.2eet2cifr6re": {
+        "chapter": 142,
+        "title": "Chương 142: Người Cuối Cùng Chưa Có Ai"
+      },
+      "t.ug6kvt8p1f7i": {
+        "chapter": 143,
+        "title": "Chương 143: Nơi Không Có Ai Trả Lời"
+      },
+      "t.x30sbsgwbciu": {
+        "chapter": 144,
+        "title": "Chương 144: Mọi Con Đường Đều Dẫn Tới Tháp"
+      },
+      "t.q3xvcr8lh216": {
+        "chapter": 145,
+        "title": "Chương 145: Những Gì Được Mang Ra Khỏi Tazrout"
+      },
+      "t.qkteo2n1sez1": {
+        "chapter": 146,
+        "title": "Chương 146: Hai Tiếng Khóc Sau Cánh Gương"
+      },
+      "t.cge32fmi8vus": {
+        "chapter": 147,
+        "title": "Chương 147: Khúc Hát Của Những Đứa Trẻ"
+      },
+      "t.j9f1ghdrcjh6": {
+        "chapter": 148,
+        "title": "Chương 148: Sự Chuộc Tội Của Người Lỡ Yêu"
+      }
+    }
+  }
+}

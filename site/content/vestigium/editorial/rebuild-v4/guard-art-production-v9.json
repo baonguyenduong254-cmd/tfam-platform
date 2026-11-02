@@ -1,0 +1,464 @@
+[
+  {
+    "number": 5,
+    "id": "device-035",
+    "master": "exec-c26cc88e-d21d-4e6d-8ac9-7529617e3c43.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 6,
+    "id": "device-036",
+    "master": "exec-22a073d4-357c-41c6-8c32-21a218dde0dc.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 10,
+    "id": "armament-guard-010-concordia",
+    "master": "exec-a214ad7d-4239-4aec-9e64-8a3cf956fa8e.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 9,
+    "id": "armament-guard-009-bastion",
+    "master": "exec-bef831af-d397-4868-83fb-a511a4c54e3f.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 7,
+    "id": "armament-siete-victoria-fidelis",
+    "master": "exec-5072bbc3-8977-424c-8510-9298f98540e9.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 17,
+    "id": "armament-guard-017-humerus",
+    "master": "exec-f69c24c5-ad1b-4611-8af8-0f7085aa5b60.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 11,
+    "id": "device-037",
+    "master": "exec-86871fb8-b4b4-45c1-bb71-6ccc22992d99.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 13,
+    "id": "device-038",
+    "master": "exec-b474486c-b2fb-4c94-b41f-124261bfbfbf.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 14,
+    "id": "device-039",
+    "master": "exec-cf0c6c6d-136e-4a18-836e-73361fbdd521.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 15,
+    "id": "device-040",
+    "master": "exec-e9a1d8b2-b139-4d50-ac57-1da141844dd4.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 18,
+    "id": "device-041",
+    "master": "exec-3994f12a-8ef9-4615-99b5-f72d6a28133c.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 19,
+    "id": "device-042",
+    "master": "exec-07199381-f17e-4eeb-a6b8-6c374d4aceda.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 27,
+    "id": "armament-collection-5-05",
+    "master": "exec-ce373e73-f999-40db-8546-22e821d34ab8.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 28,
+    "id": "armament-collection-5-06",
+    "master": "exec-2807e2f2-69b5-43f2-98ac-cbac495e51c8.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 30,
+    "id": "armament-collection-5-08",
+    "master": "exec-59657ef2-ec27-4854-9521-d0e10e9741bc.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 35,
+    "id": "armament-collection-6-05",
+    "master": "exec-5de2326a-0e4e-4cdc-96f0-8b3317d7e0bd.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 38,
+    "id": "armament-collection-7-03",
+    "master": "exec-6a1055de-4416-4d89-8ac1-e2b68f024fe7.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 39,
+    "id": "phenomenon-guard-039-auster",
+    "master": "exec-1b3465da-7d8c-49e4-85a8-84416031d710.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 40,
+    "id": "device-055",
+    "master": "exec-db4a25fc-fda6-460e-8c76-1e03129c8e94.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 46,
+    "id": "complex-guard-046-molendina",
+    "master": "exec-fd6ad72c-5fa3-4c89-9723-a1c11dd4c66e.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 47,
+    "id": "device-guard-047-mensura",
+    "master": "exec-18df56d9-db64-421c-b58d-4d5268a65b57.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 48,
+    "id": "device-048",
+    "master": "exec-f3818681-d4d3-4660-9ebb-640769d7faaa.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 51,
+    "id": "phenomenon-guard-051-nubila",
+    "master": "exec-f9bbad91-9eab-48ba-8fa4-f964718faa5a.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 53,
+    "id": "entity-guard-053-cinis",
+    "master": "exec-dac25690-84d1-4c46-97f5-5adfdca9a8a1.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 54,
+    "id": "device-054",
+    "master": "exec-776d46b9-feae-413d-af12-8057b9c99791.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 56,
+    "id": "device-056",
+    "master": "exec-a18d1795-9b45-4b8f-994f-543f5d981ba6.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 57,
+    "id": "device-guard-057-follis",
+    "master": "exec-ae8ffe91-cf10-4786-b034-3b49c77d8105.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 58,
+    "id": "device-058",
+    "master": "exec-f2a3a507-15fa-4bec-9a1f-97c23d086d01.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 59,
+    "id": "armament-guard-059-clavus",
+    "master": "exec-cae73eff-112f-4c3d-acfc-57343709fbd0.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 60,
+    "id": "device-049",
+    "master": "exec-1e463946-98fa-4cd3-94e9-f9762a2ed669.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 62,
+    "id": "device-062",
+    "master": "exec-95300e69-da29-4287-875d-ad0665cdc19f.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 63,
+    "id": "device-063",
+    "master": "exec-420bba10-d38f-41f5-8ba5-d60d8987fdce.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 64,
+    "id": "device-064",
+    "master": "exec-c275a18b-9a7a-42ed-9519-b28f64af8b33.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 65,
+    "id": "device-guard-065-recales",
+    "master": "exec-9d16111b-3073-4e8a-8695-fec56bbeeeb9.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 66,
+    "id": "device-guard-066-astrolabium",
+    "master": "exec-f2959598-02c4-48d8-8205-c2557967bf4e.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 67,
+    "id": "device-guard-067-transitus",
+    "master": "exec-c987fcf6-bf26-451b-9122-bce1d003d329.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 68,
+    "id": "complex-guard-068-linteum",
+    "master": "exec-acd114e3-e3d9-4b48-a4e0-e8217c9d58da.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 69,
+    "id": "device-guard-069-aestuarium",
+    "master": "exec-d93d1760-1964-4994-837c-7c36fa3fb101.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 70,
+    "id": "device-059",
+    "master": "exec-4479d383-28fb-4fde-9762-90fa9c7bad27.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 71,
+    "id": "armament-guard-071-abyssus",
+    "master": "exec-0dc8d3a2-7398-4aa2-a2fb-c6c095e6cc86.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 72,
+    "id": "material-guard-072-fulmen",
+    "master": "exec-7e4a7bf8-e8a0-4d24-add3-456015a3c135.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 73,
+    "id": "phenomenon-guard-073-passus",
+    "master": "exec-56771e36-6db7-4687-babd-82475cd646c1.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 74,
+    "id": "armament-guard-074-vela",
+    "master": "exec-2f7b30c6-429f-404e-b3bc-effb1fd4e3f6.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 75,
+    "id": "entity-guard-075-faber",
+    "master": "exec-9c27b57f-d63c-4fb1-bc48-a9f364209ca7.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 76,
+    "id": "device-setenta-seis-ferraria",
+    "master": "exec-959de557-fe91-47b6-9bdc-f465cf817afa.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 77,
+    "id": "armament-guard-077-reversor",
+    "master": "exec-008e27a9-c860-453c-9a8f-c721a31e222c.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 78,
+    "id": "device-guard-078-clamor",
+    "master": "exec-e1b7f19d-db39-479f-b88c-00ab51d2f096.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 79,
+    "id": "device-guard-079-forma",
+    "master": "exec-fbe70738-c14d-47ae-9673-e5db977443c8.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 80,
+    "id": "device-060",
+    "master": "exec-b195a864-b849-4a90-8da8-2f24a8040c9e.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 81,
+    "id": "phenomenon-guard-081-vernalis",
+    "master": "exec-c3460e57-e4db-48ef-b89a-2a0f51c8e7a5.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 82,
+    "id": "armament-guard-082-vestitor",
+    "master": "exec-e3fbdbd7-1032-4c31-bcea-115a39ac3cb6.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 83,
+    "id": "complex-guard-083-lucerna",
+    "master": "exec-14679ec6-d6a7-46dd-927d-3688866f7021.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 84,
+    "id": "device-guard-084-seminarium",
+    "master": "exec-f19690c4-56d2-4b8a-b03d-c8951c7d5e80.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 85,
+    "id": "device-guard-085-architectum",
+    "master": "exec-0fea9314-f0f8-43ac-bc86-9f24153b5017.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 93,
+    "id": "device-guard-093-umbra",
+    "master": "exec-be22d5a5-d6a2-43b4-be44-5bfcd493dcd5.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 94,
+    "id": "entity-guard-094-janitor",
+    "master": "exec-92ce4676-b2ba-4fa8-b525-11cdf7d9fee4.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 95,
+    "id": "phenomenon-guard-095-ripa",
+    "master": "exec-8bceaffd-22a5-412c-a563-0e51dca1e39e.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 96,
+    "id": "device-guard-096-vitae",
+    "master": "exec-db859629-17f8-4bb2-ab83-dee7b1ce9335.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 98,
+    "id": "material-guard-098-aurea",
+    "master": "exec-270e5949-e25a-4ef6-8ca8-348c23bf75d7.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 100,
+    "id": "phenomenon-guard-100-terminus",
+    "master": "exec-da94c1a8-ce77-4a96-9bdb-93729994f0f0.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 86,
+    "id": "device-guard-086-vulneris",
+    "master": "exec-f3550604-55af-4c4f-9eca-2a008e5db1d4.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 87,
+    "id": "armament-guard-087-viator",
+    "master": "exec-748e9dfd-0051-41e6-b7c0-9d66d05e0307.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 88,
+    "id": "complex-guard-088-nauta",
+    "master": "exec-fc63fdcf-7df2-413b-ab49-fa7e4aaf7e4b.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 90,
+    "id": "entity-guard-090-somnus",
+    "master": "exec-88176315-c1e7-4516-abc2-280255f0f883.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 91,
+    "id": "device-guard-091-navicula",
+    "master": "exec-0e797ab7-05b3-4022-97d1-e0f0153f8e60.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  },
+  {
+    "number": 92,
+    "id": "complex-guard-092-porticus",
+    "master": "exec-88191a89-dc74-40a8-ae82-f83ab3ba8a85.png",
+    "review": "Approved form, readable silhouette and materials",
+    "generator": "built-in imagegen"
+  }
+]

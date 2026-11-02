@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-last-shift-keeper",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Áo khoác người trực trạm bơm được treo trên đinh khoáng cạnh bệ máy. Ông để trong túi một thẻ ghi ba van cần kiểm, đọc trình tự mỗi lần hết ca. Sau khi trạm bỏ hoang, người khảo sát nghe tiếng báo đổi ca từ một bóng áo mang đèn, vẫn đi đúng vòng quanh bệ đã tháo guồng.\n\nHọ tìm thấy mẩu khoáng trong đinh và thẻ đã mục nhưng còn ba dấu van. Người giữ ca theo bộ đồ ấy tới trạm thử, tiếp tục chỉ ba vị trí theo thứ tự đã học. Một người thợ cuối quay lại nền cũ, nói mình nhận ca, rồi nhìn bóng chịu ngồi xuống. Nó đứng lên lần sau khi chính ông giao một vòng kiểm mới đã được thử đúng.",
+    "lore_en": "A pumping-station watch coat hung upon a mineral nail beside the engine base. Its keeper left a card of three valve checks in the pocket and recited them at every shift change. After abandonment, surveyors heard a change-of-watch call from a lamp-bearing coat shade still circling the base after the wheel had gone.\n\nThey found mineral within the nail and a rotten card retaining three valve marks. The shift keeper followed them to a test station and continued indicating those positions in its learnt order. A final worker returned to the old footing, accepted the watch aloud and saw the shade sit down. It rose again when he entrusted a freshly verified checking circuit.",
+    "use_vi": "Nhớ và nhắc một trình tự ba điểm kiểm đã được người vận hành xác nhận, ghi lượt đáp của người nhận ca.",
+    "use_en": "Remember and prompt three operator-verified checking points and retain the incoming keeper’s acknowledgements.",
+    "limits_vi": "Chỉ biết trình tự được giao, hệ máy đổi cần kiểm và dạy lại. Bóng chỉ nhắc, người vận hành chịu trách nhiệm xác nhận thực trạng trước khi thao tác.",
+    "limits_en": "It knows its entrusted sequence; changed machinery needs verification and retraining. The shade prompts while operators must establish actual conditions before acting.",
+    "skills": [
+      {
+        "name_vi": "Giao ba điểm",
+        "name_en": "Entrust Three Points",
+        "description_vi": "Người vận hành dẫn bóng qua ba vị trí đã kiểm an toàn và gọi tên theo thẻ, cho nó nhận vòng nhắc mới.",
+        "description_en": "An operator leads it through three verified safe positions and names them from the card to entrust a fresh prompting circuit."
+      },
+      {
+        "name_vi": "Đèn chỉ điểm đầu",
+        "name_en": "The First-Point Lamp",
+        "description_vi": "Gọi nhận ca để bóng đưa đèn tới điểm đầu trên thẻ, nhắc nơi người vận hành bắt đầu xem.",
+        "description_en": "Accept the watch aloud so its lamp indicates the card’s first checking point."
+      },
+      {
+        "name_vi": "Chờ lời xác nhận",
+        "name_en": "Await Acknowledgement",
+        "description_vi": "Sau mỗi điểm, người trực tự nói đã kiểm để bóng đi tiếp, giữ nhắc theo thứ tự; lời nói sai vẫn được nhận nên cần giám sát thật.",
+        "description_en": "After each point, the operator states completion so it advances in order; false acknowledgement is still accepted and requires real supervision."
+      },
+      {
+        "name_vi": "Vòng chưa đủ",
+        "name_en": "The Incomplete Round",
+        "description_vi": "Soi thẻ dưới đèn bóng để dấu điểm chưa được đáp hiện đậm, cho người đổi ca biết phần kiểm còn chờ.",
+        "description_en": "View the card beneath its lamp to darken unacknowledged points and show pending checks at handover."
+      },
+      {
+        "name_vi": "Gọi lại điểm cũ",
+        "name_en": "Recall the Earlier Point",
+        "description_vi": "Chạm dấu trên thẻ để bóng quay đèn về điểm đã nhắc, giúp người trực xem lại sau một dấu nghi ngờ.",
+        "description_en": "Touch a card mark so its lamp returns to a previously prompted point for a second inspection."
+      },
+      {
+        "name_vi": "Chuyền ca",
+        "name_en": "Pass the Watch",
+        "description_vi": "Người mới gọi tên mình trước áo trong lúc người cũ nói giao để bóng đổi người chờ đáp mà giữ phần việc còn lại.",
+        "description_en": "A new keeper names themself before the coat as the old hands over, transferring acknowledgements while preserving pending work."
+      },
+      {
+        "name_vi": "Đứng chặn sai lượt",
+        "name_en": "Bar the Wrong Order",
+        "description_vi": "Khi người đang nhận ca tới điểm sau trước lúc đáp điểm trước, bóng đứng che dấu thẻ và giơ đèn nhắc quay lại; người vẫn có thể bỏ qua.",
+        "description_en": "If the accepted keeper approaches a later point before acknowledging the previous, the shade covers its card mark and signals return; it can still be ignored."
+      },
+      {
+        "name_vi": "Cho ca được nghỉ",
+        "name_en": "Let the Watch Rest",
+        "description_vi": "Đáp đủ ba điểm rồi treo áo lên đinh và nói khép ca để bóng ngồi nghỉ, chờ lượt giao mới thay vì tuần mãi.",
+        "description_en": "Acknowledge all three points, hang the coat and close the watch aloud so the shade rests instead of patrolling endlessly."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ca cần được nhận",
+        "name_en": "A Watch Needs Acceptance",
+        "description_vi": "Áo, đinh và thẻ là bộ neo cùng lượt; thiếu thẻ khiến nó chỉ lại vòng cũ quanh bệ máy đã nhớ.",
+        "description_en": "Coat, nail and card form one anchoring set; without the card it returns to its remembered old circuit."
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+# Vestigium written dossiers, 19 October 2026
+
+Completed all 85 previously blank bilingual dossiers in the retained 453-record collection. Each now has an epigraph, origin lore, traits, selected core abilities, use and limits. The 84 Collection-origin entries are author-authorised creative expansion. Their named bearers and story appearances are not invented as manuscript facts. Ranks, approved names, categories, quantities, source anchors and all image references are retained.
+
+Absolución was written from the current Chapter 140 tab: it removes imposed bonds while preserving willing connections. Its display rank remains editorial. Vestigia Nulla was corrected from the current Extra 1 tab: the disguised oval pendant seals the sabre and nails until the lion face returns; the sabre becomes Clavador, and ninety-nine nails appear. Its former climbing-tool disguise was stale. Fresh read evidence and revisions are preserved privately in live-source-evidence.json. This is a targeted two-profile manuscript check, not a new four-volume verification.
+
+Seventeen existing canonical dossiers already contained prose but remained hidden by visual-only status. Their written sections are now enabled. Twelve low-rank utility lore entries were refined to remove repeated use summaries and add coherent origin context. Their powers remain unchanged. All 453 records now have nonempty Vietnamese and English lore; 339 source records are entirely unchanged, and 114 records have bounded changes documented by the validation script.
+
+The previous pruning check asserted that all retained prose stayed unchanged for its image-only pass. That historical invariant is superseded for this author-requested content pass by scripts/check-vestigium-lore-20261019.py, which still protects names, ranks, sources, quantities, ownership, artwork and membership. No new items, images or manuscript edits were made.
+
+Validation: data generation, the bounded before/after check, core-ability caps, 100 Guard numbers, all artwork paths and diff whitespace. Browser QA is unavailable in this environment. Production build and GPT Sites publication follow through the Sites source helper. Cloudflare remains outside this publication.
