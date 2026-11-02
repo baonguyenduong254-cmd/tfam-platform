@@ -15,7 +15,7 @@ const flags=standards.flags as Record<string,string>;
 export default function CinematicEntry({data,replay,onEnter}:Props){
  const [choose,setChoose]=useState(replay),[notice,setNotice]=useState('');
  const reduced=useReducedMotion(),discovery=useDiscovery();
- useEffect(()=>{const sync=()=>setChoose(location.hash==='#horizons'||location.hash==='#voyage');sync();window.addEventListener('popstate',sync);return()=>window.removeEventListener('popstate',sync);},[]);
+ useEffect(()=>{setChoose(replay||location.hash==='#horizons'||location.hash==='#voyage');const sync=()=>setChoose(location.hash==='#horizons'||location.hash==='#voyage');window.addEventListener('popstate',sync);return()=>window.removeEventListener('popstate',sync);},[replay]);
  useEffect(()=>{if(!notice)return;const timer=setTimeout(()=>setNotice(''),4500);return()=>clearTimeout(timer);},[notice]);
  function horizons(e:React.MouseEvent<HTMLAnchorElement>){if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();history.pushState(null,'','#horizons');setChoose(true);window.scrollTo({top:0,behavior:'instant'});}
  function enter(id:string){const index=data.factions.findIndex((f:R)=>f.id===id);if(index<0||!discovery.canExplore(id)){setNotice(discovery.condition(id));return;}try{localStorage.setItem('tfam-last-faction',id);}catch{}onEnter(index,'map');}

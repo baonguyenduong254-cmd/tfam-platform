@@ -104,3 +104,15 @@ body.tfam-editorial.tfam-royal .tfam-opening-210 .revolt-group h2{color:#d9b9f3}
 @media(max-height:650px) and (min-width:761px){body.tfam-editorial.tfam-royal .tfam-opening-210:not(.choosing) .opening-title{gap:20px;padding-block:20px 40px}.tfam-opening-210 .opening-work-title h1{font-size:72px!important}}
 @media(prefers-reduced-motion:reduce){.tfam-opening-210 .opening-living-scene picture{animation-name:horizon-light;animation-duration:40s}.tfam-opening-210 .title-blood-bloom{animation-duration:35s}.tfam-opening-210 :is(a,button,img){transition-duration:.1s!important}}
 @media print{.tfam-opening-210{display:none!important}}
+
+/* Keep artwork above the shell ground and below all interaction layers. */
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-living-scene{z-index:0;opacity:1;visibility:visible}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-living-scene picture{position:absolute;inset:0;width:100%;height:100%}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-living-scene img{position:absolute;inset:0}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-mist{z-index:1}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-selection{z-index:2}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-actions a{width:100%;max-width:none;margin:0;justify-self:stretch}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .music-compact{color:#e6edf5}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .music-compact :is(.music-track-title,.music-levels,.music-mute){color:#e6edf5!important}
+body.tfam-editorial.tfam-royal .tfam-opening-210 .title-blood-bloom{mix-blend-mode:normal;filter:blur(.6px);background:radial-gradient(ellipse at center,#9a153ccc 0 12%,#8c123c88 28%,transparent 59%);opacity:.7}
+@media(max-width:760px){body.tfam-editorial.tfam-royal .tfam-opening-210.choosing .opening-living-scene img{object-position:85% center}body.tfam-editorial.tfam-royal .tfam-opening-210.choosing .opening-mist{background:linear-gradient(90deg,#080d19c9,#080d1944),linear-gradient(0deg,#090c1888,transparent 65%)}}

@@ -11,18 +11,31 @@ const fs=require('node:fs');
  if(!ready){for(let i=0;i<30;i++){try{await page.goto('http://127.0.0.1:8787',{waitUntil:'domcontentloaded',timeout:3000});ready=true;break;}catch{await new Promise(r=>setTimeout(r,1000));}}}
  if(!ready){console.error(fs.existsSync('reports/preview.log')?fs.readFileSync('reports/preview.log','utf8'):'No preview log');throw Error('Cloud preview did not start');}
  const origin=new URL(page.url()).origin;
+ const settle=async()=>{
+  await page.locator('.opening-living-scene img').evaluate(img=>img.decode());
+  await page.waitForFunction(()=>Array.from(document.querySelectorAll('.opening-title,.faction-selection')).every(el=>Number(getComputedStyle(el).opacity)>.99));
+  await page.locator('.selection-crest img').evaluateAll(async imgs=>{await Promise.all(imgs.filter(img=>{const r=img.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).map(img=>img.decode()));});
+ };
+ const captureState=async name=>{fs.writeFileSync('reports/'+name+'-render-state.json',JSON.stringify(await page.evaluate(()=>({
+  image:[...document.querySelectorAll('.opening-living-scene,.opening-living-scene picture,.opening-living-scene img')].map(el=>({tag:el.tagName,src:el.currentSrc,width:el.getBoundingClientRect().width,height:el.getBoundingClientRect().height,naturalWidth:el.naturalWidth,opacity:getComputedStyle(el).opacity,zIndex:getComputedStyle(el).zIndex,display:getComputedStyle(el).display})),
+  visibleFlags:[...document.querySelectorAll('.selection-crest img')].filter(el=>el.getBoundingClientRect().top<innerHeight).map(el=>({src:el.currentSrc,naturalWidth:el.naturalWidth})),
+  musicColor:document.querySelector('.music-track-title')?getComputedStyle(document.querySelector('.music-track-title')).color:null
+ })),null,2));};
  const check=async(condition,message)=>{if(!condition)throw Error(message);};
  await page.getByRole('link',{name:'DISCOVER THE WORLD',exact:true}).waitFor({state:'visible'});
  await check(await page.locator('.opening-actions a').count()===2,'Opening must have exactly two actions');
  await check(await page.getByRole('button',{name:/Pause scene|Achievements|Choose a track/i}).count()===0,'Obsolete opening widgets present');
- await page.screenshot({path:'reports/opening-desktop.png'});
+ await settle();await captureState('opening');await page.screenshot({path:'reports/opening-desktop.png'});
  await page.getByRole('link',{name:'DISCOVER THE WORLD',exact:true}).click();
  await page.getByRole('heading',{name:'Choose Your Horizon',exact:true}).waitFor({state:'visible'});
  await check(await page.locator('.faction-card').count()===28,'Expected 28 banners in five groups');
  await check(await page.locator('.faction-group').count()===5,'Expected five faction groups');
  await check(await page.locator('.faction-card:not(.is-locked)').count()===2,'Fresh reader should have exactly two unlocked factions');
  await check(await page.getByRole('searchbox').count()===0,'Old search must be removed');
- await page.screenshot({path:'reports/horizons-desktop.png'});
+ await settle();await captureState('horizons');await page.screenshot({path:'reports/horizons-desktop.png'});
+ for(const group of await page.locator('.faction-group').all()){await group.scrollIntoViewIfNeeded();await group.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(img=>img.decode())));}
+ await page.locator('.revolt-group').screenshot({path:'reports/revolt-flags-desktop.png'});
+ await page.getByRole('heading',{name:'Choose Your Horizon',exact:true}).scrollIntoViewIfNeeded();
  await page.locator('[data-faction-id="holy_french_kingdom"]').click({force:true});
  await page.getByRole('status').filter({hasText:/Complete Arc|Loading reading progress/}).waitFor({state:'visible'});
  await page.locator('[data-faction-id="castilian_empire"]').click();
@@ -30,11 +43,11 @@ const fs=require('node:fs');
  for(const width of [390,768]){
   await page.setViewportSize({width,height:844});await page.goto(origin);
   await page.getByRole('link',{name:'DISCOVER THE WORLD',exact:true}).waitFor({state:'visible'});
-  await page.screenshot({path:'reports/opening-'+width+'.png'});
+  await settle();await page.screenshot({path:'reports/opening-'+width+'.png'});
   await page.getByRole('link',{name:'DISCOVER THE WORLD',exact:true}).click();
   await page.getByRole('heading',{name:'Choose Your Horizon',exact:true}).waitFor({state:'visible'});
   await check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Horizontal overflow at '+width);
-  await page.screenshot({path:'reports/horizons-'+width+'.png'});
+  await settle();await page.screenshot({path:'reports/horizons-'+width+'.png'});
  }
  await page.goto(origin);await page.getByRole('link',{name:'BEGIN THE CHRONICLES',exact:true}).click();
  await page.waitForURL(/\/chronicles$/);
