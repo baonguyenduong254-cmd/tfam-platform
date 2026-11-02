@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-02",
-  "phase": "source-imported",
+  "phase": "update-210-foundation-prepared",
   "sourceImport": "verified",
   "production": {
     "siteVersion": 209,
@@ -20,13 +20,15 @@
     "importSecretRemoved": true
   },
   "r2": {
-    "status": "source-mapping-and-sample-read-verified",
-    "bucketNameVerified": false,
+    "status": "bucket-ui-verified-full-inventory-pending",
+    "bucketNameVerified": true,
     "objectMigrationPerformed": false,
     "deletionsPerformed": false,
     "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
     "legacyPathMappings": 2341,
-    "adminWriteAccessVerified": false
+    "adminWriteAccessVerified": false,
+    "bucket": "tfam-assets",
+    "fullInventoryComplete": false
   },
   "database": {
     "binding": "DB",
@@ -35,9 +37,21 @@
     "changesPerformed": false
   },
   "next": [
-    "Reconcile current production with approved unlock plan before any code change",
-    "Inventory referenced media and R2 mapping",
-    "Audit deprecated source and remove only verified unused files"
+    "Run read-only cloud R2 inventory with bucket-scoped credentials",
+    "Reconcile static mappings with dynamic references and live D1 content",
+    "Review recoverable deletion manifest before R2 cleanup",
+    "Implement and validate update210 in cloud"
   ],
-  "localExecutionAllowed": false
+  "localExecutionAllowed": false,
+  "preparation210": {
+    "pullRequest": 10,
+    "cloudRun": "41465477027",
+    "projectSkills": 4,
+    "hostMcpActivated": false,
+    "removedGeneratedPaths": [
+      "site/tsconfig.tsbuildinfo",
+      "site/tools/design/node_modules"
+    ],
+    "productionDeployed": false
+  }
 }
