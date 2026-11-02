@@ -1,0 +1,47 @@
+name: TFAM R2 read-only inventory
+on:
+  workflow_dispatch:
+    inputs:
+      collect_inventory:
+        description: 'Read object metadata from tfam-assets (requires bucket-scoped read secrets)'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 tools/r2_inventory.py --self-test
+  inventory:
+    if: ${{ inputs.collect_inventory }}
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: List object metadata (automatic pagination, no object bodies)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.TFAM_R2_READ_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.TFAM_R2_READ_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          AWS_EC2_METADATA_DISABLED: 'true'
+        run: |
+          test -n "$AWS_ACCESS_KEY_ID" || { echo "Missing bucket-scoped read access key"; exit 1; }
+          test -n "$AWS_SECRET_ACCESS_KEY" || { echo "Missing bucket-scoped read secret"; exit 1; }
+          mkdir -p reports
+          aws s3api list-objects-v2 --bucket tfam-assets --endpoint-url https://3870e8dbe285cf415b0f56d0b8043547.r2.cloudflarestorage.com --output json > reports/r2-objects.json
+      - name: Compare to source mappings and direct references
+        run: python3 tools/r2_inventory.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: tfam-r2-inventory-${{ github.run_id }}
+          path: reports/
+          retention-days: 14
+          if-no-files-found: error
