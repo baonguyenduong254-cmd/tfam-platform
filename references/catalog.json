@@ -6,30 +6,36 @@
       "repository": "https://github.com/greensock/GSAP",
       "docs": "https://gsap.com/docs/v3/",
       "purpose": "Reference motion sequencing and reduced-motion behavior",
-      "status": "candidate-not-installed-by-bootstrap",
+      "status": "dependency-already-present-in-v209-not-newly-installed",
       "reviewedRevision": null,
       "licenseReview": "required-at-adoption",
-      "adoptionNotes": null
+      "adoptionNotes": null,
+      "packageName": "gsap",
+      "baselineDeclaredVersion": "^3.15.0"
     },
     {
       "id": "embla",
       "repository": "https://github.com/davidjerleke/embla-carousel",
       "docs": "https://www.embla-carousel.com/",
       "purpose": "Reference accessible touch carousel and mobile banners",
-      "status": "candidate-not-installed-by-bootstrap",
+      "status": "dependency-already-present-in-v209-not-newly-installed",
       "reviewedRevision": null,
       "licenseReview": "required-at-adoption",
-      "adoptionNotes": null
+      "adoptionNotes": null,
+      "packageName": "embla-carousel-react",
+      "baselineDeclaredVersion": "^8.6.0"
     },
     {
       "id": "maplibre",
       "repository": "https://github.com/maplibre/maplibre-gl-js",
       "docs": "https://maplibre.org/maplibre-gl-js/docs/",
       "purpose": "Cartographic interaction reference only; inspect existing static atlas before adding WebGL renderer",
-      "status": "candidate-not-installed-by-bootstrap",
+      "status": "dependency-already-present-in-v209-not-newly-installed",
       "reviewedRevision": null,
       "licenseReview": "required-at-adoption",
-      "adoptionNotes": null
+      "adoptionNotes": null,
+      "packageName": "maplibre-gl",
+      "baselineDeclaredVersion": "^6.11.2"
     }
   ]
 }
