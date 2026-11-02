@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-02",
-  "phase": "cloud-bootstrap",
-  "sourceImport": "pending",
+  "phase": "source-imported",
+  "sourceImport": "verified",
   "production": {
     "siteVersion": 209,
     "sourceCommit": "aec9e0a762302e67626d2b70e9bd3d09642b6a4b",
@@ -13,13 +13,20 @@
     "repository": "baonguyenduong254-cmd/tfam-platform",
     "visibility": "private",
     "connector": "read-write-verified",
-    "productionAutoDeploy": false
+    "productionAutoDeploy": false,
+    "sourcePath": "site/",
+    "importPR": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/6",
+    "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
+    "importSecretRemoved": true
   },
   "r2": {
-    "status": "existing-user-confirmed",
+    "status": "source-mapping-and-sample-read-verified",
     "bucketNameVerified": false,
     "objectMigrationPerformed": false,
-    "deletionsPerformed": false
+    "deletionsPerformed": false,
+    "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
+    "legacyPathMappings": 2341,
+    "adminWriteAccessVerified": false
   },
   "database": {
     "binding": "DB",
@@ -28,7 +35,6 @@
     "changesPerformed": false
   },
   "next": [
-    "Import exact v209 source on cloud",
     "Reconcile current production with approved unlock plan before any code change",
     "Inventory referenced media and R2 mapping",
     "Audit deprecated source and remove only verified unused files"

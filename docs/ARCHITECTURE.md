@@ -4,8 +4,8 @@
 - Site đang chạy trên ChatGPT Sites; baseline v209.
 - GitHub riêng tư: baonguyenduong254-cmd/tfam-platform; kết nối có quyền đọc/ghi.
 - D1 binding DB có các bảng: content, reader_accounts, reader_progress, chapter_comments, chapter_reactions, chapter_visits, admin_sessions, admin_login_limits, reader_rate_limits.
-- R2 đang được chủ dự án sử dụng. Một số ảnh quan sát trên v209 vẫn có URL cùng domain với site; chưa kết luận toàn bộ media đã nằm trên R2.
-- Tên bucket, public media base URL, phạm vi quyền ghi R2 và bản sao lưu chưa được xác minh.
+- Source v209 đã xác minh R2 public base URL là https://pub-a2e7030237c14362985465386fcae671.r2.dev. Có 2.341 mapping ảnh: military 1.100, monuments 268, vestigium 901, portraits 72. File mẫu trên R2 tải được. Một số ảnh vẫn dùng URL domain site; không phải toàn bộ media đều đã chuyển sang R2.
+- Tên bucket quản trị, phạm vi quyền ghi R2 và bản sao lưu chưa được xác minh. Cấu hình hosting v209 có r2=null: việc đọc media hiện qua URL công khai, không chứng minh một R2 binding quản trị trực tiếp.
 - Nội dung bảng content quá lớn cho công cụ xem hàng hiện tại; chưa có kiểm kê đầy đủ nội dung live.
 
 ## Nguồn chuẩn theo loại dữ liệu
@@ -19,6 +19,9 @@
 | Quy tắc unlock, thứ tự trang, quyết định giao diện | File được duyệt trong GitHub | Runtime config được phát hành cùng code |
 | Thư viện cho AI tham khảo | references/catalog.json | Tài liệu upstream được đọc có mục tiêu |
 | Trạng thái công việc và release | Issues + ops + Git history | Chat chỉ dùng giao tiếp |
+
+## Bản nhập đã hoàn tất
+Source v209 được giữ nguyên trong site/. Tree SHA: 81de793c8a2d3e23d49bf2ad63b537600e06ee6e. Site production chưa được thay đổi bởi lần nhập.
 
 ## Đích vận hành
 ```mermaid

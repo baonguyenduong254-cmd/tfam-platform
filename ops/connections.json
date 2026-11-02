@@ -34,17 +34,18 @@
     {
       "service": "R2",
       "role": "media",
-      "status": "existing-user-confirmed-admin-access-not-yet-verified",
+      "status": "source-mapping-and-sample-read-verified",
       "bucket": null,
-      "publicBaseUrl": null
+      "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
+      "legacyPathMappings": 2341,
+      "adminWriteAccessVerified": false
     }
   ],
-  "secretNamesOnly": [
-    "TFAM_SITES_IMPORT_TOKEN (temporary GitHub Actions import secret)"
-  ],
+  "secretNamesOnly": [],
   "notes": [
     "Do not copy production secret values into this file.",
     "No R2 connection has been replaced.",
-    "No new database or reader-data copy has been created."
+    "No new database or reader-data copy has been created.",
+    "Temporary source import secret was removed after successful import."
   ]
 }
