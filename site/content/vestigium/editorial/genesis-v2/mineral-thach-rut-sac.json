@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-thach-rut-sac",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Opal Rút Sắc kết trong bể nhuộm nơi một người thợ hòa vụn khoáng với nước rửa vải. Qua đêm, những tấm vải gần đá nhạt đi, còn lõi opal có những đám mây màu giống nguyên vệt thuốc nhuộm vừa mất. Người thợ xả nước thấy sắc trở lại trên một mảnh vải trắng đặt ở miệng bể.\n\nÔng giữ được cách lấy, cất, trả và đọc lớp màu, rồi dừng thử trên những tấm áo còn có người chờ nhận. Đá mang sức quyến rũ của một bàn tay có thể tháo màu khỏi vật như tháo tên khỏi người. Nhưng sắc chỉ được dời nơi thuộc về, còn điều xảy ra với món đã bị lấy đi vẫn cần người sống chịu trách nhiệm.",
+    "lore_en": "Colour-Drawing Opal condensed in a dye-vat mixed with mineral fragments. Overnight nearby cloth faded while clouds inside the opal matched its vanished dye. Draining revealed those colours returning onto white fabric at the outlet.\n\nIts dyer learnt to take, keep, return and read colour, then stopped testing coats with waiting owners. The stone tempted like a hand removing colour as one might remove a name. It could relocate a belonging; people still answered for what they took from its former bearer.",
+    "use_vi": "Rút, giữ, chuyển sắc tố hòa nước và làm rõ lớp màu đang phủ lên nhau.",
+    "use_en": "Draw, retain and transfer water-borne pigment, and distinguish overlapping colour-layers.",
+    "limits_vi": "Không phân biệt vết bẩn với nét tranh cần giữ. Sắc bị trộn trong đá có thể trả khác thứ tự; các màu đã đổi chất không tự trở lại chỉ vì người dùng muốn thấy màu cũ.",
+    "limits_en": "It distinguishes no stain from a wanted image. Mixed colours may return out of order; altered substances do not restore an old colour upon demand.",
+    "skills": [
+      {
+        "name_vi": "Rút sắc khỏi vết",
+        "name_en": "Draw Colour from the Mark",
+        "description_vi": "Áp đá lên vật ướt để nhận sắc tố hòa nước ở vùng chạm. Nó lấy cả màu người dùng muốn giữ nếu cùng chạm.",
+        "description_en": "Wet contact draws soluble pigment from the touched region, including wanted colour."
+      },
+      {
+        "name_vi": "Chuyển màu sang nền mới",
+        "name_en": "Transfer to a New Ground",
+        "description_vi": "Đặt đá lên nền trắng ướt rồi gọi đám màu đã nhận để trả vào đó. Nền mang màu sẵn sẽ pha thêm thứ nó có.",
+        "description_en": "Invoke retained colour upon a wet white ground. Existing colour mingles with it."
+      },
+      {
+        "name_vi": "Đọc lớp phủ",
+        "name_en": "Read the Covering Layer",
+        "description_vi": "Rút từng phần nhỏ theo thứ tự để thấy màu đang phủ lên một lớp khác. Cào hoặc rửa mạnh trong lúc đọc có thể làm mất luôn lớp dưới.",
+        "description_en": "Draw small successive portions to distinguish covering layers. Scraping or washing may destroy the underlying one."
+      },
+      {
+        "name_vi": "Cất một sắc làm dấu",
+        "name_en": "Keep One Colour as a Token",
+        "description_vi": "Cho đá nhận một mẫu riêng rồi niêm để đám ấy giữ chuẩn so. Nạp thêm màu vào cùng lõi mở niêm và phá tính riêng của mẫu.",
+        "description_en": "Seal a separate accepted colour as comparison-token. Fresh pigment unseals and mingles it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Màu là thứ có thể mất",
+        "name_en": "Colour Can Be Lost",
+        "description_vi": "Mỗi đám màu trong lõi có mép như vải bị xé; nghiền opal làm mọi phần sắc đã giữ loang vào nhau.",
+        "description_en": "Each colour-cloud has a torn-cloth edge; crushing mingles all retained pigments."
+      }
+    ]
+  }
+]

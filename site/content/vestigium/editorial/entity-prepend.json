@@ -1,0 +1,284 @@
+[
+  {
+    "id": "entity-the-wick-keeper",
+    "mode": "prepend",
+    "lore_vi": "Người thợ để một ghế nhỏ cạnh đèn, rồi phát hiện kẻ gác chỉ thích ngồi nơi cái ghế đổ bóng.",
+    "lore_en": "The craftsman set a tiny chair beside the lamp and found its keeper preferred the chair's shadow."
+  },
+  {
+    "id": "entity-the-dew-guest",
+    "mode": "prepend",
+    "lore_vi": "Người giữ vườn lau kính để nhìn rõ khách, tới lúc hiểu chính giọt nước đang cho kẻ lạ một khuôn mặt.",
+    "lore_en": "The gardener wiped the glass for a clearer look before realising the drop itself lent the guest a face."
+  },
+  {
+    "id": "entity-the-stitch-counter",
+    "mode": "prepend",
+    "lore_vi": "Thợ may cố đếm sai để chọc giận rồi phải xin lỗi một dáng người nhỏ hơn đầu kim.",
+    "lore_en": "A tailor deliberately miscounted, then had to apologise to someone smaller than a needle-point."
+  },
+  {
+    "id": "entity-the-ash-sweeper",
+    "mode": "prepend",
+    "lore_vi": "Người dọn lò đặt chiếc chổi thật bên gạch, thấy bóng ngừng như một người vừa được nhận đúng nghề.",
+    "lore_en": "A real broom stopped its sweeping, as though someone had finally recognised its trade."
+  },
+  {
+    "id": "entity-the-page-holder",
+    "mode": "prepend",
+    "lore_vi": "Người chép đọc trọn câu để bàn tay chịu nghỉ, trả phép lịch sự cho thứ vẫn giữ giấy giúp mình.",
+    "lore_en": "The copyist finished the sentence to let the hand rest, returning courtesy for its help."
+  },
+  {
+    "id": "entity-the-pipe-listener",
+    "mode": "prepend",
+    "lore_vi": "Thợ ống giảm tay gõ sau khi vành tai biến mất, học rằng người nghe cũng cần được nghe yên.",
+    "lore_en": "The plumber stopped tapping when the ear vanished, learning that listeners too need quiet."
+  },
+  {
+    "id": "entity-the-chalkline-guest",
+    "mode": "prepend",
+    "lore_vi": "Học trò để nét vẽ lệch nguyên qua đêm, dành cho vị khách một chỗ đứng mình đã tự làm sai.",
+    "lore_en": "The pupil left his crooked line overnight, reserving a place made by his own mistake."
+  },
+  {
+    "id": "entity-the-tick-bearer",
+    "mode": "prepend",
+    "lore_vi": "Thợ sửa đặt hai bánh răng xa nhau hơn, cho kẻ mang tiếng tích đủ đường đi hết nhịp.",
+    "lore_en": "The repairer moved the gears apart, giving the tick-bearer room to complete its beat."
+  },
+  {
+    "id": "entity-the-keeper-of-greetings",
+    "mode": "prepend",
+    "lore_vi": "Người coi quán bắt đầu chào chiếc kính trống trước khi mở cửa đón khách ngoài đời.",
+    "lore_en": "The innkeeper began greeting the empty glass before opening to living guests."
+  },
+  {
+    "id": "entity-the-nail-clerk",
+    "mode": "prepend",
+    "lore_vi": "Những chiếc đinh cong được thư ký xếp riêng khiến chủ xưởng thấy mình bớt một việc phải quên.",
+    "lore_en": "The clerk's separate bent-nail row spared the workshop owner one more forgotten duty."
+  },
+  {
+    "id": "entity-the-watch-pillow-shade",
+    "mode": "prepend",
+    "lore_vi": "Người gác ôm gối khi chưa ngủ bị kéo tai, rồi phải đặt nó xuống như trả ghế cho một đồng nghiệp khó tính.",
+    "lore_en": "The wakeful watchman was tugged by the ear and put the pillow down as though yielding a colleague's chair."
+  },
+  {
+    "id": "entity-the-chipped-cup-guest",
+    "mode": "prepend",
+    "lore_vi": "Người uống nâng chén sứt sau khi khách nhỏ ngồi, nhận ra cả nước sạch cũng có thể là một cuộc mời nhau.",
+    "lore_en": "The drinker raised the chipped cup after its guest sat, discovering clean water could be a shared invitation."
+  },
+  {
+    "id": "entity-the-knot-watcher",
+    "mode": "prepend",
+    "lore_vi": "Thủy thủ bỏ nút buộc khoe tài, quay về nút giản dị đủ cho người gác mở mắt kiểm tra.",
+    "lore_en": "A sailor abandoned his showy knot for one simple enough to admit inspection."
+  },
+  {
+    "id": "entity-the-raindrop-reader",
+    "mode": "prepend",
+    "lore_vi": "Người lợp mái cúi theo bóng lúc sấm đến, rồi cùng nó đứng lại xem rãnh nước tràn.",
+    "lore_en": "The roofer bowed with the figure at thunder, then returned beside it to watch the overflowing gutter."
+  },
+  {
+    "id": "entity-the-bead-custodian",
+    "mode": "prepend",
+    "lore_vi": "Bà thợ thêu gõ thêm hạt cườm ngoài hộp, nghe khách nhỏ vui trong tiếng những vật được trở về gần nhau.",
+    "lore_en": "The embroiderer tapped another bead beside the box, hearing pleasure in things returning close together."
+  },
+  {
+    "id": "entity-the-bell-sitter",
+    "mode": "prepend",
+    "lore_vi": "Người trực trạm thôi dùng chuông để đùa sau một lần khách thật phải đợi ngoài tuyết.",
+    "lore_en": "The clerk stopped ringing for amusement after a real visitor waited outside in snow."
+  },
+  {
+    "id": "entity-the-breath-scribe",
+    "mode": "prepend",
+    "lore_vi": "Người chăm thở chậm trước gương để kẻ sao chép có một nhịp yên mà học, rồi mới đưa nó tới giường bệnh khác.",
+    "lore_en": "The nurse offered a calm breath before the mirror, then took it to the next patient."
+  },
+  {
+    "id": "entity-the-last-ink-keeper",
+    "mode": "prepend",
+    "lore_vi": "Người viết gia phả phải đọc tên cuối thành tiếng, để giọt mực chịu trả lại người vừa được ghi vào dòng họ.",
+    "lore_en": "The genealogist spoke the final name aloud before the ink would return its newest family member."
+  },
+  {
+    "id": "entity-the-husk-ferryman",
+    "mode": "prepend",
+    "lore_vi": "Người thợ đổi máng vẫn dành một bờ xuất phát cho thuyền nhỏ, tôn trọng luật của người đang chèo.",
+    "lore_en": "Even in a new trough, the craftsman preserved a departure-bank for its oarsman."
+  },
+  {
+    "id": "entity-the-crack-sentinel",
+    "mode": "prepend",
+    "lore_vi": "Bóng gác đi tới vết rạn mới, đưa tay ngăn người chủ như thợ cả từng ngăn học trò khỏi chạm lò.",
+    "lore_en": "The watcher's raised hand recalled a master stopping an apprentice from touching hot work."
+  },
+  {
+    "id": "entity-the-needle-shadow-guide",
+    "mode": "prepend",
+    "lore_vi": "Học viên cảm ơn bóng kim trước khi cất hộp, cho một việc nhỏ có chỗ kết thúc tử tế.",
+    "lore_en": "The cadet thanked the needle's shadow before closing the case, giving a small duty a courteous ending."
+  },
+  {
+    "id": "entity-the-guest-beneath-the-mask",
+    "mode": "prepend",
+    "lore_vi": "Người diễn giới thiệu tên vai, rồi thấy mặt nạ thôi thở dài như đã được cho phép trở lại sân khấu.",
+    "lore_en": "An actor named the role and the mask ceased sighing, permitted to return to its stage."
+  },
+  {
+    "id": "entity-the-grain-reader",
+    "mode": "prepend",
+    "lore_vi": "Thợ đàn dời cưa xa trước khi xoay gỗ, để vị khách đủ yên mà cúi về thớ dài nhất.",
+    "lore_en": "The luthier moved the saw away before asking his guest to show the longest grain."
+  },
+  {
+    "id": "entity-the-footprint-clerk",
+    "mode": "prepend",
+    "lore_vi": "Người kho muối cởi giày bước lên vải, lần đầu được kẻ ghi chép cho đi qua mà chẳng giữ một dấu.",
+    "lore_en": "The storeman stepped barefoot on the cloth and was allowed to pass without a record."
+  },
+  {
+    "id": "entity-the-librarian-of-blanks",
+    "mode": "prepend",
+    "lore_vi": "Người mất trang sách ngồi nhìn thủ thư đứng trong khoảng khâu rỗng, thấy cả phần thiếu cũng có thể được giao người chăm.",
+    "lore_en": "A reader watched the librarian in the empty stitching, seeing that absence itself could have a custodian."
+  },
+  {
+    "id": "entity-the-bell-mediator",
+    "mode": "prepend",
+    "lore_vi": "Hai thợ đúc học cách thử luân phiên, vì người hòa giải nhất quyết chẳng chịu nghe hai cái tôi cùng ngân.",
+    "lore_en": "The founders learnt to test in turns; their mediator would not listen to two egos ringing at once."
+  },
+  {
+    "id": "entity-the-patch-dweller",
+    "mode": "prepend",
+    "lore_vi": "Chủ áo vá bằng tay chậm hơn thường lệ, giữ vị khách khỏi mất thêm một phần thân cùng miếng vải tháo ra.",
+    "lore_en": "The owner stitched slowly by hand, sparing the guest another loss with the removed patch."
+  },
+  {
+    "id": "entity-the-extinguished-candle-guest",
+    "mode": "prepend",
+    "lore_vi": "Người gác mời bóng ngồi trước khi thắp nến mới, để người ở lại được nhận tên khách thay vì tên đồ vật.",
+    "lore_en": "The sentry invited the shadow to sit before lighting a candle, receiving it as a guest rather than a thing."
+  },
+  {
+    "id": "entity-the-weaver-of-intervals",
+    "mode": "prepend",
+    "lore_vi": "Thợ dệt báo trước mỗi lần dời cọc, học cách làm việc với một kẻ coi khoảng cách là lời đã nhận.",
+    "lore_en": "The weaver announced every moved peg to a being treating distance as an accepted promise."
+  },
+  {
+    "id": "entity-the-last-shift-keeper",
+    "mode": "prepend",
+    "lore_vi": "Người thợ cuối quay lại trạm bơm chỉ để nhận ca bằng lời, rồi nhìn kẻ gác chịu ngồi xuống sau bao năm.",
+    "lore_en": "The last workman returned solely to accept the watch, letting its keeper finally sit."
+  },
+  {
+    "id": "entity-the-rest-planter",
+    "mode": "prepend",
+    "lore_vi": "Người hát đặt bản nhạc thấp hơn để thấy kẻ trồng dấu lặng đang làm chỗ cho hơi thở mình.",
+    "lore_en": "The singer lowered the score to watch its little gardener making room for breath."
+  },
+  {
+    "id": "entity-the-balance-witness",
+    "mode": "prepend",
+    "lore_vi": "Hai người đứng cùng nhìn cân, cho nhân chứng một sự xác nhận đủ rộng hơn đôi mắt của một người.",
+    "lore_en": "Two observers gave the witness a confirmation wider than one person's sight."
+  },
+  {
+    "id": "entity-the-keeper-of-a-small-autumn",
+    "mode": "prepend",
+    "lore_vi": "Người trồng đặt tên cây rồi đợi, thấy tiếng lá rụng chậm lại như mùa thu vừa được giữ tay áo.",
+    "lore_en": "The gardener named the plant and heard its falling slow, as though autumn had been caught by the sleeve."
+  },
+  {
+    "id": "entity-the-draft-patron",
+    "mode": "prepend",
+    "lore_vi": "Nhà vẽ bản đồ nói rõ chỗ mình sai, thấy vị khách mở ba nét cạnh nhau thay cho một lời trách.",
+    "lore_en": "The cartographer admitted his error and received three neighbouring lines instead of reproach."
+  },
+  {
+    "id": "entity-the-window-bearer",
+    "mode": "prepend",
+    "lore_vi": "Người xem đứng trước khung hỏi mình thực sự muốn tìm gì, trong lúc người phía kính chờ câu trả lời đủ thành thật.",
+    "lore_en": "Before the frame, the visitor asked what he sought while the figure behind glass awaited an honest answer."
+  },
+  {
+    "id": "entity-the-chorus-bearer",
+    "mode": "prepend",
+    "lore_vi": "Một ca viên rút phần hát khiến người gánh im lại, buộc cả đoàn học cách giữ tiếng chung mà vẫn nghe quyền im của từng người.",
+    "lore_en": "One singer's withdrawal silenced the bearer, teaching the chorus to hear each person's right to quiet."
+  },
+  {
+    "id": "entity-the-threshold-keeper",
+    "mode": "prepend",
+    "lore_vi": "Người gác nhờ canh thềm rồi vẫn giữ chìa trong tay, hiểu sự giúp đỡ không trao cho mình quyền làm chủ người giúp.",
+    "lore_en": "The watchman requested help and kept his key, knowing assistance conferred no ownership of the helper."
+  },
+  {
+    "id": "entity-the-old-harbour-rememberer",
+    "mode": "prepend",
+    "lore_vi": "Người kho ghi mùi bằng tên bến, còn khách trong vỏ sò kể nó bằng giọng nhắc một người đã thân.",
+    "lore_en": "The storeman named scents for ports; the shell's guest spoke them like remembered friends."
+  },
+  {
+    "id": "entity-the-moonshadow-seamstress",
+    "mode": "prepend",
+    "lore_vi": "Thợ may góp ý một đường thật cụ thể, nhận lại mũi khâu bóng thay vì sự im lặng dành cho lời nịnh.",
+    "lore_en": "A precise criticism earned the tailor a shadow-stitch instead of the silence reserved for flattery."
+  },
+  {
+    "id": "entity-the-empty-seat-keeper",
+    "mode": "prepend",
+    "lore_vi": "Người chủ tọa ngồi đợi cả câu được đọc hết, lần đầu để một ghế trống giữ đủ thời gian của người vắng.",
+    "lore_en": "The chairperson let the message finish, granting an empty chair its absent owner's full time."
+  },
+  {
+    "id": "entity-the-weigher-of-promises",
+    "mode": "prepend",
+    "lore_vi": "Người cân xuất hiện khi cả hai cùng nhận lại lời mình, giữ hai tiếng nói trong cùng một chiếc đĩa vô hình. Ai muốn biến sự mơ hồ thành lợi thế phải đứng nghe nguyên câu đã nói.",
+    "lore_en": "The weigher appeared when both renewed their words, holding two voices on one invisible pan. Anyone exploiting ambiguity had to hear the original sentence entire."
+  },
+  {
+    "id": "entity-the-burier-of-cannon-echoes",
+    "mode": "prepend",
+    "lore_vi": "Thực thể đi lên từ những lớp âm đã bị đất giữ dưới hầm. Nó nghe mục đích thử trước khi nhận tiếng nổ, quay lưng với người mang chiến công tới như thể muốn chôn thêm một thứ khác ngoài âm thanh.",
+    "lore_en": "It rose from sound held under earth, hearing the trial's purpose before taking a blast. Boasts made it turn away as though more than noise needed burial."
+  },
+  {
+    "id": "entity-the-reader-of-dismantled-streets",
+    "mode": "prepend",
+    "lore_vi": "Người đọc đi trên nét phố như người khác đi ngoài đường, dừng ở chỗ bản đo bỏ trống. Khi các người khảo sát già tranh nhau, nó đặt các bản cạnh nhau rồi chờ họ nhận lại từng bước chân mình từng thực sự đi.",
+    "lore_en": "The reader walked mapped streets and stopped at unmeasured gaps. Disputing surveyors received their maps side by side and were asked to recognise the steps they had truly taken."
+  },
+  {
+    "id": "entity-the-portrait-waiter",
+    "mode": "prepend",
+    "lore_vi": "Khách ngoài tranh đứng đủ lâu để người họa sĩ già đi mà tư thế vẫn nguyên. Mỗi lần hỏi buổi vẽ khi nào xong, người ấy chỉ chỉnh lại ánh mình đang giữ, như có một người mẫu ở đâu đó còn chưa được cho nghỉ.",
+    "lore_en": "The guest's pose outlasted the painter's youth. Asked when the sitting would finish, it adjusted its held light as though a model elsewhere still awaited leave to rest."
+  },
+  {
+    "id": "entity-the-keeper-of-unwritten-names",
+    "mode": "prepend",
+    "lore_vi": "Ở nhà dưỡng lão, người nhỏ mở lời bằng cái tên người bệnh từng tự chọn, mang trả một phần căn tính cơn yếu đã che. Nó giữ sổ đóng trước người lạ, lịch thiệp như một người canh cửa có chủ.",
+    "lore_en": "In the home it spoke each patient's chosen name, returning an identity obscured by weakness. Before strangers its book stayed shut with a doorkeeper's courtesy."
+  },
+  {
+    "id": "entity-the-bearer-of-seven-dawns",
+    "mode": "prepend",
+    "lore_vi": "Bảy lần sáng nằm trên áo theo thứ tự người quan sát đã giữ, cả mây cũng nhận đúng phần mình. Người bỏ ca phải thú nhận trước khi thực thể cho bắt đầu lại, vì một bình minh không được nhìn chẳng thể bù bằng lời kể đẹp.",
+    "lore_en": "Seven mornings lay in order upon its coat, clouds included. A missed watch required admission before a fresh beginning: an unwatched dawn could not be repaired by a handsome account."
+  },
+  {
+    "id": "entity-the-keeper-of-stone-strain",
+    "mode": "prepend",
+    "lore_vi": "Những đường rạn trên người nó đổi theo mẫu đá được giao, khiến mỗi lần tăng tải giống đặt tay lên một cơ thể đang đau. Tới lời báo thứ ba, người thợ phải chọn nghe nó thay vì chỉ nhìn con số mình muốn đạt.",
+    "lore_en": "Its fractures followed the entrusted stone, making each loading feel like a hand upon a hurting body. At its third warning the craftsman had to choose listening over his desired figure."
+  }
+]

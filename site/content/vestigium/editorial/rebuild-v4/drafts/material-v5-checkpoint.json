@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "material-bot-chan-dong",
+    "epigraph_vi": "Sương cũng có chỗ để ngủ.",
+    "epigraph_en": "Even mist has somewhere to sleep.",
+    "lore_vi": "Bột được nghiền từ lớp đá trắng trong một hốc núi, nơi sương đêm đọng thành hạt xám trước khi chạm đất. Qua nhiều mùa, đá học được cách đón nước từ khoảng không; những mảnh nghiền vẫn mang giấc ngủ của sương vào kho hàng.",
+    "lore_en": "The powder was ground from white stone in a mountain hollow where night mist gathered into grey grains before touching the ground. Over many seasons, the stone learned to receive water from the air; its crushed fragments still carried the sleep of mist into storerooms.",
+    "traits": [
+      {
+        "name_vi": "Hạt ngậm sương",
+        "name_en": "Mist-bearing grains",
+        "description_vi": "Hạt trắng giữ hơi ẩm và xám dần khi đầy.",
+        "description_en": "The white grains retain moisture and turn grey as they fill."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ khô",
+        "name_en": "Dry keeping",
+        "description_vi": "Một gói bột giữ khô hộp dụng cụ hoặc túi hạt giống qua một đêm ẩm.",
+        "description_en": "A packet keeps a tool chest or seed bag dry through one damp night."
+      }
+    ],
+    "limits_vi": "Bột xám cần phơi dưới trời khô trước lần dùng tiếp; nước ngập làm các hạt tan rã.",
+    "limits_en": "Grey powder must air beneath a dry sky before reuse; immersion breaks the grains apart.",
+    "use_vi": "Một gói bột giữ khô hộp dụng cụ hoặc túi hạt giống qua một đêm ẩm.",
+    "use_en": "A packet keeps a tool chest or seed bag dry through one damp night.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-sap-giu-mep",
+    "epigraph_vi": "Mép lá mỏng vẫn nhớ cách đứng.",
+    "epigraph_en": "The thin leaf still remembers how to stand.",
+    "lore_vi": "Trong xưởng đúc đồ chơi, một người thợ giữ mãi mẫu cánh chim bằng sáp bên cửa sổ đầy tuyết. Khi bụi bạc từ mái lò rơi xuống, cánh chim đứng thẳng tới sáng; mẻ sáp ấy giữ lại sự bền bỉ của một vật nhỏ chờ được thành hình.",
+    "lore_en": "In a toy foundry, a craftsman kept a wax bird's wing beside a snow-filled window. When silver dust fell from the furnace roof, the wing stood upright until morning; that batch of wax retained the persistence of a small thing waiting to take shape.",
+    "traits": [
+      {
+        "name_vi": "Mép tự đỡ",
+        "name_en": "Self-supporting edge",
+        "description_vi": "Lá sáp mỏng giữ được góc dựng sau khi nguội.",
+        "description_en": "A thin wax leaf holds its raised angle after cooling."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lấy mẫu mỏng",
+        "name_en": "Fine modelling",
+        "description_vi": "Sáp cho phép dựng cánh, vành và răng khuôn nhỏ bằng tay trước khi đúc.",
+        "description_en": "The wax allows wings, rims and small mould teeth to be shaped upright by hand before casting."
+      }
+    ],
+    "limits_vi": "Sức giữ chỉ hợp những chi tiết nhẹ; hơ ấm làm sáp mềm để sửa lại.",
+    "limits_en": "Its hold suits light details; gentle warmth softens the wax for revision.",
+    "use_vi": "Sáp cho phép dựng cánh, vành và răng khuôn nhỏ bằng tay trước khi đúc.",
+    "use_en": "The wax allows wings, rims and small mould teeth to be shaped upright by hand before casting.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-cat-bao-nuoc",
+    "epigraph_vi": "Nước đi qua đâu, đất để lại một lời.",
+    "epigraph_en": "Where water passes, the earth leaves a word.",
+    "lore_vi": "Một bãi cát dưới cầu đá từng đổi đen theo từng bước của dòng nước ngầm, báo mùa lũ cho dân ven sông. Sau khi dòng sông chuyển lòng, các hạt xanh vẫn đáp lại giọt nước mới; người ta mang dấu báo cũ về đặt dưới ngưỡng cửa.",
+    "lore_en": "A sandbank beneath a stone bridge once darkened along the steps of an underground stream, warning riverside folk of floods. After the river changed course, its blue grains still answered fresh water; people carried the old warning home to their thresholds.",
+    "traits": [
+      {
+        "name_vi": "Đổi sắc theo nước",
+        "name_en": "Water colour",
+        "description_vi": "Hạt xanh chuyển đen ở đúng điểm bị ướt rồi nhạt lại khi khô.",
+        "description_en": "Blue grains turn black precisely where wetted and pale again as they dry."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vạch đường rò",
+        "name_en": "Leak tracing",
+        "description_vi": "Một hàng cát cho thấy đường nước len qua chân cửa, ván thùng hay mái kho.",
+        "description_en": "A line of sand reveals water creeping through a threshold, barrel stave or storehouse roof."
+      }
+    ],
+    "limits_vi": "Dầu phủ lên hạt che mất phản ứng; trên nền đã ướt đều, cát khó chỉ được nguồn rò.",
+    "limits_en": "Oil coating the grains obscures the response; on an evenly wet surface, the source of a leak is hard to distinguish.",
+    "use_vi": "Một hàng cát cho thấy đường nước len qua chân cửa, ván thùng hay mái kho.",
+    "use_en": "A line of sand reveals water creeping through a threshold, barrel stave or storehouse roof.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "epigraph_vi": "Mùa lạnh giữ hộ tên người gửi.",
+    "epigraph_en": "The cold keeps the sender's name.",
+    "lore_vi": "Người đóng hòm trộn hồ bằng nước tan từ một tảng băng ôm chặt mảnh giấy cũ. Khi hòm đi qua đèo, giấy bọc rách mà nhãn vẫn nằm yên; mẻ hồ đã nhận lấy sức níu của lớp băng từng giữ một lời nhắn qua nhiều mùa.",
+    "lore_en": "A box maker mixed paste with meltwater from an ice block that held an old scrap of paper fast. When his boxes crossed the pass, their wrappings tore but their labels stayed; the paste had taken on the grip of ice that had kept a message through many seasons.",
+    "traits": [
+      {
+        "name_vi": "Bám mặt lạnh",
+        "name_en": "Cold adhesion",
+        "description_vi": "Lớp hồ se lại và bám chắc hơn khi vật chứa lạnh vừa phải.",
+        "description_en": "The paste sets and grips more firmly when its container is moderately cold."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dán nhãn mùa đông",
+        "name_en": "Winter labelling",
+        "description_vi": "Hồ giữ nhãn giấy trên hũ thuốc và hòm hàng trong những chuyến xe lạnh.",
+        "description_en": "The paste secures paper labels to medicine jars and cargo chests on cold journeys."
+      }
+    ],
+    "limits_vi": "Đông cứng thành băng làm lớp hồ nứt; mặt đẫm nước cần lau khô trước khi dán.",
+    "limits_en": "Freezing solid cracks the paste; soaking surfaces must be dried before labelling.",
+    "use_vi": "Hồ giữ nhãn giấy trên hũ thuốc và hòm hàng trong những chuyến xe lạnh.",
+    "use_en": "The paste secures paper labels to medicine jars and cargo chests on cold journeys.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dau-dem-vong",
+    "epigraph_vi": "Một vòng đủ để tìm chỗ bánh xe vấp.",
+    "epigraph_en": "One turn is enough to find where the wheel stumbles.",
+    "lore_vi": "Dầu được ép từ hạt cây mọc quanh một cối xay bỏ hoang, rễ quấn đúng một vòng quanh trục. Khi bánh cối cuối cùng được tháo đi, dầu trong hạt vẫn vẽ lại vòng quay ấy bằng một vệt lam rồi yên.",
+    "lore_en": "The oil was pressed from seeds growing around an abandoned mill, their roots winding once around its axle. When the last mill wheel was removed, the oil in the seeds still redrew that turn in blue before falling still.",
+    "traits": [
+      {
+        "name_vi": "Vệt một vòng",
+        "name_en": "Single-turn trail",
+        "description_vi": "Dầu phát ánh lam suốt một vòng tiếp xúc đầu tiên rồi trở lại màu nhạt.",
+        "description_en": "The oil shines blue throughout its first complete contact circuit, then returns to its pale colour."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dò điểm kẹt",
+        "name_en": "Jam finding",
+        "description_vi": "Thợ đặt một giọt lên bánh răng để nhìn chỗ chuyển động dừng hoặc lệch.",
+        "description_en": "A craftsman places a drop on a gear to see where its motion stops or wanders."
+      }
+    ],
+    "limits_vi": "Mỗi giọt ghi một vòng; dầu cũ và bụi dày làm vệt khó đọc.",
+    "limits_en": "Each drop records one turn; old oil and thick dust make the trail difficult to read.",
+    "use_vi": "Thợ đặt một giọt lên bánh răng để nhìn chỗ chuyển động dừng hoặc lệch.",
+    "use_en": "A craftsman places a drop on a gear to see where its motion stops or wanders.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "epigraph_vi": "Đất cựa mình trước khi lên tiếng.",
+    "epigraph_en": "The earth stirs before it speaks.",
+    "lore_vi": "Bột nâu nằm dưới một hồ hang yên tới mức người đào đá nhìn thấy tóc mình trong nước. Một đêm, các vân bạc tách ra trước khi vòm hang rơi; từ đó, những hạt lấy khỏi đáy hồ vẫn tụ mặt rồi mở đường theo rung động.",
+    "lore_en": "The brown powder lay beneath a cave pool so still that quarrymen could see their hair in it. One night its silver veins parted before the vault fell; thereafter, grains taken from the bottom still gathered at the surface and opened along passing vibrations.",
+    "traits": [
+      {
+        "name_vi": "Màng mặt nước",
+        "name_en": "Water skin",
+        "description_vi": "Bột kết thành một đĩa mỏng trên nước đứng, tách theo hướng rung.",
+        "description_en": "The powder gathers into a thin disc on still water and parts along a vibration."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nghe nền đất",
+        "name_en": "Listening to the ground",
+        "description_vi": "Một khay nước rắc bột giúp người đào hầm nhận ra rung yếu qua nền hoặc cột chống.",
+        "description_en": "A dusted water tray helps tunnel workers notice faint vibration through the floor or props."
+      }
+    ],
+    "limits_vi": "Gió lùa và bước chân sát khay đều để lại dấu; hạt chìm cần thay mới.",
+    "limits_en": "Draughts and footsteps beside the tray also leave marks; sunken grains must be replaced.",
+    "use_vi": "Một khay nước rắc bột giúp người đào hầm nhận ra rung yếu qua nền hoặc cột chống.",
+    "use_en": "A dusted water tray helps tunnel workers notice faint vibration through the floor or props.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "epigraph_vi": "Tro còn nhớ lửa trong lòng.",
+    "epigraph_en": "Ash remembers fire within.",
+    "lore_vi": "Vôi được nung từ đá xây của một lò bánh luôn giữ than qua đêm cho cả xóm. Khi lò được dỡ, các hạt trắng trong đá vẫn sáng trước tro âm ỉ, như những ô cửa còn đèn sau lúc phố đã ngủ.",
+    "lore_en": "The lime was burned from the stonework of a bakery oven that kept embers overnight for the whole street. When the oven was dismantled, white grains in its stones still glowed before smouldering ash, like lit windows after the street had gone to sleep.",
+    "traits": [
+      {
+        "name_vi": "Ánh tro ấm",
+        "name_en": "Warm-ash light",
+        "description_vi": "Hạt trắng sáng mờ khi gặp tro còn nóng bên trong.",
+        "description_en": "The white grains glow faintly when they meet ash still hot within."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chỉ than ẩn",
+        "name_en": "Hidden ember marking",
+        "description_vi": "Rắc vôi lên lớp tro nguội mặt giúp người dọn lò đánh dấu chỗ cần để lại cho tàn hẳn.",
+        "description_en": "Dusting apparently cold ash marks places an oven cleaner should leave until fully spent."
+      }
+    ],
+    "limits_vi": "Hạt sáng yếu và chỉ phản ứng khi chạm tro; lớp tro sâu vẫn cần được kiểm tra từng tầng.",
+    "limits_en": "The glow is faint and requires contact with ash; deep ash must still be checked layer by layer.",
+    "use_vi": "Rắc vôi lên lớp tro nguội mặt giúp người dọn lò đánh dấu chỗ cần để lại cho tàn hẳn.",
+    "use_en": "Dusting apparently cold ash marks places an oven cleaner should leave until fully spent.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-giu-nep",
+    "epigraph_vi": "Sợi nhỏ giữ hộ một lần bàn tay khéo.",
+    "epigraph_en": "A little thread keeps one skilful touch.",
+    "lore_vi": "Sợi lanh được ngâm trong bể đá nơi người thợ may già thường giặt những mẫu áo dở. Qua nhiều năm, vân bạc trong bể thấm vào sợi, giữ nếp gấp đầu tiên như giữ một bài học vừa được trao.",
+    "lore_en": "The flax was steeped in a stone basin where an old tailor washed unfinished garment samples. Over the years, silver veins in the basin entered the fibre, preserving its first fold like a lesson just passed on.",
+    "traits": [
+      {
+        "name_vi": "Nhớ nếp",
+        "name_en": "Fold memory",
+        "description_vi": "Sợi trở về một nếp gấp nhẹ cho tới khi được hấp nóng.",
+        "description_en": "The fibre returns to a gentle fold until it is steamed."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ mẫu",
+        "name_en": "Pattern holding",
+        "description_vi": "Thợ may luồn sợi theo mép mẫu để giữ đường gấp khi thử áo hoặc gói hàng.",
+        "description_en": "Tailors run the fibre along a pattern edge to keep its fold during fitting or wrapping."
+      }
+    ],
+    "limits_vi": "Sợi giữ hình chứ chịu lực kém; hấp nhiều lần làm vân bạc nhạt dần.",
+    "limits_en": "The fibre holds shape but bears little weight; repeated steaming gradually pales its silver veins.",
+    "use_vi": "Thợ may luồn sợi theo mép mẫu để giữ đường gấp khi thử áo hoặc gói hàng.",
+    "use_en": "Tailors run the fibre along a pattern edge to keep its fold during fitting or wrapping.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-so-ri",
+    "epigraph_vi": "Vết mục thường bắt đầu dưới một lớp im lìm.",
+    "epigraph_en": "Rot often begins beneath a quiet surface.",
+    "lore_vi": "Bột được cạo từ những chiếc neo nằm trong đất mặn sau khi bến cảng lùi xa. Vảy trắng mọc dọc đường sắt đang mục, rồi giữ thói quen tìm rỉ cả khi nghiền vụn; người nhặt neo mang về một thứ biết chỉ vào phần yếu đang giấu mình.",
+    "lore_en": "The powder was scraped from anchors buried in salt earth after the harbour receded. White scales grew along their corroding iron and kept seeking rust even when ground down; the salvagers brought home something that could point to concealed weakness.",
+    "traits": [
+      {
+        "name_vi": "Vảy tìm rỉ",
+        "name_en": "Rust-seeking scales",
+        "description_vi": "Vảy trắng ngả nâu khi chạm rỉ sắt trong kẽ hẹp.",
+        "description_en": "White scales turn brown on touching iron rust within narrow crevices."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Soi mối nối",
+        "name_en": "Joint inspection",
+        "description_vi": "Bột bám vào đường rỉ trên đinh, khóa và mối ghép để thợ chọn chỗ tháo kiểm tra.",
+        "description_en": "The powder clings to rust paths in nails, locks and joints, showing craftsmen where to dismantle and inspect."
+      }
+    ],
+    "limits_vi": "Bột chỉ chỗ có rỉ; độ sâu và sức chịu của sắt cần được xét riêng.",
+    "limits_en": "The powder marks rust; its depth and the iron's remaining strength require separate judgement.",
+    "use_vi": "Bột bám vào đường rỉ trên đinh, khóa và mối ghép để thợ chọn chỗ tháo kiểm tra.",
+    "use_en": "The powder clings to rust paths in nails, locks and joints, showing craftsmen where to dismantle and inspect.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-nhua-nhan-suong",
+    "epigraph_vi": "Sương đến trước khi chăn lạnh.",
+    "epigraph_en": "Mist arrives before the blankets grow cold.",
+    "lore_vi": "Nhựa được lấy từ những cây mọc sát một thác nước đóng băng, mặt trong vỏ luôn hướng về làn bụi ướt. Khi gió đổi, các chấm lam hóa đục trước lúc giọt nước hiện ra; nhựa mang khỏi rừng vẫn giữ hướng đón sương ấy.",
+    "lore_en": "The resin came from trees beside a frozen waterfall, the inner bark always facing its wet spray. When the wind turned, the blue specks clouded before droplets appeared; resin carried from the forest kept that mist-facing direction.",
+    "traits": [
+      {
+        "name_vi": "Mặt đón sương",
+        "name_en": "Mist-facing side",
+        "description_vi": "Chỉ một mặt nhựa xanh đục khi hơi ẩm chạm tới.",
+        "description_en": "Only one face of the resin clouds blue when moisture reaches it."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Canh kiện hàng",
+        "name_en": "Cargo watching",
+        "description_vi": "Một miếng dưới lớp bọc báo sương đã xuyên tới chăn, lương khô hoặc băng vải.",
+        "description_en": "A piece beneath wrapping warns that mist has reached blankets, dry stores or bandages."
+      }
+    ],
+    "limits_vi": "Phải đánh dấu mặt phản ứng khi cán miếng; nhựa đã đục cần hong khô mới đọc lại được.",
+    "limits_en": "The responsive face must be marked when forming the sheet; clouded resin must dry before it can be read again.",
+    "use_vi": "Một miếng dưới lớp bọc báo sương đã xuyên tới chăn, lương khô hoặc băng vải.",
+    "use_en": "A piece beneath wrapping warns that mist has reached blankets, dry stores or bandages.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "epigraph_vi": "Tên người nhận bơi qua mưa.",
+    "epigraph_en": "The recipient's name swims through rain.",
+    "lore_vi": "Một người chép thẻ hàng dùng nước nhỏ từ tượng cá đồng để mài mực suốt mùa sương. Những nét đầu tiên luôn khô trong vành nước tròn; bụi đồng thấm vào mực đã giữ lại cách vảy cá rẽ dòng quanh thân.",
+    "lore_en": "A cargo clerk ground ink with water dripping from a bronze fish throughout the mist season. His first strokes always dried inside a ring of water; bronze dust entering the ink had kept the way a fish's scales divide the current around its body.",
+    "traits": [
+      {
+        "name_vi": "Viền rẽ nước",
+        "name_en": "Water-parting rim",
+        "description_vi": "Nét đã khô đẩy những giọt nước nhỏ khỏi đường chữ.",
+        "description_en": "A dried stroke turns small droplets away from its lettering."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Thẻ vượt sương",
+        "name_en": "Mist-going tags",
+        "description_vi": "Mực giữ tên và dấu đếm rõ trên nhãn hàng đi qua mưa bụi hoặc tuyết tan.",
+        "description_en": "The ink keeps names and tally marks clear on labels exposed to drizzle or melting snow."
+      }
+    ],
+    "limits_vi": "Giấy quanh chữ vẫn thấm; ngâm lâu hoặc chà mạnh sẽ phá viền.",
+    "limits_en": "Paper around the letters still absorbs water; prolonged soaking or rubbing breaks the rim.",
+    "use_vi": "Mực giữ tên và dấu đếm rõ trên nhãn hàng đi qua mưa bụi hoặc tuyết tan.",
+    "use_en": "The ink keeps names and tally marks clear on labels exposed to drizzle or melting snow.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-chi-muoi",
+    "epigraph_vi": "Muối đã đi, vòng trắng còn ở lại.",
+    "epigraph_en": "The salt has gone; the white ring remains.",
+    "lore_vi": "Dịch được hứng từ khe một vách đá từng nằm dưới biển. Mỗi mùa băng tan, đá vẽ những vòng trắng quanh chỗ nước mặn cũ trú lại; một người làm thùng giữ được thói quen ấy trong lọ và đem ký ức biển vào xưởng.",
+    "lore_en": "The fluid was collected from a cliff once beneath the sea. Each thaw, the stone drew white rings around pockets where old brine had rested; a barrel maker caught that habit in a bottle and brought the sea's memory into his workshop.",
+    "traits": [
+      {
+        "name_vi": "Vòng nhận muối",
+        "name_en": "Salt ring",
+        "description_vi": "Một giọt dịch nổi viền trắng quanh vết muối trên mặt sạch.",
+        "description_en": "A drop forms a white rim around salt traces on a clean surface."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Soát thùng rửa",
+        "name_en": "Washed-barrel checking",
+        "description_vi": "Dịch chỉ phần muối còn bám trong thùng thực phẩm trước khi chứa mẻ mới.",
+        "description_en": "The fluid reveals salt left inside food barrels before a fresh filling."
+      }
+    ],
+    "limits_vi": "Vòng cho biết có muối, không cho biết loại hay lượng; dầu làm viền tan.",
+    "limits_en": "The ring indicates salt, not its kind or quantity; oil dissolves the rim.",
+    "use_vi": "Dịch chỉ phần muối còn bám trong thùng thực phẩm trước khi chứa mẻ mới.",
+    "use_en": "The fluid reveals salt left inside food barrels before a fresh filling.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "epigraph_vi": "Nắp mở một lần, sáp nói một lần.",
+    "epigraph_en": "The lid opens once; the wax speaks once.",
+    "lore_vi": "Trong một nhà cân hàng, sáp niêm được nấu suốt nhiều đời bằng chính ngọn đèn đặt cạnh sổ nhận. Một mùa đông, dấu ép trên mẻ sáp mới bỗng sẫm khi nắp bị nhấc; những lần giao nhận lặp lại đã để vào sáp một trí nhớ của lần mở đầu tiên.",
+    "lore_en": "In a weighhouse, sealing wax was melted for generations over the lamp beside the receipt book. One winter, impressions in a fresh batch darkened when their lids were raised; repeated handovers had left the wax a memory of its first opening.",
+    "traits": [
+      {
+        "name_vi": "Dấu thức",
+        "name_en": "Waking impression",
+        "description_vi": "Dấu ép sẫm lên khi lớp sáp bị uốn sau niêm.",
+        "description_en": "The stamped mark darkens when the wax bends after sealing."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Niêm hộp",
+        "name_en": "Box sealing",
+        "description_vi": "Một cầu sáp qua nắp giúp người nhận biết hộp đã mở trên đường hay còn nguyên.",
+        "description_en": "A wax bridge across the lid lets a recipient see whether a box has been opened in transit."
+      }
+    ],
+    "limits_vi": "Sáp ghi biến dạng, không ghi người chạm; nung lại sẽ xóa dấu.",
+    "limits_en": "The wax records deformation, not the person responsible; remelting erases the mark.",
+    "use_vi": "Một cầu sáp qua nắp giúp người nhận biết hộp đã mở trên đường hay còn nguyên.",
+    "use_en": "A wax bridge across the lid lets a recipient see whether a box has been opened in transit.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-em-rong-roc",
+    "epigraph_vi": "Tiếng gọi lọt qua một khe yên.",
+    "epigraph_en": "A call comes through a little quiet.",
+    "lore_vi": "Bột bạc được tìm trong ổ trục của một ròng rọc kéo chuông, nơi dây đã cọ qua hàng nghìn buổi sớm. Phần than từ ngọn đèn gác hòa vào mạt kim loại; khi nghiền chung, chúng giữ tiếng rít giữa những hạt nhỏ để tiếng chuông đi xa hơn.",
+    "lore_en": "The silver powder was found in the bearing of a bell pulley, rubbed by its rope through thousands of mornings. Soot from the watch lamp mixed with the filings; ground together, they held the screech among their grains and let the bell carry farther.",
+    "traits": [
+      {
+        "name_vi": "Hạt ngậm rít",
+        "name_en": "Screech-holding grains",
+        "description_vi": "Hạt bạc làm dịu tiếng ma sát khi bị ép giữa hai mặt trượt.",
+        "description_en": "Silver grains soften friction noise when pressed between sliding surfaces."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kéo trong yên",
+        "name_en": "Quiet hauling",
+        "description_vi": "Bột giúp ròng rọc nhỏ vận hành đủ êm để người kéo nghe lời chỉ dẫn từ dưới.",
+        "description_en": "The powder makes a small pulley quiet enough for its operator to hear instructions from below."
+      }
+    ],
+    "limits_vi": "Tác dụng giảm sau vài lượt kéo; tiếng va đập và tải quá nặng vẫn truyền nguyên.",
+    "limits_en": "Its effect fades after several pulls; impacts and excessive loads still sound through it.",
+    "use_vi": "Bột giúp ròng rọc nhỏ vận hành đủ êm để người kéo nghe lời chỉ dẫn từ dưới.",
+    "use_en": "The powder makes a small pulley quiet enough for its operator to hear instructions from below.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-niu-giot",
+    "epigraph_vi": "Những giọt xếp hàng trên đường trời.",
+    "epigraph_en": "Droplets queue along a road through air.",
+    "lore_vi": "Sợi được xe từ rễ trắng mọc dưới mái hang, nơi nước nhỏ từng giọt qua những hạt ngọc đá. Qua nhiều mùa khô, rễ học được cách giữ phần nước đến muộn; khi tách thành sợi, mỗi nút vẫn níu một giọt như người giữ chỗ cho người đi sau.",
+    "lore_en": "The fibre was spun from white roots beneath a cave roof where water dripped through beads of stone. Through many dry seasons, the roots learned to hold late-arriving water; spun apart, each knot still caught a drop as though saving a place for the next.",
+    "traits": [
+      {
+        "name_vi": "Nút níu nước",
+        "name_en": "Water-catching knots",
+        "description_vi": "Các nút giữ giọt tách rời ngay cả trên sợi treo đứng.",
+        "description_en": "The knots hold separate drops even on a vertical hanging thread."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chia giọt",
+        "name_en": "Drop portioning",
+        "description_vi": "Người pha chế chuyển và đếm những giọt nước trong dọc một sợi tới miệng lọ hẹp.",
+        "description_en": "A preparer transfers and counts drops of clear water along a thread into a narrow-necked jar."
+      }
+    ],
+    "limits_vi": "Chất sánh làm các giọt nhập nhau; kéo căng đứt nút sẽ thả hết nước đang giữ.",
+    "limits_en": "Thick fluids merge the drops; pulling the knots apart releases all retained water.",
+    "use_vi": "Người pha chế chuyển và đếm những giọt nước trong dọc một sợi tới miệng lọ hẹp.",
+    "use_en": "A preparer transfers and counts drops of clear water along a thread into a narrow-necked jar.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-nhuom-ap",
+    "epigraph_vi": "Bàn tay buông rồi, sắc đỏ còn chưa nguôi.",
+    "epigraph_en": "The hand has let go; the red has yet to fade.",
+    "lore_vi": "Dịch xanh rỉ từ bậc đá của một cây cầu nơi đoàn xe thường phải dừng nhường nhau. Đá chịu những lần đè nặng rồi nhẹ đi qua nhiều đời, đến lúc nước trong khe cũng đỏ lên dưới sức ép và chậm nguôi sau khi tải rời.",
+    "lore_en": "Green fluid seeped from a bridge step where wagons often halted to let one another pass. Generations of loading and release taught the stone its rhythm, until the water in its cracks reddened under pressure and faded slowly after the weight moved on.",
+    "traits": [
+      {
+        "name_vi": "Màu giữ ép",
+        "name_en": "Pressure colour",
+        "description_vi": "Lớp dưới chuyển đỏ theo sức ép và giữ màu vài phút.",
+        "description_en": "The lower layer reddens with pressure and retains the colour for several minutes."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "So độ kẹp",
+        "name_en": "Clamp balancing",
+        "description_vi": "Kẹp một lớp dịch giữa hai mặt trong giúp thợ nhìn vùng chịu ép lệch ở khuôn hoặc đai.",
+        "description_en": "A fluid layer between two clear faces reveals uneven pressure beneath a mould or band."
+      }
+    ],
+    "limits_vi": "Cần so trên cùng độ dày; màu lưu ngắn nên phải đọc ngay khi tháo tải.",
+    "limits_en": "Comparison requires equal layer thickness; its brief memory must be read soon after unloading.",
+    "use_vi": "Kẹp một lớp dịch giữa hai mặt trong giúp thợ nhìn vùng chịu ép lệch ở khuôn hoặc đai.",
+    "use_en": "A fluid layer between two clear faces reveals uneven pressure beneath a mould or band.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "epigraph_vi": "Lửa khựng chân trên một giọt hổ phách.",
+    "epigraph_en": "Fire checks its step upon an amber drop.",
+    "lore_vi": "Nhựa chảy từ cây mọc trong một bãi than đã nguội, mỗi năm phủ trắng những vết cháy cũ trên vỏ. Khi cây đổ, lớp trắng vẫn khiến ngọn lửa chậm bước trước khi ăn vào nhựa; thời gian cây từng dành để khép vết thương đã đọng thành Vestigium.",
+    "lore_en": "The resin flowed from a tree in a cold charcoal field, whitening the old burns in its bark each year. When the tree fell, that white layer still slowed flames before they entered the resin; the time the tree had spent closing its wounds had settled into Vestigium.",
+    "traits": [
+      {
+        "name_vi": "Lớp trắng chậm cháy",
+        "name_en": "Slow-burning white layer",
+        "description_vi": "Các hạt trắng ngắt sự bén lửa trong một khoảng ngắn.",
+        "description_en": "White grains briefly interrupt ignition."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Áo lùi lửa",
+        "name_en": "Flame-delaying coat",
+        "description_vi": "Một lớp nhựa phủ vỏ hộp cho người mang thêm thời gian đặt vật xuống khi bén lửa.",
+        "description_en": "A resin coat on a case gives its carrier time to put it down when fire catches."
+      }
+    ],
+    "limits_vi": "Lớp trắng chỉ giữ được lần bén đầu; mặt đã cháy phải bóc thay.",
+    "limits_en": "The white layer withstands only the first ignition; burned coating must be removed and renewed.",
+    "use_vi": "Một lớp nhựa phủ vỏ hộp cho người mang thêm thời gian đặt vật xuống khi bén lửa.",
+    "use_en": "A resin coat on a case gives its carrier time to put it down when fire catches.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-muc-chi-xuoc",
+    "epigraph_vi": "Một đường sáng mở lòng sắt.",
+    "epigraph_en": "A line of light opens iron's heart.",
+    "lore_vi": "Mực được mài bằng đá lam lấy dưới con suối chảy qua mỏ bỏ hoang. Ánh ngọc trong đá luôn tụ ở những khe nước hẹp nhất; khi vào mực, nó tiếp tục tìm những vết xước nhỏ như tìm lại lòng suối cũ.",
+    "lore_en": "The ink was ground with blue stone from a stream running through an abandoned mine. The stone's pearly light always gathered in the narrowest water channels; in ink, it kept seeking fine scratches as though returning to its old streambed.",
+    "traits": [
+      {
+        "name_vi": "Ánh trong khe",
+        "name_en": "Crevice light",
+        "description_vi": "Mực phát sáng ở vết xước hẹp sau khi phần mặt ngoài được lau sạch.",
+        "description_en": "The ink glows within fine scratches after the surrounding surface is wiped clean."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Soi lưỡi",
+        "name_en": "Blade inspection",
+        "description_vi": "Thợ dùng mực tìm vết nứt mảnh trên dao, kim và dụng cụ khắc trước khi trao tay.",
+        "description_en": "Craftsmen use the ink to find hairline flaws in knives, needles and engraving tools before handing them over."
+      }
+    ],
+    "limits_vi": "Khe dính dầu cần làm sạch; bề mặt nhám toàn phần khiến ánh bị lẫn.",
+    "limits_en": "Oily crevices must be cleaned; an entirely rough surface confuses the light.",
+    "use_vi": "Thợ dùng mực tìm vết nứt mảnh trên dao, kim và dụng cụ khắc trước khi trao tay.",
+    "use_en": "Craftsmen use the ink to find hairline flaws in knives, needles and engraving tools before handing them over.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-tam-bot-giam-mui",
+    "epigraph_vi": "Mùi hương cũng có một tờ quê quán.",
+    "epigraph_en": "Even a fragrance has a page of origins.",
+    "lore_vi": "Giấy được ép bằng nước từ nền một kho hương liệu cũ, nơi những vệt hạt đen nằm dưới từng chân chum. Kho đã trống mà nền vẫn giữ mùi của các mùa hàng; những hạt đưa vào giấy mang theo khả năng cất riêng một hơi hương.",
+    "lore_en": "The paper was pressed with water from the floor of an old spice store, where black grains lay beneath each jar. The empty floor still held the scent of past trading seasons; grains worked into paper carried the power to keep one breath of fragrance apart.",
+    "traits": [
+      {
+        "name_vi": "Lòng giấy giữ hương",
+        "name_en": "Scent-keeping paper",
+        "description_vi": "Hạt đen giữ mùi đã hút tới khi được làm ẩm.",
+        "description_en": "Black grains retain an absorbed scent until moistened."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lưu mẫu mùi",
+        "name_en": "Scent sampling",
+        "description_vi": "Một tấm giấy khô giữ mùi lô hương liệu để người mua so lại khi hàng tới.",
+        "description_en": "A dry sheet keeps a spice shipment's scent for the buyer to compare on arrival."
+      }
+    ],
+    "limits_vi": "Mỗi tấm nên giữ một mùi; hơi nước mở hết mùi cùng lúc.",
+    "limits_en": "Each sheet should hold one scent; water vapour releases the whole sample at once.",
+    "use_vi": "Một tấm giấy khô giữ mùi lô hương liệu để người mua so lại khi hàng tới.",
+    "use_en": "A dry sheet keeps a spice shipment's scent for the buyer to compare on arrival.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-mo-men",
+    "epigraph_vi": "Men nguyên im lặng, đường rạn nở xanh.",
+    "epigraph_en": "Whole glaze is silent; its cracks bloom green.",
+    "lore_vi": "Bột trắng được gom từ nền lò gốm nơi hơi nước từng trườn qua những bát rạn suốt nhiều mùa rét. Hạt lục lớn lên theo đúng những đường rạn ấy; nghiền khỏi nền lò, chúng vẫn tìm lại các lối cũ khi gặp men và hơi ẩm.",
+    "lore_en": "The white powder was gathered from a kiln floor where steam had crept through cracked bowls for many cold seasons. Green grains grew along those fissures; ground free of the floor, they still sought the old paths when they met glaze and moisture.",
+    "traits": [
+      {
+        "name_vi": "Vệt theo rạn",
+        "name_en": "Crack-following green",
+        "description_vi": "Hạt lục kết dọc khe men đã nứt khi gặp hơi nước.",
+        "description_en": "Green grains gather along existing glaze fissures in water vapour."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đỡ đồ cổ",
+        "name_en": "Supporting old ceramics",
+        "description_vi": "Bột giúp thợ phục chế nhìn chỗ cần kê đỡ trước khi nhấc một món gốm yếu khỏi giá.",
+        "description_en": "The powder shows a restorer where to brace a fragile ceramic before lifting it from its stand."
+      }
+    ],
+    "limits_vi": "Bột để lại cặn trong khe; dành cho đồ trưng và rửa kỹ sau khi đọc dấu.",
+    "limits_en": "The powder leaves residue in cracks; it is reserved for display pieces and washed away thoroughly after reading.",
+    "use_vi": "Bột giúp thợ phục chế nhìn chỗ cần kê đỡ trước khi nhấc một món gốm yếu khỏi giá.",
+    "use_en": "The powder shows a restorer where to brace a fragile ceramic before lifting it from its stand.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-thoi-dan-diu",
+    "epigraph_vi": "Hai đầu thỏi kim loại cùng học cách chờ.",
+    "epigraph_en": "Both ends of the ingot have learned to wait.",
+    "lore_vi": "Thỏi được đúc bằng bạc thu từ một ngôi nhà kính, nơi bếp đêm và băng sáng từng cùng tựa vào khung cửa. Giữa hai cực nóng lạnh, kim loại nhận một nhịp chuyển êm; người thợ đúc giữ nguyên hai đầu lam để nhịp ấy có đường đi.",
+    "lore_en": "The ingot was cast from silver reclaimed from a glasshouse, whose frame had held the night stove against morning ice. Between heat and cold, the metal took on a gentler rhythm of passage; the founder kept its blue ends intact to give that rhythm a road.",
+    "traits": [
+      {
+        "name_vi": "Nhiệt đi đều",
+        "name_en": "Even heat passage",
+        "description_vi": "Nhiệt qua thân thỏi thành nhịp chậm và liền, các đợt nóng gắt làm mặt bạc tối lại.",
+        "description_en": "Heat crosses the ingot in a slow, continuous rhythm, while sharp surges darken its silver surface."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cầu nhiệt dịu",
+        "name_en": "Gentle heat bridge",
+        "description_vi": "Gắn thỏi giữa lò và bể nước giúp giữ hơi ấm đều cho nhà ươm hoặc bàn chế kính.",
+        "description_en": "Set between a stove and water tank, the ingot supplies steady warmth to a nursery or glassworking bench."
+      }
+    ],
+    "limits_vi": "Hai đầu lam phải để trống; vết tối phủ hết thân báo thỏi cần nghỉ trong nước lạnh một đêm.",
+    "limits_en": "Both blue ends must remain exposed; a fully darkened body needs a night resting in cold water.",
+    "use_vi": "Gắn thỏi giữa lò và bể nước giúp giữ hơi ấm đều cho nhà ươm hoặc bàn chế kính.",
+    "use_en": "Set between a stove and water tank, the ingot supplies steady warmth to a nursery or glassworking bench.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "epigraph_vi": "Một màu ở lại qua nhiều lần trời đổi.",
+    "epigraph_en": "One colour stays through many changes of sky.",
+    "lore_vi": "Dịch được hứng từ mái một nhà vẽ, nơi nắng nhiều đời chiếu qua cửa kính vàng lên các bản màu. Những vảy nhỏ trong nước giữ sắc của bức họa cuối cùng sau khi tranh đã dỡ; dịch phủ lên mực mới cũng giữ được một buổi sáng không phai ấy.",
+    "lore_en": "The fluid was collected from a painter's roof, where generations of sunlight passed through amber glass onto colour studies. Tiny scales in the water kept the hue of the last painting after it was removed; spread over fresh ink, they preserved that same unfading morning.",
+    "traits": [
+      {
+        "name_vi": "Vảy ôm sắc",
+        "name_en": "Colour-embracing scales",
+        "description_vi": "Vảy vàng kết quanh màu đã khô và giữ nó ổn định trước hơi ẩm.",
+        "description_en": "Golden scales settle around dried pigment and hold it steady against damp."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khóa màu",
+        "name_en": "Colour locking",
+        "description_vi": "Dịch giữ biển hiệu, bản đồ tô màu và hình mẫu dệt rõ sắc qua mùa sương.",
+        "description_en": "The fluid keeps signs, coloured maps and weaving patterns clear through the mist season."
+      }
+    ],
+    "limits_vi": "Lớp phủ khiến giấy mỏng giòn dần; hợp mặt gỗ, vải căng hoặc giấy dày.",
+    "limits_en": "The coating gradually stiffens thin paper; wood, stretched cloth and heavy paper suit it better.",
+    "use_vi": "Dịch giữ biển hiệu, bản đồ tô màu và hình mẫu dệt rõ sắc qua mùa sương.",
+    "use_en": "The fluid keeps signs, coloured maps and weaving patterns clear through the mist season.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "epigraph_vi": "Một bước chân dừng ở dưới bàn.",
+    "epigraph_en": "A footstep stops beneath the table.",
+    "lore_vi": "Bột tím được cạo từ chân những cột đá từng đỡ sàn một nhà hát. Hàng nghìn bước nhảy dừng lại ở đó mà mái vòm vẫn giữ tiếng hát tròn; các hạt bạc đã học cách nhận rung vào lòng trước khi nó chạm tới người nghe.",
+    "lore_en": "The purple powder was scraped from stone pillars beneath a theatre floor. Thousands of dancing steps ended there while song remained whole beneath the dome; the silver grains had learned to take vibration inward before it reached the listener.",
+    "traits": [
+      {
+        "name_vi": "Hạt xoay rung",
+        "name_en": "Turning grains",
+        "description_vi": "Hạt dẹt tự xoay theo chấn động và làm nó dịu đi qua lớp bột.",
+        "description_en": "Flat grains turn with a vibration and soften its passage through the powder."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nền yên",
+        "name_en": "Quiet footing",
+        "description_vi": "Kẹp bột dưới chân giá giúp giữ kính ngắm, bàn khắc và cân thuốc yên giữa tiếng chân ngoài phố.",
+        "description_en": "Powder beneath a stand steadies sighting glasses, engraving benches and medicine scales against passing footsteps."
+      }
+    ],
+    "limits_vi": "Lớp bột phải được dàn đều và thay khi hạt bạc vỡ vụn; cú xô trực tiếp vẫn làm giá chuyển.",
+    "limits_en": "The layer must be even and renewed when its silver grains crumble; a direct shove still moves the stand.",
+    "use_vi": "Kẹp bột dưới chân giá giúp giữ kính ngắm, bàn khắc và cân thuốc yên giữa tiếng chân ngoài phố.",
+    "use_en": "Powder beneath a stand steadies sighting glasses, engraving benches and medicine scales against passing footsteps.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "epigraph_vi": "Đường về nằm trong từng thớ nhỏ.",
+    "epigraph_en": "The way home lies in every little strand.",
+    "lore_vi": "Sợi được kéo từ vỏ cây uốn quanh một chiếc nôi bỏ quên trong vườn. Qua nhiều mùa, cành gió lay rồi trở lại che nôi, đến khi gân đỏ trong vỏ giữ được đường cong ấy; nung sợi theo hình mới cho nó một nơi khác để trở về.",
+    "lore_en": "The fibre was drawn from bark curved around a cradle left in a garden. Season after season, branches swayed and returned to shelter it, until red veins in the bark retained that curve; firing the fibre into a new shape gave it another home to return to.",
+    "traits": [
+      {
+        "name_vi": "Nhớ hình nung",
+        "name_en": "Fired-shape memory",
+        "description_vi": "Sợi chậm trở lại đường cong được định bằng lần nung đầu.",
+        "description_en": "The fibre slowly returns to the curve fixed by its first firing."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cơ cấu trở về",
+        "name_en": "Returning mechanism",
+        "description_vi": "Dệt sợi vào cánh thông gió nhẹ hoặc nẹp vải giúp chúng trở về dáng mở sau khi buông.",
+        "description_en": "Woven into a light vent flap or fabric stay, the fibre returns it to its open shape when released."
+      }
+    ],
+    "limits_vi": "Kéo quá đường cong làm gân đỏ tưa; mỗi đoạn chỉ nhận một hình nung.",
+    "limits_en": "Pulling beyond its curve frays the red vein; each length accepts only one fired shape.",
+    "use_vi": "Dệt sợi vào cánh thông gió nhẹ hoặc nẹp vải giúp chúng trở về dáng mở sau khi buông.",
+    "use_en": "Woven into a light vent flap or fabric stay, the fibre returns it to its open shape when released.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-sap-dong-vet",
+    "epigraph_vi": "Một giọt tìm đến nơi bức tường đang khát.",
+    "epigraph_en": "A drop finds the wall's thirst.",
+    "lore_vi": "Sáp được lấy từ tổ ong trong thành giếng, nơi các đường tơ trắng luôn mọc về phía nước rỉ. Khi thợ giếng trám tổ cũ lên khe đá, sáp tự dồn về chỗ nhỏ giọt; qua nhiều mùa nước lên xuống, tổ đã học được cách khép miệng vết nứt.",
+    "lore_en": "The wax came from a hive within a well wall, where white threads always grew towards seeping water. When a well keeper pressed the old comb into a crack, the wax gathered at the drip; through many seasons of rising and falling water, the hive had learned to close a fissure's mouth.",
+    "traits": [
+      {
+        "name_vi": "Tơ tìm rò",
+        "name_en": "Leak-seeking threads",
+        "description_vi": "Trong một đường sáp liền, tơ trắng kéo sáp về điểm đang rỉ nước.",
+        "description_en": "Within a continuous wax line, white threads draw wax towards a seep."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Trám tự tìm",
+        "name_en": "Seeking seal",
+        "description_vi": "Sáp phủ mối ghép thùng hoặc bể nhỏ tự bồi kín các khe rỉ mới xuất hiện.",
+        "description_en": "Wax along a barrel or small tank joint builds itself over newly appearing leaks."
+      }
+    ],
+    "limits_vi": "Đường sáp bị cắt sẽ mất liên hệ; thợ cần chừa lớp đủ dày ở cả hai đầu.",
+    "limits_en": "A cut wax line loses its connection; sufficient thickness must remain at both ends.",
+    "use_vi": "Sáp phủ mối ghép thùng hoặc bể nhỏ tự bồi kín các khe rỉ mới xuất hiện.",
+    "use_en": "Wax along a barrel or small tank joint builds itself over newly appearing leaks.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dau-giu-gon",
+    "epigraph_vi": "Gợn cuối vẫn còn kể chuyện.",
+    "epigraph_en": "The last ripple is still telling its tale.",
+    "lore_vi": "Dầu nổi trên một đầm than nơi cơn gió cuối ngày luôn để lại những vệt bạc tới tận đêm. Rễ cây mục đã giữ dấu chuyển động lâu hơn mặt nước; dầu vắt từ chúng mang theo thói quen để một cơn lay kết thúc thật chậm.",
+    "lore_en": "The oil floated on a peat pool where the day's last wind left silver lines until night. Decaying roots held motion longer than water did; oil pressed from them carried the habit of letting a disturbance end slowly.",
+    "traits": [
+      {
+        "name_vi": "Gợn lưu lâu",
+        "name_en": "Long-held ripples",
+        "description_vi": "Mặt dầu giữ hình sóng sau khi nguồn rung đã dừng.",
+        "description_en": "The oil retains a wave pattern after its source of vibration has stopped."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đọc nhịp máy",
+        "name_en": "Reading machinery",
+        "description_vi": "Khay dầu đặt trên nền máy giữ lại nhịp rung để thợ nhận ra chuyển động bất thường giữa các lượt chạy.",
+        "description_en": "A tray on a machine base retains its vibration rhythm, letting a craftsman compare runs for irregular motion."
+      }
+    ],
+    "limits_vi": "Bụi hoặc nước rơi vào làm hình gợn vỡ; cần chờ mặt dầu yên trước lần đọc mới.",
+    "limits_en": "Falling dust or water breaks the pattern; the surface must settle before a fresh reading.",
+    "use_vi": "Khay dầu đặt trên nền máy giữ lại nhịp rung để thợ nhận ra chuyển động bất thường giữa các lượt chạy.",
+    "use_en": "A tray on a machine base retains its vibration rhythm, letting a craftsman compare runs for irregular motion.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-men-dong-lanh",
+    "epigraph_vi": "Mùa đông chỉ đậu trên một mặt.",
+    "epigraph_en": "Winter alights on only one face.",
+    "lore_vi": "Men được nung từ đất dưới một hồ băng, nơi mặt trên trắng lạnh mà bùn đáy vẫn mềm. Người thợ đưa mảnh đất ấy vào lò đang tắt, giữ được đường phân mùa giữa hai mặt; từ đó mặt lam đón băng còn mặt trắng giữ hơi ấm của bàn tay.",
+    "lore_en": "The glaze was fired from clay beneath an icebound lake, whose white surface froze while its bottom mud stayed soft. A potter placed it in a dying kiln and preserved the division of seasons between its faces; the blue side received ice while the white side kept a hand's warmth.",
+    "traits": [
+      {
+        "name_vi": "Hai mặt phân lạnh",
+        "name_en": "Divided cold",
+        "description_vi": "Lạnh tụ ở mặt lam và khó đi xuyên qua mặt trắng nguyên vẹn.",
+        "description_en": "Cold gathers on the blue face and passes poorly through an intact white face."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lót hòm lạnh",
+        "name_en": "Cold-chest lining",
+        "description_vi": "Men lót hòm cá hoặc hòm thuốc giữ băng ở trong mà tay cầm ngoài vẫn dễ nắm.",
+        "description_en": "Glaze inside fish or medicine chests keeps ice within while the outer handles remain comfortable to hold."
+      }
+    ],
+    "limits_vi": "Đường men rạn nối hai mặt sẽ làm lạnh truyền qua; từng mảnh cần ghép đúng chiều.",
+    "limits_en": "A crack joining the two faces lets cold through; each piece must be fitted the right way round.",
+    "use_vi": "Men lót hòm cá hoặc hòm thuốc giữ băng ở trong mà tay cầm ngoài vẫn dễ nắm.",
+    "use_en": "Glaze inside fish or medicine chests keeps ice within while the outer handles remain comfortable to hold.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-chua-dong",
+    "epigraph_vi": "Đồng được gọi tên giữa đống phế.",
+    "epigraph_en": "Copper is called by name among the scrap.",
+    "lore_vi": "Bột vàng hình thành dưới mái một xưởng đúc đồng, nơi nước rỉ kéo sắt từ những chiếc móc xuống nền nhưng để các mảnh đồng nằm sáng. Vảy xanh lớn lên trong ranh giới ấy; khi được gom lại, bột vẫn chọn ôm sắt rỉ và chừa đồng sạch sang bên.",
+    "lore_en": "The golden powder formed beneath a copper foundry roof, where leaks carried iron from hanging hooks to the floor but left copper scraps bright. Green scales grew along that boundary; gathered together, the powder still chose rusty iron and left clean copper aside.",
+    "traits": [
+      {
+        "name_vi": "Chọn sắt rỉ",
+        "name_en": "Rust selection",
+        "description_vi": "Hạt vàng bám chặt vào rỉ sắt và trượt khỏi đồng sạch.",
+        "description_en": "Golden grains cling to iron rust and slide off clean copper."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nhặt đồng",
+        "name_en": "Copper recovery",
+        "description_vi": "Bột giúp tách đồng vụn khỏi phế sắt, cho thợ thu hồi mẻ kim loại còn dùng được.",
+        "description_en": "The powder separates copper scraps from rusty iron waste, recovering usable metal."
+      }
+    ],
+    "limits_vi": "Đồng phủ rỉ hoặc dầu cần được rửa trước; bột hết bám sau khi vảy xanh bị nghiền phẳng.",
+    "limits_en": "Copper coated with rust or oil needs washing first; flattened green scales lose their grip.",
+    "use_vi": "Bột giúp tách đồng vụn khỏi phế sắt, cho thợ thu hồi mẻ kim loại còn dùng được.",
+    "use_en": "The powder separates copper scraps from rusty iron waste, recovering usable metal.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-giu-mat",
+    "epigraph_vi": "Mặt nước có thể làm một tấm cửa.",
+    "epigraph_en": "Water's face can become a door.",
+    "lore_vi": "Dịch đọng trên lá sen trong một hồ đã đóng băng quanh bờ mà lòng vẫn xanh. Từng lá giữ mặt nước phẳng qua gió mạnh, đến khi nhựa từ cuống và sương hòa thành màng tím; lọ dịch đầu tiên mang về vẫn giữ nguyên một mặt hồ giữa lòng tay.",
+    "lore_en": "The fluid settled on lotus leaves in a lake frozen at the rim but green at its heart. The leaves held water level through strong winds until sap and dew formed a violet film; the first bottle carried home still held a lake's surface within the palm.",
+    "traits": [
+      {
+        "name_vi": "Màng giữ mặt",
+        "name_en": "Surface-holding film",
+        "description_vi": "Mặt dịch tự căng phẳng trên miệng khung và tự khép vết thủng nhỏ.",
+        "description_en": "The fluid stretches flat across a frame and closes small punctures by itself."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cửa trong mềm",
+        "name_en": "Soft clear window",
+        "description_vi": "Màng dịch làm ô nhìn trong cho nhà ươm hoặc nắp che bể, mở bằng một vành đồng nhấc khỏi khung.",
+        "description_en": "The film forms a clear nursery window or tank cover, opened by lifting a copper rim from its frame."
+      }
+    ],
+    "limits_vi": "Khung phải liền kín; cạnh sắc kéo dài sẽ xé màng và làm dịch tụ về đáy.",
+    "limits_en": "The frame must be continuous; a sustained sharp edge tears the film and gathers the fluid at the bottom.",
+    "use_vi": "Màng dịch làm ô nhìn trong cho nhà ươm hoặc nắp che bể, mở bằng một vành đồng nhấc khỏi khung.",
+    "use_en": "The film forms a clear nursery window or tank cover, opened by lifting a copper rim from its frame.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-niu-am",
+    "epigraph_vi": "Tiếng hát còn níu ở đường kim.",
+    "epigraph_en": "A song still clings to the stitch.",
+    "lore_vi": "Sợi được xe từ tấm vải treo sau dàn hợp xướng của một nhà nguyện bỏ hoang. Bạc khâu trong vải đã nghe cùng một khúc ca qua nhiều đời, đến lúc các đốt sợi giữ tiếng cuối ngay cả khi người hát đã rời; người dệt kéo âm thanh ấy thành từng cuộn.",
+    "lore_en": "The fibre was spun from cloth hanging behind the choir of an abandoned chapel. Silver stitching had heard the same hymn for generations until its joints held the last sound after the singers left; weavers drew that sound into reels.",
+    "traits": [
+      {
+        "name_vi": "Đốt giữ tiếng",
+        "name_en": "Sound-bearing joints",
+        "description_vi": "Các đốt bạc nhận một câu ngắn và ngân lại khi vuốt theo chiều sợi.",
+        "description_en": "Silver joints take in a short phrase and repeat it when stroked along the thread."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dây truyền lời",
+        "name_en": "Message cord",
+        "description_vi": "Sợi căng giữa các phòng đưa lời gọi qua tường dày, hữu dụng trong xưởng ồn hoặc buồng bệnh.",
+        "description_en": "Thread stretched between rooms carries calls through thick walls, useful in noisy workshops or sickrooms."
+      }
+    ],
+    "limits_vi": "Mỗi đường sợi giữ một tiếng đang đi; thắt nút hoặc nói chồng làm câu méo.",
+    "limits_en": "Each line carries one sound at a time; knots or overlapping speech distort the words.",
+    "use_vi": "Sợi căng giữa các phòng đưa lời gọi qua tường dày, hữu dụng trong xưởng ồn hoặc buồng bệnh.",
+    "use_en": "Thread stretched between rooms carries calls through thick walls, useful in noisy workshops or sickrooms.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-thoi-tra-luc",
+    "epigraph_vi": "Búa đi xuống, mùa xuân đi lên.",
+    "epigraph_en": "The hammer falls; spring rises.",
+    "lore_vi": "Thỏi được đúc từ đai một cầu nâng đã chịu bước đoàn xe suốt nhiều mùa tuyết. Lúc cầu được hạ lần cuối, chiếc đai tự cong ngược nâng tấm ván khỏi bùn; thỏi mới giữ lấy ý muốn trở lên ấy trong vòng trắng giữa thân.",
+    "lore_en": "The ingot was cast from a band of a drawbridge that had borne wagon wheels through many snow seasons. When the bridge was lowered for the last time, the band bent back and lifted a plank from the mud; the new ingot kept that urge to rise within its white ring.",
+    "traits": [
+      {
+        "name_vi": "Đai giữ lực",
+        "name_en": "Force-bearing band",
+        "description_vi": "Thỏi giữ một lần ép trong đai trắng rồi trả lại theo trục khi chạm hai đầu cùng lúc.",
+        "description_en": "The white ring retains one compression and releases it along the axis when both ends are touched together."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nhịp nâng",
+        "name_en": "Lifting beat",
+        "description_vi": "Đặt thỏi trong cơ cấu nâng giúp gom sức nhiều lượt ép nhẹ thành một lượt nâng thùng hàng hoặc cửa cống.",
+        "description_en": "Within a lifting mechanism, the ingot gathers several gentle compressions into one lift of a cargo case or sluice gate."
+      }
+    ],
+    "limits_vi": "Phải cố định đúng trục trả lực; đai trắng đã rạn sẽ nhả từng đợt khó đều.",
+    "limits_en": "The release axis must be fixed securely; a cracked white ring releases force in uneven pulses.",
+    "use_vi": "Đặt thỏi trong cơ cấu nâng giúp gom sức nhiều lượt ép nhẹ thành một lượt nâng thùng hàng hoặc cửa cống.",
+    "use_en": "Within a lifting mechanism, the ingot gathers several gentle compressions into one lift of a cargo case or sluice gate.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-nhua-cat-sang",
+    "epigraph_vi": "Một giọt nhựa mang ngày về dưới mái.",
+    "epigraph_en": "A drop of resin brings daylight beneath the roof.",
+    "lore_vi": "Nhựa được lấy từ cây mọc trên sườn núi chỉ nhận nắng vài ngày mỗi năm. Trong những ngày ấy, vỏ cây vàng rực tới tận đêm dài; nhựa giữ phần ngày hiếm hoi, rồi khi được rót ra vẫn chậm rãi mở lại ánh trời giữa bóng tối.",
+    "lore_en": "The resin came from a mountainside tree that received sunlight only a few days each year. On those days, its bark shone gold far into the long night; its sap kept that scarce daylight and, once poured, slowly unfolded it again in darkness.",
+    "traits": [
+      {
+        "name_vi": "Nhựa giữ ngày",
+        "name_en": "Day-keeping resin",
+        "description_vi": "Nhựa trong nhận ánh trời và tỏa ánh vàng khi trời tối.",
+        "description_en": "The clear resin receives sunlight and gives off golden light in darkness."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đèn qua đêm",
+        "name_en": "All-night lamp",
+        "description_vi": "Một bầu nhựa phơi sáng đủ ngày soi nhà ươm, cầu thang hoặc bàn thuốc suốt đêm.",
+        "description_en": "A vessel exposed for a full day lights a nursery, stairway or medicine table through the night."
+      }
+    ],
+    "limits_vi": "Khói bám làm ánh khó vào và khó ra; phải mở bầu ra dưới trời sáng để nạp lại.",
+    "limits_en": "Soot hinders light both entering and leaving; the vessel must be opened beneath bright sky to replenish it.",
+    "use_vi": "Một bầu nhựa phơi sáng đủ ngày soi nhà ươm, cầu thang hoặc bàn thuốc suốt đêm.",
+    "use_en": "A vessel exposed for a full day lights a nursery, stairway or medicine table through the night.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-goi-giot",
+    "epigraph_vi": "Một tiếng gọi xanh, sương đáp thành giọt.",
+    "epigraph_en": "A green call, and mist answers in drops.",
+    "lore_vi": "Bột được tán từ đá xanh nằm giữa những rễ cây sống nhờ sương trên vách cao. Mỗi sáng, các đốm trắng trên đá gọi nước về trước khi lá thức; mảnh đá rời vách vẫn tụ những giọt nhỏ quanh mình, mang cho vườn thấp một cách uống của núi.",
+    "lore_en": "The powder was ground from green stone among roots living on cliff mist. Each morning, its white flecks called water before the leaves awoke; fragments taken from the cliff still gathered droplets, bringing low gardens a mountain way of drinking.",
+    "traits": [
+      {
+        "name_vi": "Tâm tụ sương",
+        "name_en": "Mist-gathering centres",
+        "description_vi": "Hạt xanh kéo hơi ẩm gần đó kết giọt trên bề mặt được rắc.",
+        "description_en": "Green grains draw nearby moisture into droplets on a dusted surface."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Tưới bằng sương",
+        "name_en": "Mist watering",
+        "description_vi": "Bột rắc trên máng đất gom sương đêm thành dòng tưới nhẹ cho vườn ươm.",
+        "description_en": "Powder along earthen channels gathers night mist into a gentle flow for seed beds."
+      }
+    ],
+    "limits_vi": "Trời khô trong làm hạt ngủ yên; phải giữ bột khỏi trôi vào đất bùn đặc.",
+    "limits_en": "In clear dry air the grains sleep; they must be kept from washing into thick mud.",
+    "use_vi": "Bột rắc trên máng đất gom sương đêm thành dòng tưới nhẹ cho vườn ươm.",
+    "use_en": "Powder along earthen channels gathers night mist into a gentle flow for seed beds.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-men-nhan-xo",
+    "epigraph_vi": "Một cú xô thành những vòng lá.",
+    "epigraph_en": "A shove becomes rings of leaves.",
+    "lore_vi": "Men được nung bằng đất dưới rễ một cây chịu bão, nơi mọi vết ép tỏa vòng quanh đá thay vì chẻ nó. Người thợ giữ những vân đỏ ấy trong men; khi va chạm đến, mặt men nhận nó như rễ từng nhận bước gió qua thân.",
+    "lore_en": "The glaze was fired from earth beneath a storm-worn tree whose roots spread pressure around stones rather than splitting them. A potter kept those red veins within the glaze; it received a blow as the roots had once received wind through the trunk.",
+    "traits": [
+      {
+        "name_vi": "Vân chia xô",
+        "name_en": "Impact-spreading veins",
+        "description_vi": "Vân đỏ trải lực va chạm rộng ra trên mặt men liền.",
+        "description_en": "Red veins spread an impact across a continuous glazed face."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vỏ chịu va",
+        "name_en": "Impact-bearing shell",
+        "description_vi": "Men phủ thùng kính, mũ bảo hộ hoặc mặt khiên giúp một cú đập khó dồn vào một điểm.",
+        "description_en": "Glaze on glass cases, protective helmets or shields keeps a blow from concentrating at a single point."
+      }
+    ],
+    "limits_vi": "Lớp men phải liền; vết rạn cắt ngang vân đỏ sẽ gom lực lại ở mép rạn.",
+    "limits_en": "The glaze must be continuous; a crack crossing a red vein concentrates force at its edge.",
+    "use_vi": "Men phủ thùng kính, mũ bảo hộ hoặc mặt khiên giúp một cú đập khó dồn vào một điểm.",
+    "use_en": "Glaze on glass cases, protective helmets or shields keeps a blow from concentrating at a single point.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-sap-muon-khuon",
+    "epigraph_vi": "Một khuôn có thể cho mượn nhiều bàn tay.",
+    "epigraph_en": "One mould can lend many hands.",
+    "lore_vi": "Sáp được nấu từ những cây nến quanh bàn làm khuôn của một gia đình thợ đúc. Qua nhiều đời, cùng một mẫu gỗ được ép vào phần sáp thừa, tới khi đường vàng trong sáp bắt đầu tự nhớ mặt khuôn và nhận một hình mới khi được trao tận tay.",
+    "lore_en": "The wax was melted from candles around a family moulding bench. For generations, the same wooden pattern was pressed into spare wax until its golden lines began to remember the mould and accept a fresh shape when handed one.",
+    "traits": [
+      {
+        "name_vi": "Ký ức khuôn",
+        "name_en": "Mould memory",
+        "description_vi": "Sáp giữ mặt khuôn nhận lúc ấm và tự chỉnh về mặt ấy sau khi bị ép méo.",
+        "description_en": "The wax keeps an impression received while warm and restores it after distortion."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khuôn trở lại",
+        "name_en": "Returning mould",
+        "description_vi": "Thợ dùng một tấm sáp để lặp các hoa văn, răng bánh nhỏ hoặc miếng gạch chạm mà ít phải sửa khuôn.",
+        "description_en": "Craftsmen reuse a wax sheet for repeated ornaments, small gear teeth or carved tiles with little reshaping."
+      }
+    ],
+    "limits_vi": "Muốn đổi mẫu phải làm ấm toàn tấm; chắp hai mẻ sáp tạo đường nối hiện trên sản phẩm.",
+    "limits_en": "Changing the pattern requires warming the whole sheet; joining two batches leaves a seam on the cast.",
+    "use_vi": "Thợ dùng một tấm sáp để lặp các hoa văn, răng bánh nhỏ hoặc miếng gạch chạm mà ít phải sửa khuôn.",
+    "use_en": "Craftsmen reuse a wax sheet for repeated ornaments, small gear teeth or carved tiles with little reshaping.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-ngung-men",
+    "epigraph_vi": "Men rượu đứng chờ ngoài ngưỡng.",
+    "epigraph_en": "The ferment waits outside the threshold.",
+    "lore_vi": "Dịch lam đọng trong hũ nước đặt giữa một hầm men bị khóa suốt mùa đông. Bên ngoài hũ, rượu vẫn già đi; bên trong, nước giữ vị mới như ngày cửa đóng, vì lớp tủa bạc đã nhận vào mình khoảng chờ dài của căn hầm.",
+    "lore_en": "Blue fluid settled in a water jar within a fermenting cellar locked all winter. Beyond the jar, wine aged; inside, the water tasted newly drawn, for the silver sediment had taken in the cellar's long wait.",
+    "traits": [
+      {
+        "name_vi": "Vành ngừng men",
+        "name_en": "Fermentation stilling",
+        "description_vi": "Dịch tạo một vành yên, tạm dừng sự lên men của chất lỏng chạm vào.",
+        "description_en": "The fluid forms a still boundary that pauses fermentation in liquid touching it."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chờ mẻ",
+        "name_en": "Batch holding",
+        "description_vi": "Một vòng dịch trên thành bình giữ mẻ lên men ở độ mong muốn cho tới khi người thợ lọc và đóng chai.",
+        "description_en": "A ring along a vessel's inner wall holds a ferment at the desired stage until its maker filters and bottles it."
+      }
+    ],
+    "limits_vi": "Chỉ sự lên men bị giữ; mùi hỏng từ nguyên liệu bẩn vẫn còn và phải loại mẻ.",
+    "limits_en": "Only fermentation is held; spoilage from dirty ingredients remains and requires discarding the batch.",
+    "use_vi": "Một vòng dịch trên thành bình giữ mẻ lên men ở độ mong muốn cho tới khi người thợ lọc và đóng chai.",
+    "use_en": "A ring along a vessel's inner wall holds a ferment at the desired stage until its maker filters and bottles it.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-chua-bong",
+    "epigraph_vi": "Bóng tối chừa lại một đường kim.",
+    "epigraph_en": "Darkness leaves room for a stitch.",
+    "lore_vi": "Sợi bạc được rút từ một màn sân khấu từng mở đúng lúc mặt trời lặn suốt nhiều đời. Các nút đen đã giữ bóng của những người bước ra ánh đèn, tới khi người dệt nhận thấy bóng tự lùi khỏi đường sợi; vải mới mang theo lối mở của sân khấu cũ.",
+    "lore_en": "The silver fibre was drawn from a curtain raised at sunset for generations. Its black knots had held the shadows of those stepping into the lamps until weavers noticed darkness withdrawing from the thread; new cloth carried the old stage's opening with it.",
+    "traits": [
+      {
+        "name_vi": "Đường chừa bóng",
+        "name_en": "Shadow-clearing line",
+        "description_vi": "Bóng đổ lùi khỏi một đường sợi căng, để lại vệt sáng hẹp.",
+        "description_en": "Cast shadow withdraws from a taut thread, leaving a narrow bright trace."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khung sáng",
+        "name_en": "Light frame",
+        "description_vi": "Dệt sợi thành mái nhà ươm giúp ánh trời xuyên sâu qua bóng xà, giữ luống cây dưới mái được sáng đều.",
+        "description_en": "Woven into a nursery roof, the fibre draws daylight beyond beam shadows and lights the beds evenly."
+      }
+    ],
+    "limits_vi": "Cần có ánh sáng bên ngoài để mở đường; nút đen bị cắt làm vệt sáng dừng tại đó.",
+    "limits_en": "Outside light is required to open the path; severing a black knot ends the bright trace there.",
+    "use_vi": "Dệt sợi thành mái nhà ươm giúp ánh trời xuyên sâu qua bóng xà, giữ luống cây dưới mái được sáng đều.",
+    "use_en": "Woven into a nursery roof, the fibre draws daylight beyond beam shadows and lights the beds evenly.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-thoi-tinh-am",
+    "epigraph_vi": "Giữa tiếng búa, một khoảng yên đứng thẳng.",
+    "epigraph_en": "Amid the hammers, a quiet space stands upright.",
+    "lore_vi": "Thỏi được đúc từ nền chuông của một xưởng từng làm chuông cho cả vùng. Suốt nhiều đời, lõi bạc nhận mọi tiếng thử mà chưa từng được gõ riêng; khi nung lại, khoảng yên nằm giữa những tiếng chuông đã thành ruột thỏi, xanh đen như trời trước tiếng đầu ngày.",
+    "lore_en": "The ingot was cast from the bell bed of a workshop that supplied an entire district. For generations, its silver core received every trial ring without being struck itself; recasting turned the quiet between those bells into the ingot's heart, blue-black as the sky before morning's first note.",
+    "traits": [
+      {
+        "name_vi": "Ruột tĩnh",
+        "name_en": "Still core",
+        "description_vi": "Âm thanh đi qua thân thỏi dịu xuống, để rung cơ học vẫn truyền tiếp.",
+        "description_en": "Sound crossing the ingot softens while mechanical vibration continues through it."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Buồng yên",
+        "name_en": "Quiet chamber",
+        "description_vi": "Ghép thỏi vào khung cửa tạo khoảng yên trong buồng bệnh hoặc phòng đàm phán giữa xưởng ồn.",
+        "description_en": "Ingots fitted into a door frame make a quiet space for a sickroom or negotiation room beside a noisy workshop."
+      }
+    ],
+    "limits_vi": "Khung phải khép vòng; cửa mở hoặc thỏi rời chỗ lập tức trả tiếng ồn vào phòng.",
+    "limits_en": "The frame must close into a ring; opening the door or shifting an ingot immediately restores the noise.",
+    "use_vi": "Ghép thỏi vào khung cửa tạo khoảng yên trong buồng bệnh hoặc phòng đàm phán giữa xưởng ồn.",
+    "use_en": "Ingots fitted into a door frame make a quiet space for a sickroom or negotiation room beside a noisy workshop.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-muc-doi-mat",
+    "epigraph_vi": "Chữ qua kính như chim qua mặt hồ.",
+    "epigraph_en": "Letters pass through glass like birds through a lake's reflection.",
+    "lore_vi": "Mực được lấy từ bụi tím giữa hai tấm kính của một cửa sổ đôi, nơi người học chữ từng đồ nét trên hơi sương từ hai phía. Những nét chồng nhau qua nhiều mùa đã dạy bụi đường đi giữa hai mặt; mực pha từ đó biết đưa một nét viết qua bề dày trong suốt.",
+    "lore_en": "The ink came from violet dust between a double window's panes, where children had traced letters in mist from both sides. Strokes overlapping through many seasons taught the dust a route between faces; ink made from it could send a written line through transparent thickness.",
+    "traits": [
+      {
+        "name_vi": "Nét xuyên mặt",
+        "name_en": "Cross-face stroke",
+        "description_vi": "Nét mực mới viết bước sang mặt đối diện của một tấm kính phẳng khi được gọi bằng ánh đèn.",
+        "description_en": "A fresh ink stroke passes to the opposite face of a flat pane when called by lamplight."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chép qua vách",
+        "name_en": "Writing through walls",
+        "description_vi": "Người giữ đèn nhận tin trên mặt trong ô kính niêm kín, giữ buồng thuốc hoặc kho hàng đóng suốt lúc giao lời.",
+        "description_en": "A lamp keeper receives words inside a sealed window, keeping a medicine room or store closed during the exchange."
+      }
+    ],
+    "limits_vi": "Hai mặt kính cần nguyên và phẳng; nét đã khô hoàn toàn đứng yên ở mặt đang giữ.",
+    "limits_en": "Both glass faces must be whole and flat; a fully dried stroke remains on its present face.",
+    "use_vi": "Người giữ đèn nhận tin trên mặt trong ô kính niêm kín, giữ buồng thuốc hoặc kho hàng đóng suốt lúc giao lời.",
+    "use_en": "A lamp keeper receives words inside a sealed window, keeping a medicine room or store closed during the exchange.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-nho-doc",
+    "epigraph_vi": "Con dốc đi theo dòng nước.",
+    "epigraph_en": "The slope follows the water.",
+    "lore_vi": "Dịch xanh được hứng từ máng đá của một bánh xe nước đứng yên sau lở núi. Dòng cuối đã chảy suốt một mùa dù lòng máng bị nâng ngang; vòng bạc trong dịch giữ hướng đi như giữ một lối xuống biển, và mang con dốc ấy sang cả bình mới.",
+    "lore_en": "The green fluid was caught from a stone flume whose water wheel stopped after a landslide. Its final stream ran for a season after the channel was raised level; silver rings in the fluid kept its direction like a road to the sea and carried that slope into a fresh vessel.",
+    "traits": [
+      {
+        "name_vi": "Nhớ hướng xuống",
+        "name_en": "Downhill memory",
+        "description_vi": "Dịch giữ chiều chảy đã nhận trên máng nghiêng, kể cả khi tới mặt phẳng.",
+        "description_en": "The fluid keeps a direction learned on a sloping channel even after reaching level ground."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dòng qua đồng",
+        "name_en": "Flow across level ground",
+        "description_vi": "Pha một đường dịch vào mương phẳng tạo dòng tưới có hướng hoặc đưa nước qua nền xưởng khó đào dốc.",
+        "description_en": "A line of fluid in a flat channel gives irrigation a direction or carries water across a workshop floor difficult to slope."
+      }
+    ],
+    "limits_vi": "Dòng rẽ theo lần dốc mới mạnh hơn; nước đục nhiều đất làm vòng bạc lắng và hướng chậm mờ.",
+    "limits_en": "A stronger new slope turns the flow; heavy silt settles the silver rings and gradually blurs its direction.",
+    "use_vi": "Pha một đường dịch vào mương phẳng tạo dòng tưới có hướng hoặc đưa nước qua nền xưởng khó đào dốc.",
+    "use_en": "A line of fluid in a flat channel gives irrigation a direction or carries water across a workshop floor difficult to slope.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-nhua-noi-vet",
+    "epigraph_vi": "Hai giọt nhận nhau qua khoảng trống.",
+    "epigraph_en": "Two drops recognise each other across emptiness.",
+    "lore_vi": "Nhựa chảy từ hai thân cây mọc tách nhau trên cùng một gốc dưới khe đá. Gốc đã mục, hai dòng nhựa vẫn kéo sợi về phía nhau qua không khí; phần rễ chung đã hóa thành Vestigium, trao cho mỗi giọt một ký ức về giọt còn lại.",
+    "lore_en": "The resin flowed from twin trunks growing apart from one root beneath a cleft. After the root rotted, the streams still drew threads towards one another through air; their shared root had become Vestigium, giving each drop a memory of the other.",
+    "traits": [
+      {
+        "name_vi": "Giọt đồng gốc",
+        "name_en": "Kindred drops",
+        "description_vi": "Hai phần nhựa cùng mẻ kéo sợi lam tìm nhau khi đặt trong tầm nhìn.",
+        "description_en": "Two portions from one batch draw blue threads towards each other when within sight."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nối qua khe",
+        "name_en": "Gap joining",
+        "description_vi": "Sợi nhựa bắc mối nối giữa ván, đá hoặc vết rách vải để giữ hai mép cho tới khi thợ cố định.",
+        "description_en": "Resin threads bridge boards, stones or torn cloth, holding their edges until a craftsman secures them."
+      }
+    ],
+    "limits_vi": "Nhựa khác mẻ đứng riêng; một màn nước ngăn giữa làm sợi rút về hai đầu.",
+    "limits_en": "Resin from different batches stays apart; a curtain of water makes the threads withdraw to their ends.",
+    "use_vi": "Sợi nhựa bắc mối nối giữa ván, đá hoặc vết rách vải để giữ hai mép cho tới khi thợ cố định.",
+    "use_en": "Resin threads bridge boards, stones or torn cloth, holding their edges until a craftsman secures them.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-giu-ria-lua",
+    "epigraph_vi": "Lửa đứng ngoài một đường tuyết.",
+    "epigraph_en": "Fire stands beyond a line of snow.",
+    "lore_vi": "Bột trắng sinh ra ở rìa một cánh rừng cháy gặp bão tuyết, nơi hàng cây cuối cùng đứng nguyên giữa tro. Hạt đỏ nằm trong mỗi bông bụi giữ cuộc gặp ấy, khiến ngọn lửa nhận ra một bờ khác ngay trên đất khô.",
+    "lore_en": "The white powder formed where a forest fire met a snowstorm and the final row of trees stood whole amid ash. Red grains within each dusty flake kept that meeting, making fire recognise another shore upon dry ground.",
+    "traits": [
+      {
+        "name_vi": "Rìa ngăn lửa",
+        "name_en": "Fire boundary",
+        "description_vi": "Lửa chạm đường bột liền sẽ quay dọc rìa thay vì vượt sang.",
+        "description_en": "Flame meeting a continuous powder line turns along its edge instead of crossing."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vành cứu hỏa",
+        "name_en": "Firebreak ring",
+        "description_vi": "Một vòng bột quanh kho hoặc lối rút giữ lửa ngoài ranh để người bên trong chuyển hàng và thoát đi.",
+        "description_en": "A circle around a store or escape route holds flame outside while people move goods and leave."
+      }
+    ],
+    "limits_vi": "Đường bột phải liền; vật đang cháy ném qua hoặc gió cuốn hạt tạo một cửa vượt ranh.",
+    "limits_en": "The line must be continuous; burning objects thrown over it or wind-scattered grains open a crossing.",
+    "use_vi": "Một vòng bột quanh kho hoặc lối rút giữ lửa ngoài ranh để người bên trong chuyển hàng và thoát đi.",
+    "use_en": "A circle around a store or escape route holds flame outside while people move goods and leave.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-tam-sap-hai-dau",
+    "epigraph_vi": "Dấu chạm đi qua mà tấm sáp còn nguyên.",
+    "epigraph_en": "The touch passes through; the wax stays whole.",
+    "lore_vi": "Tấm sáp được tìm dưới bàn một người thợ khắc hai mặt tiền đúc, ngày nào cũng gõ theo cùng một nhịp từ sáng tới tối. Những dấu sau cùng tự hiện ở mặt chưa chạm; qua vô số lượt đổi mặt, sáp đã học cách để một bàn tay làm việc ở hai phía.",
+    "lore_en": "The wax sheet was found beneath the bench of a craftsman who engraved both faces of coin dies to the same rhythm each day. His final marks appeared on the untouched side; through countless turnings, the wax had learned to let one hand work on both faces.",
+    "traits": [
+      {
+        "name_vi": "Hai dấu tương ứng",
+        "name_en": "Paired impressions",
+        "description_vi": "Sức ép tạo một dấu ở mặt trước và dấu cùng hình ở mặt sau.",
+        "description_en": "Pressure makes an impression on the front and a matching one on the reverse."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khuôn đôi",
+        "name_en": "Twin mould",
+        "description_vi": "Thợ lấy hai mặt khuôn ăn khớp cho đúc phù điêu, vỏ máy nhỏ hoặc dấu kiểm hàng chỉ bằng một lần ép.",
+        "description_en": "A single pressing makes matching mould faces for relief casting, small housings or cargo marks."
+      }
+    ],
+    "limits_vi": "Phải để mặt sau tự do nhận dấu; hình chồng nhiều lượt sẽ cùng hiện và khó tách.",
+    "limits_en": "The reverse must remain free to receive the mark; repeated overlapping shapes all appear and become difficult to separate.",
+    "use_vi": "Thợ lấy hai mặt khuôn ăn khớp cho đúc phù điêu, vỏ máy nhỏ hoặc dấu kiểm hàng chỉ bằng một lần ép.",
+    "use_en": "A single pressing makes matching mould faces for relief casting, small housings or cargo marks.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dau-ghim-hoi",
+    "epigraph_vi": "Hơi nước đứng chờ một tiếng đồng.",
+    "epigraph_en": "Steam waits for a copper voice.",
+    "lore_vi": "Dầu được hứng trên nóc một nhà tắm bỏ hoang, nơi hơi người qua nhiều đời tụ thành bọt trắng dưới lớp hổ phách. Khi máng đồng cuối cùng được tháo, các bọt cùng vỡ như vừa nghe lệnh; dầu đã giữ nhịp mở cửa của ngôi nhà trong lòng mình.",
+    "lore_en": "The oil was caught beneath the roof of an abandoned bathhouse, where generations of vapour gathered as white bubbles under amber film. When its final copper gutter was removed, the bubbles burst together as though answering a command; the oil had kept the house's opening rhythm within it.",
+    "traits": [
+      {
+        "name_vi": "Bọt chờ đồng",
+        "name_en": "Copper-waiting bubbles",
+        "description_vi": "Hơi tụ thành bọt bền dưới dầu và được thả ra khi màng chạm đồng trần.",
+        "description_en": "Vapour forms lasting bubbles beneath the oil and releases when the film touches bare copper."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nhịp hơi",
+        "name_en": "Steam rhythm",
+        "description_vi": "Dầu điều nhịp hơi cho buồng sấy, nồi hấp vải hoặc cánh máy nhỏ theo lần chạm của một cần đồng.",
+        "description_en": "The oil times vapour for drying rooms, cloth steamers or small machine vanes through touches of a copper lever."
+      }
+    ],
+    "limits_vi": "Phải có đường cho hơi đi; đồng bị bọc sơn hoặc bám nhựa sẽ làm lời gọi mất tác dụng.",
+    "limits_en": "Vapour needs a clear passage; painted or resin-coated copper cannot give the releasing call.",
+    "use_vi": "Dầu điều nhịp hơi cho buồng sấy, nồi hấp vải hoặc cánh máy nhỏ theo lần chạm của một cần đồng.",
+    "use_en": "The oil times vapour for drying rooms, cloth steamers or small machine vanes through touches of a copper lever.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-thoi-no-tieng",
+    "epigraph_vi": "Tiếng chuông còn một quãng biển để về.",
+    "epigraph_en": "The bell still has a sea to cross.",
+    "lore_vi": "Thỏi được đúc từ quả chuông vớt lên sau một vụ chìm thuyền. Chuông từng reo dưới nước nhiều ngày sau khi dây đã đứt; khi búa chạm thỏi mới, kim loại lõm xuống trong im lặng rồi tiếng gõ mới trở về, như mặt biển vừa mở đường cho một lời đáp.",
+    "lore_en": "The ingot was cast from a bell recovered after a shipwreck. The bell had rung beneath water for days after its rope broke; when a hammer struck the new ingot, the metal yielded silently before its note returned, as though the sea had opened a road for an answer.",
+    "traits": [
+      {
+        "name_vi": "Nợ tiếng",
+        "name_en": "Sound debt",
+        "description_vi": "Thỏi giữ âm của va chạm cho tới khi tâm đen được đặt chạm đá ướt.",
+        "description_en": "The ingot holds the sound of an impact until its black core touches wet stone."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chuông hẹn",
+        "name_en": "Tide alarm",
+        "description_vi": "Người gác chất một hồi báo vào thỏi rồi đặt nó trong máng triều để nước tới sẽ đánh thức cả bến cảng.",
+        "description_en": "A watchman loads a warning peal into the ingot and sets it in a tidal trough so incoming water wakes the harbour."
+      }
+    ],
+    "limits_vi": "Nhiều tiếng cùng chờ sẽ nhập thành một hồi; phải chọn nơi nhả âm trước khi nạp.",
+    "limits_en": "Waiting sounds merge into one peal; the release site should be chosen before loading it.",
+    "use_vi": "Người gác chất một hồi báo vào thỏi rồi đặt nó trong máng triều để nước tới sẽ đánh thức cả bến cảng.",
+    "use_en": "A watchman loads a warning peal into the ingot and sets it in a tidal trough so incoming water wakes the harbour.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-mat-guong-sau",
+    "epigraph_vi": "Lòng chén chứa một đêm sâu hơn đáy.",
+    "epigraph_en": "The bowl holds a night deeper than its base.",
+    "lore_vi": "Dịch được hứng từ gương đáy giếng, nơi người soi luôn thấy trời đêm bất kể giờ nào. Qua nhiều đời, bóng các thùng nước rơi xuống mà chẳng bao giờ chạm sao; lớp bạc đã trở thành một khoảng sâu riêng, mang bầu trời úp ngược vào bất cứ lòng chén nào.",
+    "lore_en": "The fluid was gathered from a well's mirror, where every watcher saw night regardless of the hour. For generations, bucket shadows fell without ever reaching the stars; the silver layer became a depth of its own, carrying an inverted sky into any bowl.",
+    "traits": [
+      {
+        "name_vi": "Độ sâu trong ảnh",
+        "name_en": "Depth within the image",
+        "description_vi": "Bề mặt mở một khoảng chứa bên dưới hình phản chiếu, sâu vượt vật đựng.",
+        "description_en": "The surface opens a space beneath its reflection deeper than its vessel."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kho dưới gương",
+        "name_en": "Under-mirror store",
+        "description_vi": "Vật hạ theo đúng bóng của mình đi vào khoảng sâu và có thể kéo lại bằng một dây buộc còn nằm ngoài dịch.",
+        "description_en": "An object lowered along its own reflection enters the depth and can be retrieved by a tether left outside the fluid."
+      }
+    ],
+    "limits_vi": "Mặt dịch phải phẳng và đủ rộng để chứa toàn bóng vật; nghiêng chén làm lối vào khép cho tới lúc mặt yên trở lại.",
+    "limits_en": "The fluid must be level and wide enough to hold the object's whole reflection; tilting the vessel closes the entrance until it settles.",
+    "use_vi": "Vật hạ theo đúng bóng của mình đi vào khoảng sâu và có thể kéo lại bằng một dây buộc còn nằm ngoài dịch.",
+    "use_en": "An object lowered along its own reflection enters the depth and can be retrieved by a tether left outside the fluid.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "epigraph_vi": "Một nhịp nữa đủ để bàn tay tới nơi.",
+    "epigraph_en": "One more beat is enough for a hand to arrive.",
+    "lore_vi": "Sợi được kéo ra từ chiếc áo của người treo mình giữa hai mái tháp khi cầu sập. Trong khoảnh khắc sắp đứt, một đốt đen xuất hiện và giữ hai đầu thêm một nhịp; phần níu cuối của chiếc áo đã hóa thành Vestigium, đi vào mọi sợi còn nguyên đường dệt.",
+    "lore_en": "The fibre was drawn from the coat of a person hanging between two towers as a bridge fell. At the point of breaking, a black joint appeared and held the ends another beat; the coat's final hold became Vestigium within every fibre that kept its weave.",
+    "traits": [
+      {
+        "name_vi": "Nhịp trước đứt",
+        "name_en": "Beat before parting",
+        "description_vi": "Sợi sắp đứt giữ nguyên hai đầu trong một khoảng chờ dài đủ cho một lời gọi và một lần nắm.",
+        "description_en": "A failing fibre holds its ends together long enough for a call and a grasp."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dây cứu cuối",
+        "name_en": "Last rescue line",
+        "description_vi": "Dệt sợi dọc dây cứu hộ hoặc đai treo giúp người mang có khoảng chờ để bám sang điểm tựa khác khi dây hỏng.",
+        "description_en": "Fibre woven along a rescue rope or suspension belt gives its wearer time to seize another support when the line fails."
+      }
+    ],
+    "limits_vi": "Mỗi đốt đen chỉ thức một lần; đoạn đã cứu phải được đánh dấu và thay khỏi dây.",
+    "limits_en": "Each black joint wakes once; a spent section must be marked and replaced.",
+    "use_vi": "Dệt sợi dọc dây cứu hộ hoặc đai treo giúp người mang có khoảng chờ để bám sang điểm tựa khác khi dây hỏng.",
+    "use_en": "Fibre woven along a rescue rope or suspension belt gives its wearer time to seize another support when the line fails.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "epigraph_vi": "Tro giữ cả hình của điều đã cháy.",
+    "epigraph_en": "Ash keeps the shape of what has burned.",
+    "lore_vi": "Mẻ men được nung bằng củi lấy từ một thư phòng cháy. Tro quét khỏi mặt vẫn để lại chữ và hình vật sáng bạc, như lửa đã gửi một bản sao qua làn khói; người thợ giữ mẻ men ấy trong tối để những trang mất còn một nơi hiện về.",
+    "lore_en": "The glaze was fired with wood from a burned study. Ash brushed from its face still left silver letters and shapes, as though fire had sent a copy through smoke; the potter kept the glaze in darkness so the lost pages had somewhere to return.",
+    "traits": [
+      {
+        "name_vi": "Ảnh trong tro",
+        "name_en": "Ash image",
+        "description_vi": "Men nhận tro và hiện lại hình gần nhất mà phần tro ấy từng thuộc về.",
+        "description_en": "The glaze receives ash and shows the last shape to which it belonged."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đọc vật cháy",
+        "name_en": "Reading the burned",
+        "description_vi": "Trải tro lên một mảng men trong tối cho phép đọc lại trang giấy hoặc nhìn hình vật đã cháy để nhận diện.",
+        "description_en": "Ash spread across the glaze in darkness allows a burned page to be read or an object's former shape to be identified."
+      }
+    ],
+    "limits_vi": "Tro nhiều nguồn trộn sẽ chồng hình; ánh sáng mạnh xóa ảnh đang hiện nhưng men có thể nhận mẫu mới.",
+    "limits_en": "Mixed ashes overlap their images; strong light erases the current image, though the glaze can receive a fresh sample.",
+    "use_vi": "Trải tro lên một mảng men trong tối cho phép đọc lại trang giấy hoặc nhìn hình vật đã cháy để nhận diện.",
+    "use_en": "Ash spread across the glaze in darkness allows a burned page to be read or an object's former shape to be identified.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "epigraph_vi": "Một dòng lệnh dừng ở hạt bụi.",
+    "epigraph_en": "A command stops at a grain of dust.",
+    "lore_vi": "Bột được tìm trong ống bút của một người chép bản án, bên cạnh câu lệnh đã bị cạo khỏi giấy nhiều lần. Mỗi lần tên một người được tha, bụi bạc tích thêm dưới ngòi; tới một ngày, nó cắt được đường màu đang chạy và giữ lời vừa viết ở phía bên kia khoảng trắng.",
+    "lore_en": "The powder was found in a judgement clerk's pen case beside an order repeatedly scraped from paper. Each time a name was pardoned, silver dust gathered beneath the nib; one day it could sever a travelling line of colour and hold the newly written command beyond a blank space.",
+    "traits": [
+      {
+        "name_vi": "Cắt mạch nét",
+        "name_en": "Ink-path severance",
+        "description_vi": "Bột ngắt màu cùng tác động Vestigium đang chạy theo một đường mực liền.",
+        "description_en": "The powder interrupts colour and Vestigium effects travelling along a continuous ink line."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ngắt ấn viết",
+        "name_en": "Written-seal interruption",
+        "description_vi": "Một đường bột cắt ngang văn tự đang hoạt động giúp dừng ấn niêm, lệnh truyền hoặc bẫy bằng mực trong lúc sửa.",
+        "description_en": "A powder line across active writing pauses an ink seal, transmitted order or ink trap during repair."
+      }
+    ],
+    "limits_vi": "Chỉ ngắt tác động còn phụ thuộc đường nét; làm ướt bột sẽ nối nét trở lại.",
+    "limits_en": "It interrupts only effects still dependent on the written path; wetting the powder reconnects the stroke.",
+    "use_vi": "Một đường bột cắt ngang văn tự đang hoạt động giúp dừng ấn niêm, lệnh truyền hoặc bẫy bằng mực trong lúc sửa.",
+    "use_en": "A powder line across active writing pauses an ink seal, transmitted order or ink trap during repair.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-nhua-mot-nhip-lanh",
+    "epigraph_vi": "Hai bờ cùng giữ một giọt trời.",
+    "epigraph_en": "Both shores hold one drop of sky.",
+    "lore_vi": "Nhựa được lấy từ vết thương của một cây đứng hai bên khe đá. Rễ từng nối hai bờ trước khi núi tách, và lớp trắng trong nhựa giữ giây phút cây còn nguyên; đồng lạnh chạm vào sẽ mở giây phút ấy, cho hai nửa một vật đứng cách nhau mà vẫn cùng một hình.",
+    "lore_en": "The resin came from the wound of a tree straddling a cleft. Its roots had joined the banks before the mountain split, and the white layer kept the instant when the tree was whole; cold copper opens that instant, letting a thing's two halves stand apart within one shape.",
+    "traits": [
+      {
+        "name_vi": "Khoảng chia lành",
+        "name_en": "Whole parting",
+        "description_vi": "Nhựa tách một vật qua lớp trắng mà giữ hai phía còn chung sự liền mạch.",
+        "description_en": "The resin parts an object along its white layer while keeping both sides continuous."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở đường trong vật",
+        "name_en": "Opening within matter",
+        "description_vi": "Một lớp nhựa cho thợ mở đường qua vách hoặc thân máy để sửa phần sâu rồi ghép nguyên lại khi rút đồng.",
+        "description_en": "A resin layer lets craftsmen open a wall or machine body, repair its interior and reunite it intact when the copper is withdrawn."
+      }
+    ],
+    "limits_vi": "Hai nửa phải còn chạm cùng lớp nhựa; kéo một bên khỏi lớp trắng khiến mối chia thành vết cắt thật.",
+    "limits_en": "Both halves must keep touching the same resin layer; pulling either away turns the parting into a real cut.",
+    "use_vi": "Một lớp nhựa cho thợ mở đường qua vách hoặc thân máy để sửa phần sâu rồi ghép nguyên lại khi rút đồng.",
+    "use_en": "A resin layer lets craftsmen open a wall or machine body, repair its interior and reunite it intact when the copper is withdrawn.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-doi-mep",
+    "epigraph_vi": "Mép kính là một bờ biển lật ngược.",
+    "epigraph_en": "A glass edge is an upturned shore.",
+    "lore_vi": "Dịch chảy ra từ mặt sau một cửa kính vỡ giữa bão. Nước trên và dưới mép kính đã đổi chỗ trong khoảnh khắc sét sáng, rồi để lại dịch tím giữ cuộc đổi ấy; mỗi cạnh cũ trở thành một nơi mặt đất có thể gấp sang hướng khác.",
+    "lore_en": "The fluid ran from the back of a window broken in a storm. In a lightning flash, water above and below its edge exchanged places, leaving violet fluid that kept the exchange; every old edge became a place where the ground could fold another way.",
+    "traits": [
+      {
+        "name_vi": "Đổi phía nâng",
+        "name_en": "Changed bearing face",
+        "description_vi": "Dịch coi hai phía của mép kính nguyên như những mặt trên có thể nâng vật.",
+        "description_en": "The fluid treats both sides of an intact glass edge as upper surfaces capable of support."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Máng ngược",
+        "name_en": "Inverted channel",
+        "description_vi": "Phủ dịch lên một máng kính cho dòng nước đi quanh góc, bám mặt dưới hoặc qua trần để cấp nước trong công trình chật.",
+        "description_en": "Fluid on a glass channel carries water around corners, along its underside or across a ceiling to supply cramped buildings."
+      }
+    ],
+    "limits_vi": "Kính cong và cạnh mới mài làm hướng nâng mất ổn định; cần giữ nguyên cạnh đã nhận dịch.",
+    "limits_en": "Curved glass and newly ground edges unsettle the bearing direction; the edge that received the fluid must be preserved.",
+    "use_vi": "Phủ dịch lên một máng kính cho dòng nước đi quanh góc, bám mặt dưới hoặc qua trần để cấp nước trong công trình chật.",
+    "use_en": "Fluid on a glass channel carries water around corners, along its underside or across a ceiling to supply cramped buildings.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-tam-ep-tra-sang",
+    "epigraph_vi": "Ánh sáng đến muộn vẫn tìm đúng cửa.",
+    "epigraph_en": "Late light still finds the right door.",
+    "lore_vi": "Tấm khoáng từng lót cửa một phòng tối bị bỏ quên. Những mùa nắng đến rồi đi ngoài cửa đóng đã thấm thành lớp xanh bạc; lúc cửa mở, tấm trả ánh cũ đúng góc nó từng nhận, vẽ cả bóng của vật đã dời qua nhiều đời.",
+    "lore_en": "The mineral sheet once lined the door of a forgotten darkroom. Seasons of sunlight beyond the closed door entered its blue-silver layers; when the door opened, the sheet returned old light at its original angle, drawing shadows of objects removed generations before.",
+    "traits": [
+      {
+        "name_vi": "Lớp chậm sáng",
+        "name_en": "Delayed-light layer",
+        "description_vi": "Tấm giữ nguyên hướng và hình trong ánh nhận vào cho tới khi mặt sau được mở.",
+        "description_en": "The sheet retains the direction and image of received light until its reverse is uncovered."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ngày trong hầm",
+        "name_en": "Day beneath earth",
+        "description_vi": "Ghép tấm thành cửa nhận nắng rồi xoay vào hầm để trả một khoảng ngày, đủ soi cây trồng và đường đi theo hình đã thu.",
+        "description_en": "Sheets receive sun at an opening, then turn inward to release a stretch of daylight for plants and paths with the image they captured."
+      }
+    ],
+    "limits_vi": "Mỗi lớp chỉ giữ một khoảng sáng chưa trả; ánh chồng trước khi mở sẽ thành hình lẫn.",
+    "limits_en": "Each layer holds one unreleased interval of light; further exposure before release blends the images.",
+    "use_vi": "Ghép tấm thành cửa nhận nắng rồi xoay vào hầm để trả một khoảng ngày, đủ soi cây trồng và đường đi theo hình đã thu.",
+    "use_en": "Sheets receive sun at an opening, then turn inward to release a stretch of daylight for plants and paths with the image they captured.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-thoi-duc-do-cuoi-cung",
+    "epigraph_vi": "Giọt kim loại còn đang tới đích.",
+    "epigraph_en": "The metal drop is still arriving.",
+    "lore_vi": "Ở mẻ đúc cuối của một lò đã sập, người ta tìm thấy thỏi bạc với một giọt vẫn đang rơi. Một thợ già nhận ra giọt ấy trên huy hiệu người dựng lò nhiều đời trước; lần đúc đầu và lần cuối đã chạm nhau, để hành động thành hình còn mở giữa thân thỏi.",
+    "lore_en": "In the final casting of a collapsed foundry, a silver ingot was found with a drop still falling. An old founder recognised the drop on the emblem of the workshop's long-dead builder; the first casting and the last had met, leaving the act of taking shape open within the ingot.",
+    "traits": [
+      {
+        "name_vi": "Lần đúc còn mở",
+        "name_en": "Open casting",
+        "description_vi": "Kim loại chạm giọt được nhận vào cùng một lần đúc đang dang dở, mềm theo hình dẫn rồi cứng lại khi rời.",
+        "description_en": "Metal touching the drop enters the same unfinished casting, yielding to a guiding form and hardening when removed."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đúc liền công trình",
+        "name_en": "Seamless works",
+        "description_vi": "Thỏi cho thợ nối những khối kim loại thành cầu, thân tàu hoặc cửa lớn liền mạch ngay tại chỗ bằng cách dẫn giọt dọc mối ghép.",
+        "description_en": "By guiding the drop along a joint, founders unite metal blocks into seamless bridges, hulls or great doors where they stand."
+      }
+    ],
+    "limits_vi": "Thỏi phải còn nguyên; mỗi lần dẫn giọt cần một hình đích rõ, vì hình đã rời giọt sẽ đóng vĩnh viễn.",
+    "limits_en": "The ingot must remain whole; each guided passage needs a clear final form, for a shape leaving the drop sets permanently.",
+    "use_vi": "Thỏi cho thợ nối những khối kim loại thành cầu, thân tàu hoặc cửa lớn liền mạch ngay tại chỗ bằng cách dẫn giọt dọc mối ghép.",
+    "use_en": "By guiding the drop along a joint, founders unite metal blocks into seamless bridges, hulls or great doors where they stand.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-giot-muc-chua-kho",
+    "epigraph_vi": "Câu cuối còn đủ chỗ cho một thế giới.",
+    "epigraph_en": "The final sentence still has room for a world.",
+    "lore_vi": "Lọ mực nằm cạnh bản thảo đã cạo sạch mọi chữ, cổ lọ khắc rằng phần còn lại dành cho câu cuối. Qua nhiều đời, chữ trên nhãn nghiêng theo tay người giữ mới; trang chưa viết đã hóa thành Vestigium trong giọt mực, để mỗi lời hoàn tất mở ra một cách kết khác.",
+    "lore_en": "The ink bottle lay beside a manuscript scraped clean, its neck inscribed that what remained was for the final sentence. Through generations, the label's script leaned with each new keeper's hand; the unwritten page had become Vestigium within the drop, giving each completion another possible ending.",
+    "traits": [
+      {
+        "name_vi": "Giọt còn viết",
+        "name_en": "Still-writing drop",
+        "description_vi": "Mực giữ ướt trong lọ gốc và nối những nét rời thành một câu liền khi người viết định rõ câu cuối.",
+        "description_en": "The ink stays wet in its original bottle and joins separate strokes into one sentence when its writer knows the ending."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Viết qua khoảng cách",
+        "name_en": "Writing across distance",
+        "description_vi": "Một nét từ lọ gốc có thể tiếp tục trên các mảnh giấy đã chấm cùng mực, đưa trọn một câu tới nhiều nơi xa.",
+        "description_en": "A stroke from the original bottle continues on papers marked with the same ink, delivering a complete sentence to distant places."
+      }
+    ],
+    "limits_vi": "Mực đã rời lọ sẽ khô sau khi câu hoàn tất; mỗi câu phải được người giữ tự tay kết thúc.",
+    "limits_en": "Ink outside the bottle dries when its sentence is complete; the keeper must finish each sentence by hand.",
+    "use_vi": "Một nét từ lọ gốc có thể tiếp tục trên các mảnh giấy đã chấm cùng mực, đưa trọn một câu tới nhiều nơi xa.",
+    "use_en": "A stroke from the original bottle continues on papers marked with the same ink, delivering a complete sentence to distant places.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-soi-chi-khong-dau",
+    "epigraph_vi": "Đường chỉ trở về trước cả điểm đầu.",
+    "epigraph_en": "The thread returns before its beginning.",
+    "lore_vi": "Vòng sợi được rút từ viền một tấm vải liệm rỗng, nơi người dệt đã khâu ngày này qua ngày khác mà mép vải luôn còn một đoạn chờ. Đường kim cuối gặp đường kim đầu ở cùng một phía; khoảng chờ khép lại thành một vòng sợi có thể cho một con đường đi tiếp qua chính nó.",
+    "lore_en": "The loop was drawn from an empty shroud whose maker stitched day after day while one edge always remained unfinished. The last stitch met the first on the same side; that waiting gap closed into a loop capable of carrying a road onward through itself.",
+    "traits": [
+      {
+        "name_vi": "Vòng chung một phía",
+        "name_en": "Single-sided loop",
+        "description_vi": "Hai khung được luồn bằng cùng vòng sợi có chung một mặt trong dù nằm xa nhau.",
+        "description_en": "Two frames threaded with the same loop share an inner face despite being far apart."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cửa đường khâu",
+        "name_en": "Stitched doorway",
+        "description_vi": "Căng sợi qua hai vòm cửa mở lối đưa người và hàng bước giữa hai nơi như qua hai mặt của một tấm vải.",
+        "description_en": "Stretched through two arches, the fibre lets people and goods pass between places as through two sides of a cloth."
+      }
+    ],
+    "limits_vi": "Vòng phải còn nguyên và cả hai khung được dựng kín; làm đứt một mối căng sẽ khép cả hai cửa.",
+    "limits_en": "The loop must remain whole and both frames complete; breaking one taut fastening closes both doors.",
+    "use_vi": "Căng sợi qua hai vòm cửa mở lối đưa người và hàng bước giữa hai nơi như qua hai mặt của một tấm vải.",
+    "use_en": "Stretched through two arches, the fibre lets people and goods pass between places as through two sides of a cloth.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "epigraph_vi": "Ba giọt giữ ba lối mây về.",
+    "epigraph_en": "Three drops keep three roads for clouds.",
+    "lore_vi": "Ba giọt xanh đã nằm trên men từ lúc chiếc bình còn nguyên, mỗi giọt giữ một vệt mây đi khác hướng. Người thợ từng hứng mưa của ba mùa trong cùng một bình; khi bình vỡ, những mùa ấy ở lại như ba lời hẹn, để mưa còn nhận ra nơi mình phải trở về.",
+    "lore_en": "The three blue drops had rested on the glaze since the pot was whole, each holding a cloud moving another way. Its maker had gathered rain from three seasons in one vessel; when it broke, those seasons stayed like three appointments, allowing rain to remember where it belonged.",
+    "traits": [
+      {
+        "name_vi": "Ba hướng mưa",
+        "name_en": "Three rainward paths",
+        "description_vi": "Mỗi giọt gốc giữ đường mây của một mùa và gọi hơi nước trong vùng theo đường ấy.",
+        "description_en": "Each original drop keeps a season's cloud path and calls local moisture along it."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mưa hẹn mùa",
+        "name_en": "Season-appointed rain",
+        "description_vi": "Đặt men trên tháp và xoay giọt chọn lên trời cho người giữ dẫn mưa về hồ chứa hoặc ruộng trong một buổi.",
+        "description_en": "Raised on a tower with a chosen drop facing skyward, the shard directs rain towards a reservoir or fields for part of a day."
+      }
+    ],
+    "limits_vi": "Cần có mây hoặc sương trong vùng; giọt gốc lấy khỏi men mất đường mây vĩnh viễn.",
+    "limits_en": "Cloud or mist must be present nearby; removing an original drop from the glaze loses its cloud path forever.",
+    "use_vi": "Đặt men trên tháp và xoay giọt chọn lên trời cho người giữ dẫn mưa về hồ chứa hoặc ruộng trong một buổi.",
+    "use_en": "Raised on a tower with a chosen drop facing skyward, the shard directs rain towards a reservoir or fields for part of a day.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-sap-niem-mot-lan",
+    "epigraph_vi": "Một dấu niêm giữ nguyên lời đã nhận.",
+    "epigraph_en": "A seal keeps the promise it received.",
+    "lore_vi": "Khối sáp giữ dấu của chiếc ấn đã bị nung chảy trước khi được tìm thấy. Trong lần niêm cuối, người giữ ấn từng xin cho một cửa kho đứng vững qua mùa đói; lời xin lặp qua bao bàn tay đã nhập vào sáp, để hình ấn còn nguyên giữa mọi lần chảy mềm.",
+    "lore_en": "The wax kept the impression of a seal melted before its discovery. At the final sealing, its keeper asked that a storehouse door hold through a hungry season; the request passed through so many hands that it entered the wax, preserving the impression through every softening.",
+    "traits": [
+      {
+        "name_vi": "Ấn giữ ranh",
+        "name_en": "Boundary-keeping seal",
+        "description_vi": "Khối sáp nguyên nhận một đường ranh kín và giữ các phần của ranh ở nguyên quan hệ đã niêm.",
+        "description_en": "The whole wax block receives a closed boundary and preserves the sealed relationship of its parts."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Niêm công trình",
+        "name_en": "Sealing a structure",
+        "description_vi": "Đặt sáp tại một cửa vòm giúp giữ thân đập, vòm cầu hoặc tường thành nguyên mối trong lúc thợ sửa nền và thay đá bên dưới.",
+        "description_en": "Wax set at an arch keeps a dam, bridge vault or wall joined while craftsmen repair its foundations and replace the stone below."
+      }
+    ],
+    "limits_vi": "Chỉ niêm một ranh mỗi lần; phải làm mềm toàn khối để mở niêm, rồi công trình tự chịu sức nặng trở lại.",
+    "limits_en": "It seals one boundary at a time; the whole block must soften to release it, after which the structure bears its own weight again.",
+    "use_vi": "Đặt sáp tại một cửa vòm giúp giữ thân đập, vòm cầu hoặc tường thành nguyên mối trong lúc thợ sửa nền và thay đá bên dưới.",
+    "use_en": "Wax set at an arch keeps a dam, bridge vault or wall joined while craftsmen repair its foundations and replace the stone below.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-la-kim-loai-lac-mat",
+    "epigraph_vi": "Mặt kia có thể nằm ở cuối chân trời.",
+    "epigraph_en": "The other face may lie at the horizon.",
+    "lore_vi": "Lá bạc được bóc khỏi lưng chiếc gương quay vào tường qua nhiều đời. Nét mực dọc đường đỏ vẫn bước sang mặt kia dù chẳng ai lật lá; quá nhiều khuôn mặt chờ được nhìn đã làm hai phía của kim loại học cách tìm nhau qua khoảng cách.",
+    "lore_en": "The silver foil was peeled from a mirror turned to a wall for generations. Ink beside its red line still stepped to the reverse without the foil being turned; so many faces waiting to be seen had taught the metal's two sides to find one another across distance.",
+    "traits": [
+      {
+        "name_vi": "Hai mặt tìm nhau",
+        "name_en": "Seeking faces",
+        "description_vi": "Hai phần lá tách dọc đường đỏ vẫn chuyển dấu và hình ảnh giữa các mặt tương ứng.",
+        "description_en": "Two foil pieces divided along the red line still transfer marks and images between corresponding faces."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gương thư",
+        "name_en": "Correspondence mirror",
+        "description_vi": "Dựng hai phần lá ở hai nơi tạo mặt gương trao bản đồ, chữ viết và hình người tới nhau ngay khi một bên được soi sáng.",
+        "description_en": "Two pieces raised in separate places exchange maps, writing and a person's image as soon as one face is lit."
+      }
+    ],
+    "limits_vi": "Chỉ hai phần của chính lá gốc đáp nhau; gấp gãy đường đỏ khiến vùng tương ứng tối vĩnh viễn.",
+    "limits_en": "Only the original foil's two pieces answer each other; a crease breaking the red line darkens the corresponding area permanently.",
+    "use_vi": "Dựng hai phần lá ở hai nơi tạo mặt gương trao bản đồ, chữ viết và hình người tới nhau ngay khi một bên được soi sáng.",
+    "use_en": "Two pieces raised in separate places exchange maps, writing and a person's image as soon as one face is lit.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-bot-con-mot-hat",
+    "epigraph_vi": "Hạt cuối còn chỉ đường cho lửa.",
+    "epigraph_en": "The last grain still shows fire the way.",
+    "lore_vi": "Trong bát bụi xám còn một hạt vàng luôn dịch về phía đèn dù kính ngăn giữa. Các hạt khác từng được nghiền thành vòng sáng dẫn đoàn người khỏi một mùa đêm dài; hạt cuối giữ nguyên hướng ấy, như phần còn lại của một vì sao đã học đường đi trên đất.",
+    "lore_en": "One golden grain remained in grey dust, always moving towards a lamp despite the glass between them. Other grains had been ground into rings of light that led people through a long night; the last kept that direction, like the remnant of a star that had learned earthly roads.",
+    "traits": [
+      {
+        "name_vi": "Tâm gọi lửa",
+        "name_en": "Fire-calling heart",
+        "description_vi": "Hạt vàng nhận một ngọn lửa làm mốc rồi giữ hướng tới nó qua bóng tối và màn che.",
+        "description_en": "The golden grain takes a flame as its mark and keeps its direction through darkness and concealment."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đường sao đất",
+        "name_en": "Earth-star road",
+        "description_vi": "Đặt hạt trên đài cao gọi ánh của ngọn lửa đã nhận thành một đường sáng tới đài, dẫn tàu hoặc đoàn xe qua đêm dày.",
+        "description_en": "On a high stand, the grain calls light from its marked flame into a shining path to the stand, guiding ships or wagons through deep night."
+      }
+    ],
+    "limits_vi": "Ngọn lửa mốc phải còn cháy; nghiền hạt cuối sẽ cho một đường sáng rực rồi kết thúc cả Vestigium.",
+    "limits_en": "The marked flame must keep burning; grinding the last grain creates one brilliant road and ends the Vestigium.",
+    "use_vi": "Đặt hạt trên đài cao gọi ánh của ngọn lửa đã nhận thành một đường sáng tới đài, dẫn tàu hoặc đoàn xe qua đêm dày.",
+    "use_en": "On a high stand, the grain calls light from its marked flame into a shining path to the stand, guiding ships or wagons through deep night.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  },
+  {
+    "id": "material-dich-ranh-binh-minh",
+    "epigraph_vi": "Bình minh có một đường chỉ để mở.",
+    "epigraph_en": "Dawn has a seam to open.",
+    "lore_vi": "Dịch bạc được hứng ở rìa một khối đá vừa lộ sau tuyết, vào buổi sáng đầu tiên bóng núi rời khỏi nó sau nhiều đời. Ánh trời tách một đường giữa đêm và ngày, giữ cả bóng núi trong đáy ống; giọt ấy mang khoảnh khắc một vùng đất được trả lại cho bình minh.",
+    "lore_en": "The silver fluid was collected beside a newly exposed rock on the first morning in generations when the mountain's shadow left it. Sunlight parted night from day along one seam, keeping the mountain's darkness at the tube's base; the drop carried the instant a land was returned to dawn.",
+    "traits": [
+      {
+        "name_vi": "Ranh đổi ngày",
+        "name_en": "Day-turning boundary",
+        "description_vi": "Giọt trong ống gốc giữ một đường ranh, bên nhận sáng bước sang bình minh khi bên kia còn đêm.",
+        "description_en": "The drop in its original tube holds a boundary whose lit side enters dawn while the other remains in night."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở ngày sớm",
+        "name_en": "Opening early day",
+        "description_vi": "Đưa ống lên đỉnh cao đón tia trời đầu tiên mở một vùng sáng bình minh qua thung lũng còn trong bóng núi, cho ruộng và thành thức dậy.",
+        "description_en": "Raised to a summit to receive first sunlight, the tube opens dawn across a valley still in mountain shadow, waking fields and towns."
+      }
+    ],
+    "limits_vi": "Cần tia đầu ngày thật và đường nhìn xuống vùng được mở; che ống khép ranh cho tới bình minh sau.",
+    "limits_en": "It requires true first daylight and a sightline to the opened land; covering the tube closes the boundary until the following dawn.",
+    "use_vi": "Đưa ống lên đỉnh cao đón tia trời đầu tiên mở một vùng sáng bình minh qua thung lũng còn trong bóng núi, cho ruộng và thành thức dậy.",
+    "use_en": "Raised to a summit to receive first sunlight, the tube opens dawn across a valley still in mountain shadow, waking fields and towns.",
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5"
+  }
+]

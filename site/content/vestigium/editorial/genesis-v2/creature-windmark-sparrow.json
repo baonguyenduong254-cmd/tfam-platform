@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-windmark-sparrow",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Chim sẻ lót tổ bằng sợi lau tẩm dịch khoáng trong tháp khí cụ. Con non lớn lên có đuôi chẻ trắng; trước luồng lạnh, hai nhánh đuôi lệch nhau rồi thân mới quay, như thể cái lạnh đã kéo một sợi dây riêng trên lông. Lông rụng đem treo chỉ lắc theo gió thường, còn các đời chim nuôi từ trứng vẫn giữ dấu ấy.\n\nNgười sửa khí cụ thả một đôi trong phòng kho, mở cửa mỗi ngày để chúng đủ khoảng trời mà chọn trở lại. Ông học cách đọc đuôi lúc chim tự đứng yên, thay vì bắt chúng giữa tay rồi ngạc nhiên khi mọi hướng cùng trở nên hỗn loạn.",
+    "lore_en": "Sparrows lined a nest with mineral-treated rush inside an instrument tower. Their young grew white forked tails; before cold airflow, the two tips diverged and only then did the body turn, as though cold pulled a separate feather thread. Shed feathers merely followed ordinary drafts, while later egg-raised generations retained the sign.\n\nAn instrument repairer kept a free pair in his storeroom and opened the door daily so they had enough sky to choose returning. He learnt to read tails while birds perched voluntarily rather than catching them and wondering why every direction became confused.",
+    "use_vi": "Nhận hướng và mép một luồng lạnh gần trong phòng bằng tư thế đuôi chim sống.",
+    "use_en": "Read the direction and edge of nearby cold airflow through a living bird’s tail posture.",
+    "limits_vi": "Tiếng động lớn, bị bắt giữ và sức khỏe kém làm nhiễu. Chỉ luồng gần nơi chim đứng; phòng vẫn cần kiểm thông khí riêng.",
+    "limits_en": "Loud noise, restraint and poor health interfere. It reads only airflow near its perch; the room needs independent ventilation checks.",
+    "skills": [
+      {
+        "name_vi": "Đuôi chỉ lạnh",
+        "name_en": "The Cold-Pointing Tail",
+        "description_vi": "Để chim tự đậu trên giá giữa phòng rồi nhìn nhánh đuôi trắng xoay về mép luồng lạnh, tìm góc cần kiểm cửa.",
+        "description_en": "Let the bird perch upon a room stand and read white tail tips turning towards a cold current’s edge to select a doorway corner for inspection."
+      },
+      {
+        "name_vi": "Đi dọc mép gió",
+        "name_en": "Follow the Draft’s Edge",
+        "description_vi": "Dời giá từng đoạn khi chim chịu theo để so vị trí đuôi thôi tách, khoanh bề rộng luồng ở gần; cần đợi chim yên sau mỗi lần dời.",
+        "description_en": "Move the perch in stages if the bird follows and compare where its tail stops dividing to outline nearby flow width; wait for calm after each move."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đuôi đi trước thân",
+        "name_en": "Tail Before Body",
+        "description_vi": "Hai nhánh trắng phản ứng trước động tác quay, cho người quen phân biệt dấu lạnh với việc chim tự nhìn quanh.",
+        "description_en": "The white tips respond before the body turns, letting experienced keepers distinguish cold response from ordinary looking about."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-soi-go-suong",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Sỏi Gõ Sương được nhặt từ lòng một chiếc chuông gãy trong trạm khai đá. Đêm giá đầu tiên, thợ gác đổ sỏi thường vào chuông để tiếng va đánh thức người trực lò. Tới sáng, chuông đã nứt vì băng, nhưng những viên sỏi vẫn tự gõ trong túi áo ngay trước lúc mép nước đóng trắng.\n\nCác vụn đồng đã chui vào lòng đá như những cái lưỡi nhỏ. Giữ ấm sỏi khiến chúng im; đem một viên mới tới vùng băng đang thành, tiếng lách cách lại đi trước lớp trắng. Người trong mỏ chia chúng cho các ca trực. Thứ được truyền tay là phần việc báo rét đã sống sót lâu hơn quả chuông từng làm việc ấy.",
+    "lore_en": "Frost-Knocking Pebbles came from a broken bell in a quarry post. On the first freezing night, watchmen poured ordinary gravel into it so the impacts would wake the furnace-watch. By morning ice had split the bell, yet the pebbles tapped within coat-pockets just before water whitened.\n\nCopper fragments had entered the stone like little tongues. Warming silenced them; taking one towards forming ice restored their advance warning. Miners divided them between watches. What passed from hand to hand was a frost-warning duty surviving the bell that had performed it.",
+    "use_vi": "Báo lớp nước quanh viên sỏi đang tiến tới đóng băng bằng tiếng gõ. Phải để sỏi chạm không khí nơi cần theo dõi.",
+    "use_en": "Warn by tapping when surrounding water approaches freezing. Expose the pebble to the air being watched.",
+    "limits_vi": "Túi kín và lớp vải dày khiến sỏi nhận rét chậm. Tiếng gõ chỉ nói vùng quanh đá đang đổi, không kể toàn bộ thời tiết hay bảo đảm người cầm còn đủ ấm.",
+    "limits_en": "Sealed pockets and thick cloth delay its reception. Tapping describes its surroundings, not the whole weather or its holder’s warmth.",
+    "skills": [
+      {
+        "name_vi": "Gõ trước lớp trắng",
+        "name_en": "Knock Before the White",
+        "description_vi": "Để sỏi ở nơi khí và mặt ẩm cùng chạm; nó gõ khi băng bắt đầu tìm được chỗ kết. Che kín hoặc nung nóng làm lời báo mất đường tới nơi cần canh.",
+        "description_en": "Expose it where air meets damp. It taps as ice begins to form; enclosure or heating prevents it watching the intended place."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lưỡi chuông trong sỏi",
+        "name_en": "A Bell-Tongue in Stone",
+        "description_vi": "Đập vỡ để lấy đồng làm tiếng tắt hẳn; ghép vụn trở lại chỉ thành một viên sỏi đã bị đập.",
+        "description_en": "Breaking it for copper silences it; reassembly produces only broken gravel."
+      }
+    ]
+  }
+]

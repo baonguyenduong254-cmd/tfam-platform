@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-mistreading-owl",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Trứng cú nằm trong ổ lót vải bọc kính khoáng bị vỡ. Con nở ra mang mắt xanh nhạt, nhìn về những thân người đang khuất dưới sương trước khi mẹ nó ngoái đầu. Các vòng sáng trong mắt di chuyển theo hình ấm, một thứ thị giác còn hoạt động khi cảnh đã thành màu trắng với người đứng cạnh.\n\nNgười nuôi dạy cú gõ mỏ khi thấy hình người, thả nó từ giá trong sân mù. Một đêm tiếng mỏ dẫn người cha tới đúng cửa con mình đang đợi. Từ đó giá đậu được đặt cạnh lối cứu, với một tấm chắn hơi nóng cho đôi mắt có thể nhìn qua sương nhưng vẫn biết đau.",
+    "lore_en": "The owl’s egg lay in cloth wrapping broken mineral lenses. Its hatchling bore pale green eyes and looked towards bodies hidden by mist before its mother turned. Luminous eye rings followed warm shapes, a vision still working when the scene had become white to nearby humans.\n\nIts keeper trained beak taps for human shapes and flew it from a yard perch through fog. One night the taps brought a father to the very door where his child waited. Its rescue perch thereafter gained a heat shield for eyes that could see through mist yet still suffered pain.",
+    "use_vi": "Nhận hình ấm qua sương mỏng, chỉ hướng và theo chuyển động gần cho người tìm kiếm.",
+    "use_en": "Detect warm shapes through thin mist, indicate direction and follow nearby movement during searches.",
+    "limits_vi": "Vách kín chặn tầm; hơi nóng làm mắt tổn thương. Hình ấm có thể là thú hoặc máy, nên cần huấn luyện và xác nhận tại chỗ.",
+    "limits_en": "Solid walls block sight and hot vapour injures its eyes. Warm shapes may be animals or machinery, requiring training and local confirmation.",
+    "skills": [
+      {
+        "name_vi": "Nhìn qua màn lạnh",
+        "name_en": "See Through the Cold Veil",
+        "description_vi": "Cho cú đậu yên nhìn sân sương mỏng để nó nhận hình ấm đang gần và quay đầu theo hướng đó.",
+        "description_en": "Let the owl perch calmly overlooking thin mist so it accepts nearby warm shapes and turns towards them."
+      },
+      {
+        "name_vi": "Mỏ báo người",
+        "name_en": "The Beak’s Human Signal",
+        "description_vi": "Dùng tín hiệu đã dạy để nó gõ mỏ khi hình có dáng người hiện trong tầm, gọi người tìm tới kiểm thay vì tự phóng theo.",
+        "description_en": "Use a trained signal for beak taps at a human-like shape within sight, calling searchers to verify rather than chase blindly."
+      },
+      {
+        "name_vi": "Theo hình đang đi",
+        "name_en": "Follow the Moving Shape",
+        "description_vi": "Dời giá theo lệnh quen để cú giữ mắt trên một hình ấm di chuyển, giúp người dưới đất bám hướng; vật chen trước làm nó mất dấu.",
+        "description_en": "Move its perch under familiar commands so it keeps sight of one moving warm form; an intervening object can break the track."
+      },
+      {
+        "name_vi": "Hai lần ngoái",
+        "name_en": "Two Turning Looks",
+        "description_vi": "Cho cú nhìn cùng khoảng sân từ hai giá cách nhau để so góc đầu, khoanh nơi hình đang đứng; cần làm nhanh trước khi đối tượng đi tiếp.",
+        "description_en": "Observe the same yard from two separated perches and compare head angles to narrow the position; finish before the subject moves on."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mắt giữ sắc ấm",
+        "name_en": "Eyes Retain Warmth’s Colour",
+        "description_vi": "Độ lạnh đều của sương giúp hình ấm rõ hơn. Chuyển ngay từ nơi nóng ra sương cần thời gian cho mắt nghỉ.",
+        "description_en": "Evenly cool mist sharpens warm shapes. Moving straight from heat into fog requires eye-rest time."
+      }
+    ]
+  }
+]

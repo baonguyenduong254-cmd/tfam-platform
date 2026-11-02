@@ -1,0 +1,218 @@
+[
+  {
+    "id": "mineral-ngoc-cua-khong-mo",
+    "lore_vi": "Trong sổ của một phường thợ khóa đã mất tên thành phố, người thợ cuối cùng nhận làm cánh cửa cho một căn phòng chưa từng được xây. Khách đem tới một viên lục ngọc vuông, trả công bằng chiếc chìa đã han và dặn rằng phía bên kia có người đợi. Thợ khoét một khe xuyên tâm đá rồi lắp vào ổ. Tới lần xoay chìa đầu, cả xưởng nghe tiếng mở cửa phát ra ở phía trong bức tường không có mặt sau.\n\nNgày sau, đường phố quanh xưởng vẫn còn, nhưng các bản địa bạ thôi ghi căn nhà ấy. Người học việc trở về tìm được ổ khóa nằm trong một hốc đá nguyên; viên ngọc ở đó, khe nhỏ vừa một sợi tóc, còn chiếc chìa đã mọc rễ vào bên kia mà mắt nhìn không tới. Ông luồn tóc bạc của mình qua thử. Đầu tóc trở ra ướt nước mặn, dài hơn đoạn đã đưa vào, rồi cháy thành tro khi ông gọi tên thầy.\n\nNhững người kế nghiệp không chế được viên thứ hai. Họ chỉ tìm ra các nghi thức khiến khe ngọc chịu nhận một bề mặt làm ngưỡng, một dấu làm chìa hoặc một điều đã khép làm cánh cửa. Các phương pháp ấy liên quan đủ để sử dụng, nhưng chưa đủ để trả lời câu hỏi ngọc nối hai nơi, gấp khoảng giữa, hay đang mời một thứ có hình cánh cửa tới thay phần thế giới bị lấy đi.\n\nNgười giữ gọi nó là Ngọc Cửa Không Mở vì ở bất kỳ phép gọi nào, chính khe ngọc vẫn hẹp nguyên như cũ. Chỉ những nơi khác chịu mở. Trong xưởng cũ đã mất khỏi địa bạ, có lẽ người thợ đầu tiên vẫn đang chờ vị khách tới nhận một công việc mà mặt bên kia còn chưa chịu kết thúc.",
+    "lore_en": "In the book of a locksmiths’ guild whose city-name was lost, its final master accepted a commission for a room never built. The customer brought a square green gem, paid with a rusted key and said somebody waited beyond. The master cut a slit through its heart and fitted it into a lock. At the first turning, the workshop heard a door open within a wall that had no reverse.\n\nNext day the streets survived but their property-rolls ceased recording the house. The returning apprentice found its lock within unbroken stone, the gem’s opening hair-thin, its key rooted somewhere beyond sight. He threaded his own silver hair through. Its emerging end was salt-wet and longer than the length inserted, then burnt to ash when he named his master.\n\nSuccessors could make no second gem. They learnt rites by which its slit accepted a surface as threshold, a mark as key or something concluded as a closed door. Related enough for use, these practices did not establish whether it joined places, folded their interval or invited a door-shaped thing to replace the withdrawn part of the world.\n\nThey called it the Door That Would Not Open because its own slit never widened in any rite. Only other places opened. Within the workshop lost from the rolls, perhaps the first master still awaits a customer collecting work whose far side has not yet consented to end.",
+    "use_vi": "Nhận một ngưỡng hoặc dấu của ngưỡng để mở, khép và quy định việc qua giữa hai phía được gọi rõ.",
+    "use_en": "Receives a threshold or its trace to open, close and govern passage between two clearly named sides.",
+    "limits_vi": "Mỗi lượt cần xác định rõ hai phía và vật được phép qua. Khái niệm mơ hồ khiến ngọc tự chọn một nghĩa có thể bất lợi cho người gọi. Lối chưa được khép tiếp tục đòi một người giữ; dùng tên mình làm chìa nhiều lần khiến các cửa thường dần thôi nhận người ấy. Khe hẹp trong viên ngọc luôn giữ nguyên, bất kể quy mô các lối được gọi ở nơi khác.",
+    "limits_en": "Each rite requires distinct sides and a permitted traveller or burden. Ambiguity lets the gem choose a meaning hostile to its caller. An unclosed passage continues demanding a keeper. Repeatedly using one’s name as key makes ordinary doors gradually cease recognising it. The gem’s own slit remains narrow regardless of openings invoked elsewhere.",
+    "skills": [
+      {
+        "name_vi": "Nhận ngưỡng và chìa",
+        "name_en": "Receive Threshold and Key",
+        "description_vi": "Cho một mặt hoặc dấu đã có được nhận làm ngưỡng, cùng điều xác định quyền qua.",
+        "description_en": "Receives an existing surface or trace as a threshold, together with what establishes passage."
+      },
+      {
+        "name_vi": "Mở phía khác",
+        "name_en": "Open the Other Side",
+        "description_vi": "Mở lối ở nơi được gọi trong khi khe trong ngọc giữ nguyên độ hẹp.",
+        "description_en": "Opens a passage at the named place while the gem’s own slit remains narrow."
+      },
+      {
+        "name_vi": "Định điều được qua",
+        "name_en": "Set What May Pass",
+        "description_vi": "Nhận người, vật hoặc lời đủ rõ để lối cho đúng phần ấy đi qua.",
+        "description_en": "Receives a sufficiently defined person, burden or utterance for the passage to admit."
+      },
+      {
+        "name_vi": "Khép và giữ kín",
+        "name_en": "Close and Keep Closed",
+        "description_vi": "Khép đường đã gọi hoặc giữ một phía khỏi việc qua chưa được nhận.",
+        "description_en": "Closes an invoked route or keeps a side shut to unreceived passage."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngưỡng ở nơi khác",
+        "name_en": "The Threshold Elsewhere",
+        "description_vi": "Các tên ghi trên ổ có thể mất khỏi bản chép sau khi một lối được khép. Người giữ lưu dấu tay và lời chứng riêng để biết mình đã mở cho ai; ghi chép ấy cũng chỉ là cách phòng ngừa đã thử.",
+        "description_en": "Names upon a lock may vanish from copies after closure. Keepers separately retain handprints and testimony to remember whom they admitted, themselves only tried precautions."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Chuyển giao có khóa",
+        "name_en": "Keyed Transfer",
+        "description_vi": "Dùng ngưỡng cùng dấu đã nhận để chuyển một vật tới phía bên kia, chuẩn bị người giữ cho tới lúc khép.",
+        "description_en": "Uses a received threshold and sign to transfer an object, with a keeper prepared until closure."
+      },
+      {
+        "name_vi": "Cửa thoát được gọi",
+        "name_en": "A Named Escape",
+        "description_vi": "Mở đường khỏi vùng bị chặn khi có dấu đủ xác định hai phía và nơi người đi có thể tới.",
+        "description_en": "Opens a route from a blocked region when signs sufficiently identify both sides and an arrival place."
+      },
+      {
+        "name_vi": "Ngưỡng trong nghi thức",
+        "name_en": "A Ritual Threshold",
+        "description_vi": "Dùng sự khép hoặc mở như một phần giao nhận, giữ lời gọi cụ thể để ngọc khỏi tự chọn nghĩa.",
+        "description_en": "Uses closure or opening within a handover, keeping invocation precise rather than leaving the gem to select its meaning."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-no-mot-nhip",
+    "lore_vi": "Viên đá đỏ nằm dưới tháp chuông đã sập, ngay bên một giọt nước vỡ thành hai nửa mà chưa nửa nào rơi tiếp. Người đào đưa xẻng qua. Giọt nước khép lại, rơi xuống, rồi tiếng tháp đổ vang lên từ lòng đất dù phế tích đã phủ rêu qua ba đời giữ làng. Trên mặt đá xuất hiện một vết đen mảnh như kim.\n\nQuả chuông cuối cùng của tháp đã được đúc cùng một mạch quặng đỏ. Lúc tường nghiêng, người kéo chuông cố hoàn tất tiếng báo trong khi bánh truyền giờ bị nghiền giữa hai tầng đá. Tiếng gõ đã xảy ra; lần ngân đáng lẽ theo sau bị ép vào quặng cùng phần thế giới đang chờ nó. Khoáng vật kết lại quanh một quan hệ nhân quả chưa được thanh toán. Từ đó, người cầm có thể đặt một việc giữa lúc đã bắt đầu và lúc hậu quả được phép đến.\n\nNhững người khảo nghiệm gọi khoảng ấy là một nhịp. Có lần nó đủ cho bàn tay rút khỏi lưỡi cưa; có lần một đoàn người đi qua chân thành đang sập trong khi người giữ đá chỉ nghe tim đập đúng một tiếng. Mỗi khoản mượn được ghi bằng một vết kim đen. Những vết sâu nhất chĩa vào tâm như những người đòi nợ đứng quanh một cánh cửa.\n\nBản kiểm kê cũ chừa một dòng cho tiếng chuông cuối. Người canh đời sau vẫn để dòng ấy trống. Khi ngủ gần đá, họ thỉnh thoảng mơ thấy một tòa thành nguyên vẹn giữa trời đỏ, và dưới mọi bàn chân là cùng một khoảnh khắc vừa sụp xuống nhưng chưa được phép chạm đất.",
+    "lore_en": "The red stone lay beneath a fallen bell tower beside a drop split in two, neither half continuing its fall. A digger passed his shovel through it. The drop closed and fell, then the tower’s collapse sounded from underground although moss had covered the ruin through three generations of village keepers. A needle-thin black mark appeared upon the stone.\n\nThe tower’s final bell had been cast with red ore. As its walls leaned, the bell ringer tried to finish the warning while the timekeeping wheel was crushed between floors. The strike occurred; the peal that should have followed was pressed into the ore together with the portion of the world awaiting it. Mineral set around an unsettled causal relationship. Its holder could thereafter place an event between its beginning and the permitted arrival of its consequence.\n\nExaminers call that interval one beat. Once it gave a hand time to leave a saw; once a company passed beneath a falling wall while the keeper heard only one heartbeat. Each borrowing is recorded as a black needle scar. The deepest point towards the centre like creditors surrounding a door.\n\nAn old inventory leaves one line for the final bell. Later keepers still leave it empty. Sleeping beside the stone, they sometimes dream of a whole citadel beneath a red sky, with the same instant collapsed beneath every foot yet not permitted to touch the ground.",
+    "use_vi": "Tách lúc một việc bắt đầu khỏi lúc hậu quả tới, rồi can thiệp hoặc chọn nơi nhận trong khoảng đang được giữ.",
+    "use_en": "Separates an event’s beginning from its consequence, allowing intervention or selection of a receiver during the retained interval.",
+    "limits_vi": "Phải nhận rõ việc đã bắt đầu, hậu quả đang giữ và nơi trả nó. Mỗi viên chỉ gánh một khoản nợ chính; các kỹ năng là những cách xử lý khoản ấy. Đá giữ quan hệ chứ xóa hậu quả cần một nguyên nhân mới đủ sức thay đổi nó. Người giữ nghe nhịp tim để canh, nhưng độ dài ngoài thế giới thay đổi khó đoán. Vết đen ăn đến tâm có thể gọi toàn bộ những khoản chưa khép cùng tiếng chuông đã sinh ra đá.",
+    "limits_en": "The keeper must identify what has begun, the consequence held and where it will be repaid. Each stone bears one principal debt; its skills are ways of handling it. The relationship is retained, while removing a consequence requires a new cause sufficient to change it. Heartbeats guide the keeper, yet outside duration varies unpredictably. A black scar reaching the centre may summon every unclosed debt together with the bell that created the stone.",
+    "skills": [
+      {
+        "name_vi": "Nhận khoản nợ",
+        "name_en": "Receive the Debt",
+        "description_vi": "Đánh dấu một việc đã bắt đầu cùng hậu quả còn chờ và nơi có thể nhận nó.",
+        "description_en": "Marks an event already begun, its pending consequence and a possible receiver."
+      },
+      {
+        "name_vi": "Giữ khoảng đợi",
+        "name_en": "Hold the Waiting Interval",
+        "description_vi": "Giữ quan hệ nhân quả trước lúc hậu quả tới, cho người trong khoảng tiếp tục tác động.",
+        "description_en": "Holds a causal relationship before arrival of its consequence, allowing action within the interval."
+      },
+      {
+        "name_vi": "Dời nơi phải nhận",
+        "name_en": "Move the Receiver",
+        "description_vi": "Chuyển nơi hoặc cách hậu quả được trả khi đã tạo quan hệ mới đủ để nhận.",
+        "description_en": "Moves where or how the consequence arrives once a sufficient new receiving relationship exists."
+      },
+      {
+        "name_vi": "Khép khoản đã mượn",
+        "name_en": "Close the Borrowed Debt",
+        "description_vi": "Cho hậu quả tới nơi đã chuẩn bị hoặc được thay đổi bởi một nguyên nhân mới thật sự.",
+        "description_en": "Allows the consequence to reach a prepared place or be changed through an actual new cause."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hậu quả còn biết đường",
+        "name_en": "The Consequence Knows Its Way",
+        "description_vi": "Vật bị dời trong khoảng nợ vẫn còn quan hệ với cú đến của nó. Trả sai nơi khiến hậu quả tìm đường gần nhất về vật đã đánh dấu, đôi khi qua chính người giữ.",
+        "description_en": "An object moved within a debt still belongs to its approaching consequence. Repayment at the wrong place makes it seek the nearest way back to the marked object, sometimes through the keeper."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cứu dưới phần đang sập",
+        "name_en": "Rescue beneath a Collapse",
+        "description_vi": "Giữ một lần đổ trước lúc chạm để đưa người ra và chuẩn bị nơi nhận, rồi khép khoản đã giữ.",
+        "description_en": "Holds a collapse before contact to extract people and prepare a receiver before closure."
+      },
+      {
+        "name_vi": "Can thiệp vào cơ cấu",
+        "name_en": "Intervene in Machinery",
+        "description_vi": "Tách phần khởi phát khỏi cú chạm để rút người, đổi chốt hoặc thêm điểm đỡ trong khoảng nợ.",
+        "description_en": "Separates initiation from contact to withdraw a person, reset a catch or add support within the interval."
+      },
+      {
+        "name_vi": "Đổi thứ tự tới",
+        "name_en": "Reorder Arrivals",
+        "description_vi": "Sắp phần nhận trong cùng một khoản sao cho việc đã chuẩn bị kịp diễn ra trước hậu quả đang chờ.",
+        "description_en": "Orders receipt within one debt so prepared work occurs before the waiting consequence."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-manh-da-chua-roi",
+    "lore_vi": "Mảnh đá vốn là một con nêm đen của người dựng tháp, được lấy từ khối đá trời cắm sâu trong tầng đất trắng. Khi lắp nó vào đỉnh tháp, thợ phát hiện mọi dây dọi quanh đó cùng nghiêng về chiếc hộp đựng, kể cả sợi treo bên dưới hộp. Vị chủ tháp cho đặt đá lên bàn cân. Một đĩa chúc xuống, rồi bàn cân, chiếc bàn và sàn phòng đồng loạt hiện bóng ở phía trên trần.\n\nĐêm ấy tháp sập. Những người ở ngoài thấy đá rơi theo mọi mảnh tường; người sống sót phía trong lại kể mình đi xuống chân cầu thang giữa những viên gạch đang đứng yên. Tới khi đào thông căn phòng, tháp đã thành đất vụn, còn chiếc hộp nằm nguyên dưới đáy hố. Mảnh nêm lơ lửng cách đáy đúng bề dày một tờ giấy, giữ một khoảng đen mảnh tới mức nhìn nghiêng có thể lầm là không có gì.\n\nMột thợ thử gọt đá để lấy mẫu. Vụn tách ra rơi xuống ngay; khoảng hở của phần còn lại thu hẹp vĩnh viễn, và tiếng đổ vang lên từ chính bàn tay người thợ ba ngày sau. Trong hố tìm được những mảnh khắc từng là hình bầu trời trên đỉnh tháp. Chúng ghép lại thành một vòng thiếu đúng hình con nêm. Các học giả tranh nhau rằng vật được đào từ đất là đá trời, một phần của hướng xuống, hay chiếc chốt từng giữ một bầu trời khác khỏi chạm mặt đất.\n\nNgười kế nghiệp thôi tìm lời giải duy nhất. Họ ghi lại những cách mượn khoảng giữa vật đang rơi và nơi nó phải chạm, rồi nhận ra khoảng ấy có thể nhận cả sức nặng, tiếng động, cuộc hành trình và một kết thúc còn chưa được xác nhận. Ở trang cuối, họ vẫn vẽ chiếc hộp trước khi vẽ ngọn núi hay thành phố có thể được giữ bằng nó.\n\nMảnh Đá Chưa Rơi vẫn treo ở đó. Cái giá đầu tiên của mọi lần mượn là một nơi phải chịu nhận phần được hoãn; cái giá cuối cùng chưa có người nào ở lại đủ lâu để ghi. Bên dưới vật nhỏ hơn nắm tay, một cú rơi vẫn tiếp tục đòi thế giới dành chỗ cho lúc nó thực sự kết thúc.",
+    "lore_en": "The fragment began as a tower-builder’s black wedge, cut from sky-stone embedded deep in white earth. Once fitted at the tower’s summit, every nearby plumb-line leaned towards its carrying-box, including a cord hanging beneath it. The tower’s lord ordered it weighed. One pan dipped; balance, table and floor simultaneously cast shadows upon the ceiling.\n\nThat night the tower fell. Outside witnesses saw the wedge descend with the masonry; survivors within described walking downstairs among stationary bricks. Excavators reached a chamber beneath the rubble and found the box intact. The wedge hung one sheet of paper above its bottom, keeping a dark interval so thin an oblique glance mistook it for nothing.\n\nA craftsman chipped a sample. The chip fell immediately, the remaining gap narrowed permanently, and three days later the crash sounded from his own hand. Excavated carvings from the tower’s celestial summit assembled into a ring missing precisely the wedge’s shape. Scholars disputed whether they had unearthed sky-stone, a portion of downwards, or the pin once holding another heaven away from earth.\n\nTheir successors abandoned a single explanation. They recorded ways to borrow the interval between a falling thing and its appointed contact. That interval could receive weight, sound, a journey and an ending not yet acknowledged. On the final page they still drew the box before any mountain or city it might sustain.\n\nThe Unfallen Fragment remains suspended. Every borrowing first requires a place willing to receive what has been deferred; nobody has remained long enough to record its final price. Beneath something smaller than a fist, one fall continues demanding that the world reserve room for its eventual completion.",
+    "use_vi": "Mượn khoảng chưa chạm để giữ, chuyển hướng hoặc hoàn tất một cuộc rơi cùng những điều được nó nhận là sức nặng. Chiếc hộp gốc là nơi neo của mọi lần gọi.",
+    "use_en": "Borrows the interval before contact to hold, redirect or complete a fall and whatever it receives as burden. The original box anchors every invocation.",
+    "limits_vi": "Đáy hộp phải nguyên. Mỗi tổn thương trên mảnh đá thu hẹp khoảng hở vĩnh viễn; các cách mượn không tự chữa mất mát đó. Việc đã nhận phải có người giữ hoặc nơi chịu trả, và một dấu mơ hồ có thể bị hiểu theo nghĩa nguy hiểm hơn dự tính. Kết thúc đã thật hoàn tất chỉ còn để đọc dấu, không được ghi như một lần chắc chắn có thể đảo lại. Những lời về giá cuối cùng vẫn là phần hồ sơ bỏ trống.",
+    "limits_en": "The box-bottom must remain whole. Every injury permanently narrows the gap; borrowing cannot heal that loss. Accepted burdens need a keeper or receiving place, and ambiguity may invite a more dangerous meaning than intended. A genuinely completed ending can leave readable traces, not a promised reversal. The ultimate price remains an empty place in the record.",
+    "skills": [
+      {
+        "name_vi": "Nhận cuộc rơi",
+        "name_en": "Receive the Fall",
+        "description_vi": "Gọi một vật, đường tới và nơi phải chạm vào quan hệ cùng chiếc hộp.",
+        "description_en": "Receives an object, its approach and appointed contact into a relationship with the box."
+      },
+      {
+        "name_vi": "Giữ trước khi chạm",
+        "name_en": "Hold before Contact",
+        "description_vi": "Đặt cuộc rơi vào khoảng chưa kết thúc, giữ vật hoặc tiến trình còn treo trước điểm nhận.",
+        "description_en": "Places a fall within the unfinished interval, suspending its object or process before the receiver."
+      },
+      {
+        "name_vi": "Đổi hướng xuống",
+        "name_en": "Change Downwards",
+        "description_vi": "Cho đường rơi đã nhận tìm một mặt đỡ hoặc hướng xuống mới qua dấu của hộp.",
+        "description_en": "Gives a received fall another support or downwards through the box’s sign."
+      },
+      {
+        "name_vi": "Trao phần gánh",
+        "name_en": "Entrust the Burden",
+        "description_vi": "Chuyển phần sức nặng đã nhận sang người hoặc nơi có quan hệ đủ rõ để gánh.",
+        "description_en": "Entrusts received burden to a person or place with a sufficiently clear receiving relationship."
+      },
+      {
+        "name_vi": "Đặt nơi kết thúc",
+        "name_en": "Set the Place of Ending",
+        "description_vi": "Chuẩn bị điểm chạm để hoàn tất điều đã giữ thay vì để nó tìm người giữ làm nơi trả.",
+        "description_en": "Prepares contact to complete what was held rather than allowing it to claim the keeper."
+      },
+      {
+        "name_vi": "Đọc dấu cuộc đã xong",
+        "name_en": "Read a Completed Fall’s Trace",
+        "description_vi": "Nhận dấu một kết thúc đã xảy ra để hiểu đường tới; dấu ấy là điều đã qua và không tự thành lần đảo lại.",
+        "description_en": "Receives the trace of an ending to understand its approach; that past trace does not itself become a reversal."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khoảng cách cuối của một bầu trời",
+        "name_en": "A Heaven’s Last Interval",
+        "description_vi": "Khoảng hở không nhận tờ giấy đưa vào đo: giấy bị ép rách, còn đá vẫn chưa chạm đáy. Bất kỳ vật nào được gọi cùng dấu hộp đều có thể trở thành nơi đòi trả, nên người giữ không khắc tên tùy tiện lên hộp.",
+        "description_en": "Inserted measuring-paper tears under pressure while the stone remains above the bottom. Anything sharing the box’s sign may become a receiver of repayment; keepers never casually inscribe names upon it."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Giữ thành đang đổ",
+        "name_en": "Hold the Falling Citadel",
+        "description_vi": "Cho một phần công trình chờ trước lúc chạm, đưa người ra và đặt nơi cho phần đang treo được hoàn tất.",
+        "description_en": "Makes a portion of a structure wait before contact, extracting people and preparing where suspension may end."
+      },
+      {
+        "name_vi": "Đường giữa những mặt đỡ",
+        "name_en": "A Route between Supports",
+        "description_vi": "Dùng hướng xuống đã đổi để đưa tải qua địa hình mà đường thường không còn đủ.",
+        "description_en": "Uses altered downwards to carry burdens across terrain where ordinary routes are insufficient."
+      },
+      {
+        "name_vi": "Chuyển cú rơi trong giao tranh",
+        "name_en": "Redirect a Fall in Battle",
+        "description_vi": "Đổi nơi nhận của vật đang lao tới khi đã nhận được đường của nó và có điểm trả đủ rõ.",
+        "description_en": "Changes the receiver of an approaching object after receiving its path and identifying a sufficient arrival point."
+      },
+      {
+        "name_vi": "Đọc sức nặng được tự nhận",
+        "name_en": "Read a Freely Claimed Burden",
+        "description_vi": "Đối chiếu lời một người tự nhận gánh với bóng hiện trên hộp, như cách vật hiểu điều họ đang nói.",
+        "description_en": "Compares a freely claimed burden with its shadow upon the box as the object’s reading of those words."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  }
+]

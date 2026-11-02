@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-scriptback-tortoise",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Rùa sống trong sân người phân quặng, ngủ dưới những khay mẫu đem phơi. Khoáng thấm vào lớp mai đang lớn, nổi thành vạch ngà trên nền đen. Một đêm cạnh mạch quặng đỏ làm vạch xếp khác; đêm cạnh mẫu cũ đưa chúng về đúng hoa văn trước, như những chữ chưa ai biết đọc đang tìm lại câu quen.\n\nNgười giữ thử nuôi rùa trong bể sạch, thấy hoa văn vẫn đổi sau giấc ngủ cạnh quặng. Ông bỏ nghề đánh bóng mai khi một đường ngà bị giẻ làm mòn rồi không chịu trở lại. Từ đó mọi bản so đều được vẽ lên giấy, còn chiếc mai sống chỉ được rửa bằng bàn tay nhẹ.",
+    "lore_en": "The tortoise lived in an ore sorter’s yard and slept beneath drying trays. Mineral entered its growing shell and rose as ivory lines upon black. A night beside red ore rearranged them; a night with an earlier sample restored the earlier pattern, like letters in an unread language finding a familiar sentence.\n\nRaised in a clean enclosure, it still changed after sleeping beside ore. Its keeper abandoned shell polishing when a cloth wore away an ivory line that refused to return. All comparisons thereafter were drawn on paper, while the living shell was washed with a gentle hand.",
+    "use_vi": "So quan hệ nguồn mẫu qua hoa văn mai hình thành sau giấc ngủ.",
+    "use_en": "Compare specimen-source relationships through shell patterns formed after sleep.",
+    "limits_vi": "Cần một đêm yên với một mẫu, quặng trộn cho hình chồng. Mai tổn thương mất nét lâu dài; độ tinh khiết và hoạt tính cần thử riêng.",
+    "limits_en": "It needs a quiet night with one specimen; mixed ore superimposes patterns. Shell damage can permanently remove lines; purity and activity need separate tests.",
+    "skills": [
+      {
+        "name_vi": "Ngủ nhận mẫu",
+        "name_en": "Accept a Sample in Sleep",
+        "description_vi": "Đặt một mẫu kín cạnh nơi rùa tự ngủ để vạch mai đổi theo nguồn qua đêm; tránh xê chỗ giữa lượt.",
+        "description_en": "Place one sealed sample beside its chosen sleeping place so shell lines change with the source overnight; avoid moving it mid-turn."
+      },
+      {
+        "name_vi": "Trở hoa văn cũ",
+        "name_en": "Return to the Old Pattern",
+        "description_vi": "Cho mẫu đã ghi trước ở lại một đêm để xem hoa văn có trở về, kiểm sức nhận của rùa trước phép so mới.",
+        "description_en": "Present a recorded reference for one night to test whether its pattern returns before a new comparison."
+      },
+      {
+        "name_vi": "Đường chồng báo lẫn",
+        "name_en": "Overlapping Lines Warn of Mixture",
+        "description_vi": "Nuôi lượt cạnh lô nghi trộn để xem các vạch tách thành lớp chồng so với mẫu gốc, chọn lô cần tách thử; cần loại nhiễu do nhiều mẫu quanh ổ.",
+        "description_en": "Present a suspected mixture and compare layered branching with the original pattern to choose lots for separation tests; exclude other samples near the nest."
+      },
+      {
+        "name_vi": "Hình mai đối nguồn",
+        "name_en": "Shell Figures Compare Sources",
+        "description_vi": "Vẽ hình sau từng mẫu rồi đặt giấy cạnh nhau để các điểm tương ứng trên mai sáng nhẹ khi chạm lại đúng mẫu, hỗ trợ ghép hồ sơ; giấy vẽ sai cần kiểm bằng lượt ngủ mới.",
+        "description_en": "Draw each sample pattern and compare sheets; matching shell points glow faintly when touched again by the corresponding sample, aiding record pairing; inaccurate drawings need a new sleep trial."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mai viết sau giấc ngủ",
+        "name_en": "A Shell Writes After Sleep",
+        "description_vi": "Các đường đi theo phần mai sống còn nguyên. Người giữ phải dùng bản hình của cùng con rùa để so.",
+        "description_en": "Lines follow intact living shell. Comparisons require records from the same tortoise."
+      }
+    ]
+  }
+]

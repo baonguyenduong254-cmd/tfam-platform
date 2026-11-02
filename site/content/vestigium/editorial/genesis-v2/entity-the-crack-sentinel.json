@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-crack-sentinel",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Chiếc bình được tráng men từ tro khoáng, nung hỏng thành một vết nứt dọc. Người thợ để nó làm mẫu thử nhiệt. Sau nhiều lượt, trong khe men xuất hiện bóng giáp mỏng, đi dọc đường cũ mỗi lần lò nóng và đứng chắn trước đoạn vết đang mở thêm.\n\nTiếng chân nhỏ khiến người thợ dừng củi đúng lúc giữ được bình. Người gác sống cùng vết rạn, như một lời cảnh báo lớn lên trong chính sai hỏng. Đưa bình ra bàn, người ta vẫn thấy nó đếm bước tới mép khe, quay lại khi bóng một ngón tay định chạm vào men nóng.",
+    "lore_en": "A jar glazed with mineral ash developed a long firing crack. Its potter kept it as a heat-test specimen. After many firings, a thin-armoured figure appeared within the glaze, walking its old road as the kiln heated and barring a newly widening section.\n\nIts little footsteps made the potter stop feeding fuel in time to preserve the jar. The sentinel lives with the fracture, a warning grown inside the fault itself. Upon the bench it still paces to the cleft’s edge and turns when a finger’s shadow approaches hot glaze.",
+    "use_vi": "Theo vết rạn nhiệt trên chính bình trú và giúp khoanh phần đang đổi.",
+    "use_en": "Follow heat cracking upon its inhabited jar and locate changing sections.",
+    "limits_vi": "Chỉ biết chiếc bình gốc; vỡ thành nhiều mảnh làm hình mất. Người thợ vẫn phải theo lò riêng, vì một mẫu bình chỉ chịu điều kiện tại chỗ nó đứng.",
+    "limits_en": "It knows only its original jar; fragmentation disperses it. The kiln requires separate monitoring because one specimen experiences only its own position.",
+    "skills": [
+      {
+        "name_vi": "Bước về chỗ mở",
+        "name_en": "Walk to the Opening",
+        "description_vi": "Đặt bình trong lượt thử tăng nhiệt chậm để bóng đi tới đoạn khe đang nới, cho người thợ nhận nơi đổi trước lúc vết lan rõ.",
+        "description_en": "Heat the jar gradually in a trial so the figure walks towards widening sections and reveals change before it becomes obvious."
+      },
+      {
+        "name_vi": "Tay chắn men nóng",
+        "name_en": "The Hand Before Hot Glaze",
+        "description_vi": "Soi khe bằng đèn xiên để thấy bóng đưa tay chắn khi vùng đó còn chịu nhiệt cao, nhắc người thợ đợi nguội trước khi chạm.",
+        "description_en": "Light the crack obliquely to see its blocking hand where glaze remains very hot and wait before touching."
+      },
+      {
+        "name_vi": "Đếm bước lan",
+        "name_en": "Count the Advancing Steps",
+        "description_vi": "Đánh dấu vị trí bóng dừng qua từng lượt để so đoạn rạn đã tiến thêm bao xa; dấu ngoài cần giữ khỏi bị lửa xóa.",
+        "description_en": "Mark its stopping place between trials to compare crack advance; protect external marks from firing loss."
+      },
+      {
+        "name_vi": "Gọi gác nghỉ",
+        "name_en": "Call the Sentinel to Rest",
+        "description_vi": "Đặt bình nguội đúng đế cũ rồi gõ nhẹ cạnh khe để bóng đi trọn một vòng, kiểm xem nó còn giữ đủ đường gác; thiếu bước báo bình cần xem lại.",
+        "description_en": "Set the cooled jar upon its old base and tap beside the crack so the figure completes a circuit; missing steps warn that its patrol needs inspection."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đường gác là vết lỗi",
+        "name_en": "Its Patrol Is the Fault",
+        "description_vi": "Bóng đi xa tới đâu theo khe gốc tới đó, nên vết nứt mới tách hẳn ở nơi khác có thể nằm ngoài lượt canh.",
+        "description_en": "The figure patrols only the original connected crack; a detached new fracture elsewhere may escape its watch."
+      }
+    ]
+  }
+]

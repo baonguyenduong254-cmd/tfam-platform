@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-chalkveil-lichen",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Địa y phủ lên vỏ cây cạnh một lò rèn bị bỏ lại sau trận lở núi. Dưới rễ cây, bụi quặng đã bám thành lớp trắng trên thanh sắt còn nóng mỗi khi tuyết tan. Qua nhiều lần mọc lại, địa y sinh thứ phấn tự tách khỏi vỏ rồi đi ngược gió về phía sắt nung.\n\nNgười học việc tìm được mẫu nhờ vệt phấn trên cổ áo mình: nó kéo dài về chiếc đinh nóng đang chìm trong tuyết. Từ đó các xưởng treo mảnh địa y trong hộp kính, để lớp phấn mỏng chỉ về những ống dẫn mà bàn tay chưa dám chạm.",
+    "lore_en": "Lichen covered bark beside a forge abandoned after a mountain slide. Beneath the roots, ore dust had whitened an iron bar that still warmed whenever snow melted. Through repeated growth, the lichen developed chalk that detached from bark and travelled against the wind towards heated iron.\n\nAn apprentice found the specimen through a chalk streak on his collar: it stretched towards a hot nail buried in snow. Workshops now hang bark pieces in glass boxes, letting the fine powder point towards pipes that hands dare not touch.",
+    "use_vi": "Chỉ vị trí kim loại quá nóng sau vải che hoặc trong góc tối của xưởng.",
+    "use_en": "Indicate overheated metal behind cloth or in dark workshop recesses.",
+    "limits_vi": "Tầm nhận biết vài bước; phấn hết phải chờ địa y mọc lại. Bụi kích ứng mắt và đường thở nên cần hộp kính kín.",
+    "limits_en": "Its reach is a few paces; spent chalk requires regrowth. Dust irritates eyes and airways, requiring a sealed glass case.",
+    "skills": [
+      {
+        "name_vi": "Vệt phấn dò nóng",
+        "name_en": "Heat-Seeking Chalk",
+        "description_vi": "Đặt mảnh vỏ có địa y trong hộp kính đứng yên để phấn dựng một vệt hướng tới kim loại nóng gần nhất; gõ hộp làm vệt tan và phải đợi dựng lại.",
+        "description_en": "Set lichen-bearing bark still inside glass so its chalk raises a streak towards the nearest hot metal; tapping the case disperses it and requires another wait."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Phấn tìm lò",
+        "name_en": "Chalk Seeks the Forge",
+        "description_vi": "Lớp phấn nhận hơi nóng đã đi qua kim loại; đá nóng khiến nó rơi xuống đáy hộp.",
+        "description_en": "The chalk recognises heat carried through metal; heated stone merely makes it settle to the case bottom."
+      }
+    ]
+  }
+]

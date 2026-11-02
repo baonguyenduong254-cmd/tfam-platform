@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-ash-firefly",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Trứng đom đóm nở trong tro một lò đốt rác khoáng. Con non ăn những sinh vật mang bụi tro, lớn thành ánh bụng trắng xám thay cho vàng. Khi đậu lên ngón tay, nó để lại một đốm sáng vẫn tồn tại sau lúc cánh đã đưa thân rời đi, như thể phần ánh sáng cần thêm thời gian để biết mình bị bỏ lại.\n\nLứa nuôi trong lồng sạch tiếp tục để dấu. Trẻ con chụm ngón tay giữ đốm như giữ một lời ước; thợ kho cho chúng đậu lên các chìa đang chọn trước khi xuống hầm, nhìn từng dấu tắt theo thứ tự để biết mình đã đi quá lâu.",
+    "lore_en": "Firefly eggs hatched in ash from a mineral-waste furnace. Larvae fed upon ash-bearing creatures and matured with grey-white rather than golden abdomens. Landing upon a finger left light after wings had carried the body away, as though brightness needed extra time to realise it had been abandoned.\n\nBroods raised in clean cages retained the mark. Children cup their fingers around it like a wish; storekeepers let the insects land upon selected keys before entering cellars and watch marks fade in turn to know they have lingered.",
+    "use_vi": "Đánh dấu rất ngắn một vật nhỏ cần tìm trong bóng tối.",
+    "use_en": "Briefly mark a small object for finding in darkness.",
+    "limits_vi": "Mỗi dấu khoảng một phút, yếu và tắt nhanh trên mặt ướt. Con vật cần nghỉ giữa các lượt; ép đậu liên tục làm ánh bụng cạn.",
+    "limits_en": "Each faint mark lasts roughly a minute and fades faster on wet surfaces. Insects need rest between turns; forced repeated landings exhaust their light.",
+    "skills": [
+      {
+        "name_vi": "Lưu đốm",
+        "name_en": "Leave the Mote",
+        "description_vi": "Để đom đóm tự đậu lên vật khô rồi bay đi để ánh trắng xám lưu lại trong khoảng một phút, giúp nhận đúng vật ở gần.",
+        "description_en": "Let the firefly land voluntarily upon a dry object and depart, leaving a grey-white mote for roughly a minute to identify the nearby object."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ánh về chậm hơn cánh",
+        "name_en": "Light Returns Slower Than Wings",
+        "description_vi": "Dấu đi theo bề mặt con vật đã đậu, cho thấy ánh lưu là hiệu ứng riêng chứ bụi phát sáng rắc từ thân.",
+        "description_en": "The mark follows its landing surface, indicating a retained-light effect rather than luminous dust shed from its body."
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-ngoc-long-gieng",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Dân làng đào sâu giếng sau một mùa đông kéo dài đến mức chuông lễ gieo hạt đã được gõ ba lần. Họ chạm một hốc xanh, trong đó có mặt nước nằm ngang dù hốc bám vào thành giếng dựng đứng. Người thợ lấy nó ra bằng dây vải. Cả gầu nước treo phía trên bỗng nghiêng theo lòng bàn tay ông; dưới đáy giếng, tiếng nước rơi nghe như đến từ một bầu trời khác.\n\nHốc tinh thể đã lớn quanh giọt nước cuối cùng của một mạch ngầm bị ép đứt. Lớp đá bên ngoài trượt, gãy rồi đảo phương qua nhiều lần đất chuyển; giọt nước bên trong vẫn giữ mặt phẳng từng có trước mọi chuyển động ấy. Khoáng vật nhận cái ngang đó làm luật riêng. Khi được rót nước vào, nó cho những vật chạm cùng mặt nước mượn hướng của một thế giới đã nằm sâu dưới đất.\n\nThợ đóng tàu dùng ngọc để dựng sống thẳng trong ụ cong. Các đội vượt núi dùng nó bắc mặt đường trên sườn dốc. Người giữ phải ghi rõ đâu là phía trên của mình trước khi làm việc, bởi mặt phẳng mà viên ngọc coi là đúng có thể dựng cả một căn phòng lên tường.",
+    "lore_en": "Villagers deepened their well after a winter so long that the sowing bell had been rung three times. They reached a blue hollow containing level water despite its place in the upright shaft wall. A digger lifted it out with cloth cord. The bucket hanging above suddenly tilted with his palm; far below, falling water sounded as though it came from another sky.\n\nThe crystal hollow had grown around the last drop of an aquifer crushed shut. Outer rock slipped, fractured and changed orientation through successive movements of the earth; the enclosed drop retained the plane it had held before them all. The mineral adopted that level as its own law. Filled with water, it lets objects touching that water borrow the orientation of a world buried deep underground.\n\nShipwrights use the gem to lay straight keels in crooked docks. Mountain crews use it to raise paths upon slopes. Its keeper must mark their own upward direction before working, for the plane the gem considers true can stand a whole room upon its wall.",
+    "use_vi": "Dựng và truyền một mặt phẳng chuẩn, đổi hướng đỡ của các vật được nối vào mặt nước trong ngọc.",
+    "use_en": "Raise and transmit a reference plane, changing the supporting orientation of objects joined to the gem’s water.",
+    "limits_vi": "Cần nước sạch liên tục trong hốc và một điểm neo được chọn trước. Phần nối khô sẽ trở về hướng cũ tức khắc. Dùng lâu khiến tai trong người giữ nhận mặt ngọc là chân trời; tháo neo vội có thể ném cả người lẫn vật về phương trọng lượng cũ.",
+    "limits_en": "The hollow needs continuous clean water and a chosen anchor. A dried connection instantly returns to its former orientation. Prolonged use makes the keeper’s inner ear accept the gem as its horizon; hasty unanchoring can throw people and objects towards their old weightward direction.",
+    "skills": [
+      {
+        "name_vi": "Mặt giếng",
+        "name_en": "The Well’s Face",
+        "description_vi": "Rót nước vào hốc để dựng mặt ngang riêng của ngọc; mặt ấy giữ hướng trong khi vỏ đá được nghiêng chậm.",
+        "description_en": "Fill the hollow to raise the gem’s own level surface; it retains orientation while the stone is slowly tilted.",
+        "group_vi": "Định mặt",
+        "group_en": "Establish the Plane"
+      },
+      {
+        "name_vi": "Chọn đáy",
+        "name_en": "Choose the Bottom",
+        "description_vi": "Chạm đáy hốc vào một trụ chắc để chọn điểm neo; trụ chịu lực từ mọi vật nối sau đó.",
+        "description_en": "Touch the hollow’s base to a sound pillar to choose an anchor; that pillar receives the load of everything subsequently connected.",
+        "group_vi": "Định mặt",
+        "group_en": "Establish the Plane"
+      },
+      {
+        "name_vi": "Dọi nước",
+        "name_en": "Water Plumb",
+        "description_vi": "Thả một giọt từ mép để nó rơi theo phương dưới của mặt ngọc, chỉ ra hướng khác với dây dọi thường khi hai mặt lệch nhau.",
+        "description_en": "Release a drop from the rim to fall along the gem’s downward direction, revealing disagreement with an ordinary plumb line.",
+        "group_vi": "Định mặt",
+        "group_en": "Establish the Plane"
+      },
+      {
+        "name_vi": "Vạch ngang",
+        "name_en": "Draw the Level",
+        "description_vi": "Kéo nước từ hốc thành vệt trên đá để đánh dấu mặt phẳng cắt qua đó; vệt khô sẽ mất chuẩn.",
+        "description_en": "Draw water from the hollow across stone to mark where its plane intersects the surface; the reference vanishes when dry.",
+        "group_vi": "Định mặt",
+        "group_en": "Establish the Plane"
+      },
+      {
+        "name_vi": "Bậc trên vách",
+        "name_en": "Steps Upon a Wall",
+        "description_vi": "Thấm nước ngọc vào các bậc gỗ nối nhau để chúng nhận mặt vách là nền đỡ; bậc cuối khô có thể hất người bước sang.",
+        "description_en": "Wet connected wooden steps with the gem’s water so the wall becomes their supporting ground; a dry final step can throw a crossing traveller.",
+        "group_vi": "Dựng đường",
+        "group_en": "Raise the Way"
+      },
+      {
+        "name_vi": "Bàn thợ đứng",
+        "name_en": "The Standing Bench",
+        "description_vi": "Nối mặt bàn bằng dây ướt tới ngọc để vật đặt trên đó đứng yên theo mặt chuẩn, dù chân bàn ở nền nghiêng; dây đứt trả mọi vật về dốc.",
+        "description_en": "Join a workbench to the gem with wet cord so its contents rest upon the reference plane despite a sloping floor; a broken cord returns everything to the slope.",
+        "group_vi": "Dựng đường",
+        "group_en": "Raise the Way"
+      },
+      {
+        "name_vi": "Sống tàu ngay",
+        "name_en": "The True Keel",
+        "description_vi": "Dẫn một đường nước dọc sống tàu đang kê để các đoạn nhận chung mặt chuẩn trong lúc ghép; phải đặt đỡ thật trước khi tháo đường nước.",
+        "description_en": "Run a water line along a supported keel so its sections share one reference while joined; real braces must be fitted before the line is removed.",
+        "group_vi": "Dựng đường",
+        "group_en": "Raise the Way"
+      },
+      {
+        "name_vi": "Cầu mặt giếng",
+        "name_en": "The Wellface Bridge",
+        "description_vi": "Thấm một dải vải căng để nó đỡ bước chân theo mặt ngọc qua khe; tải càng lớn càng kéo mạnh vào điểm neo.",
+        "description_en": "Wet a taut cloth strip so it bears footsteps across a gap according to the gem’s plane; greater loads pull harder upon the anchor.",
+        "group_vi": "Dựng đường",
+        "group_en": "Raise the Way"
+      },
+      {
+        "name_vi": "Đảo gầu",
+        "name_en": "Turn the Bucket",
+        "description_vi": "Nhúng quai gầu vào nước chuẩn để gầu đổi hướng đáy mà vẫn giữ nước bên trong; tháo quai trước khi đặt xuống sẽ làm nó lật.",
+        "description_en": "Dip a bucket handle into the reference water to turn its bottom without spilling the contents; releasing it before setting it down overturns it.",
+        "group_vi": "Nghiêng thế giới",
+        "group_en": "Tilt the World"
+      },
+      {
+        "name_vi": "Khiêng tải nhẹ bước",
+        "name_en": "The Reoriented Burden",
+        "description_vi": "Nối cáng với ngọc để chuyển hướng tải về một trụ bên cạnh, giảm sức ép lên vai người khiêng; trụ mất chắc sẽ nhận cú giật của toàn tải.",
+        "description_en": "Connect a stretcher to the gem to turn its load towards a nearby pillar and ease the bearers’ shoulders; a failing pillar receives the whole load’s recoil.",
+        "group_vi": "Nghiêng thế giới",
+        "group_en": "Tilt the World"
+      },
+      {
+        "name_vi": "Khoang một chiều",
+        "name_en": "The One-Way Cabin",
+        "description_vi": "Kẻ vòng nước kín quanh sàn để đồ được làm ướt bên trong cùng nhận một phương dưới; người bước vào vẫn phải chủ động nối mình vào vòng.",
+        "description_en": "Draw a closed water ring around a floor so wetted objects inside share one downward direction; entering people must deliberately join themselves to the ring.",
+        "group_vi": "Nghiêng thế giới",
+        "group_en": "Tilt the World"
+      },
+      {
+        "name_vi": "Rơi lệch",
+        "name_en": "The Slanted Fall",
+        "description_vi": "Làm ướt một vật đang được giữ rồi thả nó để nó rơi theo phương ngọc về nơi đã dọn trống; điểm neo gánh phản lực khi vật chạm đích.",
+        "description_en": "Wet a held object and release it to fall gemward towards a cleared landing; the anchor bears the reaction when it strikes.",
+        "group_vi": "Nghiêng thế giới",
+        "group_en": "Tilt the World"
+      },
+      {
+        "name_vi": "Chuyền neo",
+        "name_en": "Pass the Anchor",
+        "description_vi": "Cho hai trụ cùng chạm nước ngọc rồi rút dần một trụ để chuyển điểm chịu lực; rút cả hai làm mặt chuẩn sụp.",
+        "description_en": "Wet two pillars with the gem’s water and withdraw one gradually to transfer the load; removing both collapses the reference.",
+        "group_vi": "Trở về mặt đất",
+        "group_en": "Return to Ground"
+      },
+      {
+        "name_vi": "Đọc lún",
+        "name_en": "Read the Settlement",
+        "description_vi": "Quan sát mặt nước khi trụ neo lún để nhận những gợn đi ngược thành hốc, cảnh báo nền đang đổi; nhiễu do tay run có thể che chúng.",
+        "description_en": "Watch for ripples travelling against the hollow as an anchor settles, warning that the ground is shifting; a trembling hand can conceal them.",
+        "group_vi": "Trở về mặt đất",
+        "group_en": "Return to Ground"
+      },
+      {
+        "name_vi": "Trả sức nặng",
+        "name_en": "Restore the Weight",
+        "description_vi": "Chạm từng vật vào nền thật rồi lau khô đường nối để chuyển tải trở lại chậm; lau hàng loạt khiến tất cả cùng nhận trọng lượng cũ.",
+        "description_en": "Touch each object to real ground and dry its link to restore the load gradually; drying everything at once restores every old weight together.",
+        "group_vi": "Trở về mặt đất",
+        "group_en": "Return to Ground"
+      },
+      {
+        "name_vi": "Uống chân trời",
+        "name_en": "Drink the Horizon",
+        "description_vi": "Người giữ uống một giọt nước sau khi khép toàn bộ đường nối để tai trong nhận lại phương đứng của cơ thể; dùng khi còn tải treo sẽ kéo phương ấy về phía người uống.",
+        "description_en": "After closing every link, the keeper drinks a drop to restore the body’s upright orientation to the inner ear; drinking while loads remain suspended pulls that orientation towards the drinker.",
+        "group_vi": "Trở về mặt đất",
+        "group_en": "Return to Ground"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cái ngang chôn sâu",
+        "name_en": "The Buried Level",
+        "description_vi": "Ngọc giữ một hướng đỡ cổ xưa. Người dùng học cách nối vật vào hướng ấy; nước tràn khỏi mép sẽ mang theo một phần mặt phẳng đang được mượn.",
+        "description_en": "The gem retains an ancient supporting direction. Its keeper learns to connect objects to it; water spilling over the rim carries away part of the borrowed plane."
+      }
+    ]
+  }
+]

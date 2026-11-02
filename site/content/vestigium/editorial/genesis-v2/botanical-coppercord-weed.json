@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-coppercord-weed",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Một sợi chuông báo chìm trong bể nuôi rong sau vụ cầu tàu gãy. Chuông có hạt Vestigium trong quả lắc; nước mặn đưa bụi đồng và khoáng vào từng dải rong quấn quanh dây. Lá mọc mới hiện một đường đồng liền, chạy từ gốc đến chóp.\n\nThợ lặn chạm đầu lá, thấy đầu kia giật ngay trong tay người trên bờ dù dải rong đang chùng. Họ nuôi nó dọc thành bể, gọi những lần co giật là tiếng chuông không cần tai. Một nút thắt nhỏ đủ khiến tín hiệu chạy vòng về người vừa gửi.",
+    "lore_en": "An alarm cord sank into a weed tank when a pier collapsed. Its bell held a Vestigium grain in the clapper; saltwater carried copper dust and mineral into weed wound around the line. New fronds developed one continuous copper vein from root to tip.\n\nA diver touched one end and saw the other twitch in the shore keeper’s hand despite the slack frond. They raised it along the tank walls, calling its contractions a bell that needed no ears. A small knot could send the signal looping back to its sender.",
+    "use_vi": "Truyền tín hiệu chạm dưới nước và báo một bộ phận bể đang bị kéo mở.",
+    "use_en": "Transmit underwater touch signals and warn when a tank fitting is pulled open.",
+    "limits_vi": "Dải quá hai sải tay mất rõ tín hiệu. Cần nước mặn và gân còn ướt; gân dập hoặc nút thắt gây xung lặp, nên phải thử tín hiệu trước khi lặn.",
+    "limits_en": "Signals lose clarity beyond two armspans. Saltwater and a wet vein are required; bruises or knots cause looping pulses, so signalling must be tested before diving.",
+    "skills": [
+      {
+        "name_vi": "Chạm truyền",
+        "name_en": "Transmit the Touch",
+        "description_vi": "Bóp đầu rong theo mật hiệu để đầu kia co theo dù dải đang thả chùng; bóp liên tục làm các nhịp nhập lại.",
+        "description_en": "Squeeze one end in an agreed code so the other contracts despite the slack frond; continuous pressure merges the beats."
+      },
+      {
+        "name_vi": "Gân canh cửa",
+        "name_en": "The Door-Watching Vein",
+        "description_vi": "Buộc một đầu vào nắp bể và giữ đầu kia để cảm lần nắp bị kéo; chuyển động nước lớn cũng kéo nắp nên cần một nhịp xác nhận.",
+        "description_en": "Tie one end to a tank lid and hold the other to feel it being opened; strong water motion can pull the lid too, requiring a confirmation beat."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Gân đưa lời chạm",
+        "name_en": "A Vein Carries Touch",
+        "description_vi": "Rong truyền thứ tự co giật qua gân; người ở hai đầu phải tự thống nhất nghĩa của nhịp.",
+        "description_en": "The vein carries a sequence of contractions; both users must agree upon its meaning."
+      }
+    ]
+  }
+]

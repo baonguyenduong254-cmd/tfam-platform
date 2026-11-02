@@ -1,0 +1,4 @@
+export const artSlugs:Record<string,string>={castilian_empire:'castilian',holy_french_kingdom:'holy-france',western_roman_empire:'western-rome',sultanate_of_morocco:'morocco',habsburg_poland:'habsburg-poland',novgorod_union:'novgorod',ottoman_empire:'ottoman',danes_kingdom:'danes',scotland_ireland_union:'scotland-ireland',england_ruins:'england-ruins',new_portuguese_empire:'new-portugal',british_east_india_company:'british-east-india-company',annam_empire:'annam',ming_celestial_empire:'ming',nusantara_sultanate:'nusantara',tokugawa_empire:'tokugawa',eternal_sky_khanate:'eternal-sky',safavid_empire:'safavid',aksumite_empire:'aksum',songhai_empire:'songhai',kongo_confederation:'kongo',swahili_league:'swahili',cape_republic:'cape',merina_empire:'merina'};
+export function factionArt(id:string){return '/imperial/'+(artSlugs[id]||'castilian')+'.webp';}
+
+export function factionThumbnail(id:string){return '/imperial/'+(artSlugs[id]||'castilian')+'-thumb.webp';}

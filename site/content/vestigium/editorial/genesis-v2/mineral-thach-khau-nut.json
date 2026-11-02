@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-thach-khau-nut",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Ổ tinh thể đầu tiên mọc xuyên một mạch khoáng đỏ đã vỡ làm hai. Qua mỗi mùa, nước trong khe đóng băng rồi tan, còn những sợi đỏ bắt đầu nối giữa các đỉnh đá trước khi tinh thể thật kịp mọc tới. Người khai lấy mẫu đập vỡ một viên; hai mặt gãy tự kéo nhau về, để lại sẹo sẫm giống một đường chỉ được buộc quá chặt.\n\nSợi ấy theo phần đá tách ra khỏi vỉa, chỉ nhận lại những mặt có cùng một lần chia cắt. Qua nhiều cách thử, thợ học đọc đường gãy, giữ mép đang lìa và dời một vết sẹo sang phần đá đồng nguồn. Họ gọi nó là khoáng đã lớn lên trong một vết thương tới mức lầm việc khép lại với cách mình tồn tại.",
+    "lore_en": "The first crystals crossed a severed red mineral vein. Water froze and thawed while red filaments joined their points before actual crystal growth arrived. A gathered specimen broke and pulled its faces together, leaving a dark over-tight seam.\n\nDetached stone retained filaments recognising surfaces of one original separation. Craftsmen learnt to read fractures, hold parting edges and transfer a scar into related stone. They called it mineral grown within a wound until closure became its manner of existence.",
+    "use_vi": "Đọc, giữ và nối những mặt thuộc cùng một đường gãy; dùng đá đồng nguồn làm nơi nhận sẹo khi cần giữ mối khác.",
+    "use_en": "Read, hold and join surfaces from one fracture, using related stone to receive a scar when another seam must be kept.",
+    "limits_vi": "Sẹo tích làm mạch đỏ dày tối rồi thôi nhận. Ghép sai mặt khiến chỉ xiết vào điểm chạm và có thể phá cả hai phần; những chỗ vật chất thiếu cần vật thật để bù.",
+    "limits_en": "Accumulated scars darken and exhaust its veins. Mismatched faces tighten destructively; missing material needs an actual replacement.",
+    "skills": [
+      {
+        "name_vi": "Tự khâu",
+        "name_en": "Stitch Itself",
+        "description_vi": "Áp đủ hai mặt của chính viên đá để chỉ đỏ kéo chúng liền. Mỗi lần giữ một sẹo và giảm phần mạch còn hoạt động.",
+        "description_en": "Match the stone’s own faces for red stitching. Each repair leaves a scar and spends active vein."
+      },
+      {
+        "name_vi": "Đọc mặt đôi",
+        "name_en": "Read the Matching Face",
+        "description_vi": "Chạm một mặt gãy để chỉ dựng nét tương ứng của phần còn thiếu. Nét chỉ cho hình, không sinh lại mảnh vật.",
+        "description_en": "Touch a fracture to outline its missing counterpart. The filament gives shape, not replacement matter."
+      },
+      {
+        "name_vi": "Giữ mép đang tách",
+        "name_en": "Hold the Parting Edge",
+        "description_vi": "Đặt mạch giữa hai mép cùng vật đang lìa để chúng đợi người sửa. Rút đá khi chưa nhận nẹp mới trả ngay phần tách còn dồn.",
+        "description_en": "Hold separating edges until repair. Removing it before new bracing releases their accumulated parting."
+      },
+      {
+        "name_vi": "Chuyển sẹo đồng nguồn",
+        "name_en": "Transfer the Kindred Scar",
+        "description_vi": "Hai mảnh cùng vỉa tự chạm dưới một dấu để một bên nhận sẹo bên kia. Việc chuyển làm mảnh nhận yếu theo phần đã gánh.",
+        "description_en": "Touch same-seam fragments beneath one mark to transfer a scar. The receiver weakens by its accepted share."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhớ đúng một lần lìa",
+        "name_en": "Remembering One Parting",
+        "description_vi": "Mỗi sợi nhận đường gãy của mình; màu giống nhau không đủ khiến đá chấp nhận hai vật vốn chưa từng là một.",
+        "description_en": "Each filament recognises its own break; similar colour does not make separate objects one."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-warmthread-silkworm",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Những kén tằm bị bỏ cạnh lò chế khoáng đỏ nở muộn hơn cả lứa. Tằm con mang một đường chỉ đỏ trên lưng, ăn lá phủ bụi lò rồi nhả tơ có ánh ấm nằm sâu trong sợi. Các đời nuôi bằng lá sạch vẫn giữ đường đỏ và cấu trúc tơ ấy, như thể thân tằm đã học cách se một chút mùa hạ vào mỗi kén.\n\nThợ dệt làm đôi găng đầu để giữ tay mẹ khỏi lạnh. Tơ nhận nhiệt bàn tay rồi trả lại chậm qua lần nhấc ra. Những người làm dụng cụ sau đó dùng nó lót cán và hộp, chừa màu chỉ đỏ trên mép cho người khác biết thứ vải nào cần được giặt nhẹ.",
+    "lore_en": "Silkworm cocoons abandoned beside a red-mineral furnace hatched later than their brood. The young bore a red dorsal thread, fed upon dusted leaves and spun silk with warmth deep within each strand. Generations raised on clean leaves retained that thread and silk structure, as though the animal had learnt to spin a little summer into every cocoon.\n\nA weaver made the first gloves to warm his mother’s hands. The silk took their heat and returned it slowly after withdrawal. Toolmakers later lined handles and cases with it, leaving red edging to show which cloth needed gentle washing.",
+    "use_vi": "Dệt lớp lót nhận và trả nhiệt chậm cho găng, cán dụng cụ hoặc hộp nhỏ.",
+    "use_en": "Weave linings that slowly receive and return warmth for gloves, handles or small cases.",
+    "limits_vi": "Cần nhiệt có sẵn để nhận, mỗi lượt giữ vài phút. Nước sôi phá cấu trúc đặc biệt; tằm sống cần thức ăn và nhiệt nuôi phù hợp như lứa thường.",
+    "limits_en": "It requires existing heat and retains it for minutes per use. Boiling water breaks the special structure; living worms need suitable food and rearing warmth.",
+    "skills": [
+      {
+        "name_vi": "Se ấm",
+        "name_en": "Spin the Warmth",
+        "description_vi": "Ủ tấm tơ chưa luộc trong tay hoặc cạnh nguồn ấm rồi bọc vật cần lót để nhiệt nhả chậm theo sợi; vải ướt làm lượt ấm ngắn lại.",
+        "description_en": "Warm unboiled silk in the hands or beside a heat source, then wrap the lined object so heat leaves slowly along the strands; wet cloth shortens retention."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chỉ đỏ còn qua kén",
+        "name_en": "The Red Thread Survives the Cocoon",
+        "description_vi": "Tơ giữ tính chất sau dệt khi sợi chưa bị luộc; đường đỏ trên tằm là dấu giúp chọn lứa có thể cho tơ đúng.",
+        "description_en": "Unboiled silk retains its property after weaving; the worm’s red line helps identify a suitable brood."
+      }
+    ]
+  }
+]

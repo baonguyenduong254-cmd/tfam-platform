@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-pipe-listener",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Một hạt khoáng bạc mắc trong đường ống nhà tắm. Qua bao lần thợ gõ tìm chỗ nghẽn, trên vành ống mọc một vành tai mờ, lúc đầu chỉ thấy trong nước ngưng. Tháo đoạn ống khỏi nhà, người thợ vẫn thấy nó thức mỗi khi nước chạy qua.\n\nTai nhăn trước nhịp dòng bị ngắt, xẹp khi người thợ nện búa quá mạnh. Ông học cách thử bằng khớp ngón tay. Những người khác đem chuyện kể về kẻ nghe trong tường tới hỏi nó; tai chỉ nghiêng về tiếng nước, để câu hỏi của họ trôi qua.",
+    "lore_en": "A silver mineral grain lodged in a bathhouse pipe. After countless hammer tests for blockages, a pale ear grew upon its rim, first visible only in condensation. Removed from the house, the pipe still woke it whenever water passed.\n\nThe ear creased before an interrupted flow and flattened under heavy hammer blows. Its keeper learnt to test with his knuckles. Others brought tales of wall-listeners and questioned it; the ear leaned only towards water, letting their questions pass.",
+    "use_vi": "Nhận dấu tắc hoặc nhịp nước ngắt trong chính đoạn ống đang giữ nó.",
+    "use_en": "Recognise obstruction or interrupted flow within its inhabited pipe section.",
+    "limits_vi": "Chỉ một đoạn ống gần tai; cặn dày che biểu cảm. Gõ mạnh làm nó ẩn một lúc và người giữ vẫn cần mở kiểm để tìm nguyên nhân.",
+    "limits_en": "Its reach is one nearby pipe section; thick deposits conceal its expression. Hard knocking hides it temporarily, and inspection is still needed to find the cause.",
+    "skills": [
+      {
+        "name_vi": "Nếp báo nghẽn",
+        "name_en": "The Blockage Crease",
+        "description_vi": "Cho nước chạy nhẹ qua đoạn ống có tai rồi nhìn nếp vành trước khi gõ thử từng chỗ; nếp co mạnh gần đoạn mất nhịp cho vùng cần kiểm.",
+        "description_en": "Run water gently through the inhabited pipe and read its creases while lightly tapping each section; a strong contraction near lost cadence marks an inspection area."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tai nghiêng về nước",
+        "name_en": "An Ear Inclined to Water",
+        "description_vi": "Vành tai chỉ hiện lúc có nước chuyển động. Giữ mặt ống sạch giúp phân biệt nếp nhăn với vệt cặn.",
+        "description_en": "The ear appears only with moving water. A clean pipe surface distinguishes creases from deposits."
+      }
+    ]
+  }
+]

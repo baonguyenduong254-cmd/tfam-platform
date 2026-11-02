@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-extinguished-candle-guest",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Nến của phòng canh được pha từ sáp phủ bụi khoáng lam. Người gác luôn để nó tàn trước khi đổi ca, giữ đúng vị trí bàn ghế dưới ánh cuối. Một tối lửa tắt, một người bằng khói nhạt còn ngồi giữa bàn; quanh nó, bóng các vật tiếp tục nằm ở chỗ phút trước dù chiếc ghế đã được kéo ra.\n\nĐặt nến mới chỉ cho khách một nơi trú, dáng khói vẫn giữ những nếp riêng trong đầu và vai. Người gác mời nó ngồi trước khi châm lửa. Nó quay mặt về những vật vừa xê dịch rồi tan vào khói mới, như đang giao lại căn phòng mà mình đã canh qua một đoạn tối.",
+    "lore_en": "The watchroom candles were made from wax dusted with blue mineral. Its keeper let each burn out before changing watch, leaving furniture within the final light. One evening a pale smoke person remained seated after extinction; surrounding shadows stayed where they had been a minute earlier although a chair had moved.\n\nA new candle merely gives the guest lodging; its smoke retains distinctive folds of head and shoulders. The keeper invites it to sit before lighting. It turns towards shifted objects and dissolves into fresh smoke, handing back a room guarded through a stretch of darkness.",
+    "use_vi": "Giữ bố trí các vật đứng yên trong phút cuối ánh nến và đối vị trí sau lúc tắt.",
+    "use_en": "Retain the layout of stationary objects in the candle’s final minute and compare positions after extinction.",
+    "limits_vi": "Chỉ vùng được nến soi, vật đang đi thiếu dấu. Ánh mới quá mạnh xóa cảnh; gió cuốn khói khiến khách mất chỗ ngồi và phải đợi lượt nến mới.",
+    "limits_en": "Only candlelit regions are retained and moving objects lack clear marks. Strong fresh light erases the scene; wind scatters the smoke and requires a fresh candle turn.",
+    "skills": [
+      {
+        "name_vi": "Nhận phút sáng cuối",
+        "name_en": "Accept the Last Lit Minute",
+        "description_vi": "Cho nến cùng mẻ soi phòng yên trước lúc tắt để khách nhận bố trí vật đứng trong quầng.",
+        "description_en": "Let a same-batch candle light a still room before extinction so the guest accepts stationary objects within its halo."
+      },
+      {
+        "name_vi": "Bóng phòng cũ",
+        "name_en": "The Earlier Room’s Shadows",
+        "description_vi": "Giữ phòng tối nhẹ sau tắt để khách trải bóng cũ lên nền, xem vị trí bàn ghế vừa có.",
+        "description_en": "Keep the room dim after extinction so the guest lays earlier shadows upon the floor to show recent positions."
+      },
+      {
+        "name_vi": "Chỉ vật đã dời",
+        "name_en": "Point to What Moved",
+        "description_vi": "Đưa ánh đèn che nhỏ vào từng góc để khách quay mặt về vật đã lệch khỏi bóng cũ, khoanh nơi cần kiểm.",
+        "description_en": "Bring a shaded little lamp to each corner so the guest turns towards objects displaced from their earlier shadows."
+      },
+      {
+        "name_vi": "Khoảng trống có tên",
+        "name_en": "The Named Empty Place",
+        "description_vi": "Chỉ một khoảng bóng còn lại và gọi tên vật đã đứng đó để khách gật nếu tên khớp cách chủ phòng từng gọi trước nến; tên chưa nghe chỉ để nó im.",
+        "description_en": "Point to a surviving shadow and name its former object; the guest nods if it matches the room owner’s earlier candlelit naming, remaining silent at unfamiliar names."
+      },
+      {
+        "name_vi": "Giao sang nến mới",
+        "name_en": "Pass to the New Candle",
+        "description_vi": "Đặt nến cùng mẻ vào chỗ cũ và mời khách trước khi châm để nó giữ cảnh qua một lượt ánh yếu kế; ánh lớn vẫn làm cảnh cũ tan.",
+        "description_en": "Set a same-batch candle in the old place and invite the guest before lighting to preserve the scene through another weak illumination; strong light still clears it."
+      },
+      {
+        "name_vi": "Dấu góc khuất",
+        "name_en": "The Unseen Corner’s Sign",
+        "description_vi": "Đưa giấy trắng tới mép quầng cũ để khách vẽ đường khói nơi ánh từng dừng, biết chỗ nào vốn chưa được ghi.",
+        "description_en": "Hold white paper at the old halo’s edge so the guest draws where light ended and marks areas never recorded."
+      },
+      {
+        "name_vi": "Đếm chỗ còn chờ",
+        "name_en": "Count the Waiting Places",
+        "description_vi": "Để khách đi một vòng quanh bàn để từng bóng lệch chớp nhẹ, kiểm đủ các vị trí sau cuộc chuyển đồ; chỉ nhận những vật đứng yên trong lượt gốc.",
+        "description_en": "Let the guest circle the table so displaced shadows flicker and all recorded positions can be checked after moving furniture; only originally still objects are counted."
+      },
+      {
+        "name_vi": "Mời khách về khói",
+        "name_en": "Invite the Guest Back to Smoke",
+        "description_vi": "Sau khi chép cảnh, thắp nến mới và mở một lối khói thoát nhỏ để khách nhả bóng, khép lượt mà tránh xua gió thẳng vào nó.",
+        "description_en": "After copying the scene, light a new candle and open a gentle smoke outlet so the guest releases its shadows without a direct dispersing draft."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khách còn giữ phòng",
+        "name_en": "The Guest Still Holds the Room",
+        "description_vi": "Nến mới là chỗ trú tiếp, cần cùng mẻ sáp để khách nhận lại cảnh. Nến khác khiến nó rời đi cùng khói cũ.",
+        "description_en": "A new candle is further lodging and needs the same wax batch to retain the scene. Other wax lets it depart with old smoke."
+      }
+    ]
+  }
+]

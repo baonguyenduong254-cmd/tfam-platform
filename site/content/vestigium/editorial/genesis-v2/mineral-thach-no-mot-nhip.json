@@ -1,0 +1,535 @@
+[
+  {
+    "id": "mineral-thach-no-mot-nhip",
+    "category": "mineral",
+    "rarity": 6,
+    "lore_vi": "Viên đá đỏ nằm dưới tháp chuông đã sập, ngay bên một giọt nước vỡ thành hai nửa mà chưa nửa nào rơi tiếp. Người đào đưa xẻng qua. Giọt nước khép lại, rơi xuống, rồi tiếng tháp đổ vang lên từ lòng đất dù phế tích đã phủ rêu qua ba đời giữ làng. Trên mặt đá xuất hiện một vết đen mảnh như kim.\n\nQuả chuông cuối cùng của tháp đã được đúc cùng một mạch quặng đỏ. Lúc tường nghiêng, người kéo chuông cố hoàn tất tiếng báo trong khi bánh truyền giờ bị nghiền giữa hai tầng đá. Tiếng gõ đã xảy ra; lần ngân đáng lẽ theo sau bị ép vào quặng cùng phần thế giới đang chờ nó. Khoáng vật kết lại quanh một quan hệ nhân quả chưa được thanh toán. Từ đó, người cầm có thể đặt một việc giữa lúc đã bắt đầu và lúc hậu quả được phép đến.\n\nNhững người khảo nghiệm gọi khoảng ấy là một nhịp. Có lần nó đủ cho bàn tay rút khỏi lưỡi cưa; có lần một đoàn người đi qua chân thành đang sập trong khi người giữ đá chỉ nghe tim đập đúng một tiếng. Mỗi khoản mượn được ghi bằng một vết kim đen. Những vết sâu nhất chĩa vào tâm như những người đòi nợ đứng quanh một cánh cửa.\n\nBản kiểm kê cũ chừa một dòng cho tiếng chuông cuối. Người canh đời sau vẫn để dòng ấy trống. Khi ngủ gần đá, họ thỉnh thoảng mơ thấy một tòa thành nguyên vẹn giữa trời đỏ, và dưới mọi bàn chân là cùng một khoảnh khắc vừa sụp xuống nhưng chưa được phép chạm đất.",
+    "lore_en": "The red stone lay beneath a fallen bell tower beside a drop split in two, neither half continuing its fall. A digger passed his shovel through it. The drop closed and fell, then the tower’s collapse sounded from underground although moss had covered the ruin through three generations of village keepers. A needle-thin black mark appeared upon the stone.\n\nThe tower’s final bell had been cast with red ore. As its walls leaned, the bell ringer tried to finish the warning while the timekeeping wheel was crushed between floors. The strike occurred; the peal that should have followed was pressed into the ore together with the portion of the world awaiting it. Mineral set around an unsettled causal relationship. Its holder could thereafter place an event between its beginning and the permitted arrival of its consequence.\n\nExaminers call that interval one beat. Once it gave a hand time to leave a saw; once a company passed beneath a falling wall while the keeper heard only one heartbeat. Each borrowing is recorded as a black needle scar. The deepest point towards the centre like creditors surrounding a door.\n\nAn old inventory leaves one line for the final bell. Later keepers still leave it empty. Sleeping beside the stone, they sometimes dream of a whole citadel beneath a red sky, with the same instant collapsed beneath every foot yet not permitted to touch the ground.",
+    "use_vi": "Đánh dấu một quan hệ đang diễn ra, tách lúc khởi phát khỏi lúc hậu quả đến, rồi dùng khoảng nợ để quan sát, can thiệp, chuyển nơi nhận hoặc sắp thứ tự thanh toán.",
+    "use_en": "Mark an unfolding relationship, separate initiation from the arrival of its consequence, then use the debt interval to observe, intervene, move its receiver or order repayment.",
+    "limits_vi": "Phải nhận rõ việc đã bắt đầu, hậu quả đang giữ và nơi trả nó. Mỗi viên chỉ gánh một khoản nợ chính; các kỹ năng là những cách xử lý khoản ấy. Đá giữ quan hệ chứ xóa hậu quả cần một nguyên nhân mới đủ sức thay đổi nó. Người giữ nghe nhịp tim để canh, nhưng độ dài ngoài thế giới thay đổi khó đoán. Vết đen ăn đến tâm có thể gọi toàn bộ những khoản chưa khép cùng tiếng chuông đã sinh ra đá.",
+    "limits_en": "The keeper must identify what has begun, the consequence held and where it will be repaid. Each stone bears one principal debt; its skills are ways of handling it. The relationship is retained, while removing a consequence requires a new cause sufficient to change it. Heartbeats guide the keeper, yet outside duration varies unpredictably. A black scar reaching the centre may summon every unclosed debt together with the bell that created the stone.",
+    "skills": [
+      {
+        "name_vi": "Vết kim nhận việc",
+        "name_en": "The Needle Accepts the Event",
+        "description_vi": "Chạm đá vào vật vừa khởi chuyển động và gọi rõ hậu quả cần giữ để vết kim mở; gọi mơ hồ có thể nhận một hậu quả khác đang gần hơn.",
+        "description_en": "Touch the stone to an object beginning its motion and name the consequence to hold so a scar opens; ambiguity may accept another, nearer consequence.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Nghe phía đến",
+        "name_en": "Hear the Arrival",
+        "description_vi": "Áp đá qua một mảnh gỗ để nghe tiếng hậu quả còn đang nợ, nhận nó sẽ tới phía nào; nghe trực tiếp lâu có thể khiến tai thành nơi nó tìm tới.",
+        "description_en": "Listen through wood to the sound of the owed consequence and learn its approaching side; prolonged direct listening may make the ear its destination.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Soi đường nợ",
+        "name_en": "See the Debt’s Path",
+        "description_vi": "Chiếu đèn qua vết kim để hiện một sợi tối nối vật với nơi nhận đã chọn; vật khuất vẫn cần được nhận đúng từ trước.",
+        "description_en": "Shine through a scar to reveal a dark thread between object and chosen receiver; a concealed object must already have been correctly identified.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Chọn mặt trả",
+        "name_en": "Choose the Repayment Face",
+        "description_vi": "Đặt đá lên một bề mặt chịu được hậu quả trước khi giữ việc để chọn mặt trả, tránh để đá tự chọn bàn tay người dùng.",
+        "description_en": "Set the stone against a surface able to bear the consequence before holding the event, choosing its repayment face before the stone chooses the keeper’s hand.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Đếm nhịp người giữ",
+        "name_en": "Count the Keeper’s Beat",
+        "description_vi": "Người giữ đặt một ngón lên mạch mình để nhận khoảng nợ đang mở bằng nhịp riêng; nhịp rối làm các dấu mở khó phân biệt.",
+        "description_en": "Keep a finger upon one’s pulse to recognise the opened debt by a personal beat; an irregular pulse confuses opening signs.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Mốc trước sau",
+        "name_en": "Mark Before and After",
+        "description_vi": "Đặt hai hòn sỏi hai bên đá khi nhận việc để đánh dấu đầu khởi và đầu trả, giữ thứ tự khi phải chuyển vị trí.",
+        "description_en": "Place pebbles on either side when accepting an event to mark initiation and repayment and preserve their order during movement.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Dấu nợ lạc",
+        "name_en": "The Straying Debt’s Sign",
+        "description_vi": "Vuốt mép vết kim bằng chỉ khô để sợi chỉ nghiêng về nơi hậu quả đang tìm tới sai đường; chỉ cháy đen báo phải chuẩn bị trả ngay.",
+        "description_en": "Stroke a scar’s edge with dry thread so it leans towards a wrongly approaching consequence; blackening warns that repayment must be prepared immediately.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Đọc phần còn thiếu",
+        "name_en": "Read the Missing Part",
+        "description_vi": "Soi phản chiếu vết kim trên nước để thấy đoạn hậu quả chưa đến dưới dạng khoảng đen; nước rung làm nhiều đoạn trông như một.",
+        "description_en": "Reflect a scar upon water to see its unarrived portion as darkness; rippling water can merge separate portions.",
+        "group_vi": "Nhận khoản nợ",
+        "group_en": "Recognise the Debt"
+      },
+      {
+        "name_vi": "Chạm chưa tới",
+        "name_en": "The Unarrived Touch",
+        "description_vi": "Nhận một vật đang sắp va để giữ khoảnh khắc chạm giữa vật và mặt đích, dành thời gian kéo người khỏi khoảng ấy.",
+        "description_en": "Accept an object about to strike and hold its contact with the target surface, gaining time to remove someone from between them.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Búa chờ đe",
+        "name_en": "The Hammer Awaits the Anvil",
+        "description_vi": "Giao cú búa đang xuống cho đá để đặt lại chi tiết dưới đe trước khi cho đòn đến; đe đổi chỗ phải đổi luôn mặt trả.",
+        "description_en": "Entrust a descending hammerstroke to reset the workpiece beneath it before arrival; moving the anvil requires moving the repayment face too.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Đạn đợi giáp",
+        "name_en": "The Shot Awaits the Armour",
+        "description_vi": "Đánh dấu trước một tấm giáp rồi nhận cú đạn chạm nó để người mặc đổi tư thế, dẫn đòn vào phần chịu lực tốt hơn; viên đạn vẫn phải được trả vào vật nhận.",
+        "description_en": "Premark armour and accept a projectile’s contact so its wearer can change posture towards a stronger section; the shot still needs a receiving material.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Đỡ vật rơi",
+        "name_en": "Receive the Falling Object",
+        "description_vi": "Giữ lần chạm đất của một vật đã nhận để đặt đệm hoặc dây hãm vào đường cuối; đệm phải chịu được phần chuyển động còn lại.",
+        "description_en": "Hold a marked object’s ground contact to insert padding or a brake into its final path; the receiver must withstand its remaining motion.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Răng cưa chờ tay",
+        "name_en": "The Sawtooth Awaits the Hand",
+        "description_vi": "Nhận lần chạm giữa răng cưa và vật đã đánh dấu để rút tay khỏi vùng cắt, rồi cho răng đến vật đỡ thay thế.",
+        "description_en": "Accept contact between a sawtooth and a marked object so a hand can leave the cutting zone, then let the tooth arrive upon replacement support.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Sóng đập bến",
+        "name_en": "The Wave Strikes the Quay",
+        "description_vi": "Đặt mặt trả tại một trụ đã chọn để hoãn một cú sóng đến trụ trong lúc người vượt qua; nước ngoài quan hệ đã chọn vẫn chảy.",
+        "description_en": "Choose a pier as repayment face and postpone one wave’s strike while people cross; water outside the selected relationship continues moving.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Giữ dây khỏi quất",
+        "name_en": "Stay the Whipping Rope",
+        "description_vi": "Nhận lần dây đứt sắp quất vào mặt đã đánh dấu, dùng khoảng nợ buộc đầu dây vào vật nhận; chạm đầu dây khác có thể tạo va chạm mới ngoài khoản giữ.",
+        "description_en": "Accept a snapping rope’s approaching strike upon a marked face and use the debt to secure its end to a receiver; another end can create a new impact outside the held debt.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Cửa chờ ngưỡng",
+        "name_en": "The Door Awaits Its Threshold",
+        "description_vi": "Giữ cú sập của cánh cửa đã nhận để người mắc kẹt rời ngưỡng, rồi trả cú đến vào chốt đệm; sức nặng cánh vẫn cần kê.",
+        "description_en": "Hold a marked door’s slam so someone trapped can leave, then repay it into a padded stop; the door’s weight still needs bracing.",
+        "group_vi": "Giữ cú chạm",
+        "group_en": "Hold the Impact"
+      },
+      {
+        "name_vi": "Lửa đợi bấc",
+        "name_en": "Fire Awaits the Wick",
+        "description_vi": "Nhận lần một bấc đã đánh dấu sắp bắt lửa để dời nhiên liệu hoặc đặt nắp, tạo nguyên nhân mới chặn ngọn lửa trước khi trả.",
+        "description_en": "Accept a marked wick’s ignition to remove fuel or fit a cover, providing a fresh cause to stop the flame before repayment.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Thuốc đợi tia",
+        "name_en": "Powder Awaits the Spark",
+        "description_vi": "Giữ quan hệ giữa tia lửa và một mồi thuốc đã nhận để lấy mồi ra khỏi kho thuốc; phần đang cháy khác vẫn cần được dập.",
+        "description_en": "Hold the relationship between a spark and marked priming powder to remove it from the magazine; other burning material still needs extinguishing.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Vết nứt đợi mở",
+        "name_en": "The Crack Awaits Opening",
+        "description_vi": "Đánh dấu đầu nứt đang lan rồi giữ lần nó vượt qua một mối nối, cho thời gian đặt đai chịu tải; vết khác có thể tiếp tục lan.",
+        "description_en": "Mark an advancing crack tip and hold its passage through a joint, gaining time to fit a load-bearing band; other cracks may advance.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Nước đợi tràn",
+        "name_en": "Water Awaits Overflow",
+        "description_vi": "Nhận mép nước sắp vượt một bờ đã đánh dấu để đặt máng dẫn nơi trả, chuyển đợt tràn vào bể có chuẩn bị.",
+        "description_en": "Accept water about to overtop a marked edge to fit a channel at its repayment face and direct the overflow into a prepared basin.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Rễ đợi gãy",
+        "name_en": "The Root Awaits Breaking",
+        "description_vi": "Giữ lần một rễ chịu tải sắp đứt để người trèo chuyển dây sang điểm chắc hơn; phần đất đang trượt vẫn có thể cuốn cả cây.",
+        "description_en": "Hold the imminent breaking of a load-bearing root so a climber can shift their line to a sounder point; sliding earth may still take the whole tree.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Hơi đợi van",
+        "name_en": "Steam Awaits the Valve",
+        "description_vi": "Nhận lần hơi sắp bật van đã đánh dấu để đưa đường xả tới chỗ trống; áp trong lò vẫn tăng nên phải giải nguồn cùng lúc.",
+        "description_en": "Accept steam about to open a marked valve and route its vent towards clear space; boiler pressure continues rising and its source needs relief too.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Mực đợi giấy",
+        "name_en": "Ink Awaits the Paper",
+        "description_vi": "Giữ lần giọt mực sắp chạm một trang đã nhận để đổi trang hoặc đặt lớp thấm, cứu dòng chữ khỏi vết loang.",
+        "description_en": "Hold an ink drop’s contact with a marked page to replace the page or insert blotting material and save writing from a stain.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Băng đợi khép",
+        "name_en": "Ice Awaits Closure",
+        "description_vi": "Nhận lần một khe băng sắp khép tại điểm đã đánh dấu để rút dây hoặc ống ra; lực từ phần hồ ngoài khe tiếp tục dồn tới.",
+        "description_en": "Accept an ice gap’s closure at a marked point to remove a rope or tube; force from surrounding ice continues approaching.",
+        "group_vi": "Giữ sự khởi phát",
+        "group_en": "Hold the Onset"
+      },
+      {
+        "name_vi": "Rút khỏi đòn",
+        "name_en": "Leave the Blow",
+        "description_vi": "Người đã cùng đánh dấu với đá nhận thấy khoảng nợ mở và bước khỏi nơi đòn sẽ đến; quay lại trước khi trả đặt họ vào đúng đường cũ.",
+        "description_en": "Someone jointly marked with the stone can recognise its opening and leave the blow’s arrival point; returning before repayment puts them back in its path.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Đưa cáng qua sập",
+        "name_en": "Carry the Litter Through Collapse",
+        "description_vi": "Giữ lần một mảng thành đã nhận chạm đất để đội cứu khiêng cáng qua đường trống bên dưới; các mảnh chưa nhận vẫn rơi.",
+        "description_en": "Hold a marked wall section’s ground impact so rescuers carry a litter through the space below; unmarked fragments still fall.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Thắt nút còn thiếu",
+        "name_en": "Tie the Missing Knot",
+        "description_vi": "Giữ lần dây neo đã nhận tuột khỏi mấu để thắt thêm nút chịu lực trước khi quan hệ được trả; mấu yếu có thể thành nơi đứt mới.",
+        "description_en": "Hold a marked anchor line slipping off its peg to add a load-bearing knot before repayment; a weak peg may become the new failure point.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Lời trước tiếng vỡ",
+        "name_en": "Words Before the Breaking",
+        "description_vi": "Giữ tiếng va đã nhận tới tai một người để họ nghe được một lời cảnh báo trước tiếng nổ; sóng khí và mảnh văng cần được xử lý riêng.",
+        "description_en": "Hold an accepted impact’s sound from one listener so a warning reaches them before the crash; air pressure and fragments require separate handling.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Nhìn trong một nhịp",
+        "name_en": "Look Within a Beat",
+        "description_vi": "Đưa mắt theo sợi tối của khoản nợ để quan sát hướng vật sắp tới rõ hơn; nhìn quá lâu làm các chuyển động khác ngoài khoản trở nên khó theo.",
+        "description_en": "Follow a debt’s dark thread to see the approaching object’s direction more clearly; prolonged viewing makes other motion difficult to track.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Chuyền người giữ",
+        "name_en": "Pass the Keeper",
+        "description_vi": "Người thứ hai tự chạm đá và nhận nhịp trước khi người đầu rút tay để chuyển vai canh; mất tiếp xúc cả hai khiến khoản tự tìm mặt trả.",
+        "description_en": "A second keeper touches the stone and accepts its beat before the first withdraws, transferring the watch; losing both contacts makes the debt seek its own receiver.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Chọn một người qua",
+        "name_en": "Choose One to Pass",
+        "description_vi": "Đặt dấu tiếp xúc của một người lên đá để khoảng nợ mở được cảm nhận riêng bởi họ, giúp điều phối cứu hộ; họ vẫn cần người ngoài giữ mặt trả.",
+        "description_en": "Place one person’s contact mark upon the stone so they alone perceive the opening and coordinate a rescue; someone outside must still maintain the repayment face.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Trả bước đã mượn",
+        "name_en": "Repay the Borrowed Step",
+        "description_vi": "Sau khi thoát, người đã đi trong khoảng nợ đứng yên và gõ một nhịp lên đất để khép quan hệ của mình; bỏ qua khiến bước chân tiếp tục trễ tiếng.",
+        "description_en": "After escape, the person who moved within the debt stands still and taps the ground once to close their link; neglect leaves footsteps sounding late.",
+        "group_vi": "Người trong khoảng đợi",
+        "group_en": "People Within the Interval"
+      },
+      {
+        "name_vi": "Mặt đỡ mới",
+        "name_en": "The New Receiving Face",
+        "description_vi": "Cho mặt nhận cũ chạm một vật đỡ mới rồi trượt đá qua điểm tiếp xúc để chuyển nơi trả; vật mới phải gánh đủ hậu quả đã giữ.",
+        "description_en": "Touch the old receiver to a new support and slide the stone across their contact to transfer repayment; the new object must bear the full held consequence.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Trả vào cát",
+        "name_en": "Repay Into Sand",
+        "description_vi": "Nối mặt trả với một hòm cát đã neo để cú chạm kết thúc trong cát, dùng cho xả va; hòm kín quá có thể vỡ vì cát bị dồn.",
+        "description_en": "Join the repayment face to an anchored sand chest so an impact ends in sand; an overconfined chest may burst under displaced grains.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Dồn tới đe",
+        "name_en": "Bring It to the Anvil",
+        "description_vi": "Đưa khoản va đang nợ vào một tấm đe cùng chạm vật đã nhận, dùng sức đó cho công việc; khung đe chịu cả phản lực và cần kê chắc.",
+        "description_en": "Move an owed impact into an anvil touching the marked object and use the force for work; its frame receives recoil and needs bracing.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Đổi cửa ngân",
+        "name_en": "Change the Sounding Door",
+        "description_vi": "Chuyển nơi một tiếng đã nhận sẽ vang sang tấm gỗ đang nối đá, gửi tiếng báo về phía chọn; người giữ nghe một âm dư trong xương sau đó.",
+        "description_en": "Transfer the arrival of an accepted sound into a wooden panel connected to the stone to direct a signal; the keeper hears a residual tone in bone afterwards.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Trả xuống móng",
+        "name_en": "Repay Through Foundations",
+        "description_vi": "Nối khoản chấn đã nhận vào móng có đường tản lực để tránh mặt sàn đang có người; móng yếu chỉ chuyển tai họa xuống dưới.",
+        "description_en": "Join an accepted shock to a foundation with a dispersal path instead of an occupied floor; a weak foundation merely moves disaster below.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Gập đường tới",
+        "name_en": "Fold the Arrival Path",
+        "description_vi": "Đặt hai mặt đang chạm cùng đá thành góc để hậu quả đi tới qua góc ấy, đổi hướng cú đến; góc quá nhọn có thể làm mặt nhận vỡ.",
+        "description_en": "Angle two faces touching the stone so the consequence arrives through their corner and changes direction; a sharp corner may shatter the receiver.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Chọn vật hy sinh",
+        "name_en": "Choose the Sacrificial Receiver",
+        "description_vi": "Đánh dấu một vật khác bằng chính vết tiếp xúc của vật đang nợ để nó nhận phần hậu quả tương ứng; hình dấu sai để phần còn lại quay về chủ cũ.",
+        "description_en": "Mark another object with the debtor’s exact contact trace to let it receive the matching consequence; an inaccurate trace returns the remainder to its original owner.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Trả về nguồn",
+        "name_en": "Return to the Source",
+        "description_vi": "Đưa mặt trả trở lại điểm đã sinh cú chuyển động để hậu quả kết tại nguồn, như nhả cú bật về chính lò xo; nguồn phải chịu được lần nhận ngược.",
+        "description_en": "Bring repayment back to the motion’s origin, such as returning recoil into its spring; the source must endure receiving it in reverse.",
+        "group_vi": "Đổi nơi hậu quả",
+        "group_en": "Move the Consequence"
+      },
+      {
+        "name_vi": "Đầu rồi cuối",
+        "name_en": "First, Then Last",
+        "description_vi": "Vạch hai nấc trên mặt trả để một hậu quả kéo dài đến theo hai chặng, dành khoảng giữa cho điều chỉnh; hai chặng vẫn thuộc cùng một khoản.",
+        "description_en": "Mark two stages on a receiving face so a prolonged consequence arrives in two passages with room to adjust between; both remain parts of one debt.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Tiếng đến sau lực",
+        "name_en": "Sound After Force",
+        "description_vi": "Tách lần nghe khỏi lần chạm trong cùng khoản va để cho lực kết thúc trước rồi mới nhả tiếng, hữu ích khi cần nghe lệnh trong lúc thao tác.",
+        "description_en": "Separate hearing from contact within one impact debt so force ends before sound is released, allowing commands to be heard during the work.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Lực đến sau tiếng",
+        "name_en": "Force After Sound",
+        "description_vi": "Nhả phần tiếng của khoản va trước như dấu cảnh báo rồi giữ phần chạm cho đến khi mặt đỡ đã sẵn; tiếng báo tiêu chính phần âm đó.",
+        "description_en": "Release an impact debt’s sound first as warning and retain contact until support is ready; the warning spends that sound portion.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Từ rìa vào tâm",
+        "name_en": "From Edge to Centre",
+        "description_vi": "Dẫn một lần tiếp xúc rộng tới theo mép rồi vào giữa để vật đỡ nhận tải dần; vật quá giòn có thể nứt tại mép trước lúc nhận hết.",
+        "description_en": "Lead broad contact from edge to centre so its support takes the load gradually; a brittle receiver may crack at the edge before full arrival.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Giữ chặng cuối",
+        "name_en": "Hold the Final Passage",
+        "description_vi": "Cho phần đầu hậu quả tới rồi giữ phần cuối để kịp đặt chốt hoàn tất, như giữ một vòng quay trước lúc khóa; vật phải còn cùng đường nhận.",
+        "description_en": "Let the first portion arrive and retain the last to fit a finishing catch, such as holding a rotation before locking; the object must remain on its receiving path.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Hẹn theo dấu chạm",
+        "name_en": "Appoint the Touch",
+        "description_vi": "Đặt một nút gỗ nối đá làm dấu trả để người canh chủ động chạm nhả khoản; nút bị đụng ngoài ý muốn cũng có thể gọi đến.",
+        "description_en": "Fit a wooden button connected to the stone as a repayment trigger; an unintended touch can summon arrival too.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Hẹn theo tiếng gọi",
+        "name_en": "Appoint the Call",
+        "description_vi": "Giao một tiếng gõ riêng vào đá để nhả hậu quả khi tiếng ấy trở lại qua vật dẫn, dùng lúc hai tay bận; tiếng trùng từ bên ngoài vẫn là nguy cơ.",
+        "description_en": "Entrust a distinctive knock to release the consequence when it returns through a conductor, useful with occupied hands; an outside matching sound remains dangerous.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Khép phần đã tới",
+        "name_en": "Close What Arrived",
+        "description_vi": "Sau mỗi chặng trả, vuốt vết kim từ đầu tới điểm đã khép để phần còn lại hiện riêng, tránh nhầm khoản đã trả với khoản đang giữ.",
+        "description_en": "After each repayment stage, stroke the scar from its start to the closed point so the remainder appears separately and settled portions are not mistaken for held ones.",
+        "group_vi": "Sắp thứ tự đến",
+        "group_en": "Order the Arrivals"
+      },
+      {
+        "name_vi": "Gọi khoản quên",
+        "name_en": "Call the Forgotten Debt",
+        "description_vi": "Đặt đá giữa hai mốc trước sau còn giữ để vết của khoản bị bỏ dở sáng trở lại, tìm phần hậu quả chưa được trả.",
+        "description_en": "Set the stone between preserved before-and-after markers to illuminate an abandoned debt’s scar and locate its unarrived consequence.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Đọc người mắc",
+        "name_en": "Read the Bound Person",
+        "description_vi": "Cho một sợi tóc tự nguyện vào sợi tối để xem chủ tóc còn bị nối khoản nào; tóc xoắn quanh vết báo họ chưa khép bước mượn.",
+        "description_en": "Place a freely given hair upon the dark thread to see whether its owner remains linked; coiling around the scar warns of an unclosed borrowed step.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Trả chậm qua vật mềm",
+        "name_en": "Slow Repayment Through Soft Matter",
+        "description_vi": "Dẫn khoản va vào nhiều lớp vật mềm cùng tiếp xúc để giãn thời gian kết thúc của một lần đến; lớp cuối vẫn phải nhận phần chưa tiêu.",
+        "description_en": "Lead an impact debt through contacting soft layers to lengthen its completion; the final layer still receives the unspent portion.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Ngắt nguồn sinh thêm",
+        "name_en": "Stop Fresh Accrual",
+        "description_vi": "Dùng khoảng nợ tháo nguồn đang tạo thêm hậu quả, như ngừng búa máy trước khi trả cú đầu; chỉ khoản đã nhận được giữ, phần phát sinh khác vẫn tới.",
+        "description_en": "Use the debt interval to stop a source producing more consequences, such as halting a hammer before repaying its first stroke; only the accepted debt is held and fresh events still arrive.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Cho vật khác đáp",
+        "name_en": "Let Another Object Answer",
+        "description_vi": "Dựng một va chạm mới đủ sức đỡ hậu quả cũ ngay tại mặt trả để chúng gặp nhau, như dùng lò xo hãm cú rơi; sai hướng có thể cộng lực thay vì triệt bớt.",
+        "description_en": "Arrange a fresh interaction capable of bearing the old consequence at its repayment face, such as a spring braking a fall; a wrong direction can add forces instead of reducing them.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Xóa dấu đã trả",
+        "name_en": "Clear the Settled Mark",
+        "description_vi": "Rửa vết kim đã khép bằng nước từng chạm vật nhận để phần đen nông nhạt, phân biệt khỏi nợ còn mở; vết sâu tới lõi vẫn giữ sẹo.",
+        "description_en": "Wash a settled scar with water that touched its receiver to pale shallow blackness and distinguish it from open debt; deep core-reaching scars remain.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Chỗ trống cuối sổ",
+        "name_en": "The Ledger’s Last Space",
+        "description_vi": "Đặt đá lên sổ đã ghi đủ các lượt để một khoảng mực trống hiện trước tên khoản chưa khép, hỗ trợ rà nợ; sổ thiếu lượt khiến khoảng ấy chỉ đánh dấu phần đã biết.",
+        "description_en": "Place the stone upon a complete use ledger so a blank ink space appears before an unclosed debt’s entry; an incomplete ledger marks only known debts.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Trao lại nhịp canh",
+        "name_en": "Return the Watch Beat",
+        "description_vi": "Khi mọi khoản đã trả, người giữ gõ nhịp riêng lên vòng đá rồi rút tay để bước và tiếng tim nhận lại cùng lúc; còn nợ làm nhịp đáp vang từ nơi khác.",
+        "description_en": "Once debts are settled, the keeper taps their own beat and withdraws so footsteps and heartbeat reunite; remaining debt makes the answer sound elsewhere.",
+        "group_vi": "Đòi nợ và trả nợ",
+        "group_en": "Calling and Settling"
+      },
+      {
+        "name_vi": "Nghe chân tháp",
+        "name_en": "Hear the Tower’s Foot",
+        "description_vi": "Đặt đá đỏ lên đất trống lúc canh để nghe âm trầm của khoản sinh ra nó, nhận vết sâu đang tiến tới tâm; mỗi lần nghe kéo giấc mơ tháp gần hơn.",
+        "description_en": "Set the red stone upon clear ground to hear the low founding debt and sense deep scars nearing the centre; each listening draws the tower dream closer.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Vành giữ kim",
+        "name_en": "The Scar-Holding Band",
+        "description_vi": "Ép một vòng kim loại liền quanh đá để vết kim mới đi theo vành ngoài trước khi hướng tâm, dành thêm lượt chuẩn bị trả; vòng vỡ sẽ thả các vết về đường ngắn nhất.",
+        "description_en": "Fit an unbroken metal band so new scars follow the outer circuit before turning inward, gaining preparation time; a broken band releases them along the shortest path.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Khoảng đợi của thành",
+        "name_en": "The Citadel’s Interval",
+        "description_vi": "Đánh dấu đồng thời chân móng và mặt đất khi một kết cấu lớn bắt đầu sụp để giữ một lần chạm chung của nó, mở đường cứu nhiều người; mảnh rời khỏi quan hệ chung vẫn có thể rơi tới.",
+        "description_en": "Mark foundation and ground together as a great structure begins collapsing to hold its shared contact and open a rescue route; fragments departing that relationship may still strike.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Trả chuông vào chuông",
+        "name_en": "Repay the Bell Into a Bell",
+        "description_vi": "Dựng một chuông nhận trên nền riêng rồi nối đá để xả phần ngân sâu đang đòi tới vào nó; chuông nhận có thể nứt và người đứng gần chịu tiếng rất lớn.",
+        "description_en": "Raise a receiving bell upon its own footing and connect the stone to discharge demanding deep resonance into it; the bell may crack and nearby people face immense sound.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Đổi một nhịp đời",
+        "name_en": "Exchange a Living Beat",
+        "description_vi": "Người giữ tự nguyện giao một nhịp tim đã đánh dấu để kéo dài một khoản cứu người quá sức, rồi nằm xuống nhận nhịp trả; lần trao có thể làm họ kiệt sức hoặc chết nếu cơ thể không chịu được.",
+        "description_en": "The keeper may freely offer a marked heartbeat to extend an overwhelming rescue debt, then lie down to receive its return; the exchange can exhaust or kill a body unable to bear it.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Để tai họa qua",
+        "name_en": "Let the Calamity Pass",
+        "description_vi": "Sau khi mở đủ lối cứu, tháo dấu trì ở một vùng đã bỏ trống để tai họa được hoàn tất tại đó, thay vì tiếp tục kéo nợ sâu vào đá.",
+        "description_en": "After rescue routes are clear, remove the holding mark from an evacuated region and let the calamity finish there rather than drive its debt deeper into the stone.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Niêm tiếng cuối",
+        "name_en": "Seal the Final Sound",
+        "description_vi": "Đặt đá đã trả các khoản dùng vào hộp có mặt nhận riêng và một khoảng trống trước nó, giữ phần âm gốc khỏi vô tình chọn người mở hộp; niêm cần được kiểm sau mỗi lần chuyển.",
+        "description_en": "Box the stone after settling use debts with a dedicated receiving face and space before it so its founding sound does not casually select the opener; inspect the seal after every move.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      },
+      {
+        "name_vi": "Nghe đủ rồi buông",
+        "name_en": "Hear It Through and Release",
+        "description_vi": "Một ghi chép chưa được xác nhận mô tả việc đưa đá về nền tháp cũ, trả đầy đủ tiếng chuông gốc và để vết kim khép từ tâm ra ngoài; bản chép kết thúc trước khi nói người thực hiện đã trở về.",
+        "description_en": "An unverified account describes returning the stone to its old tower footing, repaying the entire founding peal and letting scars close from centre to rim; the account ends before stating whether its keeper returned.",
+        "group_vi": "Tiếng chuông dưới đá",
+        "group_en": "The Bell Beneath the Stone"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hậu quả còn biết đường",
+        "name_en": "The Consequence Knows Its Way",
+        "description_vi": "Vật bị dời trong khoảng nợ vẫn còn quan hệ với cú đến của nó. Trả sai nơi khiến hậu quả tìm đường gần nhất về vật đã đánh dấu, đôi khi qua chính người giữ.",
+        "description_en": "An object moved within a debt still belongs to its approaching consequence. Repayment at the wrong place makes it seek the nearest way back to the marked object, sometimes through the keeper."
+      }
+    ]
+  }
+]

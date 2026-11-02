@@ -1,0 +1,290 @@
+[
+  {
+    "id": "phenomenon-inward-dew",
+    "mode": "prepend",
+    "lore_vi": "Người thợ thay kính ba lần rồi giữ lại khung cũ, nhận ra điều dị thường nằm trong một chỗ trống.",
+    "lore_en": "After replacing the glass three times, the craftsman kept its old frame: the anomaly occupied an absence."
+  },
+  {
+    "id": "phenomenon-the-standing-ashline",
+    "mode": "prepend",
+    "lore_vi": "Người quét lò lùa tro xuống rồi nhìn một dải bụi đứng dậy, như việc dọn dẹp vừa bị từ chối.",
+    "lore_en": "A furnace-sweeper brushed the ash away and watched it stand again, refusing his labour."
+  },
+  {
+    "id": "phenomenon-the-slow-light-pool",
+    "mode": "prepend",
+    "lore_vi": "Học trò che đèn chơi trốn tìm đã thấy sàn còn giữ mắt sáng thêm một nhịp.",
+    "lore_en": "A pupil hiding a lamp during a game saw the floor keep its bright eye a beat longer."
+  },
+  {
+    "id": "phenomenon-the-timber-scent-corner",
+    "mode": "prepend",
+    "lore_vi": "Người coi kho ghé góc trống mỗi sáng, ngửi mùi một thân cây đã bị chở đi từ lâu.",
+    "lore_en": "Every morning the keeper visited the empty corner to smell timber carted away long before."
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "mode": "prepend",
+    "lore_vi": "Dấu giày khô hiện trên bậc đã lau khiến người gác quay đầu trước khi nghe cửa khép.",
+    "lore_en": "Dry footprints on washed stone made the watchman turn before the door shut."
+  },
+  {
+    "id": "phenomenon-ticks-in-the-mortar",
+    "mode": "prepend",
+    "lore_vi": "Người thợ dỡ chiếc đồng hồ để sửa rồi ngồi nghe bức tường tiếp tục thay nó làm việc.",
+    "lore_en": "A craftsman removed the clock for repair and listened as the wall carried on its duty."
+  },
+  {
+    "id": "phenomenon-the-window-dust-ring",
+    "mode": "prepend",
+    "lore_vi": "Thợ đóng sách nhìn bụi giấy vẽ lại đường gió, nhớ những trang mình đã cắt bỏ.",
+    "lore_en": "A binder watched paper-dust draw the draught and remembered discarded pages."
+  },
+  {
+    "id": "phenomenon-the-nails-offset-shadow",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ dựng đinh lên ô sàn, thấy cái bóng nhỏ nhất phòng tự chọn một hướng khác.",
+    "lore_en": "A child stood a nail upon the tile and saw the room's smallest shadow choose another direction."
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "mode": "prepend",
+    "lore_vi": "Người làm sân mang viên gạch đi rồi quay lại, thấy mưa vẫn tìm đúng chỗ viên gạch từng nằm.",
+    "lore_en": "A yard-worker removed the brick and returned to find rain still seeking its former place."
+  },
+  {
+    "id": "phenomenon-the-under-table-draught",
+    "mode": "prepend",
+    "lore_vi": "Đôi găng rửa sạch hong khô đúng nơi một chiếc bàn không còn đứng, như được bàn tay cũ tiếp tục chăm.",
+    "lore_en": "Washed gloves dried where a vanished table had stood, as though its old hands still tended them."
+  },
+  {
+    "id": "phenomenon-lamplight-pollen",
+    "mode": "prepend",
+    "lore_vi": "Người quét lớp học đợi bụi vàng rơi, tới lúc tắt đèn mới hiểu mình sẽ chẳng hứng được hạt nào.",
+    "lore_en": "A school-sweeper waited for gold dust to settle and learnt only at lamplight's end that none could be caught."
+  },
+  {
+    "id": "phenomenon-the-spoons-quiet-gap",
+    "mode": "prepend",
+    "lore_vi": "Người đầu bếp thử từng bát, phát hiện chỗ im vẫn chờ ở ô đá sau khi cả chồng bát đã được dời.",
+    "lore_en": "The cook tried every bowl and found the silence awaiting them after the stack had gone."
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "mode": "prepend",
+    "lore_vi": "Người dệt đã mang khung đi, còn đường nắng giữ nguyên độ căng giữa hai dấu chốt rỗng.",
+    "lore_en": "The weaver took the loom; sunlight retained its tension between empty peg-marks."
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "mode": "prepend",
+    "lore_vi": "Một gợn nước sống lâu hơn bàn tay đã tạo nó, để người gánh nước quay lại nhận ra chính dấu mình.",
+    "lore_en": "A ripple outlived its making hand, allowing the returning water-carrier to recognise his own trace."
+  },
+  {
+    "id": "phenomenon-the-dewless-step",
+    "mode": "prepend",
+    "lore_vi": "Người đưa thư đặt giấy ở thềm khô rồi phải vuốt nước trên hai cạnh như chia chỗ ngồi cho sương.",
+    "lore_en": "A courier set paper on the dry threshold and wiped its wet edges as though making room for dew."
+  },
+  {
+    "id": "phenomenon-sound-along-the-beam",
+    "mode": "prepend",
+    "lore_vi": "Người thợ thay dầm đã đánh dấu chỗ sáng trên nền, giữ một ghế trống cho tiếng gõ của gỗ mới.",
+    "lore_en": "The beam-replacer marked the light's place and left an empty seat for the new timber's knock."
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "mode": "prepend",
+    "lore_vi": "Người trực kho ngẩng lên giữa những bông tuyết rơi trong nhà kín, giơ tay như thử xem mái còn ở đó.",
+    "lore_en": "Beneath indoor snow, the warehouse watchman raised a hand as though checking the roof still existed."
+  },
+  {
+    "id": "phenomenon-the-last-sentence-passage",
+    "mode": "prepend",
+    "lore_vi": "Người tu sĩ quay lưng sau lời chào, nghe chính mình gọi lại từ đoạn hành lang không ai đứng.",
+    "lore_en": "A monk turned after his farewell and heard himself called back from an empty passage."
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "mode": "prepend",
+    "lore_vi": "Những lá xanh được đặt lên sân lần lượt khoác bóng úa, khiến người trồng nhìn cây như nhìn trước một cuộc chia tay.",
+    "lore_en": "Green leaves placed upon the yard took ageing shadows, making their grower see a farewell waiting within them."
+  },
+  {
+    "id": "phenomenon-the-shallow-mirror-inlet",
+    "mode": "prepend",
+    "lore_vi": "Người gác bến bị ốm vẫn đọc được triều trên nền sân, đặt ghế vào cạnh một vịnh không có nước.",
+    "lore_en": "A sick harbour-watchman read the tide on his courtyard and set a chair beside a waterless bay."
+  },
+  {
+    "id": "phenomenon-the-heat-holding-fold",
+    "mode": "prepend",
+    "lore_vi": "Thợ lò đẩy ghế vào góc tối sau ca dài, nhận hơi ấm được căn phòng để dành từ trước.",
+    "lore_en": "After a long watch the stoker drew his chair into warmth the room had saved."
+  },
+  {
+    "id": "phenomenon-the-twice-coughed-room",
+    "mode": "prepend",
+    "lore_vi": "Người trông phòng đếm hai dấu sương trước khi chấp nhận mình vẫn chỉ có một hơi thở.",
+    "lore_en": "The keeper counted two mist-marks before accepting that he still had only one breath."
+  },
+  {
+    "id": "phenomenon-the-undried-inkline",
+    "mode": "prepend",
+    "lore_vi": "Người chép bàn giao chỗ nét sáng trong không khí, như bàn giao phần công việc vẫn chưa chịu khô.",
+    "lore_en": "A copyist handed over the luminous line in air like unfinished work unwilling to dry."
+  },
+  {
+    "id": "phenomenon-the-brass-night-ring",
+    "mode": "prepend",
+    "lore_vi": "Kèn đã được mang đi, còn vòng đêm trên tường giữ chỗ một nhạc cụ khác đến thử giọng.",
+    "lore_en": "The horn departed; its night-ring reserved room for another instrument to try its voice."
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "mode": "prepend",
+    "lore_vi": "Người nhổ cây đặt chậu mới lên dấu rễ, thấy dưới đất cũng có một cách giữ hình người tới trước.",
+    "lore_en": "A gardener set a new pot upon the root-mark and saw that ground too could retain a predecessor's form."
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "mode": "prepend",
+    "lore_vi": "Một phút mưa đi ngang khiến người ở dưới vòm nghiêng đầu theo, như trần nhà vừa đổi hướng đất.",
+    "lore_en": "One minute of sideways rain tilted every watching head, as though the roof had changed earth's direction."
+  },
+  {
+    "id": "phenomenon-the-flower-colour-chamber",
+    "mode": "prepend",
+    "lore_vi": "Người nhuộm tháo hết hoa khỏi phòng mà tường vẫn mang sắc ấy tới cuối buổi, như một bàn tay dính màu.",
+    "lore_en": "The dyer removed the flowers; the walls wore their colour until evening like stained hands."
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "mode": "prepend",
+    "lore_vi": "Thợ tháo bể dừng việc khi nghe hốc đá còn rót nước, rồi đặt một chén khô dưới tiếng chảy.",
+    "lore_en": "The dismantler paused at water still pouring in the hollow and set a dry cup beneath its sound."
+  },
+  {
+    "id": "phenomenon-the-slow-shadow-length",
+    "mode": "prepend",
+    "lore_vi": "Người đo nắng chuyển mẫu rồi thấy bóng còn nán, như vật đã bước trước phần thuộc về mình.",
+    "lore_en": "A surveyor moved the sample and watched its shadow linger, as though the thing had outrun its own belonging."
+  },
+  {
+    "id": "phenomenon-the-wall-less-vapour-cage",
+    "mode": "prepend",
+    "lore_vi": "Người dỡ vách bước vào lớp hơi còn mang hình căn buồng, hiểu có những ngôi nhà mất gạch trước khi chịu mất bên trong.",
+    "lore_en": "A wall-breaker entered vapour retaining the room's shape: some houses lose their bricks before surrendering their inside."
+  },
+  {
+    "id": "phenomenon-the-needletrace-mist",
+    "mode": "prepend",
+    "lore_vi": "Đường kim nằm trong sương sau khi tay dừng, cho người học việc thấy cả chỗ mình đã run.",
+    "lore_en": "The needle's mist-trace survived the hand, showing an apprentice even his tremor."
+  },
+  {
+    "id": "phenomenon-the-borrowed-dusk-window",
+    "mode": "prepend",
+    "lore_vi": "Người coi kho mở cửa quay vào bức tường đỏ, đón hoàng hôn qua ô cửa chẳng còn nhìn thấy trời.",
+    "lore_en": "The keeper opened towards a red wall, receiving sunset through a window that no longer saw sky."
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "mode": "prepend",
+    "lore_vi": "Nước mới nhận lại cùng một cơn gió, còn người ngồi bờ phải học cách nhận ra gợn đã từng qua mắt mình.",
+    "lore_en": "New water received the same wind while its shore-watcher learnt to recognise a ripple already seen."
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "mode": "prepend",
+    "lore_vi": "Học trò đi bằng ngón tay trên các bậc sáng, nối tai mình với mắt trước khi đánh lại gam.",
+    "lore_en": "A pupil walked fingers up the light-steps, joining ear to eye before playing the scale again."
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "mode": "prepend",
+    "lore_vi": "Hai tán bóng đứng cạnh nhau dưới cây nhỏ, như một mùa đã qua chịu ngồi cùng mùa còn sống.",
+    "lore_en": "Two canopies stood beside the sapling like a departed season sitting with a living one."
+  },
+  {
+    "id": "phenomenon-the-chamber-of-lit-fissures",
+    "mode": "prepend",
+    "lore_vi": "Thợ thử đá tắt bớt đèn để đường rạn chịu hiện, đổi khoảng sáng mình quen lấy một điều đang vỡ.",
+    "lore_en": "A stone-tester dimmed his lamp to see the fracture, exchanging familiar light for the sight of breaking."
+  },
+  {
+    "id": "phenomenon-the-silence-between-two-bells",
+    "mode": "prepend",
+    "lore_vi": "Giữa hai chuông, người học việc nghe một khoảng im có cạnh, rồi bước vòng thay vì bước qua nó.",
+    "lore_en": "Between the bells, an apprentice heard an edged silence and walked around rather than through it."
+  },
+  {
+    "id": "phenomenon-the-curtain-of-past-rain",
+    "mode": "prepend",
+    "lore_vi": "Người đứng dưới hiên khô đưa tay vào hình mưa, thấy da vẫn khô mà ký ức lạnh đã kịp trở về.",
+    "lore_en": "A watcher reached into remembered rain with a dry hand and felt cold remembrance arrive first."
+  },
+  {
+    "id": "phenomenon-the-lettershadow-table",
+    "mode": "prepend",
+    "lore_vi": "Người chép nhấc tờ gốc, để bóng chữ chờ bản sao như một người thầy còn cúi bên bàn.",
+    "lore_en": "A copyist lifted the original, leaving letter-shadows awaiting their copy like a teacher bent over the desk."
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "mode": "prepend",
+    "lore_vi": "Người dẫn nước nhìn hai dòng gặp nhau dưới bóng đèn, thấy đường ranh của nóng lạnh chạy ngược ánh mình vẫn tin.",
+    "lore_en": "The water-worker watched warm and cold meet, their boundary running against the lamplight he had trusted."
+  },
+  {
+    "id": "phenomenon-night-within-one-room",
+    "mode": "prepend",
+    "lore_vi": "Người trông đài tháo mái che rồi lắp lại, còn đêm cũ vẫn nằm trên trần như một con mắt đã quên chớp. Mỗi khoảng chưa đo giữ nguyên tối đen giữa các sao đã ghi.",
+    "lore_en": "The observatory keeper removed and restored the cover, but an old night remained like an eye forgetting to blink. Unmeasured spaces stayed dark among recorded stars."
+  },
+  {
+    "id": "phenomenon-the-river-of-one-survey",
+    "mode": "prepend",
+    "lore_vi": "Các đoạn sông khác thời hiện tách sắc, để người đi vòng nhìn thấy những lần nước đã đổi ý. Người đo giữ một khúc còn trống cho nơi mình chưa đủ sức đi tới.",
+    "lore_en": "River-sections from different dates rose in separate colours, revealing water's changed decisions. The surveyor left one reach empty for ground he had yet to traverse."
+  },
+  {
+    "id": "phenomenon-the-old-footfall-corridor",
+    "mode": "prepend",
+    "lore_vi": "Nhịp chân cuối cùng trước khi khóa cửa đi mãi trong hành lang mà chẳng mang một người theo sau. Người gác mới phải nghe đủ lượt mới dám tự đặt bước mình lên đó.",
+    "lore_en": "The final recorded watch walked the corridor without bringing a person. Its new keeper listened through before daring to add his own tread."
+  },
+  {
+    "id": "phenomenon-the-stone-chord-vault",
+    "mode": "prepend",
+    "lore_vi": "Trong phòng nhạc xây dở, ba lớp âm vẫn tìm đường giữ một mái vòm đã mất đá trang trí. Người nghe đứng đúng chỗ các thợ từng dự định đặt hàng ghế đầu.",
+    "lore_en": "Within the unfinished music-room, three layers of sound sustained a vault stripped of ornament. Listeners stood where its builders had planned the first seats."
+  },
+  {
+    "id": "phenomenon-winter-within-the-wall-niche",
+    "mode": "prepend",
+    "lore_vi": "Người sưởi phòng phát hiện hốc vẫn giữ băng, còn vành tường quanh nó lạnh dần như một bàn tay đang gánh việc giữ mùa. Đá mới thay vào cũng nhận công việc ấy.",
+    "lore_en": "The warmed room retained an icy recess while its wall-rim cooled like a hand carrying a season. Replacement stone inherited the same duty."
+  },
+  {
+    "id": "phenomenon-the-manuscript-mist-layer",
+    "mode": "prepend",
+    "lore_vi": "Các nét xóa trở lại thành ba tầng sương trên bàn, khiến một trang giấy có bề sâu của những lần người viết đổi lòng. Người xem phải cúi theo độ sáng để tìm đúng thứ tự.",
+    "lore_en": "Erased strokes returned in three mist-layers, giving one page the depth of its writer's revisions. Brightness guided the reader through their order."
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "mode": "prepend",
+    "lore_vi": "Một gang tay dưới sân kín, biển trải phẳng trong khi đầu dây đo vẫn chạm nền đá. Người thủy thủ đặt hai chân lên đất khô để học lại con sóng không thể làm mình ướt.",
+    "lore_en": "A handspan below the sealed yard, sea spread while a sounding-line still touched stone. A sailor stood dry-footed to study a wave unable to wet him."
+  },
+  {
+    "id": "phenomenon-the-passage-of-vanished-scents",
+    "mode": "prepend",
+    "lore_vi": "Vách kho đã dỡ, mùi từng gian vẫn phân ranh trong lối đi. Người cũ nhắm mắt đi qua để nhận lại từng căn phòng bằng điều mắt đã thôi tìm thấy.",
+    "lore_en": "The partitions vanished, but each room's scent retained its border. A former keeper walked blindfolded through rooms his eyes could no longer find."
+  }
+]

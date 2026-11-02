@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-silverturn-leaf",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Cây bụi mọc sát nơi người đào khoáng rửa tay. Bùn từ những viên đá dị thường ngấm qua đất, kết thành các đốm bạc dưới mặt lá. Sau một mùa, mặt nhạt của mọi lá non đều xoay về chiếc máng, dù ánh sáng chiếu từ phía ngược lại.\n\nNgười học trò giấu một mảnh khoáng trong nhẫn và bị cành lá vạch ra trước cả khi thầy lục túi. Cây được đem trồng trong chậu đất sạch; lá mới vẫn bạc. Dường như nó đã học một kiểu hướng sáng dành cho thứ mắt người chỉ thấy như đá bình thường.",
+    "lore_en": "A shrub grew beside the place where mineral diggers washed their hands. Mud from anomalous stones entered the soil and formed silver specks beneath its leaves. After one season, every young leaf turned its pale face towards the wash trough despite light coming from the opposite side.\n\nA pupil hid a mineral chip in a ring and was betrayed by a branch before his master searched a pocket. The shrub was transplanted into clean earth; new leaves remained silver. It seemed to have learnt a kind of light-seeking for something human eyes saw only as ordinary stone.",
+    "use_vi": "Hỗ trợ tìm mẫu nghi chứa Vestigium ở khoảng cách rất gần trên bàn phân loại.",
+    "use_en": "Help locate suspected Vestigium specimens at close range on a sorting bench.",
+    "limits_vi": "Tầm phản ứng khoảng một bàn tay, cành cắt chỉ giữ được một buổi. Nhiều mẫu làm lá quay lưỡng lự; một số Vestigium vẫn chưa từng gây phản ứng.",
+    "limits_en": "Its reach is roughly a handspan and a cut branch lasts half a day. Multiple specimens make leaves waver; some Vestigium have never elicited a response.",
+    "skills": [
+      {
+        "name_vi": "Úp bạc",
+        "name_en": "Turn the Silver",
+        "description_vi": "Đưa từng mẫu tới cành sống và xoay chậu để xem mặt bạc có tiếp tục tìm về cùng mẫu; chỉ nhận dấu sau khi đã thử lại từ hướng khác.",
+        "description_en": "Bring specimens singly beside a living branch and turn its pot to see whether the silver face keeps seeking the same one; accept the indication only after repeating from another direction."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lá nhận ánh lạ",
+        "name_en": "Leaves Seek a Stranger Light",
+        "description_vi": "Lá non phản ứng rõ hơn lá già. Người phân loại giữ cây đối chứng vì sức cây cũng ảnh hưởng góc quay.",
+        "description_en": "Young leaves respond more clearly than old ones. Sorters keep a reference plant because plant health also affects the turning angle."
+      }
+    ]
+  }
+]

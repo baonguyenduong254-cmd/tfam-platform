@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-da-phan-mach",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Đá Phân Mạch từng là phần quặng bỏ cạnh một mạch kim loại có những nhánh trắng như rễ cây. Người đập quặng dùng búa gỗ vì búa sắt luôn trượt khỏi đúng điểm cần chẻ. Qua nhiều lượt gõ, các vết nứt bắt đầu tìm đến kim loại trước khi lưỡi búa tới, rồi mặt cắt mới hiện những nhánh trắng đang tự co lại.\n\nMột mảnh giữ được thói ấy sau khi đem ra ngoài núi. Mạch của nó nhận các đường kim loại khác bằng ánh xanh mỏng, và một cú gõ đúng nhịp khiến đường chẻ đi theo ánh đó. Phần quặng bị bỏ đã mang về xưởng một cách chọn đường của thứ từng sống như rễ dưới lòng đá.",
+    "lore_en": "Vein-Parting Stone began as discarded ore beside metal-veins with white rootlike branches. Wooden hammers were used because iron heads slipped from the splitting point. Repeated blows made cracks seek metal ahead of the hammer; fresh cuts revealed the white branches withdrawing.\n\nA fragment kept this habit outside the mountain. Its veins recognised other metal-paths in thin green light, and a properly timed blow sent splitting along them. Discarded ore had brought a rootlike underground thing’s choice of road into the workshop.",
+    "use_vi": "Tìm hướng mạch trong khối đang chạm và dẫn đường chẻ dọc một mạch đã chọn.",
+    "use_en": "Find veins within a contacting block and guide a split along one chosen vein.",
+    "limits_vi": "Mạch từ nhiều khối ghép không thành một bản đồ chung. Gõ nhịp sai có thể đưa khe qua cả dụng cụ kim loại đang chạm khối; người giữ cần tách tay khỏi đường chẻ.",
+    "limits_en": "Joined blocks do not form one continuous map. A mistimed blow may send fracture through a contacting metal tool; hands must clear its route.",
+    "skills": [
+      {
+        "name_vi": "Nhận đường kim",
+        "name_en": "Find the Metal-Path",
+        "description_vi": "Áp đá vào khối quặng để ánh mỏng lần theo mạch liên tục trong phần tiếp xúc. Nó có thể nhận cả kim loại được giấu sau, nên phải tự biết đâu là quặng thật.",
+        "description_en": "Press to ore so light follows connected metal within contact. Hidden added metal may also answer and requires interpretation."
+      },
+      {
+        "name_vi": "Chẻ theo rễ",
+        "name_en": "Split Along the Root",
+        "description_vi": "Giữ đường đã sáng rồi gõ búa gỗ theo nhịp nó trả; khe chẻ men theo mạch. Mạch ngắt đột ngột làm khe tìm điểm kim loại gần nhất.",
+        "description_en": "Hold a lit path and match its returning rhythm with wooden blows. The split follows it; an interrupted vein sends the crack towards nearby metal."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Rễ còn trong quặng",
+        "name_en": "Roots Within Ore",
+        "description_vi": "Bụi trắng trên mặt mới cắt rút vào mạch khi nghe búa gỗ, dù mẫu không còn nối với vỉa ban đầu.",
+        "description_en": "White dust withdraws into a fresh-cut vein at wooden hammer-sound even when detached from its seam."
+      }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "castilian_empire",
+    "source_slide": "cast_div",
+    "name_en": "CASTILIAN CROWN ARMY",
+    "doctrine_en": "Standardisation · Decentralised Command · Combined Arms · Reproducible Vestigium",
+    "lore_en": "The Castilian Crown rebuilds military strength around systems ordinary soldiers can reproduce. Mission command keeps units fighting after officers fall, while standardised equipment links infantry, cavalry, engineers and artillery through shared drill and logistics. Vestigium specialists analyse and contain threats with repeatable field methods. Conquistadores supply independent assault power, and the numbered Royal Guard remains an exceptional royal reserve. The reform’s foundation is an army whose everyday organisation can survive the loss of extraordinary individuals.",
+    "quote_en": "The system survives the hero."
+  },
+  {
+    "id": "sultanate_of_morocco",
+    "source_slide": "moor_div",
+    "name_en": "MOORISH CALIPHATE",
+    "doctrine_en": "Mobility · Fieldcraft · Intelligence · Distributed Logistics",
+    "lore_en": "The Moorish Caliphate shapes campaigns through mobility, intelligence and control of supply. Steady infantry holds ground while mountain marksmen, raiders and mounted troops exploit distance and difficult terrain. Camel formations extend reconnaissance and gunfire into the frontier; light artillery moves with the field army. Caravan corps sustain scattered forces with water, ammunition and repairs. Scouts and Hashashin prepare decisive encounters by disrupting the enemy’s information and movement, allowing the Caliphate to choose where its strength matters most.",
+    "quote_en": "Make the enemy arrive tired, blind and late."
+  },
+  {
+    "id": "songhai_empire",
+    "source_slide": "song_div",
+    "name_en": "SONGHAI RESTORATION",
+    "doctrine_en": "Horse · Thunder · Shock · Terror",
+    "lore_en": "The Songhai Restoration builds its army around the lesson of Tondibi: firearms must be mastered, and the killing ground must be crossed decisively. Aggressive fusiliers and massed field guns support cavalry screens, mounted gunners and armoured shock riders. Oathbound infantry and the Askia’s guard concentrate resolve at the critical moment. Forgemasters maintain Vestigium arms while ritual specialists support the field army. Songhai seeks a sudden convergence of fire, speed and terror that breaks resistance before the battle settles into attrition.",
+    "quote_en": "The decisive moment belongs to whoever reaches it first."
+  },
+  {
+    "id": "western_roman_empire",
+    "source_slide": "rome_div",
+    "name_en": "WESTERN ROMAN EMPIRE",
+    "doctrine_en": "Continuity · Assimilation · Mutation · Dread",
+    "lore_en": "Ravenna never abandoned the visual grammar of the fifth century. Its core legions still march beneath Late Roman crests, oval shields and imperial standards, yet the weapons in their hands belong to 1717. Around that ancient centre gather modern foederati, cult orders, mutants, revenants and engineered war-beasts. Rome did not refuse the centuries. It forced every new century to wear Roman clothes.",
+    "quote_en": "The Empire never ended. It only learned new ways to remain."
+  },
+  {
+    "id": "holy_french_kingdom",
+    "source_slide": "france_div",
+    "name_en": "HOLY FRANCE",
+    "doctrine_en": "Faith · Steel · Fire · Maneuver",
+    "lore_en": "France did not abandon chivalry when gunpowder matured. It engineered a military in which knightly armour, armour-piercing firearms, mobile artillery and Napoleon’s operational method reinforce one another. Gendarmes break what ordinary soldiers cannot; Black Musketeers kill what hides behind steel; the Grande Armée supplies the disciplined mass and movement that turns elite superiority into continental war.",
+    "quote_en": "Chivalry perfected. War reorganised."
+  },
+  {
+    "id": "habsburg_poland",
+    "source_slide": "hp_div",
+    "name_en": "HABSBURG-POLAND EMPIRE",
+    "doctrine_en": "Mastery · Courage · Endurance · Victory",
+    "lore_en": "The empire survives by asking exceptional people to carry impossible fronts. Its regiments are small by necessity, independent by habit and trusted to fight without supervision when roads, officers or neighbours disappear. Habsburg organisation gives structure; Polish martial tradition gives momentum. When these forces are finally concentrated instead of scattered from frontier to frontier, the mobilisation itself becomes a warning that Kraków has stopped trying merely to endure.",
+    "quote_en": "Few by necessity. Superior by tradition. Unstoppable in strength."
+  },
+  {
+    "id": "novgorod_union",
+    "source_slide": "nov_div",
+    "name_en": "NOVGOROD CONFEDERATION",
+    "doctrine_en": "Frost · Mass · Industry · Endurance",
+    "lore_en": "The Novgorod Confederation wages war through cold, volume and invention. Its armies field conscripts, rough winter veterans, frost ammunition, steam-driven war machines, sled artillery, Cossack raiders and organised polar-bear corps in quantities few rivals can match. Much of this arsenal is crude, fragile or excessive, but Novgorod compensates through production, climate mastery and persistence. When its true elite finally enters the field, the battlefield discovers that the north can manufacture excellence as readily as misery.",
+    "quote_en": "Freeze the field. Flood the line. Let the chosen finish the war."
+  },
+  {
+    "id": "ottoman_empire",
+    "source_slide": "ott_div",
+    "name_en": "OTTOMAN EMPIRE",
+    "doctrine_en": "Janissaries · Heavy Artillery · Imperial Scale · Conventional Supremacy",
+    "lore_en": "The Ottoman Empire fields one of the strongest conventional armies in TFAM, shaped by Turkish institutions, Himyarite inheritance and Egypt’s Mamluk tradition. Janissaries form the backbone, cavalry is deep, and artillery treats calibre and range as strategic virtues. Vestigium practice remains comparatively weak, so the empire compensates with disciplined soldiers, modern equipment, enormous guns and enough institutional depth to fight without miracles.",
+    "quote_en": "When miracles are scarce, make soldiers and cannon sufficient."
+  },
+  {
+    "id": "danes_kingdom",
+    "source_slide": "dan_div",
+    "name_en": "KINGDOM OF DANES",
+    "doctrine_en": "Out of Sight · Blue Severance · Extreme Mobility · Melee Supremacy",
+    "lore_en": "The Kingdom of Danes fuses four northern traditions into one predatory doctrine. Finnish camouflage hides the approach, Swedish fieldcraft chooses the road, Norwegian shock troops deliver the blade and Danish discipline holds captured ground. Mobile guns and light cavalry support the infantry core, while rare storm Vestigium arms selected batteries and warrior orders. Against the Danes, distance matters only if the enemy can find them before blue steel closes.",
+    "quote_en": "You will see the blue before you see the man."
+  },
+  {
+    "id": "scotland_ireland_union",
+    "source_slide": "sci_div",
+    "name_en": "SCOTLAND-IRELAND",
+    "doctrine_en": "Frozen Hearts · Endless March · Medieval Endurance · Unliving Discipline",
+    "lore_en": "Extreme Vestigium cold turned the people of Scotland and Ireland into Frost Walkers, intelligent undead with frozen hearts and bodies preserved by ice. Memory, language, clan identity and military discipline endure beyond death. They require no food and remain active through exposure that kills living soldiers. Their armies retain medieval armour, pikes, blades and primitive matchlocks. Militia, Highland formations, Irish raiders and ancient guards share an endurance that keeps technologically poor forces in the field long after their enemies must withdraw.",
+    "quote_en": "The cold killed Scotland. Scotland kept walking."
+  },
+  {
+    "id": "england_ruins",
+    "source_slide": "f11_div",
+    "name_en": "BRITISH RUINS",
+    "doctrine_en": "Exile · Discipline · Castilian Service · Maritime Skill",
+    "lore_en": "Britain's surviving regulars now fight under Castilian command. Their small force preserves professional drill, stubborn infantry discipline and a formidable tradition of marine warfare. They are not an independent field army; they are experienced allies whose loyalty and hard-won skill still matter.",
+    "quote_en": "A lost kingdom. A living regiment."
+  },
+  {
+    "id": "new_portuguese_empire",
+    "source_slide": "f12_div",
+    "name_en": "NEW PORTUGUESE EMPIRE",
+    "doctrine_en": "Oceanic Reach · Colonial Arms · Enduring Vestigium · Heavy Guns",
+    "lore_en": "The New Portuguese Empire joins regular European formations to allied and recruited forces across the Americas. Its soldiers are supported by capable artillery, enormous siege pieces and Vestigium treatments that improve endurance without making men immortal. Aztec, Maya and Apache traditions remain distinct, while black-ship expeditionaries project imperial force far beyond familiar ports.",
+    "quote_en": "The ocean is a road, not a border."
+  },
+  {
+    "id": "british_east_india_company",
+    "source_slide": "f13_div",
+    "name_en": "BRITISH EAST INDIA COMPANY",
+    "doctrine_en": "Capital · Chartered Vestigium · Indian Regiments · Privateer Warfare",
+    "lore_en": "The Company fields a wealthy, modern and meticulously supplied private army whose power extends beyond formal regiments. British professionals serve beside Indian regulars and elite guards, while the Chartered Hundred adapts Castilian numbered-Vestigium doctrine into replaceable corporate offices. Across the oceans, contracted freebooters from Europe, Asia, Africa and the Americas raid shipping, sabotage ports and fight wars the Company prefers not to declare. Contracts and profits shape strategy, but the institution has learned to turn both discipline and irregular violence into organised military tools.",
+    "quote_en": "A contract backed by cannon."
+  },
+  {
+    "id": "annam_empire",
+    "source_slide": "f14_div",
+    "name_en": "AN NAM EMPIRE",
+    "doctrine_en": "Rapid Decision · Extreme Endurance · Elephant Shock · Mass Artillery",
+    "lore_en": "An Nam seeks decisive victory by sustaining a pace of war that its enemies struggle to survive. Aggressive infantry and mass-produced artillery open the battle, elephant formations carry shock and mobile fire, while endurance cavalry raid far beyond the expected operational radius. Khmer, Lao, Siamese and Burmese auxiliaries add regional strengths; Tây Sơn Vestigium traditions convert momentum, loyalty and physical endurance into battlefield power. The army does not merely strike first—it is built to strike again before the enemy has recovered.",
+    "quote_en": "Arrive first. Strike hard. Recover before they do."
+  },
+  {
+    "id": "ming_celestial_empire",
+    "source_slide": "f15_div",
+    "name_en": "GREAT MING CELESTIAL DYNASTY",
+    "doctrine_en": "Imperial Spectacle · Vast Numbers · Borrowed Methods · Liangshan Immortals",
+    "lore_en": "The Ming court demands a formation for every imaginable kind of war, often copying foreign methods before mastering them. Elaborate banners, lavish guards, huge infantry levies and exotic weapons make its army appear inexhaustible, although quality and coordination vary wildly. Above that uneven mass stand the 108 Heroes of Liangshan, ageless champions whose golden Vestigium weapons and preserved martial prime give the dynasty an irreplaceable supernatural reserve.",
+    "quote_en": "For every threat, another banner."
+  },
+  {
+    "id": "nusantara_sultanate",
+    "source_slide": "f16_div",
+    "name_en": "NUSANTARA SULTANATE",
+    "doctrine_en": "Island Defence · Faith · Jungle Warfare · Maritime Ambush",
+    "lore_en": "Nusantara's Muslim sultanates defend their islands with coastal fortifications, jungle paths, river craft and troops who know every inlet. Their fighters excel when defending home terrain, using ambush and local supply to wear down invaders. Far from the islands they lose much of that advantage, making distant conquest their weakest form of war.",
+    "quote_en": "The islands remember every invader."
+  },
+  {
+    "id": "tokugawa_empire",
+    "source_slide": "f17_div",
+    "name_en": "JAPANESE EMPIRE",
+    "doctrine_en": "Tokugawa Legitimacy · Western Drill · Korean Auxiliaries · Clan Vestigium",
+    "lore_en": "The Japanese Empire retains Tokugawa authority while reorganising its army around European military theory. French operational ideas and Company-style professional training reshape infantry, artillery and marine arms, while conquered Korea supplies distinct musket, archery and assault auxiliaries rather than simple copies of Japanese troops. Older warrior houses survive as specialised elites: the Ii turn formation cohesion into crimson Vestigium resonance, while Shimazu rearguards draw unnatural strength from isolation and controlled withdrawal. Modern institutions command the army; older martial identities give it weapons reform alone could not create.",
+    "quote_en": "The old banner commands the new army."
+  },
+  {
+    "id": "eternal_sky_khanate",
+    "source_slide": "f18_div",
+    "name_en": "GREAT KHANATE OF THE ETERNAL SKY",
+    "doctrine_en": "Horse · Speed · Encirclement · Mandate of the Eternal Sky",
+    "lore_en": "The Great Khanate makes the horse the foundation of nearly every military function. Archers, lancers, mounted scouts and mobile guns cross open country at a pace foot armies cannot match. In rare generations a worthy Great Khan may also receive the Mandate of the Eternal Sky, allowing warriors and rulers remembered by the steppe to return in mortal flesh. These Returned Hosts bring ancient skill and enormous temporary manpower, but they bleed, die and suffer permanent losses like living soldiers. Terrain, fractured tribal unity and an unworthy ruler can still deny the khanate its greatest strengths.",
+    "quote_en": "When Heaven remembers, the grass begins to move."
+  },
+  {
+    "id": "safavid_empire",
+    "source_slide": "f19_div",
+    "name_en": "SAFAVID EMPIRE",
+    "doctrine_en": "Qizilbash · Ghulams · Firearms · Persian Cavalry",
+    "lore_en": "Safavid armies combine Qizilbash cavalry with professional ghulam households, tofangchi musketeers and artillery. Tribal riders supply mobile pressure, while royal corps give the shah a dependable centre for command and gunpowder warfare. Persian arms, patterned textiles and courtly service remain visible throughout the army. Court rivalry, uneven reform and demanding horse logistics complicate a force whose best results depend on bringing its prestigious cavalry and less celebrated firearm troops into one plan.",
+    "quote_en": "The shah's command rides with the red caps."
+  },
+  {
+    "id": "aksumite_empire",
+    "source_slide": "f20_div",
+    "name_en": "AKSUMITE EMPIRE",
+    "doctrine_en": "Highland Fortresses · Spear Traditions · Adapted Firearms · Royal Authority",
+    "lore_en": "Aksum’s revived imperial state defends the Ethiopian highlands through local spear musters, experienced shield infantry and dependable royal households. Curved swords, hide shields and woven layers retain regional martial identity, while carefully maintained trade firearms and a limited cannon arm support selected positions. Strongpoints and local route knowledge reward patient defence. The empire’s coastal detachments extend its reach toward the Red Sea, but scarce guns, transport and specialist labour constrain long campaigns.",
+    "quote_en": "The highlands remember their crown."
+  },
+  {
+    "id": "kongo_confederation",
+    "source_slide": "f21_div",
+    "name_en": "FEDERATION OF THE KINGDOMS OF KONGO",
+    "doctrine_en": "Archers · Shield Nobility · Provincial Muster · Firearms",
+    "lore_en": "Kongo's federated kingdoms retain strong provincial musters of archers and elite shield-bearing swordsmen while incorporating musketeers and imported firearms. Local chiefs supply troops, so leadership and logistics matter as much as royal authority. The federation's strength is a layered infantry army with deep regional roots rather than a copy of European line warfare.",
+    "quote_en": "Many kingdoms. One shield."
+  },
+  {
+    "id": "swahili_league",
+    "source_slide": "f22_div",
+    "name_en": "SWAHILI MARITIME LEAGUE",
+    "doctrine_en": "Ports · Trade Routes · Boarding Warfare · Coastal Guns",
+    "lore_en": "Swahili city-states protect their maritime wealth through armed dhow crews, port garrisons and merchant-backed guards. Their league favours sea lanes, coastal artillery, rapid landings and diplomacy over large inland conquests. Troops reflect Indian Ocean exchange without losing the distinctive culture of the East African coast.",
+    "quote_en": "The tide carries the league's banners."
+  },
+  {
+    "id": "cape_republic",
+    "source_slide": "f23_div",
+    "name_en": "FREE REPUBLIC OF THE CAPE OF GOOD HOPE",
+    "doctrine_en": "Frontier Mobility · Militia Firearms · Mixed Defence · Free Ports",
+    "lore_en": "The Cape republic survives by defending difficult frontier roads and a vital oceanic waypoint. Citizen commandos, professional garrison soldiers, local allies and coastal guns provide a flexible but modest military. Its army is strongest near its settlements and supply depots, where rapid musters and mobile shooting can compensate for limited numbers.",
+    "quote_en": "Free ground is defended, not granted."
+  },
+  {
+    "id": "merina_empire",
+    "source_slide": "f24_div",
+    "name_en": "MERINA OCEANIC EMPIRE",
+    "doctrine_en": "Highland Kingship · Island Mobilisation · Adapted Firearms · Maritime Reach",
+    "lore_en": "The Merina Oceanic Empire carries Madagascar’s highland kingship into a wider maritime state. Local spear musters and royal household troops serve beside coastal allies, selected musketeers and carefully maintained imported cannon. Woven dress and shield traditions remain distinct as the army learns to secure landings and sustain troops beyond familiar shores. Its reach depends on cooperation between highland authority, coastal crews and allied communities, with scarce firearms and limited expeditionary stores demanding deliberate commitments.",
+    "quote_en": "From the red earth to the open sea."
+  }
+]

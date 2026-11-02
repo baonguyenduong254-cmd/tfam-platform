@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-capillary-rose",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Hồng trắng mọc trong sân một thợ làm ống thủy tinh. Ông tưới nó bằng nước tráng những ống đã thử dịch khoáng đỏ; qua một mùa, gân hoa bắt đầu đổi hình theo dòng nước chạy trong ống để cạnh chậu. Cắt một cành mang sang nhà khác, gân mới vẫn chia nhánh quanh những đoạn dòng bị nghẽn, như một bản vẽ sống của đường chảy bên ngoài.\n\nNgười thợ trồng cây sau mặt kính để giữ dịch sạch. Khách tới xưởng nhìn bông hồng đỏ dần theo nước và nói căn nhà đã có mạch máu. Ông chỉ vào chỗ gân ngắt trên cánh rồi tháo đúng đoạn ống phía sau tường: ở đó mắc một chiếc răng sữa chưa ai nhớ đã rơi vào bể từ bao giờ.",
+    "lore_en": "White roses grew in a glass-pipe maker’s courtyard. He watered them with rinsings from tubes tested with red mineral fluid; after a season, their veins changed shape with water running through tubes beside the pots. Cuttings carried elsewhere still branched around interrupted flows, like living drawings of external channels.\n\nThe craftsman grew them behind glass to keep liquids clean. Visitors watched a rose redden with the water and said the house had acquired blood vessels. He pointed to a gap in a petal vein and opened the corresponding pipe behind the wall: it held a milk tooth nobody remembered losing into the tank.",
+    "use_vi": "Phản chiếu đường chảy trong một hệ ống gần để tìm gián đoạn, bọt khí và so các nhánh.",
+    "use_en": "Mirror flow in a nearby pipe system to locate interruptions, bubbles and compare branches.",
+    "limits_vi": "Cây cần nước sạch giữa các lượt, tránh cho dịch lạ chạm rễ. Nhiều hệ gần nhau tạo hình lẫn; gân cho biết chuyển động chứ thành phần dịch và tình trạng cơ thể cần cách xác định riêng.",
+    "limits_en": "The plant needs clean water between uses; keep unfamiliar fluids off its roots. Nearby systems superimpose patterns; veins reveal movement, while composition and bodily conditions require separate assessment.",
+    "skills": [
+      {
+        "name_vi": "Nhận một ống",
+        "name_en": "Accept One Pipe",
+        "description_vi": "Đặt cành cách một ống đang chảy một gang tay để gân nhận dòng đầu tiên, rồi tách các ống khác khỏi vùng đọc.",
+        "description_en": "Set a branch a handspan from a running pipe so its veins accept the first flow, then remove other pipes from the reading area."
+      },
+      {
+        "name_vi": "Vạch đầu dòng",
+        "name_en": "Mark the Inlet",
+        "description_vi": "Cho một bọt nước nhỏ đi từ đầu ống để tìm điểm sáng tương ứng trên cánh, dựng mốc đầu trước khi theo nhánh.",
+        "description_en": "Pass a small bubble from the inlet to locate its matching petal flash and establish the starting reference."
+      },
+      {
+        "name_vi": "Mạch ngắt",
+        "name_en": "The Broken Vein",
+        "description_vi": "Theo chỗ gân đỏ tắt để khoanh đoạn dòng ngừng trong hệ đã nhận; cần kiểm mốc vì ống rỗng cũng tạo dấu ấy.",
+        "description_en": "Follow a dark break in the red veins to narrow down a stopped section; check references since an empty pipe gives the same sign."
+      },
+      {
+        "name_vi": "Đốm bọt",
+        "name_en": "The Bubble Speck",
+        "description_vi": "Chiếu đèn sau cánh để thấy các đốm nhạt chạy giữa gân đỏ theo bọt trong ống, hỗ trợ tìm chỗ hút khí.",
+        "description_en": "Backlight a petal to see pale specks travelling through red veins with pipe bubbles, helping locate an air intake."
+      },
+      {
+        "name_vi": "So hai nhánh",
+        "name_en": "Compare Two Branches",
+        "description_vi": "Đặt hai cành cùng tuổi cạnh hai nhánh đã được nhận riêng để so nhịp chảy qua độ đầy gân; cành yếu cần thay trước phép so.",
+        "description_en": "Place equal-aged branches beside separately accepted pipe branches to compare flow cadence by vein fullness; replace weak growth first."
+      },
+      {
+        "name_vi": "Dòng lùi",
+        "name_en": "The Backward Flow",
+        "description_vi": "Ghi hướng vệt sáng trên cánh khi nước chạy thuận rồi so khi hệ hoạt động để nhận đoạn đang hồi; thay vị trí chậu buộc dựng mốc lại.",
+        "description_en": "Record the petal streak’s direction during forward flow, then compare operation to detect reversal; moving the pot requires new references."
+      },
+      {
+        "name_vi": "Giữ hình ngắt",
+        "name_en": "Hold the Interruption",
+        "description_vi": "Chạm cánh bằng que ẩm khi gân tắt để giữ hình ngắt thêm một lúc cho người khác xem; chạm lại hoặc tưới rễ xóa dấu.",
+        "description_en": "Touch a petal with a damp stick when its veins darken to retain the interruption briefly for another viewer; another touch or root watering clears it."
+      },
+      {
+        "name_vi": "Rửa mạch",
+        "name_en": "Wash the Veins",
+        "description_vi": "Cho cây nhìn một ống nước sạch chạy đều rồi dời cả ống lẫn cây ra xa hệ cũ để gân trả trắng trước lượt mới.",
+        "description_en": "Present a steady clean-water tube, then remove both tube and plant from the old system so its veins return white before fresh use."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cánh mang đường chảy",
+        "name_en": "Petals Carry the Flow",
+        "description_vi": "Đường gân trên một cành có thể đổi theo khoảng cách và cách đặt ống. Người đọc phải dựng mốc tương ứng trước khi tháo bất cứ đoạn nào.",
+        "description_en": "One branch’s vein map varies with pipe position and distance. Its reader must establish correspondences before opening any section."
+      }
+    ]
+  }
+]

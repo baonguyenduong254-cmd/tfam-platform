@@ -1,0 +1,108 @@
+import {mediaExists} from './media-assets.mjs';
+// Exercise the actual route handlers against SQLite, using a small D1 adapter.
+import {AsyncLocalStorage} from 'node:async_hooks';
+import fs from 'node:fs';import path from 'node:path';import vm from 'node:vm';import assert from 'node:assert/strict';import {createRequire} from 'node:module';import {DatabaseSync} from 'node:sqlite';import ts from 'typescript';import {createHash} from 'node:crypto';
+const require=createRequire(import.meta.url),sql=new DatabaseSync(':memory:');
+for(const file of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())sql.exec(fs.readFileSync('drizzle/'+file,'utf8'));
+const DB={prepare(query){let args=[];const stmt={bind(...a){args=a;return stmt;},async first(){return sql.prepare(query).get(...args)||null;},async all(){return {results:sql.prepare(query).all(...args)};},async run(){return {meta:sql.prepare(query).run(...args)};}};return stmt;},async batch(stmts){return Promise.all(stmts.map(s=>s.all()));}};
+const env={DB,TFAM_ADMIN_USERNAME:'test-admin',TFAM_ADMIN_PASSWORD_HASH:'synthetic-test-verifier'};
+let identityHeaders=new Headers();const requestIdentity=new AsyncLocalStorage();
+const modules=new Map();function load(file){file=path.resolve(file);if(modules.has(file))return modules.get(file).exports;const m={exports:{}};modules.set(file,m);const source=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;const local=(id)=>{if(id==='cloudflare:workers')return {env};if(id==='next/headers')return {headers:async()=>requestIdentity.getStore()||identityHeaders};if(id==='next/navigation')return {redirect:()=>{throw Error('Unexpected redirect');}};if(!id.startsWith('.'))return require(id);let p=path.resolve(path.dirname(file),id);if(p.endsWith('.json'))return JSON.parse(fs.readFileSync(p,'utf8'));if(!path.extname(p))p+='.ts';return load(p);};vm.runInThisContext('(function(require,module,exports){'+source+'\n})',{filename:file})(local,m,m.exports);return m.exports;}
+const route=load('app/api/engagement/[id]/route.ts'),summary=load('app/api/engagement/route.ts');const origin='https://tfam.test',ctx={params:Promise.resolve({id:'chapter_001'})};
+async function identity(){const r=await route.GET(new Request(origin+'/api/engagement/chapter_001'),ctx);assert.equal(r.status,200);return {cookie:r.headers.get('set-cookie').split(';')[0],...(await r.json())};}
+const a=await identity(),b=await identity();
+async function call(who,body,extra={}){return route.POST(new Request(origin+'/api/engagement/chapter_001',{method:'POST',headers:{origin,cookie:who.cookie,'x-reader-csrf':who.csrf,'cf-connecting-ip':'test-address',...extra},body:JSON.stringify(body)}),ctx);}
+assert.equal((await call(a,{action:'view'},{origin:'https://evil.test'})).status,403);
+assert.equal((await call(a,{action:'view'},{'x-reader-csrf':'forged'})).status,403);
+assert.equal((await call({...a,cookie:a.cookie+'broken'},{action:'view'})).status,403);
+assert.equal((await call(a,{action:'reaction',value:42})).status,400);
+for(let i=0;i<4;i++)assert.equal((await call(a,{action:'view'})).status,200);
+let total=await (await summary.GET()).json();assert.equal(total.total,1);assert.equal(total.chapters.chapter_001,1);
+await call(b,{action:'view'});assert.equal((await (await summary.GET()).json()).total,2);
+sql.prepare('UPDATE chapter_visits SET last_viewed_at=last_viewed_at-86401').run();await call(a,{action:'view'});assert.equal((await (await summary.GET()).json()).total,3);
+let x=await (await call(a,{action:'reaction',value:1})).json();assert.equal(x.stats.likes,1);
+x=await (await call(a,{action:'reaction',value:-1})).json();assert.equal(x.stats.likes,0);assert.equal(x.stats.dislikes,1);assert.equal(x.stats.reaction,-1);
+await call(b,{action:'reaction',value:1});x=await (await route.GET(new Request(origin+'/api/engagement/chapter_001',{headers:{cookie:a.cookie}}),ctx)).json();assert.equal(x.stats.reaction,-1);
+x=await (await call(a,{action:'reaction',value:0})).json();assert.equal(x.stats.dislikes,0);
+assert.equal((await call(a,{action:'comment',name:'Guest',body:'Guest comment rejected'})).status,401);
+console.log('PASS: migrations, view deduplication, reactions, signed cookies and CSRF; guest comments require sign-in.');
+const account=load('app/api/account/route.ts'),catalog=load('lib/accounts.ts'),reading=load('lib/reader-state.ts');
+for(const a of catalog.avatars){assert.ok(a.asset.startsWith('/portraits/'));assert.ok(mediaExists(a.asset));}
+const accountGet=who=>account.GET(new Request(origin+'/api/account',{headers:{cookie:who.cookie}}));
+const accountPost=(who,body,headers={})=>requestIdentity.run(new Headers(identityHeaders),()=>account.POST(new Request(origin+'/api/account',{method:'POST',headers:{origin,cookie:who.cookie,'x-reader-csrf':who.csrf,'cf-connecting-ip':'192.0.2.10',...headers},body:JSON.stringify(body)})));
+assert.equal((await accountPost(a,{action:'profile',name:'A',avatarId:catalog.avatars[0].id})).status,401);
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A','oai-authenticated-user-email':'private@example.test'});
+let snap=await (await accountGet(a)).json();assert.equal(snap.authenticated,true);assert.equal(snap.profile,null);assert.ok(!JSON.stringify(snap).includes('private@example.test'));
+assert.equal((await accountPost(a,{action:'profile',name:'Reader A',avatarId:'https://evil.test/image.png'})).status,400);
+assert.equal((await accountPost(a,{action:'profile',name:'Reader A',avatarId:catalog.avatars[0].id},{'x-reader-csrf':'bad'})).status,403);
+snap=await (await accountPost(a,{action:'profile',name:'Reader A',avatarId:catalog.avatars[0].id})).json();const idA=snap.profile.id;
+snap=await (await accountPost(a,{action:'profile',name:'A revised',avatarId:catalog.avatars[1].id})).json();assert.equal(snap.profile.id,idA);assert.equal(sql.prepare('SELECT COUNT(*) n FROM reader_accounts').get().n,1);
+await accountPost(a,{action:'visit',chapterId:'chapter_001',status:'read'});
+await accountPost(a,{action:'bookmark',chapterId:'chapter_001',kind:'favorite',value:true});
+await accountPost(a,{action:'bookmark',chapterId:'chapter_001',kind:'read_later',value:true});
+assert.equal((await accountPost(a,{action:'bookmark',chapterId:'chapter_001',kind:'avatar_id',value:true})).status,400);
+const checkpoint={version:1,chapterId:'chapter_001',title:'Untrusted title',lang:'vi',revision:0,paragraph:3,offset:.5,fraction:.2,savedAt:new Date().toISOString()};
+assert.equal((await accountPost(a,{action:'checkpoint',checkpoint:{...checkpoint,offset:99}})).status,400);
+await accountPost(a,{action:'checkpoint',checkpoint});
+snap=await (await accountGet(b)).json();assert.equal(snap.profile.id,idA);assert.equal(snap.progress[0].status,'read');assert.equal(snap.progress[0].favorite,true);assert.equal(snap.progress[0].readLater,true);assert.equal(snap.progress[0].checkpoint.paragraph,3);assert.notEqual(snap.progress[0].checkpoint.title,'Untrusted title');
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-B','oai-authenticated-user-email':'b@example.test'});
+snap=await (await accountGet(b)).json();assert.equal(snap.profile,null);assert.equal(snap.progress.length,0);
+assert.equal((await accountPost(b,{action:'bookmark',chapterId:'chapter_001',kind:'favorite',value:true})).status,409);
+snap=await (await accountPost(b,{action:'profile',name:'Reader B',avatarId:catalog.avatars[0].id})).json();const idB=snap.profile.id;assert.notEqual(idA,idB);
+await accountPost(b,{action:'bookmark',accountId:idA,chapterId:'chapter_002',kind:'favorite',value:true});
+assert.equal(sql.prepare('SELECT COUNT(*) n FROM reader_progress WHERE account_id=? AND chapter_id=?').get(idA,'chapter_002').n,0);
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A','oai-authenticated-user-email':'private@example.test'});
+sql.prepare('DELETE FROM reader_rate_limits').run();
+let response=await call(a,{action:'comment',name:'Forged name',body:'Account discussion'});assert.equal(response.status,200);let accountComment=(await response.json()).comments.items[0];assert.equal(accountComment.display_name,'A revised');assert.equal(accountComment.avatar,catalog.avatars[1].asset);const ownedId=accountComment.id;
+let across=await (await route.GET(new Request(origin+'/api/engagement/chapter_001',{headers:{cookie:b.cookie}}),ctx)).json();assert.equal(across.comments.items.find(c=>c.id===ownedId).canDelete,true);
+await call(a,{action:'reaction',value:-1});
+identityHeaders=new Headers();assert.equal((await call(a,{action:'comment',name:'Guest A',body:'Guest discussion to claim'})).status,401);await call(a,{action:'reaction',value:1});
+const beforeClaim=(await (await summary.GET()).json()).total;
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A','oai-authenticated-user-email':'private@example.test'});
+const oldCheckpoint={...checkpoint,savedAt:new Date(Date.now()-60000).toISOString(),paragraph:1};
+response=await accountPost(a,{action:'claim',history:[{chapterId:'chapter_001',status:'reading',visitedAt:new Date(Date.now()-60000).toISOString()}],checkpoint:oldCheckpoint});assert.equal(response.status,200);snap=await response.json();assert.equal(snap.progress.find(c=>c.chapterId==='chapter_001').status,'read');assert.equal(snap.progress.find(c=>c.chapterId==='chapter_001').checkpoint.paragraph,3);
+assert.equal(sql.prepare('SELECT COUNT(*) n FROM chapter_comments WHERE body=?').get('Guest discussion to claim').n,0);
+assert.equal((await (await summary.GET()).json()).total,beforeClaim);
+await accountPost(a,{action:'claim',history:[],checkpoint:null});assert.equal((await (await summary.GET()).json()).total,beforeClaim);
+across=await (await route.GET(new Request(origin+'/api/engagement/chapter_001',{headers:{cookie:b.cookie}}),ctx)).json();assert.equal(across.stats.reaction,-1);
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-B','oai-authenticated-user-email':'b@example.test'});
+const blockedDelete=await route.DELETE(new Request(origin+'/api/engagement/chapter_001?comment='+ownedId,{method:'DELETE',headers:{origin,cookie:a.cookie,'x-reader-csrf':a.csrf,'cf-connecting-ip':'192.0.2.10'}}),ctx);assert.equal(blockedDelete.status,200);assert.ok(sql.prepare('SELECT id FROM chapter_comments WHERE id=?').get(ownedId));
+assert.notEqual(catalog.scopedReaderKey('position',idA),catalog.scopedReaderKey('position',idB));
+assert.equal(catalog.mergeAccountHistory([{chapterId:'chapter_001',status:'reading',visitedAt:'2020-01-01T00:00:00Z'}],[{chapterId:'chapter_001',status:'read',visitedAt:Date.now()}])[0].status,'read');
+console.log('PASS: account auth boundary, closed avatar allowlist/assets, profile upsert, private identity, cross-device checkpoint/shelf, per-account isolation, anonymous claim idempotence, current reactions, comment identity/avatar and deletion ownership.');
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A','oai-authenticated-user-email':'changed@example.test'});
+const renewedCheckpoint={...checkpoint,savedAt:new Date().toISOString(),paragraph:8};
+const sync=await accountPost(a,{action:'sync',history:[{chapterId:'chapter_002',status:'read',visitedAt:new Date().toISOString()}],checkpoint:renewedCheckpoint});assert.equal(sync.status,200);const synced=await sync.json();assert.equal(synced.profile.id,idA);assert.equal(synced.progress.find(p=>p.chapterId==='chapter_001').checkpoint.paragraph,8);assert.equal(synced.progress.find(p=>p.chapterId==='chapter_002').status,'read');
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A'});assert.equal((await (await accountGet(a)).json()).authenticated,false);
+console.log('PASS: reconnect sync and stable platform identity; identity requires both trusted platform headers.');
+// A persistent, atomic cap applies only when creating a new TFAM profile.
+const signup=(n,ip,extra={})=>{identityHeaders=new Headers({'oai-authenticated-user-id':'quota-'+n,'oai-authenticated-user-email':n+'@example.test'});return accountPost(a,{action:'profile',name:'Quota '+n,avatarId:catalog.avatars[0].id},{'cf-connecting-ip':ip,...extra});};
+for(let n=1;n<=3;n++)assert.equal((await signup(n,'198.51.100.20')).status,200);
+assert.equal((await signup(4,'198.51.100.20',{'x-forwarded-for':'198.51.100.99'})).status,429);
+assert.equal((await signup(1,'198.51.100.20')).status,200);
+assert.equal(sql.prepare('SELECT COUNT(*) n FROM reader_accounts WHERE display_name LIKE ?').get('Quota %').n,3);
+assert.equal((await signup(4,'198.51.100.21')).status,200);
+assert.equal((await signup(5,'')).status,503);
+assert.equal((await signup(5,'forged')).status,503);
+const network=load('lib/engagement-server.ts');
+assert.equal(network.registrationIp(new Request(origin,{headers:{'cf-connecting-ip':'2001:db8::1'}})),network.registrationIp(new Request(origin,{headers:{'cf-connecting-ip':'2001:0db8:0000:0000:0000:0000:0000:0001'}})));
+assert.equal(sql.prepare('SELECT COUNT(*) n FROM reader_accounts WHERE registration_ip LIKE ?').get('%198.51.100%').n,0);
+// Requests interleave before the single-statement check/insert; fourth must fail.
+const race=await Promise.all([1,2,3,4].map(n=>signup('parallel-'+n,'203.0.113.50')));
+assert.equal(race.filter(r=>r.status===200).length,3);assert.equal(race.filter(r=>r.status===429).length,1);
+console.log('PASS: persistent 3-account/IP cap, existing profile edits, missing IP fail closed, spoofed forwarding ignored, canonical IPv6 and concurrent signup cap.');
+
+// Signed-in discussion pagination and moderation; anonymous authorship is no longer supported.
+identityHeaders=new Headers({'oai-authenticated-user-id':'identity-A','oai-authenticated-user-email':'private@example.test'});
+for(let i=0;i<25;i++)sql.prepare('INSERT INTO chapter_comments(chapter_id,visitor_hash,display_name,body,created_at) VALUES (?,?,?,?,?)').run('chapter_001','pagination-fixture','Name','Text '+i,1);
+let page=await (await route.GET(new Request(origin+'/api/engagement/chapter_001',{headers:{cookie:a.cookie}}),ctx)).json();
+assert.equal(page.comments.items.length,20);assert.ok(page.comments.next);
+const following=await (await route.GET(new Request(origin+'/api/engagement/chapter_001?before='+page.comments.next,{headers:{cookie:a.cookie}}),ctx)).json();
+const combined=[...page.comments.items,...following.comments.items];assert.equal(new Set(combined.map(c=>c.id)).size,combined.length);assert.equal(combined.length,sql.prepare('SELECT COUNT(*) n FROM chapter_comments WHERE chapter_id=?').get('chapter_001').n);
+assert.equal((await route.GET(new Request(origin+'/api/engagement/chapter_001?before=NaN'),ctx)).status,400);
+assert.equal((await route.GET(new Request(origin+'/api/engagement/missing'),{params:Promise.resolve({id:'missing'})})).status,404);
+assert.equal((await call(a,{action:'comment',body:'x'.repeat(11000)})).status,413);
+const adminToken='a'.repeat(64),digest=s=>createHash('sha256').update(s).digest('hex');sql.prepare('INSERT INTO admin_sessions VALUES (?,?,?)').run(digest(adminToken),Math.floor(Date.now()/1000)+3600,digest(env.TFAM_ADMIN_PASSWORD_HASH));
+const moderation=await route.DELETE(new Request(origin+'/api/engagement/chapter_001?comment='+ownedId,{method:'DELETE',headers:{origin,cookie:b.cookie+'; __Host-tfam_admin='+adminToken,'x-reader-csrf':b.csrf,'cf-connecting-ip':'192.0.2.10'}}),ctx);assert.equal(moderation.status,200);assert.equal(sql.prepare('SELECT id FROM chapter_comments WHERE id=?').get(ownedId),undefined);
+assert.equal((await route.GET(new Request(origin+'/api/engagement/chapter_001'),ctx)).headers.get('cache-control'),'no-store');
+console.log('PASS: current signed-in discussion, pagination, invalid cursors, moderation, size limits and no-store.');

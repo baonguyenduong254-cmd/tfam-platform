@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-san-doi-chieu",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Sạn Đổi Chiều đến từ cối nghiền đá lát nền bị một dòng khoáng trắng xuyên qua. Khi cối được tháo, đá thường lăn xuống máng, còn một túi hạt nhỏ quay cạnh mỏng ngược lên như đang né một phía dưới mà mắt người chưa nhận. Thợ lát mang túi ấy ra sân mới phát hiện nó đứng khác trên hai phiến trông bằng nhau.\n\nMặt trong của từng hạt có một vạch ngà cong, vẫn đổi hướng sau khi bị chôn dưới cát tối. Người dùng thử được cách đọc độ nghiêng rất nhỏ bằng vị trí các vạch; nghiền thêm chỉ làm bụi không biết quay. Một phần lựa chọn hướng của dòng khoáng đã đi vào những hạt vốn chỉ để trải dưới chân.",
+    "lore_en": "The grit came from a paving-mill crossed by a white mineral flow. When dismantled, ordinary stones rolled down its chute while a pouchful turned their thin edges upward, avoiding a downwards unseen by people. Pavers found it stood differently upon apparently level slabs.\n\nEach grain held a curved ivory line that turned even under dark sand. Its positions disclosed slight slopes; further grinding yielded unturning dust. Something of the mineral flow’s choice of direction had entered grains intended merely for the ground underfoot.",
+    "use_vi": "Nhận độ nghiêng nhỏ trên mặt sạch qua cách các hạt tự quay cạnh.",
+    "use_en": "Reveal slight slopes on clean surfaces by the grains’ turning edges.",
+    "limits_vi": "Gió, dầu và rung làm chúng nhận nhiều hướng. Sạn chỉ biểu hiện lựa chọn tại mặt chạm, không biết đâu là hướng người thợ muốn dựng thẳng.",
+    "limits_en": "Wind, oil and vibration create competing directions. Grit reports its contact-surface, not the builder’s intended upright.",
+    "skills": [
+      {
+        "name_vi": "Quay cạnh theo dốc",
+        "name_en": "Turn an Edge to the Slope",
+        "description_vi": "Rắc sạn lên mặt đã ngừng rung và đợi các vạch cùng tìm một hướng. Hạt đứng khác riêng có thể là hỏng mẫu, cần so nhiều hạt trước khi kết luận.",
+        "description_en": "Scatter upon a still surface and await a shared turning. A lone contrary grain may be damaged; compare several before deciding."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vạch ở phía không nhìn",
+        "name_en": "The Unseen Inner Mark",
+        "description_vi": "Vạch ngà nằm trong hạt nhưng có thể đọc qua màu mép; đập lộ vạch khiến chính hạt ấy mất việc quay.",
+        "description_en": "The inner line is read through edge-colour; exposing it by breaking destroys its turning."
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-guest-beneath-the-mask",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Mặt nạ gỗ được tô bằng màu nghiền khoáng cho vai một vị vua phải cười trước triều thần rồi khóc khi quay lưng. Người diễn lặp vai qua nhiều mùa. Sau khi đoàn giải tán, mặt nạ thở dài trước gương, lộ gương mặt thứ hai còn giữ nét vừa nhìn qua những lỗ mắt.\n\nNgười diễn mới giới thiệu tên vai trước khi tập, gương mặt bên trong mới chịu đáp. Nó giữ một lượt biểu cảm để trả lại cho người đeo nhìn từ ngoài, tựa một bạn diễn từng học thuộc cách chờ. Để quá lâu trên mặt, người đeo bắt đầu cười theo cả những chỗ mình định dừng.",
+    "lore_en": "A wooden mask was painted with ground mineral for a king who smiled before his court and wept upon turning away. Its actor repeated the role for seasons. After the troupe dissolved, the mask sighed before a mirror, revealing a second face retaining expressions recently seen through its eyeholes.\n\nA new actor introduced the role before rehearsal, and only then did the inner face respond. It keeps one expressive passage to show its wearer from outside, like a partner who has learnt to wait. Worn too long, it makes the actor smile even through pauses they intended to keep.",
+    "use_vi": "Ghi, phát và đối chiếu một lượt biểu cảm cho người diễn tập vai.",
+    "use_en": "Record, replay and compare an expressive passage during rehearsal.",
+    "limits_vi": "Chỉ nét mặt thấy được qua lượt diễn, ý nghĩa lời và cảm xúc thật cần người diễn tự xét. Đeo lâu khiến cơ mặt bắt chước vô thức nên phải tháo nghỉ giữa lượt.",
+    "limits_en": "It retains visible expression only; speech meaning and genuine feeling require the actor’s judgement. Prolonged wear causes involuntary mimicry, requiring breaks.",
+    "skills": [
+      {
+        "name_vi": "Giới thiệu vai",
+        "name_en": "Introduce the Role",
+        "description_vi": "Nói tên vai trước gương rồi đeo để khách nhận lượt biểu cảm đang tập, cho đến khi người diễn tự tháo mặt nạ.",
+        "description_en": "Name the role before a mirror and wear the mask so its guest accepts the rehearsed expressions until the actor removes it."
+      },
+      {
+        "name_vi": "Mặt trả vai",
+        "name_en": "The Returning Face",
+        "description_vi": "Đặt mặt nạ trước gương sau lượt để mặt trong phát lại biểu cảm vừa nhận cho người diễn nhìn bên ngoài.",
+        "description_en": "Set the mask before a mirror afterwards so its inner face replays the accepted expressions for external viewing."
+      },
+      {
+        "name_vi": "Dừng một nét",
+        "name_en": "Hold an Expression",
+        "description_vi": "Chạm mép mắt khi phát lại để giữ một nét đủ lâu kiểm độ cân hai bên; giữ lâu làm mặt gỗ cong và phải thả.",
+        "description_en": "Touch an eye rim during replay to hold an expression for symmetry inspection; a long hold bends the wood and must be released."
+      },
+      {
+        "name_vi": "Đối mặt người diễn",
+        "name_en": "Confront the Actor",
+        "description_vi": "Đặt gương cạnh mặt nạ và tự diễn lại để khách nhăn phần nét khác chuỗi đã ghi, giúp tìm nơi cử động lệch; khác biệt có chủ ý vẫn bị chỉ.",
+        "description_en": "Rehearse beside the mask and mirror so the guest creases where movement differs from its record; deliberate changes are indicated too."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khách cần một vai",
+        "name_en": "The Guest Needs a Role",
+        "description_vi": "Tên vai mở lượt tập. Đổi tên giữa lượt làm mặt thứ hai trộn hai chuỗi và phải được cho nghỉ trước gương.",
+        "description_en": "A role name opens rehearsal. Changing it midway mixes passages and requires rest before a mirror."
+      }
+    ]
+  }
+]

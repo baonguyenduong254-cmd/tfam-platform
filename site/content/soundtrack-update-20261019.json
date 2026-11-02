@@ -1,0 +1,250 @@
+{
+  "tracks": [
+    {
+      "title": "Midnight at the Iron Gate",
+      "duration_seconds": 172.903991,
+      "bytes": 2120160
+    },
+    {
+      "title": "Empire Beneath the Ice",
+      "duration_seconds": 179.409002,
+      "bytes": 2197049
+    },
+    {
+      "title": "I Will Remain",
+      "duration_seconds": 180.95,
+      "bytes": 2198721
+    },
+    {
+      "title": "Snow on the Plaza Steps",
+      "duration_seconds": 180.088005,
+      "bytes": 2206422
+    },
+    {
+      "title": "The Glass Meridian",
+      "duration_seconds": 170.736009,
+      "bytes": 2090742
+    },
+    {
+      "title": "A Map of a Lifetime",
+      "duration_seconds": 180.322993,
+      "bytes": 2209425
+    },
+    {
+      "title": "Relics of the Sunken Hall",
+      "duration_seconds": 168.907007,
+      "bytes": 2068186
+    }
+  ],
+  "retired_terrain_bytes": 3726240,
+  "originals_preserved": "art/audio-originals",
+  "format": "AAC-LC 96 kbps stereo, M4A faststart",
+  "browser_playback_tested": false,
+  "retired_unused_vestigium": [
+    {
+      "path": "public/vestigium/art/device-041.webp",
+      "bytes": 44226
+    },
+    {
+      "path": "public/vestigium/art/device-038.webp",
+      "bytes": 32944
+    },
+    {
+      "path": "public/vestigium/art/device-guard-047-mensura.webp",
+      "bytes": 36566
+    },
+    {
+      "path": "public/vestigium/art/device-003-precanon.webp",
+      "bytes": 34950
+    },
+    {
+      "path": "public/vestigium/art/device-039.webp",
+      "bytes": 37282
+    },
+    {
+      "path": "public/vestigium/art/armament-collection-5-08.webp",
+      "bytes": 24096
+    },
+    {
+      "path": "public/vestigium/art/phenomenon-guard-039-auster.webp",
+      "bytes": 78078
+    },
+    {
+      "path": "public/vestigium/art/device-035.webp",
+      "bytes": 16114
+    },
+    {
+      "path": "public/vestigium/art/armament-guard-010-concordia.webp",
+      "bytes": 25546
+    },
+    {
+      "path": "public/vestigium/art/device-036.webp",
+      "bytes": 37568
+    },
+    {
+      "path": "public/vestigium/art/armament-collection-5-05.webp",
+      "bytes": 20410
+    },
+    {
+      "path": "public/vestigium/art/armament-collection-5-06.webp",
+      "bytes": 25148
+    },
+    {
+      "path": "public/vestigium/art/armament-victoria-academy-sabre.webp",
+      "bytes": 21706
+    },
+    {
+      "path": "public/vestigium/art/armament-siete-victoria-fidelis.webp",
+      "bytes": 17118
+    },
+    {
+      "path": "public/vestigium/art/device-055.webp",
+      "bytes": 61328
+    },
+    {
+      "path": "public/vestigium/art/phenomenon-guard-100-terminus.webp",
+      "bytes": 36306
+    },
+    {
+      "path": "public/vestigium/art/complex-guard-046-molendina.webp",
+      "bytes": 33576
+    },
+    {
+      "path": "public/vestigium/art/device-042.webp",
+      "bytes": 24004
+    },
+    {
+      "path": "public/vestigium/art/device-065.webp",
+      "bytes": 30218
+    },
+    {
+      "path": "public/vestigium/art/armament-guard-009-bastion.webp",
+      "bytes": 41312
+    },
+    {
+      "path": "public/vestigium/art/armament-collection-6-05.webp",
+      "bytes": 12778
+    },
+    {
+      "path": "public/vestigium/art/device-037.webp",
+      "bytes": 40660
+    },
+    {
+      "path": "public/vestigium/art/device-setenta-seis-ferraria.webp",
+      "bytes": 71002
+    },
+    {
+      "path": "public/vestigium/art/device-040.webp",
+      "bytes": 23784
+    },
+    {
+      "path": "public/vestigium/art/armament-collection-7-03.webp",
+      "bytes": 17072
+    },
+    {
+      "path": "public/vestigium/art/armament-guard-017-humerus.webp",
+      "bytes": 77220
+    },
+    {
+      "path": "public/vestigium/thumbs/device-041.webp",
+      "bytes": 12046
+    },
+    {
+      "path": "public/vestigium/thumbs/device-038.webp",
+      "bytes": 9490
+    },
+    {
+      "path": "public/vestigium/thumbs/device-guard-047-mensura.webp",
+      "bytes": 10660
+    },
+    {
+      "path": "public/vestigium/thumbs/device-003-precanon.webp",
+      "bytes": 9152
+    },
+    {
+      "path": "public/vestigium/thumbs/device-039.webp",
+      "bytes": 10562
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-collection-5-08.webp",
+      "bytes": 6974
+    },
+    {
+      "path": "public/vestigium/thumbs/phenomenon-guard-039-auster.webp",
+      "bytes": 21380
+    },
+    {
+      "path": "public/vestigium/thumbs/device-035.webp",
+      "bytes": 4790
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-guard-010-concordia.webp",
+      "bytes": 7696
+    },
+    {
+      "path": "public/vestigium/thumbs/device-036.webp",
+      "bytes": 9864
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-collection-5-05.webp",
+      "bytes": 5778
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-collection-5-06.webp",
+      "bytes": 6440
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-siete-victoria-fidelis.webp",
+      "bytes": 5324
+    },
+    {
+      "path": "public/vestigium/thumbs/device-055.webp",
+      "bytes": 17292
+    },
+    {
+      "path": "public/vestigium/thumbs/phenomenon-guard-100-terminus.webp",
+      "bytes": 8630
+    },
+    {
+      "path": "public/vestigium/thumbs/complex-guard-046-molendina.webp",
+      "bytes": 9940
+    },
+    {
+      "path": "public/vestigium/thumbs/device-042.webp",
+      "bytes": 6924
+    },
+    {
+      "path": "public/vestigium/thumbs/device-065.webp",
+      "bytes": 8608
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-guard-009-bastion.webp",
+      "bytes": 10984
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-collection-6-05.webp",
+      "bytes": 3906
+    },
+    {
+      "path": "public/vestigium/thumbs/device-037.webp",
+      "bytes": 11300
+    },
+    {
+      "path": "public/vestigium/thumbs/device-setenta-seis-ferraria.webp",
+      "bytes": 18090
+    },
+    {
+      "path": "public/vestigium/thumbs/device-040.webp",
+      "bytes": 7358
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-collection-7-03.webp",
+      "bytes": 5110
+    },
+    {
+      "path": "public/vestigium/thumbs/armament-guard-017-humerus.webp",
+      "bytes": 20676
+    }
+  ],
+  "retired_map_art_bytes": 5892258
+}

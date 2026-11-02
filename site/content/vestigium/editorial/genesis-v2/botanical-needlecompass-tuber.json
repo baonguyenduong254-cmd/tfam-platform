@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-needlecompass-tuber",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Một người vận chuyển giấu củ giống trong hòm quặng để khỏi đóng băng. Đến nơi, củ đã chia thành những múi xám, chồi đỏ ngoặt về vách hòm dù đèn đặt bên kia. Người ta lấy quặng đi; chồi vẫn nghiêng theo chiếc xe khuất dần ngoài cổng.\n\nKhoáng đã để lại trong củ một dấu nguồn, được rễ nuôi như ký ức về nơi từng cho nó qua đêm. Các củ con chỉ giữ mối ấy khi còn liền nhau qua thân mẹ. Người giữ giống gọi đây là cây nhớ nhà. Những kẻ trộn hàng gọi nó bằng tên khác và thường hỏi trước liệu cắt củ ra có khiến nó quên được không.",
+    "lore_en": "A transporter hid seed tubers in an ore chest to keep them from freezing. At arrival they had divided into grey lobes, their red shoots bent towards the chest wall despite a lamp on the other side. The ore was removed; the shoots still leaned after the wagon disappearing beyond the gate.\n\nMineral had left a source mark within the tuber, nourished like a memory of the shelter that had kept it alive. Daughter tubers retain that relationship only while joined through their parent. Seed keepers call it a homesick plant. Ore adulterators use another name and often first ask whether cutting the tuber makes it forget.",
+    "use_vi": "Giữ dấu một nguồn quặng để đối chiếu lô gần, chỉ hướng và phát hiện dấu nguồn bị trộn.",
+    "use_en": "Retain one ore source’s mark to compare nearby lots, indicate direction and detect admixture.",
+    "limits_vi": "Tầm rõ trong một căn nhà nhỏ, yếu qua vách dày. Củ chỉ giữ một nguồn; tách đôi mất dấu và nhiều mảnh cùng nguồn khác phía làm chồi lưỡng lự.",
+    "limits_en": "Its clear reach spans a small house and weakens through thick walls. Each tuber retains one source; halving erases it and same-source fragments in different directions make shoots waver.",
+    "skills": [
+      {
+        "name_vi": "Nhận nguồn",
+        "name_en": "Accept the Source",
+        "description_vi": "Ủ củ nguyên vẹn cạnh một lô quặng qua một lượt mọc chồi để nó nhận dấu; lô lẫn từ đầu tạo ký ức lẫn.",
+        "description_en": "Keep an intact tuber beside an ore lot through one shoot-growth cycle to accept its mark; an initially mixed lot gives a mixed memory."
+      },
+      {
+        "name_vi": "Kim đỏ",
+        "name_en": "The Red Needle",
+        "description_vi": "Xoay khay củ để chồi tự tìm lại hướng nguồn đang gần, đọc góc sau khi nó đứng yên; xoay liên tục làm cây mỏi và chỉ sai.",
+        "description_en": "Turn the tuber tray so shoots seek the nearby source again and read after they settle; continuous turning fatigues and misleads them."
+      },
+      {
+        "name_vi": "Đối lô",
+        "name_en": "Compare the Lot",
+        "description_vi": "Đưa từng thùng tới cùng một khoảng cách để so chồi nhận mạnh hay yếu với nguồn gốc; cần thử chỗ trống giữa các thùng để loại dấu còn lưu.",
+        "description_en": "Present cases at the same distance to compare strong or weak recognition; test empty space between them to clear lingering indication."
+      },
+      {
+        "name_vi": "Múi báo trộn",
+        "name_en": "Lobes Reveal Mixture",
+        "description_vi": "Đặt các phần của lô ở từng phía để các chồi cùng củ tách góc khi chỉ một phần còn cùng nguồn; quặng cùng nguồn chia nhiều phía cũng cho hình ấy nên cần đổi vị trí kiểm.",
+        "description_en": "Set lot portions on different sides so shoots diverge if only some share the source; divided same-source ore can also diverge, requiring a position-swap check."
+      },
+      {
+        "name_vi": "Chồi tìm hòm",
+        "name_en": "The Chest-Seeking Shoot",
+        "description_vi": "Mang khay dọc một hàng hòm rồi dừng ở nơi chồi nghiêng rõ nhất để khoanh vùng hòm nguồn; sắt dày có thể che dấu.",
+        "description_en": "Carry the tray along a row of chests and stop where shoots lean most clearly to narrow the source chest; thick iron may obscure it."
+      },
+      {
+        "name_vi": "Dấu nguồn con",
+        "name_en": "The Daughter’s Source Mark",
+        "description_vi": "Cho củ con lớn còn liền thân mẹ cạnh nguồn đã nhận để nó kế dấu, tạo một mẫu đối chứng; cắt quá sớm khiến dấu chưa thành.",
+        "description_en": "Grow a daughter still attached to its parent beside the accepted source to inherit the mark as a reference; cutting early leaves it incomplete."
+      },
+      {
+        "name_vi": "Nghỉ kim",
+        "name_en": "Rest the Needle",
+        "description_vi": "Đặt củ trong đất sạch xa mọi nguồn qua một lượt nghỉ để chồi thôi lưỡng lự, giữ dấu gốc mà xả hướng vừa nhận; cần tưới rất ít để khỏi thối.",
+        "description_en": "Rest the tuber in clean earth away from sources so wavering ends while its original mark remains; water sparingly to avoid rot."
+      },
+      {
+        "name_vi": "Khép ký ức",
+        "name_en": "Close the Memory",
+        "description_vi": "Tách củ đã hết dùng trên khay riêng để xóa dấu nguồn trước khi bỏ hoặc trồng thường; các múi rời thôi chỉ hướng và cần được đánh dấu khỏi nhầm mẫu.",
+        "description_en": "Divide a spent reference tuber on a separate tray to erase its source before disposal or ordinary planting; label the nonpointing lobes to prevent confusion with live references."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Rễ nhớ nơi nuôi",
+        "name_en": "Roots Remember Their Shelter",
+        "description_vi": "Dấu nguồn theo quan hệ từng nuôi củ, nên nguồn đã trộn cần thử từ nhiều phía và bằng một củ đối chứng.",
+        "description_en": "The mark follows the source that nourished the tuber; mixed lots need testing from several sides with a reference tuber."
+      }
+    ]
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-ho-phach-tro-sao",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Mảnh thiên thạch xuyên qua một thân tùng rồi tắt trong nhựa đang chảy. Người nhặt tưởng nhựa đã cháy thành than, cho đến đêm thứ nhất: bụi bạc bên trong rời nhau, xếp thành những chòm sao chẳng có trên bầu trời phía trên. Đêm thứ hai, một chấm rơi khỏi đội hình, để lại vệt dài giống chiếc cầu vừa sập ở thung lũng bên cạnh.\n\nCây tùng đã khép nhựa quanh thứ từng đi qua bầu trời khác. Trong lớp hổ phách đen, đường đi của tro sao còn tiếp tục, đôi khi chậm hơn thế giới ngoài đá, đôi khi vượt lên trước nó. Người nuôi nhựa từ cây gốc tìm được những mảnh cùng phản ứng, nhưng mỗi mảnh giữ một phần trời riêng và chỉ đáp đúng khi người soi dựng được mối nối giữa chòm sao bên trong với nơi mình đang đứng.\n\nNhững người trông đài vẽ bụi bạc qua nhiều năm. Họ đặt tên cho các điểm bằng núi, cửa sông, mái tháp; có bản đồ ăn khớp rồi trôi khỏi đất thật chỉ sau một mùa. Một hạm đội từng đi theo chuỗi sáng để vượt bão. Khi tới bến, họ nhận ra ngọn đèn mình đã dùng làm mốc vẫn chưa được xây, còn tảng đá dưới móng đã có đủ tên những người sẽ xây nó.",
+    "lore_en": "A meteor fragment pierced a fir trunk and died in flowing resin. Its finder thought the resin had charred until the first night, when silver dust separated inside and arranged itself into constellations absent from the sky above. On the second night a point fell from its formation, leaving a long streak like the bridge that had just collapsed in the neighbouring valley.\n\nThe fir had enclosed something that had travelled another sky. Within black amber, star-ash paths continued, sometimes lagging the world outside and sometimes overtaking it. Resin cultivated from the original tree yielded related fragments, but each kept its own portion of sky and answered reliably only when an observer joined its inner constellation to the place where they stood.\n\nObservatory keepers chart the silver dust for years. They name points after mountains, river mouths and tower roofs; some maps fit, then drift from real ground in a season. A fleet once followed a bright sequence through storms. At its harbour they discovered that the guiding light had not yet been built, while the foundation stone already bore the names of those who would build it.",
+    "use_vi": "Đọc các quan hệ giữa tro sao và địa điểm đã neo để định hướng, so thời điểm, nhận dấu biến động hoặc mượn một tuyến hành trình đang hiện trong đá.",
+    "use_en": "Read relationships between star ash and anchored places for navigation, temporal comparison, signs of change or borrowing a journey currently visible within the stone.",
+    "limits_vi": "Phải dựng ít nhất ba điểm neo đã kiểm chứng; điểm mang tên sai có thể kéo cả bản đồ sang một nơi cùng tên. Các hình là dấu của những hành trình đang có quan hệ với đá, cần đối chiếu thực địa trước khi quyết định. Mỗi lần mượn đường làm một ngôi sao mờ và có thể mang người dùng tới sớm hoặc muộn hơn bến họ dự định.",
+    "limits_en": "At least three verified anchors are needed; a misnamed point can pull the whole chart towards another place of the same name. Figures mark journeys related to the stone and require field comparison before decisions. Borrowing a path dims a star and may bring travellers to their destination earlier or later than intended.",
+    "skills": [
+      {
+        "name_vi": "Ba điểm buộc",
+        "name_en": "Three Binding Points",
+        "description_vi": "Chạm đá lần lượt tại ba nơi có thể nhận lại bằng mắt để buộc chòm sao vào vùng đất ấy; mất một mốc khiến cả hình trượt.",
+        "description_en": "Touch the amber at three visually recognisable places to bind its constellation to that land; losing one landmark lets the whole figure drift.",
+        "group_vi": "Dựng bầu trời",
+        "group_en": "Establish the Sky"
+      },
+      {
+        "name_vi": "Tên dưới sao",
+        "name_en": "Names Beneath Stars",
+        "description_vi": "Khắc tên địa điểm lên tấm lót rồi đặt chấm sao tương ứng trên đó để giữ cách đọc; tên trùng phải kèm một dấu riêng của nơi.",
+        "description_en": "Inscribe place names upon a backing and align their star points to preserve a reading; duplicate names need a distinguishing local mark.",
+        "group_vi": "Dựng bầu trời",
+        "group_en": "Establish the Sky"
+      },
+      {
+        "name_vi": "Mực đêm",
+        "name_en": "Night Ink",
+        "description_vi": "Ép đá lên giấy bôi than dưới trời tối để bụi sáng in sơ đồ hiện tại thành những chấm nhạt; sơ đồ bắt đầu cũ ngay khi tách giấy.",
+        "description_en": "Press the stone to charcoal-coated paper beneath darkness to print its present dust chart as pale points; it begins ageing as soon as removed.",
+        "group_vi": "Dựng bầu trời",
+        "group_en": "Establish the Sky"
+      },
+      {
+        "name_vi": "Chấm đứng",
+        "name_en": "The Fixed Point",
+        "description_vi": "Giữ ngón tay trên một điểm neo đã xác nhận để làm nó sáng yên trong khi các chấm khác dịch, chọn mốc cho phép so; tay rời chấm mất ổn định.",
+        "description_en": "Hold a finger over a verified anchor to steady its light while other points move, choosing a comparison reference; lifting the finger releases it.",
+        "group_vi": "Dựng bầu trời",
+        "group_en": "Establish the Sky"
+      },
+      {
+        "name_vi": "Kim tro",
+        "name_en": "The Ash Needle",
+        "description_vi": "Xoay đá chậm để vệt bạc dài nhất hướng về mốc đang gọi tên, hỗ trợ đi khi thiếu sao thật; phải kiểm rằng mốc chưa bị xóa khỏi bản đồ.",
+        "description_en": "Turn the stone slowly until its longest streak points towards a named anchor, aiding travel without visible stars; verify that the anchor remains on the chart.",
+        "group_vi": "Đi qua bóng tối",
+        "group_en": "Travel Through Darkness"
+      },
+      {
+        "name_vi": "Chuỗi về bến",
+        "name_en": "The Harbourward Chain",
+        "description_vi": "Chạm hai điểm neo để hiện chuỗi chấm nối chúng, dùng chọn các mốc trung gian; chấm mờ cần kiểm thực địa trước khi dẫn người qua.",
+        "description_en": "Touch two anchors to reveal their linking chain for intermediate waypoints; faint points require field checking before passage.",
+        "group_vi": "Đi qua bóng tối",
+        "group_en": "Travel Through Darkness"
+      },
+      {
+        "name_vi": "Đèn sau sương",
+        "name_en": "The Light Beyond Fog",
+        "description_vi": "Đặt đá trước đèn thấp để chấm của mốc gần nhất hiện trên màn sương, giúp người cùng đoàn giữ hướng; sương đổi làm hình chiếu lệch khỏi hướng thật.",
+        "description_en": "Place the amber before a low lamp to project the nearest anchor’s point upon mist and hold a party’s heading; changing mist can distort the projection.",
+        "group_vi": "Đi qua bóng tối",
+        "group_en": "Travel Through Darkness"
+      },
+      {
+        "name_vi": "Đường đã đi",
+        "name_en": "The Travelled Road",
+        "description_vi": "Mang đá qua một tuyến rồi đặt lại giữa các mốc để thấy tro bạc lưu hành trình bằng nét mới, cho đối chiếu đường quay về; tuyến trùng nhau chồng nét khó đọc.",
+        "description_en": "Carry the stone along a route and return it among the anchors to see a fresh ash trace of the journey for comparison on return; overlapping routes are hard to distinguish.",
+        "group_vi": "Đi qua bóng tối",
+        "group_en": "Travel Through Darkness"
+      },
+      {
+        "name_vi": "Sao chưa tới",
+        "name_en": "The Unarrived Star",
+        "description_vi": "Quan sát một chấm sáng còn lệch khỏi địa điểm đã neo để nhận phần bản đồ đang đi trước nơi ấy; phải có thay đổi thực chứng sau đó mới chốt cách đọc.",
+        "description_en": "Observe a bright point offset from an anchored place to detect a chart portion running ahead of it; later physical change is needed to confirm the interpretation.",
+        "group_vi": "So thời điểm",
+        "group_en": "Compare Times"
+      },
+      {
+        "name_vi": "Tro chậm",
+        "name_en": "The Lagging Ash",
+        "description_vi": "Làm lạnh mặt sau để các điểm đang giữ trạng thái cũ sáng lâu hơn, cho đọc dấu của mốc vừa đổi; lạnh quá làm cả hình đứng mà mất thứ tự.",
+        "description_en": "Cool the reverse to prolong points retaining an earlier state and read a newly altered landmark; excessive cold freezes the whole figure and loses its sequence.",
+        "group_vi": "So thời điểm",
+        "group_en": "Compare Times"
+      },
+      {
+        "name_vi": "Hai bản đêm",
+        "name_en": "Two Night Charts",
+        "description_vi": "Đặt hai bản in của cùng đá cạnh nhau rồi soi qua lõi để thấy điểm nào đã đổi quan hệ, tách biến động khỏi sai lệch tay vẽ; bản thiếu mốc làm phép so hỏng.",
+        "description_en": "View two prints from the same stone through its core to reveal changed relationships and separate movement from drawing error; missing anchors invalidate comparison.",
+        "group_vi": "So thời điểm",
+        "group_en": "Compare Times"
+      },
+      {
+        "name_vi": "Hẹn một điểm sáng",
+        "name_en": "Appoint a Bright Point",
+        "description_vi": "Gắn sợi bạc vào mốc trên tấm lót để khi chấm sao đi tới nó đá lóe báo; sự kiện báo là cuộc gặp trên bản đồ, cần đối chiếu với nơi thật.",
+        "description_en": "Attach silver thread to a backing landmark so the stone flashes when its star reaches it; the warning marks a chart conjunction and needs real-world comparison.",
+        "group_vi": "So thời điểm",
+        "group_en": "Compare Times"
+      },
+      {
+        "name_vi": "Cầu rời sao",
+        "name_en": "The Bridge Leaves Its Star",
+        "description_vi": "Neo hai bờ một cây cầu để thấy chuỗi giữa chúng gãy khi quan hệ đang đứt, hỗ trợ phát hiện cầu đổi hoặc sắp chịu biến động; phải kiểm cả hai bờ trước khi báo.",
+        "description_en": "Anchor a bridge’s banks so its chain breaks when their relationship is severed, indicating alteration or approaching disruption; check both banks before warning.",
+        "group_vi": "Dấu đất đổi",
+        "group_en": "Signs of Changing Land"
+      },
+      {
+        "name_vi": "Bờ biển trôi",
+        "name_en": "The Drifting Shore",
+        "description_vi": "Dùng các mốc ven nước để đọc đường bụi thay hình sau triều hoặc đất lở, chọn nơi cần khảo sát; đá có thể phản chiếu một trạng thái đến sớm.",
+        "description_en": "Use coastal anchors to read dust reshaping after tide or landslip and choose survey sites; the stone may reflect a state that has arrived early.",
+        "group_vi": "Dấu đất đổi",
+        "group_en": "Signs of Changing Land"
+      },
+      {
+        "name_vi": "Dấu thành tắt",
+        "name_en": "The Darkened Citadel",
+        "description_vi": "Theo dõi chấm của một công trình đã neo để nhận lúc ánh của nó bị che hoặc rời quan hệ cũ; việc mất ánh có thể là đổi tên, sụp đổ hay sai mốc.",
+        "description_en": "Watch an anchored building’s point for obscuration or departure from its old relation; loss of light may mean renaming, destruction or a faulty anchor.",
+        "group_vi": "Dấu đất đổi",
+        "group_en": "Signs of Changing Land"
+      },
+      {
+        "name_vi": "Đường dưới đường",
+        "name_en": "The Road Beneath the Road",
+        "description_vi": "Soi ngược đá để hiện chuỗi mờ bị nét mới che, gợi lối từng nối các địa điểm; địa hình hiện tại có thể đã nuốt lối ấy.",
+        "description_en": "Backlight the amber to reveal a faint chain beneath fresh lines, suggesting a former connection; present terrain may have swallowed that route.",
+        "group_vi": "Dấu đất đổi",
+        "group_en": "Signs of Changing Land"
+      },
+      {
+        "name_vi": "Bước giữa hai chấm",
+        "name_en": "Step Between Points",
+        "description_vi": "Đặt đá tại mốc sáng rồi bước theo hướng chuỗi hiện để mượn một đoạn đường ngắn hơn khoảng cách ngoài đất; chấm neo đầu phải sáng đến lúc người cuối qua.",
+        "description_en": "Set the amber at a bright anchor and follow its chain to borrow a path shorter than the ground distance; the starting point must stay lit until the last traveller passes.",
+        "group_vi": "Mượn hành trình",
+        "group_en": "Borrow a Journey"
+      },
+      {
+        "name_vi": "Cửa đêm",
+        "name_en": "The Night Aperture",
+        "description_vi": "Chiếu chuỗi sao lên một khung cửa trống ở mốc đã neo để nhìn thấy mốc kế như qua một cửa sổ; chạm qua cần thêm phần sáng của một chấm.",
+        "description_en": "Project a star chain onto an empty doorway at an anchor to see the next landmark as through a window; reaching through costs another point’s light.",
+        "group_vi": "Mượn hành trình",
+        "group_en": "Borrow a Journey"
+      },
+      {
+        "name_vi": "Đưa lời theo sao",
+        "name_en": "Send Words by the Star",
+        "description_vi": "Nói tên mốc nhận vào đá giữa hai điểm đang sáng để người đang chạm đúng mốc kia nghe một câu ngắn; điểm ở khác thời có thể nhận câu sớm hoặc muộn.",
+        "description_en": "Speak a receiving landmark’s name into the amber while both points shine so someone touching that landmark hears a short sentence; a temporally displaced point may receive it early or late.",
+        "group_vi": "Mượn hành trình",
+        "group_en": "Borrow a Journey"
+      },
+      {
+        "name_vi": "Giữ đoàn",
+        "name_en": "Keep the Company",
+        "description_vi": "Buộc mọi người cùng một dây có đầu chạm đá để họ mượn cùng lượt đường, tránh tách thành các lần đến khác nhau; dây đứt chia hành trình ngay chỗ đứt.",
+        "description_en": "Join travellers by a cord touching the stone so they borrow the same passage and avoid separate arrivals; a broken cord divides the journey at the break.",
+        "group_vi": "Mượn hành trình",
+        "group_en": "Borrow a Journey"
+      },
+      {
+        "name_vi": "Dấu thuyền qua",
+        "name_en": "The Passing Ship’s Trace",
+        "description_vi": "Chạm đá vào vật vừa rời một con tàu rồi tìm nét mới quanh mốc cảng đã neo để nhận hướng hành trình còn quan hệ; đồ qua nhiều chủ cho nhiều nét chồng.",
+        "description_en": "Touch the amber to an object freshly removed from a ship and seek a new trace near an anchored port to infer its related course; many owners produce overlapping lines.",
+        "group_vi": "Đọc vật lạc",
+        "group_en": "Read the Lost Object"
+      },
+      {
+        "name_vi": "Neo người mang",
+        "name_en": "Anchor the Bearer",
+        "description_vi": "Người mang tự đánh dấu một điểm bằng giọt mực có vân tay để đá ghi đường họ đi giữa các mốc; trao đá cho người khác giữ được đường cũ cho đến lần ghi mới.",
+        "description_en": "A bearer marks a point with a fingerprinted ink drop so the stone records their way between anchors; handing it over retains that route until a fresh inscription.",
+        "group_vi": "Đọc vật lạc",
+        "group_en": "Read the Lost Object"
+      },
+      {
+        "name_vi": "Gọi tên nơi mất",
+        "name_en": "Name the Lost Place",
+        "description_vi": "Đặt vật lấy từ mốc đã hỏng cạnh tên cũ để thử làm chấm mờ hiện lại; vật giả hoặc đổi nguồn sẽ neo sang nơi khác.",
+        "description_en": "Set an object from a ruined anchor beside its old name to try to restore a faint point; a false or misattributed object anchors elsewhere.",
+        "group_vi": "Đọc vật lạc",
+        "group_en": "Read the Lost Object"
+      },
+      {
+        "name_vi": "Nghe đường xa",
+        "name_en": "Hear the Distant Path",
+        "description_vi": "Áp đá lên dây căng giữa hai mốc trên bản in để nghe tiếng rền của chuỗi còn nối, tìm đoạn bản đồ bị che; nghe quá lâu gây cảm giác rơi qua trời đêm.",
+        "description_en": "Press the amber to wire stretched between two printed anchors to hear a surviving chain’s hum and locate obscured sections; prolonged listening feels like falling through a night sky.",
+        "group_vi": "Đọc vật lạc",
+        "group_en": "Read the Lost Object"
+      },
+      {
+        "name_vi": "Sao đã tiêu",
+        "name_en": "The Spent Star",
+        "description_vi": "Sau mỗi lần mượn đường, khoanh chấm đã mờ trên tấm lót để tránh gọi nó lần nữa; gọi điểm tắt dễ đưa người tới chính khoảng vắng của nó.",
+        "description_en": "Circle a dimmed point after borrowing a route to avoid recalling it; invoking a dark point can send travellers into its own absence.",
+        "group_vi": "Cái giá của trời",
+        "group_en": "The Sky’s Price"
+      },
+      {
+        "name_vi": "Đo giờ đến",
+        "name_en": "Measure the Arrival",
+        "description_vi": "Đối nhịp đồng hồ mang theo với một mốc trời thật sau khi ra đường mượn để biết đã đến lệch bao lâu; thiếu mốc kiểm khiến sai giờ tích qua nhiều lượt.",
+        "description_en": "Compare a carried clock with a real sky reference after borrowed passage to measure temporal displacement; without a check it accumulates across journeys.",
+        "group_vi": "Cái giá của trời",
+        "group_en": "The Sky’s Price"
+      },
+      {
+        "name_vi": "Bỏ mốc giả",
+        "name_en": "Discard the False Anchor",
+        "description_vi": "Xóa tên trên tấm lót và đưa vật neo ra khỏi phòng để một điểm sai rời chuỗi; người còn đứng trên đường mượn phải về trước khi xóa.",
+        "description_en": "Erase the backing name and remove its anchor object from the room to release a false point; anyone still upon a borrowed path must return first.",
+        "group_vi": "Cái giá của trời",
+        "group_en": "The Sky’s Price"
+      },
+      {
+        "name_vi": "Đêm cho mắt nghỉ",
+        "name_en": "A Night for the Eyes",
+        "description_vi": "Che đá suốt một đêm dưới trời thật sau lượt đọc dài để mắt thôi chồng bụi sao lên cảnh vật; mở sớm làm người dùng nhận nhầm cửa nhà thành điểm neo.",
+        "description_en": "Cover the stone for a full night beneath the real sky after prolonged reading so the eyes cease overlaying star ash on surroundings; opening early can make a doorway seem an anchor.",
+        "group_vi": "Cái giá của trời",
+        "group_en": "The Sky’s Price"
+      },
+      {
+        "name_vi": "Trả tên",
+        "name_en": "Return the Names",
+        "description_vi": "Đọc đủ tên ba mốc gốc theo thứ tự ngược để khép liên hệ của lượt dùng, cho các chấm tiếp tục đi trong đá thay vì bám theo người.",
+        "description_en": "Recite the three original anchors in reverse to close the use’s connections and let points continue within the stone rather than follow its keeper.",
+        "group_vi": "Khép bản đồ",
+        "group_en": "Close the Chart"
+      },
+      {
+        "name_vi": "Gấp trời",
+        "name_en": "Fold the Sky",
+        "description_vi": "Bọc tấm lót quanh đá với các mốc quay vào trong để lưu một cách đọc đã kiểm, giúp mở lại đúng hệ mốc; cần xác nhận lại sau biến động lớn.",
+        "description_en": "Wrap the backing around the stone with anchors inward to preserve a verified reading for reopening; major changes require renewed verification.",
+        "group_vi": "Khép bản đồ",
+        "group_en": "Close the Chart"
+      },
+      {
+        "name_vi": "Ánh cuối cho lối về",
+        "name_en": "The Last Light Home",
+        "description_vi": "Dành chấm sáng cuối cho mốc xuất phát để mở một lượt trở lại khi các tuyến khác đã tắt; lượt ấy tiêu hết ánh sẵn dùng trong đá.",
+        "description_en": "Reserve the final bright point for the departure anchor to open one return when other routes fade; it spends all currently available light.",
+        "group_vi": "Khép bản đồ",
+        "group_en": "Close the Chart"
+      },
+      {
+        "name_vi": "Để sao đi tiếp",
+        "name_en": "Let the Stars Continue",
+        "description_vi": "Đặt đá tối bên cửa nhìn trời, tháo mọi tên và dây nối để tro sao tự dịch qua một chu kỳ mới; điểm đã tiêu chỉ có thể được dùng lại nếu tự sáng và được neo lại.",
+        "description_en": "Set the darkened stone at a sky-facing window and remove names and wires so its ash travels through a fresh cycle; spent points become usable only if they brighten on their own and are anchored anew.",
+        "group_vi": "Khép bản đồ",
+        "group_en": "Close the Chart"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bầu trời còn đi",
+        "name_en": "The Travelling Sky",
+        "description_vi": "Bụi sao tiếp tục hành trình qua cả không gian lẫn những thứ con người dùng để đếm thời gian. Bản đồ ăn khớp hôm nay cần được xác nhận lại vào đêm sau.",
+        "description_en": "Star dust continues through space and through the things people use to measure time. A chart fitting tonight needs verification again tomorrow."
+      }
+    ]
+  }
+]

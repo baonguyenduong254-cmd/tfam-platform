@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "aksum-stelae",
+    "faction_id": "aksumite_empire",
+    "name_vi": "Bia đá Aksum",
+    "name_en": "The Stelae of Aksum",
+    "location_vi": "Aksum, cao nguyên phương bắc",
+    "location_en": "Aksum, northern highlands",
+    "category": "sacred",
+    "epithet_vi": "Những vị vua đứng giữa trời",
+    "epithet_en": "Kings Standing Beneath the Sky",
+    "lore_vi": "Ngày Tewodros tuyên bố phục dựng Aksum, các thủ lĩnh phải đặt kiếm dưới chân những bia đá cổ. Hoàng đế cho dựng lại một cột đã đổ, dùng sức kéo của cả quân đội và những phường thợ từng phục vụ các lãnh chúa đối địch. Đá rời mặt đất giữa tiếng kinh cầu, rồi đứng lên trước hàng nghìn người đang quỳ. Từ đó, mọi quân kỳ mới đều được đưa qua bãi bia trước khi ra trận. Những gia tộc chịu nhục trong nghi lễ vẫn nhớ ai bị buộc quỳ lâu nhất; triều đình giữ ký ức ấy như giữ một lưỡi dao trong vỏ.",
+    "lore_en": "When Tewodros proclaimed Aksum restored, the chieftains laid their swords beneath its ancient stelae. The emperor raised a fallen pillar with soldiers and craftsmen drawn from rival lords. Stone lifted amid prayers and stood before thousands on their knees. Every new standard has since passed through the field before marching to war. The ceremony grants the army an ancestry older than its commanders, yet the houses humiliated there remember who was forced to kneel longest. The court preserves that memory as carefully as a blade within its sheath.",
+    "traits": [
+      {
+        "label_vi": "Lời thề dưới đá",
+        "label_en": "Oath Beneath Stone",
+        "description_vi": "Quân kỳ nhận sự chứng giám của các gia tộc và giáo sĩ.",
+        "description_en": "Standards receive the witness of noble houses and clergy."
+      },
+      {
+        "label_vi": "Vết nhục lưu truyền",
+        "label_en": "Inherited Humiliation",
+        "description_vi": "Những lời quy phục bị ép buộc trở thành món nợ gia tộc.",
+        "description_en": "Forced submissions become debts inherited by noble houses."
+      }
+    ],
+    "benefit_vi": "Củng cố tính chính thống của hoàng đế và lời thề quân đội.",
+    "benefit_en": "Strengthens imperial legitimacy and military oaths.",
+    "cost_vi": "Các gia tộc bị khuất phục tích tụ ý định báo phục.",
+    "cost_en": "Subjugated houses accumulate grievances and plans of revenge.",
+    "status_vi": "Được trùng tu dưới sự bảo hộ hoàng gia.",
+    "status_en": "Restored under imperial protection.",
+    "historical_anchor_vi": "Bia đá Aksum là di sản có thật; lễ quy phục của Tewodros được chuyển vào cuộc phục hưng năm 1715.",
+    "historical_anchor_en": "Aksum’s stelae are historical; Tewodros’s submission ceremony belongs to the alternate restoration of 1715.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/15/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Towering carved Aksum stelae above kneeling imperial soldiers in fur-lined Ethiopian garments, cobalt twilight, thin ice over reddish earth, one pillar newly upright with timber lifting cranes."
+  },
+  {
+    "id": "gondar-ghebbi",
+    "faction_id": "aksumite_empire",
+    "name_vi": "Thành Hoàng gia Fasil Ghebbi",
+    "name_en": "Fasil Ghebbi Imperial Enclosure",
+    "location_vi": "Gondar",
+    "location_en": "Gondar",
+    "category": "seat",
+    "epithet_vi": "Một vương miện cho mọi thành lũy",
+    "epithet_en": "One Crown Above Every Fortress",
+    "lore_vi": "Các cung điện Gondar từng chứng kiến sứ giả của những lãnh chúa đến thương lượng như người ngang hàng với hoàng đế. Tewodros cho đục tên họ khỏi những gian tiếp kiến, thu vũ khí cận vệ và biến các sân thành nơi kiểm quân. Con trai những nhà lớn ở lại học chữ, luyện pháo và dùng bữa dưới mái triều đình; ngoài cổng, cha họ gửi lễ vật để hỏi thăm. Khi đêm xuống, lính gác nghe tiếng đọc sách cùng tiếng búa rèn vọng qua những tòa tháp. Một đế quốc đang được xây bằng những người trẻ chưa được phép trở về nhà.",
+    "lore_en": "Gondar’s palaces once received the envoys of provincial lords as equals of the emperor. Tewodros stripped their names from the audience chambers, disarmed their guards and turned courtyards into muster grounds. Sons of the great houses remain to study letters, drill with artillery and dine beneath the imperial roof; their fathers send gifts through the gates to enquire after them. At night, watchmen hear lessons and hammer blows between the towers. An empire is being assembled from young men who have yet to be allowed home.",
+    "traits": [
+      {
+        "label_vi": "Triều đình làm trường học",
+        "label_en": "The Court as School",
+        "description_vi": "Hậu duệ các nhà lớn được đào tạo cùng một hệ thống.",
+        "description_en": "Noble heirs receive a common imperial education."
+      },
+      {
+        "label_vi": "Khách quý bị giữ lại",
+        "label_en": "Guests Kept Within",
+        "description_vi": "Việc cư trú tại cung điện cũng là bảo chứng phục tùng.",
+        "description_en": "Residence at court also guarantees obedience."
+      }
+    ],
+    "benefit_vi": "Đào tạo sĩ quan và gắn tầng lớp quý tộc với chính quyền trung ương.",
+    "benefit_en": "Trains officers and binds noble families to central government.",
+    "cost_vi": "Biến khủng hoảng kế vị thành nguy cơ bắt giữ con tin giữa các nhà.",
+    "cost_en": "A succession crisis may turn resident heirs into hostages.",
+    "status_vi": "Trung tâm triều chính và huấn luyện.",
+    "status_en": "Seat of government and training.",
+    "historical_anchor_vi": "Fasil Ghebbi là quần thể cung điện Gondar; việc Tewodros tập trung quý tộc được đặt sớm trong dòng thời gian TFAM.",
+    "historical_anchor_en": "Fasil Ghebbi is Gondar’s royal enclosure; Tewodros’s concentration of noble power is advanced in the TFAM timeline.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/19/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Gondar stone castles and crenellated towers inside one enclosure, imperial cadets crossing frost-covered courtyards, warm classrooms, distant cannon workshop smoke."
+  },
+  {
+    "id": "lalibela-refuge",
+    "faction_id": "aksumite_empire",
+    "name_vi": "Thánh địa Lalibela",
+    "name_en": "The Sanctuary of Lalibela",
+    "location_vi": "Lalibela",
+    "location_en": "Lalibela",
+    "category": "sacred",
+    "epithet_vi": "Đức tin đi xuống lòng đất",
+    "epithet_en": "Faith Descending into Stone",
+    "lore_vi": "Khi gió băng cắt đứt đường lên cao nguyên, các giáo sĩ mở những lối thông giữa nhà thờ đục đá để đưa người hành hương xuống trú. Khói bếp len qua khe sáng, kinh sách được chuyền tay trong những gian phòng thấp và tiếng hát vang dưới mặt đất. Tewodros cấp lương cho thánh địa, đổi lấy việc các linh mục ghi danh người sống sót rồi gửi thợ, y sĩ và người dẫn đường về quân đội. Càng nhiều người được cứu, sổ bộ của giáo hội càng dày. Trong những trang ấy, hoàng đế nhìn thấy dân chúng; các giám mục nhìn thấy một quyền lực thuộc về mình.",
+    "lore_en": "When freezing winds severed the highland roads, the clergy opened passages between the rock-hewn churches to shelter pilgrims below ground. Cooking smoke escaped through shafts of light; books passed between low chambers while hymns sounded beneath the earth. Tewodros supplies grain in exchange for registers of survivors and the service of craftsmen, healers and guides. Every rescued family adds another name to the Church’s books. The emperor sees subjects in those pages. The bishops see a power gathered beneath their own hands, protected by the very sanctity that makes the refuge endure.",
+    "traits": [
+      {
+        "label_vi": "Mái trú trong đá",
+        "label_en": "Shelter Within Rock",
+        "description_vi": "Không gian ngầm che gió và tập trung việc cứu tế.",
+        "description_en": "Sunken chambers protect against wind and concentrate relief."
+      },
+      {
+        "label_vi": "Sổ bộ của giáo hội",
+        "label_en": "The Church’s Register",
+        "description_vi": "Giáo sĩ nắm thông tin về dân cư và lao động.",
+        "description_en": "Clergy control information about households and labour."
+      }
+    ],
+    "benefit_vi": "Giữ dân cư cao nguyên sống sót qua những đợt rét dài.",
+    "benefit_en": "Preserves highland communities through prolonged cold.",
+    "cost_vi": "Triều đình lệ thuộc mạng lưới phân phối và sổ bộ của giáo hội.",
+    "cost_en": "The court depends upon ecclesiastical distribution and registers.",
+    "status_vi": "Thánh địa kiêm nơi trú đông.",
+    "status_en": "Sanctuary and winter refuge.",
+    "historical_anchor_vi": "Lalibela có các nhà thờ đục đá và lối đi liên kết; mạng lưới cứu tế hoàng gia là diễn biến thay thế.",
+    "historical_anchor_en": "Lalibela’s rock-hewn churches and connecting passages are historical; the imperial relief network is an alternate development.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/18/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Cruciform church sunk deep in red rock, frost along the trench rim, candlelit passages filled with bundled pilgrims, Ethiopian stone architecture, no European cathedral forms."
+  },
+  {
+    "id": "gondar-foundry",
+    "faction_id": "aksumite_empire",
+    "name_vi": "Xưởng Đại bác Gondar",
+    "name_en": "Gondar Imperial Gun Foundry",
+    "location_vi": "Ngoại thành Gondar",
+    "location_en": "Outside Gondar",
+    "category": "industry",
+    "epithet_vi": "Tiếng sấm được đúc bằng tay",
+    "epithet_en": "Thunder Cast by Human Hands",
+    "lore_vi": "Tewodros đem những thợ giỏi nhất đến Gondar cùng một mệnh lệnh: đại bác của Aksum phải được đúc trên đất Aksum. Những mẫu nòng đầu tiên nứt ngay khi thử, và mảnh đồng găm vào cổng xưởng vẫn được giữ nguyên. Hoàng đế bắt các gia tộc chia nhau cung cấp than, quặng và xe kéo; mỗi khẩu pháo hoàn thành mang tên nơi đã nuôi ngọn lửa của nó. Đến năm 1716, pháo mới bắt đầu xuống các con đèo. Phía sau chúng, từng cánh rừng thưa dần và những làng làm than mang màu đen trên mái nhà.",
+    "lore_en": "Tewodros brought his finest craftsmen to Gondar with one command: Aksum’s guns must be cast on Aksumite soil. The first barrels split during trials; bronze fragments remain embedded in the workshop gate. Noble houses must supply charcoal, ore and transport, and each completed gun bears the name of the district that sustained its furnace. By 1716, new cannon begin descending the passes. Behind them, woodlands thin and charcoal villages carry black dust upon their roofs. The emperor can now send thunder ahead of his armies, while every firing consumes part of the country he intends to restore.",
+    "traits": [
+      {
+        "label_vi": "Nòng pháo nội địa",
+        "label_en": "Home-Cast Barrels",
+        "description_vi": "Triều đình kiểm soát thợ đúc và quy trình thử pháo.",
+        "description_en": "The court controls casting specialists and proofing."
+      },
+      {
+        "label_vi": "Rừng hóa thành than",
+        "label_en": "Forests into Charcoal",
+        "description_vi": "Nhiên liệu luyện kim cạnh tranh trực tiếp với sưởi ấm.",
+        "description_en": "Metallurgical fuel competes directly with household heating."
+      }
+    ],
+    "benefit_vi": "Giảm lệ thuộc pháo nhập khẩu và tăng khả năng công thành.",
+    "benefit_en": "Reduces reliance on imported guns and improves siege capability.",
+    "cost_vi": "Tiêu hao rừng, nhiên liệu và đoàn vận tải miền núi.",
+    "cost_en": "Consumes forests, fuel and mountain transport capacity.",
+    "status_vi": "Mở rộng trong năm 1716.",
+    "status_en": "Expanding during 1716.",
+    "historical_anchor_vi": "Tewodros II từng thúc đẩy chế tạo pháo trong lịch sử; công cuộc ấy được chuyển sớm đến Gondar năm 1715–1716.",
+    "historical_anchor_en": "The historical Tewodros II promoted cannon manufacture; that programme is advanced to Gondar in 1715–1716.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/19/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Ethiopian imperial cannon foundry beside Gondar stone walls, bronze gun barrel suspended above casting pit, glowing furnaces, timber capstans, black charcoal snow."
+  },
+  {
+    "id": "simien-gates",
+    "faction_id": "aksumite_empire",
+    "name_vi": "Các cửa núi Simien",
+    "name_en": "The Gates of Simien",
+    "location_vi": "Dãy Simien",
+    "location_en": "Simien Mountains",
+    "category": "landscape",
+    "epithet_vi": "Bầu trời có những bậc thềm",
+    "epithet_en": "The Sky Has Steps",
+    "lore_vi": "Những đường mòn Simien từng cho lãnh chúa trốn khỏi quân thu thuế bằng cách biến mất giữa vách đá. Tewodros đổi người giữ đường thành lính hưởng lương, dựng kho dưới mái đá và cho khắc dấu triều đình lên những bậc hiểm nhất. Từng đoàn lừa chở ngũ cốc đi qua nơi chiến mã phải dừng lại; người dẫn đường thuộc tên các vực sâu trước khi biết chữ. Băng khiến lối đi hẹp thêm mỗi mùa. Khi một toán quân biến mất cùng chiếc cầu dây, triều đình phải gửi lễ vật tới gia đình người dẫn đường trước khi có thể đưa đoàn tiếp theo lên núi.",
+    "lore_en": "Simien’s paths once allowed provincial lords to escape tax collectors among the cliffs. Tewodros put their gatekeepers on imperial pay, established stores beneath overhangs and carved the crown’s mark into the steepest steps. Grain-laden mules cross ground where cavalry must halt, guided by people who knew the names of chasms before they knew letters. Ice narrows the routes with every season. After one detachment vanished with a rope bridge, the court sent gifts to the guide’s family before another convoy could climb. Imperial power reaches the mountain only as far as those who know its paths will carry it.",
+    "traits": [
+      {
+        "label_vi": "Đường của người dẫn núi",
+        "label_en": "The Mountain Guide’s Road",
+        "description_vi": "Các cộng đồng địa phương quyết định đoàn quân đi được tới đâu.",
+        "description_en": "Local communities determine how far an army can travel."
+      },
+      {
+        "label_vi": "Cửa ải đóng băng",
+        "label_en": "Frozen Passes",
+        "description_vi": "Băng tuyết có thể cắt hành lang tiếp tế bất ngờ.",
+        "description_en": "Ice can abruptly sever supply corridors."
+      }
+    ],
+    "benefit_vi": "Bảo vệ cao nguyên và duy trì hành lang vận tải khó xâm nhập.",
+    "benefit_en": "Defends the highlands and sustains difficult supply corridors.",
+    "cost_vi": "Phụ thuộc người dẫn đường; sạt lở và băng giá gây mất quân nhu.",
+    "cost_en": "Depends on guides; slips and ice destroy supplies.",
+    "status_vi": "Các đèo được canh giữ theo mùa.",
+    "status_en": "Passes guarded seasonally.",
+    "historical_anchor_vi": "Địa hình vách núi Simien có thật; hệ thống cửa ải hoàng gia là sáng tác dựa trên cuộc thống nhất của Tewodros.",
+    "historical_anchor_en": "Simien’s escarpments are real; the imperial gate system develops from Tewodros’s alternate unification.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/9/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Immense Simien basalt escarpments with thin snow, a narrow stepped mule road and Ethiopian stone watch post, layered blue chasms, tiny escorted supply caravan."
+  },
+  {
+    "id": "sankore-books",
+    "faction_id": "songhai_empire",
+    "name_vi": "Kho sách Sankoré",
+    "name_en": "The Libraries of Sankoré",
+    "location_vi": "Timbuktu",
+    "location_en": "Timbuktu",
+    "category": "knowledge",
+    "epithet_vi": "Một đế quốc có thể nằm trong trang giấy",
+    "epithet_en": "An Empire Held in Pages",
+    "lore_vi": "Khi Muhammad Ture tiến vào Timbuktu năm 1693, học giả đem gia phả, luật và biên niên ra trước đoàn quân để chứng nhận danh hiệu Askia. Nhà vua đáp lại bằng đoàn hộ tống dành riêng cho sách. Những bản chép vượt sa mạc được bọc da, đặt trên lạc đà đi giữa đội hình và đưa xuống hầm khô dưới Sankoré. Đến năm 1715, sứ giả các tỉnh phải mang theo bản sao sổ thuế và phán quyết địa phương. Người giữ chìa khóa có thể tìm ra một đường thừa kế hoặc một món thuế bị giấu; trước cửa kho, hoàng thân cũng phải chờ đến lượt.",
+    "lore_en": "When Muhammad Ture entered Timbuktu in 1693, scholars produced genealogies, law and chronicles to certify his title of Askia. He answered with military escorts for books. Manuscripts crossing the desert travelled in leather cases at the centre of the caravan before entering dry chambers beneath Sankoré. By 1715, provincial envoys must bring copies of tax rolls and local judgements. A keeper can uncover a disputed inheritance or a concealed levy. Even princes wait outside the doors. The restored empire marches with cavalry, but the evidence that makes its conquests lawful rests in the hands of readers.",
+    "traits": [
+      {
+        "label_vi": "Bút chứng nhận ngai vàng",
+        "label_en": "The Pen Certifies the Throne",
+        "description_vi": "Học giả giữ căn cứ pháp lý của công cuộc phục quốc.",
+        "description_en": "Scholars retain the legal foundations of restoration."
+      },
+      {
+        "label_vi": "Chìa khóa của ký ức",
+        "label_en": "Keys to Memory",
+        "description_vi": "Bản sao hành chính tập trung tại những người giữ sách.",
+        "description_en": "Administrative copies concentrate power among librarians."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ hành chính, pháp luật và đào tạo quan lại.",
+    "benefit_en": "Supports administration, law and civil education.",
+    "cost_vi": "Triều đình phải thương lượng với giới học giả để giữ tính chính thống.",
+    "cost_en": "The court must negotiate with scholars to preserve legitimacy.",
+    "status_vi": "Được hộ tống và cấp ngân khố.",
+    "status_en": "Escorted and funded by the crown.",
+    "historical_anchor_vi": "Timbuktu và Sankoré là trung tâm học thuật lịch sử; Muhammad Ture và cuộc phục quốc được chuyển sang cuối thế kỷ XVII.",
+    "historical_anchor_en": "Timbuktu and Sankoré are historical centres of learning; Muhammad Ture’s restoration is shifted to the late seventeenth century.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/119/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Sankore earthen architecture, carved wooden manuscript chests, desert cavalry escort arriving under pale frozen dawn, ochre walls and indigo robes."
+  },
+  {
+    "id": "gao-askia",
+    "faction_id": "songhai_empire",
+    "name_vi": "Lăng Askia ở Gao",
+    "name_en": "The Tomb of Askia at Gao",
+    "location_vi": "Gao, lưu vực Niger",
+    "location_en": "Gao, Niger basin",
+    "category": "sacred",
+    "epithet_vi": "Ngôi mộ chờ người còn sống",
+    "epithet_en": "A Tomb Awaiting the Living",
+    "lore_vi": "Askia cho xây lăng của mình khi những người con đầu tiên đủ tuổi cầm quân. Từng xà gỗ nhô khỏi mặt đất nện để thợ leo lên trát lại sau mùa mưa, còn phía dưới, hoàng thân nhận lệnh cai quản các miền chinh phục. Năm 1716, nhà vua bắt họ trở về Gao cùng một nắm đất từ lãnh địa được giao. Đất được trộn vào lớp áo mới của lăng trước mắt dân chúng. Những người thừa kế nhìn tên nhau trong danh sách tế lễ và hiểu rằng đế quốc của cha đã bắt đầu được chia ngay dưới bóng ngôi mộ ông.",
+    "lore_en": "Askia ordered his tomb built when his first sons were old enough to command. Timber beams project from its earthen sides so masons can renew the plaster after rain; beneath them, princes receive conquered provinces to govern. In 1716, the emperor summons each heir to Gao with a handful of soil from his domain. The earth is mixed into the monument’s fresh coating before the assembled people. The heirs study one another’s names in the ceremonial order. Their father’s empire is already being apportioned beneath the shadow of the tomb intended to hold him.",
+    "traits": [
+      {
+        "label_vi": "Đất của các tỉnh",
+        "label_en": "Soil of the Provinces",
+        "description_vi": "Mỗi vùng đóng góp vật liệu và nhân lực cho nghi lễ chung.",
+        "description_en": "Each province contributes earth and labour to a shared rite."
+      },
+      {
+        "label_vi": "Thứ bậc người thừa kế",
+        "label_en": "The Heirs’ Order",
+        "description_vi": "Nghi lễ công khai vị thế của từng hoàng tử.",
+        "description_en": "Ceremonies publicly establish the standing of each prince."
+      }
+    ],
+    "benefit_vi": "Củng cố lòng trung thành giữa Gao và các tỉnh chư hầu.",
+    "benefit_en": "Reinforces loyalty between Gao and subject provinces.",
+    "cost_vi": "Nghi lễ kế vị làm sâu thêm tranh giành giữa hoàng thân.",
+    "cost_en": "Succession ceremonies sharpen rivalry between princes.",
+    "status_vi": "Lăng hoàng gia đang được mở rộng.",
+    "status_en": "Imperial tomb undergoing enlargement.",
+    "historical_anchor_vi": "Lăng Askia là công trình lịch sử gắn với Askia Muhammad; trong TFAM việc dựng lăng theo sau phục quốc năm 1693.",
+    "historical_anchor_en": "The Tomb of Askia historically belongs to Askia Muhammad; TFAM places its construction after the restoration of 1693.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1139/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Sahelian pyramidal earthen tomb with protruding timber beams, princes carrying small bowls of earth, hoarfrost on shaded plaster, immense indigo winter sky."
+  },
+  {
+    "id": "djenne-plaster",
+    "faction_id": "songhai_empire",
+    "name_vi": "Những tường đất Djenné",
+    "name_en": "The Earthen Walls of Djenné",
+    "location_vi": "Djenné",
+    "location_en": "Djenné",
+    "category": "industry",
+    "epithet_vi": "Thành phố được dựng lại bằng bàn tay",
+    "epithet_en": "A City Renewed by Hands",
+    "lore_vi": "Mỗi lần lớp trát nứt vì rét, Djenné lại tập hợp thợ từ các phường nghề để vá những mặt tường trước khi gió tìm được đường vào nhà. Askia biến tập tục ấy thành nghĩa vụ công: kho lương, nhà cầu nguyện và bến chợ phải được bảo vệ trước dinh quan. Đất sét tốt được chia bằng sổ, còn những gia đình thiếu người được hàng xóm làm thay. Thành phố giữ được dân cư và thợ thủ công giữa mùa khắc nghiệt. Nhưng người thu thuế cũng học cách đếm ngày công; đến mùa quân dịch, những bàn tay vừa cứu cả phố lại có tên đầu tiên trong sổ huy động.",
+    "lore_en": "Whenever cold splits Djenné’s plaster, guilds gather to repair the walls before wind enters the houses. Askia makes the custom a public duty: granaries, prayer houses and market landings must be protected before officials’ residences. Good clay is rationed by register, and neighbours supply labour for households lacking workers. The town preserves its craftsmen through bitter seasons. Tax officers, however, have learned to count those working days. When military labour is demanded, the hands that kept the city warm are the first entered on the levy rolls. Shared maintenance has become both its strength and its burden.",
+    "traits": [
+      {
+        "label_vi": "Ngày trát chung",
+        "label_en": "The Common Plastering",
+        "description_vi": "Phường thợ bảo trì công trình theo nghĩa vụ cộng đồng.",
+        "description_en": "Guilds maintain buildings through communal obligations."
+      },
+      {
+        "label_vi": "Đất sét có sổ",
+        "label_en": "Clay under Register",
+        "description_vi": "Vật liệu tốt được triều đình phân phối có kiểm soát.",
+        "description_en": "The crown supervises the distribution of good building earth."
+      }
+    ],
+    "benefit_vi": "Duy trì kho lương, nhà ở và nghề xây dựng thích ứng khí hậu.",
+    "benefit_en": "Maintains granaries, homes and climate-adapted building crafts.",
+    "cost_vi": "Lao dịch dễ bị quan lại kéo dài để phục vụ chiến tranh.",
+    "cost_en": "Officials can extend public labour into military requisition.",
+    "status_vi": "Các khu phố được tu sửa định kỳ.",
+    "status_en": "Neighbourhoods maintained regularly.",
+    "historical_anchor_vi": "Djenné nổi tiếng với kiến trúc đất; hồ sơ dùng đô thị tiền hiện đại, không bê nguyên đại thánh đường tái thiết năm 1907.",
+    "historical_anchor_en": "Djenné is known for earthen architecture; this entry uses the premodern town rather than copying the mosque rebuilt in 1907.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/116/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Premodern Djenne earthen streets and buttressed storehouses, masons repairing cracked ochre plaster, cold white breath, mud-brick forms, no 1907 mosque replica."
+  },
+  {
+    "id": "niger-winter-quays",
+    "faction_id": "songhai_empire",
+    "name_vi": "Bến mùa đông Niger",
+    "name_en": "The Niger Winter Quays",
+    "location_vi": "Khúc sông Gao–Timbuktu",
+    "location_en": "Gao–Timbuktu river reach",
+    "category": "harbour",
+    "epithet_vi": "Dòng sông chở cả vương triều",
+    "epithet_en": "The River Carries a Dynasty",
+    "lore_vi": "Askia đặt những kho nổi dọc Niger để quân đội có thể nhận lương bằng thuyền khi các đường bộ đầy đoàn người chạy rét. Thợ sông neo bè vào những cọc sâu, phủ mái sậy và giữ bến mở bằng sức người mỗi khi lớp băng mỏng bám vào nước lặng. Mỗi đô thị phải cử hoa tiêu cho đoàn chở thuế; đổi lại, triều đình bảo vệ gia đình họ khỏi việc bắt phu. Đến năm 1716, một quyết định đổi hướng đoàn thuyền có thể nuôi đạo quân này và bỏ đói đạo quân khác. Các hoàng tử bắt đầu gửi người riêng tới sống bên bến.",
+    "lore_en": "Askia stationed floating stores along the Niger so armies could receive grain by boat while roads filled with people fleeing the cold. River workers anchor rafts to deep piles, roof them with reeds and keep the landings open when thin ice forms on sheltered water. Towns provide pilots for tax convoys; in return, their households are protected from labour levies. By 1716, diverting a flotilla can feed one prince’s army while starving another. The heirs now maintain agents beside the quays. A river created for imperial supply has become a quiet battlefield of succession.",
+    "traits": [
+      {
+        "label_vi": "Hoa tiêu được bảo hộ",
+        "label_en": "Protected Pilots",
+        "description_vi": "Gia đình thợ sông đổi kỹ năng lấy miễn trừ lao dịch.",
+        "description_en": "Pilots exchange their expertise for household exemptions."
+      },
+      {
+        "label_vi": "Kho lương chuyển động",
+        "label_en": "Moving Granaries",
+        "description_vi": "Kho nổi đi cùng tuyến tiếp vận đang cần nhất.",
+        "description_en": "Floating stores follow the most urgent supply route."
+      }
+    ],
+    "benefit_vi": "Tiếp tế khối lượng lớn cho đô thị và quân đội ven sông.",
+    "benefit_en": "Supplies riverside towns and armies in bulk.",
+    "cost_vi": "Tranh quyền điều phối có thể gây nạn đói có chủ đích.",
+    "cost_en": "Rival control of routing can produce deliberate shortages.",
+    "status_vi": "Hành lang tiếp tế do hoàng gia kiểm soát.",
+    "status_en": "Imperially controlled supply corridor.",
+    "historical_anchor_vi": "Songhai lịch sử dựa mạnh vào lưu vực Niger; hệ thống kho nổi mùa băng là phát triển thay thế của TFAM.",
+    "historical_anchor_en": "Historical Songhai depended on the Niger basin; the winter floating stores are a TFAM alternate development.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1139/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Wide Niger river under cold Sahel haze, reed-roofed storage barges and long riverboats, earthen fortified landing, thin ice only in sheltered inlets."
+  },
+  {
+    "id": "bandiagara-ledges",
+    "faction_id": "songhai_empire",
+    "name_vi": "Những bậc đá Bandiagara",
+    "name_en": "The Ledges of Bandiagara",
+    "location_vi": "Vách Bandiagara",
+    "location_en": "Bandiagara Escarpment",
+    "category": "landscape",
+    "epithet_vi": "Làng mạc treo trên vực",
+    "epithet_en": "Villages Above the Abyss",
+    "lore_vi": "Khi đoàn quân phục quốc tới chân Bandiagara, những cộng đồng trên vách đá đề nghị lương thực và người dẫn đường thay cho việc rời làng xuống đồng bằng. Askia chấp thuận để giữ tuyến phía nam, cấp dấu bảo hộ cho các kho hạt được xây nép vào đá. Cầu thang hẹp đủ cho một người mang bao kê đi qua, còn vực sâu giữ chiến mã ở ngoài. Trong những mùa đói, dân vùng thấp tìm tới xin đổi muối lấy hạt giống. Những người già trên vách quyết định ai được bước lên, và đôi khi mệnh lệnh từ Timbuktu phải chờ bên dưới suốt nhiều ngày.",
+    "lore_en": "When the restoration army reached Bandiagara, cliff communities offered food and guides in place of resettlement upon the plain. Askia accepted to secure his southern routes and placed granaries beneath imperial protection. Narrow stairs admit a single millet carrier, while the precipice keeps cavalry below. In hungry seasons, lowland families arrive to barter salt for seed. Elders decide who may climb, and orders from Timbuktu sometimes wait at the foot for days. The agreement gives the empire an enduring reserve. It also preserves a people whose command of the cliff limits what any emperor can demand.",
+    "traits": [
+      {
+        "label_vi": "Kho hạt trên vách",
+        "label_en": "Granaries on the Cliff",
+        "description_vi": "Dự trữ được bảo vệ bởi lối lên chật hẹp.",
+        "description_en": "Reserves are protected by narrow approaches."
+      },
+      {
+        "label_vi": "Hiệp ước giữ làng",
+        "label_en": "The Village Compact",
+        "description_vi": "Cộng đồng duy trì quyền tự quản để đổi lấy tiếp tế.",
+        "description_en": "Communities retain autonomy in exchange for supplies."
+      }
+    ],
+    "benefit_vi": "Bảo tồn giống kê và tạo tuyến trú ẩn khó đột nhập.",
+    "benefit_en": "Preserves millet seed and provides defensible refuges.",
+    "cost_vi": "Quân triều đình khó cưỡng chế thuế và tuyển quân tại địa phương.",
+    "cost_en": "Imperial troops struggle to enforce local taxation and recruitment.",
+    "status_vi": "Được bảo hộ theo hiệp ước.",
+    "status_en": "Protected by compact.",
+    "historical_anchor_vi": "Vách Bandiagara và các kho lương là di sản thực; hiệp ước với Askia là sáng tác lịch sử thay thế.",
+    "historical_anchor_en": "Bandiagara’s escarpment and granaries are historical; its compact with Askia is alternate history.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/516/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Bandiagara sandstone cliff with tiny earthen granaries under overhangs, ladders and millet baskets, pale frost in shadow, no exotic fantasy spires."
+  },
+  {
+    "id": "agadez-caravan-court",
+    "faction_id": "songhai_empire",
+    "name_vi": "Sân thương đoàn Agadez",
+    "name_en": "The Caravan Court of Agadez",
+    "location_vi": "Agadez",
+    "location_en": "Agadez",
+    "category": "seat",
+    "epithet_vi": "Nơi sa mạc khai báo tên mình",
+    "epithet_en": "Where the Desert Gives Its Name",
+    "lore_vi": "Askia cho giữ lại sân chầu Agadez làm nơi các thủ lĩnh thương đoàn trình giấy bảo hộ trước khi vượt Sahara. Ngựa chiến dừng cạnh lạc đà, người thu thuế ngồi dưới mái đất và những người biết đường trao tin về giếng còn nước. Mỗi đoàn được cấp một dây nút ghi số người cùng ngày khởi hành; đến trạm sau, dây được đối lại để tìm người mất tích. Hệ thống ấy kéo các bộ tộc vào vòng kiểm soát của Songhai. Khi một giếng đóng băng hoặc bị đầu độc, những dây nút trở về ngắn hơn, còn sân chầu phải nghe thân nhân đòi câu trả lời.",
+    "lore_en": "Askia retained Agadez’s audience court as the place where caravan chiefs present their safe-conducts before crossing the Sahara. Warhorses stand beside camels, collectors work under earthen roofs, and guides report which wells still hold water. Each caravan receives a knotted cord recording its travellers and departure; the next station checks it for the missing. The system draws desert peoples into Songhai’s administration. When a well freezes or is poisoned, shortened cords return and families demand answers in the court. Imperial protection now has a countable meaning, and the empire must answer for every knot that disappears.",
+    "traits": [
+      {
+        "label_vi": "Dây nút hành trình",
+        "label_en": "The Journey Cord",
+        "description_vi": "Trạm gác kiểm đếm thương đoàn bằng dấu vật chất.",
+        "description_en": "Stations account for caravans through physical tallies."
+      },
+      {
+        "label_vi": "Giếng là quyền lực",
+        "label_en": "Wells Are Power",
+        "description_vi": "Các thủ lĩnh giữ giếng có quyền thương lượng với triều đình.",
+        "description_en": "Well-keepers possess leverage over the crown."
+      }
+    ],
+    "benefit_vi": "Mở rộng thương mại xuyên Sahara và mạng lưới tin tức.",
+    "benefit_en": "Expands trans-Saharan trade and intelligence.",
+    "cost_vi": "Triều đình phải bảo vệ những hành trình vượt xa sức quân đồn trú.",
+    "cost_en": "The court must protect journeys beyond its garrisons’ reach.",
+    "status_vi": "Trạm chầu và kiểm soát thương đoàn.",
+    "status_en": "Caravan court and control station.",
+    "historical_anchor_vi": "Agadez là đô thị thương đoàn lịch sử; dây kiểm đếm và quyền quản lý của Songhai là biến thể TFAM.",
+    "historical_anchor_en": "Agadez is a historical caravan city; Songhai’s tally system and administration are TFAM adaptations.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1268/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Earthen Agadez court and tall adobe minaret, camel caravans, a clerk holding knotted cord, indigo cloth, cold sand and thin rime."
+  },
+  {
+    "id": "mbanza-council",
+    "faction_id": "kongo_confederation",
+    "name_vi": "Sân Hội đồng Mbanza Kongo",
+    "name_en": "The Council Court of Mbanza Kongo",
+    "location_vi": "Mbanza Kongo",
+    "location_en": "Mbanza Kongo",
+    "category": "seat",
+    "epithet_vi": "Những chiếc ngai cùng một bóng cây",
+    "epithet_en": "Many Thrones Beneath One Tree",
+    "lore_vi": "Sau khi thoát khỏi cuộc xét xử năm 1706, Kimpa Vita trở về Mbanza Kongo cùng những người đã đứng chắn trước giàn thiêu. Bà yêu cầu các dòng họ mang ghế của mình tới sân hội đồng thay vì tranh nhau một ngai duy nhất. Mỗi vị vua giữ người hầu và dấu hiệu riêng, còn lời chứng của các cộng đồng được đọc trước mặt tất cả. Năm 1716, tin mất đất tới trong lúc các ghế vẫn đầy. Kimpa đặt danh sách người chết giữa sân, buộc những vị vua đang đòi thêm quyền phải đọc tên những làng chưa gửi được quân cứu viện.",
+    "lore_en": "After surviving her trial in 1706, Kimpa Vita returned to Mbanza Kongo with those who had stood before the pyre. She required the dynasties to bring their own chairs to the council court instead of fighting over a single throne. Each king retained his attendants and emblems, while community testimony was read before them all. In 1716, reports of lost provinces arrive while every chair remains occupied. Kimpa lays the dead at the centre in written lists, requiring kings who demand greater privileges to read the names of villages that received no reinforcements.",
+    "traits": [
+      {
+        "label_vi": "Ghế của các vương triều",
+        "label_en": "Chairs of the Dynasties",
+        "description_vi": "Các nhà cai trị có vị trí công khai trong hội đồng.",
+        "description_en": "Rulers hold visible places within the council."
+      },
+      {
+        "label_vi": "Lời chứng trước ngai",
+        "label_en": "Testimony Before Thrones",
+        "description_vi": "Cộng đồng có thể đưa cáo trạng ra trước các nhà lớn.",
+        "description_en": "Communities may present accusations before great houses."
+      }
+    ],
+    "benefit_vi": "Duy trì liên bang và phối hợp quân đội các vương quốc thành viên.",
+    "benefit_en": "Maintains the federation and coordinates member armies.",
+    "cost_vi": "Bất đồng kéo dài quyết sách giữa lúc biên giới bị tấn công.",
+    "cost_en": "Disagreement delays decisions while borders are under attack.",
+    "status_vi": "Trung tâm hội đồng liên bang.",
+    "status_en": "Seat of the federal council.",
+    "historical_anchor_vi": "Mbanza Kongo là kinh đô lịch sử; Kimpa Vita sống sót năm 1706 và thiết lập hội đồng trong dòng thời gian TFAM.",
+    "historical_anchor_en": "Mbanza Kongo is the historical capital; Kimpa Vita survives 1706 and establishes this council in TFAM.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1511/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Kongo royal hill courtyard, carved wooden royal chairs beneath a great old tree, coral-red cloth and ivory regalia, cold mist, dignified African civic architecture."
+  },
+  {
+    "id": "kulumbimbi",
+    "faction_id": "kongo_confederation",
+    "name_vi": "Thánh đường Kulumbimbi",
+    "name_en": "Kulumbimbi Cathedral",
+    "location_vi": "Mbanza Kongo",
+    "location_en": "Mbanza Kongo",
+    "category": "sacred",
+    "epithet_vi": "Những bức tường nhận lại tiếng người",
+    "epithet_en": "Walls Reclaimed by Voices",
+    "lore_vi": "Kimpa Vita cho dọn cây khỏi những bức tường Kulumbimbi và gọi các cộng đồng trở về cầu nguyện bằng tiếng của mình. Những gia đình mất người trong nội chiến góp đá để bịt các lỗ thủng; tên họ được đọc trong lễ chung thay cho tên các nhà bảo trợ bên kia biển. Giáo sĩ ngoại quốc đến tranh luận phải đứng trên chính nền đá mà dân chúng vừa lát lại. Năm 1715, nhà thờ vừa chứng nhận vương quyền vừa tiếp nhận đơn kiện vua. Tiếng hát dội giữa những vòm chưa khép kín khiến quyền lực của Kimpa lan xa hơn bất kỳ đoàn hộ tống nào.",
+    "lore_en": "Kimpa Vita cleared vegetation from Kulumbimbi’s walls and called communities back to worship in their own language. Families bereaved by civil war brought stone to close the breaches; their names replaced overseas patrons in the common prayers. Foreign clergy arriving to dispute her teaching stand upon paving newly laid by the congregation. By 1715, the cathedral both recognises kingship and receives grievances against kings. Hymns rise through arches still open to the sky. Kimpa’s authority travels with those voices beyond the reach of any escort, binding spiritual recognition to the labour of ordinary households.",
+    "traits": [
+      {
+        "label_vi": "Phụng vụ bản địa",
+        "label_en": "Local Liturgy",
+        "description_vi": "Đức tin được truyền bằng tiếng và ký ức cộng đồng.",
+        "description_en": "Faith is voiced through local language and communal memory."
+      },
+      {
+        "label_vi": "Giáo quyền tự quyết",
+        "label_en": "Self-Determining Church",
+        "description_vi": "Giới giáo sĩ bản địa tự phán quyết các tranh chấp đức tin.",
+        "description_en": "Local clergy judge disputes of faith themselves."
+      }
+    ],
+    "benefit_vi": "Củng cố đoàn kết tín hữu và tính chính thống của liên bang.",
+    "benefit_en": "Unites congregations and strengthens federal legitimacy.",
+    "cost_vi": "Tranh chấp giáo quyền gây căng thẳng với các thế lực ngoài châu Phi.",
+    "cost_en": "Ecclesiastical disputes intensify tensions with overseas powers.",
+    "status_vi": "Được phục dựng từng phần.",
+    "status_en": "Partially restored.",
+    "historical_anchor_vi": "Kulumbimbi là tàn tích nhà thờ lịch sử tại Mbanza Kongo; phục dựng dưới Kimpa Vita là phát triển thay thế.",
+    "historical_anchor_en": "Kulumbimbi is a historical cathedral ruin at Mbanza Kongo; its restoration under Kimpa Vita is alternate history.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1511/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Roofless early Kongo cathedral stone walls being repaired, carved timber scaffolds, congregation in layered woven cloth, candles glowing through chill mist, no modern church additions."
+  },
+  {
+    "id": "sungilu",
+    "faction_id": "kongo_confederation",
+    "name_vi": "Sungilu — Nơi Gột Rửa Vương quyền",
+    "name_en": "Sungilu — The Cleansing of Kings",
+    "location_vi": "Đồi thiêng Mbanza Kongo",
+    "location_en": "Sacred hill of Mbanza Kongo",
+    "category": "sacred",
+    "epithet_vi": "Vương miện cũng phải cúi đầu",
+    "epithet_en": "Even a Crown Must Bow",
+    "lore_vi": "Tại nơi truyền thống gìn giữ nghi thức gột rửa vương quyền, Kimpa đặt thêm một lệ dành cho vua đang sống: trước khi nhận sự công nhận của giáo hội, họ phải đến nghe lời của những người đào huyệt. Người giữ nghi lễ nhắc từng lời thề của đời trước, rồi hỏi vị vua mới sẽ bảo vệ ai khi lương thực cạn. Những người thừa kế học thuộc câu trả lời từ nhỏ, nhưng năm 1716, có người bước tới cùng áo choàng rách vì trận mạc. Dân chúng nhìn vết bùn trên gấu áo lâu hơn nhìn chiếc vương miện, và lời chúc phúc hôm ấy vang khắp sườn đồi.",
+    "lore_en": "At the place traditionally associated with the cleansing of royalty, Kimpa adds a rite for living kings: before ecclesiastical recognition, they must hear the grave-keepers speak. The custodians recite the promises of former rulers, then ask whom the new sovereign will protect when food fails. Heirs rehearse their answers from childhood. In 1716, one claimant arrives with his cloak torn by fighting. The gathering studies the mud on its hem longer than the crown upon his head. That day’s blessing carries across the hill, giving military suffering a place beside inherited right in the judgement of kings.",
+    "traits": [
+      {
+        "label_vi": "Ký ức của người giữ mộ",
+        "label_en": "The Grave-Keepers’ Memory",
+        "description_vi": "Người giữ nghi lễ bảo tồn lời thề của các triều trước.",
+        "description_en": "Ritual custodians preserve the promises of earlier reigns."
+      },
+      {
+        "label_vi": "Công nhận có điều kiện",
+        "label_en": "Conditional Recognition",
+        "description_vi": "Vua phải trình trách nhiệm trước cộng đồng và giáo quyền.",
+        "description_en": "Kings account for their duties before community and clergy."
+      }
+    ],
+    "benefit_vi": "Tạo cơ chế kiềm chế vua thành viên bằng uy tín thiêng liêng.",
+    "benefit_en": "Restrains member kings through sacred authority.",
+    "cost_vi": "Tranh chấp nghi lễ có thể ngăn chuyển giao quyền lực.",
+    "cost_en": "Disputed rites may obstruct the transfer of power.",
+    "status_vi": "Nghi thức được Kimpa bảo hộ.",
+    "status_en": "Rites protected by Kimpa.",
+    "historical_anchor_vi": "Sungilu thuộc quần thể truyền thống Mbanza Kongo; nghi thức dành cho vua sống là sáng tác TFAM.",
+    "historical_anchor_en": "Sungilu belongs to Mbanza Kongo’s ritual landscape; the rite imposed upon living kings is a TFAM invention.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1511/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Intimate Kongo sacred enclosure under ancient trees, stone basin and ceremonial cloth, a mud-stained ruler bowing before elderly custodians, blue-green cold fog."
+  },
+  {
+    "id": "nkumbi-tree",
+    "faction_id": "kongo_confederation",
+    "name_vi": "Cây Yala Nkuwu",
+    "name_en": "The Yala Nkuwu Tree",
+    "location_vi": "Mbanza Kongo",
+    "location_en": "Mbanza Kongo",
+    "category": "landscape",
+    "epithet_vi": "Bóng mát nặng hơn một sắc chỉ",
+    "epithet_en": "A Shadow Weightier than a Decree",
+    "lore_vi": "Các trưởng tộc đưa tranh chấp tới dưới cây thiêng, nơi mỗi lời hứa phải có người sống làm chứng. Kimpa Vita giữ tục lệ ấy sau chiến thắng, buộc quan thuế cũng ngồi xuống nghe những gia đình bị lấy hạt giống. Rễ cây đội những viên đá cũ lên khỏi mặt đất; trẻ nhỏ nhặt lá khô mang về đặt cạnh cửa như dấu hiệu làng mình còn được bảo hộ. Khi chiến tranh năm 1716 đẩy người chạy nạn về đồi, bóng cây chật những tấm chiếu. Có những cuộc xử kiện kéo dài đến lúc đèn tắt, và các vua phải tự bỏ tiền mua dầu để tiếp tục được nghe.",
+    "lore_en": "Clan elders bring disputes beneath the sacred tree, where every promise requires living witnesses. Kimpa Vita preserves the custom after victory and makes tax officers hear households whose seed grain has been taken. Roots lift old paving stones; children carry fallen leaves home as signs that their villages remain protected. When war drives refugees uphill in 1716, mats crowd the shade. Some hearings continue until the lamps fail, and kings must purchase oil themselves if they wish to remain heard. A living tree has become a limit upon written commands, sustained by the people who gather beneath it.",
+    "traits": [
+      {
+        "label_vi": "Nhân chứng sống",
+        "label_en": "Living Witnesses",
+        "description_vi": "Phán quyết dựa vào lời chứng của những người trực tiếp chịu ảnh hưởng.",
+        "description_en": "Judgement relies on those directly affected."
+      },
+      {
+        "label_vi": "Chỗ ngồi cho người chạy nạn",
+        "label_en": "A Place for the Displaced",
+        "description_vi": "Dân mất nhà được đưa vào quá trình phân xử của liên bang.",
+        "description_en": "Displaced people gain access to federal hearings."
+      }
+    ],
+    "benefit_vi": "Giảm lạm thu và tạo niềm tin giữa dân cư với liên bang.",
+    "benefit_en": "Reduces abusive levies and builds trust in the federation.",
+    "cost_vi": "Khối lượng tranh chấp vượt sức của một trung tâm phán xử.",
+    "cost_en": "The volume of disputes overwhelms a single judicial centre.",
+    "status_vi": "Nơi hội họp và phân xử.",
+    "status_en": "Place of assembly and judgement.",
+    "historical_anchor_vi": "Cây thiêng Yala Nkuwu thuộc di sản Mbanza Kongo; cơ chế xét xử của Kimpa là diễn biến thay thế.",
+    "historical_anchor_en": "The sacred Yala Nkuwu tree belongs to Mbanza Kongo’s heritage; Kimpa’s judicial arrangements are alternate developments.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1511/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Enormous sacred Kongo tree with exposed roots lifting stone paving, mats of petitioners and simple oil lamps in winter dusk, dignified quiet civic gathering."
+  },
+  {
+    "id": "kongo-royal-graves",
+    "faction_id": "kongo_confederation",
+    "name_vi": "Khu mộ Vương triều Mbanza",
+    "name_en": "Mbanza Dynastic Burial Ground",
+    "location_vi": "Mbanza Kongo",
+    "location_en": "Mbanza Kongo",
+    "category": "ruin",
+    "epithet_vi": "Những tên họ vẫn đòi quân đội",
+    "epithet_en": "Names Still Demanding Armies",
+    "lore_vi": "Nội chiến để lại những ngôi mộ được các phe nhận là tổ tiên chính thống của mình. Kimpa buộc các đội cận vệ hạ vũ khí trước khi vào Mbanza, rồi cho chôn chung những người đã chết ở hai bên đường tiến về kinh đô. Hòa giải giữ các dòng họ trong liên bang, còn việc truy phong khiến mỗi tên khắc trở thành một yêu sách. Năm 1716, khi đất phía tây mất vào tay Songhai, sứ giả một gia tộc đề nghị đem hài cốt tổ tiên về vùng còn giữ được. Hội đồng phải quyết định liệu một ngôi mộ có thể rời đi mà lời thề với đất nước vẫn ở lại.",
+    "lore_en": "Civil war left graves claimed by rival houses as proof of rightful ancestry. Kimpa makes armed retinues leave their weapons before entering Mbanza, then permits the dead of opposing armies to rest within the same burial precinct. Reconciliation keeps the dynasties in the federation, while posthumous honours turn every inscribed name into a claim. In 1716, as western lands fall to Songhai, one family asks to remove its ancestors to safer ground. The council must decide whether a grave can depart while its oath to the country remains. Memory has become territory that armies cannot simply defend.",
+    "traits": [
+      {
+        "label_vi": "Hòa giải giữa các mộ",
+        "label_en": "Reconciliation Among Graves",
+        "description_vi": "Các nhà từng giao chiến chia sẻ một khu tưởng niệm.",
+        "description_en": "Former enemies share one commemorative precinct."
+      },
+      {
+        "label_vi": "Gia phả thành yêu sách",
+        "label_en": "Genealogy as Claim",
+        "description_vi": "Mộ tổ tiếp tục được dùng để đòi đất và tước vị.",
+        "description_en": "Ancestral graves sustain demands for land and titles."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ hòa giải các vương triều sau nội chiến.",
+    "benefit_en": "Supports reconciliation after dynastic civil war.",
+    "cost_vi": "Tranh chấp hài cốt có thể làm tan những thỏa hiệp chính trị.",
+    "cost_en": "Disputes over remains can unravel political settlements.",
+    "status_vi": "Được canh giữ và bảo vệ khỏi tranh chấp vũ trang.",
+    "status_en": "Guarded against armed dynastic disputes.",
+    "historical_anchor_vi": "Mbanza là một thành phần của di sản Mbanza Kongo; khủng hoảng di dời tổ mộ năm 1716 là sáng tác TFAM.",
+    "historical_anchor_en": "Mbanza is part of Mbanza Kongo’s heritage; the ancestral evacuation crisis of 1716 is a TFAM invention.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1511/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Kongo royal burial grove with restrained stone markers and woven offerings, abandoned spears outside gate, deep forest mist, solemn amber lanterns, no European cemetery motifs."
+  },
+  {
+    "id": "fort-jesus-free",
+    "faction_id": "swahili_league",
+    "name_vi": "Pháo đài Jesus Giải Phóng",
+    "name_en": "Fort Jesus of the Free Ports",
+    "location_vi": "Mombasa",
+    "location_en": "Mombasa",
+    "category": "fortress",
+    "epithet_vi": "Chiến thắng đã có chủ nhân mới",
+    "epithet_en": "Victory Under New Masters",
+    "lore_vi": "Năm 1698, cờ ngoại bang hạ xuống trên Pháo đài Jesus trước liên quân những đô thị Swahili. Những người sống sót chia nhau đứng gác để bảo đảm quân giải phóng từ ngoài biển cũng phải rời đi. Asha bint Salim giữ lại các khẩu pháo thu được, cho khắc tên từng thương cảng lên bệ súng và đặt thủy thủ các thành phố xen nhau trong kíp chiến đấu. Đến năm 1716, khi mặt bắc bị ép, Mombasa trở thành nơi lời thề cũ được thử lại. Pháo thủ nhìn nhau trước khi nhận lệnh mới: quyền chỉ huy của nữ đô đốc đã dài hơn những dòng tên dưới chân họ.",
+    "lore_en": "In 1698, the foreign flag fell over Fort Jesus before the armies of the Swahili towns. Survivors shared the watch to ensure that would-be liberators from overseas also departed. Asha bint Salim kept the captured guns, carved the ports’ names upon their beds and mixed sailors from different cities into each crew. By 1716, pressure from the north tests the old oath at Mombasa. Gunners exchange glances before accepting fresh orders. The admiral’s command has grown beyond the compact engraved beneath their feet, yet those same guns remain the shield of their independence.",
+    "traits": [
+      {
+        "label_vi": "Pháo của mọi cảng",
+        "label_en": "Guns of Every Port",
+        "description_vi": "Kíp pháo trộn người từ nhiều đô thị để ngăn tư hữu thành lũy.",
+        "description_en": "Mixed crews prevent one city from monopolising the fortress."
+      },
+      {
+        "label_vi": "Lời thề năm 1698",
+        "label_en": "The Oath of 1698",
+        "description_vi": "Chiến thắng chung là căn cứ chính trị của liên minh.",
+        "description_en": "The shared victory grounds the league’s authority."
+      }
+    ],
+    "benefit_vi": "Bảo vệ Mombasa và tạo điểm tựa cho hạm đội liên minh.",
+    "benefit_en": "Defends Mombasa and anchors the league fleet.",
+    "cost_vi": "Tập trung quyền chỉ huy làm các thành viên lo mất quyền tự quyết.",
+    "cost_en": "Central command alarms members protective of their autonomy.",
+    "status_vi": "Thành lũy chủ lực của liên minh.",
+    "status_en": "Principal fortress of the league.",
+    "historical_anchor_vi": "Cuộc vây hãm Pháo đài Jesus kết thúc năm 1698; TFAM trao chiến thắng và quyền kiểm soát cho liên quân Swahili.",
+    "historical_anchor_en": "Fort Jesus fell in 1698; TFAM assigns victory and control to a Swahili coalition.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1295/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Fort Jesus coral-stone bastions over Mombasa harbour, green-blue league banners without lettering, mixed Swahili gun crews, cold sea mist and warm coral masonry."
+  },
+  {
+    "id": "zanzibar-council-quay",
+    "faction_id": "swahili_league",
+    "name_vi": "Bến Hội đồng Zanzibar",
+    "name_en": "Zanzibar Council Quay",
+    "location_vi": "Zanzibar",
+    "location_en": "Zanzibar",
+    "category": "seat",
+    "epithet_vi": "Mỗi con tàu có một lá phiếu",
+    "epithet_en": "Every Ship Has a Vote",
+    "lore_vi": "Các thương gia Zanzibar đặt bàn hội đồng trong những nhà kho nhìn thẳng ra bến, để người bỏ phiếu có thể thấy tàu mình đang phải góp cho hạm đội chung. Khi Asha yêu cầu thêm pháo và thủy thủ, các gia tộc gửi người kiểm đếm trước khi mở hầu bao. Bên ngoài, thợ dây thừng chờ nghe tên những con tàu sẽ ra khơi. Năm 1716, ghế của các đảo mất vào tay Merina được phủ vải đen nhưng vẫn giữ trong phòng. Asha dùng những chiếc ghế ấy để xin quyền khẩn cấp; chủ tàu dùng chúng để hỏi ai sẽ trả tiền cho chuyến đi cuối cùng.",
+    "lore_en": "Zanzibar’s merchants placed their council table in warehouses overlooking the quay, where voters could see the ships they owed to the common fleet. When Asha demands more guns and sailors, the houses send tallymen before opening their purses. Outside, rope-makers await the names of vessels ordered to sea. In 1716, seats belonging to islands lost to Merina are draped in black and retained within the chamber. Asha invokes them to demand emergency powers. Shipowners invoke them to ask who will pay for the final voyage. Every deliberation is held within sight of the cost.",
+    "traits": [
+      {
+        "label_vi": "Phiếu buộc vào dây neo",
+        "label_en": "Votes Tied to Mooring Lines",
+        "description_vi": "Nghĩa vụ hải quân được đối chiếu với tàu của từng nhà.",
+        "description_en": "Naval obligations are checked against each house’s vessels."
+      },
+      {
+        "label_vi": "Những ghế phủ đen",
+        "label_en": "Seats in Black",
+        "description_vi": "Các cộng đồng mất đảo vẫn có chỗ trong hội đồng.",
+        "description_en": "Dispossessed island communities retain council places."
+      }
+    ],
+    "benefit_vi": "Huy động tín dụng thương nhân và hạm đội chung.",
+    "benefit_en": "Mobilises merchant credit and a common fleet.",
+    "cost_vi": "Những cuộc bỏ phiếu có thể làm chậm phản ứng quân sự.",
+    "cost_en": "Voting may delay military responses.",
+    "status_vi": "Trung tâm điều hành liên minh.",
+    "status_en": "Administrative centre of the league.",
+    "historical_anchor_vi": "Zanzibar là đô thị thương cảng có lịch sử lâu dài; hội đồng và khủng hoảng hải quân là sáng tác theo lore TFAM.",
+    "historical_anchor_en": "Zanzibar is a longstanding trading settlement; the council and naval crisis develop from TFAM lore.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/173/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Early eighteenth-century Zanzibar coral-stone warehouses and carved timber doors at a busy dhow quay, amber council chamber with several black-draped empty chairs, cold turquoise sea."
+  },
+  {
+    "id": "kilwa-husuni",
+    "faction_id": "swahili_league",
+    "name_vi": "Cung điện Husuni Kubwa",
+    "name_en": "Husuni Kubwa Palace",
+    "location_vi": "Kilwa Kisiwani",
+    "location_en": "Kilwa Kisiwani",
+    "category": "ruin",
+    "epithet_vi": "Đại dương từng đến quỳ tại đây",
+    "epithet_en": "Where the Ocean Once Paid Tribute",
+    "lore_vi": "Liên minh cho khai quật các phòng kho dưới Husuni Kubwa để tìm lại dấu cân và phương pháp ghi sổ của thời Kilwa hưng thịnh. Những mảnh sứ từ phương đông được đặt cạnh chì cân vàng, làm bằng chứng rằng biển từng đưa cả thế giới tới cửa cung điện. Một trường hoa tiêu mở giữa các bức tường cũ, dùng bể nước trong sân để giảng dòng chảy. Học trò ra khơi mang theo niềm kiêu hãnh của một thời trước các công ty ngoại quốc. Người giữ di tích thu học phí bằng phần trăm chuyến hàng đầu tiên, biến ký ức huy hoàng thành món nợ theo họ suốt đời.",
+    "lore_en": "The league reopened Husuni Kubwa’s storerooms to recover weights and accounting practices from Kilwa’s prosperous centuries. Eastern porcelain fragments stand beside gold weights as evidence that the sea once brought a world to the palace gates. A pilot school occupies the old walls, teaching currents through the courtyard pool. Graduates sail with pride in an age before foreign companies controlled the coast. The custodians charge a share of each student’s first cargo. The arrangement funds the ruins, but turns inherited splendour into an obligation that follows young navigators beyond their first voyage.",
+    "traits": [
+      {
+        "label_vi": "Hoa tiêu giữa phế tích",
+        "label_en": "Pilots Among Ruins",
+        "description_vi": "Tri thức hàng hải được dạy trong công trình cũ.",
+        "description_en": "Navigation is taught within the old palace."
+      },
+      {
+        "label_vi": "Học phí từ biển",
+        "label_en": "Tuition from the Sea",
+        "description_vi": "Chuyến hàng đầu nuôi việc bảo trì di tích.",
+        "description_en": "First cargoes support the monument’s upkeep."
+      }
+    ],
+    "benefit_vi": "Đào tạo hoa tiêu và củng cố căn tính hàng hải bản địa.",
+    "benefit_en": "Trains pilots and strengthens local maritime identity.",
+    "cost_vi": "Các nhà giữ trường tích lũy quyền kiểm soát thương nhân trẻ.",
+    "cost_en": "School patrons gain influence over young merchants.",
+    "status_vi": "Phế tích được tái sử dụng.",
+    "status_en": "Ruins adapted for new use.",
+    "historical_anchor_vi": "Husuni Kubwa là cung điện Kilwa thế kỷ XIV; trường hoa tiêu là diễn biến thay thế.",
+    "historical_anchor_en": "Husuni Kubwa is a fourteenth-century Kilwa palace; the pilot school is alternate history.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/144/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Roofless Husuni Kubwa coral-stone palace with octagonal pool used for navigation lessons, porcelain shards and brass weights, frosty sea haze, dhow silhouettes."
+  },
+  {
+    "id": "lamu-carvers",
+    "faction_id": "swahili_league",
+    "name_vi": "Những cửa gỗ Lamu",
+    "name_en": "The Carved Doors of Lamu",
+    "location_vi": "Lamu",
+    "location_en": "Lamu",
+    "category": "industry",
+    "epithet_vi": "Một thành phố ký tên bằng gỗ",
+    "epithet_en": "A City Signing in Timber",
+    "lore_vi": "Khi những thương cảng góp tàu cho liên minh, thợ Lamu được giao làm cửa kho và rương hợp đồng theo một hệ dấu chạm thống nhất. Gia đình nào nhận chìa phải nhận cả trách nhiệm bồi thường nếu dấu niêm bị phá. Nghề chạm cửa từ biểu hiện giàu sang trở thành nền tảng của tín dụng giữa các cảng. Năm 1716, tin chiến tranh từ bắc Kenya khiến những rương hồ sơ được chuyển bằng thuyền nhỏ theo lạch kín. Một cánh cửa còn đứng giữa căn nhà đã cháy được đưa về Zanzibar: dấu chạm trên đó đủ để chứng nhận món nợ của một người tưởng đã mất hết.",
+    "lore_en": "When the ports contributed ships to the league, Lamu’s craftsmen made warehouse doors and contract chests using shared carved seals. A household accepting a key also accepted liability if its seal was broken. Door carving grew from a display of wealth into a foundation of trust between ports. In 1716, fighting in northern Kenya sends records away through hidden creeks in small boats. One door is carried to Zanzibar after its house burns. The carving alone is enough to establish the credit of a merchant believed to have lost everything. Timber bears obligations that survive the walls around it.",
+    "traits": [
+      {
+        "label_vi": "Dấu chạm bảo chứng",
+        "label_en": "Carved Guarantees",
+        "description_vi": "Hoa văn được nhận diện như dấu trách nhiệm thương mại.",
+        "description_en": "Recognised patterns serve as marks of commercial responsibility."
+      },
+      {
+        "label_vi": "Hồ sơ theo thuyền nhỏ",
+        "label_en": "Records by Small Boat",
+        "description_vi": "Sổ và dấu niêm có thể di tản qua lạch ven đảo.",
+        "description_en": "Registers and seals can escape through island channels."
+      }
+    ],
+    "benefit_vi": "Tăng lòng tin tín dụng và khả năng phục hồi thương mại sau chiến tranh.",
+    "benefit_en": "Improves credit and commercial recovery after war.",
+    "cost_vi": "Các phường thợ kiểm soát quyền chứng nhận gây độc quyền.",
+    "cost_en": "Guild control of authentication can become a monopoly.",
+    "status_vi": "Phường nghề đang sơ tán hồ sơ khỏi vùng bị đe dọa.",
+    "status_en": "Guilds evacuating records from threatened districts.",
+    "historical_anchor_vi": "Lamu có truyền thống kiến trúc san hô và cửa gỗ chạm; hệ niêm tín dụng là sáng tác TFAM.",
+    "historical_anchor_en": "Lamu’s coral architecture and carved doors are historical; the credit-seal system is a TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1055/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Narrow Lamu coral-stone street with magnificent carved timber doors, craftsmen lifting a salvaged door onto a small dhow, cold coastal mist, jewel-toned fabrics."
+  },
+  {
+    "id": "kilwa-great-mosque",
+    "faction_id": "swahili_league",
+    "name_vi": "Đại thánh đường Kilwa",
+    "name_en": "The Great Mosque of Kilwa",
+    "location_vi": "Kilwa Kisiwani",
+    "location_en": "Kilwa Kisiwani",
+    "category": "sacred",
+    "epithet_vi": "Những lời thề đi qua mùa gió",
+    "epithet_en": "Oaths Carried Through the Monsoon",
+    "lore_vi": "Các đô thị chọn thánh đường cổ Kilwa làm nơi đọc lời thề bảo vệ thương thuyền, để ký ức về một cảng từng giàu mạnh giữ các nhà buôn ngồi cùng nhau. Mỗi đội tàu gửi một mảnh dây neo, buộc thành vòng treo trong sân. Khi chiến hạm Merina lấy các đảo năm 1716, người giữ lễ cắt khỏi vòng những đoạn dây của tàu đã mất, giao lại cho thân nhân thay giấy báo tử. Asha yêu cầu giữ phần còn lại nguyên vẹn trước chuyến xuất quân. Những nút dây sát nhau hơn, còn khoảng trống giữa các mái vòm khiến ai cũng biết vòng thề đã nhỏ đi.",
+    "lore_en": "The ports chose Kilwa’s ancient mosque for their oath to protect merchant shipping, allowing the memory of a once-powerful harbour to seat rival houses together. Every flotilla sent a piece of mooring rope, knotted into a ring within the court. After Merina seized islands in 1716, the custodians cut away the cords of lost ships and returned them to families in place of death notices. Asha ordered the remainder preserved before the next sailing. The knots now stand closer together, and the empty space between the vaults makes the shrinking of the covenant visible to all.",
+    "traits": [
+      {
+        "label_vi": "Vòng dây của hạm đội",
+        "label_en": "The Fleet’s Rope Ring",
+        "description_vi": "Lời thề chung ghi nhận cả tàu nhỏ và tàu lớn.",
+        "description_en": "The shared covenant recognises small and great vessels alike."
+      },
+      {
+        "label_vi": "Tang lễ của thủy thủ",
+        "label_en": "The Sailors’ Mourning",
+        "description_vi": "Gia đình mất người được xác nhận trước cộng đồng.",
+        "description_en": "Bereaved households receive public recognition."
+      }
+    ],
+    "benefit_vi": "Giữ đoàn kết thủy thủ và hỗ trợ gia đình có người chết trên biển.",
+    "benefit_en": "Sustains crews’ solidarity and bereaved seafaring households.",
+    "cost_vi": "Tổn thất bị công khai có thể làm lung lay tín nhiệm chỉ huy.",
+    "cost_en": "Public losses can undermine confidence in command.",
+    "status_vi": "Nơi giữ lời thề hải quân.",
+    "status_en": "Custodian of the naval covenant.",
+    "historical_anchor_vi": "Đại thánh đường Kilwa phát triển qua nhiều thế kỷ trung đại; nghi lễ dây neo là sáng tác TFAM.",
+    "historical_anchor_en": "Kilwa’s Great Mosque developed through medieval centuries; the mooring-rope rite is a TFAM invention.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/144/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Ancient Kilwa mosque vaults in coral stone, knotted circle of ships’ ropes suspended in courtyard, mourners and a woman admiral, subtle frost and pale ocean light."
+  },
+  {
+    "id": "cape-star-castle",
+    "faction_id": "cape_republic",
+    "name_vi": "Thành Sao Mũi Hảo Vọng",
+    "name_en": "The Star Castle of Good Hope",
+    "location_vi": "Cape Town",
+    "location_en": "Cape Town",
+    "category": "fortress",
+    "epithet_vi": "Năm cánh thành đổi chủ",
+    "epithet_en": "Five Bastions Under New Hands",
+    "lore_vi": "Năm 1706, những người theo Adam Tas mở cổng thành cho các đội dân binh giữa lúc lính công ty còn chờ lệnh bắt người kiến nghị. Kho vũ khí đổi chủ, sổ nợ bị đưa ra sân và hội đồng đầu tiên họp dưới họng những khẩu pháo vừa quay ra biển. Tas giữ nguyên năm cánh thành để chống cuộc trở lại của công ty. Đến năm 1715, mỗi quyết định tịch thu tàu đều được đọc trên chính bậc cửa ấy. Dân định cư gọi đó là nơi tự do bắt đầu; người bị giữ trong phòng giam cũ đếm những viên đá vẫn mang dấu bàn tay lao dịch của mình.",
+    "lore_en": "In 1706, Adam Tas’s supporters opened the castle gates to militia while company soldiers still awaited orders to arrest the petitioners. The armoury changed hands, debt registers were brought into the yard, and the first council met beneath guns newly turned toward the sea. Tas retained all five bastions against the company’s return. By 1715, every seizure of a ship is proclaimed from the same steps. Settlers call them the birthplace of liberty. Those held in the old cells count stones still bearing the marks of the labour that built the fortress, asking whose freedom the republic intends to defend.",
+    "traits": [
+      {
+        "label_vi": "Pháo quay ra biển",
+        "label_en": "Guns Turned Seaward",
+        "description_vi": "Thành lũy bảo vệ nền cộng hòa khỏi công ty cũ.",
+        "description_en": "The fortress shields the republic from its former company rulers."
+      },
+      {
+        "label_vi": "Những phòng giam còn lại",
+        "label_en": "The Cells Remain",
+        "description_vi": "Hệ thống cưỡng bức cũ tiếp tục đặt câu hỏi cho chính quyền mới.",
+        "description_en": "Inherited coercion challenges the new government’s principles."
+      }
+    ],
+    "benefit_vi": "Bảo vệ trung tâm cộng hòa và kiểm soát tiếp cận cảng.",
+    "benefit_en": "Defends the republic’s centre and controls harbour access.",
+    "cost_vi": "Di sản giam giữ và bất bình đẳng làm suy yếu lời hứa tự do.",
+    "cost_en": "Imprisonment and inequality erode the promise of freedom.",
+    "status_vi": "Pháo đài thuộc quyền hội đồng.",
+    "status_en": "Fortress controlled by the council.",
+    "historical_anchor_vi": "Thành Mũi Hảo Vọng được xây 1666–1679; cuộc kiến nghị Adam Tas năm 1706 trở thành cách mạng thành công trong TFAM.",
+    "historical_anchor_en": "The Castle of Good Hope was built in 1666–1679; Adam Tas’s 1706 petition becomes a successful revolution in TFAM.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.castleofgoodhope.co.za/index.php/component/content/article/history-of-castle-of-good-hope?catid=8"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Five-bastioned Castle of Good Hope in seventeenth-century form, republican militia at gate, sea-facing cannon, Table Mountain behind, salt frost on dark stone, no modern city skyline."
+  },
+  {
+    "id": "cape-common-garden",
+    "faction_id": "cape_republic",
+    "name_vi": "Vườn Chung Cape Town",
+    "name_en": "The Common Garden of Cape Town",
+    "location_vi": "Cape Town",
+    "location_en": "Cape Town",
+    "category": "landscape",
+    "epithet_vi": "Mảnh đất nuôi những con tàu",
+    "epithet_en": "The Ground That Feeds the Ships",
+    "lore_vi": "Sau cuộc nổi dậy, hội đồng xóa tên công ty khỏi vườn tiếp tế nhưng giữ nguyên những luống rau mà thủy thủ cần để sống hết hành trình. Tas chia quyền lấy nước giữa vườn, dân phố và tàu ghé cảng; người giữ cổng phải ghi từng thùng lên bảng. Khi rét kéo dài, kính thu từ tàu bị tịch thu được lắp thành những mái thấp trên luống giống. Cây còn sống khiến tàu tìm tới, còn tàu mang đến kính, phân và người làm vườn. Mỗi khi hội đồng ưu tiên chiến hạm, hàng người chờ nước trước cổng lại dài hơn, kéo câu hỏi về tự do xuống tận đáy chiếc thùng rỗng.",
+    "lore_en": "After the uprising, the council removed the company’s name from its provisioning garden but preserved the beds sailors needed to survive their passage. Tas divided water between the garden, townspeople and visiting ships; the gatekeeper recorded every barrel. During prolonged cold, glass taken from seized vessels became low covers over seed beds. Living plants draw ships, and ships bring glass, manure and gardeners. Whenever the council favours warships, the water queue outside grows longer. The promise of liberty is measured at the bottom of an empty bucket, beneath a garden sustained by the very maritime power that strains the town.",
+    "traits": [
+      {
+        "label_vi": "Hạt giống dưới kính",
+        "label_en": "Seed Beneath Glass",
+        "description_vi": "Kính tàu được tái sử dụng để bảo vệ cây lương thực.",
+        "description_en": "Ships’ glass is reused to protect food crops."
+      },
+      {
+        "label_vi": "Nước phải có tên",
+        "label_en": "Water Must Be Accounted For",
+        "description_vi": "Việc phân nước được ghi công khai tại cổng.",
+        "description_en": "Water allocation is recorded publicly at the gate."
+      }
+    ],
+    "benefit_vi": "Cung cấp thực phẩm tươi và giữ sức hút của trạm tiếp tế.",
+    "benefit_en": "Provides fresh food and sustains the provisioning station.",
+    "cost_vi": "Nhu cầu hạm đội tranh nước với cư dân.",
+    "cost_en": "Fleet demand competes with residents for water.",
+    "status_vi": "Vườn tiếp tế do hội đồng quản lý.",
+    "status_en": "Provisioning garden managed by the council.",
+    "historical_anchor_vi": "Vườn Công ty có nguồn gốc trạm tiếp tế VOC; TFAM chuyển nó thành vườn chung sau cuộc nổi dậy năm 1706.",
+    "historical_anchor_en": "The Company’s Garden originated in the VOC provisioning station; TFAM makes it a common garden after the 1706 uprising.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.capetown.gov.za/work-and-business/see-all-city-facilities/our-recreational-facilities/district-parks/the-companys-garden/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Cape Town provisioning garden with salvaged low glass cold frames, seventeenth-century vegetable beds, public water barrels, Table Mountain in cloud, subtle frost."
+  },
+  {
+    "id": "table-mountain-beacons",
+    "faction_id": "cape_republic",
+    "name_vi": "Đèn hiệu Núi Bàn",
+    "name_en": "The Beacons of Table Mountain",
+    "location_vi": "Núi Bàn và vịnh Table",
+    "location_en": "Table Mountain and Table Bay",
+    "category": "landscape",
+    "epithet_vi": "Ngọn núi đọc được biển",
+    "epithet_en": "The Mountain That Reads the Sea",
+    "lore_vi": "Tas cho đặt người canh trên các vai Núi Bàn để phát hiện chiến hạm công ty trước khi chúng vào tầm pháo. Những cộng đồng thuộc đường núi được thuê dựng lều, giữ bếp và đưa tín hiệu xuống cảng bằng cờ hoặc lửa. Gió cuốn mây phủ đỉnh nhiều ngày, khiến lính gác phải nghe tiếng pháo vọng qua đá để đoán tin dưới vịnh. Đến năm 1716, một hệ đèn nối các sườn thành mạng báo động. Người giữ đèn được trả lương cao hơn lính cảng, bởi một đêm ngủ quên có thể khiến cả nền cộng hòa thức dậy dưới họng súng của người chủ cũ.",
+    "lore_en": "Tas placed lookouts on Table Mountain’s shoulders to spot company warships before they entered gun range. Communities familiar with the paths were paid to maintain shelters, fires and signals to the harbour. Wind can bury the summit in cloud for days, forcing watchers to interpret cannon reports through the rock. By 1716, lamps connect the slopes into an alarm network. Keepers earn more than harbour soldiers: one night of sleep could leave the republic waking beneath the guns of its former masters. Those who know the mountain now hold a share of the coast’s security.",
+    "traits": [
+      {
+        "label_vi": "Người thuộc đường mây",
+        "label_en": "Keepers of Cloud Paths",
+        "description_vi": "Tri thức địa phương giữ mạng báo động hoạt động.",
+        "description_en": "Local knowledge keeps the alarm network operating."
+      },
+      {
+        "label_vi": "Báo động bằng lửa",
+        "label_en": "Alarm by Fire",
+        "description_vi": "Đèn hiệu nối núi với pháo đài và bến cảng.",
+        "description_en": "Beacons connect mountain, fortress and quay."
+      }
+    ],
+    "benefit_vi": "Cảnh báo hạm đội tới và hỗ trợ phòng thủ đường biển.",
+    "benefit_en": "Warns of approaching fleets and supports coastal defence.",
+    "cost_vi": "Mây, gió và lửa giả có thể gây báo động sai.",
+    "cost_en": "Cloud, wind and false fires can trigger misleading alarms.",
+    "status_vi": "Mạng đèn hiệu có người trực.",
+    "status_en": "Continuously watched beacon network.",
+    "historical_anchor_vi": "Núi Bàn định hình cảnh quan Mũi Hảo Vọng; mạng canh phòng của Tas là sáng tác TFAM.",
+    "historical_anchor_en": "Table Mountain shapes the Cape landscape; Tas’s watch network is a TFAM invention.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1007/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Table Mountain dramatic plateau above a seventeenth-century bay, tiny sheltered beacon huts on ledges, signal fires beneath freezing cloud, richly painted blue slate and amber."
+  },
+  {
+    "id": "stellenbosch-petition",
+    "faction_id": "cape_republic",
+    "name_vi": "Nhà Kiến nghị Stellenbosch",
+    "name_en": "The Petition House of Stellenbosch",
+    "location_vi": "Stellenbosch",
+    "location_en": "Stellenbosch",
+    "category": "knowledge",
+    "epithet_vi": "Chữ ký đã gọi được đại bác",
+    "epithet_en": "Signatures That Summoned Cannon",
+    "lore_vi": "Bản kiến nghị của Adam Tas được giữ trong một căn nhà ở Stellenbosch, dưới hai ổ khóa do người trồng nho và thủy thủ giữ riêng. Những người đến nhận đất mới phải nghe đọc tên người ký trước khi đóng dấu phần mình. Hội đồng gọi đó là bài học về quyền chống lạm quyền. Nhưng khi miền biên mở rộng, những người làm thuê và cộng đồng mất đất bắt đầu mang đơn tới xin thêm tên vào lời thề. Cửa nhà thành nơi tranh luận kéo dài đến mùa đông. Mỗi bản sao được phát đi đều giữ trang cuối còn trống, khiến nhà cầm quyền khó tuyên bố cuộc cách mạng đã hoàn tất.",
+    "lore_en": "Adam Tas’s petition is kept in a Stellenbosch house beneath two locks, one held by growers and one by sailors. Applicants for new land hear the signatories’ names before sealing their own grants. The council calls it a lesson in resistance to abuse. As the frontier expands, labourers and dispossessed communities bring petitions asking to add their names to the promise. Arguments fill the doorway through winter. Every circulating copy retains a blank final page, making it difficult for the authorities to declare the revolution complete. A document that legitimised the council continues to invite demands against it.",
+    "traits": [
+      {
+        "label_vi": "Hai khóa một văn bản",
+        "label_en": "Two Locks, One Petition",
+        "description_vi": "Hai nhóm xã hội cùng giữ bản gốc của lời thề lập quốc.",
+        "description_en": "Two constituencies share custody of the founding petition."
+      },
+      {
+        "label_vi": "Trang cuối còn trống",
+        "label_en": "The Last Page Remains Blank",
+        "description_vi": "Các nhóm bị loại trừ tiếp tục đòi quyền đại diện.",
+        "description_en": "Excluded groups continue to demand representation."
+      }
+    ],
+    "benefit_vi": "Tăng trách nhiệm giải trình và lưu giữ nền tảng pháp lý cộng hòa.",
+    "benefit_en": "Promotes accountability and preserves republican legal foundations.",
+    "cost_vi": "Mở rộng quyền đại diện chia rẽ liên minh cầm quyền.",
+    "cost_en": "Expanding representation divides the governing coalition.",
+    "status_vi": "Kho lưu văn bản và nơi nhận kiến nghị.",
+    "status_en": "Document repository and petition office.",
+    "historical_anchor_vi": "Adam Tas và cuộc kiến nghị năm 1706 là nhân vật, sự kiện thật; nhà lưu kiến nghị thuộc dòng thời gian thay thế.",
+    "historical_anchor_en": "Adam Tas and the 1706 petition are historical; the petition house belongs to the alternate timeline.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.castleofgoodhope.co.za/reps_pubs/ccb_annexA_Timeline-Of-Castle-of-Good-Hope.pdf"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Modest early Cape gabled house in Stellenbosch, parchment protected in a two-lock wooden case, petitioners in varied local clothing, vineyard frost, no readable text."
+  },
+  {
+    "id": "cape-storm-anchorages",
+    "faction_id": "cape_republic",
+    "name_vi": "Những vũng neo Mũi Bão",
+    "name_en": "The Storm Anchorages of the Cape",
+    "location_vi": "Bờ biển Mũi Hảo Vọng",
+    "location_en": "Cape of Good Hope coast",
+    "category": "harbour",
+    "epithet_vi": "Mọi đế quốc đều phải hỏi đường",
+    "epithet_en": "Every Empire Must Ask Passage",
+    "lore_vi": "Những thuyền dẫn luồng của cộng hòa ra đón chiến hạm trước khi chúng thấy rõ các vách đá ở Mũi Bão. Người đi biển địa phương biết những chỗ nước đổi màu, nơi gió có thể bẻ gãy cột buồm ngay khi vịnh tưởng đã gần. Tas đặt giá cứu hộ công khai, rồi buộc tàu chiến nộp bảo chứng trước khi nhận hoa tiêu. Tiền bạc chảy về kho hội đồng cùng những xác tàu được kéo lên bãi. Đến năm 1716, các đế quốc bắt đầu gọi phí ấy là thuế qua biển; những người chờ cứu giữa sóng lạnh lại chỉ hỏi thuyền dẫn đường bao giờ tới.",
+    "lore_en": "Republican pilot boats meet warships before they can distinguish the Storm Cape’s cliffs. Local mariners know where the water changes colour and where a gust can break a mast with shelter seemingly close. Tas publishes salvage rates, then requires naval vessels to post guarantees before receiving pilots. Money reaches the council with wrecks dragged ashore. By 1716, imperial envoys call the charges a tax upon the ocean. Sailors waiting amid freezing spray ask only when the guide boat will arrive. The republic’s leverage rests upon a dangerous coast and the skill of people willing to launch into it.",
+    "traits": [
+      {
+        "label_vi": "Hoa tiêu trước chiến hạm",
+        "label_en": "Pilots Before Warships",
+        "description_vi": "Tàu mạnh vẫn cần tri thức địa phương để vào vũng neo.",
+        "description_en": "Even powerful ships require local knowledge to reach shelter."
+      },
+      {
+        "label_vi": "Cứu hộ thành quốc sách",
+        "label_en": "Salvage as Statecraft",
+        "description_vi": "Dịch vụ cứu hộ tài trợ cho chính quyền và hạm đội.",
+        "description_en": "Salvage supports the government and fleet."
+      }
+    ],
+    "benefit_vi": "Tạo nguồn thu và đòn bẩy với tàu đi vòng châu Phi.",
+    "benefit_en": "Provides revenue and leverage over traffic around Africa.",
+    "cost_vi": "Phí cao gây trả đũa; thủy thủ cứu hộ chịu tổn thất nặng.",
+    "cost_en": "High charges invite retaliation; rescue crews suffer heavy losses.",
+    "status_vi": "Trạm hoa tiêu và cứu hộ ven biển.",
+    "status_en": "Coastal pilotage and rescue stations.",
+    "historical_anchor_vi": "Đường vòng Mũi Hảo Vọng là hành lang hàng hải lịch sử; chế độ bảo chứng do Tas thiết lập là biến thể TFAM.",
+    "historical_anchor_en": "The Cape route is historical; Tas’s guarantee regime is a TFAM adaptation.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.castleofgoodhope.co.za/reps_pubs/ccb_Integrated-Conservation-Management-Plan_Sep18.pdf"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Storm-battered Cape cliffs, tiny stout pilot boat guiding a grand sailing warship through white freezing spray, coastal shelter fires, monumental painted ocean."
+  },
+  {
+    "id": "ambohimanga-oath",
+    "faction_id": "merina_empire",
+    "name_vi": "Đồi thiêng Ambohimanga",
+    "name_en": "The Sacred Hill of Ambohimanga",
+    "location_vi": "Ambohimanga, cao nguyên Imerina",
+    "location_en": "Ambohimanga, Imerina highlands",
+    "category": "sacred",
+    "epithet_vi": "Hòn đảo bắt đầu từ một lời thề",
+    "epithet_en": "An Island Founded upon an Oath",
+    "lore_vi": "Andrianampoinimerina đưa các thủ lĩnh bị khuất phục lên Ambohimanga để cùng bước qua một cổng đá. Những cánh cửa từng chia đất của các nhà nay mở cho cùng một đoàn người, còn các giếng thiêng được đặt dưới sự bảo hộ của vương quyền. Sau khi cha mất năm 1710, Radama trở về đây trước mỗi cuộc xuất quân ra biển, đem theo đất từ những bến tàu mới. Những người giữ lễ trộn đất ấy vào bậc sân, khiến kinh đô cao nguyên mang dấu vết của bờ biển xa. Quý tộc đứng nhìn và tính xem phần đất nào được đặt gần chỗ vua quỳ nhất.",
+    "lore_en": "Andrianampoinimerina brought defeated chiefs to Ambohimanga to pass through one stone gate. Doors that once divided dynastic lands opened for a single procession, and sacred springs came beneath royal protection. After his father’s death in 1710, Radama returns before overseas campaigns with earth from new shipyards. Custodians work it into the courtyard steps, giving the highland seat traces of distant shores. Nobles watch and calculate which port’s soil lies nearest the king’s kneeling place. The ceremony binds a maritime ambition to ancestral authority while quietly ranking those who hope to profit from it.",
+    "traits": [
+      {
+        "label_vi": "Một cổng cho các nhà",
+        "label_en": "One Gate for the Houses",
+        "description_vi": "Nghi lễ đưa các thủ lĩnh cùng bước qua dấu quyền lực chung.",
+        "description_en": "The rite brings chiefs through a shared emblem of authority."
+      },
+      {
+        "label_vi": "Đất biển trên cao nguyên",
+        "label_en": "Coastal Earth in the Highlands",
+        "description_vi": "Cảng mới được nối với tính chính thống của tổ tiên.",
+        "description_en": "New ports are bound to ancestral legitimacy."
+      }
+    ],
+    "benefit_vi": "Củng cố thống nhất Madagascar và uy tín chiến dịch vượt biển.",
+    "benefit_en": "Strengthens Madagascar’s unity and legitimises overseas campaigns.",
+    "cost_vi": "Quý tộc biến nghi lễ thành cuộc tranh vị thế và đặc quyền.",
+    "cost_en": "Nobles turn ritual precedence into a struggle for privileges.",
+    "status_vi": "Thánh địa vương quyền được bảo hộ.",
+    "status_en": "Protected royal sanctuary.",
+    "historical_anchor_vi": "Ambohimanga và Andrianampoinimerina có thật; TFAM đưa thống nhất đảo lên năm 1687 và Radama kế vị năm 1710.",
+    "historical_anchor_en": "Ambohimanga and Andrianampoinimerina are historical; TFAM advances unification to 1687 and Radama’s succession to 1710.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/950/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Ambohimanga sacred wooded hill with massive circular stone gateway, Malagasy royal procession carrying bowls of coastal earth, timber palisades, highland rime and warm woven cloth."
+  },
+  {
+    "id": "antananarivo-rova",
+    "faction_id": "merina_empire",
+    "name_vi": "Rova Antananarivo",
+    "name_en": "The Rova of Antananarivo",
+    "location_vi": "Antananarivo",
+    "location_en": "Antananarivo",
+    "category": "seat",
+    "epithet_vi": "Ngai cao nhìn xuống những cánh buồm",
+    "epithet_en": "A High Throne Looking Toward Sails",
+    "lore_vi": "Từ những nền gỗ trên đồi, Radama nhận tin chiến hạm qua các đoàn chạy trạm phải leo hết đường dốc mới tới cổng. Ông treo mô hình tàu trong phòng nghị sự, bắt những vị quan quen đếm ruộng học cách đếm ngày đi biển. Các vương tử nhận chức chỉ huy thay cho đất phong; người trở về mang chiến lợi phẩm được ngồi gần ngai hơn người chỉ mang gia phả. Năm 1716, đồ vật từ các đảo mới chiếm chất thành dãy dưới mái gỗ. Triều đình trông thấy đại dương bước vào kinh thành, còn những nhà cũ nhận ra cửa cung đang đổi hướng đón người.",
+    "lore_en": "From timber halls upon the hill, Radama receives naval dispatches carried by runners who must climb the steep road to his gate. Ship models hang in the council chamber, where officials accustomed to measuring rice fields learn to count days at sea. Princes receive commands instead of landed estates; those returning with spoils sit nearer the throne than those bringing only pedigrees. By 1716, objects from conquered islands fill the wooden galleries. The ocean has entered the highland capital, and the old houses recognise that the palace doors are opening toward a different source of power.",
+    "traits": [
+      {
+        "label_vi": "Chức vụ thay đất phong",
+        "label_en": "Commands Instead of Estates",
+        "description_vi": "Vương tử tìm quyền lực bằng phục vụ hạm đội.",
+        "description_en": "Princes seek influence through naval service."
+      },
+      {
+        "label_vi": "Triều đình học về biển",
+        "label_en": "A Court Learning the Sea",
+        "description_vi": "Hành chính cao nguyên phải tiếp nhận nhịp vận tải đại dương.",
+        "description_en": "Highland administration adapts to oceanic logistics."
+      }
+    ],
+    "benefit_vi": "Tập trung quyền lực và đào tạo tầng lớp chỉ huy phục vụ hoàng đế.",
+    "benefit_en": "Centralises power and forms a royal command class.",
+    "cost_vi": "Cạnh tranh giữa công thần biển và quý tộc đất gây chia rẽ.",
+    "cost_en": "Maritime officers and landed nobles compete for influence.",
+    "status_vi": "Kinh thành bằng gỗ trên cao nguyên.",
+    "status_en": "Timber royal citadel of the highlands.",
+    "historical_anchor_vi": "Rova Antananarivo là trung tâm vương quyền Merina; hồ sơ giữ hình thái gỗ tiền hiện đại, không dùng cung điện đá thế kỷ XIX.",
+    "historical_anchor_en": "Antananarivo’s Rova is a Merina royal centre; this entry retains premodern timber forms rather than later nineteenth-century stone palaces.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/950/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Early Malagasy timber royal enclosure on steep Antananarivo ridge, carved wood halls and woven banners, naval models glimpsed inside, silver highland frost, no nineteenth-century stone palace."
+  },
+  {
+    "id": "toamasina-shipyards",
+    "faction_id": "merina_empire",
+    "name_vi": "Xưởng tàu Toamasina",
+    "name_en": "The Toamasina Shipyards",
+    "location_vi": "Bờ đông Madagascar",
+    "location_en": "Eastern Madagascar",
+    "category": "industry",
+    "epithet_vi": "Rừng cao nguyên đi xuống biển",
+    "epithet_en": "Highland Forests Going to Sea",
+    "lore_vi": "Cha Radama cho dựng xưởng bên bờ đông để hòn đảo thống nhất có thể tự bảo vệ đường biển. Dưới tay người con, những dãy đà kéo dài, thợ từ các miền bị chinh phục phải làm chung khung tàu và dùng chung dấu đo. Gỗ theo sông xuống bến, dây chão được phơi trên giàn cao khỏi sương mặn, còn quân mới học leo dây trước khi được nhận súng. Năm 1716, xưởng đóng tàu thay nhanh hơn khả năng đào tạo thủy thủ. Những thân tàu nằm chờ bên nước khiến triều đình nhìn thấy sức mạnh, người thợ nhìn thấy lương chưa trả và các làng nhìn thấy cánh rừng lùi xa.",
+    "lore_en": "Radama’s father established the eastern yards so a united island could protect its own sea routes. Under his son, slips lengthen and craftsmen from conquered districts work upon common hull frames using shared measures. Timber descends the rivers; rope dries above salt mist; recruits climb rigging before receiving firearms. By 1716, construction outpaces the training of sailors. Hulls wait beside the water. The court sees power in them, workers see unpaid wages, and villages see the retreat of their forests. An oceanic empire grows through a chain of demands stretching from the coast to the interior.",
+    "traits": [
+      {
+        "label_vi": "Một dấu đo cho mọi xưởng",
+        "label_en": "One Measure for Every Yard",
+        "description_vi": "Chuẩn đo thống nhất ghép các nghề vùng miền vào một hạm đội.",
+        "description_en": "Common measures unite regional crafts in one fleet."
+      },
+      {
+        "label_vi": "Tàu chờ người",
+        "label_en": "Ships Awaiting Crews",
+        "description_vi": "Tốc độ đóng tàu vượt nguồn thủy thủ thành thạo.",
+        "description_en": "Shipbuilding outpaces skilled recruitment."
+      }
+    ],
+    "benefit_vi": "Tạo năng lực đóng và sửa hạm đội trong đảo.",
+    "benefit_en": "Creates domestic fleet construction and repair capacity.",
+    "cost_vi": "Khai thác rừng và huy động cưỡng bức làm căng quan hệ vùng miền.",
+    "cost_en": "Forest extraction and forced recruitment strain regional relations.",
+    "status_vi": "Xưởng hoàng gia đang mở rộng.",
+    "status_en": "Royal yards under expansion.",
+    "historical_anchor_vi": "Sự phát triển hàng hải của Merina được đưa sớm trong TFAM; Toamasina trở thành căn cứ công nghiệp của công cuộc ấy.",
+    "historical_anchor_en": "Merina maritime expansion is advanced in TFAM; Toamasina becomes its industrial base.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/950/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Malagasy east-coast timber shipyards, large sailing hull ribs built with local timber, river log rafts, rope walks and cold sea mist, teal waters and warm reddish wood."
+  },
+  {
+    "id": "betsimitatatra-fields",
+    "faction_id": "merina_empire",
+    "name_vi": "Những ruộng bậc Betsimitatatra",
+    "name_en": "The Betsimitatatra Rice Plain",
+    "location_vi": "Đồng bằng dưới Antananarivo",
+    "location_en": "Plain below Antananarivo",
+    "category": "landscape",
+    "epithet_vi": "Bậc thềm nuôi ngai vàng",
+    "epithet_en": "Terraces That Feed the Throne",
+    "lore_vi": "Andrianampoinimerina buộc các miền phục quốc góp người đắp đê và nạo kênh dưới kinh thành trước khi nhận thêm đất. Mùa rét kéo dài khiến nước trên ruộng cạn kết váng, nên người giữ cống phải thay nhau mở dòng sâu về những thửa dành giống. Radama giữ nghĩa vụ ấy khi quân đội ra biển, cho gia đình thủy thủ nhận gạo từ kho chung. Hàng đê trở thành đường đưa tân binh tới trạm quân. Mỗi mùa xuất quân, phụ nữ và người già lại làm thêm phần của người đi vắng; dưới kinh thành đang treo chiến lợi phẩm, ruộng lúa ghi cái giá của những đảo vừa được chiếm.",
+    "lore_en": "Andrianampoinimerina required restored districts to supply workers for embankments and canals beneath the capital before receiving new land. Long cold seasons glaze shallow water with ice, so sluice-keepers direct deeper flows to seed plots. Radama preserves the obligation while his army goes overseas, granting sailors’ households rice from common stores. Dykes become roads carrying recruits to muster stations. Each sailing season leaves women and elders tending the absent workers’ ground. Beneath a capital displaying fresh trophies, the rice plain records the price of newly conquered islands in additional days of labour.",
+    "traits": [
+      {
+        "label_vi": "Cống nước của vương quyền",
+        "label_en": "Royal Sluices",
+        "description_vi": "Điều phối nước bảo vệ những thửa giữ giống.",
+        "description_en": "Managed water protects seed plots."
+      },
+      {
+        "label_vi": "Gạo của người ra biển",
+        "label_en": "Rice for Those at Sea",
+        "description_vi": "Kho chung trợ cấp gia đình phục vụ hạm đội.",
+        "description_en": "Common stores support naval households."
+      }
+    ],
+    "benefit_vi": "Nuôi kinh thành và duy trì gia đình quân nhân.",
+    "benefit_en": "Feeds the capital and sustains military households.",
+    "cost_vi": "Lao động nông nghiệp suy kiệt khi quân dịch kéo dài.",
+    "cost_en": "Prolonged military service exhausts agricultural labour.",
+    "status_vi": "Hệ đê ruộng được bảo trì theo nghĩa vụ.",
+    "status_en": "Embankments maintained through public obligations.",
+    "historical_anchor_vi": "Các cải cách thủy lợi và nông nghiệp gắn với thống nhất Merina; TFAM đưa chúng sớm cùng triều Andrianampoinimerina.",
+    "historical_anchor_en": "Irrigation and agricultural reform accompanied Merina consolidation; TFAM advances them with Andrianampoinimerina’s reign.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/950/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Highland Madagascar rice plain with geometric earth dykes below a timber royal ridge, sluice workers breaking thin ice, copper water reflections and pale violet hills."
+  },
+  {
+    "id": "comoros-trophy-harbour",
+    "faction_id": "merina_empire",
+    "name_vi": "Bến Chiến lợi phẩm Comoros",
+    "name_en": "The Trophy Anchorage of Comoros",
+    "location_vi": "Comoros, quyền kiểm soát đổi năm 1716",
+    "location_en": "Comoros, control changes in 1716",
+    "category": "harbour",
+    "epithet_vi": "Chiếc neo đầu tiên ngoài quê nhà",
+    "epithet_en": "The First Anchor Beyond Home",
+    "lore_vi": "Trước năm 1716, bến là nơi thuyền Swahili tránh gió và đổi nước. Khi chiến hạm Radama tới, kho bờ biển được chuyển thành điểm tập kết quân, còn một cột buồm thu được dựng lên làm dấu cho những chuyến tàu từ Madagascar. Quân Merina mang đất đảo về kinh thành nhưng để lại phần lớn lính tại đây, giữa một vùng biển họ vẫn cần hoa tiêu địa phương để đi qua. Mỗi chiến lợi phẩm gửi về đều khiến quý tộc cao nguyên đòi thêm quyền sở hữu. Những người giữ bến nhận lệnh đóng thuế từ cả nhà cai trị mới lẫn những chủ nợ đã có mặt trước trận đánh.",
+    "lore_en": "Before 1716, the anchorage sheltered Swahili vessels taking on water. Radama’s warships turn its shore stores into troop depots and raise a captured mast as a guide for ships from Madagascar. Merina soldiers send island earth to the capital but mostly remain abroad, navigating waters that still require local pilots. Every trophy reaching the highlands brings new demands from noble claimants. Harbour households receive tax orders from new rulers while old creditors retain their claims. The empire’s first anchor beyond home secures a foothold and exposes how little a victorious fleet alone can settle.",
+    "traits": [
+      {
+        "label_vi": "Đầu cầu ngoài đảo",
+        "label_en": "An Overseas Foothold",
+        "description_vi": "Bến giúp tàu duy trì hoạt động ngoài Madagascar.",
+        "description_en": "The anchorage sustains operations beyond Madagascar."
+      },
+      {
+        "label_vi": "Hai lớp chủ nợ",
+        "label_en": "Two Layers of Creditors",
+        "description_vi": "Nghĩa vụ cũ tồn tại dưới quyền chiếm đóng mới.",
+        "description_en": "Old obligations survive beneath new occupation."
+      }
+    ],
+    "benefit_vi": "Từ 1716, tạo căn cứ tiếp nước và triển khai lực lượng.",
+    "benefit_en": "From 1716, provides watering and deployment facilities.",
+    "cost_vi": "Trước 1716 chưa có quyền sử dụng; sau chiếm đóng phải nuôi đồn trú và thương lượng địa phương.",
+    "cost_en": "Unavailable before 1716; occupation requires a garrison and local negotiation.",
+    "status_vi": "1715: ngoài quyền kiểm soát; 1716: đầu cầu chiếm đóng.",
+    "status_en": "1715: outside Merina control; 1716: occupied foothold.",
+    "historical_anchor_vi": "Comoros là quần đảo có lịch sử giao thương Ấn Độ Dương; việc Radama chiếm năm 1716 theo lore TFAM.",
+    "historical_anchor_en": "Comoros has an Indian Ocean trading history; Radama’s conquest in 1716 follows TFAM lore.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1768/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Comorian volcanic island harbour, newly landed Malagasy troops and timber supply sheds, a captured mast standing on shore, cold tropical fog, no grand mature imperial harbour."
+  },
+  {
+    "id": "guanabara-throne",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Vịnh Ngai vàng Guanabara",
+    "name_en": "Guanabara Bay of the Exiled Crown",
+    "location_vi": "Rio de Janeiro",
+    "location_en": "Rio de Janeiro",
+    "category": "seat",
+    "epithet_vi": "Kinh đô mọc từ những chuyến vượt biển",
+    "epithet_en": "A Capital Raised from Ocean Crossings",
+    "lore_vi": "Triều đình đến Rio trên những con tàu chở cả hồ sơ lẫn bạc thờ, mang theo thói quen của Lisbon vào một bờ vịnh khác. Hội đồng Viễn chinh dựng trạm thư tín dưới chân núi, nối các kho hàng bằng đường gác và bắt tàu từ hai bờ châu Mỹ báo tin trước khi vào neo. Tại Guanabara, người lưu vong nhìn núi như tường thành mà đại dương đã chuẩn bị sẵn cho một ngai mới. Nhưng càng nhiều mệnh lệnh rời cảng, càng nhiều câu trả lời tới muộn. Những thuộc địa nuôi triều đình bắt đầu đòi quyền được ngồi trong chính căn phòng đã phân chia công sức của họ.",
+    "lore_en": "The court arrived at Rio aboard ships carrying archives and altar silver, bringing Lisbon’s habits to another bay. The Expeditionary Council established dispatch stations beneath the mountains, linked warehouses with guarded roads and required ships from both American coasts to report before anchoring. Exiles see the hills as walls the ocean prepared for a new throne. Yet as more commands leave the harbour, more replies arrive late. Colonies sustaining the court demand seats in the chamber that apportions their labour. Guanabara shelters a crown whose reach has grown wider than the speed at which its orders can travel.",
+    "traits": [
+      {
+        "label_vi": "Triều đình vượt biển",
+        "label_en": "A Court Across the Ocean",
+        "description_vi": "Hồ sơ và nghi lễ cũ được chuyển tới kinh đô mới.",
+        "description_en": "Old archives and ceremonies transfer to a new capital."
+      },
+      {
+        "label_vi": "Mệnh lệnh đi bằng buồm",
+        "label_en": "Commands Under Sail",
+        "description_vi": "Quyền lực phụ thuộc tốc độ liên lạc đại dương.",
+        "description_en": "Authority depends upon oceanic communications."
+      }
+    ],
+    "benefit_vi": "Tập trung ngân khố, hạm đội và điều phối châu Mỹ.",
+    "benefit_en": "Concentrates treasury, fleet and American administration.",
+    "cost_vi": "Khoảng cách gây tự trị thực tế và tranh quyền đại diện.",
+    "cost_en": "Distance creates practical autonomy and disputes over representation.",
+    "status_vi": "Kinh đô đế quốc tại Rio.",
+    "status_en": "Imperial capital at Rio.",
+    "historical_anchor_vi": "Guanabara là cảnh quan vịnh có thật; việc triều đình chuyển tới Rio được đưa sớm so với năm 1808 trong lịch sử.",
+    "historical_anchor_en": "Guanabara is a real bay landscape; the royal move to Rio occurs earlier than the historical transfer of 1808.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/1100/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Early eighteenth-century Rio waterfront beneath Sugarloaf and Guanabara mountains, royal sailing convoy and fortified dispatch warehouses, cold tropical haze, no Christ statue or modern skyline."
+  },
+  {
+    "id": "salvador-two-cities",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Hai tầng thành Salvador",
+    "name_en": "The Two Levels of Salvador",
+    "location_vi": "Salvador de Bahia",
+    "location_en": "Salvador de Bahia",
+    "category": "industry",
+    "epithet_vi": "Bạc ở trên cao, bàn tay ở dưới bến",
+    "epithet_en": "Silver Above, Labour at the Quay",
+    "lore_vi": "Salvador nuôi kinh đô mới bằng kho hàng dưới bến và những dãy nhà quyền thế trên cao. Hội đồng cho kéo cáp hàng qua sườn dốc để thùng thuốc súng, đường và lương thực tới kho nhanh hơn, dùng sức người cùng những bộ tời lấy từ chiến hạm cũ. Bên trên, quan thuế kiểm số kiện đã lên; bên dưới, thợ kéo đếm số người phải nghỉ vì đứt tay hoặc rét ngấm vào phổi. Khi Rio cần thêm tàu, nghĩa vụ lao động tăng trước cả thông báo thuế. Thành phố nhìn thấy hai bộ mặt đế quốc trong cùng một sườn đá, nối nhau bằng những sợi dây luôn căng.",
+    "lore_en": "Salvador feeds the new capital through quayside stores beneath the houses of power. The council installs cargo cables upon the slopes so powder, sugar and provisions can reach warehouses faster, driven by labour and capstans salvaged from old warships. Above, collectors count arriving cases; below, workers count those absent through severed fingers or cold in their lungs. When Rio requires more ships, labour obligations rise before tax notices arrive. The city displays two faces of empire upon one escarpment, joined by ropes kept permanently taut. Its efficiency rests upon people whose names rarely climb with the cargo.",
+    "traits": [
+      {
+        "label_vi": "Thành phố hai tầng",
+        "label_en": "The Two-Level City",
+        "description_vi": "Kho bến và trung tâm quyền lực liên kết bằng vận tải dốc.",
+        "description_en": "Quayside stores and authority connect through steep haulage."
+      },
+      {
+        "label_vi": "Lao động bị ghi thiếu",
+        "label_en": "Labour Left Uncounted",
+        "description_vi": "Sản lượng che khuất thương tật và cưỡng bức lao động.",
+        "description_en": "Output figures obscure injuries and coerced labour."
+      }
+    ],
+    "benefit_vi": "Tập kết hàng hóa và hỗ trợ tiếp tế kinh đô.",
+    "benefit_en": "Consolidates cargo and supplies the capital.",
+    "cost_vi": "Cưỡng bức lao động và phân tầng nuôi bất mãn lâu dài.",
+    "cost_en": "Coerced labour and hierarchy sustain lasting unrest.",
+    "status_vi": "Trung tâm hậu cần dưới quyền Rio.",
+    "status_en": "Logistical centre under Rio’s authority.",
+    "historical_anchor_vi": "Salvador từng là kinh đô Brazil trước khi quyền lực chuyển tới Rio năm 1763; TFAM chuyển sớm sự thay đổi và thêm hệ tời hàng.",
+    "historical_anchor_en": "Salvador preceded Rio as Brazil’s capital until 1763; TFAM advances the transfer and adds cargo haulage systems.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/309/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Seventeenth-century Salvador upper and lower town on steep bay escarpment, wooden cargo capstans and rope hoists rather than modern elevator, cold mist and golden colonial facades."
+  },
+  {
+    "id": "havana-morro",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Morro — Khóa Caribe",
+    "name_en": "El Morro — The Caribbean Lock",
+    "location_vi": "Havana, Cuba",
+    "location_en": "Havana, Cuba",
+    "category": "fortress",
+    "epithet_vi": "Khẩu pháo đổi cờ vẫn giữ eo nước",
+    "epithet_en": "New Colours, the Same Narrow Water",
+    "lore_vi": "Khi Tân Bồ chiếm Havana, pháo thủ cũ được giữ lại vì không ai hiểu luồng vào cảng bằng người đã canh nó nhiều năm. Hội đồng đặt sĩ quan mới bên cạnh họ, trả lương bằng bạc thu từ tàu bị bắt và thay quốc huy trên kho thuốc. Những ngọn đèn Morro tiếp tục sáng, dẫn thương thuyền vào cùng một eo nước dưới lá cờ khác. Năm 1716, hạm đội đi Iberia rút bớt người từ thành, để những kíp pháo thiếu tay vẫn đứng gác suốt đêm. Người dân nghe tin chiến thắng bên kia biển rồi nhìn phần bánh mì đồn trú được chia mỏng hơn mỗi tuần.",
+    "lore_en": "When New Portugal took Havana, the former gunners remained because none knew the entrance better than those who had watched it for years. The council placed new officers beside them, paid their wages with seized silver and replaced the arms upon the powder stores. El Morro’s lamps continued guiding merchants through the same narrows beneath another flag. In 1716, the Iberian expedition draws men from the fortress, leaving depleted crews on night watch. Townspeople hear promises from across the Atlantic while the garrison’s bread is cut thinner each week. Holding the Caribbean and returning to Europe compete within the same ration book.",
+    "traits": [
+      {
+        "label_vi": "Pháo thủ của chế độ cũ",
+        "label_en": "Gunners of the Former Regime",
+        "description_vi": "Kỹ năng địa phương được giữ dưới sĩ quan chiếm đóng.",
+        "description_en": "Local expertise is retained beneath occupying officers."
+      },
+      {
+        "label_vi": "Khóa cửa Caribe",
+        "label_en": "Lock upon the Caribbean",
+        "description_vi": "Hỏa lực khống chế lối vào một cảng tập kết lớn.",
+        "description_en": "Artillery controls access to a major staging harbour."
+      }
+    ],
+    "benefit_vi": "Bảo vệ hạm đội Caribe và tập kết đoàn tàu.",
+    "benefit_en": "Protects Caribbean fleets and assembles convoys.",
+    "cost_vi": "Chiến dịch xa hút quân và lương từ đồn trú.",
+    "cost_en": "Distant campaigns drain the garrison’s men and provisions.",
+    "status_vi": "Thành lũy chiếm đóng được tái biên chế.",
+    "status_en": "Occupied fortress with a reorganised garrison.",
+    "historical_anchor_vi": "Morro thuộc hệ thành lũy Havana lịch sử; việc đổi chủ cho Tân Bồ là biến cố TFAM.",
+    "historical_anchor_en": "El Morro belongs to Havana’s historical defences; its transfer to New Portugal is a TFAM event.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/204/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Havana El Morro fortress and narrow harbour entrance in early eighteenth-century form, Portuguese-style expedition banners, exhausted artillery crews, turquoise cold sea and amber lamps, no later La Cabana fortress."
+  },
+  {
+    "id": "cartagena-chain",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Xích cảng Cartagena",
+    "name_en": "The Harbour Chain of Cartagena",
+    "location_vi": "Cartagena de Indias",
+    "location_en": "Cartagena de Indias",
+    "category": "harbour",
+    "epithet_vi": "Bến cảng giữ cả người thắng trận",
+    "epithet_en": "A Harbour Holding Its Conquerors",
+    "lore_vi": "Những kỹ sư Tân Bồ nối bệ pháo Cartagena với kho neo và một hệ kéo xích chắn cảng để kiểm từng đoàn tàu tới từ bờ lục địa. Chìa khóa kho thuế được giữ bởi hai người: sĩ quan của Hội đồng và đại diện những nhà buôn đã chấp nhận chế độ mới. Mỗi chuyến rời cảng phải chở thêm một phần quân nhu cho Rio, khiến giá hàng dần nuôi cả quyền lực chiếm đóng. Khi chiến tranh Iberia kéo dài, thương nhân bắt đầu ghi khoản phụ thu thành nợ của triều đình. Những người chinh phục phát hiện sổ sách trong cảng có thể giữ chân họ chặt như dây xích ngoài luồng.",
+    "lore_en": "New Portuguese engineers link Cartagena’s batteries to anchor stores and a harbour-chain mechanism controlling arriving mainland convoys. Two men hold the customs keys: a council officer and a representative of merchants who accepted the new regime. Every departing ship must carry an additional share of supplies for Rio, gradually embedding occupation costs in cargo prices. As the Iberian war lengthens, merchants record the surcharge as a royal debt. The conquerors discover that a harbour’s ledgers can bind them as firmly as the chain across its channel. Coastal power now depends upon credit negotiated behind the guns.",
+    "traits": [
+      {
+        "label_vi": "Hai chìa kho thuế",
+        "label_en": "Two Customs Keys",
+        "description_vi": "Quân đội và thương nhân cùng kiểm soát hàng hóa.",
+        "description_en": "Soldiers and merchants share control over cargo."
+      },
+      {
+        "label_vi": "Tiếp tế thành món nợ",
+        "label_en": "Supply Becomes a Debt",
+        "description_vi": "Trưng dụng dài hạn được giới buôn ghi thành nghĩa vụ triều đình.",
+        "description_en": "Merchants record sustained requisitions as crown obligations."
+      }
+    ],
+    "benefit_vi": "Bảo vệ thương cảng và tổ chức vận tải ven Caribe.",
+    "benefit_en": "Defends trade and organises Caribbean coastal transport.",
+    "cost_vi": "Triều đình mắc nợ giới thương nhân địa phương.",
+    "cost_en": "The crown becomes indebted to local merchants.",
+    "status_vi": "Cảng bị sáp nhập vào mạng viễn chinh.",
+    "status_en": "Harbour incorporated into the expeditionary network.",
+    "historical_anchor_vi": "Cartagena có hệ phòng thủ cảng lịch sử; cơ chế đồng quản và xích cảng là phát triển thay thế TFAM.",
+    "historical_anchor_en": "Cartagena has historical harbour defences; joint administration and the chain system are TFAM adaptations.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/285/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Cartagena stone sea walls and sheltered Caribbean harbour, a massive chain hauled by timber capstan, ledger house and sailing convoy, cold mist over jade water."
+  },
+  {
+    "id": "panama-ash-road",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Đường Tro Panamá Viejo",
+    "name_en": "The Ash Road of Panamá Viejo",
+    "location_vi": "Eo đất Panama",
+    "location_en": "Isthmus of Panama",
+    "category": "ruin",
+    "epithet_vi": "Hai đại dương chung một vết cháy",
+    "epithet_en": "Two Oceans Sharing One Burn",
+    "lore_vi": "Sau khi tiếp quản eo đất, Tân Bồ cho đánh dấu tuyến vận tải đi qua tàn tích Panamá Viejo bằng cột đá trắng để đoàn hàng khỏi lạc trong những nền phố cũ. Tháp nhà thờ đổ nát trở thành mốc chia ca gác; người gánh hàng nghe chuông sắt trước khi bước vào đường rừng. Hội đồng muốn bạc và mệnh lệnh đi từ bờ này sang bờ kia nhanh hơn một chuyến vòng lục địa. Những kho mới mọc sát lớp tro cũ, được canh bằng người mang súng lẫn người giữ sổ. Mỗi ngày rút ngắn cho triều đình đều được trả bằng những chuyến đi dài hơn của phu vận tải.",
+    "lore_en": "After taking the isthmus, New Portugal marks the route through Panamá Viejo’s ruins with white stones so cargo parties can navigate the old street foundations. The broken cathedral tower becomes a watch marker; porters hear an iron bell before entering the forest road. The council wants silver and dispatches to cross between oceans faster than a voyage around the continent. New stores rise beside old ash, guarded by muskets and ledgers. Every day saved for the crown is purchased through longer journeys imposed upon carriers. The route joins imperial coasts while leaving its human cost upon the ground between them.",
+    "traits": [
+      {
+        "label_vi": "Dấu đường trên phế tích",
+        "label_en": "Waymarks upon Ruins",
+        "description_vi": "Thành phố bị hủy được dùng làm mốc hậu cần.",
+        "description_en": "The ruined city becomes a logistical landmark."
+      },
+      {
+        "label_vi": "Hai bờ một nghĩa vụ",
+        "label_en": "Two Coasts, One Obligation",
+        "description_vi": "Dân vận tải phải phục vụ hai hệ cảng cùng lúc.",
+        "description_en": "Carriers serve two harbour systems at once."
+      }
+    ],
+    "benefit_vi": "Rút ngắn thời gian chuyển tin và hàng giá trị giữa hai đại dương.",
+    "benefit_en": "Shortens dispatch and high-value cargo journeys between oceans.",
+    "cost_vi": "Lao dịch và độc quyền vận tải làm bùng bất mãn địa phương.",
+    "cost_en": "Labour levies and transport monopoly drive local resentment.",
+    "status_vi": "Phế tích nằm trên tuyến vận tải được canh giữ.",
+    "status_en": "Ruins upon a guarded transport route.",
+    "historical_anchor_vi": "Panamá Viejo bị phá năm 1671 trong lịch sử; TFAM tái sử dụng phế tích dưới quyền Tân Bồ, không xây kênh đào hiện đại.",
+    "historical_anchor_en": "Panamá Viejo was destroyed in 1671; TFAM reuses its ruins under New Portuguese rule without a modern canal.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/790/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Panama Viejo broken cathedral tower and scorched stone street foundations, guarded mule and porter road through cold tropical rainforest, two distant oceans suggested, absolutely no canal."
+  },
+  {
+    "id": "valparaiso-steps",
+    "faction_id": "new_portuguese_empire",
+    "name_vi": "Những bậc cảng Valparaíso",
+    "name_en": "The Harbour Steps of Valparaíso",
+    "location_vi": "Bờ Thái Bình Dương Nam Mỹ",
+    "location_en": "Pacific coast of South America",
+    "category": "harbour",
+    "epithet_vi": "Đế quốc bám vào sườn núi",
+    "epithet_en": "An Empire Clinging to the Hills",
+    "lore_vi": "Các đội tàu Tân Bồ tìm thấy ở Valparaíso một vũng neo đủ để vá thân tàu trước khi đi tiếp dọc bờ Thái Bình Dương. Thợ dựng những bậc gỗ từ bến lên kho trên sườn, chuyển nước và lương thực qua những dãy nhà nhỏ nép dưới gió. Người chỉ huy nhận lệnh từ Rio sau nhiều tháng, nên tự ký hợp đồng với chủ thuyền và các cộng đồng miền núi để giữ căn cứ sống. Năm 1716, giấy mang quốc huy tới nơi khi điều khoản trên bến đã đổi. Vùng duyên hải vẫn mang màu của đế quốc, còn mỗi chiếc đinh đóng xuống cầu tàu đều phải được thương lượng tại chỗ.",
+    "lore_en": "New Portuguese squadrons find in Valparaíso an anchorage where hulls can be patched before continuing along the Pacific coast. Craftsmen build timber steps from the landing to hillside stores, carrying water and provisions past small wind-sheltered houses. Orders from Rio arrive after months, so commanders make their own agreements with boat owners and mountain communities to keep the station alive. In 1716, papers bearing royal arms reach a quay whose terms have already changed. The coast retains imperial colours, while every nail driven into its landing must be negotiated locally. Distance grants the empire territory and its servants room to rule.",
+    "traits": [
+      {
+        "label_vi": "Bậc gỗ thay đại lộ",
+        "label_en": "Timber Steps for Roads",
+        "description_vi": "Hậu cần thích ứng với bờ dốc và mặt bằng hẹp.",
+        "description_en": "Logistics adapt to steep shores and limited ground."
+      },
+      {
+        "label_vi": "Lệnh tới sau hợp đồng",
+        "label_en": "Orders After Agreements",
+        "description_vi": "Chỉ huy xa kinh đô tự định điều kiện để tồn tại.",
+        "description_en": "Distant commanders set their own terms of survival."
+      }
+    ],
+    "benefit_vi": "Tạo trạm sửa chữa và tiếp tế cho bờ Thái Bình Dương.",
+    "benefit_en": "Provides repair and provisioning on the Pacific coast.",
+    "cost_vi": "Tự trị chỉ huy và hợp đồng địa phương làm suy yếu quyền trung ương.",
+    "cost_en": "Command autonomy and local agreements weaken central control.",
+    "status_vi": "Căn cứ ven bờ quy mô nhỏ đang phát triển.",
+    "status_en": "Small developing coastal station.",
+    "historical_anchor_vi": "Valparaíso là cảng lịch sử; TFAM tăng vai trò sớm, giữ quy mô tiền công nghiệp thay cho đô thị thế kỷ XIX.",
+    "historical_anchor_en": "Valparaíso is a historical port; TFAM advances its role while retaining preindustrial scale rather than nineteenth-century urban forms.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://whc.unesco.org/en/list/959/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Small early-eighteenth-century Valparaiso cove with wooden hillside stairs, simple tiled houses and repair slips, Pacific swell, cold violet mist, no funiculars or modern architecture."
+  },
+  {
+    "id": "white-tower-empty",
+    "faction_id": "england_ruins",
+    "name_vi": "Tháp Trắng Không Cờ",
+    "name_en": "The Flagless White Tower",
+    "location_vi": "London, vùng tàn tích",
+    "location_en": "London, ruined territory",
+    "category": "ruin",
+    "epithet_vi": "Một vương quốc vắng người giữ chìa",
+    "epithet_en": "A Kingdom Without a Keeper",
+    "lore_vi": "Sau London thất thủ, những cánh cửa Tháp Trắng đứng mở giữa kho quân giới bị lục sạch và các gian phòng còn vương tro. Những người trốn thoát mang theo chuyện về chiếc chuông từng báo đổi gác, giờ bị gió đập vào đá trong những đêm im tiếng người. Đoàn thăm dò năm 1715 chỉ tới được cổng ngoài trước khi sương độc buộc họ rút về bến. Họ đem một bản lề gãy sang đất lưu vong để xác nhận tháp còn đứng. Vật nhỏ ấy được chuyền qua những gia đình chẳng còn chìa khóa nhà, giữ hy vọng trở về bên cạnh ký ức về một nơi cũng từng giam giữ họ.",
+    "lore_en": "After London fell, the White Tower’s doors stood open between emptied armouries and rooms carrying ash. Survivors tell of a watch bell now driven against stone by the wind on nights without human voices. A reconnaissance party in 1715 reaches only the outer gate before toxic mist forces it back to the landing. A broken hinge is carried into exile as proof that the tower remains. Families who no longer possess their own house keys pass it between them, keeping the hope of return beside memories of a fortress that had also imprisoned their people. No restored court waits within.",
+    "traits": [
+      {
+        "label_vi": "Bằng chứng còn đứng",
+        "label_en": "Proof of Survival",
+        "description_vi": "Vật thu hồi nuôi ký ức và hy vọng của người lưu vong.",
+        "description_en": "Recovered objects sustain memory and hope among exiles."
+      },
+      {
+        "label_vi": "Kho rỗng, sương đầy",
+        "label_en": "Empty Stores, Poisoned Mist",
+        "description_vi": "Hạ tầng cũ không còn đủ an toàn để tái định cư.",
+        "description_en": "Old infrastructure remains unsafe for resettlement."
+      }
+    ],
+    "benefit_vi": "Cung cấp biểu tượng và đầu mối khảo sát cho việc trở về trong tương lai.",
+    "benefit_en": "Offers a symbol and survey objective for a future return.",
+    "cost_vi": "Mọi đoàn thu hồi phải đối mặt độc tính và lực lượng bảo vệ thiếu hụt.",
+    "cost_en": "Recovery parties face contamination and inadequate protection.",
+    "status_vi": "Bỏ hoang; chưa có quyền quản trị được tái lập.",
+    "status_en": "Abandoned; no restored administration.",
+    "historical_anchor_vi": "Tháp Trắng có thật từ thời Norman; sự hoang phế sau chiến dịch 1704–1705 thuộc canon TFAM.",
+    "historical_anchor_en": "The White Tower dates to Norman rule; abandonment after the 1704–1705 campaigns follows TFAM canon.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-story-of-the-tower-of-london/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Flagless White Tower in shattered early London, open armoury gate and abandoned iron hinge in foreground, snowdrifts and low toxic teal mist, no living royal court, no modern skyline."
+  },
+  {
+    "id": "dover-last-lamp",
+    "faction_id": "england_ruins",
+    "name_vi": "Ngọn đèn cuối Dover",
+    "name_en": "The Last Lamp of Dover",
+    "location_vi": "Dover, bờ eo biển",
+    "location_en": "Dover, Channel coast",
+    "category": "ruin",
+    "epithet_vi": "Bờ bên kia vẫn có người nhìn về",
+    "epithet_en": "Someone Still Watches from Across the Water",
+    "lore_vi": "Khi những thuyền chở người cuối cùng rời Dover, lính giữ thành để lại một đèn dầu trong cửa tháp nhìn ra biển. Dầu đã cạn từ lâu, nhưng người lưu vong vẫn gọi các mũi đá ấy là nơi đèn cuối cháy. Những tàu đi ngang giữ khoảng cách với bờ vì khói lạ thường nằm dưới chân thành ngay cả khi gió đổi. Năm 1716, vài đoàn thăm dò đánh dấu được một đoạn cầu bến rồi phải bỏ vì nước nhiễm độc. Trên bản đồ hồi hương, Dover được khoanh làm điểm có thể tới trước; bên cạnh là số thùng nước sạch phải mang theo để sống qua một ngày.",
+    "lore_en": "When the last refugee boats departed Dover, the garrison left an oil lamp in a seaward window. Its fuel is long spent, but exiles still call the headland the place of the final light. Passing vessels keep offshore: strange vapour lies below the fortress even when the wind changes. In 1716, surveyors mark a stretch of landing before abandoning it because the water is fouled. Return charts circle Dover as a possible first approach. Beside the mark stands the number of clean-water barrels required to survive a single day. Nearness to safety across the Channel has not made this shore habitable.",
+    "traits": [
+      {
+        "label_vi": "Điểm cập đầu tiên",
+        "label_en": "The First Possible Landing",
+        "description_vi": "Vị trí gần lục địa thuận cho khảo sát giới hạn.",
+        "description_en": "Proximity to the continent permits limited surveys."
+      },
+      {
+        "label_vi": "Nước phải mang theo",
+        "label_en": "Water Must Be Carried",
+        "description_vi": "Mọi hoạt động phụ thuộc tiếp tế từ bên ngoài.",
+        "description_en": "All activity depends upon external provisioning."
+      }
+    ],
+    "benefit_vi": "Tạo điểm khảo sát tiếp cận quê nhà bằng đường biển.",
+    "benefit_en": "Provides a survey approach to the homeland by sea.",
+    "cost_vi": "Nguồn nước và môi trường độc ngăn lập căn cứ lâu dài.",
+    "cost_en": "Contaminated water and surroundings prevent a lasting base.",
+    "status_vi": "Tàn tích được khảo sát từng chuyến; chưa tái chiếm.",
+    "status_en": "Visited by survey parties; not reclaimed.",
+    "historical_anchor_vi": "Dover là cửa biển và thành lũy lâu đời; ngọn đèn và tình trạng ô nhiễm là sáng tác theo canon nước Anh bị phá hủy.",
+    "historical_anchor_en": "Dover is an ancient coastal fortress; the lamp and contamination develop from TFAM’s ruined England canon.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history-dover/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Ruined Dover Castle above white cliffs, one empty oil lamp in broken window, distant cautious refugee vessel, freezing Channel fog, no twentieth-century defences."
+  },
+  {
+    "id": "stonehenge-silence",
+    "faction_id": "england_ruins",
+    "name_vi": "Vòng đá Stonehenge Câm Lặng",
+    "name_en": "The Silent Ring of Stonehenge",
+    "location_vi": "Đồng bằng Salisbury",
+    "location_en": "Salisbury Plain",
+    "category": "landscape",
+    "epithet_vi": "Đá nhớ điều người đã quên",
+    "epithet_en": "Stone Remembers What People Lost",
+    "lore_vi": "Người chạy khỏi miền nam kể rằng những vòng đá vẫn đứng khi các con đường biến mất dưới tuyết xám. Sau thảm họa, các đoàn tìm Vestigium bắt đầu tới, dựng cọc theo hướng mọc của mặt trời rồi bỏ lại dụng cụ khi kim chỉ hướng quay không dừng. Một bản ghi được mang ra khỏi đảo ghi khoảng cách giữa các khối đá, kèm những khoảng trống nơi người chép quên tên đồng đội. Những gia đình lưu vong muốn đốt cuốn sổ; giới nghiên cứu muốn giữ lại. Năm 1716, vòng đá vẫn chưa có người trông coi, và những dấu đo ngoài rìa đã bị tuyết xóa sạch.",
+    "lore_en": "Fugitives from the south say the stone ring remained when roads disappeared beneath grey snow. After the catastrophe, Vestigium seekers arrived, set stakes toward the rising sun and abandoned their instruments when compass needles would not settle. A record carried from the island lists distances between stones, with blank spaces where its writer could no longer recall companions’ names. Exiled families want the notebook burned; researchers want it preserved. In 1716, the circle remains without a keeper, and snow has erased the outer survey marks. Its promise belongs to investigation, while every expedition risks adding another absence to the record.",
+    "traits": [
+      {
+        "label_vi": "Hướng đo sai lệch",
+        "label_en": "Unreliable Bearings",
+        "description_vi": "Dụng cụ khảo sát cho kết quả mâu thuẫn trong vùng.",
+        "description_en": "Survey instruments return conflicting readings."
+      },
+      {
+        "label_vi": "Ký ức đứt đoạn",
+        "label_en": "Broken Recollection",
+        "description_vi": "Nhật ký thăm dò ghi nhận khoảng trống khó giải thích.",
+        "description_en": "Expedition journals contain unexplained gaps."
+      }
+    ],
+    "benefit_vi": "Có thể cung cấp manh mối nghiên cứu hiện tượng Vestigium.",
+    "benefit_en": "May offer evidence for Vestigium research.",
+    "cost_vi": "Mất phương hướng và tổn thương trí nhớ đe dọa đoàn khảo sát.",
+    "cost_en": "Disorientation and memory injury threaten survey teams.",
+    "status_vi": "Cấm tiếp cận trong các kế hoạch hồi hương thận trọng.",
+    "status_en": "Excluded from cautious return plans.",
+    "historical_anchor_vi": "Stonehenge là di tích tiền sử có thật; hiện tượng la bàn và ký ức là sáng tác TFAM, không phải tuyên bố khảo cổ.",
+    "historical_anchor_en": "Stonehenge is a real prehistoric monument; compass and memory anomalies are TFAM fiction, not archaeological claims.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Stonehenge standing stones under vast grey frozen Salisbury sky, abandoned brass survey instruments and half-buried stakes, restrained uncanny atmosphere, no lasers or glowing runes."
+  },
+  {
+    "id": "caernarfon-empty-gates",
+    "faction_id": "england_ruins",
+    "name_vi": "Những cổng trống Caernarfon",
+    "name_en": "The Empty Gates of Caernarfon",
+    "location_vi": "Gwynedd, Wales",
+    "location_en": "Gwynedd, Wales",
+    "category": "ruin",
+    "epithet_vi": "Thành của kẻ chinh phục che người mất nước",
+    "epithet_en": "A Conqueror’s Walls Shelter the Dispossessed",
+    "lore_vi": "Những người chạy nạn xứ Wales từng trú trong Caernarfon trước khi tìm thuyền rời đảo. Họ đốt cửa gỗ để giữ trẻ nhỏ qua đêm rồi khắc dấu gia đình lên đá, mong người đến sau biết ai đã đi qua. Thành của một cuộc chinh phục cũ giữ hơi người thêm một mùa trước khi cũng rỗng dần. Năm 1715, thuyền thăm dò chỉ tìm được những chiếc nồi đã đóng băng cùng những dấu khắc bị chồng lên nhau. Tại đất lưu vong, người ta chép lại chúng vào một cuốn sổ riêng. Có tên được người thân nhận ra; có những dấu vẫn chờ người có thể đọc.",
+    "lore_en": "Welsh refugees sheltered within Caernarfon before finding boats away from the island. They burned timber doors to keep children warm and cut family marks into stone so later arrivals would know who had passed. The walls of an older conquest held human warmth for another season before emptying. In 1715, a survey boat finds frozen cooking pots and overlapping carvings. Exiles copy the marks into a separate register. Relatives recognise some; others still await someone who can read them. The fortress offers evidence of survival, yet neither its walls nor its harbour establish a restored government over the surrounding country.",
+    "traits": [
+      {
+        "label_vi": "Dấu gia đình trên đá",
+        "label_en": "Family Marks in Stone",
+        "description_vi": "Di tích lưu vết các đoàn người rời quê hương.",
+        "description_en": "The monument records families departing the homeland."
+      },
+      {
+        "label_vi": "Mái trú đã tàn",
+        "label_en": "An Exhausted Refuge",
+        "description_vi": "Công trình từng che chở đã mất vật liệu và tiếp tế.",
+        "description_en": "A former shelter has exhausted its materials and supplies."
+      }
+    ],
+    "benefit_vi": "Hỗ trợ tìm thân nhân và tái dựng hành trình người tị nạn.",
+    "benefit_en": "Helps trace relatives and reconstruct refugee journeys.",
+    "cost_vi": "Dấu tích có thể bị hiểu nhầm thành bằng chứng người còn sống.",
+    "cost_en": "Traces may be mistaken for evidence that people remain alive.",
+    "status_vi": "Thành bỏ hoang ở Wales; chưa có đồn trú hồi hương.",
+    "status_en": "Abandoned Welsh castle; no returning garrison.",
+    "historical_anchor_vi": "Caernarfon là thành thời Edward I tại Wales; vai trò nơi trú và di tản thuộc thảm họa TFAM.",
+    "historical_anchor_en": "Caernarfon is Edward I’s Welsh fortress; its shelter and evacuation role belongs to TFAM’s catastrophe.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://cadw.gov.wales/more-about-castell-caernarfon"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Caernarfon polygonal towers and empty gate beside frozen estuary, abandoned cooking pots and family marks suggested without readable text, snow in roofless courts, no flags of a restored state."
+  },
+  {
+    "id": "tintagel-fracture",
+    "faction_id": "england_ruins",
+    "name_vi": "Mũi đá gãy Tintagel",
+    "name_en": "The Broken Headland of Tintagel",
+    "location_vi": "Cornwall",
+    "location_en": "Cornwall",
+    "category": "ruin",
+    "epithet_vi": "Lời hứa còn xa hơn chân trời",
+    "epithet_en": "A Promise Beyond the Horizon",
+    "lore_vi": "Những câu chuyện về Tintagel theo người Cornwall lên tàu lưu vong, sống trong lời kể về một vị vua sẽ trở lại khi đất nước cần. Sau sự hủy diệt, các nhóm liều lĩnh tìm tới mũi đá với hy vọng kiếm được chứng tích để đổi lấy tiền của những người muốn về nhà. Phần lớn chỉ mang về mảnh đá, nước mặn và tin về các lối đi đã sụp. Một cộng đồng lưu vong đặt các mảnh ấy quanh bếp chung rồi dùng tiền quyên góp mua thuyền cứu hộ thay vì tổ chức thêm chuyến săn di vật. Lời hứa trở về vẫn được giữ, lần này bằng chỗ trống dành sẵn trên thuyền.",
+    "lore_en": "Cornish stories of Tintagel travelled into exile with tales of a king who would return when his country needed him. After the destruction, reckless parties searched the headland for relics to sell to those dreaming of home. Most brought only stone, salt water and reports of collapsed paths. One exile community set those fragments around its common hearth and spent donations upon a rescue boat rather than another relic hunt. The promise of return survives in an empty place kept aboard. Legend gives the lost country a language of hope; it can also draw the desperate toward shores that cannot yet shelter them.",
+    "traits": [
+      {
+        "label_vi": "Huyền thoại của người lưu vong",
+        "label_en": "The Exiles’ Legend",
+        "description_vi": "Chuyện cũ gìn giữ căn tính giữa các cộng đồng phân tán.",
+        "description_en": "Old stories preserve identity among scattered communities."
+      },
+      {
+        "label_vi": "Chỗ trống trên thuyền",
+        "label_en": "A Place Kept Aboard",
+        "description_vi": "Tiền tưởng niệm được chuyển sang cứu hộ người sống.",
+        "description_en": "Memorial funds are redirected toward rescuing the living."
+      }
+    ],
+    "benefit_vi": "Gắn kết người lưu vong và khuyến khích cứu hộ đồng hương.",
+    "benefit_en": "Unites exiles and encourages rescue of compatriots.",
+    "cost_vi": "Kẻ buôn di vật lợi dụng hy vọng để đẩy người vào chuyến đi nguy hiểm.",
+    "cost_en": "Relic dealers exploit hope and encourage dangerous voyages.",
+    "status_vi": "Phế tích ngoài khả năng định cư an toàn.",
+    "status_en": "Ruins beyond safe settlement.",
+    "historical_anchor_vi": "Tintagel có liên hệ lịch sử với truyền thuyết Arthur; cộng đồng cứu hộ và các chuyến săn di vật là sáng tác TFAM.",
+    "historical_anchor_en": "Tintagel is historically associated with Arthurian legend; rescue communities and relic expeditions are TFAM inventions.",
+    "basis": "historical-adaptation",
+    "source_refs": [
+      "https://www.english-heritage.org.uk/visit/places/tintagel-castle/history-and-legend/"
+    ],
+    "art_prompt": "TFAM alternate-history ice-age world in 1715–1716. Wide landscape architectural concept painting, refined hand-painted fantasy realism with visible brushwork, monumental scale, restrained frozen steampunk detail appropriate to local materials, no text, no lettering, no watermark. Tintagel broken medieval walls on a sheer Cornish headland, collapsed path above freezing sea, tiny rescue sail far offshore, melancholy amber horizon, no modern bridge or heroic king figure."
+  }
+]

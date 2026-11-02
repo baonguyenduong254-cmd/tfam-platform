@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-phan-giu-dau",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Mẩu phấn đầu tiên thuộc về người đo đường đã nhận việc dẫn một đoàn phu qua khe núi trước lúc tuyết khép. Ông vạch mũi tên lên từng tảng đá, tới khi đầu ngón tay rớm máu mới nhận ra đoàn người phía sau đã mất tiếng gọi. Sáng hôm sau, người cứu hộ tìm được những vệt trắng nổi lên xuyên lớp sương, còn ở cuối đường chỉ có chiếc hộp phấn bị bóp méo trong bàn tay lạnh.\n\nPhấn trong hộp vốn lấy từ một vỉa đá vôi thông thường. Sau đêm ấy, từng mẩu mang một đường đỏ nhỏ mà nghiền vụn cũng không xóa được; nét vẽ của chúng tự đẩy sương ra ngoài mép, giữ hướng mũi tên rõ tới khi tuyết dày phủ kín. Người thợ sau này pha máu vào phấn khác chỉ làm bẩn tay mình. Điều còn hoạt động trong những mẩu đầu tiên dường như là công việc chỉ đường đã được nhận mà người nhận chưa kịp làm xong.",
+    "lore_en": "The first chalk belonged to a surveyor guiding labourers through a mountain cleft before snow closed it. He marked an arrow upon each stone until his fingertips bled, then realised the party behind him had fallen silent. Next morning rescuers found white marks showing through the mist. At the route's end lay a crushed chalk-box within a frozen hand.\n\nIts chalk had come from an ordinary limestone seam. After that night each piece bore a thin red line that survived grinding. Its strokes pushed dew beyond their edges and kept their arrows clear until deep snow covered them. Later workmen mixing blood into other chalk merely dirtied their hands. What remained active in those first pieces seemed to be a guiding duty its keeper had died before completing.",
+    "use_vi": "Để lại dấu chỉ đường vẫn đọc được dưới sương và lớp tuyết mỏng. Người sử dụng cần tự biết hướng mình đang đánh dấu.",
+    "use_en": "Leave route-marks legible beneath dew and a thin covering of snow. The user must know which direction is being marked.",
+    "limits_vi": "Tuyết dày hoặc đá bị bong sẽ che hay mang dấu đi. Phấn giữ điều người vẽ chỉ ra, kể cả một hướng sai; mỗi nét tiêu hao vật liệu như phấn thường.",
+    "limits_en": "Deep snow or flaking stone can hide or remove the mark. Chalk preserves the indicated direction even when it is wrong; each stroke consumes material as ordinary chalk does.",
+    "skills": [
+      {
+        "name_vi": "Nét chỉ giữa sương",
+        "name_en": "A Mark Through Mist",
+        "description_vi": "Vẽ một dấu liền lên đá hoặc gỗ; sương bị gạt khỏi đúng nét ấy cho tới khi phấn mòn. Dấu không tự sửa đường người vẽ đã chọn.",
+        "description_en": "Draw one continuous mark on stone or wood; dew retreats from that stroke until the chalk wears away. It does not correct the chosen route."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Việc còn dang dở",
+        "name_en": "Unfinished Duty",
+        "description_vi": "Mạch đỏ đi theo các mảnh cùng vỉa đầu tiên. Trộn thành phần tương tự chưa từng tái tạo được dấu dị thường.",
+        "description_en": "The red vein persists in fragments of the first seam. Matching their ingredients has never reproduced the anomaly."
+      }
+    ]
+  }
+]

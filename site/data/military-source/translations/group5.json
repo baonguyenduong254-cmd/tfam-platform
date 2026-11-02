@@ -1,0 +1,1117 @@
+{
+  "factions": [
+    {
+      "id": "tokugawa_empire",
+      "name_vi": "ĐẾ QUỐC NHẬT BẢN",
+      "doctrine_vi": "Chính thống Tokugawa · Quân luyện phương Tây · Phụ binh Triều Tiên · Vestigium gia tộc",
+      "lore_vi": "Đế quốc Nhật Bản duy trì quyền lực Tokugawa trong khi tổ chức lại quân đội theo lý thuyết quân sự châu Âu. Tư tưởng tác chiến Pháp và lối huấn luyện chuyên nghiệp kiểu Công ty định hình lại bộ binh, pháo binh và thủy quân lục chiến, còn Triều Tiên bị chinh phục cung cấp những lực lượng phụ binh súng hỏa mai, cung thủ và xung kích riêng biệt thay vì những bản sao đơn thuần của quân Nhật. Các võ gia lâu đời tồn tại dưới dạng tinh binh chuyên trách: gia tộc Ii biến sự gắn kết đội hình thành cộng hưởng Vestigium đỏ thắm, còn hậu quân Shimazu lấy sức mạnh phi thường từ sự cô lập và cuộc triệt thoái có kiểm soát. Những thiết chế hiện đại chỉ huy quân đội; bản sắc võ nghiệp cổ truyền trao cho họ những vũ khí mà riêng cải cách không thể tạo ra.",
+      "quote_vi": "Ngọn cờ cũ chỉ huy đạo quân mới."
+    },
+    {
+      "id": "eternal_sky_khanate",
+      "name_vi": "ĐẠI HÃN QUỐC TRƯỜNG SINH THIÊN",
+      "doctrine_vi": "Chiến mã · Tốc độ · Bao vây · Thiên mệnh Trường Sinh Thiên",
+      "lore_vi": "Đại Hãn quốc lấy ngựa làm nền tảng cho gần như mọi chức năng quân sự. Cung thủ, thương kỵ, trinh sát cưỡi ngựa và pháo cơ động vượt đồng trống với tốc độ mà các đạo quân đi bộ không thể sánh kịp. Qua những thế hệ hiếm hoi, một Đại Hãn xứng đáng còn có thể nhận Thiên mệnh Trường Sinh Thiên, cho phép các chiến binh và quân vương được thảo nguyên ghi nhớ trở lại trong xác phàm. Những đạo quân hồi thế này mang theo kỹ nghệ cổ xưa cùng nguồn quân lực khổng lồ trong thời gian hữu hạn, nhưng họ vẫn đổ máu, chết và chịu tổn thất vĩnh viễn như binh lính sống. Địa hình, sự chia rẽ giữa các bộ lạc và một quân vương bất xứng vẫn có thể tước đi những ưu thế lớn nhất của hãn quốc.",
+      "quote_vi": "Khi Trời nhớ lại, cỏ bắt đầu chuyển động."
+    },
+    {
+      "id": "safavid_empire",
+      "name_vi": "ĐẾ QUỐC SAFAVID",
+      "doctrine_vi": "Qizilbash · Ghulam · Hỏa khí · Kỵ binh Ba Tư",
+      "lore_vi": "Quân đội Safavid kết hợp kỵ binh Qizilbash với các đội gia binh ghulam chuyên nghiệp, lính súng hỏa mai tofangchi và pháo binh. Kỵ sĩ bộ lạc tạo sức ép cơ động, còn các quân đoàn hoàng gia đem lại cho shah một trung tâm chỉ huy và tác chiến thuốc súng đáng tin cậy. Vũ khí Ba Tư, vải vóc hoa văn và truyền thống phụng sự cung đình hiện diện khắp quân đội. Tranh chấp triều đình, cải cách không đồng đều và hậu cần ngựa đòi hỏi cao gây khó khăn cho một lực lượng chỉ đạt kết quả tốt nhất khi phối hợp được kỵ binh danh giá với quân hỏa khí ít được tôn vinh hơn trong cùng một kế hoạch.",
+      "quote_vi": "Mệnh lệnh của shah song hành cùng những chiếc mũ đỏ."
+    },
+    {
+      "id": "aksumite_empire",
+      "name_vi": "ĐẾ QUỐC AKSUM",
+      "doctrine_vi": "Pháo đài cao nguyên · Truyền thống trường thương · Hỏa khí thích nghi · Hoàng quyền",
+      "lore_vi": "Nhà nước đế quyền Aksum hồi sinh bảo vệ cao nguyên Ethiopia bằng các đợt trưng tập thương binh địa phương, bộ binh khiên dày dạn và gia binh hoàng gia đáng tin cậy. Kiếm cong, khiên da và nhiều lớp vải dệt lưu giữ bản sắc võ nghiệp trong vùng, trong khi súng mua qua thương mại được bảo dưỡng cẩn thận cùng một lực lượng đại bác hạn chế hỗ trợ những vị trí chọn lọc. Cứ điểm và hiểu biết đường sá địa phương đem lại lợi thế cho lối phòng thủ kiên nhẫn. Các phân đội duyên hải mở rộng tầm với của đế quốc về phía Biển Đỏ, nhưng súng, phương tiện vận tải và nhân công chuyên môn khan hiếm hạn chế những chiến dịch dài ngày.",
+      "quote_vi": "Cao nguyên vẫn nhớ vương miện của mình."
+    }
+  ],
+  "units": [
+    {
+      "id": "f17_01",
+      "name_vi": "Bộ binh Tokugawa",
+      "class_vi": "Bộ binh hiện đại · Quân luyện phương Tây",
+      "role_vi": "Lập chiến tuyến súng hỏa mai hiện đại dưới quyền Tokugawa bằng quân luyện phương Tây đã điều chỉnh.",
+      "lore_vi": "Bộ binh chiến tuyến Tokugawa mặc quân phục được thiết kế lại cho súng đá lửa, đai đạn và khẩu lệnh thống nhất. Gia huy tiết chế giữ bản sắc chính trị trong đội hình chuyên nghiệp. Tư tưởng tác chiến Pháp và huấn luyện kiểu Công ty chú trọng cơ động đáng tin cậy giữa các loạt bắn, đòi hỏi sĩ quan phối hợp các binh chủng hỗ trợ. Hệ thống cần kho quân giới được bảo dưỡng và giáo quan đã qua đào tạo. Sức mạnh nằm ở việc lặp lại một phương pháp nhất quán qua các trung đoàn thay vì dựa vào tài nghệ cá nhân của vài kiếm sĩ.",
+      "traits_vi": [
+        "Quân luyện phương Tây",
+        "Súng đá lửa hiện đại",
+        "Khẩu lệnh thống nhất",
+        "Quyền lực Tokugawa",
+        "Phụ thuộc kho quân giới"
+      ],
+      "quote_vi": "“Gia huy còn đó. Quân luyện đã đổi thay.”"
+    },
+    {
+      "id": "f17_02",
+      "name_vi": "Hỏa mai binh đế quốc",
+      "class_vi": "Bộ binh súng hỏa mai chuyên nghiệp · Hỏa lực",
+      "role_vi": "Tập trung hỏa lực súng hỏa mai đáng tin cậy để yểm trợ những đợt tiến quân bộ binh hiệp đồng của đế quốc.",
+      "lore_vi": "Hỏa mai binh đế quốc nhận súng đá lửa được bảo dưỡng kỹ và trang bị đạn tiêu chuẩn từ các kho quân giới cải tổ. Các đại đội luyện chuyển làn bắn và giữ cự ly khi đội hình bên cạnh cơ động. Quân phục xanh xám thực dụng phân biệt nhiệm vụ dã chiến chuyên nghiệp với nghi lễ gia tộc. Hỏa lực mạnh đòi hỏi đạn đến đúng nhịp dự kiến; giao chiến kéo dài thiếu tiếp tế sẽ tiêu hao ưu thế mà vũ khí tốt và nạp đạn có kỷ luật vốn phải đem lại.",
+      "traits_vi": [
+        "Hỏa lực tập trung",
+        "Đạn tiêu chuẩn",
+        "Nạp đạn tin cậy",
+        "Kỷ luật dã chiến",
+        "Nhu cầu đạn dược"
+      ],
+      "quote_vi": "“Một loạt bắn là lời hứa cùng nhau giữ trọn.”"
+    },
+    {
+      "id": "f17_03",
+      "name_vi": "Lựu đạn binh Edo",
+      "class_vi": "Bộ binh xung kích · Lựu đạn",
+      "role_vi": "Dọn sạch lối vào có phòng thủ và dẫn đầu những đợt công kích ngắn bằng các phân đội lựu đạn được huấn luyện.",
+      "lore_vi": "Lựu đạn binh Edo điều chỉnh một vai trò chiến trường du nhập cho phù hợp quân phục và cách chỉ huy của đế quốc. Túi lựu đạn, súng chắc chắn và dụng cụ gọn nhẹ trang bị cho những người lính tập tiếp cận vật cản dưới hỏa lực yểm trợ. Các tổ xung kích được tung vào một cửa đột phá cụ thể thay vì rải khắp mặt trận. Lực lượng phụ thuộc vào ngòi nổ tin cậy, đạn dược và chỉ huy giàu kinh nghiệm, nên sử dụng cẩu thả thuốc nổ hay cựu binh đều dẫn đến thất bại đắt giá.",
+      "traits_vi": [
+        "Công kích lựu đạn",
+        "Tổ đột phá",
+        "Luyện tập hỏa lực yểm trợ",
+        "Ngòi nổ tin cậy",
+        "Cựu binh quý giá"
+      ],
+      "quote_vi": "“Dọn lối vào. Giữ hàng ngũ.”"
+    },
+    {
+      "id": "f17_04",
+      "name_vi": "Cận vệ Shogun",
+      "class_vi": "Cận vệ tinh nhuệ · Gia binh Tokugawa",
+      "role_vi": "Bảo vệ bộ chỉ huy Tokugawa và khôi phục các vị trí bị đe dọa bằng gia binh cận vệ tuyển chọn.",
+      "lore_vi": "Cận vệ shogun kết hợp lòng trung thành gia tộc với huấn luyện từ quân đội cải tổ. Giáp thép tốt hoặc giáp sơn mài mặc ngoài quân phục tạo dáng vẻ tinh nhuệ, còn súng giúp họ hữu dụng ngoài nhiệm vụ đeo kiếm nghi lễ. Sĩ quan giữ họ gần các điểm chỉ huy quan trọng và cổng vào đang tranh chấp. Đợt phản kích có kỷ luật của họ có thể cứu vãn một khủng hoảng cục bộ, nhưng quân số hạn chế khiến họ quá quý để dùng vào tiêu hao thường lệ.",
+      "traits_vi": [
+        "Trung thành gia tộc",
+        "Bảo hộ kết hợp",
+        "Bảo vệ chỉ huy",
+        "Phản kích",
+        "Quân số hạn chế"
+      ],
+      "quote_vi": "“Gia tộc đứng sau mệnh lệnh.”"
+    },
+    {
+      "id": "f17_07",
+      "name_vi": "Trung đoàn Ashigaru cải tổ",
+      "class_vi": "Bộ binh cải tổ · Quân luyện đại trà",
+      "role_vi": "Mở rộng nền tảng bộ binh được huấn luyện bằng trang bị tiêu chuẩn và quân luyện hỏa khí có thể nhân rộng.",
+      "lore_vi": "Các đại đội ashigaru cải tổ nhận quân phục giản dị, súng đá lửa tiêu chuẩn và nề nếp trung đoàn rõ ràng. Sức mạnh của họ là biến nguồn tuyển quân rộng thành binh lính đáng tin cậy nhờ huấn luyện và quân nhu được duy trì. Họ giữ đất, hỗ trợ hỏa mai binh chuyên nghiệp và giúp quân đội đế quốc đang lớn mạnh tránh lệ thuộc hoàn toàn vào gia binh tinh nhuệ. Sĩ quan non kinh nghiệm và mở rộng nhanh có thể gây sức ép lên hệ thống, vì thế quân luyện nhất quán quan trọng hơn trang bị hào nhoáng được cấp mà thiếu hướng dẫn.",
+      "traits_vi": [
+        "Tuyển quân rộng",
+        "Quân luyện nhân rộng",
+        "Vũ khí tiêu chuẩn",
+        "Bộ binh vững vàng",
+        "Nhu cầu huấn luyện"
+      ],
+      "quote_vi": "“Một người lính bình thường có thể học một phương pháp xuất sắc.”"
+    },
+    {
+      "id": "f17_08",
+      "name_vi": "Khinh bộ binh Nhật Bản",
+      "class_vi": "Khinh bộ binh · Học thuyết Pháp",
+      "role_vi": "Che chắn chiến tuyến chính bằng khinh bộ binh cơ động chịu ảnh hưởng thực hành trinh sát và tản binh Pháp.",
+      "lore_vi": "Khinh bộ binh Nhật giảm tải trang bị và bớt chi tiết sáng màu để hoạt động phía trước quân đội cải tổ. Hỏa lực cá nhân chính xác cùng quan sát hỗ trợ chiến tuyến chính bằng cách xác định vị trí địch và quấy rối quân lộ mình. Các toán luyện cơ động độc lập mà vẫn giữ liên lạc với chỉ huy. Họ dễ tổn thương trước công kích cận chiến quyết liệt, cần đường lui an toàn về bộ binh chỉnh tề khi trinh sát biến thành giao chiến kéo dài.",
+      "traits_vi": [
+        "Tản binh nhẹ",
+        "Trinh sát tiền phương",
+        "Hỏa lực cá nhân",
+        "Giảm tải",
+        "Cần chiến tuyến hỗ trợ"
+      ],
+      "quote_vi": "“Chiến tuyến chính phải đến nơi với đủ tin tức.”"
+    },
+    {
+      "id": "f17_12",
+      "name_vi": "Công binh Tokugawa",
+      "class_vi": "Công binh · Công sự",
+      "role_vi": "Xây dựng, kiểm tra và sửa chữa những công trình giúp quân đội cải tổ cơ động và giữ đất.",
+      "lore_vi": "Công binh Tokugawa kết hợp dụng cụ đo đạc, công cụ thực dụng với kỷ luật quân sự dã chiến. Họ chuẩn bị điểm vượt, đánh giá công sự và sửa đường pháo phục vụ tiến công hiệp đồng. Công việc của họ đưa cải cách vào chính địa hình, cho phép bộ binh và pháo đội thực hiện cùng một kế hoạch. Các phân đội nhỏ dễ bị gián đoạn khi làm việc; hộ tống và thứ tự ưu tiên rõ ràng giúp kỹ năng chuyên môn không bị bào mòn bởi mọi yêu cầu sửa chữa lặt vặt.",
+      "traits_vi": [
+        "Thi công công sự",
+        "Sửa đường",
+        "Quy hoạch đo đạc",
+        "Hỗ trợ vượt chướng ngại",
+        "Cần hộ tống"
+      ],
+      "quote_vi": "“Quân đội cần một nơi để thi triển phương pháp của mình.”"
+    },
+    {
+      "id": "f17_15",
+      "name_vi": "Tân cận vệ Shogun",
+      "class_vi": "Bộ binh đỉnh cao · Tinh binh cải cách",
+      "role_vi": "Đột phá hoặc khôi phục điểm quyết định bằng bộ binh kỷ luật nhất của quân đội cải tổ.",
+      "lore_vi": "Cận vệ hiện đại của shogun kết hợp lòng trung thành gia tộc với huấn luyện và trang bị tốt nhất do cải cách đem lại. Giáp tinh xảo, súng đá lửa xuất sắc và quân phục vừa vặn phản ánh lực lượng được kỳ vọng thi hành những mệnh lệnh khó khăn mà không rối loạn. Họ có thể ổn định chiến tuyến nguy cấp hoặc khai thác cửa mở đã chuẩn bị. Nét nổi bật thực sự là khả năng phán đoán hiệp đồng dưới áp lực, trong khi nguồn tuyển binh giàu kinh nghiệm khan hiếm giữ họ ở vai trò dự bị thay vì giải pháp cho mọi tình huống.",
+      "traits_vi": [
+        "Quân luyện đỉnh cao",
+        "Hỏa khí xuất sắc",
+        "Trung thành gia tộc",
+        "Dự bị quyết định",
+        "Nguồn tuyển khan hiếm"
+      ],
+      "quote_vi": "“Phương pháp mới nhất phụng sự lời thề lâu đời nhất.”"
+    },
+    {
+      "id": "f17_16",
+      "name_vi": "Hỏa mai binh Joseon",
+      "class_vi": "Phụ binh súng hỏa mai Triều Tiên · Chiến tuyến tỉnh quân",
+      "role_vi": "Bổ sung các đại đội súng hỏa mai Triều Tiên kỷ luật vào chiến tuyến đế quốc và tăng cường giao tranh hỏa khí kéo dài.",
+      "lore_vi": "Các trung đoàn Joseon P’osu được giữ lại sau cuộc chinh phục Triều Tiên vì đế quốc cần xạ thủ đã qua huấn luyện hơn một chiến lợi phẩm nghi lễ nữa. Sĩ quan Triều Tiên giữ phần lớn quân luyện hỏa khí riêng dưới quyền chỉ huy tác chiến Nhật Bản, đem lại kỷ luật bắn loạt đáng tin và hỏa lực phòng thủ mạnh. Trang bị ngày càng được tiêu chuẩn hóa qua kho quân giới đế quốc, dù ngôn ngữ, lòng trung thành và chính trị chiếm đóng làm việc hợp nhất thêm phức tạp. Sử dụng đúng cách, họ tăng chiều sâu chiến tuyến mà vẫn giữ bản sắc riêng với bộ binh Nhật.",
+      "traits_vi": [
+        "Kỷ luật súng hỏa mai",
+        "Quân luyện Triều Tiên",
+        "Hỏa lực liên tục",
+        "Nhân lực tỉnh quân",
+        "Lòng trung thành phân tán"
+      ],
+      "quote_vi": "“Đế quốc đổi ngọn cờ. Họ đâu dạy chúng ta cách bắn.”"
+    },
+    {
+      "id": "f17_17",
+      "name_vi": "Cung thủ Joseon",
+      "class_vi": "Phụ binh cung thủ Triều Tiên · Bộ binh xạ kích sơn địa",
+      "role_vi": "Cung cấp hỏa lực xạ kích chính xác, chống tản binh và hỗ trợ sơn địa bằng cung thủ Triều Tiên dày dạn.",
+      "lore_vi": "Joseon Sasu giữ truyền thống quân cung mạnh mẽ của Triều Tiên trong trật tự đế quốc. Cung phức hợp, khả năng ước lượng tầm bắn có kỷ luật và sự quen thuộc vùng dốc khiến họ hữu ích khi khói, đất gồ ghề hay thiếu đạn làm giảm ưu thế súng. Chỉ huy Nhật dùng họ làm màn che sơn địa, chống tản binh và xạ kích chính xác thay vì ép vào chiến tuyến súng hỏa mai. Hiệu quả giảm trong cận chiến kéo dài, khi trang bị nhẹ để lại rất ít chỗ cho sai lầm.",
+      "traits_vi": [
+        "Cung thuật chính xác",
+        "Tác chiến sơn địa",
+        "Chống tản binh",
+        "Ít cần thuốc súng",
+        "Bảo hộ nhẹ"
+      ],
+      "quote_vi": "“Núi cho mũi tên thêm nhiều nơi để biến mất.”"
+    },
+    {
+      "id": "f17_18",
+      "name_vi": "Xung kích binh Joseon",
+      "class_vi": "Phụ binh xung kích Triều Tiên · Thương và đao kiếm",
+      "role_vi": "Bảo vệ quân hỏa khí Triều Tiên và tranh đoạt địa hình gồ ghề bằng lối đánh thương, đao kiếm và trường binh có kỷ luật.",
+      "lore_vi": "Các đại đội Joseon Salsu duy trì binh chủng cận chiến trong hệ thống quân sự hỗn hợp Triều Tiên. Thương, kiếm và trường binh giúp họ bảo vệ hỏa mai binh, dọn lối hẹp và chiến đấu hữu hiệu nơi chiến tuyến bắn thiếu chỗ hoạt động. Họ đặc biệt hữu dụng trong làng mạc, đèo và cửa pháo đài, nơi tầm với có kỷ luật quan trọng hơn trang bị hợp thời. Tuy nhiên, trước bộ binh hiện đại hạng nặng trên đất trống, lòng can đảm và kỹ thuật không thể bù hoàn toàn cho bảo hộ hạn chế.",
+      "traits_vi": [
+        "Thương trận",
+        "Kỷ luật đao kiếm",
+        "Bảo vệ tuyến súng",
+        "Đánh địa hình gồ ghề",
+        "Giáp hạn chế"
+      ],
+      "quote_vi": "“Khi tuyến súng hết chỗ xoay xở, hãy giao cửa vào cho chúng tôi.”"
+    },
+    {
+      "id": "f17_13",
+      "name_vi": "Thủy quân lục chiến Nhật Bản",
+      "class_vi": "Bộ binh hải quân · Đổ bộ",
+      "role_vi": "Thiết lập điểm đổ bộ có kỷ luật và tranh giành lối lên tàu bằng bộ binh hải quân hiện đại.",
+      "lore_vi": "Thủy quân lục chiến Nhật điều chỉnh quân luyện súng hỏa mai chuyên nghiệp cho cầu cảng, thuyền và boong chật. Áo ngắn thực dụng, dụng cụ đánh giáp tàu và đạn được cố định hỗ trợ chuyển từ vận tải biển sang đầu cầu có thể phòng thủ. Họ phối hợp với pháo tàu và công binh khi quân nhu lên bờ. Giá trị lớn nhất nằm quanh hạm đội; hoạt động lâu dài sâu trong nội địa đòi hỏi tăng viện và tiếp tế vượt lượng quân nhu gọn nhẹ mang theo trong đợt đổ bộ đầu.",
+      "traits_vi": [
+        "Quân luyện đổ bộ",
+        "Dụng cụ giáp tàu",
+        "Phòng thủ điểm đổ bộ",
+        "Phối hợp hạm đội",
+        "Quân nhu gọn nhẹ"
+      ],
+      "quote_vi": "“Giữ chắc bờ trước khi đưa quân đội lên.”"
+    },
+    {
+      "id": "f17_09",
+      "name_vi": "Long kỵ binh đế quốc",
+      "class_vi": "Bộ binh cưỡi ngựa · Hỏa lực cơ động",
+      "role_vi": "Nhanh chóng đưa quân hỏa khí giữa các điểm nguy cấp và chiến đấu tại vị trí xuống ngựa chọn sẵn.",
+      "lore_vi": "Long kỵ binh đế quốc kết hợp kỹ năng cưỡi ngựa với quân luyện để trở thành bộ binh hữu dụng sau khi xuống ngựa. Súng carbine, kiếm và trang bị đạn gọn giữ tải trọng vừa sức ngựa. Họ tăng viện sườn, bảo vệ đường và đến chiếm địa hình trước những trung đoàn chậm hơn. Phương pháp này cần đủ người giữ ngựa khi khai hỏa, còn nền đất xấu hay chiến mã kiệt sức có thể ngăn cuộc chuyển quân nhanh vốn là lý do thành lập đơn vị.",
+      "traits_vi": [
+        "Chuyển quân cưỡi ngựa",
+        "Xuống ngựa khai hỏa",
+        "Bảo vệ đường",
+        "Quân luyện carbine",
+        "Quản lý ngựa"
+      ],
+      "quote_vi": "“Ngựa đưa người lính tới tuyến bắn của mình.”"
+    },
+    {
+      "id": "f17_06",
+      "name_vi": "Hatamoto phục hưng",
+      "class_vi": "Cận vệ kỵ binh · Cựu binh tinh nhuệ",
+      "role_vi": "Cung cấp lực lượng gia binh dự bị cơ động để bảo vệ chỉ huy và thực hiện hành động kỵ chiến quyết định.",
+      "lore_vi": "Hatamoto phục hưng giữ truyền thống cưỡi ngựa tinh nhuệ trong quân đội ngày càng lấy bộ binh hỏa khí làm sức mạnh chính. Ngựa tuyển, giáp tinh xảo cùng kiếm hoặc súng ngắn phù hợp hộ tống và phản kích được lựa chọn kỹ. Vai trò nối uy danh gia tộc với phục vụ chiến trường thực tế. Sĩ quan tránh phí kỵ sĩ trước hàng lưỡi lê còn nguyên, dành cơ động của họ cho sườn hở, đội hình rối loạn hoặc nhóm chỉ huy cần bảo vệ khẩn cấp.",
+      "traits_vi": [
+        "Gia binh kỵ binh",
+        "Ngựa tuyển",
+        "Nhiệm vụ hộ tống",
+        "Phản xung phong",
+        "Dự bị đắt giá"
+      ],
+      "quote_vi": "“Gia binh phi ngựa đến nơi cần họ.”"
+    },
+    {
+      "id": "f17_10",
+      "name_vi": "Pháo dã chiến Mạc phủ",
+      "class_vi": "Pháo binh hiện đại · Hỗ trợ dã chiến",
+      "role_vi": "Cung cấp đại bác dã chiến hiệp đồng cho tiến công và phòng thủ của bộ binh cải tổ.",
+      "lore_vi": "Pháo binh Mạc phủ dùng nòng được bảo dưỡng, giá pháo bố trí quy củ và pháo thủ được huấn luyện theo thực hành phương Tây. Pháo thủ phối hợp hỏa lực tính toán với cơ động bộ binh, chọn mục tiêu mở đường tiếp cận hoặc phá đám tập trung địch. Quân nhu tiêu chuẩn đơn giản hóa sửa chữa và nạp đạn giữa các pháo đội. Đường tốt và đội súc vật kéo vẫn thiết yếu, trong khi tiêu hao đạn có thể vượt khả năng cả hệ thống chuyên nghiệp khi tiến công nhanh.",
+      "traits_vi": [
+        "Pháo dã chiến hiện đại",
+        "Hỏa lực tính toán",
+        "Phối hợp bộ binh",
+        "Quân nhu tiêu chuẩn",
+        "Phụ thuộc sức kéo"
+      ],
+      "quote_vi": "“Bắn vào nơi bộ binh sẽ cần cửa mở.”"
+    },
+    {
+      "id": "f17_11",
+      "name_vi": "Trọng pháo binh",
+      "class_vi": "Pháo công thành · Phá công sự",
+      "role_vi": "Phá công trình phòng thủ bằng trọng pháo đặt tại trận địa công thành chuẩn bị kỹ.",
+      "lore_vi": "Các pháo đội công thành hạng nặng thể hiện sự đầu tư có chủ đích vào vận tải, xưởng và thuốc súng. Pháo thủ dựng bệ bắn vững và tổ chức vật tư sửa chữa trước khi đánh tường thành và pháo cố định. Quy trình cải tổ tăng độ tin cậy nhưng không xóa gánh nặng của nòng và giá pháo khổng lồ. Những pháo đội này mạnh trước mục tiêu đứng yên, song dễ lâm khó trong chiến dịch đột ngột cần cơ động thay vì chuẩn bị lâu dài.",
+      "traits_vi": [
+        "Hỏa lực công thành nặng",
+        "Trận địa chuẩn bị",
+        "Xưởng hỗ trợ",
+        "Nhu cầu thuốc súng",
+        "Vận chuyển chậm"
+      ],
+      "quote_vi": "“Cuộc vây thành bắt đầu từ con đường.”"
+    },
+    {
+      "id": "f17_14",
+      "name_vi": "Vệ binh bờ Thái Bình Dương",
+      "class_vi": "Phòng thủ duyên hải · Pháo hải quân",
+      "role_vi": "Bảo vệ các ngả biển của đế quốc bằng pháo chuẩn bị sẵn và phân đội bờ được huấn luyện.",
+      "lore_vi": "Vệ binh duyên hải Thái Bình Dương bảo dưỡng vũ khí trong cảng và canh chừng những tuyến mà một đoàn viễn chinh buộc phải đi qua khi tiếp cận. Cự ly bắn quen thuộc cùng các kho tiếp tế ở gần khiến pháo của họ đặc biệt đáng gờm quanh những hải cảng được chọn. Các phân đội bộ binh bảo vệ pháo thủ và những con đường dẫn tới phía sau trận địa pháo. Hệ thống phòng thủ mạnh nhất tại nơi đặt pháo; bờ biển trải rộng buộc chỉ huy phải cân bằng các công sự cố định hùng hậu với nhu cầu duy trì quân dự bị cơ động.",
+      "traits_vi": [
+        "Pháo duyên hải",
+        "Cự ly chuẩn bị",
+        "Canh cảng",
+        "Bảo vệ pháo thủ",
+        "Phạm vi cố định"
+      ],
+      "quote_vi": "“Bờ biển dài hơn mọi bức tường.”"
+    },
+    {
+      "id": "f17_05",
+      "name_vi": "Đoàn sĩ quan Samurai",
+      "class_vi": "Chỉ huy tinh nhuệ · Sĩ quan đeo kiếm",
+      "role_vi": "Chỉ huy đội hình cải tổ bằng sĩ quan samurai giàu kinh nghiệm được huấn luyện tác chiến binh chủng hợp thành hiện đại.",
+      "lore_vi": "Sĩ quan samurai mang cặp kiếm làm dấu chức vụ bên cạnh súng và trang bị dã chiến thực dụng. Nhiệm vụ chuyên môn nay gồm phân tích báo cáo, phối hợp bộ binh với pháo binh và giữ mệnh lệnh rõ ràng giữa hỗn loạn. Quân phục đẹp và giáp tuyển biểu thị quyền lực mà không đòi mỗi gia tộc có một lối chiến tranh riêng. Sĩ quan nhầm địa vị thừa kế với phán đoán chiến thuật vẫn có thể hủy một trung đoàn trang bị tốt.",
+      "traits_vi": [
+        "Phán đoán sĩ quan",
+        "Mệnh lệnh hợp thành",
+        "Bản sắc Samurai",
+        "Lãnh đạo trung đoàn",
+        "Chỉ huy khan hiếm"
+      ],
+      "quote_vi": "“Thanh kiếm đánh dấu bổn phận của ta. Mệnh lệnh hoàn thành nó.”"
+    },
+    {
+      "id": "f17_19",
+      "name_vi": "Xích giáp Ii",
+      "class_vi": "Tiền phong Vestigium đỏ thắm · Tinh binh cải cách Hikone",
+      "role_vi": "Đánh tan đối thủ tinh nhuệ bằng tiền phong samurai cải tổ đỏ thắm, có Vestigium gắn giáp, vũ khí và đội hình thành một nhịp xung kích.",
+      "lore_vi": "Xích giáp Ii giữ diện mạo đáng sợ gắn với gia tộc Naomasa, nhưng quân đoàn hiện đại khoác sơn đỏ thắm trên quân phục cắt kiểu cải cách, trang bị đạn và ủng dã chiến đánh bóng. Katana và súng đá lửa được chỉnh theo cùng cộng hưởng Vestigium truyền qua chi tiết giáp và quân luyện đội hình. Khi sắc đỏ còn cạnh sắc đỏ, chiến binh gần nhau tăng cường phản xạ, thể lực và sức chịu xung kích cho nhau; năng lượng đỏ mảnh bò dọc lưỡi kiếm, nòng súng và đường nối giáp khi chiến tuyến tăng tốc với sự thống nhất phi thường. Chia đội hình thành các cụm cô lập và lợi thế chung nhanh chóng phai đi.",
+      "traits_vi": [
+        "Gắn kết đỏ thắm",
+        "Vũ khí Vestigium",
+        "Tiền phong xung kích",
+        "Ý chí chung",
+        "Phụ thuộc đội hình"
+      ],
+      "quote_vi": "“Chừng nào sắc đỏ còn cạnh sắc đỏ, chiến tuyến vẫn sống.”"
+    },
+    {
+      "id": "f17_20",
+      "name_vi": "Hậu quân Sutegamari Shimazu",
+      "class_vi": "Hậu quân kiếm và súng · Anh hùng cao thủ Satsuma",
+      "role_vi": "Giữ đường rút đang sụp đổ, hạ chỉ huy truy kích và mua thời gian cho quân đội bằng cao thủ luân phiên dùng thủ pháo Vestigium và katana thượng thừa.",
+      "lore_vi": "Hậu quân Shimazu giữ logic tàn nhẫn của sutegamari: những anh hùng cao thủ tuyển chọn ở lại khi chủ lực thoát ly, biến truy kích thành các điểm giết có chủ đích. Mỗi người mang một katana xuất chúng và thủ pháo Vestigium có Tàn Hỏa tự tạo viên đạn, bắn với uy lực trắng cam rồi bất hoạt khoảng mười lăm giây. Trong khoảng ấy, người dùng trở lại với kiếm. Cô lập mài sắc tri giác, sức chịu đau và phản xạ cận chiến; hiệu ứng tưởng thưởng sự hy sinh có kỷ luật và phai đi khi người sống sót tái nhập chủ lực.",
+      "traits_vi": [
+        "Tàn Hỏa",
+        "Tinh thông kiếm và súng",
+        "Thủ pháo Vestigium (chu kỳ 15 giây)",
+        "Vừa đánh vừa rút",
+        "Mạnh hơn khi cô lập"
+      ],
+      "quote_vi": "“Đi đi. Chúng ta sẽ quyết định bao nhiêu kẻ theo được.”"
+    },
+    {
+      "id": "recover4_f17_01",
+      "name_vi": "Khai Quốc",
+      "class_vi": "Chiến hạm tuyến · Hải đội tác chiến",
+      "role_vi": "Cung cấp tác chiến mạn pháo hạng nặng có kỷ luật cho hạm đội hiện đại hóa.",
+      "lore_vi": "Tính toán thân tàu chịu ảnh hưởng Pháp định hình chiến hạm hai tầng do Nhật đóng với cửa pháo giãn cách cẩn thận. Xưởng địa phương giữ sơn mài tiết chế và gia huy Tokugawa trong khi áp dụng cỡ đạn chung và quân luyện buồm. Dàn pháo mạnh làm trụ cho hải đội tác chiến thông thường. Gỗ, thủy thủ được đào tạo và ụ tàu lớn hạn chế số lượng Nhật có thể duy trì.",
+      "traits_vi": [
+        "Hai tầng pháo",
+        "Khoa học thân tàu Pháp",
+        "Đạn chung cỡ",
+        "Thủy thủ đắt giá"
+      ],
+      "quote_vi": "“Ngọn cờ cũ chỉ huy cả hai tầng boong.”"
+    },
+    {
+      "id": "recover4_f17_02",
+      "name_vi": "Hắc Triều",
+      "class_vi": "Frigate hạng nặng · Che chắn hải đội",
+      "role_vi": "Đánh bại tàu hộ tống thông thường và bảo vệ các ngả tiếp cận hải đội tác chiến.",
+      "lore_vi": "Thân dài đỡ một dàn pháo có mái che gồm pháo thông thường hạng nặng. Thực hành đi biển Pháp định hướng cân bằng hệ buồm và cơ động hiệp đồng, còn thợ mộc Nhật làm phụ kiện thuận bảo dưỡng trong nước. Frigate có thể đánh mạnh mà không chịu chi phí chiến hạm chủ lực. Một tầng pháo vẫn khiến tàu dễ tổn thương trong giao chiến tuyến.",
+      "traits_vi": [
+        "Dàn pháo có mái",
+        "Hệ buồm cân bằng",
+        "Phụ kiện nội địa",
+        "Tác chiến che chắn"
+      ],
+      "quote_vi": "“Dòng hải lưu mang khẩu pháo vững vàng.”"
+    },
+    {
+      "id": "recover4_f17_03",
+      "name_vi": "Tật Phong",
+      "class_vi": "Frigate nhanh · Truy kích",
+      "role_vi": "Đuổi kịp tàu cướp phá và giữ tiếp xúc với địch rút lui.",
+      "lore_vi": "Mũi tàu thanh và diện tích buồm lớn đánh đổi một phần trọng lượng mạn pháo lấy tốc độ. Sĩ quan Nhật áp dụng kỹ thuật xử lý hệ buồm du nhập vào văn hóa phục vụ coi trọng thi hành nhanh. Pháo truy kích mở cuộc chặn bắt trước khi dàn pháo chính xoay tới. Khung nhẹ và hệ buồm đòi hỏi cao khiến thời tiết xấu cùng hư hại trở nên tốn kém.",
+      "traits_vi": [
+        "Mũi tàu thanh",
+        "Pháo truy kích",
+        "Buồm lớn",
+        "Khung nhẹ"
+      ],
+      "quote_vi": "“Giữ cánh buồm tháo chạy trong tầm mắt.”"
+    },
+    {
+      "id": "recover4_f17_04",
+      "name_vi": "Hải Yến",
+      "class_vi": "Corvette · Hộ tống đại dương",
+      "role_vi": "Hộ tống đoàn tàu nhỏ và tuần tra các trạm đế quốc xa xôi.",
+      "lore_vi": "Corvette gọn mang dàn pháo khiêm tốn dưới hệ buồm vuông dễ điều khiển. Bố trí lấy cảm hứng Pháp cải thiện lối vào kho và đơn giản hóa ca trực. Cảng Triều Tiên và Nhật cung cấp hoa tiêu cùng sửa chữa dọc các tuyến duyên hải đế quốc. Hầm đạn hạn chế thích hợp hộ tống cẩn trọng hơn giao chiến hải đội kéo dài.",
+      "traits_vi": [
+        "Dàn pháo gọn",
+        "Ca trực hiệu quả",
+        "Sửa chữa khu vực",
+        "Hầm đạn khiêm tốn"
+      ],
+      "quote_vi": "“Một tàu hộ tống nhỏ giữ lời hứa dài lâu.”"
+    },
+    {
+      "id": "recover4_f17_05",
+      "name_vi": "Lá Chắn Hải Cảng",
+      "class_vi": "Pháo hạm · Phòng thủ duyên hải",
+      "role_vi": "Giữ cửa cảng bằng hỏa lực mạnh hướng trước.",
+      "lore_vi": "Thân rộng thấp mang dàn pháo mũi gia cường và hệ buồm phụ ngắn. Học thuyết pháo binh du nhập giúp pháo thủ rải hỏa lực tính toán qua luồng đã khảo sát. Xưởng Nhật giữ kỹ thuật điều khiển nước nông địa phương và phụ kiện thực dụng. Tàu phòng thủ hiệu quả ngả vào chuẩn bị sẵn, nhưng truy kích ngoài biển trống trái với mục đích của nó.",
+      "traits_vi": [
+        "Dàn pháo mũi",
+        "Khảo sát luồng",
+        "Thân rộng",
+        "Phòng thủ địa phương"
+      ],
+      "quote_vi": "“Hải cảng đã đo sẵn phát bắn này.”"
+    },
+    {
+      "id": "recover4_f17_06",
+      "name_vi": "Thiên Điểu",
+      "class_vi": "Schooner truyền lệnh · Liên lạc hạm đội",
+      "role_vi": "Chuyển lệnh và báo cáo trinh sát giữa các hải đội phân tán.",
+      "lore_vi": "Schooner hai cột buồm hẹp dùng phương pháp buồm dọc du nhập với xà buồm và phụ kiện làm trong nước. Rương tài liệu an toàn và trạm tín hiệu rõ ràng được ưu tiên hơn pháo. Tàu giúp đô đốc Nhật phối hợp các chiến hạm ngoài tầm nhìn soái hạm. Thời tiết, mệt mỏi và hỏa lực phòng thủ ít ỏi hạn chế hoạt động độc lập trong vùng biển địch.",
+      "traits_vi": [
+        "Hệ buồm dọc",
+        "Bảo mật mệnh lệnh",
+        "Trạm tín hiệu",
+        "Pháo nhẹ"
+      ],
+      "quote_vi": "“Mệnh lệnh tới chân trời kế tiếp.”"
+    },
+    {
+      "id": "recover4_f17_07",
+      "name_vi": "Thiên Hải",
+      "class_vi": "Soái hạm thử nghiệm · Cơ động kết hợp",
+      "role_vi": "Thử sức đẩy hơi nước phụ trong khi chỉ huy các hải đội hiện đại được tuyển chọn.",
+      "lore_vi": "Thiên Hải kết hợp thân gỗ chịu ảnh hưởng Pháp với động cơ phụ nhập khẩu và không gian chỉ huy được điều chỉnh tại địa phương. Buồm vẫn là phương tiện hành trình chính; hơi nước giữ vị trí khi lặng gió và trong các ngả vào khó. Một phần bọc thép bảo vệ máy móc thay vì biến cả hạm đội thành thiết giáp hạm. Than, phụ tùng và kỹ sư khan hiếm khiến thử nghiệm này vẫn là ngoại lệ.",
+      "traits_vi": [
+        "Hơi nước phụ trợ",
+        "Bảo vệ máy móc",
+        "Sức bền buồm",
+        "Kỹ sư khan hiếm"
+      ],
+      "quote_vi": "“Động cơ mới phụng sự ngọn cờ cũ.”"
+    },
+    {
+      "id": "add_f18_19",
+      "name_vi": "Bộ binh thảo nguyên",
+      "class_vi": "Bộ binh thảo nguyên · Vệ binh doanh trại",
+      "role_vi": "Giữ trại, xe, điểm vượt và đất chật nơi kỵ binh không thể triển khai tự do.",
+      "lore_vi": "Đại Hãn quốc nổi danh nhờ kỵ sĩ, nhưng ngay cả đế quốc chiến mã cũng cần người đi bộ. Bộ binh thảo nguyên được tuyển từ gia nhân doanh trại, người thị tộc nghèo và tùy tùng xuống ngựa, bảo vệ hành lý, giữ trại và đánh ở đất gồ ghề không hợp kỵ chiến. Họ thiếu uy danh của các đạo kỵ binh, song nhiều chiến thắng trên yên chỉ được giữ vững vì những người lính bộ này bảo toàn hậu phương, tiếp tế và các lối hẹp của quân đội.",
+      "traits_vi": [
+        "Giữ doanh trại",
+        "Phòng thủ đất gồ ghề",
+        "Thương và cung",
+        "Uy danh thấp",
+        "Bền bỉ thảo nguyên"
+      ],
+      "quote_vi": "“Không phải chiến thắng nào cũng giành được trên yên ngựa.”"
+    },
+    {
+      "id": "f18_01",
+      "name_vi": "Cung kỵ thảo nguyên",
+      "class_vi": "Cung thủ cưỡi ngựa · Tản binh",
+      "role_vi": "Quấy rối đội hình địch bằng cung cơ động, giữ cự ly và tự do di chuyển.",
+      "lore_vi": "Cung kỵ thảo nguyên mang cung phức hợp cùng bao tên lớn trên chiến mã dẻo dai. Các toán tiếp cận, bắn và thoát ly với hiểu biết chung về nhịp độ và không gian. Họ buộc quân bộ nhìn nhiều hướng và làm lộ cửa mở cho kỵ binh nặng. Sức bền phụ thuộc ngựa thay, cỏ và tên. Đất chật hoặc điểm vượt có phòng thủ có thể tước sự tự do khiến cung kỵ bảo hộ nhẹ trở nên nguy hiểm.",
+      "traits_vi": [
+        "Cung thuật trên ngựa",
+        "Cự ly linh hoạt",
+        "Sức ép bao vây",
+        "Cần ngựa thay",
+        "Hạn chế địa hình"
+      ],
+      "quote_vi": "“Mục tiêu đứng yên. Cây cung vẫn chuyển động.”"
+    },
+    {
+      "id": "f18_02",
+      "name_vi": "Trọng thương kỵ của Hãn",
+      "class_vi": "Trọng kỵ binh · Xung kích",
+      "role_vi": "Giáng xung lực kỵ chiến tập trung sau khi kỵ binh nhẹ phơi bày khu vực yếu của địch.",
+      "lore_vi": "Trọng thương kỵ của Hãn kết hợp ngựa tuyển, giáp phiến và thương dài cho va chạm quyết định. Họ chờ trinh sát và cung thủ tìm góc tránh điểm mạnh nhất của địch. Trọng lượng tăng sức xung phong nhưng cũng tăng phí vận tải và chăm ngựa. Đây là dự bị dành cho va chạm thuận lợi, ít hiệu quả khi liên tục đánh tuyến súng còn nguyên.",
+      "traits_vi": [
+        "Thương nặng",
+        "Kỵ sĩ bọc giáp",
+        "Xung phong quyết định",
+        "Chăm sóc ngựa",
+        "Nguy cơ trước tuyến chuẩn bị"
+      ],
+      "quote_vi": "“Tìm cửa mở. Rồi hạ thương.”"
+    },
+    {
+      "id": "f18_03",
+      "name_vi": "Kỵ binh đột kích Tumen",
+      "class_vi": "Khinh kỵ binh · Đột kích sâu",
+      "role_vi": "Đánh sâu vào đường tiếp tế và buộc địch chia lực lượng hành quân.",
+      "lore_vi": "Kỵ binh đột kích Tumen mang hành lý tối thiểu cùng đủ vũ khí cho vài cuộc chạm trán ngắn. Các toán vòng quanh chủ lực dã chiến, đánh kho, giao liên và phân đội cô lập rồi rút qua đồng trống. Chỉ huy coi trọng gây rối hơn chiếm giữ mọi nơi bị đánh. Hệ thống đột kích dựa vào tin tức và ngựa khỏe; trinh sát kém hoặc địa hình chặn đường thoát có thể bẫy lực lượng đã đổi bảo hộ lấy tốc độ.",
+      "traits_vi": [
+        "Đột kích sâu",
+        "Tải nhẹ",
+        "Phá tiếp tế",
+        "Rút nhanh",
+        "Phụ thuộc trinh sát"
+      ],
+      "quote_vi": "“Quân đội hành quân nơi lương thực có thể theo.”"
+    },
+    {
+      "id": "f18_04",
+      "name_vi": "Trinh sát Thiên Khung",
+      "class_vi": "Trinh sát kỵ binh · Che chắn",
+      "role_vi": "Che chắn các cánh quân hãn quốc và báo tuyến địch bằng quan sát cưỡi ngựa tầm xa.",
+      "lore_vi": "Trinh sát Thiên Khung đi trước và quanh quân đội với cung nhẹ, dụng cụ gọn và ít trang bị nghi lễ. Họ xác định điểm vượt, nơi địch tập trung và cỏ sẵn có trước khi chủ lực tiến vào. Báo cáo nối tốc độ với đích đến hữu ích. Họ tránh bị ghìm trong đánh lâu, vì mất người truyền tin có thể tai hại hơn bỏ lỡ giao tranh nhỏ. Tầm hoạt động co mạnh trong vùng rậm hoặc khép kín.",
+      "traits_vi": [
+        "Trinh sát kỵ binh",
+        "Báo cáo đường sá",
+        "Tìm cỏ ngựa",
+        "Che chắn rộng",
+        "Bảo hộ nhẹ"
+      ],
+      "quote_vi": "“Chân trời kế tiếp đã có người canh.”"
+    },
+    {
+      "id": "f18_05",
+      "name_vi": "Hỏa khí kỵ binh",
+      "class_vi": "Hỏa khí cưỡi ngựa · Bắn loạt cơ động",
+      "role_vi": "Đưa các loạt súng tới điểm chọn sẵn mà vẫn giữ tính cơ động kỵ binh của hãn quốc.",
+      "lore_vi": "Hỏa mai binh cưỡi ngựa chở súng và thuốc súng trên ngựa, xuống ngựa khi tuyến bắn ổn định đem lại hiệu quả tốt nhất. Họ thêm lựa chọn bắn thẳng vào mục tiêu chịu được tên, vẫn giữ tốc độ rời vị trí xấu. Hỏa khí đem gánh đạn dược và bảo dưỡng vào quân đội kỵ binh. Quản ngựa cùng lệnh rõ quyết định phân đội đổi vai trơn tru hay dễ bị đánh giữa di chuyển và khai hỏa.",
+      "traits_vi": [
+        "Hỏa khí cơ động",
+        "Xuống ngựa bắn loạt",
+        "Chuyển quân nhanh",
+        "Gánh thuốc súng",
+        "Quân luyện đổi vai"
+      ],
+      "quote_vi": "“Cưỡi ngựa mang súng. Đứng vững để bắn.”"
+    },
+    {
+      "id": "f18_06",
+      "name_vi": "Kheshig của Hãn",
+      "class_vi": "Kỵ binh hoàng gia · Tinh nhuệ",
+      "role_vi": "Bảo vệ Hãn và cung cấp kỵ binh tuyển chọn cho các đợt phản xung phong quyết định.",
+      "lore_vi": "Cận vệ kỵ binh nhận ngựa tốt, giáp phiến xuất sắc và vũ khí cận chiến đáng tin. Kỵ sĩ luyện di chuyển quanh nhóm chỉ huy mà không chèn đường của toàn quân. Họ có thể can thiệp trước mối đe dọa lộ mình hoặc khai thác cửa mở chuẩn bị kỹ. Trung thành gia tộc khiến họ đáng tin, nhưng bảo dưỡng đắt và quân số ít ngăn truy kích lãng phí. Nhiệm vụ cận vệ đòi kiên nhẫn sẵn sàng trong khi khinh kỵ tìm tiếp xúc đầu tiên.",
+      "traits_vi": [
+        "Kỵ binh hoàng gia",
+        "Ngựa tuyển",
+        "Bảo vệ chỉ huy",
+        "Phản xung phong",
+        "Quân số hạn chế"
+      ],
+      "quote_vi": "“Hãn cưỡi ngựa sau một lời hứa được giữ trọn.”"
+    },
+    {
+      "id": "f18_07",
+      "name_vi": "Đao kỵ thảo nguyên",
+      "class_vi": "Kỵ binh cận chiến · Truy kích",
+      "role_vi": "Truy đuổi quân tan vỡ và thắng cận chiến trên ngựa bằng đao kỵ giàu kinh nghiệm.",
+      "lore_vi": "Đại đội đao kỵ thảo nguyên mang đao cong thực dụng và bảo hộ đủ nhẹ để cưỡi lâu. Họ bắt đầu khi đối thủ chỉnh tề mất gắn kết, biến hỗn loạn thành kháng cự rời rạc trước khi người sống sót tập hợp. Họ đi cùng cung thủ và quân đột kích làm cánh cận chiến của nhóm cơ động. Hàng thương chuẩn bị vẫn nguy hiểm, còn truy kích vượt kỵ binh hỗ trợ có thể đẩy đại đội trước bộ binh mới hoặc ngựa kiệt sức.",
+      "traits_vi": [
+        "Đao kỵ truy kích",
+        "Cận chiến cưỡi ngựa",
+        "Khai thác nhanh",
+        "Giáp nhẹ",
+        "Nguy cơ tiến quá xa"
+      ],
+      "quote_vi": "“Với kẻ chạy trốn, trận đánh kết thúc muộn hơn.”"
+    },
+    {
+      "id": "f18_10",
+      "name_vi": "Tiền phong Trường Sinh Thiên",
+      "class_vi": "Kỵ binh tinh nhuệ · Bao vây",
+      "role_vi": "Khép vòng vây và đánh vào khu vực hở quyết định bằng kỵ binh tốt nhất của hãn quốc.",
+      "lore_vi": "Tiền phong Trường Sinh Thiên kết hợp trinh sát dày dạn, cung thuật và vũ khí cận kích trong các đại đội kỵ binh tuyển chọn. Sĩ quan phán đoán khi nào sức ép nhiều hướng tạo cửa mở thật thay vì bẫy hấp dẫn. Ngựa xuất sắc và thời điểm có kỷ luật cho phép tập trung nhanh từ màn che phân tán. Đơn vị vẫn bị ràng buộc bởi cỏ ngựa và địa hình; tinh nhuệ cải thiện quyết định nhưng không ban tự do cho ngựa nơi mặt đất khước từ.",
+      "traits_vi": [
+        "Cơ động tinh nhuệ",
+        "Thời điểm bao vây",
+        "Kỵ binh hỗn hợp",
+        "Ngựa tuyển",
+        "Phụ thuộc cỏ ngựa"
+      ],
+      "quote_vi": "“Khép vòng khi cửa mở xuất hiện.”"
+    },
+    {
+      "id": "f18_15",
+      "name_vi": "Kỵ quân hồi thế của Trời",
+      "class_vi": "Đạo quân hồi thế · Kỵ binh tổ tiên",
+      "role_vi": "Tăng viện Đại Hãn xứng đáng bằng kỵ sĩ hồi thế mang ký ức và thuật cưỡi ngựa của các đạo quân thảo nguyên đã mất.",
+      "lore_vi": "Khi Trường Sinh Thiên thừa nhận một vị Hãn đang sống, kỵ sĩ từ các đạo quân bị lãng quên có thể trở lại trên cỏ trong thân thể được Vestigium tái tạo nguyên vẹn. Họ giữ ký ức, tài cưỡi ngựa và bản năng chiến trường của chiến binh thuở trước, nhưng hồi sinh không ban miễn nhiễm: kỵ sĩ hồi thế vẫn có thể đổ máu, ngã xuống và chết như người sống. Sự xuất hiện đột ngột của họ có thể tăng mạnh kỵ lực hãn quốc mà không cần nhiều năm tuyển quân. Những người mất sau khi trở lại không thể đơn giản được gọi về lần nữa trong cùng đợt hiển hiện.",
+      "traits_vi": [
+        "Xác phàm hồi thế",
+        "Ký ức tổ tiên",
+        "Thuật cưỡi ngựa vô song",
+        "Chiến binh hữu tử",
+        "Ràng buộc Thiên mệnh"
+      ],
+      "quote_vi": "“Trời trả chiến binh về. Trời không che chở người ấy khỏi cái chết.”"
+    },
+    {
+      "id": "f18_14",
+      "name_vi": "Kỵ quân Hắc Tiễn",
+      "class_vi": "Cung kỵ hồi thế · Đạo quân Hắc Tiễn",
+      "role_vi": "Áp đảo sườn và đội hình hành quân bằng cung kỵ hồi thế có quân luyện tổ tiên còn nguyên.",
+      "lore_vi": "Đạo quân Hắc Tiễn tập hợp cung kỵ hồi thế từ nhiều thế hệ chiến tranh thảo nguyên. Họ cưỡi với cự ly bản năng, nghi binh rút lui và kỷ luật bao vây học trong những kiếp đã sống dưới trời rộng. Vestigium khôi phục chiến binh cùng kỹ nghệ họ nhớ, không tạo nguồn thân xác hay tên vô tận; thương vong trong đạo quân là vĩnh viễn và chiến đấu dai dẳng tiêu hao đạn như mọi lực lượng hữu tử. Nỗi kinh hoàng họ gây ra đến từ kinh nghiệm lặp qua nhiều thế kỷ chứ không từ bất hoại ma quỷ.",
+      "traits_vi": [
+        "Cung thuật tổ tiên",
+        "Nghi binh rút lui",
+        "Bao vây",
+        "Thương vong hữu tử",
+        "Nhu cầu đạn dược"
+      ],
+      "quote_vi": "“Người chết vẫn nhớ cự ly.”"
+    },
+    {
+      "id": "f18_13",
+      "name_vi": "Kheshig của các Đại Hãn",
+      "class_vi": "Gia binh cận vệ hồi thế · Tinh binh Đại Hãn",
+      "role_vi": "Bảo vệ người mang Thiên mệnh và giáng xung lực trọng kỵ có kỷ luật bằng chiến binh từng thề với các Đại Hãn.",
+      "lore_vi": "Những Kheshig này đến từ gia binh từng thề phụng sự những quân vương vĩ đại nhất thảo nguyên. Trở lại trong xác phàm, họ mang thuật cưỡi ngựa tuyệt đỉnh, thương pháp kỷ luật và hiểu biết bản năng về bảo vệ bộ chỉ huy cơ động. Hiện diện quanh người mang Thiên mệnh được công nhận, họ tạo cận vệ và dự bị phản xung phong đáng gờm. Song ngay cả gia binh huyền thoại cũng ngã trước đạn súng và đại bác; mỗi cái chết vĩnh viễn làm mỏng đội hình không thể bổ sung bằng tuyển quân thường.",
+      "traits_vi": [
+        "Kheshig tổ tiên",
+        "Trọng kỵ binh",
+        "Gắn kết hoàn hảo",
+        "Cận vệ Thiên mệnh",
+        "Tổn thất không thể thay thế"
+      ],
+      "quote_vi": "“Chúng ta đã bảo vệ các Hãn trước khi ông nội ngươi biết tên mình.”"
+    },
+    {
+      "id": "f18_11",
+      "name_vi": "Tumen Chân Trời Cuối",
+      "class_vi": "Đạo quân Thiên mệnh · Hiển hiện trăm nghìn kỵ sĩ",
+      "role_vi": "Biến khoảnh khắc Thiên mệnh được công nhận thành đạo kỵ quân quy mô chiến dịch đủ sức đánh tan quân địch.",
+      "lore_vi": "Ở biểu hiện cao nhất của Thiên mệnh, chính chân trời dường như đầy kỵ sĩ hồi thế cho tới khi hàng vạn ngựa chuyển động dưới cùng bầu trời. Chân Trời Cuối không phải quân thường trực, không thể tuyển, tích trữ hay tùy tiện tái triển khai; họ chỉ xuất hiện khi đoàn kết bộ lạc, chiến thắng và chính thống hội tụ đủ mạnh để Trường Sinh Thiên đáp lời. Mỗi chiến binh hiển hiện trong xác phàm, mọi thương vong đều thật. Đạo quân tồn tại để định đoạt chiến dịch, không để đồn trú đô thị, thay bộ máy cai trị hay sống sót sau sự phung phí liều lĩnh trước pháo chuẩn bị sẵn.",
+      "traits_vi": [
+        "Đạo quân quy mô chiến dịch",
+        "Hàng vạn kỵ sĩ",
+        "Biến cố Thiên mệnh",
+        "Thương vong hữu tử",
+        "Hiển hiện tạm thời"
+      ],
+      "quote_vi": "“Khi Trời nhớ lại, trăm nghìn vó ngựa đáp lời.”"
+    },
+    {
+      "id": "f18_09",
+      "name_vi": "Công binh cưỡi ngựa",
+      "class_vi": "Hỗ trợ cưỡi ngựa · Sửa chữa dã chiến",
+      "role_vi": "Bảo dưỡng yên cương, điểm vượt và trang bị pháo cơ động bằng phân đội kỹ thuật cưỡi ngựa.",
+      "lore_vi": "Công binh cưỡi ngựa chất dụng cụ, phụ kiện dự phòng và vật liệu sửa chữa trên ngựa làm việc. Họ giữ giá pháo lăn, gia cố điểm vượt nhỏ và sửa yên cương bị chuyển quân liên tục bào mòn. Công việc hỗ trợ giả định của hãn quốc rằng mọi binh chủng đều có thể đi nhanh. Xây dựng nặng vượt tải họ mang được, và sửa khẩn cấp cần bảo vệ khi nhịp quân đội bỏ lại xe hỏng hoặc ngựa mệt.",
+      "traits_vi": [
+        "Sửa chữa cưỡi ngựa",
+        "Bảo dưỡng yên cương",
+        "Công trình vượt nhẹ",
+        "Dụng cụ mang theo",
+        "Hạn chế công trình nặng"
+      ],
+      "quote_vi": "“Tốc độ sống nhờ phụ kiện vững chắc.”"
+    },
+    {
+      "id": "f18_08",
+      "name_vi": "Pháo binh cưỡi ngựa",
+      "class_vi": "Khinh pháo · Tái triển khai nhanh",
+      "role_vi": "Đưa pháo nhẹ theo kỵ quân để hỗ trợ công kích mà không ghìm cả lực lượng tại chỗ.",
+      "lore_vi": "Pháo thủ cưỡi ngựa dùng đại bác gọn, giá nhẹ và quân nhu đóng kỹ. Các đội cưỡi ngựa chuyển pháo đội giữa các điểm bắn, bổ sung đạn nơi chỉ cung tên không thể lay mục tiêu. Binh chủng phải cân bằng trọng lượng pháo với tốc độ hộ tống. Đạn hạn chế và cỡ nòng khiêm tốn hạn chế oanh kích lâu, còn bánh gãy có thể bỏ lại trang bị mà phần còn lại của hãn quốc trông đợi sẽ theo kịp.",
+      "traits_vi": [
+        "Đại bác nhẹ",
+        "Đội cưỡi ngựa",
+        "Tái triển khai nhanh",
+        "Cỡ nòng khiêm tốn",
+        "Đạn hạn chế"
+      ],
+      "quote_vi": "“Pháo đội cưỡi cùng quyết định.”"
+    },
+    {
+      "id": "f18_12",
+      "name_vi": "Linh hồn các Đại Hãn",
+      "class_vi": "Đại Hãn hồi thế · Chỉ huy huyền thoại",
+      "role_vi": "Đưa các danh tướng thảo nguyên đến bên Đại Hãn đang sống khi Trường Sinh Thiên xét Thiên mệnh xứng đáng.",
+      "lore_vi": "Attila, Chinggis Khan và các Đại Hãn khác được cỏ ghi nhớ hơn cả những cái tên. Trong điều kiện hiếm hoi của đoàn kết và Thiên mệnh được công nhận, một hoặc nhiều người có thể trở lại trong xác phàm với ký ức, bản năng chỉ huy và uy thế kiếp trước. Không thể ra lệnh cho họ xuất hiện, và họ có thể hoàn toàn khước từ quân vương bất xứng. Khi trở lại, họ là máu thịt: tên, đạn súng hỏa mai hay đại bác có thể giết Đại Hãn lần nữa, khiến mỗi lần xuất hiện vừa là phép màu vừa là hiểm nguy khủng khiếp.",
+      "traits_vi": [
+        "Chỉ huy huyền thoại",
+        "Thiên mệnh",
+        "Ký ức tổ tiên",
+        "Thân xác hữu tử",
+        "Không thể triệu hồi tùy ý"
+      ],
+      "quote_vi": "“Đại Hãn chỉ trở lại khi Trời đã chọn.”"
+    },
+    {
+      "id": "recover4_f18_01",
+      "name_vi": "Bến Vượt Chiến Mã",
+      "class_vi": "Sà lan chiến đấu kỵ binh · Vượt sông",
+      "role_vi": "Chở ngựa, kỵ sĩ và pháo nhẹ qua sông hồ nội địa.",
+      "lore_vi": "Sà lan đáy phẳng rộng mang chuồng ngựa tháo rời, cầu lên xuống và bệ pháo nhỏ. Mái chèo dài, dây kéo cùng đội trên bờ chuyển trọng lượng cồng kềnh nơi kỵ sĩ không thể lội an toàn. Thợ mộc bộ lạc sửa thân bằng gỗ thường và dây buộc. Đây là phương tiện vượt nước cho kỵ quân, ít giá trị ngoài vùng nước nội địa kín gió.",
+      "traits_vi": [
+        "Chuồng ngựa",
+        "Cầu rộng",
+        "Vượt bằng dây kéo",
+        "Chỉ dùng nội địa"
+      ],
+      "quote_vi": "“Kỵ sĩ vượt sông cùng chiến mã.”"
+    },
+    {
+      "id": "f19_04",
+      "name_vi": "Hỏa mai binh Tofangchi",
+      "class_vi": "Bộ binh chuyên nghiệp · Hỏa khí",
+      "role_vi": "Cung cấp bộ binh súng hỏa mai đáng tin để hỗ trợ cơ động chiến trường của kỵ binh Safavid.",
+      "lore_vi": "Các đại đội Tofangchi cho quân đội một binh chủng hỏa khí chỉnh tề bên cạnh kỵ sĩ danh giá. Súng dài, bình thuốc và áo vùng miền phản ánh tuyển quân từ nhiều tỉnh vào phụng sự hoàng gia có tổ chức. Họ chiếm vị trí bắn và giữ ngả vào mà riêng kỵ binh không thể giữ chắc. Bảo dưỡng và tiếp thuốc vẫn thiết yếu, trong khi chỉ huy dành hết chú ý cho kỵ sĩ có thể để bộ binh hữu hiệu thiếu hỗ trợ đúng lúc chạm địch.",
+      "traits_vi": [
+        "Hỏa mai binh hoàng gia",
+        "Hỏa lực đội hình",
+        "Tuyển quân vùng miền",
+        "Giữ vị trí",
+        "Phụ thuộc thuốc súng"
+      ],
+      "quote_vi": "“Chiến mã chuyển hướng được vì mảnh đất này được giữ.”"
+    },
+    {
+      "id": "f19_06",
+      "name_vi": "Cận vệ kiếm Shamshir",
+      "class_vi": "Trọng bộ binh · Cung điện",
+      "role_vi": "Giữ lối vào cung điện và khu chỉ huy bằng bộ binh khiên đao tuyển chọn.",
+      "lore_vi": "Cận vệ đao Ba Tư mang lưỡi cong tốt và khiên tròn chắc trên giáp tuyển cùng vải cung đình. Nhiệm vụ thường trực thiên về kiểm soát chặt quanh cửa nơi kỵ binh ít chỗ xoay xở. Họ ổn định nhóm chỉ huy và có thể phản kích lỗ thủng gần. Trang bị bảo vệ trong cuộc đấu ngắn, còn tầm hạn chế và giáp nặng khiến tiến qua chỗ trống trước hỏa mai binh đã ổn định là cách dùng kém tài nghệ gia binh.",
+      "traits_vi": [
+        "Phòng thủ cung điện",
+        "Kiếm Shamshir",
+        "Khiên tròn",
+        "Kiểm soát cự ly gần",
+        "Tầm với hạn chế"
+      ],
+      "quote_vi": "“Nội môn là chiến trường của chúng ta.”"
+    },
+    {
+      "id": "f19_09",
+      "name_vi": "Trinh sát biên giới Kurd",
+      "class_vi": "Bộ binh biên cương · Trinh sát",
+      "role_vi": "Canh ngả biên giới và dẫn quân hoàng gia qua địa hình biên thùy gồ ghề.",
+      "lore_vi": "Trinh sát Kurd mang áo nhiều lớp thực dụng, súng dài và hành trang gọn thích nghi đường địa phương. Các nhóm độc lập quan sát đèo và báo động địch trước khi cánh quân hoàng gia vào đất chật. Hiểu biết cá nhân có thể hơn bản đồ xa xôi, cho chỉ huy thời gian chọn đường an toàn. Quân số ít hợp trinh sát và tản chiến; ép họ vào trận đội hình lâu dài sẽ tiêu hao kinh nghiệm vùng miền khó thay thế.",
+      "traits_vi": [
+        "Trinh sát đèo",
+        "Hiểu biết địa phương",
+        "Súng dài",
+        "Cơ động độc lập",
+        "Phân đội nhỏ"
+      ],
+      "quote_vi": "“Đèo yên tĩnh có lý do của nó.”"
+    },
+    {
+      "id": "f19_01",
+      "name_vi": "Thương kỵ Qizilbash",
+      "class_vi": "Kỵ binh bộ lạc · Xung kích",
+      "role_vi": "Giáng xung lực thương kỵ bộ lạc vào đội hình địch suy yếu và sườn hở.",
+      "lore_vi": "Thương kỵ Qizilbash giữ mũ đỏ, thương dài và bảo hộ kỵ chiến trong quân dã chiến Safavid. Sức chiến đấu đến từ kỵ sĩ dày dạn và gắn kết gia binh lâu đời. Họ hữu ích nhất sau khi trinh sát và quân xạ kích tìm ngả tiếp cận thuận. Chỉ huy cạnh tranh có thể làm phối hợp phức tạp, còn xung phong lặp lại trước hỏa lực chuẩn bị sẵn phí ngựa và cựu binh mà shah không thể thay nhanh.",
+      "traits_vi": [
+        "Kỵ binh bộ lạc",
+        "Xung lực thương",
+        "Gắn kết gia binh",
+        "Đánh sườn",
+        "Tranh chấp chỉ huy"
+      ],
+      "quote_vi": "“Hạ thương nơi chiến tuyến đã oằn.”"
+    },
+    {
+      "id": "f19_02",
+      "name_vi": "Cung kỵ Qizilbash",
+      "class_vi": "Cung thủ cưỡi ngựa · Tản binh",
+      "role_vi": "Che chắn kỵ binh Safavid và quấy rối đối thủ bằng cung thuật cưỡi ngựa linh hoạt.",
+      "lore_vi": "Cung kỵ Qizilbash mang cung phức hợp và bao tên với y phục cưỡi ngựa thực dụng cùng mũ đỏ dễ nhận. Các toán thăm dò đội hình địch, canh sườn và rút trước cận chiến tốn kém. Họ chuẩn bị không gian cho thương kỵ, đồng thời duy trì màn che cơ động. Tên và cỏ ngựa hạn chế sức ép lâu dài, còn khác biệt giữa chỉ huy gia binh có thể ngăn nhiều toán tài giỏi cùng hành động như lực lượng dã chiến nhất quán.",
+      "traits_vi": [
+        "Cung trên ngựa",
+        "Che chắn sườn",
+        "Rút lui linh hoạt",
+        "Nhu cầu cỏ ngựa",
+        "Phối hợp không đều"
+      ],
+      "quote_vi": "“Hãy để địch xoay trở trước khi thương kỵ đến.”"
+    },
+    {
+      "id": "f19_03",
+      "name_vi": "Cận vệ Ghulam hoàng gia",
+      "class_vi": "Kỵ binh hoàng gia · Tinh nhuệ",
+      "role_vi": "Bảo vệ shah và cung cấp gia binh kỵ binh chuyên nghiệp cho các nhiệm vụ dã chiến trọng yếu.",
+      "lore_vi": "Cận vệ Ghulam thể hiện đầu tư của vương quyền vào quân đoàn gắn trực tiếp với phụng sự hoàng gia. Giáp xích tốt, chi tiết giáp tấm và vũ khí cận chiến bảo dưỡng kỹ đi cùng kỵ sĩ được kỳ vọng tuân lệnh chung vượt chia rẽ gia binh. Họ bảo vệ chỉ huy và phản xung phong chọn lọc khi quân bộ lạc mất gắn kết. Chi phí và quân số hạn chế đòi dùng cẩn trọng, trong khi cạnh tranh cung đình có thể kéo cận vệ chuyên nghiệp vào nhiệm vụ chính trị ngoài chiến trường.",
+      "traits_vi": [
+        "Quân đoàn hoàng gia",
+        "Phục tùng chuyên nghiệp",
+        "Giáp tốt",
+        "Phản xung phong",
+        "Duy trì đắt đỏ"
+      ],
+      "quote_vi": "“Mệnh lệnh đến từ shah.”"
+    },
+    {
+      "id": "f19_05",
+      "name_vi": "Kỵ binh Shahsevan",
+      "class_vi": "Kỵ binh trung quân · Che chắn",
+      "role_vi": "Che chắn chuyển quân hoàng gia và bảo vệ đường bằng phân đội kỵ binh trung thành.",
+      "lore_vi": "Kỵ sĩ Shahsevan kết hợp lòng trung thành với shah và thói quen thực dụng của phục vụ cơ động. Bảo hộ vừa phải, carbine hoặc cung cùng vũ khí cận chiến quen thuộc hỗ trợ hộ tống và trinh sát quanh chủ lực. Các toán tìm đe dọa trước khi gia binh cận vệ phải can thiệp. Trung thành giúp phối hợp quân hỗn hợp nhưng không xóa lợi ích địa phương, còn tuần tra dài gian khổ cần chuỗi ngựa thay và tiếp tế đáng tin.",
+      "traits_vi": [
+        "Kỵ sĩ trung thành",
+        "Hộ tống",
+        "Che chắn đường",
+        "Vũ khí linh hoạt",
+        "Cần ngựa thay"
+      ],
+      "quote_vi": "“Con đường phía trước cũng là một phần lời thề.”"
+    },
+    {
+      "id": "f19_10",
+      "name_vi": "Cựu binh Qizilbash",
+      "class_vi": "Kỵ binh tinh nhuệ · Dự bị",
+      "role_vi": "Cung cấp kỵ binh kỳ cựu cho dự bị quyết định và phản kích có kiểm soát của shah.",
+      "lore_vi": "Cựu binh mũ đỏ giữ bản sắc Qizilbash trong vai trò dự bị tuyển chọn của kế hoạch chiến dịch hoàng gia. Ngựa xuất sắc và giáp được sửa phản ánh nhiều năm phục vụ, với sĩ quan giàu kinh nghiệm xét khi nào xung phong có ý nghĩa. Họ giành lại đất nguy cấp hoặc khai thác địch đã bị xạ kích làm rối. Giá trị phụ thuộc việc còn sẵn sàng; truy kích lâu, tranh chấp phe phái và tiêu hao lặp lại có thể làm cạn dự bị trước cơ hội tốt nhất.",
+      "traits_vi": [
+        "Kỵ binh kỳ cựu",
+        "Ngựa tuyển",
+        "Dự bị quyết định",
+        "Xung phong kiểm soát",
+        "Kinh nghiệm khan hiếm"
+      ],
+      "quote_vi": "“Cựu binh chờ một đợt xung phong hữu ích.”"
+    },
+    {
+      "id": "f19_07",
+      "name_vi": "Pháo thủ Zamburak",
+      "class_vi": "Pháo lạc đà · Hỏa lực cơ động",
+      "role_vi": "Đưa hỏa lực pháo xoay nhẹ tới vị trí cơ động bằng đội pháo chở trên lạc đà.",
+      "lore_vi": "Pháo thủ Zamburak chở pháo nhỏ trên yên lạc đà chuyên dụng, cho chỉ huy Safavid hỏa khí theo được lực lượng cơ động qua đường khó. Các đội quản lý vật cưỡi, đạn và vị trí bắn như một nhiệm vụ thống nhất. Trọng lượng đạn khiêm tốn, hữu ích để quấy rối quân hơn là phá pháo đài. Điều khiển vật cưỡi và ngắm ổn định hạn chế bắn nhanh, trong khi phản pháo tập trung nhanh chóng trừng phạt đội nhỏ dễ thấy.",
+      "traits_vi": [
+        "Vận tải lạc đà",
+        "Pháo xoay",
+        "Hỗ trợ cơ động",
+        "Đạn nhẹ",
+        "Điều khiển vật cưỡi"
+      ],
+      "quote_vi": "“Pháo nhỏ có thể tới con đường xa.”"
+    },
+    {
+      "id": "f19_08",
+      "name_vi": "Pháo binh Safavid",
+      "class_vi": "Pháo binh · Hỗ trợ dã chiến",
+      "role_vi": "Hỗ trợ bộ binh và kỵ binh hoàng gia bằng hỏa lực đại bác thông thường đã chuẩn bị.",
+      "lore_vi": "Pháo thủ dã chiến Safavid tổ chức thuốc, đạn và giá pháo quanh vị trí bắn chọn lọc. Pháo gây sức ép mục tiêu cố định và phá tập trung địch khi kỵ sĩ tìm đường tiếp cận. Hỏa lực hữu ích phụ thuộc trang bị được bảo dưỡng và sĩ quan phối hợp pháo đội với kế hoạch chung. Vận tải vẫn là gánh nặng, còn ưu tiên gia binh cạnh tranh có thể tước hộ tống hoặc đội kéo cần để pháo thủ di chuyển sau lượt giao tranh đầu.",
+      "traits_vi": [
+        "Đại bác dã chiến",
+        "Hỏa lực chuẩn bị",
+        "Hỗ trợ hợp thành",
+        "Vận tải nặng",
+        "Phụ thuộc hộ tống"
+      ],
+      "quote_vi": "“Kỵ binh cần cửa mở những khẩu pháo này tạo ra.”"
+    },
+    {
+      "id": "add_f19_21",
+      "name_vi": "Vệ binh Ngự Ấn",
+      "class_vi": "Vệ binh Ngự Ấn · Giám hộ chiến lược",
+      "role_vi": "Vận chuyển, bảo vệ và quản thúc di vật, tài liệu nhạy cảm cùng vật thể nguy hiểm được giao trực tiếp cho hoàng quyền.",
+      "lore_vi": "Một số thứ trong nhà nước Safavid quá quý về chính trị hoặc quá nguy hiểm để giao lính gác thường. Vệ binh đi cùng hàng hóa hoàng gia niêm phong, duy trì kho kín và dời tài liệu vật phẩm đã lộ trước khi hỗn loạn chiến trường đưa chúng vào tay địch. Lòng trung thành được đo bằng việc ấn còn nguyên cuối hành trình nhiều hơn bằng khoảng cách nghi lễ tới shah.",
+      "traits_vi": [
+        "Giám hộ chiến lược",
+        "Hộ tống di vật",
+        "Chống trộm",
+        "Vận chuyển an toàn",
+        "Hoàng quyền"
+      ],
+      "quote_vi": "“Ấn đến nơi vẫn nguyên niêm.”"
+    },
+    {
+      "id": "add_f19_20",
+      "name_vi": "Dạ Hành Giả",
+      "class_vi": "Xâm nhập ban đêm · Phá hoại quân hoàng gia",
+      "role_vi": "Xâm nhập hậu phương địch ban đêm để phá kho, cầu, liên lạc và các mục tiêu chỉ huy chọn lọc.",
+      "lore_vi": "Các đội Shab-Ravān ưa bóng tối, kiên nhẫn và những đường quân thông thường bỏ qua. Họ mang súng nhẹ, cung, đao kiếm và vật liệu gây cháy gọn, đi không cờ hay hành lý vốn làm lộ đội hình thường. Mục đích không phải chiếm đất mà khiến địch thức dậy với sĩ quan mất tích, thuốc súng bốc cháy và con đường không còn tồn tại.",
+      "traits_vi": [
+        "Xâm nhập ban đêm",
+        "Phá hoại",
+        "Di chuyển im lặng",
+        "Đột kích chỉ huy",
+        "Vật liệu gây cháy"
+      ],
+      "quote_vi": "“Doanh trại chỉ ngủ một lần.”"
+    },
+    {
+      "id": "recover4_f19_01",
+      "name_vi": "Vệ Binh Vùng Vịnh",
+      "class_vi": "Dhow vũ trang vùng Vịnh · Tuần tra và hộ tống",
+      "role_vi": "Bảo vệ thương mại địa phương và canh các lối qua vịnh Ba Tư.",
+      "lore_vi": "Thân tàu địa phương dùng buồm tam giác mang đại bác nhẹ, chum nước và quân nhu giáp tàu. Thợ đóng tàu vùng Vịnh và hoa tiêu duyên hải thuê cung cấp kỹ năng biển thực dụng cho triều đình tập trung chiến tranh trên bộ. Tàu tuần tra khiêm tốn này có thể răn tàu cướp phá nhỏ và hộ tống thương thuyền. Frigate đại dương thực thụ có hỏa lực vượt trội, còn thời tiết gió mùa ấn định mùa hoạt động.",
+      "traits_vi": [
+        "Hệ buồm tam giác",
+        "Hoa tiêu duyên hải",
+        "Đại bác nhẹ",
+        "Tuần tra theo mùa"
+      ],
+      "quote_vi": "“Vùng Vịnh tự giữ phiên canh của mình.”"
+    },
+    {
+      "id": "recover4_f19_02",
+      "name_vi": "Ưng Vương Hormoz",
+      "class_vi": "Vận tải chiến đấu vùng Vịnh · Chở quân và đoàn hộ tống",
+      "role_vi": "Chuyển phân đội hoàng gia đồng thời tăng cường phòng thủ đoàn tàu địa phương.",
+      "lore_vi": "Thân tàu buồm địa phương rộng hơn đổi tốc độ lấy quân nhu, ghế quân và dàn pháo phòng thủ hữu ích. Thợ duyên hải gia cố bệ pháo mà không thêm boong chiến đấu đại dương đắt đỏ. Shah có công cụ cho cảng và đảo gần thay vì hạm đội viễn dương độc lập. Mớn nước khi đầy tải và pháo thủ được huấn luyện khan hiếm hạn chế hoạt động tiến công.",
+      "traits_vi": [
+        "Thân chở hàng rộng",
+        "Ghế chở quân",
+        "Pháo gia cường",
+        "Pháo thủ hạn chế"
+      ],
+      "quote_vi": "“Bờ biển vẫn trong tầm với chúng ta.”"
+    },
+    {
+      "id": "f20_01",
+      "name_vi": "Thương binh Aksum",
+      "class_vi": "Bộ binh thương · Trưng tập đại trà",
+      "role_vi": "Cung cấp khối bộ binh đế quốc và giữ các ngả địa phương bằng quân trưng tập thương khiên.",
+      "lore_vi": "Thương binh trưng tập Aksum tập hợp qua nghĩa vụ địa phương thành đại đội mang mũi thương dài, khiên da và nhiều lớp vải dệt. Họ phòng thủ ngả vào, hỗ trợ đội hình hoàng gia, lấy sức từ quân số và hiểu biết địa hạt. Áo quần trang bị thay đổi theo tài lực gia đình. Chỉ huy phải biến từng đợt trưng tập riêng thành chiến tuyến hữu hiệu, vì lòng can đảm và đất quen không đủ vượt áp lực hỏa khí liên tục trên đất trống.",
+      "traits_vi": [
+        "Trưng tập địa phương",
+        "Khối thương binh",
+        "Khiên da",
+        "Hiểu biết vùng miền",
+        "Quân luyện không đều"
+      ],
+      "quote_vi": "“Đường về nhà chúng ta đi qua hàng quân này.”"
+    },
+    {
+      "id": "f20_02",
+      "name_vi": "Khiên vệ cao nguyên",
+      "class_vi": "Trọng bộ binh · Phòng thủ",
+      "role_vi": "Giữ các ngả cao nguyên chật bằng khiên chắc và đội hình cận chiến kỷ luật.",
+      "lore_vi": "Khiên vệ cao nguyên mang khiên da tròn chắc chắn, vũ khí đâm và các lớp bảo hộ bằng vải dệt. Họ được bố trí tại những tuyến tiếp cận dốc, nơi số quân tấn công có thể cùng chạm tới chiến tuyến bị hạn chế. Địa hình được lựa chọn cùng hỏa lực yểm trợ từ quân bắn tầm xa làm tăng hiệu quả phòng thủ. Khiên vẫn dễ bị súng xuyên phá, còn trang bị cồng kềnh làm giảm lợi ích của việc truy đuổi quân địch rút lui ra ngoài trận địa được che chở mà lực lượng này vốn được huấn luyện để giữ vững.",
+      "traits_vi": [
+        "Khiên chắc",
+        "Phòng thủ đèo",
+        "Đội hình sát",
+        "Địa hình chọn lọc",
+        "Truy kích hạn chế"
+      ],
+      "quote_vi": "“Con dốc đưa chúng tới khiên ta.”"
+    },
+    {
+      "id": "f20_03",
+      "name_vi": "Cận vệ Negus",
+      "class_vi": "Cận vệ hoàng gia · Tinh nhuệ",
+      "role_vi": "Bảo vệ đế quyền và dẫn đầu các trận cận chiến chọn lọc bằng gia binh tinh nhuệ của Negus.",
+      "lore_vi": "Cận vệ hoàng gia nhận kiếm tốt, thương và khiên trang trí cùng vải và bảo hộ chọn kỹ. Địa vị dựa trên phụng sự gia binh đáng tin, khiến họ thành trung tâm ổn định cho quân trưng tập ít thường trực hơn tập hợp quanh. Cận vệ bảo vệ chỉ huy và can thiệp nơi kỷ luật thiết yếu. Trang bị và kinh nghiệm của họ khan hiếm; chỉ huy giữ lực lượng này thay vì rải khắp mọi cứ điểm địa phương hoặc cuộc đánh chính diện tốn kém.",
+      "traits_vi": [
+        "Gia binh hoàng gia",
+        "Vũ khí tốt",
+        "Trung tâm tập hợp",
+        "Kỷ luật cận chiến",
+        "Tinh binh khan hiếm"
+      ],
+      "quote_vi": "“Con đường của hoàng đế vẫn thông.”"
+    },
+    {
+      "id": "f20_04",
+      "name_vi": "Hỏa mai binh Aksum",
+      "class_vi": "Bộ binh hỏa khí · Súng thích nghi",
+      "role_vi": "Củng cố đội hình đế quốc bằng các đại đội súng nhập khẩu được bảo dưỡng kỹ.",
+      "lore_vi": "Hỏa mai binh Ethiopia mang súng dài mua qua thương mại và được thợ vũ khí địa phương duy trì. Vải nhiều lớp, bình thuốc và đai thực dụng theo người lính có hỏa lực hỗ trợ đội hình khiên thương. Nhiều kiểu vũ khí khiến phụ tùng và đạn phức tạp, tăng giá trị bảo dưỡng lành nghề. Các đại đội hữu hiệu nhất từ vị trí chọn sẵn có tiếp tế chắc, trong khi đấu súng nhanh thiếu hỗ trợ có thể tiêu hết thuốc dành cho thời điểm phòng thủ quyết định.",
+      "traits_vi": [
+        "Súng nhập khẩu",
+        "Khai hỏa chọn lọc",
+        "Thợ vũ khí địa phương",
+        "Nhiều kiểu súng",
+        "Thuốc súng hạn chế"
+      ],
+      "quote_vi": "“Một khóa súng tốt xứng công chăm chút.”"
+    },
+    {
+      "id": "f20_05",
+      "name_vi": "Xạ thủ cao nguyên",
+      "class_vi": "Bộ binh sơn địa · Tản binh",
+      "role_vi": "Quấy rối quân địch lộ mình và quan sát ngả vào từ các vị trí bắn phân tán trên cao nguyên.",
+      "lore_vi": "Xạ thủ cao nguyên mang súng dài tuyển chọn, hành trang nhẹ và áo vải dệt màu trầm. Họ chọn điểm quan sát và đường có che để bắn cá nhân mà không ghìm cả đội hình. Quen địa hình giúp nhận chỉ huy và kíp chiến đấu lộ mình. Dự trữ đạn nhỏ cùng chất lượng súng không đồng nhất hạn chế đấu súng lâu. Họ cần bộ binh gần nếu đối thủ đến vị trí với lực lượng mạnh.",
+      "traits_vi": [
+        "Hỏa lực phân tán",
+        "Trinh sát cao nguyên",
+        "Vị trí có che",
+        "Đạn hạn chế",
+        "Cần bộ binh hỗ trợ"
+      ],
+      "quote_vi": "“Tầm nhìn rõ xứng công leo núi.”"
+    },
+    {
+      "id": "f20_06",
+      "name_vi": "Kiếm binh Shotel Tigray",
+      "class_vi": "Bộ binh kiếm · Xung kích",
+      "role_vi": "Thắng công kích cận chiến trong đất chật bằng đại đội kiếm khiên Tigray dày dạn.",
+      "lore_vi": "Cựu binh Tigray mang lưỡi shotel cong và khiên tròn chắc với bảo hộ vải thực dụng. Họ áp sát sau khi hỏa lực hỗ trợ hoặc địa hình phá đội hình địch, dùng kinh nghiệm luồn quanh khiên và lối chật. Gắn kết vùng miền cho sĩ quan hoàng gia một khối xung kích đáng tin. Kiếm thuật vẫn gắn với việc tới được cự ly hữu ích; di chuyển lộ thiên dưới pháo hoặc hỏa lực hỏa mai ổn định tiêu hao cựu binh trước khi vũ khí có tác dụng.",
+      "traits_vi": [
+        "Lưỡi Shotel",
+        "Gắn kết cựu binh",
+        "Công kích đất chật",
+        "Kỹ thuật khiên",
+        "Bất lợi tầm xa"
+      ],
+      "quote_vi": "“Đưa trận đánh vào tầm với của khiên.”"
+    },
+    {
+      "id": "f20_09",
+      "name_vi": "Vệ binh pháo đài Amba",
+      "class_vi": "Bộ binh đồn trú · Cứ điểm",
+      "role_vi": "Duy trì cứ điểm địa phương và trì hoãn công kích đến khi quân dã chiến đế quốc phản ứng.",
+      "lore_vi": "Quân thủ thành am hiểu các kho dự trữ, lối ra vào và vị trí khai hỏa nhờ thời gian đồn trú thường trực. Thương và khiên bảo vệ những lối tiếp cận gần, trong khi một số hỏa khí được tuyển chọn tăng cường các hướng dễ bị tấn công trực diện. Chế độ canh gác giúp bảo quản đạn còn sử dụng được và cảnh báo các đồn lân cận khi phát hiện chuyển động. Tường thành vững chắc chẳng thể tự cung cấp lương thực hay viện binh, khiến một cuộc vây hãm kéo dài trở thành cuộc đọ sức về tiếp tế và liên lạc cũng nhiều như về lòng dũng cảm cá nhân.",
+      "traits_vi": [
+        "Phòng thủ cứ điểm",
+        "Canh gác thường trực",
+        "Vũ khí hỗn hợp",
+        "Kho địa phương",
+        "Phụ thuộc giải vây"
+      ],
+      "quote_vi": "“Tường trụ lâu hơn khi kho lương cũng vậy.”"
+    },
+    {
+      "id": "f20_10",
+      "name_vi": "Vệ binh đế kỳ Negus",
+      "class_vi": "Bộ binh tinh nhuệ · Nghi lễ",
+      "role_vi": "Bảo vệ đế kỳ và giữ đội hình địa phương tụ quanh trung tâm hoàng gia đáng tin.",
+      "lore_vi": "Vệ binh quân kỳ kết hợp áo vải đẹp, vũ khí cận chiến tuyển chọn với trách nhiệm chiến trường thực tế. Họ bảo vệ điểm tập hợp được nhận biết khi quân trưng tập phân tán mất liên lạc với mệnh lệnh. Nghi lễ khiến đội hình dễ thấy, còn sĩ quan dày dạn giữ sự dễ thấy ấy khỏi thành phơi mình vô ích. Công việc đòi phòng thủ kiên định và tín hiệu rõ; mất vệ binh có thể làm tan gắn kết vượt xa số người trực tiếp giao chiến.",
+      "traits_vi": [
+        "Bảo vệ quân kỳ",
+        "Điểm tập hợp",
+        "Kỷ luật hoàng gia",
+        "Tín hiệu rõ",
+        "Vị trí nổi bật"
+      ],
+      "quote_vi": "“Tìm quân kỳ. Tìm chiến tuyến.”"
+    },
+    {
+      "id": "f20_11",
+      "name_vi": "Thủy quân Biển Đỏ",
+      "class_vi": "Bộ binh hải quân · Phòng thủ duyên hải",
+      "role_vi": "Giữ các bãi đổ bộ Biển Đỏ và bảo vệ kho duyên hải đế quốc bằng bộ binh hải quân gọn nhẹ.",
+      "lore_vi": "Thủy quân Biển Đỏ điều chỉnh khiên, đao kiếm và súng cho thuyền, cầu cảng và ngả cảng hẹp. Phân đội hộ tống quân nhu, giữ điểm đổ bộ mà quân nội địa phải đi qua. Thuật đi biển trong vùng và tải gọn phân biệt họ với quân trưng tập cao nguyên. Thế mạnh là tiếp cận biển địa phương; phục vụ lâu trong nội địa tước thuyền gần và tiếp tế duyên hải mà không cho họ sức nặng cận vệ hoàng gia.",
+      "traits_vi": [
+        "Bộ binh duyên hải",
+        "An ninh điểm đổ bộ",
+        "Vũ khí gọn",
+        "Hộ tống quân nhu",
+        "Phụ thuộc hàng hải"
+      ],
+      "quote_vi": "“Bờ biển là cổng đầu tiên vào nội địa.”"
+    },
+    {
+      "id": "f20_07",
+      "name_vi": "Kỵ binh cao nguyên",
+      "class_vi": "Khinh kỵ binh · Trinh sát",
+      "role_vi": "Quan sát đường và truy đuổi đối thủ phân tán bằng phân đội kỵ binh cao nguyên gọn nhẹ.",
+      "lore_vi": "Kỵ binh sơn địa dùng tải nhỏ và vũ khí cưỡi ngựa thực dụng để hữu ích quanh ngả khó. Thương, khiên và súng tuyển hỗ trợ trinh sát, hộ tống hơn là liên tục xung kích đại trà. Kỵ sĩ tìm tuyến đường, thu báo cáo và tới phân đội lộ mình trước bộ binh. Ngựa vẫn cần cỏ và nền thích hợp, khiến đất dốc chật là lý do xuống ngựa hoặc rút, không phải thử thách kỵ sĩ tinh nhuệ có thể phớt lờ.",
+      "traits_vi": [
+        "Trinh sát kỵ binh",
+        "Trang bị cưỡi ngựa nhẹ",
+        "Hộ tống",
+        "Truy kích",
+        "Hạn chế nền đất"
+      ],
+      "quote_vi": "“Ngựa đi đường nó có thể sống sót.”"
+    },
+    {
+      "id": "f20_08",
+      "name_vi": "Pháo binh Aksum",
+      "class_vi": "Pháo binh · Hỗ trợ hạn chế",
+      "role_vi": "Cung cấp hỗ trợ đại bác hạn chế chống mục tiêu cố định và các ngả đế quốc bị đe dọa.",
+      "lore_vi": "Pháo thủ dã chiến đế quốc phục vụ số ít pháo quý được thu nhận và duy trì nhờ nhân công chuyên môn. Giá đơn giản, thuốc chuẩn bị và chọn mục tiêu cân nhắc khiến mỗi pháo đội thành cam kết chiến lược. Pháo có thể phá đợt đánh tập trung hoặc ép cứ điểm. Đội kéo, đạn và phụ tùng sửa hạn chế triển khai, nên chỉ huy hoàng gia đặt pháo nơi vài phát hữu ích có thể tác động trận bộ binh rộng hơn.",
+      "traits_vi": [
+        "Đại bác hạn chế",
+        "Mục tiêu cân nhắc",
+        "Pháo thủ chuyên môn",
+        "Nhu cầu sửa chữa",
+        "Vận chuyển chậm"
+      ],
+      "quote_vi": "“Chọn mục tiêu trước khi tiêu thuốc súng.”"
+    },
+    {
+      "id": "add_f20_23",
+      "name_vi": "Truy dấu di vật cao nguyên",
+      "class_vi": "Truy dấu di vật cao nguyên · Trinh sát địa hình cực hiểm",
+      "role_vi": "Truy đuổi dị thường và chuyên viên thù địch qua vách đá, sườn dựng và đường núi ngoài tầm tiếp cận quân sự thường.",
+      "lore_vi": "Dega Asashoch xem độ cao là bảo hộ hơn là gian khổ. Các đội nhỏ leo đường pháo không thể theo và kỵ binh không thể sống sót, tìm hang, tu viện bỏ hoang và địa điểm cao nguyên cô lập để truy mối đe dọa cộng đồng địa phương báo. Sức mạnh của họ không phải siêu nhiên mà là khả năng tới nơi các mối đe dọa siêu nhiên không ngờ quân đội có thể đến.",
+      "traits_vi": [
+        "Leo địa hình cực hiểm",
+        "Truy dấu cao nguyên",
+        "Tìm di vật",
+        "Hoạt động xa xôi",
+        "Sức bền sơn địa"
+      ],
+      "quote_vi": "“Luôn có một đường khác lên cao.”"
+    },
+    {
+      "id": "add_f20_22",
+      "name_vi": "Vệ binh hầm Lalibela",
+      "class_vi": "Chuyên gia lòng đất · Phòng thủ thánh địa",
+      "role_vi": "Chiến đấu và bảo vệ hầm, công trình đục đá, kho ngầm sơn địa và cứ điểm chật mà đội hình thường không thể tiếp cận.",
+      "lore_vi": "Đế quốc Aksum hồi sinh thừa hưởng cảnh quan nơi chính đá được tạo thành thánh điện, pháo đài và đường đi. Vệ binh hầm luyện chiến đấu trong cầu thang hẹp, hành lang đục đá và phòng ngầm nơi quân số trở nên vô dụng, một người thủ kỷ luật có thể chặn nhiều người. Họ còn giữ các kho mà chính quyền đế quốc mong người ngoài mãi không phát hiện.",
+      "traits_vi": [
+        "Chiến đấu chật hẹp",
+        "Định hướng lòng đất",
+        "An ninh kho ngầm",
+        "Chiến đấu bằng khiên",
+        "Kỷ luật cao"
+      ],
+      "quote_vi": "“Đá nhớ ai thuộc về lòng nó.”"
+    },
+    {
+      "id": "recover4_f20_01",
+      "name_vi": "Mitsiwa",
+      "class_vi": "Dhow vũ trang Biển Đỏ · Tuần tra duyên hải",
+      "role_vi": "Hộ tống thương nhân địa phương và bảo vệ các ngả tới Massawa.",
+      "lore_vi": "Buồm tam giác dễ điều khiển và dàn pháo nhẹ phù hợp luồng hẹp quanh cảng. Hoa tiêu duyên hải cung cấp kiến thức hàng hải mà sĩ quan cao nguyên đế quốc thiếu. Hải trình ngắn giữ sửa chữa và nước ngọt trong tầm. Thân tàu chống được kẻ cướp phá thường, nhưng gió mạnh và chiến hạm đại dương phơi bày bảo hộ hạn chế.",
+      "traits_vi": [
+        "Buồm tam giác",
+        "Hoa tiêu cảng",
+        "Tuần tra ngắn",
+        "Bảo hộ nhẹ"
+      ],
+      "quote_vi": "“Quân nhu của núi đến bằng biển.”"
+    },
+    {
+      "id": "recover4_f20_02",
+      "name_vi": "Dahlak",
+      "class_vi": "Vận tải hộ tống Biển Đỏ · Bảo vệ thương mại",
+      "role_vi": "Chở quân và tiếp tế cùng hoạt động thương mại Biển Đỏ được hộ tống.",
+      "lore_vi": "Thân tàu địa phương rộng chở hàng dưới boong được phòng thủ và dùng buồm thứ hai khi hành trình đầy tải. Bến neo đảo quanh Dahlak hỗ trợ nước, hoa tiêu và sửa chữa. Tàu gắn thương mại duyên hải với chuyển quân đế quốc. Tải nặng làm phản ứng chậm, và dàn pháo khiêm tốn dựa vào bạn đồng hành hơn là giao chiến hạm đội.",
+      "traits_vi": [
+        "Boong hàng",
+        "Hỗ trợ từ đảo",
+        "Chở quân",
+        "Dàn pháo khiêm tốn"
+      ],
+      "quote_vi": "“Giữ đường biển, cao nguyên có ăn.”"
+    }
+  ]
+}

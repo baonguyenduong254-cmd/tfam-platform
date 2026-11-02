@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-breath-scribe",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Gương cầm tay của người chăm bệnh được tráng lại bằng bạc có bụi khoáng. Qua những đêm đặt trước miệng người ngủ, sương trên gương bắt đầu tụ thành vòng đều cả khi người ấy đã quay đi. Một bóng bạc ngồi trong mặt gương, hai tay mở theo lần ngực nâng rồi khép theo lần hạ.\n\nNgười chăm nhận ra nó học từng người nhìn tới, giữ nhịp cũ trong một nửa mặt gương khi nhận nhịp mới ở nửa kia. Bà thở chậm cho nó học trước mỗi lượt làm. Có người được thấy hơi thở mình trở nên đều qua những vòng sương, rồi mới đủ bình tĩnh để gọi người chăm tới.",
+    "lore_en": "A carer’s hand mirror was resilvered with mineral-bearing silver. After nights before sleeping mouths, its mist began forming regular rings even after the sleeper turned away. A silver figure sat within, opening its hands with the chest’s rise and closing them as it fell.\n\nThe carer found it learnt each person presented, retaining an earlier cadence in half the glass while accepting a new one in the other. She breathed slowly for it before each watch. Some watched their own breathing settle through its mist rings before becoming calm enough to call for help.",
+    "use_vi": "Ghi và đối chiếu nhịp thở nhìn thấy để hỗ trợ chăm sóc và tự theo nhịp chậm.",
+    "use_en": "Record and compare visible breathing cadence to assist care and voluntary paced breathing.",
+    "limits_vi": "Chỉ học biểu hiện trước gương, nguyên nhân thay đổi cần người chuyên môn đánh giá. Phòng đông làm nó đổi chủ; gương mờ bẩn tạo khoảng nghỉ giả.",
+    "limits_en": "It learns only visible signs before the glass; causes of change require professional judgement. Crowds switch its subject and dirty glass creates false pauses.",
+    "skills": [
+      {
+        "name_vi": "Nhận hơi",
+        "name_en": "Receive the Breath",
+        "description_vi": "Đặt gương trước một người yên rồi chạm mép bạc để bóng học chuỗi nâng hạ thấy được; phải giữ rõ mặt kính qua cả lượt.",
+        "description_en": "Set the mirror before one still person and touch its silver edge to learn a visible breathing sequence; keep the view clear throughout."
+      },
+      {
+        "name_vi": "Vòng nhịp cũ",
+        "name_en": "The Earlier Rings",
+        "description_vi": "Vuốt nửa trái để bóng lặp nhịp vừa ghi bằng sương, cho người chăm đếm lại khi đã quay sang ghi sổ.",
+        "description_en": "Stroke the left half to repeat the recorded cadence as mist rings for counting while writing notes."
+      },
+      {
+        "name_vi": "Hai hơi đối chiếu",
+        "name_en": "Compare Two Breaths",
+        "description_vi": "Giữ bản cũ ở nửa trái rồi cho cùng người nhận lượt mới bên phải để so khoảng nghỉ và độ đều; đổi người phải xóa cả hai.",
+        "description_en": "Keep the old cadence left and accept the same person’s fresh sequence right to compare pauses and regularity; a different person requires clearing both."
+      },
+      {
+        "name_vi": "Học nhịp yên",
+        "name_en": "Learn the Quiet Cadence",
+        "description_vi": "Cho bóng học hơi thở chậm tự nguyện rồi đưa người cần bình tĩnh nhìn bàn tay bạc để tự theo, dừng khi thấy khó chịu.",
+        "description_en": "Let the figure learn voluntary slow breathing, then let someone seeking calm follow its silver hands, stopping at discomfort."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Người sao chép còn chờ",
+        "name_en": "The Copyist Still Waits",
+        "description_vi": "Bóng bạc nhận một người ở mỗi lượt, lặp động tác ngay cả khi người đó rời mặt gương cho đến lần nhận sau.",
+        "description_en": "The silver figure accepts one person per turn and repeats their movement after departure until a fresh acceptance."
+      }
+    ]
+  }
+]

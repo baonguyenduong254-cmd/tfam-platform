@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-thach-dong-suong",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Những viên đá đầu tiên được dỡ từ tường một phòng hong thư. Sau nhiều mùa đói lạnh, người coi phòng vẫn giữ những lá thư chưa tìm được người nhận, dùng chậu than cuối để cứu giấy khỏi mục. Khi kho bị bỏ trống, người tới sau thấy từng giọt nước treo trên các mũi tinh thể, còn các phong thư quanh chúng khô đến mức bụi niêm sáp chưa bị nhòe.\n\nĐá tường trước đó chỉ là thạch anh đục. Nước đã thấm qua hàng nghìn nét chữ rồi kết trong các hốc đá, để các mũi tinh thể học được hai chiều của cùng một việc: lấy hơi ẩm khỏi vật cần giữ và trả nước về theo một đường được chỉ. Người ta có thể đem đá đi xa khỏi kho; tới đêm nó vẫn đọng những giọt có vị nhạt như nước đã đi qua giấy cũ. Có người gọi chúng là phần mưa mà những bức thư còn nợ người nhận.",
+    "lore_en": "The first stones were removed from the wall of a letter-drying room. Through seasons of hunger and cold its keeper saved messages whose recipients could not be found, spending the last charcoal to protect their paper from decay. Later visitors found droplets suspended upon crystal-points while the surrounding envelopes remained dry, their sealing-wax dust unsmeared.\n\nThe wall-stone had been cloudy quartz. Water had passed through thousands of written lines before gathering in its hollows, teaching the crystals two directions of one duty: drawing damp from what must be preserved and returning water along an indicated path. Carried far away, the stones still gathered faint-tasting drops as though water had travelled through old paper. Some called them the rain those letters still owed their recipients.",
+    "use_vi": "Hong khô vật nhỏ hoặc thu nước ngưng tụ vào một chỗ đã chỉ. Hai thao tác cùng dùng phần sức chứa trong hốc đá.",
+    "use_en": "Dry small objects or collect condensation at an indicated place. Both operations use the stone’s hollow capacity.",
+    "limits_vi": "Hốc đầy thì đá ngừng nhận. Nước được giữ có thể mang tạp chất từ vật đã hong; đổ ra hoặc làm ấm sẽ trả đá về trạng thái nhận, nhưng nung lửa mạnh làm hốc hóa đục vĩnh viễn.",
+    "limits_en": "Full hollows accept no more. Stored water may carry impurities from dried objects. Emptying or gently warming resets reception; fierce heating clouds the hollows permanently.",
+    "skills": [
+      {
+        "name_vi": "Hong thư",
+        "name_en": "Dry the Letter",
+        "description_vi": "Đặt đá cạnh giấy, vải hoặc da ẩm; hơi nước rời vật và gom vào hốc, nhưng mực hoặc thuốc nhuộm đã hỏng vẫn hỏng.",
+        "description_en": "Set it beside damp paper, cloth or leather. Moisture leaves the object for its hollows; damaged ink or dye remains damaged."
+      },
+      {
+        "name_vi": "Trả giọt",
+        "name_en": "Return the Drops",
+        "description_vi": "Vạch một đường bằng ngón tay ướt từ hốc tới chén nhận; nước đã giữ lần lượt đi theo đường ấy, kể cả qua một đoạn dốc. Đường khô làm lượt trả dừng.",
+        "description_en": "Trace a wet-finger line from hollow to cup. Stored water follows it, even over a slope. A dried section stops the release."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mưa đã đi qua chữ",
+        "name_en": "Rain Through Writing",
+        "description_vi": "Các giọt giữ hình tròn khi đá bị nghiêng; ở trạng thái đầy, những nét như mực loang hiện dưới vỏ tinh thể.",
+        "description_en": "Drops remain round when the stone tilts. At capacity, shapes resembling blurred ink appear beneath the crystal skin."
+      }
+    ]
+  }
+]

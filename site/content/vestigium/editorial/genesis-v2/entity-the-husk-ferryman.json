@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-husk-ferryman",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Vỏ hạt trôi qua máng rửa khoáng, mắc lại đúng chỗ hai luồng nước gặp nhau. Người thợ thấy một dáng chèo nhỏ trong lòng vỏ, mỗi lần gió đẩy ra nó lại chèo về vùng chảy êm hơn. Mảnh vỏ khô lên vẫn giữ dáng ấy như nét gân, thả nước lại cho người chèo đứng dậy.\n\nChuyện thuyền vỏ hạt vốn được kể cho trẻ đợi hết mưa. Ở máng xưởng, nó đã có một chiếc chèo thật, đủ khuấy một vòng nước nhỏ. Người thợ thay máng luôn dành cho nó bờ xuất phát cũ, một mảnh gỗ được người chèo chạm chèo chào trước khi rời đi.",
+    "lore_en": "A seed husk drifted through a mineral-washing channel and lodged where two currents met. A worker saw a little rower within; whenever a draft pushed it away, it rowed towards gentler flow. Dried, the husk retained the figure as a vein, and renewed water let the ferryman stand.\n\nHusk-boat stories had long entertained children waiting out rain. In the workshop channel one now had a real oar, enough to stir a little circle. Whenever its keeper changed the trough, he preserved the old departure bank, a wood chip the rower touched in farewell before leaving.",
+    "use_vi": "Dùng hành trình thuyền nhỏ đọc luồng êm, vòng xoáy và kiểm mô hình máng nước.",
+    "use_en": "Read gentle currents and eddies through the little boat’s passage and test model channels.",
+    "limits_vi": "Chỉ thuyền bằng vỏ hạt gốc, tải thêm làm nó lật. Nước đông giữ nó bất động, còn kết quả ở máng cần khảo sát riêng trước khi áp vào bến thật.",
+    "limits_en": "Only its original husk is used and extra cargo overturns it. Freezing stills it; trough results need separate surveys before application to real harbours.",
+    "skills": [
+      {
+        "name_vi": "Chọn luồng êm",
+        "name_en": "Choose the Gentle Flow",
+        "description_vi": "Thả thuyền từ bờ đã nhận để nó tìm luồng chậm hơn trong máng, vạch nơi thích hợp đặt một mô hình bến.",
+        "description_en": "Launch from its accepted bank so it seeks a slower channel and suggests where a model landing may sit."
+      },
+      {
+        "name_vi": "Vòng chèo dò xoáy",
+        "name_en": "The Eddy-Testing Circle",
+        "description_vi": "Đặt một que nhỏ trước thuyền để người chèo đi vòng, nhìn hướng vòng cho biết xoáy nước tại đó; que phải được rút sau phép thử.",
+        "description_en": "Place a small stick ahead so the rower circles it, revealing the local eddy by its course; remove the stick afterwards."
+      },
+      {
+        "name_vi": "Hạt đưa dấu",
+        "name_en": "The Marker Ferry",
+        "description_vi": "Chạm một hạt mực khô thật nhẹ lên lòng vỏ để nó chở tới bờ gần đã nhận, gửi dấu qua máng; tải quá nặng khiến nó quay về ngay.",
+        "description_en": "Place a very light dry ink grain inside so it carries a mark to a nearby accepted bank across the trough; excess weight sends it back at once."
+      },
+      {
+        "name_vi": "Chèo về bờ gốc",
+        "name_en": "Row to the First Bank",
+        "description_vi": "Gõ mảnh bờ xuất phát lên mép máng để nó bỏ lượt dò và quay về, kết phép thử trước khi đổi dòng; dòng mạnh vẫn có thể giữ thuyền ngoài tầm.",
+        "description_en": "Tap the departure chip upon the trough to end its survey and call it home before changing flow; strong current may still hold it away."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bờ cần lời chào",
+        "name_en": "The Bank Needs Farewell",
+        "description_vi": "Người chèo tìm lại mảnh bờ đã nhận sau mỗi lượt. Dời mảnh ấy giữa đường khiến nó chèo vòng cho đến khi tìm được.",
+        "description_en": "The rower seeks its accepted bank after each trip. Moving that piece mid-voyage sends it circling until found."
+      }
+    ]
+  }
+]

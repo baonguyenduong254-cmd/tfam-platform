@@ -1,0 +1,212 @@
+{
+  "factions": [
+    {
+      "id": "western_roman_empire",
+      "capital_demo": "Ravenna",
+      "capital_vi_1715": "Ravenna",
+      "capital_en_1715": "Ravenna",
+      "capital_vi_1716": "Ravenna",
+      "capital_en_1716": "Ravenna",
+      "lore_vi_1715": "Năm 1676, Odoacer dẫn các đạo quân đánh thuê tới Ravenna, đòi đất đai và quyền quyết định người ngồi trên ngai vàng. Romulus Augustulus giữ được thành, tập hợp những quân đoàn còn trung thành rồi đánh tan cuộc binh biến. Từ cuộc vây hãm ấy, Tây La Mã bước vào một thời đại mà quyền lực của Hoàng đế được xây trên lời thề của từng đơn vị, kho lương của từng tỉnh và những con đường đủ sức đưa cả một đạo quân tới biên giới.\n\nNhững cải tổ sau chiến thắng buộc các địa phương nuôi quân, duy trì kho dự trữ và đưa sổ sách của mình về Ravenna. Quyền chỉ huy được phân xuống nhiều tầng. Một lá cờ, một tiếng tù và hay một sĩ quan còn sống đều có thể giữ đội hình tiếp tục thực hiện nhiệm vụ. Đế chế dần có được một bộ máy đủ sức đưa chiến tranh đi xa hơn tuổi đời của những người khởi đầu nó.\n\nĐến năm 1715, đại bàng Tây La Mã đã phủ bóng lên Ý, Balkan và những cửa ngõ Địa Trung Hải. Ottoman bị đánh bật khỏi phần lớn lãnh thổ châu Âu. Tunis trở thành đầu mối để các đoàn vận tải cùng quân tiếp viện đẩy mặt trận về phía Maroc, đưa Castilian vào một cuộc chiến mà mỗi lần chặn được quân tiên phong lại phải đối diện với một đạo quân kế tiếp.\n\nTại Ravenna, triều đình giữ Vương miện Ravenna, một Vestigium cấp Thần Thoại. Những báo cáo về sức bền khác thường của chiến dịch khiến Madrid tìm cách dò xét bí mật ấy. Năng lực của vương miện vẫn nằm sau những cánh cửa nội điện.\n\nNgoài những cánh cửa đó, quân đoàn tiếp tục nhận lệnh. Mùa đông đã làm nhiều vương quốc co mình quanh bếp lửa. Ravenna vẫn mở thêm đường hành quân.",
+      "lore_en_1715": "In 1676, Odoacer led mercenary armies against Ravenna, demanding land and the right to determine who occupied the throne. Romulus Augustulus held the city, rallied the loyal legions and defeated the mutiny. From that siege, Western Rome entered an age in which imperial authority rested upon each unit’s oath, each province’s granaries and roads capable of carrying an army to the frontier.\n\nThe reforms that followed bound local administrations to maintain troops, reserve stores and accounts answerable to Ravenna. Command was distributed through successive levels. A banner, a horn call or a surviving officer could keep a formation carrying out its orders. The empire acquired a machinery capable of sustaining wars beyond the lifetimes of those who began them.\n\nBy 1715, the Western Roman eagle overshadowed Italy, the Balkans and the gateways of the Mediterranean. Ottoman forces had been driven from much of their European territory. Tunis became a staging point for transport and reinforcements pressing towards Morocco, drawing Castilian into a war in which halting one advance meant confronting the next army.\n\nAt Ravenna, the court guarded the Crown of Ravenna, a Mythic-grade Vestigium. Reports of the campaign’s extraordinary endurance prompted Madrid to seek its secrets. The crown’s capabilities remained behind the doors of the inner palace.\n\nOutside those doors, the legions continued receiving orders. Winter had driven many kingdoms to gather around their hearths. Ravenna kept opening roads for its armies.",
+      "lore_vi_1716": "Năm 1716, bộ máy chiến tranh của Ravenna chạm tới giới hạn tại Bắc Phi. Fes giữ được thành. Vòng phong tỏa Melilla bị phá, Nador thất thủ, còn những tuyến tiếp tế về phía tây ngày càng phải trả giá bằng tàu, lương thực và người chết. Các quân đoàn vẫn còn sức chiến đấu, nhưng mỗi đợt quân tăng viện chỉ kéo dài một mặt trận đang nuốt dần giá trị của chính chiến thắng.\n\nTại Palermo, Marcus Aurelianus Scipio tới với toàn quyền kết thúc cuộc chiến ấy. Ông chấp thuận giải vây Fes, rút quân khỏi Algeria theo từng giai đoạn và trao đổi tù binh theo danh sách. Những bảo đảm dành cho dân thường cùng các điều kiện bàn giao cảng, kho và đường rút quân được ghi rõ trên giấy. Ravenna còn tự nguyện trả Tunis khi đơn vị cuối cùng rời đi. Marcus đưa quân đội trở về Sicilia và miền nam Ý bằng một hòa ước đủ chặt để những người sống sót có thể đi hết đường về.\n\nĐế chế vẫn giữ những lãnh thổ rộng lớn tại Tiểu Á, miền đông Địa Trung Hải, Ai Cập và Libya. Từ Ravenna, Hoàng đế nhìn cái giá của Bắc Phi như một phép tính cần được thay đổi tận gốc. Quân số và pháo binh đã đốt cả một thế hệ để dịch chuyển những đường biên; ông muốn đưa quân đoàn bước vào thời đại của Vestigium.\n\nCuối năm, Marcus được triệu về một căn phòng bản đồ. Hồ sơ mang ấn Vương quyền và giáo hội Ravenna ghi hai chữ Bellum Sacrum: Thánh chiến. Những bản thử nghiệm có cột tỷ lệ sống sót. Các Vestigium ổn định sẽ đi cùng quân đội; những thứ bất định được dự tính đưa tới các khu vực buộc đối phương tiêu hao người và thời gian.\n\nMarcus nhìn thấy một cuộc chiến có thể kéo cả lục địa vào lửa. Hoàng đế đã chuẩn bị kho, đơn vị và sắc lệnh.\n\nBắc Phi vừa có được hòa bình. Ravenna đang chuẩn bị điều sẽ theo sau nó.",
+      "lore_en_1716": "In 1716, Ravenna’s war machine reached its limits in North Africa. Fes held. The blockade of Melilla was broken, Nador fell, and supply routes westward demanded an increasing toll in ships, provisions and lives. The legions remained capable of fighting, but each reinforcement prolonged a front consuming the value of victory itself.\n\nAt Palermo, Marcus Aurelianus Scipio arrived with full authority to end that war. He accepted the relief of Fes, a phased withdrawal from Algeria and prisoner exchanges governed by lists. Protections for civilians and conditions for handing over ports, depots and withdrawal routes were recorded in detail. Ravenna voluntarily returned Tunis once its last unit departed. Marcus brought the army back towards Sicily and southern Italy through a settlement firm enough to let the survivors reach home.\n\nThe empire retained extensive territories in Asia Minor, the eastern Mediterranean, Egypt and Libya. From Ravenna, the Emperor viewed North Africa’s cost as a calculation requiring fundamental change. Manpower and artillery had burned a generation to move borders; he intended to bring the legions into the age of Vestigium.\n\nAt year’s end, Marcus was summoned to a map room. A dossier bearing the seals of the Crown and Ravenna’s church carried the words Bellum Sacrum: Holy War. Experimental reports included survival rates. Stable Vestigium would accompany the army; unstable ones were intended for places where the enemy would be forced to spend lives and time containing them.\n\nMarcus recognized a war capable of setting the entire continent ablaze. The Emperor had prepared the stores, units and decrees.\n\nNorth Africa had just obtained peace. Ravenna was preparing what would follow it.",
+      "traits": [
+        {
+          "id": "redundant_command",
+          "label_vi": "Mệnh lệnh còn tiếp tục",
+          "label_en": "Orders Endure",
+          "effect_vi": "Quyền chỉ huy phân xuống nhiều tầng; các đơn vị dùng cờ, tù và và sĩ quan tại chỗ để tiếp tục tác chiến khi bộ chỉ huy bị đánh phá.",
+          "effect_en": "Command is distributed through several levels; banners, horns and local officers sustain operations when headquarters are struck.",
+          "effect_ui": "Quyền chỉ huy phân xuống nhiều tầng; các đơn vị dùng cờ, tù và và sĩ quan tại chỗ để tiếp tục tác chiến khi bộ chỉ huy bị đánh phá."
+        },
+        {
+          "id": "mass_mobilization",
+          "label_vi": "Những con đường của đế chế",
+          "label_en": "Roads of the Empire",
+          "effect_vi": "Kho dự trữ, quân bổ sung và vận tải nối nhiều mặt trận thành một hệ thống. Sức huy động lớn cũng kéo theo gánh nặng nuôi quân và tổn thất lâu dài.",
+          "effect_en": "Reserve stores, replacement troops and transport connect multiple fronts. Vast mobilization carries a lasting burden of supply and casualties.",
+          "effect_ui": "Kho dự trữ, quân bổ sung và vận tải nối nhiều mặt trận thành một hệ thống. Sức huy động lớn cũng kéo theo gánh nặng nuôi quân và tổn thất lâu dài."
+        },
+        {
+          "id": "comitatenses",
+          "label_vi": "Sườn cao và vòng vây",
+          "label_en": "High Ground and Encirclement",
+          "effect_vi": "Comitatenses giữ hỏa lực trên sườn cao, phân tán vị trí và phối hợp với bộ binh để dồn đối phương vào những lối rút đã bị khóa.",
+          "effect_en": "Comitatenses disperse on high ground and coordinate with infantry to channel opponents towards blocked escape routes.",
+          "effect_ui": "Comitatenses giữ hỏa lực trên sườn cao, phân tán vị trí và phối hợp với bộ binh để dồn đối phương vào những lối rút đã bị khóa."
+        },
+        {
+          "id": "vestigium_militarization",
+          "label_vi": "Ấn Thánh chiến",
+          "label_en": "Seal of Holy War",
+          "effect_vi": "Cuối năm 1716, Vương quyền cùng giáo hội Ravenna chuẩn bị Bellum Sacrum, đưa Vestigium và những thử nghiệm trên người vào kế hoạch chiến tranh sắp tới.",
+          "effect_en": "At the end of 1716, the Crown and Ravenna’s church prepare Bellum Sacrum, incorporating Vestigium and human experimentation into the coming war.",
+          "effect_ui": "Cuối năm 1716, Vương quyền cùng giáo hội Ravenna chuẩn bị Bellum Sacrum, đưa Vestigium và những thử nghiệm trên người vào kế hoạch chiến tranh sắp tới."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "marcus_aurelianus_scipio",
+      "faction_id": "western_roman_empire",
+      "name": "Marcus Aurelianus Scipio",
+      "role_vi": "Đại diện toàn quyền Tây La Mã",
+      "role_en": "Plenipotentiary of Western Rome",
+      "lore_vi": "Marcus tới Palermo trong bộ quân phục gần như đen, viền đỏ ở cổ và tay áo, mang theo quyền ký một hòa ước thay mặt Ravenna. Ông hiểu từng điều kiện rút quân sẽ trở thành một đoàn xe, một cửa cảng và một hàng người phải đi qua vùng đất vừa giao lại cho đối phương.\n\nSau những tổn thất ở Fes, Marcus nhận ra việc đưa thêm quân vào mặt trận chỉ làm tăng số người chết. Ông thương lượng việc giải vây, bàn giao lãnh thổ, trao đổi tù binh và bảo vệ dân thường; lệnh rút quân đã được chuẩn bị, chờ hòa ước có hiệu lực. Sự tỉnh táo của ông giúp một đạo quân còn khả năng chiến đấu rời Bắc Phi trong trật tự.\n\nTrở về Ravenna cuối năm 1716, Marcus đọc hồ sơ Thánh chiến và nhận ra những thử nghiệm trên người cùng kế hoạch sử dụng Vestigium đang mở đường cho chiến tranh toàn lục địa. Ông nói thẳng những hậu quả với Hoàng đế. Người vừa đưa quân lính về nhà được giao chuẩn bị họ cho một cuộc chiến mà chính ông đã cảnh báo.",
+      "lore_en": "Marcus arrives at Palermo in an almost black uniform edged in red, carrying authority to sign a settlement for Ravenna. He understands that each withdrawal clause will become a wagon column, a harbour entrance and a line of people crossing land just returned to their opponents.\n\nAfter the losses at Fes, he recognizes that further reinforcements will only add to the dead. He negotiates relief, territorial handovers, prisoner exchanges and civilian protections; withdrawal orders await the treaty’s entry into force. His judgement allows an army still capable of fighting to leave North Africa in order.\n\nReturning to Ravenna in late 1716, Marcus reads the Holy War dossier and recognizes that human experimentation and planned Vestigium deployments are opening the way to a continental conflict. He states the consequences directly to the Emperor. The man who has brought soldiers home is ordered to prepare them for the war he has warned against.",
+      "skills_vi": [
+        "Thương lượng hòa ước",
+        "Tổ chức rút quân",
+        "Đánh giá hậu cần chiến dịch",
+        "Phân tích chiến tranh liên minh"
+      ],
+      "skills_en": [
+        "Treaty negotiation",
+        "Organized withdrawal",
+        "Campaign logistics assessment",
+        "Coalition war analysis"
+      ],
+      "skills": [
+        "Thương lượng hòa ước",
+        "Tổ chức rút quân",
+        "Đánh giá hậu cần chiến dịch",
+        "Phân tích chiến tranh liên minh"
+      ],
+      "traits_vi": [
+        "Tỉnh táo trước thương vong",
+        "Thẳng lời với Hoàng đế",
+        "Giữ chặt điều khoản đã ký"
+      ],
+      "traits_en": [
+        "Clear-eyed about casualties",
+        "Frank with the Emperor",
+        "Exacting about signed terms"
+      ],
+      "traits": [
+        "Tỉnh táo trước thương vong",
+        "Thẳng lời với Hoàng đế",
+        "Giữ chặt điều khoản đã ký"
+      ],
+      "status_vi": {
+        "1715": "Phục vụ bộ máy quân sự và ngoại giao của Ravenna.",
+        "1716": "Đại diện toàn quyền tại Palermo; trở về Ravenna và được giao chuẩn bị quân đội cho Bellum Sacrum."
+      },
+      "status_en": {
+        "1715": "Serving Ravenna’s military and diplomatic apparatus.",
+        "1716": "Plenipotentiary at Palermo; returns to Ravenna and is ordered to prepare the army for Bellum Sacrum."
+      },
+      "status": {
+        "1715": "Phục vụ bộ máy quân sự và ngoại giao của Ravenna.",
+        "1716": "Đại diện toàn quyền tại Palermo; trở về Ravenna và được giao chuẩn bị quân đội cho Bellum Sacrum."
+      }
+    },
+    {
+      "id": "emperor_of_ravenna",
+      "faction_id": "western_roman_empire",
+      "name": "Hoàng đế Ravenna",
+      "role_vi": "Quân chủ Tây La Mã",
+      "role_en": "Emperor of Western Rome",
+      "lore_vi": "Từ căn phòng bản đồ trong nội điện, Hoàng đế theo dõi các đạo quân bằng những tuyến vận tải, thống kê thương vong và phần sức mạnh còn lại của đối phương. Khi Marcus trở về từ Palermo, điều ông muốn biết là Castilian còn có thể huy động bao nhiêu, Isabella có giữ được ngai và Edward Spencer còn sống hay đã chết.\n\nBắc Phi khiến ông nhìn rõ khả năng các quốc gia liên tục tái tạo sức kháng cự. Ông đã dành nhiều năm tìm kiếm Vestigium và chuẩn bị những thử nghiệm mà con người phải trả giá bằng thân thể. Vương quyền cùng giáo hội Ravenna đặt ấn lên Bellum Sacrum, mở đường cho một cuộc chiến kết hợp quân đoàn với những vật thể có thể vượt khỏi khả năng kiểm soát thông thường.\n\nMarcus cảnh báo rằng Pháp, Castilian, Habsburg và Novgorod sẽ bị cuốn vào cùng một cuộc chiến. Hoàng đế nghe hết, rồi giữ nguyên mệnh lệnh. Trong khi các triều đình tính thời gian cần cho tái thiết, Ravenna đã dùng những tháng ấy để chuẩn bị kho và đơn vị.",
+      "lore_en": "From the palace map room, the Emperor follows his armies through transport routes, casualty returns and the strength remaining to his opponents. When Marcus returns from Palermo, he asks how much Castilian can still mobilize, whether Isabella holds her throne and whether Edward Spencer remains alive.\n\nNorth Africa exposes the ability of states to renew their resistance. He has spent years gathering Vestigium and preparing experiments paid for with human bodies. The Crown and Ravenna’s church seal Bellum Sacrum, preparing a war that combines legions with objects capable of exceeding ordinary control.\n\nMarcus warns that France, Castilian, Habsburg and Novgorod will be drawn into a single conflict. The Emperor hears him and retains his orders. While other courts calculate the time needed to rebuild, Ravenna has used those months to prepare stores and units.",
+      "skills_vi": [
+        "Điều phối chiến lược đế chế",
+        "Huy động quân đoàn",
+        "Tổ chức chương trình Vestigium",
+        "Kết hợp vương quyền và giáo hội"
+      ],
+      "skills_en": [
+        "Imperial strategy",
+        "Legion mobilization",
+        "Vestigium programme organization",
+        "Crown–church coordination"
+      ],
+      "skills": [
+        "Điều phối chiến lược đế chế",
+        "Huy động quân đoàn",
+        "Tổ chức chương trình Vestigium",
+        "Kết hợp vương quyền và giáo hội"
+      ],
+      "traits_vi": [
+        "Tính toán sức kháng cự đối phương",
+        "Theo đuổi chiến tranh toàn lục địa",
+        "Chấp nhận tổn thất thử nghiệm"
+      ],
+      "traits_en": [
+        "Calculates enemy resilience",
+        "Pursues continental warfare",
+        "Accepts experimental casualties"
+      ],
+      "traits": [
+        "Tính toán sức kháng cự đối phương",
+        "Theo đuổi chiến tranh toàn lục địa",
+        "Chấp nhận tổn thất thử nghiệm"
+      ],
+      "status_vi": {
+        "1715": "Điều hành chiến tranh của Ravenna; các chương trình tìm kiếm Vestigium được giữ kín.",
+        "1716": "Phê chuẩn chuẩn bị Thánh chiến, giao Marcus tổ chức quân đội và sắc lệnh."
+      },
+      "status_en": {
+        "1715": "Directing Ravenna’s wars while Vestigium searches remain secret.",
+        "1716": "Authorizes Holy War preparations and orders Marcus to ready the army and decree."
+      },
+      "status": {
+        "1715": "Điều hành chiến tranh của Ravenna; các chương trình tìm kiếm Vestigium được giữ kín.",
+        "1716": "Phê chuẩn chuẩn bị Thánh chiến, giao Marcus tổ chức quân đội và sắc lệnh."
+      },
+      "name_vi": "Hoàng đế Ravenna",
+      "name_en": "Emperor of Ravenna"
+    }
+  ],
+  "units": [
+    {
+      "id": "comitatenses",
+      "faction_id": "western_roman_empire",
+      "name": "Comitatenses",
+      "name_vi": "Comitatenses",
+      "name_en": "Comitatenses",
+      "role": "Bộ binh cơ động, hỏa lực sườn cao",
+      "role_vi": "Bộ binh cơ động, hỏa lực sườn cao",
+      "role_en": "Mobile infantry and high-ground fire",
+      "lore_vi": "Giáp nhẹ, áo choàng ngắn và súng hỏa mai nòng ngắn giúp Comitatenses bám theo đối phương qua rừng cùng sườn núi. Họ giữ khoảng cách, chia thành những cụm đủ xa để một đòn Vestigium khó quét hết vị trí, rồi bắn từ trên cao vào đường rút. Tại vùng núi quanh Taourirt, những tổ này phối hợp với bộ binh phía dưới để kéo dài cuộc truy đuổi anh em Harkon và liên tục khóa những lối thoát mới.",
+      "lore_en": "Light armour, short cloaks and carbines allow Comitatenses to follow opponents through forests and mountain slopes. They keep their distance, dispersing into groups too widely spaced for a single Vestigium strike to sweep every position, then fire down on escape routes. Around Taourirt, these teams work with infantry below to sustain the pursuit of the Harkon siblings and close successive exits."
+    },
+    {
+      "id": "roman_line_legions",
+      "faction_id": "western_roman_empire",
+      "name": "Bộ binh quân đoàn",
+      "name_vi": "Bộ binh quân đoàn",
+      "name_en": "Legion Infantry",
+      "role": "Giữ tuyến, khép đội hình và chặn đường rút",
+      "role_vi": "Giữ tuyến, khép đội hình và chặn đường rút",
+      "role_en": "Line holding, formation control and blocking escape",
+      "lore_vi": "Bộ binh quân đoàn giữ các điểm chặn bằng chướng ngại, khiên và hỏa lực phối hợp. Mệnh lệnh được truyền bằng sĩ quan tại chỗ, cờ cùng tù và; những đơn vị còn nguyên đội hình tiếp tục làm nhiệm vụ khi sở chỉ huy bị đánh phá. Tại Taourirt, sức bền của cơ chế ấy khiến việc hạ một chỉ huy cấp cao vẫn để lại cả một trận địa đang vận hành trước những người tìm đường thoát.",
+      "lore_en": "Legion infantry holds blocking positions with obstacles, shields and coordinated fire. Local officers, banners and horns relay orders; intact formations continue their tasks after headquarters are struck. At Taourirt, that resilience leaves a functioning battlefield facing the escapees even after a senior commander has been killed."
+    },
+    {
+      "id": "roman_campaign_artillery",
+      "faction_id": "western_roman_empire",
+      "name": "Pháo binh chiến dịch",
+      "name_vi": "Pháo binh chiến dịch",
+      "name_en": "Campaign Artillery",
+      "role": "Phong tỏa, công thành và hỏa lực trận địa",
+      "role_vi": "Phong tỏa, công thành và hỏa lực trận địa",
+      "role_en": "Blockade, siege and battlefield fire",
+      "lore_vi": "Các trận địa pháo theo quân đoàn tới những thành phố, cửa cảng và tuyến phòng thủ mà Ravenna cần khóa lại. Đạn pháo được nuôi bằng đoàn vận tải cùng kho dự trữ phía sau mặt trận. Tại Taourirt, hỏa lực La Mã còn giội vào chính khu sở chỉ huy đã bị đối phương xâm nhập, trong lúc các đơn vị xung quanh lập lại những điểm chặn. Quyền quyết định mục tiêu có thể biến một công trình của đế chế thành phần đất phải hy sinh để giữ trận địa.",
+      "lore_en": "Artillery follows the legions to cities, harbours and defensive lines Ravenna needs to close. Transport columns and rear depots sustain its ammunition. At Taourirt, Roman guns strike their own infiltrated headquarters while surrounding units restore blocking positions. Targeting decisions can turn an imperial building into ground sacrificed to preserve the battlefield."
+    },
+    {
+      "id": "roman_foederati_janissary",
+      "faction_id": "western_roman_empire",
+      "name": "Janissary dưới quân kỳ La Mã",
+      "name_vi": "Janissary dưới quân kỳ La Mã",
+      "name_en": "Foederati Janissary",
+      "role": "Bộ binh khép vòng vây",
+      "role_vi": "Bộ binh khép vòng vây",
+      "role_en": "Encircling infantry",
+      "lore_vi": "Những người lính mang khăn quấn kiểu Ottoman cũ, hỏa mai nòng dài, kiếm cong và khiên tròn xuất hiện dưới phù hiệu đại bàng Tây La Mã. Dấu trăng lưỡi liềm trên khiên bị đóng chồng bằng biểu tượng của Ravenna. Trong cuộc truy đuổi ở vùng núi, họ khép các lối dưới thấp, đổi hướng để chặn đường thoát và phối hợp với Comitatenses phía trên. Quân phục còn giữ dấu quê cũ, còn đội hình đã nhận mệnh lệnh dưới một quân kỳ khác.",
+      "lore_en": "Soldiers wearing old Ottoman-style head wraps and carrying long muskets, curved swords and round shields appear beneath the Western Roman eagle. Ravenna’s emblem is stamped over the crescent on their shields. During the mountain pursuit, they close lower passages, change direction to block escape and cooperate with Comitatenses above. Their dress retains traces of their former homeland while their formations operate beneath another banner."
+    }
+  ]
+}

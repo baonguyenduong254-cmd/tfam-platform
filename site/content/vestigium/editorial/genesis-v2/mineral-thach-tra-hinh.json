@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-thach-tra-hinh",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Thợ mài kính lấy một khối tinh thể méo từ vách hang có mặt nước phản chiếu ngược trời. Mỗi lần ông khoét bỏ một cạnh, phần đã mất lại hiện phía bên kia thành một hình sáng có thể đỡ được mạt đá. Ông dừng tay khi thấy ngón mình qua khối ngọc còn đang cử động sau lúc bàn tay đã rút.\n\nTrong hang, khoáng vật lớn quanh nhiều lớp ảnh phản qua mặt nước rồi qua nhau. Ánh sáng đi một vòng dài đến mức đường về đã kết thành thớ. Thạch Trả Hình giữ ảnh đang qua mình như một lớp vật mỏng, trao nó thêm một lần tồn tại ở phía đối diện. Những hình được soi đủ rõ có cả bề mặt chịu chạm; phần khuất vẫn là khoảng trống, cho đến khi được đưa ra trước đá.\n\nCác họa sĩ đặt nó trước chân dung để giữ ánh mắt người mẫu vừa quay đi. Công binh đem nó trước một cầu vòm để dựng hình thử trên sa bàn; lính gác dùng hình sáng của cánh cửa đã mở để giấu lối thật. Trong tủ cũ của hội thợ kính có một viên luôn quay mặt vào vải. Người coi nói tấm hình cuối của nó đang nhìn thẳng ra ngoài, còn đôi mắt người đã gửi hình chỉ nhận được một màu trời nhợt.",
+    "lore_en": "A lens grinder cut a twisted crystal from a cave whose water reflected the sky upside down. Each removed edge reappeared beyond it as a light-form able to bear stone dust. He stopped when the image of his finger continued moving after his hand had withdrawn.\n\nThe mineral had grown around layers of images reflected through water and through one another. Light followed a circuit so long that its return path crystallised into fibres. Image-Returning Stone holds an image passing through it as a thin material layer and grants it one further existence on the other side. Clearly exposed forms gain touchable surfaces; concealed portions remain empty until presented to the stone.\n\nPainters set it before portraits to retain a sitter’s departing gaze. Engineers take it before an arch to raise a trial image upon a model; guards use the luminous image of an opened door to conceal the real passage. An old glassworkers’ cabinet holds a specimen turned permanently into cloth. Its keeper says the final image is staring outwards, while the eyes of the one who entrusted it now receive only a pale sky colour.",
+    "use_vi": "Giữ và trả một hình đang được chiếu qua ngọc thành ảnh nổi có bề mặt mỏng, dùng quan sát, dựng mẫu, đánh lạc hướng và tạo điểm chạm ngắn.",
+    "use_en": "Retain and return an image passing through the gem as a raised form with a thin surface for observation, modelling, deception and brief contact.",
+    "limits_vi": "Chỉ phần đã được chiếu rõ mới có hình; phía khuất cần thêm lượt quan sát. Càng để ảnh chịu lực, đá càng lấy sắc từ mắt người giữ; quá sức có thể mất màu lâu dài. Ảnh vỡ trả ánh chói về đường soi, còn hình người có dáng và cử động ghi được nhưng ý thức vẫn chưa từng được xác nhận.",
+    "limits_en": "Only clearly illuminated portions acquire form; concealed sides need further observation. Bearing loads draws colour from the keeper’s eyes, and overuse may cause lasting colour loss. A broken image returns glare along its viewing path; human images retain recorded appearance and motion, while consciousness has never been established.",
+    "skills": [
+      {
+        "name_vi": "Mặt nhận sáng",
+        "name_en": "The Light-Receiving Face",
+        "description_vi": "Hướng mặt lõm về vật được chiếu rõ để giữ một hình đầu; bóng đổ che phần nào thì phần ấy để rỗng.",
+        "description_en": "Point the concave face towards a clearly lit object to retain an initial image; shaded portions remain empty.",
+        "group_vi": "Nhận hình",
+        "group_en": "Receive the Image"
+      },
+      {
+        "name_vi": "Lật đủ mặt",
+        "name_en": "Turn Every Face",
+        "description_vi": "Xoay vật chậm trước đá để các mặt mới nối vào cùng hình, tạo vỏ đủ vòng; vật thay dáng giữa lượt để lại đường ghép lệch.",
+        "description_en": "Turn an object slowly before the gem to join new faces into one shell; a changing shape leaves mismatched seams.",
+        "group_vi": "Nhận hình",
+        "group_en": "Receive the Image"
+      },
+      {
+        "name_vi": "Chốt ánh mắt",
+        "name_en": "Fix the Gaze",
+        "description_vi": "Khép hai đầu ngón quanh lõi lúc người mẫu nhìn tới để giữ khoảnh khắc ánh mắt, dùng đối chân dung; người giữ phải nhìn cùng lúc và mất chút sắc sau lượt.",
+        "description_en": "Close two fingertips around the core as a sitter looks towards it to retain that gaze for portrait comparison; the keeper must watch simultaneously and loses a little colour afterwards.",
+        "group_vi": "Nhận hình",
+        "group_en": "Receive the Image"
+      },
+      {
+        "name_vi": "Nhận cử động ngắn",
+        "name_en": "Receive a Brief Movement",
+        "description_vi": "Cho vật thực hiện trọn một động tác trước đá để ảnh giữ chuỗi ấy thay vì một dáng; động tác dài làm các đoạn sau mờ.",
+        "description_en": "Have an object complete one action before the gem to retain a sequence rather than a pose; lengthy movement fades towards its end.",
+        "group_vi": "Nhận hình",
+        "group_en": "Receive the Image"
+      },
+      {
+        "name_vi": "Ảnh sau mặt đá",
+        "name_en": "The Image Beyond the Stone",
+        "description_vi": "Chiếu đèn qua mặt ngược để hình nổi lên gần đá, xem lại phần vừa ghi; đèn đổi sắc nhuộm ảnh và cần đối nguồn trắng.",
+        "description_en": "Shine through the reverse to raise the stored form nearby; coloured light tints it and requires a white reference.",
+        "group_vi": "Đọc điều đã soi",
+        "group_en": "Read What Was Seen"
+      },
+      {
+        "name_vi": "Soi mép khuyết",
+        "name_en": "Read the Missing Edge",
+        "description_vi": "Rọi ngang ảnh để phần chưa nhận hiện như mép tối, biết cần quan sát mặt nào nữa trước khi dựng mẫu.",
+        "description_en": "Light the image sideways so unreceived portions show dark edges and identify further observation needed before modelling.",
+        "group_vi": "Đọc điều đã soi",
+        "group_en": "Read What Was Seen"
+      },
+      {
+        "name_vi": "Hai hình đối nhau",
+        "name_en": "Two Facing Images",
+        "description_vi": "Đặt ảnh cạnh vật thật sau khi vật được chỉnh để thấy đường viền khác, hỗ trợ kiểm mẫu; đá vẫn chỉ giữ bản nhận trước.",
+        "description_en": "Set the retained form beside an adjusted object to compare changed outlines; the gem continues retaining its earlier version.",
+        "group_vi": "Đọc điều đã soi",
+        "group_en": "Read What Was Seen"
+      },
+      {
+        "name_vi": "Bóng cắt lớp",
+        "name_en": "The Section Shadow",
+        "description_vi": "Cho màn giấy đi chậm qua ảnh để hình giao tuyến hiện sáng, lấy biên dạng tại một mặt; chỉ lớp đã được soi tạo nét.",
+        "description_en": "Move a paper screen slowly through the image to illuminate an intersecting outline; only observed shell surfaces contribute lines.",
+        "group_vi": "Đọc điều đã soi",
+        "group_en": "Read What Was Seen"
+      },
+      {
+        "name_vi": "Phóng vỏ",
+        "name_en": "Enlarge the Shell",
+        "description_vi": "Dời đèn xa đá để hình lớn lên trong một khoảng, dùng trình bày cấu trúc; vỏ lớn mỏng và chịu chạm kém hơn.",
+        "description_en": "Move the lamp farther back to enlarge the form over a limited range for display; a larger shell is thinner and bears less contact.",
+        "group_vi": "Dựng hình",
+        "group_en": "Raise the Form"
+      },
+      {
+        "name_vi": "Thu mẫu",
+        "name_en": "Reduce the Model",
+        "description_vi": "Đưa đèn gần và đặt mặt nhận sát sa bàn để hình thu nhỏ, so bố trí công trình; ánh quá nóng làm đường ảnh chao.",
+        "description_en": "Bring lamp and receiving surface close to reduce the model for layout comparison; excessive lamp heat unsettles its edges.",
+        "group_vi": "Dựng hình",
+        "group_en": "Raise the Form"
+      },
+      {
+        "name_vi": "Quay cảnh",
+        "name_en": "Turn the View",
+        "description_vi": "Xoay mặt đỡ của đá để hình đổi hướng trước người xem mà nguồn ghi không cần chuyển, miễn mặt đó đã được nhận.",
+        "description_en": "Turn the gem’s support to reorient its image without moving the original object, provided that face was recorded.",
+        "group_vi": "Dựng hình",
+        "group_en": "Raise the Form"
+      },
+      {
+        "name_vi": "Khung đứng",
+        "name_en": "The Standing Frame",
+        "description_vi": "Đặt bốn que làm khung quanh đá để ảnh giữ một mặt đứng ổn định, dùng xem trước một cửa hoặc vách; que rời khiến hình nghiêng.",
+        "description_en": "Set four rods around the gem so its image holds a steady upright face for testing a door or wall; a loose rod tilts it.",
+        "group_vi": "Dựng hình",
+        "group_en": "Raise the Form"
+      },
+      {
+        "name_vi": "Mặt đỡ hạt",
+        "name_en": "The Grain-Bearing Face",
+        "description_vi": "Tăng sáng từ từ để vỏ ảnh chịu những hạt nhỏ, thử hình máng hoặc chén; quá tải làm hạt rơi xuyên phần vỡ.",
+        "description_en": "Increase light gradually until the image shell bears small grains, testing a trough or cup shape; overload drops grains through the break.",
+        "group_vi": "Chạm vào ánh",
+        "group_en": "Touch the Light"
+      },
+      {
+        "name_vi": "Núm sáng",
+        "name_en": "The Luminous Handle",
+        "description_vi": "Dựng hình một núm đã nhận quanh chốt nhẹ để người dùng kéo chốt bằng mặt ảnh; núm vỡ sẽ trả một chớp vào tay.",
+        "description_en": "Raise a recorded handle shape around a light catch so it can be pulled by its image surface; a broken handle flashes into the hand.",
+        "group_vi": "Chạm vào ánh",
+        "group_en": "Touch the Light"
+      },
+      {
+        "name_vi": "Bậc một nhịp",
+        "name_en": "A One-Beat Step",
+        "description_vi": "Chiếu hình một bậc chắc sát nền để đỡ một bước ngắn khi vượt khe nhỏ; sức nặng lấy màu mạnh khỏi mắt nên cần giá thực ngay sau.",
+        "description_en": "Project a sound step close to ground for one brief crossing over a small gap; weight draws heavily upon eye colour and needs real support immediately afterwards.",
+        "group_vi": "Chạm vào ánh",
+        "group_en": "Touch the Light"
+      },
+      {
+        "name_vi": "Tấm hứng mảnh",
+        "name_en": "The Fragment-Catching Sheet",
+        "description_vi": "Dựng hình một tấm nghiêng đã soi để hứng vài mảnh nhẹ đang rơi, dẫn chúng về khay; vật nặng phá vỏ và trả chói về đá.",
+        "description_en": "Raise a recorded sloping sheet to catch a few light falling pieces and guide them into a tray; heavy objects break the shell and return glare to the gem.",
+        "group_vi": "Chạm vào ánh",
+        "group_en": "Touch the Light"
+      },
+      {
+        "name_vi": "Người gác rỗng",
+        "name_en": "The Hollow Watchman",
+        "description_vi": "Dựng hình người đã ghi tại vị trí cố định để nhìn xa giống có gác; nhìn bên khuất hoặc gọi hỏi dễ lộ phần thiếu.",
+        "description_en": "Raise a recorded person at a fixed station as a distant sentry decoy; unobserved angles or questioning reveal its gaps.",
+        "group_vi": "Ảnh trên chiến địa",
+        "group_en": "Images in the Field"
+      },
+      {
+        "name_vi": "Cửa phủ cửa",
+        "name_en": "A Door Upon a Door",
+        "description_vi": "Đặt ảnh cánh cửa đóng trước một lối đang mở để che trực diện, tạo thời gian rời đi; chạm mạnh có thể xuyên hình.",
+        "description_en": "Place a closed-door image over an open passage to conceal it head-on and gain escape time; firm contact can pass through it.",
+        "group_vi": "Ảnh trên chiến địa",
+        "group_en": "Images in the Field"
+      },
+      {
+        "name_vi": "Ánh gươm nghi binh",
+        "name_en": "The Feinting Blade’s Light",
+        "description_vi": "Phát một cử động vũ khí đã ghi sang bên lệch để đối phương nhìn nhầm hướng đòn; ảnh không tự ứng biến trước phản ứng mới.",
+        "description_en": "Play a recorded weapon motion to one side to misdirect an opponent’s reading; the image cannot adapt to a fresh response.",
+        "group_vi": "Ảnh trên chiến địa",
+        "group_en": "Images in the Field"
+      },
+      {
+        "name_vi": "Bản địa hình nổi",
+        "name_en": "The Raised Terrain Copy",
+        "description_vi": "Soi từng phần một mô hình địa hình thật rồi trả ảnh nổi tại bàn chỉ huy, cho nhiều người xem bố trí; sai trên mô hình nguồn vẫn giữ nguyên.",
+        "description_en": "Record sections of a physical terrain model and raise its image at a command table; errors in the source model remain unchanged.",
+        "group_vi": "Ảnh trên chiến địa",
+        "group_en": "Images in the Field"
+      },
+      {
+        "name_vi": "Mẫu dấu nổi",
+        "name_en": "The Raised Seal",
+        "description_vi": "Nhận mặt một con dấu rồi dựng ảnh trên sáp mềm để thử hình khuôn trước khi khắc; mỗi lần ép lấy thêm sắc mắt và dễ mòn nét ảnh.",
+        "description_en": "Record a seal face and raise it upon soft wax to test its mould before engraving; every pressing takes more eye colour and wears image detail.",
+        "group_vi": "Ánh truyền dấu",
+        "group_en": "Light Carries a Mark"
+      },
+      {
+        "name_vi": "Chữ đứng khỏi giấy",
+        "name_en": "Letters Above the Page",
+        "description_vi": "Soi một trang sáng rõ để chữ nổi thành lớp gần đá, giúp người khác đọc mà khỏi chạm giấy; nét khuất dưới nếp gấp vẫn thiếu.",
+        "description_en": "Record a clearly lit page so letters rise near the gem for reading without handling the sheet; writing hidden in folds remains absent.",
+        "group_vi": "Ánh truyền dấu",
+        "group_en": "Light Carries a Mark"
+      },
+      {
+        "name_vi": "Dấu bàn tay",
+        "name_en": "The Handprint of Light",
+        "description_vi": "Ghi lòng bàn tay rồi đặt vỏ hình lên bụi mịn để để lại vân đối chiếu; dấu chỉ chép bề mặt đã soi, danh tính cần căn cứ khác.",
+        "description_en": "Record a palm and press its light shell into fine dust for a comparison print; it copies observed surface only and does not establish identity alone.",
+        "group_vi": "Ánh truyền dấu",
+        "group_en": "Light Carries a Mark"
+      },
+      {
+        "name_vi": "Lời hình câm",
+        "name_en": "The Silent Visual Message",
+        "description_vi": "Ghi một động tác tay đã quy ước rồi phát cho người nhận xem, gửi tín hiệu qua cảnh có tiếng ồn; ý nghĩa phải được thống nhất trước.",
+        "description_en": "Record an agreed hand motion and play it to a recipient amid noise; meaning must have been agreed beforehand.",
+        "group_vi": "Ánh truyền dấu",
+        "group_en": "Light Carries a Mark"
+      },
+      {
+        "name_vi": "Đọc sắc mất",
+        "name_en": "Read the Missing Colour",
+        "description_vi": "Đặt bảng màu cạnh ảnh trước và sau lượt chịu lực để người giữ nhận màu đang nhạt trong mắt, dừng trước khi mất sâu.",
+        "description_en": "Compare a colour chart beside the image before and after load-bearing to detect fading perception and stop before deeper loss.",
+        "group_vi": "Vết giá trong mắt",
+        "group_en": "The Price Within the Eyes"
+      },
+      {
+        "name_vi": "Chia người soi",
+        "name_en": "Share the Viewing",
+        "description_vi": "Người thứ hai tự đặt tay vào cùng khung và cùng nhìn nguồn để gánh phần màu cho một ảnh nặng; hai người nhìn lệch tạo vỏ méo.",
+        "description_en": "A second willing viewer touches the frame and watches the source to share colour cost for a heavy image; misaligned views distort its shell.",
+        "group_vi": "Vết giá trong mắt",
+        "group_en": "The Price Within the Eyes"
+      },
+      {
+        "name_vi": "Che đường chói",
+        "name_en": "Cover the Glare Path",
+        "description_vi": "Đặt tấm tối giữa mắt và đá trước khi cho ảnh tan để chớp trả được nhận bởi tấm, bảo vệ mắt khỏi phần sáng dồn.",
+        "description_en": "Place a dark screen between eyes and gem before dissolving an image so it receives returning glare.",
+        "group_vi": "Vết giá trong mắt",
+        "group_en": "The Price Within the Eyes"
+      },
+      {
+        "name_vi": "Nghỉ sắc",
+        "name_en": "Rest the Colours",
+        "description_vi": "Giữ đá kín và ngừng nhìn ảnh qua một lượt nghỉ để phần màu mới nhạt hồi dần nếu mắt chưa tổn hại sâu; tiếp tục dùng có thể làm phần mất cố định.",
+        "description_en": "Cover the stone and cease image work for a rest so recently faded colours can recover if damage is not deep; continued use may make loss permanent.",
+        "group_vi": "Vết giá trong mắt",
+        "group_en": "The Price Within the Eyes"
+      },
+      {
+        "name_vi": "Thu từ mép",
+        "name_en": "Gather From the Edge",
+        "description_vi": "Giảm sáng theo vòng từ rìa ảnh vào tâm để vỏ tan từng phần, cho vật đang đặt lên được chuyển sang giá thật trước.",
+        "description_en": "Dim light from rim to centre so the shell dissolves in stages and its contents can move to real support first.",
+        "group_vi": "Trả hình về sáng",
+        "group_en": "Return the Image to Light"
+      },
+      {
+        "name_vi": "Ghép phần rạn",
+        "name_en": "Join the Fractured Image",
+        "description_vi": "Đưa đúng mặt nguồn trở lại trước đá để vá một đoạn ảnh vừa nứt, phục hồi hình trước khi dùng tiếp; ảnh bị thay nguồn dễ nhận đường ghép sai.",
+        "description_en": "Present the correct source face again to mend a newly fractured segment before reuse; a changed source can introduce a false seam.",
+        "group_vi": "Trả hình về sáng",
+        "group_en": "Return the Image to Light"
+      },
+      {
+        "name_vi": "Nhả chuỗi cũ",
+        "name_en": "Release the Old Sequence",
+        "description_vi": "Cho ảnh cử động chạy tới hết dưới ánh giảm dần để khép lượt ghi, tránh cử động dở tiếp tục nháy sau khi cất.",
+        "description_en": "Run a movement to completion under fading light to close its record and prevent unfinished gestures flickering in storage.",
+        "group_vi": "Trả hình về sáng",
+        "group_en": "Return the Image to Light"
+      },
+      {
+        "name_vi": "Trả mặt trời",
+        "name_en": "Return the Daylight",
+        "description_vi": "Hướng hai mặt đá vào vùng trời sáng trống sau khi thu hết vỏ để hình cuối tan khỏi lõi, nhận một mặt nhìn sạch cho lượt kế.",
+        "description_en": "Point both gem faces towards empty bright sky after gathering every shell so the final image leaves its core and prepares a clear view for the next use.",
+        "group_vi": "Trả hình về sáng",
+        "group_en": "Return the Image to Light"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ánh có mặt đỡ",
+        "name_en": "Light With a Bearing Surface",
+        "description_vi": "Ảnh nổi mỏng như một lớp vỏ. Chiều sâu nhìn thấy có thể rất lớn trong khi phần thực sự đỡ vật chỉ là những mặt từng được soi.",
+        "description_en": "The raised image is a thin shell. Apparent depth may be great while only previously observed surfaces can bear contact."
+      }
+    ]
+  }
+]

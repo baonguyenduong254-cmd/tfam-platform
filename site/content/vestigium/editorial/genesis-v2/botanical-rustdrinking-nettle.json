@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-rustdrinking-nettle",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Tầm ma mọc quanh giàn sắt nơi người thợ để những tấm giáp nứt dính bụi quặng. Gỉ theo nước mưa vào rễ, còn các hạt khoáng mắc ở chân lông lá. Lứa chồi sau mang lông cam; vụn gỉ trên thanh sắt sát chúng bắt đầu tự nhấc qua khe hở, đậu lên cây như một bầy bướm bụi.\n\nNgười thợ tưởng cây bệnh cho đến khi nhận ra mối tán dưới gốc đã sạch gỉ. Ông đem chậu vào xưởng, dùng từng cây cho một mẻ chi tiết rồi cắt những nốt cam đầy ứ. Bàn tay quên găng của ông giữ vệt bỏng suốt mùa ấy.",
+    "lore_en": "Nettles grew around an iron rack where a craftsman left cracked armour coated in ore dust. Rain carried rust into their roots, while mineral grains lodged at the bases of their leaf hairs. New shoots bore orange bristles; rust on nearby iron began lifting across the gap to settle upon them like dusty moths.\n\nThe craftsman thought the plant diseased until he saw the rivet beneath it cleared of rust. He brought the pot indoors, used each plant for one batch of fittings and cut away swollen orange nodules. His ungloved hand bore burns throughout that season.",
+    "use_vi": "Rút gỉ khỏi chi tiết sắt nhỏ và chỉ vị trí gỉ còn ẩn trong khe.",
+    "use_en": "Draw rust from small iron fittings and reveal corrosion remaining in crevices.",
+    "limits_vi": "Cây nhận phần gỉ đã có, kim loại bị mất vẫn cần sửa. Lông gây rát; nốt đầy phải được cắt bằng găng và bỏ riêng để tránh chết cả cây.",
+    "limits_en": "The plant takes existing rust; lost metal still needs repair. Hairs burn the skin; full nodules must be cut with gloves and discarded separately to preserve the plant.",
+    "skills": [
+      {
+        "name_vi": "Uống gỉ",
+        "name_en": "Drink the Rust",
+        "description_vi": "Đưa chi tiết sắt gần lông lá để vụn gỉ rời mặt sang nốt cam; xoay chi tiết chậm giúp cây nhận từng mặt mà khỏi quá tải.",
+        "description_en": "Bring an iron fitting beside the hairs so rust leaves its surface for orange nodules; slow turning presents each face without overloading the plant."
+      },
+      {
+        "name_vi": "Dò khe sắt",
+        "name_en": "Find the Rusted Crevice",
+        "description_vi": "Giữ một lá non gần đường ghép để lông nghiêng về chỗ có gỉ kín; tháo ghép ra mới biết phần hư sâu tới đâu.",
+        "description_en": "Hold a young leaf beside a joint so its hairs lean towards concealed rust; dismantling is still needed to determine its depth."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cam vì gỉ",
+        "name_en": "Orange With Rust",
+        "description_vi": "Mỗi nốt cam giữ gỉ đã rút. Đốt cây đầy gỉ phun bụi sắc gây hại mắt và phổi.",
+        "description_en": "Each orange nodule retains extracted rust. Burning a laden plant releases sharp dust harmful to eyes and lungs."
+      }
+    ]
+  }
+]

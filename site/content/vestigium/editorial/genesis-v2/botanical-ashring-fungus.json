@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-ashring-fungus",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Nấm trắng mọc trên đĩa tro của lò đốt giấy tẩm khoáng. Trong tro, sợi nấm tìm những mảnh từng đi qua lửa rồi đưa chúng lên viền mũ. Chỉ sau một đêm, viền xám thành vòng nổi; gõ nhẹ, vòng rơi xuống đĩa thành những hạt nặng, kéo theo tro đang lơ lửng gần nó.\n\nNhững cụm nuôi từ bào tử tiếp tục nhận tro nguội mà bỏ bụi đá nằm cạnh. Người giữ kho đem chúng vào hộp xử lý sau các đợt cháy, thay mũ trước khi vòng xám ăn vào tâm trắng. Tiếng hạt rơi xuống đĩa nghe như một cơn ho đã được lấy khỏi căn phòng.",
+    "lore_en": "White mushrooms grew upon the ash plate of a furnace burning mineral-treated papers. Their threads found fragments that had passed through fire and brought them to the cap edges. Overnight the grey rims became raised rings; a light tap shed them as heavy grains, drawing nearby suspended ash along.\n\nSpore-grown clusters kept accepting cold ash while ignoring adjacent stone dust. Storekeepers use them inside processing cases after fires, replacing caps before grey rings reach their white centres. Grains falling upon the plate sound like a cough taken out of the room.",
+    "use_vi": "Thu tro nguội lơ lửng trong hộp xử lý và gom thành hạt dễ lấy ra.",
+    "use_en": "Collect airborne cold ash inside processing cases and gather it into removable grains.",
+    "limits_vi": "Mũ chỉ nhận tro đã nguội; khói nóng làm mô hỏng, còn khí độc vẫn cần xử lý riêng. Nấm đầy tro phải cách ly và thay, tránh để hạt rơi trở lại vùng đã dọn.",
+    "limits_en": "Caps accept only cooled ash; hot smoke damages tissue and toxic gases need separate treatment. Laden mushrooms must be isolated and replaced, with shed grains kept from cleaned areas.",
+    "skills": [
+      {
+        "name_vi": "Gọi tro",
+        "name_en": "Call the Ash",
+        "description_vi": "Đặt mũ sống trong hộp tro nguội để viền kéo các mảnh lơ lửng về nó; giữ hộp yên cho tro có thời gian tới mũ.",
+        "description_en": "Place a living cap in a cold-ash case so its rim draws suspended fragments towards it; keep the case still to allow their arrival."
+      },
+      {
+        "name_vi": "Kết hạt",
+        "name_en": "Form the Grains",
+        "description_vi": "Tăng ẩm nhẹ ở gốc để tro đã nhận nén thành hạt nặng quanh vành; ướt mũ trực tiếp làm tro nhão tràn qua mô.",
+        "description_en": "Lightly moisten the base so received ash compresses into heavy grains around the rim; wetting the cap directly spreads sludge through its tissue."
+      },
+      {
+        "name_vi": "Rũ vòng",
+        "name_en": "Shed the Ring",
+        "description_vi": "Gõ cuống trên đĩa trắng để hạt ở viền rơi có kiểm soát cho việc thu; phải che mũ khỏi luồng gió ngay khi gõ.",
+        "description_en": "Tap the stalk over a white plate to shed rim grains for collection; shield the cap from drafts during tapping."
+      },
+      {
+        "name_vi": "Đọc tâm trắng",
+        "name_en": "Read the White Centre",
+        "description_vi": "Soi mũ từ dưới để thấy đường xám đã ngấm sâu tới đâu, chọn thời điểm thay trước lúc bão hòa; mũ sẫm sẵn cần so với mẫu cùng lứa.",
+        "description_en": "Light the cap from below to see how far grey has entered and replace it before saturation; naturally dark caps require a same-crop reference."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vành giữ phần cháy",
+        "name_en": "The Rim Holds What Burned",
+        "description_vi": "Độ xám tiến từ viền vào tâm báo phần dung lượng còn lại; nấm hết trắng cần được lấy khỏi hộp.",
+        "description_en": "Grey advancing from rim to centre shows remaining capacity; a cap without white must be removed."
+      }
+    ]
+  }
+]

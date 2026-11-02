@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-waterseeking-willow",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Một cành liễu được giâm để đánh dấu miệng giếng bị xây bít. Người mang nước đặt ở đó một viên khoáng lam, mong người lạc đường nhận ra chỗ từng có nguồn. Qua mùa đất nứt, rễ liễu bỏ bình tưới đứng yên để luồn vào mạch nước đang chạy sau tường giếng.\n\nKhi đào cây lên, người ta thấy các rễ nhỏ xếp như đàn cá hướng về thượng nguồn, đầu rễ có chấm lam trong. Cành giâm từ cây ấy tiếp tục tìm chuyển động nước. Người sửa ống mang nó đi trước búa đục, còn những người đóng vách giấu đường ngầm thường trồng một chậu đối diện để biết bí mật của mình vẫn đang chảy.",
+    "lore_en": "A willow cutting marked a well mouth sealed with masonry. A water carrier left a blue mineral beside it so lost travellers might recognise the former source. Through a season of cracked earth, its roots ignored a still watering jar and entered moving water behind the well wall.\n\nWhen lifted, its fine roots lay like fish facing upstream, each tip bearing a clear blue point. Cuttings continued seeking water in motion. Pipe repairers carry one ahead of their chisels, while those hiding channels behind walls sometimes keep a pot opposite to know their secret is still flowing.",
+    "use_vi": "Lần dòng nước qua vật cản mỏng, tìm nhánh ống đang chạy và khoanh vùng rò.",
+    "use_en": "Trace moving water through thin obstructions, distinguish active pipe branches and narrow down leaks.",
+    "limits_vi": "Rễ đổi hướng chậm, cần được tưới để sống. Nhiều dòng làm rễ quấn; vách dày khiến tín hiệu yếu và mở kiểm tra vẫn cần thiết trước khi đục.",
+    "limits_en": "Roots turn slowly and need watering. Multiple flows tangle them; thick barriers weaken the response, and inspection is still needed before excavation.",
+    "skills": [
+      {
+        "name_vi": "Chỉ mạch",
+        "name_en": "Point to the Vein",
+        "description_vi": "Giữ cành giâm ẩm sát vách để đầu rễ lam uốn về dòng gần nhất; đánh dấu sau khi góc đã ổn định.",
+        "description_en": "Hold a damp cutting beside a wall so blue root tips turn towards the nearest flow; mark only after their angle settles."
+      },
+      {
+        "name_vi": "Lần thượng nguồn",
+        "name_en": "Trace Upstream",
+        "description_vi": "Xoay chậu dọc đường đã tìm để những đầu rễ nhọn cùng hướng về phía nước tới, hỗ trợ lần ngược đường ống; dòng xoáy tạo chỉ hướng bất ổn.",
+        "description_en": "Move the pot along a found route so pointed roots align towards incoming water and help trace a pipe upstream; eddies make direction unstable."
+      },
+      {
+        "name_vi": "Rễ tách nhánh",
+        "name_en": "Branching Roots",
+        "description_vi": "Cho một đầu rễ chạm ống đã biết để các đầu còn lại tìm nhánh khác đang chạy; cây nhỏ chỉ tách được vài hướng trước khi rối.",
+        "description_en": "Touch one tip to a known pipe so others seek a different running branch; a small plant distinguishes only a few before tangling."
+      },
+      {
+        "name_vi": "Dấu nước thoát",
+        "name_en": "Mark the Escaping Water",
+        "description_vi": "Dừng dòng chính rồi theo đầu rễ còn xoay để khoanh một chỗ nước tiếp tục rò; phải chờ nước dư trong ống chảy hết trước khi kết luận.",
+        "description_en": "Stop the main flow and follow tips still turning to narrow down an ongoing leak; residual pipe water must drain before a conclusion is drawn."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Rễ theo chuyển động",
+        "name_en": "Roots Follow Motion",
+        "description_vi": "Nước đứng chỉ nuôi cây; nước đang chạy gọi hướng rễ, kể cả khi chảy trong ống kín.",
+        "description_en": "Still water feeds the plant; moving water calls its roots, including inside closed pipes."
+      }
+    ]
+  }
+]

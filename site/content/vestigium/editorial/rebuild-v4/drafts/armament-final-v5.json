@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "armament-collection-0-01",
+    "lore_vi": "Khi trạm canh được mở lại, mũi giáo còn ướt giữa những món đã gỉ khô; người lính nhận nó lau được bùn cũ bằng một lần kéo vải.\n\nMẫu giáo này được tìm trong hòm vũ khí của một trạm canh bỏ hoang. Sương chỉ bám vào rãnh giữa ngay cả khi phần thép bên ngoài đã khô; nước đọng được giữ thành một lớp màng mỏng qua đêm.",
+    "lore_en": "When the post reopened, its spear was wet among dry-rusted weapons; one pull of cloth cleared the old mud.\n\nThis spearhead lay in the arms chest of an abandoned watch post. Dew settled only in its central groove even after the surrounding iron dried; the trapped moisture remained a thin film throughout the night.",
+    "use_vi": "Lớp nước giúp tháo máu và bùn mới bám khỏi mũi giáo bằng một lần lau.",
+    "use_en": "Its retained moisture lets a single wipe remove fresh blood and mud from the point.",
+    "limits_vi": "Chỉ giữ lượng nước bằng vài giọt; bùn khô và gỉ sắt vẫn phải chà bằng tay.",
+    "limits_en": "It holds only a few drops; dried mud and rust still require manual cleaning.",
+    "epigraph_vi": "Sương ở lại để thép được sạch.",
+    "epigraph_en": "Mist remains so steel may be clean.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Mũi giáo sắt có rãnh xanh nhạt.",
+        "description_en": "Iron spearhead with a pale blue groove."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mũi Giáo Giữ Sương",
+        "name_en": "Dewkeeping Spearhead",
+        "description_vi": "Lớp nước giúp tháo máu và bùn mới bám khỏi mũi giáo bằng một lần lau.",
+        "description_en": "Its retained moisture lets a single wipe remove fresh blood and mud from the point."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-02",
+    "lore_vi": "Thợ quân phục truyền con dao cùng một mảnh tay áo bị cắt hỏng, để học trò nhớ phần vải mình từng không cứu được.\n\nMột thợ may quân phục giữ lại con dao sau khi phát hiện nó cắt được chỉ đông cứng mà vải bên dưới vẫn nguyên. Vết sáng trên sống dao xuất hiện đúng lúc sợi chỉ căng, rồi tắt khi người cầm buông tay.",
+    "lore_en": "Uniform-tailors passed it with a ruined sleeve, recalling the cloth they once failed to save.\n\nA uniform tailor kept this knife after finding it could cut frozen stitching while leaving the cloth beneath intact. A glimmer along its spine appears when a thread is taut and vanishes as soon as the holder releases it.",
+    "use_vi": "Tách băng vải và đường khâu trên trang bị cần sửa trong thời tiết lạnh.",
+    "use_en": "Separates frozen bandages and seams on equipment awaiting repair in cold weather.",
+    "limits_vi": "Chỉ tác động lên sợi căng mảnh; lưỡi dao vẫn có thể cắt da nếu người dùng trượt tay.",
+    "limits_en": "It affects only thin taut fibres; a slipping blade can still cut skin.",
+    "epigraph_vi": "Một sợi chỉ nhường đường cho da thịt.",
+    "epigraph_en": "One thread yields for flesh.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Dao nhỏ chuôi xương, lưỡi xám.",
+        "description_en": "Small grey knife with a bone grip."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dao Cắt Chỉ Lạnh",
+        "name_en": "Coldthread Knife",
+        "description_vi": "Tách băng vải và đường khâu trên trang bị cần sửa trong thời tiết lạnh.",
+        "description_en": "Separates frozen bandages and seams on equipment awaiting repair in cold weather."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-03",
+    "lore_vi": "Người lính đóng tên mình trên gỗ mới, để tên chủ cũ còn nguyên trên chốt ấm như lời cảm ơn được chuyền tay.\n\nChiếc chốt từng được tái dùng qua nhiều đời khiên vì không đóng sương ở điểm tiếp xúc. Khi bàn tay áp vào, đồng ấm dần bằng một thứ nhiệt yếu không truyền sang mặt gỗ; người thợ đúc ban đầu đã thất lạc tên.",
+    "lore_en": "A soldier marked his new shield but left its former owner's name on the warm stud as a passed-on thanks.\n\nThis pin survived several replacement shields because frost never settled on its contact face. Under a palm the brass develops a weak warmth that does not spread into the wood; the original founder’s name has been lost.",
+    "use_vi": "Giúp bàn tay đeo găng nắm khiên lâu hơn mà không bị kim loại rút nhiệt trực tiếp.",
+    "use_en": "Lets a gloved hand hold a shield longer without direct heat loss into the metal.",
+    "limits_vi": "Không sưởi ấm cả người; phải có tiếp xúc và vẫn cần găng chống rét.",
+    "limits_en": "It cannot warm a body; contact and proper winter gloves remain necessary.",
+    "epigraph_vi": "Bàn tay mới nhận hơi ấm cũ.",
+    "epigraph_en": "A new hand receives old warmth.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Chốt đồng trên tay nắm khiên gỗ.",
+        "description_en": "Brass pin fitted to a wooden shield grip."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chốt Khiên Ấm Tay",
+        "name_en": "Warmgrip Shield Pin",
+        "description_vi": "Giúp bàn tay đeo găng nắm khiên lâu hơn mà không bị kim loại rút nhiệt trực tiếp.",
+        "description_en": "Lets a gloved hand hold a shield longer without direct heat loss into the metal."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-04",
+    "lore_vi": "Người học súng đặt lưỡi lê đứng bên giường, nhận ba nhịp rung qua đầu ngón tay mỗi khi sương che mất sân tập. Ban đầu họ siết lại ổ khóa vì ngỡ kim loại lỏng; đến lúc tháo thép khỏi súng, nhịp vẫn nằm nguyên trong ba vết khía.\n\nNgười lính mang nó xuống hàng cuối để giữ bước cùng đồng đội mà đỡ phải gọi lớn. Nhịp ấy chỉ nhỏ bằng một bí mật chuyền qua bàn tay, dễ mất giữa tiếng chân xô nhưng đủ cho người mới tìm lại chỗ đứng khi cả hàng biến thành bóng xám.",
+    "lore_en": "A recruit stood the bayonet beside a bed, feeling three pulses through a fingertip whenever mist hid the drill yard. At first the recruits tightened the lock, thinking metal had worked loose; once detached from the musket, the beat remained within its three notches.\n\nA soldier carried it into the rear rank to keep step with comrades without calling aloud. The beat was as small as a secret passed through a hand, easily lost beneath jostling feet yet enough for a newcomer to recover their place when the rank became grey shadows.",
+    "use_vi": "Làm dấu nhịp cho luyện đội hình trong sương dày khi cần tránh hô lớn.",
+    "use_en": "Provides a tactile cadence for formation practice in thick fog when shouted orders are undesirable.",
+    "limits_vi": "Nhịp cố định, không nhận mệnh lệnh và dễ bị rung động chiến đấu lấn át.",
+    "limits_en": "The cadence is fixed, accepts no commands and is easily overwhelmed by combat vibration.",
+    "epigraph_vi": "Ba nhịp đủ giữ một hàng người.",
+    "epigraph_en": "Three beats can hold a rank together.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Lưỡi lê tam giác có ba vết khía.",
+        "description_en": "Triangular bayonet with three notches."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lưỡi Lê Đếm Nhịp",
+        "name_en": "Cadence Bayonet",
+        "description_vi": "Làm dấu nhịp cho luyện đội hình trong sương dày khi cần tránh hô lớn.",
+        "description_en": "Provides a tactile cadence for formation practice in thick fog when shouted orders are undesirable."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-05",
+    "lore_vi": "Thợ súng phơi tấm bia như phơi một lá thư, đọc các dấu màu để biết viên đạn đã gặp gì trên đường.\n\nNhững viên đạn thử này để lại vệt phấn ở mặt bia thay vì bị ép phẳng hoàn toàn. Phần lõi khoáng hút một ít màu của bề mặt vừa chạm, khiến thợ súng có thể phân biệt từng vật cản qua dấu bắn.",
+    "lore_en": "A gunsmith hung the target like a letter, reading colours to learn what the shot had met.\n\nThese trial rounds leave chalk on a target rather than flattening entirely. Their mineral core takes a little colour from the surface struck, allowing a gunsmith to distinguish obstacles by the marks left behind.",
+    "use_vi": "Đánh dấu điểm trúng khi hiệu chỉnh súng và kiểm tra tấm chắn.",
+    "use_en": "Marks impact points during sight adjustment and barrier testing.",
+    "limits_vi": "Dấu chỉ tồn tại vài phút; đạn không mạnh hơn đạn chì thường và không nên bắn gần người.",
+    "limits_en": "Marks last minutes; the shot is no stronger than ordinary lead and remains unsafe near people.",
+    "epigraph_vi": "Điểm chạm còn để lại một lời.",
+    "epigraph_en": "The point of impact leaves a word.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Viên đạn chì với lõi trắng đục.",
+        "description_en": "Lead ball with a cloudy white core."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đạn Chì Vệt Phấn",
+        "name_en": "Chalktrail Shot",
+        "description_vi": "Đánh dấu điểm trúng khi hiệu chỉnh súng và kiểm tra tấm chắn.",
+        "description_en": "Marks impact points during sight adjustment and barrier testing."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-06",
+    "lore_vi": "Người gác rút kiếm cạnh giường thương binh và lần đầu nghe rõ tiếng người đang ngủ. Vòng thép ở miệng bao giữ lại tiếng rít quen thuộc của lưỡi ướt; chỉ một tiếng ngân dài chạy dưới móng tay khi anh chạm vào nó.\n\nChiếc vòng theo người đổi qua nhiều bao da, mang sự yên ấy tới từng ca gác. Nó che tiếng thép ma sát với miệng bao, cho bàn tay chuẩn bị trước khi người nằm gần phải thức. Những vết nứt được nhìn kỹ dưới đèn, vì một vòng hỏng có thể giữ chặt cả lưỡi kiếm lúc người gác cần nó nhất.",
+    "lore_en": "The guard drew a sword beside a wounded sleeper and heard the sleeper’s breathing clearly for the first time. The steel ring at the sheath’s mouth held back the wet blade’s familiar rasp; only a long note ran beneath the guard’s fingernail upon touching it.\n\nThe ring followed its keeper through many leather sheaths, carrying that quiet into each watch. It muffled steel rubbing against the mouth, letting the hand prepare before nearby sleepers had to wake. Cracks were examined under lamplight, for a damaged ring might hold the blade fast when its guard needed it most.",
+    "use_vi": "Giảm tiếng ma sát khi rút kiếm, thuận tiện cho người gác đổi ca ban đêm.",
+    "use_en": "Reduces drawing friction noise, useful to sentries changing watch at night.",
+    "limits_vi": "Không triệt tiêu tiếng giáp hoặc bước chân; vòng nứt sẽ kẹp lưỡi kiếm.",
+    "limits_en": "It silences neither armour nor footsteps; a cracked ring can trap the blade.",
+    "epigraph_vi": "Thép cũng biết bước khẽ qua đêm.",
+    "epigraph_en": "Steel too can tread softly through night.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Vòng thép đen ở miệng bao kiếm.",
+        "description_en": "Black steel ring at a scabbard mouth."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vòng Kiếm Chống Rít",
+        "name_en": "Quietguard Ring",
+        "description_vi": "Giảm tiếng ma sát khi rút kiếm, thuận tiện cho người gác đổi ca ban đêm.",
+        "description_en": "Reduces drawing friction noise, useful to sentries changing watch at night."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-07",
+    "lore_vi": "Người hộ tống muối dừng đoàn khi hạt đầu tiên xám, chịu nghe đồng đội càu nhàu thay vì đợi cái lạnh thắng đôi tai mình.\n\nHàng hạt trắng được gắn vào chiếc mũ của một người hộ tống muối. Chúng chuyển sang xám khi mồ hôi bắt đầu đóng băng dưới vành, dù mặt ngoài chiếc mũ chưa có sương; tháo ra thì phản ứng ngừng.",
+    "lore_en": "A salt-escort halted at the first grey grain, taking his comrades' complaints before cold could take his ears.\n\nWhite beads were fixed to the helmet of a salt-caravan escort. They turn grey when sweat begins freezing beneath the rim even while its outer surface stays clear; removed from the helmet, the response ceases.",
+    "use_vi": "Báo sớm vùng đệm mũ đang ướt lạnh để người đội dừng lại thay lớp lót.",
+    "use_en": "Warns that the helmet padding is becoming dangerously cold and wet so its wearer can change the lining.",
+    "limits_vi": "Chỉ báo ở vùng vành; không đo thân nhiệt và không ngăn được chấn thương.",
+    "limits_en": "It monitors the rim alone, measures no core temperature and prevents no injury.",
+    "epigraph_vi": "Hạt đầu xám trước khi tai mất lạnh.",
+    "epigraph_en": "The first grain greys before the ear loses cold.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Mũ sắt thấp có hàng hạt trắng ở vành.",
+        "description_en": "Low iron helmet with white beads along the rim."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mũ Trụ Hạt Muối",
+        "name_en": "Saltbead Helm",
+        "description_vi": "Báo sớm vùng đệm mũ đang ướt lạnh để người đội dừng lại thay lớp lót.",
+        "description_en": "Warns that the helmet padding is becoming dangerously cold and wet so its wearer can change the lining."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-0-08",
+    "lore_vi": "Người giữ dây buộc nút cuối bằng tay con mình, rồi không cho phép ai tháo nữa khi ánh bạc thức dậy ở đó.\n\nMột dây cung trong kho cứu hộ luôn trở về đúng chiều dài sau khi được tháo khỏi cánh. Chỉ nút thắt cuối phát ánh bạc lúc dây co; người bảo quản để nguyên nút ấy sau nhiều lần buộc lại thất bại.",
+    "lore_en": "Its keeper tied the final knot with his child's hands and forbade its undoing when silver woke within it.\n\nA rescue-store bowstring always returns to its set length after removal. Only the end knot gleams when it contracts; keepers preserve that knot after repeated attempts to reproduce it have failed.",
+    "use_vi": "Giữ chiều dài dây ổn định cho cung dùng trong điều kiện ẩm lạnh.",
+    "use_en": "Maintains a consistent string length for a bow used in damp cold.",
+    "limits_vi": "Không tăng lực kéo; dây xơ hoặc cánh cung hỏng vẫn gây tai nạn như thường.",
+    "limits_en": "It adds no draw strength; frayed fibres or damaged bow limbs remain hazardous.",
+    "epigraph_vi": "Nút cuối nhớ chiều dài một cánh cung.",
+    "epigraph_en": "The last knot remembers a bow’s span.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Dây cung xám thắt nút đồng nhỏ.",
+        "description_en": "Grey bowstring with a small brass knot."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dây Cung Nhớ Nút",
+        "name_en": "Knotremembering Bowstring",
+        "description_vi": "Giữ chiều dài dây ổn định cho cung dùng trong điều kiện ẩm lạnh.",
+        "description_en": "Maintains a consistent string length for a bow used in damp cold."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-01",
+    "lore_vi": "Vòng xanh chạy trên mũi giáo là thứ ngư dân nhìn trước mỗi bước xuống bến tối.\n\nNgư dân gác bến dùng mũi giáo này thử lòng nước. Những vòng xanh trên kim loại tự nhích khi đầu giáo gần nền bùn, kể cả trong nước đục, tạo thành dấu hiệu khác hẳn vạch đo do người khắc.",
+    "lore_en": "The shifting green ring was what fishermen watched before every step into the dark landing.\n\nHarbour fishers used this pike to sound the water. Green rings on its point shift of their own accord near the muddy bed, even in opaque water, visibly distinct from a human-cut depth mark.",
+    "use_vi": "Giữ chân người gác và dò vùng bùn mềm trước khi dựng hàng giáo ven bến.",
+    "use_en": "Supports sentries and probes soft mud before a waterside pike line is placed.",
+    "limits_vi": "Chỉ báo nền gần mũi; không phát hiện hố ở xa hay chịu được sức nước xiết.",
+    "limits_en": "It senses ground close to the point, not distant holes, and cannot withstand a strong current.",
+    "epigraph_vi": "Đầu giáo nghe đáy bùn trước bàn chân.",
+    "epigraph_en": "The point hears the mud before the foot.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Giáo dài cán tần bì, mũi đồng xanh.",
+        "description_en": "Long ash pike with a green bronze point."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giáo Bến Cạn",
+        "name_en": "Shoalwatch Pike",
+        "description_vi": "Giữ chân người gác và dò vùng bùn mềm trước khi dựng hàng giáo ven bến.",
+        "description_en": "Supports sentries and probes soft mud before a waterside pike line is placed."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-02",
+    "lore_vi": "Người nhận khiên viết tên mẹ sát mép, nơi dải nước luôn chảy vòng mà chẳng chạm chữ.\n\nSau một trận mưa lạnh, mặt khiên này vẫn khô còn nước tụ thành dải bên mép. Những chiếc đinh bạc dẫn nước quanh thớ gỗ ngay cả khi người thử nghiêng ngược, nhưng chỉ với dòng chảy rất mỏng.",
+    "lore_en": "Its owner wrote his mother's name beside the rim, where water passed without touching the letters.\n\nAfter freezing rain its face remained dry while water gathered at the edge. Its silver studs guide water around the grain even when tilted against the slope, though only as a very thin film.",
+    "use_vi": "Giữ tầm nhìn trên mép khiên và làm chậm việc nước ngấm vào lớp bọc.",
+    "use_en": "Keeps the shield rim clear to see over and slows water soaking into its cover.",
+    "limits_vi": "Lỗ thủng và nước tạt mạnh vượt quá khả năng dẫn; khiên vẫn cháy và nứt.",
+    "limits_en": "Holes and heavy splashes defeat its drainage; the shield still burns and splits.",
+    "epigraph_vi": "Mưa đi vòng qua một cái tên.",
+    "epigraph_en": "Rain goes around a name.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Khiên tròn gỗ sẫm, mặt đinh bạc.",
+        "description_en": "Dark wooden round shield studded with silver."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khiên Đọng Mưa",
+        "name_en": "Raincatch Shield",
+        "description_vi": "Giữ tầm nhìn trên mép khiên và làm chậm việc nước ngấm vào lớp bọc.",
+        "description_en": "Keeps the shield rim clear to see over and slows water soaking into its cover."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-03",
+    "lore_vi": "Dao được chuyền qua ba đời gác kho; người nhận mới luôn thử ba lần chạm lên cùng một miếng gỗ đã lõm.\n\nVật này nằm trong túi quân nhu cùng một con dao thường có cùng dấu rèn. Chỉ lưỡi của nó tự nhả băng sau khi chạm gỗ ba lần; hồ sơ xưởng không ghi công đoạn nào giải thích phản ứng ấy.",
+    "lore_en": "It passed through three generations of store-watchmen, each testing the same thrice-tapped dented wood.\n\nIt shared a provision bag with an ordinary knife bearing the same maker’s mark. Only this blade sheds ice after three taps on wood; the workshop ledger records no treatment that explains the response.",
+    "use_vi": "Cắt khẩu phần đông cứng và giữ một lưỡi dự phòng dùng được ở trạm gác.",
+    "use_en": "Cuts frozen rations and keeps a reserve blade serviceable at a watch post.",
+    "limits_vi": "Cần mặt gỗ để giải băng; thép lạnh vẫn giòn khi bị dùng làm đòn bẩy.",
+    "limits_en": "It needs wood to shed ice; the cold steel remains brittle when used as a lever.",
+    "epigraph_vi": "Ba lần chạm gỗ cho một bữa ăn.",
+    "epigraph_en": "Three touches upon wood for a meal.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Dao bản rộng, chuôi gỗ mận.",
+        "description_en": "Broad knife with a plumwood grip."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dao Bếp Của Lính Gác",
+        "name_en": "Watchman’s Kitchen Blade",
+        "description_vi": "Cắt khẩu phần đông cứng và giữ một lưỡi dự phòng dùng được ở trạm gác.",
+        "description_en": "Cuts frozen rations and keeps a reserve blade serviceable at a watch post."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-04",
+    "lore_vi": "Khi ổ khóa tan sương thành từng vòng, người gác được mở cửa bằng ngón tay vẫn còn đủ cảm giác.\n\nĐầu búa từng được dùng đóng cọc trong sân tập. Mỗi lần gõ nhẹ, sương rời khỏi đường nối kim loại thành từng vòng, trong khi tuyết trên mặt đất quanh đó không bị lay động; hiện tượng đi theo lõi mờ bên trong.",
+    "lore_en": "As frost left the lock in rings, its keeper opened the door with fingers still capable of feeling.\n\nOnce used to drive practice stakes, this hammer lifts frost from metal joints in rings with each light tap. Snow on the surrounding ground stays undisturbed; the effect follows the cloudy inset within its head.",
+    "use_vi": "Làm sạch ổ khóa và khớp giáp đóng băng trước khi thao tác bằng tay.",
+    "use_en": "Clears frozen locks and armour joints before they are handled.",
+    "limits_vi": "Cú nện mạnh không tăng phạm vi; có thể làm méo khớp đang cần cứu.",
+    "limits_en": "A harder strike adds no range and may deform the very joint being cleared.",
+    "epigraph_vi": "Tiếng gõ mở những khớp mùa đông.",
+    "epigraph_en": "The knock opens winter’s joints.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Búa chiến nhỏ đầu vuông có lõi mờ.",
+        "description_en": "Small square war hammer with a cloudy core."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Búa Gõ Sương",
+        "name_en": "Rimeknock Hammer",
+        "description_vi": "Làm sạch ổ khóa và khớp giáp đóng băng trước khi thao tác bằng tay.",
+        "description_en": "Clears frozen locks and armour joints before they are handled."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-05",
+    "lore_vi": "Áo đi qua các ca tuần tra với những phiến gốm chạm nhau như tiếng bát nhỏ của một bữa cơm được mang theo.\n\nNhững phiến gốm được nung từ một mẻ đất duy nhất rồi khâu vào áo. Chúng giữ lại hơi ấm của lò lâu hơn đất nung thường nhiều giờ, nhưng chỉ nhả nhiệt khi người mặc cử động khiến các phiến chạm nhau.",
+    "lore_en": "Its ceramic plates clicked through patrols like the little bowls of a meal carried from home.\n\nIts ceramic scales came from a single clay batch. They retain stove warmth hours longer than ordinary pottery, releasing it only as the wearer moves and the plates touch one another.",
+    "use_vi": "Giữ cơ bắp đủ ấm khi tuần tra, kết hợp lớp đệm chống va chạm thông thường.",
+    "use_en": "Keeps muscles warm on patrol while retaining an ordinary padded layer against impacts.",
+    "limits_vi": "Phải nạp nhiệt trước; khi đứng yên hiệu quả giảm và áo ướt trở nên rất nặng.",
+    "limits_en": "It must be warmed beforehand; stillness reduces the effect and wet padding becomes heavy.",
+    "epigraph_vi": "Một mẻ đất mang theo hơi bếp.",
+    "epigraph_en": "One firing carries the hearth’s warmth.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Áo giáp vải dày với phiến gốm nâu.",
+        "description_en": "Padded armour with brown ceramic scales."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Áo Giáp Giấu Than",
+        "name_en": "Emberfold Jack",
+        "description_vi": "Giữ cơ bắp đủ ấm khi tuần tra, kết hợp lớp đệm chống va chạm thông thường.",
+        "description_en": "Keeps muscles warm on patrol while retaining an ordinary padded layer against impacts."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-06",
+    "lore_vi": "Cung thủ ở trạm báo gió nghe người phía sau quay lại trước khi tiếng tên kịp rời mái hiên. Lỗ sáo thiếc đã méo sau một lần ngã, và từ đó lời rít luôn tìm về người đang đứng sau lưng anh. Người phía mục tiêu chỉ thấy một đường tên đi qua sương.\n\nAnh giữ những mũi tên ấy riêng để gọi nhóm vận chuyển phía sau bước tới hoặc dừng lại. Tiếng báo đơn sơ đi ngược hướng mũi nhọn, mang phần việc của một lời nhắn cần quay về hơn là bay đi. Khi gió quẩn trong hẻm, cả đội trở lại dùng dấu tay cho tới lúc ra khoảng trời thoáng.",
+    "lore_en": "At the wind station, an archer heard someone behind turn before the arrow’s whistle left the eaves. Its tin whistle-hole had bent in a fall, and ever since its cry sought those behind the archer. Those towards the target saw only a shaft crossing the mist.\n\nThe archer kept these arrows apart to tell a following carrying party to advance or halt. The simple signal ran against the point’s direction, serving a message that needed to return rather than depart. When wind swirled in an alley, the party used hand signals again until they reached open sky.",
+    "use_vi": "Truyền tín hiệu cho nhóm phía sau mà giảm tiếng báo trước ở mục tiêu.",
+    "use_en": "Signals companions behind the archer while reducing warning sound ahead.",
+    "limits_vi": "Vẫn thấy đường tên; gió quẩn có thể đưa tiếng tới sai phía và tín hiệu rất đơn giản.",
+    "limits_en": "The arrow remains visible; swirling wind can redirect the whistle and signals are simple.",
+    "epigraph_vi": "Lời báo bay ngược về người ở lại.",
+    "epigraph_en": "The warning flies back to those behind.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Mũi tên có lỗ sáo bằng thiếc.",
+        "description_en": "Arrow with a pierced tin whistlehead."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mũi Tên Rít Ngược",
+        "name_en": "Backwhistle Arrow",
+        "description_vi": "Truyền tín hiệu cho nhóm phía sau mà giảm tiếng báo trước ở mục tiêu.",
+        "description_en": "Signals companions behind the archer while reducing warning sound ahead."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-07",
+    "lore_vi": "Thợ khóa mang kiếm tới nhà sập, để ba chiếc răng chỉ chỗ cánh cửa còn chịu nhường.\n\nMột người thợ khóa gắn mẫu thép lạ vào sống kiếm tự vệ. Khi đặt cạnh lẫy bị kẹt, ba răng rung theo thứ tự khác nhau; chúng nhận được sức ép trong ổ khóa kín qua lớp vỏ, nhưng không tự mở khóa.",
+    "lore_en": "A locksmith carried it into a ruined house, letting three teeth indicate where the door might still yield.\n\nA locksmith set unusual steel into a defensive sword’s spine. Beside a jammed latch its three teeth vibrate in differing order, sensing stress within a closed lock through the casing without opening it.",
+    "use_vi": "Tìm bộ phận mắc kẹt trên cửa và xác định chỗ nên cạy trong cứu hộ.",
+    "use_en": "Locates jammed door components and indicates where rescue crews should apply leverage.",
+    "limits_vi": "Không đọc được ổ khóa nhiều lớp; dùng lưỡi kiếm cạy mạnh sẽ làm hỏng cả hai.",
+    "limits_en": "It cannot read layered locks; heavy prying may damage both blade and mechanism.",
+    "epigraph_vi": "Ba chiếc răng nghe một cánh cửa.",
+    "epigraph_en": "Three teeth listen to a door.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Kiếm ngắn có ba răng vuông trên sống.",
+        "description_en": "Short sword with three square teeth on its spine."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kiếm Chìa Khóa",
+        "name_en": "Keyward Sword",
+        "description_vi": "Tìm bộ phận mắc kẹt trên cửa và xác định chỗ nên cạy trong cứu hộ.",
+        "description_en": "Locates jammed door components and indicates where rescue crews should apply leverage."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-1-08",
+    "lore_vi": "Người gác lau nước ngoài bao trước khi chạm khóa súng, theo thói quen của người biết bột khô đáng giá hơn vẻ oai nghiêm.\n\nVòng sừng được cắt từ một mảnh không rõ nguồn rồi khâu vào bao súng. Hơi nước tụ bên ngoài túi thay vì trên khóa đá lửa, tạo một vệt ướt đều quanh miệng bao ngay cả khi trời lặng gió.",
+    "lore_en": "A sentry wiped the holster before touching the lock, knowing dry powder mattered more than martial appearance.\n\nA horn ring of uncertain origin was stitched into this holster. Moisture collects outside the pouch rather than on the flintlock, leaving an even wet band around its mouth even in still air.",
+    "use_vi": "Bảo vệ cơ cấu khai hỏa khỏi hơi ẩm trong hành quân và gác đêm.",
+    "use_en": "Protects a firing mechanism against damp during marches and night watches.",
+    "limits_vi": "Chỉ giữ một khoảng nhỏ khô; ngâm nước hoặc thuốc súng ướt sẵn vẫn làm súng mất tác dụng.",
+    "limits_en": "It dries only a small space; immersion or already-wet powder still disables the gun.",
+    "epigraph_vi": "Bên ngoài ướt để bên trong còn khô.",
+    "epigraph_en": "Wet outside so the inside stays dry.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Bao súng da đen có vòng sừng trắng.",
+        "description_en": "Black leather holster with a white horn ring."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đai Súng Khô",
+        "name_en": "Drylock Holster",
+        "description_vi": "Bảo vệ cơ cấu khai hỏa khỏi hơi ẩm trong hành quân và gác đêm.",
+        "description_en": "Protects a firing mechanism against damp during marches and night watches."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-01",
+    "lore_vi": "Người tìm thương ở chân cầu đã giữ hai mảnh gỗ bằng nó trong lúc đồng đội đưa chiếc chốt cuối qua.\n\nThương được thu hồi từ chân một cầu gỗ đã sập. Dây bạc giữa hai chấu vẫn căng quanh khoảng trống nơi một thanh xà từng nằm; người phục dựng nhận thấy nó giữ được hai bề mặt chạm nhau trong vài nhịp thở.",
+    "lore_en": "Its finder held two timbers together below the bridge while a companion passed the final peg.\n\nRecovered beneath a collapsed wooden bridge, its silver wire remained taut around the gap once occupied by a beam. Restorers discovered that it briefly holds touching surfaces together.",
+    "use_vi": "Ghim tạm hai tấm khiên hoặc hai thanh gỗ để dựng chỗ nấp trước khi đóng chốt thật.",
+    "use_en": "Temporarily pins shields or timbers together while a proper fastening is installed.",
+    "limits_vi": "Chỉ nối vật đang tiếp xúc, chịu tải ngang kém và buông ngay khi người cầm rời tay.",
+    "limits_en": "It joins touching objects only, resists lateral load poorly and releases when the holder lets go.",
+    "epigraph_vi": "Giữa hai mảnh gỗ còn một nhịp níu.",
+    "epigraph_en": "Between two timbers, one beat still holds.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Thương có lưỡi chẻ và vòng dây bạc.",
+        "description_en": "Forked lance wound with silver wire."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Thương Khâu Cầu",
+        "name_en": "Bridgebinder Lance",
+        "description_vi": "Ghim tạm hai tấm khiên hoặc hai thanh gỗ để dựng chỗ nấp trước khi đóng chốt thật.",
+        "description_en": "Temporarily pins shields or timbers together while a proper fastening is installed."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-02",
+    "lore_vi": "Người canh kho đợi một bóng áo đi khỏi ngọn đèn rồi nhận ra kính nỏ vẫn giữ vệt sáng tại chỗ đèn vừa bị che. Anh hạ nỏ xuống, đợi bóng người ra hẳn khỏi đường ngắm mới nhìn lại. Vệt hổ phách nhạt dần đúng lúc ánh thật trở về.\n\nTừ đó, chiếc nỏ ở lại bên cửa kho để giữ hướng qua những quãng tối ngắn. Kính nhớ nguồn sáng vừa thấy, giúp người canh bám một điểm mốc khi đoàn hàng đi ngang. Mỗi lần đổi vị trí, anh phải chờ ánh mới đầy mặt kính, bởi một dấu sáng cũ cũng có thể dẫn tay người tới chỗ đã trống.",
+    "lore_en": "A warehouse guard waited for a coat’s shadow to leave the lamp and noticed the crossbow glass still held its glow where the lamp had been obscured. The guard lowered the bow until the passer-by cleared the aim. The amber mark faded as the real light returned.\n\nThereafter the crossbow stayed by the storehouse door to retain direction through brief darkness. Its glass remembered a light recently seen, keeping a landmark steady while cargo passed. After changing position, the guard waited for fresh light to fill the glass, since an old glow could guide a hand towards an empty place.",
+    "use_vi": "Giữ đường ngắm qua những khoảng tối thoáng qua khi bắn tín hiệu hoặc che chắn đồng đội.",
+    "use_en": "Maintains a sight line through brief darkness when signalling or covering companions.",
+    "limits_vi": "Không nhìn xuyên tường; dấu ánh sáng cũ dễ khiến người bắn nhầm nếu mục tiêu đã di chuyển.",
+    "limits_en": "It cannot see through walls; a stale light mark can mislead a shot after movement.",
+    "epigraph_vi": "Ánh đèn còn đứng sau lưng người qua.",
+    "epigraph_en": "The lamp remains behind the passer-by.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Nỏ gỗ đen, kính ngắm hổ phách.",
+        "description_en": "Blackwood crossbow with an amber sight."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nỏ Mắt Đèn",
+        "name_en": "Lanternsight Crossbow",
+        "description_vi": "Giữ đường ngắm qua những khoảng tối thoáng qua khi bắn tín hiệu hoặc che chắn đồng đội.",
+        "description_en": "Maintains a sight line through brief darkness when signalling or covering companions."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-03",
+    "lore_vi": "Một viên bi rơi khỏi túi người đưa hàng làm mảnh chuông trong khiên lên tiếng trước khi sắt chạm đất. Người giữ khiên quay theo tiếng ngân và nhận ra tâm chuông đang hướng về vật nhỏ giữa không trung. Đến lần mảnh sắt bay từ chỗ mái sập, anh đã kịp nâng mặt gỗ lên.\n\nChuông nhận kim loại đang tới từ chính diện, gọi người giữ sớm hơn tiếng va thật một khoảng ngắn. Người mang học cách nghe một tiếng rồi chọn hướng đứng, để tiếng ngân dẫn tay mình thay vì khiến mình đứng đợi. Trong trận mưa mảnh vỡ, chuông thành một hồi dồn dập mà đôi tay phải tự tìm phần việc còn làm được.",
+    "lore_en": "A ball bearing fell from a carrier’s pocket, and the bell fragment within the shield sounded before the iron struck the ground. The shield keeper turned towards the note and saw its centre directed at the tiny airborne object. When iron later flew from a collapsing roof, the keeper was ready to raise the wood.\n\nThe bell senses metal approaching from the front, calling its keeper shortly before actual impact. Bearers learn to hear a note and choose their stance, letting it guide the hand. In a shower of fragments it becomes a continuous peal within which their own hands must find what they can still do.",
+    "use_vi": "Báo sớm đạn và mảnh sắt đang tới trong tầm gần, giúp người giữ chọn hướng che.",
+    "use_en": "Warns of nearby incoming shot and iron fragments so the bearer can turn the shield.",
+    "limits_vi": "Không chặn đạn thay người dùng; nhiều vật kim loại cùng lúc khiến chuông báo liên tục.",
+    "limits_en": "It stops nothing by itself; many moving metal objects produce an indistinguishable continuous alarm.",
+    "epigraph_vi": "Chuông gọi trước khi sắt tới.",
+    "epigraph_en": "The bell calls before iron arrives.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Khiên giọt nước có lõi chuông nứt.",
+        "description_en": "Teardrop shield with a cracked bell core."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khiên Tiếng Chuông",
+        "name_en": "Bellanswer Shield",
+        "description_vi": "Báo sớm đạn và mảnh sắt đang tới trong tầm gần, giúp người giữ chọn hướng che.",
+        "description_en": "Warns of nearby incoming shot and iron fragments so the bearer can turn the shield."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-04",
+    "lore_vi": "Lòng găng giữ vệt đen của lần kéo đầu tiên một sợi dây đang cháy khỏi bàn tay đồng đội.\n\nLớp xám trong lòng găng không rơi thành bụi dù bị cạo. Khi chạm một bề mặt vừa cháy, nó kéo hơi nóng vào các đốt ngón rồi nhả chậm; những vạch sẫm hiện ra sau mỗi lần hút nhiệt.",
+    "lore_en": "Its palm retained the dark trace of the first burning rope pulled from a comrade's hands.\n\nThe grey palm coating resists scraping. Against a recently burned surface it draws heat into the finger plates and releases it slowly, dark bars appearing after each absorption.",
+    "use_vi": "Nắm dây cháy hoặc đẩy mảnh vỡ nóng khỏi lối thoát trong thời gian ngắn.",
+    "use_en": "Briefly grips burning rope or pushes hot debris out of an escape route.",
+    "limits_vi": "Sức chứa hữu hạn; đốt ngón nóng lên sẽ nung tay người đeo nếu tiếp tục giữ.",
+    "limits_en": "Capacity is finite; heated finger plates burn the wearer if contact continues.",
+    "epigraph_vi": "Lửa đi vào những đốt tay.",
+    "epigraph_en": "Fire enters the knuckles.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Găng thép có lòng tay xám nhám.",
+        "description_en": "Steel gauntlet with a rough ash-grey palm."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Găng Tay Tàn Tro",
+        "name_en": "Ashgrip Gauntlet",
+        "description_vi": "Nắm dây cháy hoặc đẩy mảnh vỡ nóng khỏi lối thoát trong thời gian ngắn.",
+        "description_en": "Briefly grips burning rope or pushes hot debris out of an escape route."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-05",
+    "lore_vi": "Người cắt dây lùi khỏi đường bật rồi mới thấy vết rạch mở trên sáp niêm. Lưỡi dao đã đi qua từ nhịp trước, còn bóng nó vẫn nằm trên bàn như một giọt nước chưa chịu rơi. Anh đặt dao vào hộp muối sau khi dây thôi rung.\n\nMép trong của lưỡi cong giữ vết cắt chậm một nhịp cố định, cho người dùng khoảng ngắn để rời chỗ nguy hiểm. Những thợ cứu hộ chuyền nó kèm lời nhắc đợi: vật đã bị cắt còn nguyên trước mắt trong khoảnh khắc ấy, và bàn tay muốn sửa lại lựa chọn thường tới muộn hơn chính hậu quả mình gây ra.",
+    "lore_en": "The rope cutter stepped beyond the recoil path before the slit opened in the sealing wax. The blade had passed a beat earlier, while its shadow still lay upon the table like a drop unwilling to fall. The cutter returned it to its salt box after the rope stopped trembling.\n\nThe transparent curved edge delays a cut by one fixed beat, granting a brief retreat from danger. Rescue workers pass it on with a reminder to wait: for that instant a severed object still appears whole, and a hand trying to revise its choice often arrives later than the consequence it has already caused.",
+    "use_vi": "Cắt dây căng với một nhịp trễ để người dùng kịp rời khỏi đường bật ngược.",
+    "use_en": "Severs a taut line after a short delay, allowing its user to leave the recoil path.",
+    "limits_vi": "Độ trễ cố định và ngắn; không xuyên vật cứng hơn thép hay xóa được vết cắt đã thực hiện.",
+    "limits_en": "The delay is brief and fixed; it neither defeats harder materials nor reverses a completed cut.",
+    "epigraph_vi": "Vết cắt tới sau một bước lùi.",
+    "epigraph_en": "The cut arrives after one backward step.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Dao cong trong có vân như mặt nước.",
+        "description_en": "Translucent curved dagger with watery grain."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dao Bóng Nước",
+        "name_en": "Waterghost Dagger",
+        "description_vi": "Cắt dây căng với một nhịp trễ để người dùng kịp rời khỏi đường bật ngược.",
+        "description_en": "Severs a taut line after a short delay, allowing its user to leave the recoil path."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-06",
+    "lore_vi": "Trong hành lang sập, người đội mũ nghe giọng đồng đội trở lại giữa những lớp chuông dội. Hai tai ốc đồng giữ phần âm dài thành một tiếng ngân nhỏ, còn lời nói gần vẫn đi qua khe mũ như một cửa hẹp vừa mở. Anh quay được đầu đúng lúc sợi dây cứu hộ được đưa tới.\n\nMũ theo những người tìm nạn nhân vào nhà đá, nơi một tiếng rơi nhỏ có thể chạy qua nhiều bức tường rồi trở về thành đe dọa. Những vết lõm ở tai đồng được sửa cẩn thận để giữ tiếng người đủ rõ; trước mỗi tiếng nổ, người đội vẫn phải tự tìm nơi che tai và cúi xuống.",
+    "lore_en": "In a fallen corridor, the helmet wearer heard a companion’s voice return between layers of ringing echo. The copper shell-ears held long sounds to a low note, while nearby speech passed through like a newly opened narrow door. The wearer turned in time to receive a rescue rope.\n\nThe helmet followed searchers into stone houses, where a small falling sound could cross many walls and return as a threat. Dents in its copper ears were carefully repaired to keep voices clear; before an explosion, its bearer still had to find shelter and protect their ears.",
+    "use_vi": "Giảm tiếng dội trong hành lang đá khi đội cứu hộ cần nghe khẩu lệnh.",
+    "use_en": "Reduces reverberation in stone passages where rescue crews need to hear orders.",
+    "limits_vi": "Không bảo vệ hoàn toàn trước tiếng nổ; nguồn âm quá gần vẫn gây tổn thương và mất thăng bằng.",
+    "limits_en": "It offers no complete protection against explosions; nearby blasts still injure and disorient.",
+    "epigraph_vi": "Trong tiếng dội vẫn còn lời người.",
+    "epigraph_en": "A human voice remains within the echo.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Mũ trụ sắt có tai ốc bằng đồng.",
+        "description_en": "Iron helm with brass spiral ear guards."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mũ Trụ Chống Vọng",
+        "name_en": "Echobreak Helm",
+        "description_vi": "Giảm tiếng dội trong hành lang đá khi đội cứu hộ cần nghe khẩu lệnh.",
+        "description_en": "Reduces reverberation in stone passages where rescue crews need to hear orders."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-07",
+    "lore_vi": "Người cứu hộ chạm kiếm vào từng dây dưới chiếc xe mắc nghiêng, nhìn kim nhỏ trong chuôi nhích theo sức căng. Sợi mảnh đang nhận nhiều tải hơn dây to bên cạnh; anh đặt nẹp trước rồi mới chọn đường cắt, để chiếc xe hạ xuống phần gỗ đã chờ.\n\nKim cân nhận sức kéo tại đúng điểm thép chạm, đưa một lực vô hình thành chuyển động đủ cho mắt đọc. Nó đã theo người giữ qua những giàn nâng hàng và cầu dây, nơi cùng một sợi có thể nhẹ ở đầu này mà đang níu cả một mạng người ở đầu kia. Sau mỗi nhát cắt, bàn tay lại phải đặt kiếm và đọc từ đầu.",
+    "lore_en": "A rescuer touched the sword to each rope beneath a tilted cart and watched its small hilt needle move with the strain. A thin line bore more than the thick rope beside it; the rescuer set a brace before choosing the cut, lowering the cart onto waiting timber.\n\nThe needle receives tension exactly where steel touches, making invisible force visible. It has followed its keeper through hoists and rope bridges, where a line may feel light at one end while holding a life at the other. After each cut, the hand must set the sword and read again.",
+    "use_vi": "Chọn dây cần cắt để giải phóng tải mắc kẹt mà không làm cả hệ thống sập ngay.",
+    "use_en": "Identifies stressed lines before cutting free a trapped load without collapsing the entire rig.",
+    "limits_vi": "Chỉ đọc điểm chạm; tải thay đổi sau khi cắt phải được đánh giá lại bằng quan sát thực tế.",
+    "limits_en": "It reads the contact point alone; redistributed loads must be reassessed after any cut.",
+    "epigraph_vi": "Sợi dây nói sức nặng qua lưỡi thép.",
+    "epigraph_en": "The rope speaks its burden through steel.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Kiếm thẳng có chuôi cân nhỏ.",
+        "description_en": "Straight sword with a tiny balance in its hilt."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kiếm Đo Dây",
+        "name_en": "Lineweigher Sword",
+        "description_vi": "Chọn dây cần cắt để giải phóng tải mắc kẹt mà không làm cả hệ thống sập ngay.",
+        "description_en": "Identifies stressed lines before cutting free a trapped load without collapsing the entire rig."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-2-08",
+    "lore_vi": "Bản lề vỡ được cất bên viên thử, nhắc người thợ rằng một điểm chạm có thể gửi sức ra xa hơn mắt thấy.\n\nViên đạn thử để lại vết lõm rộng hơn nhiều so với kích thước của nó. Trên tấm da mềm tác động ấy biến mất, nhưng trên mặt gỗ cứng một vòng lực lan quanh điểm chạm khiến bản lề rung bật.",
+    "lore_en": "Its broken hinge remained beside the trial round, recalling how force could spread beyond a visible point.\n\nTrial rounds leave dents much wider than their bodies. The effect disappears on soft hide, but a ring of force travels through rigid wood and shakes nearby hinges.",
+    "use_vi": "Phá lẫy cửa bằng phát bắn có vùng tác động rộng tại cự ly được kiểm soát.",
+    "use_en": "Breaks door latches with a broad impact at a controlled range.",
+    "limits_vi": "Không tự phân biệt cửa với kết cấu chịu lực; mảnh vỡ và người phía sau vẫn có thể bị trúng.",
+    "limits_en": "It cannot distinguish doors from structural timber; fragments still endanger anyone behind them.",
+    "epigraph_vi": "Một điểm gõ làm cánh cửa nghe khắp mặt.",
+    "epigraph_en": "One knock makes the whole door listen.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Đạn sắt bẹt có lỗ đồng giữa.",
+        "description_en": "Flat iron round with a central brass aperture."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đạn Gõ Cửa",
+        "name_en": "Doorknocker Round",
+        "description_vi": "Phá lẫy cửa bằng phát bắn có vùng tác động rộng tại cự ly được kiểm soát.",
+        "description_en": "Breaks door latches with a broad impact at a controlled range."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-01",
+    "lore_vi": "Sau khi người bị thương cuối qua hầm, mặt khiên còn rung về cùng một phía như vẫn đợi nhận thêm đòn.\n\nChiếc khiên được lưu cùng bản đồ một đường hầm chật. Khi dựng đứng, viền trắng kéo những tiếng va vào cùng một hướng, khiến các cú đánh xiên dễ trượt sang cạnh; nguồn gốc đường viền chưa được giải thích.",
+    "lore_en": "After the last wounded person passed, the shield still trembled one way as though awaiting another blow.\n\nStored with a cramped tunnel plan, this shield draws impact vibrations toward one edge when upright. Oblique strikes tend to slide along that edge; the origin of its pale rim remains unexplained.",
+    "use_vi": "Giữ một lối hẹp đủ lâu để người bị thương đi qua phía sau.",
+    "use_en": "Holds a narrow passage long enough for wounded people to pass behind it.",
+    "limits_vi": "Chỉ lệch đòn xiên; lực chính diện truyền thẳng vào người và chân đế.",
+    "limits_en": "Only oblique blows are redirected; frontal force passes into the bearer and footing.",
+    "epigraph_vi": "Người cuối còn một hành lang để qua.",
+    "epigraph_en": "The last survivor still has a passage.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Khiên dài gấp được, đường viền trắng.",
+        "description_en": "Folding tall shield with a white rim."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hành Lang Cuối",
+        "name_en": "Last Passage",
+        "description_vi": "Giữ một lối hẹp đủ lâu để người bị thương đi qua phía sau.",
+        "description_en": "Holds a narrow passage long enough for wounded people to pass behind it."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-02",
+    "lore_vi": "Người giữ lò đặt kiếm bên lửa lúc rạng sáng, làm cùng một động tác như người chờ ai đó mở mắt.\n\nThép trong sống kiếm tối lại sau mỗi nhát chém và chỉ sáng khi được đặt cạnh lửa lúc rạng sáng. Việc giữ đúng giờ giải thích tại sao nó nằm nhiều năm trong hộp của một người gác lò thay vì kho quân khí.",
+    "lore_en": "At dawn the furnace-keeper set it beside the flame as though waiting for someone to open their eyes.\n\nIts clear spine darkens after each cut and brightens only beside a flame at dawn. This exacting schedule explains why it spent years in a furnace keeper’s chest rather than an armoury.",
+    "use_vi": "Giữ mép cắt khỏi mẻ trong một chuỗi đòn ngắn sau mỗi lần phục hồi.",
+    "use_en": "Preserves its edge through a short succession of blows after each renewal.",
+    "limits_vi": "Số lần bảo vệ hữu hạn; thiếu lửa đúng buổi sáng thì thép hoạt động như lưỡi kiếm thường.",
+    "limits_en": "Protection lasts a finite number of strikes; miss the morning flame and the steel behaves ordinarily.",
+    "epigraph_vi": "Bình minh trả mép thép về nguyên.",
+    "epigraph_en": "Dawn restores the edge.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Kiếm đồng nhạt có sống trong.",
+        "description_en": "Pale bronze sword with a clear spine."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Lưỡi Kiếm Hẹn Bình Minh",
+        "name_en": "Dawnappointed Blade",
+        "description_vi": "Giữ mép cắt khỏi mẻ trong một chuỗi đòn ngắn sau mỗi lần phục hồi.",
+        "description_en": "Preserves its edge through a short succession of blows after each renewal."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-03",
+    "lore_vi": "Người chế tác để lại chiếc nỏ cùng thước ngắm bảy nấc, nhưng chưa kịp ghi cách dùng trước khi mất. Người thừa kế mang nó lên bậc đá nơi ông từng đứng, giữ nguyên hai chân và thấy mũi tên nâng nhẹ theo nấc vừa khóa. Lần tay run, dấu nâng ấy biến mất.\n\nNỏ theo người giữ vào những ca phòng thủ đứng yên, sửa một phần lệch cao nhỏ giữa tay và điểm ngắm. Bảy nấc là bảy lựa chọn phải làm trước lúc nhả cò. Người bắn học dành thời gian cho nền đứng, hơi thở và khoảng trống trước mặt, để cây nỏ nhận đúng phần sai số nó đủ sức mang thay.",
+    "lore_en": "The maker left the crossbow and its seven-notch sight without living to record their use. The heir took it to the stone step where the maker had stood, held both feet steady and saw the arrow rise slightly with the locked notch. When the hand shook, that rise vanished.\n\nThe crossbow followed its keeper into stationary defence, correcting a small height difference between hand and aim. Seven notches offered seven choices to make before release. The archer learned to attend to footing, breath and clear space ahead, leaving the bow only the small error it could carry.",
+    "use_vi": "Bù một sai lệch độ cao nhỏ khi bắn từ vị trí cố định.",
+    "use_en": "Compensates for one small elevation error from a fixed firing position.",
+    "limits_vi": "Không truy đuổi mục tiêu; gió ngang, vật cản và khoảng cách ngoài thước vẫn làm tên trượt.",
+    "limits_en": "It does not pursue targets; crosswinds, obstructions and ranges beyond its sight still spoil the shot.",
+    "epigraph_vi": "Một bậc nhỏ cũng cần người đứng vững.",
+    "epigraph_en": "Even one small step requires a steady hand.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Nỏ ngắn với thước ngắm bảy nấc.",
+        "description_en": "Compact crossbow with a seven-notch sight."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nỏ Chỉ Một Bậc",
+        "name_en": "One-Step Crossbow",
+        "description_vi": "Bù một sai lệch độ cao nhỏ khi bắn từ vị trí cố định.",
+        "description_en": "Compensates for one small elevation error from a fixed firing position."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-04",
+    "lore_vi": "Đai kéo xe còn hằn trên vai giáp, nơi người mặc đã mang một người khác qua hết con đường.\n\nBộ giáp từng được sửa bằng đai kéo xe, rồi bắt đầu phân bố sức ép giữa hai vai dù chỉ một bên chịu tải. Các mắt nối tự xoay theo nhịp bước, khác với chuyển động của khớp sắt bình thường.",
+    "lore_en": "Cart-straps marked the shoulders that had carried another person the length of the road.\n\nRepaired with cart traces, this armour began sharing strain between both shoulders even under one-sided loads. Its links turn with each step independently of an ordinary iron hinge.",
+    "use_vi": "Hỗ trợ kéo cáng hoặc mang đồng đội qua địa hình bằng phẳng.",
+    "use_en": "Assists stretcher pulling and carrying a companion over level ground.",
+    "limits_vi": "Chuyển lực chứ không xóa trọng lượng; dây đứt hoặc trượt chân có thể làm cả hai cùng ngã.",
+    "limits_en": "It redistributes force rather than removing weight; broken straps or a slip can fell both people.",
+    "epigraph_vi": "Hai vai chia nhau một người còn sống.",
+    "epigraph_en": "Two shoulders share one living person.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Giáp vai da đen nối đai sắt.",
+        "description_en": "Black leather shoulder armour linked by iron straps."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giáp Của Người Kéo Xe",
+        "name_en": "Cartpuller’s Harness",
+        "description_vi": "Hỗ trợ kéo cáng hoặc mang đồng đội qua địa hình bằng phẳng.",
+        "description_en": "Assists stretcher pulling and carrying a companion over level ground."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-05",
+    "lore_vi": "Người giữ chùy nghe tiếng băng vỡ từ một chốt cửa đang nóng bên lò. Những hạt trắng trên sáu cạnh vừa chạm sắt đã mọc ra mảnh băng nhỏ rồi tan, để lại chốt giòn đi đúng chỗ búa còn đang tì. Anh dừng giữa từng nhịp để các viên đá thôi lách tách.\n\nChùy được mang theo khi mở nhà bị kẹt và tháo những khớp kim loại hỏng. Nó gọi một chút mùa đông vào điểm chạm, từng lần gõ đủ kiên nhẫn mới làm một chốt chịu nhường. Các hạt đá nứt được giữ trong túi riêng, để người nhận sau thấy rõ cái giá của bàn tay từng nóng vội.",
+    "lore_en": "The mace keeper heard ice break within a door pin warming beside a furnace. White stones upon its six faces sprouted tiny shards at the iron, then melted, leaving the pin brittle beneath the resting head. The keeper paused between strokes until the stones ceased crackling.\n\nThe mace travelled to jammed houses and damaged metal joints. It called a little winter into its contact point, with patient repeated taps persuading one pin to yield. Cracked stones were kept in a separate pouch so the next bearer could see the cost of an earlier impatient hand.",
+    "use_vi": "Làm giòn một chốt hoặc khớp kim loại nhỏ qua nhiều lần gõ đúng chỗ.",
+    "use_en": "Brittles a small metal pin or joint through repeated precise taps.",
+    "limits_vi": "Cần thời gian tiếp xúc; không đóng băng toàn bộ áo giáp và đá sẽ nứt nếu gõ quá nhanh.",
+    "limits_en": "It requires repeated contact, cannot freeze whole suits of armour and cracks under rapid hammering.",
+    "epigraph_vi": "Một mùa đông nằm trong đầu chùy.",
+    "epigraph_en": "A winter lies within the mace.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Chùy sáu cạnh đính đá trắng.",
+        "description_en": "Six-flanged mace set with white stones."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chùy Mưa Đá Nhỏ",
+        "name_en": "Little Hail Mace",
+        "description_vi": "Làm giòn một chốt hoặc khớp kim loại nhỏ qua nhiều lần gõ đúng chỗ.",
+        "description_en": "Brittles a small metal pin or joint through repeated precise taps."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-06",
+    "lore_vi": "Người giữ giáo đợi cả gót chân nhận mặt bậc, rồi mới cho đường đâm đi khỏi ngực mình.\n\nMột vết xước trên chắn tay luôn đứng ngang dù giáo nghiêng. Khi người cầm đứng trên bậc đá, thân giáo ghìm một hướng ổn định trong thoáng chốc; trên cát rời phản ứng ấy yếu đi rõ rệt.",
+    "lore_en": "Its wielder let his heels know the step before allowing the thrust away from his chest.\n\nA scratch on its guard remains level when the spear tilts. On stone steps the shaft briefly steadies one direction; the response weakens markedly on loose sand.",
+    "use_vi": "Giữ đường đâm khi phòng thủ từ bậc cao, giảm việc mũi giáo bị gạt khỏi trục.",
+    "use_en": "Maintains a thrusting line from a higher step, reducing deflection of its point.",
+    "limits_vi": "Không thay sức người; đối thủ đủ khỏe vẫn kéo ngã người giữ, đặc biệt trên nền trơn.",
+    "limits_en": "It supplies no extra strength; a strong opponent can pull the bearer down, especially on slippery ground.",
+    "epigraph_vi": "Bậc đá giữ hướng cho mũi giáo.",
+    "epigraph_en": "The stair holds the spear’s direction.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Giáo ngắn có chắn tay hình bán nguyệt.",
+        "description_en": "Short spear with a crescent hand guard."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giáo Đầu Bậc Thang",
+        "name_en": "Stairhead Spear",
+        "description_vi": "Giữ đường đâm khi phòng thủ từ bậc cao, giảm việc mũi giáo bị gạt khỏi trục.",
+        "description_en": "Maintains a thrusting line from a higher step, reducing deflection of its point."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-07",
+    "lore_vi": "Người bắn giật mình khi khóa súng chậm mở, hiểu món vũ khí vừa nghe thấy mình quên thở.\n\nKhóa bạc mở chậm khi người cầm nín thở quá lâu. Một túi khí mảnh bên báng phồng theo nhịp hô hấp thật của bàn tay đang nắm, khiến cơ chế bắn liên kết với trạng thái người dùng bằng cách chưa xác định.",
+    "lore_en": "The shooter started at the slow lock, realising his weapon had heard him forget to breathe.\n\nIts silver lock hesitates when the holder holds a breath too long. A thin bladder beside the grip follows the breathing of the hand upon it, linking discharge to the user’s condition through an unexplained mechanism.",
+    "use_vi": "Báo nhịp thở mất kiểm soát và hỗ trợ phát bắn đã chuẩn bị kỹ.",
+    "use_en": "Warns of irregular breathing and supports a carefully prepared shot.",
+    "limits_vi": "Không chữa hoảng loạn; lúc thiếu dưỡng khí khóa có thể chậm tới mức mất cơ hội khai hỏa.",
+    "limits_en": "It does not cure panic; oxygen deprivation can delay its lock until a firing opportunity is lost.",
+    "epigraph_vi": "Khóa bạc đợi người nhớ thở.",
+    "epigraph_en": "The silver lock waits for remembered breath.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Súng đá lửa bằng óc chó, khóa bạc.",
+        "description_en": "Walnut flintlock pistol with a silver lock."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Súng Ngắn Hơi Thở Đều",
+        "name_en": "Evenbreath Pistol",
+        "description_vi": "Báo nhịp thở mất kiểm soát và hỗ trợ phát bắn đã chuẩn bị kỹ.",
+        "description_en": "Warns of irregular breathing and supports a carefully prepared shot."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-3-08",
+    "lore_vi": "Dưới tường cũ, mỗi dấu bụi vữa dạng nhánh là chỗ người leo từng được cho phép nghỉ thêm một nhịp.\n\nHai gót giày giữ bụi vữa thành hình nhánh cây sau mỗi lần chạm tường. Khi chịu sức kéo xuống, chúng bám vào một vết nứt đã có và giữ vài nhịp; gắn trên mặt đá nhẵn thì không có tác dụng.",
+    "lore_en": "Below the old wall, each branching plaster-mark recorded one more beat of rest granted to a climber.\n\nTheir heels gather mortar dust in branching patterns. Under downward pull they grip an existing crack for a few beats; a smooth stone face gives them nothing to hold.",
+    "use_vi": "Giúp người leo có thêm điểm nghỉ khi kéo dây cứu hộ lên tường cũ.",
+    "use_en": "Provides a brief resting foothold while hauling rescue rope up old masonry.",
+    "limits_vi": "Không đi trên trần hoặc mặt nhẵn; vữa yếu sẽ bật ra cùng gót và làm người dùng rơi.",
+    "limits_en": "They work on neither ceilings nor smooth faces; weak mortar tears away with the heel.",
+    "epigraph_vi": "Vết nứt cho bàn chân thêm một nhịp.",
+    "epigraph_en": "The crack gives the foot one more beat.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Đôi giày giáp có gót sắt xanh.",
+        "description_en": "Armoured shoes with blue iron heels."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gót Sắt Bám Vách",
+        "name_en": "Wallhold Sabatons",
+        "description_vi": "Giúp người leo có thêm điểm nghỉ khi kéo dây cứu hộ lên tường cũ.",
+        "description_en": "Provides a brief resting foothold while hauling rescue rope up old masonry."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-6-04",
+    "lore_vi": "Trong cuộc vây thành cuối cùng của một thung lũng vô danh, một cung thủ đứng trước khe vực mà tiếng kêu từ bờ kia phải mất nhiều nhịp mới tới. Người ấy kéo hai nhánh dây đen về hai phía rồi chập chúng vào nhau. Giữa vách đá, một sải trời đêm gấp lại; mũi tên mang dây cứu hộ hiện ra bên kia trước khi tiếng dây cung rời tai người bắn.\n\nTừ đó, cung mang một nếp gấp trong khoảng cách. Người kéo dây có thể đặt hai bờ của nếp ấy vào bất cứ chặng bay nào mình trông thấy. Mưa, lửa và hàng tên trong đoạn bị gấp vẫn tiếp tục rơi xuống phần thế giới của chúng, còn mũi tên đi qua mép tối như chui qua mắt kim. Hai nhánh dây chỉ nhập lại khi cả hai đầu đường đều thực sự có chỗ cho vật đi ra.",
+    "lore_en": "During the last siege of a nameless valley, an archer stood before a ravine whose cries took many heartbeats to cross. The archer drew the black string’s branches apart, then joined them. A fathom of night folded between the cliffs; an arrow bearing a rescue line appeared across the gulf before the bowstring’s sound had left the archer’s ears.\n\nEver since, the bow has carried a crease in distance. Its wielder can place the crease’s shores along any visible course of flight. Rain, fire and arrows within the folded stretch continue falling through their own world, while the arrow passes through the dark seam like thread through a needle. The string’s branches join only when both ends truly offer room for passage.",
+    "use_vi": "Gấp một sải đường bay, cho mũi tên vượt qua lửa, gió hoặc màn tên trong đoạn ấy.",
+    "use_en": "Folds a fathom of flight, carrying an arrow beyond fire, wind or a storm of arrows within that stretch.",
+    "limits_vi": "Phải nhìn rõ hai đầu nếp gấp. Vật cản ở lối ra khiến đường gấp bật về người kéo; cung không đưa sinh vật qua nếp tối.",
+    "limits_en": "Both ends must be clearly visible. An obstruction at the exit snaps the fold back upon the archer; the bow cannot carry living creatures through the dark seam.",
+    "epigraph_vi": "Một sải vắng mặt đủ đổi đường một đạo quân.",
+    "epigraph_en": "One missing fathom can change an army’s road.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Cung trắng có dây đen tách đôi.",
+        "description_en": "White bow with a divided black string."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cung Không Gian Một Sải",
+        "name_en": "One-Fathom Bow",
+        "description_vi": "Gấp một sải đường bay, cho mũi tên vượt qua lửa, gió hoặc màn tên trong đoạn ấy.",
+        "description_en": "Folds a fathom of flight, carrying an arrow beyond fire, wind or a storm of arrows within that stretch."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-6-06",
+    "lore_vi": "Khi mái vòm ngôi đền ven vực đổ xuống, người giữ cửa đưa bàn tay trắng lên giữa hai cột đang nghiêng. Cả khối đá dừng trên đầu dân chạy nạn. Bụi vẫn rơi, chuông vẫn đứt dây, còn vết nứt đen trên găng bò từ cổ tay tới đầu ngón như bóng một ngày tận thế được giữ trong lòng bàn tay.\n\nChiếc găng giữ được một vật rơi, kể cả khi vật ấy lớn bằng mái thành. Trong khoảnh khắc được giữ, mọi mảnh còn nối với nhau cùng đứng lại; người bên dưới có thể đi qua một đại sảnh sắp biến thành mồ. Khi bàn tay hạ, sức nặng trở về nguyên vẹn. Kẻ thừa kế chiếc găng thường mang theo một sợi dây buộc vào cổ tay mình, để người cuối cùng biết lúc nào phải kéo họ khỏi chỗ đứng.",
+    "lore_en": "When a cliffside temple’s vault collapsed, its gatekeeper raised a white hand between the leaning columns. The stone mass stopped above the fleeing congregation. Dust still fell and bells tore loose, while the glove’s black crack crept from wrist to fingertip like the shadow of an ending held in one palm.\n\nThe glove can arrest one falling object, even a mass as large as a fortress roof. While held, every connected fragment stands still together; those beneath may cross a hall about to become a tomb. When the hand lowers, its weight returns entire. Heirs to the glove often tie a rope around their wrist so the last survivor knows when to pull them from their station.",
+    "use_vi": "Giữ đứng một khối đang sụp, mở thời gian sơ tán hoặc dựng chỗ đỡ.",
+    "use_en": "Arrests a collapsing mass, granting time for evacuation or supports.",
+    "limits_vi": "Chỉ giữ một khối còn liên tục và phải chạm trực tiếp. Vết nứt tới đầu ngón cuối sẽ giải phóng toàn bộ tải; người mang phải tự tìm đường thoát.",
+    "limits_en": "Only one continuous mass can be held, through direct contact. When the crack reaches the final fingertip, the entire load is released; the bearer must find their own escape.",
+    "epigraph_vi": "Một bàn tay giữ lại tiếng sập của trời.",
+    "epigraph_en": "One hand holds back the heavens’ fall.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Găng trắng có một đường nứt đen.",
+        "description_en": "White gauntlet crossed by one black crack."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Găng Đỡ Một Lần",
+        "name_en": "Oncebearing Gauntlet",
+        "description_vi": "Giữ đứng một khối đang sụp, mở thời gian sơ tán hoặc dựng chỗ đỡ.",
+        "description_en": "Arrests a collapsing mass, granting time for evacuation or supports."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-6-08",
+    "lore_vi": "Trong đêm một thành cảng bị biển tràn qua, vị chỉ huy cuối cùng tháo mũ, gọi tên từng toán quân vào lòng thép rồi trao nó cho người chèo thuyền. Ông ở lại bậc thang đã ngập tới gối. Người chèo đội mũ khi tới bến ngoài, và giọng nói cũ vang lên từ miệng anh, đi qua tiếng sóng tới tận hàng lính trên đê.\n\nTừ đó, mũ giữ một giọng được tự nguyện trao vào nó. Người đội có thể đưa giọng ấy qua cả chiến trường, để từng người từng được gọi tên nghe như chủ cũ đang đứng sát bên. Hơi thở là của người sống; mỗi lời phát ra làm khe vàng sáng thêm, còn giọng thật của người mang lùi dần vào im lặng. Khi tháo mũ, họ phải chờ tới sáng mới gọi được tên mình.",
+    "lore_en": "On the night the sea entered a harbour city, its last commander removed his helmet, called each company’s name into the steel and gave it to a boatman. He remained upon steps flooded to his knees. The boatman donned it at the outer harbour, and the old voice rose from his mouth, crossing the surf to soldiers upon the seawall.\n\nEver since, the helmet has held a freely given voice. Its bearer can carry that voice across a battlefield so everyone once called by name hears it as though the former speaker stood beside them. The breath belongs to the living; each word brightens the golden slit while the bearer’s own voice withdraws into silence. After removing the helmet, they must wait until morning before speaking their own name.",
+    "use_vi": "Gọi bằng giọng lưu giữ tới những người từng nghe chủ giọng gọi tên, vượt tiếng động và khoảng cách trong cùng một chiến trường.",
+    "use_en": "Calls in the stored voice to those its original speaker once named, crossing noise and distance within one battlefield.",
+    "limits_vi": "Chủ giọng phải tự nguyện trao giọng. Mũ không truyền ký ức hay quyền quyết định; người dùng mất giọng thật tới rạng sáng.",
+    "limits_en": "The original speaker must give the voice freely. The helmet grants neither memories nor judgement; its bearer loses their own voice until dawn.",
+    "epigraph_vi": "Tiếng người khuất vẫn vượt được tiếng thành đổ.",
+    "epigraph_en": "The departed voice can still rise above a falling city.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Mũ trụ kín có khe miệng màu vàng.",
+        "description_en": "Enclosed helm with a golden mouth slit."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mũ Trụ Giữ Giọng",
+        "name_en": "Voicekeeping Helm",
+        "description_vi": "Gọi bằng giọng lưu giữ tới những người từng nghe chủ giọng gọi tên, vượt tiếng động và khoảng cách trong cùng một chiến trường.",
+        "description_en": "Calls in the stored voice to those its original speaker once named, crossing noise and distance within one battlefield."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-02",
+    "lore_vi": "Khi đội mai táng mở cổng thành, họ tìm thấy chiếc khiên đứng giữa đường trống. Trong tâm bạc có bóng một người đang đi xa, dù phía sau nó chỉ còn nhà cháy. Bóng tiếp tục bước qua nhiều mùa, chờ cuộc rút lui cuối cùng có người hoàn tất.\n\nAi dùng khiên kéo một người khỏi hiểm nguy sẽ thấy bóng ấy mang hình người vừa được cứu. Từ lúc đó, đường giữa hai người trở thành một khoảng trống mà đòn đánh phải đi vòng qua. Tên rơi hai bên, lửa tách khỏi bậc chân, và cả lưỡi kiếm đưa vào cũng bị kéo ra ngoài mép bạc. Cuộc che chở chỉ tồn tại khi người được cứu còn tiến về nơi an toàn. Nếu họ quay lại nhận chết thay chủ khiên, thế giới khép ngay chỗ dành cho họ, để lại một tâm bạc rỗng giữa chiến trường.",
+    "lore_en": "When burial crews opened the city gate, they found the shield standing in the empty road. A departing figure moved within its silver centre, though only burnt houses stood behind it. The figure walked through many seasons, awaiting someone to complete the final withdrawal.\n\nWhoever uses the shield to draw someone from danger sees that figure take the rescued person’s shape. Thereafter the path between them becomes an absence around which attacks must pass. Arrows fall to either side, fire parts beneath their steps, and even an entering blade is drawn beyond the silver rim. Protection lasts only while the rescued person advances towards safety. Should they return to die in the bearer’s place, the world closes their reserved space at once, leaving a hollow silver centre amid the battle.",
+    "use_vi": "Dành một hành lang vắng đòn đánh giữa chủ khiên và một người đang được đưa tới nơi an toàn.",
+    "use_en": "Reserves a corridor empty of attacks between the bearer and one person being brought to safety.",
+    "limits_vi": "Chỉ giữ một người trong cùng cuộc cứu hộ. Quay lại tấn công hoặc nhận đòn thay người giữ khiến hành lang mất; chủ khiên phải tự che thân ngoài hành lang.",
+    "limits_en": "Shelters one person during one rescue. Turning to attack or taking a blow for the bearer ends the corridor; outside it, the bearer must defend themself.",
+    "epigraph_vi": "Chỗ trống này đã được dành cho một người sống.",
+    "epigraph_en": "This empty place is reserved for someone living.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Khiên bạc có tâm rỗng hình người.",
+        "description_en": "Silver shield with a person-shaped empty centre."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khiên Khoảng Trống",
+        "name_en": "The Empty Place",
+        "description_vi": "Dành một hành lang vắng đòn đánh giữa chủ khiên và một người đang được đưa tới nơi an toàn.",
+        "description_en": "Reserves a corridor empty of attacks between the bearer and one person being brought to safety."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-04",
+    "lore_vi": "Trên một cánh đồng đã đổi chủ nhiều lần, hai người sống sót sau cuộc quyết đấu cùng đặt tay lên tấm giáp trắng. Cú đánh cuối của họ đứng lại trong đinh tán, nặng tới mức cả mặt đất dưới chân áo lún thành một vòng. Họ cởi giáp, bỏ vũ khí và đi về hai hướng khi trời sáng.\n\nTừ đó, bộ giáp có thể nhận phần kết của một cuộc đấu được cả hai bên thật lòng từ bỏ. Mọi thương tích chưa kịp thành hình từ đòn cuối chuyển vào thép; kiếm gãy nằm nguyên trong bàn tay, ngọn lửa treo quanh vai áo như khăn tang. Cả hai người có thể rời khỏi chỗ đáng lẽ kết liễu mình. Nhưng bộ giáp vẫn đứng ở đó, giữ toàn bộ sức hủy diệt cho tới khi họ cùng trở về giải nợ. Một người phản bội lời ngừng chiến sẽ gọi phần kết ấy về chính thân mình.",
+    "lore_en": "On a field that had changed hands many times, two survivors of a duel placed their hands upon white armour. Their final blows stopped within its rivets, weighing enough to sink the earth beneath it into a ring. They removed the armour, abandoned their weapons and departed in opposite directions at dawn.\n\nEver since, the armour can receive the ending of a contest both parties sincerely relinquish. Every injury still unformed within their final blows passes into the steel; a broken sword remains within a hand, fire hangs about the shoulders like mourning cloth. Both may leave the place that would have ended them. Yet the armour stays, holding all that destruction until they return together to settle its burden. Whoever betrays the truce calls that ending upon their own body.",
+    "use_vi": "Nhận vào giáp hai đòn kết liễu khi cả hai đối thủ cùng tự nguyện chấm dứt giao tranh.",
+    "use_en": "Receives two killing blows when both adversaries freely end their contest.",
+    "limits_vi": "Cả hai phải cùng chấp nhận dừng và cùng chịu trách nhiệm giải lực đã giữ. Người chủ động phá lời ngừng chiến nhận lại toàn bộ đòn cuối.",
+    "limits_en": "Both must accept the halt and share responsibility for releasing the stored force. Whoever deliberately breaks the truce receives the entire final exchange.",
+    "epigraph_vi": "Hai người được bước ra khỏi đòn cuối.",
+    "epigraph_en": "Two people may step beyond the final blow.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Giáp ngực trắng sẫm không có huy hiệu.",
+        "description_en": "Smoke-white cuirass without heraldry."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giáp Không Có Người Thắng",
+        "name_en": "Armour Without a Victor",
+        "description_vi": "Nhận vào giáp hai đòn kết liễu khi cả hai đối thủ cùng tự nguyện chấm dứt giao tranh.",
+        "description_en": "Receives two killing blows when both adversaries freely end their contest."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-05",
+    "lore_vi": "Cây cung được đưa về từ một thành phố đã bị tuyết xóa hết đường vào. Trên dây còn treo lá thư của người đưa tin chưa tới nhà, còn lông vũ đen trên cánh mọc thêm những nhánh nhỏ theo từng ngả phố đã mất. Không ai mở bức thư ấy; người nhận cung đầu tiên chỉ buộc vào tên một lời báo rằng vẫn còn người sống.\n\nMũi tên đi theo một con đường người bắn từng tự đi trọn, bất kể lối ấy nay dài qua bao miền tuyết hoặc bao mùa chia cách. Người bên đường nghe tiếng chân chạy mà chẳng thấy người, rồi chiếc tên tới đúng cánh cửa còn đứng ở cuối ký ức. Nếu một chặng đã bị hủy, cung tự đốt nhánh lông mang chặng ấy để đưa tên qua lần cuối. Mỗi chuyến thư như vậy xóa vĩnh viễn một phần bản đồ đang sống trên cánh cung.",
+    "lore_en": "The bow returned from a city whose roads snow had erased. A letter from a messenger who never reached home still hung upon its string, while the black feather on its limb grew small branches along the vanished streets. No one opened that letter; its first keeper merely tied news of survivors to an arrow.\n\nAn arrow follows a road the archer once walked entire, however many snowy lands or seasons of separation now lie along it. People beside the route hear running footsteps without seeing anyone, and the arrow reaches the door still standing at memory’s end. If a stretch has been destroyed, the bow burns its feather-branch to carry the arrow across one final time. Each such journey permanently erases part of the living map upon the bow.",
+    "use_vi": "Gửi một thông điệp hoặc dây nhẹ dọc đường người bắn từng đi, vượt khoảng cách của tuyến đường ấy.",
+    "use_en": "Sends a message or light line along a route the archer once walked, crossing the distance of that road.",
+    "limits_vi": "Cần biết trọn tuyến và có đích đến còn tồn tại. Vượt đoạn đường bị hủy sẽ đốt nhánh lông tương ứng vĩnh viễn; cung không mang người.",
+    "limits_en": "The complete route must be known and its destination still exist. Crossing a destroyed stretch burns its feather-branch forever; the bow cannot carry people.",
+    "epigraph_vi": "Con đường cuối còn chờ một lá thư.",
+    "epigraph_en": "The last road still awaits a letter.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Cung gỗ trắng mang một lông vũ đen.",
+        "description_en": "White wooden bow carrying one black feather."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cung Đưa Thư Cuối",
+        "name_en": "The Last Courier Bow",
+        "description_vi": "Gửi một thông điệp hoặc dây nhẹ dọc đường người bắn từng đi, vượt khoảng cách của tuyến đường ấy.",
+        "description_en": "Sends a message or light line along a route the archer once walked, crossing the distance of that road."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-06",
+    "lore_vi": "Người thợ bạc chết trong một ngôi nhà trống, để lại đôi găng và chiếc cốc ông từng trao cho con. Chiếc cốc đã được tìm thấy dưới đáy sông ba mùa trước; tới đêm an táng, nó trở về nằm trên lòng găng khép hờ, nguyên vẹn như lúc được trao. Trong mặt bạc còn thấy hai bàn tay mở về phía nhau.\n\nGăng ghi hình một vật được trao tự nguyện và giữ khoảnh khắc ấy ngoài dòng hư hao. Người mang gọi hình trong lòng tay, vật thật sẽ trở về theo đúng sự nguyên vẹn khi nhận, kéo những mảnh đã vỡ từ nơi chúng nằm. Suốt đường trở lại, vật chỉ là bóng bạc đi qua các khe sáng; khi chạm găng nó nhận lại trọng lượng. Người cho phải còn sống và vẫn công nhận món quà, bởi quyền năng nằm trong sự gửi gắm chưa bị rút lại.",
+    "lore_en": "A silversmith died in an empty house, leaving gloves and the cup he had given his child. The cup had been recovered from a riverbed three seasons earlier; on the burial night it returned to the half-closed glove, whole as when first given. Two hands opening towards each other remained visible within the silver.\n\nThe glove records a freely given object and holds that instant beyond decay. When its bearer calls the image in the palm, the real object returns in the condition in which it was received, drawing its scattered fragments from their resting places. On its journey it is only a silver shadow passing through seams of light; it regains weight upon touching the glove. Its giver must remain alive and acknowledge the gift, for the power rests within a trust still unwithdrawn.",
+    "use_vi": "Gọi một món quà trở về, phục hồi phần hư hại xảy ra sau lúc được trao vào găng.",
+    "use_en": "Calls back a gift, restoring damage incurred after it was entrusted to the glove.",
+    "limits_vi": "Chỉ giữ một hình vật; người cho phải còn sống và tự nguyện giữ lời trao. Không gọi sinh vật; trọng lượng trở về có thể nghiền nát tay người nhận.",
+    "limits_en": "Holds one object’s image; its living giver must freely maintain the gift. Cannot call living creatures; returning weight may crush the receiver’s hand.",
+    "epigraph_vi": "Món quà nhớ bàn tay đã mở.",
+    "epigraph_en": "The gift remembers the opened hand.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Găng bạc có lòng tay như gương mờ.",
+        "description_en": "Silver gauntlet with a clouded mirror palm."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Găng Tay Trả Vật",
+        "name_en": "The Restoring Hand",
+        "description_vi": "Gọi một món quà trở về, phục hồi phần hư hại xảy ra sau lúc được trao vào găng.",
+        "description_en": "Calls back a gift, restoring damage incurred after it was entrusted to the glove."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-07",
+    "lore_vi": "Ở giữa ngôi thành đổ có một chiếc đinh nguyên vẹn xuyên qua nền đá sâu hơn cả móng tường. Bên cạnh nó nằm cây búa nhỏ, cán khắc một chữ đã mòn vì bao bàn tay chạm tới: chọn. Những dấu nện xung quanh tỏa thành vòng, còn chiếc đinh ở tâm giữ đúng đường thẳng qua mọi tầng đá.\n\nNgười cầm búa đặt mặt đầu lên một điểm rồi chọn hướng đi cho nhát kế tiếp. Khi búa rời tay, cả sức nặng của những vật đang đè lên điểm ấy nhập vào một đường lực duy nhất. Một nhát có thể nhấc then cổng khỏi núi đá hoặc tách chân tháp khỏi nền, chính xác tới bề rộng đầu đinh. Bàn tay người dùng phải giữ hướng cho tới khi lực đi hết; mọi sai lầm được thế giới thực hiện trọn vẹn.",
+    "lore_en": "At the heart of a ruined fortress, an intact nail passed through stone deeper than the walls’ foundations. Beside it lay a small hammer whose handle bore a word worn by countless hands: choose. Blows radiated around it in rings, while the central nail held a straight course through every stone layer.\n\nThe wielder rests the hammer’s face upon one point and chooses the next stroke’s direction. When the hammer lifts, the entire weight pressing upon that point gathers into a single line of force. One stroke may lift a gate bar from a mountain or separate a tower’s foot from its foundations, precise to a nail-head’s width. The wielder’s hand must maintain its chosen direction until the force has passed; the world carries every error through in full.",
+    "use_vi": "Gom sức ép đang đè lên một điểm thành một nhát có hướng duy nhất, đủ tháo hoặc phá kết cấu khổng lồ.",
+    "use_en": "Gathers pressure upon one point into a single directed stroke, sufficient to release or break immense structures.",
+    "limits_vi": "Phải chạm điểm chịu tải và chọn hướng trước. Búa không sửa lựa chọn; lực phản lại chạy qua tay người dùng nếu đường đã chọn bị chặn.",
+    "limits_en": "Must touch a loaded point and choose the direction beforehand. The hammer cannot correct the choice; an obstructed course drives the reaction through the wielder’s hand.",
+    "epigraph_vi": "Chọn chỗ thế giới phải chịu một nhát.",
+    "epigraph_en": "Choose where the world must bear one blow.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Búa thép nhỏ có mặt đầu không phản sáng.",
+        "description_en": "Small steel hammer with a lightless striking face."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Búa Một Nhát Đúng",
+        "name_en": "One Right Blow",
+        "description_vi": "Gom sức ép đang đè lên một điểm thành một nhát có hướng duy nhất, đủ tháo hoặc phá kết cấu khổng lồ.",
+        "description_en": "Gathers pressure upon one point into a single directed stroke, sufficient to release or break immense structures."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  },
+  {
+    "id": "armament-collection-7-08",
+    "lore_vi": "Khẩu súng được tìm trên con tàu đã mất cả cột buồm, nằm trong bàn tay một bộ xương đang chỉ về bờ. Buồng kín trống rỗng, nhưng mỗi đêm gió trở lại, vết ám hình ngón tay hiện trên bạc như người chết vẫn đang chờ một mục tiêu xứng đáng. Lần đầu người sống cầm nó, ngoài khơi vang lên tiếng đại bác của con tàu đã chìm.\n\nKhẩu súng giữ phát cuối cùng của mọi vũ khí đã im trong trận hải chiến ấy. Khi người mang chọn kết thúc, những phát chưa kịp bắn nhập thành một đường sáng xuyên qua biển, thành hoặc đoàn tàu đang chắn lối. Trong khoảnh khắc ấy, người bên cạnh nghe toàn bộ chiến trường cũ cùng khai hỏa. Sau phát bắn, bạc hóa muối và tan khỏi tay, để lại một vết ám không bao giờ rửa được trên ngón tay đã bóp cò.",
+    "lore_en": "The pistol was found aboard a ship stripped of every mast, in a skeleton’s hand pointing towards shore. Its sealed chamber was empty, yet whenever the night wind returned, a finger-shaped stain appeared upon the silver, as though the dead still awaited a worthy target. When a living hand first lifted it, a sunken ship’s cannon sounded offshore.\n\nThe pistol holds the final shot of every weapon silenced in that sea battle. When its bearer chooses an ending, those unfired rounds join in one line of light through sea, fortress or fleet barring the way. For that instant, those nearby hear the entire old battlefield fire together. Afterwards the silver becomes salt and dissolves from the hand, leaving an indelible stain upon the finger that pulled the trigger.",
+    "use_vi": "Giải phóng một đường hỏa lực hợp nhất từ những phát cuối chưa bắn của trận hải chiến đã giữ trong súng.",
+    "use_en": "Releases one line of fire gathering the sea battle’s final unfired shots stored within the pistol.",
+    "limits_vi": "Chỉ khai hỏa một lần rồi tự hủy. Đường sáng giữ hướng đã chọn qua mọi vật trên tuyến, buộc người dùng chịu trách nhiệm về toàn bộ đường bắn.",
+    "limits_en": "Fires once and consumes itself. The light maintains its chosen direction through everything along that line, making the bearer answer for its entire course.",
+    "epigraph_vi": "Phát cuối vẫn còn ở phía trước.",
+    "epigraph_en": "The final shot is still ahead.",
+    "traits": [
+      {
+        "name_vi": "Dấu tích trên hiện vật",
+        "name_en": "The object’s mark",
+        "description_vi": "Súng ngắn bạc có ổ đạn rỗng kín.",
+        "description_en": "Silver pistol with a sealed empty chamber."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vỏ Súng Giữ Phát Cuối",
+        "name_en": "The Last Discharge",
+        "description_vi": "Giải phóng một đường hỏa lực hợp nhất từ những phát cuối chưa bắn của trận hải chiến đã giữ trong súng.",
+        "description_en": "Releases one line of fire gathering the sea battle’s final unfired shots stored within the pistol."
+      }
+    ],
+    "applications": [],
+    "editorial_review_kind": "rewritten-lore-curated-abilities",
+    "editorial_review_version": "v5-final"
+  }
+]

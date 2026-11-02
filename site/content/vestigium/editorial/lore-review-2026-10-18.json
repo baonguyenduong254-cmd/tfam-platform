@@ -1,0 +1,5215 @@
+{
+  "reviewed": 520,
+  "revised": 495,
+  "canon_retained": 25,
+  "high_tier_rewritten": 127,
+  "removed_repetition": {
+    "specimen_boilerplate": 64,
+    "duplicated_use": 288,
+    "duplicated_limits": 112,
+    "duplicated_behavior": 91
+  },
+  "all_non_lore_fields_unchanged": true,
+  "records": [
+    {
+      "id": "mineral-voi-do",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 58,
+      "en_words": 49
+    },
+    {
+      "id": "mineral-phan-giu-dau",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 51
+    },
+    {
+      "id": "mineral-soi-go-suong",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 43
+    },
+    {
+      "id": "mineral-thach-hut-muoi",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-mica-bam-mep",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 56
+    },
+    {
+      "id": "mineral-muoi-cham-tan",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 49
+    },
+    {
+      "id": "mineral-da-ngam-tieng",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-san-doi-chieu",
+      "category": "mineral",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 50
+    },
+    {
+      "id": "mineral-thach-dong-suong",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 50
+    },
+    {
+      "id": "mineral-da-phan-mach",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-hac-thach-giu-sap",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-tinh-the-dem-giot",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 49
+    },
+    {
+      "id": "mineral-hoang-thach-nin-gio",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 50
+    },
+    {
+      "id": "mineral-soi-chi-ri",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 51
+    },
+    {
+      "id": "mineral-thach-gon-muc",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-da-tra-hoi",
+      "category": "mineral",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 49
+    },
+    {
+      "id": "mineral-lam-thach-doi-suc",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-ho-phach-man",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-thach-khau-nut",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-bach-khoang-can-chi",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 48
+    },
+    {
+      "id": "mineral-da-lang-bac",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-luc-ngoc-luu-ap",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-tu-khoang-lac-kim",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-thach-rut-sac",
+      "category": "mineral",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 60
+    },
+    {
+      "id": "mineral-ngan-thach-can-nhiet",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-huyet-ngoc-chot-mach",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-thach-giam-rung",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-lam-ngoc-mu-khoi",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 57
+    },
+    {
+      "id": "mineral-thach-khuyet-trong",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-ngoc-guong-muoi",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 59
+    },
+    {
+      "id": "mineral-ho-phach-nhan-vet",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-bich-khoang-kep-lua",
+      "category": "mineral",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-thach-lui-nut",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 55
+    },
+    {
+      "id": "mineral-ngoc-thuy-chung-dong",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 56
+    },
+    {
+      "id": "mineral-thach-hoang-hon",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 60
+    },
+    {
+      "id": "mineral-mac-ngoc-re-am",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-ngoc-long-gieng",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 55
+    },
+    {
+      "id": "mineral-thach-khoa-bong",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 58
+    },
+    {
+      "id": "mineral-kim-cuong-ngu-ap",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-thach-doi-suong",
+      "category": "mineral",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 56
+    },
+    {
+      "id": "mineral-ngoc-mot-hoi",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 55
+    },
+    {
+      "id": "mineral-thach-giu-nhip-cuoi",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-ngoc-trang-tenh",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 53
+    },
+    {
+      "id": "mineral-ho-phach-tro-sao",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-thach-tra-hinh",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 50
+    },
+    {
+      "id": "mineral-bich-thach-muon-lanh",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 54
+    },
+    {
+      "id": "mineral-ngoc-ngang-doc",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 52
+    },
+    {
+      "id": "mineral-thach-kin-lan",
+      "category": "mineral",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 76,
+      "en_words": 56
+    },
+    {
+      "id": "mineral-ngoc-cua-khong-mo",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 123,
+      "en_words": 89
+    },
+    {
+      "id": "mineral-thach-no-mot-nhip",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 105,
+      "en_words": 74
+    },
+    {
+      "id": "mineral-bach-ngoc-mat-trong",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 109,
+      "en_words": 75
+    },
+    {
+      "id": "mineral-tinh-the-ben-im",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 113,
+      "en_words": 73
+    },
+    {
+      "id": "mineral-ngoc-chon-tieng-chuong",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 108,
+      "en_words": 74
+    },
+    {
+      "id": "mineral-thach-hai-mat-nuoc",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 114,
+      "en_words": 78
+    },
+    {
+      "id": "mineral-ngoc-day-tuyet",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 103,
+      "en_words": 81
+    },
+    {
+      "id": "mineral-thach-duong-khep",
+      "category": "mineral",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 80
+    },
+    {
+      "id": "mineral-manh-da-chua-roi",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 83
+    },
+    {
+      "id": "mineral-ngoc-ghi-mau-dau-tien",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 78
+    },
+    {
+      "id": "mineral-hon-cuoi-tra-bo",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 84
+    },
+    {
+      "id": "mineral-thach-vet-nut-vang",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 76
+    },
+    {
+      "id": "mineral-ngoc-mot-hat-muoi",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 109,
+      "en_words": 72
+    },
+    {
+      "id": "mineral-tinh-the-nhan-binh-minh",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 77
+    },
+    {
+      "id": "mineral-thach-mat-sau-trong",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 113,
+      "en_words": 89
+    },
+    {
+      "id": "mineral-hach-khoang-khong-doi",
+      "category": "mineral",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 79
+    },
+    {
+      "id": "botanical-dewkeeping-moss",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 73
+    },
+    {
+      "id": "botanical-warmneedle-grass",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 88,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-chalkveil-lichen",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-knocking-pea",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-silverturn-leaf",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-slowink-fungus",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 70
+    },
+    {
+      "id": "botanical-stillwater-sedge",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 73
+    },
+    {
+      "id": "botanical-hourstitch-bloom",
+      "category": "botanical",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 70
+    },
+    {
+      "id": "botanical-mistglass-fern",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-redmarrow-bulb",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 76
+    },
+    {
+      "id": "botanical-coppercord-weed",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-rustdrinking-nettle",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 68
+    },
+    {
+      "id": "botanical-nightlamp-daisy",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-earthstitch-root",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 69
+    },
+    {
+      "id": "botanical-palesalt-bean",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-watchbell-mushroom",
+      "category": "botanical",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-blacklead-orchid",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-waterseeking-willow",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 69
+    },
+    {
+      "id": "botanical-frostneedle-bloom",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 67
+    },
+    {
+      "id": "botanical-footfall-moss",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-scentlock-sapling",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 82,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-stillness-pepper",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 64
+    },
+    {
+      "id": "botanical-windtwist-grass",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-ashring-fungus",
+      "category": "botanical",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-capillary-rose",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 69
+    },
+    {
+      "id": "botanical-cadence-bamboo",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 75
+    },
+    {
+      "id": "botanical-icevein-lotus",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 86,
+      "en_words": 74
+    },
+    {
+      "id": "botanical-soundknot-pine",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 78,
+      "en_words": 74
+    },
+    {
+      "id": "botanical-veilmist-vine",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 68
+    },
+    {
+      "id": "botanical-needlecompass-tuber",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 91,
+      "en_words": 75
+    },
+    {
+      "id": "botanical-tidechart-alga",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 63
+    },
+    {
+      "id": "botanical-hearthhush-chrysanthemum",
+      "category": "botanical",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 69
+    },
+    {
+      "id": "botanical-seamweaving-briar",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 86,
+      "en_words": 69
+    },
+    {
+      "id": "botanical-thermal-balance-orchid",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 82,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-witnessseal-oak",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 87,
+      "en_words": 70
+    },
+    {
+      "id": "botanical-smokepart-orchid",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 64
+    },
+    {
+      "id": "botanical-bridge-thread-shrub",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-turningbell-flower",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 77,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-pulsebreak-reed",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-retracing-inkcap",
+      "category": "botanical",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 89,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-longnight-cedar",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 82,
+      "en_words": 73
+    },
+    {
+      "id": "botanical-scentmemory-rose",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 72
+    },
+    {
+      "id": "botanical-silent-silver-willow",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 67
+    },
+    {
+      "id": "botanical-lightpart-iris",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 89,
+      "en_words": 68
+    },
+    {
+      "id": "botanical-twelve-knot-root",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 88,
+      "en_words": 71
+    },
+    {
+      "id": "botanical-waterlock-lotus",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 71
+    },
+    {
+      "id": "botanical-crackreading-thorn",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 66
+    },
+    {
+      "id": "botanical-seven-season-papercap",
+      "category": "botanical",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 68
+    },
+    {
+      "id": "botanical-dawnbearing-white-pine",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 71
+    },
+    {
+      "id": "botanical-mistwindow-orchid",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 93,
+      "en_words": 63
+    },
+    {
+      "id": "botanical-axeclosing-oak",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-longharp-vine",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 62
+    },
+    {
+      "id": "botanical-shadowbalance-lotus",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 86,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-frostpassing-grass",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 62
+    },
+    {
+      "id": "botanical-nighttrace-fungus",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 91,
+      "en_words": 59
+    },
+    {
+      "id": "botanical-countercadence-lichen",
+      "category": "botanical",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 59
+    },
+    {
+      "id": "botanical-the-lastseed-tree",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 68
+    },
+    {
+      "id": "botanical-gardeners-imprint-orchid",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 67
+    },
+    {
+      "id": "botanical-willow-of-one-sea-drop",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 65
+    },
+    {
+      "id": "botanical-the-unfallen-rose",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 93,
+      "en_words": 67
+    },
+    {
+      "id": "botanical-the-ungrown-bamboo",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 91,
+      "en_words": 60
+    },
+    {
+      "id": "botanical-the-unnumbered-lotus",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 64
+    },
+    {
+      "id": "botanical-the-inkless-letter-tree",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 70
+    },
+    {
+      "id": "botanical-horizon-lichen",
+      "category": "botanical",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 105,
+      "en_words": 69
+    },
+    {
+      "id": "creature-ember-beetle",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 74,
+      "en_words": 67
+    },
+    {
+      "id": "creature-dewkeeping-snail",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 52
+    },
+    {
+      "id": "creature-warmthread-silkworm",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 56
+    },
+    {
+      "id": "creature-needlefin-minnow",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 61
+    },
+    {
+      "id": "creature-frostthread-spider",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 50
+    },
+    {
+      "id": "creature-pale-copper-cricket",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 59
+    },
+    {
+      "id": "creature-earthknot-worm",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 55
+    },
+    {
+      "id": "creature-ash-firefly",
+      "category": "creature",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 58
+    },
+    {
+      "id": "creature-frostwax-bee",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 41
+    },
+    {
+      "id": "creature-veinscent-mouse",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 58
+    },
+    {
+      "id": "creature-wellbell-frog",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 49
+    },
+    {
+      "id": "creature-crevicelock-crab",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 56
+    },
+    {
+      "id": "creature-windmark-sparrow",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 55
+    },
+    {
+      "id": "creature-clearwater-shrimp",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 74,
+      "en_words": 52
+    },
+    {
+      "id": "creature-mirrorpowder-moth",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 50
+    },
+    {
+      "id": "creature-saltfeeding-leech",
+      "category": "creature",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 52
+    },
+    {
+      "id": "creature-echohound",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 29
+    },
+    {
+      "id": "creature-mistreading-owl",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 42,
+      "en_words": 35
+    },
+    {
+      "id": "creature-scriptback-tortoise",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 41,
+      "en_words": 29
+    },
+    {
+      "id": "creature-knotkeeping-ray",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 42,
+      "en_words": 36
+    },
+    {
+      "id": "creature-thinwall-beetle",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 32
+    },
+    {
+      "id": "creature-lightanchor-seahorse",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 38,
+      "en_words": 34
+    },
+    {
+      "id": "creature-stilltail-ferret",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 39
+    },
+    {
+      "id": "creature-reverseink-jellyfish",
+      "category": "creature",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 35
+    },
+    {
+      "id": "creature-glassantler-deer",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 40
+    },
+    {
+      "id": "creature-waveknot-octopus",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 36,
+      "en_words": 32
+    },
+    {
+      "id": "creature-returnvoice-bat",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 43,
+      "en_words": 33
+    },
+    {
+      "id": "creature-circuitmending-eel",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 33
+    },
+    {
+      "id": "creature-harbourmemory-dove",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 43,
+      "en_words": 36
+    },
+    {
+      "id": "creature-cinderear-fox",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 35
+    },
+    {
+      "id": "creature-shadowpatch-moth",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 42,
+      "en_words": 34
+    },
+    {
+      "id": "creature-evenstep-horse",
+      "category": "creature",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 43,
+      "en_words": 33
+    },
+    {
+      "id": "creature-dawnstitch-crane",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 33
+    },
+    {
+      "id": "creature-waterseal-seal",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 42,
+      "en_words": 32
+    },
+    {
+      "id": "creature-duskscale-serpent",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 33
+    },
+    {
+      "id": "creature-wordkeeping-raven",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 38
+    },
+    {
+      "id": "creature-coldsplitting-swordfish",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 40,
+      "en_words": 33
+    },
+    {
+      "id": "creature-dreamwatch-cat",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 36
+    },
+    {
+      "id": "creature-memoryarmour-pangolin",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 31
+    },
+    {
+      "id": "creature-seasonkeeping-swan",
+      "category": "creature",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 38,
+      "en_words": 35
+    },
+    {
+      "id": "creature-forestvoice-stag",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 38
+    },
+    {
+      "id": "creature-springbearing-tortoise",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 34
+    },
+    {
+      "id": "creature-silencegiving-owl",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 48,
+      "en_words": 36
+    },
+    {
+      "id": "creature-threshold-lynx",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 48,
+      "en_words": 28
+    },
+    {
+      "id": "creature-eightanchor-octopus",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 33
+    },
+    {
+      "id": "creature-homeward-horse",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 34
+    },
+    {
+      "id": "creature-sunkenbell-whale",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 31
+    },
+    {
+      "id": "creature-lastquay-hound",
+      "category": "creature",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 40
+    },
+    {
+      "id": "creature-voyageclosing-gull",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 72
+    },
+    {
+      "id": "creature-springbearing-hart",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 60
+    },
+    {
+      "id": "creature-onebeat-jellyfish",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 69
+    },
+    {
+      "id": "creature-deep-lanternfish",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 68
+    },
+    {
+      "id": "creature-returnweb-spider",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 61
+    },
+    {
+      "id": "creature-winterkeeping-nightingale",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 71
+    },
+    {
+      "id": "creature-moonreturn-tortoise",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 71
+    },
+    {
+      "id": "creature-nightwatch-reindeer",
+      "category": "creature",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 61
+    },
+    {
+      "id": "creature-the-last-bee",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 71
+    },
+    {
+      "id": "creature-carp-of-the-nameless-well",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 71
+    },
+    {
+      "id": "creature-the-horse-before-the-quay",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 69
+    },
+    {
+      "id": "creature-weaver-of-the-last-thread",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 62
+    },
+    {
+      "id": "creature-owl-of-the-absent-keeper",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 66
+    },
+    {
+      "id": "creature-seal-of-the-last-icehole",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 58
+    },
+    {
+      "id": "creature-moth-of-the-lost-colour",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 68
+    },
+    {
+      "id": "creature-tortoise-of-the-first-touch",
+      "category": "creature",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 74
+    },
+    {
+      "id": "material-bot-tao-nhiet",
+      "category": "material",
+      "rarity": 1,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 61,
+      "en_words": 54
+    },
+    {
+      "id": "material-mo-chong-bang-canon",
+      "category": "material",
+      "rarity": 1,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 59,
+      "en_words": 47
+    },
+    {
+      "id": "material-cat-khu-nhiet",
+      "category": "material",
+      "rarity": 2,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 58,
+      "en_words": 45
+    },
+    {
+      "id": "material-go-soi-sherwood",
+      "category": "material",
+      "rarity": 2,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 60,
+      "en_words": 46
+    },
+    {
+      "id": "material-bot-chan-dong",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 55
+    },
+    {
+      "id": "material-sap-giu-mep",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 54
+    },
+    {
+      "id": "material-cat-bao-nuoc",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 49
+    },
+    {
+      "id": "material-ho-bam-lanh",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 51
+    },
+    {
+      "id": "material-dau-dem-vong",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 54
+    },
+    {
+      "id": "material-bot-nam-yen",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 55
+    },
+    {
+      "id": "material-voi-nhan-tro",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 54
+    },
+    {
+      "id": "material-soi-giu-nep",
+      "category": "material",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 51
+    },
+    {
+      "id": "material-bot-so-ri",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 55
+    },
+    {
+      "id": "material-nhua-nhan-suong",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 62
+    },
+    {
+      "id": "material-muc-giu-kho",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 53
+    },
+    {
+      "id": "material-dich-chi-muoi",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 62
+    },
+    {
+      "id": "material-sap-tra-dau",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 53
+    },
+    {
+      "id": "material-bot-em-rong-roc",
+      "category": "material",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 54
+    },
+    {
+      "id": "material-soi-niu-giot",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 50
+    },
+    {
+      "id": "material-dich-nhuom-ap",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 51
+    },
+    {
+      "id": "material-nhua-lui-chay",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 62
+    },
+    {
+      "id": "material-muc-chi-xuoc",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 56
+    },
+    {
+      "id": "material-tam-bot-giam-mui",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 53
+    },
+    {
+      "id": "material-bot-mo-men",
+      "category": "material",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 54
+    },
+    {
+      "id": "material-thoi-dan-diu",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 54
+    },
+    {
+      "id": "material-dich-chot-sac",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 52
+    },
+    {
+      "id": "material-bot-tach-rung",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 56
+    },
+    {
+      "id": "material-soi-chi-ve",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 61
+    },
+    {
+      "id": "material-sap-dong-vet",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 47
+    },
+    {
+      "id": "material-dau-giu-gon",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 57
+    },
+    {
+      "id": "material-men-dong-lanh",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 55
+    },
+    {
+      "id": "material-bot-chua-dong",
+      "category": "material",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 53
+    },
+    {
+      "id": "material-dich-giu-mat",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 53
+    },
+    {
+      "id": "material-soi-niu-am",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 54
+    },
+    {
+      "id": "material-thoi-tra-luc",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 54
+    },
+    {
+      "id": "material-nhua-cat-sang",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 53
+    },
+    {
+      "id": "material-bot-goi-giot",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 63
+    },
+    {
+      "id": "material-men-nhan-xo",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 58
+    },
+    {
+      "id": "material-sap-muon-khuon",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 51
+    },
+    {
+      "id": "material-dich-ngung-men",
+      "category": "material",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 53
+    },
+    {
+      "id": "material-soi-chua-bong",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 58
+    },
+    {
+      "id": "material-thoi-tinh-am",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 59
+    },
+    {
+      "id": "material-muc-doi-mat",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 75,
+      "en_words": 58
+    },
+    {
+      "id": "material-dich-nho-doc",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 61
+    },
+    {
+      "id": "material-nhua-noi-vet",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 56
+    },
+    {
+      "id": "material-bot-giu-ria-lua",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 57
+    },
+    {
+      "id": "material-tam-sap-hai-dau",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 59
+    },
+    {
+      "id": "material-dau-ghim-hoi",
+      "category": "material",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 54
+    },
+    {
+      "id": "material-thoi-no-tieng",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 94,
+      "en_words": 68
+    },
+    {
+      "id": "material-dich-mat-guong-sau",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 86,
+      "en_words": 63
+    },
+    {
+      "id": "material-soi-cham-dut",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 65
+    },
+    {
+      "id": "material-men-giu-anh-tro",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 78,
+      "en_words": 60
+    },
+    {
+      "id": "material-bot-tat-duong-muc",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 86,
+      "en_words": 57
+    },
+    {
+      "id": "material-nhua-mot-nhip-lanh",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 79,
+      "en_words": 61
+    },
+    {
+      "id": "material-dich-doi-mep",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 89,
+      "en_words": 65
+    },
+    {
+      "id": "material-tam-ep-tra-sang",
+      "category": "material",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 62
+    },
+    {
+      "id": "material-thoi-duc-do-cuoi-cung",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 68
+    },
+    {
+      "id": "material-giot-muc-chua-kho",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 66
+    },
+    {
+      "id": "material-soi-chi-khong-dau",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 64
+    },
+    {
+      "id": "material-manh-men-giu-mua",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 65
+    },
+    {
+      "id": "material-sap-niem-mot-lan",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 69
+    },
+    {
+      "id": "material-la-kim-loai-lac-mat",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 74
+    },
+    {
+      "id": "material-bot-con-mot-hat",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 72
+    },
+    {
+      "id": "material-dich-ranh-binh-minh",
+      "category": "material",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 68
+    },
+    {
+      "id": "device-001",
+      "category": "device",
+      "rarity": 0,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 65,
+      "en_words": 48
+    },
+    {
+      "id": "device-002",
+      "category": "device",
+      "rarity": 2,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 64,
+      "en_words": 44
+    },
+    {
+      "id": "device-003",
+      "category": "device",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 95,
+      "en_words": 71
+    },
+    {
+      "id": "device-004",
+      "category": "device",
+      "rarity": 6,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 73,
+      "en_words": 52
+    },
+    {
+      "id": "device-005",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 47
+    },
+    {
+      "id": "device-006",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 52
+    },
+    {
+      "id": "device-007",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 72,
+      "en_words": 47
+    },
+    {
+      "id": "device-008",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 46
+    },
+    {
+      "id": "device-009",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 53
+    },
+    {
+      "id": "device-010",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 75,
+      "en_words": 43
+    },
+    {
+      "id": "device-011",
+      "category": "device",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 51
+    },
+    {
+      "id": "device-012",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 54,
+      "en_words": 39
+    },
+    {
+      "id": "device-013",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 46,
+      "en_words": 35
+    },
+    {
+      "id": "device-014",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 53,
+      "en_words": 40
+    },
+    {
+      "id": "device-015",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 53,
+      "en_words": 42
+    },
+    {
+      "id": "device-016",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 48,
+      "en_words": 45
+    },
+    {
+      "id": "device-017",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 52,
+      "en_words": 41
+    },
+    {
+      "id": "device-018",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 49,
+      "en_words": 35
+    },
+    {
+      "id": "device-019",
+      "category": "device",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 43,
+      "en_words": 32
+    },
+    {
+      "id": "device-020",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 38
+    },
+    {
+      "id": "device-021",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 36
+    },
+    {
+      "id": "device-022",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 51,
+      "en_words": 39
+    },
+    {
+      "id": "device-023",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 56,
+      "en_words": 36
+    },
+    {
+      "id": "device-024",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 45,
+      "en_words": 37
+    },
+    {
+      "id": "device-025",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 32
+    },
+    {
+      "id": "device-026",
+      "category": "device",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 49,
+      "en_words": 37
+    },
+    {
+      "id": "device-027",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 40
+    },
+    {
+      "id": "device-028",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 50,
+      "en_words": 36
+    },
+    {
+      "id": "device-029",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 49,
+      "en_words": 32
+    },
+    {
+      "id": "device-030",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 34
+    },
+    {
+      "id": "device-031",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 42,
+      "en_words": 33
+    },
+    {
+      "id": "device-032",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 48,
+      "en_words": 37
+    },
+    {
+      "id": "device-033",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 51,
+      "en_words": 39
+    },
+    {
+      "id": "device-034",
+      "category": "device",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 51,
+      "en_words": 35
+    },
+    {
+      "id": "device-035",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 32
+    },
+    {
+      "id": "device-036",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 44,
+      "en_words": 40
+    },
+    {
+      "id": "device-037",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 55,
+      "en_words": 37
+    },
+    {
+      "id": "device-038",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 53,
+      "en_words": 40
+    },
+    {
+      "id": "device-039",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 53,
+      "en_words": 36
+    },
+    {
+      "id": "device-040",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 52,
+      "en_words": 36
+    },
+    {
+      "id": "device-041",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 47,
+      "en_words": 31
+    },
+    {
+      "id": "device-042",
+      "category": "device",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 49,
+      "en_words": 41
+    },
+    {
+      "id": "device-043",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 94,
+      "en_words": 67
+    },
+    {
+      "id": "device-044",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 91,
+      "en_words": 61
+    },
+    {
+      "id": "device-045",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 78
+    },
+    {
+      "id": "device-046",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 68
+    },
+    {
+      "id": "device-047",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 72
+    },
+    {
+      "id": "device-048",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 70
+    },
+    {
+      "id": "device-049",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 66
+    },
+    {
+      "id": "device-050",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 103,
+      "en_words": 66
+    },
+    {
+      "id": "device-051",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 108,
+      "en_words": 71
+    },
+    {
+      "id": "device-052",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 97,
+      "en_words": 68
+    },
+    {
+      "id": "device-053",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 68
+    },
+    {
+      "id": "device-054",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 93,
+      "en_words": 56
+    },
+    {
+      "id": "device-055",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 62
+    },
+    {
+      "id": "device-056",
+      "category": "device",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 88,
+      "en_words": 59
+    },
+    {
+      "id": "device-057",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 106,
+      "en_words": 62
+    },
+    {
+      "id": "device-058",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 93,
+      "en_words": 69
+    },
+    {
+      "id": "device-059",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 67
+    },
+    {
+      "id": "device-060",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 61
+    },
+    {
+      "id": "device-061",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 58
+    },
+    {
+      "id": "device-062",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 60
+    },
+    {
+      "id": "device-063",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 66
+    },
+    {
+      "id": "device-064",
+      "category": "device",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 55
+    },
+    {
+      "id": "device-065",
+      "category": "device",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 102,
+      "en_words": 69
+    },
+    {
+      "id": "device-066",
+      "category": "device",
+      "rarity": 6,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 82,
+      "en_words": 60
+    },
+    {
+      "id": "device-067",
+      "category": "device",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 71,
+      "en_words": 61
+    },
+    {
+      "id": "device-068",
+      "category": "device",
+      "rarity": 0,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 72,
+      "en_words": 56
+    },
+    {
+      "id": "device-069",
+      "category": "device",
+      "rarity": 0,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 74,
+      "en_words": 51
+    },
+    {
+      "id": "device-last-lighthouse-lens",
+      "category": "device",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 129,
+      "en_words": 104
+    },
+    {
+      "id": "armament-edward-academy-sabre",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 70,
+      "en_words": 48
+    },
+    {
+      "id": "armament-gam-bao",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 62,
+      "en_words": 52
+    },
+    {
+      "id": "armament-gleipnir",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 64,
+      "en_words": 50
+    },
+    {
+      "id": "armament-marco-octava-forja",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 64,
+      "en_words": 45
+    },
+    {
+      "id": "armament-northwall",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 60,
+      "en_words": 45
+    },
+    {
+      "id": "armament-romeo-oathbreaker",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 58,
+      "en_words": 41
+    },
+    {
+      "id": "armament-skoll-hati",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 62,
+      "en_words": 49
+    },
+    {
+      "id": "armament-victoria-academy-sabre",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 70,
+      "en_words": 52
+    },
+    {
+      "id": "armament-winterthorn",
+      "category": "armament",
+      "rarity": 4,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 64,
+      "en_words": 55
+    },
+    {
+      "id": "armament-oathbearer",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 62,
+      "en_words": 43
+    },
+    {
+      "id": "armament-collection-0-01",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 54
+    },
+    {
+      "id": "armament-collection-0-02",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 54
+    },
+    {
+      "id": "armament-collection-0-03",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 57
+    },
+    {
+      "id": "armament-collection-0-04",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 59,
+      "en_words": 48
+    },
+    {
+      "id": "armament-collection-0-05",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 51
+    },
+    {
+      "id": "armament-collection-0-06",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 47
+    },
+    {
+      "id": "armament-collection-0-07",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 53
+    },
+    {
+      "id": "armament-collection-0-08",
+      "category": "armament",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 50
+    },
+    {
+      "id": "armament-collection-1-01",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 49
+    },
+    {
+      "id": "armament-collection-1-02",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 50
+    },
+    {
+      "id": "armament-collection-1-03",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 48
+    },
+    {
+      "id": "armament-collection-1-04",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 53
+    },
+    {
+      "id": "armament-collection-1-05",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 47
+    },
+    {
+      "id": "armament-collection-1-06",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 46
+    },
+    {
+      "id": "armament-collection-1-07",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 51
+    },
+    {
+      "id": "armament-collection-1-08",
+      "category": "armament",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 50
+    },
+    {
+      "id": "armament-collection-2-01",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 44
+    },
+    {
+      "id": "armament-collection-2-02",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 50
+    },
+    {
+      "id": "armament-collection-2-03",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 47
+    },
+    {
+      "id": "armament-collection-2-04",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 44
+    },
+    {
+      "id": "armament-collection-2-05",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 59,
+      "en_words": 51
+    },
+    {
+      "id": "armament-collection-2-06",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 46
+    },
+    {
+      "id": "armament-collection-2-07",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 38
+    },
+    {
+      "id": "armament-collection-2-08",
+      "category": "armament",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 45
+    },
+    {
+      "id": "armament-collection-3-01",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 49
+    },
+    {
+      "id": "armament-collection-3-02",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 50
+    },
+    {
+      "id": "armament-collection-3-03",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 43
+    },
+    {
+      "id": "armament-collection-3-04",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 42
+    },
+    {
+      "id": "armament-collection-3-05",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 44
+    },
+    {
+      "id": "armament-collection-3-06",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 43
+    },
+    {
+      "id": "armament-collection-3-07",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 52
+    },
+    {
+      "id": "armament-collection-3-08",
+      "category": "armament",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 46
+    },
+    {
+      "id": "armament-collection-5-01",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 61
+    },
+    {
+      "id": "armament-collection-5-02",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 62
+    },
+    {
+      "id": "armament-collection-5-03",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 75,
+      "en_words": 60
+    },
+    {
+      "id": "armament-collection-5-04",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 83,
+      "en_words": 66
+    },
+    {
+      "id": "armament-collection-5-05",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 58
+    },
+    {
+      "id": "armament-collection-5-06",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 62
+    },
+    {
+      "id": "armament-collection-5-07",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 56
+    },
+    {
+      "id": "armament-collection-5-08",
+      "category": "armament",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 79,
+      "en_words": 59
+    },
+    {
+      "id": "armament-collection-6-01",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 105,
+      "en_words": 70
+    },
+    {
+      "id": "armament-collection-6-02",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 61
+    },
+    {
+      "id": "armament-collection-6-03",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 68
+    },
+    {
+      "id": "armament-collection-6-04",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 58
+    },
+    {
+      "id": "armament-collection-6-05",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 68
+    },
+    {
+      "id": "armament-collection-6-06",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 51
+    },
+    {
+      "id": "armament-collection-6-07",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 58
+    },
+    {
+      "id": "armament-collection-6-08",
+      "category": "armament",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 65
+    },
+    {
+      "id": "armament-collection-7-01",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 111,
+      "en_words": 75
+    },
+    {
+      "id": "armament-collection-7-02",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 66
+    },
+    {
+      "id": "armament-collection-7-03",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 111,
+      "en_words": 71
+    },
+    {
+      "id": "armament-collection-7-04",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 67
+    },
+    {
+      "id": "armament-collection-7-05",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 106,
+      "en_words": 64
+    },
+    {
+      "id": "armament-collection-7-06",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 67
+    },
+    {
+      "id": "armament-collection-7-07",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 64
+    },
+    {
+      "id": "armament-collection-7-08",
+      "category": "armament",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 67
+    },
+    {
+      "id": "phenomenon-inward-dew",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 55
+    },
+    {
+      "id": "phenomenon-the-standing-ashline",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 45
+    },
+    {
+      "id": "phenomenon-the-slow-light-pool",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 48
+    },
+    {
+      "id": "phenomenon-the-timber-scent-corner",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 51
+    },
+    {
+      "id": "phenomenon-dew-on-the-last-step",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 44
+    },
+    {
+      "id": "phenomenon-ticks-in-the-mortar",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 56,
+      "en_words": 45
+    },
+    {
+      "id": "phenomenon-the-window-dust-ring",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 57,
+      "en_words": 43
+    },
+    {
+      "id": "phenomenon-the-nails-offset-shadow",
+      "category": "phenomenon",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 45
+    },
+    {
+      "id": "phenomenon-rain-upon-one-tile",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 50
+    },
+    {
+      "id": "phenomenon-the-under-table-draught",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-lamplight-pollen",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 53
+    },
+    {
+      "id": "phenomenon-the-spoons-quiet-gap",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 54
+    },
+    {
+      "id": "phenomenon-the-remaining-sunthread",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 45
+    },
+    {
+      "id": "phenomenon-the-ring-retaining-water",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 48
+    },
+    {
+      "id": "phenomenon-the-dewless-step",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-sound-along-the-beam",
+      "category": "phenomenon",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 50
+    },
+    {
+      "id": "phenomenon-snow-beneath-a-sealed-roof",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-the-last-sentence-passage",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 50
+    },
+    {
+      "id": "phenomenon-leaves-upon-white-stone",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 56
+    },
+    {
+      "id": "phenomenon-the-shallow-mirror-inlet",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 54
+    },
+    {
+      "id": "phenomenon-the-heat-holding-fold",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-the-twice-coughed-room",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 48
+    },
+    {
+      "id": "phenomenon-the-undried-inkline",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 49
+    },
+    {
+      "id": "phenomenon-the-brass-night-ring",
+      "category": "phenomenon",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 48
+    },
+    {
+      "id": "phenomenon-the-rootshadow-garden",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 53
+    },
+    {
+      "id": "phenomenon-one-minute-of-sideways-rain",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-the-flower-colour-chamber",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 50
+    },
+    {
+      "id": "phenomenon-the-water-sound-alcove",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 51
+    },
+    {
+      "id": "phenomenon-the-slow-shadow-length",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 55
+    },
+    {
+      "id": "phenomenon-the-wall-less-vapour-cage",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 49
+    },
+    {
+      "id": "phenomenon-the-needletrace-mist",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 43
+    },
+    {
+      "id": "phenomenon-the-borrowed-dusk-window",
+      "category": "phenomenon",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 53
+    },
+    {
+      "id": "phenomenon-the-pool-remembering-one-wind",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 73,
+      "en_words": 53
+    },
+    {
+      "id": "phenomenon-the-stair-of-high-notes",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 44
+    },
+    {
+      "id": "phenomenon-the-two-season-shadow-garden",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 50
+    },
+    {
+      "id": "phenomenon-the-chamber-of-lit-fissures",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 42
+    },
+    {
+      "id": "phenomenon-the-silence-between-two-bells",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 49
+    },
+    {
+      "id": "phenomenon-the-curtain-of-past-rain",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 49
+    },
+    {
+      "id": "phenomenon-the-lettershadow-table",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 58
+    },
+    {
+      "id": "phenomenon-the-waterline-beneath-the-lamp",
+      "category": "phenomenon",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 51
+    },
+    {
+      "id": "phenomenon-night-within-one-room",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 84,
+      "en_words": 61
+    },
+    {
+      "id": "phenomenon-the-river-of-one-survey",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 57
+    },
+    {
+      "id": "phenomenon-the-old-footfall-corridor",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 52
+    },
+    {
+      "id": "phenomenon-the-stone-chord-vault",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 54
+    },
+    {
+      "id": "phenomenon-winter-within-the-wall-niche",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 80,
+      "en_words": 58
+    },
+    {
+      "id": "phenomenon-the-manuscript-mist-layer",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 89,
+      "en_words": 56
+    },
+    {
+      "id": "phenomenon-the-flat-sea-of-the-courtyard",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 85,
+      "en_words": 62
+    },
+    {
+      "id": "phenomenon-the-passage-of-vanished-scents",
+      "category": "phenomenon",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 81,
+      "en_words": 58
+    },
+    {
+      "id": "phenomenon-the-city-beneath-one-mist",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 66
+    },
+    {
+      "id": "phenomenon-the-pool-holding-an-old-sky",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 105,
+      "en_words": 69
+    },
+    {
+      "id": "phenomenon-the-room-of-two-dawns",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 102,
+      "en_words": 58
+    },
+    {
+      "id": "phenomenon-the-quiet-zone-holding-every-note",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 56
+    },
+    {
+      "id": "phenomenon-the-felled-tree-shadow-court",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 53
+    },
+    {
+      "id": "phenomenon-rain-preserving-the-gaps",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 106,
+      "en_words": 56
+    },
+    {
+      "id": "phenomenon-the-load-remembering-vault",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 101,
+      "en_words": 57
+    },
+    {
+      "id": "phenomenon-the-dawn-of-a-single-song",
+      "category": "phenomenon",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 64
+    },
+    {
+      "id": "phenomenon-the-blank-beyond-the-map",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 120,
+      "en_words": 70
+    },
+    {
+      "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 100,
+      "en_words": 59
+    },
+    {
+      "id": "phenomenon-the-night-rejecting-an-invented-star",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 106,
+      "en_words": 64
+    },
+    {
+      "id": "phenomenon-the-rain-that-falls-once",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 105,
+      "en_words": 64
+    },
+    {
+      "id": "phenomenon-the-court-of-the-unnamed-shadow",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 109,
+      "en_words": 63
+    },
+    {
+      "id": "phenomenon-the-light-for-a-later-witness",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 55
+    },
+    {
+      "id": "phenomenon-the-water-that-keeps-no-face",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 66
+    },
+    {
+      "id": "phenomenon-the-space-left-for-a-return",
+      "category": "phenomenon",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 73
+    },
+    {
+      "id": "entity-the-wick-keeper",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 49
+    },
+    {
+      "id": "entity-the-dew-guest",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 51
+    },
+    {
+      "id": "entity-the-stitch-counter",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 44
+    },
+    {
+      "id": "entity-the-ash-sweeper",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 49
+    },
+    {
+      "id": "entity-the-page-holder",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 48
+    },
+    {
+      "id": "entity-the-pipe-listener",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 44
+    },
+    {
+      "id": "entity-the-chalkline-guest",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-tick-bearer",
+      "category": "entity",
+      "rarity": 0,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 59,
+      "en_words": 44
+    },
+    {
+      "id": "entity-the-keeper-of-greetings",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 60,
+      "en_words": 43
+    },
+    {
+      "id": "entity-the-nail-clerk",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 47
+    },
+    {
+      "id": "entity-the-watch-pillow-shade",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 52
+    },
+    {
+      "id": "entity-the-chipped-cup-guest",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 53
+    },
+    {
+      "id": "entity-the-knot-watcher",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 59,
+      "en_words": 47
+    },
+    {
+      "id": "entity-the-raindrop-reader",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 55,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-bead-custodian",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 47
+    },
+    {
+      "id": "entity-the-bell-sitter",
+      "category": "entity",
+      "rarity": 1,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 58,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-breath-scribe",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 48
+    },
+    {
+      "id": "entity-the-last-ink-keeper",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 67,
+      "en_words": 51
+    },
+    {
+      "id": "entity-the-husk-ferryman",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 41
+    },
+    {
+      "id": "entity-the-crack-sentinel",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 48
+    },
+    {
+      "id": "entity-the-needle-shadow-guide",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 49
+    },
+    {
+      "id": "entity-the-guest-beneath-the-mask",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 61,
+      "en_words": 43
+    },
+    {
+      "id": "entity-the-grain-reader",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 62,
+      "en_words": 45
+    },
+    {
+      "id": "entity-the-footprint-clerk",
+      "category": "entity",
+      "rarity": 2,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-librarian-of-blanks",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-bell-mediator",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 52
+    },
+    {
+      "id": "entity-the-patch-dweller",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 48
+    },
+    {
+      "id": "entity-the-extinguished-candle-guest",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 68,
+      "en_words": 54
+    },
+    {
+      "id": "entity-the-weaver-of-intervals",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-last-shift-keeper",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 47
+    },
+    {
+      "id": "entity-the-rest-planter",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 64,
+      "en_words": 42
+    },
+    {
+      "id": "entity-the-balance-witness",
+      "category": "entity",
+      "rarity": 3,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 42
+    },
+    {
+      "id": "entity-the-keeper-of-a-small-autumn",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 65,
+      "en_words": 51
+    },
+    {
+      "id": "entity-the-draft-patron",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 42
+    },
+    {
+      "id": "entity-the-window-bearer",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 51
+    },
+    {
+      "id": "entity-the-chorus-bearer",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 69,
+      "en_words": 50
+    },
+    {
+      "id": "entity-the-threshold-keeper",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 70,
+      "en_words": 49
+    },
+    {
+      "id": "entity-the-old-harbour-rememberer",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 63,
+      "en_words": 48
+    },
+    {
+      "id": "entity-the-moonshadow-seamstress",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 66,
+      "en_words": 46
+    },
+    {
+      "id": "entity-the-empty-seat-keeper",
+      "category": "entity",
+      "rarity": 4,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 71,
+      "en_words": 53
+    },
+    {
+      "id": "entity-testarossa",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "canon",
+      "review": "canon retained; no new facts or mechanics",
+      "changed": false,
+      "vi_words": 82,
+      "en_words": 62
+    },
+    {
+      "id": "entity-the-weigher-of-promises",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 63
+    },
+    {
+      "id": "entity-the-burier-of-cannon-echoes",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 92,
+      "en_words": 63
+    },
+    {
+      "id": "entity-the-reader-of-dismantled-streets",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 64
+    },
+    {
+      "id": "entity-the-portrait-waiter",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 98,
+      "en_words": 63
+    },
+    {
+      "id": "entity-the-keeper-of-unwritten-names",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 90,
+      "en_words": 59
+    },
+    {
+      "id": "entity-the-bearer-of-seven-dawns",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 96,
+      "en_words": 64
+    },
+    {
+      "id": "entity-the-keeper-of-stone-strain",
+      "category": "entity",
+      "rarity": 5,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 95,
+      "en_words": 61
+    },
+    {
+      "id": "entity-the-keeper-of-the-unburnt-library",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 106,
+      "en_words": 65
+    },
+    {
+      "id": "entity-the-witness-of-first-snow",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 111,
+      "en_words": 74
+    },
+    {
+      "id": "entity-the-counter-of-closed-doors",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 120,
+      "en_words": 71
+    },
+    {
+      "id": "entity-the-infirmary-rhythm-keeper",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 110,
+      "en_words": 58
+    },
+    {
+      "id": "entity-the-echo-interlocutor",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 99,
+      "en_words": 62
+    },
+    {
+      "id": "entity-the-bridge-shadow-builder",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 112,
+      "en_words": 68
+    },
+    {
+      "id": "entity-the-tide-in-a-bowl-bearer",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 102,
+      "en_words": 63
+    },
+    {
+      "id": "entity-the-final-performance-keeper",
+      "category": "entity",
+      "rarity": 6,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 107,
+      "en_words": 59
+    },
+    {
+      "id": "entity-the-keeper-of-one-apology",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 111,
+      "en_words": 63
+    },
+    {
+      "id": "entity-the-witness-of-the-blank-page",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 112,
+      "en_words": 65
+    },
+    {
+      "id": "entity-the-bearer-of-the-last-chair",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 104,
+      "en_words": 56
+    },
+    {
+      "id": "entity-the-witness-of-an-unlit-fire",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 116,
+      "en_words": 67
+    },
+    {
+      "id": "entity-the-folded-horizon-bearer",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 111,
+      "en_words": 74
+    },
+    {
+      "id": "entity-the-keeper-of-its-own-name",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 118,
+      "en_words": 73
+    },
+    {
+      "id": "entity-the-sleeper-between-two-knocks",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 108,
+      "en_words": 69
+    },
+    {
+      "id": "entity-the-keeper-of-tomorrows-place",
+      "category": "entity",
+      "rarity": 7,
+      "origin": "collection",
+      "review": "individual bilingual narrative revision",
+      "changed": true,
+      "vi_words": 114,
+      "en_words": 75
+    }
+  ]
+}

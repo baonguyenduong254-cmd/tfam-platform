@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-knocking-pea",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Một giàn đậu mọc trên hòm la bàn cũ chôn dưới luống rau. Kim la bàn đã rỉ, còn ba mảnh khoáng lam trong ổ kim ngấm vào rễ qua nước mưa. Vụ sau, mỗi quả chỉ có ba hạt, cùng quay phần nhọn về một phía như đang chờ lệnh.\n\nKhi sương xuống, chúng gõ vào vỏ. Người giữ vườn nghe tiếng trong túi hạt lúc đang khóa nhà kính, quay lại che những chồi non trước đêm rét. Các hạt sinh sau vẫn giữ thói quen ấy, khiến một quả đậu khô cũng đủ làm chiếc chuông nhỏ cho kho lương.",
+    "lore_en": "A pea vine grew over an old compass chest buried beneath a vegetable bed. Its needle had rusted, while three blue mineral chips from the pivot seeped into roots with rainwater. The next crop bore three peas to each pod, all pointing one way as though awaiting an order.\n\nWhen dew descended, they knocked against their shells. A gardener heard them in his seed pouch while locking the glasshouse and returned to cover young shoots before the freeze. Later generations retained the habit, making a dry pod a little bell for a granary.",
+    "use_vi": "Báo không khí đang ẩm lên trong kho hạt và hộp thuốc súng.",
+    "use_en": "Warn of rising humidity in seed stores and powder cases.",
+    "limits_vi": "Nhịp chỉ báo xu hướng, cần so với quả đã quen. Rung tàu che tiếng; vỏ bị nứt khiến hạt gõ loạn và mất dấu báo.",
+    "limits_en": "The beat indicates a trend and needs a familiar reference pod. Ship vibration masks it; a cracked shell produces disorderly knocks and loses the warning.",
+    "skills": [
+      {
+        "name_vi": "Gõ báo sương",
+        "name_en": "Dew Warning",
+        "description_vi": "Treo quả bằng sợi mềm tách khỏi vách hộp để ba hạt gõ nhanh dần khi ẩm tăng; người giữ cần nghe nhịp nền trước lúc giao ca.",
+        "description_en": "Suspend the pod by soft thread clear of the case wall so its three peas knock faster as humidity rises; the keeper must learn its resting beat before taking watch."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ba hạt thức gác",
+        "name_en": "Three Seeds on Watch",
+        "description_vi": "Quả còn nguyên khô có thể gõ qua nhiều lượt ẩm; ngâm nước làm hạt nảy mầm và khép lượt canh ấy.",
+        "description_en": "An intact dry pod can sound through repeated humid spells; soaking germinates the peas and ends that watch."
+      }
+    ]
+  }
+]

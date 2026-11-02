@@ -1,0 +1,46 @@
+/* Shared daylight surfaces for auxiliary HUDs and standalone rooms. */
+body.tfam-editorial.tfam-royal :is(.context-hud,.quick-preview,.site-tools-popover,.reader-account-dialog,.account-avatar-picker,.reading-room-header){
+ background:var(--royal-surface)!important;color:var(--royal-ink)!important;
+ border-color:var(--royal-rule)!important;box-shadow:0 12px 36px #503b2522;
+}
+body.tfam-editorial.tfam-royal :is(.context-hud,.quick-preview,.site-tools-popover,.reader-account-dialog,.reading-room-header) :is(h2,h3,strong,a,button,select,input){color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.context-hud,.quick-preview,.site-tools-popover,.reader-account-dialog) :is(p,small){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.context-hud,.site-tools-popover,.reader-account-dialog) :is(button,select,input){background:var(--royal-paper)}
+body.tfam-editorial.tfam-royal :is(.account-import,.account-welcome) h3{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .reading-room{background:var(--royal-paper)}
+body.tfam-editorial.tfam-royal .reading-room-header>span{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .reading-room>footer{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .command-utilities :is(.gear-toggle,.reader-account-button){background:var(--royal-paper);box-shadow:none;border-color:var(--royal-rule);color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .quick-view-trigger{background:var(--royal-surface);color:var(--royal-accent);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.quick-preview,.context-hud,.reader-account-dialog,.site-tools-popover){max-height:calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom));overflow:auto;overscroll-behavior:contain}
+body.tfam-editorial.tfam-royal :is(button,a,summary,input,select,textarea):focus-visible{outline:2px solid var(--royal-accent);outline-offset:3px}
+.reading-room-header>*{min-width:0}
+.reading-room-header>a{flex-shrink:0}
+.reading-room-header>span{overflow-wrap:anywhere}
+.enhanced-reader :is(.story-reader,.story-contents,.reader-tools,.reading-resume>div){min-width:0}
+.enhanced-reader .story-prose{overflow-wrap:break-word}
+.enhanced-reader .reader-tools{display:flex;flex-wrap:wrap;gap:8px}
+.enhanced-reader .reader-tools button{min-width:44px;min-height:44px}
+.enhanced-reader .reader-section-bar{flex-wrap:wrap}
+.reader-account-dialog{box-sizing:border-box;scrollbar-gutter:stable}
+@media(max-width:760px){
+ body.tfam-editorial .site-section-nav{grid-template-columns:32px minmax(0,1fr) 32px;padding:10px 14px;gap:4px 8px}
+ body.tfam-editorial .site-section-brand{font-size:20px;text-align:center;justify-content:center;max-width:none}
+ body.tfam-editorial .site-section-nav>div{grid-column:1/-1;grid-row:2;flex-wrap:nowrap;gap:20px;justify-content:center}
+ body.tfam-editorial .site-section-nav>div>a{font-size:14px;min-height:44px;padding:4px 0}
+ body.tfam-editorial .site-section-nav .site-end-emblem,body.tfam-editorial .site-section-nav .site-end-emblem svg{width:30px;height:36px}
+ .reading-room-header{flex-wrap:wrap;gap:10px;padding-top:max(12px,env(safe-area-inset-top))}
+ .reading-room-header>span{order:-1;width:100%;justify-content:center;text-align:center}
+ .reading-room-header .reading-room-music{flex-basis:100%}
+ .reading-room-header .reader-account-button{margin-left:auto;max-width:150px}
+ .reader-account-dialog{width:calc(100vw - 24px);padding:18px 14px}
+ .reader-account-dialog :is(button,a){min-height:44px}
+ .context-hud{top:max(8px,env(safe-area-inset-top));max-width:calc(100vw - 20px);flex-wrap:wrap;justify-content:center}
+ .quick-preview{right:10px;bottom:max(16px,env(safe-area-inset-bottom));width:calc(100vw - 20px);box-sizing:border-box}
+ .site-section-nav{flex-wrap:wrap;gap:8px}
+ .site-section-nav>div{width:100%;min-width:0;overflow-x:auto;justify-content:flex-start;scrollbar-width:thin}
+ .site-section-nav>div>a{flex-shrink:0}
+ .campaign-app .command-bar-with-tools .tfam-main-nav{overflow-x:auto;scrollbar-width:thin;justify-content:flex-start}
+ .campaign-app .command-bar-with-tools .tfam-main-nav>*{flex-shrink:0}
+ .enhanced-reader .reader-section-bar>span{font-size:12px}
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-nail-clerk",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Thùng đinh được đóng bằng gỗ từ một hòm khoáng cũ. Người chủ xưởng ghi số lên thành mỗi lần rót đinh vào, rồi một hôm thấy đường gỉ tự mọc dưới số mới, kéo thành một người nhỏ cầm que. Nó theo thùng khi đinh bị đổ hết, đứng giữa đáy gỗ chờ lượt tiếp theo.\n\nNgười thư ký thích đinh cùng cỡ. Đinh cong được nó đẩy thành hàng riêng sát mép, như một cách nhắc chủ rằng đếm đủ vẫn chưa chắc làm xong một chiếc hòm. Người chủ để que ghi số bên thùng, dành chỗ cạnh mình cho một đồng nghiệp làm bằng những đường sắt đang mục.",
+    "lore_en": "The nail box was made from an old mineral chest. Its owner wrote a count on its side after each refill, until rust grew beneath a fresh number and drew itself into a little clerk carrying a stick. It stayed with the box when all nails were emptied, waiting upon the wooden bottom.\n\nThe clerk prefers one size of nail. It pushes bent ones into a separate row, reminding its owner that a correct count alone does not finish a crate. The craftsman leaves a tally stick beside the box and makes room for a colleague drawn in decaying iron.",
+    "use_vi": "Đếm mẻ đinh đồng nhất và tách những chiếc cong rõ trên đáy thùng.",
+    "use_en": "Count uniform nail batches and separate visibly bent pieces upon the box floor.",
+    "limits_vi": "Một lượt tối đa bốn mươi, vật trộn làm số lẫn. Nước muối khiến thư ký ngủ nhiều ngày; đinh có nứt chìm vẫn cần người thợ kiểm.",
+    "limits_en": "A batch holds at most forty; mixed objects confuse the count. Saltwater puts the clerk to sleep for days; hidden nail fractures still need human inspection.",
+    "skills": [
+      {
+        "name_vi": "Ghi mẻ đinh",
+        "name_en": "Tally the Batch",
+        "description_vi": "Đổ từng mẻ cùng cỡ vào thùng rồi để đáy yên để thư ký vạch số bằng gỉ, đếm tới bốn mươi trước khi cần đổ mẻ mới.",
+        "description_en": "Pour a same-sized batch into the box and leave its floor still so the clerk writes a rust tally, up to forty before a fresh batch is needed."
+      },
+      {
+        "name_vi": "Đẩy đinh cong",
+        "name_en": "Set the Bent Nails Aside",
+        "description_vi": "Trải một lớp mỏng trên đáy để thư ký lăn những chiếc cong rõ về mép; các chiếc đè nhau phải được người dùng giãn ra.",
+        "description_en": "Spread a thin floor layer so the clerk rolls clearly bent nails to the edge; the user must separate overlapping pieces."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Theo thùng theo việc",
+        "name_en": "Bound to Box and Task",
+        "description_vi": "Các đường gỉ đi theo vân gỗ gốc. Bào sạch thành trong sẽ xóa chỗ thư ký đứng cho đến khi gỉ mọc lại.",
+        "description_en": "Rust follows the original wood grain. Planing the interior removes the clerk’s footing until it grows back."
+      }
+    ]
+  }
+]

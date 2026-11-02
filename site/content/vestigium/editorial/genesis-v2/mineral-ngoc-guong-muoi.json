@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-ngoc-guong-muoi",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Người thợ mài lấy viên ngọc khỏi hốc đá dưới một vựa muối bỏ hoang. Trong hốc còn nguyên một vũng nước, dù ba đời người giữ mỏ đều nhớ năm hạn đã làm đáy giếng nứt trắng. Ông nhúng ngọc vào vũng ấy. Mặt ngọc hiện lên bàn tay đang nhúng từ phía dưới, cùng một khuôn mặt cúi nhìn mà ông chỉ nhận ra khi chạm lên vết sẹo của mình.\n\nNhững lớp muối quanh vũng đã kết thành những vòng triều li ti. Mỗi vòng giữ một lần nước rút; ở giữa, một giọt nước vẫn đang đi tìm phần biển từng thuộc về nó. Ngọc Gương Muối hình thành nơi cuộc chia lìa ấy cứ diễn ra mãi. Khi nhận nước mặn, nó lần theo quan hệ giữa giọt nước và nguồn, rồi dựng mối liên hệ đó thành một mặt gương có thể nhìn xuyên.\n\nCác hoa tiêu mang ngọc trong hộp bạc lót rong khô. Có người nhìn thấy xác tàu trước cả khi buông chì dò đáy; có người phải bịt mắt suốt chuyến về, vì mỗi bát canh đều phản chiếu ngọn hải đăng đã chìm từ thời ông nội họ.",
+    "lore_en": "A lapidary took the gem from a hollow beneath an abandoned salt store. A pool remained there, although three generations of mine keepers remembered the drought that had cracked the well bed white. He dipped the gem into it. Its face showed his entering hand from below, together with a leaning face he recognised only when he touched his own scar.\n\nThe salt around the pool had formed tiny tidal rings. Each retained a withdrawal of water; at their centre, a drop was still seeking the sea it had once belonged to. Saltmirror Gems form where that separation happens endlessly. Given saltwater, a gem follows the relationship between the drop and its source, then makes that relationship into a seeing glass.\n\nPilots carry them in silver boxes lined with dry weed. Some have seen a wreck before casting the sounding lead; others have travelled home blindfolded because every bowl of broth reflected a lighthouse drowned in their grandfather's day.",
+    "use_vi": "Nhìn qua mẫu nước để khảo sát nguồn, dò dòng chảy và giữ một cửa quan sát dưới mặt nước.",
+    "use_en": "Look through a water sample to survey its source, trace currents and sustain a viewing aperture below the surface.",
+    "limits_vi": "Phải biết mẫu lấy từ đâu. Nước trộn nhiều nguồn tạo ảnh chồng; máu của người soi khiến ngọc tìm biển trong ký ức người ấy. Mỗi lần soi lâu kết thêm muối trên mắt và phải được rửa bằng nước ngọt trước khi ngủ.",
+    "limits_en": "The sample must have a known origin. Mixed waters superimpose images; the viewer’s blood makes the gem seek seas in that person’s memory. Prolonged viewing deposits salt upon the eyes, which must be washed with fresh water before sleep.",
+    "skills": [
+      {
+        "name_vi": "Đáy nguồn",
+        "name_en": "Source Bed",
+        "description_vi": "Nhỏ mẫu lên ngọc để nhìn đáy nơi đã lấy nước; bùn đang bị khuấy che tầm nhìn như khi lặn thật.",
+        "description_en": "Place a sample upon the gem to see the bed where it was drawn; disturbed silt obscures sight as it would a diver’s."
+      },
+      {
+        "name_vi": "Mắt dưới sống tàu",
+        "name_en": "Eye Beneath the Keel",
+        "description_vi": "Áp ngọc ướt vào sống tàu để nhìn lớp ván chìm từ bên ngoài; mắt soi mất khả năng nhìn boong cho đến khi nhấc ngọc.",
+        "description_en": "Press the wet gem to a keel to inspect submerged planking from outside; the viewer loses sight of the deck until the gem is lifted."
+      },
+      {
+        "name_vi": "Vệt nước hồi hương",
+        "name_en": "Homebound Water",
+        "description_vi": "Thả một hạt muối vào ảnh để nó vạch hướng dòng đang đưa mẫu trở về nguồn; dòng phân nhánh chia vệt sáng thành nhiều lối.",
+        "description_en": "Drop a salt grain into the image to trace the current returning the sample towards its source; branching currents divide the luminous trail."
+      },
+      {
+        "name_vi": "Đèn không chìm",
+        "name_en": "Unsinking Lamp",
+        "description_vi": "Đặt đèn sau ngọc để chiếu ánh sáng vào vùng nước đang soi; hơi nóng của đèn làm mẫu cạn nhanh.",
+        "description_en": "Place a lamp behind the gem to cast light into the water being viewed; the lamp’s heat rapidly dries the sample."
+      },
+      {
+        "name_vi": "Bọt báo người",
+        "name_en": "Breath of Warning",
+        "description_vi": "Hà hơi lên mặt ngọc để những bọt nhỏ nổi tại điểm đang quan sát, gửi tín hiệu đã hẹn với thợ lặn; mỗi tín hiệu cướp một hơi thở thật.",
+        "description_en": "Breathe upon the gem to raise small bubbles at the observed point, signalling a diver by an agreed code; each signal costs an actual breath."
+      },
+      {
+        "name_vi": "Đọc mặn",
+        "name_en": "Read the Salt",
+        "description_vi": "Liếm một góc ngọc để phân biệt các luồng nước đang gặp nhau trong ảnh; vị mặn lạ lưu lại cho đến khi người soi uống nước cùng nguồn.",
+        "description_en": "Taste a corner of the gem to distinguish converging waters in the image; the unfamiliar salinity remains until the viewer drinks water from that source."
+      },
+      {
+        "name_vi": "Neo mắt",
+        "name_en": "Anchor the Eye",
+        "description_vi": "Buộc sợi tóc quanh ngọc để giữ góc nhìn tại một cột buồm chìm hay mỏm đá, dù nước tiếp tục chảy; sợi tóc bạc trắng khi mối neo đứt.",
+        "description_en": "Tie a hair around the gem to fix its view upon a drowned mast or rock while water flows past; the hair turns white when the anchorage breaks."
+      },
+      {
+        "name_vi": "Khép biển",
+        "name_en": "Close the Sea",
+        "description_vi": "Phủ muối khô kín mặt ngọc để cắt cả ảnh lẫn những hình đang bám theo ánh nhìn; phải bỏ toàn bộ lớp muối ấy xuống nguồn nước trước lần dùng kế.",
+        "description_en": "Cover the gem completely with dry salt to sever the image and any shapes following the viewer’s gaze; that salt must all be returned to the source before another use."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển còn trong giọt",
+        "name_en": "The Sea Within the Drop",
+        "description_vi": "Mặt gương nhận quan hệ nguồn nước. Chiếc bình chỉ là nơi tạm giữ; một giọt nước tàu mang xa vẫn có thể tìm lại vùng biển của nó.",
+        "description_en": "The mirror recognises a water’s origin. Its vessel is temporary lodging; a drop carried far aboard ship can still find its own sea."
+      }
+    ]
+  }
+]

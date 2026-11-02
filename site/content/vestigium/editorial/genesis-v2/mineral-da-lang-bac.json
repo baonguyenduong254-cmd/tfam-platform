@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-da-lang-bac",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Các viên đá xám mọc quanh một gốc than chỉ cháy trong im lặng. Người đốt lấy than đi thì đá bắt đầu phát tiếng lách tách cũ, trong khi đống lửa mới cạnh đó mất riêng phần âm của mình. Trong hốc có những đốm màu như bấc cháy, nhưng móc ra chỉ thu được đá lạnh.\n\nNgười giữ thử được bốn cách giao tiếp với phần tiếng lửa ấy. Có viên cất tiếng của buổi hong bánh cuối ca, có viên mang tiếng trại cháy trở về trong một căn phòng yên. Mẫu vẫn chọn ngọn lửa bằng một quan hệ chưa gọi được tên; nó có thể khiến lửa im, nhưng người ngồi bên sẽ phải nhớ rằng im lặng không làm một thứ bớt có thể thiêu mình.",
+    "lore_en": "Grey stones grew around a coal-root burning silently. Removed coal left the stones releasing its old crackle while a nearby fresh fire lost only its sound. Their hollows held wick-coloured specks that became cold stone when extracted.\n\nKeepers learnt four ways to engage this fire-sound. Some retained a bakery’s last warmth; others returned a burning camp to a quiet room. Their selection followed an unnamed relation. Silencing flame did not make it less able to burn its listener.",
+    "use_vi": "Tách, giữ, chuyển và so âm của ngọn lửa được đá nhận.",
+    "use_en": "Separate, retain, relay and compare the sound of an accepted flame.",
+    "limits_vi": "Ánh sáng, khói và phần nguy hiểm khác của lửa vẫn còn. Nạp nhiều đám lửa làm tiếng lẫn, còn hốc quá nóng có thể trả mọi âm cùng lúc.",
+    "limits_en": "Light, smoke and other fire-hazards remain. Multiple fires mingle their sounds; overheating may release them together.",
+    "skills": [
+      {
+        "name_vi": "Im bấc",
+        "name_en": "Quiet the Wick",
+        "description_vi": "Quay hốc về ngọn đã nhận để tiếng cháy bị kéo vào. Dời ngọn khỏi vùng nhận khiến tiếng trở lại mà chẳng báo trước.",
+        "description_en": "Face its hollow to draw in an accepted flame’s sound. A moved flame regains its voice without warning."
+      },
+      {
+        "name_vi": "Cất giọng lửa",
+        "name_en": "Keep the Fire’s Voice",
+        "description_vi": "Khép hốc bằng sáp khi đang nhận để giữ một lượt âm. Mở sáp bằng nhiệt có thể làm cả âm cũ lẫn tiếng nứt hốc tràn ra.",
+        "description_en": "Seal with wax during reception to retain one passage. Heat-opening may release both sound and cracking stone."
+      },
+      {
+        "name_vi": "Đưa tiếng sang hốc khác",
+        "name_en": "Send to Another Hollow",
+        "description_vi": "Hai mẫu cùng gốc chạm một lần để tiếng nhận ở viên này phát tại viên kia. Thay viên ghép bằng mẫu lạ khiến đường trả đi sai.",
+        "description_en": "Touch kindred stones to relay sound between them. Substituting an unrelated piece misdirects its return."
+      },
+      {
+        "name_vi": "So thứ đang cháy",
+        "name_en": "Compare What Burns",
+        "description_vi": "Cho hai lượt lửa từ nhiên liệu khác nhau đi vào hốc để nghe đường khác trong tiếng. Nó cho khác biệt, không tự gọi tên nhiên liệu.",
+        "description_en": "Offer fires from different fuels to hear their differing patterns. It compares rather than naming fuel."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chỉ nhận giọng lửa",
+        "name_en": "Only the Fire’s Voice",
+        "description_vi": "Tiếng người sát bên vẫn đi qua khoảng yên, khiến âm lửa bị mất trở nên rõ như một chỗ vừa bị khoét khỏi phòng.",
+        "description_en": "Nearby speech passes through its quiet, making missing fire-sound conspicuous as a hollow cut from the room."
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "scope": "Vol.I–III · TFAM – Editor Choice; fills six unfinished atlas dossiers.",
+  "canon_sources": [
+    {
+      "title": "Vol.I - TFAM - Editor Choice",
+      "id": "1eHK4W6fAn-k-DsSOWt185SiVX0WtKAJe9i3-CqssBIw",
+      "modified": "2026-10-02T04:35:27.906Z",
+      "anchors": [
+        "Marrakesh: Inverness 1704, Wallace captured and released Edward; Scottish clan cohesion; possible northern contact.",
+        "Castilian New World bases lost or isolated; Portuguese Vestigium-bearing Conquistadores."
+      ]
+    },
+    {
+      "title": "Vol.II - TFAM - Editor Choice",
+      "id": "1DGvtSUHBvQqnCZmzfHgQNDvrNcTxKN6ieS_p1x_N7s4",
+      "modified": "2026-10-02T04:33:23.626Z",
+      "anchors": [
+        "Beckett: ruined England requires sustained protection and logistics; no viable current restoration.",
+        "Duarte at Santiago; Lourenço at Tagus; Galicia campaign; Rouge exile to Poland.",
+        "Wallace killed by Edward only in the alternate-world memory, NOT the main timeline."
+      ]
+    },
+    {
+      "title": "Vol.III - TFAM - Editor Choice",
+      "id": "1cx0Ol6pgi_QDsNPk-itQxzi9XIy7XqkTbPdxZ92-BiE",
+      "modified": "2026-10-02T04:32:59.870Z",
+      "anchors": [
+        "Madrid council: Rouge crowned in Kraków, official Habsburg–Polish state name, conditional Convergence Clause, Danes witness, ongoing Novgorod war.",
+        "Portuguese truce, ransom and repatriation; Duarte prisoner, Lourenço safe conduct.",
+        "Lourenço: Portuguese 1704–1705 operations in England, commander exceeded orders and remains in the New World.",
+        "Timothy Beaumont awarded Military Grand Cross and Nueve, retains English identity while serving Castilian.",
+        "Gibraltar: Edward and Beckett promise future restoration, not present reconquest."
+      ]
+    }
+  ],
+  "newly_authored_under_user_authorization": {
+    "habsburg_poland": "Pre-1716 territorial coalition and details of the eastern political refuge; retain source-established Rouge coronation.",
+    "novgorod_union": "1478 Moscow annexation reversed; enduring city union, elected Pyotr Romanov with centralized military reforms; Finland conquest follows existing map.",
+    "danes_kingdom": "Margrete I and Kalmar foundation shifted three centuries later to 1697, unified northern crown; Finland loss follows map; coalition and treaty witness anchored in novel.",
+    "scotland_ireland_union": "Formal Scottish–Irish compact, councils, capital and guard units; Wallace and Inverness taken from main timeline.",
+    "england_ruins": "Expository connective tissue and presentation of Timothy as survivor representative, not ruler of English ruins.",
+    "new_portuguese_empire": "Court transfer to Rio advanced from real-history 1808; Council and named commanders from novel, existing coastal map retained."
+  },
+  "historical_reference_urls": [
+    "https://novgorodmuseum.ru/muzei/vladychnaya-granovitaya-palata",
+    "https://medeltiden.kalmarlansmuseum.se/en/society/the-kalmar-union/",
+    "https://nav.shm.ru/en/exhibits/1499/",
+    "https://www.gov.br/imprensanacional/pt-br/centrais-de-conteudo/info-produtos-da-exposicao-especial/periodo-joanino-180820131821-a-imprensa-regia-e-a-corte-no-brasil"
+  ],
+  "preserved": [
+    "Castilian, Holy France, Western Rome, Moor and all other completed dossiers",
+    "Territory maps for both years",
+    "Story chapters",
+    "Later author edits to fields already completed in the UI"
+  ],
+  "no_new_story_chapter_canon": "These web-lore expansions do not modify any Editor Choice manuscript."
+}

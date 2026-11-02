@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-tick-bearer",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Một chiếc đồng hồ khảm đồng có hạt khoáng trong ổ trục bị tháo máy để thay lò xo. Người thợ vẫn nghe tiếng tích sau khi nhấc bánh cuối cùng ra. Trong vỏ hộp, bóng tròn ôm đốm đồng đi tới đi lui giữa hai dấu bánh răng như một người giao thư chưa nhận ra nhà đã dọn hết.\n\nĐặt hai bánh xuống bàn, bóng chuyển theo và tiếp tục mang tiếng từ bánh này sang bánh kia. Người thợ để chúng xa vừa đủ cho nó đi hết nhịp. Học trò tập cuốn cót bằng tiếng ấy, rồi đợi bóng nghỉ trước khi cất những bánh rời vào hộp.",
+    "lore_en": "A copper-inlaid clock with a mineral grain in its pivot was dismantled for a spring replacement. The repairer still heard ticking after removing its last wheel. Inside the case, a round figure carrying a copper mote walked between two gear marks like a courier unaware the house had been emptied.\n\nWhen two wheels were set on the bench, the figure moved with them and carried its sound between them. The repairer spaced them just far enough for its whole beat. Apprentices practise winding to that sound and wait for its bearer to rest before boxing the loose wheels.",
+    "use_vi": "Nhắc lại một nhịp ngắn để luyện tay hoặc so chuyển động của cơ cấu nhỏ.",
+    "use_en": "Repeat a short beat for manual practice or comparison of small mechanisms.",
+    "limits_vi": "Chỉ giữ vài chục nhịp rồi trôi dần; cần nguồn nhịp mới để nhận lại. Hai bánh quá xa khiến bóng quay về một đầu và lặp sai khoảng.",
+    "limits_en": "It retains only a few dozen beats before drifting and needs a fresh source. Excessively separated wheels send it back to one end and distort the interval.",
+    "skills": [
+      {
+        "name_vi": "Mang nhịp",
+        "name_en": "Carry the Beat",
+        "description_vi": "Cho hai bánh gốc nghe một nhịp đều rồi đặt chúng cách nhau vừa phải để bóng chuyền đốm đồng và lặp nhịp; lấy nhịp mới trước khi lượt cũ trôi.",
+        "description_en": "Let the two original wheels receive a steady beat, then space them moderately so the figure carries its copper mote and repeats it; renew the reference before drift sets in."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đường đi của tiếng tích",
+        "name_en": "The Tick’s Little Road",
+        "description_vi": "Bóng mang tiếng theo khoảng giữa hai bánh gốc. Di chuyển chúng đổi cách đi nên phải căn lại trước dùng.",
+        "description_en": "The figure carries sound between its original wheels. Moving them changes its walk and requires recalibration."
+      }
+    ]
+  }
+]

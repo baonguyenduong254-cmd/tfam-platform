@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-scentlock-sapling",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Cây dầu nảy trong một hòm hương bị chìm, rễ ôm chiếc bình khoáng vỡ giữa quế và vải áo. Nhựa đầu mùa đóng thành những giọt trong, mỗi giọt giữ riêng mùi của thứ đã chạm nó. Người vớt mang một giọt qua lửa; hương quế của chiếc hòm cũ trở lại nguyên vẹn giữa mùi bùn.\n\nCành giâm vẫn cho nhựa khóa mùi, từng giọt đứng cạnh nhau mà chẳng trộn hương. Một học trò giữ mùi khăn mẹ trong lá gói nhựa, tránh hong mẫu gần bếp. Khi đi xa, cậu chỉ mở gói lúc có cửa sổ để hương có đường rời phòng sau khi đã được nhớ lại.",
+    "lore_en": "An oil tree sprouted inside a sunken perfume chest, its roots embracing a broken mineral bottle among cinnamon and cloth. Its first resin formed clear drops, each holding the scent of whatever touched it. A salvager warmed one over a flame; the old chest’s cinnamon returned intact amid the smell of mud.\n\nCuttings still yielded scent-locking resin, neighbouring drops keeping separate fragrances. An apprentice preserved his mother’s scarf in a resin packet and kept it away from the stove. Travelling, he opened it only beside a window so the fragrance could leave the room after being remembered.",
+    "use_vi": "Lưu và giải mùi cho đối chiếu hàng hóa, dấu nhận biết hoặc kỷ vật.",
+    "use_en": "Store and release scents for goods comparison, recognition signals or keepsakes.",
+    "limits_vi": "Nhựa giữ mùi cảm nhận, còn độc tính và thành phần gốc cần xét riêng. Nhiệt mạnh xả hết một lần; mặt gói sần làm mùi rò sớm.",
+    "limits_en": "Resin retains perceived scent; toxicity and original composition require separate assessment. Strong heat releases it all at once, and rough wrapping makes scent leak early.",
+    "skills": [
+      {
+        "name_vi": "Khóa hương",
+        "name_en": "Lock the Scent",
+        "description_vi": "Để nhựa sống chạm vật có mùi rồi tách thành một giọt tròn để giữ hương; tay người lấy mẫu cũng có thể thêm mùi vào đó.",
+        "description_en": "Touch living resin to a scented object and separate a round drop to retain its fragrance; the sampler’s hand can contaminate it."
+      },
+      {
+        "name_vi": "Mở ấm",
+        "name_en": "Warm Opening",
+        "description_vi": "Ủ giọt trong tay để nhả hương từng chút cho người nhận đối chiếu; hơ lửa trực tiếp sẽ tiêu hết mẫu trong một lượt.",
+        "description_en": "Warm a drop in the hand to release scent gradually for comparison; direct flame spends the sample in one discharge."
+      },
+      {
+        "name_vi": "Dấu mùi hẹn",
+        "name_en": "The Appointed Scent",
+        "description_vi": "Gắn một giọt lên mối buộc để ma sát khi tháo làm hương đã hẹn thoát ra, báo niêm vừa được mở; mở trong lạnh sâu có thể chỉ làm giọt nứt.",
+        "description_en": "Fix a drop to a knot so untying friction releases an agreed scent and warns of opening; deep cold may merely crack it."
+      },
+      {
+        "name_vi": "Ghép mẫu thử",
+        "name_en": "Pair the Samples",
+        "description_vi": "Làm ấm hai giọt riêng cạnh nhau để người ngửi so hương theo lượt mà khỏi trộn mẫu gốc; cần cho khứu giác nghỉ giữa hai lần.",
+        "description_en": "Warm two separate drops in turn for scent comparison without mixing the originals; allow the nose to rest between them."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mỗi giọt một phòng",
+        "name_en": "A Room in Every Drop",
+        "description_vi": "Giọt nguyên vẹn giữ hương riêng; ép các giọt vỡ vào nhau tạo một mùi mới khó gỡ.",
+        "description_en": "An intact drop holds its own fragrance; crushing drops together creates a new scent difficult to untangle."
+      }
+    ]
+  }
+]

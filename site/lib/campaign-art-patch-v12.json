@@ -1,0 +1,50 @@
+{
+  "castilian_empire": {
+    "flag_asset": "/campaign/castilian-emblem.webp",
+    "backdrop_asset": "/campaign/castilian-backdrop.webp"
+  },
+  "holy_french_kingdom": {
+    "flag_asset": "/campaign/holy-france-emblem.webp",
+    "backdrop_asset": "/campaign/holy-france-backdrop.webp"
+  },
+  "western_roman_empire": {
+    "flag_asset": "/campaign/western-rome-emblem.webp",
+    "backdrop_asset": "/campaign/western-rome-backdrop.webp"
+  },
+  "sultanate_of_morocco": {
+    "flag_asset": "/campaign/morocco-emblem.webp",
+    "backdrop_asset": "/campaign/morocco-backdrop.webp"
+  },
+  "habsburg_poland": {
+    "flag_asset": "/campaign/habsburg-poland-emblem.webp",
+    "backdrop_asset": "/campaign/habsburg-poland-backdrop.webp"
+  },
+  "novgorod_union": {
+    "flag_asset": "/campaign/novgorod-emblem.webp",
+    "backdrop_asset": "/campaign/novgorod-backdrop.webp"
+  },
+  "ottoman_empire": {
+    "flag_asset": "/campaign/ottoman-emblem.webp",
+    "backdrop_asset": "/campaign/ottoman-backdrop.webp"
+  },
+  "danes_kingdom": {
+    "flag_asset": "/campaign/danes-emblem.webp",
+    "backdrop_asset": "/campaign/danes-backdrop.webp"
+  },
+  "scotland_ireland_union": {
+    "flag_asset": "/campaign/scotland-ireland-emblem.webp",
+    "backdrop_asset": "/campaign/scotland-ireland-backdrop.webp"
+  },
+  "england_ruins": {
+    "flag_asset": "/campaign/england-ruins-emblem.webp",
+    "backdrop_asset": "/campaign/england-ruins-backdrop.webp"
+  },
+  "new_portuguese_empire": {
+    "flag_asset": "/campaign/new-portugal-emblem.webp",
+    "backdrop_asset": "/campaign/new-portugal-backdrop.webp"
+  },
+  "british_east_india_company": {
+    "flag_asset": "/campaign/british-east-india-company-emblem.webp",
+    "backdrop_asset": "/campaign/british-east-india-company-backdrop.webp"
+  }
+}

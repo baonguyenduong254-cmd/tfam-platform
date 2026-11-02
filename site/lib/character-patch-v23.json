@@ -1,0 +1,2101 @@
+{
+  "characters": [
+    {
+      "id": "victoria_valdes",
+      "faction_id": "castilian_empire",
+      "name": "Victoria Valdes",
+      "name_vi": "Victoria Valdes",
+      "name_en": "Victoria Valdes",
+      "role_vi": "Tổng trấn Marrakesh",
+      "role_en": "Governor of Marrakesh",
+      "lore_vi": "Victoria từng phụ trách hậu cần quân đội Anh trước khi trở thành Tổng trấn Marrakesh. Bên những chồng báo cáo và bản đồ phân phối, cô giữ thành phố sống qua mùa đông. Khi gia đình Spencer tới trong kiệt quệ, cô mở cửa nhà và cho họ một nơi để bắt đầu lại.",
+      "lore_en": "Victoria served in English military logistics before becoming governor of Marrakesh. Amid reports and distribution maps, she keeps the city alive through winter. When the exhausted Spencer family arrives, she opens her home and gives them somewhere to begin again.",
+      "skills_vi": [
+        "Điều phối quân nhu",
+        "Quản trị đô thị",
+        "Phân phối lương thực"
+      ],
+      "skills_en": [
+        "Military logistics",
+        "Urban administration",
+        "Food distribution"
+      ],
+      "traits_vi": [
+        "Quyết đoán",
+        "Quan tâm người lưu vong",
+        "Khắt khe với báo cáo"
+      ],
+      "traits_en": [
+        "Decisive",
+        "Protective of refugees",
+        "Exacting with reports"
+      ],
+      "status_vi": {
+        "1715": "Giữ Marrakesh và tiếp nhận gia đình Spencer.",
+        "1716": "Tiếp tục gánh trách nhiệm dân sinh trong cuộc chiến Bắc Phi."
+      },
+      "status_en": {
+        "1715": "Governs Marrakesh and shelters the Spencer family.",
+        "1716": "Continues managing civilian needs during the North African war."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "marco_stones",
+      "faction_id": "castilian_empire",
+      "name": "Marco Stones",
+      "name_vi": "Marco Stones",
+      "name_en": "Marco Stones",
+      "role_vi": "Cận vệ Hoàng gia · Chỉ huy Quân đoàn II",
+      "role_en": "Royal Guard · Commander of the Second Legion",
+      "lore_vi": "Từng là đại tá lục quân Anh, Marco chỉ huy Quân đoàn II của Castilian. Tại Fes, những con đường và căn nhà buộc ông sửa kế hoạch sơ tán của mình. Ông tìm đến đại diện từng cộng đồng, để người sống trong thành phố cùng quyết định đường thoát của họ.",
+      "lore_en": "Formerly an English army colonel, Marco commands Castilian’s Second Legion. In Fes, streets and homes force him to revise his evacuation plan. He consults community representatives so that the people living in the city can help determine their own escape routes.",
+      "skills_vi": [
+        "Chỉ huy bộ binh",
+        "Phòng thủ đô thị",
+        "Tổ chức sơ tán"
+      ],
+      "skills_en": [
+        "Infantry command",
+        "Urban defence",
+        "Evacuation planning"
+      ],
+      "traits_vi": [
+        "Điềm tĩnh",
+        "Biết sửa quyết định",
+        "Chịu trách nhiệm trước dân"
+      ],
+      "traits_en": [
+        "Composed",
+        "Willing to revise decisions",
+        "Accountable to civilians"
+      ],
+      "status_vi": {
+        "1715": "Phục vụ Castilian trong Quân đoàn II.",
+        "1716": "Phối hợp với các cộng đồng Fes để giữ dân và phòng tuyến."
+      },
+      "status_en": {
+        "1715": "Serves Castilian in the Second Legion.",
+        "1716": "Works with the communities of Fes to protect civilians and defensive lines."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "pierrot_de_kenway",
+      "faction_id": "holy_french_kingdom",
+      "name": "Pierrot de Kenway",
+      "name_vi": "Pierrot de Kenway",
+      "name_en": "Pierrot de Kenway",
+      "role_vi": "Thuyền trưởng Le Triomphant",
+      "role_en": "Captain of Le Triomphant",
+      "lore_vi": "Pierrot mang hai thanh kiếm và cách ứng xử như người đang bước lên sân khấu. Cuộc đối đầu với Edward trên biển phơi bày sự tàn nhẫn ấy. Đến Cagliari, hắn giữ hạm đội ngoài tầm pháo bờ, đóng cửa pháo và đưa một chiếc thuyền sứ giả vào bến: từng động tác đều có khán giả.",
+      "lore_en": "Pierrot carries two sabres and behaves as though stepping onto a stage. His confrontation with Edward at sea exposes his cruelty. At Cagliari, he keeps the fleet outside shore-battery range, closes its gunports and sends in a single envoy boat; every gesture has an audience.",
+      "skills_vi": [
+        "Chỉ huy chiến hạm",
+        "Đấu kiếm đôi",
+        "Gây sức ép bằng hạm đội"
+      ],
+      "skills_en": [
+        "Warship command",
+        "Dual-sabre fighting",
+        "Fleet coercion"
+      ],
+      "traits_vi": [
+        "Phô diễn",
+        "Tàn nhẫn",
+        "Đọc phản ứng đối thủ"
+      ],
+      "traits_en": [
+        "Theatrical",
+        "Cruel",
+        "Attentive to opponents’ reactions"
+      ],
+      "status_vi": {
+        "1715": "Đối đầu Edward trong chiến tranh trên biển.",
+        "1716": "Đưa hạm đội tới Cagliari trong thế gây sức ép ngoại giao."
+      },
+      "status_en": {
+        "1715": "Confronts Edward in the naval war.",
+        "1716": "Brings his fleet to Cagliari to exert diplomatic pressure."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "sheikh_ibrahim",
+      "faction_id": "sultanate_of_morocco",
+      "name": "Sheikh Ibrahim",
+      "name_vi": "Sheikh Ibrahim",
+      "name_en": "Sheikh Ibrahim",
+      "role_vi": "Đại diện cộng đồng Moor tại Fes",
+      "role_en": "Moorish community representative in Fes",
+      "lore_vi": "Sheikh Ibrahim đem tiếng nói của những gia đình Fes tới bàn chỉ huy. Ông hỏi ai được quyền chọn căn nhà nào đáng giữ, rồi cùng Marco xem lại đường sơ tán. Từ mái nhà kho, những ngõ phố hiện thành đời sống của từng người, đòi hỏi người cầm quân phải nhìn kỹ hơn.",
+      "lore_en": "Sheikh Ibrahim brings the families of Fes to the command table. He asks who has the right to decide which homes deserve saving, then reviews evacuation routes with Marco. From a warehouse roof, the streets reveal individual lives that commanders must examine more closely.",
+      "skills_vi": [
+        "Hòa giải cộng đồng",
+        "Tổ chức nơi trú ẩn",
+        "Đọc mạng lưới phố"
+      ],
+      "skills_en": [
+        "Community mediation",
+        "Shelter organisation",
+        "Reading street networks"
+      ],
+      "traits_vi": [
+        "Thẳng thắn",
+        "Gắn bó với Fes",
+        "Bảo vệ quyền quyết định của dân"
+      ],
+      "traits_en": [
+        "Candid",
+        "Rooted in Fes",
+        "Defends civilian agency"
+      ],
+      "status_vi": {
+        "1715": "Đại diện các gia đình Moor trong khủng hoảng Bắc Phi.",
+        "1716": "Giữ vai trò cộng đồng trong việc bảo vệ và sơ tán Fes."
+      },
+      "status_en": {
+        "1715": "Represents Moorish families during the North African crisis.",
+        "1716": "Maintains community participation in protecting and evacuating Fes."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "jose",
+      "faction_id": "habsburg_poland",
+      "name": "José",
+      "name_vi": "José",
+      "name_en": "José",
+      "role_vi": "Sứ thần Habsburg–Ba Lan",
+      "role_en": "Habsburg–Polish envoy",
+      "lore_vi": "José từng đem những yêu cầu về quân và lương tới Madrid. Khi trở lại phòng hội đồng năm 1716, ông mang áo choàng đen viền đỏ và dấu sáp Habsburg. Người ông gọi là Hoàng đế giờ là Rouge; những người bên kia bàn vẫn nhớ ông từng đứng ở đâu.",
+      "lore_en": "José once brought requests for troops and provisions to Madrid. Returning to the council room in 1716, he wears a black cloak with red trim and carries a Habsburg seal. The man he now calls Emperor is Rouge; those across the table still remember his former position.",
+      "skills_vi": [
+        "Thương lượng ngoại giao",
+        "Đọc điều kiện viện trợ",
+        "Giữ liên lạc giữa các triều đình"
+      ],
+      "skills_en": [
+        "Diplomatic negotiation",
+        "Assessing aid terms",
+        "Maintaining court communications"
+      ],
+      "traits_vi": [
+        "Thận trọng",
+        "Bền bỉ",
+        "Mang lòng trung thành qua biến động"
+      ],
+      "traits_en": [
+        "Cautious",
+        "Persistent",
+        "Loyal through political upheaval"
+      ],
+      "status_vi": {
+        "1715": "Tham gia những thương lượng về quân và lương quanh cuộc tranh quyền.",
+        "1716": "Trở lại Madrid với tư cách sứ thần của Hoàng đế Rouge."
+      },
+      "status_en": {
+        "1715": "Participates in negotiations over troops and provisions during the succession struggle.",
+        "1716": "Returns to Madrid as Emperor Rouge’s envoy."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "edward_spencer",
+      "faction_id": "england_ruins",
+      "name": "Edward Spencer",
+      "name_vi": "Edward Spencer",
+      "name_en": "Edward Spencer",
+      "role_vi": "Cựu đô đốc Hải quân Anh · Chỉ huy phục vụ Castilian",
+      "role_en": "Former English admiral · Commander serving Castilian",
+      "lore_vi": "Edward mang ký ức Inverness và nước Anh đã sụp đổ tới Marrakesh. Isabella kéo anh trở lại chiến tranh, nơi tài chỉ huy hạm đội đi cùng những lựa chọn mà gia đình và thủy thủ phải chịu giá. Hồ sơ đặt anh trong cộng đồng Anh lưu vong; lực lượng anh chỉ huy đang phục vụ Castilian.",
+      "lore_en": "Edward carries memories of Inverness and England’s collapse to Marrakesh. Isabella draws him back into war, where his command of fleets accompanies choices paid for by family and sailors. His dossier belongs to the English exile community; the forces he commands serve Castilian.",
+      "skills_vi": [
+        "Chỉ huy hạm đội",
+        "Đọc hải trình và hỏa lực",
+        "Phối hợp vũ khí Vestigium"
+      ],
+      "skills_en": [
+        "Fleet command",
+        "Reading sea routes and fields of fire",
+        "Coordinating Vestigium weapons"
+      ],
+      "traits_vi": [
+        "Gánh trách nhiệm nặng",
+        "Gắn bó với gia đình",
+        "Dễ đẩy bản thân quá giới hạn"
+      ],
+      "traits_en": [
+        "Burdened by responsibility",
+        "Devoted to family",
+        "Prone to exceeding his limits"
+      ],
+      "status_vi": {
+        "1715": "Rời đời sống lưu vong ở Marrakesh để trở lại phục vụ Castilian.",
+        "1716": "Chỉ huy qua chiến tranh và tham gia tái thiết; hôn nhân với Nữ hoàng không tự trao ngôi vua."
+      },
+      "status_en": {
+        "1715": "Leaves exile in Marrakesh to return to Castilian service.",
+        "1716": "Commands through the war and joins reconstruction; marriage to the Queen does not automatically confer kingship."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "juliet_spencer",
+      "faction_id": "england_ruins",
+      "name": "Juliet Spencer",
+      "name_vi": "Juliet Spencer",
+      "name_en": "Juliet Spencer",
+      "role_vi": "Người tổ chức cứu tế · Nữ Hộ Quốc từ cuối 1716",
+      "role_en": "Civilian relief organiser · Lady Protector from late 1716",
+      "lore_vi": "Juliet giữ những gia đình tan tác có thức ăn, chỗ ngủ và người để nương tựa. Công việc ấy đi qua chiến tranh bên cạnh đời sống gia đình Spencer. Cuối năm 1716, Isabella trao Dây chuyền Nữ Hộ Quốc để ghi nhận chính những gì Juliet đã làm cho người dân Castilian.",
+      "lore_en": "Juliet helps scattered families find food, beds and people to depend upon. This work continues through war alongside the life of the Spencer family. In late 1716, Isabella awards her the Lady Protector necklace in recognition of Juliet’s own work for Castilian civilians.",
+      "skills_vi": [
+        "Tổ chức cứu tế",
+        "Chăm sóc người lưu vong",
+        "Kết nối nơi trú đông"
+      ],
+      "skills_en": [
+        "Relief organisation",
+        "Supporting displaced people",
+        "Coordinating winter shelters"
+      ],
+      "traits_vi": [
+        "Kiên nhẫn",
+        "Giữ quyền lựa chọn",
+        "Nhìn thấy nhu cầu đời thường"
+      ],
+      "traits_en": [
+        "Patient",
+        "Protects her own agency",
+        "Attentive to everyday needs"
+      ],
+      "status_vi": {
+        "1715": "Sống cùng Edward và Remi trong cộng đồng lưu vong ở Marrakesh.",
+        "1716": "Được trao tước hiệu dân sự Nữ Hộ Quốc vì công việc cứu tế của mình."
+      },
+      "status_en": {
+        "1715": "Lives with Edward and Remi among the exiles in Marrakesh.",
+        "1716": "Receives the civilian title of Lady Protector for her relief work."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "etienne_saint_clair",
+      "faction_id": "holy_french_kingdom",
+      "name": "Étienne de Saint-Clair",
+      "name_vi": "Étienne de Saint-Clair",
+      "name_en": "Étienne de Saint-Clair",
+      "role_vi": "Giám sát pháo đài",
+      "role_en": "Fortress superintendent",
+      "lore_vi": "Étienne tính sức chịu của từng bức tường bằng số người còn sống sau một trận pháo kích. Triều đình muốn những pháo đài mang dáng vẻ chiến thắng; ông yêu cầu kho thuốc súng khô, lò sưởi hoạt động và đường rút cho lính.",
+      "lore_en": "Étienne measures a wall’s strength by how many defenders survive a bombardment. The court wants fortresses that proclaim victory; he demands dry powder stores, working furnaces and escape routes for the garrison.",
+      "skills_vi": [
+        "Thiết kế công sự",
+        "Quản lý pháo",
+        "Đánh giá tổn thất"
+      ],
+      "skills_en": [
+        "Fortification design",
+        "Artillery management",
+        "Casualty assessment"
+      ],
+      "traits_vi": [
+        "Chặt chẽ",
+        "Ít lời",
+        "Dám tranh luận với triều đình"
+      ],
+      "traits_en": [
+        "Methodical",
+        "Reserved",
+        "Willing to challenge the court"
+      ],
+      "status_vi": {
+        "1715": "Gia cố các cửa ải phía nam.",
+        "1716": "Chuyển kinh nghiệm mặt trận thành quy chuẩn phòng thủ."
+      },
+      "status_en": {
+        "1715": "Reinforces the southern passes.",
+        "1716": "Turns frontline experience into defensive standards."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "livia_valeria",
+      "faction_id": "western_roman_empire",
+      "name": "Livia Valeria",
+      "name_vi": "Livia Valeria",
+      "name_en": "Livia Valeria",
+      "role_vi": "Giám quan quân nhu Ravenna",
+      "role_en": "Ravenna supply inspector",
+      "lore_vi": "Livia giữ sổ cấp phát của những quân đoàn đi xa tới Bắc Phi. Tên người chết vẫn nằm trong sổ nhận lương khiến bà truy đến từng kho. Mỗi khoản sửa lại đụng vào một người có quyền, và một gia đình đang chờ tiền ngoài cổng.",
+      "lore_en": "Livia keeps the supply ledgers of legions campaigning in North Africa. Dead men still drawing pay send her tracing each depot. Every correction confronts someone powerful and a family waiting for payment outside the gates.",
+      "skills_vi": [
+        "Kiểm toán quân nhu",
+        "Tổ chức kho",
+        "Truy chứng từ"
+      ],
+      "skills_en": [
+        "Supply auditing",
+        "Depot organisation",
+        "Tracing records"
+      ],
+      "traits_vi": [
+        "Cứng rắn",
+        "Nhớ tên binh sĩ",
+        "Đối đầu lợi ích quan chức"
+      ],
+      "traits_en": [
+        "Resolute",
+        "Remembers soldiers’ names",
+        "Challenges officials’ interests"
+      ],
+      "status_vi": {
+        "1715": "Kiểm tra quân nhu các tuyến Địa Trung Hải.",
+        "1716": "Đối chiếu quân số và tiền cấp cho quân đoàn rút về."
+      },
+      "status_en": {
+        "1715": "Audits Mediterranean supply routes.",
+        "1716": "Reconciles troop rolls and payments for returning legions."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "zofia_rzewuska",
+      "faction_id": "habsburg_poland",
+      "name": "Zofia Rzewuska",
+      "name_vi": "Zofia Rzewuska",
+      "name_en": "Zofia Rzewuska",
+      "role_vi": "Thống lĩnh đường quân nhu phía đông",
+      "role_en": "Eastern supply marshal",
+      "lore_vi": "Zofia nối những điền trang Ba Lan với quân đội của một đế chế vừa dựng lại. Các gia tộc muốn trả thuế bằng lời thề; bà đòi xe lương tới đúng trạm. Cả quyền lực của bà đặt trên những con đường mà mùa đông có thể nuốt mất.",
+      "lore_en": "Zofia connects Polish estates to the army of a newly rebuilt empire. Noble houses offer oaths in place of taxes; she demands grain wagons at the proper depots. Her authority rests on roads that winter can swallow.",
+      "skills_vi": [
+        "Điều phối vận tải",
+        "Thương lượng quý tộc",
+        "Phòng thủ đường bộ"
+      ],
+      "skills_en": [
+        "Transport coordination",
+        "Negotiating with nobles",
+        "Road defence"
+      ],
+      "traits_vi": [
+        "Thực tế",
+        "Ghét đặc quyền miễn thuế",
+        "Giữ lời với phu xe"
+      ],
+      "traits_en": [
+        "Practical",
+        "Opposes tax privileges",
+        "Keeps promises to wagoners"
+      ],
+      "status_vi": {
+        "1715": "Hợp nhất kho của các gia tộc vào mạng lưới chung.",
+        "1716": "Giữ đường tiếp tế cho chiến trường giáp Novgorod."
+      },
+      "status_en": {
+        "1715": "Connects noble depots into a common network.",
+        "1716": "Maintains supply routes towards the Novgorod frontier."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "vera_sokolova",
+      "faction_id": "novgorod_union",
+      "name": "Vera Sokolova",
+      "name_vi": "Vera Sokolova",
+      "name_en": "Vera Sokolova",
+      "role_vi": "Chủ quản kho lương liên hiệp",
+      "role_en": "Union granary director",
+      "lore_vi": "Vera lớn lên giữa những sổ nợ của thương hội Novgorod. Khi chiến tranh cần hạt giống đem nấu cho quân đội, bà giữ một phần kho bằng chữ ký của mình. Vụ gieo tiếp theo sẽ quyết định các hội đồng còn đứng cùng nhau được bao lâu.",
+      "lore_en": "Vera grew up among the debts of Novgorod’s merchant guilds. When war demands that seed grain be cooked for soldiers, she preserves a reserve under her own signature. The next planting will determine how long the councils can remain united.",
+      "skills_vi": [
+        "Quản lý kho lương",
+        "Thương lượng hội đồng",
+        "Dự báo vận tải"
+      ],
+      "skills_en": [
+        "Granary management",
+        "Council negotiation",
+        "Transport forecasting"
+      ],
+      "traits_vi": [
+        "Kiên định",
+        "Giỏi tính toán",
+        "Chịu sức ép từ thương hội"
+      ],
+      "traits_en": [
+        "Steadfast",
+        "Numerate",
+        "Under pressure from merchant guilds"
+      ],
+      "status_vi": {
+        "1715": "Lập hạn ngạch chia lương giữa các thành phố.",
+        "1716": "Giữ nguồn giống khi quân đội mở rộng sang Phần Lan."
+      },
+      "status_en": {
+        "1715": "Sets grain-sharing quotas between cities.",
+        "1716": "Preserves seed reserves as the army expands into Finland."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "aleksei_voronin",
+      "faction_id": "novgorod_union",
+      "name": "Aleksei Voronin",
+      "name_vi": "Aleksei Voronin",
+      "name_en": "Aleksei Voronin",
+      "role_vi": "Chỉ huy tuần tra hồ và sông",
+      "role_en": "Lake and river patrol commander",
+      "lore_vi": "Aleksei đưa tàu nhỏ tới nơi chiến hạm lớn phải dừng. Ông học đường nước từ ngư dân, rồi phải tuyển chính con trai họ vào lực lượng tuần tra. Mỗi lần trở về cảng, ông đem theo danh sách những người mà mình đã hứa sẽ đưa về.",
+      "lore_en": "Aleksei takes small craft where larger warships must stop. He learns waterways from fishermen and then must recruit their sons into patrol service. Each return to port brings a list of the men he promised to bring home.",
+      "skills_vi": [
+        "Điều khiển tàu nhỏ",
+        "Trinh sát đường nước",
+        "Cứu hộ mùa đông"
+      ],
+      "skills_en": [
+        "Small-craft command",
+        "Waterway reconnaissance",
+        "Winter rescue"
+      ],
+      "traits_vi": [
+        "Linh hoạt",
+        "Nợ lòng tin ngư dân",
+        "Cẩn trọng với băng mỏng"
+      ],
+      "traits_en": [
+        "Adaptable",
+        "Indebted to fishermen’s trust",
+        "Wary of thin ice"
+      ],
+      "status_vi": {
+        "1715": "Bảo vệ vận tải trên hồ và sông phía tây.",
+        "1716": "Mở mạng lưới tuần tra ở Phần Lan."
+      },
+      "status_en": {
+        "1715": "Protects transport on western lakes and rivers.",
+        "1716": "Extends patrol networks into Finland."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "leyla_demir",
+      "faction_id": "ottoman_empire",
+      "name": "Leyla Demir",
+      "name_vi": "Leyla Demir",
+      "name_en": "Leyla Demir",
+      "role_vi": "Giám quan xưởng pháo",
+      "role_en": "Artillery workshop inspector",
+      "lore_vi": "Leyla nhận những khẩu pháo rút về từ các tỉnh đã mất. Mỗi kiểu nòng dùng một loại đạn khác nhau; ngân khố chỉ đủ giữ một hệ thống. Bà phải chọn xưởng nào sống, biết rằng những thợ bị bỏ lại sẽ mang kỹ thuật của họ tới người trả công.",
+      "lore_en": "Leyla receives guns withdrawn from lost provinces. Each barrel pattern needs different ammunition, while the treasury can sustain only one system. She must choose which workshops survive, knowing dismissed craftsmen will take their skills to whoever pays.",
+      "skills_vi": [
+        "Đúc pháo",
+        "Kiểm định thuốc súng",
+        "Tổ chức xưởng"
+      ],
+      "skills_en": [
+        "Gun casting",
+        "Powder inspection",
+        "Workshop organisation"
+      ],
+      "traits_vi": [
+        "Khéo tay",
+        "Thẳng lời",
+        "Bị ép chọn người giữ lại"
+      ],
+      "traits_en": [
+        "Dexterous",
+        "Blunt",
+        "Forced to choose whom to retain"
+      ],
+      "status_vi": {
+        "1715": "Chuẩn hóa đạn cho các pháo đội còn giữ được.",
+        "1716": "Gom thợ và máy từ những xưởng bị mất sau chiến tranh."
+      },
+      "status_en": {
+        "1715": "Standardises ammunition for surviving batteries.",
+        "1716": "Consolidates craftsmen and equipment from lost workshops."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "selim_karaca",
+      "faction_id": "ottoman_empire",
+      "name": "Selim Karaca",
+      "name_vi": "Selim Karaca",
+      "name_en": "Selim Karaca",
+      "role_vi": "Chỉ huy đoàn hộ tống biên giới",
+      "role_en": "Frontier convoy commander",
+      "lore_vi": "Selim giữ tuyến đường giữa những tổng trấn ngày càng ít nghe kinh thành. Ông đổi quyền đi qua một cửa ải bằng lương thực, con tin và lời bảo chứng cá nhân. Khi biên giới co lại, những cam kết cũ vẫn đòi ông quay về trả.",
+      "lore_en": "Selim maintains routes between governors who increasingly disregard the capital. Passage through a pass costs provisions, hostages and his personal guarantee. As the frontier contracts, old commitments still require him to return and pay.",
+      "skills_vi": [
+        "Hộ tống đoàn xe",
+        "Thương lượng cửa ải",
+        "Trinh sát địa hình"
+      ],
+      "skills_en": [
+        "Convoy protection",
+        "Pass negotiation",
+        "Terrain reconnaissance"
+      ],
+      "traits_vi": [
+        "Bền bỉ",
+        "Giữ lời",
+        "Dễ bị kẹt giữa các tổng trấn"
+      ],
+      "traits_en": [
+        "Persistent",
+        "Keeps his word",
+        "Caught between governors"
+      ],
+      "status_vi": {
+        "1715": "Hộ tống quân nhu qua các tỉnh trung chuyển.",
+        "1716": "Giữ các tuyến còn lại giữa những vùng Ottoman chưa mất."
+      },
+      "status_en": {
+        "1715": "Escorts supplies through transit provinces.",
+        "1716": "Maintains routes between the remaining Ottoman territories."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "astrid_holm",
+      "faction_id": "danes_kingdom",
+      "name": "Astrid Holm",
+      "name_vi": "Astrid Holm",
+      "name_en": "Astrid Holm",
+      "role_vi": "Đô đốc đội phá băng",
+      "role_en": "Icebreaker squadron admiral",
+      "lore_vi": "Astrid đo đường biển bằng số ngày lương thực còn trong hầm tàu. Những chuyến cứu tế đem cho bà uy tín mà triều đình muốn dùng vào chiến tranh. Bà phải quyết định đoàn tàu nào được hộ tống khi hai bến cùng phát tín hiệu cầu cứu.",
+      "lore_en": "Astrid measures sea routes by the provisions left in her holds. Relief voyages earn a reputation the court wants to employ in war. She must choose which convoy receives an escort when two ports signal for help together.",
+      "skills_vi": [
+        "Đi biển trong băng",
+        "Chỉ huy hộ tống",
+        "Cứu nạn"
+      ],
+      "skills_en": [
+        "Ice navigation",
+        "Escort command",
+        "Rescue operations"
+      ],
+      "traits_vi": [
+        "Lạnh lùng khi ra lệnh",
+        "Nhớ từng cảng",
+        "Khó chấp nhận bỏ người"
+      ],
+      "traits_en": [
+        "Cool under command",
+        "Remembers every harbour",
+        "Struggles to abandon people"
+      ],
+      "status_vi": {
+        "1715": "Mở đường hộ tống qua eo biển Bắc Âu.",
+        "1716": "Giữ vận tải sau khi Danes mất Phần Lan."
+      },
+      "status_en": {
+        "1715": "Opens escorted routes through northern straits.",
+        "1716": "Maintains transport after Danes loses Finland."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "mikkel_brahe",
+      "faction_id": "danes_kingdom",
+      "name": "Mikkel Brahe",
+      "name_vi": "Mikkel Brahe",
+      "name_en": "Mikkel Brahe",
+      "role_vi": "Giám sát đèn biển hoàng gia",
+      "role_en": "Royal lighthouse inspector",
+      "lore_vi": "Mikkel đem kính, dầu đèn và người canh tới các mũi đá xa triều đình. Một ngọn đèn tắt có thể đổi đường đi của cả hạm đội. Ông ghi tên những người giữ đèn vào bản đồ, khiến mỗi quyết định bỏ một trạm thành một món nợ rõ ràng.",
+      "lore_en": "Mikkel brings lenses, lamp oil and keepers to headlands far from court. One extinguished light can divert a fleet. He records keepers’ names on his charts, making every abandoned station a clearly identified debt.",
+      "skills_vi": [
+        "Đo hải đồ",
+        "Thiết kế tín hiệu",
+        "Bảo trì quang cụ"
+      ],
+      "skills_en": [
+        "Hydrographic surveying",
+        "Signal design",
+        "Optical maintenance"
+      ],
+      "traits_vi": [
+        "Tỉ mỉ",
+        "Ít tin báo cáo xa",
+        "Bảo vệ người giữ đèn"
+      ],
+      "traits_en": [
+        "Meticulous",
+        "Distrusts distant reports",
+        "Protects lighthouse keepers"
+      ],
+      "status_vi": {
+        "1715": "Nối các trạm đèn và tín hiệu duyên hải.",
+        "1716": "Dựng tuyến tín hiệu thay cho những trạm đã mất."
+      },
+      "status_en": {
+        "1715": "Connects coastal lights and signal stations.",
+        "1716": "Builds replacement signal routes for lost stations."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "mairi_macleod",
+      "faction_id": "scotland_ireland_union",
+      "name": "Mairi MacLeod",
+      "name_vi": "Mairi MacLeod",
+      "name_en": "Mairi MacLeod",
+      "role_vi": "Người điều phối các gia tộc vùng cao",
+      "role_en": "Highland clan coordinator",
+      "lore_vi": "Mairi mang danh sách lương thực tới các hội nghị thường bắt đầu bằng chuyện tổ tiên. Bà giữ liên minh bằng việc chia đường trú đông và trách nhiệm hộ tống. Gia tộc nào được nhận nhiều hơn phải gửi người đi xa hơn, một phép chia luôn có người muốn sửa.",
+      "lore_en": "Mairi brings provision lists to meetings that usually begin with ancestors. She maintains the alliance by sharing winter routes and escort duties. Clans receiving more must send their people farther, a bargain someone always wants revised.",
+      "skills_vi": [
+        "Hòa giải gia tộc",
+        "Phân phối lương",
+        "Tổ chức hành quân"
+      ],
+      "skills_en": [
+        "Clan mediation",
+        "Provision distribution",
+        "March organisation"
+      ],
+      "traits_vi": [
+        "Nhớ nợ cũ",
+        "Công bằng nghiêm khắc",
+        "Chịu nghe người yếu thế"
+      ],
+      "traits_en": [
+        "Remembers old debts",
+        "Sternly fair",
+        "Listens to the vulnerable"
+      ],
+      "status_vi": {
+        "1715": "Dàn xếp nghĩa vụ giữa các gia tộc Scotland.",
+        "1716": "Giữ mạng lưới trú đông và nghĩa vụ chung của liên hiệp."
+      },
+      "status_en": {
+        "1715": "Mediates obligations among Scottish clans.",
+        "1716": "Maintains winter shelter networks and shared union duties."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "finn_orourke",
+      "faction_id": "scotland_ireland_union",
+      "name": "Finn O’Rourke",
+      "name_vi": "Finn O’Rourke",
+      "name_en": "Finn O’Rourke",
+      "role_vi": "Chỉ huy hộ tống biển Ireland",
+      "role_en": "Irish Sea escort commander",
+      "lore_vi": "Finn biết những bến nhỏ nơi người chạy loạn lên tàu bằng thang gỗ. Liên hiệp giao ông bảo vệ thương thuyền; ông dành chỗ cho cả hành khách không có giấy đi đường. Mỗi chuyến cập bến lại thêm một cuộc tranh cãi với người thu thuế.",
+      "lore_en": "Finn knows the small harbours where refugees board by wooden ladders. The union orders him to protect merchant ships; he also makes room for passengers without travel papers. Every arrival brings another argument with the customs officers.",
+      "skills_vi": [
+        "Chỉ huy hộ tống",
+        "Đọc thủy triều",
+        "Đưa người qua biển"
+      ],
+      "skills_en": [
+        "Escort command",
+        "Tidal navigation",
+        "Maritime evacuation"
+      ],
+      "traits_vi": [
+        "Gan lì",
+        "Rộng lòng với người chạy nạn",
+        "Va chạm với quan thuế"
+      ],
+      "traits_en": [
+        "Tenacious",
+        "Generous to refugees",
+        "Clashes with customs officers"
+      ],
+      "status_vi": {
+        "1715": "Giữ vận tải giữa Ireland và Scotland.",
+        "1716": "Mở rộng đoàn hộ tống và đường tiếp nhận người lưu vong."
+      },
+      "status_en": {
+        "1715": "Protects transport between Ireland and Scotland.",
+        "1716": "Expands escorts and routes receiving displaced people."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "leonor_de_sa",
+      "faction_id": "new_portuguese_empire",
+      "name": "Leonor de Sá",
+      "name_vi": "Leonor de Sá",
+      "name_en": "Leonor de Sá",
+      "role_vi": "Chủ quản sổ cảng viễn dương",
+      "role_en": "Overseas harbour registrar",
+      "lore_vi": "Leonor theo dấu bạc, gỗ và thủy thủ từ các cảng châu Mỹ về Đại Tây Dương. Những báo cáo chiến thắng đến nhanh hơn bảng kê tổn thất. Bà giữ hai sổ riêng cho tàu còn chạy và tàu chỉ còn trên giấy, khiến nhiều người trong Hội đồng muốn thay bà.",
+      "lore_en": "Leonor traces silver, timber and sailors from American ports to the Atlantic. Victory reports arrive faster than casualty accounts. She separates ships still sailing from ships existing only on paper, prompting members of the Council to seek her replacement.",
+      "skills_vi": [
+        "Kiểm toán cảng",
+        "Điều phối vật liệu",
+        "Theo dõi biên chế tàu"
+      ],
+      "skills_en": [
+        "Harbour auditing",
+        "Materials coordination",
+        "Tracking fleet strength"
+      ],
+      "traits_vi": [
+        "Tỉnh táo",
+        "Giữ chứng từ",
+        "Có nhiều đối thủ trong Hội đồng"
+      ],
+      "traits_en": [
+        "Clear-headed",
+        "Preserves records",
+        "Has enemies within the Council"
+      ],
+      "status_vi": {
+        "1715": "Đối chiếu nguồn lực cảng châu Mỹ với hạm đội viễn chinh.",
+        "1716": "Tính tổn thất và nguồn sửa tàu sau chiến dịch Iberia."
+      },
+      "status_en": {
+        "1715": "Reconciles American port resources with the expeditionary fleet.",
+        "1716": "Accounts for losses and repair resources after the Iberian campaign."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "eleanor_ashcombe",
+      "faction_id": "british_east_india_company",
+      "name": "Eleanor Ashcombe",
+      "name_vi": "Eleanor Ashcombe",
+      "name_en": "Eleanor Ashcombe",
+      "role_vi": "Chủ quản tín dụng Công ty",
+      "role_en": "Company credit superintendent",
+      "lore_vi": "Eleanor tính một chuyến vận tải tới ngày người lính được nhận lương. Beckett cần chứng từ đủ chắc để thu khoản bồi hoàn; bà tìm từng chữ ký bảo chứng. Trong những kho cứu tế, một sai sót trên sổ có thể khiến hàng dừng lại ngoài cửa.",
+      "lore_en": "Eleanor calculates a voyage down to the day a soldier receives pay. Beckett needs evidence strong enough to recover indemnities; she tracks every guarantor’s signature. At relief depots, a ledger error can leave supplies waiting outside the doors.",
+      "skills_vi": [
+        "Thẩm định tín dụng",
+        "Truy bảo chứng",
+        "Kiểm toán vận tải"
+      ],
+      "skills_en": [
+        "Credit assessment",
+        "Tracing guarantees",
+        "Transport auditing"
+      ],
+      "traits_vi": [
+        "Chính xác",
+        "Khó bị mua chuộc",
+        "Luôn hỏi ai phải trả"
+      ],
+      "traits_en": [
+        "Precise",
+        "Difficult to bribe",
+        "Always asks who pays"
+      ],
+      "status_vi": {
+        "1715": "Quản lý hạn mức và bảo chứng vận tải.",
+        "1716": "Đối chiếu bồi hoàn chiến tranh với phần cứu tế tự nguyện."
+      },
+      "status_en": {
+        "1715": "Manages credit limits and shipping guarantees.",
+        "1716": "Separates war indemnities from voluntary relief expenditure."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "arjun_sen",
+      "faction_id": "british_east_india_company",
+      "name": "Arjun Sen",
+      "name_vi": "Arjun Sen",
+      "name_en": "Arjun Sen",
+      "role_vi": "Chỉ huy bộ binh Công ty tại Bengal",
+      "role_en": "Company infantry commander in Bengal",
+      "lore_vi": "Arjun giữ quân bằng ngày phát lương và lời hứa đưa người bị thương về nhà. Công ty muốn mở rộng quân số, các làng muốn giữ người gieo hạt. Ông đứng giữa hai yêu cầu ấy, biết chữ ký tuyển quân sẽ theo một gia đình qua nhiều mùa đông.",
+      "lore_en": "Arjun holds his troops together through paydays and promises to bring the wounded home. The Company wants recruits; villages need people to plant their fields. Between these demands, he knows a recruitment signature will follow a family through many winters.",
+      "skills_vi": [
+        "Chỉ huy bộ binh",
+        "Huấn luyện súng",
+        "Thương lượng tuyển quân"
+      ],
+      "skills_en": [
+        "Infantry command",
+        "Musket training",
+        "Recruitment negotiation"
+      ],
+      "traits_vi": [
+        "Giữ lời với lính",
+        "Nhạy với bất công",
+        "Bị ràng buộc bởi hợp đồng"
+      ],
+      "traits_en": [
+        "Keeps promises to soldiers",
+        "Sensitive to injustice",
+        "Bound by contracts"
+      ],
+      "status_vi": {
+        "1715": "Giữ các đồn và đường quân nhu ở Bengal.",
+        "1716": "Bảo toàn quân sau khi Công ty mất các vùng Đông Nam Á."
+      },
+      "status_en": {
+        "1715": "Holds Bengal garrisons and supply routes.",
+        "1716": "Preserves troops after the Company loses its Southeast Asian territories."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "tran_dieu_lan",
+      "faction_id": "annam_empire",
+      "name": "Trần Diệu Lan",
+      "name_vi": "Trần Diệu Lan",
+      "name_en": "Trần Diệu Lan",
+      "role_vi": "Chủ quản kho đường sông",
+      "role_en": "River granary superintendent",
+      "lore_vi": "Diệu Lan gắn các kho lúa với đội thuyền của triều đình Nguyễn Huệ. Những vùng vừa nhập vào đế quốc mang cách đo và thuế khác nhau; bà giữ người địa phương trong mỗi kho để lời hứa cấp lương còn có người chịu trách nhiệm.",
+      "lore_en": "Diệu Lan links grain stores to Nguyễn Huệ’s river fleet. Newly incorporated provinces use different measures and taxes; she retains local staff at each depot so someone remains accountable for promised provisions.",
+      "skills_vi": [
+        "Điều vận đường sông",
+        "Quản lý kho lúa",
+        "Thương lượng địa phương"
+      ],
+      "skills_en": [
+        "River logistics",
+        "Grain management",
+        "Local negotiation"
+      ],
+      "traits_vi": [
+        "Nhanh trí",
+        "Giữ người bản xứ",
+        "Nặng gánh lời hứa"
+      ],
+      "traits_en": [
+        "Resourceful",
+        "Retains local expertise",
+        "Burdened by promises"
+      ],
+      "status_vi": {
+        "1715": "Nối kho ba xứ Đông Dương.",
+        "1716": "Mở tuyến tiếp tế sang Xiêm và Miến Điện."
+      },
+      "status_en": {
+        "1715": "Connects the granaries of Indochina.",
+        "1716": "Extends supply routes towards Siam and Burma."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "pham_quang_khai",
+      "faction_id": "annam_empire",
+      "name": "Phạm Quang Khải",
+      "name_vi": "Phạm Quang Khải",
+      "name_en": "Phạm Quang Khải",
+      "role_vi": "Thống lĩnh quân sơn lộ",
+      "role_en": "Mountain-route commander",
+      "lore_vi": "Quang Khải giữ đường đèo cho quân An Nam bằng trạm nghỉ, phu tải và đội trinh sát. Ông ghi giá gạo cạnh khoảng cách trên bản đồ. Một trận đánh xa kho buộc ông cân giữa lệnh tiến quân và những người đã kiệt sức trên sườn núi.",
+      "lore_en": "Quang Khải maintains mountain routes with resting posts, porters and scouts. He records rice prices beside distances on his maps. Fighting far from the depots forces him to weigh advance orders against men exhausted on the slopes.",
+      "skills_vi": [
+        "Hành quân vượt núi",
+        "Trinh sát đèo",
+        "Tổ chức phu tải"
+      ],
+      "skills_en": [
+        "Mountain marching",
+        "Pass reconnaissance",
+        "Porter organisation"
+      ],
+      "traits_vi": [
+        "Bền sức",
+        "Cẩn trọng",
+        "Biết dừng để giữ quân"
+      ],
+      "traits_en": [
+        "Enduring",
+        "Cautious",
+        "Willing to halt to preserve troops"
+      ],
+      "status_vi": {
+        "1715": "Giữ tuyến đèo phía tây Đông Dương.",
+        "1716": "Đưa quân qua sơn lộ trong chiến dịch Xiêm–Miến."
+      },
+      "status_en": {
+        "1715": "Secures western Indochinese passes.",
+        "1716": "Leads troops through mountain routes in the Siam–Burma campaign."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "lin_yue",
+      "faction_id": "ming_celestial_empire",
+      "name": "Lâm Nguyệt",
+      "name_vi": "Lâm Nguyệt",
+      "name_en": "Lâm Nguyệt",
+      "role_vi": "Giám quan hải quan Đại Minh",
+      "role_en": "Ming customs inspector",
+      "lore_vi": "Lâm Nguyệt theo dấu bạc nhập cảng để giữ ngân quỹ cho hạm đội của Trịnh Khắc Sảng. Thương nhân muốn mua quyền miễn kiểm, các đô đốc muốn tàu rời bến ngay. Bà giữ con dấu đến khi hàng thực trên cầu cảng khớp với sổ.",
+      "lore_en": "Lin Yue traces imported silver to sustain Zheng Keshuang’s fleet. Merchants seek exemptions and admirals want immediate departures. She withholds her seal until the cargo on the quay matches the records.",
+      "skills_vi": [
+        "Kiểm toán thuế cảng",
+        "Định giá hàng",
+        "Truy đường bạc"
+      ],
+      "skills_en": [
+        "Customs auditing",
+        "Cargo valuation",
+        "Tracing silver flows"
+      ],
+      "traits_vi": [
+        "Chính trực",
+        "Giỏi nhớ số",
+        "Dễ gây thù thương hội"
+      ],
+      "traits_en": [
+        "Upright",
+        "Excellent with figures",
+        "Makes enemies among guilds"
+      ],
+      "status_vi": {
+        "1715": "Kiểm tra nguồn thu các cảng ven biển.",
+        "1716": "Siết bảo chứng cho các đoàn tàu và kho chiến lược."
+      },
+      "status_en": {
+        "1715": "Audits revenue from coastal ports.",
+        "1716": "Tightens guarantees for convoys and strategic depots."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "chen_haisheng",
+      "faction_id": "ming_celestial_empire",
+      "name": "Trần Hải Sinh",
+      "name_vi": "Trần Hải Sinh",
+      "name_en": "Trần Hải Sinh",
+      "role_vi": "Chỉ huy thủy đội cửa sông",
+      "role_en": "Estuary flotilla commander",
+      "lore_vi": "Hải Sinh đưa pháo nổi và thuyền nhỏ vào cửa sông nơi tàu lớn dễ mắc cạn. Ông tuyển hoa tiêu từ làng chài, để họ giữ quyền sửa tuyến trước mỗi chuyến. Khi triều đình muốn một lối đi chắc chắn, ông mang tới bảng thủy triều luôn thay đổi.",
+      "lore_en": "Chen Haisheng deploys floating batteries and small boats in estuaries where larger vessels ground. He recruits pilots from fishing villages and lets them revise routes before each voyage. When the court demands certainty, he presents an ever-changing tidal table.",
+      "skills_vi": [
+        "Chiến đấu nước cạn",
+        "Hoa tiêu",
+        "Phối hợp pháo nổi"
+      ],
+      "skills_en": [
+        "Shallow-water combat",
+        "Piloting",
+        "Floating-battery coordination"
+      ],
+      "traits_vi": [
+        "Linh hoạt",
+        "Tin người địa phương",
+        "Ghét mệnh lệnh xa thực địa"
+      ],
+      "traits_en": [
+        "Adaptable",
+        "Trusts local knowledge",
+        "Dislikes orders detached from terrain"
+      ],
+      "status_vi": {
+        "1715": "Bảo vệ cửa sông và xưởng đóng tàu.",
+        "1716": "Củng cố các tuyến thủy quân dưới quyền Trịnh Khắc Sảng."
+      },
+      "status_en": {
+        "1715": "Protects estuaries and shipyards.",
+        "1716": "Reinforces naval routes under Zheng Keshuang."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "siti_rahma",
+      "faction_id": "nusantara_sultanate",
+      "name": "Siti Rahma",
+      "name_vi": "Siti Rahma",
+      "name_en": "Siti Rahma",
+      "role_vi": "Người giữ khế ước các cảng",
+      "role_en": "Keeper of port covenants",
+      "lore_vi": "Siti Rahma đem những khế ước của các cảng tới triều đình Hasanuddin. Mỗi đảo trao lời thề kèm một giới hạn quyền thu thuế. Bà nhớ từng giới hạn ấy, vì một viên quan quên nó có thể đẩy cả bến tàu sang người khác.",
+      "lore_en": "Siti Rahma brings the ports’ covenants to Hasanuddin’s court. Each island pledges allegiance with limits on taxation. She remembers each limit, knowing an official who forgets it can drive an entire harbour to another patron.",
+      "skills_vi": [
+        "Thương lượng khế ước",
+        "Hòa giải cảng",
+        "Quản lý thuế"
+      ],
+      "skills_en": [
+        "Covenant negotiation",
+        "Port mediation",
+        "Tax administration"
+      ],
+      "traits_vi": [
+        "Nhớ lời thề",
+        "Khéo ngoại giao",
+        "Cứng rắn với lạm quyền"
+      ],
+      "traits_en": [
+        "Remembers oaths",
+        "Diplomatic",
+        "Firm against abuses"
+      ],
+      "status_vi": {
+        "1715": "Thống nhất cam kết giữa các thương cảng.",
+        "1716": "Giữ liên minh cảng qua những cuộc tranh thuế và quân dịch."
+      },
+      "status_en": {
+        "1715": "Coordinates pledges between trading ports.",
+        "1716": "Preserves the port alliance through disputes over taxation and service."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "daeng_ismail",
+      "faction_id": "nusantara_sultanate",
+      "name": "Daeng Ismail",
+      "name_vi": "Daeng Ismail",
+      "name_en": "Daeng Ismail",
+      "role_vi": "Đô đốc đoàn hộ tống quần đảo",
+      "role_en": "Archipelago escort admiral",
+      "lore_vi": "Daeng Ismail học biển trên tàu chở gia vị trước khi nhận cờ chiến. Ông chia hạm đội theo gió mùa và khả năng sửa tàu của từng đảo. Quyền tự chủ của thuyền trưởng giữ đoàn hộ tống sống, đồng thời khiến triều đình khó ra một lệnh chung.",
+      "lore_en": "Daeng Ismail learned the sea aboard spice ships before receiving a battle standard. He divides his fleet by seasonal winds and each island’s repair capacity. Captains’ autonomy keeps escorts alive while making unified orders difficult for the court.",
+      "skills_vi": [
+        "Đọc gió biển",
+        "Hộ tống hàng",
+        "Sửa tàu dã chiến"
+      ],
+      "skills_en": [
+        "Reading maritime winds",
+        "Cargo escort",
+        "Field ship repair"
+      ],
+      "traits_vi": [
+        "Thực tế",
+        "Tin thuyền trưởng",
+        "Khó chịu với quan liêu"
+      ],
+      "traits_en": [
+        "Practical",
+        "Trusts his captains",
+        "Impatient with bureaucracy"
+      ],
+      "status_vi": {
+        "1715": "Giữ các tuyến biển nối thương cảng.",
+        "1716": "Phối hợp hộ tống qua những eo biển đang bị tranh giành."
+      },
+      "status_en": {
+        "1715": "Protects sea routes connecting the ports.",
+        "1716": "Coordinates escorts through contested straits."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "sakurai_aya",
+      "faction_id": "tokugawa_empire",
+      "name": "Sakurai Aya",
+      "name_vi": "Sakurai Aya",
+      "name_en": "Sakurai Aya",
+      "role_vi": "Giám quan xưởng cơ khí",
+      "role_en": "Mechanical workshop inspector",
+      "lore_vi": "Aya tuyển thợ từ những phiên đang ganh nhau dưới triều Yoshimune. Bản vẽ chung đem lại máy móc thay thế được cho nhau; các lãnh chúa lại muốn giữ bí quyết riêng. Bà dùng hợp đồng và phép thử trước quân đội để buộc họ cùng chịu một tiêu chuẩn.",
+      "lore_en": "Aya recruits craftsmen from rival domains under Yoshimune. Shared drawings yield interchangeable machinery, while lords seek to keep their secrets. She uses contracts and military trials to bind them to a common standard.",
+      "skills_vi": [
+        "Thiết kế cơ khí",
+        "Kiểm định máy",
+        "Tổ chức thợ"
+      ],
+      "skills_en": [
+        "Mechanical design",
+        "Machine inspection",
+        "Organising craftsmen"
+      ],
+      "traits_vi": [
+        "Hiếu kỳ",
+        "Nghiêm quy chuẩn",
+        "Dám đối đầu lãnh chúa"
+      ],
+      "traits_en": [
+        "Curious",
+        "Strict about standards",
+        "Challenges domain lords"
+      ],
+      "status_vi": {
+        "1715": "Dựng chuẩn chung cho các xưởng quân giới.",
+        "1716": "Mở mạng lưới bảo trì tới các vùng Triều Tiên."
+      },
+      "status_en": {
+        "1715": "Creates shared standards for military workshops.",
+        "1716": "Extends maintenance networks into Korean territories."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "han_seongjun",
+      "faction_id": "tokugawa_empire",
+      "name": "Han Seong-jun",
+      "name_vi": "Han Seong-jun",
+      "name_en": "Han Seong-jun",
+      "role_vi": "Người điều phối kho bán đảo",
+      "role_en": "Peninsular depot coordinator",
+      "lore_vi": "Seong-jun giữ sổ của các kho Triều Tiên dưới quyền đế quốc Nhật Bản. Ông dịch mệnh lệnh, giá lương và đơn khiếu nại giữa những người ít muốn nghe nhau. Mỗi chuyến hàng đến đủ giữ thêm một gia đình qua đông, nhưng cũng nuôi quân đội đang giữ quê hương ông.",
+      "lore_en": "Seong-jun keeps the ledgers of Korean depots under Japanese imperial authority. He translates orders, food prices and grievances between people reluctant to listen. Each complete shipment sustains another family through winter while also feeding the army occupying his homeland.",
+      "skills_vi": [
+        "Phiên dịch hành chính",
+        "Điều phối lương",
+        "Hòa giải dân sự"
+      ],
+      "skills_en": [
+        "Administrative translation",
+        "Provision coordination",
+        "Civil mediation"
+      ],
+      "traits_vi": [
+        "Kiên nhẫn",
+        "Gắn bó quê hương",
+        "Mang lòng trung thành chia đôi"
+      ],
+      "traits_en": [
+        "Patient",
+        "Rooted in his homeland",
+        "Carries divided loyalties"
+      ],
+      "status_vi": {
+        "1715": "Giữ phân phối lương tại các kho bán đảo.",
+        "1716": "Thương lượng nghĩa vụ kho và quyền dân cư với chính quyền Nhật."
+      },
+      "status_en": {
+        "1715": "Maintains provisions at peninsular depots.",
+        "1716": "Negotiates depot obligations and civilian rights with Japanese officials."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "borchu",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Borchu",
+      "name_vi": "Borchu",
+      "name_en": "Borchu",
+      "role_vi": "Chỉ huy đoàn hộ tống thảo nguyên",
+      "role_en": "Steppe escort commander",
+      "lore_vi": "Borchu giữ các thương đoàn qua vùng đồng cỏ đã hóa băng cứng. Ông đổi ngựa từng trạm và ghi những giếng còn dùng được. Triều đình Anu muốn đường đi nhanh; các bộ tộc muốn đàn ngựa còn sống tới mùa tiếp theo.",
+      "lore_en": "Borchu escorts caravans across grasslands hardened by frost. He changes mounts at each station and records usable wells. Anu’s court demands speed; the tribes need their herds alive for the next season.",
+      "skills_vi": [
+        "Kỵ chiến",
+        "Tìm nguồn nước",
+        "Tổ chức trạm ngựa"
+      ],
+      "skills_en": [
+        "Mounted combat",
+        "Finding water",
+        "Remount organisation"
+      ],
+      "traits_vi": [
+        "Bền bỉ",
+        "Giữ luật đoàn",
+        "Quý ngựa như quân nhu sống"
+      ],
+      "traits_en": [
+        "Persistent",
+        "Enforces caravan rules",
+        "Values horses as living supplies"
+      ],
+      "status_vi": {
+        "1715": "Nối trạm đổi ngựa và giếng thảo nguyên.",
+        "1716": "Bảo vệ thương đoàn cùng những đàn ngựa chiến còn lại."
+      },
+      "status_en": {
+        "1715": "Connects remount stations and steppe wells.",
+        "1716": "Protects caravans and surviving warhorse herds."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "saran",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Saran",
+      "name_vi": "Saran",
+      "name_en": "Saran",
+      "role_vi": "Sứ giả hội đồng bộ tộc",
+      "role_en": "Tribal council envoy",
+      "lore_vi": "Saran mang lời thề giữa những bộ tộc có ký ức chiến tranh dài hơn một triều đại. Bà hẹn hội nghị tại giếng dùng chung, nơi ai cũng có thứ để mất nếu nói dối. Mỗi thỏa thuận phải giữ được cả đường đi lẫn danh dự người ký.",
+      "lore_en": "Saran carries pledges between tribes whose memories of war outlast dynasties. She convenes councils at shared wells, where everyone has something to lose by lying. Each agreement must preserve both access and the signatories’ honour.",
+      "skills_vi": [
+        "Thương lượng bộ tộc",
+        "Ghi nhớ phả hệ",
+        "Hòa giải tranh bãi"
+      ],
+      "skills_en": [
+        "Tribal negotiation",
+        "Remembering genealogies",
+        "Mediating pasture disputes"
+      ],
+      "traits_vi": [
+        "Nhớ nợ cũ",
+        "Nói chính xác",
+        "Ít tha lời thề giả"
+      ],
+      "traits_en": [
+        "Remembers old debts",
+        "Speaks precisely",
+        "Has little patience for false oaths"
+      ],
+      "status_vi": {
+        "1715": "Dàn xếp quyền qua đường và dùng giếng.",
+        "1716": "Giữ nghĩa vụ các bộ tộc với triều đình Anu."
+      },
+      "status_en": {
+        "1715": "Negotiates passage and access to wells.",
+        "1716": "Maintains tribal obligations to Anu’s court."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "farah_qazvini",
+      "faction_id": "safavid_empire",
+      "name": "Farah Qazvini",
+      "name_vi": "Farah Qazvini",
+      "name_en": "Farah Qazvini",
+      "role_vi": "Chủ quản xưởng thuốc súng",
+      "role_en": "Powder workshop director",
+      "lore_vi": "Farah giữ những mẻ thuốc súng dùng cho quân đội Nader bằng phép thử và sổ độ ẩm. Các tướng muốn tăng sản lượng, thợ muốn giữ thời gian phơi. Bà dừng một chuyến quân nhu khi hạt thuốc chưa khô, chấp nhận để tên mình nằm trên lệnh đình hoãn.",
+      "lore_en": "Farah maintains powder quality for Nader’s army through trials and humidity records. Generals demand output and workers need drying time. She halts a shipment whose powder remains wet, accepting her name on the delay order.",
+      "skills_vi": [
+        "Chế thuốc súng",
+        "Kiểm định lô hàng",
+        "Quản lý thợ"
+      ],
+      "skills_en": [
+        "Powder manufacture",
+        "Batch inspection",
+        "Workshop management"
+      ],
+      "traits_vi": [
+        "Tỉ mỉ",
+        "Dám ngừng sản xuất",
+        "Giữ an toàn xưởng"
+      ],
+      "traits_en": [
+        "Meticulous",
+        "Willing to halt production",
+        "Protects workshop safety"
+      ],
+      "status_vi": {
+        "1715": "Chuẩn hóa kiểm định thuốc súng.",
+        "1716": "Giữ chất lượng quân nhu khi các chiến dịch kéo dài."
+      },
+      "status_en": {
+        "1715": "Standardises powder inspection.",
+        "1716": "Preserves supply quality during prolonged campaigns."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "bahram_kermani",
+      "faction_id": "safavid_empire",
+      "name": "Bahram Kermani",
+      "name_vi": "Bahram Kermani",
+      "name_en": "Bahram Kermani",
+      "role_vi": "Chỉ huy đồn đường núi",
+      "role_en": "Mountain-route garrison commander",
+      "lore_vi": "Bahram giữ các đồn bằng thỏa thuận với người chở hàng và làng quanh đèo. Lệnh huy động của Nader đưa nhiều cộng đồng vào một đạo quân; ông phải giữ cho tranh chấp cũ dừng trước cửa kho, nơi tất cả cùng nhận lương.",
+      "lore_en": "Bahram holds garrisons through agreements with carriers and villages around the passes. Nader’s mobilisation brings many communities into one army; he must keep old disputes outside the depot where all receive their pay.",
+      "skills_vi": [
+        "Giữ đèo",
+        "Điều quân hỗn hợp",
+        "Thương lượng làng"
+      ],
+      "skills_en": [
+        "Pass defence",
+        "Mixed-force command",
+        "Village negotiation"
+      ],
+      "traits_vi": [
+        "Giữ kỷ luật",
+        "Biết nghe bất mãn",
+        "Khó đứng ngoài tranh phe"
+      ],
+      "traits_en": [
+        "Disciplined",
+        "Listens to grievances",
+        "Struggles to avoid factional disputes"
+      ],
+      "status_vi": {
+        "1715": "Giữ đường quân nhu và các đồn phía đông.",
+        "1716": "Điều phối những đơn vị khác cộng đồng trong chiến dịch biên giới."
+      },
+      "status_en": {
+        "1715": "Secures supply routes and eastern garrisons.",
+        "1716": "Coordinates troops from different communities on frontier campaigns."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "mekdes_hailu",
+      "faction_id": "aksumite_empire",
+      "name": "Mekdes Hailu",
+      "name_vi": "Mekdes Hailu",
+      "name_en": "Mekdes Hailu",
+      "role_vi": "Giám quan lò rèn hoàng gia",
+      "role_en": "Royal forge inspector",
+      "lore_vi": "Mekdes gom thợ và sắt cho những cải tổ quân giới của Tewodros. Các lãnh chúa phải giao vật liệu từng giữ riêng; bà trả họ bằng vũ khí có số kiểm định. Khi một mẻ thép lỗi tới biên giới, con dấu trên nòng súng đưa trách nhiệm trở lại xưởng.",
+      "lore_en": "Mekdes gathers craftsmen and iron for Tewodros’s military reforms. Lords surrender materials once kept privately and receive inspected weapons in return. When flawed steel reaches the frontier, the marks on the guns bring responsibility back to the forge.",
+      "skills_vi": [
+        "Luyện kim",
+        "Kiểm định súng",
+        "Tổ chức lò rèn"
+      ],
+      "skills_en": [
+        "Metallurgy",
+        "Firearm inspection",
+        "Forge organisation"
+      ],
+      "traits_vi": [
+        "Kiêu hãnh nghề thợ",
+        "Giữ chất lượng",
+        "Va chạm lãnh chúa"
+      ],
+      "traits_en": [
+        "Proud of her craft",
+        "Protects quality",
+        "Clashes with nobles"
+      ],
+      "status_vi": {
+        "1715": "Nối các lò rèn vào nguồn cung hoàng gia.",
+        "1716": "Kiểm định và sửa quân giới cho các đạo quân vùng cao."
+      },
+      "status_en": {
+        "1715": "Connects forges to royal supply networks.",
+        "1716": "Inspects and repairs arms for highland forces."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "tesfaye_bekele",
+      "faction_id": "aksumite_empire",
+      "name": "Tesfaye Bekele",
+      "name_vi": "Tesfaye Bekele",
+      "name_en": "Tesfaye Bekele",
+      "role_vi": "Chỉ huy đường núi",
+      "role_en": "Highland route commander",
+      "lore_vi": "Tesfaye giữ đoàn xe lên vùng cao bằng những trạm mà dân làng phải góp củi và người. Ông biết quân đội có thể đi qua một lần rồi để lại cả mùa thiếu ăn. Bảng thu của ông ghi thêm số lương phải hoàn lại sau chiến dịch.",
+      "lore_en": "Tesfaye maintains highland convoys through stations supplied by villagers with firewood and labour. He knows one military passage can leave a season of hunger behind. His levy records also list provisions to be repaid after the campaign.",
+      "skills_vi": [
+        "Hành quân vùng cao",
+        "Hộ tống xe",
+        "Đánh giá sức làng"
+      ],
+      "skills_en": [
+        "Highland marching",
+        "Convoy escort",
+        "Assessing village resources"
+      ],
+      "traits_vi": [
+        "Thận trọng",
+        "Ghi cả món nợ quân đội",
+        "Giữ người tải"
+      ],
+      "traits_en": [
+        "Cautious",
+        "Records the army’s debts",
+        "Protects porters"
+      ],
+      "status_vi": {
+        "1715": "Giữ hành lang tiếp tế vùng cao.",
+        "1716": "Ràng việc trưng thu với cam kết hoàn lương cho làng."
+      },
+      "status_en": {
+        "1715": "Secures highland supply corridors.",
+        "1716": "Ties requisitions to promises of repayment to villages."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "aminata_kande",
+      "faction_id": "songhai_empire",
+      "name": "Aminata Kande",
+      "name_vi": "Aminata Kande",
+      "name_en": "Aminata Kande",
+      "role_vi": "Người giữ sổ thương đoàn",
+      "role_en": "Caravan registrar",
+      "lore_vi": "Aminata ghi muối, vàng và lương thực qua các trạm của Askia. Những người buôn chấp nhận đóng thuế khi được hộ tống tới nơi. Bà giữ tên lính bảo vệ cạnh từng khoản thu, để triều đình nhìn thấy nghĩa vụ gắn với tiền mình nhận.",
+      "lore_en": "Aminata records salt, gold and grain passing through Askia’s stations. Merchants accept taxes when escorts deliver them safely. She lists guards beside each levy so the court sees the obligations attached to its revenue.",
+      "skills_vi": [
+        "Kế toán thương đoàn",
+        "Định giá muối",
+        "Thương lượng thuế"
+      ],
+      "skills_en": [
+        "Caravan accounting",
+        "Salt valuation",
+        "Tax negotiation"
+      ],
+      "traits_vi": [
+        "Giỏi nhớ người",
+        "Công bằng thực dụng",
+        "Ghét thu mà không bảo vệ"
+      ],
+      "traits_en": [
+        "Remembers people",
+        "Pragmatically fair",
+        "Opposes taxation without protection"
+      ],
+      "status_vi": {
+        "1715": "Nối sổ thuế với các đoàn hộ tống.",
+        "1716": "Kiểm tra kho và quyền qua đường trên thương lộ."
+      },
+      "status_en": {
+        "1715": "Links tax records to caravan escorts.",
+        "1716": "Audits depots and passage rights along trade routes."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "issa_diarra",
+      "faction_id": "songhai_empire",
+      "name": "Issa Diarra",
+      "name_vi": "Issa Diarra",
+      "name_en": "Issa Diarra",
+      "role_vi": "Thống lĩnh quân đường sông",
+      "role_en": "River-force commander",
+      "lore_vi": "Issa dùng sông nối những đồn mà đất khô đã ngăn cách. Thuyền của ông chở quân, hạt giống và người chạy nạn, mỗi thứ tranh nhau cùng một tải trọng. Ông phải để lại một phần quân khi những làng phía trên cần lương trước nước xuống.",
+      "lore_en": "Issa uses the river to connect forts cut off by dry land. His boats carry soldiers, seed and refugees competing for the same capacity. He sometimes leaves troops behind when upstream villages need grain before the water falls.",
+      "skills_vi": [
+        "Chỉ huy thủy đội",
+        "Đọc mực nước",
+        "Phối hợp bến"
+      ],
+      "skills_en": [
+        "Flotilla command",
+        "Reading water levels",
+        "Landing coordination"
+      ],
+      "traits_vi": [
+        "Nhanh quyết",
+        "Thương dân ven sông",
+        "Chịu trách nhiệm về tải trọng"
+      ],
+      "traits_en": [
+        "Decisive",
+        "Protective of river communities",
+        "Accountable for cargo choices"
+      ],
+      "status_vi": {
+        "1715": "Giữ tuyến vận tải sông và các bến quân nhu.",
+        "1716": "Chia tải trọng cho chiến dịch và cứu tế các làng."
+      },
+      "status_en": {
+        "1715": "Secures river transport and military landings.",
+        "1716": "Shares carrying capacity between campaigns and village relief."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "nzela_mbemba",
+      "faction_id": "kongo_confederation",
+      "name": "Nzela Mbemba",
+      "name_vi": "Nzela Mbemba",
+      "name_en": "Nzela Mbemba",
+      "role_vi": "Sứ giả hội đồng liên bang",
+      "role_en": "Federal council envoy",
+      "lore_vi": "Nzela đi giữa những cộng đồng trao lời cam kết cho Kimpa Vita. Mỗi nơi muốn được cứu trước khi gửi người đi cứu nơi khác. Bà dùng lịch luân phiên và lời chứng công khai để giữ nghĩa vụ, rồi phải trở lại nơi từng nhận phần ít hơn.",
+      "lore_en": "Nzela travels between communities pledging support to Kimpa Vita. Each wants relief before sending people elsewhere. She uses rotating schedules and public testimony to preserve obligations, then returns to those who received the smaller share.",
+      "skills_vi": [
+        "Hòa giải hội đồng",
+        "Tổ chức cứu viện",
+        "Ghi lời chứng"
+      ],
+      "skills_en": [
+        "Council mediation",
+        "Relief organisation",
+        "Recording testimony"
+      ],
+      "traits_vi": [
+        "Kiên nhẫn",
+        "Nhớ người bị bỏ lại",
+        "Đòi lời hứa rõ"
+      ],
+      "traits_en": [
+        "Patient",
+        "Remembers the overlooked",
+        "Demands clear promises"
+      ],
+      "status_vi": {
+        "1715": "Ghi cam kết cứu viện giữa các cộng đồng.",
+        "1716": "Giám sát việc thực hiện nghĩa vụ của hội đồng."
+      },
+      "status_en": {
+        "1715": "Records relief pledges between communities.",
+        "1716": "Supervises fulfilment of council obligations."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "manuel_soyo",
+      "faction_id": "kongo_confederation",
+      "name": "Manuel de Soyo",
+      "name_vi": "Manuel de Soyo",
+      "name_en": "Manuel de Soyo",
+      "role_vi": "Chỉ huy đội bảo vệ cửa sông",
+      "role_en": "Estuary guard commander",
+      "lore_vi": "Manuel giữ những bến đón hàng và người dưới quyền hội đồng Kongo. Thương nhân nước ngoài muốn mua một bến riêng; ông yêu cầu thỏa thuận đi qua những cộng đồng sống cạnh nó. Những khẩu pháo mới đem lại sức mạnh cùng một khoản nợ khó trả.",
+      "lore_en": "Manuel protects landings receiving cargo and people under Kongo’s councils. Foreign merchants seek a harbour of their own; he demands agreement from neighbouring communities. New guns bring strength and a debt difficult to repay.",
+      "skills_vi": [
+        "Phòng thủ cửa sông",
+        "Kiểm soát bến",
+        "Thương lượng vũ khí"
+      ],
+      "skills_en": [
+        "Estuary defence",
+        "Landing control",
+        "Arms negotiation"
+      ],
+      "traits_vi": [
+        "Cứng rắn",
+        "Cảnh giác độc quyền",
+        "Giữ quyền hội đồng"
+      ],
+      "traits_en": [
+        "Resolute",
+        "Wary of monopolies",
+        "Protects council authority"
+      ],
+      "status_vi": {
+        "1715": "Giữ quyền tiếp cận bến và tuyến vận tải.",
+        "1716": "Thương lượng trang bị mới dưới sự giám sát liên bang."
+      },
+      "status_en": {
+        "1715": "Protects access to landings and transport routes.",
+        "1716": "Negotiates new equipment under federal oversight."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "zawadi_mwinyi",
+      "faction_id": "swahili_league",
+      "name": "Zawadi Mwinyi",
+      "name_vi": "Zawadi Mwinyi",
+      "name_en": "Zawadi Mwinyi",
+      "role_vi": "Chủ quản hội đồng cảng",
+      "role_en": "Port council superintendent",
+      "lore_vi": "Zawadi giữ các khoản đóng góp cho hạm đội của Asha. Mỗi cảng muốn đoàn hộ tống ghé mình trước; bà đưa tổn thất và khối lượng hàng lên cùng một bàn. Một quyết định bảo vệ bến giàu có thể để bến nhỏ thiếu lương qua đông.",
+      "lore_en": "Zawadi manages contributions to Asha’s fleet. Each port wants the escorts first; she sets losses and cargo volumes on the same table. Protecting a wealthy harbour can leave a smaller port without winter provisions.",
+      "skills_vi": [
+        "Thương lượng cảng",
+        "Phân bổ ngân quỹ",
+        "Tổ chức tiếp tế"
+      ],
+      "skills_en": [
+        "Port negotiation",
+        "Budget allocation",
+        "Supply organisation"
+      ],
+      "traits_vi": [
+        "Công bằng nghiêm",
+        "Nhớ bến nhỏ",
+        "Ít chiều thương gia lớn"
+      ],
+      "traits_en": [
+        "Sternly fair",
+        "Remembers small harbours",
+        "Resists major merchants"
+      ],
+      "status_vi": {
+        "1715": "Chia nghĩa vụ hạm đội giữa các cảng.",
+        "1716": "Điều chỉnh hộ tống theo tổn thất và nhu cầu dân sinh."
+      },
+      "status_en": {
+        "1715": "Shares fleet obligations between ports.",
+        "1716": "Adjusts escorts according to losses and civilian needs."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "hamisi_kilwa",
+      "faction_id": "swahili_league",
+      "name": "Hamisi wa Kilwa",
+      "name_vi": "Hamisi wa Kilwa",
+      "name_en": "Hamisi wa Kilwa",
+      "role_vi": "Hoa tiêu trưởng đoàn hộ tống",
+      "role_en": "Chief convoy pilot",
+      "lore_vi": "Hamisi thuộc lòng những bãi ngầm quanh Kilwa, nhưng biển lạnh đang sửa các dấu hiệu ông từng tin. Ông đem thủy thủ trẻ đi đo lại từng luồng, để hải đồ giữ được giá trị. Người trả tiền muốn khởi hành ngay; ông cần thêm một con nước.",
+      "lore_en": "Hamisi knows the shoals around Kilwa, but colder seas are changing signs he once trusted. He takes young sailors to resurvey each channel. Those paying want an immediate departure; he needs one more tide.",
+      "skills_vi": [
+        "Hoa tiêu bãi ngầm",
+        "Đo luồng",
+        "Huấn luyện thủy thủ"
+      ],
+      "skills_en": [
+        "Shoal navigation",
+        "Channel surveying",
+        "Sailor training"
+      ],
+      "traits_vi": [
+        "Kỹ lưỡng",
+        "Biết sửa kinh nghiệm",
+        "Không bán sự chắc chắn giả"
+      ],
+      "traits_en": [
+        "Thorough",
+        "Revises his experience",
+        "Refuses false certainty"
+      ],
+      "status_vi": {
+        "1715": "Đo lại luồng vào các thương cảng.",
+        "1716": "Dẫn đoàn hộ tống theo hải đồ đã hiệu chỉnh."
+      },
+      "status_en": {
+        "1715": "Resurveys approaches to trading ports.",
+        "1716": "Pilots escorts using revised charts."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "elisabeth_van_der_meer",
+      "faction_id": "cape_republic",
+      "name": "Elisabeth van der Meer",
+      "name_vi": "Elisabeth van der Meer",
+      "name_en": "Elisabeth van der Meer",
+      "role_vi": "Chủ quản kho cộng hòa",
+      "role_en": "Republic granary superintendent",
+      "lore_vi": "Elisabeth giữ bảng phân phối lương trước hội đồng Adam Tas. Những chủ đất muốn quyền nhận theo phần đóng góp, người giữ đồn cần suất theo số miệng ăn. Bà đưa cả hai lên phiên họp công khai và chấp nhận những lá phiếu chống mình.",
+      "lore_en": "Elisabeth presents provision accounts to Adam Tas’s council. Landowners demand shares by contribution; garrisons need them by mouths to feed. She brings both claims to a public meeting and accepts votes cast against her.",
+      "skills_vi": [
+        "Quản lý kho",
+        "Kế toán hội đồng",
+        "Điều phối cứu tế"
+      ],
+      "skills_en": [
+        "Depot management",
+        "Council accounting",
+        "Relief coordination"
+      ],
+      "traits_vi": [
+        "Minh bạch",
+        "Cứng đầu",
+        "Chịu sức ép bầu cử"
+      ],
+      "traits_en": [
+        "Transparent",
+        "Stubborn",
+        "Under electoral pressure"
+      ],
+      "status_vi": {
+        "1715": "Dựng sổ phân phối cho đồn và cảng.",
+        "1716": "Bảo vệ quỹ trú đông trước sức ép của các chủ đất."
+      },
+      "status_en": {
+        "1715": "Establishes distribution records for forts and harbours.",
+        "1716": "Protects winter relief funds against landowner pressure."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "pieter_smit",
+      "faction_id": "cape_republic",
+      "name": "Pieter Smit",
+      "name_vi": "Pieter Smit",
+      "name_en": "Pieter Smit",
+      "role_vi": "Chỉ huy đồn ven biển",
+      "role_en": "Coastal garrison commander",
+      "lore_vi": "Pieter dựng phòng tuyến của cộng hòa bằng pháo mua lại và thợ sửa tàu. Ông phải giữ cả cảng trước chiến hạm lẫn kho trước những người đói. Mệnh lệnh khó nhất đến từ chính hội đồng, khi họ yêu cầu ông giải tán đám đông đang đòi phần lương.",
+      "lore_en": "Pieter builds the republic’s defences from second-hand guns and shipwright labour. He must guard the harbour against warships and the depots amid hunger. His hardest orders come from the council when it asks him to disperse people demanding provisions.",
+      "skills_vi": [
+        "Phòng thủ bờ",
+        "Tổ chức dân quân",
+        "Bảo trì pháo"
+      ],
+      "skills_en": [
+        "Coastal defence",
+        "Militia organisation",
+        "Gun maintenance"
+      ],
+      "traits_vi": [
+        "Kỷ luật",
+        "Gắn bó dân cảng",
+        "Dè chừng lệnh dùng bạo lực"
+      ],
+      "traits_en": [
+        "Disciplined",
+        "Attached to harbour communities",
+        "Wary of violent orders"
+      ],
+      "status_vi": {
+        "1715": "Củng cố pháo bờ và kho trú đông.",
+        "1716": "Giữ phòng tuyến dưới quyền giám sát dân sự."
+      },
+      "status_en": {
+        "1715": "Strengthens shore batteries and winter depots.",
+        "1716": "Maintains defences under civilian oversight."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "ravelo",
+      "faction_id": "merina_empire",
+      "name": "Ravelo",
+      "name_vi": "Ravelo",
+      "name_en": "Ravelo",
+      "role_vi": "Chủ quản xưởng tàu hoàng gia",
+      "role_en": "Royal shipyard superintendent",
+      "lore_vi": "Ravelo học kỹ thuật đóng tàu từ những bản vẽ đi cùng thương nhân tới triều Radama. Ông giữ thợ địa phương bên cạnh người ngoại quốc để kiến thức ở lại sau hợp đồng. Con tàu mới phải chở được lương và sống qua biển lạnh trước khi được nhận pháo.",
+      "lore_en": "Ravelo learns shipbuilding from plans brought by merchants to Radama’s court. He pairs local craftsmen with foreign specialists so knowledge remains after contracts end. A new ship must carry provisions and survive cold seas before receiving guns.",
+      "skills_vi": [
+        "Đóng tàu",
+        "Chuyển giao kỹ thuật",
+        "Quản lý gỗ"
+      ],
+      "skills_en": [
+        "Shipbuilding",
+        "Technical training",
+        "Timber management"
+      ],
+      "traits_vi": [
+        "Ham học",
+        "Giữ nghề tại chỗ",
+        "Cẩn trọng với nợ mua máy"
+      ],
+      "traits_en": [
+        "Eager to learn",
+        "Preserves local expertise",
+        "Wary of equipment debts"
+      ],
+      "status_vi": {
+        "1715": "Dựng xưởng và đào tạo thợ đóng tàu.",
+        "1716": "Chuẩn hóa sửa chữa cho hạm đội Merina."
+      },
+      "status_en": {
+        "1715": "Establishes yards and trains shipwrights.",
+        "1716": "Standardises repairs for the Merina fleet."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "rambolamanana",
+      "faction_id": "merina_empire",
+      "name": "Rambolamanana",
+      "name_vi": "Rambolamanana",
+      "name_en": "Rambolamanana",
+      "role_vi": "Người điều phối đường đảo",
+      "role_en": "Island-route coordinator",
+      "lore_vi": "Rambolamanana nối kho vùng cao với cảng của đế quốc Merina. Quân dịch và nhu cầu vận tải cùng đòi người từ các làng. Bà ghi ngày trở về trên mỗi lệnh huy động, vì người cầm cuốc cần biết bao giờ sẽ lại có người bên cạnh mình.",
+      "lore_en": "Rambolamanana connects highland depots to Merina’s ports. Military service and transport both demand villagers. She records a return date on every mobilisation order because those tending the fields need to know when help will come home.",
+      "skills_vi": [
+        "Điều vận đường đảo",
+        "Thương lượng làng",
+        "Tổ chức trạm nghỉ"
+      ],
+      "skills_en": [
+        "Island logistics",
+        "Village negotiation",
+        "Rest-station organisation"
+      ],
+      "traits_vi": [
+        "Bền lòng",
+        "Giữ lời hoàn quân",
+        "Khó chấp nhận lệnh vô hạn"
+      ],
+      "traits_en": [
+        "Resolute",
+        "Keeps return promises",
+        "Resists indefinite service"
+      ],
+      "status_vi": {
+        "1715": "Nối các kho vùng cao với duyên hải.",
+        "1716": "Điều phối nghĩa vụ vận tải trong đế quốc mở rộng."
+      },
+      "status_en": {
+        "1715": "Connects highland depots to the coast.",
+        "1716": "Coordinates transport duties across the expanding empire."
+      },
+      "portrait_asset": null
+    }
+  ],
+  "updates": [
+    {
+      "collection": "characters",
+      "id": "isabella_testarossa_de_aragon",
+      "before": {
+        "role_en": "Queen of Castilian",
+        "lore_en": ""
+      },
+      "after": {
+        "role_en": "Queen of the Castilian Empire",
+        "lore_en": "Isabella stands at the centre of Castilian’s crisis. In 1715, she travels personally to Marrakesh to bring Edward Spencer back to war as Castilian loses the initiative on several fronts. By 1716, her work shifts from surviving the war to reforming a state worn down by years of conflict.",
+        "skills_vi": [
+          "Chỉ huy chiến lược",
+          "Điều hành nhà nước",
+          "Lãnh đạo trong khủng hoảng",
+          "Theo sát cải tổ hành chính"
+        ],
+        "skills_en": [
+          "Strategic command",
+          "Statecraft",
+          "Crisis leadership",
+          "Administrative follow-through"
+        ],
+        "traits_vi": [
+          "Quyết đoán",
+          "Gánh trách nhiệm vương quyền",
+          "Đòi hỏi cao ở người phục vụ"
+        ],
+        "traits_en": [
+          "Decisive",
+          "Carries the burden of sovereignty",
+          "Demanding of those who serve"
+        ],
+        "status_vi": {
+          "1715": "Trực tiếp đưa Edward trở lại cuộc chiến giữa khủng hoảng nhiều mặt trận.",
+          "1716": "Dẫn dắt hòa đàm và cải tổ nhà nước, quân đội sau chiến tranh."
+        },
+        "status_en": {
+          "1715": "Personally brings Edward back to the war amid a multi-front crisis.",
+          "1716": "Leads peace negotiations and post-war institutional and military reforms."
+        }
+      },
+      "baseline": {
+        "id": "isabella_testarossa_de_aragon",
+        "faction_id": "castilian_empire",
+        "name": "Isabella Testarossa de Aragón",
+        "role_vi": "Nữ hoàng Castilian",
+        "role_en": "Queen of Castilian",
+        "portrait_asset": null,
+        "status": {
+          "1715": "Active ruler during the multi-front Castilian crisis",
+          "1716": "Leads post-war institutional and military reorganization"
+        },
+        "lore_vi": "Isabella đứng ở trung tâm khủng hoảng Castilian. Năm 1715, nàng trực tiếp tới Marrakesh để kéo Edward Spencer trở lại cuộc chiến khi Castilian mất quyền chủ động trên nhiều mặt trận. Đến 1716, vai trò của nàng dịch từ sinh tồn chiến tranh sang cải tổ một nhà nước đã bị bào mòn bởi nhiều năm xung đột.",
+        "lore_en": "",
+        "skills": [
+          "Strategic command",
+          "Statecraft",
+          "Crisis leadership",
+          "Ruthless administrative follow-through"
+        ],
+        "traits": []
+      }
+    },
+    {
+      "collection": "characters",
+      "id": "napoleon",
+      "before": {
+        "name": "Napoleon",
+        "lore_en": ""
+      },
+      "after": {
+        "name": "Napoleon Bonaparte",
+        "name_vi": "Napoleon Bonaparte",
+        "name_en": "Napoleon Bonaparte",
+        "lore_en": "Napoleon represents France’s new generation of power. His reign sustains military pressure in the Pyrenees while confidently engaging rivals in direct diplomacy. At Palermo, being eighteen does little to diminish his initiative or calculation in negotiations.",
+        "skills_vi": [
+          "Thương lượng ngoại giao",
+          "Sử dụng uy quyền hoàng đế",
+          "Gây sức ép chiến lược",
+          "Đọc thế cân bằng chính trị"
+        ],
+        "skills_en": [
+          "Diplomatic negotiation",
+          "Exercising imperial authority",
+          "Strategic pressure",
+          "Reading political balances"
+        ],
+        "traits_vi": [
+          "Tự tin",
+          "Chủ động",
+          "Đầy tham vọng"
+        ],
+        "traits_en": [
+          "Confident",
+          "Proactive",
+          "Ambitious"
+        ],
+        "status_vi": {
+          "1715": "Quân chủ Pháp trong chiến tranh với Castilian.",
+          "1716": "Hoàng đế mười tám tuổi trực tiếp tham gia ngoại giao tại Palermo."
+        },
+        "status_en": {
+          "1715": "French sovereign during the war with Castilian.",
+          "1716": "Eighteen-year-old emperor personally participating in diplomacy at Palermo."
+        }
+      },
+      "baseline": {
+        "id": "napoleon",
+        "faction_id": "holy_french_kingdom",
+        "name": "Napoleon",
+        "role_vi": "Hoàng đế Pháp",
+        "role_en": "Emperor of the Holy French Kingdom",
+        "portrait_asset": null,
+        "status": {
+          "1715": "French sovereign during the Castilian-French war",
+          "1716": "18-year-old emperor personally participating in Palermo diplomacy"
+        },
+        "lore_vi": "Napoleon đại diện cho thế hệ quyền lực mới của Pháp. Dưới triều đại của hắn, Pháp vừa có khả năng duy trì áp lực quân sự lớn tại Pyrenees vừa đủ tự tin để bước vào ngoại giao trực tiếp với các đối thủ. Tại Palermo, tuổi mười tám không làm hắn kém chủ động hay kém tính toán trong thương lượng.",
+        "lore_en": "",
+        "skills": [
+          "Negotiation",
+          "Imperial authority",
+          "Strategic pressure",
+          "Political confidence"
+        ],
+        "traits": []
+      }
+    },
+    {
+      "collection": "characters",
+      "id": "emperor_of_ravenna",
+      "before": {
+        "name_vi": "Hoàng đế Ravenna",
+        "name_en": "Emperor of Ravenna"
+      },
+      "after": {
+        "name_vi": "Hoàng đế Ravenna",
+        "name_en": "The Emperor of Ravenna"
+      },
+      "baseline": {
+        "portrait_asset": null,
+        "id": "emperor_of_ravenna",
+        "faction_id": "western_roman_empire",
+        "name": "Hoàng đế Ravenna",
+        "role_vi": "Quân chủ Tây La Mã",
+        "role_en": "Emperor of Western Rome",
+        "lore_vi": "Từ căn phòng bản đồ trong nội điện, Hoàng đế theo dõi các đạo quân bằng những tuyến vận tải, thống kê thương vong và phần sức mạnh còn lại của đối phương. Khi Marcus trở về từ Palermo, điều ông muốn biết là Castilian còn có thể huy động bao nhiêu, Isabella có giữ được ngai và Edward Spencer còn sống hay đã chết.\n\nBắc Phi khiến ông nhìn rõ khả năng các quốc gia liên tục tái tạo sức kháng cự. Ông đã dành nhiều năm tìm kiếm Vestigium và chuẩn bị những thử nghiệm mà con người phải trả giá bằng thân thể. Vương quyền cùng giáo hội Ravenna đặt ấn lên Bellum Sacrum, mở đường cho một cuộc chiến kết hợp quân đoàn với những vật thể có thể vượt khỏi khả năng kiểm soát thông thường.\n\nMarcus cảnh báo rằng Pháp, Castilian, Habsburg và Novgorod sẽ bị cuốn vào cùng một cuộc chiến. Hoàng đế nghe hết, rồi giữ nguyên mệnh lệnh. Trong khi các triều đình tính thời gian cần cho tái thiết, Ravenna đã dùng những tháng ấy để chuẩn bị kho và đơn vị.",
+        "lore_en": "From the palace map room, the Emperor follows his armies through transport routes, casualty returns and the strength remaining to his opponents. When Marcus returns from Palermo, he asks how much Castilian can still mobilize, whether Isabella holds her throne and whether Edward Spencer remains alive.\n\nNorth Africa exposes the ability of states to renew their resistance. He has spent years gathering Vestigium and preparing experiments paid for with human bodies. The Crown and Ravenna’s church seal Bellum Sacrum, preparing a war that combines legions with objects capable of exceeding ordinary control.\n\nMarcus warns that France, Castilian, Habsburg and Novgorod will be drawn into a single conflict. The Emperor hears him and retains his orders. While other courts calculate the time needed to rebuild, Ravenna has used those months to prepare stores and units.",
+        "skills_vi": [
+          "Điều phối chiến lược đế chế",
+          "Huy động quân đoàn",
+          "Tổ chức chương trình Vestigium",
+          "Kết hợp vương quyền và giáo hội"
+        ],
+        "skills_en": [
+          "Imperial strategy",
+          "Legion mobilization",
+          "Vestigium programme organization",
+          "Crown–church coordination"
+        ],
+        "skills": [
+          "Điều phối chiến lược đế chế",
+          "Huy động quân đoàn",
+          "Tổ chức chương trình Vestigium",
+          "Kết hợp vương quyền và giáo hội"
+        ],
+        "traits_vi": [
+          "Tính toán sức kháng cự đối phương",
+          "Theo đuổi chiến tranh toàn lục địa",
+          "Chấp nhận tổn thất thử nghiệm"
+        ],
+        "traits_en": [
+          "Calculates enemy resilience",
+          "Pursues continental warfare",
+          "Accepts experimental casualties"
+        ],
+        "traits": [
+          "Tính toán sức kháng cự đối phương",
+          "Theo đuổi chiến tranh toàn lục địa",
+          "Chấp nhận tổn thất thử nghiệm"
+        ],
+        "status_vi": {
+          "1715": "Điều hành chiến tranh của Ravenna; các chương trình tìm kiếm Vestigium được giữ kín.",
+          "1716": "Phê chuẩn chuẩn bị Thánh chiến, giao Marcus tổ chức quân đội và sắc lệnh."
+        },
+        "status_en": {
+          "1715": "Directing Ravenna’s wars while Vestigium searches remain secret.",
+          "1716": "Authorizes Holy War preparations and orders Marcus to ready the army and decree."
+        },
+        "status": {
+          "1715": "Điều hành chiến tranh của Ravenna; các chương trình tìm kiếm Vestigium được giữ kín.",
+          "1716": "Phê chuẩn chuẩn bị Thánh chiến, giao Marcus tổ chức quân đội và sắc lệnh."
+        },
+        "name_vi": "Hoàng đế Ravenna",
+        "name_en": "Emperor of Ravenna"
+      }
+    },
+    {
+      "collection": "units",
+      "id": "conquistadores",
+      "before": {
+        "lore_en": ""
+      },
+      "after": {
+        "name_vi": "Conquistadores",
+        "name_en": "Conquistadores",
+        "role_vi": "Bộ binh tinh nhuệ đột kích cơ động",
+        "role_en": "Elite mobile assault infantry",
+        "lore_en": "These elite troops enter situations beyond the capacity of ordinary infantry: cities, raids, fortifications, Vestigium-affected areas and missions requiring discipline and independent judgement. After severe losses, Castilian begins restructuring the Conquistadores towards specialised roles and standardised supply."
+      },
+      "baseline": {
+        "id": "conquistadores",
+        "faction_id": "castilian_empire",
+        "role": "Elite mobile assault infantry",
+        "image_asset": null,
+        "name": "Conquistadores",
+        "lore_vi": "Lực lượng tinh nhuệ được đưa vào những khu vực mà bộ binh thông thường không đủ khả năng xử lý: đô thị, đột kích, công sự, vùng có Vestigium hoặc nhiệm vụ cần kỷ luật và tính tự chủ cao. Sau tổn thất lớn, Castilian bắt đầu tái cấu trúc Conquistadores theo hướng chuyên môn hóa và chuẩn hóa tiếp tế.",
+        "lore_en": ""
+      }
+    },
+    {
+      "collection": "units",
+      "id": "gendarmes",
+      "before": {
+        "lore_en": ""
+      },
+      "after": {
+        "name_vi": "Thiết binh Pháp",
+        "name_en": "Gendarmes",
+        "role_vi": "Thiết binh xung kích Vestigium · Bộ binh chiến đấu trên tàu",
+        "role_en": "Vestigium heavy assault infantry · Shipboard infantry",
+        "lore_en": "French heavy infantry wear solid iron armour reinforced by Vestigium energy. In shipboard fighting, they withstand ordinary musket fire significantly better and use war hammers or spiked maces to break enemy formations at close range."
+      },
+      "baseline": {
+        "id": "gendarmes",
+        "faction_id": "holy_french_kingdom",
+        "role": "Vestigium heavy shock infantry / naval marines",
+        "image_asset": null,
+        "name": "Gendarmes",
+        "lore_vi": "Thiết binh Pháp mặc giáp sắt nguyên khối được tăng cường bởi năng lượng Vestigium. Trong chiến đấu trên tàu, họ có thể chịu hỏa lực súng trường thông thường tốt hơn đáng kể và dùng búa chiến/chùy gai để phá đội hình đối phương trong cự ly gần.",
+        "lore_en": ""
+      }
+    },
+    {
+      "collection": "timeline",
+      "id": "1715",
+      "before": {
+        "summary_vi": "chiến tranh giữa các cường quốc đang ở giai đoạn cực kỳ bất ổn; Castilian bị kéo căng trên nhiều chiến trường.",
+        "summary_en": "",
+        "details_vi": "- **Holy French Kingdom** gây áp lực trực tiếp lên biên giới Pyrenees; Hoàng đế Pháp đã giết Giáo hoàng tại Vienna và xé bỏ Hiệp ước Không xâm phạm.\n- **Western Roman Empire** đã quét Ottoman khỏi phần lớn lãnh thổ châu Âu, sau đó mở chiến dịch xuống Bắc Phi; Libya, Ai Cập và Tunis lần lượt rơi vào tay họ trước khi mũi tiến công ép về phía Morocco.\n- **Castilian Empire** bị ép trong thế nhiều mặt trận: Pháp ở phía bắc, Tây La Mã từ Bắc Phi/Địa Trung Hải, trong khi Bồ Đào Nha vẫn là áp lực ngoài Đại Tây Dương.\n- **Morocco** nên được hiển thị như một vùng **chuyển tiếp chính trị** trong layer 1715. Canon xác nhận về sau Morocco không còn là thuộc địa Castilian/Habsburg, nhưng demo chưa nên tự đặt một ngày độc lập chính xác nếu tác giả chưa khóa mốc đó.",
+        "details_en": ""
+      },
+      "after": {
+        "summary_vi": "Castilian bị kéo căng bởi chiến tranh trên nhiều mặt trận.",
+        "summary_en": "Castilian is stretched by war on multiple fronts.",
+        "details_vi": "Pháp gây sức ép ở Pyrenees, Tây La Mã đẩy chiến tranh xuống Bắc Phi. Edward Spencer trở lại phục vụ Castilian giữa một mùa đông kéo dài và những cuộc tranh quyền chưa dứt.",
+        "details_en": "France applies pressure in the Pyrenees while Western Rome pushes the war into North Africa. Edward Spencer returns to Castilian service amid a prolonged winter and unresolved struggles for power."
+      },
+      "baseline": {
+        "id": "1715",
+        "label_vi": "Năm 1715",
+        "label_en": "1715",
+        "enabled": true,
+        "summary_vi": "chiến tranh giữa các cường quốc đang ở giai đoạn cực kỳ bất ổn; Castilian bị kéo căng trên nhiều chiến trường.",
+        "summary_en": "",
+        "details_vi": "- **Holy French Kingdom** gây áp lực trực tiếp lên biên giới Pyrenees; Hoàng đế Pháp đã giết Giáo hoàng tại Vienna và xé bỏ Hiệp ước Không xâm phạm.\n- **Western Roman Empire** đã quét Ottoman khỏi phần lớn lãnh thổ châu Âu, sau đó mở chiến dịch xuống Bắc Phi; Libya, Ai Cập và Tunis lần lượt rơi vào tay họ trước khi mũi tiến công ép về phía Morocco.\n- **Castilian Empire** bị ép trong thế nhiều mặt trận: Pháp ở phía bắc, Tây La Mã từ Bắc Phi/Địa Trung Hải, trong khi Bồ Đào Nha vẫn là áp lực ngoài Đại Tây Dương.\n- **Morocco** nên được hiển thị như một vùng **chuyển tiếp chính trị** trong layer 1715. Canon xác nhận về sau Morocco không còn là thuộc địa Castilian/Habsburg, nhưng demo chưa nên tự đặt một ngày độc lập chính xác nếu tác giả chưa khóa mốc đó.",
+        "details_en": ""
+      }
+    },
+    {
+      "collection": "timeline",
+      "id": "1716",
+      "before": {
+        "summary_vi": "các cuộc chiến lớn giữa người với người đi tới giai đoạn kết thúc/đình chiến; Bắc Phi bước vào tái cấu trúc chính trị và quân sự.",
+        "summary_en": "",
+        "details_vi": "- Chiến tranh Bắc Phi xoay quanh Fes, Taza, Taourirt, Nador và các tuyến tiếp vận của Morocco.\n- Tây La Mã chứng minh một hệ thống chỉ huy có khả năng tiếp tục chiến đấu ngay cả khi tầng chỉ huy cao bị tiêu diệt; đây trở thành một bài học lớn cho cải cách quân sự Castilian.\n- **Sultan Abd al-Rahman ibn Ziyad** đại diện Morocco trong các cuộc đàm phán cấp cao. Canon tại Palermo xác nhận cách Castilian nhìn Morocco: **không còn là thuộc địa**.\n- **Napoleon**, Hoàng đế Pháp 18 tuổi, trực tiếp xuất hiện trong đàm phán Palermo.\n- Sau hòa ước, các đơn vị Tây La Mã bắt đầu rút khỏi Bắc Phi về Sicily và miền nam Italy.\n- Castilian tiến hành cải tổ mạnh về hậu cần, chỉ huy phân quyền, chuẩn hóa trang bị và biên chế. Cuối 1716 xuất hiện quá trình chuẩn hóa `Spencer Modelo 1716`.\n- Cuối thu 1716, mặt trời xuất hiện trở lại lần đầu sau bảy năm, đánh dấu thay đổi lớn về atmosphere của thế giới.",
+        "details_en": ""
+      },
+      "after": {
+        "summary_vi": "Các chiến dịch lớn đi tới hòa đàm; việc tái thiết và những hiểm họa Vestigium cùng đặt ra nghĩa vụ mới.",
+        "summary_en": "Major campaigns move towards peace talks, while reconstruction and Vestigium threats create new obligations.",
+        "details_vi": "Chiến tranh Bắc Phi đi qua Fes, Taza, Taourirt và Nador. Hòa đàm Palermo mở đường rút quân và cải tổ Castilian. Ziyad chuyển quyền cai trị Maroc cho Idris vào cuối năm; những cộng đồng Moor tự nguyện trao cho ông tước hiệu Khalip phương Tây.",
+        "details_en": "The North African war passes through Fes, Taza, Taourirt and Nador. The Palermo negotiations open the way to withdrawals and Castilian reforms. Ziyad transfers Morocco’s secular rule to Idris late in the year; willing Moorish communities confer upon him the title of Western Caliph."
+      },
+      "baseline": {
+        "id": "1716",
+        "label_vi": "Năm 1716",
+        "label_en": "1716",
+        "enabled": true,
+        "summary_vi": "các cuộc chiến lớn giữa người với người đi tới giai đoạn kết thúc/đình chiến; Bắc Phi bước vào tái cấu trúc chính trị và quân sự.",
+        "summary_en": "",
+        "details_vi": "- Chiến tranh Bắc Phi xoay quanh Fes, Taza, Taourirt, Nador và các tuyến tiếp vận của Morocco.\n- Tây La Mã chứng minh một hệ thống chỉ huy có khả năng tiếp tục chiến đấu ngay cả khi tầng chỉ huy cao bị tiêu diệt; đây trở thành một bài học lớn cho cải cách quân sự Castilian.\n- **Sultan Abd al-Rahman ibn Ziyad** đại diện Morocco trong các cuộc đàm phán cấp cao. Canon tại Palermo xác nhận cách Castilian nhìn Morocco: **không còn là thuộc địa**.\n- **Napoleon**, Hoàng đế Pháp 18 tuổi, trực tiếp xuất hiện trong đàm phán Palermo.\n- Sau hòa ước, các đơn vị Tây La Mã bắt đầu rút khỏi Bắc Phi về Sicily và miền nam Italy.\n- Castilian tiến hành cải tổ mạnh về hậu cần, chỉ huy phân quyền, chuẩn hóa trang bị và biên chế. Cuối 1716 xuất hiện quá trình chuẩn hóa `Spencer Modelo 1716`.\n- Cuối thu 1716, mặt trời xuất hiện trở lại lần đầu sau bảy năm, đánh dấu thay đổi lớn về atmosphere của thế giới.",
+        "details_en": ""
+      }
+    }
+  ]
+}

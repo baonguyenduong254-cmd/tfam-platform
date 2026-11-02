@@ -1,0 +1,366 @@
+/* Royal daylight. Shared surfaces inherit one selected faction across every room. */
+:root{--royal-paper:#f5efe4;--royal-surface:#fffaf0;--royal-wash:#e8d7c8;--royal-ink:#3c3430;--royal-accent:#8b3f3c;--royal-metal:#8c713f;--royal-rule:color-mix(in srgb,var(--royal-metal) 29%,transparent);--royal-muted:color-mix(in srgb,var(--royal-ink) 72%,var(--royal-paper))}
+html{background:var(--royal-paper);color-scheme:light}
+body.tfam-editorial.tfam-royal{--bg:var(--royal-paper);--panel:var(--royal-surface);--line:var(--royal-rule);--gold:var(--royal-metal);--ice:var(--royal-accent);--text:var(--royal-ink);--muted:var(--royal-muted);background:var(--royal-paper);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.campaign-app,.campaign-workspace,.atlas-content,.archive-hub,.military-roster,.vest-collection,.monuments,.faction-highlights,.faction-rack){background:var(--royal-paper);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.site-section-nav,.command-bar.command-bar-with-tools){background:var(--royal-surface)!important;color:var(--royal-ink);border-bottom:1px solid var(--royal-rule);box-shadow:0 3px 18px #69574408}
+body.tfam-editorial.tfam-royal .campaign-app .command-bar :is(nav button,.section-room-label){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .campaign-app .command-bar nav button.active{color:var(--royal-accent);border-bottom-color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .campaign-app .command-bar nav button:hover{color:var(--royal-accent);background:var(--royal-wash)}
+body.tfam-editorial.tfam-royal .site-section-nav :is(a,span,button){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .site-section-nav a[aria-current=page]{color:var(--royal-accent);border-color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.eyebrow,.experience-eyebrow,.rack-heading,.gallery-section-label,.vest-eyebrow,.section-room-label){color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal :is(.command-utilities,.background-music,.music-player-bar) :is(button,small,span){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.gear-toggle,.reader-account-button,.faction-selector-button){color:var(--royal-accent);border-color:var(--royal-rule);background:transparent}
+body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker,.reader-context-panel,.reader-context-panel header){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule);box-shadow:0 15px 50px #47372425}
+body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker,.reader-context-panel) :is(h2,h3,p,button,strong,label,input,small,span){color:inherit}
+body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker) button[aria-pressed=true]{color:var(--royal-accent);background:var(--royal-wash)}
+body.tfam-editorial.tfam-royal :is(input,select,textarea){accent-color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(button,a,input,select,textarea,summary):focus-visible{outline-color:var(--royal-accent)}
+/* The arrival artwork stays cinematic, with daylight on the title rather than a navy veil. */
+body.tfam-editorial.tfam-royal .world-arrival{background:var(--royal-wash);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .world-arrival .arrival-art img{filter:saturate(.8) brightness(1.1)}
+body.tfam-editorial.tfam-royal .world-arrival .arrival-art:after{background:linear-gradient(90deg,var(--royal-paper) 0%,color-mix(in srgb,var(--royal-paper) 92%,transparent) 30%,color-mix(in srgb,var(--royal-paper) 35%,transparent) 78%),linear-gradient(0deg,var(--royal-paper),transparent 70%)}
+body.tfam-editorial.tfam-royal .world-arrival .arrival-copy :is(h1,p){color:var(--royal-ink);text-shadow:none}
+body.tfam-editorial.tfam-royal .world-arrival .experience-atmosphere{opacity:.15}
+body.tfam-editorial.tfam-royal :is(.map-heading,.terrain-toolbar,.terrain-map-caption,.map-panel,.cartography-desk){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.map-heading h2,.map-title-cartouche h2,.map-heading-compass,.atlas-year-slider span){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .atlas-year-slider .selected{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.map-controls,.province-popup){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .map-controls button{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .map-controls button:hover{background:var(--royal-wash)}
+body.tfam-editorial.tfam-royal .faction-strip button{color:var(--royal-muted);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .faction-strip button.chosen{color:var(--royal-accent);background:var(--royal-wash);box-shadow:inset 0 -2px var(--royal-accent)}
+body.tfam-editorial.tfam-royal .faction-strip button:hover{background:var(--royal-wash);color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.highlight-frame h3,.highlight-person strong,.highlight-force strong,.highlight-trait strong){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.highlight-frame,.highlight-trait){border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.highlight-trait p,.highlight-person small,.highlight-force small){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .panorama-shade{background:linear-gradient(90deg,color-mix(in srgb,var(--royal-paper) 96%,transparent),color-mix(in srgb,var(--royal-paper) 55%,transparent) 65%),linear-gradient(0deg,var(--royal-paper),transparent 75%)}
+body.tfam-editorial.tfam-royal .panorama-copy :is(h2,p,span,button){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .panorama-actions button{border-color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .panorama-number{color:color-mix(in srgb,var(--royal-accent) 16%,transparent)}
+/* Archive controls and folio colours follow the country, including portals. */
+body.tfam-editorial.tfam-royal .archive-heading,body.tfam-editorial.tfam-royal .is-character-archive .archive-heading{background:var(--royal-surface);border:1px solid var(--royal-rule);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.archive-heading h2,.archive-heading-title>svg),body.tfam-editorial.tfam-royal .is-character-archive #archive-title{color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .archive-faction-picker,body.tfam-editorial.tfam-royal .is-character-archive .archive-heading .eyebrow{color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .archive-faction-picker select,body.tfam-editorial.tfam-royal .is-character-archive .archive-faction-picker select{background:var(--royal-paper);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .archive-sections button,body.tfam-editorial.tfam-royal .is-character-archive .archive-sections button{color:var(--royal-muted);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .archive-sections button.active,body.tfam-editorial.tfam-royal .is-character-archive .archive-sections button.active{color:var(--royal-accent);background:var(--royal-wash);box-shadow:inset 0 -2px var(--royal-accent)}
+body.tfam-editorial.tfam-royal .is-character-archive{--folio-paper:var(--royal-paper);--folio-ink:var(--royal-ink);--folio-red:var(--royal-accent);--folio-brass:var(--royal-metal);--folio-rule:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .command-roster{background:var(--royal-wash);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .command-roster :is(header h2,.command-person-copy strong,.command-roster-groups h3){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .command-roster :is(header p,.command-overline,.command-person-copy small,.command-roster-groups h3>span,.command-affinity-filter){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .command-search{border-color:var(--royal-rule);color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .command-search input{color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .command-search input::placeholder{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.command-affinity-filter select,.command-mobile-picker select){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .command-roster .command-roster-groups button{color:var(--royal-ink);border-bottom-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .command-roster .command-roster-groups button[aria-pressed=true]{background:var(--royal-surface);border-color:var(--royal-metal);box-shadow:inset 3px 0 var(--royal-accent);color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .command-roster .command-roster-groups button:hover{background:var(--royal-surface)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .character-profile.strategy-profile{background-color:var(--royal-paper);background-image:linear-gradient(90deg,transparent,color-mix(in srgb,var(--royal-surface) 86%,transparent) 55%),url('/art/interface/frozen-archive-engraving.webp')}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .character-command-copy{background:color-mix(in srgb,var(--royal-surface) 45%,transparent)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .portrait-column{background:linear-gradient(180deg,color-mix(in srgb,var(--royal-surface) 75%,transparent),transparent)}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .portrait{mix-blend-mode:multiply}
+body.tfam-editorial.tfam-royal .command-identity h2{color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal :is(.command-office,.command-overline b,.folio-plate-heading>span:last-child){color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .command-identity:after{background:var(--royal-surface);color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .is-character-archive .command-tabs button[aria-selected=true]{color:var(--royal-accent);border-bottom-color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .royal-organization{background:var(--royal-surface);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .royal-organization>summary{background:linear-gradient(90deg,var(--royal-wash),var(--royal-surface))}
+body.tfam-editorial.tfam-royal .royal-organization>summary :is(strong,.organization-emblem){color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .organization-content{background:var(--royal-paper)}
+body.tfam-editorial.tfam-royal .court-person-node{background:var(--royal-surface);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .court-person-node:hover,body.tfam-editorial.tfam-royal .court-person-node[aria-pressed=true]{background:var(--royal-wash);border-color:var(--royal-accent)}
+.organization-household{margin-top:24px;padding-top:18px;border-top:1px solid var(--royal-rule)}.organization-household>h3{font:24px var(--reading-font),serif;color:var(--royal-ink)}.organization-household>p{font:13px/1.7 var(--reading-font),serif;color:var(--royal-muted)}.organization-household>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:15px}
+body.tfam-editorial.tfam-royal :is(.military-masthead,.military-filters,.military-empty,.military-dossier,.monument-intro,.monument-dialog,.unit-dossier,.vest-intro,.vest-toolbar,.vest-dialog,.vest-detail-copy,.vest-detail-data){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.military-roster,.military-dossier,.monuments,.monument-dialog,.unit-dossier,.vest-collection,.vest-dialog) :is(h1,h2,h3,h4,strong){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.military-roster,.military-dossier,.monuments,.monument-dialog,.unit-dossier,.vest-collection,.vest-dialog) :is(p,small,li,dt,dd){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.military-filters,.vest-toolbar) :is(button,select,input){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.military-filters,.vest-toolbar) button[aria-pressed=true]{background:var(--royal-wash);color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.vest-category-nav,.vest-rarity-tabs,.vest-collection-header,.vest-salon-intro,.vest-salon-toolbar,.vest-search,.vest-count){background:var(--royal-paper);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.vest-category-nav,.vest-rarity-tabs) button{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.vest-category-nav,.vest-rarity-tabs) button[aria-pressed=true]{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .faction-gallery{background:var(--royal-paper);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.gallery-toolbar,.gallery-index,.gallery-body,.gallery-record,.gallery-year-picker){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .gallery-record :is(h2,h3,p,strong,small,button,.gallery-card-copy){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .gallery-index button{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.site-footer,.legal-page){background:var(--royal-paper);color:var(--royal-muted);border-color:var(--royal-rule)}
+/* Intro and voyage retain the original art, with a light pearl environment. */
+body.tfam-editorial.tfam-royal :is(.world-entry,.boot-splash){--paper:var(--royal-ink);--bronze:var(--royal-metal);background:var(--royal-paper);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .world-entry :is(.title-scene,.seal-scene,.voyage-scene){background:radial-gradient(ellipse at 50% 40%,var(--royal-surface),var(--royal-paper))}
+body.tfam-editorial.tfam-royal .world-entry :is(.entry-signature,.entry-author strong,.scene-overline,.banner-name,.title-composition h1,.voyage-copy h1,.voyage-shortcuts button,.entry-topline button,.entry-topline small){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .world-entry :is(.entry-author,.voyage-copy p,.title-composition p,.seal-instruction p){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .world-entry .faction-flag-frame{box-shadow:0 1px 0 #fff,0 6px 20px #68543420}
+body.tfam-editorial.tfam-royal .world-entry .entry-grain{opacity:.035}
+body.tfam-editorial.tfam-royal .entry-snow{opacity:.2}
+@media(max-width:680px){.organization-household>div{grid-template-columns:1fr}.tfam-royal .world-arrival .arrival-art:after{background:linear-gradient(0deg,var(--royal-paper),color-mix(in srgb,var(--royal-paper) 76%,transparent))}}
+body.tfam-editorial.tfam-royal .tfam-boot{background:var(--royal-paper);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .tfam-boot :is(h1,.boot-author,.boot-status,.boot-quote){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .tfam-boot .boot-continue{background:var(--royal-surface);color:var(--royal-accent);border-color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .copyright-footer{background:var(--royal-paper);color:var(--royal-muted);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .copyright-copy :is(p,a){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .copyright-footer img{mix-blend-mode:multiply;opacity:.65}
+/* Live QA: remove the former steel console treatment and relight the library heading. */
+body.tfam-editorial.tfam-royal .command-bar.command-bar-with-tools{border-image:none!important;box-shadow:0 4px 16px #6854340c!important}
+body.tfam-editorial.tfam-royal .command-bar.command-bar-with-tools:before,body.tfam-editorial.tfam-royal .command-bar.command-bar-with-tools:after{display:none!important}
+body.tfam-editorial.tfam-royal :is(.music-console,.music-disc,.gear-toggle,.reader-account-button){background:var(--royal-surface)!important;background-image:none!important;color:var(--royal-accent)!important;border:1px solid var(--royal-rule)!important;box-shadow:none!important}
+body.tfam-editorial.tfam-royal .reader-welcome{background:var(--royal-paper);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .reader-welcome .reader-welcome-copy h1{color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .reader-welcome .reader-welcome-copy h1 em{color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .reader-welcome .reader-welcome-copy p{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .reader-welcome :is(a,.reader-welcome-folio){color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .reader-welcome .experience-atmosphere{opacity:.12}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream]{--paper:var(--royal-surface);--panel:var(--royal-paper);--ink:var(--royal-ink);--accent:var(--royal-accent);--muted:var(--royal-muted);--rule:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-categories,.vest-tools,.vest-depth-nav,.vest-mobile-depth){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule);box-shadow:none}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-categories button,.vest-depth-nav button,.vest-tools input,.vest-tools select){background:transparent;color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .vest-collection .vest-categories button[aria-selected=true]{background:var(--royal-wash);color:var(--royal-accent);border-color:var(--royal-accent);box-shadow:inset 0 -1px var(--royal-accent)}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object{background:linear-gradient(145deg,var(--royal-surface),var(--royal-paper));border-color:var(--royal-rule);box-shadow:inset 0 0 0 5px var(--royal-surface),inset 0 0 0 6px var(--royal-rule),0 8px 22px #68543412}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object:hover{border-color:var(--royal-metal);box-shadow:0 12px 30px #68543420}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-name,.vest-tier h3){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-form,.vest-abundance,.vest-salon-notes,.vest-salon-intro>p,.vest-tier-count,.vest-tier header small,.vest-exhibit-number){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-salon-intro h2 em,.vest-descent,.vest-salon-arch,.vest-salon-rule){color:var(--royal-metal)}
+body.tfam-editorial.tfam-royal .vest-collection .vest-plinth{background:var(--royal-wash);border-color:var(--royal-metal);box-shadow:0 5px 0 var(--royal-surface),0 6px 0 var(--royal-rule),0 10px 16px #68543418}
+body.tfam-editorial.tfam-royal .vest-collection dialog.vest-dialog,body.tfam-editorial.tfam-royal .vest-collection dialog.vest-dialog :is(.vest-detail-display,.vest-detail-copy,.vest-close,.vest-adjacent button){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule);box-shadow:none}
+body.tfam-editorial.tfam-royal .vest-unseal{background:linear-gradient(135deg,var(--royal-wash),var(--royal-surface));color:var(--royal-accent)!important}
+/* Pearl edition: typography and furniture share the same daylight ink system. */
+body.tfam-editorial.tfam-royal{--royal-muted:color-mix(in srgb,var(--royal-ink) 86%,var(--royal-paper))}
+body.tfam-editorial.tfam-royal :is(.archive-hub,.military-roster,.vest-collection){padding-top:clamp(24px,4vw,60px)}
+body.tfam-editorial.tfam-royal :is(.archive-heading,.military-masthead,.vest-salon-intro){border-inline:0;background:transparent;box-shadow:none;padding-block:28px 32px}
+body.tfam-editorial.tfam-royal :is(.archive-heading h2,.military-masthead h2,.vest-salon-intro h2){font-weight:400;letter-spacing:-.035em;text-shadow:none;text-wrap:balance}
+body.tfam-editorial.tfam-royal :is(.archive-sections,.military-filters){gap:8px;border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.archive-sections button,.military-filters button){border-radius:2px;min-height:44px;padding-inline:20px}
+body.tfam-editorial.tfam-royal :is(.character-command-layout,.royal-organization){box-shadow:0 12px 40px #57442d0d!important;border-color:var(--royal-rule)!important}
+body.tfam-editorial.tfam-royal .is-character-archive .character-command-layout .command-roster{background:color-mix(in srgb,var(--royal-surface) 72%,var(--royal-wash));padding:26px 18px}
+body.tfam-editorial.tfam-royal .command-roster .command-person-copy strong{font-size:15px;line-height:1.4}
+body.tfam-editorial.tfam-royal .command-roster .command-person-copy small{font-size:11px;line-height:1.6}
+body.tfam-editorial.tfam-royal .command-roster-groups h3{font-size:11px;letter-spacing:.08em}
+body.tfam-editorial.tfam-royal :is(.command-overline,.folio-plate-heading){font-size:11px;letter-spacing:.12em}
+body.tfam-editorial.tfam-royal :is(.command-identity>p,.command-panel .lore,.character-command-copy .command-panel .lore,.attribute-label,.court-person-node strong,.organization-branch h3){color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal :is(.command-section-heading h3,.attribute-explanation p,.attribute-explanation p:last-child,.command-attribute summary>strong small,.court-person-node small,.organization-note,.organization-branch>p,.royal-organization>summary small,.command-mobile-picker,.command-roster>p){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.command-panel .lore p:first-child:first-letter,.court-person-node>b,.organization-root>span,.organization-affiliations>span){color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .is-character-archive .command-tabs button{color:var(--royal-muted);font-size:14px}
+body.tfam-editorial.tfam-royal .is-character-archive .command-tabs button:is(:hover,[aria-selected=true]){background:var(--royal-wash);color:var(--royal-accent);border-bottom-color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .command-panel .lore{font-size:18px!important;line-height:1.85!important;max-width:65ch}
+body.tfam-editorial.tfam-royal :is(.military-doctrine,.military-unit-card,.military-search,.military-dialog,.military-dossier-copy){background:var(--royal-surface);color:var(--royal-ink);border:1px solid var(--royal-rule);box-shadow:0 8px 28px #57442d0c}
+body.tfam-editorial.tfam-royal .military-doctrine{border-top:2px solid var(--royal-metal);padding:clamp(22px,3vw,40px)}
+body.tfam-editorial.tfam-royal .military-doctrine:after{border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.military-kicker,.military-faction-picker label,.military-doctrine blockquote,.military-open,.military-card-copy>p){color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal .military-principles{color:var(--royal-accent)!important}
+body.tfam-editorial.tfam-royal :is(.military-native,.military-card-role,.military-total,.military-pagination,.military-search-row,.military-provenance,.military-language){color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal :is(.military-search input,.military-faction-picker select,.military-pagination button,.military-dossier-actions button,.military-dossier-actions a,.military-dossier-nav button,.military-close){background:var(--royal-surface);color:var(--royal-ink);border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .military-search input::placeholder{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .military-filters button.active{background:var(--royal-wash);color:var(--royal-accent);border-color:var(--royal-metal);box-shadow:inset 0 -2px var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(.military-card-number,.military-card-branch){background:var(--royal-surface);color:var(--royal-accent);border-color:var(--royal-rule);backdrop-filter:none}
+body.tfam-editorial.tfam-royal .military-card-copy{padding:22px}
+body.tfam-editorial.tfam-royal .military-card-copy h4{font-size:24px}
+body.tfam-editorial.tfam-royal .military-open{border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .military-dialog::backdrop{background:#302b256b;backdrop-filter:blur(5px)}
+body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker) input{background:var(--royal-paper);border-color:var(--royal-rule);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal ::selection{background:var(--royal-wash);color:var(--royal-ink)}
+@media(max-width:680px){body.tfam-editorial.tfam-royal .command-roster .command-person-copy strong{font-size:14px}body.tfam-editorial.tfam-royal .command-panel .lore{font-size:17px!important}body.tfam-editorial.tfam-royal .military-card-copy{padding:16px}}
+.dossier-connections{display:grid;gap:20px;padding:24px 0;border-bottom:1px solid var(--royal-rule)}.dossier-connections h3{margin:0 0 10px;font:italic 17px var(--reading-font),serif;color:var(--royal-accent)}.dossier-connections :is(button,a){display:flex;align-items:center;gap:10px;width:100%;padding:10px 0;text-align:left;text-decoration:none;background:transparent;border:0;border-bottom:1px solid var(--royal-rule);color:var(--royal-ink);font:15px/1.5 var(--reading-font),serif;cursor:pointer}.dossier-connections :is(button,a):hover{color:var(--royal-accent);background:var(--royal-wash)}.dossier-connections :is(button,a)>span{flex:1}.dossier-connections :is(small,p){font:12px/1.65 var(--reading-font),serif;color:var(--royal-muted)}
+/* Opening scenes have their own art direction, independent of faction paper. */
+body.tfam-editorial.tfam-royal .tfam-boot{background:linear-gradient(180deg,#f8f4e9e8,#f8f4e9c9 56%,#eee9dded),url('/decor/frozen-plain-opening-v1.webp') center 62%/cover no-repeat #f5f0e5;color:#302d29;overflow-x:hidden}
+body.tfam-editorial.tfam-royal .tfam-boot:before{background:none;animation:none}
+body.tfam-editorial.tfam-royal .tfam-boot :is(h1,.boot-author,.boot-status,.boot-quote,.boot-quote span,.boot-quote span[data-ready=true]){color:#302d29;text-shadow:none!important}
+body.tfam-editorial.tfam-royal .tfam-boot .boot-quote span{opacity:.6}
+body.tfam-editorial.tfam-royal .tfam-boot .boot-quote span[data-ready=true]{opacity:1}
+body.tfam-editorial.tfam-royal .tfam-boot .boot-continue{background:#fffcf4;color:#743d39;border:1px solid #8b754f;box-shadow:0 4px 16px #46382912}
+body.tfam-editorial.tfam-royal .world-entry{background:#f3eee3;color:#302d29;--paper:#302d29;--bronze:#77603c}
+body.tfam-editorial.tfam-royal .world-entry .title-scene{background:linear-gradient(90deg,#f9f5ecef,#f9f5ece8),url('/decor/cartographers-desk-v2.webp') center/cover no-repeat #f5efe3;isolation:isolate}
+body.tfam-editorial.tfam-royal .world-entry .seal-scene{background:linear-gradient(#f6f2e8e8,#edf1eee0),url('/decor/arctic-instruments.webp') center/cover no-repeat #f3eee3}
+body.tfam-editorial.tfam-royal .world-entry .title-composition :is(h1,h1 span,h1 em,p,.scene-overline){color:#302d29;text-shadow:none}
+body.tfam-editorial.tfam-royal .world-entry .title-composition h1 em{color:#764640}
+body.tfam-editorial.tfam-royal .world-entry .voyage-scene{background:linear-gradient(180deg,#f5f0e5ed,#f5f0e5d9 45%,#eee6d8f2),url('/decor/sail-battle.webp') center 42%/cover no-repeat #f3eee3;isolation:isolate}
+body.tfam-editorial.tfam-royal .world-entry :is(.voyage-ocean,.voyage-deck,.voyage-rigging,.voyage-smoke){display:none}
+body.tfam-editorial.tfam-royal .world-entry .voyage-copy :is(h1,h1 em,p,.scene-overline){color:#302d29;text-shadow:none}
+body.tfam-editorial.tfam-royal .world-entry .voyage-copy h1 em{color:#764640}
+body.tfam-editorial.tfam-royal .world-entry :is(.destination-heading,.destination-heading button,.banner-name,.voyage-shortcuts button,.destination-search,.destination-search input,.destination-search button,.entry-edition,.entry-signature small){color:#403a31;text-shadow:none}
+body.tfam-editorial.tfam-royal .world-entry .banner-name{background:#faf6edee;padding:7px 10px;border:1px solid #9b89674a}
+body.tfam-editorial.tfam-royal .world-entry :is(.destination-heading button,.voyage-shortcuts button,.destination-search){background:#fffcf3e8;border:1px solid #9b89676b}
+body.tfam-editorial.tfam-royal .world-entry .entry-topline{background:linear-gradient(#faf6edf2,#faf6ed00)}
+body.tfam-editorial.tfam-royal .world-entry .entry-topline :is(button,small,.entry-signature){color:#403a31;text-shadow:none}
+body.tfam-editorial.tfam-royal .world-entry .entry-topline button[aria-pressed=true]{color:#764640;border-bottom:1px solid currentColor}
+body.tfam-editorial.tfam-royal .world-entry button:focus-visible{outline:2px solid #764640;outline-offset:4px}
+@media(max-width:680px){body.tfam-editorial.tfam-royal .world-entry .voyage-scene{background-position:60% center}body.tfam-editorial.tfam-royal .world-entry .banner-name{font-size:12px}body.tfam-editorial.tfam-royal .tfam-boot{padding-inline:22px;box-sizing:border-box}}
+/* Royal furniture v2 — remove the remaining dark-era overlays and controls. */
+body.tfam-editorial.tfam-royal .world-arrival::after{display:none!important}
+body.tfam-editorial.tfam-royal .world-arrival .arrival-copy{padding:24px 0}
+body.tfam-editorial.tfam-royal .world-arrival .arrival-quote{color:var(--royal-ink)!important;text-shadow:none!important}
+body.tfam-editorial.tfam-royal :is(.command-entry h4,.command-entry p,.command-method,.command-method summary,.command-method p,.command-trait-signatures span){color:var(--royal-ink)!important;background:transparent;border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal :is(.monument-card,.monument-tools label,.monument-tools select,.monument-close,.monument-adjacent button,.monument-traits>div,.monument-effects>div){background:var(--royal-surface)!important;color:var(--royal-ink)!important;border-color:var(--royal-rule)!important;box-shadow:none}
+body.tfam-editorial.tfam-royal :is(.monument-card-copy h3,.monument-body h3,.monument-body h4,.monument-body section>p,.monument-traits p,.monument-effects p,.monument-tools input,.monument-card-copy p,.monument-card-copy b,.monument-card-copy span,.monument-card-copy em,.monument-body details,.monument-body summary,.monument-tools>span){color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal .monument-tools input::placeholder{color:var(--royal-muted)}
+body.tfam-editorial.tfam-royal .monument-hero::after{background:linear-gradient(transparent,var(--royal-surface))!important}
+body.tfam-editorial.tfam-royal .monument-hero :is(h2,p,span){color:var(--royal-ink)!important;text-shadow:none}
+body.tfam-editorial.tfam-royal .monument-dialog{box-shadow:0 24px 80px #392d263b!important;scrollbar-color:var(--royal-metal) var(--royal-paper)}
+body.tfam-editorial.tfam-royal :is(.monument-dialog,.military-dialog,.vest-dialog)::backdrop{background:#302a256b!important}
+body.tfam-editorial.tfam-royal :is(.military-traits,.military-unit-class,.military-dossier-copy) :is(p,li,span,small,dt,dd){color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro,.royal-organization){position:relative;border:1px solid var(--royal-rule)!important;outline:1px solid var(--royal-rule);outline-offset:-7px}
+body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::before,body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::after{content:'';position:absolute;pointer-events:none;width:64px;height:64px;background:var(--royal-metal);mask:url('/art/interface/royal-v2/corner.svg') center/contain no-repeat;opacity:.8;z-index:1;border:0;inset:auto}
+body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::before{top:0;left:0}
+body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::after{bottom:0;right:0;transform:rotate(180deg)}
+body.tfam-editorial.tfam-royal .command-identity::after{content:'';width:140px;height:18px;bottom:-9px;background:var(--royal-metal);mask:url('/art/interface/royal-v2/divider.svg') center/contain no-repeat;padding:0}
+body.tfam-editorial.tfam-royal :is(.archive-sections button,.military-filters button,.monument-adjacent button,.military-dossier-actions button,.military-dossier-actions a,.vest-adjacent button,.voyage-shortcuts button){min-height:44px;border:1px solid var(--royal-rule)!important;background:var(--royal-surface)!important;color:var(--royal-ink)!important;box-shadow:inset 0 0 0 3px var(--royal-paper);border-radius:2px;padding:11px 18px;transition:background .18s,color .18s,border-color .18s}
+body.tfam-editorial.tfam-royal :is(.archive-sections button.active,.military-filters button.active,.archive-sections button:hover,.military-filters button:hover,.monument-adjacent button:hover,.vest-adjacent button:hover){background:var(--royal-wash)!important;color:var(--royal-accent)!important;border-color:var(--royal-metal)!important}
+body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker){border:1px solid var(--royal-metal);outline:1px solid var(--royal-rule);outline-offset:-5px;padding:22px}
+body.tfam-editorial.tfam-royal :is(.gear-toggle,.reader-account-button,.faction-selector-button){border-radius:50%;width:44px;height:44px;display:inline-grid;place-items:center;background:var(--royal-surface)!important;border:1px solid var(--royal-rule)!important;box-shadow:inset 0 0 0 3px var(--royal-paper)!important}
+body.tfam-editorial.tfam-royal :is(.gear-toggle,.reader-account-button,.faction-selector-button):hover{border-color:var(--royal-accent)!important;background:var(--royal-wash)!important}
+body.tfam-editorial.tfam-royal :is(.archive-heading-title,.military-kicker,.monument-intro,.vest-salon-arch) svg{stroke-width:1.3;color:var(--royal-accent)}
+body.tfam-editorial.tfam-royal :is(button,a,select,input,summary):focus-visible{outline:2px solid var(--royal-accent)!important;outline-offset:4px}
+@media(max-width:680px){body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::before,body.tfam-editorial.tfam-royal :is(.monument-intro,.military-doctrine,.vest-salon-intro)::after{width:42px;height:42px}}
+body.tfam-editorial.tfam-royal .archive-heading{flex-wrap:wrap!important;grid-template-columns:minmax(0,1fr) minmax(220px,420px)}
+body.tfam-editorial.tfam-royal .archive-sections{display:grid!important;grid-column:1/-1;flex-basis:100%;width:100%;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:15px}
+body.tfam-editorial.tfam-royal .archive-sections button{min-width:0;padding:12px 8px!important;word-break:normal;overflow-wrap:normal;font-size:15px;line-height:1.4}
+body.tfam-editorial.tfam-royal .archive-current-faction{color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal .military-filters small{color:var(--royal-ink)!important;opacity:1}
+@media(max-width:680px){body.tfam-editorial.tfam-royal .archive-heading{grid-template-columns:1fr}body.tfam-editorial.tfam-royal .archive-sections button{font-size:13px}}
+/* Author-approved crimson / ink edition. */
+:root{--royal-ink:#211b1b;--royal-accent:#8d1538;--royal-metal:#785e37;--royal-muted:#514242}
+body.tfam-editorial.tfam-royal{--text:var(--royal-ink);--ice:var(--royal-accent);--muted:var(--royal-muted);--gold:var(--royal-accent);--panel:var(--royal-surface);--bg:var(--royal-paper)}
+body.tfam-editorial.tfam-royal :is(.archive-current-faction,.archive-current-faction *, .command-bar small,.music-console small,.command-method summary,.command-method p){color:var(--royal-ink)!important;opacity:1}
+body.tfam-editorial.tfam-royal :is(.map-heading,.terrain-toolbar,.terrain-map-caption,.map-panel,.cartography-desk,.gallery-toolbar,.gallery-index,.gallery-body,.gallery-record,.military-dossier-copy,.monument-body,.vest-detail-copy,.vest-detail-data,.site-tools-popover,.reader-account-popover,.music-track-picker,.province-popup){background:var(--royal-surface)!important;color:var(--royal-ink)!important;border-color:var(--royal-rule)!important}
+body.tfam-editorial.tfam-royal :is(.map-heading,.terrain-toolbar,.terrain-map-caption,.gallery-toolbar,.gallery-index,.gallery-record,.military-dossier-copy,.monument-body,.vest-detail-copy,.site-tools-popover,.reader-account-popover,.music-track-picker) :is(p,span,small,strong,h1,h2,h3,h4,li,dt,dd,label,summary,button){color:var(--royal-ink)!important;text-shadow:none}
+body.tfam-editorial.tfam-royal :is(.eyebrow,.experience-eyebrow,.military-kicker,.command-overline,.command-office,.vest-eyebrow,.gallery-section-label){color:var(--royal-accent)!important}
+body.tfam-editorial.tfam-royal :is(.map-controls,.terrain-toolbar,.gallery-toolbar,.gallery-index,.monument-tools,.military-dossier-copy,.vest-detail-copy,.site-tools-popover,.reader-account-popover) :is(button,select,input){background:var(--royal-surface)!important;color:var(--royal-ink)!important;border-color:var(--royal-rule)!important}
+body.tfam-editorial.tfam-royal :is(.archive-heading,.map-panel,.cartography-desk,.character-command-layout,.military-doctrine,.military-unit-card,.monument-intro,.monument-card,.vest-salon-intro,.vest-object,.gallery-record){border:1px solid var(--royal-metal)!important;outline:1px solid var(--royal-rule);outline-offset:-6px;box-shadow:0 6px 24px #4a2e2510!important}
+body.tfam-editorial.tfam-royal :is(.archive-heading,.character-command-layout,.gallery-record){border-top:3px double var(--royal-accent)!important}
+body.tfam-editorial.tfam-royal .entry-globe .entry-topline{position:relative!important;inset:auto!important;min-height:60px;padding:10px 24px;background:var(--royal-surface)!important;justify-content:flex-end}
+body.tfam-editorial.tfam-royal .entry-globe .entry-topline>span{display:none}
+body.tfam-editorial.tfam-royal .entry-author{display:none!important}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a::before,body.tfam-editorial.tfam-royal .archive-sections button::before{content:'';display:inline-block;flex:0 0 32px;width:32px;height:32px;background:center/contain no-repeat;vertical-align:middle}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a>svg,body.tfam-editorial.tfam-royal .archive-sections button>svg{display:none}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(1)::before{background-image:url('/art/interface/crimson/compass.webp')}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(2)::before{background-image:url('/art/interface/crimson/relic.webp')}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(3)::before{background-image:url('/art/interface/crimson/book.webp')}
+body.tfam-editorial.tfam-royal .archive-sections button:nth-child(1)::before{background-image:url('/art/interface/crimson/portrait.webp')}
+body.tfam-editorial.tfam-royal .archive-sections button:nth-child(2)::before{background-image:url('/art/interface/crimson/swords.webp')}
+body.tfam-editorial.tfam-royal .archive-sections button:nth-child(3)::before{background-image:url('/art/interface/crimson/palace.webp')}
+body.tfam-editorial.tfam-royal .archive-sections button{display:flex;align-items:center;justify-content:center;gap:12px}
+body.tfam-editorial.tfam-royal :is(.gear-toggle,.reader-account-button,.faction-selector-button,.music-console button) svg{color:var(--royal-accent)!important;opacity:1;stroke-width:1.8}
+body.tfam-editorial.tfam-royal .copyright-footer{position:relative;border-top:3px double var(--royal-metal);padding-block:40px 32px;background:var(--royal-surface)!important;outline:1px solid var(--royal-rule);outline-offset:-10px}
+body.tfam-editorial.tfam-royal .copyright-footer .footer-royal-flourish{display:block;width:min(380px,75vw);height:110px;object-fit:contain;margin:0 auto 18px;mix-blend-mode:normal;opacity:1}
+body.tfam-editorial.tfam-royal .copyright-copy :is(p,a){color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal .copyright-copy a{color:var(--royal-accent)!important;text-underline-offset:5px}
+body.tfam-editorial.tfam-royal .copyright-footer :is(.footer-instruments,.footer-maritime){opacity:.25;mix-blend-mode:multiply}
+@media(max-width:680px){body.tfam-editorial.tfam-royal .site-section-nav>div>a::before{width:25px;height:25px;flex-basis:25px}body.tfam-editorial.tfam-royal .archive-sections button{flex-direction:column;gap:5px}body.tfam-editorial.tfam-royal .entry-globe .entry-topline{min-height:54px;padding-inline:12px}}
+/* Layout repair: atlas, chronicle, traits and linked dossier plates. */
+body.tfam-editorial.tfam-royal .world-entry .departure-scene{display:flex!important;flex-direction:column;align-items:stretch;justify-content:flex-start;min-height:100dvh;padding:0 24px 28px;gap:20px;background:var(--royal-paper);overflow:visible}
+body.tfam-editorial.tfam-royal .world-entry .departure-world{position:relative!important;inset:auto!important;z-index:0!important;min-width:0;width:100%;height:auto;animation:none!important;background:var(--royal-surface)!important}
+body.tfam-editorial.tfam-royal .world-entry .departure-world .terrain-map-shell{height:auto!important;min-height:0!important;background:var(--royal-surface)!important}
+body.tfam-editorial.tfam-royal .world-entry .departure-coordinate{position:relative!important;grid-column:auto;max-width:none;width:100%;box-sizing:border-box;margin:0;padding:24px 28px;background:var(--royal-surface)!important;border:1px solid var(--royal-metal);z-index:1}
+body.tfam-editorial.tfam-royal .world-entry .departure-coordinate :is(h1,p,.scene-overline){color:var(--royal-ink)!important;text-shadow:none}
+body.tfam-editorial.tfam-royal .world-entry .voyage-enter{background:var(--royal-accent)!important;color:#fffaf0!important;border:1px solid var(--royal-accent);padding:14px 24px;min-height:48px}
+body.tfam-editorial.tfam-royal :is(.terrain-map-shell,.map-heading,.map-title-cartouche,.map-status,.atlas-data-credit,.faction-strip){background:var(--royal-surface)!important;color:var(--royal-ink)!important;border-color:var(--royal-rule)!important}
+body.tfam-editorial.tfam-royal :is(.map-heading,.map-title-cartouche,.map-status,.atlas-data-credit,.faction-strip) :is(span,h2,p,small,button){color:var(--royal-ink)!important;text-shadow:none}
+body.tfam-editorial.tfam-royal .chronicle-gallery{display:grid!important;grid-template-columns:minmax(0,1fr);height:auto!important;max-height:none!important;overflow:hidden;background:var(--royal-surface)!important;border:1px solid var(--royal-metal);color:var(--royal-ink)}
+body.tfam-editorial.tfam-royal .chronicle-gallery::before,body.tfam-editorial.tfam-royal .chronicle-gallery::after{display:none!important}
+body.tfam-editorial.tfam-royal .chronicle-gallery>.panorama-scene{position:relative!important;inset:auto!important;width:100%;height:clamp(230px,33vw,430px);z-index:auto;grid-row:1;opacity:1}
+body.tfam-editorial.tfam-royal .chronicle-gallery>.panorama-scene img{width:100%;height:100%;object-fit:cover;filter:none!important}
+body.tfam-editorial.tfam-royal .chronicle-gallery :is(.panorama-overview,.panorama-copy,.panorama-lore){position:relative!important;inset:auto!important;min-height:0!important;height:auto;max-height:none;overflow:visible;background:var(--royal-surface)!important;color:var(--royal-ink)!important;text-shadow:none!important;transform:none!important;padding:28px clamp(22px,4vw,52px)}
+body.tfam-editorial.tfam-royal .chronicle-gallery :is(h2,p,span,b,small,dt,dd,.lore){color:var(--royal-ink)!important;text-shadow:none!important}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-number{display:none}
+body.tfam-editorial.tfam-royal .chronicle-gallery .chronicle-heading{color:var(--royal-accent)!important;border-color:var(--royal-rule)}
+body.tfam-editorial.tfam-royal .chronicle-gallery .lore p:first-child:first-letter{color:var(--royal-accent)!important}
+body.tfam-editorial.tfam-royal .highlight-traits{background:var(--royal-surface)!important;border:1px solid var(--royal-metal)!important;padding:28px}
+body.tfam-editorial.tfam-royal .highlight-trait-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+body.tfam-editorial.tfam-royal .highlight-trait{display:flex;align-items:flex-start;gap:18px;border:1px solid var(--royal-rule);padding:20px;background:var(--royal-paper)!important;min-width:0}
+body.tfam-editorial.tfam-royal .highlight-trait h4{color:var(--royal-accent)!important;margin:0 0 10px;font-size:24px;line-height:1.25;text-shadow:none}
+body.tfam-editorial.tfam-royal .highlight-trait p{color:var(--royal-ink)!important;font-size:17px;line-height:1.75;margin:0}
+body.tfam-editorial.tfam-royal .highlight-trait-icon{width:76px;height:76px;flex:0 0 76px;background:none!important;box-shadow:none;border:0;border-radius:0}
+body.tfam-editorial.tfam-royal .highlight-trait-icon img{width:100%;height:100%;object-fit:contain;display:block}
+body.tfam-editorial.tfam-royal .gallery-chronicle-art{width:100%;max-height:360px;object-fit:cover;margin-bottom:24px;border:1px solid var(--royal-rule)}
+body.tfam-editorial.tfam-royal .dossier-connections{gap:24px}
+body.tfam-editorial.tfam-royal .dossier-connections :is(button,a){display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:14px;padding:12px;background:var(--royal-surface);border:1px solid var(--royal-rule);margin-top:10px;min-height:98px;box-sizing:border-box;overflow-wrap:anywhere}
+body.tfam-editorial.tfam-royal .dossier-connections :is(button,a)>img{width:76px;height:92px;object-fit:contain;background:var(--royal-paper);border:1px solid var(--royal-rule);grid-row:1/3}
+body.tfam-editorial.tfam-royal .dossier-connections button>small{grid-column:2;grid-row:2}
+body.tfam-editorial.tfam-royal .dossier-connections :is(button,a)>svg{grid-column:3;grid-row:1}
+body.tfam-editorial.tfam-royal .dossier-connections :is(button,a)>span{grid-column:2;color:var(--royal-ink);font-size:16px;line-height:1.5}
+@media(max-width:760px){body.tfam-editorial.tfam-royal .highlight-trait-grid{grid-template-columns:1fr}body.tfam-editorial.tfam-royal .highlight-traits{padding:20px}body.tfam-editorial.tfam-royal .highlight-trait{padding:16px;gap:14px}body.tfam-editorial.tfam-royal .world-entry .departure-scene{padding-inline:12px}body.tfam-editorial.tfam-royal .highlight-trait-icon{width:62px;height:62px;flex-basis:62px}}
+body.tfam-editorial.tfam-royal .faction-highlights{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;padding:28px clamp(20px,4vw,60px)!important}
+body.tfam-editorial.tfam-royal .faction-highlights .highlight-traits{grid-column:1/-1!important;grid-row:auto!important}
+body.tfam-editorial.tfam-royal .faction-highlights :is(.highlight-people,.highlight-forces){min-width:0;border:1px solid var(--royal-rule);padding:24px;background:var(--royal-surface)}
+body.tfam-editorial.tfam-royal .highlight-trait>div{min-width:0;flex:1}
+body.tfam-editorial.tfam-royal .highlight-trait :is(h4,p){word-break:normal!important;overflow-wrap:normal!important}
+body.tfam-editorial.tfam-royal .highlight-force-grid{grid-template-columns:1fr!important}
+body.tfam-editorial.tfam-royal .highlight-force-copy :is(strong,small),body.tfam-editorial.tfam-royal .highlight-person-copy em{color:var(--royal-accent)!important;overflow-wrap:normal;word-break:normal}
+@media(max-width:760px){body.tfam-editorial.tfam-royal .faction-highlights{grid-template-columns:1fr!important}.tfam-royal .highlight-trait-grid{grid-template-columns:1fr!important}}
+/* Ivory atlas chrome and readable reading-room furniture. */
+body.tfam-editorial.tfam-royal .static-atlas{background:var(--royal-surface)!important;color:var(--royal-ink)!important;border:1px solid var(--royal-metal);border-radius:0;padding:16px;box-shadow:inset 0 0 0 5px var(--royal-paper)}
+body.tfam-editorial.tfam-royal .static-atlas-caption{background:var(--royal-surface)!important;color:var(--royal-ink)!important;padding:8px 6px 18px}
+body.tfam-editorial.tfam-royal .static-atlas-caption span{color:var(--royal-accent)!important}
+body.tfam-editorial.tfam-royal .static-atlas-caption h3{color:var(--royal-ink)!important}
+body.tfam-editorial.tfam-royal .atlas-place-label{background:#fff9ecf2!important;color:#211b1b!important;border-color:#785e37!important;box-shadow:0 2px 5px #3d29131a}
+body.tfam-editorial.tfam-royal .atlas-place-label :is(strong,b){color:#211b1b!important;text-shadow:none}
+.atlas-symbol-legend{display:flex;flex-wrap:wrap;gap:12px 24px;padding:14px 4px 2px;font:13px/1.5 var(--reading-font),serif;color:var(--royal-ink)}.atlas-symbol-legend>span{display:flex;align-items:center;gap:8px}.atlas-symbol-legend i{display:inline-block;width:12px;height:12px;box-sizing:border-box}.legend-capital{background:#8d1538;transform:rotate(45deg);border:2px solid #fff9ec;outline:1px solid #8d1538}.legend-selected{background:#e4c99d;border:2px solid #8d1538}.legend-border{border-top:2px solid #785e37;transform:translateY(5px)}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream]{--paper:#fffaf0;--panel:#f5efe4;--ink:#211b1b;--text:#211b1b;--accent:#8d1538;--muted:#514242;--rule:#785e3745;background:#fffaf0!important;color:#211b1b!important;border:1px solid #785e3770}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] :is(.reader-section-bar,.reader-tools,.story-contents,.story-reader,.reader-preferences,.reading-checkpoint-bar,.reading-resume,.reading-meter,.reading-return-position){background:#fffaf0!important;background-image:none!important;color:#211b1b!important;border-color:#785e3745!important;box-shadow:none!important}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] :is(h1,h2,h3,h4,p,small,label,span,strong,summary,button,a,select,input){color:#211b1b!important;text-shadow:none!important}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] :is(button,select,input,summary){background:#f5efe4!important;border-color:#785e3760!important}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] :is(button,a,summary):hover{color:#8d1538!important}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] :is(.eyebrow,.chapter-status,.reader-section-bar a,.reading-resume svg,.reader-tools svg){color:#8d1538!important}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] .reading-checkpoint-bar{padding:18px;border:1px solid #785e3760!important;outline:1px solid #785e3725;outline-offset:-5px}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] .chapter-heading{padding-block:40px 30px;border-color:#785e3745}
+body.tfam-editorial.tfam-royal .enhanced-reader[data-reader-theme=cream] .chapter-heading h1{font-weight:400;line-height:1.3;text-wrap:balance}
+@media(max-width:640px){body.tfam-editorial.tfam-royal .static-atlas{padding:10px}.atlas-symbol-legend{font-size:12px;gap:12px}}
+/* Unified atmosphere pass: fix component-specific dark furniture. */
+body.tfam-editorial.tfam-royal .campaign-workspace .map-panel .map-heading.map-heading-ice{background:linear-gradient(110deg,#f9f2e4,#ead8bc)!important;background-image:linear-gradient(110deg,#f9f2e4,#ead8bc)!important;border-color:#785e3750!important;box-shadow:none!important}
+body.tfam-editorial.tfam-royal .map-heading-ice :is(h2,span,label){color:#211b1b!important;background:transparent!important;text-shadow:none!important}
+body.tfam-editorial.tfam-royal .map-heading-ice svg{color:#8d1538!important}
+body.tfam-editorial.tfam-royal .map-heading-ice::before,body.tfam-editorial.tfam-royal .map-heading-ice::after{display:none!important}
+body.tfam-editorial.tfam-royal .chronicle-gallery>.panorama-scene{height:clamp(290px,40vw,520px);overflow:visible}
+body.tfam-editorial.tfam-royal .chronicle-gallery>.panorama-scene::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#fffaf04d 72%,#fffaf0);pointer-events:none}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-overview{background:radial-gradient(ellipse at 85% 0,#c4935740,transparent 60%),linear-gradient(125deg,#fffaf0,#eddfca 55%,#fffaf0)!important;margin-top:-45px;padding-top:58px;isolation:isolate;overflow:hidden}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-overview::after{content:'';position:absolute;right:6%;top:15%;width:210px;height:210px;opacity:.07;background:url('/decor/frost-compass-3d-v1.webp') center/contain no-repeat;pointer-events:none;z-index:-1}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-title-row h2{font-size:clamp(36px,4.5vw,65px);letter-spacing:-.03em;color:#71112e!important;line-height:1.2}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-emblem{filter:drop-shadow(0 4px 8px #39241925)}
+body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-lore{background:linear-gradient(180deg,#fffaf0,#f5eddf)!important;border-top:1px solid #785e3735}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-tools,.vest-search,.vest-mobile-depth,.vest-mobile-depth select,.vest-tools label,.vest-tools input,.vest-tools select,.vest-tier>header,.vest-rank-option){background:#fffaf0!important;background-image:none!important;color:#211b1b!important;border-color:#785e3755!important;box-shadow:none!important}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-tools,.vest-mobile-depth,.vest-tier>header) :is(label,span,small,h3,select,input,button){color:#211b1b!important;text-shadow:none}
+body.tfam-editorial.tfam-royal .vest-collection .vest-tools input::placeholder{color:#514242!important;opacity:1}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object{background:radial-gradient(ellipse at 50% 18%,#e9c99540,transparent 65%),linear-gradient(145deg,#fffaf0,#f0e6d4)!important;border:1px solid #785e3770!important;box-shadow:inset 0 0 0 5px #fffaf0,inset 0 0 0 6px #785e3725,0 8px 22px #503b2512!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object-art{background:radial-gradient(ellipse at center,color-mix(in srgb,var(--aura-a,#c59558) 16%,transparent),transparent 70%)!important;border-color:#785e3730!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object-art>img{filter:drop-shadow(0 10px 10px #503b2535)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object :is(.vest-name,.vest-form,.vest-abundance,.vest-exhibit-number){color:#211b1b!important;text-shadow:none!important;opacity:1}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object .vest-name{color:#8d1538!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-tier>header{border-block:1px solid #785e3755;padding:22px 18px;background:linear-gradient(100deg,#eee0c8,#fffaf0)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-tier>header .vest-roman{color:#8d1538!important}
+body.tfam-editorial.tfam-royal .copyright-footer.decorated-footer{display:flex!important;flex-direction:column;justify-content:center;align-items:center;position:relative;isolation:isolate;overflow:hidden;min-height:260px;padding:35px 24px!important;background:radial-gradient(ellipse at center,#fffaf0,#ede0cb)!important}
+body.tfam-editorial.tfam-royal .copyright-footer .copyright-copy{position:relative;z-index:2;padding:10px 25px;background:radial-gradient(ellipse,#fffaf0f2,transparent 75%);min-width:min(80%,320px)}
+body.tfam-editorial.tfam-royal .copyright-footer :is(.footer-instruments,.footer-maritime){position:absolute!important;bottom:15px!important;width:clamp(130px,24vw,310px)!important;height:160px;object-fit:contain;z-index:0;opacity:.32!important;mix-blend-mode:multiply;pointer-events:none}
+body.tfam-editorial.tfam-royal .copyright-footer .footer-instruments{left:3%!important}
+body.tfam-editorial.tfam-royal .copyright-footer .footer-maritime{right:3%!important}
+body.tfam-editorial.tfam-royal .copyright-footer .footer-royal-flourish{width:min(430px,75vw);height:100px;margin:0 auto 12px}
+@media(max-width:640px){body.tfam-editorial.tfam-royal .copyright-footer :is(.footer-instruments,.footer-maritime){opacity:.14!important;bottom:25px!important;width:150px!important}body.tfam-editorial.tfam-royal .chronicle-gallery .panorama-overview{margin-top:-25px;padding-top:40px}}
+
+/* Eight exhibition ranks: dark readable pigment, separate luminous wash. */
+body.tfam-editorial.tfam-royal :is(.vest-tier-0,.vest-rank-option.vest-tier-0){--tier-ink:#4b5055;--tier-wash:#e8e5df;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-1,.vest-rank-option.vest-tier-1){--tier-ink:#5b4b36;--tier-wash:#eee4d5;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-2,.vest-rank-option.vest-tier-2){--tier-ink:#1b5278;--tier-wash:#e0ebf2;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-3,.vest-rank-option.vest-tier-3){--tier-ink:#633681;--tier-wash:#eee3f4;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-4,.vest-rank-option.vest-tier-4){--tier-ink:#205e49;--tier-wash:#e0ede5;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-5,.vest-rank-option.vest-tier-5){--tier-ink:#79500b;--tier-wash:#f3e7c9;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-6,.vest-rank-option.vest-tier-6){--tier-ink:#94243c;--tier-wash:#f3e0e3;}
+body.tfam-editorial.tfam-royal :is(.vest-tier-7,.vest-rank-option.vest-tier-7){--tier-ink:#552861;--tier-wash:#eae0ed;}
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-name,.vest-detail-rarity,.vest-tier>header h3){background:none!important;background-image:none!important;background-clip:border-box!important;-webkit-background-clip:border-box!important;-webkit-text-fill-color:var(--tier-ink,#4b5055)!important;color:var(--tier-ink,#4b5055)!important;text-shadow:none!important;animation:none!important;opacity:1!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-tier>header{background:linear-gradient(105deg,var(--tier-wash),#fffaf0)!important;border-color:color-mix(in srgb,var(--tier-ink) 45%,transparent)!important;border-left:4px solid var(--tier-ink)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-tier>header .vest-roman{color:var(--tier-ink)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object .vest-name{color:var(--tier-ink,#4b5055)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object{background:linear-gradient(150deg,#fffaf0 35%,var(--tier-wash))!important;border-color:color-mix(in srgb,var(--tier-ink) 45%,#fffaf0)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object-art{background:radial-gradient(ellipse,var(--tier-wash),transparent 72%)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-object :is(.vest-form,.vest-abundance){color:#352e2b!important;-webkit-text-fill-color:#352e2b!important;background:none!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-rank-option{color:var(--tier-ink,#4b5055)!important;border-color:color-mix(in srgb,var(--tier-ink) 35%,transparent)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-rank-option[aria-current=step]{background:var(--tier-wash)!important;box-shadow:inset 3px 0 var(--tier-ink)!important}
+body.tfam-editorial.tfam-royal .vest-collection .vest-detail-rarity{background:var(--tier-wash)!important;border:1px solid var(--tier-ink);padding:7px 12px}
+/* Animated high-rank pigment: retain the iridescence with dark, readable stops. */
+body.tfam-editorial.tfam-royal .vest-tier-3{--readable-spectrum:linear-gradient(100deg,#633681,#1b5278,#633681)}
+body.tfam-editorial.tfam-royal .vest-tier-4{--readable-spectrum:linear-gradient(100deg,#205e49,#1b5278,#205e49)}
+body.tfam-editorial.tfam-royal .vest-tier-5{--readable-spectrum:linear-gradient(100deg,#79500b,#942f20,#79500b)}
+body.tfam-editorial.tfam-royal .vest-tier-6{--readable-spectrum:linear-gradient(100deg,#94243c,#633681,#94243c)}
+body.tfam-editorial.tfam-royal .vest-tier-7{--readable-spectrum:linear-gradient(100deg,#79500b,#552861,#1b5278,#79500b)}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+body.tfam-editorial.tfam-royal .vest-collection :is(.vest-tier-3,.vest-tier-4,.vest-tier-5,.vest-tier-6,.vest-tier-7) :is(.vest-name,.vest-detail-rarity),body.tfam-editorial.tfam-royal .vest-collection .vest-tier:is(.vest-tier-3,.vest-tier-4,.vest-tier-5,.vest-tier-6,.vest-tier-7)>header h3{background-image:var(--readable-spectrum)!important;background-size:250% 100%!important;background-clip:text!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;animation:royal-spectrum-flow 7s ease-in-out infinite alternate!important;text-shadow:none!important}
+}
+@keyframes royal-spectrum-flow{from{background-position:0% 50%}to{background-position:100% 50%}}
+@media(prefers-reduced-motion:reduce){body.tfam-editorial.tfam-royal .vest-collection :is(.vest-name,.vest-detail-rarity,.vest-tier>header h3){animation:none!important}}
+@media(forced-colors:active){body.tfam-editorial.tfam-royal .vest-collection :is(.vest-name,.vest-detail-rarity,.vest-tier>header h3){background:none!important;-webkit-text-fill-color:CanvasText!important;animation:none!important}}

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-thach-giu-nhip-cuoi",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Một người vợ đặt phiến đá đen sát khung cửa mỗi tối. Chồng bà đã dặn ba tiếng ngắn, một tiếng dài trước khi đi cùng đoàn tàu phá băng. Đoàn tàu biến mất. Bà gõ lại mật hiệu qua từng mùa, cho đến lúc tay run chỉ còn đủ sức chạm cửa một lần. Sau khi bà mất, người dọn nhà nghe ba tiếng ngắn vang từ phiến đá, rồi một tiếng dài kéo suốt đêm.\n\nVòng bạc quanh đá vốn là chiếc nhẫn bị cắt để giữ một vết nứt. Dưới từng lần gõ, bạc lún vào khoáng vật, còn khoảng đợi giữa các nhịp lớn lên thành những đường vòng bên trong. Phiến đá đã học được một chuỗi cử động bằng cả đời người chờ nó được đáp lại. Nhịp cuối cùng chưa có người nhận vì thế tiếp tục đi tìm nơi đến.\n\nNgười sử dụng có thể giao cho đá một tiết tấu, nối nó vào máy, bước chân, tiếng thở, rồi buộc những thứ ấy đi theo khoảng đợi đang nằm trong lõi. Có thành lũy giữ được cổng mở nhờ một bánh răng đã vỡ vẫn nhận nhịp từ đá. Có người chết rồi mà ngón tay còn gõ lên nắp quan tài theo lượt gác chưa hết. Những người thạo nghề luôn kết một nhịp bằng câu trả lời; họ sợ thứ tiếp tục chờ sau khi tất cả đã ngừng.",
+    "lore_en": "A wife placed a black stone beside her doorframe each evening. Before sailing with an icebreaking convoy, her husband had agreed upon three short knocks and one long. The convoy vanished. She repeated the signal through successive seasons until her trembling hand could manage only one touch. After her death, those clearing the house heard three short knocks from the stone, followed by one long stroke that lasted all night.\n\nThe silver ring around it had been cut from a wedding band to bind a fracture. With every knock, silver sank into the mineral and the waiting intervals grew into inner circuits. The stone had learnt a sequence of movements through a lifetime spent awaiting its answer. Its final, unanswered beat continued seeking somewhere to arrive.\n\nA keeper can entrust it with a rhythm, connect that rhythm to machinery, footsteps or breath, then compel them to follow the interval held within its core. Fortresses have kept their gates working because a broken gear still received the stone’s beat. Dead fingers have knocked upon coffin lids to finish a watch. Experienced keepers end every rhythm with an answer; they fear what keeps waiting after everything else has stopped.",
+    "use_vi": "Ghi một tiết tấu rồi cho vật, máy hoặc người tự nguyện mượn nhịp ấy để đồng bộ, trì hoãn một lần dừng hay hoàn tất một chu kỳ dang dở.",
+    "use_en": "Record a rhythm and let objects, machines or willing people borrow it to synchronise, postpone a halt or complete an interrupted cycle.",
+    "limits_vi": "Mỗi viên giữ một tiết tấu chính. Muốn nối một người sống cần chính họ gõ nhịp nhận; ép nhịp qua xương có thể gây loạn vận động và tổn thương tim. Đá duy trì trình tự đã giao, kể cả khi hoàn cảnh khiến việc hoàn tất trở nên nguy hiểm. Nhịp được giữ càng lâu càng chậm; mọi sự trì hoãn đều cần một nhịp đáp để kết thúc.",
+    "limits_en": "Each stone retains one principal rhythm. A living person must tap their own accepting beat to join; forcing it through bone can disrupt movement and injure the heart. The stone maintains its entrusted sequence even when completing it becomes dangerous. A long-held rhythm gradually slows; every postponement needs an answering beat to end.",
+    "skills": [
+      {
+        "name_vi": "Ba ngắn một dài",
+        "name_en": "Three Short, One Long",
+        "description_vi": "Gõ một chuỗi rõ lên vòng bạc để giao tiết tấu; chuỗi mới chỉ được nhận khi chuỗi cũ đã có nhịp đáp.",
+        "description_en": "Tap a clear sequence upon the silver ring to entrust its rhythm; a new sequence is accepted only after the old has received an answering beat.",
+        "group_vi": "Giao nhịp",
+        "group_en": "Entrust the Rhythm"
+      },
+      {
+        "name_vi": "Nghe khoảng trống",
+        "name_en": "Hear the Interval",
+        "description_vi": "Áp đá lên gỗ mỏng để nghe khoảng giữa hai nhịp như một tiếng rền, nhận chỗ tiết tấu đang hao chậm.",
+        "description_en": "Press the stone to thin wood to hear the interval as a low hum and detect where the rhythm is slowing.",
+        "group_vi": "Giao nhịp",
+        "group_en": "Entrust the Rhythm"
+      },
+      {
+        "name_vi": "Nhịp nhận",
+        "name_en": "The Accepting Beat",
+        "description_vi": "Người muốn nối tự gõ đáp bằng ngón tay để đưa cử động có ý thức vào cùng chuỗi; người bất tỉnh cần được đỡ bằng dụng cụ, thay vì nối cơ thể.",
+        "description_en": "A willing participant taps an answer to join deliberate movement to the sequence; an unconscious person must be supported by an apparatus rather than joined bodily.",
+        "group_vi": "Giao nhịp",
+        "group_en": "Entrust the Rhythm"
+      },
+      {
+        "name_vi": "Đánh dấu lượt cuối",
+        "name_en": "Mark the Final Turn",
+        "description_vi": "Gõ thêm một nhịp nặng sau chuỗi để đặt điểm kết đã hẹn; đổi điểm kết giữa lúc chạy làm cả chuỗi phải bắt lại từ đầu.",
+        "description_en": "Add one heavy beat to appoint an ending; changing it during operation forces the whole sequence to begin again.",
+        "group_vi": "Giao nhịp",
+        "group_en": "Entrust the Rhythm"
+      },
+      {
+        "name_vi": "Bánh răng nhớ lượt",
+        "name_en": "The Remembering Gear",
+        "description_vi": "Chạm đá vào trục để một bánh răng mẻ đi hết vòng đã giao; mỗi răng thiếu làm vòng bạc móp sâu thêm.",
+        "description_en": "Touch the stone to a shaft so a damaged gear completes its appointed turn; each missing tooth dents the silver more deeply.",
+        "group_vi": "Máy còn chạy",
+        "group_en": "The Engine Continues"
+      },
+      {
+        "name_vi": "Bơm qua nhịp chết",
+        "name_en": "Pump Through the Dead Beat",
+        "description_vi": "Nối đá với cần bơm để nó vượt qua một nhịp máy hụt, giữ dòng nước trong lúc sửa; quá nhiều lượt hụt làm nhịp bơm chậm đến mức nước trào ngược.",
+        "description_en": "Join the stone to a pump lever to bridge a missed stroke and keep water moving during repairs; too many missed strokes slow it until water flows back.",
+        "group_vi": "Máy còn chạy",
+        "group_en": "The Engine Continues"
+      },
+      {
+        "name_vi": "Thoi dệt chung",
+        "name_en": "The Shared Shuttle",
+        "description_vi": "Gắn đá lên khung dệt để những người đã nhận nhịp trao thoi đồng bộ qua chỗ khuất; một người bỏ nhịp khiến sợi căng giật toàn khung.",
+        "description_en": "Mount the stone on a loom so joined workers pass shuttles in time across blind spots; one missed beat jerks the tensioned threads through the frame.",
+        "group_vi": "Máy còn chạy",
+        "group_en": "The Engine Continues"
+      },
+      {
+        "name_vi": "Cửa chưa khép",
+        "name_en": "The Unclosed Gate",
+        "description_vi": "Giao cho cửa một chu kỳ mở rồi khép để giữ cơ cấu đi hết chu kỳ dù dây kéo đã đứt; phải cứu người trong ngưỡng trước nhịp khép đã hẹn.",
+        "description_en": "Entrust a gate with an open-and-close cycle so it completes it despite a broken pull rope; anyone in the threshold must be rescued before the appointed closing beat.",
+        "group_vi": "Máy còn chạy",
+        "group_en": "The Engine Continues"
+      },
+      {
+        "name_vi": "Chân qua băng",
+        "name_en": "Feet Across Ice",
+        "description_vi": "Các thành viên gõ nhận một chuỗi bước rải đều để tránh dồn tải cùng lúc lên băng; ai hoảng chạy phá nhịp có thể kéo nhịp cả đoàn lệch theo.",
+        "description_en": "Travellers accept evenly staggered steps to avoid loading ice together; someone breaking into a panicked run can pull the whole party off rhythm.",
+        "group_vi": "Bước đi cùng nhau",
+        "group_en": "Walk Together"
+      },
+      {
+        "name_vi": "Cáng không xóc",
+        "name_en": "The Steady Litter",
+        "description_vi": "Cho người khiêng cùng nhận nhịp nâng hạ để cáng qua nền gồ ghề bớt giật; người kiệt sức vẫn cần được thay trước khi cơ thể bị kéo quá sức.",
+        "description_en": "Bearers accept a shared lifting cadence to steady a litter over rough ground; exhausted bearers must be replaced before their bodies are overdriven.",
+        "group_vi": "Bước đi cùng nhau",
+        "group_en": "Walk Together"
+      },
+      {
+        "name_vi": "Nhịp người mù đường",
+        "name_en": "Beat of the Unseen Guide",
+        "description_vi": "Nối hai thanh dẫn vào đá để người phía trước gửi nhịp dừng và tiến cho nhóm khuất sau sương; chuỗi chỉ truyền thứ tự đã hẹn nên phải thống nhất tín hiệu.",
+        "description_en": "Connect two guide rods so the leader sends halt-and-advance beats through fog; only the agreed sequence is conveyed, requiring a shared signal code.",
+        "group_vi": "Bước đi cùng nhau",
+        "group_en": "Walk Together"
+      },
+      {
+        "name_vi": "Giữ bước cuối",
+        "name_en": "Hold the Last Step",
+        "description_vi": "Người đã nhận nhịp có thể hoàn thành một bước hụt khi chân vừa mất điểm đỡ, đủ với tay tới chỗ bám; đá lấy nhịp kế tiếp khiến họ phải đứng nghỉ.",
+        "description_en": "A joined walker can complete one failing step after losing support, gaining a chance to reach a handhold; the stone takes their next beat and forces a pause.",
+        "group_vi": "Bước đi cùng nhau",
+        "group_en": "Walk Together"
+      },
+      {
+        "name_vi": "Thở theo đèn",
+        "name_en": "Breathing by the Lamp",
+        "description_vi": "Gắn đá vào một đèn nháy để người hoảng loạn tự nguyện theo nhịp thở chậm; nhịp của người đang ngạt cần được người cứu điều chỉnh riêng.",
+        "description_en": "Attach the stone to a blinking lamp so a panicked person may follow slower breathing; a suffocating patient’s cadence needs separate adjustment by a rescuer.",
+        "group_vi": "Hơi thở và bàn tay",
+        "group_en": "Breath and Hand"
+      },
+      {
+        "name_vi": "Tay thợ khỏi run",
+        "name_en": "The Steadied Hand",
+        "description_vi": "Người thợ nhận một chuỗi chậm để cử động tinh đi theo nhịp thay vì cơn run; sau khi tháo nối, mỏi cơ đã dồn sẽ trở lại.",
+        "description_en": "A craftsman accepts a slow sequence so fine movements follow its cadence rather than tremor; accumulated muscle fatigue returns when disconnected.",
+        "group_vi": "Hơi thở và bàn tay",
+        "group_en": "Breath and Hand"
+      },
+      {
+        "name_vi": "Lượt ép cứu",
+        "name_en": "The Rescue Compression",
+        "description_vi": "Nối đá với bộ phận ép ngoài cơ thể để giữ lượt cứu hộ do người có nghề đặt ra; máy tiếp tục theo nhịp cũ cho đến khi được chỉnh nên phải luôn có người canh.",
+        "description_en": "Join the stone to an external compression device to maintain a rescuer’s chosen cadence; it follows that setting until changed and requires continuous supervision.",
+        "group_vi": "Hơi thở và bàn tay",
+        "group_en": "Breath and Hand"
+      },
+      {
+        "name_vi": "Lời qua run rẩy",
+        "name_en": "Words Through Trembling",
+        "description_vi": "Người nói nhận từng nhịp nhỏ để giữ miệng và hơi thở phối hợp trong cơn rét; dùng lâu kéo giọng chậm theo đá.",
+        "description_en": "A speaker accepts small beats to coordinate mouth and breath through cold tremors; prolonged use slows the voice with the stone.",
+        "group_vi": "Hơi thở và bàn tay",
+        "group_en": "Breath and Hand"
+      },
+      {
+        "name_vi": "Nhịp rỗng dưới nền",
+        "name_en": "The Hollow Beat Below",
+        "description_vi": "Truyền một chuỗi qua sàn rồi nghe lần đáp để tìm chỗ nền đứt liên kết; lớp vật liệu khác nhau cũng đổi nhịp nên cần đối chiếu.",
+        "description_en": "Send a sequence through a floor and read its answer for broken connections; different materials also alter the response and require comparison.",
+        "group_vi": "Đo và phát hiện",
+        "group_en": "Measure and Detect"
+      },
+      {
+        "name_vi": "Bắt bánh trượt",
+        "name_en": "Catch the Slipping Wheel",
+        "description_vi": "So chuỗi lưu với bánh quay đang chạm đá để nghe nhịp lệch khi trục trượt; tiếng máy quá nhiều có thể che dấu nhỏ.",
+        "description_en": "Compare the stored sequence with a wheel touching the stone to hear drift from a slipping shaft; heavy machine noise can conceal small discrepancies.",
+        "group_vi": "Đo và phát hiện",
+        "group_en": "Measure and Detect"
+      },
+      {
+        "name_vi": "Lượt gác còn thiếu",
+        "name_en": "The Missing Watch",
+        "description_vi": "Giao chuỗi báo giờ cho một vật rung để đếm những lần chưa có người gõ đáp; các lượt bỏ qua dồn thành tiếng ngân dài lúc đổi gác.",
+        "description_en": "Entrust watch signals to a vibrating object to count unanswered calls; missed responses accumulate into a long peal at the watch change.",
+        "group_vi": "Đo và phát hiện",
+        "group_en": "Measure and Detect"
+      },
+      {
+        "name_vi": "Nghe nơi đã dừng",
+        "name_en": "Hear Where It Stopped",
+        "description_vi": "Đặt đá lên cơ cấu vừa tắt để so nhịp còn lưu với vị trí ngừng, tìm bộ phận bỏ dở lượt cuối; cần một nhịp mẫu được nhận trước đó.",
+        "description_en": "Set the stone upon a newly stopped mechanism to compare its stored beat with the stopping position and locate an unfinished component; a reference rhythm must have been accepted beforehand.",
+        "group_vi": "Đo và phát hiện",
+        "group_en": "Measure and Detect"
+      },
+      {
+        "name_vi": "Nhịp qua đứt dây",
+        "name_en": "Beat Across the Broken Cord",
+        "description_vi": "Đặt đá tại đầu dây truyền vừa đứt để vật nhận đi hết một chu kỳ nữa; chu kỳ kết thúc sẽ trả toàn tải vào phần đỡ còn lại.",
+        "description_en": "Place the stone at a broken drive cord so its receiver completes one further cycle; completion transfers the load to the remaining supports.",
+        "group_vi": "Trì một lần ngừng",
+        "group_en": "Delay One Halt"
+      },
+      {
+        "name_vi": "Tiếng chuông chưa tắt",
+        "name_en": "The Unfaded Bell",
+        "description_vi": "Giữ nhịp cuối của chuông để tiếng báo tiếp tục rung trong vật dẫn dù chuông đã nứt; từng đoạn dẫn phải còn nối liền.",
+        "description_en": "Retain a bell’s final beat to continue its warning through conductors despite a cracked bell; every conducting section must remain connected.",
+        "group_vi": "Trì một lần ngừng",
+        "group_en": "Delay One Halt"
+      },
+      {
+        "name_vi": "Bàn tay hoàn tất",
+        "name_en": "The Completing Hand",
+        "description_vi": "Người đã nhận nhịp trước lúc kiệt sức có thể hoàn thành một thao tác đã giao, như buộc nút hay gạt chốt; hết thao tác, mọi mỏi mệt trở lại ngay.",
+        "description_en": "A person joined before exhaustion can complete an entrusted action such as tying a knot or releasing a catch; all fatigue returns immediately afterwards.",
+        "group_vi": "Trì một lần ngừng",
+        "group_en": "Delay One Halt"
+      },
+      {
+        "name_vi": "Giữ lượt đáp",
+        "name_en": "Hold the Answer",
+        "description_vi": "Hoãn một nhịp kết để cơ cấu giữ nguyên giai đoạn hiện tại trong lúc sửa; mỗi lần kéo dài làm toàn chuỗi chậm hơn khi chạy lại.",
+        "description_en": "Delay an ending beat to hold a mechanism at its current stage during repair; each extension slows the whole sequence upon resumption.",
+        "group_vi": "Trì một lần ngừng",
+        "group_en": "Delay One Halt"
+      },
+      {
+        "name_vi": "Bước qua vách",
+        "name_en": "Footsteps Through the Wall",
+        "description_vi": "Dẫn chuỗi bước đã ghi vào sàn nối bên kia vách để tạo rung giống người tuần; âm chỉ đúng chuỗi nên người nghe kỹ có thể nhận lặp.",
+        "description_en": "Conduct recorded steps into a connected floor beyond a wall to imitate a patrol’s vibration; its exact repetition can betray it to an attentive listener.",
+        "group_vi": "Nhịp đánh lạc",
+        "group_en": "The Misleading Beat"
+      },
+      {
+        "name_vi": "Mồi nhịp máy",
+        "name_en": "The Engine’s Decoy",
+        "description_vi": "Cho một trục giả nhận nhịp lưu để che thời điểm máy thật đã dừng; người chạm cả hai trục vẫn cảm được khác biệt tải.",
+        "description_en": "Give a dummy shaft the stored rhythm to conceal when the real engine stopped; touching both still reveals their different loads.",
+        "group_vi": "Nhịp đánh lạc",
+        "group_en": "The Misleading Beat"
+      },
+      {
+        "name_vi": "Gõ cửa xa",
+        "name_en": "The Distant Knocker",
+        "description_vi": "Nối đá qua dây căng với cánh cửa để gửi mật hiệu từ nơi ẩn; dây chùng khiến một tiếng dài tách thành nhiều tiếng ngắn.",
+        "description_en": "Join the stone to a door with taut wire to send a signal from concealment; slack wire breaks a long knock into short ones.",
+        "group_vi": "Nhịp đánh lạc",
+        "group_en": "The Misleading Beat"
+      },
+      {
+        "name_vi": "Lệch nửa nhịp",
+        "name_en": "Half a Beat Aside",
+        "description_vi": "Chỉnh điểm nhận trên vòng bạc để nhịp của một dụng cụ lệch khỏi tiếng máy nền, khiến người dùng phân biệt được nó giữa hỗn âm; lệch quá xa sẽ phá đồng bộ.",
+        "description_en": "Shift the receiving point on the ring to offset a tool from background machinery and distinguish it amid noise; too large an offset breaks synchronisation.",
+        "group_vi": "Nhịp đánh lạc",
+        "group_en": "The Misleading Beat"
+      },
+      {
+        "name_vi": "Đáp đủ",
+        "name_en": "The Full Answer",
+        "description_vi": "Gõ đúng phần còn thiếu của chuỗi để kết một lượt đang chờ, giải vật khỏi sự thúc ép hoàn tất.",
+        "description_en": "Tap the sequence’s missing portion to finish a waiting cycle and release its object from the demand to complete it.",
+        "group_vi": "Gõ đáp",
+        "group_en": "Answer"
+      },
+      {
+        "name_vi": "Trả người",
+        "name_en": "Return the Person",
+        "description_vi": "Người đang nối tự gõ nhịp tên mình đã chọn lúc nhận để rời chuỗi; cần người đỡ nếu mỏi mệt dồn trở lại.",
+        "description_en": "A joined person taps the personal cadence chosen upon acceptance to leave the sequence; support may be needed when deferred fatigue returns.",
+        "group_vi": "Gõ đáp",
+        "group_en": "Answer"
+      },
+      {
+        "name_vi": "Tháo bạc",
+        "name_en": "Unbind the Silver",
+        "description_vi": "Nới vòng bạc khi đá không còn tải hoạt động để xóa một tiết tấu mòn; tháo trong lúc còn nhịp chờ sẽ khiến đá gõ qua mọi vật nó chạm.",
+        "description_en": "Loosen the silver ring when no active load remains to erase a worn rhythm; doing so while a beat still waits makes the stone knock through everything it touches.",
+        "group_vi": "Gõ đáp",
+        "group_en": "Answer"
+      },
+      {
+        "name_vi": "Lặng sau tiếng cuối",
+        "name_en": "Silence After the Last Beat",
+        "description_vi": "Đặt đá lên nền đất và trả đủ các nhịp chưa đáp để nó thôi gọi, khép một lượt sử dụng trước khi cất hộp.",
+        "description_en": "Set the stone upon earth and answer every outstanding beat so it ceases calling, closing a use before it is boxed.",
+        "group_vi": "Gõ đáp",
+        "group_en": "Answer"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khoảng đợi còn mở",
+        "name_en": "The Open Interval",
+        "description_vi": "Năng lực nằm ở quan hệ giữa nhịp gọi và nhịp đáp. Một cỗ máy có thể làm xong lượt quay cuối bằng phần nhịp còn nợ, dù trục đã thôi truyền lực.",
+        "description_en": "Its power lies between summons and answer. A machine can complete its last rotation upon an owed beat even after its shaft has ceased transmitting force."
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-bead-custodian",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Hạt cườm được nấu từ thủy tinh thừa lẫn bụi khoáng của một mẻ mắt tượng. Bà thợ thêu rót hạt vào hộp mỗi sáng, gõ ba lần để đếm đồ. Một hạt lăn khỏi bàn rồi tự trở về, bên trong có đứa trẻ mờ đang đẩy vào thành kính.\n\nNó nhận chiếc hộp đầu tiên chạm trong buổi sáng như một kho cần giữ. Bà thợ gõ thêm các hạt thường bên ngoài, nghe hạt có khách đáp bằng tiếng lăn vui. Khi chuyển chỗ làm, bà mang hộp đi trước và đặt hạt xuống sau, cho người thủ kho nhỏ một căn phòng đã biết đường về.",
+    "lore_en": "The bead was made from glass waste carrying mineral dust from a batch of statue eyes. An embroiderer poured her beads into a box each morning and tapped three times to count them. One rolled off the table and returned by itself, a misty child pushing against its glass wall.\n\nIt accepts the first box touched each morning as its store. She taps ordinary beads outside and hears the inhabited one answer with a cheerful roll. Moving workshops, she brings the box first and sets down the bead afterwards, giving its little custodian a room with a known way home.",
+    "use_vi": "Đánh dấu chỗ hộp đã nhận trên mặt phẳng và mang một tín hiệu lăn trở về.",
+    "use_en": "Mark an accepted box’s location upon level ground and return a rolling signal.",
+    "limits_vi": "Chỉ trong một phòng phẳng, không vượt bậc. Hộp dời xa dễ làm nó lạc; hạt nứt khiến dáng trẻ đứng yên đến khi được vá đúng mảnh kính gốc.",
+    "limits_en": "It works within one level room and cannot cross steps. A distant moved box can confuse it; a cracked bead stills the child until repaired with its own glass.",
+    "skills": [
+      {
+        "name_vi": "Lăn về hộp",
+        "name_en": "Roll Home to the Box",
+        "description_vi": "Chạm hạt vào hộp đầu buổi rồi đặt nó xa vài bước trên nền phẳng để đứa trẻ lăn về dấu hộp, giúp tìm chỗ cất trong tối gần.",
+        "description_en": "Touch the bead to its box at morning, then set it a few paces away on level ground so the child rolls towards the box mark and guides nearby searching in darkness."
+      },
+      {
+        "name_vi": "Gõ gọi kho",
+        "name_en": "Knock for the Store",
+        "description_vi": "Gõ ba lần lên mặt giữ hạt để nó lăn một vòng nhỏ rồi hướng về hộp đã nhận, tạo tín hiệu trả đồ; vật cản phải được người dùng dọn khỏi đường.",
+        "description_en": "Tap three times upon its surface so it rolls a small circle and turns towards its accepted box as a return signal; a person must clear obstacles."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sáng nhận một kho",
+        "name_en": "One Store Each Morning",
+        "description_vi": "Hạt chỉ đổi hộp sau lượt sáng mới. Đặt cạnh hộp khác trong ngày khiến nó tiếp tục tìm kho đã nhận.",
+        "description_en": "The bead changes boxes only with a new morning. Another box later in the day leaves it seeking the accepted store."
+      }
+    ]
+  }
+]

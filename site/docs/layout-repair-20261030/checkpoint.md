@@ -1,0 +1,3 @@
+# Atlas / faction / linked records layout repair
+
+Author supplied four screenshots: departure card covering map, dark faction chronicle, low contrast traits and text-only artifact references. Departure map and confirmation now flow vertically; obsolete absolute positioning removed. Chronicle artwork is a distinct image row above light-surface copy. Trait titles use crimson, body uses ink, with four new built-in ImageGen icons (forge/winter/war/eye). Generated transparent source exec-efff9d9c-6ea9-4b35-aa8b-bde883d8cf91.png exported into public/art/interface/traits. Character special bonds use existing portraits; artifact references use exact thumbnails from target records, retain existing hrefs. Added faction gallery chronicle image. No relationship or lore changes.

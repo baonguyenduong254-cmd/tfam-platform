@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-rest-planter",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Một bản nhạc được viết bằng mực pha khoáng nhạt. Người hát tập đi tập lại, hụt hơi cùng chỗ rồi đặt tay lên giấy để nghỉ. Sáng sau, dấu lặng nhỏ mọc giữa những nốt tại đó; một người cầm nhánh khuông nhạc đi trên lề, trồng thêm dấu theo nhịp ngực người vừa cúi xuống xem.\n\nTờ nhạc chuyển sang phòng khác, người trồng đi cùng và nhận hơi trực tiếp của người hát mới khi được mời. Nó chăm chỗ ngừng như một người làm vườn chăm khoảng giữa hai cây. Người hát hạ bản nhạc xuống để nhìn rõ, lần đầu thấy phần mình cần nghỉ cũng có hình hài đủ nhỏ để được nâng trong tay.",
+    "lore_en": "The score was written in pale mineral ink. Its singer practised repeatedly, running short of breath at one place and resting a hand upon the paper. Next morning little rests had grown between notes there; a person carrying a stave branch walked the margin, planting signs to the chest cadence of the one leaning close.\n\nMoved to another room, it followed its sheet and accepted a new singer’s directly heard breath when invited. It tends pauses like a gardener tending space between plants. The singer lowered the score to see it, finding needed rest given a form small enough to hold.",
+    "use_vi": "Bố trí dấu nghỉ trên bài tập ngắn theo hơi hiện tại của một người, giữ và đối chiếu các lượt luyện.",
+    "use_en": "Place rests in a short practice passage for one person’s current breathing and retain comparisons between rehearsals.",
+    "limits_vi": "Chỉ hỗ trợ nhịp luyện, sức khỏe và kỹ thuật cần người có nghề xem. Đổi người hoặc tình trạng thở phải nhận lại; cố theo dấu cũ có thể hụt hơi.",
+    "limits_en": "It assists practice cadence; health and technique need knowledgeable assessment. Changed singer or breathing requires reacceptance; forcing an old pattern can leave someone breathless.",
+    "skills": [
+      {
+        "name_vi": "Nghe người hát",
+        "name_en": "Hear the Singer",
+        "description_vi": "Mời một người hát đoạn ngắn trước tờ để người trồng nhận nhịp thở thấy và nghe được trong lượt ấy.",
+        "description_en": "Invite one singer to perform a short passage before the sheet so it accepts the visible and audible breathing of that turn."
+      },
+      {
+        "name_vi": "Trồng dấu lặng",
+        "name_en": "Plant the Rest",
+        "description_vi": "Đặt tay trên lề sau đoạn tập để nó đặt dấu ở nơi hơi vừa hụt, gợi chỗ nghỉ cho lượt sau.",
+        "description_en": "Rest a hand upon the margin after practice so it plants signs where breath faltered and suggests pauses for the next turn."
+      },
+      {
+        "name_vi": "Giữ một khoảng nghỉ",
+        "name_en": "Keep One Pause",
+        "description_vi": "Chạm dấu được chọn để nó giữ khoảng ấy theo nhịp đã nhận trong lúc các dấu khác được sửa, cho người hát thử từng chỗ.",
+        "description_en": "Touch a selected sign to preserve that interval while other rests are edited, allowing sectional trials."
+      },
+      {
+        "name_vi": "Đối lượt mới",
+        "name_en": "Compare the Fresh Turn",
+        "description_vi": "Hát lại cùng đoạn rồi xem người trồng nhổ hay dời dấu, nhận nơi hơi đã đổi so với lượt trước; điều kiện khác cần ghi cùng kết quả.",
+        "description_en": "Repeat the passage and watch uprooted or moved signs to detect changed breathing, recording changed conditions too."
+      },
+      {
+        "name_vi": "Nhánh nhắc nghỉ",
+        "name_en": "The Branch Reminds",
+        "description_vi": "Đặt tờ trong tầm nhìn để nhánh khuông hạ xuống tại dấu đã nhận, nhắc người luyện tới khoảng nghỉ mà khỏi thêm tiếng gõ.",
+        "description_en": "Keep the sheet visible so its stave branch lowers at an accepted rest without an extra audible cue."
+      },
+      {
+        "name_vi": "Lối giữa hai câu",
+        "name_en": "The Way Between Phrases",
+        "description_vi": "Cho người trồng nghe riêng đoạn nối để nó thử đặt một dấu ngắn ở khoảng chuyển câu, giúp người hát cùng thầy cân nhịp.",
+        "description_en": "Present a phrase transition alone so it suggests a brief rest for singer and teacher to assess."
+      },
+      {
+        "name_vi": "Gieo lên bản chép",
+        "name_en": "Plant Upon the Copy",
+        "description_vi": "Chép đoạn bằng cùng mẻ mực và đặt cạnh tờ trú để các dấu được chọn hiện nhạt sang bản mới, giữ một mẫu luyện; người trồng vẫn ở tờ gốc.",
+        "description_en": "Copy the passage in same-batch ink beside the inhabited sheet so selected rests appear faintly upon the copy; the planter remains on the original."
+      },
+      {
+        "name_vi": "Nhổ lượt cũ",
+        "name_en": "Uproot the Old Turn",
+        "description_vi": "Xóa dấu rồi gõ nhẹ mép giấy để nó thu nhánh và quên nhịp người cũ, chuẩn bị cho một người hay tình trạng mới.",
+        "description_en": "Erase signs and tap the edge so it folds its branch and releases the old cadence for a changed person or condition."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khoảng ngừng được trồng",
+        "name_en": "Pauses Are Planted",
+        "description_vi": "Dấu mới mọc bằng mực cùng mẻ trên giấy trú. Người dùng có thể từ chối và xóa trước lượt mới để giao lại cách nghỉ.",
+        "description_en": "Fresh signs grow in same-batch ink upon the inhabited sheet. A user may reject and erase them before another turn."
+      }
+    ]
+  }
+]

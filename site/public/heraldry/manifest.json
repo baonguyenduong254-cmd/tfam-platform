@@ -1,0 +1,30 @@
+{
+  "version": "20261029-imagen-v2",
+  "design": "24 individually generated original TFAM textile paintings; borders are painted into each flag.",
+  "flags": {
+    "castilian_empire": "/heraldry/painted-v2/castilian_empire.webp",
+    "holy_french_kingdom": "/heraldry/painted-v2/holy_french_kingdom.webp",
+    "western_roman_empire": "/heraldry/painted-v2/western_roman_empire.webp",
+    "sultanate_of_morocco": "/heraldry/painted-v2/sultanate_of_morocco.webp",
+    "habsburg_poland": "/heraldry/painted-v2/habsburg_poland.webp",
+    "novgorod_union": "/heraldry/painted-v2/novgorod_union.webp",
+    "ottoman_empire": "/heraldry/painted-v2/ottoman_empire.webp",
+    "danes_kingdom": "/heraldry/painted-v2/danes_kingdom.webp",
+    "scotland_ireland_union": "/heraldry/painted-v2/scotland_ireland_union.webp",
+    "england_ruins": "/heraldry/painted-v2/england_ruins.webp",
+    "new_portuguese_empire": "/heraldry/painted-v2/new_portuguese_empire.webp",
+    "british_east_india_company": "/heraldry/painted-v2/british_east_india_company.webp",
+    "annam_empire": "/heraldry/painted-v2/annam_empire.webp",
+    "ming_celestial_empire": "/heraldry/painted-v2/ming_celestial_empire.webp",
+    "nusantara_sultanate": "/heraldry/painted-v2/nusantara_sultanate.webp",
+    "tokugawa_empire": "/heraldry/painted-v2/tokugawa_empire.webp",
+    "eternal_sky_khanate": "/heraldry/painted-v2/eternal_sky_khanate.webp",
+    "safavid_empire": "/heraldry/painted-v2/safavid_empire.webp",
+    "aksumite_empire": "/heraldry/painted-v2/aksumite_empire.webp",
+    "songhai_empire": "/heraldry/painted-v2/songhai_empire.webp",
+    "kongo_confederation": "/heraldry/painted-v2/kongo_confederation.webp",
+    "swahili_league": "/heraldry/painted-v2/swahili_league.webp",
+    "cape_republic": "/heraldry/painted-v2/cape_republic.webp",
+    "merina_empire": "/heraldry/painted-v2/merina_empire.webp"
+  }
+}

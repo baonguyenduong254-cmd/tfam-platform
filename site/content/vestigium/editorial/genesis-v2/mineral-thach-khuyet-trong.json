@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-thach-khuyet-trong",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Thạch Khuyết Trọng được nhặt từ các dây treo của một cây cầu không còn nhịp. Đá trong dây vốn chỉ làm đối trọng, nhưng một mạch trắng đã mọc xuyên những nút buộc và đi tới khoảng không nơi nhịp cầu mất. Người tháo dây thấy đá nhẹ đi dưới một sợi duy nhất, rồi kéo cả móc gỗ xuống khi thêm sợi thứ hai.\n\nMạch trắng chia viên thành hai phần không cân xứng dù cân cho khối lượng cũ khi đặt xuống. Thợ gọi nó là đối trọng đã đem phần nặng của mình gửi qua một con đường bị phá. Họ tìm cách mượn đường gửi ấy để giữ, dời và trả một gánh, luôn để riêng sợi đầu tiên như giữ tên người vẫn còn nhận ở phía kia.",
+    "lore_en": "Weight-Deficient Stone came from cables of a bridge whose span was gone. Former counterweights grew white veins through their knots towards its missing space. A dismantler found one lighten upon a single cord, then pull its wooden hook down when a second was added.\n\nThe white vein divided unequal-looking halves that regained their former weight upon grounding. Craftsmen called it a counterweight sending its burden over a ruined road. They learnt to hold, move and return that share, preserving the first cord like the name of someone still receiving beyond.",
+    "use_vi": "Mượn một liên kết treo để chuyển phần gánh của vật qua đường mạch trắng, dùng cho di chuyển hoặc thao tác với cơ cấu.",
+    "use_en": "Borrow one suspension-link to move a burden’s share along its white vein during transport or mechanical work.",
+    "limits_vi": "Sợi đầu tiên xác lập đường; thêm mối treo không được nhận có thể làm cả phần gánh trở về đột ngột. Dây thật vẫn có thể đứt, còn phần đã gửi cần nơi nhận hoặc người chịu trả.",
+    "limits_en": "The first cord establishes passage; unaccepted extra suspension may return the burden abruptly. Real cords still break and sent weight still requires a receiver.",
+    "skills": [
+      {
+        "name_vi": "Nhẹ dưới một sợi",
+        "name_en": "Light Beneath One Cord",
+        "description_vi": "Treo đá bằng một dây đã nhận để một phần nặng rời đá. Vật buộc thêm ngoài dấu vẫn nặng riêng và có thể phá dây.",
+        "description_en": "One accepted cord removes part of its weight. Additional unmarked burdens remain heavy and may break it."
+      },
+      {
+        "name_vi": "Trả cân trên nền",
+        "name_en": "Return Weight to Ground",
+        "description_vi": "Đặt mặt trắng xuống nền được chỉ để phần gửi trở về từ từ. Đập xuống thay vì đặt có thể trả cùng một lúc.",
+        "description_en": "Lower its white face onto a designated floor for gradual return. Dropping may release everything together."
+      },
+      {
+        "name_vi": "Chuyển gánh sang móc",
+        "name_en": "Transfer into the Hook",
+        "description_vi": "Một móc được người giữ tự nhận làm nơi chịu để tải qua dây được dời vào đó. Móc hỏng sẽ trả phần chưa nhận về đá.",
+        "description_en": "A willingly designated hook receives transferred load. Failure sends the unfinished share back to the stone."
+      },
+      {
+        "name_vi": "Giữ thế đối trọng",
+        "name_en": "Keep the Counterweight’s State",
+        "description_vi": "Chọn một vị trí treo để đá giữ thế nhẹ ấy trong một thao tác. Chạm nền ngoài ý muốn xóa thế và cho phần gánh về.",
+        "description_en": "Retain one lightened position for a procedure. Accidental grounding cancels it."
+      },
+      {
+        "name_vi": "Dấu nặng lớn nhất",
+        "name_en": "The Greatest Burden-Mark",
+        "description_vi": "Sau lượt treo, vân trắng giữ đường rộng nhất phần tải đã nhận để so. Nó là dấu quan hệ, không tự cho đơn vị cân.",
+        "description_en": "After suspension, its broadest vein-mark records an accepted burden for comparison, not numerical weight."
+      },
+      {
+        "name_vi": "Chuyển sang dây mới",
+        "name_en": "Pass to the New Cord",
+        "description_vi": "Cho dây cũ và mới cùng chạm một nút được gọi để giao đường treo. Cắt cũ trước khi nút nhận xong để đường rơi về giữa.",
+        "description_en": "Join both cords at a named knot for transfer. Cutting the old prematurely drops passage between them."
+      },
+      {
+        "name_vi": "Cắt liên hệ bị bám",
+        "name_en": "Sever an Unwanted Attachment",
+        "description_vi": "Chỉ một vật đã mắc ngoài dấu để phần nặng của nó tách khỏi đường mượn. Nó rơi theo lối thật và có thể làm hại vật dưới.",
+        "description_en": "Exclude a snagged unmarked burden from borrowed passage. It falls normally and may strike below."
+      },
+      {
+        "name_vi": "Gánh về người nhận",
+        "name_en": "Burden the Willing Receiver",
+        "description_vi": "Một người tự chạm nút cuối nhận phần còn treo để người khác tháo vật an toàn. Mỏi và sức ép tới tay họ khi đường khép.",
+        "description_en": "A willing keeper takes the suspended share at the final knot. Closure brings fatigue and pressure into their hands."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sợi đầu có tên",
+        "name_en": "The Named First Cord",
+        "description_vi": "Thay sợi cùng chất không tái lập ngay liên hệ. Người giữ phải giao dấu cũ sang dây mới trước khi tháo.",
+        "description_en": "Identical replacement cord does not automatically inherit passage; transfer the old mark before removal."
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+'use client';
+import Link from 'next/link';
+import {AnimatePresence,motion} from 'motion/react';
+import '../opening-moonfall.css';
+import {useEffect,useState,type CSSProperties} from 'react';
+import {BookOpen,Volume2,VolumeX,Lock,Search,ArrowUpRight,Compass,Pause,Play,Trophy,ArrowLeft} from 'lucide-react';
+import OpeningLivingScene from './OpeningLivingScene';
+import FactionShield from './FactionShield';
+import BackgroundMusicSlot from './BackgroundMusicSlot';
+import {factionGroups,revoltSlots} from '../../lib/discovery';
+import {useDiscovery} from './DiscoveryProgress';
+type R=Record<string,any>;
+type Props={contentSettled:boolean;data:R;geo:R[];provinces:R[];lang:string;year:string;replay:boolean;onLanguage:(lang:string)=>void;onPrepare:()=>void;onEnter:(index:number,tab?:string)=>void};
+export default function CinematicEntry({data,replay,onEnter}:Props){
+ const [paused,setPaused]=useState(false);
+ useEffect(()=>{try{setPaused(localStorage.getItem('tfam-opening-motion')==='off');}catch{}},[]);
+ function toggleMotion(){setPaused(value=>{try{localStorage.setItem('tfam-opening-motion',value?'on':'off');}catch{}return !value;});}
+ const [choose,setChoose]=useState(replay),[query,setQuery]=useState(''),[sound,setSound]=useState(true);const discovery=useDiscovery();
+ useEffect(()=>{const sync=()=>{try{setSound(localStorage.getItem('tfam-background-music-v1')!=='off');}catch{}};sync();window.addEventListener('tfam-music-status',sync);return()=>window.removeEventListener('tfam-music-status',sync);},[]);
+ function toggle(){const enabled=!sound;setSound(enabled);try{localStorage.setItem('tfam-intro-sound',enabled?'on':'off');}catch{}window.dispatchEvent(new CustomEvent('tfam-music-preference',{detail:{enabled}}));}
+ function enter(id:string){const index=data.factions.findIndex((f:R)=>f.id===id);if(index<0||!discovery.canExplore(id))return;try{localStorage.setItem('tfam-last-faction',id);}catch{}onEnter(index,'map');}
+ return <div className={'atlas-opening '+(choose?'choosing':'')} data-opening-motion={paused?'off':'on'}>
+  <OpeningLivingScene paused={paused}/><div className="opening-mist" aria-hidden="true"/>
+  <header className="opening-toolbar"><span>LEONARDO RAVENNA · ATLAS</span><div><Link className="opening-utility-link" href="/achievements"><Trophy size={15}/><span>Achievements</span></Link><button className="opening-icon-button" onClick={toggleMotion} aria-label={paused?'Play scene animation':'Pause scene animation'} aria-pressed={!paused}>{paused?<Play size={16}/>:<Pause size={16}/>}</button><button className="opening-icon-button" onClick={toggle} aria-label={sound?'Mute music':'Enable music'} aria-pressed={sound}>{sound?<Volume2 size={18}/>:<VolumeX size={18}/>}</button></div></header>
+  <AnimatePresence mode="wait" initial={false}>{!choose?<motion.section key="opening" className="opening-title" initial={{opacity:.75,y:paused?0:16}} animate={{opacity:1,y:0}} exit={{opacity:0,y:paused?0:-8}} transition={{duration:paused?0:.55,ease:[.16,1,.3,1]}}><span className="eyebrow">AN ALTERNATE HISTORY BENEATH THE FROST</span><h1><span>Through Frost</span><em>and Myth</em></h1><blockquote className="opening-quote">Who are you in a world buried beneath snow,<br/>where history itself has been bent from its true course?</blockquote><div className="opening-actions"><button className="opening-enter" onClick={()=>setChoose(true)}><span className="opening-button-emblem"><Compass size={21} strokeWidth={1.3}/></span><span className="opening-button-copy"><small>DISCOVER THE WORLD</small><strong>Explore the atlas</strong></span><ArrowUpRight size={20}/></button><Link className="opening-reader-button" href="/chronicles"><span className="opening-button-emblem"><BookOpen size={20} strokeWidth={1.3}/></span><span className="opening-button-copy"><small>BEGIN THE JOURNEY</small><strong>Read the chronicles</strong></span><ArrowUpRight size={18}/></Link></div><p className="opening-byline">A world by Leonardo Ravenna</p></motion.section>:<motion.section key="banners" className="faction-selection" initial={{opacity:.8,y:paused?0:12}} animate={{opacity:1,y:0}} exit={{opacity:0,y:paused?0:-8}} transition={{duration:paused?0:.55,ease:[.16,1,.3,1]}}><header><span className="eyebrow">CHOOSE YOUR FIRST HORIZON</span><h1>The banners of a frozen world</h1><p>Begin with Castilian or Moor. Read the chronicles to discover the empires beyond.</p><div className="selection-links"><Link href="/chronicles">Read the chronicles →</Link><button className="selection-return" onClick={()=>setChoose(false)}><ArrowLeft size={16}/>Return to opening</button></div><label className="faction-search"><Search size={18}/><input type="search" placeholder="Find a faction…" aria-label="Find a faction" value={query} onChange={e=>setQuery(e.target.value)}/></label></header>
+   {factionGroups.map(group=><section className={'faction-group '+(group.name==='The Unscored Revolt'?'revolt-group':'')} key={group.name}><h2>{group.name}</h2><div className="faction-card-grid">{group.ids.map(id=>{const f=data.factions.find((f:R)=>f.id===id)||revoltSlots.find(f=>f.id===id);if(!f||!f.name_en.toLowerCase().includes(query.toLowerCase()))return null;const available=discovery.canExplore(id)&&!!f.flag_asset;return <button className={'faction-card '+(!available?'is-locked':'')} key={id} aria-disabled={!available} onClick={()=>enter(id)} style={{'--banner-ink':group.name==='The Unscored Revolt'?'#6c4383':f.ui_color_primary||'#813944'} as CSSProperties}><div className="selection-crest">{f.flag_asset?<FactionShield src={f.flag_asset}/>:<span className="revolt-slot" aria-label="Official banner pending">✦</span>}{!available&&<Lock size={16}/>}</div><strong>{f.name_en}</strong>{f.subtitle&&<span>{f.subtitle}</span>}<small className="faction-card-condition">{available?<><span>Enter faction</span><ArrowUpRight size={15}/></>:discovery.condition(id)}</small>{!f.flag_asset&&<small>Official banner and dossier pending</small>}</button>;})}</div></section>)}
+  </motion.section>}</AnimatePresence>
+  <BackgroundMusicSlot className="opening-music-slot"/>
+ </div>;
+}

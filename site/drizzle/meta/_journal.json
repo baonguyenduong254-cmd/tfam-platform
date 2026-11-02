@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790916496179,
+      "tag": "0000_thankful_the_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791274681740,
+      "tag": "0001_shiny_venom",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792204585957,
+      "tag": "0002_worried_miek",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792206098792,
+      "tag": "0003_faulty_silver_surfer",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792207646651,
+      "tag": "0004_clean_cobalt_man",
+      "breakpoints": true
+    }
+  ]
+}

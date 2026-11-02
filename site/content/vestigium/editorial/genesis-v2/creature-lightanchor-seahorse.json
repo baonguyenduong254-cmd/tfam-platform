@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-lightanchor-seahorse",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Hải mã bám mỏm khoáng chìm cạnh một đèn dẫn tàu rơi xuống biển. Đuôi cuộn quanh đá suốt những đợt triều, chỗ đuôi từng giữ bắt đầu lưu ánh ngay cả khi đèn đã tắt. Các đời con nuôi dưới đèn trong bể cũng để lại đốm đứng yên, như một chiếc neo làm bằng khoảng sáng mà cơ thể có thể rời đi.\n\nNgười lặn dùng đốm đánh lối quanh một bến kín. Có lần quay lại ông thấy hải mã đã sang bụi rong khác, còn ánh cũ vẫn chờ ở đúng chỗ. Ông giữ mỏm đá gốc trong bể, cho sinh vật nhỏ một chỗ bám không phải được chọn vì công việc của người.",
+    "lore_en": "The seahorse clung to a submerged mineral beside a fallen harbour lamp. Through repeated tides its coiled tail began leaving light where it had held, even after the lamp died. Descendants raised beneath tank lamps left stationary motes too, like anchors of brightness their bodies could abandon.\n\nA diver used the motes to mark routes around a sheltered landing. Returning once, he found the seahorse at another weed tuft while its earlier light still waited. He kept the original rock in its tank, giving the little animal a hold not chosen solely for human work.",
+    "use_vi": "Neo đốm sáng vào vị trí dưới nước để đánh lối, so dịch chuyển và giữ một mốc gần.",
+    "use_en": "Anchor underwater light points for routes, movement comparison and nearby reference.",
+    "limits_vi": "Đốm giữ khoảng nửa giờ, nước khuấy mạnh phá được. Cần ánh thật để nhận và chỗ bám phù hợp; nhiều lượt liên tục làm con vật kiệt.",
+    "limits_en": "A mote lasts roughly half an hour and strong disturbance breaks it. Actual light and suitable holds are required; repeated turns exhaust the animal.",
+    "skills": [
+      {
+        "name_vi": "Neo đốm",
+        "name_en": "Anchor the Mote",
+        "description_vi": "Cho hải mã bám vật dưới nguồn sáng rồi tự rời đi để đốm đứng tại chỗ bám cũ, đánh một mốc lặn gần.",
+        "description_en": "Let it hold beneath a light and depart voluntarily so a mote remains at its old grip as a nearby diving reference."
+      },
+      {
+        "name_vi": "Chuỗi lối sáng",
+        "name_en": "A Chain of Light",
+        "description_vi": "Dẫn các chỗ bám gần nhau qua một lượt bơi tự nguyện để con vật để vài đốm nối tuyến ngắn; đốm đầu tắt trước cần canh giờ.",
+        "description_en": "Offer nearby holds along a voluntary swim to leave a few motes along a short route; the earliest fade first and require timing."
+      },
+      {
+        "name_vi": "So vật trôi",
+        "name_en": "Compare the Drifting Object",
+        "description_vi": "Đặt một vật mẫu cạnh đốm đã neo để nhìn độ lệch sau một khoảng, khảo sát dòng nhẹ; nước mạnh làm chính đốm mất giá trị mốc.",
+        "description_en": "Set a sample object beside an anchored mote and observe its drift over an interval in light flow; strong water invalidates the mote itself."
+      },
+      {
+        "name_vi": "Thu sáng về đuôi",
+        "name_en": "Gather Light Back to the Tail",
+        "description_vi": "Cho con vật trở lại chỗ neo cũ để cuộn đuôi qua đốm, thu phần sáng còn lại và khép mốc không dùng; cần để nó chọn bám thay vì ép giữ.",
+        "description_en": "Let it return and coil through an old mote to gather remaining light and close an unused marker; let it choose its hold rather than forcing it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đuôi đi ánh ở",
+        "name_en": "The Tail Leaves, the Light Stays",
+        "description_vi": "Đốm gắn vào điểm nước quanh chỗ bám đã nhận. Dòng đổi mạnh có thể làm mốc sai trước khi nó tắt.",
+        "description_en": "The mote binds to water around an accepted hold. A major current change may displace the reference before it fades."
+      }
+    ]
+  }
+]

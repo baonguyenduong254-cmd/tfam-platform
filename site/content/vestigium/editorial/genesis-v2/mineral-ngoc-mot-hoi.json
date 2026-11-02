@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-ngoc-mot-hoi",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Ngọc Một Hơi kết từ bọt khí nằm trong phổi một con vật khổng lồ bị chôn dưới đáy biển. Xương nó có những đốt dài như thân thuyền, còn bên trong lồng ngực là một thành phố san hô quay mặt vào khoảng tối nơi tim từng ở. Người lặn đem đèn tới thấy bọt khí dần hóa opal, nhưng đường viền bọt vẫn đập như lồng ngực chưa chịu thở hết.\n\nNhững bản hát của người đi biển kể về một sinh vật nuốt cả đoàn tàu để giữ họ qua bão. Trong bộ xương, thợ lặn thật sự tìm được neo, khóa cửa và một chiếc nôi đã hóa đá; họ chưa biết các đồ ấy được mang vào bằng cách nào. Mỗi viên tách ra đều giữ một hơi cuối của sinh vật đã chết, và hơi ấy có thể được dạy thành một việc khác trước khi trả cho thế giới.\n\nNgười giữ ngọc đã ghi ba mươi hai cách mở. Có cách cho người sắp chìm một khoảng sống, có cách lấy khỏi lời nói toàn bộ hơi đủ để câu ấy chưa bao giờ chạm được tới tai ai. Nhưng mỗi viên chỉ được thở ra đúng một lần. Vì vậy trong các hòm cứu hộ, viên ngọc nguyên luôn nằm ở ngăn cuối: người giữ phải chọn điều đáng được nhận một hơi mà thứ đã chết còn để lại.",
+    "lore_en": "Single-Breath Opals formed from air within the lungs of a vast creature buried beneath the sea. Its vertebrae were ship-long; within its ribs a coral city faced the darkness where its heart had been. Divers’ lamps revealed bubbles becoming opal while their outlines still beat like a chest unwilling to finish exhaling.\n\nMariners’ songs told of a creature swallowing ships to shelter them through a storm. Divers did find anchors, door-locks and a petrified cradle within its bones, but could not explain their arrival. Each detached gem held one final breath of the dead creature. That breath could be taught a different task before being returned to the world.\n\nKeepers recorded thirty-two openings. Some lent life to the drowning; others removed enough breath from speech that its sentence never reached a listener. Each gem could exhale only once. An unbroken opal therefore occupied the last compartment of a rescue-chest: its keeper must choose what deserved a breath left behind by something dead.",
+    "use_vi": "Chọn một trong ba mươi hai cách mở rồi bẻ theo vạch tự nhiên. Hơi trong ngọc hoàn tất cách mở đã chọn; sau lần thở ấy viên đá trở thành opal thường.",
+    "use_en": "Choose one of thirty-two openings and break its natural line. The stored breath completes that opening; afterwards the gem becomes ordinary opal.",
+    "limits_vi": "Mỗi viên chỉ có một lần thở ra. Cách mở cần được chỉ định trước khi bẻ; hai ý định tranh nhau có thể khiến hơi mang việc từ người gần nhất thay người cầm. Những sự sống đã kết thúc hoàn toàn không còn hơi để ngọc đón về.",
+    "limits_en": "Each gem exhales once. Designate its opening before breaking it; competing intentions may make the breath take its task from the nearest person rather than its holder. A completed death has no remaining breath for the opal to receive.",
+    "skills": [
+      {
+        "name_vi": "Khoang thở trong nước",
+        "name_en": "A Chamber Underwater",
+        "description_vi": "Chỉ ngọc vào một người còn đang thở rồi mở; nước lùi thành khoang quanh đầu để họ lấy lại hơi. Khoang đi theo một lần trồi lên và vỡ khi người ấy đổi sang cứu thêm người khác.",
+        "description_en": "Name a still-breathing person and open it. Water retreats around their head for breath. The chamber accompanies one ascent and breaks if redirected to another rescue.",
+        "group_vi": "Hơi dành cho người sống",
+        "group_en": "Breath for the Living"
+      },
+      {
+        "name_vi": "Mượn nhịp phổi",
+        "name_en": "Borrowed Lungbeat",
+        "description_vi": "Mở ngọc giữa hai lòng tay áp ngực để hơi đỡ một chuỗi thở đang kiệt. Người được đỡ phải tự nhận nhịp; ngọc không ép được một cơ thể đã thôi đáp.",
+        "description_en": "Open between palms upon a failing chest. Breath supports its faltering rhythm, but the body must accept that beat; an unresponsive finished life cannot be compelled.",
+        "group_vi": "Hơi dành cho người sống",
+        "group_en": "Breath for the Living"
+      },
+      {
+        "name_vi": "Gọi người trong khói",
+        "name_en": "Call Through Smoke",
+        "description_vi": "Trao hơi cùng tên người bị khuất; một luồng sạch tìm đường tới chỗ họ còn thở và trả tiếng gọi về. Bịt mọi lối thông khiến luồng chỉ đường quay lại mà chưa tới người.",
+        "description_en": "Lend the breath a hidden person’s name. A clear current seeks their breathing and returns their call. Completely sealed routes turn it back before arrival.",
+        "group_vi": "Hơi dành cho người sống",
+        "group_en": "Breath for the Living"
+      },
+      {
+        "name_vi": "Gom hơi tản",
+        "name_en": "Gather Scattered Breath",
+        "description_vi": "Ôm một người còn sống và mở ngọc giữa miệng họ với mình; các nhịp thở đứt nối được gom thành một lượt đều. Người ôm nhận cơn hụt hơi khi lượt ấy kết thúc.",
+        "description_en": "Embrace a living person and open the gem between your mouths. Broken breaths join into a steady passage; the supporter takes the breathlessness when it ends.",
+        "group_vi": "Hơi dành cho người sống",
+        "group_en": "Breath for the Living"
+      },
+      {
+        "name_vi": "Đội vật đang chìm",
+        "name_en": "Raise the Sinking",
+        "description_vi": "Đặt ngọc dưới một vật chưa chạm đáy rồi mở; hơi nâng nó theo đúng mặt nước đã được chỉ. Vật vướng vào nơi khác khiến cả luồng mắc lại ở chỗ vướng.",
+        "description_en": "Open beneath an object not yet grounded. Breath lifts it towards the indicated surface; a snag arrests the whole current.",
+        "group_vi": "Khí làm việc cho bàn tay",
+        "group_en": "Air Serving the Hand"
+      },
+      {
+        "name_vi": "Mở cửa áp nước",
+        "name_en": "Open the Water-Pressed Door",
+        "description_vi": "Đặt ngọc ở phía cửa đang bị nước ép để hơi nhận sức đè trong lúc tay xoay khóa. Hơi trả khi cửa mở, nên người đứng đường nước vẫn phải tránh.",
+        "description_en": "Open on the pressure-side of a flooded door. Breath bears the load while the lock turns, then releases it through the opened door.",
+        "group_vi": "Khí làm việc cho bàn tay",
+        "group_en": "Air Serving the Hand"
+      },
+      {
+        "name_vi": "Chống mái đang xuống",
+        "name_en": "Hold the Descending Roof",
+        "description_vi": "Mở ngọc vào khoảng giữa nền và một vật đang đổ để dựng một cột hơi cứng. Cột giữ đúng đường đã nhận; kéo ngang vật khỏi đường ấy làm cột tách.",
+        "description_en": "Open between ground and a falling object to raise a rigid breath-column. It supports its accepted line; dragging the object sideways parts the column.",
+        "group_vi": "Khí làm việc cho bàn tay",
+        "group_en": "Air Serving the Hand"
+      },
+      {
+        "name_vi": "Lùa cát khỏi dấu",
+        "name_en": "Clear Sand from the Trace",
+        "description_vi": "Giao hơi một đường khắc còn sót để nó lần dọc và gạt vật phủ ra. Đường bị đứt thật khiến hơi đào sâu ở chỗ cuối cho tới khi tan.",
+        "description_en": "Give the breath a surviving incision to follow and uncover. A genuinely broken line makes it dig at the endpoint until it fades.",
+        "group_vi": "Khí làm việc cho bàn tay",
+        "group_en": "Air Serving the Hand"
+      },
+      {
+        "name_vi": "Gửi tiếng qua nước",
+        "name_en": "Send a Voice Through Water",
+        "description_vi": "Nói một câu vào ngọc trước khi mở dưới nước; hơi tìm tới dấu nhận đã trao và phát đủ câu. Người nhận phải còn giữ dấu ấy, kể cả khi không muốn nghe.",
+        "description_en": "Speak into it before opening underwater. Breath reaches an entrusted receiving mark and speaks the full sentence. The recipient must still hold that mark, even unwillingly.",
+        "group_vi": "Hơi mang tin",
+        "group_en": "Breath Bearing Tidings"
+      },
+      {
+        "name_vi": "Chai lời chưa nói",
+        "name_en": "Bottle the Unspoken Words",
+        "description_vi": "Thở câu muốn gửi vào lọ rồi mở ngọc để giữ câu trong khí bên trong. Lọ vỡ sẽ nói ngay tại chỗ; niêm kín giữ lời chờ người được gọi tự mở.",
+        "description_en": "Breathe a message into a bottle and open the gem to keep it in that air. A broken bottle speaks there; a sealed one awaits its named opener.",
+        "group_vi": "Hơi mang tin",
+        "group_en": "Breath Bearing Tidings"
+      },
+      {
+        "name_vi": "Đọc hơi mắc lại",
+        "name_en": "Read the Caught Breath",
+        "description_vi": "Mở cạnh một mặt nạ, kèn hoặc ống vừa nhận hơi người để kéo ra tiếng còn mắc. Hơi mới đè lên sẽ hòa vào bản đọc, kể cả lời kẻ cố tình làm nhiễu.",
+        "description_en": "Open beside a mask, horn or tube recently used to draw out speech caught within. Later breaths mingle with it, including deliberate interference.",
+        "group_vi": "Hơi mang tin",
+        "group_en": "Breath Bearing Tidings"
+      },
+      {
+        "name_vi": "Dẫn tiếng cầu cứu",
+        "name_en": "Lead the Distress-Call",
+        "description_vi": "Cho một tiếng gọi thật đi vào hơi; nó bám theo đường gió khả dụng tới nơi có người tỉnh rồi lặp. Không tìm được người tỉnh, hơi quay lại chủ và tiêu hết tại đó.",
+        "description_en": "Offer a true distress-call. Breath follows available air to an awake listener and repeats it. Finding none, it returns and spends itself at its owner.",
+        "group_vi": "Hơi mang tin",
+        "group_en": "Breath Bearing Tidings"
+      },
+      {
+        "name_vi": "Câu không tới tai",
+        "name_en": "The Unheard Sentence",
+        "description_vi": "Mở giữa người nói và người nghe để rút hơi mang một câu đang được thốt. Miệng vẫn cử động; người đã nghe đầu câu vẫn nhớ phần ấy.",
+        "description_en": "Open between speaker and listener to draw away the breath carrying a spoken sentence. The mouth still moves; anyone hearing its beginning retains that part.",
+        "group_vi": "Lấy hơi khỏi một việc",
+        "group_en": "Take Breath from a Deed"
+      },
+      {
+        "name_vi": "Tắt một mồi lửa",
+        "name_en": "Quench One Kindling",
+        "description_vi": "Gọi tên ngọn lửa chưa lan khỏi mồi rồi cho hơi cuốn phần không khí nó đang nhận. Lửa được nuôi từ nguồn khác vẫn có thể trở lại ngay sau đó.",
+        "description_en": "Name a flame still upon its kindling and withdraw the air feeding it. Another source may rekindle it immediately afterwards.",
+        "group_vi": "Lấy hơi khỏi một việc",
+        "group_en": "Take Breath from a Deed"
+      },
+      {
+        "name_vi": "Cắt đường mùi",
+        "name_en": "Sever the Scent-Trail",
+        "description_vi": "Mở trên một dấu mùi để cuốn trọn luồng mang mùi khỏi đường truy. Hơi mang dấu ấy sang nơi nó kết thúc, tạo một đầu mối mới có thể bị tìm.",
+        "description_en": "Open upon a scent-trail to gather its carrying air away. The breath deposits the scent at its endpoint, creating a new trace.",
+        "group_vi": "Lấy hơi khỏi một việc",
+        "group_en": "Take Breath from a Deed"
+      },
+      {
+        "name_vi": "Im tiếng còi lệnh",
+        "name_en": "Silence the Command-Horn",
+        "description_vi": "Áp ngọc vào nguồn phát rồi mở để nhận luồng hơi của một lượt thổi. Người thổi cảm bị hụt; tiếng đã ra khỏi kèn vẫn tiếp tục tới người nghe.",
+        "description_en": "Open against a sounding horn to receive one blast’s air. The blower loses breath; sound already beyond the horn continues.",
+        "group_vi": "Lấy hơi khỏi một việc",
+        "group_en": "Take Breath from a Deed"
+      },
+      {
+        "name_vi": "Bước trên mặt thở",
+        "name_en": "Step Upon Breath",
+        "description_vi": "Mở ngọc sát chân để một mặt bọt cứng nhận các bước của cùng một lượt vượt. Dừng hẳn hoặc quay lại khiến mặt sau khép, buộc người dùng hoàn tất lối đã chọn.",
+        "description_en": "Open at your feet for a firm bubble-surface through one crossing. Stopping or turning closes it behind you, requiring completion of the chosen route.",
+        "group_vi": "Lối đi của bọt",
+        "group_en": "The Bubble’s Roads"
+      },
+      {
+        "name_vi": "Ống nhìn trong đục",
+        "name_en": "A Sight-Tube Through Murk",
+        "description_vi": "Chỉ hai điểm trong nước rồi mở cho hơi nối một ống nhìn giữa chúng. Nó đẩy nước và bụi khỏi ống, nhưng vật cứng đi xuyên sẽ chọc thủng cả đường.",
+        "description_en": "Name two submerged points to join them with an air-filled sight-tube. It clears water and silt; a solid intrusion punctures the passage.",
+        "group_vi": "Lối đi của bọt",
+        "group_en": "The Bubble’s Roads"
+      },
+      {
+        "name_vi": "Đường lên cho bầy",
+        "name_en": "An Ascent for the Shoal",
+        "description_vi": "Đặt ngọc giữa một bầy thủy sinh cùng hướng để hơi dẫn nước thành một dòng đi lên. Một sinh vật đổi hướng sẽ tách khỏi dòng và tự chịu phần đường còn lại.",
+        "description_en": "Open among aquatic creatures travelling together to shape an ascending current. A creature turning aside leaves it and must complete the journey unaided.",
+        "group_vi": "Lối đi của bọt",
+        "group_en": "The Bubble’s Roads"
+      },
+      {
+        "name_vi": "Khâu lỗ thủng bằng khí",
+        "name_en": "Stitch a Leak with Air",
+        "description_vi": "Mở ở đường thủng để hơi căng thành màng giữ hai phía khỏi trộn. Màng nhận đúng hình ban đầu; lỗ rách lớn thêm sẽ xé nó theo.",
+        "description_en": "Open at a leak to stretch an air-membrane preventing its sides from mixing. It accepts the initial opening; widening tears it.",
+        "group_vi": "Lối đi của bọt",
+        "group_en": "The Bubble’s Roads"
+      },
+      {
+        "name_vi": "Nghe hòm xương",
+        "name_en": "Hear the Bone-Chamber",
+        "description_vi": "Mở cạnh xương mang cùng mùi biển để nghe phần rung còn giữ trong hốc. Những đời sống trú trong xương về sau cũng chen tiếng vào, cần tự phân biệt.",
+        "description_en": "Open beside bone bearing the same sea-scent to hear vibrations retained within. Later inhabitants’ sounds intrude and must be distinguished.",
+        "group_vi": "Dấu của kẻ khổng lồ",
+        "group_en": "Traces of the Vast Creature"
+      },
+      {
+        "name_vi": "Gọi ánh xuống sâu",
+        "name_en": "Call Light into the Deep",
+        "description_vi": "Nạp ánh đèn vào ngọc rồi mở trong nước; hơi mang ánh xuống theo một đường được chỉ. Đường bị tách khiến ánh gom ở chỗ cuối, bỏ phần sau tối hẳn.",
+        "description_en": "Lend it lamplight and open underwater to carry illumination along a chosen route. A parted route concentrates light at its endpoint and leaves what follows dark.",
+        "group_vi": "Dấu của kẻ khổng lồ",
+        "group_en": "Traces of the Vast Creature"
+      },
+      {
+        "name_vi": "Dựng bờ trong lòng sóng",
+        "name_en": "Raise a Shore Within a Wave",
+        "description_vi": "Cho ngọc nhận nước từng chạm đất rồi mở; một mép khô hiện theo đường người dùng đánh dấu trong luồng sóng. Sóng đổi nguồn sẽ xóa mép ấy.",
+        "description_en": "Give it water that has touched land. Open to raise a dry edge along your marked line within a wave; water from another source erases it.",
+        "group_vi": "Dấu của kẻ khổng lồ",
+        "group_en": "Traces of the Vast Creature"
+      },
+      {
+        "name_vi": "Đánh thức phổi tàu",
+        "name_en": "Wake the Ship’s Lungs",
+        "description_vi": "Mở trong khoang kín để hơi đi qua các lối thông như một cơ thể thở, chỉ ra khoang đang bị ngạt bằng tiếng rền. Lối bị phá giữa lượt có thể hút khí khỏi nơi khác.",
+        "description_en": "Open in a hull to send breath through its vents like a living chest, sounding where compartments suffocate. Breaking a route mid-operation may draw air from elsewhere.",
+        "group_vi": "Dấu của kẻ khổng lồ",
+        "group_en": "Traces of the Vast Creature"
+      },
+      {
+        "name_vi": "Đổi một tiếng ho",
+        "name_en": "Exchange One Cough",
+        "description_vi": "Hai người tự nguyện cùng chạm ngọc để người khỏe nhận cơn ho đang khóa hơi người kia trong một lượt thở. Căn bệnh và tổn thương ở lại cơ thể cũ.",
+        "description_en": "Two willing people touch it so the stronger takes one breath’s choking cough. Disease and injury remain in the original body.",
+        "group_vi": "Hơi vay phải trả",
+        "group_en": "The Breath Must Be Repaid"
+      },
+      {
+        "name_vi": "Giữ hơi lời thề",
+        "name_en": "Keep an Oath’s Breath",
+        "description_vi": "Hai người nói rõ cùng một điều vào ngọc rồi mở; hơi đứng giữa họ tới khi cả hai tự lặp đủ lời. Nó giữ âm nguyên, không quyết định ai đã nói thật.",
+        "description_en": "Two people speak one clear agreement, then open it. Breath waits between them until both repeat it fully; it preserves sound, not truth.",
+        "group_vi": "Hơi vay phải trả",
+        "group_en": "The Breath Must Be Repaid"
+      },
+      {
+        "name_vi": "Trả hơi về mặt nạ",
+        "name_en": "Return Breath to the Mask",
+        "description_vi": "Mở trong mặt nạ của một người vừa rời đi để hoàn lại một lượt thở có nhịp của họ. Người đeo sau nhận nhịp ấy và cơn mỏi đi cùng nó.",
+        "description_en": "Open in a recent wearer’s mask to restore a passage of their breathing. Its next wearer receives both that rhythm and its fatigue.",
+        "group_vi": "Hơi vay phải trả",
+        "group_en": "The Breath Must Be Repaid"
+      },
+      {
+        "name_vi": "Đón nhịp chưa tắt",
+        "name_en": "Receive the Unspent Beat",
+        "description_vi": "Gọi một người đang chìm trong ngạt nhưng còn đáp để hơi giữ họ ở ngưỡng thở trong lúc được kéo ra. Nếu người cứu thôi kéo, hơi cũng ngừng giữ.",
+        "description_en": "Name someone still responding within suffocation. Breath holds them at its threshold while they are drawn out; if rescue stops pulling, it stops holding.",
+        "group_vi": "Hơi vay phải trả",
+        "group_en": "The Breath Must Be Repaid"
+      },
+      {
+        "name_vi": "Cuộn một cơn gió",
+        "name_en": "Roll Up a Wind",
+        "description_vi": "Mở ngang luồng gió đã được chỉ để hơi gom nó thành một vòng đứng rồi trả theo hướng chọn. Gió ngoài vòng tiếp tục thổi và có thể phá việc giữ.",
+        "description_en": "Open across a designated current to coil it into a standing ring, then release it in a chosen direction. Wind beyond the ring continues and may break its hold.",
+        "group_vi": "Lần mở không còn đường lui",
+        "group_en": "An Opening Without Return"
+      },
+      {
+        "name_vi": "Bẻ tiếng nổ khỏi người",
+        "name_en": "Turn the Blast from Flesh",
+        "description_vi": "Mở trước luồng áp vừa tới để hơi bẻ phần khí ấy sang một lối thoát trống. Mảnh văng vẫn đi đường riêng; lối không trống sẽ gửi luồng sang vật ở đó.",
+        "description_en": "Open before an arriving pressure-wave to bend its air into a clear outlet. Fragments keep their paths; an occupied outlet receives the diverted blast.",
+        "group_vi": "Lần mở không còn đường lui",
+        "group_en": "An Opening Without Return"
+      },
+      {
+        "name_vi": "Một hồi chuông dưới biển",
+        "name_en": "One Peal Beneath the Sea",
+        "description_vi": "Cho hơi chạm một chuông chìm để gõ đủ một hồi mang dấu của nó qua nước. Mọi thứ nghe được hồi ấy đều biết vị trí người vừa gọi.",
+        "description_en": "Touch a submerged bell with the breath to carry one full marked peal through water. Anything hearing it learns where it was called.",
+        "group_vi": "Lần mở không còn đường lui",
+        "group_en": "An Opening Without Return"
+      },
+      {
+        "name_vi": "Trao hơi cho người lạ",
+        "name_en": "Give the Breath to a Stranger",
+        "description_vi": "Người cầm bỏ quyền chỉ định và mở ngọc giữa những người đang ngạt; hơi tự tìm người còn có thể nhận. Đó là một lựa chọn của ngọc mà người mở không thể lấy lại.",
+        "description_en": "Relinquish designation and open among suffocating people. Breath chooses someone still able to receive it, a decision its opener cannot reclaim.",
+        "group_vi": "Lần mở không còn đường lui",
+        "group_en": "An Opening Without Return"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Phổi của kẻ đã chết",
+        "name_en": "Lungs of the Dead",
+        "description_vi": "Áp vào tai nghe như biển bị giữ sau một cánh cửa. Hơi được gọi luôn mang mùi của nơi con vật từng đi qua, dù tác dụng được mở trên đất liền.",
+        "description_en": "Against an ear it sounds like sea behind a door. Its released breath carries places the creature visited, even when opened far inland."
+      }
+    ]
+  }
+]

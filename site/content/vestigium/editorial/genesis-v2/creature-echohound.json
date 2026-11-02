@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-echohound",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Con chó ngủ dưới sàn trạm chuông, nơi quả lắc bạc khảm khoáng rơi vỡ qua mái trong một cơn bão. Bụi bám đầy tai và mũi nó. Sau khi được cứu, những vân bạc lớn dưới lông tai; nó dừng ở các viên gạch trống, ngửi sát rồi đi theo tiếng chân đã tắt của người từng chạy khỏi tháp.\n\nNgười cứu nhận ra mặt sàn rung để lại thứ con vật có thể lần như mùi. Chó dẫn ông tới một người mắc sau cửa hầm, rồi tiếp tục đứng chờ tiếng chân quen đã mất trong vụ sập. Ông nhận nuôi nó và mang miếng lót cũ từ trạm về, cho một con chó nghe dư âm có nơi đủ yên để ngủ.",
+    "lore_en": "The dog slept beneath the bell station floor when a silver mineral-inlaid clapper broke through its roof in a storm. Dust coated its ears and muzzle. After rescue, silver bands grew beneath its ear fur; it stopped over empty tiles, sniffed and followed vanished footsteps of people fleeing the tower.\n\nIts rescuer realised floor vibration left something the animal could track like scent. It led him to someone trapped behind a cellar door, then kept waiting for familiar steps lost in the collapse. He adopted it and brought its old bedding home, giving a hound that heard echoes somewhere quiet to sleep.",
+    "use_vi": "Lần dư rung của bước chân gần đây, tìm điểm dừng và phân biệt chuyển động theo nhịp đã cho.",
+    "use_en": "Track recent footfall echoes, locate stopping places and distinguish movement by a supplied cadence.",
+    "limits_vi": "Dư âm rõ khoảng mười phút trên nền liền; đám đông, mưa và xe nặng chồng dấu. Con vật cần được huấn luyện và nghỉ sau những nền nhiều âm.",
+    "limits_en": "Clear echoes last roughly ten minutes upon continuous floors; crowds, rain and heavy carts overlap traces. Training and rest after noisy ground are required.",
+    "skills": [
+      {
+        "name_vi": "Ngửi bước tắt",
+        "name_en": "Scent the Vanished Step",
+        "description_vi": "Cho chó chạm mũi nền vừa có người qua để nó lần chuỗi dư rung, dẫn theo hướng gần nhất của dấu.",
+        "description_en": "Let the hound nose freshly crossed ground to follow its echo sequence in the latest direction."
+      },
+      {
+        "name_vi": "Chọn nhịp quen",
+        "name_en": "Choose the Familiar Cadence",
+        "description_vi": "Cho người cần tìm đi một đoạn trước nó trong lượt huấn luyện để nó nhận nhịp riêng, rồi ưu tiên chuỗi ấy giữa các dấu còn mới.",
+        "description_en": "Have a subject walk before the hound during training so it accepts that cadence and favours it among fresh traces."
+      },
+      {
+        "name_vi": "Dừng tại cửa",
+        "name_en": "Stop at the Door",
+        "description_vi": "Đưa chó theo chuỗi tới điểm người đã đứng lại để nó cào nhẹ nơi dư rung dồn, khoanh cửa hoặc chỗ đổi đường cần kiểm.",
+        "description_en": "Follow it to a stopping point where it paws at accumulated echoes, marking a door or route change for inspection."
+      },
+      {
+        "name_vi": "Tách bước khỏi xe",
+        "name_en": "Separate Feet From Wheels",
+        "description_vi": "Cho chó nghe vệt xe mẫu rồi gọi lại nhịp bước cần theo để nó bỏ các rung liên tục, tìm chuỗi chạm rời; nền bị xe nghiền vẫn có thể mất dấu người.",
+        "description_en": "Present a cart trace and recall the sought cadence so it disregards continuous rumble for separated contacts; crushed ground may still lose the human trace."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mũi nghe nền đất",
+        "name_en": "A Nose Hears the Ground",
+        "description_vi": "Nó nhận nhịp tiếp xúc đã qua. Giày giống nhau có thể khác nhịp, còn nhịp cố tình bắt chước vẫn có thể gây lẫn.",
+        "description_en": "It recognises past contact cadence. Identical shoes can differ in rhythm, while deliberate imitation may confuse it."
+      }
+    ]
+  }
+]

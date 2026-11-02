@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-frostneedle-bloom",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Hoa được tìm thấy trên khăn tay buộc quanh bình thuốc thử khoáng. Bình đã vỡ trong đêm rét; rễ hoa dại mọc qua vải, uống thứ dịch bạc còn sót. Đến khi người hái trở lại, nhụy dài phủ kim băng còn gốc ấm đến mức tuyết rút thành một vòng tròn.\n\nCây đã chia đôi công việc của một mùa đông: đẩy cái lạnh lên nhụy, giữ hơi ấm xuống rễ. Người chăm nuôi hoa trong chén hai ngăn để dùng cả hai phía. Những chiếc kim mỏng rơi khỏi nhụy tan rất nhanh, để lại một tiếng lách tách như ai đang khâu sương vào vải.",
+    "lore_en": "The flower was found upon a handkerchief tied around a mineral reagent bottle. It had broken on a freezing night; wild roots grew through the cloth and drank the remaining silver fluid. When the gatherer returned, long stamens bore ice needles while the roots were warm enough to clear a ring in the snow.\n\nThe plant had divided winter’s work: cold sent to its stamens, warmth kept at its roots. Carers raise it in divided bowls to use both ends. Fine needles falling from the stamens melt swiftly, leaving a crackle like someone stitching dew into cloth.",
+    "use_vi": "Làm lạnh mẫu nhỏ, giữ rễ ươm ấm và dùng kim sương nhận mức hoạt động của cây.",
+    "use_en": "Cool small specimens, warm nursery roots and read the plant’s activity through its frost needles.",
+    "limits_vi": "Cần cấp nước cùng vi lượng khoáng quen thuộc. Nhiệt dồn ở gốc có thể giết cây; nhụy gãy làm trao đổi dừng và chảy hết kim băng.",
+    "limits_en": "It needs water with a familiar mineral trace. Accumulated root heat can kill it; a broken stamen stops the exchange and melts its needles.",
+    "skills": [
+      {
+        "name_vi": "Kết châm",
+        "name_en": "Form the Needles",
+        "description_vi": "Nhỏ nước vào đài để sương kết kim quanh nhụy, hút nhiệt khỏi chén mẫu kề sát; phải giữ mẫu tách khỏi mô hoa.",
+        "description_en": "Add water to the calyx to form frost needles and draw heat from an adjoining specimen cup; keep the specimen separate from flower tissue."
+      },
+      {
+        "name_vi": "Ủ gốc",
+        "name_en": "Warm the Roots",
+        "description_vi": "Đặt bầu cây con cạnh gốc hoa đang kết châm để dùng nhiệt trả xuống; cần tách ra khi gốc bắt đầu đỏ.",
+        "description_en": "Set a seedling ball beside the roots during needle formation to use released warmth; separate it when the roots redden."
+      },
+      {
+        "name_vi": "Thu châm",
+        "name_en": "Gather the Needles",
+        "description_vi": "Gõ rất nhẹ nhụy để lấy kim sương trên khay lạnh cho một lần làm mát ngắn; lấy quá sạch khiến hoa mất nhịp trao đổi.",
+        "description_en": "Tap a stamen gently to collect frost needles upon a cold tray for brief cooling; stripping it bare disrupts the exchange."
+      },
+      {
+        "name_vi": "Đọc mũi sương",
+        "name_en": "Read the Frost Tips",
+        "description_vi": "Quan sát độ dài kim trong cùng một chén chuẩn để so cây còn hoạt động mạnh hay yếu; độ ẩm khác làm phép so lệch.",
+        "description_en": "Compare needle lengths in the same reference cup to judge remaining activity; differing humidity distorts the comparison."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hai đầu một mùa",
+        "name_en": "Two Ends of One Season",
+        "description_vi": "Nhụy sẫm màu còn sức nhận lượt mới; nhụy nhạt và gốc đỏ báo phải cho nghỉ.",
+        "description_en": "Dark stamens can receive another cycle; pale stamens and reddened roots require rest."
+      }
+    ]
+  }
+]

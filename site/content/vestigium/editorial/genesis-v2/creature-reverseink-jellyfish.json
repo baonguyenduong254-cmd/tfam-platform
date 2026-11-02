@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-reverseink-jellyfish",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Sứa xuất hiện trong bình thủy tinh từng giữ mực khoáng. Những chấm đen trong thân tách thành hàng khi xúc tu chạm một tờ giấy vừa ướt; mực trên giấy đi lên qua nước, hiện lại trong thân thành nét chữ còn đảo chiều. Bình được rửa và dùng nước sạch, lứa sứa nảy chồi vẫn giữ thói quen gom màu ấy.\n\nNgười giữ lấy một trang bị nhòe sau mưa để thử. Một cái tên nổi lên giữa thân trong rồi tan trước khi ông gọi hết. Ông kê bút bên bình từ đó, hiểu rằng ký ức do sinh vật này kéo lại chỉ đứng yên đủ lâu cho người biết mình đang cần nhìn gì.",
+    "lore_en": "The jellyfish appeared in a glass vessel formerly holding mineral ink. Black dots within its body formed rows when tentacles touched a newly wet sheet; ink rose through the water and reappeared within it as reversed letters. After washing and clean-water culture, budded offspring kept gathering that colour.\n\nIts keeper tested a page blurred by rain. A name rose inside the clear body and dispersed before he finished speaking it. He thereafter kept a pen beside the vessel, understanding that this recovered memory stood still only long enough for someone who knew what to seek.",
+    "use_vi": "Rút mực còn ướt khỏi một vùng giấy và hiện nét ngắn trong thân để đối chiếu.",
+    "use_en": "Draw still-wet ink from a paper region and briefly display its strokes within the body for comparison.",
+    "limits_vi": "Chỉ mực chưa khô và giấy còn vật mang nét; dịch lạ có thể hại sứa. Phép rút làm bản gốc mất thêm mực, nên bản quý cần quyết định trước khi thử.",
+    "limits_en": "Only undried ink upon surviving paper responds; unfamiliar fluids can harm the jellyfish. Extraction removes more original ink, requiring a decision before testing valuable pages.",
+    "skills": [
+      {
+        "name_vi": "Hút nét ướt",
+        "name_en": "Draw the Wet Stroke",
+        "description_vi": "Đưa một góc giấy mới ướt tới xúc tu qua nước để mực rời vùng nhỏ và gom trong thân; dừng ngay khi phần cần đọc đã hiện.",
+        "description_en": "Bring a newly wet paper corner to tentacles through water so ink leaves a small area and gathers inside; stop when the required detail appears."
+      },
+      {
+        "name_vi": "Mặt chữ trong",
+        "name_en": "The Inner Writing Face",
+        "description_vi": "Giữ bình đứng yên dưới ánh xiên để các chấm đen xếp nét vừa nhận trên một mặt thân trong vài nhịp thở, đủ chép nhanh.",
+        "description_en": "Keep the vessel still under oblique light so black dots arrange accepted strokes upon one body face for a few breaths and rapid copying."
+      },
+      {
+        "name_vi": "Đối bóng gương",
+        "name_en": "Compare the Mirror Shadow",
+        "description_vi": "Đặt gương sau bình để đọc chiều chữ đúng từ nét đảo, hỗ trợ phân biệt các ký tự nhòe; nét đã mất trên giấy vẫn có thể không trở lại.",
+        "description_en": "Place a mirror behind the vessel to read reversed strokes correctly and distinguish blurred characters; ink already lost from paper may not return."
+      },
+      {
+        "name_vi": "Nhả mực cũ",
+        "name_en": "Release the Old Ink",
+        "description_vi": "Chuyển sứa bằng cốc nước sang ngăn nghỉ sạch để các chấm cũ nhả thành vệt lắng, khép lượt trước mẫu mới; tránh trộn nước nghỉ với bình đọc.",
+        "description_en": "Transfer it in water to a clean rest chamber so old dots release as settling streaks, closing the turn before a new sample; keep rest water apart from the reading vessel."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chữ đi qua thân trong",
+        "name_en": "Letters Through the Clear Body",
+        "description_vi": "Nét hiện đảo chiều theo mặt nhìn. Người giữ dùng gương để đọc thay vì lật bình làm các chấm trôi lẫn.",
+        "description_en": "Strokes appear reversed with viewing side. Keepers use a mirror rather than turning the vessel and scattering its points."
+      }
+    ]
+  }
+]

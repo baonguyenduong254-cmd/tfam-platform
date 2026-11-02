@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mineral-ngan-thach-can-nhiet",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Ở một trạm núi, người ta từng đặt hai đầu thanh quặng bạc giữa lò hong và căn buồng giữ thuốc. Qua đêm bão tuyết, mặt giữa thanh phủ băng trong khi đầu trong lò đỏ lên, đầu bên thuốc vẫn ấm vừa bàn tay. Sáng ra, những đường bạc đã mọc thành mạng kín, giữ cả một mẩu sương hình ngón tay người coi lò ở trong lõi.\n\nThanh vốn là quặng được lấy để cân cửa, thấm thứ khoáng người khai chưa đặt nổi tên. Nó đổi khác sau nhiều tháng những người trong trạm gọi chung hai gian bằng một chữ nhà, vừa sưởi nơi lạnh vừa che thứ dễ hỏng khỏi nơi nóng. Các thợ về sau tìm được tám cách buộc nó nhận, giấu, dời hoặc trả một trạng thái nhiệt. Họ hiểu các dấu thao tác, còn mạng bạc bên trong có lúc vận hành như nhiệt chỉ là một cách thế giới gọi cảm giác được giữ sống.",
+    "lore_en": "At a mountain station a silver ore-bar linked a drying furnace and a medicine-room. During a blizzard its middle frosted while one end reddened in the fire and the other remained hand-warm. By morning silver veins had grown into a closed web around a finger-shaped mist-fragment left by the furnace-watchman.\n\nIt had been ordinary door-balancing ore, permeated by a mineral its diggers could not name. It changed after months in which the station’s people called both rooms home, warming the cold and sheltering fragile things from heat. Later craftsmen learnt eight ways to receive, conceal, move or return a thermal condition. They understood the operating signs; within, the silver sometimes behaved as though warmth were simply the world’s word for being kept alive.",
+    "use_vi": "Điều tiết trạng thái nóng lạnh cho xưởng, nơi trú hoặc hành trình; tám thao tác phải được dùng theo đường bạc còn hoạt động, tránh coi cảm giác dễ chịu là bằng chứng vật đã an toàn.",
+    "use_en": "Regulate heat and cold in workshops, shelters or travel. Its eight operations depend on active veins; comfort is not proof an object is safe.",
+    "limits_vi": "Mỗi lần chuyển để lại một chấm đen. Nhiều dấu cùng nhập một mạch báo mạng sắp nứt; lúc ấy đá có thể trả toàn bộ trạng thái đang giữ. Da tê làm người giữ khó nhận biết mình đã bị tổn thương.",
+    "limits_en": "Each transfer leaves a black point. Marks joining along one vein warn of fracture, when all retained conditions may discharge. Numb skin prevents its holder from recognising injury.",
+    "skills": [
+      {
+        "name_vi": "Dẫn qua lõi",
+        "name_en": "Conduct Through the Core",
+        "description_vi": "Chạm hai đầu vào nơi cho và nơi nhận rồi nối đường bạc bằng ngón tay. Trạng thái nóng lạnh được chuyển qua lõi; đầu nhận có thể gây bỏng dù phần giữa vẫn lạnh.",
+        "description_en": "Touch its ends to giver and receiver and trace the silver join. Heat or cold passes through the core; the receiving end may burn while the middle remains cold.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Giữ mức đã chọn",
+        "name_en": "Keep the Chosen State",
+        "description_vi": "Lấy một vật làm mẫu rồi áp mặt phẳng lên vật cần giữ; đá níu trạng thái vừa nhận qua một đợt đổi nhiệt. Thay vật mẫu buộc khởi động lại.",
+        "description_en": "Take a reference object, then press the flat face to what must be held. The stone retains the sampled state through one thermal change; a new reference requires restarting.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Rút bỏng trên bề mặt",
+        "name_en": "Draw Surface Heat",
+        "description_vi": "Vuốt mạch bạc từ vật nóng về đầu xả để rút phần nóng ngoài da vật. Phần trong có thể vẫn nóng, và đầu xả cần được đặt khỏi người.",
+        "description_en": "Stroke a silver path from a hot surface towards the discharge end. Its outer heat is drawn away; the interior may remain hot, and the outlet must face away from people.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Lớp lạnh bọc ngoài",
+        "name_en": "A Cold Outer Layer",
+        "description_vi": "Đặt đầu lạnh lên hộp rồi khép đường bạc quanh viền; một lớp giá bám theo mép chỉ định. Lỗ mở trên viền làm giá dồn về một góc.",
+        "description_en": "Touch the cold end to a box and close a silver path around its rim. Frost follows that boundary; a gap concentrates it at one corner.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Nhớ lần đổi nhiệt",
+        "name_en": "Remember the Change",
+        "description_vi": "Nạp hai mức liên tiếp để lõi giữ dấu khác biệt, hiện bằng hai vệt sáng. Đọc được việc đã đổi, không tự có số đo hoặc biết đổi vì đâu.",
+        "description_en": "Load two successive states to retain their difference as paired lights. It reveals change, not a numerical measurement or its cause.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Bọc hơi ấm",
+        "name_en": "Wrap Warmth",
+        "description_vi": "Vạch mặt ấm quanh một lớp vải rồi buộc đầu dây chạm đá; hơi ấm theo tấm bọc dù đá ở ngoài. Dây tuột khiến phần đang giữ thoát nhanh.",
+        "description_en": "Trace its warm face around cloth and tie the end in contact with the stone. Warmth follows the wrapping; a loosened tie releases it rapidly.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Giấu dấu nhiệt",
+        "name_en": "Conceal the Heat-Trace",
+        "description_vi": "Quét mặt lạnh qua bề mặt vừa được chạm để kéo dấu ấm vào lõi. Đá chỉ giấu dấu trên vật ấy, còn chính lõi trở thành nơi mang dấu mới.",
+        "description_en": "Pass its cold face across a recently touched surface to draw its warmth-trace into the core. Only that object’s trace is hidden; the core now bears it.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      },
+      {
+        "name_vi": "Trả mùa đã giữ",
+        "name_en": "Return the Kept Season",
+        "description_vi": "Mở đồng thời các đường bạc để trả trạng thái đã lưu lên một vật phủ kín hai đầu đá. Sau lượt ấy lõi cần nghỉ; ép trả tiếp dễ làm mọi chấm đen nối thành vết nứt.",
+        "description_en": "Open all silver paths to return the stored condition into an object enclosing both ends. The core then needs rest; forcing another release may join its black points into a fracture.",
+        "group_vi": "Tám đường bạc",
+        "group_en": "Eight Silver Paths"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhiệt đi qua một mái nhà",
+        "name_en": "Warmth Under One Roof",
+        "description_vi": "Hai mặt cần được người dùng chỉ nhận là nơi cho và nơi nhận. Đổi lời gọi giữa chừng khiến đường bạc quay lại trạng thái cũ.",
+        "description_en": "The user designates giving and receiving faces. Changing that designation midway returns the silver to its earlier configuration."
+      }
+    ]
+  }
+]

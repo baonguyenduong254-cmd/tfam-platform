@@ -1,0 +1,284 @@
+[
+  {
+    "id": "mineral-phan-giu-dau",
+    "mode": "prepend",
+    "lore_vi": "Người tìm được đoàn khảo sát chỉ thấy những nét trắng leo ngược vách đá; người dẫn đường đã dùng đến mẩu phấn cuối.",
+    "lore_en": "The searchers found white marks climbing the cliff. The guide had used his last piece of chalk."
+  },
+  {
+    "id": "mineral-soi-go-suong",
+    "mode": "prepend",
+    "lore_vi": "Phu đá gọi tiếng lách cách trong túi áo là hồi chuông đổi ca của mùa đông.",
+    "lore_en": "Quarrymen called the clicking in their pockets winter's change-of-watch bell."
+  },
+  {
+    "id": "mineral-thach-hut-muoi",
+    "mode": "prepend",
+    "lore_vi": "Những nhà nghèo chuyền viên đá đã xám nửa mặt sang giường trẻ nhỏ, để dành phần trắng cuối cùng cho đêm.",
+    "lore_en": "Poor households moved the half-grey stone to the children's beds, saving its last white surface for night."
+  },
+  {
+    "id": "mineral-mica-bam-mep",
+    "mode": "prepend",
+    "lore_vi": "Một người thợ găng cụt ngón từng dùng phiến mica giữ lá đồng thay cho bàn tay bị mất.",
+    "lore_en": "A glove-maker missing a finger used a mica flake to hold copper leaf in place of the hand he had lost."
+  },
+  {
+    "id": "mineral-muoi-cham-tan",
+    "mode": "prepend",
+    "lore_vi": "Trong sổ hàng, người muối cá chấm một hạt lên tên từng thủy thủ còn nợ bữa ăn cuối chuyến.",
+    "lore_en": "In his ledger, a fish-curer set a grain beside every sailor still owed a final meal."
+  },
+  {
+    "id": "mineral-da-ngam-tieng",
+    "mode": "prepend",
+    "lore_vi": "Thợ già giữ hòn đá của người học việc đã chết; mỗi tối ông gõ lên bàn, chờ tiếng gõ trở lại.",
+    "lore_en": "An old craftsman kept his dead apprentice's stone. Each evening he tapped the bench and waited for the answering knock."
+  },
+  {
+    "id": "mineral-san-doi-chieu",
+    "mode": "prepend",
+    "lore_vi": "Những người lát sàn tìm được cả túi sạn trong móng một ngôi nhà nghiêng mà chủ nhà nhất quyết gọi là thẳng.",
+    "lore_en": "Floor-layers found a whole pouch beneath a leaning house whose owner insisted it stood straight."
+  },
+  {
+    "id": "mineral-thach-dong-suong",
+    "mode": "prepend",
+    "lore_vi": "Bức thư của người con đi biển sống sót qua một mùa kho dột nhờ viên đá nằm ngay bên mép giấy.",
+    "lore_en": "A sailor's letter survived a season in a leaking storehouse because the stone lay beside its paper edge."
+  },
+  {
+    "id": "mineral-da-phan-mach",
+    "mode": "prepend",
+    "lore_vi": "Thợ mỏ truyền nhau những mảnh vỡ như gia phả, chỉ vào đường bạc để kể chỗ cha mình từng đào.",
+    "lore_en": "Miners passed the fragments like family histories, pointing to silver veins where their fathers had dug."
+  },
+  {
+    "id": "mineral-hac-thach-giu-sap",
+    "mode": "prepend",
+    "lore_vi": "Một người đúc tiền giữ dấu tay đứa con trong sáp trên đá; ông làm lại khuôn mỗi khi những ngón nhỏ dài thêm.",
+    "lore_en": "A coiner kept his child's handprint in wax upon the stone, recasting it whenever the little fingers grew."
+  },
+  {
+    "id": "mineral-tinh-the-dem-giot",
+    "mode": "prepend",
+    "lore_vi": "Người pha thuốc đầu tiên khắc mười hai vạch lên cửa vì đã thôi tin trí nhớ của mình sau nhiều đêm thức trắng.",
+    "lore_en": "The first apothecary cut twelve marks into his door after sleepless nights had made his memory unreliable."
+  },
+  {
+    "id": "mineral-hoang-thach-nin-gio",
+    "mode": "prepend",
+    "lore_vi": "Trong hốc tường trạm gác, viên đá che cho ngọn đèn mà người lính dùng viết thư về nhà.",
+    "lore_en": "In a guard-post recess, the stone sheltered the lamp by which a soldier wrote home."
+  },
+  {
+    "id": "mineral-soi-chi-ri",
+    "mode": "prepend",
+    "lore_vi": "Người sửa neo giữ viên sỏi bên chiếc mắt xích đã suýt kéo cả đội xuống nước.",
+    "lore_en": "An anchor-smith kept the pebble beside the link that had almost dragged his whole crew into the water."
+  },
+  {
+    "id": "mineral-thach-gon-muc",
+    "mode": "prepend",
+    "lore_vi": "Thợ vẽ hải đồ từng lấy đá làm của hồi môn, trao cả nghề nghiệp trong một vòng mực.",
+    "lore_en": "A chart-maker once gave the stone as a dowry, handing over an entire livelihood in a ring of ink."
+  },
+  {
+    "id": "mineral-da-tra-hoi",
+    "mode": "prepend",
+    "lore_vi": "Chiếc hộp thợ cả để lại có mùi hơi nước cũ, như xưởng vẫn vừa đóng cửa hôm qua.",
+    "lore_en": "The master's old box smelled of spent steam, as though the workshop had closed only yesterday."
+  },
+  {
+    "id": "mineral-lam-thach-doi-suc",
+    "mode": "prepend",
+    "lore_vi": "Người thợ nhìn thấy ánh lam chạy tới góc yếu rồi kịp rút tay, để chiếc ê-tô vỡ thay mình.",
+    "lore_en": "A craftsman saw blue light flee towards the weak edge and withdrew his hand, leaving the vice to break in his place."
+  },
+  {
+    "id": "mineral-ho-phach-man",
+    "mode": "prepend",
+    "lore_vi": "Hai anh em chia tay trên bến đã lấy nước từ hai cửa sông để thử đá, mỗi người nhận một bát rồi im lặng.",
+    "lore_en": "Two brothers parting at the quay tested water from different river mouths. Each took a bowl and fell silent."
+  },
+  {
+    "id": "mineral-thach-khau-nut",
+    "mode": "prepend",
+    "lore_vi": "Viên đá trong hộp thợ mỏ mang nhiều sẹo hơn bàn tay người giữ, tất cả đều đã được ép khít trở lại.",
+    "lore_en": "The stone in the miner's case bore more scars than its keeper's hands, every one pressed shut again."
+  },
+  {
+    "id": "mineral-bach-khoang-can-chi",
+    "mode": "prepend",
+    "lore_vi": "Đám trẻ nhặt được thứ quặng biết kéo chì đã gọi những sợi mềm là râu của núi.",
+    "lore_en": "Children who found the lead-drawing ore called its soft filaments the mountain's beard."
+  },
+  {
+    "id": "mineral-da-lang-bac",
+    "mode": "prepend",
+    "lore_vi": "Một người chép nhạc luôn đặt đá bên đèn để nghe rõ nốt cuối còn ngân trong đầu.",
+    "lore_en": "A music-copyist always set it beside his lamp to hear the last note lingering in his thoughts."
+  },
+  {
+    "id": "mineral-luc-ngoc-luu-ap",
+    "mode": "prepend",
+    "lore_vi": "Nhà buôn giấu viên ngọc giữa thùng đàn; sáng ra, bọt bạc bẹp chỉ đúng chỗ người khuân hàng đã ngồi.",
+    "lore_en": "A merchant hid the gem among boxed instruments. By morning its flattened silver bubble betrayed where a porter had sat."
+  },
+  {
+    "id": "mineral-tu-khoang-lac-kim",
+    "mode": "prepend",
+    "lore_vi": "Thợ đóng la bàn vẽ một vòng đỏ quanh hộp đá, rộng vừa khoảng tay của người học việc hay quên.",
+    "lore_en": "A compass-maker painted a red circle round its box, as wide as his forgetful apprentice's reach."
+  },
+  {
+    "id": "mineral-thach-rut-sac",
+    "mode": "prepend",
+    "lore_vi": "Người phục chế lần đầu nhìn sắc áo người mẹ rời tấm vải cũ, đọng lại trong viên đá như một giọt chiều.",
+    "lore_en": "A restorer watched the colour of his mother's dress leave the old cloth and settle in the stone like a drop of evening."
+  },
+  {
+    "id": "mineral-ngan-thach-can-nhiet",
+    "mode": "prepend",
+    "lore_vi": "Hai đầu ngọc nằm giữa bàn tay sốt của đứa trẻ và bát nước lạnh trong đêm người mẹ hết củi.",
+    "lore_en": "One end lay beneath a feverish child's hand, the other in cold water, on the night its mother ran out of wood."
+  },
+  {
+    "id": "mineral-huyet-ngoc-chot-mach",
+    "mode": "prepend",
+    "lore_vi": "Người tìm ra góc khóa nước đã làm mất dấu khắc; từ đó ông nhận học trò bằng một bài thử xoay viên ngọc.",
+    "lore_en": "The discoverer lost his mark for the stopping angle. Thereafter he tested apprentices by making them turn the gem."
+  },
+  {
+    "id": "mineral-thach-giam-rung",
+    "mode": "prepend",
+    "lore_vi": "Một người đưa tin câm mang nhịp gõ của mình qua hai lớp cửa, để người bên kia biết đã đến giờ mở.",
+    "lore_en": "A mute messenger carried his knocking rhythm through two doors so those beyond knew it was time to open."
+  },
+  {
+    "id": "mineral-lam-ngoc-mu-khoi",
+    "mode": "prepend",
+    "lore_vi": "Tấm khăn đẫm muội được giữ cùng ngọc, ghi tên những người đã chui vào kho cháy để tìm sổ lương.",
+    "lore_en": "A soot-soaked cloth remained beside the gem, bearing the names of those who entered a burning storehouse for the pay ledger."
+  },
+  {
+    "id": "mineral-thach-khuyet-trong",
+    "mode": "prepend",
+    "lore_vi": "Người cân vàng buộc đá bằng hai dây trước mỗi buổi chợ, đề phòng lòng tham của chính mình.",
+    "lore_en": "A gold-weigher tied the stone with two cords before every market, guarding against his own greed."
+  },
+  {
+    "id": "mineral-ngoc-guong-muoi",
+    "mode": "prepend",
+    "lore_vi": "Cô bé thả nhẫn xuống bát rồi nhìn qua giọt nước trên ngọc, lần đầu thấy đáy giếng tí hon hiện ngoài lòng giếng.",
+    "lore_en": "A girl dropped a ring into a bowl and looked through the gem's water, seeing a tiny well-bottom outside its well."
+  },
+  {
+    "id": "mineral-ho-phach-nhan-vet",
+    "mode": "prepend",
+    "lore_vi": "Sau khi niêm thư, người thư lại hong ấm ngọc thật lâu, xóa dấu ngón tay run đã phản bội sự bình tĩnh của mình.",
+    "lore_en": "After sealing a letter, a clerk warmed the amber for a long time, erasing the trembling fingerprint that betrayed his composure."
+  },
+  {
+    "id": "mineral-bich-khoang-kep-lua",
+    "mode": "prepend",
+    "lore_vi": "Thợ kim hoàn gọi cặp đá đối diện là hai kẻ ghen; họ chỉ cho từng viên đứng cạnh ngọn lửa.",
+    "lore_en": "Jewellers called facing stones a jealous pair, allowing only one at a time beside the flame."
+  },
+  {
+    "id": "mineral-thach-lui-nut",
+    "mode": "prepend",
+    "lore_vi": "Trong xưởng, mọi người nghe tiếng rạn ngừng lại giữa một hơi thở và hiểu mình vừa được cho thêm thời gian.",
+    "lore_en": "In the workshop they heard a crack cease halfway through a breath and understood they had been granted more time."
+  },
+  {
+    "id": "mineral-ngoc-thuy-chung-dong",
+    "mode": "prepend",
+    "lore_vi": "Người học việc hứng lại dòng đã đổ, cười như vừa nhặt được một sai lầm trước khi nó chạm sàn.",
+    "lore_en": "An apprentice caught the returning flow and laughed as though he had retrieved a mistake before it reached the floor."
+  },
+  {
+    "id": "mineral-thach-hoang-hon",
+    "mode": "prepend",
+    "lore_vi": "Một thủy thủ giữ màu hoàng hôn quê nhà qua đêm đầu trên biển lạnh, tới sáng mới chịu nạp lại viên đá.",
+    "lore_en": "A sailor kept his home sunset through his first night on the cold sea, refusing to recharge the stone until morning."
+  },
+  {
+    "id": "mineral-mac-ngoc-re-am",
+    "mode": "prepend",
+    "lore_vi": "Người đánh chuông hỏng tai đặt ngọc trên bàn, nhìn hai nhịp rung tách nhau để học lại tiết tấu.",
+    "lore_en": "A bell-ringer with damaged hearing watched the two vibrations part across his table and learnt the rhythm again."
+  },
+  {
+    "id": "mineral-ngoc-long-gieng",
+    "mode": "prepend",
+    "lore_vi": "Trong ụ tàu, thợ cả đặt ngọc xuống trước mọi dây dọi; mặt nước nhỏ im lìm buộc cả xưởng phải chờ.",
+    "lore_en": "In dry dock the master set down the gem before any plumb-line. Its small, still water made the whole yard wait."
+  },
+  {
+    "id": "mineral-thach-khoa-bong",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ quay đèn rồi nhìn bóng con ngựa gỗ chậm rãi đuổi theo, lần đầu thấy ngay cả bóng cũng có thể bị bỏ lại.",
+    "lore_en": "A child turned the lamp and watched a wooden horse's shadow lag behind, discovering that even a shadow could be left behind."
+  },
+  {
+    "id": "mineral-kim-cuong-ngu-ap",
+    "mode": "prepend",
+    "lore_vi": "Chiếc hộp có vết lõm ở nắp thuộc về người từng rửa nhầm viên kim cương đã nạp.",
+    "lore_en": "The dented lid belonged to the man who once washed a charged diamond by mistake."
+  },
+  {
+    "id": "mineral-thach-doi-suong",
+    "mode": "prepend",
+    "lore_vi": "Người giữ vườn kính bọc đầu đóng băng bằng vải cũ, để phần lá bên kia còn được chạm nước.",
+    "lore_en": "A glasshouse keeper wrapped the freezing end in old cloth so leaves on the other side could still touch water."
+  },
+  {
+    "id": "mineral-ngoc-mot-hoi",
+    "mode": "prepend",
+    "lore_vi": "Người thợ lặn gọi bọt khí trong ngọc là hơi thở chưa thuộc về ai, và luôn để dành viên nguyên cuối cùng.",
+    "lore_en": "Divers called the trapped bubble a breath belonging to nobody, and always saved their last unbroken stone."
+  },
+  {
+    "id": "mineral-thach-giu-nhip-cuoi",
+    "mode": "prepend",
+    "lore_vi": "Một người vợ giữ nhịp gõ cửa chồng từng dùng; bà nghe nó chậm dần qua những mùa ông chưa trở lại.",
+    "lore_en": "A wife kept her husband's familiar door-knock and listened as it slowed through the seasons of his absence."
+  },
+  {
+    "id": "mineral-ngoc-trang-tenh",
+    "mode": "prepend",
+    "lore_vi": "Thợ làm nhạc cụ luồn sợi dây qua ngọc, tìm thấy một khoảng im đủ sâu để nghe phần gỗ đang mỏi.",
+    "lore_en": "An instrument-maker passed a string through the gem and found a silence deep enough to hear the wood growing tired."
+  },
+  {
+    "id": "mineral-ho-phach-tro-sao",
+    "mode": "prepend",
+    "lore_vi": "Người trông đài vẽ bụi bạc mỗi đêm, rồi nhận ra mình đã già đi trước khi hình đầu tiên trở lại.",
+    "lore_en": "An observatory keeper drew the silver dust each night and found himself grown old before its first arrangement returned."
+  },
+  {
+    "id": "mineral-thach-tra-hinh",
+    "mode": "prepend",
+    "lore_vi": "Một họa sĩ đặt ngọc trước chân dung chưa xong, níu thêm một nhịp ánh mắt người mẫu vừa đứng dậy.",
+    "lore_en": "A painter set it before an unfinished portrait, retaining one last beat of the departing sitter's gaze."
+  },
+  {
+    "id": "mineral-bich-thach-muon-lanh",
+    "mode": "prepend",
+    "lore_vi": "Người chở thuốc giữ ngọc trong lòng bàn tay tới bến, chấp nhận những ngón cứng dần để lọ thuốc còn lạnh.",
+    "lore_en": "A medicine-carrier held it all the way to the quay, accepting stiffening fingers to keep the vial cold."
+  },
+  {
+    "id": "mineral-ngoc-ngang-doc",
+    "mode": "prepend",
+    "lore_vi": "Một người thợ đèn đã mất con gọi giọt dầu bò ngược là cuộc trở về nhỏ nhất mình từng được chứng kiến.",
+    "lore_en": "A bereaved lamp-maker called the climbing oil the smallest homecoming he had ever witnessed."
+  },
+  {
+    "id": "mineral-thach-kin-lan",
+    "mode": "prepend",
+    "lore_vi": "Thợ cắt đá đánh dấu vệt vàng để tìm lối nó đi; khi đá quay đủ vòng, dấu của ông vẫn ở lại một mình.",
+    "lore_en": "A lapidary marked the gold's route. When the stone completed its turn, his mark remained alone."
+  }
+]

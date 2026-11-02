@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "name": "Cá Voi Lò Thẳm",
+    "origin": "collection",
+    "form": "A sea creature symbiotic with thermal minerals in its bones",
+    "art": null,
+    "lore": "A whale skeleton beneath a whaling ground gathered heat-generating mineral in its marrow. Small organisms assembled one shared body around it, while song impressed in bone taught that body to swim. When it surfaced, the abyss followed like an opened furnace, breaking ice layers into warm-water vaults.\n\nIts symbionts consume organic fragments and take minerals from deep currents; the new being chooses routes by the songs of the species that gave its bones. Following ships must leave feeding and thermal-recovery water. Northern ports silence guns at its arrival, since pursuit of one creature can close an entire trading route.",
+    "sources": [],
+    "old_size": [
+      243,
+      243
+    ]
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "name": "Căn Lò Hỏa Tủy",
+    "origin": "collection",
+    "form": "A root and coal joined beneath ash",
+    "art": null,
+    "lore": "A charred root was buried in a coal pit beside a red mineral seam. Next season its buds opened like furnace doors and the coal grew veins in time with the sap. The plant carried water into mineral; the mineral retained dead coal’s warmth and directed it to living branches.\n\nIt draws nourishment from soil and roots towards colder areas, limiting branches during drought. Gardeners grow the whole beneath nursery floors and wrap water channels in living roots. Cutting off portable heaters merely exhausts their sap; tending requires knowledge of plants and stone together.",
+    "sources": [],
+    "old_size": [
+      243,
+      243
+    ]
+  },
+  {
+    "id": "complex-civitas",
+    "name": "Cựu Thành Hồi Khóa Civitas",
+    "origin": "collection",
+    "form": "Brass key and a structural domain raised upon old foundations",
+    "art": {
+      "kind": "complex",
+      "materials": [
+        "weathered stone",
+        "aged brass"
+      ],
+      "description": "Brass key and a structural domain raised upon old foundations. Collection concept; no lettering."
+    },
+    "lore": "Estela returned to the site of her former home and found footprints on the old doorstep. Earth had filled the yard; foundation stones remained beneath the grass. She knelt to clear the threshold, wishing the lost roof could shelter people once more.\n\nThe key Civitas appeared in her palm. Set in the threshold’s cleft, it raised walls along the actual foundations, then closed a roof over the empty yard. Estela entered with people seeking refuge from the cold. Only the structure awaited them; they brought their own wood, water and blankets.\n\nBefore leaving, she counted everyone through the doorway before lifting the key. Roof and walls faded, revealing the grass-covered foundations. Estela kept the threshold clear for the next footsteps that could still return.",
+    "sources": [],
+    "old_size": [
+      270,
+      270
+    ]
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "name": "Cột Buồm Thứ Mười Ba",
+    "origin": "collection",
+    "form": "A living wooden ship, a remembered captain and an unrealised voyage",
+    "art": null,
+    "lore": "The twelve-masted vessel died in ice while its master builder finished the last work ashore. Each nail vanished from his workshop overnight; offshore a thirteenth mast grew from an unfinished promise. The captain’s shadow rose at surviving sailors’ calls, and its sails caught wind from voyages still capable of becoming real.\n\nLiving timber drinks through mast roots and repairs itself from remembered labour. The captain-subject chooses routes through living calls; the voyage-domain reaches an unbuilt harbour if someone truly waits there. Coastal cities preserve their welcome as carefully as a channel, since each arrival permanently closes one future that supplied its wind.",
+    "sources": [],
+    "old_size": [
+      243,
+      243
+    ]
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "name": "Giáp Vườn Bạch Thiết",
+    "origin": "collection",
+    "form": "A metal harness joined to a restructuring root system",
+    "art": null,
+    "lore": "Perforated armour lay for a season in a medicinal garden. Roots crossed bullet holes, drank rust-water and learned rivet shapes while steel grew woodlike veins. When its former owner wore it, a white shoot closed a gap and opened with his elbow, letting the body within move with the body growing outside.\n\nThe garden needs water, soil in armour hollows and light; the frame needs sound anchors. Bearers train with gardeners before campaigns, prune joint roots and open the armour for leaf-light. Armies using it carry soil and seeds; a soldier’s endurance includes a small garden’s growing season.",
+    "sources": [],
+    "old_size": [
+      243,
+      243
+    ]
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "name": "Vườn Trong Tiếng Chuông",
+    "origin": "collection",
+    "form": "A botanical domain existing within bell-sound and mineral seeds",
+    "art": null,
+    "lore": "A gardener buried seeds and warm earth in a bronze bell before the final freeze. Years later its first peal drew a spring interval outside the passing day. Real plants grew within it, while mineral seeds around the foundation kept a return path for soil and fruit.\n\nThe garden is a living community needing water, insects and nutrients; the bell sets rhythm, and the seasonal domain has its own time. Keepers introduce pollinators by bed, replenish real earth and learn the exit peal before the great opening. A harvest may pass within a ringing hour, but depleted soil and pests also advance through the interior season.",
+    "sources": [],
+    "old_size": [
+      270,
+      270
+    ]
+  },
+  {
+    "id": "device-053",
+    "name": "Đàn giữ bình minh",
+    "origin": "collection",
+    "form": "Small harp with crystalline strings",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Small harp with crystalline strings. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "lore": "The musician built the harp fearing death before morning. He drew its crystal strings towards the window and played until the sun cleared the roofs; that dawn’s light remained between them. After his death, his daughter plucked the first note in a shuttered room and saw the horizon open where a wall stood.\n\nThe harp preserves one complete dawn, from its first light to the last early birdsong. A player may spread it around a room or weave it into a shining route through darkness. During that interval, each listener may see something once promised for a new day appear as a standing shadow before them.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "device-061",
+    "name": "Khung ảnh người chứng cuối",
+    "origin": "collection",
+    "form": "Charred wooden frame sheathed in gold",
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Charred wooden frame sheathed in gold. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "lore": "The frame was recovered from a burnt house and passed among those who had occupied a room before the flames arrived. Each saw only black timber. For the final survivor it opened the entire room as their eyes retained it, including blur where they had closed their eyes.\n\nThe last witness signs beneath the frame to let a later person enter the scene. Each added stroke opens another doorway within; passing every door receives all that one life can still bear. When the name is complete, the frame chooses a willing recipient who remained until the end, giving the scene a living place beyond its witness’s death.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "device-066",
+    "name": "Vương miện Ravenna",
+    "origin": "canon",
+    "form": "Crown; exact construction remains undescribed",
+    "art": {
+      "kind": "crown",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Crown; exact construction remains undescribed. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "lore": "Isabella identifies the Crown of Ravenna as a Mythic Vestigium held at the centre of Western Roman power, connecting it with campaign anomalies beyond ordinary military and logistical explanation. She also admits that its full powers remain unknown, and later reminds Testarossa that she has never seen it herself. This record preserves the distinction between intelligence assessment and direct observation.",
+    "sources": [
+      {
+        "volume": 1,
+        "chapter": 2,
+        "tab_id": "t.ze6h0pvulad8",
+        "anchor": "Nó chính là một Vestigium cấp Thần Thoại đang được cất giữ ngay tại trung khu quyền lực tối cao của họ."
+      }
+    ],
+    "old_size": [
+      243,
+      243
+    ]
+  },
+  {
+    "id": "device-067",
+    "name": "Chuông lời thề hồi hương",
+    "origin": "canon",
+    "form": "Heirloom bell; material not described",
+    "art": {
+      "kind": "bell",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Heirloom bell; material not described. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "lore": "An archival case describes a bell that rings when two people sworn to return to one home enter the same city. Over more than forty years in a seafaring family, it rises from Common through Rare to Wondrous. Repeated reunions after storms reinforce its relational rule; advancement stops when its final keeper stores it away and ends the pattern of use.",
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 132,
+        "tab_id": "t.n9h17cv6twd9",
+        "anchor": "Qua hơn bốn mươi năm được truyền trong một gia đình thủy thủ, nó lên Hiếm rồi Kỳ tích"
+      }
+    ],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "material-bot-chan-dong",
+    "name": "Bột Chặn Đọng",
+    "origin": "collection",
+    "form": "White powder with grey grains",
+    "art": {
+      "kind": "powder",
+      "materials": [
+        "White powder",
+        "isolated specimen"
+      ],
+      "description": "White powder with grey grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The powder was ground from white stone in a mountain hollow where night mist gathered into grey grains before touching the ground. Over many seasons, the stone learned to receive water from the air; its crushed fragments still carried the sleep of mist into storerooms.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-bot-mo-men",
+    "name": "Bột Mở Men",
+    "origin": "collection",
+    "form": "White powder with green grains",
+    "art": {
+      "kind": "powder",
+      "materials": [
+        "White powder",
+        "isolated specimen"
+      ],
+      "description": "White powder with green grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The white powder was gathered from a kiln floor where steam had crept through cracked bowls for many cold seasons. Green grains grew along those fissures; ground free of the floor, they still sought the old paths when they met glaze and moisture.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-bot-nam-yen",
+    "name": "Bột Nằm Yên",
+    "origin": "collection",
+    "form": "Fine brown powder streaked silver",
+    "art": {
+      "kind": "powder",
+      "materials": [
+        "Fine brown powder streaked silver",
+        "isolated specimen"
+      ],
+      "description": "Fine brown powder streaked silver. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The brown powder lay beneath a cave pool so still that quarrymen could see their hair in it. One night its silver veins parted before the vault fell; thereafter, grains taken from the bottom still gathered at the surface and opened along passing vibrations.",
+    "sources": [],
+    "old_size": [
+      300,
+      300
+    ]
+  },
+  {
+    "id": "material-bot-tach-rung",
+    "name": "Bột Tách Rung",
+    "origin": "collection",
+    "form": "Purple powder with flat silver grains",
+    "art": {
+      "kind": "powder",
+      "materials": [
+        "Purple powder",
+        "isolated specimen"
+      ],
+      "description": "Purple powder with flat silver grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The purple powder was scraped from stone pillars beneath a theatre floor. Thousands of dancing steps ended there while song remained whole beneath the dome; the silver grains had learned to take vibration inward before it reached the listener.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-bot-tat-duong-muc",
+    "name": "Bột Tắt Đường Mực",
+    "origin": "collection",
+    "form": "Silver dust with copper-red grains",
+    "art": {
+      "kind": "vial",
+      "materials": [
+        "Silver dust",
+        "isolated specimen"
+      ],
+      "description": "Silver dust with copper-red grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A death-warrant copyist spent his life scraping names from orders delivered to a citadel. Each reprieve gathered silver dust beneath his nib; on the night the citadel fell, it spilled across the window and every incoming order stopped in midair. The dust was recovered after the papers became birds’ nests.\n\nThe powder severs the execution of a written statement. Scattered across a covenant’s opening character, it stills every seal, transmitted command and mechanism deriving instruction from that text throughout its bound domain. The paper remains and people remember, yet between command and consequence opens a blank the world cannot cross.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-da-nhuong-luc",
+    "name": "Đá Nhường Lực",
+    "origin": "collection",
+    "form": "Grey slabs with concentric white rings",
+    "art": {
+      "kind": "material",
+      "description": "Grey slabs with concentric white rings. Isolated specimen, transparent background, no text."
+    },
+    "lore": "After an earthquake, a storehouse floor held slabs that had slid apart beneath columns still standing straight. They came from a cliff struck repeatedly by avalanches, each season adding a white ring around the grey core. Builders had used them as level thresholds; only when the walls shook did the white rings open like eyelids beneath a heavy dream.\n\nA slab yields a short distance to spread a jolt travelling through a column’s foot. Afterwards its opened rings retain their gaps, showing builders which foundation sections need replacement before the storehouse returns to service.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-dat-om-re",
+    "name": "Đất Ôm Rễ",
+    "origin": "collection",
+    "form": "Porous brown earth with soft white threads",
+    "art": {
+      "kind": "material",
+      "description": "Porous brown earth with soft white threads. Isolated specimen, transparent background, no text."
+    },
+    "lore": "A nursery beside a windthrown grove held pockets of earth that curled around bare roots. Through the previous winter, its keeper had wrapped each seedling in old clothing and buried them beneath larger trees. As the cloth decayed, white threads appeared in the soil, retaining the shape of the hands that had banked each stem.\n\nThe earth forms a light ball that holds air around roots during jolting cart journeys. At the new bed, growers water it and open its edges; the threads gradually release in warm soil, allowing the roots to find their own way onward.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-dich-chot-sac",
+    "name": "Dịch Chốt Sắc",
+    "origin": "collection",
+    "form": "Clear liquid carrying golden flakes",
+    "art": {
+      "kind": "vial",
+      "materials": [
+        "Clear liquid carrying golden flakes",
+        "isolated specimen"
+      ],
+      "description": "Clear liquid carrying golden flakes. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The fluid was collected from a painter's roof, where generations of sunlight passed through amber glass onto colour studies. Tiny scales in the water kept the hue of the last painting after it was removed; spread over fresh ink, they preserved that same unfading morning.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "material-dich-doi-mep",
+    "name": "Dịch Đổi Mép",
+    "origin": "collection",
+    "form": "Purple liquid with a floating white edge",
+    "art": {
+      "kind": "vial",
+      "materials": [
+        "Purple liquid",
+        "isolated specimen"
+      ],
+      "description": "Purple liquid with a floating white edge. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The lighthouse’s upper window shattered when waves crossed its rail. In lightning, the sea appeared overhead as well as below the keeper; one glass corner retained two horizons exchanging places. Violet fluid seeping from its reverse bears a floating white rim that gathers towards whatever the holder calls down, even in an inverted hand.\n\nSpread along a straight edge, the fluid changes the fall of inanimate things crossing it. River water can climb a fortress wall and pour along a stone ceiling; cargo rolling from a quay falls sideways into a storehouse. Gravity returns beyond the white rim, as though the object had crossed another world’s horizon.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-dong-dem-nhip",
+    "name": "Đồng Đếm Nhịp",
+    "origin": "collection",
+    "form": "Thin copper leaves with wave-like grain",
+    "art": {
+      "kind": "material",
+      "description": "Thin copper leaves with wave-like grain. Isolated specimen, transparent background, no text."
+    },
+    "lore": "At the foot of a burnt clock tower, workers recovered copper leaves fallen from its pendulum. Fire had consumed the dial while the keeper still counted hours for fugitives crossing the bridge; each call rang into the stairwell and vanished in smoke. The leaves cooled with evenly closed waves, still trembling to the beat of the pendulum melted across the floor.\n\nBeside a turning shaft, a copper leaf trembles out of step when the shaft misses a familiar beat. Machine keepers hang it within sight to notice a slipping belt or catching gear before the whole workshop stops.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "material-go-soi-sherwood",
+    "name": "Gỗ sồi Sherwood",
+    "origin": "canon",
+    "form": "Ancient oak timber with densely interwoven grain",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Ancient oak timber with densely interwoven grain",
+        "weathered specimen"
+      ],
+      "description": "Ancient oak timber with densely interwoven grain. Isolated physical specimen, transparent background, no text, no pedestal."
+    },
+    "lore": "HMS Red Baron is built from ancient Sherwood oaks whose forest absorbed Vestigium and changed. Unusually tough, interwoven grain lets the hull withstand repeated cannon hits. This entry displays harvested timber as material. The source establishes neither conscious trees nor a hull capable of repairing itself.",
+    "sources": [
+      {
+        "volume": 1,
+        "chapter": 19,
+        "tab_id": "t.5vkg0sqbnvsv",
+        "anchor": "Nhờ những thớ gỗ đan chặt sở hữu độ dai và cứng vượt xa gỗ thông thường, HMS Red Baron mới có thể trơ trơ gánh chịu hàng chục phát đại bác"
+      }
+    ],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-gom-giu-thuoc",
+    "name": "Gốm Giữ Thuốc",
+    "origin": "collection",
+    "form": "White ceramic with blue grain beneath its glaze",
+    "art": {
+      "kind": "material",
+      "description": "White ceramic with blue grain beneath its glaze. Isolated specimen, transparent background, no text."
+    },
+    "lore": "A potter set aside the batch fired on a night when snow blocked the kiln door. Families waited outside for medicine jars; within, the fire consumed the last shelf boards. On opening the kiln, the potter found blue grain beneath the glaze like veins in a cold hand. The jars cooled to human warmth and held it throughout the night.\n\nSherds from that firing line medicine boxes to soften temperature changes on the road. Keepers place one sherd outside the box; when its blue grain whitens, the entire lining must return to a warm room.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-ho-bam-lanh",
+    "name": "Hồ Bám Lạnh",
+    "origin": "collection",
+    "form": "Grey paste in an earthen jar",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Grey paste in an earthen jar",
+        "isolated specimen"
+      ],
+      "description": "Grey paste in an earthen jar. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A box maker mixed paste with meltwater from an ice block that held an old scrap of paper fast. When his boxes crossed the pass, their wrappings tore but their labels stayed; the paste had taken on the grip of ice that had kept a message through many seasons.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-manh-men-giu-mua",
+    "name": "Mảnh Men Giữ Mưa",
+    "origin": "collection",
+    "form": "White glaze holding three blue drops",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "White glaze holding three blue drops",
+        "isolated specimen"
+      ],
+      "description": "White glaze holding three blue drops. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A highland potter collected rain in one vessel through three drought seasons. In the fourth, he followed the clouds and never returned; the vessel broke upon its plinth, leaving three blue drops upon white glaze. Each held a moving cloud whose shadow followed a wind the outer sky had forgotten.\n\nTurning a drop skyward summons an entire stored rainy season, placing an earlier year’s sky above the land beneath the shard. Rivers regain lost watercourses, and buried seeds hear the rainfall that woke their ancestors. The keeper chooses the season, while its summoned sky brings its own wind, thunder and duration.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-men-giu-anh-tro",
+    "name": "Men Giữ Ảnh Tro",
+    "origin": "collection",
+    "form": "Black glaze marked by silver",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Black glaze marked by silver",
+        "isolated specimen"
+      ],
+      "description": "Black glaze marked by silver. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The glaze was fired with timber from a library that burned for seven nights. Opening the kiln, the potter saw lit reading desks beneath its black surface, as though the house had passed through fire into a vessel’s skin. When book ash touched the glaze, pages sounded from a place where the vessel had never held space.\n\nAsh from a burnt object spread upon the glaze in darkness opens its image into a depth one can see and enter. A pinch of house ash restores rooms and furnishings at the instant before ignition; book ash opens readable pages. Visitors walk within the last version of what was lost, carrying it out through memory alone.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-muc-giu-kho",
+    "name": "Mực Giữ Khô",
+    "origin": "collection",
+    "form": "Black ink with a copper sheen",
+    "art": {
+      "kind": "vial",
+      "materials": [
+        "Black ink",
+        "isolated specimen"
+      ],
+      "description": "Black ink with a copper sheen. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A cargo clerk ground ink with water dripping from a bronze fish throughout the mist season. His first strokes always dried inside a ring of water; bronze dust entering the ink had kept the way a fish's scales divide the current around its body.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-muoi-danh-thuc-hat",
+    "name": "Muối Đánh Thức Hạt",
+    "origin": "collection",
+    "form": "Amber salt grains in a linen pouch",
+    "art": {
+      "kind": "material",
+      "description": "Amber salt grains in a linen pouch. Isolated specimen, transparent background, no text."
+    },
+    "lore": "In a half-burnt granary, seeds beneath a salt jar sprouted while snow still covered the door. Firefighting water had carried salt through straw ash and frozen upon the jar’s mouth, where the keeper had rested a hand while counting the remaining sowing portions. The new amber crystals crackled faintly in light.\n\nA salt pouch beside a sowing tray wakes living seeds within the same morning, letting gardeners tend one cohort together. After awakening them, the salt pales; old pouches hang apart from fresh seed to preserve the sowing schedule.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-nhua-khau-go",
+    "name": "Nhựa Khâu Gỗ",
+    "origin": "collection",
+    "form": "Brown resin threaded with flax-like light",
+    "art": {
+      "kind": "material",
+      "description": "Brown resin threaded with flax-like light. Isolated specimen, transparent background, no text."
+    },
+    "lore": "After a flood, a boatyard exhausted its stitching cord and held joints with resin from a willow trunk lodged between two hull frames. Through the repair season, the living wood rooted in wet shavings. When workers lifted the trunk away, its resin drew into shining threads, joining plank faces along the grain as though it had learned the roots’ paths.\n\nThe resin holds a dry split while workers fit a lasting brace. Its threads change colour with the timber bearing strain, leaving a record of heavy seas for the next repair.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "material-nhua-lui-chay",
+    "name": "Nhựa Lùi Cháy",
+    "origin": "collection",
+    "form": "Amber resin containing white grains",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Amber resin containing white grains",
+        "isolated specimen"
+      ],
+      "description": "Amber resin containing white grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The resin flowed from a tree in a cold charcoal field, whitening the old burns in its bark each year. When the tree fell, that white layer still slowed flames before they entered the resin; the time the tree had spent closing its wounds had settled into Vestigium.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-nhua-mot-nhip-lanh",
+    "name": "Nhựa Một Nhịp Lạnh",
+    "origin": "collection",
+    "form": "Blue resin enclosing a suspended white layer",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Blue resin enclosing a suspended white layer",
+        "isolated specimen"
+      ],
+      "description": "Blue resin enclosing a suspended white layer. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A pine across a mountain cleft had lived long enough for its roots to join both cliffs. When the earth parted, its trunk split while the crown still moved as one, because white resin held the instant before the crack. Through winter, resin flowed from both halves into the gulf and hardened as blue drops enclosing a suspended white layer.\n\nApplied to a cut, the resin preserves integrity across distance. A ship’s halves may drift on opposite sides of a strait without admitting water; a tower opens for a procession and closes as though no doorway existed. Force and movement still pass between the halves while the resin’s white line remains intact.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-sap-niem-mot-lan",
+    "name": "Sáp Niêm Một Lần",
+    "origin": "collection",
+    "form": "Black wax block with a white seal",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Black wax block",
+        "isolated specimen"
+      ],
+      "description": "Black wax block with a white seal. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "A granary seal melted on the night the city walls broke, yet its white impression remained upon black wax. The keeper had promised the door would open only after every family received its portion; at dawn the besiegers found the surrounding wall fallen while grain was still being distributed within. The wax lay beneath the last person’s departing feet.\n\nThe block seals a physical boundary through its setter’s promise. Within it, destruction stops at the outer face: a sea hangs over a broken dam, city stones stand around excavated foundations. People within live and work until the promised task is fulfilled, while every load waits beyond one white seal.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-sap-tra-dau",
+    "name": "Sáp Trả Dấu",
+    "origin": "collection",
+    "form": "Red wax containing black grains",
+    "art": {
+      "kind": "material",
+      "materials": [
+        "Red wax containing black grains",
+        "isolated specimen"
+      ],
+      "description": "Red wax containing black grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "In a weighhouse, sealing wax was melted for generations over the lamp beside the receipt book. One winter, impressions in a fresh batch darkened when their lids were raised; repeated handovers had left the wax a memory of its first opening.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "material-soi-banh-nuoc",
+    "name": "Sỏi Bánh Nước",
+    "origin": "collection",
+    "form": "Round blue pebbles in a copper cage",
+    "art": {
+      "kind": "material",
+      "description": "Round blue pebbles in a copper cage. Isolated specimen, transparent background, no text."
+    },
+    "lore": "At the foot of a mill swept away by flood, pebbles rolled back up the bank whenever the water ebbed. They had lain between two millstones throughout a hungry season, while villagers took turns pushing the wheel by hand because the river had frozen. The millwright gathered them into a copper cage and heard turning timber within the smooth stones.\n\nImmersed in flowing water, the whole cage tilts steadily in one direction and draws a small shaft attached to it. Millers use that force for grain-drying fans, leaving the great wheel’s strength for newly arrived sacks.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-soi-cham-dut",
+    "name": "Sợi Chậm Đứt",
+    "origin": "collection",
+    "form": "White fibre with dark joints",
+    "art": {
+      "kind": "thread",
+      "materials": [
+        "White fibre",
+        "isolated specimen"
+      ],
+      "description": "White fibre with dark joints. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "When a suspension bridge between two towers collapsed, its keeper’s coat caught the broken chains. Those across the gulf saw him fall, yet its hem held the road whole until the last child crossed. At dawn the coat lay between empty towers, each white thread bearing a dark joint like blood unwilling to leave the body.\n\nThreads drawn from it can be stitched into any continuous thing approaching rupture. When disaster comes, broken parts still share their former load: a bridge hangs over emptiness, a dam holds water with an open crack. Each survivor’s passing step consumes a dark joint until the final thread returns the breaking to the world.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-soi-chi-ve",
+    "name": "Sợi Chỉ Về",
+    "origin": "collection",
+    "form": "Grey fibre with a red ridge",
+    "art": {
+      "kind": "thread",
+      "materials": [
+        "Grey fibre",
+        "isolated specimen"
+      ],
+      "description": "Grey fibre with a red ridge. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The fibre was drawn from bark curved around a cradle left in a garden. Season after season, branches swayed and returned to shelter it, until red veins in the bark retained that curve; firing the fibre into a new shape gave it another home to return to.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "material-than-ngu-dong",
+    "name": "Than Ngủ Đông",
+    "origin": "collection",
+    "form": "Black coal with faint golden grain",
+    "art": {
+      "kind": "material",
+      "description": "Black coal with faint golden grain. Isolated specimen, transparent background, no text."
+    },
+    "lore": "A coal seam emerged beneath a bathhouse long buried in snow. The last hot water drained into cracks on the night its roof fell; when the site was dug out, the coal’s golden grain remained as warm as a bench someone had just left. A stoker kept a lump beside the broken basin to remember its discovery.\n\nThe coal receives furnace heat and releases it slowly through its surface, enough to warm a small sleeping room through a night watch. As it cools, the gold retreats into the core; household keepers set spent lumps aside to return to the hearth next day.",
+    "sources": [],
+    "old_size": [
+      334,
+      334
+    ]
+  },
+  {
+    "id": "material-vai-uong-mau",
+    "name": "Vải Uống Máu",
+    "origin": "collection",
+    "form": "Ivory linen with closed red stitchwork",
+    "art": {
+      "kind": "material",
+      "description": "Ivory linen with closed red stitchwork. Isolated specimen, transparent background, no text."
+    },
+    "lore": "At an aid station abandoned after a rockfall, the last bandage roll remained dry among basins of red water. Its washer had joined many scraps with one thread and kept washing until the well froze into a mirror. When sunlight returned, the red stitching had closed into small rings, each enclosing clean cloth.\n\nThe cloth draws blood from the dressing’s inner face to its outer layer, letting attendants see saturation without repeatedly uncovering a wound. Separate lengths are stored in medicine chests; a used piece carries its red mark for life.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "material-voi-nhan-tro",
+    "name": "Vôi Nhận Tro",
+    "origin": "collection",
+    "form": "Grey lime with coarse white grains",
+    "art": {
+      "kind": "powder",
+      "materials": [
+        "Grey lime",
+        "isolated specimen"
+      ],
+      "description": "Grey lime with coarse white grains. Single isolated specimen, no background, no labels, no pedestal; eighteenth-century natural philosophy collection, detailed tangible material."
+    },
+    "lore": "The lime was burned from the stonework of a bakery oven that kept embers overnight for the whole street. When the oven was dismantled, white grains in its stones still glowed before smouldering ash, like lit windows after the street had gone to sleep.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-dew-on-the-last-step",
+    "name": "Dấu Sương Bậc Cuối",
+    "origin": "collection",
+    "form": "A dew footprint upon a stone step",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A dew footprint upon a stone step. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "Dry footprints on washed stone made the watchman turn before the door shut.\n\nA store stair shows moisture after someone crosses its final step. Dry footwear and a cleaned surface leave the same result. The step retains the latest footprint outline for several minutes.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-leaves-upon-white-stone",
+    "name": "Mùa Lá Trên Đá Trắng",
+    "origin": "collection",
+    "form": "Leaf shadows changing colour upon stone",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Leaf shadows changing colour upon stone. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "Green leaves placed upon the yard took ageing shadows, making their grower see a farewell waiting within them.\n\nA nursery yard casts yellowing leaf shadows while their plants remain green. The effect belongs to the paving and only touches samples placed across its boundary. Shadow colour shifts with the water content of a newly placed leaf.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-one-minute-of-sideways-rain",
+    "name": "Một Phút Mưa Nằm Ngang",
+    "origin": "collection",
+    "form": "Rain suspended then drifting sideways beneath an arch",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Rain suspended then drifting sideways beneath an arch. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "One minute of sideways rain tilted every watching head, as though the roof had changed earth's direction.\n\nDrops beneath a drainage-test arch change course in still air. Records confine the shift to water crossing the arch’s plane. For a minute after a knock, a small water quantity slides laterally in one direction.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-rain-upon-one-tile",
+    "name": "Mưa Trong Một Viên Gạch",
+    "origin": "collection",
+    "form": "Drops falling steadily above one tile",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Drops falling steadily above one tile. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A yard-worker removed the brick and returned to find rain still seeking its former place.\n\nA drying yard has one tile receiving water long after rain. Moving the tile ends its effect, while the old recess keeps receiving drops. The recess retains nearby rainwater and releases it as slow drops.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-snow-beneath-a-sealed-roof",
+    "name": "Tuyết Rơi Dưới Mái Kín",
+    "origin": "collection",
+    "form": "Snowflakes within a narrow air column",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Snowflakes within a narrow air column. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "Beneath indoor snow, the warehouse watchman raised a hand as though checking the roof still existed.\n\nA sealed store forms snow beneath an intact roof. Replacing the beam leaves crystallisation in place, prompting the surveyors to isolate the air column. Moisture in a small pocket crystallises and melts upon reaching the floor.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-city-beneath-one-mist",
+    "name": "Thành Phố Dưới Một Lớp Sương",
+    "origin": "collection",
+    "form": "A mist street model inside a sealed room",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A mist street model inside a sealed room. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A street-map maker returned after war with four maps of the same district across four generations. He spread them on the floor and named those who had once opened their doors to him. Mist rose and streets stood upright; between two present walls, a demolished alley opened its mouth to the horizon.\n\nWithin the mist, every age of the city occupies the land together. The keeper may choose an age to walk through, yet the others press against their shoulders with markets, eaves and shut doors. The city receives another lifetime when someone brings back a memory clear enough to walk from gate to home.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-dawn-of-a-single-song",
+    "name": "Bình Minh Của Một Câu Hát",
+    "origin": "collection",
+    "form": "Light rising with a single melody",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Light rising with a single melody. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A singer promised to lead dawn to those sheltering below during a siege. He died before the last phrase; his daughter held the remaining note while the cellar door was broken open. When the song closed, dawn flooded from the steps though it was midnight outside.\n\nSince then, whenever the complete melody is sung, a dawn travels through the room in the order of its notes. Darkness retreats into a strip before the singer’s feet; at the final phrase, everyone waiting sees the homeward way as clearly as their first morning.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-flat-sea-of-the-courtyard",
+    "name": "Biển Phẳng Trong Sân Kín",
+    "origin": "collection",
+    "form": "A sea-like luminous plane within four walls",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A sea-like luminous plane within four walls. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A widowed sailor paved his courtyard with ballast from his final ship. One night he told his child about the sea and traced the homeward course with a finger on the floor. Next morning the horizon lay a handspan below the courtyard; its waves carried the sky-light of his final voyage.\n\nThose who enter still stand on stone, yet the distance between walls unfolds into a sea route. A call from one corner must cross that horizon before reaching the opposite corner. The keeper may fold the sea into a streak of light or let a party walk through a whole night of waves within one circuit.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "phenomenon-the-light-for-a-later-witness",
+    "name": "Vết Sáng Dành Cho Người Đến Sau",
+    "origin": "collection",
+    "form": "A sealed light streak upon a dark wall",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A sealed light streak upon a dark wall. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The witness to an erased city stood before a dark wall, laid a hand upon it and told everything his eyes retained. When he died, the hand departed but a strip of light remained, knotted wherever he had turned away or doubted his understanding. Across generations no guess could open those knots.\n\nThe light entrusts itself only to someone willing to carry its gaps as well. Accepted, it opens a path through the vanished scene, letting the later witness stand where the former witness’s eyes had travelled. Completing the handover erases the wall’s light and places it in one living memory.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-load-remembering-vault",
+    "name": "Vòm Đá Nhớ Tải",
+    "origin": "collection",
+    "form": "Luminous curves upon a model vault",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Luminous curves upon a model vault. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A stone vault was dismantled after carrying a company through a collapse. The mason set its keystone in the court and saw luminous force-lines still arching around the empty space. Placing his hand there, he felt the weight of those who had crossed, step by step.\n\nA new vault was built around the keystone, yet the light always retained the former arch. It accepts load like a spoken promise: weight entrusted must be borne elsewhere before it may disappear. The keeper may transfer that burden through stones that once stood beneath one roof.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-manuscript-mist-layer",
+    "name": "Tầng Sương Của Bản Thảo",
+    "origin": "collection",
+    "form": "Revision shadows layered over blank paper",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Revision shadows layered over blank paper. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A copyist erased his name from a manuscript before abandoning his trade. That night every line he had struck out rose in mist above the table, piling to the rafters. He returned to read and found the people he might have become through words discarded.\n\nSince then, writing made in the room has left branching paths of ink. Anyone entering the mist may read an earlier draft as though walking between pillars; unfinished sentences bar the way with stairs ascending into blankness.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-passage-of-vanished-scents",
+    "name": "Lối Đi Của Những Mùi Đã Mất",
+    "origin": "collection",
+    "form": "Scent bands bounded like rooms",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Scent bands bounded like rooms. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "After fire stripped the spice store of its walls, its elderly owner still walked around vanished doorways by the scents of cinnamon, timber and her daughter’s clothes. When she died, the corridor divided itself into rooms of scent; at its end, the hair-scent of her long-departed daughter remained beside an unseen door.\n\nFollowing a familiar scent leads to a room sized by that memory. Some barely hold a chest; others stretch the length of a cargo voyage. Placing an object retaining its true scent at a doorway allows the passage to receive another lost place.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-pool-holding-an-old-sky",
+    "name": "Mặt Hồ Giữ Bầu Trời Cũ",
+    "origin": "collection",
+    "form": "A reflected sky unlike the one above",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A reflected sky unlike the one above. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "On the night the guiding star died, the pool keeper sat beside the water until dawn. When he looked up, the real sky had changed, while the star still burned below. Roofs, silt and seasons of ice passed across the pool; beneath them the old sky continued its final night.\n\nThose who fix their eyes upon its reflected stars see the water opening into an inverted height. A boat lowered along a constellation’s shape may sail that sky between lights separated by a lifetime of watching. Returning, its mast casts a shoreward shadow by a star already extinguished.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-pool-remembering-one-wind",
+    "name": "Hồ Nước Nhớ Một Cơn Gió",
+    "origin": "collection",
+    "form": "A small pool repeating a ripple band",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A small pool repeating a ripple band. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "New water received the same wind while its shore-watcher learnt to recognise a ripple already seen.\n\nA closed wind-testing yard repeats one old ripple pattern in its shallow pool. Draining stops it, but fresh water restores it after the same contact ritual. The water repeats one received surface pattern without recreating wind ashore.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
+    "name": "Giờ Lặng Của Một Bến Vắng",
+    "origin": "collection",
+    "form": "An unpeopled quay shadow within a yard",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "An unpeopled quay shadow within a yard. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The quay vanished in a rising sea, yet its mooring-post shadows remained at the shore station. Touching a shadow, the keeper saw the final boat hanging in mist, its rope not yet broken, droplets motionless at the edge of a cry. He emerged when the shore clock had completed an hour.\n\nWithin the quay’s shadow, departure has never been allowed to end. The keeper may draw that quiet hour across present water, joining a bridge from unfinished things. Everything set down waits until someone accepts responsibility for allowing it to continue.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-quiet-zone-holding-every-note",
+    "name": "Vùng Im Mang Đủ Âm Thanh",
+    "origin": "collection",
+    "form": "A dark volume containing luminous sound paths",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A dark volume containing luminous sound paths. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A room received every bell on the city’s day of mourning so that someone within could hear their mother’s final breath. When the bells stopped, their sounds still hung as luminous lines around the pair. The door opened, yet the lines contracted around a space of silence within the house.\n\nSince then every sound entering the quiet zone acquires a shape. An oath forms a ring, breaking branches outward, and weeping hangs like cords. The keeper may coil sound into knots or return each path separately to the world; when the whole room speaks together, surrounding stone trembles like a bell’s body.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-rain-that-falls-once",
+    "name": "Cơn Mưa Chỉ Rơi Một Lần",
+    "origin": "collection",
+    "form": "Amber droplets poised before falling",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Amber droplets poised before falling. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "An amber rain was held beneath a dome when its keeper shut the doors as the city burned. He asked the water to wait until the last person found shelter. That person never came; generations later the drops still hang as a low sky, carrying reflections of roofs long burnt away.\n\nThe dome’s key passes between generations with the right to open its sole rainfall. Released, the water completes its descent and climbs back along every path. During that return, everything the water has touched may reclaim one movement before the rain falls finally and the dome becomes ordinary stone.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-remaining-sunthread",
+    "name": "Sợi Nắng Còn Lại",
+    "origin": "collection",
+    "form": "A light thread between two wall marks",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A light thread between two wall marks. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The weaver took the loom; sunlight retained its tension between empty peg-marks.\n\nIn a dismantled weaving room, a sunthread remains between two peg marks. It appears on cloudy days after receiving earlier light. The space stores a thin light trace until dusk, then releases it.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-ring-retaining-water",
+    "name": "Mặt Nước Giữ Vòng",
+    "origin": "collection",
+    "form": "A standing ripple in a precisely placed basin",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A standing ripple in a precisely placed basin. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A ripple outlived its making hand, allowing the returning water-carrier to recognise his own trace.\n\nA well yard keeps a basin rippling after other water settles. Copper and pottery basins show the same ring at marked positions. A ripple retains one contact pulse and loses amplitude unusually slowly.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-room-of-two-dawns",
+    "name": "Gian Nhà Có Hai Bình Minh",
+    "origin": "collection",
+    "form": "Two overlapping dawn-light bands",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Two overlapping dawn-light bands. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "Two watchkeepers agreed to open both doors at dawn; one lived until morning and the other died before relief. When the doors opened, the dawn of the promise and the true dawn entered together. They remained as separate halves, casting two shadows of different ages from one hand.\n\nThose inside choose which dawn to follow. One side brings things into the present morning; the other holds them where the promise could still be fulfilled. At the room’s centre, everything beginning must wait for someone to accept its ending.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-rootshadow-garden",
+    "name": "Khu Vườn Của Bóng Rễ",
+    "origin": "collection",
+    "form": "A root-shadow network over plantless ground",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A root-shadow network over plantless ground. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A gardener set a new pot upon the root-mark and saw that ground too could retain a predecessor's form.\n\nA research yard retains root shadows after pots are moved. New pots show that the network follows roots actually touching their soil. The paving renders root outlines near a pot’s base as thin shadows.",
+    "sources": [],
+    "old_size": [
+      372,
+      372
+    ]
+  },
+  {
+    "id": "phenomenon-the-space-left-for-a-return",
+    "name": "Khoảng Trống Để Một Người Trở Về",
+    "origin": "collection",
+    "form": "A small warm trace upon an empty chair",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A small warm trace upon an empty chair. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The departing person laid a hand on a chair and promised to return before the fire died. The one waiting tended the hearth through the night; at dawn the house was cold but a hand-sized warmth remained on the chair. Generations of keepers received the key, preserving an empty place for someone whose face none still knew.\n\nWhen a new keeper willingly accepts the waiting, the house opens another threshold wherever the promised traveller is truly seeking home. The door may appear amid snow, aboard a ship or within a stranger’s house. It opens only from the returning side, while the keeper must warm the seat with their own heat.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-stair-of-high-notes",
+    "name": "Bậc Thang Của Những Âm Cao",
+    "origin": "collection",
+    "form": "Luminous steps appearing with musical pitch",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Luminous steps appearing with musical pitch. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "A pupil walked fingers up the light-steps, joining ear to eye before playing the scale again.\n\nA music room grows light steps on its wall during scales. Different instruments produce steps at the same relative pitches. Successive notes become visual heights for comparing intervals.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-the-two-season-shadow-garden",
+    "name": "Vườn Bóng Có Hai Mùa",
+    "origin": "collection",
+    "form": "Two differently coloured leaf shadows upon soil",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Two differently coloured leaf shadows upon soil. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "Two canopies stood beside the sapling like a departed season sitting with a living one.\n\nA test plot holds both present leaf shadows and those from the previous recording. Removed plants cast ordinary shadows, locating the anomaly in the soil. It overlays two canopy outlines to reveal change between sessions.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-water-sound-alcove",
+    "name": "Hốc Đá Giữ Tiếng Nước",
+    "origin": "collection",
+    "form": "Silver waves inside a dry stone alcove",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Silver waves inside a dry stone alcove. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The dismantler paused at water still pouring in the hollow and set a dry cup beneath its sound.\n\nAn alcove beneath a removed tank retains pouring sounds. They stay inside its volume and update only when real water passes before it. It retains one stream’s acoustic pattern for later interruption comparisons.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  },
+  {
+    "id": "phenomenon-the-waterline-beneath-the-lamp",
+    "name": "Mạch Nước Dưới Bóng Đèn",
+    "origin": "collection",
+    "form": "A light filament following water in a channel",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "A light filament following water in a channel. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "The water-worker watched warm and cold meet, their boundary running against the lamplight he had trusted.\n\nA water room carries light against a lamp’s shadow. Reshaped channels redirect it within the old floor zone but cannot carry it elsewhere. It reveals the boundary where two water streams of different temperatures meet.",
+    "sources": [],
+    "old_size": [
+      460,
+      460
+    ]
+  },
+  {
+    "id": "phenomenon-winter-within-the-wall-niche",
+    "name": "Mùa Đông Trong Hốc Tường",
+    "origin": "collection",
+    "form": "Ice crystals growing within an alcove volume",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "spectral light",
+        "antique stone"
+      ],
+      "description": "Ice crystals growing within an alcove volume. A localized environmental anomaly, restrained illustrated light and texture; no humanoid being, no lettering."
+    },
+    "lore": "During a cold season when the hearth had been dead for weeks, a housekeeper placed the last bowl of coals in an empty shrine niche to warm a child. At dawn the coals were spent and a snowy valley opened inside. The mother touched the stone rim and felt the whole house’s warmth flowing into that winter.\n\nThrough the opening, wind carries a distant forest and the snowfalls of a year held in place. The hollow grows with the heat entrusted to it; fully opened, it places an entire room within its own winter while the outer walls glow like a furnace.",
+    "sources": [],
+    "old_size": [
+      414,
+      414
+    ]
+  }
+]

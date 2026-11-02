@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-page-holder",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Một người chép sổ chặn giấy bằng mảnh khoáng trong. Ông đọc từng câu thành tiếng cho người bên giường nghe, kể cả những ngày người ấy đã thôi đáp. Dưới mảnh đá dần hiện năm ngón mờ; khi ông nhấc đá lên, bàn tay còn lại trên tờ giấy, giữ nó khỏi gió cửa sổ.\n\nTờ giấy đi sang bàn khác, bàn tay đi cùng, thức mỗi khi có tiếng đọc. Người chép luôn đọc hết câu trước khi nghỉ để nó chịu buông. Các học trò học theo phép lịch sự ấy trước cả khi biết hết chữ trong cuốn sổ.",
+    "lore_en": "A ledger copyist weighted his paper with a clear mineral. He read every sentence aloud to someone beside the bed, even on days when no answer came. Five pale fingers slowly appeared beneath the stone; when he lifted it, a hand remained upon the page and held it against the window draft.\n\nMoved to another desk, the paper carried the hand, which woke at spoken reading. The copyist always completed his sentence before resting so it would release. Apprentices learnt that courtesy before they knew every word in the ledger.",
+    "use_vi": "Giữ mép một trang khỏi lật khi người dùng đọc thành tiếng.",
+    "use_en": "Hold one page edge against turning while its user reads aloud.",
+    "limits_vi": "Chỉ giữ một tờ có dấu gốc. Im hơn một phút thì buông; giấy ướt rách vẫn cần đỡ thật và tay không tự đổi sang trang mới.",
+    "limits_en": "It holds only its marked sheet. After over a minute of silence it lets go; wet or torn paper needs real support and the hand does not move to a new page itself.",
+    "skills": [
+      {
+        "name_vi": "Giữ mép đọc",
+        "name_en": "Hold the Reading Edge",
+        "description_vi": "Đặt tờ có dấu dưới trang đang dùng và bắt đầu đọc để bàn tay mờ ghì một góc xuyên qua giấy mỏng; khép câu rồi mới nhấc trang.",
+        "description_en": "Place the marked sheet beneath the working page and read aloud so the pale hand holds one corner through thin paper; finish the sentence before lifting."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chờ câu trọn",
+        "name_en": "Waiting for the Whole Sentence",
+        "description_vi": "Bàn tay nới khi người đọc hạ giọng hết câu. Kéo giấy lúc nó còn ghì có thể làm rách góc.",
+        "description_en": "The hand relaxes when a reader lowers their voice at sentence end. Pulling while it grips can tear the corner."
+      }
+    ]
+  }
+]

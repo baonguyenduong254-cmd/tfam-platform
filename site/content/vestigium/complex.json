@@ -1,0 +1,1749 @@
+[
+  {
+    "id": "device-042",
+    "category": "complex",
+    "rarity": 4,
+    "name_vi": "Diecinueve. Liệp Đăng Bầy Sói Vigilia",
+    "name_en": "Diecinueve. Wolfpack Hunting Lantern Vigilia",
+    "form_vi": "Đèn lồng đỏ chứa những bóng sói",
+    "form_en": "Red glass iron lantern with spectral red wolves swirling around its flame, one coherent lantern-and-wolves magical set",
+    "origin": "collection",
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "lore_vi": "Trong đèn Vigilia có những bóng sói bước quanh một ngọn lửa đỏ. Truyền thuyết của số Mười Chín kể rằng chúng từng theo một người đưa thư qua vùng rừng bị quân truy kích chiếm giữ. Người ấy quay đèn ra phía sau mỗi khi nghe tiếng ngựa, cho đến lúc ánh đỏ trong kính tự mở mắt. Từ đó, bầy sói săn theo những dấu mà ngọn đèn soi được; tiếng chân của chúng luôn đến từ khoảng tối ngay bên cạnh con mồi.",
+    "lore_en": "Red wolves circle the flame inside Vigilia. Nineteen's tradition says they once followed a courier through woods held by pursuers. Whenever hoofbeats approached, the courier turned the lantern backwards, until the red light within the glass opened its eyes. Since then the pack has hunted trails revealed by that light, its footsteps sounding from the darkness beside its quarry.",
+    "use_vi": "Truy sát, quấy rối sườn đội hình và giữ đối thủ trong vùng săn.",
+    "use_en": "Pursuit, flank harassment and confinement within a hunting ground.",
+    "limits_vi": "Bầy sói cần dấu được đèn soi để bám mục tiêu. Che kín kính đỏ hoặc tách con mồi khỏi vùng sáng làm bầy mất đường.",
+    "limits_en": "The pack needs a trail revealed by the lantern. Covering the red glass or separating the quarry from its light breaks the pursuit.",
+    "skills": [
+      {
+        "name_vi": "Khai liệp",
+        "name_en": "Unleash the Hunt",
+        "description_vi": "Thả bầy sói đỏ cắn, ghìm và dồn mục tiêu đã bị ánh đèn đánh dấu.",
+        "description_en": "Releases red wolves to bite, pin and herd a target marked by the lantern."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bầy trong lửa",
+        "name_en": "Pack within the Flame",
+        "description_vi": "Bóng sói trú trong ánh đỏ, trở lại đèn khi bị đánh tan.",
+        "description_en": "The wolves dwell in the red light and return to it when dispersed."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "sources": [],
+    "art": {
+      "kind": "complex",
+      "description": "Red glass iron lantern with spectral red wolves swirling around its flame, one coherent lantern-and-wolves magical set"
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Một hệ triển khai theo số hiệu, không phải mẫu sản xuất hàng loạt. Khả năng thu hồi và tái triển khai được phân biệt với số bản thể.",
+      "note_en": "One number-bound deployment system, not a mass-produced model. Recall and redeployment are distinguished from the number of independent identities."
+    },
+    "applications": [],
+    "classification_status": "editorial",
+    "royal_guard": {
+      "relation": "deployment",
+      "number": 19,
+      "label": "Diecinueve",
+      "parent_id": "device-003"
+    },
+    "content_revision": "lore-20261019",
+    "epigraph_vi": "Đêm nay, mọi kẻ săn người đều phải học cách bị săn.",
+    "epigraph_en": "Tonight, every hunter of men shall learn to be hunted.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Liệp đăng",
+        "name_en": "Hunting Lantern",
+        "description_vi": "Khí cụ giữ lửa và soi dấu mục tiêu.",
+        "description_en": "An implement holding the flame and revealing the quarry's trail."
+      },
+      {
+        "name_vi": "Bầy sói đỏ",
+        "name_en": "Red Wolfpack",
+        "description_vi": "Các bóng săn có thể cắn giữ khi triển khai.",
+        "description_en": "Hunting manifestations able to bite and restrain when deployed."
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-019.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-019.webp",
+    "editorial_review_kind": "authored-from-approved-visual"
+  },
+  {
+    "id": "device-guard-084-seminarium",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Ochenta y Cuatro. Chủng Hạp Thôn Thành Mandragora",
+    "name_en": "Ochenta y Cuatro. Citydevouring Seed Casket Mandragora",
+    "form_vi": "Hộp gỗ chứa hạt đen gân bạc",
+    "form_en": "Open dark wooden casket of black silver-veined seeds, one small thorny carnivorous vine emerging beside it",
+    "epigraph_vi": "Hạt đã vào tường, thành chỉ còn chờ ngày nở.",
+    "epigraph_en": "The seed is in the wall; the fortress waits to bloom.",
+    "lore_vi": "Mandragora giữ những hạt đen gân bạc, nặng khác nhau theo nơi sắp được gieo. Truyền bản kể người giữ số Tám Mươi Bốn từng nuôi một cây nhỏ trong kẽ tường nhà ngục để đo mùa. Rễ tìm đường qua vữa, qua đá, rồi mở khóa cửa bằng chính khung cửa đã bị bẻ cong. Những hạt trong hộp từ đó mang trí nhớ về tường kín: rơi vào một khe nhỏ, chúng bắt đầu lớn theo hình vật đang cần bị phá.",
+    "lore_en": "Mandragora holds black, silver-veined seeds whose weight changes with their intended ground. Its tradition has Eighty-Four growing a plant in a prison wall to mark the seasons. Roots passed through mortar and stone, then opened the door by bending its frame. The seeds retain that memory of enclosure: entering a narrow crack, they grow in the shape of what must be broken.",
+    "use_vi": "Phá công sự bằng rễ tăng trưởng nhanh và đặt bẫy sinh trưởng.",
+    "use_en": "Breaches fortifications with rapidly growing roots and lays growth traps.",
+    "limits_vi": "Cần gieo hạt vào khe hoặc chỗ có thể bám. Hạt lộ ngoài dễ bị lấy đi hoặc đốt; cây đã lớn cần người mang chọn hướng để tránh phá nhầm.",
+    "limits_en": "Seeds need a crack or foothold. Exposed seeds can be removed or burned; growing plants require direction to avoid unwanted destruction.",
+    "skills": [
+      {
+        "name_vi": "Thôn thành căn",
+        "name_en": "Wall-Devouring Roots",
+        "description_vi": "Cho hạt mọc rễ xuyên các khe sẵn có, ép vật liệu chung quanh tách ra.",
+        "description_en": "Grows roots through existing seams, forcing surrounding material apart."
+      },
+      {
+        "name_vi": "Liệp chủng",
+        "name_en": "Hunting Germination",
+        "description_vi": "Giữ hạt ngủ rồi đánh thức khi mục tiêu đi vào vùng đã gieo.",
+        "description_en": "Keeps seeds dormant until a target enters the planted area."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hắc chủng ngân mạch",
+        "name_en": "Silver-Veined Black Seeds",
+        "description_vi": "Mạch bạc sáng trước khi vỏ hạt tách.",
+        "description_en": "Silver veins brighten before the seed coat opens."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 84,
+      "label": "Ochenta y Cuatro",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Open dark wooden casket of black silver-veined seeds, one small thorny carnivorous vine emerging beside it"
+    },
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Khí cụ",
+        "name_en": "Physical implement",
+        "description_vi": "Hộp gỗ chứa hạt đen gân bạc",
+        "description_en": "Open dark wooden casket of black silver-veined seeds, one small thorny carnivorous vine emerging beside it"
+      },
+      {
+        "name_vi": "Biểu hiện triển khai",
+        "name_en": "Deployed manifestation",
+        "description_vi": "Hộp gỗ chứa hạt đen gân bạc",
+        "description_en": "Open dark wooden casket of black silver-veined seeds, one small thorny carnivorous vine emerging beside it"
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-084.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-084.webp"
+  },
+  {
+    "id": "device-guard-091-navicula",
+    "category": "complex",
+    "rarity": 4,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Noventa y Uno. Chỉ Hạm Bạch Dạ Navicula",
+    "name_en": "Noventa y Uno. White-Night Paper Warship Navicula",
+    "form_vi": "Thuyền giấy dầu mở thành chiến hạm bóng trắng",
+    "form_en": "Oiled-paper origami boat unfolding into a translucent white age-of-sail warship silhouette, blue folded keel, no water surface",
+    "epigraph_vi": "Một con thuyền giấy cũng có quyền chở người về.",
+    "epigraph_en": "Even a paper boat may carry someone home.",
+    "lore_vi": "Navicula giữ những nếp gấp rất nhỏ ở mũi tàu, nơi dầu thấm làm giấy trong như cánh ve. Người giữ số Chín Mươi Mốt từng gấp thuyền cho trẻ trong một cảng bị đóng băng, vẽ lên nó cột buồm mà chúng chưa từng nhìn thấy ngoài đời. Khi chiếc thuyền chạm nước, bóng của nó dài qua cả cầu tàu. Thân giấy mở thành vỏ trắng, giữ lại từng nếp gấp dưới kích thước của một chiến hạm vừa được đưa ra khỏi trí tưởng tượng.",
+    "lore_en": "Navicula keeps tiny folds in its prow, its oiled paper translucent as a wing. Ninety-One once folded boats for children in an icebound harbour, drawing masts they had never seen afloat. When the boat touched water, its shadow crossed the entire pier. Paper opened into a white hull, preserving every crease at the scale of a warship drawn from imagination.",
+    "use_vi": "Triển khai chiến hạm nhẹ để cơ động, đổ bộ và tổ chức hỏa lực có sẵn.",
+    "use_en": "Deploys a light warship for movement, landings and mounting available firepower.",
+    "limits_vi": "Cần nước để mở đủ thân tàu. Các nếp gấp là chỗ chịu lực yếu; hỏa lực và thủy thủ phải được đưa lên, còn lửa kéo dài có thể làm vỏ mất hình.",
+    "limits_en": "Needs water to unfold fully. Creases remain weak points; crew and weapons must be embarked, and sustained fire can deform the hull.",
+    "skills": [
+      {
+        "name_vi": "Chỉ hạm triển khai",
+        "name_en": "Unfold the Paper Ship",
+        "description_vi": "Mở thuyền giấy thành một thân chiến hạm trắng có thể chở người và chiến cụ.",
+        "description_en": "Unfolds the paper boat into a white warship hull carrying people and equipment."
+      },
+      {
+        "name_vi": "Thu buồm quy giấy",
+        "name_en": "Fold Back to Paper",
+        "description_vi": "Thu thân tàu đã được giải tải về dạng nhỏ để chuyển vị trí.",
+        "description_en": "Folds the unloaded hull back to its small form for relocation."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nếp giấy cự hạm",
+        "name_en": "Warship Paper Folds",
+        "description_vi": "Những nếp nhỏ giữ kết cấu của thân tàu lớn.",
+        "description_en": "The small folds retain the structure of the enlarged hull."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 91,
+      "label": "Noventa y Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Oiled-paper origami boat unfolding into a translucent white age-of-sail warship silhouette, blue folded keel, no water surface"
+    },
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Khí cụ",
+        "name_en": "Physical implement",
+        "description_vi": "Thuyền giấy dầu mở thành chiến hạm bóng trắng",
+        "description_en": "Oiled-paper origami boat unfolding into a translucent white age-of-sail warship silhouette, blue folded keel, no water surface"
+      },
+      {
+        "name_vi": "Biểu hiện triển khai",
+        "name_en": "Deployed manifestation",
+        "description_vi": "Thuyền giấy dầu mở thành chiến hạm bóng trắng",
+        "description_en": "Oiled-paper origami boat unfolding into a translucent white age-of-sail warship silhouette, blue folded keel, no water surface"
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-091.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-091.webp"
+  },
+  {
+    "id": "armament-guard-009-bastion",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Nueve. Thiên Tiễn Heavenfall và Thiên Hống Heavenroar",
+    "name_en": "Nueve. Heavenfall and Heavenroar",
+    "form_vi": "Bộ găng điều khiển chín thiên tiễn và súng trường đá lửa ba nòng",
+    "form_en": "Pair of white-gold command gauntlets, nine radiant descending heavenly arrows, and one black-silver THREE-BARREL flintlock rifle",
+    "epigraph_vi": "Khi mặt đất hết đường bắn, hãy nhìn lên trời.",
+    "epigraph_en": "When the earth offers no line of fire, look to the heavens.",
+    "lore_vi": "Trong ký ức mà bộ vũ khí để lại, một xạ thủ đã đếm chín lần thay đạn dưới chân bức thành quá cao để nhìn thấy người mình cần cứu. Đến lần thứ mười, anh giơ bàn tay trống. Chín vệt sáng đáp xuống phía bên kia tường, còn khẩu súng trong tay tự khép ba ổ đạn vừa cạn. Heavenfall và Heavenroar giữ hai nửa của khát vọng ấy: chạm tới nơi đôi mắt bị ngăn lại, rồi tiếp tục nổ súng khi mọi túi đạn đã rỗng.",
+    "lore_en": "The weapons preserve an impression of a marksman counting nine reloads beneath a wall too high to reveal those he meant to save. At the next, he raised an empty hand. Nine lights descended beyond the battlements, while his rifle closed over three replenished chambers. Heavenfall and Heavenroar retain that wish: to reach beyond a blocked sightline and keep firing after the ammunition is spent.",
+    "use_vi": "Đánh mục tiêu trên cao hoặc sau vật che, phối hợp hỏa lực trên trời với súng trường.",
+    "use_en": "Combines descending strikes against covered or elevated targets with rifle fire.",
+    "limits_vi": "Thiên tiễn cần người dùng chỉ định vùng đánh; sự che khuất gây khó phân biệt bạn và địch. Heavenroar mất chín giây hồi đạn, tạo một khoảng trống hỏa lực có thể bị khai thác.",
+    "limits_en": "The bearer must designate the arrows' strike area; obscured positions complicate recognition. Heavenroar's nine-second replenishment leaves an exploitable gap in fire.",
+    "skills": [
+      {
+        "name_vi": "Heavenfall",
+        "name_en": "Heavenfall",
+        "description_vi": "Điều khiển chín thiên tiễn giáng từ trên trời theo hiệu lệnh.",
+        "description_en": "Commands nine heavenly arrows to descend from above."
+      },
+      {
+        "name_vi": "Heavenroar",
+        "name_en": "Heavenroar",
+        "description_vi": "Bắn bằng súng trường đá lửa ba nòng; súng tự hồi đạn sau chín giây.",
+        "description_en": "Fires a three-barrel flintlock rifle that restores its ammunition after nine seconds."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một bộ hai hướng đánh",
+        "name_en": "One Set, Two Approaches",
+        "description_vi": "Găng chỉ huy và súng trường ba nòng cùng thuộc số Chín.",
+        "description_en": "The command gauntlets and three-barrel rifle belong to the same numbered set."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 9,
+      "label": "Nueve",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Timothy Beaumont",
+    "owner_en": "Timothy Beaumont",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Pair of white-gold command gauntlets, nine radiant descending heavenly arrows, and one black-silver THREE-BARREL flintlock rifle"
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Timothy nhận Nueve trong canon nhưng dây chuyền chưa đáp; giấc mơ và Bastion là giả định. Gầm Bão là vũ khí riêng.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. Timothy received Nueve in canon but the pendant has not answered; the dream and Bastion are hypothetical. Gầm Bão is a separate weapon.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Găng Heavenfall",
+        "name_en": "Heavenfall Gauntlets",
+        "description_vi": "Bộ găng truyền hiệu lệnh xuống chín thiên tiễn.",
+        "description_en": "Gauntlets transmitting commands to nine descending arrows."
+      },
+      {
+        "name_vi": "Súng Heavenroar",
+        "name_en": "Heavenroar Rifle",
+        "description_vi": "Súng trường đá lửa ba nòng tự hồi đạn.",
+        "description_en": "A three-barrel flintlock rifle with replenishing ammunition."
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-009.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-009.webp"
+  },
+  {
+    "id": "armament-guard-010-concordia",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Diez. Kim Diên Vương Nghi Lilium",
+    "name_en": "Diez. Golden Royal Regalia Lilium",
+    "form_vi": "Bộ trang sức nữ và halberd hoàng kim cùng họa tiết fleur-de-lis",
+    "form_en": "Women's golden fleur-de-lis small crown, pair of earrings, necklace, pair of bracelets and matching long golden halberd, no wearer or display bust",
+    "epigraph_vi": "Hãy để chiến trường cũng phải biết thế nào là huy hoàng.",
+    "epigraph_en": "Let the battlefield learn the meaning of splendour.",
+    "lore_vi": "Lilium gắn với câu chuyện về một người phụ nữ bước vào lễ phong tước trong bộ trang sức đã sửa nhiều lần để che dấu chiến trận. Khi chuông báo động vang lên, nàng lấy cây kích nghi lễ khỏi bệ rồi đi thẳng ra cổng. Số Mười đáp lại sự tự tin ấy bằng vàng ròng, những cánh diên vĩ và một lưỡi kích cân bằng đến tuyệt mỹ. Mỗi món trang sức giữ một đường nét của bộ chiến khí, khiến người mang bước giữa khói súng với dáng vẻ nguyên vẹn của một lễ đăng quang.",
+    "lore_en": "Lilium is associated with a woman whose investiture jewels had been repaired repeatedly to conceal battle damage. At the alarm, she lifted a ceremonial halberd from its stand and walked to the gate. The Tenth answered that confidence with gold, lilies and an exquisitely balanced blade. Every jewel repeats a line of the weapon, carrying the poise of a coronation into gun smoke.",
+    "use_vi": "Đấu kích cận chiến với độ cân bằng, tốc độ và uy lực vượt xa kích nghi lễ thông thường.",
+    "use_en": "Close halberd combat with balance, speed and force far beyond an ordinary ceremonial weapon.",
+    "limits_vi": "Sự hoàn mỹ của vũ khí phát huy theo trình độ người cầm. Nó vẫn cần đường vung và tầm tiếp cận; trang sức rời bộ làm sự phối hợp kém ổn định.",
+    "limits_en": "Its excellence follows the wielder's skill. It still requires reach and a clear swing; separating the jewellery makes coordination less stable.",
+    "skills": [
+      {
+        "name_vi": "Vương nghi vô song",
+        "name_en": "Peerless Royal Bearing",
+        "description_vi": "Bộ trang sức giữ thăng bằng và sức bám của người mang, giúp chuyển mũi đâm, móc và chém liền mạch với lực đánh đặc biệt mạnh.",
+        "description_en": "The regalia steadies balance and grip, allowing seamless thrusts, hooks and cuts of exceptional force."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Kim diên đồng bộ",
+        "name_en": "Golden Lily Ensemble",
+        "description_vi": "Vương miện nhỏ, khuyên tai, dây chuyền và vòng tay cùng nhịp với cán kích.",
+        "description_en": "The small crown, earrings, necklace and bracelets move in harmony with the halberd."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 10,
+      "label": "Diez",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Women's golden fleur-de-lis small crown, pair of earrings, necklace, pair of bracelets and matching long golden halberd, no wearer or display bust"
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Cassandra mang Diez trong canon; chiến kỳ và cảnh hình thành là sáng tác.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. Cassandra bears Diez in canon; the standard and formation scene are invented.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Trang sức kim diên",
+        "name_en": "Golden Lily Jewellery",
+        "description_vi": "Các phụ kiện hoàng kim giữ nhịp và thế của người chiến đấu.",
+        "description_en": "Golden accessories sustaining the fighter's balance and timing."
+      },
+      {
+        "name_vi": "Kích Lilium",
+        "name_en": "Lilium Halberd",
+        "description_vi": "Chiến kích cùng chủ đề, dùng để đâm, móc và chém.",
+        "description_en": "A matching war halberd for thrusting, hooking and cutting."
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-010.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-010.webp"
+  },
+  {
+    "id": "phenomenon-guard-051-nubila",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Cincuenta y Uno. Vân Miện Bão Táp Nubila",
+    "name_en": "Cincuenta y Uno. Stormcloud Crown Nubila",
+    "form_vi": "Vương miện xám có các vòng mây xoay",
+    "form_en": "Grey silver crown with concentric low stormcloud rings floating behind, tiny ice shards in cloud currents",
+    "epigraph_vi": "Vương miện đã đội mây, sấm sẽ biết phải quỳ ở đâu.",
+    "epigraph_en": "The crown wears cloud; thunder shall know where to kneel.",
+    "lore_vi": "Nubila được kể là hiện ra trên đầu một người đứng gác tháp chuông giữa bão. Mây hạ thấp tới mức bàn tay chạm được, quấn quanh vành sắt rồi xoay theo cái nhìn của người ấy. Số Năm Mươi Mốt mang theo tầng trời riêng: một vòng mây xám ngày càng sâu khi nhận hơi nước và điện trong không khí. Trên chiến trường, bóng vương miện đi trước người mang như một lời báo rằng cơn bão đã chọn được tâm của nó.",
+    "lore_en": "Nubila is said to have appeared above a bell-tower guard in a storm. Cloud descended within reach, wound around the iron rim and turned with the guard's gaze. Fifty-One carries a private layer of sky: a grey ring deepening with moisture and charge. Its shadow precedes the bearer as notice that the storm has chosen its centre.",
+    "use_vi": "Đánh từ trên cao, che chuyển quân và áp chế bằng giông cục bộ.",
+    "use_en": "Strikes from above, screens movement and suppresses enemies with a local storm.",
+    "limits_vi": "Cần thời gian gom mây để đạt cơn giông lớn. Không gian kín hạn chế độ cao; đổi tâm nhanh làm tầng mây bị xé mỏng.",
+    "limits_en": "A heavy storm takes time to gather. Enclosed spaces limit its height; rapidly moving the centre thins the cloud.",
+    "skills": [
+      {
+        "name_vi": "Tụ giông",
+        "name_en": "Gather the Storm",
+        "description_vi": "Kéo hơi ẩm thành tầng mây che và mang mưa quanh vùng đã chọn.",
+        "description_en": "Gathers moisture into screening, rain-bearing cloud over a chosen area."
+      },
+      {
+        "name_vi": "Lệnh lôi",
+        "name_en": "Command the Thunder",
+        "description_vi": "Dẫn sét từ tầng mây đã tích tới vùng mục tiêu bên dưới.",
+        "description_en": "Guides lightning from the gathered cloud towards the target area below."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vân miện",
+        "name_en": "Cloud Crown",
+        "description_vi": "Các vòng mây quay quanh vành miện, hiện mức tích giông.",
+        "description_en": "Cloud rings revolve around the crown, showing the gathering storm."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 51,
+      "label": "Cincuenta y Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Grey silver crown with concentric low stormcloud rings floating behind, tiny ice shards in cloud currents"
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Người mang có tên trong hồ sơ này là nhân vật sáng tác.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. The named bearer in this dossier is invented.",
+    "relationships": [],
+    "components": [
+      {
+        "name_vi": "Khí cụ",
+        "name_en": "Physical implement",
+        "description_vi": "Vương miện xám có các vòng mây xoay",
+        "description_en": "Grey silver crown with concentric low stormcloud rings floating behind, tiny ice shards in cloud currents"
+      },
+      {
+        "name_vi": "Biểu hiện triển khai",
+        "name_en": "Deployed manifestation",
+        "description_vi": "Vương miện xám có các vòng mây xoay",
+        "description_en": "Grey silver crown with concentric low stormcloud rings floating behind, tiny ice shards in cloud currents"
+      }
+    ],
+    "art_asset": "/vestigium/art/guard-v9-051.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-051.webp"
+  },
+  {
+    "id": "complex-uno-speculum",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "canon",
+    "skills": [
+      {
+        "name_vi": "Muôn hướng cùng vươn",
+        "name_en": "Countless Reaching Paths",
+        "description_vi": "Đặt xích ở nhiều vị trí qua các mặt gương, khiến đối thủ khó đoán đòn đánh sẽ tới từ đâu và khó chọn một mục tiêu duy nhất.",
+        "description_en": "Places chains in several positions through mirrors, obscuring the direction of the next attack and making a single target difficult to choose."
+      },
+      {
+        "name_vi": "Xích trong phản chiếu",
+        "name_en": "Chains within Reflections",
+        "description_vi": "Dẫn xích qua các mặt gương để áp sát từ nhiều hướng, trong khi phần xích tương ứng ngoài gương có thể biến mất.",
+        "description_en": "Routes chains through reflections to approach from several directions while their corresponding lengths outside the mirrors can disappear."
+      },
+      {
+        "name_vi": "Cửa gương",
+        "name_en": "Mirror Passage",
+        "description_vi": "Một mặt phản chiếu có thể mở thành đường đi thật như cảnh Isabella xuất hiện qua phía bên kia.",
+        "description_en": "A reflection can open into a real passage, as when Isabella emerges on its other side."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Bóng gương chạm được",
+        "name_en": "Reflections That Can Touch",
+        "description_vi": "Những gì xuất hiện trong gương có thể tác động lên chiến trường thật. Đối thủ phải đề phòng cả các hướng đánh đang nằm trong phản chiếu.",
+        "description_en": "What appears in a mirror can act upon the real battlefield. An enemy must guard against attacks still held within reflections."
+      }
+    ],
+    "sources": [
+      {
+        "volume": 4,
+        "chapter": 139,
+        "tab_id": "t.79rlxgkddqma",
+        "anchor": "Nàng kích hoạt Uno. Âm thanh đầu tiên là tiếng kính rung từ rất xa, một nốt mỏng chạy qua tường rồi nhân thành hàng trăm nốt khác. Các mặt gương bắt đầu mọc ra từ đá Hoàng cung, từ sàn, cột, trần và cả khoảng không không có điểm tựa, từng tấm sáng lên như bề mặt nước đông cứng dựng đứng giữa không trung."
+      },
+      {
+        "volume": 4,
+        "chapter": 139,
+        "tab_id": "t.79rlxgkddqma",
+        "anchor": "Ngoài gương, sợi xích hoàn toàn biến mất. Testarossa đưa tay. Trong một mặt gương, xích cuộn quanh cổ tay nàng; ở mặt khác nó treo từ trần; trong mặt thứ ba, mũi nhọn đã nằm sát sàn."
+      }
+    ],
+    "content_revision": "approved-visual-v9",
+    "name_vi": "Uno. Thế Giới Xích Gương Speculum",
+    "name_en": "Uno. World of Mirrored Chains Speculum",
+    "form_vi": "Miền gương và xích của Uno",
+    "form_en": "Uno’s field of mirrors and chains",
+    "lore_vi": "Một thân thể chỉ có thể đứng ở một nơi. Người mà Testarossa muốn bảo vệ lại có thể gặp hiểm nguy từ mọi phía. Khi Uno mở ra, sàn đá, cột trụ và khoảng không cùng hiện những mặt gương; trong mỗi mặt kính, sợi xích của nàng đã chờ ở một vị trí khác. Một cánh tay đưa lên, vô vàn hướng đánh cùng đổi theo. Khát vọng che chở có được hình hài trong thế giới ấy: dù hiểm nguy tìm tới từ đâu, vẫn có một bàn tay kịp vươn ra.\n\nGiữa cuộc giao tranh với đôi búp bê, những khả thể trong gương khiến đối thủ phải dè chừng nhiều nơi cùng lúc. Xích xuyên qua mặt kính, đường đi mở ra giữa phản chiếu, còn Isabella bước tới từ phía bên kia. Mỗi lối mở đều do người sử dụng chống giữ bằng chính sức mình. Qua bao mặt gương, vết thương vẫn ở đó, máu vẫn chảy; người đứng sau những khả thể ấy vẫn là Testarossa.",
+    "lore_en": "One body can stand in only one place. Those Testarossa wishes to protect may face danger from every side. When Uno opens, stone floors, pillars and empty air acquire mirrors; within each pane, her chain already waits in a different position. One raised arm changes countless lines of attack. The longing to protect takes shape in that world: wherever danger comes from, a hand may yet reach out in time.\n\nIn the battle against the paired dolls, the possibilities within the mirrors force their enemy to guard several places at once. Chains pass through glass, passages open within reflections, and Isabella steps through from the other side. The bearer sustains each opening with her own strength. Across all those mirrors, wounds remain and blood still flows; the one standing behind those possibilities is still Testarossa.",
+    "use_vi": "Khống chế chiến trường bằng nhiều vị trí khả thể, xích trong gương và lối qua mặt phản chiếu.",
+    "use_en": "Controls a battlefield through possible positions, mirrored chains and passages through reflections.",
+    "limits_vi": "Duy trì nhiều mặt gương cùng lúc làm người sử dụng hao sức. Thương tích và mất máu vẫn ảnh hưởng trực tiếp đến khả năng chiến đấu. Các mặt phản chiếu cho nàng nhiều hướng ra tay; sức lực để hành động vẫn do chính nàng bỏ ra.",
+    "limits_en": "Sustaining several mirrors at once exhausts the bearer. Wounds and blood loss continue to impair her fighting. Reflections offer more directions from which to act; the strength for those actions remains her own.",
+    "owner_vi": "Testarossa",
+    "owner_en": "Testarossa",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Tên gọi mô tả được bổ sung cho triển lãm; cơ chế dưới đây đối chiếu từ truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. Descriptive naming is supplied for the exhibition; the workings below are checked against the story.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 1,
+      "label": "Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Miền gương",
+        "name_en": "Mirror Domain",
+        "description_vi": "Những bề mặt phản chiếu giữ các vị trí khả thể và mở đường đi.",
+        "description_en": "Reflecting surfaces hold possible positions and open passages."
+      },
+      {
+        "name_vi": "Xích phản chiếu",
+        "name_en": "Reflected Chains",
+        "description_vi": "Xích tham gia nhiều mặt gương để tác động vào cùng một chiến trường.",
+        "description_en": "Chains participate in several reflections to act upon one battlefield."
+      }
+    ],
+    "classification_status": "editorial",
+    "epigraph_vi": "Nếu một mình thân thể này không thể bảo vệ được người, hãy để vô vàn khả thể này cùng ta thực hiện điều đó.",
+    "epigraph_en": "If this body alone cannot protect you, let countless possibilities stand with me and see it done.",
+    "editorial_note_vi": "Đoạn về khát vọng che chở là diễn giải văn chương theo chỉ dẫn tác giả, không khẳng định một sự kiện khai sinh mới.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "complex-dos-sutura",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "canon",
+    "skills": [
+      {
+        "name_vi": "Phân thể liên kết",
+        "name_en": "Linked Disarticulation",
+        "description_vi": "Tách các phần cơ thể trong mạng chỉ để thay đổi vị trí và góc tác động mà vẫn giữ liên kết điều khiển.",
+        "description_en": "Separates body portions within a thread-network to change position and angle while retaining control."
+      },
+      {
+        "name_vi": "Khâu mạch sinh mệnh",
+        "name_en": "Vital Suturing",
+        "description_vi": "Nối mô, cơ và mạch máu theo cấu trúc Scarlet nhận biết, hỗ trợ giữ bệnh nhân qua giai đoạn nguy kịch.",
+        "description_en": "Reconnects recognised tissue, muscle and vessels to help carry a patient through a critical interval."
+      },
+      {
+        "name_vi": "Kén huyết chỉ",
+        "name_en": "Blood-Thread Cocoon",
+        "description_vi": "Kết chỉ thành lớp đỡ, quấn giữ và dẫn kéo người hoặc vật qua khoảng nguy hiểm.",
+        "description_en": "Weaves supportive cocoons and tethers to hold and draw people or objects across danger."
+      },
+      {
+        "name_vi": "Mạch khâu độc lập",
+        "name_en": "Independent Suture Circuits",
+        "description_vi": "Chia mạng thành các vòng khép riêng để giảm phản hồi cưỡng ép trong tình huống mạng chỉ bị đối phương can thiệp.",
+        "description_en": "Divides the network into separate closed circuits to reduce forced feedback when an enemy interferes with it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thân thể là một phần hệ",
+        "name_en": "Body as Part of the System",
+        "description_vi": "Sutura triển khai trực tiếp vào Scarlet; cô vừa điều khiển vừa là thành phần sống của tổ hợp.",
+        "description_en": "Sutura deploys directly into Scarlet; she is both its operator and its living component."
+      }
+    ],
+    "sources": [
+      {
+        "volume": 2,
+        "chapter": 34,
+        "tab_id": "t.ju9a82vsj2t5",
+        "anchor": "Vai phải cô gái trượt khỏi chốt khớp. Tiếp đó là khuỷu tay, rồi đến đầu gối. Lần lượt hông, mắt cá, từng đốt sống, xương bả vai cho tới những đoạn xương sườn méo lệch đều rời rạc dần."
+      },
+      {
+        "volume": 3,
+        "chapter": 101,
+        "tab_id": "t.bp5ymwckkx9j",
+        "anchor": "“Timothy, tôi không muốn biến một chuyện anh may mắn sống sót thành lời hứa rằng Sutura chữa được mọi thứ. Tôi có thể nối mô, mạch máu, cơ và nhiều thứ mà y sĩ bình thường không chạm tới, nhưng liệt do tổn thương thần kinh là một câu chuyện khác.”"
+      },
+      {
+        "volume": 4,
+        "chapter": 141,
+        "tab_id": "t.bqyitlj0a2im",
+        "anchor": "Scarlet ngẫm một chút rồi tựa khuỷu tay lên bàn. “Thường thì tôi trả phần lớn. Sutura dùng dự trữ của tôi để giữ mạch, khép mô và dẫn đường, còn cơ thể người bệnh vẫn phải tự lo nhiệt, đường huyết, oxy với mấy thứ còn lại.”"
+      }
+    ],
+    "content_revision": "approved-visual-v9",
+    "name_vi": "Dos. Huyết Chỉ Sinh Mệnh Sutura",
+    "name_en": "Dos. Lifeblood Sutures Sutura",
+    "form_vi": "Cơ thể sống và mạng chỉ huyết kim",
+    "form_en": "A living body joined by blood-metal threads",
+    "lore_vi": "Dos chảy vào Scarlet, và các khớp của cô rời chốt. Vai, hông, xương sườn tách ra giữa những sợi đỏ vẫn giữ quyền thuộc về cùng một cơ thể. Sutura xuất hiện ngay trong ranh giới ấy: máu nhận độ bền của kim loại, còn những phần thân thể xa nhau tiếp tục nghe cùng một ý chí.\n\nTrên chiến trường, mạng chỉ ấy đổi góc đánh và đón lấy người sắp rơi. Trên bàn mổ, nó tìm những đầu mạch đã tuột sâu vào thịt, giữ đường sống cho người mà đôi tay y sĩ khó chạm tới. Scarlet phải hiểu thứ mình đang nối. Một sợi chỉ có thể khép mô; phần đời trở lại trong mô ấy còn cần nhiệt, máu, dưỡng chất và thời gian.",
+    "lore_en": "Dos flows into Scarlet, and her joints release. Shoulder, hip and ribs separate along red threads that preserve their belonging to one body. Sutura emerges at that boundary: blood takes on the strength of metal, while distant portions of flesh continue to answer one will.\n\nOn a battlefield the network changes her angle of attack and catches the falling. On an operating table it finds vessels withdrawn deep into flesh and holds a path for life where a surgeon’s hands struggle to reach. Scarlet must understand what she joins. A thread can close tissue; the life returning through it still needs warmth, blood, nourishment and time.",
+    "use_vi": "Chiến đấu đa hướng, cứu hộ, nối mô và hỗ trợ can thiệp ngoại khoa.",
+    "use_en": "Multi-angle combat, rescue, tissue reconnection and surgical support.",
+    "limits_vi": "Dùng dự trữ của Scarlet. Tổn thương thần kinh cần xử lý riêng; nối mô không bảo đảm phục hồi chức năng. Bệnh nhân vẫn cần nhiệt, đường huyết và oxy. Khi Dos cạn, khả năng phân tách cơ thể bị hạn chế.",
+    "limits_en": "Draws on Scarlet’s reserves. Nerve damage requires separate treatment; joining tissue does not guarantee restored function. Patients still need warmth, glucose and oxygen. An exhausted Dos restricts bodily separation.",
+    "owner_vi": "Scarlet",
+    "owner_en": "Scarlet",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Tên gọi mô tả được bổ sung cho triển lãm; cơ chế dưới đây đối chiếu từ truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. Descriptive naming is supplied for the exhibition; the workings below are checked against the story.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 2,
+      "label": "Dos",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Scarlet",
+        "name_en": "Scarlet",
+        "description_vi": "Cơ thể sống vừa điều khiển vừa nhận trực tiếp sự triển khai của Dos.",
+        "description_en": "The living body both controls and directly receives Dos’s deployment."
+      },
+      {
+        "name_vi": "Chỉ huyết kim",
+        "name_en": "Blood-Metal Threads",
+        "description_vi": "Mạng chỉ nối phần thân thể, giữ mạch và tạo các đường cứu hộ.",
+        "description_en": "The thread network joins body portions, supports vessels and forms rescue lines."
+      }
+    ],
+    "classification_status": "editorial",
+    "epigraph_vi": "Còn một sợi chỉ nối người với sự sống, ta vẫn chưa buông tay.",
+    "epigraph_en": "While one thread binds you to life, I shall not let go.",
+    "illustration_note_vi": "Ảnh minh họa riêng mạng chỉ huyết kim; toàn bộ phức hợp còn bao gồm cơ thể Scarlet.",
+    "illustration_note_en": "The illustration depicts the blood-metal thread network; the complete complex also includes Scarlet’s living body."
+  },
+  {
+    "id": "complex-noventa-siete-palingenia",
+    "category": "complex",
+    "rarity": 7,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Chiến thành tái lâm",
+        "name_en": "Return of the War City",
+        "description_vi": "Gióng chuông để dựng một phần thành đã nhận dấu, chồng lối đi và tường lên trận địa hiện tại.",
+        "description_en": "Tolls to raise a traced part of the city, overlaying its streets and walls upon the present battlefield."
+      },
+      {
+        "name_vi": "Chìa mở cố môn",
+        "name_en": "Key to the Old Gate",
+        "description_vi": "Mở một cửa trong thành tái lâm để nối các lối vốn thuộc cùng hệ thành.",
+        "description_en": "Opens a gate in the recalled city, connecting passages belonging to its original system."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thành nhớ vết thương",
+        "name_en": "A City Remembering Wounds",
+        "description_vi": "Công trình tái lâm giữ cả những phần hỏng của ký ức được gọi.",
+        "description_en": "Recalled structures retain the damage within the summoned memory."
+      }
+    ],
+    "sources": [],
+    "content_revision": "lore-20261019",
+    "name_vi": "Noventa y Siete. Chiến Thành Tái Lâm Palingenia",
+    "name_en": "Noventa y Siete. Returning War Citadel Palingenia",
+    "form_vi": "Chuông trắng, chìa khóa và miền thành quách",
+    "form_en": "White bell and old citadel key beside an ethereal miniature remembered fortress with spectral siege engines, coherent set",
+    "lore_vi": "Palingenia gồm chiếc chuông trắng và một chìa khóa giữ hình cánh cổng chưa ai tìm thấy. Khi gió đi qua lỗ chìa, người nghe đôi lúc đếm được tiếng giày trên một đại lộ nằm dưới nhiều tầng đổ nát. Truyền bản về số Chín Mươi Bảy kể một thành phố bị phá đến mức tên nó rời khỏi mọi bản đồ. Người cuối cùng giữ chìa đã gióng chuông từ nền móng. Những bức tường trở lại, mỗi viên đá mang một vết thương còn nguyên, và cánh cổng mở ra về phía cuộc vây hãm chưa chịu kết thúc. Palingenia giữ quyền gọi thành trì đã mất trở về trong ký ức của chính đất từng mang nó.",
+    "lore_en": "Palingenia comprises a white bell and a key shaped for an unfound gate. Wind through its bow sometimes carries footsteps from an avenue buried beneath ruins. Ninety-Seven's tradition tells of a city destroyed until its name vanished from every map. Its last key-keeper rang from the foundations. Walls returned with every wound intact, and the gate opened upon a siege that had refused to end. Palingenia recalls a lost stronghold from the memory of the earth that bore it.",
+    "use_vi": "Triệu hồi miền thành quách từng tồn tại để tái lập tuyến phòng ngự và mở hướng phản công.",
+    "use_en": "Recalls a once-existing stronghold domain to restore defensive lines and counterattack routes.",
+    "limits_vi": "Cần nền tích hoặc dấu gắn với thành được gọi và đặt được chuông. Chỉ gọi hình thành quách; người đã chết giữ nguyên số phận. Thành thu lại khi tiếng chuông và điểm chìa cùng bị cắt.",
+    "limits_en": "Requires ruins or a trace belonging to the recalled city and a placed bell. It recalls the stronghold's form; the dead remain dead. Severing bell and key anchors withdraws the city.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "note_vi": "Hồ sơ theo dõi một trang bị gắn với người mang số hiệu này; số lượng không xác định bậc sức mạnh.",
+      "note_en": "This dossier follows one equipment manifestation bound to this bearer; quantity does not determine power rank.",
+      "count": 1
+    },
+    "royal_guard": {
+      "number": 97,
+      "label": "Noventa y Siete",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Chuông trắng và chìa",
+        "name_en": "White Bell and Key",
+        "description_vi": "Hai khí cụ giữ lời gọi và điểm mở thành.",
+        "description_en": "Two implements anchoring the recall and gate opening."
+      },
+      {
+        "name_vi": "Thành quách tái lâm",
+        "name_en": "Recalled Stronghold",
+        "description_vi": "Miền kiến trúc trở lại theo ký ức nền tích.",
+        "description_en": "An architectural domain returning through the memory of its foundations."
+      }
+    ],
+    "classification_status": "editorial",
+    "epigraph_vi": "Thành đã mất trên bản đồ vẫn còn một lần mở cổng.",
+    "epigraph_en": "A city lost to the map still has one opening of its gates.",
+    "relationships": [],
+    "art": {
+      "kind": "complex",
+      "description": "White bell and old citadel key beside an ethereal miniature remembered fortress with spectral siege engines, coherent set"
+    },
+    "editorial_review_kind": "authored-from-approved-visual"
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "category": "complex",
+    "rarity": 1,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Dẫn ấm theo rễ",
+        "name_en": "Root-Borne Warmth",
+        "description_vi": "Phân nhiệt từ lõi than tới nhánh sống quấn quanh một máng nước.",
+        "description_en": "Distribute core heat through living branches around a water channel."
+      },
+      {
+        "name_vi": "Mắt lò khép",
+        "name_en": "Furnace Bud Closure",
+        "description_vi": "Ngừng cấp một nhánh khi nhựa xuống thấp để bảo vệ lõi cây.",
+        "description_en": "Stop heating a sap-depleted branch to protect the plant core."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Căn Lò Hỏa Tủy",
+        "name_en": "Hearthmarrow Root",
+        "description_vi": "Ánh đỏ chạy trong nhựa mà gỗ ngoài vẫn mềm, cho người chăm nhìn được nhánh đang nhận nhiệt.",
+        "description_en": "Red light travels in sap while outer wood stays supple, revealing heated branches."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v4",
+    "name_vi": "Căn Lò Hỏa Tủy",
+    "name_en": "Hearthmarrow Root",
+    "form_vi": "Rễ cây và than kết mạch dưới tro",
+    "form_en": "A root and coal joined beneath ash",
+    "lore_vi": "Rễ cây cháy dở bị chôn trong hố than cạnh một vỉa khoáng đỏ. Mùa sau, các mắt rễ mở như những cửa lò nhỏ, còn than mọc vân cùng nhịp nhựa. Phần cây dẫn nước vào khoáng; phần khoáng giữ nhiệt của than tắt rồi chuyển tới đúng nhánh còn sống.\n\nNó hút chất từ đất và phát rễ về vùng lạnh hơn, tự giới hạn nhánh khi thiếu nước. Người giữ vườn trồng cả căn lò dưới nền nhà ươm, bọc máng nước bằng các nhánh sống. Cắt rễ để lấy vật sưởi rời chỉ làm nhánh cạn nhựa; nghề chăm nó cần người biết cây cùng người biết đá.",
+    "lore_en": "A charred root was buried in a coal pit beside a red mineral seam. Next season its buds opened like furnace doors and the coal grew veins in time with the sap. The plant carried water into mineral; the mineral retained dead coal’s warmth and directed it to living branches.\n\nIt draws nourishment from soil and roots towards colder areas, limiting branches during drought. Gardeners grow the whole beneath nursery floors and wrap water channels in living roots. Cutting off portable heaters merely exhausts their sap; tending requires knowledge of plants and stone together.",
+    "use_vi": "Phân nhiệt từ lõi than tới nhánh sống quấn quanh một máng nước.~Mắt lò khép",
+    "use_en": "Distribute core heat through living branches around a water channel.~Furnace Bud Closure",
+    "limits_vi": "Nguồn nhiệt phải được nạp lại; cần đất ẩm và khoáng đúng nguồn. Tách rễ khỏi lõi hoặc để nhựa cạn khiến nhánh héo.",
+    "limits_en": "The heat source needs replenishment; it requires damp soil and its original mineral. Severing roots from the core or draining sap withers branches.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "Rễ tìm vùng lạnh ẩm, khép mắt đỏ khi đất khô và nghỉ sau đợt sưởi dài.",
+    "behavior_en": "Roots seek cold damp ground, close their red buds in drought and rest after long heating.",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Hồ sơ sáng tác mở rộng cho bộ sưu tập, chưa xuất hiện trong truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. An original collection expansion, not yet attested in the story.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Chưa có khảo sát đủ để xác nhận số lượng còn tồn tại.",
+      "note_en": "No sufficient survey has established the surviving quantity."
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Cây rễ và nhựa",
+        "name_en": "Root and Sap Plant",
+        "description_vi": "Nhận nước, nuôi mầm và chọn nhánh còn được cấp nhiệt.",
+        "description_en": "Take water, sustain buds and select heated branches."
+      },
+      {
+        "name_vi": "Than khoáng giữ lửa",
+        "name_en": "Firekeeping Mineral Coal",
+        "description_vi": "Lưu nhiệt đã nhận trong cấu trúc than, đưa vào nhựa theo chênh lạnh.",
+        "description_en": "Store received heat in coal structure and feed sap according to cold gradients."
+      }
+    ],
+    "epigraph_vi": "*“Rễ uống than, than mọc mầm.”*",
+    "epigraph_en": "*“Roots drink coal; coal puts forth shoots.”*",
+    "editorial_review_kind": "complex-natures-rebuilt"
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "category": "complex",
+    "rarity": 4,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Vá giáp bằng rễ",
+        "name_en": "Root-Woven Repair",
+        "description_vi": "Bện rễ khoáng qua vết nứt có nền bám.",
+        "description_en": "Braid mineral roots across anchored cracks."
+      },
+      {
+        "name_vi": "Nẹp theo nhịp",
+        "name_en": "Rhythmic Splint",
+        "description_vi": "Dựng nẹp quanh chi tổn thương rồi mở khớp theo nhịp đã tập.",
+        "description_en": "Brace an injured limb and release joints in a practised rhythm."
+      },
+      {
+        "name_vi": "Lá che vết hở",
+        "name_en": "Leaves Cover Gaps",
+        "description_vi": "Khép lớp lá cứng trên khe nhỏ trong thời gian rễ mọc.",
+        "description_en": "Close tough leaves over small openings while roots grow."
+      },
+      {
+        "name_vi": "Rễ báo tải",
+        "name_en": "Roots Signal Load",
+        "description_vi": "Đổi màu nhựa tại điểm giáp đang gần vượt sức.",
+        "description_en": "Change sap colour where armour approaches its limit."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giáp Vườn Bạch Thiết",
+        "name_en": "Whiteiron Garden Harness",
+        "description_vi": "Vòng sinh trưởng xuất hiện trên thép cùng vườn; tỉa đúng rễ làm khớp giáp nhẹ đi ngay.",
+        "description_en": "Growth rings appear on steel with the garden; correctly pruning roots immediately eases a joint."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v4",
+    "name_vi": "Giáp Vườn Bạch Thiết",
+    "name_en": "Whiteiron Garden Harness",
+    "form_vi": "Giáp kim loại kết với hệ rễ tái cấu trúc",
+    "form_en": "A metal harness joined to a restructuring root system",
+    "lore_vi": "Áo giáp thủng nằm suốt mùa trong vườn thuốc. Rễ xuyên lỗ đạn, uống nước gỉ và nhận hình đinh tán; thép đồng thời mọc vân như thân cây. Khi chủ cũ mặc lại, một chồi trắng đóng quanh chỗ giáp hở rồi mở theo nhịp khuỷu tay, cho cơ thể bên trong cử động cùng cơ thể đang mọc ngoài nó.\n\nVườn cần nước, đất ở các hốc giáp và ánh sáng; khung thép cần điểm bám còn chịu lực. Người mang tập cùng thợ vườn trước chiến dịch, tỉa rễ ở khớp và dành giờ mở giáp phơi lá. Những đội quân có áo này phải chở cả đất cùng hạt giống; sức bền của chiến binh kéo theo mùa sinh trưởng của một vườn nhỏ.",
+    "lore_en": "Perforated armour lay for a season in a medicinal garden. Roots crossed bullet holes, drank rust-water and learned rivet shapes while steel grew woodlike veins. When its former owner wore it, a white shoot closed a gap and opened with his elbow, letting the body within move with the body growing outside.\n\nThe garden needs water, soil in armour hollows and light; the frame needs sound anchors. Bearers train with gardeners before campaigns, prune joint roots and open the armour for leaf-light. Armies using it carry soil and seeds; a soldier’s endurance includes a small garden’s growing season.",
+    "use_vi": "Bện rễ khoáng qua vết nứt có nền bám.~Nẹp theo nhịp",
+    "use_en": "Braid mineral roots across anchored cracks.~Rhythmic Splint",
+    "limits_vi": "Cần chăm và thời gian, giáp vẫn có thể bị xuyên. Thiếu nước khiến rễ cứng; tỉa sai khóa khớp hoặc làm mất điểm chịu lực. Nẹp hỗ trợ chi, thương tích vẫn cần chữa.",
+    "limits_en": "Care and time are required and the armour can still be penetrated. Drought stiffens roots; wrong pruning locks joints or removes support. Splints support limbs while injuries still need treatment.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "Rễ hướng về chỗ nứt có lực, lá khép khi có va đập và mở lúc người mang yên.",
+    "behavior_en": "Roots seek loaded cracks; leaves close on impact and open when the bearer rests.",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Hồ sơ sáng tác mở rộng cho bộ sưu tập, chưa xuất hiện trong truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. An original collection expansion, not yet attested in the story.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Chưa có khảo sát đủ để xác nhận số lượng còn tồn tại.",
+      "note_en": "No sufficient survey has established the surviving quantity."
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Khung giáp thép",
+        "name_en": "Steel Armour Frame",
+        "description_vi": "Nhận lực đòn và cung cấp các điểm bám theo khớp người.",
+        "description_en": "Receive blows and supply anchors following human joints."
+      },
+      {
+        "name_vi": "Vườn rễ sống",
+        "name_en": "Living Root Garden",
+        "description_vi": "Nuôi chồi, vá vết hở và đọc nhịp vận động qua tiếp xúc.",
+        "description_en": "Feed shoots, bridge gaps and read movement through touch."
+      },
+      {
+        "name_vi": "Nhựa khoáng trắng",
+        "name_en": "White Mineral Sap",
+        "description_vi": "Truyền nhịp giữa rễ với thép, làm chỗ nối vừa mềm vừa chịu lực.",
+        "description_en": "Transmit rhythm between root and steel, making joins flexible and strong."
+      }
+    ],
+    "epigraph_vi": "*“Thép chịu chém, rễ học giữ người.”*",
+    "epigraph_en": "*“Steel bears the blade; roots learn to hold a person.”*",
+    "editorial_review_kind": "complex-natures-rebuilt"
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Hành lang lò thẳm",
+        "name_en": "Abyssal Furnace Passage",
+        "description_vi": "Mở đường nước qua các tầng băng cho tàu theo gần.",
+        "description_en": "Open water through ice layers for close-following vessels."
+      },
+      {
+        "name_vi": "Vòm biển ấm",
+        "name_en": "Warm Sea Vault",
+        "description_vi": "Giữ một khoảng nước cùng không khí ấm trên lưng khi trồi.",
+        "description_en": "Hold warm water and air above its back while surfaced."
+      },
+      {
+        "name_vi": "Ca xương đáp",
+        "name_en": "Answering Bone Song",
+        "description_vi": "Nhận tiếng gọi có nhịp quen và trả vị trí bằng âm sâu.",
+        "description_en": "Recognise familiar rhythmic calls and answer with deep position-bearing sound."
+      },
+      {
+        "name_vi": "Lặn hồi lò",
+        "name_en": "Furnace Recovery Dive",
+        "description_vi": "Đưa cơ thể xuống dòng khoáng để nạp lại mạng tủy.",
+        "description_en": "Descend into mineral currents to replenish its marrow network."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cá Voi Lò Thẳm",
+        "name_en": "Abyssal Furnace Whale",
+        "description_vi": "Hơi nổi thành đường xương trên biển ngay trước khi thân trồi; các phần cộng sinh đổi ánh theo cùng nhịp ca.",
+        "description_en": "Vapour outlines bones upon the sea before surfacing; symbiotic portions brighten to one song rhythm."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v4",
+    "name_vi": "Cá Voi Lò Thẳm",
+    "name_en": "Abyssal Furnace Whale",
+    "form_vi": "Sinh vật biển cộng sinh với khoáng nhiệt trong xương",
+    "form_en": "A sea creature symbiotic with thermal minerals in its bones",
+    "lore_vi": "Bộ xương cá voi chìm dưới bãi tàu săn kết khoáng sinh nhiệt trong tủy. Quần thể sinh vật nhỏ dựng quanh nó một thân chung, còn tiếng hát in trong xương tập cho thân ấy nhịp bơi. Khi nó trồi lên, vực biển theo sau như một lò mở, bẻ những tầng băng thành các mái vòm nước ấm.\n\nĐàn cộng sinh ăn vụn hữu cơ và lấy khoáng từ dòng sâu; chủ thể mới chọn đường theo tiếng hát của loài đã cho bộ xương. Tàu đi theo phải để khoảng biển cho nó kiếm ăn và lặn hồi nhiệt. Các cảng phía bắc giữ quy ước dập pháo khi nó tới, vì cả tuyến thương mại có thể đóng lại khi một sinh vật bị săn đuổi.",
+    "lore_en": "A whale skeleton beneath a whaling ground gathered heat-generating mineral in its marrow. Small organisms assembled one shared body around it, while song impressed in bone taught that body to swim. When it surfaced, the abyss followed like an opened furnace, breaking ice layers into warm-water vaults.\n\nIts symbionts consume organic fragments and take minerals from deep currents; the new being chooses routes by the songs of the species that gave its bones. Following ships must leave feeding and thermal-recovery water. Northern ports silence guns at its arrival, since pursuit of one creature can close an entire trading route.",
+    "use_vi": "Mở đường nước qua các tầng băng cho tàu theo gần.~Vòm biển ấm",
+    "use_en": "Open water through ice layers for close-following vessels.~Warm Sea Vault",
+    "limits_vi": "Cần thức ăn, dòng sâu và thời gian hồi; lộ trình thuộc ý muốn của sinh vật. Băng khép sau khi lò cạn, tàu theo quá xa dễ mắc lại.",
+    "limits_en": "It needs food, deep currents and recovery; the creature chooses its route. Ice closes after its furnace is spent, trapping ships that follow too far behind.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "Nghe tiếng hát trước khi trồi, mở đường theo đàn cá và lặn khi tiếng săn nổi lên.",
+    "behavior_en": "It listens for song before surfacing, opens passages along fish shoals and dives at hunting sounds.",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Hồ sơ sáng tác mở rộng cho bộ sưu tập, chưa xuất hiện trong truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. An original collection expansion, not yet attested in the story.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Chưa có khảo sát đủ để xác nhận số lượng còn tồn tại.",
+      "note_en": "No sufficient survey has established the surviving quantity."
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Quần thể cộng sinh",
+        "name_en": "Symbiotic Community",
+        "description_vi": "Một cộng đồng sống hợp thành cơ thể, cùng ăn và chọn hành vi.",
+        "description_en": "A living community forms one body, feeding and choosing together."
+      },
+      {
+        "name_vi": "Tủy khoáng nhiệt",
+        "name_en": "Thermal Mineral Marrow",
+        "description_vi": "Nhận năng lượng dòng sâu rồi trao nhiệt trên đường bơi.",
+        "description_en": "Receive deep-current energy and release heat along its passage."
+      },
+      {
+        "name_vi": "Xương giữ tiếng loài",
+        "name_en": "Songholding Bones",
+        "description_vi": "Lưu nhịp ca cũ để điều hòa vận động và nhận lời gọi.",
+        "description_en": "Retain ancestral rhythms to regulate movement and recognise calls."
+      }
+    ],
+    "epigraph_vi": "*“Xương gọi đàn, vực nhóm lửa.”*",
+    "epigraph_en": "*“Bone calls the pod; the abyss kindles fire.”*",
+    "editorial_review_kind": "complex-natures-rebuilt"
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Mùa giữa hai nhịp",
+        "name_en": "Season between Two Beats",
+        "description_vi": "Mở một mùa sinh trưởng cho các luống đã neo.",
+        "description_en": "Open a growing season for anchored beds."
+      },
+      {
+        "name_vi": "Lối hạt về",
+        "name_en": "Seedward Exit",
+        "description_vi": "Giữ đường ra theo các neo khoáng.",
+        "description_en": "Keep exits along mineral anchors."
+      },
+      {
+        "name_vi": "Chuông gọi luống",
+        "name_en": "Bell Calls the Beds",
+        "description_vi": "Mở đúng luống được gọi theo nghi thức chung.",
+        "description_en": "Open beds named in the shared rite."
+      },
+      {
+        "name_vi": "Quả qua mùa",
+        "name_en": "Fruit across Seasons",
+        "description_vi": "Mang sản vật thật ra ngoài qua lối neo.",
+        "description_en": "Bring real produce through anchor passages."
+      },
+      {
+        "name_vi": "Hồi chuông đóng",
+        "name_en": "Closing Peal",
+        "description_vi": "Rút miền về những luống đã an toàn, giữ cây còn lại trong giấc mùa.",
+        "description_en": "Withdraw the domain to secured beds and hold remaining plants in seasonal sleep."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vườn Trong Tiếng Chuông",
+        "name_en": "Garden within a Bell’s Voice",
+        "description_vi": "Rễ có bóng theo hai mặt trời khi chạm ranh; quả hái ra giữ vòng tuổi của mùa bên trong.",
+        "description_en": "Roots cast shadows under two suns at the boundary; harvested fruit retains its interior season’s age."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v4",
+    "name_vi": "Vườn Trong Tiếng Chuông",
+    "name_en": "Garden within a Bell’s Voice",
+    "form_vi": "Miền thực vật tồn tại trong âm chuông và hạt khoáng",
+    "form_en": "A botanical domain existing within bell-sound and mineral seeds",
+    "lore_vi": "Người giữ vườn chôn hạt giống và đất ấm trong chuông đồng trước đợt giá cuối. Nhiều năm sau, hồi chuông đầu kéo một khoảng mùa xuân ra khỏi nhịp ngày đang trôi. Cây thực mọc trong miền ấy, còn hạt khoáng quanh nền giữ cho đất và quả có đường trở lại thế giới ngoài.\n\nVườn là một quần thể sống cần nước, côn trùng và dưỡng chất; chuông là khí cụ định nhịp; miền mùa có thời gian riêng. Người giữ đưa ong vào theo luống, bón đất thật và học hồi chuông mở lối ra trước hồi gọi lớn. Một vụ mùa có thể đi qua trong buổi ngân, nhưng đất kiệt và sâu bệnh cũng lớn theo mùa bên trong.",
+    "lore_en": "A gardener buried seeds and warm earth in a bronze bell before the final freeze. Years later its first peal drew a spring interval outside the passing day. Real plants grew within it, while mineral seeds around the foundation kept a return path for soil and fruit.\n\nThe garden is a living community needing water, insects and nutrients; the bell sets rhythm, and the seasonal domain has its own time. Keepers introduce pollinators by bed, replenish real earth and learn the exit peal before the great opening. A harvest may pass within a ringing hour, but depleted soil and pests also advance through the interior season.",
+    "use_vi": "Mở một mùa sinh trưởng cho các luống đã neo.~Lối hạt về",
+    "use_en": "Open a growing season for anchored beds.~Seedward Exit",
+    "limits_vi": "Cần chuông nguyên, đất thật, neo và nghi thức được cùng nhớ. Đứt nhịp làm miền khép; người bên trong phải tới lối neo trước hồi cuối. Thời gian nội miền cũng làm người và vật già đi.",
+    "limits_en": "It needs a whole bell, real soil, anchors and a commonly remembered rite. Broken rhythm closes the domain; occupants must reach anchors before the final peal. Interior time also ages people and objects.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "Miền mở theo nhịp ngân; cây hướng về mặt trời nội miền, còn rễ tìm nền đất neo.",
+    "behavior_en": "The domain opens to the peal; plants face its internal sun while roots seek anchored earth.",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Hồ sơ sáng tác mở rộng cho bộ sưu tập, chưa xuất hiện trong truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. An original collection expansion, not yet attested in the story.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Chưa có khảo sát đủ để xác nhận số lượng còn tồn tại.",
+      "note_en": "No sufficient survey has established the surviving quantity."
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Chuông đồng định nhịp",
+        "name_en": "Rhythm-Setting Bronze Bell",
+        "description_vi": "Đặt điểm mở và đóng của khoảng mùa riêng.",
+        "description_en": "Set opening and closure of the seasonal interval."
+      },
+      {
+        "name_vi": "Hạt khoáng neo miền",
+        "name_en": "Mineral Domain Seeds",
+        "description_vi": "Nối nền vườn với đất ngoài để vật sống đi qua.",
+        "description_en": "Join garden soil to outer earth for living passage."
+      },
+      {
+        "name_vi": "Quần thể vườn sống",
+        "name_en": "Living Garden Community",
+        "description_vi": "Sinh trưởng, thụ phấn, kết quả và tiêu thụ dưỡng chất thật.",
+        "description_en": "Grow, pollinate, fruit and consume real nutrients."
+      },
+      {
+        "name_vi": "Miền mùa xuân",
+        "name_en": "Spring Domain",
+        "description_vi": "Cho thời gian sinh trưởng trôi giữa hai nhịp của ngoài giới.",
+        "description_en": "Allow growing time to pass between two outside beats."
+      }
+    ],
+    "epigraph_vi": "*“Chuông ngân, một mùa đứng giữa hai nhịp.”*",
+    "epigraph_en": "*“The bell rings; a season stands between two beats.”*",
+    "editorial_review_kind": "complex-natures-rebuilt"
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "category": "complex",
+    "rarity": 7,
+    "origin": "collection",
+    "skills": [
+      {
+        "name_vi": "Hải trình chưa thành",
+        "name_en": "The Unrealised Voyage",
+        "description_vi": "Mở tuyến tới nơi có người thật chờ theo lời hẹn.",
+        "description_en": "Open a route to someone truly waiting under a promise."
+      },
+      {
+        "name_vi": "Gió tương lai",
+        "name_en": "Future Wind",
+        "description_vi": "Mượn gió của một tuyến còn khả hữu để đẩy tàu qua miền.",
+        "description_en": "Borrow wind from a still-possible route to propel the ship through its domain."
+      },
+      {
+        "name_vi": "Bến chưa dựng",
+        "name_en": "Unbuilt Harbour",
+        "description_vi": "Cho tàu cập một bờ chưa có công trình cảng nhưng có điểm đón thật.",
+        "description_en": "Land at a shore lacking harbour works but possessing a real welcome."
+      },
+      {
+        "name_vi": "Xưởng qua biển",
+        "name_en": "Workshop across Sea",
+        "description_vi": "Đưa vật đóng mới từ xưởng đã nhận việc tới phần tàu tương ứng.",
+        "description_en": "Transfer new work from an accepted workshop to its corresponding ship section."
+      },
+      {
+        "name_vi": "Thuyền trưởng đáp gọi",
+        "name_en": "Captain Answers the Call",
+        "description_vi": "Triệu chủ thể giữ lái từ tiếng gọi của thủy thủ được nhận.",
+        "description_en": "Call forth the steering subject through accepted sailors’ voices."
+      },
+      {
+        "name_vi": "Khép một khả hữu",
+        "name_en": "Close One Possibility",
+        "description_vi": "Khi cập bến, đóng tuyến tương lai đã cho gió để chuyến vừa đi thành duy nhất.",
+        "description_en": "On arrival, close the wind-giving future so the completed voyage becomes unique."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cột Buồm Thứ Mười Ba",
+        "name_en": "The Thirteenth Mast",
+        "description_vi": "Cột thứ mười ba có bóng trên biển trước khi có thân trên boong; gió buồm có thể thổi ngược thời tiết quanh tàu.",
+        "description_en": "The thirteenth mast casts a sea-shadow before appearing upon deck; sail-wind may oppose the surrounding weather."
+      }
+    ],
+    "sources": [],
+    "content_revision": "rebuild-v4",
+    "name_vi": "Cột Buồm Thứ Mười Ba",
+    "name_en": "The Thirteenth Mast",
+    "form_vi": "Tàu gỗ sống, thuyền trưởng ký ức và hải trình chưa thành",
+    "form_en": "A living wooden ship, a remembered captain and an unrealised voyage",
+    "lore_vi": "Con tàu mười hai cột chết giữa biển băng khi thợ cả vẫn đóng phần việc cuối trên bờ. Mỗi đinh biến khỏi xưởng trong đêm; ngoài khơi, một cột thứ mười ba mọc lên từ lời hẹn chưa hoàn thành. Bóng thuyền trưởng đứng dậy khi thủy thủ sống sót gọi, và buồm bắt gió của những hải trình còn có thể thành thật.\n\nThân gỗ sống uống nước qua chân cột, vá mình theo ký ức công việc. Chủ thể thuyền trưởng chọn tuyến bằng lời gọi người sống; miền hải trình mở tới một bến chưa xây nếu thật có người chờ ở nơi ấy. Những thành phố ven biển giữ lời hẹn đón tàu như giữ một luồng lạch, bởi mỗi lần tới bến đóng vĩnh viễn một tương lai đã nhường gió.",
+    "lore_en": "The twelve-masted vessel died in ice while its master builder finished the last work ashore. Each nail vanished from his workshop overnight; offshore a thirteenth mast grew from an unfinished promise. The captain’s shadow rose at surviving sailors’ calls, and its sails caught wind from voyages still capable of becoming real.\n\nLiving timber drinks through mast roots and repairs itself from remembered labour. The captain-subject chooses routes through living calls; the voyage-domain reaches an unbuilt harbour if someone truly waits there. Coastal cities preserve their welcome as carefully as a channel, since each arrival permanently closes one future that supplied its wind.",
+    "use_vi": "Mở tuyến tới nơi có người thật chờ theo lời hẹn.~Gió tương lai",
+    "use_en": "Open a route to someone truly waiting under a promise.~Future Wind",
+    "limits_vi": "Cần lời hẹn có người nhận, nơi chờ xác định và thân tàu còn chịu biển. Mỗi chuyến tiêu một tuyến khả hữu vĩnh viễn; lời hẹn giả làm buồm rủ, đổi điểm chờ giữa miền có thể khiến tàu mất lối ra.",
+    "limits_en": "It needs an accepted promise, a definite waiting place and a seaworthy hull. Each voyage permanently spends one possible route; false promises slacken sails, and moving the waiting place mid-domain can strand the ship.",
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "Buồm mở khi lời hẹn có người đáp; thuyền trưởng đi kiểm boong trước mỗi tuyến, thân gỗ mọc về chỗ thợ còn chăm.",
+    "behavior_en": "Sails open when a promise receives an answer; the captain inspects the deck before each route and timber grows towards tended work.",
+    "rarity_note_vi": "Bậc trưng bày do biên tập đề xuất; bản thảo chưa xác nhận bậc riêng của sản phẩm. Hồ sơ sáng tác mở rộng cho bộ sưu tập, chưa xuất hiện trong truyện.",
+    "rarity_note_en": "Editorial display rank; the manuscript has not confirmed this creation’s independent rank. An original collection expansion, not yet attested in the story.",
+    "quantity": {
+      "kind": "unknown",
+      "note_vi": "Chưa có khảo sát đủ để xác nhận số lượng còn tồn tại.",
+      "note_en": "No sufficient survey has established the surviving quantity."
+    },
+    "applications": [],
+    "components": [
+      {
+        "name_vi": "Thân gỗ sống",
+        "name_en": "Living Timber Hull",
+        "description_vi": "Hấp nước, sinh trưởng và vá hình tàu theo việc đóng còn được tiếp nối.",
+        "description_en": "Drink, grow and repair the ship through continued shipwright labour."
+      },
+      {
+        "name_vi": "Chủ thể thuyền trưởng",
+        "name_en": "Captain-Subject",
+        "description_vi": "Nghe lời gọi, nhận người chờ và tự chọn quyết định lái.",
+        "description_en": "Hear calls, recognise waiting people and choose navigation."
+      },
+      {
+        "name_vi": "Miền hải trình khả hữu",
+        "name_en": "Possible Voyage Domain",
+        "description_vi": "Nối biển thật với nơi một bến còn có thể thành hình.",
+        "description_en": "Join real sea to a place where a harbour can still arise."
+      },
+      {
+        "name_vi": "Cột buồm lời hẹn",
+        "name_en": "Promise-Bound Mast",
+        "description_vi": "Khí cụ giữ buồm và nhận gió từ tương lai được chọn.",
+        "description_en": "An instrument holding sail and receiving wind from a chosen future."
+      }
+    ],
+    "epigraph_vi": "*“Cột chưa đóng, biển đã dựng buồm.”*",
+    "epigraph_en": "*“The mast is unbuilt; the sea has raised its sail.”*",
+    "editorial_review_kind": "complex-natures-rebuilt"
+  },
+  {
+    "id": "complex-guard-041-viridarium",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Cuarenta y Uno. Lâm Thương Cổ Thụ Viridarium",
+    "name_en": "Cuarenta y Uno. Ancient Grove Spear Viridarium",
+    "form_vi": "Giáo gỗ sống với đầu thép quấn rễ",
+    "form_en": "Living wooden spear with steel head and twisting roots, a small rooted scaffold around shaft",
+    "epigraph_vi": "Mũi giáo chạm đất, rừng bắt đầu tiến quân.",
+    "epigraph_en": "The spear touches earth; the forest begins its march.",
+    "lore_vi": "Viridarium kết thành từ cây cọc đánh dấu một khu rừng bị đốn để dựng chiến lũy. Người giữ số Bốn Mươi Mốt đã mài đầu cọc thành giáo, còn những rễ bị chặt mọc ngược lên quanh lưỡi thép. Mỗi lần giáo cắm xuống, đất trả lời bằng tiếng gỗ tách vỏ. Qua một đêm, bãi trống có thể mang cả đội hình cây sống, các cành vươn như hàng mâu chờ lệnh từ bàn tay đang giữ thân cây đầu tiên.",
+    "lore_en": "Viridarium formed from a stake marking woodland felled for a redoubt. Forty-One sharpened the stake into a spear; severed roots grew upwards around its steel. Every planting drew the sound of splitting bark from the ground. In a night, the clearing could hold a formation of living trees, branches poised like spears awaiting the hand upon the first trunk.",
+    "use_vi": "Khống chế mặt đất bằng rễ và biến cây sống thành lực lượng giữ trận.",
+    "use_en": "Controls ground with roots and turns living trees into a holding force.",
+    "limits_vi": "Cần đất hoặc cây có thể nhận rễ. Rút giáo làm mạng rễ mất điều khiển chủ động; lửa rộng và nền đá trống hạn chế phạm vi.",
+    "limits_en": "Requires soil or trees able to receive roots. Withdrawing the spear ends active root control; broad fire and bare stone restrict its reach.",
+    "skills": [
+      {
+        "name_vi": "Lâm thương",
+        "name_en": "Forest Spears",
+        "description_vi": "Gọi rễ và cành đâm lên theo tuyến chỉ định để giữ chân hoặc xuyên mục tiêu.",
+        "description_en": "Calls roots and branches along a chosen line to pin or pierce targets."
+      },
+      {
+        "name_vi": "Cổ thụ hành quân",
+        "name_en": "Marching Trees",
+        "description_vi": "Trao chuyển động chậm cho những cây đã nối vào mạng rễ.",
+        "description_en": "Grants slow movement to trees joined to the root network."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giáo gỗ sống",
+        "name_en": "Living-Wood Spear",
+        "description_vi": "Thân giáo tiếp tục ra rễ quanh đầu thép.",
+        "description_en": "The wooden shaft continues growing roots around the steel head."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 41,
+      "label": "Cuarenta y Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Living wooden spear with steel head and twisting roots, a small rooted scaffold around shaft"
+    },
+    "components": [
+      {
+        "name_vi": "Giáo sống",
+        "name_en": "Living Spear",
+        "description_vi": "Khí cụ cắm rễ và truyền lệnh.",
+        "description_en": "A rooted command implement."
+      },
+      {
+        "name_vi": "Mạng lâm binh",
+        "name_en": "Forest Host",
+        "description_vi": "Rễ và cây sống nhận chuyển động từ giáo.",
+        "description_en": "Roots and trees receiving motion from the spear."
+      }
+    ],
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event.",
+    "relationships": []
+  },
+  {
+    "id": "complex-guard-068-linteum",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Sesenta y Ocho. Quân Y Bạch Trướng Linteum",
+    "name_en": "Sesenta y Ocho. White Field Infirmary Linteum",
+    "form_vi": "Lều quân y bằng vải sống có gân xanh",
+    "form_en": "White field hospital tent with blue-veined living cloth, open fabric partitions and bandage-like tendrils, no people",
+    "epigraph_vi": "Phía sau tấm vải này, hàng quân vẫn còn ngày trở lại.",
+    "epigraph_en": "Behind this cloth, the ranks still have a day of return.",
+    "lore_vi": "Linteum vẫn phồng lên theo hơi thở của những người nằm trong nó. Truyền bản kể một quân y dựng lều bằng những áo sơ mi đã giặt sạch, khâu suốt đêm bằng kim gần gãy. Đến sáng, vải tự nối các đường chỉ còn dang dở và mọc gân xanh quanh cột. Số Sáu Mươi Tám biến lều thành một cơ thể biết giữ những cơ thể khác: mái vải hạ xuống trước mảnh đạn, còn các dải băng bò qua nền để tìm vết thương đang chảy.",
+    "lore_en": "Linteum rises with the breathing of those beneath it. Its tradition tells of a surgeon stitching washed shirts into a shelter through the night. At dawn the cloth completed the seams and grew green veins around its poles. Sixty-Eight made the tent a body that shelters other bodies: canvas dips before fragments, and bandages cross the floor towards bleeding wounds.",
+    "use_vi": "Giữ điểm cứu chữa sát chiến tuyến và ổn định thương binh để tiếp tục chiến đấu hoặc rút lui.",
+    "use_en": "Maintains a forward treatment point and stabilises wounded fighters for continued action or withdrawal.",
+    "limits_vi": "Cần dựng đủ khung và có người điều phối cứu chữa. Vải xử lý cầm máu, cố định và che chắn; thương tổn mất mô lớn vẫn cần điều trị dài hơn.",
+    "limits_en": "Requires its frame to be raised and treatment directed. The cloth controls bleeding, splints and shields; extensive tissue loss still needs prolonged care.",
+    "skills": [
+      {
+        "name_vi": "Bạch trướng hộ trận",
+        "name_en": "Sheltering War Tent",
+        "description_vi": "Làm mái vải co dày tại hướng trúng để giảm sức xuyên của mảnh và đạn nhẹ.",
+        "description_en": "Thickens the struck side of the canopy to reduce penetration by fragments and light shot."
+      },
+      {
+        "name_vi": "Liên thương",
+        "name_en": "Linked Dressings",
+        "description_vi": "Điều khiển nhiều dải băng cầm máu và cố định thương tích cùng lúc.",
+        "description_en": "Directs multiple bandages to control bleeding and stabilise injuries simultaneously."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vải sống",
+        "name_en": "Living Canvas",
+        "description_vi": "Gân xanh đưa dải băng tới những nơi đang cần giữ thương.",
+        "description_en": "Green veins guide bandages towards wounds needing support."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 68,
+      "label": "Sesenta y Ocho",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "White field hospital tent with blue-veined living cloth, open fabric partitions and bandage-like tendrils, no people"
+    },
+    "components": [
+      {
+        "name_vi": "Khung quân y",
+        "name_en": "Treatment Frame",
+        "description_vi": "Các cột giữ vùng cứu chữa được triển khai.",
+        "description_en": "Poles defining the deployed treatment space."
+      },
+      {
+        "name_vi": "Mô vải sống",
+        "name_en": "Living Cloth Tissue",
+        "description_vi": "Mái và dải băng phản ứng theo thương tích trong lều.",
+        "description_en": "Canopy and bandages responding to injuries within the tent."
+      }
+    ],
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "art_asset": "/vestigium/art/guard-v9-068.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-068.webp"
+  },
+  {
+    "id": "complex-guard-083-lucerna",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Ochenta y Tres. Hải Đăng Ngư Quần Lucerna",
+    "name_en": "Ochenta y Tres. Shoal Lighthouse Lucerna",
+    "form_vi": "Cột sáng nhỏ và đàn cá bạc vây xanh",
+    "form_en": "Small submerged-style light post surrounded by a coherent shoal of luminous silver fish with blue fins",
+    "epigraph_vi": "Dưới ánh này, đàn cá nhớ mình từng là những lưỡi bạc.",
+    "epigraph_en": "Beneath this light, the shoal remembers being silver blades.",
+    "lore_vi": "Lucerna sáng bằng một cột nhỏ từng đứng trên thuyền đánh cá. Người giữ số Tám Mươi Ba thắp nó giữa vùng nước tối, gọi đàn cá về trước mùa biển đóng băng. Một đêm, những con cá mang vây xanh tự bơi lên khỏi sóng, vòng quanh ngọn đèn như nước vẫn còn ở đó. Khi kẻ địch tiếp cận, cả đàn xoay cùng một lúc, để lộ mép bạc sắc và tiếng rít của kim loại lướt qua không khí.",
+    "lore_en": "Lucerna shines from a small light once mounted on a fishing boat. Eighty-Three lit it to gather fish before the sea froze. One night blue-finned fish rose clear of the waves and circled as though water remained around the lamp. When an enemy approached, the shoal turned together, revealing silver edges and the hiss of metal passing through air.",
+    "use_vi": "Đánh bằng bầy cá bạc cơ động quanh hải đăng triển khai.",
+    "use_en": "Attacks with a mobile silver shoal around its deployed light.",
+    "limits_vi": "Đàn cá cần giữ trong vùng sáng để nhận lệnh. Đèn bị che hoặc các con bị tách xa làm chúng rơi khỏi đội hình.",
+    "limits_en": "The shoal must remain within the light to receive commands. Covered light or separation breaks its formation.",
+    "skills": [
+      {
+        "name_vi": "Ngân ngư liệp",
+        "name_en": "Silver Shoal Hunt",
+        "description_vi": "Điều đàn cá lao cắt theo một đường hoặc xoáy quanh mục tiêu.",
+        "description_en": "Directs the shoal in cutting passes or a spiral around a target."
+      },
+      {
+        "name_vi": "Hộ đăng",
+        "name_en": "Guard the Light",
+        "description_vi": "Khép đàn thành vòng chắn để làm lệch vật công kích nhẹ quanh cột.",
+        "description_en": "Closes the shoal into a screen that turns lighter attacks around the light."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngư quần lơ lửng",
+        "name_en": "Airborne Shoal",
+        "description_vi": "Đàn cá bơi trong vùng sáng như trong nước.",
+        "description_en": "The fish swim through the light as though through water."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 83,
+      "label": "Ochenta y Tres",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Small submerged-style light post surrounded by a coherent shoal of luminous silver fish with blue fins"
+    },
+    "components": [
+      {
+        "name_vi": "Cột đăng",
+        "name_en": "Beacon",
+        "description_vi": "Nguồn sáng giữ miền bơi và truyền lệnh.",
+        "description_en": "A light sustaining the swimming field and commands."
+      },
+      {
+        "name_vi": "Đàn cá bạc",
+        "name_en": "Silver Shoal",
+        "description_vi": "Các thân cá có mép sắc, vây xanh và khả năng bơi ngoài nước.",
+        "description_en": "Sharp-edged silver fish with blue fins, able to swim beyond water."
+      }
+    ],
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "art_asset": "/vestigium/art/guard-v9-083.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-083.webp"
+  },
+  {
+    "id": "complex-guard-088-nauta",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Ochenta y Ocho. Ly Triều Hải Thạch Nauta",
+    "name_en": "Ochenta y Ocho. Separate-Tide Sea Stone Nauta",
+    "form_vi": "Neo đá trắng mở một lòng biển riêng",
+    "form_en": "White stone anchor suspended over a contained trough-shaped field of luminous blue water",
+    "epigraph_vi": "Kẻ giữ neo còn một đại dương chưa ai phong tỏa được.",
+    "epigraph_en": "The anchor's keeper has an ocean no blockade has reached.",
+    "lore_vi": "Nauta trắng như đá vừa lấy khỏi một bờ biển chưa có tên. Người chạm nó nghe sóng từ trong lòng neo, đôi khi thấy bóng một con tàu đi ngang chỗ đáng ra chỉ có đá đặc. Truyền bản về số Tám Mươi Tám kể một thủy thủ đã mang theo biển khi bị đẩy sâu vào đất liền. Mũi neo cắm xuống, chân trời nước mở quanh anh; lá cỏ trên bờ vẫn nguyên, nhưng phía bên kia đã có độ sâu đủ cho một chiến hạm thả buồm.",
+    "lore_en": "Nauta is white as stone lifted from an unnamed shore. Touching it reveals surf within, sometimes a ship's shadow crossing what should be solid rock. Eighty-Eight's tradition tells of a sailor carrying the sea into exile inland. Planting the anchor opened a water horizon; grass remained at the edge, but beyond lay depth enough for a warship under sail.",
+    "use_vi": "Triển khai một miền biển riêng để đổi môi trường giao chiến và điều quân thủy.",
+    "use_en": "Deploys a private sea to change the fighting environment and manoeuvre naval forces.",
+    "limits_vi": "Neo là tâm giữ miền, cần bám chắc. Miền có bờ rõ; kéo bật neo khiến nước thu về và mọi vật bên trong phải tìm đường thoát.",
+    "limits_en": "The firmly planted anchor holds the field's centre. Its shore is defined; uprooting it withdraws the water and forces everything inside to seek an exit.",
+    "skills": [
+      {
+        "name_vi": "Ly triều hải vực",
+        "name_en": "Separate Sea Domain",
+        "description_vi": "Mở một vùng nước có độ sâu riêng quanh neo, phủ lên phần trận địa đã chọn.",
+        "description_en": "Opens a region of water with its own depth around the anchor, overlaying selected ground."
+      },
+      {
+        "name_vi": "Hồi lưu giữ bờ",
+        "name_en": "Shorekeeping Current",
+        "description_vi": "Điều hướng dòng trong miền để đẩy tàu, cuốn mục tiêu hoặc giữ một lối nước.",
+        "description_en": "Directs currents within the domain to move ships, carry targets or hold a passage."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển sau thạch neo",
+        "name_en": "Sea beyond the Stone",
+        "description_vi": "Lòng neo chứa một miền nước tách với nguồn nước tại chỗ.",
+        "description_en": "The anchor contains a sea distinct from local water supplies."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 88,
+      "label": "Ochenta y Ocho",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "White stone anchor suspended over a contained trough-shaped field of luminous blue water"
+    },
+    "components": [
+      {
+        "name_vi": "Thạch neo",
+        "name_en": "Stone Anchor",
+        "description_vi": "Vật giữ tâm và bờ của miền triển khai.",
+        "description_en": "The object holding the domain's centre and shore."
+      },
+      {
+        "name_vi": "Lòng biển riêng",
+        "name_en": "Private Sea",
+        "description_vi": "Miền nước có chiều sâu được mở qua neo.",
+        "description_en": "A deep water domain opened through the anchor."
+      }
+    ],
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "art_asset": "/vestigium/art/guard-v9-088.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-088.webp"
+  },
+  {
+    "id": "complex-guard-092-porticus",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Noventa y Dos. Song Môn Chuyển Trận Porticus",
+    "name_en": "Noventa y Dos. Twin Battle Gates Porticus",
+    "form_vi": "Hai khung bạc gập",
+    "form_en": "Two folding silver portal frames with cold blue spatial depth linking them, complete coherent paired set",
+    "epigraph_vi": "Mở cổng ở đây, và đội quân sẽ tới từ nơi khác.",
+    "epigraph_en": "Open the gate here, and the army shall arrive from elsewhere.",
+    "lore_vi": "Porticus có hai khung bạc gập, nhưng bóng chúng trên đất thường chỉ thành một ô cửa. Trong truyền bản của số Chín Mươi Hai, người giữ cổng đã đi qua cùng hành lang đủ nhiều lần để thuộc số bước của mọi đoàn quân, rồi một ngày mở hai đầu nó về hai phía chiến tuyến. Khoảng giữa hành lang rời khỏi thế giới. Hai khung còn lại giữ chung một ngưỡng cửa, cho một bước chân bắt đầu ở nơi này và đặt xuống nơi kia.",
+    "lore_en": "Porticus has two folding silver frames, though their shadows often form a single doorway. Ninety-Two's tradition concerns a gatekeeper who knew a corridor by the footsteps of marching companies, then opened its ends onto opposite fronts. The corridor's middle left the world. Its frames retained one shared threshold, letting a step begin here and end elsewhere.",
+    "use_vi": "Chuyển quân, đánh sườn và rút người qua hai điểm đã chuẩn bị.",
+    "use_en": "Transfers troops, enables flank attacks and withdraws people between prepared positions.",
+    "limits_vi": "Cần đặt và mở cả hai khung. Cửa có tiết diện hữu hạn; địch chiếm một đầu có thể dùng chung ngưỡng, còn khung bị đẩy lệch làm đường qua gián đoạn.",
+    "limits_en": "Both frames must be placed and opened. The aperture is finite; enemies holding one end may use it too, and a displaced frame interrupts passage.",
+    "skills": [
+      {
+        "name_vi": "Song môn",
+        "name_en": "Paired Gates",
+        "description_vi": "Nối hai khung đã đặt thành một đường qua trực tiếp.",
+        "description_en": "Connects the placed frames into a direct passage."
+      },
+      {
+        "name_vi": "Chiết môn",
+        "name_en": "Angled Gate",
+        "description_vi": "Xoay một khung để đổi hướng vật hoặc quân bước ra ở đầu kia.",
+        "description_en": "Rotates one frame to change the exit direction of passing objects or troops."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một ngưỡng hai nơi",
+        "name_en": "One Threshold, Two Places",
+        "description_vi": "Hai mặt cửa cùng chia sẻ khoảng tiếp giáp khi triển khai.",
+        "description_en": "The two doorways share one adjoining threshold when deployed."
+      }
+    ],
+    "applications": [],
+    "rarity_note_vi": "Bậc trưng bày và cơ chế thuộc phần mở rộng Collection được tác giả cho phép sáng tạo.",
+    "rarity_note_en": "Display rank and mechanics belong to the author-authorised Collection expansion.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 92,
+      "label": "Noventa y Dos",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "lore-20261019",
+    "classification_status": "editorial",
+    "editorial_review_kind": "authored-from-approved-visual",
+    "art": {
+      "kind": "complex",
+      "description": "Two folding silver portal frames with cold blue spatial depth linking them, complete coherent paired set"
+    },
+    "components": [
+      {
+        "name_vi": "Khung bạc đôi",
+        "name_en": "Paired Silver Frames",
+        "description_vi": "Hai khí cụ đặt ở các điểm cần nối.",
+        "description_en": "Two implements placed at the positions to be joined."
+      },
+      {
+        "name_vi": "Ngưỡng chuyển trận",
+        "name_en": "Battle-Transfer Threshold",
+        "description_vi": "Miền tiếp giáp trực tiếp giữa hai khung.",
+        "description_en": "The direct adjoining space between the frames."
+      }
+    ],
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "relationships": [],
+    "art_asset": "/vestigium/art/guard-v9-092.webp",
+    "thumbnail_asset": "/vestigium/thumbs/guard-v9-092.webp"
+  },
+  {
+    "id": "complex-civitas",
+    "category": "complex",
+    "rarity": 6,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Cựu Thành Hồi Khóa Civitas",
+    "name_en": "Key of the Lost Structure Civitas",
+    "form_vi": "Chìa đồng và miền công trình dựng trên nền cũ",
+    "form_en": "Brass key and a structural domain raised upon old foundations",
+    "epigraph_vi": "Mái nhà còn một lần đón người về.",
+    "epigraph_en": "The roof may welcome people once again.",
+    "lore_vi": "Estela trở về nơi từng là nhà mình và tìm thấy vết chân trên bậc cửa cũ. Đất đã lấp sân, còn hàng đá móng vẫn nằm dưới cỏ. Nàng quỳ xuống gạt đất khỏi ngưỡng, ước mái nhà đã mất có thể che người thêm một lần nữa.\n\nChìa Civitas hiện trong lòng bàn tay. Khi nàng đặt nó vào khe ngưỡng, những bức tường dựng lên theo nền thật, rồi mái khép trên khoảng sân trống. Estela bước vào cùng những người đang tìm chỗ tránh rét. Trong nhà chỉ có phần công trình; họ tự mang củi, nước và chăn tới.\n\nMỗi lần rời đi, nàng đếm người qua cửa trước khi nhấc chìa. Mái và tường tan dần, để lộ hàng móng dưới cỏ. Estela giữ ngưỡng sạch đất, dành lần mở tiếp theo cho những bước chân còn có thể trở về.",
+    "lore_en": "Estela returned to the site of her former home and found footprints on the old doorstep. Earth had filled the yard; foundation stones remained beneath the grass. She knelt to clear the threshold, wishing the lost roof could shelter people once more.\n\nThe key Civitas appeared in her palm. Set in the threshold’s cleft, it raised walls along the actual foundations, then closed a roof over the empty yard. Estela entered with people seeking refuge from the cold. Only the structure awaited them; they brought their own wood, water and blankets.\n\nBefore leaving, she counted everyone through the doorway before lifting the key. Roof and walls faded, revealing the grass-covered foundations. Estela kept the threshold clear for the next footsteps that could still return.",
+    "use_vi": "Dựng nơi trú tạm từ công trình đã mất còn nền thật; người sử dụng tự mang vật tư và tổ chức chỗ ở.",
+    "use_en": "Raise temporary shelter from a lost structure whose actual foundations remain; occupants supply provisions and organise its use.",
+    "limits_vi": "Chìa phải ở ngưỡng trên nền thật suốt thời gian duy trì. Chỉ phần công trình trở lại; cư dân cũ, tài nguyên và lịch sử không được phục sinh. Phải đưa mọi người ra trước khi rút chìa.",
+    "limits_en": "The key must remain at the threshold upon actual foundations. Only the structure returns; former residents, resources and history are not revived. Everyone must leave before the key is withdrawn.",
+    "skills": [
+      {
+        "name_vi": "Cựu Nền Dựng Mái",
+        "name_en": "Roof Raised upon Old Foundations",
+        "description_vi": "Chìa dựng tường và mái của công trình đã mất theo nền còn thực, giữ nơi trú có thực tính trong khi chìa nằm ở ngưỡng.",
+        "description_en": "The key raises the walls and roof of a lost structure along its surviving actual foundations, sustaining a tangible shelter while it remains at the threshold."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngưỡng Giữ Chìa",
+        "name_en": "Key-Keeping Threshold",
+        "description_vi": "Vệt sáng ở ngưỡng mờ dần khi chìa bắt đầu được nhấc.",
+        "description_en": "The threshold’s light fades as the key begins to rise."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Nơi trú từ nền cũ",
+        "name_en": "Shelter upon old foundations",
+        "description_vi": "Cho đoàn đi đường nghỉ từng lượt trong mái trú; kiểm đủ người qua ngưỡng rồi mới rút chìa để tiếp tục hành trình.",
+        "description_en": "Shelter a travelling party in successive turns; count everyone through the threshold before withdrawing the key and resuming the journey."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "complex",
+      "materials": [
+        "weathered stone",
+        "aged brass"
+      ],
+      "description": "Brass key and a structural domain raised upon old foundations. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Lịch sử hình thành, người mang và quyền năng trong hồ sơ là sáng tác bộ sưu tập, chưa xác nhận trong canon.",
+    "editorial_note_en": "The formation history, bearer and powers in this dossier are collection inventions unconfirmed in canon.",
+    "components": [
+      {
+        "name_vi": "Chìa Ngưỡng Cũ",
+        "name_en": "Old Threshold Key",
+        "description_vi": "Đặt tại ngưỡng để duy trì công trình dựng lại.",
+        "description_en": "Rests at the threshold to sustain the raised structure."
+      },
+      {
+        "name_vi": "Miền Công Trình",
+        "name_en": "Structural Domain",
+        "description_vi": "Tường và mái có thực tính dựng trên nền còn lại.",
+        "description_en": "Tangible walls and roof raised upon surviving foundations."
+      }
+    ]
+  }
+]

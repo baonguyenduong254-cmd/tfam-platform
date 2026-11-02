@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-patch-dweller",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Chiếc áo khoác được vá bằng vải gói quặng qua nhiều đời người giữ mỏ. Mảnh này giữ dấu tay, mảnh kia có muối từ biển xa; bụi khoáng nằm trong từng đường chỉ. Khi chủ mới xé toạc áo ở gai đá, một dáng người ghép vải đứng giữa vết rách, kéo hai mép sát lại bằng chính những đường nối trên thân mình.\n\nTháo một miếng vá làm hình mất đúng phần đó. Chủ áo bắt đầu vá chậm, giữ từng mảnh cũ trong đường khâu thay vì cắt bỏ cho đẹp. Người trú nhận chiếc áo như một thân thể gồm những thứ đã được giữ lại; nó có thể níu lớp vải trên người chủ cho đến khi bàn tay thật kịp đến sửa.",
+    "lore_en": "The coat had been patched with ore wrappings through generations of mine keepers. One patch held a hand stain, another salt from a distant sea; mineral dust lay in every seam. When its new owner tore it upon stone thorns, a patchwork person stood within the rip, drawing its edges together with the joins of its own body.\n\nRemoving a patch removed that part of the figure. The owner began sewing slowly and keeping old pieces within new seams rather than trimming them for beauty. Its dweller accepts the coat as a body made of things retained, holding fabric upon its wearer until real hands can repair it.",
+    "use_vi": "Giữ mép rách, hướng đường khâu và chuyển lực níu giữa các miếng vá của áo trú.",
+    "use_en": "Hold tears, guide stitching and transfer restraint between the inhabited coat’s patches.",
+    "limits_vi": "Giữ lâu rút ẩm dưới chỗ vá, gây khô rát. Chỉ lớp vải áo gốc, sức chống lạnh và chịu đòn tùy vật liệu thật; tháo mảnh cần giữ nó cho tới lúc khâu lại.",
+    "limits_en": "Long holding draws moisture from beneath a patch and irritates skin. It works on its own coat only; warmth and impact protection depend on real fabric. Retain removed pieces until resewn.",
+    "skills": [
+      {
+        "name_vi": "Níu mép rách",
+        "name_en": "Hold the Tear",
+        "description_vi": "Chạm hai mép áo vào nhau và gọi người trú để nó giữ một đoạn rách nhỏ khép trong hành trình ngắn.",
+        "description_en": "Bring two coat edges together and call the dweller to hold a small tear during a short journey."
+      },
+      {
+        "name_vi": "Chỉ mũi cần khâu",
+        "name_en": "Point to the Stitch",
+        "description_vi": "Đưa kim tới áo đang giữ để nó chạm đường chỉ yếu gần vết rách, hướng nơi cần khâu trước.",
+        "description_en": "Bring a needle to the held coat so it touches weak thread near the rip and indicates where stitching should begin."
+      },
+      {
+        "name_vi": "Chuyền sức níu",
+        "name_en": "Pass the Holding Force",
+        "description_vi": "Vuốt từ mảnh mỏi sang mảnh còn chắc để người trú dời điểm kéo, giảm một chỗ bị hút ẩm quá lâu; mảnh mới phải còn nối.",
+        "description_en": "Stroke from a tired patch to a sound one so the dweller shifts its pull and avoids drying one site too long; the new patch must remain attached."
+      },
+      {
+        "name_vi": "Giữ chỉ khỏi tuột",
+        "name_en": "Keep the Thread From Slipping",
+        "description_vi": "Cho đầu chỉ mới chạm đường cũ để hình giữ nó trong lúc chủ xỏ kim hoặc thắt nút; rời áo thì sự giữ chấm dứt.",
+        "description_en": "Touch fresh thread to an old seam so the figure holds it during threading or knotting; taking it off the coat ends the grip."
+      },
+      {
+        "name_vi": "Mảnh nhớ chỗ",
+        "name_en": "The Patch Remembers Its Place",
+        "description_vi": "Đặt mảnh gốc vừa tháo sát áo để phần hình còn lại chỉ đúng mép từng nối, giúp khâu trở về đúng chỗ.",
+        "description_en": "Hold a removed original patch beside the coat so the remaining figure points to its former join for correct replacement."
+      },
+      {
+        "name_vi": "Áo ôm gió",
+        "name_en": "The Wind-Holding Coat",
+        "description_vi": "Giao một mép cổ hoặc tay áo cho hình níu sát lớp trong, giảm gió lọt qua lỗ hở nhỏ; người mặc phải tự nới nếu khó chịu.",
+        "description_en": "Let the figure draw a cuff or collar against its lining to reduce draft through a small gap; the wearer must loosen it at discomfort."
+      },
+      {
+        "name_vi": "Nới phần da khát",
+        "name_en": "Release the Thirsty Skin",
+        "description_vi": "Làm ẩm miếng vải lót ngoài rồi chạm chỗ níu để hình chuyển nhận nước từ đó, cho da nghỉ khi chưa thể khâu ngay.",
+        "description_en": "Dampen an outer liner and touch the held site so the figure draws moisture there and gives skin relief before repair."
+      },
+      {
+        "name_vi": "Trả áo liền",
+        "name_en": "Return the Whole Coat",
+        "description_vi": "Khâu chắc đường rách rồi vuốt trọn đường nối để hình thôi kéo và nhận thân thể đã sửa, kết lượt giữ.",
+        "description_en": "Stitch the tear firmly and stroke the whole join so the figure releases its pull and accepts the repaired body."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Thân thể những phần giữ lại",
+        "name_en": "A Body of Retained Pieces",
+        "description_vi": "Phần hình tương ứng miếng vá có thể được nối lại khi mảnh gốc trở về. Vải mới cho hình mới lớn chậm theo lượt mặc.",
+        "description_en": "A figure portion can return with its original patch. Fresh cloth develops a new portion slowly through wear."
+      }
+    ]
+  }
+]

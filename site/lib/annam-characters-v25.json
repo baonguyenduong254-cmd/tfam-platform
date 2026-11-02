@@ -1,0 +1,110 @@
+[
+  {
+    "id": "tran_dieu_lan",
+    "faction_id": "annam_empire",
+    "name": "Bùi Thị Xuân",
+    "name_vi": "Bùi Thị Xuân",
+    "name_en": "Bùi Thị Xuân",
+    "role_vi": "Nữ tướng Tây Sơn, thống lĩnh tượng binh",
+    "role_en": "Tây Sơn general and elephant commander",
+    "lore_vi": "Bùi Thị Xuân gia nhập Tây Sơn từ những ngày quân khởi nghĩa còn phải giành từng kho lương và cửa ải. Xuất thân từ miền đất võ Bình Định, bà đem kỷ luật thao trường vào đội quân đang lớn lên giữa chiến trận. Những toán nghĩa binh dưới tay bà học cách giữ hàng ngũ trước hỏa lực, đưa thương binh khỏi tuyến đánh và chăm voi chiến qua những chặng đường dài. Nguyễn Huệ tin dùng người nữ tướng có thể đưa cả một đạo tượng binh tới đúng nơi, đúng lúc.\n\nKhi An Nam thống nhất Đông Dương, bà giữ trọng trách huấn luyện tượng binh và các đội quân xung kích của triều đình. Giữa mùa đông kéo dài, mỗi cuộc hành quân đều bắt đầu bằng việc kiểm tra đường đi, thức ăn và sức chịu đựng của đàn voi. Bùi Thị Xuân trung thành với Nguyễn Huệ bằng sự nghiêm khắc dành cho chính quân mình: người chỉ huy phải đứng ở nơi binh sĩ nhìn thấy, còn thắng lợi phải đủ vững để những người sống sót có thể trở về. Bà nhìn các tôn thất bại trận ở Thăng Long bằng sự cảnh giác của người đã trực tiếp đánh đổ quyền lực họ từng nắm giữ.",
+    "lore_en": "Bùi Thị Xuân joined the Tây Sơn while the rebels still fought for individual granaries and mountain gates. Raised in the martial country of Bình Định, she brought the discipline of the training ground to an army growing amid war. Her soldiers learned to hold their ranks under fire, carry the wounded out of the fighting and tend war elephants through long marches. Nguyễn Huệ came to trust a commander who could bring an entire elephant corps to the appointed ground at the appointed hour.\n\nAfter An Nam united Indochina, she oversaw the training of the imperial elephant corps and assault troops. In the enduring winter, every march began with the roads, fodder and endurance of the animals. Her loyalty to Nguyễn Huệ found expression in the demands she placed upon her own command: soldiers must be able to see their general, and a victory must leave the survivors a road home. She watched the defeated dynasties gathered at Thăng Long with the vigilance of one who had helped overthrow them.",
+    "traits_vi": [
+      "Trung thành Tây Sơn: Gắn danh dự và binh quyền với triều đại Nguyễn Huệ đã dựng nên.",
+      "Kỷ luật sắt: Đòi hỏi hàng ngũ, quân lệnh và việc chăm sóc voi chiến được giữ nghiêm.",
+      "Gánh trách nhiệm: Tự nhận phần nguy hiểm của người chỉ huy trước khi yêu cầu quân sĩ tiến lên."
+    ],
+    "traits_en": [
+      "Tây Sơn loyalty: Binds her honour and military authority to the dynasty Nguyễn Huệ established.",
+      "Iron discipline: Insists upon ordered ranks, clear commands and rigorous care of the elephants.",
+      "Burden of command: Accepts a commander’s share of danger before ordering her soldiers forward."
+    ],
+    "skills_vi": [
+      "Điều khiển tượng trận: Giữ đàn voi trong đội hình, chọn mặt đất và thời điểm xung kích.",
+      "Huấn luyện quân xung kích: Rèn bộ binh theo sát tượng đội, khai thác khoảng trống trước khi địch khép hàng.",
+      "Giữ vững tuyến quân: Tái lập hàng ngũ và tổ chức rút thương binh khi giao chiến trở nên hỗn loạn."
+    ],
+    "skills_en": [
+      "Elephant battle formations: Keeps the animals in order and judges the ground and moment for a charge.",
+      "Assault training: Teaches infantry to follow the elephant corps and exploit openings before enemy ranks close.",
+      "Steadiness under fire: Reforms broken ranks and arranges the recovery of wounded soldiers amid disorder."
+    ],
+    "status_vi": {
+      "1715": "Huấn luyện tượng binh và quân xung kích cho chiến dịch phía tây.",
+      "1716": "Chỉ huy tượng đội trong chiến dịch Xiêm–Miến."
+    },
+    "status_en": {
+      "1715": "Training elephant and assault troops for the western campaign.",
+      "1716": "Commanding elephant troops in the Siam–Burma campaign."
+    },
+    "traits": [
+      "Trung thành Tây Sơn: Gắn danh dự và binh quyền với triều đại Nguyễn Huệ đã dựng nên.",
+      "Kỷ luật sắt: Đòi hỏi hàng ngũ, quân lệnh và việc chăm sóc voi chiến được giữ nghiêm.",
+      "Gánh trách nhiệm: Tự nhận phần nguy hiểm của người chỉ huy trước khi yêu cầu quân sĩ tiến lên."
+    ],
+    "skills": [
+      "Điều khiển tượng trận: Giữ đàn voi trong đội hình, chọn mặt đất và thời điểm xung kích.",
+      "Huấn luyện quân xung kích: Rèn bộ binh theo sát tượng đội, khai thác khoảng trống trước khi địch khép hàng.",
+      "Giữ vững tuyến quân: Tái lập hàng ngũ và tổ chức rút thương binh khi giao chiến trở nên hỗn loạn."
+    ],
+    "status": {
+      "1715": "Huấn luyện tượng binh và quân xung kích cho chiến dịch phía tây.",
+      "1716": "Chỉ huy tượng đội trong chiến dịch Xiêm–Miến."
+    },
+    "portrait_asset": null
+  },
+  {
+    "id": "pham_quang_khai",
+    "faction_id": "annam_empire",
+    "name": "Nguyễn Ánh",
+    "name_vi": "Nguyễn Ánh",
+    "name_en": "Nguyễn Ánh",
+    "role_vi": "Tôn thất họ Nguyễn, con tin chính trị tại Thăng Long",
+    "role_en": "Scion of the Nguyễn lords and political hostage at Thăng Long",
+    "lore_vi": "Nguyễn Ánh lớn lên giữa những dinh trấn và bến thuyền phương nam, nơi quyền lực họ Nguyễn dựa vào cả quân đội, thương nhân lẫn các dòng họ giữ cửa sông. Khi Tây Sơn đánh sập phủ chúa, ông sống sót cùng ký ức về những người từng cúi đầu trước gia tộc mình. Giao ước quy phục đưa ông tới Thăng Long trong hàng ngũ tôn thất của các thế lực bại trận. Triều đình Nguyễn Huệ dành cho ông lễ nghi của một người có dòng dõi và sự giám sát dành cho một yêu sách ngai vàng còn sống.\n\nTrong kinh thành An Nam, Nguyễn Ánh học cách biến sự nhẫn nại thành ảnh hưởng. Ông ghi nhớ tên các chủ thuyền, mối nợ của những nhà buôn và quan hệ giữa các gia đình từ Gia Định ra Phú Xuân. Kinh nghiệm đường biển khiến lời ông có giá trị khi triều đình bàn về cảng, tàu và giao thương; mỗi lần được triệu kiến cũng mở thêm một cơ hội tìm hiểu người đang nắm quyền. Bên ngoài phòng nghị sự, thư từ của ông vẫn bị kiểm tra. Bên trong, ông giữ nguyên câu hỏi về tương lai của họ Nguyễn dưới ngai vàng Tây Sơn.",
+    "lore_en": "Nguyễn Ánh grew up among the southern garrisons and river ports, where the Nguyễn lords drew power from soldiers, merchants and the families controlling the estuaries. When the Tây Sơn brought down their court, he survived with the memory of men who had once bowed to his house. The terms of submission brought him to Thăng Long among the scions of defeated powers. Nguyễn Huệ’s court accorded him the ceremony due to his lineage and the surveillance due to a living claim upon the throne.\n\nWithin the imperial capital, Nguyễn Ánh learned to turn patience into influence. He remembered shipmasters, merchants’ debts and family connections reaching from Gia Định to Phú Xuân. His knowledge of sea routes gave his counsel value whenever the court discussed ports, vessels and trade; each summons also offered another opportunity to study the men in power. Outside the council chamber, his correspondence remained subject to inspection. Within it, he kept his house’s future beneath the Tây Sơn throne firmly in view.",
+    "traits_vi": [
+      "Kiên nhẫn phục thế: Chấp nhận địa vị thấp để giữ mạng lưới và chờ thời cơ chính trị.",
+      "Trọng quan hệ: Ghi nhớ ân nghĩa, món nợ và lợi ích khiến một người đứng về phía mình.",
+      "Tự tôn dòng dõi: Giữ ý thức về quyền kế thừa của họ Nguyễn ngay trong triều đình của đối thủ."
+    ],
+    "traits_en": [
+      "Patient ambition: Accepts a diminished station to preserve connections and await political opportunity.",
+      "A memory for obligations: Remembers the favours, debts and interests that bind people to his cause.",
+      "Dynastic pride: Maintains his house’s claim to succession even within his rival’s court."
+    ],
+    "skills_vi": [
+      "Hiểu biết thủy quân: Đánh giá tàu, luồng lạch và khả năng vận chuyển qua các cửa biển phương nam.",
+      "Xây dựng mạng lưới: Nối thương nhân, chủ thuyền và cựu thuộc hạ bằng lợi ích cụ thể.",
+      "Thương lượng thế yếu: Tìm khoảng nhượng bộ có thể giữ người, tài sản và ảnh hưởng khi quyền quyết định thuộc về đối phương."
+    ],
+    "skills_en": [
+      "Naval judgement: Assesses vessels, channels and transport through the southern estuaries.",
+      "Cultivation of networks: Connects merchants, shipmasters and former retainers through tangible interests.",
+      "Negotiation from weakness: Finds concessions that preserve people, property and influence when the stronger party dictates terms."
+    ],
+    "status_vi": {
+      "1715": "Lưu tại Thăng Long theo giao ước quy phục của thế lực họ Nguyễn.",
+      "1716": "Bị giám sát thư từ khi chiến tranh mở rộng sang phía tây."
+    },
+    "status_en": {
+      "1715": "Residing at Thăng Long under his house’s terms of submission.",
+      "1716": "His correspondence remains under scrutiny as the western war expands."
+    },
+    "traits": [
+      "Kiên nhẫn phục thế: Chấp nhận địa vị thấp để giữ mạng lưới và chờ thời cơ chính trị.",
+      "Trọng quan hệ: Ghi nhớ ân nghĩa, món nợ và lợi ích khiến một người đứng về phía mình.",
+      "Tự tôn dòng dõi: Giữ ý thức về quyền kế thừa của họ Nguyễn ngay trong triều đình của đối thủ."
+    ],
+    "skills": [
+      "Hiểu biết thủy quân: Đánh giá tàu, luồng lạch và khả năng vận chuyển qua các cửa biển phương nam.",
+      "Xây dựng mạng lưới: Nối thương nhân, chủ thuyền và cựu thuộc hạ bằng lợi ích cụ thể.",
+      "Thương lượng thế yếu: Tìm khoảng nhượng bộ có thể giữ người, tài sản và ảnh hưởng khi quyền quyết định thuộc về đối phương."
+    ],
+    "status": {
+      "1715": "Lưu tại Thăng Long theo giao ước quy phục của thế lực họ Nguyễn.",
+      "1716": "Bị giám sát thư từ khi chiến tranh mở rộng sang phía tây."
+    },
+    "portrait_asset": null
+  }
+]

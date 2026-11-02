@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-bell-sitter",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Chuông bàn trạm cân được đúc từ đồng pha một viên khoáng xám để tiếng vang xa. Người trực thường gõ đáp mỗi lần khách gọi. Sau mùa tuyết lớn, một bóng ngồi xuất hiện giữa lưỡi chuông, rung rất nhẹ khi tiếng khách chưa có ai nhận.\n\nĐổi người trực, bóng vẫn đợi lời đáp thay vì chỉ đợi bàn tay chạm. Một lần chuông bị dùng đùa quá nhiều, nó ngồi im cả buổi, để khách thật đứng ngoài tuyết cho đến khi người trực tự nhìn ra. Người ấy từ đó chào cả chiếc chuông trước lượt làm, rồi đặt nó nơi mình có thể nghe thật.",
+    "lore_en": "The weighing station’s desk bell was cast from bronze mixed with a grey mineral to carry its tone. Its attendant answered each customer’s call with a tap. After a heavy-snow season, a seated figure appeared upon the clapper and gave a faint ring whenever a call went unreceived.\n\nWith a new attendant it still awaited acknowledgement rather than mere touching. Once, after too many prank rings, it sat silent through a real customer waiting outside in snow until the attendant looked up. He thereafter greets the bell before duty and places it where he can truly hear.",
+    "use_vi": "Nhắc một cuộc gọi chưa được đáp và chỉ còn lượt chờ trong chuông.",
+    "use_en": "Remind an attendant of an unanswered call and indicate a remaining wait within the bell.",
+    "limits_vi": "Chỉ biết có lời đáp hay chưa; tình huống khẩn cấp cần người đánh giá. Gõ đùa dồn khiến nó thôi nhắc cho đến khi chuông được để yên một lượt.",
+    "limits_en": "It recognises acknowledgement, while urgency needs human judgement. Repeated prank rings stop reminders until the bell rests for a turn.",
+    "skills": [
+      {
+        "name_vi": "Tiếng nhắc muộn",
+        "name_en": "The Later Reminder",
+        "description_vi": "Sau một tiếng gọi chưa đáp, để chuông yên để kẻ ngồi rung thêm một tiếng nhỏ, kéo sự chú ý về cuộc chờ.",
+        "description_en": "After an unanswered call, leave the bell still so its sitter adds one little ring and returns attention to the wait."
+      },
+      {
+        "name_vi": "Bóng còn ngồi",
+        "name_en": "The Still-Seated Figure",
+        "description_vi": "Soi đèn xiên vào chuông để thấy bóng còn ngồi nếu lượt gọi chưa được nhận, giúp người đổi ca kiểm việc chờ; lời đáp đúng cho nó đứng rồi khuất.",
+        "description_en": "Light the bell obliquely to see the figure still seated for an unreceived call and help a new attendant check waiting work; a proper answer lets it stand and fade."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Người chờ được nhận",
+        "name_en": "The Waiting One Seeks Reception",
+        "description_vi": "Bóng đứng dậy khi có lời đáp trực tiếp hướng về người gọi; lời nói vu vơ quanh quầy thường để nó ngồi nguyên.",
+        "description_en": "The figure rises at a direct answer to the caller; unrelated counter talk usually leaves it seated."
+      }
+    ]
+  }
+]

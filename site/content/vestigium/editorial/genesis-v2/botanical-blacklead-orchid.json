@@ -1,0 +1,47 @@
+[
+  {
+    "id": "botanical-blacklead-orchid",
+    "category": "botanical",
+    "rarity": 2,
+    "lore_vi": "Lan mọc trong chiếc mũ sắt đặt trên mộ người thợ chuông. Bên trong mũ có một mảnh quặng ông vẫn mang để thử tiếng đồng. Vào ngày quả chuông mới được kéo lên tháp, cánh hoa đồng loạt sụp xuống, lún cả vành mũ vào đất. Tiếng ngân hết, chúng lại dựng lên nhẹ như giấy.\n\nNgười nuôi đem hạt gieo trong chậu sạch vẫn nhận được hoa tím tro có sống cánh đen. Thứ quặng đã lắng vào dòng sống của lan giữ một mối đáp giữa kim loại va nhau và sức nặng. Các người giữ cửa dùng chậu lan kéo chốt bằng tiếng kìm gõ; trong phòng nhạc, người chăm bọc mọi chân ghế để hoa khỏi tự nghiền mình giữa một bản diễn.",
+    "lore_en": "The orchid grew inside an iron helmet placed upon a bell founder’s grave. Within lay an ore chip he had carried to test bronze tones. On the day a new bell was raised, every petal dropped, driving the helmet rim into the earth. When its peal ended, they rose again light as paper.\n\nSeeds grown in clean pots still produced ash-violet flowers with black petal spines. The ore had settled into the orchid’s living line, keeping a correspondence between colliding metal and weight. Gatekeepers use its pot to pull catches with a tapped pair of tongs; in music rooms, carers pad every chair leg so the flowers do not crush themselves during a performance.",
+    "use_vi": "Dùng tiếng kim loại điều khiển đối trọng, chốt nhỏ và dấu báo tải.",
+    "use_en": "Use metallic sound to control counterweights, small catches and load indicators.",
+    "limits_vi": "Cánh cần được đỡ bằng đài và giá mềm, ép giữa vật cứng làm hoa nát. Tiếng kim loại ngoài ý muốn vẫn kích nặng; mỗi lượt cần khoảng im để hồi.",
+    "limits_en": "Petals need support from their calyx and a soft cradle; crushing between hard objects destroys them. Unintended metallic sound also triggers weight, and each use needs quiet recovery.",
+    "skills": [
+      {
+        "name_vi": "Cánh chì",
+        "name_en": "Lead Petals",
+        "description_vi": "Gõ hai miếng kim loại đã thử để cánh đang được đỡ tăng sức nặng, kéo một đối trọng xuống; âm kéo dài làm cuống chịu tải liên tục.",
+        "description_en": "Strike a tested metal pair so supported petals gain weight and draw a counterbalance down; sustained sound keeps the stem loaded."
+      },
+      {
+        "name_vi": "Chốt nghe chuông",
+        "name_en": "The Listening Catch",
+        "description_vi": "Nối đài hoa vào chốt bằng dây mềm để một tiếng gõ mở chốt từ xa; chốt phải được lò xo thường trả về sau tiếng.",
+        "description_en": "Join the calyx to a catch by soft cord so a knock opens it remotely; an ordinary spring must reset it afterwards."
+      },
+      {
+        "name_vi": "Cân tiếng",
+        "name_en": "Weigh the Tone",
+        "description_vi": "Đặt hoa trên cân có giá đỡ rồi thử các tiếng để so lực đáp, tìm nốt phù hợp trước khi lắp máy; thử dồn làm kết quả lệch vì hoa mỏi.",
+        "description_en": "Cradle the flower on a scale and test tones to compare its response before fitting machinery; rapid trials distort results through fatigue."
+      },
+      {
+        "name_vi": "Nhẹ trong im",
+        "name_en": "Light in Silence",
+        "description_vi": "Đậy chụp cách âm sau một lượt nặng để cánh hồi nhẹ dần, cho cơ cấu trả về có kiểm soát; chụp bị gõ sẽ đánh thức tải lại.",
+        "description_en": "Fit a sound-damping cover after loading so petals gradually lighten and a mechanism resets under control; striking the cover awakens the load again."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nặng khi đồng gọi",
+        "name_en": "Heavy at Bronze’s Call",
+        "description_vi": "Mỗi hoa nhận một dải tiếng rõ nhất. Người trồng thử từng cây và khắc dấu lên chậu thay vì coi cả vườn như nhau.",
+        "description_en": "Each flower responds most clearly to a particular tonal range. Growers test and mark pots rather than treating a whole bed alike."
+      }
+    ]
+  }
+]

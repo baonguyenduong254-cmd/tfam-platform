@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-dewkeeping-moss",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Rêu mọc trên thành giếng đã uống nước rỉ qua một mảnh khoáng lam suốt nhiều mùa. Khi giếng cạn, người hái kéo nó lên và thấy từng giọt vẫn treo dưới lá, rung theo bước chân mà chẳng chịu rơi. Trong rễ, những hạt lam đã lớn thành các nút nhỏ giống mắt lưới.\n\nMảnh khoáng mất dấu sau khi thành giếng sập; những đệm rêu đem trồng nơi khác tiếp tục giữ nước trái hướng rơi. Người hái đầu tiên mang cả mảnh vách về đặt cạnh giường mẹ. Tới sáng, bà đã có một chén nước để uống, còn sương bám dưới lá vẫn đợi bàn tay tới đón.",
+    "lore_en": "Moss upon a well wall had drunk seepage through a blue mineral fragment for many seasons. When the well dried, a gatherer lifted it and found drops hanging beneath the leaves, trembling with each footstep yet refusing to fall. Within its roots, blue grains had grown into little mesh-like knots.\n\nThe mineral vanished when the shaft collapsed; transplanted pads continued holding water against its falling direction. The first gatherer carried a piece of wall home beside his mother’s bed. By morning she had a cup to drink, while dew beneath the leaves still awaited a receiving hand.",
+    "use_vi": "Gom sương và giữ nước dưới tán rêu để thu từng chén trong hầm hoặc vách giếng.",
+    "use_en": "Gather dew and retain water beneath the moss canopy for collection by the cup in tunnels or wells.",
+    "limits_vi": "Mỗi đệm cỡ bàn tay giữ được khoảng một chén trước khi tràn. Muối làm các nút lam co chết; nước hứng vẫn cần lọc theo nguồn.",
+    "limits_en": "A hand-sized pad holds roughly a cup before overflowing. Salt kills the blue knots; collected water still needs treatment appropriate to its source.",
+    "skills": [
+      {
+        "name_vi": "Tán giữ sương",
+        "name_en": "Dew-Holding Canopy",
+        "description_vi": "Tưới ẩm chân rêu rồi úp đệm trên vật hứng để lá kéo và giữ các giọt sương quanh nó; vuốt lá bằng vải sạch sẽ nhả nước xuống bình.",
+        "description_en": "Moisten the roots and invert the pad above a vessel so its leaves draw in and retain nearby dew; stroking them with clean cloth releases water into the vessel."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giọt đợi tay",
+        "name_en": "Drops Awaiting a Hand",
+        "description_vi": "Nước bám vào lá sống; rêu bị giật khỏi rễ sẽ thả toàn bộ nước cùng lúc.",
+        "description_en": "Water clings to living leaves; moss torn from its roots releases its entire store at once."
+      }
+    ]
+  }
+]

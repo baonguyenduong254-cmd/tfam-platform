@@ -1,0 +1,6 @@
+{
+  "status": "8 replacements complete; image generation daily quota reached; validation and publication pending",
+  "completed": 8,
+  "pending": 32,
+  "image_generation_reset_unix": 1792460538
+}

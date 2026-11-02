@@ -1,0 +1,35 @@
+[
+  {
+    "id": "creature-veinscent-mouse",
+    "category": "creature",
+    "rarity": 1,
+    "lore_vi": "Chuột theo thợ mỏ vào một vỉa quặng đã đóng, sống trong bao lót dính bụi bạc. Lứa con có ria sáng, tự tìm những bao chứa khoáng còn phản ứng dù người thợ đã đổi vải và phủ mùi dầu lên tất cả. Những sợi ria dựng riêng mỗi khi chạm tới dấu bụi quen, như những cây kim nhỏ ngửi được thứ mũi người bỏ qua.\n\nMột con cắn thủng bao quý nhất rồi tha giẻ lót về ổ. Người thợ mắng nó, vá bao, sau đó làm cho nó một ổ riêng cạnh bàn phân loại. Công việc của con chuột tiếp tục bắt đầu bằng sự tò mò của một sinh vật đang tìm nơi sống, điều mà người thợ học cách sắp xếp thay vì giận dữ.",
+    "lore_en": "Mice followed miners into a closed ore vein and nested in silver-dusted sack linings. Their young grew bright whiskers and found still-reactive ore despite changed cloth and oil scent spread over every sack. Individual whiskers rose upon a familiar dust trace, like little needles smelling what human noses missed.\n\nOne tore the most valuable sack and carried its lining home. The miner cursed, patched the sack, then built a separate nest beside his sorting bench. The mouse’s work still begins as the curiosity of an animal seeking a home, something its keeper learnt to arrange rather than resent.",
+    "use_vi": "Chọn sơ bộ mẫu quặng quen qua phản ứng ria và lần bụi rơi gần.",
+    "use_en": "Pre-sort familiar ore by whisker response and trace nearby spilled dust.",
+    "limits_vi": "Chỉ loại khoáng đàn đã quen, độ tinh khiết cần thử khác. Mùi gắt khiến chuột hoảng; bụi phải nằm trong hộp thử để tránh con vật ăn quá nhiều.",
+    "limits_en": "It recognises familiar minerals only; purity needs separate testing. Strong odours frighten it, and dust needs a test case to prevent excessive ingestion.",
+    "skills": [
+      {
+        "name_vi": "Ria chọn quặng",
+        "name_en": "Whiskers Select the Ore",
+        "description_vi": "Đưa từng hộp mẫu có lưới tới trước mũi để ria dựng khi gặp khoáng quen, tách hộp cần khảo nghiệm khỏi lô còn lại.",
+        "description_en": "Present screened sample cases singly so whiskers rise at familiar mineral, separating candidates for examination."
+      },
+      {
+        "name_vi": "Lần bụi rơi",
+        "name_en": "Trace the Spilled Dust",
+        "description_vi": "Cho chuột ngửi mẫu gốc rồi để nó lần một vệt bụi ngắn trong khay, tìm vị trí bao rò gần; cần giữ đường thử tách khỏi thức ăn.",
+        "description_en": "Let the mouse smell a reference and follow a short dust trail within a tray to a nearby leaking sack; keep the trial path apart from food."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ria nhận trước miệng",
+        "name_en": "Whiskers Before Teeth",
+        "description_vi": "Ria dựng là dấu sớm. Cắn bao thường là lúc người giữ đã bỏ lỡ dấu và để chuột tự tìm việc khác.",
+        "description_en": "Raised whiskers are the early sign. Chewed sacks usually mean the keeper missed it and the mouse found its own task."
+      }
+    ]
+  }
+]

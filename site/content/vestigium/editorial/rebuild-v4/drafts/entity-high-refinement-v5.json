@@ -1,0 +1,680 @@
+[
+  {
+    "id": "entity-the-witness-of-first-snow",
+    "lore_vi": "Người khảo sát khoan vào lớp tuyết đầu chôn ngôi làng, chạm mạch khoáng dưới giếng. Một người tóc trắng đứng dậy từ lõi, rũ áo cho tuyết bay ngược. Dưới chân nó, mái nhà trở về nguyên vẹn; người thợ đang ngã từ mái cũng đứng lại ở đúng bước trước khi ngói vỡ.\n\nMỗi lớp tuyết trên áo giữ thế giới ở lần đầu bị nó phủ. Khi thực thể cởi một lớp, mặt đất nhận lại hình cũ và người sống bước vào những giờ đã bị mùa đông chôn. Họ có thể đưa người đang mắc kẹt ra khỏi một căn nhà chưa sập, rồi trở về hiện tại với người ấy còn thở. Những người chết từ lâu chỉ đi được tới mép tuyết. Thực thể đứng giữ mép ấy, tóc đứng yên giữa cả hai mùa, chờ khách tự phân biệt điều còn cứu được với điều mình muốn gọi về.",
+    "lore_en": "A surveyor drilled into the first snow burying a village and struck a mineral seam beneath its well. A white-haired person rose from the core and shook snow upwards from its coat. Roofs returned intact beneath its feet; a falling roofer stood again at the step before his tiles broke.\n\nEach snowy layer retains the world as it was first covered. When the entity removes a layer, the ground resumes its former shape and the living enter hours winter buried. They may lead someone trapped from a house before it collapses, returning to the present with that person still breathing. Those long dead can walk only to the snow’s edge. The entity guards that boundary, its hair still between both seasons, waiting for visitors to distinguish what remains recoverable from what they wish to summon back.",
+    "use_vi": "Mở một mùa tuyết đã chôn thành thế giới có thể bước vào và đưa người còn sống dưới lớp ấy ra.",
+    "use_en": "Open a buried snow-season as an enterable world and bring out those still alive beneath it.",
+    "limits_vi": "Chỉ nhận lớp tuyết thật từng chạm. Người còn sống bị chôn trong chính lớp ấy có thể được đưa ra; người đã chết trước lúc tuyết phủ dừng ở mép. Đất hiện tại bị che trong thời gian áo mở; khép áo khi khách còn trong lớp sẽ chôn họ vào mùa ấy.",
+    "limits_en": "It accepts only real snow layers it has touched. People buried alive in that layer may be brought out; those dead before snowfall stop at its edge. Present ground is covered while the coat opens; closing it upon visitors buries them in that season.",
+    "skills": [
+      {
+        "name_vi": "Cởi mùa đã chôn",
+        "name_en": "Remove the Buried Season",
+        "description_vi": "Nó trả mặt đất về trạng thái khi lớp tuyết được nhận vừa phủ, mở một thế giới cũ có thể chạm.",
+        "description_en": "It returns the ground to its state at the accepted snowfall, opening a former world that can be touched."
+      },
+      {
+        "name_vi": "Dắt hơi thở qua mép",
+        "name_en": "Lead Breath across the Edge",
+        "description_vi": "Nó cho người sống bị lớp tuyết ấy chôn đi qua mép về hiện tại, còn người đã chết trước đó giữ lại dáng trong mùa.",
+        "description_en": "It lets living people buried by that snowfall cross into the present; those already dead retain their shapes within the season."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Những mùa mặc chồng",
+        "name_en": "Seasons Worn in Layers",
+        "description_vi": "Các lớp áo giữ độ sâu thật của tuyết; nhìn xuyên thân có thể thấy cả giếng làng đứng dọc giữa những xương trắng.",
+        "description_en": "The coat layers retain snow’s true depth; through its body one may see a village well standing among white bones."
+      }
+    ],
+    "behavior_vi": "Đặt bàn tay lạnh lên ngực người muốn qua mép, lắng nghe trước khi nhường đường.",
+    "behavior_en": "Lays a cold hand upon the chest of anyone crossing the edge, listening before yielding passage.",
+    "applications": [
+      {
+        "name_vi": "Cứu người dưới mùa cũ",
+        "name_en": "Rescue beneath an Older Season",
+        "description_vi": "Giữ mép áo mở, tìm người còn thở trong lớp vừa nhận và đưa họ qua trước khi tuyết khép lại.",
+        "description_en": "Hold the coat’s edge open, find those still breathing within the accepted layer and lead them out before the snow closes."
+      }
+    ],
+    "epigraph_vi": "Dưới lớp trắng này, một bầu trời còn nguyên.",
+    "epigraph_en": "Beneath this whiteness, a whole sky remains.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-counter-of-closed-doors",
+    "lore_vi": "Khi nhà giam bị phá, thợ tháo mang những khung cửa có đinh khoáng ra sân. Đêm ấy, một người mang vòng chìa tối tới khóa từng khoảng trống. Sau tiếng khóa cuối, cả bầu trời trong sân thành mặt gỗ; những người ngủ ngoài tường thấy mình nằm bên trong.\n\nNó sinh từ những lần cửa khép lên một đời người. Mỗi cửa từng cưỡng giữ ai để lại cho nó một chìa, kể cả cửa đã cháy và bức tường chỉ còn trong lời kể. Nó có thể mở lối từ nơi một người bị giam tới phía ngoài của chính việc giam ấy. Tù nhân bước ra qua chiếc bóng ổ khóa trên lòng tay. Kẻ mang xiềng theo để bắt lại họ bị thế giới nhận làm căn phòng: mọi cửa hắn chạm đều mở vào cùng khoảng tối trong ngực mình.",
+    "lore_en": "When a prison was demolished, workers carried mineral-nailed frames into the yard. That night a bearer of dark keys came to lock every empty opening. At the final click, the whole yard’s sky became timber; people sleeping beyond the wall found themselves inside.\n\nIt is born from occasions when a door closes upon a life. Every door ever used to hold someone leaves it a key, including burnt doors and walls surviving only in testimony. It can open passage from a captive’s place to the outside of that captivity itself. Prisoners step out through a keyhole’s shadow upon its palm. Whoever brings chains to recapture them is recognised by the world as a room: every door they touch opens into the same darkness within their chest.",
+    "use_vi": "Mở phía ngoài của một sự giam giữ, kể cả khi ngưỡng cửa vật chất đã mất.",
+    "use_en": "Open the outside of a captivity even after its material threshold is lost.",
+    "limits_vi": "Người bị giữ phải tự xin đi và gọi đúng cánh cửa đã khép mình. Lối chỉ đưa ra ngoài việc giam ấy; thương tích và những người đang chờ bên ngoài vẫn còn. Ai mang quyền cưỡng giữ qua lối sẽ bị nhận làm căn phòng tới khi tự bỏ quyền ấy.",
+    "limits_en": "The captive must request departure and name the door that confined them. Passage leads only outside that captivity; wounds and anyone waiting outside remain. Those bringing coercive authority through are made into a room until they relinquish it.",
+    "skills": [
+      {
+        "name_vi": "Phía ngoài của việc giam",
+        "name_en": "Outside the Captivity",
+        "description_vi": "Nó mở một lối từ thân người bị giữ tới phía ngoài cánh cửa đã được chính họ gọi.",
+        "description_en": "It opens passage from a captive to the outside of the door they personally name."
+      },
+      {
+        "name_vi": "Kẻ giữ thành phòng",
+        "name_en": "The Gaoler Becomes a Room",
+        "description_vi": "Kẻ qua lối để tiếp tục cưỡng giữ người khác thấy mọi ngưỡng của mình quay vào một căn tối trong ngực.",
+        "description_en": "Those crossing to continue captivity find every threshold turning into a dark room within their chest."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Chìa của cửa đã mất",
+        "name_en": "Keys to Lost Doors",
+        "description_vi": "Vòng chìa mang cả những răng khóa chưa từng được thợ rèn làm, thuộc các cửa chỉ sống trong nỗi sợ người bị giam.",
+        "description_en": "Its ring bears teeth no smith ever made, belonging to doors existing only in captives’ fear."
+      }
+    ],
+    "behavior_vi": "Đếm những ổ khóa vắng bằng ngón tay, chờ tên cửa từ miệng người bị giữ.",
+    "behavior_en": "Counts absent keyholes upon its fingers, awaiting the captive’s name for the door.",
+    "applications": [
+      {
+        "name_vi": "Xin mở từ bên trong",
+        "name_en": "Request Opening from Within",
+        "description_vi": "Để người bị giữ tự nói tên cửa và ý muốn đi; giữ phía ngoài có người đón trước khi chạm chìa.",
+        "description_en": "Let the captive name the door and wish to leave; arrange reception outside before touching the key."
+      }
+    ],
+    "epigraph_vi": "Cửa cuối mở khi những cửa đã mất được đếm đủ.",
+    "epigraph_en": "The last door opens when the lost doors have all been counted.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-infirmary-rhythm-keeper",
+    "lore_vi": "Ba giường bệnh đóng từ ván tàu cứu nạn giữ đinh khoáng còn muối. Một đêm người chăm tới giường cuối sau hơi thở cuối, người áo vải xuất hiện giữa phòng, đỡ hơi vừa tắt thành một vòng sáng. Ngực người bệnh chưa chịu yên; cái chết đứng bên cửa như khách đã đến mà chưa được mời vào.\n\nThực thể giữ ba người ở chỗ ranh giới còn phải đợi lời bàn giao. Mỗi vòng trong ngực nó là một lối người chăm có thể bước qua để tới đúng giường, dù giường bị chuyển qua biển. Khi người chăm còn tự nguyện thức và gọi tên, hơi cuối vẫn chưa thành quá khứ. Nó có thể giữ một đêm đủ để thuốc tới hoặc người thân về chào. Tới lúc người trực nhận rằng mình phải nghỉ, thực thể mở tay, trả mỗi đời về chính thân ấy.",
+    "lore_en": "Three infirmary beds made from rescue-ship planks retained salt upon mineral nails. One night a carer reached the final bed after the final breath; a cloth-clad person appeared, holding that extinguished breath as a luminous ring. The patient’s chest would not settle; death stood at the door like a guest awaiting invitation.\n\nThe entity keeps three people where the boundary must await handover. Each chest-ring is a passage through which the carer reaches that bed, even if it has crossed a sea. While the keeper willingly stays awake and calls their names, the final breath has not become the past. It may hold a night for medicine to arrive or family to say farewell. When the keeper admits the need for rest, it opens its hands and returns each life to its own body.",
+    "use_vi": "Giữ hơi cuối ở ngưỡng chưa kết và mở lối tới ba giường đã nhận.",
+    "use_en": "Hold a final breath at its unfinished threshold and open passage to three accepted beds.",
+    "limits_vi": "Phải nhận người lúc còn thở và có người tự nguyện thức gọi tên. Thương tổn tiếp tục cần được chữa; giữ hơi chỉ để cái chết chưa hoàn tất. Người trực ngủ hoặc ép người khác thế mình sẽ mở vòng ngay. Tối đa ba giường gốc.",
+    "limits_en": "It must accept people while they still breathe, with a willing keeper awake and naming them. Injuries still need treatment; holding breath merely leaves death unfinished. Sleep or coercing a replacement opens the rings immediately. At most three original beds.",
+    "skills": [
+      {
+        "name_vi": "Giữ khách ngoài cửa",
+        "name_en": "Keep the Guest at the Door",
+        "description_vi": "Nó giữ cái chết chưa hoàn tất trên ba giường đã nhận trong khi người trực tự nguyện thức cùng.",
+        "description_en": "It keeps death unfinished upon three accepted beds while the keeper willingly remains awake."
+      },
+      {
+        "name_vi": "Đi qua vòng thở",
+        "name_en": "Walk through the Breath-Ring",
+        "description_vi": "Người trực bước qua vòng tương ứng để tới giường, qua cả khoảng cách ngoài bệnh xá.",
+        "description_en": "The keeper steps through the matching ring to reach a bed, crossing even distances beyond the infirmary."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hơi cuối còn hiện tại",
+        "name_en": "A Final Breath Still Present",
+        "description_vi": "Vòng sáng vẫn nâng hạ khi ngực người bệnh đã yếu tới mức mắt thường thôi nhận ra.",
+        "description_en": "Its rings still rise and fall when a patient’s chest has weakened beyond visible movement."
+      }
+    ],
+    "behavior_vi": "Nhường vòng sáng cho người chăm nhìn trước, đợi họ tự nhận sẽ thức.",
+    "behavior_en": "Offers the luminous rings for inspection, waiting for the carer freely to undertake the watch.",
+    "applications": [
+      {
+        "name_vi": "Thức chờ thuốc tới",
+        "name_en": "Keep Watch for Medicine",
+        "description_vi": "Nhận người khi còn hơi, bàn giao tên cùng người trực tự nguyện và chuẩn bị việc chữa ngay trong khoảng được giữ.",
+        "description_en": "Accept the patient while breath remains, entrust their name with a willing keeper and prepare treatment within the held interval."
+      }
+    ],
+    "epigraph_vi": "Đêm nay, ba hơi thở được ngồi cùng bàn.",
+    "epigraph_en": "Tonight, three breaths sit at one table.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-echo-interlocutor",
+    "lore_vi": "Hai thợ xây cãi nhau ở hai đầu hẻm đá pha khoáng; mỗi người kể một chuyện về cùng một đêm. Sau khi họ đi, câu chưa đáp đứng dậy thành hai dáng người chung bóng. Một dáng bước vào căn nhà đã cháy, dáng kia mở chính cánh cửa ấy vào căn nhà còn nguyên.\n\nChúng giữ hai phía của một lời chứng thành hai thế giới cùng có đất dưới chân. Người kể được bước vào phía mình, thấy những gì lời mình đã bỏ ở ngoài tự mọc thành người đứng chờ. Muốn qua phía kia, họ phải nghe trọn câu người đối diện; muốn trở về một con hẻm, cả hai phải chỉ được một việc cùng nhìn thấy. Có cuộc nói chuyện khép trong một hơi. Có nhà đứng hai cửa suốt ba đời, con cháu vẫn đem cơm tới hai người đang tìm lời chung.",
+    "lore_en": "Two masons argued at opposite ends of a mineral-bearing stone alley, each telling a different account of one night. After they left, the unanswered sentence rose as two figures sharing a shadow. One entered a burnt house; the other opened that same door into the house intact.\n\nThey make the two sides of a testimony into worlds with ground beneath both. Speakers may enter their own side, finding whatever their account omitted grown into waiting people. To cross, they must hear the other’s whole sentence; to regain a single alley, both must identify one thing they witnessed together. Some conversations close within a breath. Some houses keep two doors for three generations, descendants bringing meals to two people still seeking common words.",
+    "use_vi": "Mở hai lời chứng thành hai phía có thể bước vào, đổi phía bằng việc thật sự nghe nhau.",
+    "use_en": "Open two testimonies as enterable sides, crossing through genuinely hearing one another.",
+    "limits_vi": "Chỉ nhận hai người tự kể cùng một việc và tự chịu bước vào lời mình. Mỗi phía mang đúng giới hạn điều người kể biết; phần họ cố giấu có thân thể đứng chặn. Lối về chung cần một việc cả hai cùng nhận đã chứng kiến.",
+    "limits_en": "It accepts two willing witnesses to the same event who enter their own accounts. Each side bears the limits of its teller’s knowledge; deliberate omissions take bodies and block passage. A shared return requires one jointly acknowledged witnessed fact.",
+    "skills": [
+      {
+        "name_vi": "Hai phía thành đất",
+        "name_en": "Two Sides Become Ground",
+        "description_vi": "Chúng dựng hai lời kể tự nguyện thành hai nơi có thể đi và chạm.",
+        "description_en": "They raise two willing accounts as places that can be walked and touched."
+      },
+      {
+        "name_vi": "Nghe để đổi phía",
+        "name_en": "Listen to Change Sides",
+        "description_vi": "Người nghe trọn câu được qua thế giới của người đối diện, mang nguyên ký ức về phía mình.",
+        "description_en": "Someone hearing the whole sentence may cross into the other’s world, retaining memories of their own."
+      },
+      {
+        "name_vi": "Một việc khép hẻm",
+        "name_en": "One Fact Closes the Alley",
+        "description_vi": "Một việc cả hai cùng nhận đã thấy đưa hai phía về cùng con hẻm hiện tại.",
+        "description_en": "One jointly acknowledged witnessed fact returns both sides to the present alley."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một bóng dưới hai thế giới",
+        "name_en": "One Shadow beneath Two Worlds",
+        "description_vi": "Hai dáng luôn chạm chung bóng, kể cả khi một bên đứng giữa tro và bên kia đứng dưới mái nguyên.",
+        "description_en": "Both figures touch the same shadow even when one stands amid ash and the other beneath an intact roof."
+      }
+    ],
+    "behavior_vi": "Hai dáng cùng nghiêng đầu về chỗ người kể tránh nói.",
+    "behavior_en": "Both figures incline towards whatever the speaker avoids saying.",
+    "applications": [
+      {
+        "name_vi": "Đối chứng hai đầu",
+        "name_en": "Testimony at Two Ends",
+        "description_vi": "Hai người tự nhận cùng một việc, giữ người ngoài đưa nước và chỉ bước vào khi sẵn lòng nghe phía kia.",
+        "description_en": "Both identify the same event, leave an outsider bringing water and enter only when willing to hear the other side."
+      }
+    ],
+    "epigraph_vi": "Câu trả lời có thể bước tới trước người nói.",
+    "epigraph_en": "An answer may arrive before its speaker.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-bridge-shadow-builder",
+    "lore_vi": "Dây dọi có khoáng của người tháo cầu mắc lại trên bóng vòm sau khi nhịp cuối rơi xuống sông. Một người áo dây thừng đi ra, buộc hai đầu dây vào hai bờ và bước lên quãng không. Con sông phải lượn quanh bàn chân nó như quanh chân trụ.\n\nNó dựng cầu qua chính việc bị chia lìa. Hai bờ sông, hai mảnh tàu đang gãy, cả khoảng giữa người rơi và lan can vừa tuột khỏi tay đều có thể thành hai đầu nhịp. Trong một lượt qua, vật đã mất chỗ nối phải nhận lại quan hệ từng có. Dưới bóng cầu, người ta thấy những vực khác chồng sâu: tuổi thơ rời quê, bàn tay buông bàn tay. Thực thể tránh nhìn xuống. Nó đợi người cuối tới bờ rồi tháo dây, để những gì đã tách lại được phép xa nhau.",
+    "lore_en": "A bridge dismantler’s mineral plumb line caught upon the arch’s shadow after the final span fell. A rope-clad person emerged, tied its ends to the banks and stepped upon emptiness. The river bent around its foot as around a pier.\n\nIt builds across the act of separation itself. Riverbanks, halves of a breaking ship, even a falling person and the railing just lost from their hand may become its ends. For one crossing, things deprived of connection must resume their former relation. Beneath the shadow bridge, other abysses appear layered deep: childhood leaving home, one hand releasing another. The entity avoids looking down. It waits for the last traveller to reach the bank before untying the rope, allowing separated things to become distant again.",
+    "use_vi": "Qua một sự đứt lìa bằng nhịp cầu trả hai phía về quan hệ từng có.",
+    "use_en": "Cross a severance upon a bridge restoring the two sides’ former relation.",
+    "limits_vi": "Hai phía phải từng thật sự nối nhau hoặc chạm nhau và còn được chỉ rõ. Nhịp chỉ cho một lượt qua theo một hướng; thứ đã qua giữ nguyên thương tích. Nhờ nối điều chưa từng chạm làm dây dựng thẳng xuống vực dưới bóng.",
+    "limits_en": "The sides must truly have joined or touched and remain identifiable. The span allows one crossing in one direction; those crossing retain their wounds. Asking it to join things never touching sends the rope straight into the abyss beneath its shadow.",
+    "skills": [
+      {
+        "name_vi": "Cầu qua sự đứt",
+        "name_en": "Bridge across Severance",
+        "description_vi": "Nó dựng một nhịp có thể đi giữa hai phía từng nối nhau, kể cả khi một phía đang rơi.",
+        "description_en": "It raises a walkable span between formerly joined sides, even when one is falling."
+      },
+      {
+        "name_vi": "Một lượt còn thuộc nhau",
+        "name_en": "One Crossing Still Belonging Together",
+        "description_vi": "Trong lượt qua, khoảng trống và chuyển động phải nhường đường cho quan hệ cũ.",
+        "description_en": "During the crossing, emptiness and motion must yield to the former relation."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Dây mang các lần buông",
+        "name_en": "Ropes Bearing Departures",
+        "description_vi": "Mỗi nút áo giữ hình một chỗ đã đứt; khi nhịp mở, các nút cùng căng như đang gánh vực.",
+        "description_en": "Each coat-knot holds a severed place; when a span opens, every knot strains as though bearing the abyss."
+      }
+    ],
+    "behavior_vi": "Chạm từng đầu dây lên hai phía, đợi chúng cùng kéo căng rồi mới bước.",
+    "behavior_en": "Touches each rope end to its side, waiting for both to pull taut before stepping.",
+    "applications": [
+      {
+        "name_vi": "Đưa người rơi về tay vịn",
+        "name_en": "Return the Falling to the Rail",
+        "description_vi": "Chỉ đúng tay vịn vừa tuột, giao hai đầu dây và gọi người rơi đi về phía đầu còn được giữ.",
+        "description_en": "Identify the railing just lost, entrust the rope ends and call the falling person towards the held end."
+      }
+    ],
+    "epigraph_vi": "Bờ bên kia còn nhớ cách được nối.",
+    "epigraph_en": "The farther bank remembers being joined.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-tide-in-a-bowl-bearer",
+    "lore_vi": "Người trạm mang chén khoáng từ bến lên núi. Nước vẫn theo triều quê, rồi mọc thành một người nhỏ ôm vòng sáng. Đêm trăng khuyết, nó úp chén xuống sàn; cả triền núi nghe sóng, và những con cá dạt vào khe cửa cách biển nhiều ngày đường.\n\nNó mang quyền làm bờ của biển đã nhận. Bất cứ nơi chén được đặt mở đều trở thành một mép biển ấy: triều bước vào, thuyền có thể cập, người dưới nước nhìn lên thấy mái nhà trên núi. Đất ở đó vẫn là đất cũ, nhưng biển nhận thêm một bờ và đòi thủy triều được đi đủ. Người cứu nạn mở chén trong một sân đá để đón thuyền vỡ. Khi nước rút, trên núi còn xác tàu, muối và người sống; chỉ đường biển được thực thể cuộn lại trong tay.",
+    "lore_en": "A station keeper carried a mineral bowl uphill from a harbour. Its water still followed the home tide, then grew into a small person holding a luminous ring. Beneath a waning moon it overturned the bowl; the mountainside heard surf, and fish washed into doorways days from the sea.\n\nIt bears authority to make a shore of its accepted sea. Wherever the open bowl rests becomes another edge: tides enter, boats can berth, and swimmers looking up see the mountain house’s roof. The land remains itself, but the sea gains a coast and demands its full tide. Rescuers opened the bowl in a stone courtyard to receive a wreck. At ebb, wreckage, salt and survivors remained upon the mountain; only the sea road was rolled back into the entity’s hands.",
+    "use_vi": "Cho một nơi thành bờ thật của biển đã nhận, mở đường để nước và thuyền tới.",
+    "use_en": "Make a place a real shore of its accepted sea, opening passage for water and boats.",
+    "limits_vi": "Cần nước tự lấy từ bến gốc và một khoảng nền liên tục quanh chén. Toàn bộ triều thật có quyền vào bờ mới, kể cả bão. Chỉ lúc nước rút thực thể mới cuộn bờ lại; di chuyển chén giữa triều xé nền thành mép vực nước.",
+    "limits_en": "It needs water personally taken from the original harbour and continuous ground around the bowl. The full real tide may enter the new coast, including storms. It can roll the coast away only at ebb; moving the bowl mid-tide tears the ground into a watery precipice.",
+    "skills": [
+      {
+        "name_vi": "Trải một bờ biển",
+        "name_en": "Unfold a Coast",
+        "description_vi": "Nó cho nền quanh chén trở thành mép của biển gốc, có triều và đường tàu thật.",
+        "description_en": "It makes ground around the bowl an edge of the original sea, with real tides and navigable passage."
+      },
+      {
+        "name_vi": "Cuộn bờ lúc triều rút",
+        "name_en": "Roll the Coast at Ebb",
+        "description_vi": "Khi nước rút, nó khép quan hệ bờ mới, để vật và người đã lên đất ở lại.",
+        "description_en": "At ebb it closes the new coastal relation, leaving people and objects already ashore."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển nhận thêm bờ",
+        "name_en": "A Sea Gaining a Shore",
+        "description_vi": "Bọt và sinh vật theo biển thật vào nơi mới; khi lối khép, thứ mắc cạn ở lại.",
+        "description_en": "Foam and creatures follow the real sea into the new place; stranded things remain after closure."
+      }
+    ],
+    "behavior_vi": "Nghe đáy chén, gọi gió bến bằng tiếng nước rồi mới trải vòng ra nền.",
+    "behavior_en": "Listens to the bowl’s bottom, names the harbour wind in water sounds, then spreads the ring upon the ground.",
+    "applications": [
+      {
+        "name_vi": "Đón tàu lên sân núi",
+        "name_en": "Receive a Ship upon a Mountain Court",
+        "description_vi": "Chọn sân đủ thoát nước, nhận tin triều từ bến và mở bờ với người canh chén suốt tới lúc rút.",
+        "description_en": "Choose a draining courtyard, obtain tidal news from the harbour and guard the bowl from opening until ebb."
+      }
+    ],
+    "epigraph_vi": "Biển lên trong chiếc chén đặt trên núi.",
+    "epigraph_en": "The sea rises in a bowl upon the mountain.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-final-performance-keeper",
+    "lore_vi": "Đêm nhà hát đóng cửa, phấn mặt pha khoáng rơi trên sàn sau cái cúi chào cuối. Một người mặt bạc ở lại giữa màn, nhận ký ức các diễn viên rồi mở buổi diễn vào con phố ngoài cửa. Người xem thấy cửa hàng mình thành cánh gà, áo thường thành phục trang; những lời từng nuốt xuống có vai đứng chờ.\n\nNó có quyền đòi một kết thúc phải được diễn tới nơi. Một cuộc chia tay bị cắt, lời từ biệt chưa kịp nói, cả phiên xử dừng khi đèn tắt đều có thể trở thành cảnh cuối. Người sống bước vào vai của mình và làm nốt việc còn bỏ; thứ được trao hoặc phá trong cảnh giữ nguyên khi màn hạ. Người chết chỉ tới cúi chào trong lời nhớ của người sống. Thực thể luôn dành cho họ một khoảng đứng, rồi để họ đi khi tiếng vỗ tay dứt.",
+    "lore_en": "On the theatre’s closing night, mineral face powder fell after the final bow. A silver-faced person remained among the curtains, accepted the actors’ memories and opened the performance into the street. Spectators found shops turned into wings, ordinary coats into costumes, and swallowed words waiting in roles.\n\nIt may demand that an ending be performed fully. An interrupted parting, an unspoken farewell, even a hearing halted when the lamps died may become the final scene. Living people enter their own roles and finish what remained; things given or broken within the scene stay so when the curtain falls. The dead come only to bow within living recollections. The entity always reserves their place, then lets them leave when applause ends.",
+    "use_vi": "Mở một việc bị cắt ngang thành cảnh cuối để người sống hoàn tất bằng hành động thật.",
+    "use_en": "Open an interrupted event as a final scene for the living to complete through real action.",
+    "limits_vi": "Người từng tham gia phải tự gửi ký ức và nhận vai mình. Mâu thuẫn lời nhớ hiện thành các cảnh chồng, khách phải chọn cảnh đứng vào. Hành động mới có hệ quả thật; người chết chỉ hiện từ ký ức và rời cùng màn.",
+    "limits_en": "Former participants must freely entrust memories and accept their own roles. Conflicting recollections create overlapping scenes; visitors choose which to enter. New actions have real consequences; the dead appear only from recollection and depart with the curtain.",
+    "skills": [
+      {
+        "name_vi": "Mở cảnh cuối",
+        "name_en": "Open the Final Scene",
+        "description_vi": "Nó trải một việc có ký ức tự gửi thành sân khấu thật ở nơi người tham gia đang đứng.",
+        "description_en": "It unfolds a voluntarily remembered event as a real stage where participants stand."
+      },
+      {
+        "name_vi": "Diễn tới hệ quả",
+        "name_en": "Perform into Consequence",
+        "description_vi": "Người sống làm nốt hành động trong vai mình; vật được trao và vết phá hỏng đi theo ra ngoài màn.",
+        "description_en": "The living complete actions in their own roles; exchanged objects and damage follow them beyond the curtain."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Màn che việc chưa xong",
+        "name_en": "A Curtain over Unfinished Things",
+        "description_vi": "Những nếp màn hiện nơi một hành động bị ngắt, dù giữa phố hoặc trong rừng.",
+        "description_en": "Curtain folds appear wherever an act was interrupted, even in a street or forest."
+      }
+    ],
+    "behavior_vi": "Gọi đủ người sau cánh gà trước khi xin mở màn, kể cả người từng kéo dây.",
+    "behavior_en": "Calls everyone behind the scenes before requesting the opening, including former rope-pullers.",
+    "applications": [
+      {
+        "name_vi": "Hoàn tất một từ biệt",
+        "name_en": "Complete a Farewell",
+        "description_vi": "Nhận vai tự nguyện, nói rõ việc còn bỏ rồi bước vào cảnh với ý thức mọi hành động mới sẽ ở lại.",
+        "description_en": "Accept the role freely, state the unfinished act and enter knowing that new actions will endure."
+      }
+    ],
+    "epigraph_vi": "Khi màn hạ, hãy để mọi người được cúi chào.",
+    "epigraph_en": "When the curtain falls, let everyone take a bow.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-keeper-of-one-apology",
+    "lore_vi": "Một người viết lời xin lỗi bằng mực khoáng, rồi đốt thư vì sợ người nhận đọc. Tro đứng dậy thành người chữ, trên vai mang đúng hình căn nhà người viết đã thiêu của kẻ khác. Nó đi qua phố hẹp mà mái nhà trên vai vẫn nguyên độ lớn, bóng cháy quét qua mọi cửa.\n\nNó có thể mang một điều người gửi thật sự nhận mình đã làm, đặt trước người chịu hại như vật có thể cầm. Nếu người ấy tự nguyện trả lại phần gánh, hậu quả chuyển sang người đã nhận lỗi: vết thương mở trên da họ, những đêm mất ngủ tìm đúng giường họ nằm, vật bị lấy trở lại tay cũ. Người nhận giữ cả quyền từ chối lẫn phần lời chưa muốn đáp. Người chữ quỳ xuống để trao, chờ được cho đặt vật nặng xuống rồi mới đứng dậy.",
+    "lore_en": "A person wrote an apology in mineral ink, then burnt it for fear of its being read. The ash rose as a written figure carrying the exact house its sender had burnt upon another’s land. It passed through narrow streets with the roof still full-sized upon its shoulders, its burning shadow sweeping every door.\n\nIt can carry something the sender truly acknowledges doing, placing it before the injured as an object to hold. If that person freely returns the burden, consequences pass to the one accepting fault: wounds open upon their skin, sleepless nights find their bed, stolen things return to former hands. The recipient retains refusal and every answer they withhold. The written person kneels to deliver, waiting for leave to set its weight down before rising.",
+    "use_vi": "Mang một hậu quả đã được người gây ra tự nhận, cho người chịu hại quyền tự trả gánh về.",
+    "use_en": "Carry an acknowledged consequence and give the injured the choice to return its burden.",
+    "limits_vi": "Người gây ra phải tự nhận đúng hành động và chấp nhận hậu quả trở về thân mình. Người chịu hại quyết định trả phần nào. Việc đã xảy ra vẫn thuộc quá khứ; sinh mạng đã mất chỉ có thể được mang thành lời, còn hậu quả đang tiếp diễn mới chuyển được.",
+    "limits_en": "The perpetrator must freely acknowledge the act and accept consequences upon their own body. The injured chooses what to return. Past events remain past; lost lives can be borne only as words, while continuing consequences may be transferred.",
+    "skills": [
+      {
+        "name_vi": "Gánh điều đã nhận",
+        "name_en": "Bear the Acknowledged Act",
+        "description_vi": "Nó cho hậu quả đang kéo dài của một hành động có thân thể để mang tới người chịu hại.",
+        "description_en": "It embodies the continuing consequences of an act and carries them to the injured."
+      },
+      {
+        "name_vi": "Trả gánh về người gây",
+        "name_en": "Return the Burden to Its Maker",
+        "description_vi": "Với sự thuận ý của cả hai, nó chuyển phần hậu quả được trả về đúng thân người đã nhận lỗi.",
+        "description_en": "With both parties’ agreement, it transfers the returned consequences to the person accepting fault."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lỗi có thân thể",
+        "name_en": "Fault Given a Body",
+        "description_vi": "Thân chữ và vật trên vai luôn mang hình đúng điều người gửi đã nhận, dù lời ấy khiến nó quá lớn cho con đường.",
+        "description_en": "Its written body and burden take the exact shape of the acknowledged act, even when too large for the road."
+      }
+    ],
+    "behavior_vi": "Quỳ thấp hơn người nhận, giữ vật đang mang cho tới khi được chỉ chỗ đặt.",
+    "behavior_en": "Kneels below the recipient, holding its burden until shown where to set it.",
+    "applications": [
+      {
+        "name_vi": "Gửi lời có gánh",
+        "name_en": "Send Words with Weight",
+        "description_vi": "Người gửi tự nêu hành động và chấp nhận điều sẽ trở về; để người nhận tự chọn có mở tay hay không.",
+        "description_en": "The sender names the act and accepts what may return; leave the recipient free to open their hands."
+      }
+    ],
+    "epigraph_vi": "Có người đã đi rất xa chỉ để xin đứng đợi.",
+    "epigraph_en": "Someone has travelled far merely to ask leave to wait.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-witness-of-the-blank-page",
+    "lore_vi": "Thư viện cháy giữ lại một trang pha khoáng chưa kịp có chữ. Người ta viết lên đó tên sách đã mất; tên rơi thành bụi, người trắng bước ra mang gương mặt chưa từng được vẽ. Họ thử đặt mắt lên mặt nó, và mọi con mắt trong chân dung quanh phòng cùng nhìn sang hướng chưa có trên tường.\n\nNó làm điều chưa biết có quyền chưa thành một sự thật. Trong phần thế giới được giao, một cánh cửa chưa mở có thể dẫn tới nhiều nơi, người chưa được nhận dạng giữ nhiều bóng, lời tiên tri chưa có chứng cứ chỉ là tiếng trong miệng người nói. Kẻ muốn chiếm khoảng trắng bằng lời chắc chắn bị chính tên mình bỏ trống trong mọi lời gọi. Khi người chứng kiến mang sự việc thật tới, thực thể lui một bước, nhường chỗ cho thế giới nhận hình rồi giữ phần còn chưa biết.",
+    "lore_en": "The burnt library retained one mineral-bearing page not yet written upon. People inscribed lost books’ names; they fell as dust, and a white person emerged with a face never drawn. They tried placing eyes upon it, and every painted eye in the room turned towards a direction absent from the walls.\n\nIt gives the unknown the right to remain without a settled truth. In its entrusted portion of the world, an unopened door may lead to many places, an unidentified person keeps several shadows, and an unsupported prophecy is merely sound in its speaker’s mouth. Those claiming the blank through certainty find their own names left empty in every address. When a witness brings actual events, the entity steps back, allowing the world a shape while keeping what remains unknown.",
+    "use_vi": "Giữ phần thế giới chưa được biết khỏi bị tên gọi, tiên tri hoặc khẳng định cưỡng ép thành một đáp án.",
+    "use_en": "Keep an unknown portion of the world from being forced into an answer by naming, prophecy or assertion.",
+    "limits_vi": "Cần chỉ rõ điều thật sự chưa được người giao chứng kiến. Chứng cứ trực tiếp làm phần tương ứng nhận hình; cố xin xóa điều đã biết khiến chính người xin mất tên trong vùng được giữ. Các khả năng chưa định có thể mở cả lối nguy hiểm.",
+    "limits_en": "The petitioner must identify what they truly have not witnessed. Direct evidence gives the matching portion shape; asking to erase known facts strips the petitioner’s name within the kept domain. Unsettled possibilities may open dangerous paths as well.",
+    "skills": [
+      {
+        "name_vi": "Đáp án còn để ngỏ",
+        "name_en": "Leave the Answer Unsettled",
+        "description_vi": "Nó giữ một điều chưa biết ngoài quyền áp đặt của tên và lời tiên tri, cho các khả năng cùng có chỗ.",
+        "description_en": "It keeps an unknown beyond imposed names and prophecy, granting possibilities simultaneous room."
+      },
+      {
+        "name_vi": "Nhường hình cho chứng cứ",
+        "name_en": "Yield Shape to Evidence",
+        "description_vi": "Một việc được trực tiếp chứng kiến khép đúng phần khả năng tương ứng thành sự thật có thể chạm.",
+        "description_en": "A directly witnessed event settles the matching possibilities into tangible truth."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nhiều bóng của điều chưa định",
+        "name_en": "Many Shadows of the Unsettled",
+        "description_vi": "Vật chưa được biết quanh nó đổ nhiều bóng cùng thật, tới khi một việc được chứng kiến chọn hình cho chúng.",
+        "description_en": "Unknown things around it cast several equally real shadows until a witnessed event gives them shape."
+      }
+    ],
+    "behavior_vi": "Đưa mặt trắng về phía người đang quả quyết, chờ họ nêu điều mình đã tận mắt thấy.",
+    "behavior_en": "Turns its blank face towards certainty, waiting for the speaker to state what they actually witnessed.",
+    "applications": [
+      {
+        "name_vi": "Giữ một cửa chưa mở",
+        "name_en": "Keep an Unopened Door",
+        "description_vi": "Nêu rõ phần chưa thấy và người sẽ đi chứng kiến; chỉ mở khi sẵn lòng nhận nơi thật hiện ra.",
+        "description_en": "State the unseen part and appoint its witness; open only when willing to accept the place that appears."
+      }
+    ],
+    "epigraph_vi": "Để câu trả lời có một nơi sẽ đến.",
+    "epigraph_en": "Leave the answer a place to arrive.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-bearer-of-the-last-chair",
+    "lore_vi": "Hội đồng đốt chiếc ghế cuối để sưởi buổi họp loại một làng khỏi tuyến đê. Trong chân ghế có khoáng; khói thành người gỗ mang ghế nhỏ trên lưng. Ngày nước dâng, đê đứng nguyên nhưng nước quanh làng dừng thành vách. Mọi chữ ký trong nhà hội trở lại nét chưa khép.\n\nNó mang quyền của người bị gạt khỏi việc quyết định đời mình. Khi phiên họp đã nhận có phần nghe mà cố tước phần ấy, mọi hệ quả của quyết định phải đứng đợi: quân chưa đánh được người bị kết tội, cửa chưa khép được trước dân bị đuổi, cả nước cũng chờ một làng nói hết. Người bị loại tự gửi lời, ghế mở ngay giữa phòng. Sau câu cuối, thế giới được tiếp tục, dù hội đồng vẫn chọn điều tàn nhẫn. Người gỗ ở lại bên ghế để nhìn họ ký trọn tên.",
+    "lore_en": "A council burnt its final chair to warm a meeting excluding a village from a dyke. Mineral lay in a leg; smoke became a wooden person carrying a small chair. When the waters rose, the dyke stood while floodwater stopped as a wall around the village. Every council signature returned to an unfinished stroke.\n\nIt bears the right of those excluded from decisions over their lives. When an assembly accepts a hearing then steals it away, every consequence must wait: soldiers cannot strike the condemned, doors cannot close upon the expelled, even water awaits a village’s statement. The excluded freely send their words, and the chair opens within the chamber. After the last sentence, the world resumes, even if the council chooses cruelty. The wooden person stays beside the chair to watch them sign their names in full.",
+    "use_vi": "Giữ hệ quả của một quyết định chưa thực hiện phần nghe đã nhận, tới khi người bị loại được nói hết.",
+    "use_en": "Hold the consequences of a decision whose accepted hearing remains unfulfilled until the excluded finish speaking.",
+    "limits_vi": "Chỉ nhận một việc đang mở, có người tự gửi lời và phiên nghe đã được chấp nhận. Hệ quả trực tiếp của quyết định đứng đợi, đời ngoài việc ấy tiếp tục. Người gửi có thể tự rút lời; cố kéo dài bằng lời người khác làm ghế khép.",
+    "limits_en": "It accepts one open matter, a willing statement and an already accepted hearing. Direct consequences wait while unrelated life continues. The sender may withdraw; prolonging it with another’s words closes the chair.",
+    "skills": [
+      {
+        "name_vi": "Chỗ cho người bị loại",
+        "name_en": "A Place for the Excluded",
+        "description_vi": "Nó mở ghế và lời tự gửi ngay trong nơi quyết định, qua mọi khoảng ngăn.",
+        "description_en": "It opens the chair and freely sent words within the deciding place, across every barrier."
+      },
+      {
+        "name_vi": "Hệ quả phải chờ",
+        "name_en": "Consequences Must Wait",
+        "description_vi": "Nó giữ hệ quả trực tiếp chưa được xảy ra cho tới khi phần nghe đã nhận được hoàn tất.",
+        "description_en": "It keeps direct consequences from occurring until the accepted hearing is completed."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ghế dưới sức nặng hệ quả",
+        "name_en": "A Chair beneath Consequences",
+        "description_vi": "Vòng gỗ trên vai mở rộng theo những gì đang bị giữ ngoài việc xảy ra: tiếng súng, nước, lửa hoặc nét ký.",
+        "description_en": "Growth rings widen with whatever is held outside occurrence: gunfire, water, flame or signatures."
+      }
+    ],
+    "behavior_vi": "Chờ mọi người đặt chân xuống đất, rồi hạ ghế cho người bị loại.",
+    "behavior_en": "Waits for everyone to place their feet upon the ground, then lowers the chair for the excluded.",
+    "applications": [
+      {
+        "name_vi": "Nhận phần nghe của làng",
+        "name_en": "Accept the Village’s Hearing",
+        "description_vi": "Ghi rõ người và việc được nghe, để chính người bị loại tự gửi lời trước khi quyết định đi tới hệ quả.",
+        "description_en": "Specify the people and matter to be heard, allowing the excluded to send their own words before consequences begin."
+      }
+    ],
+    "epigraph_vi": "Một chỗ bị lấy đi vẫn có người mang tới.",
+    "epigraph_en": "Someone carries in the place that was taken away.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-witness-of-an-unlit-fire",
+    "lore_vi": "Người thợ lò mang than cuối từ làng bị biển lấy, bọc trong khoáng giữ nhiệt. Sang bờ mới, than hóa người lạnh ôm đốm vàng. Nó đặt tay vào bếp chưa nhóm, và lửa hiện thành dáng của ngọn lửa làng đã mất, cháy trên khoảng trống trước khi chạm củi.\n\nĐốm ấy ăn sự kết thúc. Giao một vật đã tự nguyện bỏ hẳn, người ta có thể xin nó giữ cho một việc còn được bắt đầu: ngọn đèn cháy sau khi dầu cạn, mặt trời nằm thêm trên mép biển, con tàu chìm còn một lần nổi để người rời boong. Vật giao mất cả dấu trong đời người gửi; họ nhớ mình đã trao, nhưng chẳng thể tìm lại vật bằng bất cứ con đường nào. Người than lạnh ôm những kết thúc ấy thành tro trong ngực, mãi đứng bên ngọn lửa mình chưa từng thấy ấm.",
+    "lore_en": "A furnace builder carried the final coal from a village taken by the sea, wrapped in heat-keeping mineral. Upon the new shore it became a cold person embracing gold. It touched an unlit hearth, and fire took the shape of the lost village flame, burning upon emptiness before reaching wood.\n\nThe spark feeds upon endings. By freely surrendering something forever, people may ask it to let a beginning remain possible: a lamp burns after oil runs out, the sun lingers upon the sea’s rim, a sinking ship rises once for people to leave its deck. The surrendered object loses every trace within its giver’s life; they remember giving, yet no road can recover it. The cold-charcoal person bears those endings as ash in its chest, always beside a fire it has never felt warm.",
+    "use_vi": "Đốt một kết thúc tự nguyện để cho việc đang tắt còn một lần tiếp tục hoặc khởi lại.",
+    "use_en": "Burn a freely surrendered ending to grant something expiring one further continuation or beginning.",
+    "limits_vi": "Người xin phải tự trao vật thật mình có quyền từ bỏ vĩnh viễn. Mỗi vật giữ một việc tới khi người tham gia rời chỗ hoặc gọi nó kết thúc. Người chết đã được chôn ngoài đời sống chỉ còn thuộc lời nhớ; đốm nhận những việc đang tắt, còn có người đứng trong đó.",
+    "limits_en": "The petitioner must surrender a real object they may permanently relinquish. Each holds one event until participants leave or declare its ending. The dead already laid beyond life remain within remembrance; the spark accepts things still expiring with people inside them.",
+    "skills": [
+      {
+        "name_vi": "Lửa ăn kết thúc",
+        "name_en": "Fire That Eats Endings",
+        "description_vi": "Nó đốt sự từ bỏ vĩnh viễn một vật để giữ một việc đang tắt còn được tiếp tục.",
+        "description_en": "It burns an object’s permanent surrender to let an expiring event continue."
+      },
+      {
+        "name_vi": "Một lần còn bắt đầu",
+        "name_en": "One Further Beginning",
+        "description_vi": "Trong lửa ấy, việc đang chấm dứt có thể làm lại đúng một cử động khởi đầu, từ tàu nổi tới đèn bén.",
+        "description_en": "Within that fire, an ending event may repeat one initiating movement, from a ship rising to a lamp catching."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tro của những kết thúc",
+        "name_en": "Ash of Endings",
+        "description_vi": "Ngực rỗng mang tro của vật đã được trao; mỗi hạt tro đổ bóng một con đường sẽ chẳng tới vật ấy nữa.",
+        "description_en": "Its hollow chest bears surrendered objects’ ash; each grain shadows a road that will never reach its object again."
+      }
+    ],
+    "behavior_vi": "Giữ vật được trao thật lâu, đợi người gửi tự mở tay lần cuối rồi mới cho vào ngực.",
+    "behavior_en": "Holds an offered object at length, waiting for its giver to open their hand for the final time before taking it into its chest.",
+    "applications": [
+      {
+        "name_vi": "Giữ tàu cho người rời",
+        "name_en": "Hold a Ship for Departure",
+        "description_vi": "Người có vật tự trao nói rõ giữ thân tàu tới khi người cuối rời boong, rồi mở tay cho đốm nhận.",
+        "description_en": "A willing giver states that the hull must hold until the last person leaves the deck, then opens their hand to the spark."
+      }
+    ],
+    "epigraph_vi": "Lửa đi qua nơi chưa từng được sưởi.",
+    "epigraph_en": "Fire passes through one who has never known warmth.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-folded-horizon-bearer",
+    "lore_vi": "Tàu khảo sát đem về khoáng từ nơi thủy thủ thề đã thấy chân trời dựng thành vách. Những bản đo tự gấp quanh nó. Một người áo xanh bước khỏi nếp, mang đường biển trên lưng; mọi la bàn trong phòng quay về phía sau người ấy như có cả phương đông bị lấy mất.\n\nNó gấp nơi mắt phải thôi nhìn. Mở áo giữa biển, nó cho thuyền tới mép chân trời rồi lật qua như lật trang, xuất hiện dưới bầu trời của một bờ đã được người trên tàu thật sự tới. Trong nếp gấp, biển dựng đứng, cá bơi qua đầu và những ngọn hải đăng soi từ dưới chân. Người chưa từng rời quê có thể nhìn, nhưng chỉ người mang một hành trình thật mới chỉ được bờ ra. Thực thể thích đường xa đến mức thường giữ nếp về trong tay lâu hơn lời đã hẹn.",
+    "lore_en": "A survey ship brought mineral from where a sailor swore the horizon rose as a wall. Charts folded around it. A blue-clad person stepped from the crease with a sea line upon its back; every compass turned behind it as though the whole east had been taken away.\n\nIt folds the place where sight must end. Opening its coat at sea, it lets a ship reach the horizon’s edge and turn over like a page, emerging beneath the sky of a shore someone aboard has actually reached. Within the crease the sea stands upright, fish pass overhead and lighthouses shine beneath feet. Those never leaving home may look, but only a bearer of a real voyage can indicate the exit coast. The entity loves distant roads enough to keep the homeward fold in its hand longer than promised.",
+    "use_vi": "Lật qua mép chân trời để đưa cả tàu sang một bờ người dẫn đã thật sự đi tới.",
+    "use_en": "Turn across the horizon’s edge to carry a whole ship to a shore its guide has truly reached.",
+    "limits_vi": "Cần một người dẫn còn sống nhận đúng hành trình của mình; bản đo chỉ giúp họ nhớ. Chọn bờ từ lời người khác mở xuống mặt sau trắng của thế giới. Lối ra chỉ hiện khi người dẫn gọi được gió, mùi và một vật thật ở bờ đó.",
+    "limits_en": "It requires a living guide claiming their own actual voyage; surveys merely aid recall. Choosing a coast from hearsay opens the world’s blank reverse. The exit appears only when the guide names its wind, scent and one real object.",
+    "skills": [
+      {
+        "name_vi": "Lật mép chân trời",
+        "name_en": "Turn the Horizon’s Edge",
+        "description_vi": "Nó gấp giới hạn tầm nhìn thành mép có thể đưa tàu qua, tới phía trời của bờ đã được dẫn.",
+        "description_en": "It folds sight’s limit into an edge a ship can cross to the sky of the guided shore."
+      },
+      {
+        "name_vi": "Giữ nếp trở lại",
+        "name_en": "Keep the Returning Fold",
+        "description_vi": "Nó giữ hành trình vừa qua thành một nếp để tàu có thể quay về trước khi áo khô.",
+        "description_en": "It retains the passage as a fold by which the ship may return before the coat dries."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển ở mặt sau áo",
+        "name_en": "The Sea upon the Coat’s Reverse",
+        "description_vi": "Mặt sau áo luôn ướt bởi một biển đứng dọc; vật rơi vào đó chìm sang phía ngang của người ngoài.",
+        "description_en": "The coat’s reverse is wet with an upright sea; things dropped into it sink sideways to outsiders."
+      }
+    ],
+    "behavior_vi": "Nghe người dẫn kể bờ ra rồi đưa nếp về lên mũi ngửi, như cân nhắc có trả hay không.",
+    "behavior_en": "Hears the guide describe the exit coast, then smells the return fold as though considering whether to surrender it.",
+    "applications": [
+      {
+        "name_vi": "Dẫn tàu qua đường biển gấp",
+        "name_en": "Guide a Ship through Folded Sea",
+        "description_vi": "Chọn người từng cập bờ thật, để họ gọi dấu bến và xin giữ nếp về trước khi tàu tới mép.",
+        "description_en": "Choose someone who truly berthed there, let them name the harbour’s signs and secure the return fold before reaching the edge."
+      }
+    ],
+    "epigraph_vi": "Người ấy đem về một chân trời có nếp gấp.",
+    "epigraph_en": "That traveller brought back a horizon with folds.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-keeper-of-its-own-name",
+    "lore_vi": "Kho niêm khắc số lên tay một người sinh từ mực khoáng, đổi số mỗi lần bán. Đêm lòng tay đen kín, nó dùng ngón còn trắng viết một tên tự chọn. Mọi chữ chỉ quyền sở hữu quanh kho rời khỏi giấy, bay thành bầy mực đen rồi chết trên nền.\n\nTên ấy đặt thân nó ngoài mọi lời buộc thành thứ khác. Lệnh vua gọi nó là vật, phép đổi hình gọi nó là đá, cả một lời nguyền muốn nó chưa từng sinh đều trượt khỏi da như nước. Nó có thể cho người bị giữ mượn lòng tay để tự viết tên rồi bước ra khỏi một định nghĩa đang khóa đời mình. Chữ vay ở lại trên da người ấy; họ phải tự gọi mình bằng tên đó trước mỗi bình minh. Thực thể hỏi tên trước khi hỏi vết thương, và nhận lời chào như nhận một điều mình vẫn còn quyền giữ.",
+    "lore_en": "A sealing warehouse engraved numbers upon a person born from mineral ink, replacing them at every sale. When one palm became wholly black, it used its remaining white finger to write a chosen name. Every word of ownership around the warehouse left its paper, flew as black ink creatures and died upon the floor.\n\nThat name places its body beyond commands to become something else. A king’s order naming it property, a transformation naming it stone, even a curse declaring it never born slide from its skin like water. It may lend its palm for captives to write their own names and step outside a definition locking their lives. Borrowed letters remain upon their skin; they must name themselves before every dawn. The entity asks names before wounds and receives greetings as something it still has the right to keep.",
+    "use_vi": "Đặt một thân có tên tự chọn ngoài quyền cưỡng định nghĩa, biến hình hoặc xóa sự tồn tại.",
+    "use_en": "Place a self-named body beyond coercive definition, transformation or erasure.",
+    "limits_vi": "Tên phải do chính người mang chọn và tự nhận mỗi bình minh. Quyền chống lời áp đặt lên căn tính và thân dạng; gươm, đói, bệnh vẫn chạm thân. Cố viết tên cho người khác biến chữ thành xiềng trên tay người viết.",
+    "limits_en": "The bearer must choose the name and claim it each dawn. The authority resists imposed identity and bodily form; blades, hunger and disease still touch the body. Writing a name for another turns the letters into chains upon the writer.",
+    "skills": [
+      {
+        "name_vi": "Tự gọi để còn là mình",
+        "name_en": "Self-Naming to Remain Oneself",
+        "description_vi": "Tên tự nhận khiến mọi lệnh siêu nhiên ép thân thành vật, thuộc sở hữu hoặc chưa từng tồn tại trượt khỏi người mang.",
+        "description_en": "A self-claimed name makes supernatural commands of objecthood, ownership or nonexistence slide from its bearer."
+      },
+      {
+        "name_vi": "Cho mượn lòng tay",
+        "name_en": "Lend the Palm",
+        "description_vi": "Nó cho một người tự viết tên trên da mình bằng mực từ lòng tay, mở quyền tự gọi cho tới bình minh cần nhận lại.",
+        "description_en": "It lets someone write their chosen name upon their skin with its palm-ink, opening self-naming until its renewal at dawn."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tên phủ mọi số kho",
+        "name_en": "A Name over Every Warehouse Number",
+        "description_vi": "Tên tự chọn nổi trên lòng tay dù da bị đốt hoặc đổi hình; số kho cũ nằm dưới như xác côn trùng.",
+        "description_en": "The chosen name rises upon its palm through burning or altered form; former numbers lie beneath like insect husks."
+      }
+    ],
+    "behavior_vi": "Chìa lòng tay để người nhờ đọc tên nó trước, rồi đợi họ tự viết thay vì cầm tay giúp.",
+    "behavior_en": "Offers its palm for its own name to be read, then waits for petitioners to write without guiding their hands.",
+    "applications": [
+      {
+        "name_vi": "Viết tên thoát phép cưỡng",
+        "name_en": "Write a Name beyond Coercion",
+        "description_vi": "Người bị giữ tự chọn và viết tên, nói rõ mình nhận nó rồi giữ lời gọi ấy mỗi sớm.",
+        "description_en": "The captive chooses and writes a name, claims it aloud and renews that claim each morning."
+      }
+    ],
+    "epigraph_vi": "Hãy gọi tên tôi trước khi nói đến dây buộc.",
+    "epigraph_en": "Speak my name before you speak of bonds.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-sleeper-between-two-knocks",
+    "lore_vi": "Cửa kho vỡ bản lề trong vụ sập giữ mảnh khoáng giữa hai thớ gỗ. Người canh nghe tiếng gõ báo nguy nhiều ngày sau, rồi thấy người tối ngủ trong khe sáng. Nó nằm đúng khoảng thế giới đã làm mà việc làm ấy chưa kịp tới người phải chịu.\n\nTiếng gõ đầu mở khoảng giữa nguyên nhân với hệ quả. Dầm đã rơi xuyên thân người mà vết nghiền còn đứng ngoài da; bình đã vỡ nhưng nước chưa chịu rời hình bình; lửa đi qua áo để sức cháy chờ trên đầu ngón tay người ngủ. Người sống có thể bước khỏi một thương tích còn chưa xảy tới, kê lại mái sập, gom nước vào vật mới. Tiếng gõ sau trả mọi hệ quả còn tìm thấy chủ. Những phần đã được thật sự tháo nguyên nhân rơi thành bụi tối. Người ngủ mở mắt nhìn đống bụi rồi lại khép, như vừa nghe điều cả kho đã tránh được.",
+    "lore_en": "The storehouse door lost its hinges in a collapse, keeping mineral between two fibres. Days later its keeper heard a warning knock and found a dark sleeper in a slit of light. It lay exactly where the world had acted but the act had not yet reached whoever must bear it.\n\nThe first knock opens the interval between cause and consequence. A beam has fallen through a body, yet crushing waits outside the skin; a jar is broken, but water retains its shape; flame crosses cloth while burning waits upon the sleeper’s fingertips. The living may step out of wounds not yet received, shore a collapse or gather water into another vessel. The second knock returns consequences still finding their subjects. Those whose causes were genuinely undone fall as dark dust. The sleeper looks at it, then closes its eyes as though hearing what the whole room escaped.",
+    "use_vi": "Giữ hệ quả ngoài việc đang xảy ra, cho người sống sửa nguyên nhân hoặc bước khỏi chỗ phải chịu.",
+    "use_en": "Hold consequences outside present events, letting the living alter causes or leave the place that must bear them.",
+    "limits_vi": "Người xin phải canh nó trọn đêm. Hai tiếng gõ giữ một gian có cửa gốc tối đa bảy nhịp tim; đời ngoài gian tiếp tục. Hệ quả chưa thật sự được tránh trở về cùng lúc khi gõ sau hoặc hết hạn, kể cả sức nghiền và lửa. Người gõ mất giọng tới bình minh.",
+    "limits_en": "The petitioner must guard its sleep for a night. Two knocks hold one room containing the original door for at most seven heartbeats; outside life continues. Consequences not genuinely averted return together at the second knock or expiry, including crushing and fire. The knocker loses their voice until dawn.",
+    "skills": [
+      {
+        "name_vi": "Giữa làm và chịu",
+        "name_en": "Between Acting and Bearing",
+        "description_vi": "Nó tách hệ quả khỏi nguyên nhân trong gian đã nhận, giữ chúng chưa chạm chủ suốt khoảng hai tiếng gõ.",
+        "description_en": "It separates consequences from causes within the accepted room, keeping them from their subjects between the knocks."
+      },
+      {
+        "name_vi": "Sửa chỗ hệ quả tới",
+        "name_en": "Change Where Consequences Arrive",
+        "description_vi": "Người trong khoảng có thể tháo nguyên nhân hoặc rời chỗ chịu, khiến phần hệ quả ấy mất đường tới mình.",
+        "description_en": "Those within may undo a cause or leave its bearing place, depriving that consequence of its route to them."
+      },
+      {
+        "name_vi": "Tiếng sau trả phần còn nợ",
+        "name_en": "The Second Knock Returns What Is Owed",
+        "description_vi": "Nó trả cùng lúc mọi hệ quả còn gắn được vào nguyên nhân và chủ, phần đã tránh thật thành bụi.",
+        "description_en": "It returns together all consequences still attached to causes and subjects; those truly averted become dust."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ngón tay mang điều chưa tới",
+        "name_en": "Fingers Bearing What Has Yet to Arrive",
+        "description_vi": "Mỗi vòng tối giữ một hệ quả: nước rơi thành vòng ướt, sức nghiền làm khớp tay bẹt, lửa đứng vàng trong móng.",
+        "description_en": "Each dark ring holds a consequence: falling water wets a ring, crushing flattens a joint, fire stands gold within a nail."
+      }
+    ],
+    "behavior_vi": "Ngủ co tay quanh những vòng tối, mở ngón khi có người tự nhận sẽ chịu trách nhiệm gõ sau.",
+    "behavior_en": "Sleeps with hands curled around dark rings, opening its fingers when someone accepts responsibility for the second knock.",
+    "applications": [
+      {
+        "name_vi": "Bước khỏi vết nghiền chưa tới",
+        "name_en": "Step from Crushing Yet to Arrive",
+        "description_vi": "Giao người gõ sau, mở khoảng ngay lúc dầm rơi rồi đưa người ra và kê dầm trước nhịp cuối.",
+        "description_en": "Appoint the second knocker, open the interval as the beam falls, then move people out and shore the beam before the last heartbeat."
+      }
+    ],
+    "epigraph_vi": "Thế giới còn một nhịp để nghe điều vừa xảy ra.",
+    "epigraph_en": "The world has one beat left to hear what happened.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  },
+  {
+    "id": "entity-the-keeper-of-tomorrows-place",
+    "lore_vi": "Người giữ nhà đặt khoáng lên ghế, hẹn đón một người vào ngày mai. Đêm ấy, một phép xóa tên phủ qua vùng, khiến mọi người quên khách từng sống. Trên ghế vẫn có người áo vá ôm khoảng sáng trống. Sáng sau, khách bước ra từ ánh ấy, mang thương tích cũ và lời hẹn mà cả thế giới đã mất.\n\nNó dành một chỗ trong ngày chưa tới, rồi đưa người đã tự nhận lời hẹn ra khỏi hiện tại để ở nhờ. Lửa có thể đốt cả căn nhà hôm nay, lịch sử có thể gạch tên khách; ngày mai vẫn phải mở đúng một chỗ cho họ ngồi. Trong thời gian chờ, họ nhìn qua khoảng sáng thấy những buổi mai có thể nhận mình, nghe người áo vá hỏi muốn bước vào buổi nào. Tới giờ đã hẹn, một buổi thành thật, những buổi khác gấp lại thành đường chỉ trên áo.",
+    "lore_en": "A housekeeper laid mineral upon a chair, promising to receive someone tomorrow. That night a name-erasing spell crossed the district, making everyone forget the guest had lived. A patch-coated person remained upon the chair, embracing empty light. Next morning the guest stepped from it, bearing old wounds and a promise the world had lost.\n\nIt reserves a place in the unarrived day, then takes a willing appointee outside the present to lodge there. Fire may burn today’s house, history may strike out the guest; tomorrow must still open one seat for them. While waiting, they look through the light at mornings capable of receiving them and hear the patch-coated person ask which they choose. At the appointed hour one morning becomes real; the others fold into threads upon its coat.",
+    "use_vi": "Dành một chỗ ở ngày mai và cho người tự nhận lời hẹn trú ngoài hiện tại tới giờ ấy.",
+    "use_en": "Reserve a place tomorrow and shelter a willing appointee outside the present until that hour.",
+    "limits_vi": "Cần hai người tự hẹn một giờ trong ngày kế và một ghế thật lúc hẹn. Chỉ người được đón trú trong khoảng sáng; họ mang nguyên tuổi, thương tích và đồ trên thân. Tới giờ, họ phải chọn một buổi mai còn chỗ sống được hoặc tự rút lời để về hiện tại lúc rời đi. Mỗi thực thể giữ một khách, một lần hẹn.",
+    "limits_en": "It needs two willing people appointing an hour the following day and a real chair when appointed. Only the guest shelters in the light, retaining age, wounds and possessions. At the hour they must choose a viable morning or withdraw to the present instant they left. Each entity keeps one guest and appointment.",
+    "skills": [
+      {
+        "name_vi": "Chỗ trong ngày chưa tới",
+        "name_en": "A Place in the Unarrived Day",
+        "description_vi": "Nó đặt một cuộc hẹn tự nguyện vào ngày kế như chỗ mà thế giới phải dành lại cho người được đón.",
+        "description_en": "It places a willing appointment within the following day as a space the world must reserve for its guest."
+      },
+      {
+        "name_vi": "Trú ngoài hiện tại",
+        "name_en": "Shelter outside the Present",
+        "description_vi": "Nó nhận khách sống vào khoảng sáng, giữ họ ngoài biến cố và sự xóa bỏ đang xảy ra hôm nay.",
+        "description_en": "It receives a living guest into its light, holding them outside today’s events and erasures."
+      },
+      {
+        "name_vi": "Chọn một buổi mai",
+        "name_en": "Choose a Morning",
+        "description_vi": "Tới giờ hẹn, khách chọn một ngày mai còn nhận được mình để bước vào; các khả năng khác khép lại.",
+        "description_en": "At the appointed hour the guest chooses a morning still able to receive them and enters it; the other possibilities close."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Áo dệt từ những buổi mai bỏ lại",
+        "name_en": "A Coat Woven from Unchosen Mornings",
+        "description_vi": "Mỗi chỉ vá chứa ánh của một buổi mai đã không được chọn; sờ vào nghe được tiếng căn phòng lẽ ra có thể đón khách.",
+        "description_en": "Each patch-thread holds an unchosen morning’s light; touching it reveals the sound of a room that might have received the guest."
+      }
+    ],
+    "behavior_vi": "Đếm những đường chỉ trên áo trước khi mở chỗ, rồi hỏi khách có thật muốn ngày mai tới.",
+    "behavior_en": "Counts its coat-threads before opening a place, then asks whether the guest truly wishes tomorrow to arrive.",
+    "applications": [
+      {
+        "name_vi": "Hẹn chỗ qua một đêm xóa tên",
+        "name_en": "Appoint a Place beyond Erasure",
+        "description_vi": "Hai người tự định giờ ngày kế, dành ghế lúc hẹn và cho khách tự chọn bước vào khoảng sáng trước biến cố.",
+        "description_en": "Two people freely appoint tomorrow’s hour, reserve a chair when agreeing and let the guest choose entry before the event."
+      }
+    ],
+    "epigraph_vi": "Ngày mai đã có người đến giữ ghế.",
+    "epigraph_en": "Someone has come to reserve tomorrow a chair.",
+    "editorial_review_kind": "v5-complete-high-authority-refinement"
+  }
+]

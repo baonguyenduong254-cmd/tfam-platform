@@ -1,0 +1,290 @@
+[
+  {
+    "id": "botanical-dewkeeping-moss",
+    "mode": "prepend",
+    "lore_vi": "Người hái rêu đầu tiên mang về một mảnh vách giếng, đặt cạnh giường mẹ đang khát.",
+    "lore_en": "Its first gatherer brought home a piece of well-wall and set it beside his thirsty mother's bed."
+  },
+  {
+    "id": "botanical-warmneedle-grass",
+    "mode": "prepend",
+    "lore_vi": "Người chăn dê giấu một bó cỏ trong găng, tới sáng những lá kim vẫn giữ hơi ấm cuối của đá.",
+    "lore_en": "A goatherd hid a bunch in his glove; at dawn its needles still held the stone's last warmth."
+  },
+  {
+    "id": "botanical-chalkveil-lichen",
+    "mode": "prepend",
+    "lore_vi": "Phấn trắng trên cổ áo đã đưa người học việc tới chiếc đinh đang nóng trong đống tuyết.",
+    "lore_en": "White dust on his collar led an apprentice to a hot nail beneath the snow."
+  },
+  {
+    "id": "botanical-knocking-pea",
+    "mode": "prepend",
+    "lore_vi": "Ba tiếng gõ trong túi hạt khiến người giữ vườn mở lại nhà kính trước khi sương kịp phủ chồi non.",
+    "lore_en": "Three knocks from the seed-pouch made the gardener reopen the glasshouse before mist covered the seedlings."
+  },
+  {
+    "id": "botanical-silverturn-leaf",
+    "mode": "prepend",
+    "lore_vi": "Một lá bạc quay về chiếc nhẫn giấu trong găng đã vạch trần trò đùa của người học trò.",
+    "lore_en": "A silver leaf turning towards a ring hidden in a glove betrayed an apprentice's trick."
+  },
+  {
+    "id": "botanical-slowink-fungus",
+    "mode": "prepend",
+    "lore_vi": "Người chép sách phát hiện nấm khi dịch đen tự lần theo nét tên người chủ cũ.",
+    "lore_en": "A copyist discovered the fungus when its black fluid followed the former owner's written name."
+  },
+  {
+    "id": "botanical-stillwater-sedge",
+    "mode": "prepend",
+    "lore_vi": "Giữa chiếc chậu bị khuấy, một vùng nước im cho cô bé thấy mặt mình thôi run.",
+    "lore_en": "Within the stirred basin, one quiet patch let a girl see her face cease trembling."
+  },
+  {
+    "id": "botanical-hourstitch-bloom",
+    "mode": "prepend",
+    "lore_vi": "Thợ đồng hồ nhận hoa thay tiền, rồi đợi từng cánh sáng để căn lại nhịp tay mình.",
+    "lore_en": "A clockmaker accepted the flower as payment and waited for each lit petal to steady his hands."
+  },
+  {
+    "id": "botanical-mistglass-fern",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ áp mặt vào khung sương giữa lá, làm thủng một cửa sổ rồi nhìn nó tự dựng lại.",
+    "lore_en": "A child pressed into the mist between leaves, breaking a window and watching it rebuild."
+  },
+  {
+    "id": "botanical-redmarrow-bulb",
+    "mode": "prepend",
+    "lore_vi": "Những củ đỏ đầu tiên được giữ trong túi đất khâu từ áo của người trồng đã chết rét.",
+    "lore_en": "The first red bulbs were carried in soil-pouches sewn from the coat of a frost-killed grower."
+  },
+  {
+    "id": "botanical-coppercord-weed",
+    "mode": "prepend",
+    "lore_vi": "Thợ lặn thấy dải rong co giật theo mảnh quặng dưới đáy bể, như dây chuông nằm quên dưới nước.",
+    "lore_en": "A diver saw weed twitch along submerged ore like a bell-rope forgotten underwater."
+  },
+  {
+    "id": "botanical-rustdrinking-nettle",
+    "mode": "prepend",
+    "lore_vi": "Các nốt cam khiến người thợ tưởng cây đang mắc bệnh, cho tới khi mặt sắt bên gốc sạch dần.",
+    "lore_en": "Its orange knots looked diseased until the smith noticed iron clearing beside its roots."
+  },
+  {
+    "id": "botanical-nightlamp-daisy",
+    "mode": "prepend",
+    "lore_vi": "Sau giờ đóng xưởng, người thợ để một chậu cúc soi đường cho học trò ngủ lại.",
+    "lore_en": "After closing, a craftsman left daisies lighting the way for apprentices sleeping in the workshop."
+  },
+  {
+    "id": "botanical-earthstitch-root",
+    "mode": "prepend",
+    "lore_vi": "Người làm vườn nâng hai mảnh đất đã được rễ nối, như nâng một chiếc bát vừa vá.",
+    "lore_en": "A gardener lifted root-joined clods as carefully as a mended bowl."
+  },
+  {
+    "id": "botanical-palesalt-bean",
+    "mode": "prepend",
+    "lore_vi": "Những vòng muối trên vỏ đậu là thứ một người đi biển mang về từ khu vườn xa lạ.",
+    "lore_en": "Salt-rings on a bean-pod were what a sailor brought home from a foreign garden."
+  },
+  {
+    "id": "botanical-watchbell-mushroom",
+    "mode": "prepend",
+    "lore_vi": "Người gác già nghe tiếng nấm rung dưới bóng cánh tay mình và lần đầu thấy buồn vì đã đến giờ thay ca.",
+    "lore_en": "An old watchman heard the mushroom tremble under his arm's shadow and regretted the approaching change of watch."
+  },
+  {
+    "id": "botanical-blacklead-orchid",
+    "mode": "prepend",
+    "lore_vi": "Một tiếng kìm rơi làm hoa gục xuống, kéo theo tiếng thốt của người tưởng cây vừa chết.",
+    "lore_en": "Dropped tongs bowed the flower, startling a keeper who thought it had died."
+  },
+  {
+    "id": "botanical-waterseeking-willow",
+    "mode": "prepend",
+    "lore_vi": "Nhánh rễ chỉ vào vách khô đã giúp người thợ nghe lại đường nước bị xây bít.",
+    "lore_en": "Roots pointing at a dry wall led a craftsman back to a bricked-up watercourse."
+  },
+  {
+    "id": "botanical-frostneedle-bloom",
+    "mode": "prepend",
+    "lore_vi": "Người trồng hong tay bên gốc ấm trong khi sương đâm thành những mũi kim trên hoa.",
+    "lore_en": "The grower warmed his hands at its roots while frost sharpened into needles above."
+  },
+  {
+    "id": "botanical-footfall-moss",
+    "mode": "prepend",
+    "lore_vi": "Một đứa trẻ lần theo những bước sáng của cha qua sàn gỗ trước khi rêu kịp quên.",
+    "lore_en": "A child followed his father's luminous footsteps through the floorboards before the moss forgot them."
+  },
+  {
+    "id": "botanical-scentlock-sapling",
+    "mode": "prepend",
+    "lore_vi": "Nhựa giữ mùi chiếc khăn mẹ từng quàng, khiến người học nghề luôn tránh hong mẫu gần bếp.",
+    "lore_en": "Resin retained his mother's scarf-scent, making an apprentice keep it far from the hearth."
+  },
+  {
+    "id": "botanical-stillness-pepper",
+    "mode": "prepend",
+    "lore_vi": "Chùm tiêu đổi sắc báo máy đã dừng trước khi người thợ nhận ra tiếng ồn quen thuộc biến mất.",
+    "lore_en": "The pepper changed colour before its mechanic noticed the familiar machinery had fallen silent."
+  },
+  {
+    "id": "botanical-windtwist-grass",
+    "mode": "prepend",
+    "lore_vi": "Thợ làm quạt giữ cả bụi cỏ, để học trò thấy gió cũng có thể bị một chiếc lá cãi lại.",
+    "lore_en": "A fan-maker kept the whole tuft to show his pupils that even a leaf could dispute the wind."
+  },
+  {
+    "id": "botanical-ashring-fungus",
+    "mode": "prepend",
+    "lore_vi": "Mỗi vành tro nặng rơi xuống đĩa nghe như một cơn ho đã được lấy khỏi căn phòng.",
+    "lore_en": "Each heavy ash-ring falling into the dish sounded like a cough removed from the room."
+  },
+  {
+    "id": "botanical-capillary-rose",
+    "mode": "prepend",
+    "lore_vi": "Gân hoa đỏ lên theo dòng nước khiến người thợ ống nghĩ mình đang nhìn mạch của chính căn nhà.",
+    "lore_en": "Its reddening veins made a pipe-maker feel he was watching the house's own pulse."
+  },
+  {
+    "id": "botanical-cadence-bamboo",
+    "mode": "prepend",
+    "lore_vi": "Một người cha gõ nhịp ru con lên trúc, rồi nhận lại cả chỗ mình đã ngừng vì mệt.",
+    "lore_en": "A father tapped a lullaby into bamboo and received even the pause where fatigue had stopped him."
+  },
+  {
+    "id": "botanical-icevein-lotus",
+    "mode": "prepend",
+    "lore_vi": "Người nuôi cá giữ chậu sen bên lỗ băng cuối, đợi những gợn nước nhỏ nói rằng ao còn thở.",
+    "lore_en": "A fish-keeper watched the lotus beside the last opening in the ice, waiting for ripples that said the pond still breathed."
+  },
+  {
+    "id": "botanical-soundknot-pine",
+    "mode": "prepend",
+    "lore_vi": "Người con đem quả thông tới bên giường cha, giữ lại một tiếng gọi tên mình.",
+    "lore_en": "A daughter carried the cone to her father's bedside and kept one speaking of her name."
+  },
+  {
+    "id": "botanical-veilmist-vine",
+    "mode": "prepend",
+    "lore_vi": "Một giàn nho khiến cửa sổ kho mờ đi trước khi cả xóm thức dậy, giấu buổi sáng trong màn nước mỏng.",
+    "lore_en": "A vine misted the warehouse window before the neighbourhood woke, hiding morning in a thin water-curtain."
+  },
+  {
+    "id": "botanical-needlecompass-tuber",
+    "mode": "prepend",
+    "lore_vi": "Người giữ củ đã dời đá nuôi sang phòng khác, rồi thấy chồi non vẫn nghiêng về chỗ cha mẹ nó bị mang đi.",
+    "lore_en": "Its keeper moved the nourishing stone away and watched the shoot lean towards what had been taken from it."
+  },
+  {
+    "id": "botanical-tidechart-alga",
+    "mode": "prepend",
+    "lore_vi": "Trạm nước treo tảo sát cửa kính; những đường bạc thay chỗ trong lúc người gác ngủ gật.",
+    "lore_en": "At the water-station, silver lines shifted on glass-mounted algae while the watchman dozed."
+  },
+  {
+    "id": "botanical-hearthhush-chrysanthemum",
+    "mode": "prepend",
+    "lore_vi": "Người chép sách khép cửa rồi nghe lá còn rung, như căn phòng chưa chịu buông tiếng lò đã tắt.",
+    "lore_en": "A copyist shut the door and heard leaves trembling, as though the room still held its extinguished hearth."
+  },
+  {
+    "id": "botanical-seamweaving-briar",
+    "mode": "prepend",
+    "lore_vi": "Thợ may đưa chiếc áo rách vào bụi gai, nhận lại đường khâu thô như bàn tay một người đang vội.",
+    "lore_en": "A tailor offered a torn coat to the briar and received a seam like the work of hurried hands."
+  },
+  {
+    "id": "botanical-thermal-balance-orchid",
+    "mode": "prepend",
+    "lore_vi": "Hai cánh lan đặt giữa hai khoang trở thành đôi bàn tay đổi chỗ ấm lạnh cho nhau.",
+    "lore_en": "Between separate chambers, its petals resembled hands passing warmth and cold between them."
+  },
+  {
+    "id": "botanical-witnessseal-oak",
+    "mode": "prepend",
+    "lore_vi": "Một gân đỏ trên lá niêm khiến người gửi biết bức thư đã được mở trước khi đến nơi.",
+    "lore_en": "A red vein in the sealing leaf told the sender his letter had been opened before arrival."
+  },
+  {
+    "id": "botanical-smokepart-orchid",
+    "mode": "prepend",
+    "lore_vi": "Người trông lan luôn quét đĩa bụi trước khi ngắm hoa, vì phần đẹp nhất giấu một việc nặng nhọc bên dưới.",
+    "lore_en": "Its keeper swept the dust-tray before admiring the orchids; their beauty concealed labour beneath."
+  },
+  {
+    "id": "botanical-bridge-thread-shrub",
+    "mode": "prepend",
+    "lore_vi": "Chiếc khay thuốc được bắc qua hai cọc bằng rễ, dưới bàn tay người trồng vẫn đỡ sẵn.",
+    "lore_en": "A medicine-tray crossed between two stakes upon its roots, the grower's hands waiting underneath."
+  },
+  {
+    "id": "botanical-turningbell-flower",
+    "mode": "prepend",
+    "lore_vi": "Đứa trẻ chạm nhầm lá khiến tiếng gõ gọi mình quay về phía bức tường.",
+    "lore_en": "A child's misplaced touch sent the knock meant for him towards the wall."
+  },
+  {
+    "id": "botanical-pulsebreak-reed",
+    "mode": "prepend",
+    "lore_vi": "Những vòng cháy trên trúc được thợ giữ lại như dấu bỏng của người đã nhận đòn thay kẻ khác.",
+    "lore_en": "A craftsman preserved its scorched rings like burns on someone who had taken another's blow."
+  },
+  {
+    "id": "botanical-retracing-inkcap",
+    "mode": "prepend",
+    "lore_vi": "Nét tên nhòa trở lại dưới dịch nấm khiến người nhận thư đặt cả hai tay lên bàn cho khỏi run.",
+    "lore_en": "A blurred name restored by fungus made its reader press both hands flat to stop them trembling."
+  },
+  {
+    "id": "botanical-longnight-cedar",
+    "mode": "prepend",
+    "lore_vi": "Trong một mùa thiếu củi, người chăm giữ cây nguyên thân dù được trả giá đủ nuôi cả nhà.",
+    "lore_en": "During a fuel famine its keeper refused a price for the timber that could have fed the household."
+  },
+  {
+    "id": "botanical-scentmemory-rose",
+    "mode": "prepend",
+    "lore_vi": "Người trồng học nhịp mở hương như học cách gõ cửa từng căn phòng của một ngày đã qua.",
+    "lore_en": "The grower learnt its opening rhythm like knocks upon the rooms of a vanished day."
+  },
+  {
+    "id": "botanical-silent-silver-willow",
+    "mode": "prepend",
+    "lore_vi": "Đêm liễu ngủ, cả phòng nghe những tiếng động cũ trở về trên mặt nước dưới cành.",
+    "lore_en": "When the willow slept, old sounds returned through the water beneath its branches."
+  },
+  {
+    "id": "botanical-lightpart-iris",
+    "mode": "prepend",
+    "lore_vi": "Người phân quặng giữ những bản màu đẹp nhất trong bìa da đã sờn, như tập bản đồ của một đất nước nằm trong đá.",
+    "lore_en": "An ore-sorter kept its finest colours in worn leather, an atlas of a country within stone."
+  },
+  {
+    "id": "botanical-twelve-knot-root",
+    "mode": "prepend",
+    "lore_vi": "Người học việc gõ nút thứ nhất rồi đợi đủ vòng, hồi hộp như chờ lá thư tự quay về người gửi.",
+    "lore_en": "An apprentice tapped the first knot and awaited the returning circuit like a letter finding its sender."
+  },
+  {
+    "id": "botanical-waterlock-lotus",
+    "mode": "prepend",
+    "lore_vi": "Một chiếc chén nổi dưới lá sen khiến người giữ vườn quên thở, cho tới lúc vết lõm tròn nhắc họ kéo dây.",
+    "lore_en": "A cup resting under the lotus held the gardener breathless until a round depression warned him to pull the cord."
+  },
+  {
+    "id": "botanical-crackreading-thorn",
+    "mode": "prepend",
+    "lore_vi": "Thợ điêu khắc đặt gai lên tượng chưa xong, nghe nhịp của chỗ đá sắp phản bội đường đục.",
+    "lore_en": "A sculptor touched the unfinished statue and heard where the stone would betray his chisel."
+  },
+  {
+    "id": "botanical-seven-season-papercap",
+    "mode": "prepend",
+    "lore_vi": "Người cứu sách đặt từng trang giữa bảy lớp nấm, chờ giấy thôi cong như chờ ngón tay người bệnh duỗi lại.",
+    "lore_en": "A book-salvager placed pages between seven layers, waiting for paper to uncurl like a patient's fingers."
+  }
+]

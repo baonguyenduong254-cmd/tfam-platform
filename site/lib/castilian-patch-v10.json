@@ -1,0 +1,41 @@
+{
+  "capital_demo": "Madrid",
+  "lore_vi_1715": "Chiến tranh Kế vị khép lại với chiến thắng của Vương tộc Aragón trước hai đối thủ lớn là nhà Habsburg và Bourbon. Năm 1701, ở tuổi mười ba, Isabella Testarossa de Aragón bước lên ngai vàng, trở thành nữ quân chủ trẻ nhất trong lịch sử Tây Ban Nha. Cùng với triều đại mới, bà xóa bỏ tên gọi của vương quốc cũ và khai sinh một quốc gia mới: Đế chế Castilian.\n\nTrong mười bốn năm tiếp theo, Isabella tự tay đưa Castilian từ một đất nước vừa bước khỏi nội chiến trở thành một trong những cường quốc lớn của châu Âu, với ảnh hưởng trải dài sang cả Tân Thế Giới. Công nghiệp, quân đội và những công nghệ dựa trên Vestigium phát triển với tốc độ chưa từng có dưới triều đại của vị nữ hoàng trẻ.\n\nNhưng vị thế ấy không tồn tại mãi.\n\nCác thuộc địa Castilian tại Tân Thế Giới lần lượt rơi vào tay Đế chế Tân Bồ Đào Nha, kéo theo sự suy sụp của quyền lực hải quân bên kia Đại Tây Dương. Tại châu Âu, Vương quốc Pháp Thần Thánh tuyên chiến, trong khi Đế chế Tây La Mã mở cuộc xâm lược từ một hướng khác. Những gì Isabella mất mười bốn năm để xây dựng giờ đứng trước nguy cơ bị nghiền nát giữa nhiều mặt trận.\n\nBị đẩy vào thế gọng kìm, Nữ hoàng Castilian buộc phải tìm ra một con đường cứu lấy đế chế trước khi toàn bộ công trình của triều đại Aragón tan thành tro bụi.",
+  "lore_en_1715": "The War of Succession ended with the triumph of the House of Aragón over its two great rivals, the Habsburgs and the Bourbons. In 1701, at only thirteen years of age, Isabella Testarossa de Aragón ascended the throne, becoming the youngest sovereign in Spanish history. With the rise of a new dynasty came the death of the old kingdom and the birth of a new state: the Castilian Empire.\n\nOver the next fourteen years, Isabella transformed a nation emerging from civil war into one of Europe’s great powers, extending its influence far beyond the continent and into the New World. Industry, military strength, and Vestigium-based technologies advanced at an unprecedented pace under the young Queen’s reign.\n\nBut Castilian supremacy would not endure unchallenged.\n\nOne by one, its colonies in the New World fell into the hands of the New Portuguese Empire, crippling Castilian power across the Atlantic. In Europe, the Holy French Kingdom declared war, while the Western Roman Empire launched an invasion from another front. Everything Isabella had spent fourteen years building now stood on the verge of destruction.\n\nCaught between converging enemies, the Queen of Castilian was forced to find a way to save her empire before the legacy of Aragón was reduced to ash.",
+  "lore_vi_1716": "Castilian đã sống sót.\n\nKhông phải nhờ một chiến thắng duy nhất, mà nhờ một liên minh giữa những thế lực từng không có lý do gì để đứng cùng nhau. Dưới sự dẫn dắt của Isabella, người Castilian chiến đấu bên cạnh những người Anh vong quốc, Công ty Đông Ấn Anh Quốc và Sultan quốc Maroc, từng bước phá vỡ thế cô lập đã đẩy đế chế đến bờ vực sụp đổ.\n\nCuối cùng, các chiến trường im tiếng súng. Isabella đưa những cường quốc từng muốn chia cắt Castilian đến cùng một bàn đàm phán, kết thúc nhiều năm chiến tranh liên miên và giành lại cho đất nước một nền hòa bình tưởng như không thể đạt được.\n\nNhưng hòa bình không phải kết thúc của tham vọng Castilian.\n\nNhững ngành công nghiệp sống sót sau chiến tranh bắt đầu hoạt động trở lại. Những nguồn lực từng bị dồn cho tiền tuyến được đưa về tái thiết đất nước. Những công nghệ ra đời trong những năm tháng tuyệt vọng giờ trở thành nền móng cho một thời đại mới.\n\nSau hơn một thập kỷ phải chiến đấu để tồn tại, Castilian cuối cùng đã có cơ hội làm điều mà Isabella luôn hướng tới: không chỉ sống sót giữa các đế chế của châu Âu, mà vươn lên vượt khỏi họ.",
+  "lore_en_1716": "Castilian survived.\n\nNot through a single decisive victory, but through an alliance between powers that once had little reason to stand together. Under Isabella’s leadership, the Castilians fought alongside the English exiles, the British East India Company, and the Sultanate of Morocco, gradually breaking the isolation that had brought the empire to the brink of collapse.\n\nAt last, the battlefields fell silent. Isabella brought the powers that had once sought to divide Castilian to the negotiating table, ending years of relentless warfare and securing a peace that had once seemed impossible.\n\nYet peace did not mark the end of Castilian ambition.\n\nIndustries that had survived the war began to turn once more. Resources once consumed by the front were redirected toward reconstruction. Technologies born from years of desperation became the foundations of a new age.\n\nAfter more than a decade spent fighting simply to survive, Castilian finally had the opportunity to pursue Isabella’s greater vision: not merely to endure among the empires of Europe, but to rise beyond them.",
+  "traits": [
+    {
+      "id": "architects_of_vestigium",
+      "label_vi": "Kiến trúc sư Vestigium",
+      "label_en": "Architects of Vestigium",
+      "effect_vi": "Nền công nghiệp và nông nghiệp Castilian được tái cấu trúc xoay quanh Vestigium, mang lại năng suất và tốc độ phát triển vượt xa các phương thức truyền thống.",
+      "effect_en": "Castilian industry and agriculture have been rebuilt around Vestigium, achieving levels of productivity and development far beyond conventional methods.",
+      "effect_ui": "Nền công nghiệp và nông nghiệp Castilian được tái cấu trúc xoay quanh Vestigium, mang lại năng suất và tốc độ phát triển vượt xa các phương thức truyền thống."
+    },
+    {
+      "id": "masters_of_ice_age",
+      "label_vi": "Chế ngự Kỷ Băng Hà",
+      "label_en": "Masters of the Ice Age",
+      "effect_vi": "Qua nhiều năm thích nghi, kỹ thuật và cơ sở hạ tầng Castilian đã gần như loại bỏ những tổn thất trực tiếp do giá lạnh cực đoan gây ra.",
+      "effect_en": "Years of adaptation have allowed Castilian engineering and infrastructure to virtually eliminate the direct losses caused by extreme cold.",
+      "effect_ui": "Qua nhiều năm thích nghi, kỹ thuật và cơ sở hạ tầng Castilian đã gần như loại bỏ những tổn thất trực tiếp do giá lạnh cực đoan gây ra."
+    },
+    {
+      "id": "genius_forged_by_war",
+      "label_vi": "Thiên tài dưới áp lực chiến tranh",
+      "label_en": "Genius Forged by War",
+      "effect_vi": "Dưới triều Isabella, áp lực sinh tồn và chiến tranh liên tục thúc đẩy Castilian phát triển những công nghệ vượt xa chuẩn mực của thời đại.",
+      "effect_en": "Under Isabella’s reign, relentless warfare and the pressure of survival have driven Castilian innovation far beyond the technological standards of its age.",
+      "effect_ui": "Dưới triều Isabella, áp lực sinh tồn và chiến tranh liên tục thúc đẩy Castilian phát triển những công nghệ vượt xa chuẩn mực của thời đại."
+    },
+    {
+      "id": "red_eye",
+      "label_vi": "Con Mắt Đỏ",
+      "label_en": "The Red Eye",
+      "effect_vi": "Khả năng nhìn người đặc biệt của Isabella cho phép triều đình Castilian phát hiện và trọng dụng nhân tài, đồng thời phân bổ nhân lực và tài nguyên với hiệu suất gần như tuyệt đối.",
+      "effect_en": "Isabella’s exceptional eye for talent allows the Castilian court to identify and elevate gifted individuals while allocating manpower and resources with extraordinary efficiency.",
+      "effect_ui": "Khả năng nhìn người đặc biệt của Isabella cho phép triều đình Castilian phát hiện và trọng dụng nhân tài, đồng thời phân bổ nhân lực và tài nguyên với hiệu suất gần như tuyệt đối."
+    }
+  ]
+}

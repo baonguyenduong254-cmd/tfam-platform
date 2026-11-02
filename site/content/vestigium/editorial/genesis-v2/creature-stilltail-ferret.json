@@ -1,0 +1,47 @@
+[
+  {
+    "id": "creature-stilltail-ferret",
+    "category": "creature",
+    "rarity": 2,
+    "lore_vi": "Chồn sống dưới sàn kho đồng hồ, tha vải bọc linh kiện có bụi khoáng xám về ổ. Đuôi con non mọc dài, lông xám xếp thành những vòng nhỏ. Khi cuộn đuôi quanh trục lỏng trên bàn, nó giữ trục khỏi rung ngang mà bánh vẫn quay, như thể đuôi chỉ bắt phần chuyển động đang muốn đi sai đường.\n\nThợ đồng hồ dành cho nó một dải vải riêng. Ông thử trên cơ cấu đã tháo cót trước, học cách dời tay khi con vật bắt đầu mỏi. Chồn giữ một bánh răng yên giữa những ngón run của ông rồi bỏ đi ngủ, để mọi người hiểu ai mới là kẻ quyết định lúc công việc kết thúc.",
+    "lore_en": "The ferret lived beneath a clock store and nested in wrappings carrying grey mineral dust. Its young grew long tails with grey hair in little rings. Coiled around a loose bench shaft, a tail stopped sideways vibration while the wheel kept turning, as though it caught only motion seeking the wrong road.\n\nA clockmaker gave it a cloth of its own. He first tested discharged mechanisms and learnt to move his hands when the animal tired. The ferret steadied one gear between his trembling fingers, then left to sleep, making clear who decided when work ended.",
+    "use_vi": "Giữ rung ngang của trục nhỏ khi kiểm máy và hỗ trợ nhận hướng trục lệch.",
+    "use_en": "Still lateral vibration in small shafts during inspection and help reveal misalignment.",
+    "limits_vi": "Chỉ tải rất nhỏ, cơ cấu phải có che chắn chống cuốn đuôi. Trục nóng gây bỏng; con vật mỏi cần được rời ngay, người dùng tiếp tải bằng giá thật.",
+    "limits_en": "Only tiny loads are suitable and mechanisms need tail-entanglement guards. Hot shafts burn; a tired animal must leave immediately while a real mount takes the load.",
+    "skills": [
+      {
+        "name_vi": "Cuộn giữ trục",
+        "name_en": "Coil Around the Shaft",
+        "description_vi": "Cho chồn tự cuộn đuôi quanh trục nhỏ đã nguội và che an toàn để rung ngang dịu trong khi thử quay chậm bằng tay.",
+        "description_en": "Let the ferret coil around a cooled guarded shaft so lateral tremor subsides during slow manual turning."
+      },
+      {
+        "name_vi": "Vòng lông chỉ lệch",
+        "name_en": "Tail Rings Show Misalignment",
+        "description_vi": "Quan sát phía lông xám dựng căng để nhận hướng trục đang đẩy lệch, chọn nơi cần căn giá; cần dừng trước khi động vào giá.",
+        "description_en": "Read the side where grey rings tighten to identify lateral push and choose mount adjustment, stopping before touching it."
+      },
+      {
+        "name_vi": "Chuyền về giá",
+        "name_en": "Pass to the Mount",
+        "description_vi": "Đưa giá đỡ thường tới đúng trục lúc đuôi còn giữ để chuyển tải dần, rồi để chồn rời mà trục khỏi giật ngang.",
+        "description_en": "Bring an ordinary support to the steadied shaft and transfer the load gradually before the ferret leaves, avoiding lateral recoil."
+      },
+      {
+        "name_vi": "Rũ phần rung",
+        "name_en": "Shake Out the Tremor",
+        "description_vi": "Cho chồn về dải vải riêng sau lượt để nó rũ các vòng đuôi, nhả rung còn giữ ra vải trước khi nghỉ; cấm giằng đuôi khi rũ.",
+        "description_en": "Return it to its cloth after use so it shakes retained tremor into the fabric before resting; never pull the tail during release."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đuôi bắt đường lệch",
+        "name_en": "A Tail Catches the Straying Motion",
+        "description_vi": "Vòng lông bắt rung ngang mạnh hơn vòng quay đều, nên cần kiểm chuyển động trước khi cho tiếp xúc.",
+        "description_en": "Tail rings catch sideways tremor more strongly than steady rotation, requiring prior movement inspection."
+      }
+    ]
+  }
+]

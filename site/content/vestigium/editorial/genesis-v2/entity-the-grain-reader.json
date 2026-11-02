@@ -1,0 +1,47 @@
+[
+  {
+    "id": "entity-the-grain-reader",
+    "category": "entity",
+    "rarity": 2,
+    "lore_vi": "Khúc gỗ làm đàn từng ôm một mảnh khoáng nằm trong hốc thân. Cây lớn thêm, ép khoáng thành các đường bạc rất mảnh chạy dọc thớ. Khi thợ đàn cắt mặt đầu, một người tóc sợi gỗ cúi từ vòng tuổi, quay theo đường dài nhất còn liền trong khúc.\n\nBào mỏng, dáng người co lại vừa phần gỗ còn giữ đầu thớ ấy. Người thợ dời cưa ra xa trước khi xoay mẫu cho khách đọc. Ông bảo học trò chờ, vì ngay cả khi đã thấy nơi nên cắt, người chỉ đường vẫn đang đứng trong vật mà lưỡi cưa sắp đi qua.",
+    "lore_en": "An instrument billet had once enclosed a mineral fragment within a trunk hollow. New growth pressed it into fine silver lines along the grain. When a luthier exposed the end, a wood-haired person bowed from an age ring towards the longest continuous strand.\n\nPlaning reduced the figure to fit the remaining wood holding that strand’s end. The luthier moved his saw away before turning the sample for its guest. He told apprentices to wait: even after the cut had been chosen, their guide still stood within what the saw would cross.",
+    "use_vi": "Chỉ thớ liền và hỗ trợ bố trí đường cắt nhỏ trên khúc gỗ trú.",
+    "use_en": "Indicate continuous grain and assist small cutting layouts upon its inhabited billet.",
+    "limits_vi": "Chỉ khúc gốc, khuyết tật ngoài thớ nó theo vẫn cần xem. Cắt ngang hình trú khiến khách ngủ nhiều tuần; nhiệt cao có thể xóa dáng khỏi gỗ.",
+    "limits_en": "It knows its original billet only; faults beyond the strand it follows require inspection. Cutting through its figure puts it to sleep for weeks; high heat may erase it.",
+    "skills": [
+      {
+        "name_vi": "Cúi theo thớ dài",
+        "name_en": "Bow Along the Long Grain",
+        "description_vi": "Xoay khúc gỗ chậm dưới ánh xiên để khách cúi về đường thớ liền dài nhất, chọn hướng dựng chi tiết.",
+        "description_en": "Turn the billet slowly under oblique light so the guest bows towards its longest continuous grain and helps orient a component."
+      },
+      {
+        "name_vi": "Tóc chia nhánh",
+        "name_en": "Branching Hair",
+        "description_vi": "Làm ẩm nhẹ mặt cắt để các sợi tóc sáng theo thớ phụ, giúp nhận nơi đường cắt có thể đi chệch; lau khô trước khi đánh dấu.",
+        "description_en": "Lightly dampen the end grain to illuminate hair along secondary strands and reveal where a cut may wander; dry before marking."
+      },
+      {
+        "name_vi": "Dấu thớ vừa đứt",
+        "name_en": "The Newly Broken Strand",
+        "description_vi": "Đặt tay lên vùng vừa bào để khách quay về chỗ tóc bị cắt, chỉ nơi thớ đang xé; máy bào cần ngừng hoàn toàn trước phép xem.",
+        "description_en": "Rest a hand upon newly planed wood so the guest turns towards severed hair and points to tearing grain; stop the planer entirely before inspection."
+      },
+      {
+        "name_vi": "Mời khách lùi",
+        "name_en": "Ask the Guest Aside",
+        "description_vi": "Gõ nhẹ đầu thớ trước đường cắt đã chọn để khách lùi về vòng tuổi kế, giảm nguy cơ cưa ngang hình trú; phải đợi thấy nó đã dời.",
+        "description_en": "Tap the grain end before a chosen cut to let the guest retreat to the next ring, reducing the risk of sawing through it; wait until its movement is visible."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tóc theo thớ",
+        "name_en": "Hair Along the Grain",
+        "description_vi": "Tóc khách chia về các thớ nối, nhưng thân cúi về đường dài nhất; chỗ tóc đứt có thể là nơi gỗ vừa bị tổn thương.",
+        "description_en": "Its hair divides along connecting grain while the body bows towards the longest run; broken hair may mark fresh damage."
+      }
+    ]
+  }
+]

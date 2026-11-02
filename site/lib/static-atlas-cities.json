@@ -1,0 +1,1852 @@
+{
+  "cities": [
+    {
+      "id": "madrid",
+      "name_vi": "Madrid",
+      "name_en": "Madrid",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "lisbon",
+      "name_vi": "Lisboa",
+      "name_en": "Lisbon",
+      "coordinates": [
+        -9.1393,
+        38.7223
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "paris",
+      "name_vi": "Paris",
+      "name_en": "Paris",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "rome",
+      "name_vi": "Roma",
+      "name_en": "Rome",
+      "coordinates": [
+        12.4964,
+        41.9028
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "constantinople",
+      "name_vi": "Constantinople",
+      "name_en": "Constantinople",
+      "coordinates": [
+        28.9784,
+        41.0082
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "",
+        "1716": ""
+      }
+    },
+    {
+      "id": "vienna",
+      "name_vi": "Viên",
+      "name_en": "Vienna",
+      "coordinates": [
+        16.3738,
+        48.2082
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "warsaw",
+      "name_vi": "Warszawa",
+      "name_en": "Warsaw",
+      "coordinates": [
+        21.0122,
+        52.2297
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "london",
+      "name_vi": "Tàn tích London",
+      "name_en": "Ruins of London",
+      "coordinates": [
+        -0.1276,
+        51.5072
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "england_ruins",
+        "1716": "england_ruins"
+      }
+    },
+    {
+      "id": "edinburgh",
+      "name_vi": "Edinburgh",
+      "name_en": "Edinburgh",
+      "coordinates": [
+        -3.1883,
+        55.9533
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "scotland_ireland_union",
+        "1716": "scotland_ireland_union"
+      }
+    },
+    {
+      "id": "dublin",
+      "name_vi": "Dublin",
+      "name_en": "Dublin",
+      "coordinates": [
+        -6.2603,
+        53.3498
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "scotland_ireland_union",
+        "1716": "scotland_ireland_union"
+      }
+    },
+    {
+      "id": "novgorod",
+      "name_vi": "Novgorod",
+      "name_en": "Novgorod",
+      "coordinates": [
+        31.275,
+        58.521
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "novgorod_union",
+        "1716": "novgorod_union"
+      }
+    },
+    {
+      "id": "moscow",
+      "name_vi": "Moskva",
+      "name_en": "Moscow",
+      "coordinates": [
+        37.6173,
+        55.7558
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "novgorod_union",
+        "1716": "novgorod_union"
+      }
+    },
+    {
+      "id": "copenhagen",
+      "name_vi": "Copenhagen",
+      "name_en": "Copenhagen",
+      "coordinates": [
+        12.5683,
+        55.6761
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "danes_kingdom",
+        "1716": "danes_kingdom"
+      }
+    },
+    {
+      "id": "stockholm",
+      "name_vi": "Stockholm",
+      "name_en": "Stockholm",
+      "coordinates": [
+        18.0686,
+        59.3293
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "danes_kingdom",
+        "1716": "danes_kingdom"
+      }
+    },
+    {
+      "id": "marrakech",
+      "name_vi": "Marrakech",
+      "name_en": "Marrakech",
+      "coordinates": [
+        -7.9811,
+        31.6295
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "sultanate_of_morocco",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "tangier",
+      "name_vi": "Tanger",
+      "name_en": "Tangier",
+      "coordinates": [
+        -5.8128,
+        35.7595
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "sultanate_of_morocco",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "tunis",
+      "name_vi": "Tunis",
+      "name_en": "Tunis",
+      "coordinates": [
+        10.1815,
+        36.8065
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "algiers",
+      "name_vi": "Alger",
+      "name_en": "Algiers",
+      "coordinates": [
+        3.0588,
+        36.7538
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "cairo",
+      "name_vi": "Cairo",
+      "name_en": "Cairo",
+      "coordinates": [
+        31.2357,
+        30.0444
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "gao",
+      "name_vi": "Gao",
+      "name_en": "Gao",
+      "coordinates": [
+        -0.0447,
+        16.2666
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "songhai_empire",
+        "1716": "songhai_empire"
+      }
+    },
+    {
+      "id": "timbuktu",
+      "name_vi": "Timbuktu",
+      "name_en": "Timbuktu",
+      "coordinates": [
+        -3.0026,
+        16.7666
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "songhai_empire",
+        "1716": "songhai_empire"
+      }
+    },
+    {
+      "id": "gondar",
+      "name_vi": "Gondar",
+      "name_en": "Gondar",
+      "coordinates": [
+        37.467,
+        12.6
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "aksumite_empire",
+        "1716": "aksumite_empire"
+      }
+    },
+    {
+      "id": "kongo",
+      "name_vi": "Mbanza Kongo",
+      "name_en": "Mbanza Kongo",
+      "coordinates": [
+        14.2464,
+        -6.267
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "kongo_confederation",
+        "1716": "kongo_confederation"
+      }
+    },
+    {
+      "id": "mombasa",
+      "name_vi": "Mombasa",
+      "name_en": "Mombasa",
+      "coordinates": [
+        39.6682,
+        -4.0435
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "swahili_league",
+        "1716": "swahili_league"
+      }
+    },
+    {
+      "id": "cape",
+      "name_vi": "Mũi Hảo Vọng",
+      "name_en": "Cape Town",
+      "coordinates": [
+        18.4241,
+        -33.9249
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "cape_republic",
+        "1716": "cape_republic"
+      }
+    },
+    {
+      "id": "antananarivo",
+      "name_vi": "Antananarivo",
+      "name_en": "Antananarivo",
+      "coordinates": [
+        47.5079,
+        -18.8792
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "merina_empire",
+        "1716": "merina_empire"
+      }
+    },
+    {
+      "id": "isfahan",
+      "name_vi": "Isfahan",
+      "name_en": "Isfahan",
+      "coordinates": [
+        51.6776,
+        32.6546
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "safavid_empire",
+        "1716": "safavid_empire"
+      }
+    },
+    {
+      "id": "baghdad",
+      "name_vi": "Baghdad",
+      "name_en": "Baghdad",
+      "coordinates": [
+        44.3661,
+        33.3152
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "ottoman_empire"
+      }
+    },
+    {
+      "id": "delhi",
+      "name_vi": "Delhi",
+      "name_en": "Delhi",
+      "coordinates": [
+        77.209,
+        28.6139
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "agra",
+      "name_vi": "Agra",
+      "name_en": "Agra",
+      "coordinates": [
+        78.0081,
+        27.1767
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "beijing",
+      "name_vi": "Bắc Kinh",
+      "name_en": "Beijing",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "ming_celestial_empire",
+        "1716": "ming_celestial_empire"
+      }
+    },
+    {
+      "id": "nanjing",
+      "name_vi": "Nam Kinh",
+      "name_en": "Nanjing",
+      "coordinates": [
+        118.7969,
+        32.0603
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ming_celestial_empire",
+        "1716": "ming_celestial_empire"
+      }
+    },
+    {
+      "id": "edo",
+      "name_vi": "Edo",
+      "name_en": "Edo",
+      "coordinates": [
+        139.6917,
+        35.6895
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "tokugawa_empire",
+        "1716": "tokugawa_empire"
+      }
+    },
+    {
+      "id": "kyoto",
+      "name_vi": "Kyoto",
+      "name_en": "Kyoto",
+      "coordinates": [
+        135.7681,
+        35.0116
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "tokugawa_empire",
+        "1716": "tokugawa_empire"
+      }
+    },
+    {
+      "id": "hanoi",
+      "name_vi": "Thăng Long",
+      "name_en": "Thang Long",
+      "coordinates": [
+        105.8342,
+        21.0278
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "annam_empire",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "hue",
+      "name_vi": "Phú Xuân",
+      "name_en": "Phu Xuan",
+      "coordinates": [
+        107.5909,
+        16.4637
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "annam_empire",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "ayutthaya",
+      "name_vi": "Ayutthaya",
+      "name_en": "Ayutthaya",
+      "coordinates": [
+        100.5683,
+        14.3532
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "yangon",
+      "name_vi": "Rangoon",
+      "name_en": "Rangoon",
+      "coordinates": [
+        96.1951,
+        16.8661
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "makassar",
+      "name_vi": "Makassar",
+      "name_en": "Makassar",
+      "coordinates": [
+        119.4124,
+        -5.1477
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "nusantara_sultanate",
+        "1716": "nusantara_sultanate"
+      }
+    },
+    {
+      "id": "karakorum",
+      "name_vi": "Karakorum",
+      "name_en": "Karakorum",
+      "coordinates": [
+        102.8238,
+        47.1975
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "eternal_sky_khanate",
+        "1716": "eternal_sky_khanate"
+      }
+    },
+    {
+      "id": "samarkand",
+      "name_vi": "Samarkand",
+      "name_en": "Samarkand",
+      "coordinates": [
+        66.9597,
+        39.6542
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "eternal_sky_khanate",
+        "1716": "eternal_sky_khanate"
+      }
+    },
+    {
+      "id": "havana",
+      "name_vi": "La Habana",
+      "name_en": "Havana",
+      "coordinates": [
+        -82.3666,
+        23.1136
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "mexico",
+      "name_vi": "Ciudad de México",
+      "name_en": "Mexico City",
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "",
+        "1716": ""
+      }
+    },
+    {
+      "id": "lima",
+      "name_vi": "Lima",
+      "name_en": "Lima",
+      "coordinates": [
+        -77.0428,
+        -12.0464
+      ],
+      "priority": 1,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "salvador",
+      "name_vi": "Salvador",
+      "name_en": "Salvador",
+      "coordinates": [
+        -38.5014,
+        -12.9777
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "",
+        "1716": ""
+      }
+    },
+    {
+      "id": "rio",
+      "name_vi": "Rio de Janeiro",
+      "name_en": "Rio de Janeiro",
+      "coordinates": [
+        -43.1729,
+        -22.9068
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "POL-3170",
+      "province_id": "POL-3170",
+      "name_vi": "Kraków",
+      "name_en": "Kraków",
+      "coordinates": [
+        19.95807,
+        50.06193
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "GRC-2991",
+      "province_id": "GRC-2991",
+      "name_vi": "Thessaloniki",
+      "name_en": "Thessaloniki",
+      "coordinates": [
+        22.88305,
+        40.69805
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "CHE-159",
+      "province_id": "CHE-159",
+      "name_vi": "Geneva",
+      "name_en": "Geneva",
+      "coordinates": [
+        6.14003,
+        46.21001
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "ROU-127",
+      "province_id": "ROU-127",
+      "name_vi": "Alexandria",
+      "name_en": "Alexandria",
+      "coordinates": [
+        25.32989,
+        43.97437
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "UKR-291",
+      "province_id": "UKR-291",
+      "name_vi": "Lviv",
+      "name_en": "Lviv",
+      "coordinates": [
+        24.02999,
+        49.83498
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "SYR-137",
+      "province_id": "SYR-137",
+      "name_vi": "Aleppo",
+      "name_en": "Aleppo",
+      "coordinates": [
+        37.16807,
+        36.23192
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "POL-3140",
+      "province_id": "POL-3140",
+      "name_vi": "Gdańsk",
+      "name_en": "Gdańsk",
+      "coordinates": [
+        18.64004,
+        54.35997
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "BEL-3474",
+      "province_id": "BEL-3474",
+      "name_vi": "Brussels",
+      "name_en": "Brussels",
+      "coordinates": [
+        4.33137,
+        50.83526
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "SRB-836",
+      "province_id": "SRB-836",
+      "name_vi": "Belgrade",
+      "name_en": "Belgrade",
+      "coordinates": [
+        20.46605,
+        44.82059
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "LBY-2978",
+      "province_id": "LBY-2978",
+      "name_vi": "Tripoli",
+      "name_en": "Tripoli",
+      "coordinates": [
+        13.18001,
+        32.8925
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "DZA-2145",
+      "province_id": "DZA-2145",
+      "name_vi": "Oran",
+      "name_en": "Oran",
+      "coordinates": [
+        -0.62192,
+        35.71195
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "EGY-1543",
+      "province_id": "EGY-1543",
+      "name_vi": "Alexandria",
+      "name_en": "Alexandria",
+      "coordinates": [
+        29.94805,
+        31.20197
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "FIN-3193",
+      "province_id": "FIN-3193",
+      "name_vi": "Helsinki",
+      "name_en": "Helsinki",
+      "coordinates": [
+        24.93246,
+        60.1638
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "danes_kingdom",
+        "1716": "novgorod_union"
+      }
+    },
+    {
+      "id": "NOR-921",
+      "province_id": "NOR-921",
+      "name_vi": "Oslo",
+      "name_en": "Oslo",
+      "coordinates": [
+        10.74803,
+        59.91864
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "danes_kingdom",
+        "1716": "danes_kingdom"
+      }
+    },
+    {
+      "id": "GRC-2884",
+      "province_id": "GRC-2884",
+      "name_vi": "Athens",
+      "name_en": "Athens",
+      "coordinates": [
+        23.73137,
+        37.98527
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "GRC-2885",
+      "province_id": "GRC-2885",
+      "name_vi": "Tripoli",
+      "name_en": "Tripoli",
+      "coordinates": [
+        22.3794,
+        37.50914
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5461",
+      "province_id": "ITA-5461",
+      "name_vi": "Venice",
+      "name_en": "Venice",
+      "coordinates": [
+        12.335,
+        45.43866
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5364",
+      "province_id": "ITA-5364",
+      "name_vi": "Ravenna",
+      "name_en": "Ravenna",
+      "coordinates": [
+        12.22002,
+        44.42037
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5397",
+      "province_id": "ITA-5397",
+      "name_vi": "Naples",
+      "name_en": "Naples",
+      "coordinates": [
+        14.24307,
+        40.84197
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5367",
+      "province_id": "ITA-5367",
+      "name_vi": "Genoa",
+      "name_en": "Genoa",
+      "coordinates": [
+        8.93004,
+        44.40999
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "FRA-5274",
+      "province_id": "FRA-5274",
+      "name_vi": "Marseille",
+      "name_en": "Marseille",
+      "coordinates": [
+        5.37306,
+        43.29192
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "ESP-5809",
+      "province_id": "ESP-5809",
+      "name_vi": "Barcelona",
+      "name_en": "Barcelona",
+      "coordinates": [
+        2.18142,
+        41.38524
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "ESP-5849",
+      "province_id": "ESP-5849",
+      "name_vi": "Valencia",
+      "name_en": "Valencia",
+      "coordinates": [
+        -0.40196,
+        39.48696
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "ESP-5836",
+      "province_id": "ESP-5836",
+      "name_vi": "Cartagena",
+      "name_en": "Cartagena",
+      "coordinates": [
+        -0.98003,
+        37.60043
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "ESP-5844",
+      "province_id": "ESP-5844",
+      "name_vi": "Seville",
+      "name_en": "Seville",
+      "coordinates": [
+        -5.98001,
+        37.40501
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "FRA-5295",
+      "province_id": "FRA-5295",
+      "name_vi": "Bordeaux",
+      "name_en": "Bordeaux",
+      "coordinates": [
+        -0.59696,
+        44.85196
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "FRA-5316",
+      "province_id": "FRA-5316",
+      "name_vi": "Nantes",
+      "name_en": "Nantes",
+      "coordinates": [
+        -1.59002,
+        47.21039
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "FRA-5343",
+      "province_id": "FRA-5343",
+      "name_vi": "Rouen",
+      "name_en": "Rouen",
+      "coordinates": [
+        1.07997,
+        49.43041
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "NLD-3486",
+      "province_id": "NLD-3486",
+      "name_vi": "Amsterdam",
+      "name_en": "Amsterdam",
+      "coordinates": [
+        4.91469,
+        52.35191
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "ESP-5848",
+      "province_id": "ESP-5848",
+      "name_vi": "Toledo",
+      "name_en": "Toledo",
+      "coordinates": [
+        -4.01672,
+        39.86704
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "castilian_empire",
+        "1716": "castilian_empire"
+      }
+    },
+    {
+      "id": "MAR-1446",
+      "province_id": "MAR-1446",
+      "name_vi": "Fez",
+      "name_en": "Fez",
+      "coordinates": [
+        -5.00232,
+        34.05654
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "sultanate_of_morocco",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "ARM-1675",
+      "province_id": "ARM-1675",
+      "name_vi": "Yerevan",
+      "name_en": "Yerevan",
+      "coordinates": [
+        44.51161,
+        40.1831
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "ottoman_empire"
+      }
+    },
+    {
+      "id": "HUN-3160",
+      "province_id": "HUN-3160",
+      "name_vi": "Budapest",
+      "name_en": "Budapest",
+      "coordinates": [
+        19.08138,
+        47.50195
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "GEO-3036",
+      "province_id": "GEO-3036",
+      "name_vi": "Tbilisi",
+      "name_en": "Tbilisi",
+      "coordinates": [
+        44.78885,
+        41.72696
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "ottoman_empire"
+      }
+    },
+    {
+      "id": "CZE-1595",
+      "province_id": "CZE-1595",
+      "name_vi": "Prague",
+      "name_en": "Prague",
+      "coordinates": [
+        14.42294,
+        50.08697
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "UKR-4826",
+      "province_id": "UKR-4826",
+      "name_vi": "Kiev",
+      "name_en": "Kiev",
+      "coordinates": [
+        30.51468,
+        50.43531
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "habsburg_poland",
+        "1716": "habsburg_poland"
+      }
+    },
+    {
+      "id": "SYR-4843",
+      "province_id": "SYR-4843",
+      "name_vi": "Damascus",
+      "name_en": "Damascus",
+      "coordinates": [
+        36.29805,
+        33.50198
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ROU-128",
+      "province_id": "ROU-128",
+      "name_vi": "Bucharest",
+      "name_en": "Bucharest",
+      "coordinates": [
+        26.098,
+        44.43532
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5450",
+      "province_id": "ITA-5450",
+      "name_vi": "Milan",
+      "name_en": "Milan",
+      "coordinates": [
+        9.20306,
+        45.47192
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "ITA-5386",
+      "province_id": "ITA-5386",
+      "name_vi": "Florence",
+      "name_en": "Florence",
+      "coordinates": [
+        11.25,
+        43.78
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "western_roman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "FRA-5338",
+      "province_id": "FRA-5338",
+      "name_vi": "Lyon",
+      "name_en": "Lyon",
+      "coordinates": [
+        4.82808,
+        45.77195
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "holy_french_kingdom",
+        "1716": "holy_french_kingdom"
+      }
+    },
+    {
+      "id": "IND-3257",
+      "province_id": "IND-3257",
+      "name_vi": "Calcutta",
+      "name_en": "Calcutta",
+      "coordinates": [
+        88.36913,
+        22.56958
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "BGD-1806",
+      "province_id": "BGD-1806",
+      "name_vi": "Dhaka",
+      "name_en": "Dhaka",
+      "coordinates": [
+        90.40663,
+        23.72501
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "COL-1413",
+      "province_id": "COL-1413",
+      "name_vi": "Cartagena",
+      "name_en": "Cartagena",
+      "coordinates": [
+        -75.51634,
+        10.40168
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "VEN-33",
+      "province_id": "VEN-33",
+      "name_vi": "Valencia",
+      "name_en": "Valencia",
+      "coordinates": [
+        -67.98197,
+        10.23193
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "VEN-40",
+      "province_id": "VEN-40",
+      "name_vi": "Barcelona",
+      "name_en": "Barcelona",
+      "coordinates": [
+        -64.72001,
+        10.13038
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "THA-416",
+      "province_id": "THA-416",
+      "name_vi": "Bangkok",
+      "name_en": "Bangkok",
+      "coordinates": [
+        100.5147,
+        13.75194
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "IND-2447",
+      "province_id": "IND-2447",
+      "name_vi": "Bombay",
+      "name_en": "Bombay",
+      "coordinates": [
+        72.87584,
+        19.06841
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "IND-3263",
+      "province_id": "IND-3263",
+      "name_vi": "Madras",
+      "name_en": "Madras",
+      "coordinates": [
+        80.27805,
+        13.09193
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "british_east_india_company",
+        "1716": "british_east_india_company"
+      }
+    },
+    {
+      "id": "PRI-5260",
+      "province_id": "PRI-5260",
+      "name_vi": "San Juan",
+      "name_en": "San Juan",
+      "coordinates": [
+        -66.12998,
+        18.44002
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "DOM-1985",
+      "province_id": "DOM-1985",
+      "name_vi": "Santo Domingo",
+      "name_en": "Santo Domingo",
+      "coordinates": [
+        -69.92974,
+        18.47075
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "DOM-1393",
+      "province_id": "DOM-1393",
+      "name_vi": "San Juan",
+      "name_en": "San Juan",
+      "coordinates": [
+        -71.23094,
+        18.80895
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "ARG-5493",
+      "province_id": "ARG-5493",
+      "name_vi": "Buenos Aires",
+      "name_en": "Buenos Aires",
+      "coordinates": [
+        -58.43251,
+        -34.61071
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "USA-3535",
+      "province_id": "USA-3535",
+      "name_vi": "Alexandria",
+      "name_en": "Alexandria",
+      "coordinates": [
+        -92.44501,
+        31.3111
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "USA-3541",
+      "province_id": "USA-3541",
+      "name_vi": "Florence",
+      "name_en": "Florence",
+      "coordinates": [
+        -87.67724,
+        34.7997
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "USA-3545",
+      "province_id": "USA-3545",
+      "name_vi": "Florence",
+      "name_en": "Florence",
+      "coordinates": [
+        -79.76279,
+        34.19568
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "USA-3552",
+      "province_id": "USA-3552",
+      "name_vi": "Alexandria",
+      "name_en": "Alexandria",
+      "coordinates": [
+        -77.05521,
+        38.80434
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "USA-3513",
+      "province_id": "USA-3513",
+      "name_vi": "Boston",
+      "name_en": "Boston",
+      "coordinates": [
+        -71.07196,
+        42.33191
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "new_portuguese_empire",
+        "1716": "new_portuguese_empire"
+      }
+    },
+    {
+      "id": "agadir",
+      "name_vi": "Agadir",
+      "name_en": "Agadir",
+      "coordinates": [
+        -9.6,
+        30.42
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "sultanate_of_morocco",
+        "1716": "sultanate_of_morocco"
+      }
+    },
+    {
+      "id": "bursa",
+      "name_vi": "Bursa",
+      "name_en": "Bursa",
+      "coordinates": [
+        29.061,
+        40.195
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ottoman_empire",
+        "1716": "western_roman_empire"
+      }
+    },
+    {
+      "id": "zanzibar",
+      "name_vi": "Zanzibar",
+      "name_en": "Zanzibar",
+      "coordinates": [
+        39.2,
+        -6.16
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "swahili_league",
+        "1716": "swahili_league"
+      }
+    },
+    {
+      "id": "hoi-an",
+      "name_vi": "Hội An",
+      "name_en": "Hội An",
+      "coordinates": [
+        108.33,
+        15.88
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "annam_empire",
+        "1716": "annam_empire"
+      }
+    },
+    {
+      "id": "guangzhou",
+      "name_vi": "Quảng Châu",
+      "name_en": "Quảng Châu",
+      "coordinates": [
+        113.26,
+        23.13
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "ming_celestial_empire",
+        "1716": "ming_celestial_empire"
+      }
+    },
+    {
+      "id": "osaka",
+      "name_vi": "Osaka",
+      "name_en": "Osaka",
+      "coordinates": [
+        135.5,
+        34.69
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "tokugawa_empire",
+        "1716": "tokugawa_empire"
+      }
+    },
+    {
+      "id": "surabaya",
+      "name_vi": "Surabaya",
+      "name_en": "Surabaya",
+      "coordinates": [
+        112.75,
+        -7.25
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "nusantara_sultanate",
+        "1716": "nusantara_sultanate"
+      }
+    },
+    {
+      "id": "batavia",
+      "name_vi": "Batavia",
+      "name_en": "Batavia",
+      "coordinates": [
+        106.85,
+        -6.21
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "nusantara_sultanate",
+        "1716": "nusantara_sultanate"
+      }
+    },
+    {
+      "id": "tabriz",
+      "name_vi": "Tabriz",
+      "name_en": "Tabriz",
+      "coordinates": [
+        46.29,
+        38.08
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "safavid_empire",
+        "1716": "safavid_empire"
+      }
+    },
+    {
+      "id": "shiraz",
+      "name_vi": "Shiraz",
+      "name_en": "Shiraz",
+      "coordinates": [
+        52.53,
+        29.59
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "safavid_empire",
+        "1716": "safavid_empire"
+      }
+    },
+    {
+      "id": "djenne",
+      "name_vi": "Djenné",
+      "name_en": "Djenné",
+      "coordinates": [
+        -4.56,
+        13.91
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "songhai_empire",
+        "1716": "songhai_empire"
+      }
+    },
+    {
+      "id": "aksum",
+      "name_vi": "Aksum",
+      "name_en": "Aksum",
+      "coordinates": [
+        38.72,
+        14.12
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "aksumite_empire",
+        "1716": "aksumite_empire"
+      }
+    },
+    {
+      "id": "massawa",
+      "name_vi": "Massawa",
+      "name_en": "Massawa",
+      "coordinates": [
+        39.45,
+        15.61
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "aksumite_empire",
+        "1716": "aksumite_empire"
+      }
+    },
+    {
+      "id": "luanda",
+      "name_vi": "Luanda",
+      "name_en": "Luanda",
+      "coordinates": [
+        13.23,
+        -8.84
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "kongo_confederation",
+        "1716": "kongo_confederation"
+      }
+    },
+    {
+      "id": "loango",
+      "name_vi": "Loango",
+      "name_en": "Loango",
+      "coordinates": [
+        11.81,
+        -4.65
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "kongo_confederation",
+        "1716": "kongo_confederation"
+      }
+    },
+    {
+      "id": "kilwa",
+      "name_vi": "Kilwa",
+      "name_en": "Kilwa",
+      "coordinates": [
+        39.52,
+        -8.96
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "swahili_league",
+        "1716": "swahili_league"
+      }
+    },
+    {
+      "id": "stellenbosch",
+      "name_vi": "Stellenbosch",
+      "name_en": "Stellenbosch",
+      "coordinates": [
+        18.86,
+        -33.93
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "cape_republic",
+        "1716": "cape_republic"
+      }
+    },
+    {
+      "id": "swellendam",
+      "name_vi": "Swellendam",
+      "name_en": "Swellendam",
+      "coordinates": [
+        20.44,
+        -34.02
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "cape_republic",
+        "1716": "cape_republic"
+      }
+    },
+    {
+      "id": "toamasina",
+      "name_vi": "Toamasina",
+      "name_en": "Toamasina",
+      "coordinates": [
+        49.4,
+        -18.15
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "merina_empire",
+        "1716": "merina_empire"
+      }
+    },
+    {
+      "id": "mahajanga",
+      "name_vi": "Mahajanga",
+      "name_en": "Mahajanga",
+      "coordinates": [
+        46.32,
+        -15.72
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "merina_empire",
+        "1716": "merina_empire"
+      }
+    },
+    {
+      "id": "urga",
+      "name_vi": "Urga",
+      "name_en": "Urga",
+      "coordinates": [
+        106.92,
+        47.92
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "eternal_sky_khanate",
+        "1716": "eternal_sky_khanate"
+      }
+    },
+    {
+      "id": "ulan-ude",
+      "name_vi": "Udinsk",
+      "name_en": "Udinsk",
+      "coordinates": [
+        107.59,
+        51.83
+      ],
+      "priority": 2,
+      "owners": {
+        "1715": "novgorod_union",
+        "1716": "novgorod_union"
+      }
+    }
+  ],
+  "capitals": {
+    "castilian_empire": "madrid",
+    "holy_french_kingdom": "paris",
+    "western_roman_empire": "ITA-5364",
+    "sultanate_of_morocco": "marrakech",
+    "habsburg_poland": "POL-3170",
+    "novgorod_union": "novgorod",
+    "ottoman_empire": "bursa",
+    "danes_kingdom": "copenhagen",
+    "scotland_ireland_union": "edinburgh",
+    "england_ruins": "london",
+    "new_portuguese_empire": "rio",
+    "british_east_india_company": "IND-3257",
+    "annam_empire": "hanoi",
+    "ming_celestial_empire": "beijing",
+    "nusantara_sultanate": "makassar",
+    "tokugawa_empire": "edo",
+    "eternal_sky_khanate": "karakorum",
+    "safavid_empire": "isfahan",
+    "aksumite_empire": "gondar",
+    "songhai_empire": "timbuktu",
+    "kongo_confederation": "kongo",
+    "swahili_league": "zanzibar",
+    "cape_republic": "cape",
+    "merina_empire": "antananarivo"
+  }
+}

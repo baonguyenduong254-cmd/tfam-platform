@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-ngoc-thuy-chung-dong",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Ở chân một cây cầu bị lũ cuốn, những người mò xác tìm được một giọt vàng mắc trong thạch anh xanh. Con sông đã đổi dòng; giọt nước trong ngọc vẫn nghiêng về vòm cầu cũ. Bên cạnh nó, một bộ rễ chết bám chặt chiếc vòng cưới bằng đồng, giữ nguyên dấu ngón tay đã trượt khỏi nhau giữa nước xiết.\n\nDưới móng cầu từng có một mạch khoáng ngấm nước sông qua nhiều thế hệ. Vào đêm cầu gãy, lòng sông bị xé sang hướng khác ngay khi một dòng hồi lưu đang cuộn trở về chân trụ. Mạch khoáng đông lại quanh chuyển động bị cắt ấy. Trong lõi ngọc, nước vẫn biết con đường của mình, kể cả những khúc quanh đã bị đất đá vùi kín.\n\nNgười giữ ngọc có thể mượn sự thủy chung đó. Nước đã đi qua khe đá sẽ nhận lại dấu chân của chính nó; một thác đổ có thể trèo về vách, một dòng tràn có thể rút khỏi gian nhà. Vàng trong lõi mỗi lần lại tối thêm, như bờ sông chạng vạng đang đòi lại từng bước nước đã bị bắt đi ngược.",
+    "lore_en": "At the foot of a bridge swept away by flood, body searchers found a golden drop caught in green quartz. The river had changed course; the water in the gem still leaned towards the old arch. Beside it, a dead root gripped a copper wedding ring, preserving the impression of fingers that had slipped apart in the current.\n\nBeneath the bridge lay a mineral vein soaked by the river for generations. On the night the bridge broke, the river bed was torn aside while a backwater was curling towards a pier. The vein hardened around that severed motion. Inside the gem, water still knew its own road, even the bends buried under earth and stone.\n\nIts keeper can borrow that fidelity. Water that has passed through the stone’s cleft recognises its own footsteps; a falling stream may climb its cliff, a flood withdraw from a room. With every passage the gold darkens, like a bank at dusk reclaiming each step the water was forced to retrace.",
+    "use_vi": "Ghi đường đi của một dòng chất lỏng rồi gọi chính dòng ấy trở lại, phục vụ cứu nạn, dẫn thủy, phòng thủ và vận chuyển.",
+    "use_en": "Record a liquid’s passage and call that same flow back for rescue, waterworks, defence and transport.",
+    "limits_vi": "Phải cho dòng gốc đi qua khe ngọc. Mỗi đường chỉ được hồi một lần trước khi ghi mới; phần nước đã hóa hơi, bị uống hoặc trộn mất dấu sẽ để lại chỗ khuyết. Càng cưỡng ép dòng lên cao, lõi vàng càng tối; khi lõi đen kín, mọi đường chưa khép sẽ cùng đòi được chảy hết.",
+    "limits_en": "The original flow must pass through the cleft. Each recorded path can be recalled once before a new one is inscribed; water evaporated, drunk or mixed beyond recognition leaves gaps. Forcing water upwards darkens the gold. When the core turns wholly black, every unfinished path demands to run its course together.",
+    "skills": [
+      {
+        "name_vi": "Khe nhận nước",
+        "name_en": "The Receiving Cleft",
+        "description_vi": "Cho dòng đi qua khe để ghi một tuyến từ điểm đầu đến điểm kết; nhấc ngọc giữa chừng sẽ cắt bản ghi tại đó.",
+        "description_en": "Pass a flow through the cleft to record a route from its beginning to its end; lifting the gem interrupts the record there.",
+        "group_vi": "Ghi dòng",
+        "group_en": "Inscribe the Flow"
+      },
+      {
+        "name_vi": "Đọc khúc ngoặt",
+        "name_en": "Read the Bends",
+        "description_vi": "Lăn ngọc trên lòng bàn tay để thấy đường vừa ghi bằng sợi sáng; mỗi đoạn mất nước hiện thành khoảng tối.",
+        "description_en": "Roll the gem in the palm to see the recorded course as a luminous thread; sections missing their water appear dark.",
+        "group_vi": "Ghi dòng",
+        "group_en": "Inscribe the Flow"
+      },
+      {
+        "name_vi": "Chia nhánh nhớ",
+        "name_en": "Branches of Memory",
+        "description_vi": "Đặt hai hạt sỏi tại khe để ghi một chỗ phân dòng; khi hồi lưu phải gọi từng nhánh, tránh ép chúng nhập cùng lúc.",
+        "description_en": "Set two pebbles in the cleft to record a fork; recall its branches separately to avoid forcing them together at once.",
+        "group_vi": "Ghi dòng",
+        "group_en": "Inscribe the Flow"
+      },
+      {
+        "name_vi": "Ấn bờ",
+        "name_en": "Mark the Bank",
+        "description_vi": "Miết ngọc lên bờ đầu và bờ cuối để đánh dấu phạm vi hồi; đoạn ngoài hai dấu tiếp tục chảy và có thể va vào dòng đang trở lại.",
+        "description_en": "Rub the gem on the first and last banks to bound the recall; water outside those marks continues onwards and can strike the returning flow.",
+        "group_vi": "Ghi dòng",
+        "group_en": "Inscribe the Flow"
+      },
+      {
+        "name_vi": "Hoàn lưu",
+        "name_en": "Return Current",
+        "description_vi": "Xoay lõi vàng ngược hướng dòng để gọi nước về đường cũ; vật nổi bị kéo theo nếu người dùng chưa vớt ra.",
+        "description_en": "Turn the golden core against the flow to summon water along its old path; floating objects are drawn with it unless removed first.",
+        "group_vi": "Gọi trở lại",
+        "group_en": "Call It Back"
+      },
+      {
+        "name_vi": "Thác leo vách",
+        "name_en": "The Climbing Fall",
+        "description_vi": "Giữ ngọc dưới chân thác đã ghi để nước leo lại tuyến rơi; lõi tối nhanh theo độ cao và tay người giữ nặng dần như đội nước.",
+        "description_en": "Hold the gem at a recorded waterfall’s foot to make water climb its fall; height rapidly darkens the core and burdens the keeper’s hands as though bearing the water.",
+        "group_vi": "Gọi trở lại",
+        "group_en": "Call It Back"
+      },
+      {
+        "name_vi": "Rút nhà ngập",
+        "name_en": "Withdraw the Flood",
+        "description_vi": "Đặt ngọc tại cửa nước tràn vào để gọi lớp nước đã ghi rút ra; bùn và đồ mắc dưới sàn cản dòng khiến nhà chịu lực kéo.",
+        "description_en": "Set the gem where floodwater entered to withdraw the recorded water; mud and trapped furnishings obstruct it and put the house under strain.",
+        "group_vi": "Gọi trở lại",
+        "group_en": "Call It Back"
+      },
+      {
+        "name_vi": "Mạch dầu trở nguồn",
+        "name_en": "Oil Back to Its Cask",
+        "description_vi": "Ghi một dòng dầu khi rót rồi gọi phần đổ tràn về cùng miệng thùng; lửa đang bám dầu sẽ đi theo nó.",
+        "description_en": "Record oil while pouring and recall a spill to the same cask mouth; fire clinging to the oil travels with it.",
+        "group_vi": "Gọi trở lại",
+        "group_en": "Call It Back"
+      },
+      {
+        "name_vi": "Dây nước",
+        "name_en": "Water Rope",
+        "description_vi": "Giữ một dòng hẹp đang hồi để người bám vào kéo mình qua khe; sức nặng người bám làm lõi tối nhanh hơn.",
+        "description_en": "Hold a narrow returning flow so someone can cling to it across a gap; the passenger’s weight darkens the core faster.",
+        "group_vi": "Mượn con đường",
+        "group_en": "Borrow the Road"
+      },
+      {
+        "name_vi": "Nôi ngược sóng",
+        "name_en": "Cradle Against the Waves",
+        "description_vi": "Gọi nước dưới một người sắp chìm về bờ nơi dòng đã đi qua; phải giữ đầu người ấy khỏi các vật trôi ngược cùng dòng.",
+        "description_en": "Recall water beneath a drowning person towards a bank on its former route; keep their head clear of debris returning alongside them.",
+        "group_vi": "Mượn con đường",
+        "group_en": "Borrow the Road"
+      },
+      {
+        "name_vi": "Máng trên không",
+        "name_en": "The Airborne Trough",
+        "description_vi": "Gọi nước chạy lại quỹ đạo từng được đổ qua không trung, tạo một máng tạm cho vật nhẹ; máng đứt ngay khi lượng nước cũ chạy hết.",
+        "description_en": "Recall water along a former airborne pour, making a temporary trough for light cargo; it breaks as soon as the recorded water is spent.",
+        "group_vi": "Mượn con đường",
+        "group_en": "Borrow the Road"
+      },
+      {
+        "name_vi": "Trả mái chèo",
+        "name_en": "Return the Oar Stroke",
+        "description_vi": "Ghi vệt nước của một nhịp chèo rồi hồi nó để đẩy thuyền theo hướng đối nghịch; nhịp mới của người chèo có thể phá đường nhớ.",
+        "description_en": "Record an oar stroke’s wake and recall it to propel the boat oppositely; a fresh stroke can disrupt the remembered course.",
+        "group_vi": "Mượn con đường",
+        "group_en": "Borrow the Road"
+      },
+      {
+        "name_vi": "Cửa hẹn",
+        "name_en": "The Appointed Gate",
+        "description_vi": "Kẹp ngọc trong cống để cho nước cũ đi ngược mà nước mới vẫn xuôi; hai dòng cọ nhau làm cổng chịu rung mạnh.",
+        "description_en": "Wedge the gem in a sluice so old water returns while fresh water advances; their friction violently shakes the gate.",
+        "group_vi": "Khép nợ dòng",
+        "group_en": "Settle the Flow"
+      },
+      {
+        "name_vi": "Tách giọt còn nhớ",
+        "name_en": "Gather the Remembering Drops",
+        "description_vi": "Nhúng ngọc vào nước đã lẫn nhẹ để gọi riêng phần còn giữ đường về; phần rời ra đục ngầu và cần lọc trước khi uống.",
+        "description_en": "Dip the gem into lightly mixed water to summon the portion retaining its route; the separated water is cloudy and needs filtering before drinking.",
+        "group_vi": "Khép nợ dòng",
+        "group_en": "Settle the Flow"
+      },
+      {
+        "name_vi": "Thả cho chảy hết",
+        "name_en": "Let the Course Finish",
+        "description_vi": "Mở khe hướng xuống đất trống để xả một đường hồi đang mắc; toàn bộ lượng nước còn nhớ dồn tới điểm xả.",
+        "description_en": "Open the cleft towards clear ground to discharge a stalled recall; all water still remembering converges upon that outlet.",
+        "group_vi": "Khép nợ dòng",
+        "group_en": "Settle the Flow"
+      },
+      {
+        "name_vi": "Rửa vàng",
+        "name_en": "Wash the Gold",
+        "description_vi": "Cho chính nguồn cũ chảy tự do qua ngọc đủ một lượt để làm sáng lõi sau khi mọi đường đã khép; dùng nguồn khác chỉ ghi thêm một món nợ.",
+        "description_en": "Let the original source run freely through the gem for a full passage to brighten its core after every route has closed; another source merely records a new debt.",
+        "group_vi": "Khép nợ dòng",
+        "group_en": "Settle the Flow"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nước nhớ lối về",
+        "name_en": "Water Remembers Home",
+        "description_vi": "Ngọc nhận một dòng qua hành trình chung của nó. Nước bị chia vẫn nghe lời gọi, nhưng nước mới chỉ đứng cạnh sẽ tiếp tục chảy theo ý riêng.",
+        "description_en": "The gem recognises a flow through its shared journey. Divided water still hears the summons; new water merely standing beside it follows its own course."
+      }
+    ]
+  }
+]

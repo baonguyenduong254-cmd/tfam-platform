@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mineral-da-ngam-tieng",
+    "category": "mineral",
+    "rarity": 0,
+    "lore_vi": "Đá Ngậm Tiếng được tách từ mặt hầm nơi thợ dùng nhịp gõ để tìm nhau qua một lớp quặng xanh. Sau lần mạch quặng vỡ, một búa đã dừng mà vách còn trả tiếng. Các mảnh đá đem ra sáng vẫn giữ một tiếng gõ yếu trong hốc, đợi vài nhịp thở rồi thả nó ra ở mặt bên kia.\n\nĐường khoáng bên trong ngắn hơn bề dày đá khi nhìn qua mặt cắt. Cắt thật chỉ thu được bụi thường và một tiếng nhỏ như có ai gõ từ trong tay. Thợ giữ các mẫu nguyên trong hộp, dùng tiếng trở về để nghe những rung quá nhỏ vốn dễ mất giữa ngày làm việc.",
+    "lore_en": "The stones came from a tunnel-face where miners signalled through green ore. When the vein broke, a stopped hammer still received an answer. Fragments carried into light held a faint knock within their hollows and released it through another face after a few breaths.\n\nViewed within, their mineral paths looked shorter than the stone’s thickness. Actual cutting yielded ordinary dust and a tiny knock as though inside the cutter’s hand. Miners kept whole samples to hear vibrations easily lost in a working day.",
+    "use_vi": "Giữ rồi phát lại một rung động tiếp xúc ngắn, giúp nhận những nhịp gõ nhỏ.",
+    "use_en": "Retain and repeat one brief contact-vibration, making small knocks perceptible.",
+    "limits_vi": "Rung mới thay rung cũ. Âm quá mạnh làm hốc nứt; tiếng trả yếu và méo, không nên dùng như bản ghi lời chứng nguyên văn.",
+    "limits_en": "New vibrations replace old ones. Loud impacts crack the hollow; faint distorted returns are not exact verbal testimony.",
+    "skills": [
+      {
+        "name_vi": "Ngậm một tiếng gõ",
+        "name_en": "Keep One Knock",
+        "description_vi": "Chạm đá vào mặt cần nghe để hốc giữ rung cuối, rồi xoay sang mặt đối diện chờ tiếng trả. Va thêm trong lúc chờ sẽ ghi đè rung ấy.",
+        "description_en": "Touch the monitored surface to retain its last vibration, then turn the opposite face to hear it. Another impact overwrites it."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hốc không vừa đường đi",
+        "name_en": "A Hollow Shorter than its Path",
+        "description_vi": "Người áp tai luôn nghe tiếng từ mặt đối diện, kể cả khi tay đang gõ cùng mặt; quan sát ấy chưa giải thích được đường qua hốc.",
+        "description_en": "Listeners hear the return from the opposite face even when tapping their own side; the route remains unexplained."
+      }
+    ]
+  }
+]

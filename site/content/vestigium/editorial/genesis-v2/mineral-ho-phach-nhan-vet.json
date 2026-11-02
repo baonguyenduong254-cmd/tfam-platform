@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mineral-ho-phach-nhan-vet",
+    "category": "mineral",
+    "rarity": 3,
+    "lore_vi": "Cây thông mọc sát tường một xưởng đúc dấu đã nuốt hàng trăm mẩu sáp bị ném qua cửa sổ. Dưới vỏ cây, hình vương miện nằm cạnh vân tay thợ học việc, dấu thương hội đè lên răng một con chuột. Khi cây bị sét đánh, nhựa trào ra thành những phiến hổ phách dẹt. Mỗi phiến mang một sợi đen giống đường chỉ khâu xuyên qua vật đã chết.\n\nNgười thợ nhặt một phiến để chặn giấy. Sáng hôm sau, tờ giấy in rõ lòng bàn tay người đã lấy trộm chìa khóa trong đêm. Bản thân hổ phách đã trở lại phẳng lì. Nhựa cây dường như học được điều mà những con dấu chỉ giả vờ làm: giữ lại một cuộc chạm, cùng sức nặng, chiều hướng và ý định của bàn tay trong khoảnh khắc ấy.\n\nCác pháp quan thèm thứ bằng chứng có thể cầm trong tay. Những người thạo nghề lại giữ một tấm vải nóng ngay cạnh hộp ngọc. Họ biết dấu vết cũng có thể bị ép phải kể một câu chuyện do kẻ khác sắp đặt.",
+    "lore_en": "A pine beside a seal-maker’s wall had swallowed hundreds of wax scraps thrown from the window. Beneath its bark, crowns lay beside apprentices’ fingerprints, guild marks across a rat’s teeth. When lightning struck, resin poured out in flat amber plates. Each bore a black thread like a stitch drawn through something dead.\n\nA craftsman picked up a plate to weight his papers. Next morning the paper clearly bore the palm of the person who had stolen a key during the night. The amber itself was flat again. The resin seemed to have learnt what seals merely pretended to do: retain a contact, together with the hand’s weight, direction and intention at that instant.\n\nMagistrates covet evidence that can be held. Experienced keepers leave a warm cloth beside the gem’s box. They know a trace can also be pressed into telling a story arranged by someone else.",
+    "use_vi": "Ghi, đọc và tái hiện dấu tiếp xúc để điều tra, bảo quản khuôn hoặc theo dõi niêm phong.",
+    "use_en": "Record, read and reproduce contact traces for investigation, mould preservation or seal surveillance.",
+    "limits_vi": "Chỉ lưu được một lớp dấu đang hoạt động. Dấu cho thấy cuộc chạm, còn danh tính phải đối chiếu bằng chứng. Sưởi nóng xóa dấu; hơ quá lâu làm sợi đen nhận vân tay người giữ thành lớp dấu thường trực.",
+    "limits_en": "Only one active layer can be retained. A trace reveals the contact; identity requires corroborating evidence. Warmth erases it, while excessive heating makes the black thread take its keeper’s fingerprint as a permanent layer.",
+    "skills": [
+      {
+        "name_vi": "Nhận dấu",
+        "name_en": "Receive the Mark",
+        "description_vi": "Ấn vật lên ngọc lạnh để giữ hình tiếp xúc sau khi mặt ngọc phẳng lại; lần ấn sau chồng hỏng lớp trước nếu chưa xóa.",
+        "description_en": "Press an object against the cold gem to preserve its contact after the face flattens; another pressure spoils the previous layer unless it is erased first."
+      },
+      {
+        "name_vi": "Tô lực",
+        "name_en": "Colour of Force",
+        "description_vi": "Hơ ngọc qua hơi nước để các vùng chịu lực sáng theo cường độ, phân biệt một dấu đặt nhẹ với dấu đóng mạnh; hơi quá nóng xóa hồ sơ.",
+        "description_en": "Pass the gem through steam to illuminate pressure by intensity, distinguishing a light placement from a forceful stamp; excessive heat erases the record."
+      },
+      {
+        "name_vi": "Đường rời tay",
+        "name_en": "The Withdrawing Hand",
+        "description_vi": "Nghiêng ngọc dưới đèn để thấy hướng vật trượt khỏi nó; vật được nhấc thẳng chỉ để lại một điểm sáng.",
+        "description_en": "Tilt the gem beneath a lamp to reveal the direction an object slid away; a straight lift leaves only a bright point."
+      },
+      {
+        "name_vi": "Khuôn hồi hình",
+        "name_en": "Returning Mould",
+        "description_vi": "Miết sáp lạnh lên dấu đã ghi để lấy lại mặt khuôn; mỗi bản sao làm sợi đen nhạt đi và mất một phần nét nhỏ.",
+        "description_en": "Rub cold wax over the recorded trace to recover its mould; each copy pales the black thread and loses some fine detail."
+      },
+      {
+        "name_vi": "Chốt niêm",
+        "name_en": "Seal Watch",
+        "description_vi": "Kẹp ngọc dưới nút buộc để nó ghi lần tháo đầu tiên; muốn nhận dấu mới phải tự tay mở và xóa dấu cũ.",
+        "description_en": "Fasten the gem beneath a knot to record its first untying; accepting a fresh trace requires opening it by hand and erasing the old one."
+      },
+      {
+        "name_vi": "Bàn tay do dự",
+        "name_en": "The Hesitant Hand",
+        "description_vi": "Giữ dấu chạm trong lòng bàn tay để cảm lại nhịp ngập ngừng khi người kia ấn xuống; cảm giác lây run sang chính tay người đọc.",
+        "description_en": "Hold the contact record in the palm to feel the hesitation with which it was pressed; the reader’s own hand inherits the tremor."
+      },
+      {
+        "name_vi": "Đối vết",
+        "name_en": "Confront the Trace",
+        "description_vi": "Đặt vật nghi vấn lên mặt sau ngọc để soi những điểm khớp và sai với dấu lưu; vật đã mòn chỉ cho kết quả từng phần.",
+        "description_en": "Place a suspected object against the reverse to reveal matches and discrepancies with the stored trace; worn objects yield only partial comparisons."
+      },
+      {
+        "name_vi": "Trả mặt phẳng",
+        "name_en": "Restore the Plain Face",
+        "description_vi": "Ủ ngọc trong vải ấm để mọi dấu nổi lên lần cuối rồi tan; người giữ có thể chuyển dấu sang sáp trước khi lớp nhớ khép lại.",
+        "description_en": "Wrap the gem in warm cloth so every trace rises once more before dissolving; its keeper may transfer it to wax before the memory closes."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ký ức chịu ép",
+        "name_en": "Memory Under Pressure",
+        "description_vi": "Hổ phách ghi trung thực lực đã nhận, kể cả dấu do người ta cố tình làm giả. Độ chân thực của hiện vật và sự trung thực của người đặt nó là hai việc riêng.",
+        "description_en": "The amber faithfully records received pressure, including a deliberately forged trace. The specimen’s fidelity and its planter’s honesty are separate matters."
+      }
+    ]
+  }
+]

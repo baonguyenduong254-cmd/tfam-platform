@@ -1,0 +1,608 @@
+[
+  {
+    "id": "armament-guard-009-bastion",
+    "category": "armament",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Nueve. Pháo Lệnh Hải Tâm Bastion",
+    "name_en": "Nueve. Seaheart Command Cannon Bastion",
+    "form_vi": "Pháo đồng ba chân, vòng nước treo trong lòng nòng",
+    "form_en": "Three-legged bronze cannon with a water ring suspended in its bore",
+    "epigraph_vi": "Có con nước chỉ cần một chỗ đứng vững.",
+    "epigraph_en": "Some tides need only one firm footing.",
+    "lore_vi": "Trong giấc ngủ chập chờn, Timothy nghe một loạt pháo đi qua mặt biển mà nước không vỡ. Những người bên kia khoảng tối đang kéo một chiếc xuồng nặng. Anh muốn sức mạnh trên tàu mình tới được tay họ, nguyên vẹn, trước khi con sóng sau cuốn xuồng khỏi tầm mắt.\n\nMột giọt nước mắc giữa các ngón tay mở thành lòng pháo. Chân bệ bám xuống boong; trong nòng, mặt biển thu nhỏ nghiêng theo từng đợt sóng. Timothy đặt tay lên vòng đồng, cảm được cả sức giật của loạt bắn chưa xảy ra. Khi anh hướng nó về chiếc xuồng, con nước sáng thành một đường mang trọn lực đẩy sang phía bên kia.\n\nAnh tỉnh lại với bàn tay vẫn khép. Dây chuyền nằm yên trên ngực, lạnh và chưa đáp.",
+    "lore_en": "In troubled sleep, Timothy heard a broadside pass across the sea without breaking the water. Beyond the darkness, people were hauling a heavy boat. He wanted his ship’s strength to reach their hands, undiminished, before the next wave swept the boat from sight.\n\nA drop caught between his fingers opened into a cannon bore. Its feet gripped the deck; a miniature sea within the barrel tilted with each swell. Timothy laid a hand upon the bronze ring and felt the recoil of a broadside not yet fired. As he aimed towards the boat, the water brightened into a path carrying the full thrust across.\n\nHe woke with his hand still closed. The pendant lay motionless against his breast, cold and unanswered.",
+    "use_vi": "Đẩy vật cản nổi khỏi đường cứu hộ hoặc đánh bật tấm vá sát mực nước.",
+    "use_en": "Push floating obstacles from rescue routes or dislodge a patch at the waterline.",
+    "limits_vi": "Cần cố định bệ và nhìn liên tục mặt nước. Sóng che điểm ngắm làm đường lực trượt; đổi dải nước phải ngắm lại.",
+    "limits_en": "The mounting must be secured and the water continuously visible. Waves hiding the aim point displace the thrust path; a new strip requires fresh sighting.",
+    "skills": [
+      {
+        "name_vi": "Hải Đạo Chuyển Lực",
+        "name_en": "Sea-Road of Transmitted Force",
+        "description_vi": "Dựng đường truyền trên mặt nước để mang trọn sức đẩy của một loạt pháo từ bệ đã cố định tới điểm nhìn thấy. Người bắn đổi cách đặt lực giữa công phá một mạn tàu và đẩy một đoàn xuồng khỏi luồng nguy hiểm.",
+        "description_en": "Raises a water-surface path carrying a full broadside’s thrust from a secured mounting to a visible point. The gunner may place it to breach a hull or push a group of boats clear of dangerous water."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Biển Trong Lòng Pháo",
+        "name_en": "Sea Within the Bore",
+        "description_vi": "Vòng nước trong nòng nghiêng theo mặt biển, dù thân pháo đang nằm ngang.",
+        "description_en": "The inner water ring inclines with the sea even when the barrel lies level."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Cứu kéo từ xa",
+        "name_en": "Remote Rescue Thrust",
+        "description_vi": "Chuyển lực của loạt pháo thành sức đẩy hướng ngang cho xuồng mắc trong luồng; bệ vẫn nhận sức giật.",
+        "description_en": "Turn a broadside’s force into lateral thrust for boats caught in a current; the mounting still takes recoil."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 9,
+      "label": "Nueve",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Timothy",
+    "owner_en": "Timothy",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "armament",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Three-legged bronze cannon with a water ring suspended in its bore. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Timothy nhận Nueve trong canon nhưng dây chuyền chưa đáp; giấc mơ và Bastion là giả định. Gầm Bão là vũ khí riêng.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. Timothy received Nueve in canon but the pendant has not answered; the dream and Bastion are hypothetical. Gầm Bão is a separate weapon."
+  },
+  {
+    "id": "armament-guard-010-concordia",
+    "category": "armament",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Diez. Chiến Kỳ Trục Quân Concordia",
+    "name_en": "Diez. Army-Axis Standard Concordia",
+    "form_vi": "Cán kỳ sắt, vải trắng khâu chỉ đồng",
+    "form_en": "Iron standard with white cloth and copper stitching",
+    "epigraph_vi": "Qua khói, ta vẫn biết nơi phải trở về.",
+    "epigraph_en": "Through smoke, we still know where to return.",
+    "lore_vi": "Cassandra giữ mảnh vải cuối cùng trên bàn sau khi những lá cờ khác đã được gấp. Đường chỉ chạy qua một lỗ cháy; nàng đưa ngón tay theo nó, nhớ những lần một toán người khuất sau khói và người ở lại phải đoán họ đang tiến hay đang quay về.\n\nNàng muốn mỗi người còn giữ được hướng đã nhận, kể cả khi chẳng còn nhìn thấy cờ. Diez ấm lên dưới cổ áo. Những dải vải lần lượt tìm tới cán sắt, khâu vào nhau bằng chỉ đồng; mỗi mũi chỉ chờ một bàn tay nhận lấy trước khi phát sáng.\n\nCassandra bước quanh bàn. Lá cờ xoay theo những hướng khác nhau, còn tua vải vẫn lay dưới gió cửa sổ. Nàng để một đường chỉ chưa buộc, dành cho người chưa chọn nơi mình sẽ đứng.",
+    "lore_en": "Cassandra kept the last strip upon the table after the other flags were folded. A seam crossed a burnt hole; she followed it with a finger, remembering companies lost behind smoke while those remaining guessed whether they advanced or returned.\n\nShe wanted each person to retain an accepted direction even when the flag vanished from sight. Diez warmed beneath her collar. Strips gathered upon an iron pole, sewn together in copper thread; each stitch awaited an accepting hand before it shone.\n\nCassandra walked around the table. The flag turned towards several directions while its fringe still stirred in the window’s breeze. She left one thread untied for someone yet to choose where to stand.",
+    "use_vi": "Giữ đạo quân còn chung hướng giữa chiến trường biến dạng và mở đường tụ quân sau khi đội hình bị chia cắt.",
+    "use_en": "Keep an army oriented across a distorted battlefield and guide regrouping after formations are severed.",
+    "limits_vi": "Chỉ giữ hướng của lời hẹn thật được người tham gia cùng nhận. Mệnh lệnh đổi mà chưa được truyền tới làm đường chỉ tách đôi; người mang phải chọn giữ lời hẹn nào, không được ép người lính quay lại.",
+    "limits_en": "It holds only bearings grounded in a genuine shared commitment. A changed order not yet received splits the thread; the bearer must choose which commitment to uphold without forcing soldiers back.",
+    "skills": [
+      {
+        "name_vi": "Đồng Tâm Định Hướng",
+        "name_en": "Shared Bearings",
+        "description_vi": "Lá cờ trở thành trục phương hướng chung cho cả đạo quân đã tự nhận hiệu lệnh. Dù chiến trường bị xoay lệch bởi ảo cảnh hoặc những miền không gian chồng nhau, mỗi toán vẫn tìm được hướng về người chỉ huy hay bến tập hợp đã hẹn.",
+        "description_en": "The flag becomes a shared axis of direction for an army that willingly accepted its signals. Even when illusions or overlapping spatial fields disorient the battlefield, each company can find its bearing towards its commander or agreed rendezvous."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tua Cờ Giữ Gió",
+        "name_en": "Wind-Keeping Fringe",
+        "description_vi": "Thân cờ hướng về các mốc tập hợp; tua cờ vẫn bay theo gió thật.",
+        "description_en": "The cloth points towards assembly references while its fringe follows the actual wind."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Giao điểm rút quân",
+        "name_en": "Withdrawal Rendezvous",
+        "description_vi": "Mỗi toán nhận một hướng tới cùng bến trước khi tản ra; đường chỉ báo khi họ đi lệch hướng đã chọn.",
+        "description_en": "Each company accepts a bearing towards one landing before dispersing; the thread signals departure from that bearing."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 10,
+      "label": "Diez",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Cassandra",
+    "owner_en": "Cassandra",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "armament",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Iron standard with white cloth and copper stitching. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Cassandra mang Diez trong canon; chiến kỳ và cảnh hình thành là sáng tác.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. Cassandra bears Diez in canon; the standard and formation scene are invented."
+  },
+  {
+    "id": "device-051",
+    "category": "device",
+    "rarity": 6,
+    "name_vi": "Dieciséis. Địa Cầu Bến Mất Portolano",
+    "name_en": "Dieciséis. Lost-Harbour Globe Portolano",
+    "form_vi": "Địa cầu thủy tinh có nước",
+    "form_en": "Water-filled glass globe",
+    "origin": "collection",
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "lore_vi": "Mateo đã chép tên bến ấy lên ba tấm hải đồ, rồi gạch đi cả ba lần. Người trở về cuối cùng chỉ nhớ nước trong vịnh mặn hơn ngoài khơi; người khác thề cửa bến nằm sau một mỏm đá trắng. Hai người đều già, và mỗi mùa qua lại mang mất một giọng kể.\n\nÔng đặt địa cầu xuống giữa bàn, mời họ chạm tay lần lượt. Nước trong cầu nổi thành hai bờ chưa khớp. Mateo định xoay chúng lại, rồi dừng: vết lệch cũng là điều cần giữ. Khi ông chịu để chỗ chưa biết được trống, Dieciséis mở một lớp nước thứ ba.\n\nTừ đó, ông chép đường theo từng con triều, ghi cả tên người nhớ. Khi ông chọn một lớp triều, mặt cầu mở thành lối nước đủ cho đoàn tàu đi. Bến hiện ở cuối luồng; những mái nhà bên trong vẫn tối.",
+    "lore_en": "Mateo wrote the harbour’s name upon three charts and struck it out three times. The last returnee remembered only that the bay was saltier than the open sea; another swore its entrance lay beyond a white headland. Both were old, and each passing season took another voice.\n\nHe set the globe between them and invited their hands in turn. Its water raised two unmatched shores. Mateo began to turn them together, then stopped: their disagreement also deserved keeping. When he allowed the unknown to remain blank, Dieciséis opened a third water layer.\n\nThereafter he copied routes by separate tides, naming each rememberer. When he chose a tidal layer, the globe opened a waterway wide enough for a fleet. The harbour appeared at its end; the houses within remained dark.",
+    "use_vi": "Đưa đoàn tàu qua hải trình đã biến mất và tìm nơi trú nước có thật trong ký ức giao nhau.",
+    "use_en": "Bring fleets through vanished sea routes and reach water refuges substantiated by intersecting memories.",
+    "limits_vi": "Cần ít nhất hai người tự nguyện trao ký ức gặp nhau tại cùng một bến. Lối chỉ nối những đoạn họ thật từng đi; chỗ ký ức bất đồng tách thành ngã rẽ, không tự chọn đúng. Bến mở cho tàu tới, không tái sinh cư dân đã mất.",
+    "limits_en": "At least two willing memories meeting at one harbour are required. The route joins only stretches genuinely travelled; disagreements form forks without choosing the correct one. Opening a harbour does not restore its lost inhabitants.",
+    "skills": [
+      {
+        "name_vi": "Hải Trình Trùng Lớp",
+        "name_en": "Layered Sea Routes",
+        "description_vi": "Địa cầu mở hải trình bị xóa khỏi biển hiện tại thành một lối nước đi được cho đoàn tàu, nối các dấu bến còn người sống nhớ. Những con triều của từng thời điểm hiện thành lớp riêng để hoa tiêu chọn đường qua.",
+        "description_en": "The globe opens a sea route erased from the present ocean as a navigable waterway for a fleet, joining harbour traces still remembered by living people. Tides from different remembered times appear as separate layers for the navigator to choose among."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Những Lớp Nước Mặn",
+        "name_en": "Layers of Salt Water",
+        "description_vi": "Nước trong cầu giữ các lớp mặn riêng theo từng chuyến đi được kể.",
+        "description_en": "The globe’s water retains separate salinity layers for each recounted voyage."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "sources": [],
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Water-filled glass globe. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "applications": [
+      {
+        "name_vi": "Đối chiếu hai lời nhớ",
+        "name_en": "Compare Two Memories",
+        "description_vi": "Giữ riêng hai lớp nước từ hai người kể để tìm đoạn bờ họ cùng xác nhận.",
+        "description_en": "Keep two narrators’ water layers separate to find the shore portions both affirm."
+      }
+    ],
+    "epigraph_vi": "Bến mất trên giấy, còn trong bàn tay.",
+    "epigraph_en": "Gone from the chart, kept in the hand.",
+    "royal_guard": {
+      "number": 16,
+      "label": "Dieciséis",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event."
+  },
+  {
+    "id": "armament-guard-017-humerus",
+    "category": "armament",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Diecisiete. Quải Giáp Chuyển Gánh Humerus",
+    "name_en": "Diecisiete. Burden-Shifting Harness Humerus",
+    "form_vi": "Đai vai da đôi, các phiến đồng trượt trên dây lưng",
+    "form_en": "Paired leather shoulder harness with bronze plates sliding upon its belt",
+    "epigraph_vi": "Đặt gánh xuống, giữ vai còn lành.",
+    "epigraph_en": "Set down the burden; keep the shoulder sound.",
+    "lore_vi": "Inés Valera giữ trong túi những mảnh da cắt khỏi dây cáng hỏng. Có mảnh mòn ở vai trái, có mảnh rách đúng chỗ người sau thường phải nhấc tay cao hơn. Cô đặt chúng bên nhau vào cuối buổi, lần theo dấu ép để tìm xem gánh đã lệch từ lúc nào.\n\nCô mong lần sau nhận ra chỗ quá sức trước tiếng kêu của người cùng khiêng. Diecisiete đáp khi cô thử buộc lại hai mảnh không cùng chiều. Các phiến đồng trượt khỏi nút dây, mở trên vai rồi chạy xuống đai lưng, nơi sức nặng có thể tìm thêm một chỗ tựa.\n\nInés gọi những người cùng khiêng chạm vào đai. Mảng tường đang rơi chậm lại, treo trên hàng vai vô hình. Trên đồng, từng vết lõm chờ họ cùng bước để hạ gánh xuống.",
+    "lore_en": "Inés Valera kept scraps cut from failed stretcher straps in her pocket. One was worn at the left shoulder; another had torn where the rear bearer usually lifted a hand higher. After work she laid them together and traced the compression marks, seeking the moment a burden had shifted.\n\nShe wished to recognise overload before hearing her companion cry out. Diecisiete answered as she retied two opposing scraps. Bronze plates slid from the knot, opened over her shoulder and travelled down the belt, where weight might find another support.\n\nInés called her fellow bearers to touch the harness. The falling wall slowed, hanging upon unseen shoulders. Hollows in the bronze awaited their shared steps to lower the burden.",
+    "use_vi": "Giữ cả mảng tường hoặc cầu đang đổ để đội cứu hộ đi dưới, rồi cùng hạ gánh xuống nơi đã chọn.",
+    "use_en": "Hold a falling wall or bridge while rescuers pass beneath, then lower the burden together at a chosen place.",
+    "limits_vi": "Người tham gia phải tự nhận phần gánh và cùng giữ lời hẹn đưa người mắc kẹt ra. Ai rời gánh làm phần họ trở về công trình; dùng đai để giam người dưới đống sập khiến các phiến đồng khóa lại.",
+    "limits_en": "Participants must willingly accept a share and uphold the agreement to free the trapped. A departing bearer returns their share to the structure; using the harness to imprison people under rubble locks the bronze plates.",
+    "skills": [
+      {
+        "name_vi": "Chuyển Gánh Liên Điểm",
+        "name_en": "Linked Load Transfer",
+        "description_vi": "Humerus lấy sức nặng của một công trình đang sập thành gánh chung trên vai những người tự nguyện nối đai. Mỗi người chỉ nhận sức ép họ còn giữ nổi; phần tường ấy treo lại giữa chừng như được một hàng vai vô hình đỡ.",
+        "description_en": "Humerus turns a collapsing structure’s weight into a burden shared upon the shoulders of willing harness-linked companions. Each receives only pressure they can still bear; that section of wall hangs midway as though supported by an unseen rank of shoulders."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Đồng Báo Quá Tải",
+        "name_en": "Overload-Telling Bronze",
+        "description_vi": "Phiến đồng nổi vết lõm trước khi một dây vai chịu tải vượt phần đã chia.",
+        "description_en": "A bronze plate dimples before a shoulder strap exceeds its allotted load."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Nhấc xà cứu người",
+        "name_en": "Lift a Rescue Beam",
+        "description_vi": "Chia tải của một đầu xà qua đai vai và cột chống đang chạm để người dưới có thể bò ra.",
+        "description_en": "Share one beam-end’s load through the harness and a touched prop while a casualty crawls free."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 17,
+      "label": "Diecisiete",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "Inés Valera",
+    "owner_en": "Inés Valera",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "armament",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Paired leather shoulder harness with bronze plates sliding upon its belt. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo. Inés Valera là nhân vật hoàn toàn sáng tác, chưa có trong canon.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event. Inés Valera is an entirely invented character absent from canon."
+  },
+  {
+    "id": "phenomenon-guard-039-auster",
+    "category": "phenomenon",
+    "rarity": 4,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Treinta y Nueve. Hành Lang Nghịch Phong Auster",
+    "name_en": "Treinta y Nueve. Counterwind Passage Auster",
+    "form_vi": "Dải khí trong veo giữa hai viền bụi xoáy ngược",
+    "form_en": "Clear air ribbon between two oppositely turning dust borders",
+    "epigraph_vi": "Khói cũng cần một lối ra.",
+    "epigraph_en": "Even smoke needs a way out.",
+    "lore_vi": "Rafael nghe tiếng người gọi từ đầu ngõ, đi được ba bước thì tiếng ấy lại như vang sau lưng. Khói ép giữa hai bức tường, cuộn ngược ở chỗ mái sập. Anh quỳ xuống, đưa tay tìm luồng khí còn lướt sát nền và bò theo vệt bụi mỏng ấy.\n\nKhi trở ra, anh giữ nguyên một nắm bụi trong tay. Điều anh muốn nhớ là khoảng trống đủ cho một người thở và nhìn thêm vài bước. Treinta y Nueve làm bụi tách thành hai viền xoáy; giữa chúng, bão tuyết và khói mở một lối dài xuyên qua sân chiến, trong như nước.\n\nRafael dựng lại hai tấm ván ở sân, thử từng hướng gió. Mỗi khi chặn kín đầu thoát, hành lang gập vào người anh. Anh tháo một tấm ván, chừa cho cả khói một đường đi.",
+    "lore_en": "Rafael heard a call from the alley’s end; three steps later it seemed behind him. Smoke compressed between two walls and reversed beneath a fallen roof. He knelt, felt for air still moving near the ground and crawled along that thin dust trail.\n\nOutside, he kept a handful of dust closed in his hand. He wanted to remember the space that let one person breathe and see a few more steps. Treinta y Nueve parted the dust into two turning borders; blizzard and smoke opened a long passage across the battle yard, clear as water.\n\nRafael erected two boards in a yard and tested each wind direction. Whenever he blocked the outlet, the passage folded back upon him. He removed one board, leaving even the smoke a way through.",
+    "use_vi": "Mở đường xuyên bão cho dân chạy nạn hoặc đưa đội cứu hộ qua chiến trường còn giao tranh.",
+    "use_en": "Open a storm passage for refugees or carry a rescue party across an active battlefield.",
+    "limits_vi": "Hành lang mở về nơi người mang thật muốn đưa người khác ra, không theo mục tiêu giả vờ. Đổi ý bỏ lại người đã chọn cứu làm lối gió gập về điểm khởi đầu; vật nặng tự lao tới vẫn có thể phá rìa.",
+    "limits_en": "The corridor opens towards people the bearer truly intends to bring out, never a pretended destination. Choosing to abandon them folds the windway back to its origin; heavy directly driven objects can still breach its edges.",
+    "skills": [
+      {
+        "name_vi": "Nghịch Phong Phân Vụ",
+        "name_en": "Counterwind Smoke Division",
+        "description_vi": "Auster dựng một hành lang nghịch phong dài xuyên chiến trường, tách cả bão tuyết, khói và luồng đạn nhẹ sang hai bên. Người dẫn giữ một lối nhìn tới nơi muốn cứu, và cơn bão phải chừa khoảng trống ấy cho đoàn người đi qua.",
+        "description_en": "Auster raises a long counterwind corridor across a battlefield, parting blizzard, smoke and light projectiles to either side. Its guide keeps one line of sight towards those to be rescued, and the storm must leave that passage for the column."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hai Viền Bụi Xoáy",
+        "name_en": "Twin Turning Dust Borders",
+        "description_vi": "Bụi xếp thành hai viền đối chiều, giữa luồng chỉ còn những sợi rất mảnh.",
+        "description_en": "Dust forms opposing borders, leaving only fine threads inside the current."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Đọc cửa thoát khói",
+        "name_en": "Read a Smoke Outlet",
+        "description_vi": "Mở thử một dải khí sát nền để biết đầu nào cần tháo vật cản trước khi tiến vào.",
+        "description_en": "Open a near-ground air strip to identify which end needs clearing before entry."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 39,
+      "label": "Treinta y Nueve",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "phenomenon",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Clear air ribbon between two oppositely turning dust borders. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event."
+  },
+  {
+    "id": "device-055",
+    "category": "device",
+    "rarity": 6,
+    "name_vi": "Cuarenta. Bộ Chữ Dẫn Thanh Vox",
+    "name_en": "Cuarenta. Voice-Bearing Type Vox",
+    "form_vi": "Bộ chữ chì trong hòm mun",
+    "form_en": "Lead type in an ebony case",
+    "origin": "collection",
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "lore_vi": "Leonor đặt khay chữ trong tầm mắt người bệnh, để tay mình ngoài mép bàn. Người ấy đã mất giọng từ sáng, nhưng vẫn có thể nhìn từng con chữ và nhấc một ngón tay khi muốn dừng. Leonor tháo dòng vừa ghép, chừa một khoảng trắng đúng nơi ngón tay đã nhấc.\n\nCuarenta rung nhẹ dưới cổ áo. Những chữ chì tự xoay, ghép lại câu bằng giọng mà cô từng nghe hôm trước. Đến khoảng trắng, cả khay lặng đi. Cô hiểu thứ mình phải giữ còn có cả quyền ngừng nói.\n\nLeonor làm một nắp hòm thấp để người nằm vẫn thấy chữ. Khi dòng cuối được niêm, khay nặng đến mức cô phải nhờ thêm người nâng; cô dặn họ đừng đặt bất kỳ chữ nào vào chỗ còn trống.",
+    "lore_en": "Leonor placed the type tray within the patient’s sight and kept her hands beyond the table’s edge. Speech had failed that morning, but the patient could still follow letters and raise a finger to stop. Leonor dismantled the last line, leaving a blank where that finger had risen.\n\nCuarenta stirred beneath her collar. Lead letters turned and reassembled the sentence in the voice she had heard the day before. At the blank, the whole tray fell silent. She understood that she must preserve the right to stop speaking too.\n\nLeonor made a low case lid so someone lying down could still see the type. When the final line was sealed, she needed help lifting the tray; she warned the helpers to place no letter in the remaining space.",
+    "use_vi": "Khôi phục tiếng nói trước sức mạnh cưỡng ép im lặng và giữ lời chứng nguyên vẹn trong một buổi đối chất.",
+    "use_en": "Restore speech against imposed silence and preserve testimony intact through a confrontation.",
+    "limits_vi": "Chỉ cất phần lời được chính người gửi chọn; người giữ không sửa một chữ sau khi niêm. Lời ép nhận trở thành chì đặc không phát tiếng. Quyền được nói không buộc người nghe tin, tuân lệnh hoặc tha thứ.",
+    "limits_en": "It speaks only words chosen by the sender; the keeper cannot change a letter after sealing. Coerced words become solid silent lead. A right to speak compels neither belief, obedience nor forgiveness.",
+    "skills": [
+      {
+        "name_vi": "Trao Chữ Thành Thanh",
+        "name_en": "Offered Words into Voice",
+        "description_vi": "Vox trao lại quyền phát lời cho người bị câm, bị cắt khỏi tiếng nói hoặc bị quyền năng xóa khỏi việc được người khác nghe thấy. Bản chữ đã được họ tự chọn cất lên bằng giọng riêng trước tất cả người đang chứng kiến, vượt tiếng ồn và lệnh cưỡng ép im lặng.",
+        "description_en": "Vox restores utterance to someone mute, cut off from speech or supernaturally erased from others’ hearing. Their freely chosen text speaks in their own voice before all witnesses, overcoming noise and imposed silence."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Sức Nặng Khoảng Trắng",
+        "name_en": "Weight of a Blank",
+        "description_vi": "Khoảng trắng có trọng lượng riêng khi người gửi chủ động giữ im lặng.",
+        "description_en": "A blank has its own weight when the sender chooses silence."
+      }
+    ],
+    "behavior_vi": "",
+    "behavior_en": "",
+    "owner_vi": "",
+    "owner_en": "",
+    "sources": [],
+    "art": {
+      "kind": "instrument",
+      "materials": [
+        "aged brass",
+        "dark glass"
+      ],
+      "description": "Lead type in an ebony case. Isolated physical artifact, ornate restrained historical craftsmanship, no background, no text."
+    },
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "applications": [
+      {
+        "name_vi": "Tự chọn lời chăm sóc",
+        "name_en": "Choose Care Instructions",
+        "description_vi": "Cho người mất giọng duyệt từng dòng chỉ dẫn trước khi niêm bản chữ phát tiếng.",
+        "description_en": "Let a patient without speech approve each care instruction before sealing the speaking forme."
+      }
+    ],
+    "epigraph_vi": "Khoảng trắng ấy là lời người gửi.",
+    "epigraph_en": "That blank belongs to the sender.",
+    "royal_guard": {
+      "number": 40,
+      "label": "Cuarenta",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event."
+  },
+  {
+    "id": "complex-guard-041-viridarium",
+    "category": "complex",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Cuarenta y Uno. Lâm Mạch Công Binh Viridarium",
+    "name_en": "Cuarenta y Uno. Engineering Rootwork Viridarium",
+    "form_vi": "Giáo đồng mọc rễ, giàn nhánh có mắt gỗ",
+    "form_en": "Rooted bronze spear and knotted branch scaffold",
+    "epigraph_vi": "Rễ tìm nước, người tìm chỗ đứng.",
+    "epigraph_en": "Roots seek water; people seek footing.",
+    "lore_vi": "Tomás nghe cọc chống rạn trước khi thấy bụi rơi khỏi tường. Dưới chân giàn, hai người thợ còn mắc giữa đá và những thanh gỗ chéo. Anh ôm một bó rễ ướt tới, quấn quanh cọc rồi ép tay lên chỗ đang oằn, như có thể chỉ cho nó nơi nào còn chịu nổi.\n\nCuarenta y Uno mở thành giáo trong lòng tay. Mũi giáo cắm xuống nền; bộ rễ của khu rừng đã mất trồi lên, trong một hơi thở dựng cả hàng cây đỡ bức tường. Các mắt gỗ sẫm dần ở phía bức tường nghiêng.\n\nKhi người cuối cùng được kéo ra, Tomás vẫn giữ giáo. Anh đợi đội thợ kê đủ đá dưới giàn mới rút từng tấc một. Những rễ bị cắt để lại trên nền một bản đồ của sức nặng.",
+    "lore_en": "Tomás heard the prop crack before dust fell from the wall. Beneath the scaffold, two workers remained caught between stone and crossed timbers. He brought wet roots, wrapped them around the prop and pressed the bending place, as though showing it where strength remained.\n\nCuarenta y Uno opened into a spear in his hand. Its point entered the ground; roots of the vanished forest rose, raising a rank of trees to support the wall within one breath. Their knots darkened towards the leaning wall.\n\nAfter the last worker was pulled free, Tomás still held the spear. He waited until the crew had packed stone beneath the frame before withdrawing it inch by inch. Cut roots left a map of weight upon the ground.",
+    "use_vi": "Gọi rừng cổ thành công sự trong khoảnh khắc, bắc cầu qua đường vỡ và đỡ công trình để cứu người.",
+    "use_en": "Call an ancient forest into instant fortification, bridge broken routes and support structures for rescue.",
+    "limits_vi": "Cần đất còn dấu rừng hoặc một rễ sống tự nguyện được chăm tới nơi ấy. Miền mọc theo việc bảo vệ đã giao, không theo lệnh chiếm đất; rút giáo trước khi người được che chở rời đi làm rễ quấn giữ chính người mang.",
+    "limits_en": "The ground must retain forest traces, or a living root must be tended and brought there. Growth follows its protective charge rather than territorial conquest; withdrawing the spear before the protected depart makes the roots hold its own bearer.",
+    "skills": [
+      {
+        "name_vi": "Mộc Mạch Phân Tải",
+        "name_en": "Root-Vein Load Sharing",
+        "description_vi": "Giáo gọi bộ rễ của một khu rừng cổ từng sống dưới đất ấy trồi lên trong một hơi thở. Rễ mang sức chịu của cây đã mất, dựng cầu, giàn và lũy sống đủ đỡ những công trình đang vỡ hoặc chặn một mũi xung phong.",
+        "description_en": "The spear calls roots of an ancient forest once living beneath that ground to rise within a breath. Bearing the strength of vanished trees, they raise living bridges, frames and ramparts capable of holding failing structures or halting a charge."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mắt Gỗ Chịu Lực",
+        "name_en": "Load-Bearing Knots",
+        "description_vi": "Mắt gỗ sẫm lại nơi đang nhận phần tải lớn nhất.",
+        "description_en": "Knots darken where they take the greatest load."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Tháo giàn có trình tự",
+        "name_en": "Sequential Scaffold Removal",
+        "description_vi": "Đọc màu mắt gỗ để đặt thêm đá chịu lực trước khi cắt từng nhánh giàn.",
+        "description_en": "Read knot colours to place stone supports before cutting successive scaffold branches."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 41,
+      "label": "Cuarenta y Uno",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "complex",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Rooted bronze spear and knotted branch scaffold. Collection concept; no lettering."
+    },
+    "components": [
+      {
+        "name_vi": "Giáo dẫn rễ",
+        "name_en": "Root-Guiding Spear",
+        "description_vi": "Đặt hướng và ranh mọc của giàn.",
+        "description_en": "Sets the frame’s growth direction and boundary."
+      },
+      {
+        "name_vi": "Giàn rễ sống",
+        "name_en": "Living Root Frame",
+        "description_vi": "Bám nền, mọc nhánh và chia tải.",
+        "description_en": "Grips ground, branches and distributes loads."
+      }
+    ],
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event."
+  },
+  {
+    "id": "armament-guard-043-pelagor",
+    "category": "armament",
+    "rarity": 5,
+    "origin": "collection",
+    "sources": [],
+    "name_vi": "Cuarenta y Tres. Hải Pháo Vấn Triều Pelagor",
+    "name_en": "Cuarenta y Tres. Tide-Questioning Cannon Pelagor",
+    "form_vi": "Pháo ngắn có chân chìm, nòng viền vỏ sò",
+    "form_en": "Short cannon with submerged feet and a shell-rimmed bore",
+    "epigraph_vi": "Biển mang tiếng gõ đi xa.",
+    "epigraph_en": "The sea carries a knock far.",
+    "lore_vi": "Damián áp tai vào ván ướt, nghe tiếng gõ trở về chậm hơn ở một khoang. Anh đổi chỗ, gõ lại bằng cán dao rồi đánh dấu đoạn âm bị giữ. Người trong khoang còn đáp được, nhưng mối ván cần tháo nằm sâu dưới mực nước.\n\nAnh muốn đưa đúng một nhát gõ tới đó. Cuarenta y Tres kéo nước quanh cổ tay thành vòng sò, rồi mở lòng pháo ngắn trên ba chân chìm. Damián chờ nước nâng cùng nhịp dưới từng chân mới đặt tay lên bệ. Xung đầu tiên đi khắp lớp triều, làm những mối vá anh đã nghe bật cùng lúc; cả hàng tàu ngoài bến lùi khỏi lối cứu người.\n\nSau lần ấy, anh giữ thói quen nghe trước khi bắn. Trên vành nòng, những vỏ sò khép mở chậm, như vẫn chờ một câu trả lời từ phía sau ván.",
+    "lore_en": "Damián pressed an ear to wet planking and heard a knock return more slowly from one compartment. He moved, tapped with a knife haft and marked the muffled section. Someone inside still answered, but the joint to be released lay far below the waterline.\n\nHe wanted to carry one precise knock there. Cuarenta y Tres drew wrist-water into a shell ring and opened a short cannon on three submerged feet. Damián waited for water to lift beneath them together before touching the mounting. The first pulse travelled throughout the tidal layer, releasing the patches he had heard together; a whole rank of ships drew back from the rescue route.\n\nAfterwards, he kept listening before firing. Shells upon the muzzle opened and closed slowly, as though still awaiting an answer behind the planks.",
+    "use_vi": "Phá vòng vây trên biển, chuyển hướng đoàn tàu hoặc đánh bật các mối kín ở thân tàu bằng xung triều có chọn lọc.",
+    "use_en": "Break naval encirclements, redirect groups of ships or dislodge selected hull seals with tidal pulses.",
+    "limits_vi": "Người bắn phải nghe được lời đáp của nước quanh từng mục tiêu trước khi chọn mặt chịu xung. Tàu rời lớp triều ấy thoát khỏi đường truyền; bắn mù khiến vòng sò đóng và giữ xung trong lòng pháo cho tới khi người mang hạ tay.",
+    "limits_en": "The gunner must hear the water’s answer around each target before selecting its receiving face. Ships leaving that tidal layer escape transmission; firing blindly closes the shell ring and holds the pulse in the bore until the bearer lowers a hand.",
+    "skills": [
+      {
+        "name_vi": "Vấn Triều Truyền Chấn",
+        "name_en": "Tidal Pulse Transmission",
+        "description_vi": "Pelagor khiến cả một lớp triều thành thân pháo vô hình, truyền xung qua nước để đánh cùng lúc vào những mặt thân tàu được người bắn chỉ ra. Có thể gỡ một vòng vây hải quân bằng cách đẩy dạt các tàu mà không cần xé nát chúng.",
+        "description_en": "Pelagor makes an entire tidal layer an invisible cannon body, transmitting pulses through water to strike selected hull faces together. It can open a naval encirclement by driving ships apart without needing to tear them to pieces."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vòng Sò Nghe Nước",
+        "name_en": "Water-Listening Shell Ring",
+        "description_vi": "Vòng sò đóng theo nhịp nước, không theo nhịp tay người bắn.",
+        "description_en": "The shell ring closes with the water rather than the gunner’s hand."
+      }
+    ],
+    "applications": [
+      {
+        "name_vi": "Gõ dò dưới nước",
+        "name_en": "Underwater Sounding",
+        "description_vi": "Gửi xung nhẹ qua ván để phân biệt khoang còn rỗng trước khi chọn điểm phá mối vá.",
+        "description_en": "Send a light pulse through planking to distinguish remaining air space before choosing a patch to breach."
+      }
+    ],
+    "rarity_note_vi": "Bậc biên tập xét theo quyền năng cùng điều kiện sử dụng. Số hiệu Cận vệ là định danh; trang bị ở đây là phương án sáng tác.",
+    "rarity_note_en": "Editorial rank considers authority and conditions of use. The Guard number is an identifier; this equipment is an invented proposal.",
+    "quantity": {
+      "kind": "singleton",
+      "count": 1,
+      "note_vi": "Thiết kế một biểu hiện cho số hiệu này. Khả năng người khác tái tạo chưa được xác lập; độc chiếc về số lượng không quyết định bậc.",
+      "note_en": "One manifestation is designed for this number. Reproduction by another bearer is unestablished; singleton quantity does not determine rank."
+    },
+    "royal_guard": {
+      "number": 43,
+      "label": "Cuarenta y Tres",
+      "relation": "deployment",
+      "parent_id": "device-003"
+    },
+    "owner_vi": "",
+    "owner_en": "",
+    "behavior_vi": "",
+    "behavior_en": "",
+    "content_revision": "rebuild-v4",
+    "classification_status": "editorial",
+    "editorial_review_kind": "rewritten",
+    "art": {
+      "kind": "armament",
+      "materials": [
+        "aged brass",
+        "dark natural material"
+      ],
+      "description": "Short cannon with submerged feet and a shell-rimmed bore. Collection concept; no lettering."
+    },
+    "editorial_note_vi": "Toàn bộ lịch sử hình thành trong lời kể là sáng tác bộ sưu tập, không xác nhận sự kiện mới của bản thảo.",
+    "editorial_note_en": "The entire formation history in the narrative is a collection invention, establishing no new manuscript event."
+  }
+]

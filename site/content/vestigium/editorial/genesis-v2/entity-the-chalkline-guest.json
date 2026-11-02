@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-chalkline-guest",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Một học trò nghiền nhầm mẩu khoáng trắng vào phấn rồi vẽ người ở lề bảng. Hình người bị xóa, dáng phẳng vẫn nằm dưới nét phấn tiếp theo. Khi em kẻ đường thẳng lệch, dáng ấy bước tới đứng ngay chỗ cong, như một người hàng xóm tìm được ngưỡng cửa của mình.\n\nEm giữ nét sai qua đêm để khách có chỗ đứng. Sáng sau, vẽ đường mới bên cạnh khiến nó chuyển sang chỗ sai mới. Người thầy nhận ra có thể mời nó xem đường lấy dấu, miễn người vẽ chấp nhận để thứ nhỏ bé ấy chỉ lỗi trước khi đưa cưa xuống.",
+    "lore_en": "An apprentice accidentally ground white mineral into chalk and drew a person in the board margin. The drawing was erased, yet a flat figure remained beneath the next chalk line. When the child drew a crooked straight line, it stood precisely at the bend like a neighbour finding its threshold.\n\nThe child left the error overnight to give the guest somewhere to stand. A new morning line drew it towards the next mistake. The master realised it could inspect layout marks, provided the drawer allowed a little being to point out the fault before the saw descended.",
+    "use_vi": "Chỉ chỗ lệch trên một đường lấy dấu ngắn.",
+    "use_en": "Indicate deviation along a short layout line.",
+    "limits_vi": "Đường dài dưới một sải tay, cần mặt khô và một mép chuẩn cho khách nhận thế nào là thẳng. Gỗ ướt làm bóng lẫn phấn và thôi chỉ rõ.",
+    "limits_en": "The line must be shorter than an armspan, on a dry surface with a reference edge defining straightness. Wet wood mingles figure and chalk until its indication fails.",
+    "skills": [
+      {
+        "name_vi": "Đứng chỗ cong",
+        "name_en": "Stand at the Bend",
+        "description_vi": "Kẻ đường bằng phấn có khách cạnh một mép chuẩn rồi chờ nó đi tới đoạn lệch; sửa từng đoạn và đợi nó rời trước khi cắt.",
+        "description_en": "Draw with inhabited chalk beside a reference edge and wait for the guest to reach a deviation; correct sections and wait for it to leave before cutting."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khách chọn chỗ sai",
+        "name_en": "A Guest Lodging in Error",
+        "description_vi": "Nét đã thẳng khiến khách ngồi ở đầu đường. Nó cần phấn từ mẻ khoáng gốc để chuyển sang bảng khác.",
+        "description_en": "A true line makes the guest sit at its beginning. Moving boards requires chalk from the original mineral batch."
+      }
+    ]
+  }
+]

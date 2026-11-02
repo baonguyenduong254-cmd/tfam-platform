@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mineral-thach-gon-muc",
+    "category": "mineral",
+    "rarity": 1,
+    "lore_vi": "Một phiến đá kê bàn được ngâm trong mực đổ có lẫn bụi Vestigium suốt mùa người chủ xưởng rời đi. Khi được lau, các màu không trộn bẩn mà chạy thành những vòng riêng, như một mặt ao biết giữ từng loại lá rơi. Người trở về thử đổ mực mới và thấy mặt đá tự xếp lại các hạt màu theo cùng đường tròn.\n\nHọ cắt phiến thành những bàn nhỏ cho thợ vẽ, giữ nguyên mặt đã ngấm. Mỗi bàn còn một chấm đen ở tâm, nơi các vòng từ chối đi qua. Chấm ấy có thể là chỗ bụi khoáng đã kết, cũng có thể là phần mực chưa chịu được chia; người dùng học đủ hai việc để làm nghề, rồi giữ câu hỏi ở dưới nắp hộp.",
+    "lore_en": "A table-propping slab soaked for a season in spilt ink mixed with Vestigium dust. Cleaning revealed colours separating into rings like a pond sorting fallen leaves. Fresh ink arranged its pigments along those same circles.\n\nThe slab was cut into small painters’ boards with its soaked face intact. Each retained a black centre no ring crossed: perhaps condensed mineral, perhaps ink refusing division. Users learnt two useful practices and kept the remaining question beneath the case-lid.",
+    "use_vi": "So độ loãng bằng vòng mực hoặc chia một giọt thành các vệt sắc tố để người pha đọc.",
+    "use_en": "Compare dilution by ink-rings or separate a drop’s pigments for a mixer to examine.",
+    "limits_vi": "Mực dầu phủ kín đường vòng làm đá chậm hoặc thôi nhận. Sắc đã bị phản ứng đổi chất không được trả về màu gốc bằng việc chia; lau xước mặt sẽ mang cả đường đọc đi.",
+    "limits_en": "Oil-ink clogs its circles. Separating chemically changed pigments does not restore their former colour; scratches remove reading-paths.",
+    "skills": [
+      {
+        "name_vi": "Vòng so mực",
+        "name_en": "The Comparing Ring",
+        "description_vi": "Nhỏ giọt lên mặt khô để vòng trải đều; so các mẻ trên cùng phiến trước khi lau. Mặt ướt sẵn làm vòng có dấu của nước cũ.",
+        "description_en": "Drop ink on the dry face and compare batches on that same board. Existing moisture enters the ring’s reading."
+      },
+      {
+        "name_vi": "Chia sắc trong giọt",
+        "name_en": "Part the Drop’s Colours",
+        "description_vi": "Lần ngón quanh tâm theo chiều vòng để các hạt màu tách thành vệt. Pha trộn vốn một chất đơn chỉ thành một vòng, không bị ép sinh màu mới.",
+        "description_en": "Trace around its centre to separate pigments. A single substance remains one ring rather than being forced into new colours."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Điểm đen ở tâm",
+        "name_en": "The Black Centre",
+        "description_vi": "Mỗi mẫu giữ chấm tâm của riêng phần đá mình được cắt ra; ghép các phiến không tạo lại một vòng lớn.",
+        "description_en": "Each cut board retains its own centre; joining boards does not restore a larger circle."
+      }
+    ]
+  }
+]

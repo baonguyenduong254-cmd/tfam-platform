@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-librarian-of-blanks",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Người đóng sách rắc bột khoáng trắng vào hồ gáy một cuốn mục lục mất nhiều trang. Khi hồ khô, giữa hai đường khâu rỗng hiện người mặc áo giấy, ôm một tờ chẳng có chữ. Tháo rồi đóng lại sách ba lần, nó vẫn đứng đúng phần thiếu, trở nên rõ hơn mỗi khi ai đọc tới số trang bị ngắt.\n\nThủ thư nhận trật tự đã có của quyển sách, chăm các chỗ thiếu bằng những dấu nhỏ đặt ở lề. Người mất trang ngồi nhìn nó giữ một khoảng khâu trống, rồi thôi xé các mảnh còn lại để đóng cho quyển sổ trông đầy. Họ để những dấu thiếu ở nguyên đó, dành cho việc tìm lại có chỗ bắt đầu.",
+    "lore_en": "A binder mixed white mineral powder into paste for a catalogue missing many leaves. Once dry, a paper-coated person appeared between empty stitches, holding an unwritten sheet. Three rebinding trials left it at the same absence, clearer whenever someone read through a broken page sequence.\n\nThe librarian accepts the volume’s existing order and tends its gaps with little marginal signs. Watching it guard an empty stitch, a reader stopped removing surviving fragments merely to make the book appear full. Missing places remained visible, giving the search for them somewhere to begin.",
+    "use_vi": "Kiểm thứ tự đánh số và đường khâu, đặt dấu thiếu, giữ vị trí đối chiếu trong chính quyển trú.",
+    "use_en": "Inspect numbering and stitching, mark absences and retain comparison positions within its inhabited volume.",
+    "limits_vi": "Nhận hệ số và cấu trúc thấy được; sách đánh số giả nhất quán có thể qua mắt. Nội dung đã mất cần tìm nguồn khác, còn hồ gáy bị rửa hết làm thủ thư tan.",
+    "limits_en": "It recognises visible numbering and structure; consistently false pagination may deceive it. Lost contents need other sources, and washing away the spine paste disperses it.",
+    "skills": [
+      {
+        "name_vi": "Đọc dãy số",
+        "name_en": "Read the Number Sequence",
+        "description_vi": "Mở sách theo thứ tự để thủ thư bước tới chỗ số trang gián đoạn, đánh một nếp sáng tại lề cho người kiểm.",
+        "description_en": "Open the volume in order so the librarian reaches interrupted pagination and places a bright fold in the margin."
+      },
+      {
+        "name_vi": "Đếm lá khâu",
+        "name_en": "Count the Sewn Leaves",
+        "description_vi": "Cho ánh xiên qua gáy mở để nó chỉ đường chỉ còn trống lá, phân biệt một khe thiếu với trang chỉ chưa được đánh số.",
+        "description_en": "Light the open spine obliquely so it indicates stitching missing a leaf, distinguishing loss from an unnumbered page."
+      },
+      {
+        "name_vi": "Giữ vị trí trống",
+        "name_en": "Keep the Empty Position",
+        "description_vi": "Chạm lề ngay chỗ thiếu để nó đứng lại như dấu trang cho đến lần gọi kế, giúp quay về đúng khe khi tìm nguồn bổ sung.",
+        "description_en": "Touch the missing place’s margin so it remains there as a bookmark until recalled, preserving the search position."
+      },
+      {
+        "name_vi": "So tờ tìm lại",
+        "name_en": "Compare the Recovered Leaf",
+        "description_vi": "Đưa một tờ có số tới khe để thủ thư chỉ đường khâu và cỡ mép có khớp hay không; nội dung đúng cần người đọc đối chiếu.",
+        "description_en": "Present a numbered leaf at the gap so it indicates matching stitches and edge dimensions; content requires a reader’s comparison."
+      },
+      {
+        "name_vi": "Lề ghi thiếu",
+        "name_en": "The Absence Mark",
+        "description_vi": "Đặt giấy trắng ở lề để nó gấp những góc tương ứng số đoạn thiếu đã nhận, mang danh sách hình ra ngoài quyển.",
+        "description_en": "Set blank paper at the margin so it folds corners corresponding to recognised missing sections and carries an external visual list."
+      },
+      {
+        "name_vi": "Nhận thứ tự đảo",
+        "name_en": "Recognise Reversed Order",
+        "description_vi": "Lật một tập trang để thủ thư quay tờ áo về đoạn số đang đi ngược dãy, khoanh nơi đóng đảo cần kiểm.",
+        "description_en": "Turn a gathering so the librarian faces its paper coat towards reversed numbering and marks a binding error for inspection."
+      },
+      {
+        "name_vi": "Đường về trang cũ",
+        "name_en": "The Way to the Earlier Page",
+        "description_vi": "Đặt một dấu giấy cùng hồ gáy ở trang đã xem để khi gọi thủ thư, nó mở nhẹ mép đúng trang ấy cho người lật tiếp.",
+        "description_en": "Place a paper marker with the same spine paste at a viewed page so a summons makes the librarian lift that edge for reopening."
+      },
+      {
+        "name_vi": "Khép sổ còn thiếu",
+        "name_en": "Close the Incomplete Book",
+        "description_vi": "Đọc số đầu và cuối hiện còn rồi khép chậm để thủ thư giữ các khe trống qua lần cất, trở lại đúng vị trí sau mở; đổi cách đánh số cần nhận lại.",
+        "description_en": "Read surviving first and last numbers and close slowly so it preserves gaps through storage; changed pagination requires renewed acceptance."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Người giữ chỗ thiếu",
+        "name_en": "The Keeper of Missing Places",
+        "description_vi": "Nó trở nên rõ ở khoảng trống được thừa nhận. Vá kín chỉ để che mất dấu thiếu khiến các dấu lề thôi hiện cho tới khi chỗ ấy được mở ra.",
+        "description_en": "It grows clearer where absence is acknowledged. Patching merely to conceal a gap hides marginal signs until that place is reopened."
+      }
+    ]
+  }
+]

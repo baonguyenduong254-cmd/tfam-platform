@@ -1,0 +1,1200 @@
+{
+  "factions": [
+    {
+      "id": "annam_empire",
+      "lore_vi_1715": "Năm 1691, ba anh em Tây Sơn phất cờ khởi nghĩa. Nguyễn Huệ lần lượt đánh sập quyền lực họ Nguyễn ở phương nam và họ Trịnh ở phương bắc; triều Lê chấm dứt khi đạo quân cuối cùng của nhà vua hạ vũ khí trước Thăng Long. Người xuất thân từ miền đất võ bước lên ngai vàng, lấy quốc hiệu An Nam và mở những cuộc chinh phạt vượt xa biên giới cũ.\n\nĐến năm 1715, cả ba xứ Đông Dương đã quy về một đế quốc. Những tướng lĩnh từng theo Nguyễn Huệ từ ngày khởi nghĩa trở thành trụ cột triều đình; các vương triều bị khuất phục phải gửi con tin về Thăng Long. Ở phía tây, quyền lực Đông Ấn Anh trải qua Xiêm và Miến Điện. Khi các thương điếm công ty bắt đầu đóng cửa với sứ đoàn An Nam, Nguyễn Huệ cho triệu những người đã cùng ông lật đổ hai phủ chúa. Lần này, bản đồ trên bàn kéo tới tận vịnh Bengal.",
+      "lore_en_1715": "In 1691, the Tây Sơn brothers raised their rebellion. Nguyễn Huệ destroyed the Nguyễn lords in the south and the Trịnh in the north; the Lê dynasty ended when its final army surrendered before Thăng Long. The provincial warrior took the throne, proclaimed the An Nam Empire and carried his conquests beyond the old frontier.\n\nBy 1715, all three Indochinese lands answered to him. His original commanders held the highest offices, while defeated dynasties sent their heirs to Thăng Long as hostages. To the west, Company power extended through Siam and Burma. When its trading houses closed their doors to An Nam's envoys, Nguyễn Huệ summoned the men who had helped him overthrow two ruling houses. The map before them now reached the Bay of Bengal.",
+      "lore_vi_1716": "Năm 1716, Nguyễn Huệ đưa chiến tranh sang Xiêm. Các đạo quân vượt núi cùng thủy quân tiến theo đường sông, đánh tan những lực lượng bảo vệ quyền cai trị của Đông Ấn Anh. Triều đình Xiêm mất kinh đô; những đội quân rút về Miến Điện lại phải đối mặt với một cuộc tiến công mới trước khi kịp dựng tuyến phòng thủ.\n\nChỉ trong một năm, An Nam nuốt trọn hai xứ phía tây và vươn tới vịnh Bengal. Các thương điếm bỏ lại cờ công ty khi rút quân, còn những tờ cáo thị mang ấn hoàng đế xuất hiện trên cổng thành. Tin về một người họ Nguyễn đang xưng bá khắp Đông Nam Á theo tàu về tới William Beckett ở Madrid. Từ Thăng Long, Nguyễn Huệ nhìn sang Ấn Độ: lần đầu tiên, đối thủ kế tiếp của ông có những hạm đội trải khắp ba đại dương.",
+      "lore_en_1716": "In 1716, Nguyễn Huệ carried the war into Siam. Mountain columns and river fleets shattered the forces sustaining Company rule. Siam lost its capital; the armies retreating into Burma faced another offensive before they could establish a new defence.\n\nWithin a year, An Nam absorbed both western territories and reached the Bay of Bengal. Abandoned Company flags gave way to proclamations bearing the emperor's seal. Reports of a Nguyễn conquering Southeast Asia reached William Beckett in Madrid. From Thăng Long, Nguyễn Huệ looked toward India: his next adversary commanded fleets across three oceans.",
+      "traits": [
+        {
+          "id": "annam_empire_trait_1",
+          "label_vi": "Thiên tài chinh phạt",
+          "label_en": "Conquering Genius",
+          "effect_vi": "Nguyễn Huệ hợp sức các đạo quân thành những cuộc tiến công liên tiếp, buộc đối thủ giao chiến theo nhịp của ông.",
+          "effect_en": "Nguyễn Huệ coordinates successive offensives and forces enemies to fight at his pace.",
+          "effect_ui": "Nguyễn Huệ hợp sức các đạo quân thành những cuộc tiến công liên tiếp, buộc đối thủ giao chiến theo nhịp của ông."
+        },
+        {
+          "id": "annam_empire_trait_2",
+          "label_vi": "Triều đại Tây Sơn",
+          "label_en": "The Tây Sơn Dynasty",
+          "effect_vi": "Các tướng lĩnh khởi nghĩa nắm binh quyền và triều chính, gắn vận mệnh đế quốc với người đã đưa họ lên đỉnh quyền lực.",
+          "effect_en": "Veterans of the rebellion hold military and civil authority, binding the empire to its founder.",
+          "effect_ui": "Các tướng lĩnh khởi nghĩa nắm binh quyền và triều chính, gắn vận mệnh đế quốc với người đã đưa họ lên đỉnh quyền lực."
+        },
+        {
+          "id": "annam_empire_trait_3",
+          "label_vi": "Cửa ngõ Bengal",
+          "label_en": "Gateway to Bengal",
+          "effect_vi": "Chiếm Xiêm và Miến Điện đưa An Nam đối đầu trực tiếp với quyền lực Đông Ấn Anh tại Ấn Độ.",
+          "effect_en": "The conquest of Siam and Burma brings An Nam directly against Company power in India.",
+          "effect_ui": "Chiếm Xiêm và Miến Điện đưa An Nam đối đầu trực tiếp với quyền lực Đông Ấn Anh tại Ấn Độ."
+        }
+      ]
+    },
+    {
+      "id": "ming_celestial_empire",
+      "lore_vi_1715": "Năm 1659, Trịnh Thành Công phá vỡ phòng tuyến Nam Kinh. Chiến thắng châm ngòi cho những cuộc nổi dậy chống Thanh; các đạo quân phục Minh tràn qua Trường Giang, đưa ngai vàng họ Chu trở lại Bắc Kinh. Hai năm sau, hạm đội của ông đánh bật người Hà Lan khỏi Đài Loan, biến hòn đảo thành thành lũy ngoài biển của thiên triều.\n\nNăm 1683, Trịnh Khắc Sảng kế thừa quyền chỉ huy và đánh bại cuộc tiến công nhằm xóa bỏ thế lực họ Trịnh. Chiến công ấy đưa gia tộc từ những người phục quốc thành thế lực đủ sức quyết định ai được ngồi trên ngai vàng. Đến năm 1715, Đại Minh đã thống nhất Trung Hoa dưới long kỳ, nhưng quyền lực chia giữa hoàng đế tại Bắc Kinh và những chiến hạm mang cờ họ Trịnh. Trên thảo nguyên, một Đại Hãn quốc mới đang đòi lại di sản của các cuộc chinh phạt Mông Cổ.",
+      "lore_en_1715": "In 1659, Zheng Chenggong broke the defences of Nanjing. Anti-Qing uprisings spread, restoration armies crossed the Yangtze, and the Zhu throne returned to Beijing. Two years later, his fleet expelled the Dutch from Taiwan and made the island an offshore bastion of the restored dynasty.\n\nIn 1683, Zheng Keshuang inherited the command and defeated the assault intended to destroy his house. The victory made the Zheng kingmakers. By 1715, Ming banners flew over a reunited China, but authority was divided between the emperor in Beijing and the Zheng war fleets. Beyond the northern frontier, a new Great Khanate claimed the legacy of Mongol conquest.",
+      "lore_vi_1716": "Năm 1716, chiến tranh trên hai mặt trận xé rách cuộc phục hưng Đại Minh. Kỵ quân Trường Thiên uy hiếp biên cương phía bắc, trong khi hạm đội Nhật Bản đoạt Đài Loan, rồi từ bán đảo Triều Tiên tiến vào Liêu Ninh và Cát Lâm. Hòn đảo từng chứng minh quyền lực họ Trịnh giờ trở thành bàn đạp của một đế quốc khác; các tỉnh phía đông bắc cùng rơi vào tay đối thủ.\n\nTrịnh Khắc Sảng trở về triều với những chiến hạm còn lại. Các đại thần đòi tước binh quyền của ông; hoàng đế lại giao cho chính ông dựng hạm đội mới, đặt sinh tồn của thiên triều vào tay gia tộc đang bị cả triều đình kết tội. Đại Minh vẫn nắm đại lục, còn ngoài biển, đối thủ đã bước vào thời đại những hạm đội có thể quyết định số phận một vương triều.",
+      "lore_en_1716": "In 1716, war on two fronts tore into the Ming restoration. Eternal Sky cavalry threatened the northern frontier, while Japan seized Taiwan and advanced from Korea into Liaoning and Jilin. The island that had proven Zheng supremacy became another empire’s base, while the northeastern provinces also fell.\n\nZheng Keshuang returned with his surviving ships. Ministers demanded his dismissal; the emperor instead ordered him to rebuild the fleet, entrusting the dynasty's survival to the house his court blamed for the disaster. The Ming retained the mainland, but at sea their enemies had entered an age in which fleets could decide a dynasty's fate.",
+      "traits": [
+        {
+          "id": "ming_celestial_empire_trait_1",
+          "label_vi": "Vương triều phục sinh",
+          "label_en": "Restored Dynasty",
+          "effect_vi": "Chiến thắng Nam Kinh đưa nhà Minh trở lại Bắc Kinh và biến lòng trung thành phục quốc thành nền tảng quyền lực.",
+          "effect_en": "Victory at Nanjing restores the Ming throne and makes restoration loyalty the foundation of power.",
+          "effect_ui": "Chiến thắng Nam Kinh đưa nhà Minh trở lại Bắc Kinh và biến lòng trung thành phục quốc thành nền tảng quyền lực."
+        },
+        {
+          "id": "ming_celestial_empire_trait_2",
+          "label_vi": "Gia tộc giữ biển",
+          "label_en": "Maritime Kingmakers",
+          "effect_vi": "Họ Trịnh nắm hạm đội cùng ảnh hưởng đủ lớn để can dự vào việc kế vị.",
+          "effect_en": "The Zheng command fleets and wield influence over the succession.",
+          "effect_ui": "Họ Trịnh nắm hạm đội cùng ảnh hưởng đủ lớn để can dự vào việc kế vị."
+        },
+        {
+          "id": "ming_celestial_empire_trait_3",
+          "label_vi": "Long kỳ giữa hai chiến tuyến",
+          "label_en": "Dragon Banner, Two Fronts",
+          "effect_vi": "Thiên triều phải chia sức đối phó kỵ quân thảo nguyên và hạm đội Nhật Bản.",
+          "effect_en": "The dynasty divides its strength between steppe cavalry and Japanese fleets.",
+          "effect_ui": "Thiên triều phải chia sức đối phó kỵ quân thảo nguyên và hạm đội Nhật Bản."
+        }
+      ]
+    },
+    {
+      "id": "nusantara_sultanate",
+      "lore_vi_1715": "Năm 1697, Hasanuddin xé bỏ những điều kiện đầu hàng tại Bongaya và tập hợp các vương quốc quanh Makassar. Hạm đội liên quân đánh tan lực lượng Hà Lan, rồi tiến thẳng vào những thương cảng từng nuôi quyền lực của họ. Các thành trì công ty lần lượt thất thủ; những người từng ký độc quyền gia vị phải lựa chọn giữa quy phục Hasanuddin và rời khỏi quần đảo.\n\nTừ chiến thắng ấy, Sultan quốc Nusantara ra đời. Java, Sumatra và những đảo lớn cùng nhận một quân kỳ; Makassar trở thành kinh đô của vị vua đã biến chiến tranh chống người ngoại quốc thành cuộc thống nhất. Năm 1715, Hasanuddin nắm một đế quốc trải qua những eo biển giàu có nhất phương đông. Hạm đội của ông bắt đầu đi xa hơn các vùng nước mà tổ tiên từng gọi là quê nhà.",
+      "lore_en_1715": "In 1697, Hasanuddin repudiated the surrender terms of Bongaya and rallied the kingdoms around Makassar. Their combined fleet defeated the Dutch, then struck the ports sustaining Dutch power. Company strongholds fell; the holders of spice monopolies submitted or left the archipelago.\n\nThe Nusantara Sultanate emerged from that victory. Java, Sumatra and the major islands accepted a common banner, with Makassar as the capital of the king who had turned resistance into unification. In 1715, Hasanuddin ruled across the richest eastern straits. His fleets began sailing beyond the waters his ancestors had called home.",
+      "lore_vi_1716": "Năm 1716, Hasanuddin đưa quân kỳ Nusantara tới Philippines và các đảo Papua. Những cảng chống lại ông bị phong tỏa, còn các vương triều chịu quy phục được giữ ngai vàng dưới quyền triều đình Makassar. Những lãnh thổ mới nối thành một vòng cung chiến lược kéo dài về phía đông quần đảo.\n\nỞ phía bắc, An Nam tràn qua Xiêm và Miến Điện; ngoài khơi, những hạm đội mới của Nhật Bản xuất hiện ngày càng thường xuyên. Hasanuddin ra lệnh đóng chiến hạm lớn hơn và đặt các hoàng thân trực tiếp chỉ huy những eo biển. Đế quốc sinh ra từ cuộc đánh đuổi một công ty châu Âu giờ phải giữ vị trí của mình giữa những cuộc chinh phạt do chính phương đông khởi xướng.",
+      "lore_en_1716": "In 1716, Hasanuddin carried Nusantara's banner to the Philippines and the islands of Papua. Resistant ports were blockaded; compliant dynasties retained their thrones under Makassar's authority. The new territories formed a strategic arc extending east across the archipelago.\n\nTo the north, An Nam swept through Siam and Burma. Offshore, Japan's new fleets appeared with growing frequency. Hasanuddin ordered larger warships and gave princes direct command over the straits. The empire born by expelling a European company now faced conquests launched by the East itself.",
+      "traits": [
+        {
+          "id": "nusantara_sultanate_trait_1",
+          "label_vi": "Người phá xiềng Bongaya",
+          "label_en": "Breaker of Bongaya",
+          "effect_vi": "Hasanuddin biến cuộc chiến chống độc quyền Hà Lan thành nền móng thống nhất quần đảo.",
+          "effect_en": "Hasanuddin turns resistance to Dutch monopoly into the foundation of archipelagic unity.",
+          "effect_ui": "Hasanuddin biến cuộc chiến chống độc quyền Hà Lan thành nền móng thống nhất quần đảo."
+        },
+        {
+          "id": "nusantara_sultanate_trait_2",
+          "label_vi": "Ngai vàng Makassar",
+          "label_en": "Throne of Makassar",
+          "effect_vi": "Các vương triều trên đảo giữ quyền cai trị dưới quân kỳ chung của Sultan.",
+          "effect_en": "Island dynasties retain local rule under the Sultan’s common banner.",
+          "effect_ui": "Các vương triều trên đảo giữ quyền cai trị dưới quân kỳ chung của Sultan."
+        },
+        {
+          "id": "nusantara_sultanate_trait_3",
+          "label_vi": "Chủ nhân các eo biển",
+          "label_en": "Masters of the Straits",
+          "effect_vi": "Hạm đội và thành lũy kiểm soát những lối đi nối Ấn Độ Dương với vùng biển phương đông.",
+          "effect_en": "Fleets and fortresses control passages linking the Indian Ocean to eastern seas.",
+          "effect_ui": "Hạm đội và thành lũy kiểm soát những lối đi nối Ấn Độ Dương với vùng biển phương đông."
+        }
+      ]
+    },
+    {
+      "id": "tokugawa_empire",
+      "lore_vi_1715": "Năm 1706, Tokugawa Yoshimune bước vào Edo và giành quyền đứng đầu Mạc phủ. Cuộc cải cách của ông cuốn cả trật tự cũ vào chiến tranh: những lãnh chúa chống lệnh bị tước đất, đặc quyền cha truyền con nối nhường chỗ cho các trường quân sự và xưởng chế tạo do triều đình kiểm soát. Thiên hoàng trao chiếu chỉ cho Yoshimune thống nhất quyền chỉ huy quân đội dưới một đế quốc.\n\nNhật Bản mở cửa bằng những chiến hạm của chính mình. Quân đội vượt biển, khuất phục các vương triều trên bán đảo Triều Tiên và đưa toàn bộ bán đảo vào lãnh thổ đế quốc. Đến năm 1715, Yoshimune đã biến các samurai thành sĩ quan của một quân đội mới. Những gia tộc từng tranh giành từng tỉnh trên đảo giờ phải học cách cai quản đất đai bên kia biển.",
+      "lore_en_1715": "In 1706, Tokugawa Yoshimune entered Edo and seized the shogunate. His reforms swept the old order into conflict: defiant lords lost their lands, while hereditary privileges gave way to military schools and state-controlled foundries. An imperial decree authorized him to unite the armed forces under one empire.\n\nJapan opened the world with its own warships. Its armies crossed the sea, subdued the Korean dynasties and annexed the entire peninsula. By 1715, Yoshimune had transformed samurai into officers of a new army. Houses that once fought over island provinces were learning to govern across the sea.",
+      "lore_vi_1716": "Năm 1716, hạm đội Nhật Bản đánh vào các căn cứ họ Trịnh. Đài Loan thất thủ trước một cuộc đổ bộ phối hợp pháo hạm và bộ binh. Từ bán đảo Triều Tiên, bộ binh tiến vào Liêu Ninh và Cát Lâm, mở một chiến tuyến ngay trên đại lục. Quân kỳ Nhật Bản xuất hiện ở những vùng đất từng bảo vệ sườn phía đông bắc Trung Hoa.\n\nYoshimune trao các lãnh thổ mới cho những tướng lĩnh trưởng thành từ cuộc duy tân. Chiến thắng củng cố quyền lực của ông tại Edo và khiến các lãnh chúa còn bất mãn phải im tiếng. Đế quốc Nhật Bản giờ có thể đưa quân xuống vùng biển nhiệt đới, trong khi Đại Minh bắt đầu đóng những chiến hạm mới để giành lại những gì đã mất.",
+      "lore_en_1716": "In 1716, Japanese fleets attacked the Zheng bases. A coordinated landing of naval artillery and infantry captured Taiwan; From Korea, infantry advanced into Liaoning and Jilin, opening a mainland front. Japanese banners rose over lands that had guarded China’s northeastern approaches.\n\nYoshimune entrusted the conquests to commanders formed by his reforms. Victory strengthened his authority in Edo and silenced discontented lords. Japan could now project armies into tropical waters, while the Ming built new fleets to reclaim their losses.",
+      "traits": [
+        {
+          "id": "tokugawa_empire_trait_1",
+          "label_vi": "Duy tân Tokugawa",
+          "label_en": "Tokugawa Renewal",
+          "effect_vi": "Yoshimune tập trung quyền lực và thay đội quân của các lãnh chúa bằng lực lượng phục vụ đế quốc.",
+          "effect_en": "Yoshimune centralizes power and replaces feudal contingents with imperial forces.",
+          "effect_ui": "Yoshimune tập trung quyền lực và thay đội quân của các lãnh chúa bằng lực lượng phục vụ đế quốc."
+        },
+        {
+          "id": "tokugawa_empire_trait_2",
+          "label_vi": "Samurai thời đại mới",
+          "label_en": "Samurai of a New Age",
+          "effect_vi": "Truyền thống võ sĩ kết hợp huấn luyện pháo binh, bộ binh và chỉ huy chiến hạm.",
+          "effect_en": "Warrior traditions combine with artillery, infantry and naval officer training.",
+          "effect_ui": "Truyền thống võ sĩ kết hợp huấn luyện pháo binh, bộ binh và chỉ huy chiến hạm."
+        },
+        {
+          "id": "tokugawa_empire_trait_3",
+          "label_vi": "Đế quốc vượt biển",
+          "label_en": "Empire Across the Sea",
+          "effect_vi": "Triều Tiên và các đảo chiếm được trở thành bàn đạp cho những chiến dịch tiếp theo.",
+          "effect_en": "Korea and captured islands serve as bases for further campaigns.",
+          "effect_ui": "Triều Tiên và các đảo chiếm được trở thành bàn đạp cho những chiến dịch tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "eternal_sky_khanate",
+      "lore_vi_1715": "Năm 1696, tại Zuunmod, Anu dẫn đội kỵ binh mở đường qua vòng vây và đánh thẳng vào quân chỉ huy đối phương. Galdan sống sót; đạo quân tưởng sẽ kết thúc quyền lực Dzungar lại tan vỡ trên thảo nguyên. Chiến thắng đưa các bộ tộc từng chống nhau tới dưới cùng một lời thề.\n\nGaldan dựng lại triều đình tại Karakorum, xưng Đại Hãn và lấy danh nghĩa Trường Thiên để quy tụ những hậu duệ của các cuộc chinh phạt Mông Cổ. Anu trở thành người giữ binh quyền bên cạnh ông. Đến năm 1715, đế quốc trải qua thảo nguyên Trung Á và Mông Cổ, kết hợp kỵ binh truyền thống với pháo cơ động. Những đoàn quân của Đại Hãn bắt đầu tiến tới các cửa ải mà nhà Minh tưởng đã khép lại lịch sử xâm lăng phương bắc.",
+      "lore_en_1715": "In 1696 at Zuunmod, Anu led her cavalry through the encirclement and struck the enemy command. Galdan survived; the army sent to end Dzungar power broke on the steppe. Victory brought rival tribes beneath a common oath.\n\nGaldan established his court at Karakorum, proclaimed himself Great Khan and invoked the Eternal Sky to unite the heirs of Mongol conquest. Anu held military authority beside him. By 1715, the empire spanned Mongolia and the Central Asian steppe, combining traditional cavalry with mobile artillery. Its armies approached the passes through which the Ming believed the age of northern invasion had ended.",
+      "lore_vi_1716": "Năm 1716, Anu đưa chiến tranh tới những tuyến phòng thủ phương bắc của Đại Minh. Các đạo quân phân tán trên thảo nguyên rồi hội quân trước mục tiêu, buộc đối phương phải rời thành lũy để cứu những vùng đất bị uy hiếp. Tại Karakorum, các sứ đoàn bắt đầu gọi Galdan bằng danh hiệu từng thuộc về những người làm cả đại lục run sợ.\n\nỞ phía nam, Nader Afshar đoạt những hành lang Trung Á, buộc Đại Hãn quốc phải chia quân giữa hai chiến tuyến. Cuộc chiến cũng làm những gia tộc lớn tranh nhau quyền chỉ huy và đất phong. Galdan giữ ngai vàng bằng uy danh của người tái lập đế quốc, còn Anu giữ lời thề giữa các bộ tộc bằng đội quân đã cùng bà thoát khỏi Zuunmod. Đại Hãn quốc bước vào cuộc chiến dài với Trung Hoa, mang theo tham vọng đưa thảo nguyên trở lại trung tâm lịch sử.",
+      "lore_en_1716": "In 1716, Anu carried the war to the Ming's northern defences. Dispersed steppe columns converged on their targets, forcing defenders out of their fortresses to relieve threatened lands. In Karakorum, envoys began addressing Galdan with titles once held by rulers who had terrified the continent.\n\nIn the south, Nader Afshar seized Central Asian corridors and forced the Khanate to divide its armies. The war also intensified competition for commands and fiefs. Galdan sustained the throne through his prestige as the empire's restorer; Anu held the tribal oath together through the army that had survived Zuunmod with her. The Khanate entered a prolonged war with China, determined to return the steppe to the centre of history.",
+      "traits": [
+        {
+          "id": "eternal_sky_khanate_trait_1",
+          "label_vi": "Lời thề Trường Thiên",
+          "label_en": "Oath of the Eternal Sky",
+          "effect_vi": "Các bộ tộc hợp lực dưới quyền Đại Hãn và chiến công chung tại Zuunmod.",
+          "effect_en": "Tribes unite under the Great Khan and the shared victory at Zuunmod.",
+          "effect_ui": "Các bộ tộc hợp lực dưới quyền Đại Hãn và chiến công chung tại Zuunmod."
+        },
+        {
+          "id": "eternal_sky_khanate_trait_2",
+          "label_vi": "Kỵ quân Anu",
+          "label_en": "Anu’s Cavalry",
+          "effect_vi": "Kỵ binh cơ động chia cắt và hợp vây trước khi đối phương kịp tập trung lực lượng.",
+          "effect_en": "Mobile cavalry divide and encircle enemies before they can concentrate.",
+          "effect_ui": "Kỵ binh cơ động chia cắt và hợp vây trước khi đối phương kịp tập trung lực lượng."
+        },
+        {
+          "id": "eternal_sky_khanate_trait_3",
+          "label_vi": "Karakorum phục hưng",
+          "label_en": "Karakorum Reborn",
+          "effect_vi": "Triều đình khôi phục kinh đô cũ, dùng di sản Mông Cổ để đòi vị thế bá chủ thảo nguyên.",
+          "effect_en": "The court restores the old capital and invokes Mongol heritage to claim steppe supremacy.",
+          "effect_ui": "Triều đình khôi phục kinh đô cũ, dùng di sản Mông Cổ để đòi vị thế bá chủ thảo nguyên."
+        }
+      ]
+    },
+    {
+      "id": "safavid_empire",
+      "lore_vi_1715": "Năm 1702, Isfahan đứng trước cuộc vây hãm tưởng sẽ chấm dứt nhà Safavid. Nader Afshar phá vòng vây bằng một đội quân tập hợp từ biên thùy, đánh tan những lực lượng đã khiến triều đình bất lực. Khi được mời nhận vương miện, ông đặt nó trở lại trước ngai vàng và giữ lấy quyền chỉ huy quân đội.\n\nTừ đó, các vua Safavid tiếp tục trị vì dưới sự bảo vệ của một người đủ sức phế bỏ họ. Nader chinh phục một phần Afghanistan, thu phục các vùng phía nam Trung Á và biến những đạo quân biên giới thành lực lượng thống nhất. Năm 1715, đế quốc Ba Tư phục hồi thế lực sau nhiều thập niên suy yếu. Tại Isfahan, nhà vua ban chiếu chỉ; ở chiến trường, người ta chờ lệnh của Nader.",
+      "lore_en_1715": "In 1702, Isfahan faced the siege that seemed destined to end the Safavids. Nader Afshar broke the encirclement with an army raised on the frontier and defeated the forces that had paralysed the court. Offered the crown, he placed it before the throne and retained command of the army.\n\nSafavid kings thereafter ruled under the protection of a man powerful enough to depose them. Nader conquered part of Afghanistan, subdued southern Central Asian territories and forged the frontier armies into one force. By 1715, Persia had recovered from decades of decline. In Isfahan, the king issued decrees; on the battlefield, men awaited Nader's orders.",
+      "lore_vi_1716": "Năm 1716, sự dịch chuyển quyền lực Ottoman và Tây La Mã đưa các đạo quân mới tới gần biên giới Ba Tư. Nader chiếm phần còn lại của Afghanistan cùng các hành lang phía nam Turkmenistan từ Trường Thiên, rồi củng cố những cửa ngõ phía tây, đồng thời đưa các tướng trung thành trở lại Isfahan khi triều đình tìm cách chia nhỏ binh quyền của ông.\n\nCuộc thanh trừng kết thúc với những đại thần bị lưu đày và một vị vua vẫn ngồi trên ngai vàng. Nader buộc triều đình công nhận quyền chỉ huy trọn đời, rồi quay về phía đông, nơi các tuyến đường qua Afghanistan dẫn xuống Ấn Độ. Safavid giữ tên của vương triều cũ, còn tham vọng của đế quốc mang hình dạng thanh kiếm của người đã cứu nó.",
+      "lore_en_1716": "In 1716, the shifting power of the Ottomans and Western Rome brought new armies near Persia's frontier. Nader took the remaining Afghan lands and southern Turkmenistan corridors from the Eternal Sky, then strengthened the western approaches and recalled loyal commanders to Isfahan as the court attempted to divide his authority.\n\nThe purge ended with ministers in exile and the king still on his throne. Nader secured lifelong military command, then turned east toward the roads through Afghanistan into India. The empire retained the Safavid name; its ambitions took the shape of its saviour's sword.",
+      "traits": [
+        {
+          "id": "safavid_empire_trait_1",
+          "label_vi": "Người giữ vương miện",
+          "label_en": "Keeper of the Crown",
+          "effect_vi": "Nader bảo vệ nhà Safavid và nắm quyền quyết định số phận những người ngồi trên ngai vàng.",
+          "effect_en": "Nader protects the Safavids and controls the fate of those who occupy their throne.",
+          "effect_ui": "Nader bảo vệ nhà Safavid và nắm quyền quyết định số phận những người ngồi trên ngai vàng."
+        },
+        {
+          "id": "safavid_empire_trait_2",
+          "label_vi": "Quân đội Afshar",
+          "label_en": "Afshar Army",
+          "effect_vi": "Bộ binh hỏa khí, kỵ quân và pháo cơ động được tổ chức dưới một quyền chỉ huy.",
+          "effect_en": "Firearm infantry, cavalry and mobile artillery serve a unified command.",
+          "effect_ui": "Bộ binh hỏa khí, kỵ quân và pháo cơ động được tổ chức dưới một quyền chỉ huy."
+        },
+        {
+          "id": "safavid_empire_trait_3",
+          "label_vi": "Cửa ngõ hai phương",
+          "label_en": "Gateway Between Worlds",
+          "effect_vi": "Ba Tư giữ đường nối Trung Đông với Trung Á và Ấn Độ, đưa đế quốc vào thế cạnh tranh với các cường quốc lân cận.",
+          "effect_en": "Persia controls routes between the Middle East, Central Asia and India.",
+          "effect_ui": "Ba Tư giữ đường nối Trung Đông với Trung Á và Ấn Độ, đưa đế quốc vào thế cạnh tranh với các cường quốc lân cận."
+        }
+      ]
+    },
+    {
+      "id": "aksumite_empire",
+      "lore_vi_1715": "Năm 1715, Kassa Hailu đánh bại các lãnh chúa chia cắt cao nguyên và lên ngôi với danh hiệu Tewodros II. Ông tuyên bố khôi phục Đế quốc Aksum, đưa uy quyền hoàng đế trở lại những miền đất đã quen coi triều đình là một cái tên xa xôi. Những gia tộc chống lệnh mất thành trì; quân đội của họ được sáp nhập dưới một quân kỳ.\n\nTewodros kéo chiến tranh từ cao nguyên xuống bờ Biển Đỏ. Những cảng biển trở thành cửa ngõ đưa thợ chế tạo và vũ khí vào đế quốc, còn các pháo đài trên núi giữ những con đường tiến tới kinh đô Gondar. Vị vua mới đặt việc chế tạo đại bác vào trung tâm cuộc phục hưng. Aksum bước ra khỏi thời đại các lãnh chúa bằng tiếng pháo của một triều đình quyết giành lại quyền thống trị vùng Sừng châu Phi.",
+      "lore_en_1715": "In 1715, Kassa Hailu defeated the lords dividing the highlands and took the throne as Tewodros II. He proclaimed the restoration of Aksum, returning imperial authority to lands that had long treated the court as a distant name. Defiant houses lost their fortresses; their armies were absorbed beneath a single banner.\n\nTewodros carried war from the plateau to the Red Sea coast. Ports brought craftsmen and weapons into the empire, while mountain fortresses guarded the roads to Gondar. Cannon manufacture became the centre of his restoration. Aksum emerged from the age of rival lords through the artillery of a court determined to dominate the Horn of Africa.",
+      "lore_vi_1716": "Năm 1716, Tewodros đưa quân xuống miền bắc Kenya, chiếm các hành lang của Liên minh Swahili. Các đạo quân của những lãnh chúa cũ phải chiến đấu bên nhau dưới quyền sĩ quan hoàng đế, còn những thành lũy từng ngăn cách họ trở thành căn cứ của cùng một đế quốc.\n\nTại Gondar, Tewodros dựng một xưởng đại bác hoàng gia và buộc các gia tộc lớn gửi người tới phục vụ. Giáo hội ban phước cho công cuộc phục hưng; những giáo sĩ phản đối việc nhà vua can thiệp vào đất đai lại bị đẩy khỏi triều đình. Aksum mở rộng bằng cả uy quyền thiêng liêng lẫn quân đội mới. Càng tiến gần Biển Đỏ, đế quốc càng phải đối diện những hạm đội có thể biến một cảng biển thành chiến trường.",
+      "lore_en_1716": "In 1716, Tewodros advanced into northern Kenya and seized Swahili corridors. Armies of former rival lords fought together under imperial officers, and the fortresses that had separated them became bases of one empire.\n\nIn Gondar, Tewodros established a royal cannon foundry and compelled the great houses to send men into imperial service. The Church blessed the restoration; clerics resisting his intervention in their estates lost influence at court. Aksum expanded through sacred authority and a new army. As it approached the Red Sea, it faced fleets capable of turning any port into a battlefield.",
+      "traits": [
+        {
+          "id": "aksumite_empire_trait_1",
+          "label_vi": "Vương miện Aksum",
+          "label_en": "Crown of Aksum",
+          "effect_vi": "Tewodros lấy di sản đế quốc cổ làm chính danh thống nhất cao nguyên và vùng Sừng châu Phi.",
+          "effect_en": "Tewodros invokes the ancient empire to legitimize highland and Horn unification.",
+          "effect_ui": "Tewodros lấy di sản đế quốc cổ làm chính danh thống nhất cao nguyên và vùng Sừng châu Phi."
+        },
+        {
+          "id": "aksumite_empire_trait_2",
+          "label_vi": "Đại bác hoàng gia",
+          "label_en": "Imperial Cannon",
+          "effect_vi": "Xưởng chế tạo của triều đình giúp hoàng đế phá ưu thế thành lũy của các lãnh chúa.",
+          "effect_en": "Court foundries help the emperor break the fortress power of regional lords.",
+          "effect_ui": "Xưởng chế tạo của triều đình giúp hoàng đế phá ưu thế thành lũy của các lãnh chúa."
+        },
+        {
+          "id": "aksumite_empire_trait_3",
+          "label_vi": "Thành lũy cao nguyên",
+          "label_en": "Highland Strongholds",
+          "effect_vi": "Địa hình núi và các căn cứ kiểm soát cửa ngõ vào trung tâm đế quốc.",
+          "effect_en": "Mountain terrain and strongholds guard the imperial heartland.",
+          "effect_ui": "Địa hình núi và các căn cứ kiểm soát cửa ngõ vào trung tâm đế quốc."
+        }
+      ]
+    },
+    {
+      "id": "songhai_empire",
+      "lore_vi_1715": "Năm 1693, Muhammad Ture tập hợp các đạo quân trên lưu vực Niger và lật đổ những vương triều chia nhau di sản Songhai. Ông nhận danh hiệu Askia, tiến vào Timbuktu và tuyên bố phục hồi đế quốc đã mất. Các học giả chứng nhận quyền kế vị; những thủ lĩnh chống lại ông phải quy phục trước đội quân đang mở rộng dọc dòng sông.\n\nĐến năm 1715, Songhai Phục Hưng thống trị một dải rộng Tây Phi. Askia đặt các hoàng thân cai quản những miền chinh phục, nối các đô thị học thuật với đội quân có thể vượt qua cả sa mạc lẫn vùng sông nước. Những thương đoàn mang theo tin về một hoàng đế đang phục dựng quyền lực từng khiến các vương quốc quanh Sahara phải nhìn về Niger. Timbuktu trở thành nơi các sứ đoàn tìm tới để biết cuộc chinh phạt tiếp theo sẽ hướng về đâu.",
+      "lore_en_1715": "In 1693, Muhammad Ture gathered the armies of the Niger basin and overthrew the dynasties dividing Songhai's inheritance. He took the title Askia, entered Timbuktu and proclaimed the lost empire restored. Scholars affirmed his succession; resistant chiefs submitted to an army expanding along the river.\n\nBy 1715, the restored Songhai dominated a vast belt of West Africa. Askia appointed princes over the conquests and linked its scholarly cities to armies capable of crossing deserts and waterways alike. Caravans carried news of an emperor rebuilding the power that had once drawn surrounding kingdoms toward the Niger. Envoys came to Timbuktu to discover where his next conquest would begin.",
+      "lore_vi_1716": "Năm 1716, Askia mở rộng Songhai sang phía đông Chad và các miền phía tây Kongo, đồng thời củng cố những tuyến đường xuyên Sahara. Những vị vua từng cai trị độc lập nay mang danh chư hầu, còn người kế vị của họ trưởng thành trong triều đình Timbuktu.\n\nChiến thắng khiến các hoàng tử bắt đầu tranh giành đội quân mạnh nhất. Askia chia quyền cai trị giữa các con và giữ lực lượng tinh nhuệ bên mình, dùng chính uy danh người phục quốc để ngăn một cuộc phân liệt mới. Đế quốc đã tìm lại hình hài trên bản đồ; vận mệnh của nó giờ phụ thuộc vào việc những người thừa kế có cùng giữ được giấc mộng của vị hoàng đế đang già đi hay không.",
+      "lore_en_1716": "In 1716, Askia extended Songhai into eastern Chad and western Kongo lands and secured the trans-Saharan routes. Former sovereigns became tributaries, while their heirs grew up at the court in Timbuktu.\n\nVictory encouraged the imperial princes to compete for the strongest armies. Askia divided governorships among his sons and kept the elite forces beside him, using his prestige as restorer to prevent another fragmentation. The empire had recovered its shape on the map; its future now depended on whether its heirs could preserve the ageing emperor's ambition.",
+      "traits": [
+        {
+          "id": "songhai_empire_trait_1",
+          "label_vi": "Danh hiệu Askia",
+          "label_en": "The Askia Title",
+          "effect_vi": "Chiến thắng và sự công nhận của giới học giả tạo chính danh cho vương triều phục hưng.",
+          "effect_en": "Conquest and scholarly recognition legitimize the restored dynasty.",
+          "effect_ui": "Chiến thắng và sự công nhận của giới học giả tạo chính danh cho vương triều phục hưng."
+        },
+        {
+          "id": "songhai_empire_trait_2",
+          "label_vi": "Đế quốc Niger",
+          "label_en": "Empire of the Niger",
+          "effect_vi": "Quân đội sử dụng dòng sông làm trục tiến quân xuyên Tây Phi.",
+          "effect_en": "The army uses the Niger as the axis of its expansion across West Africa.",
+          "effect_ui": "Quân đội sử dụng dòng sông làm trục tiến quân xuyên Tây Phi."
+        },
+        {
+          "id": "songhai_empire_trait_3",
+          "label_vi": "Các vương tử chinh phạt",
+          "label_en": "Conquering Princes",
+          "effect_vi": "Hoàng thân cai quản đất mới và chỉ huy quân đội, vừa mở rộng đế quốc vừa tranh giành quyền kế vị.",
+          "effect_en": "Princes govern conquests and command armies, expanding the empire while competing for succession.",
+          "effect_ui": "Hoàng thân cai quản đất mới và chỉ huy quân đội, vừa mở rộng đế quốc vừa tranh giành quyền kế vị."
+        }
+      ]
+    },
+    {
+      "id": "kongo_confederation",
+      "lore_vi_1715": "Năm 1706, Kimpa Vita bước ra khỏi cuộc xét xử tại Kongo với sự bảo vệ của những đội quân đã tin vào lời truyền giảng của bà. Những người ra lệnh xử tử bị lật đổ; phong trào Thánh Antôn tiến vào Mbanza Kongo và buộc các dòng họ tranh ngôi phải cùng thừa nhận một chính quyền mới.\n\nKimpa Vita tuyên bố vùng đất Kongo có vị trí thiêng liêng riêng trong đức tin Kitô giáo. Các vương quốc liên kết dưới một hội đồng vương quyền, còn bà trở thành người có thể trao hoặc rút sự công nhận dành cho một vị vua. Đến năm 1715, liên bang đã mở rộng qua những miền rộng lớn Trung Phi. Từ Mbanza Kongo, một giáo hội bản địa bắt đầu gửi sứ giả tới những nơi từng chỉ đón linh mục từ bên kia biển.",
+      "lore_en_1715": "In 1706, Kimpa Vita emerged from her trial under the protection of armies that believed her preaching. Those who had ordered her execution were overthrown; the Antonian movement entered Mbanza Kongo and compelled rival royal houses to accept a new government.\n\nShe proclaimed Kongo's sacred place within Christianity. Kingdoms joined a council of sovereigns, while Kimpa Vita acquired the power to grant or withdraw recognition of a king. By 1715, the confederation spanned vast Central African lands. An indigenous church in Mbanza Kongo began sending its own envoys to places that had once received priests only from across the sea.",
+      "lore_vi_1716": "Năm 1716, liên bang mất miền nam Angola vào tay Mũi Hảo Vọng, các vùng phía tây vào tay Songhai và đất ven hồ Malawi vào tay Swahili. Quân Kongo giành lại một phần miền bắc Namibia để giữ lối đi phía nam. Kimpa Vita yêu cầu những vị vua thành viên cùng đưa quân ra chiến trường. Vị thế của bà vượt khỏi vai trò người truyền giảng, trở thành điểm tựa giữ các vương triều cùng đứng dưới một quân kỳ.\n\nCác giáo sĩ ngoại quốc bắt đầu tranh luận liệu giáo hội Kongo có còn chịu quyền phán quyết từ châu Âu. Kimpa Vita triệu tập những người đứng đầu các cộng đồng tín hữu về Mbanza Kongo để tự định đoạt vấn đề ấy. Liên bang bước vào thời đại mà một cuộc tranh luận về đức tin có thể quyết định cả quyền lực của những vị vua.",
+      "lore_en_1716": "In 1716, Kongo lost southern Angola to the Cape, western lands to Songhai and the Malawi lakeshore to the Swahili. Its armies took part of northern Namibia to preserve a southern passage. Kimpa Vita called on the member kings to commit their armies together. Her authority extended beyond preaching and held rival dynasties beneath a common banner.\n\nForeign clerics began debating whether Kongo's church remained subject to European judgement. Kimpa Vita summoned the leaders of its faithful communities to Mbanza Kongo to decide the matter themselves. The confederation entered an age in which a dispute over faith could determine the power of kings.",
+      "traits": [
+        {
+          "id": "kongo_confederation_trait_1",
+          "label_vi": "Thánh Antôn tại Kongo",
+          "label_en": "Saint Anthony in Kongo",
+          "effect_vi": "Phong trào của Kimpa Vita trở thành nền tảng tôn giáo và chính trị của liên bang.",
+          "effect_en": "Kimpa Vita’s movement becomes the confederation’s religious and political foundation.",
+          "effect_ui": "Phong trào của Kimpa Vita trở thành nền tảng tôn giáo và chính trị của liên bang."
+        },
+        {
+          "id": "kongo_confederation_trait_2",
+          "label_vi": "Hội đồng vương quyền",
+          "label_en": "Council of Crowns",
+          "effect_vi": "Các vương quốc giữ triều đình riêng và cùng quyết định chiến tranh dưới quân kỳ liên bang.",
+          "effect_en": "Kingdoms retain their courts and decide wars under a confederate banner.",
+          "effect_ui": "Các vương quốc giữ triều đình riêng và cùng quyết định chiến tranh dưới quân kỳ liên bang."
+        },
+        {
+          "id": "kongo_confederation_trait_3",
+          "label_vi": "Người trao chính danh",
+          "label_en": "Bestower of Legitimacy",
+          "effect_vi": "Sự công nhận của Kimpa Vita có thể củng cố hoặc làm lung lay ngai vàng một thành viên.",
+          "effect_en": "Kimpa Vita’s recognition can secure or destabilize a member’s throne.",
+          "effect_ui": "Sự công nhận của Kimpa Vita có thể củng cố hoặc làm lung lay ngai vàng một thành viên."
+        }
+      ]
+    },
+    {
+      "id": "swahili_league",
+      "lore_vi_1715": "Năm 1698, Pháo đài Jesus thất thủ trước liên quân các đô thị Swahili. Những thủ lĩnh từng trông chờ một thế lực bên ngoài giải phóng Mombasa quay sang tuyên bố quyền tự quyết, đánh bật cả những đội quân muốn tiếp quản thành quả chiến thắng. Từ cuộc nổi dậy ấy, các thương cảng Đông Phi lập một liên minh hàng hải do Zanzibar đứng đầu.\n\nĐến năm 1715, hạm đội chung đã nối những đô thị duyên hải thành một thế lực đủ sức chống các cuộc phong tỏa từ ngoài đại dương. Asha bint Salim, nữ đô đốc trưởng thành từ những trận hải chiến của liên minh, được trao quyền thống nhất các đội tàu. Các gia tộc thương nhân bỏ phiếu tại Zanzibar; trên biển, chiến hạm nhận lệnh từ một người.",
+      "lore_en_1715": "In 1698, Fort Jesus fell to a coalition of Swahili cities. Leaders who had expected an outside power to liberate Mombasa declared self-rule instead, expelling the armies attempting to inherit the victory. East Africa's trading ports formed a maritime league led by Zanzibar.\n\nBy 1715, a common fleet had united the coastal cities into a power capable of resisting overseas blockades. Asha bint Salim, an admiral formed by the league's naval wars, received unified command. Merchant houses voted in Zanzibar; at sea, the warships answered to one woman.",
+      "lore_vi_1716": "Năm 1716, chiến hạm Merina tiến tới Comoros và Seychelles. Aksum đồng thời chiếm các hành lang bắc Kenya, buộc liên minh chuyển một phần lực lượng tới các xứ ven hồ Malawi; Asha đưa hạm đội còn lại về giữ Zanzibar và Mombasa, buộc các gia tộc đang tranh quyền phải dồn tàu vào một chiến tuyến.\n\nNhững thất bại khiến hội đồng trao cho nữ đô đốc quyền chỉ huy rộng hơn bao giờ hết. Asha bắt đầu biến các đội tàu của từng đô thị thành một hạm đội thường trực, đặt người của mình tại những cảng còn giữ được. Liên minh sinh ra bằng lời thề tự do của các thương cảng giờ đang được định hình lại dưới quyền một người có thể cứu hoặc chiếm lấy chính quyền tự do ấy.",
+      "lore_en_1716": "In 1716, Merina warships advanced against Comoros and Seychelles. Aksum also took the northern Kenyan corridors, forcing the league to commit forces to the Malawi lakeshore. Asha withdrew her remaining fleet to defend Zanzibar and Mombasa and forced rival houses to commit their ships to a common front.\n\nDefeat brought the admiral unprecedented authority. She began turning separate city squadrons into a permanent fleet and installed her officers in the surviving ports. The league born from the ports' oath of freedom was being reshaped by a woman who might preserve that freedom or inherit its power.",
+      "traits": [
+        {
+          "id": "swahili_league_trait_1",
+          "label_vi": "Lời thề các thương cảng",
+          "label_en": "Oath of the Ports",
+          "effect_vi": "Các đô thị liên minh giữ quyền tự quyết và cùng huy động chiến hạm chống ngoại lực.",
+          "effect_en": "Allied cities retain self-rule and mobilize fleets against outside powers.",
+          "effect_ui": "Các đô thị liên minh giữ quyền tự quyết và cùng huy động chiến hạm chống ngoại lực."
+        },
+        {
+          "id": "swahili_league_trait_2",
+          "label_vi": "Hạm đội của Asha",
+          "label_en": "Asha’s Fleet",
+          "effect_vi": "Quyền chỉ huy thống nhất giúp các đội tàu thương cảng tác chiến như một lực lượng.",
+          "effect_en": "Unified command allows the port squadrons to fight as one fleet.",
+          "effect_ui": "Quyền chỉ huy thống nhất giúp các đội tàu thương cảng tác chiến như một lực lượng."
+        },
+        {
+          "id": "swahili_league_trait_3",
+          "label_vi": "Zanzibar giữ biển",
+          "label_en": "Zanzibar Holds the Sea",
+          "effect_vi": "Kinh đô hải thương trở thành trung tâm phòng thủ khi các căn cứ phía nam thất thủ.",
+          "effect_en": "The maritime capital becomes the defensive centre after the southern bases fall.",
+          "effect_ui": "Kinh đô hải thương trở thành trung tâm phòng thủ khi các căn cứ phía nam thất thủ."
+        }
+      ]
+    },
+    {
+      "id": "cape_republic",
+      "lore_vi_1715": "Năm 1706, bản kiến nghị của Adam Tas châm ngòi cho cuộc nổi dậy tại Mũi Hảo Vọng. Dân định cư chiếm thành lũy, binh lính đổi phe và những chiến hạm cập cảng bị tịch thu. Khi Công ty Đông Ấn Hà Lan gửi lệnh bắt người cầm đầu, Tas đã đứng trước một hội đồng tuyên bố chấm dứt quyền cai trị của công ty.\n\nCộng hòa Tự do Mũi Hảo Vọng ra đời giữa các tuyến hàng hải nối châu Âu với phương đông. Những đội quân cưỡi ngựa mở rộng lãnh thổ qua miền nam châu Phi, trong khi hạm đội mới buộc các đoàn tàu đi vòng châu lục phải thương lượng với chính quyền cộng hòa. Năm 1715, Tas vẫn mang danh người đại diện của một cuộc nổi dậy, nhưng chữ ký của ông đã có thể khép một trong những cửa ngõ quan trọng nhất thế giới.",
+      "lore_en_1715": "In 1706, Adam Tas's petition ignited a revolt at the Cape. Settlers seized the fortress, soldiers changed sides and arriving warships were confiscated. By the time the Dutch East India Company ordered his arrest, Tas stood before a council declaring Company rule ended.\n\nThe Free Cape Republic arose on the routes between Europe and the East. Mounted armies expanded across southern Africa, while its new fleet compelled passing convoys to negotiate with the republic. In 1715, Tas still bore the title of a rebellion's representative, but his signature could close one of the world's most important gateways.",
+      "lore_vi_1716": "Năm 1716, cộng hòa chiếm miền nam Angola trong lúc Kongo giành một phần bắc Namibia, rồi đưa các đơn vị cưỡi ngựa tới giữ biên giới mới. Tại Cape Town, những người từng đứng chung sau Adam Tas bắt đầu tranh luận ai được quyền bầu hội đồng và ai chỉ được sống dưới luật của họ.\n\nTas đối diện một chính quyền đang lớn hơn lời thề ban đầu của cuộc nổi dậy. Ông giữ quyền điều hành cảng, đặt hạm đội dưới sự giám sát của hội đồng và ngăn các tướng miền biên thùy tự xưng lãnh chúa. Mũi Hảo Vọng đủ mạnh để buộc các đế quốc thương lượng, còn bên trong, nền cộng hòa phải tự quyết định tự do mà nó tuyên bố sẽ thuộc về những ai.",
+      "lore_en_1716": "In 1716, the republic took southern Angola as Kongo seized part of northern Namibia, then deployed mounted units along the new frontier. In Cape Town, former allies of Adam Tas disputed who could elect the council and who would merely live under its laws.\n\nTas faced a government growing beyond the rebellion's founding oath. He retained authority over the port, placed the fleet under council supervision and prevented frontier commanders from becoming independent lords. The Cape could compel empires to negotiate; at home, it had to decide who would share the freedom it proclaimed.",
+      "traits": [
+        {
+          "id": "cape_republic_trait_1",
+          "label_vi": "Cuộc nổi dậy Adam Tas",
+          "label_en": "Adam Tas’s Revolt",
+          "effect_vi": "Chính quyền sinh ra từ cuộc lật đổ quyền cai trị của một công ty độc quyền.",
+          "effect_en": "The government emerges from the overthrow of a monopoly company.",
+          "effect_ui": "Chính quyền sinh ra từ cuộc lật đổ quyền cai trị của một công ty độc quyền."
+        },
+        {
+          "id": "cape_republic_trait_2",
+          "label_vi": "Cửa ngõ Hảo Vọng",
+          "label_en": "Gateway of Good Hope",
+          "effect_vi": "Cảng và hạm đội tạo ảnh hưởng trên tuyến biển đi quanh châu Phi.",
+          "effect_en": "The port and fleet wield influence over the sea route around Africa.",
+          "effect_ui": "Cảng và hạm đội tạo ảnh hưởng trên tuyến biển đi quanh châu Phi."
+        },
+        {
+          "id": "cape_republic_trait_3",
+          "label_vi": "Cộng hòa mở cõi",
+          "label_en": "Expanding Republic",
+          "effect_vi": "Các đội quân biên thùy mở rộng lãnh thổ và thách thức quyền kiểm soát của hội đồng.",
+          "effect_en": "Frontier armies expand the territory and challenge council control.",
+          "effect_ui": "Các đội quân biên thùy mở rộng lãnh thổ và thách thức quyền kiểm soát của hội đồng."
+        }
+      ]
+    },
+    {
+      "id": "merina_empire",
+      "lore_vi_1715": "Năm 1687, Andrianampoinimerina bắt đầu thống nhất Madagascar. Những vương triều đối địch bị khuất phục, và kinh đô Antananarivo trở thành trung tâm của một vương quốc đã vượt khỏi cao nguyên. Khi ông qua đời năm 1710, Radama I tiếp nhận một hòn đảo thống nhất cùng những xưởng đóng tàu mà cha mình đã cho xây bên bờ biển.\n\nRadama đưa cuộc chinh phạt ra đại dương. Những đội quân từng mở đường qua núi nay học cách đổ bộ dưới hỏa lực chiến hạm; các vương tử được gửi tới chỉ huy hạm đội thay vì chia nhau miền đất trong đảo. Năm 1715, vị vua trẻ tuyên bố Đế quốc Đại Dương Merina. Madagascar trở thành nơi xuất phát của một quyền lực đang tìm lãnh thổ trên cả hai phía những vùng nước bao quanh mình.",
+      "lore_en_1715": "In 1687, Andrianampoinimerina began unifying Madagascar. Rival dynasties submitted, and Antananarivo became the centre of a kingdom extending beyond the highlands. When he died in 1710, Radama I inherited a united island and the coastal shipyards his father had established.\n\nRadama carried conquest onto the ocean. Armies that had crossed mountains learned to land beneath naval gunfire; princes received fleet commands instead of dividing the island's estates. In 1715, the young king proclaimed the Merina Oceanic Empire. Madagascar became the launching point of a power seeking dominion across the waters surrounding it.",
+      "lore_vi_1716": "Năm 1716, Radama đánh vào Comoros và Seychelles của Liên minh Swahili. Những quần đảo rơi vào tay Merina, nối Madagascar với các đầu cầu trên Ấn Độ Dương. Quân đội hoàng gia dựng thành lũy bên ngoài quê nhà, còn chiến hạm treo quân kỳ của một vị vua mới ngoài hai mươi tuổi.\n\nRadama đưa những chiến lợi phẩm đầu tiên về Antananarivo để chứng minh rằng di sản của cha mình đã trở thành một đế quốc vượt biển. Những quý tộc cao nguyên bắt đầu đòi phần trong các lãnh thổ mới; ông trao đất cho những người trực tiếp chiến đấu dưới cờ mình. Merina bước vào cuộc tranh giành Ấn Độ Dương với một hạm đội còn trẻ và một vị vua muốn lịch sử nhớ tới tên riêng của ông.",
+      "lore_en_1716": "In 1716, Radama attacked the Swahili League’s Comoros and Seychelles. The archipelagos fell to Merina, connecting Madagascar to bridgeheads across the Indian Ocean. Royal armies built fortresses abroad, and warships carried the banner of a king barely into his twenties.\n\nRadama sent the first spoils to Antananarivo to show that his father's inheritance had become an overseas empire. Highland nobles demanded shares of the conquests; he granted lands to those who had fought under his banner. Merina entered the struggle for the Indian Ocean with a young fleet and a king determined that history remember his own name.",
+      "traits": [
+        {
+          "id": "merina_empire_trait_1",
+          "label_vi": "Di sản thống nhất đảo",
+          "label_en": "Inheritance of Unity",
+          "effect_vi": "Radama thừa hưởng Madagascar thống nhất và đưa sức mạnh ấy vượt ra đại dương.",
+          "effect_en": "Radama inherits a united Madagascar and projects its strength across the ocean.",
+          "effect_ui": "Radama thừa hưởng Madagascar thống nhất và đưa sức mạnh ấy vượt ra đại dương."
+        },
+        {
+          "id": "merina_empire_trait_2",
+          "label_vi": "Vương triều đi biển",
+          "label_en": "Seaborne Dynasty",
+          "effect_vi": "Các hoàng thân trực tiếp chỉ huy hạm đội và cai quản những đầu cầu ngoài đảo.",
+          "effect_en": "Royal princes command fleets and govern overseas bridgeheads.",
+          "effect_ui": "Các hoàng thân trực tiếp chỉ huy hạm đội và cai quản những đầu cầu ngoài đảo."
+        },
+        {
+          "id": "merina_empire_trait_3",
+          "label_vi": "Tham vọng Radama",
+          "label_en": "Radama’s Ambition",
+          "effect_vi": "Chiến thắng ở Đông Phi củng cố quyền lực vị vua trẻ trước quý tộc cao nguyên.",
+          "effect_en": "Victories in East Africa strengthen the young king against the highland aristocracy.",
+          "effect_ui": "Chiến thắng ở Đông Phi củng cố quyền lực vị vua trẻ trước quý tộc cao nguyên."
+        }
+      ]
+    },
+    {
+      "id": "ottoman_empire",
+      "lore_vi_1715": "Năm 1710, cuộc nổi dậy của Patrona Halil tràn tới triều đình Ahmed III. Sultan tập hợp những đơn vị còn trung thành, đánh tan quân nổi dậy và xử tử những người định phế truất mình. Từ chiến thắng ấy, ông tước quyền của các phe chỉ huy đối nghịch, đưa những xưởng pháo cùng đội quân mới vào trung tâm quyền lực Ottoman.\n\nĐến năm 1715, triều đình tại Bursa nắm Tiểu Á, các miền Kavkaz và một dải lãnh thổ trải qua Trung Đông tới Ai Cập, Libya. Các thống đốc từng coi khoảng cách với kinh đô là lá chắn nay phải tuân theo một Sultan vừa sống sót qua chính cuộc đảo chính của quân đội mình. Ahmed III bắt đầu dựng một đế quốc tập trung hơn, trong lúc Tây La Mã chuẩn bị đưa chiến tranh sang phía đông Địa Trung Hải.",
+      "lore_en_1715": "In 1710, Patrona Halil's revolt reached Ahmed III's court. The Sultan rallied loyal troops, defeated the rebels and executed those who had intended to depose him. Victory allowed him to strip rival commanders of power and place new armies and cannon foundries at the centre of Ottoman rule.\n\nBy 1715, the court at Bursa controlled Anatolia, Caucasian lands and a territory stretching through the Middle East to Egypt and Libya. Governors who had used distance as a shield now answered to a Sultan who had survived his own army's coup. Ahmed began building a more centralized empire as Western Rome prepared to carry war into the eastern Mediterranean.",
+      "lore_vi_1716": "Năm 1716, Tây La Mã chiếm Tiểu Á, các miền ven đông Địa Trung Hải, Ai Cập và Libya. Ahmed III rút triều đình về Baghdad, giữ những lãnh thổ còn lại tại Iraq, bán đảo Ả Rập và Kavkaz. Các đoàn quân sống sót mang theo pháo, quân kỳ và những hoàng thân đã kịp thoát khỏi các thành phố thất thủ.\n\nBaghdad trở thành kinh đô của một đế quốc bị đẩy khỏi trung tâm cũ. Sultan trao quyền lớn cho những tướng giữ được vùng đất phía đông, rồi triệu những chỉ huy đã bỏ thành về chịu xét xử. Ottoman vẫn có quân đội, lãnh thổ và một người trị vì quyết giữ ngai vàng. Từ những miền đất La Mã chưa chiếm được, Ahmed III bắt đầu chuẩn bị cho cuộc chiến nhằm lấy lại đế quốc của mình.",
+      "lore_en_1716": "In 1716, Western Rome took Anatolia, the eastern Mediterranean lands, Egypt and Libya. Ahmed III withdrew his court to Baghdad, retaining the surviving territories in Iraq, Arabia and the Caucasus. Retreating armies brought their artillery, banners and royal relatives out of the fallen cities.\n\nBaghdad became the capital of an empire driven from its former centre. The Sultan empowered commanders who had held the eastern lands and recalled those who had abandoned cities for judgement. The Ottomans still possessed armies, territory and a ruler determined to keep his throne. From lands Rome had not conquered, Ahmed began preparing to recover his empire.",
+      "traits": [
+        {
+          "id": "ottoman_empire_trait_1",
+          "label_vi": "Ngai vàng sau đảo chính",
+          "label_en": "Throne After the Coup",
+          "effect_vi": "Ahmed III đánh bại phe nổi dậy và dùng chiến thắng để tập trung quyền lực quân sự.",
+          "effect_en": "Ahmed III defeats the rebels and centralizes military authority.",
+          "effect_ui": "Ahmed III đánh bại phe nổi dậy và dùng chiến thắng để tập trung quyền lực quân sự."
+        },
+        {
+          "id": "ottoman_empire_trait_2",
+          "label_vi": "Pháo binh cải tổ",
+          "label_en": "Reformed Artillery",
+          "effect_vi": "Những xưởng chế tạo và đội pháo mới phục vụ trực tiếp quyền lực Sultan.",
+          "effect_en": "New foundries and artillery formations serve the Sultan directly.",
+          "effect_ui": "Những xưởng chế tạo và đội pháo mới phục vụ trực tiếp quyền lực Sultan."
+        },
+        {
+          "id": "ottoman_empire_trait_3",
+          "label_vi": "Đế quốc còn lại",
+          "label_en": "The Surviving Empire",
+          "effect_vi": "Baghdad giữ triều đình và những lãnh thổ phía đông sau cuộc chinh phạt của Tây La Mã.",
+          "effect_en": "Baghdad preserves the court and eastern territories after Rome’s conquests.",
+          "effect_ui": "Baghdad giữ triều đình và những lãnh thổ phía đông sau cuộc chinh phạt của Tây La Mã."
+        }
+      ]
+    },
+    {
+      "id": "british_east_india_company",
+      "lore_vi_1715": "Khi nước Anh bị hủy diệt, Công ty Đông Ấn Anh Quốc vẫn giữ những đội tàu, thương điếm và đạo quân bên ngoài quê nhà. Quyền lực vốn phục vụ một vương quốc trở thành chỗ dựa của những cộng đồng người Anh sống sót. Tại Ấn Độ, công ty nắm lãnh thổ rộng lớn; những cứ điểm vươn qua Xiêm, Miến Điện và trạm Saint Helena giữ các tuyến biển nối phương đông với phần thế giới còn lại.\n\nNăm 1715, Huân tước William Beckett đứng đầu quyền lực ấy. Tại Madrid, ông đưa ra thỏa thuận cung cấp lương thực, tín dụng, nguyên liệu chiến tranh và hộ tống cho Castilian, đổi lấy sự hợp tác của Edward Spencer trong cuộc đối đầu với Tân Bồ Đào Nha. Beckett giữ quyền lợi của công ty bằng những điều khoản chặt chẽ, đồng thời gánh trách nhiệm với người Anh lưu vong đang sống nhờ các cảng và đoàn tàu của ông. Giữa những đế quốc có vương miện, một công ty trở thành thế lực còn giữ được tương lai của một dân tộc mất quê nhà.",
+      "lore_en_1715": "When England was destroyed, the British East India Company retained its overseas fleets, trading houses and armies. Power once serving a kingdom became the support of surviving English communities. The Company held vast Indian territories, with outposts through Siam and Burma and the Saint Helena station sustaining its ocean routes.\n\nIn 1715, Lord William Beckett led that power. In Madrid, he offered Castilian food, credit, war materials and escorts in exchange for Edward Spencer's cooperation against New Portugal. He defended Company interests through exacting terms while carrying responsibility for English exiles dependent on its ports and convoys. Among crowned empires, a company became the power still capable of preserving the future of a people who had lost their homeland.",
+      "lore_vi_1716": "Năm 1716, Beckett đưa sức mạnh Đông Ấn Anh vào liên minh cứu Castilian. Những chiến hạm giữ đường biển Galicia, hàng tiếp tế tới các cảng và những cuộc thương lượng đưa ông từ Madrid tới các biến cố Bắc Phi, rồi Palermo. Quan hệ với Edward Spencer trưởng thành qua chiến tranh thành sự tin cậy giữa hai người cùng mang trách nhiệm với những người còn sống.\n\nTrong lúc hòa bình trở lại phía tây, quyền lực công ty ở Đông Nam Á tan vỡ trước cuộc chinh phạt An Nam. Những lá thư từ Ấn Độ nhắc tới một người họ Nguyễn đang xưng bá, khiến Beckett phải tự trở về phương đông để biết cuộc khủng hoảng đã đi xa đến đâu. Công ty còn giữ Ấn Độ và các trạm biển, nhưng người đứng đầu nó giờ phải đối diện một đế quốc mới ngay trên đường tới quê hương thứ hai của người Anh. Tại Gibraltar, ông và Edward để lại một lời hứa cho ngày đủ sức đưa đồng bào về sống trên đất Anh một lần nữa.",
+      "lore_en_1716": "In 1716, Beckett committed Company strength to the alliance saving Castilian. Warships kept Galicia's sea routes open, supplies reached its ports, and negotiations carried him from Madrid through the North African crisis to Palermo. His relationship with Edward Spencer became a trust forged through shared responsibility for the living.\n\nAs peace returned in the west, An Nam's conquests broke Company power in Southeast Asia. Letters from India reported a Nguyễn rising across the region, compelling Beckett to return east and discover the crisis's full extent himself. The Company retained India and its ocean stations, but its leader now faced a new empire approaching the English people's second home. At Gibraltar, he and Edward left a promise for the day they could bring their compatriots back to live in England.",
+      "traits": [
+        {
+          "id": "british_east_india_company_trait_1",
+          "label_vi": "Người Anh lưu vong",
+          "label_en": "The English in Exile",
+          "effect_vi": "Các cảng và đoàn tàu duy trì cộng đồng người Anh sau khi quê nhà bị hủy diệt.",
+          "effect_en": "Ports and convoys sustain English communities after their homeland’s destruction.",
+          "effect_ui": "Các cảng và đoàn tàu duy trì cộng đồng người Anh sau khi quê nhà bị hủy diệt."
+        },
+        {
+          "id": "british_east_india_company_trait_2",
+          "label_vi": "Quyền lực William Beckett",
+          "label_en": "William Beckett’s Authority",
+          "effect_vi": "Beckett điều phối tín dụng, tiếp tế, hạm đội và ngoại giao để giữ công ty cùng những người dựa vào nó.",
+          "effect_en": "Beckett coordinates credit, supplies, fleets and diplomacy to sustain the Company and its dependants.",
+          "effect_ui": "Beckett điều phối tín dụng, tiếp tế, hạm đội và ngoại giao để giữ công ty cùng những người dựa vào nó."
+        },
+        {
+          "id": "british_east_india_company_trait_3",
+          "label_vi": "Liên minh với Castilian",
+          "label_en": "Alliance with Castilian",
+          "effect_vi": "Sự hợp tác với Edward Spencer gắn quyền lực hàng hải công ty với cuộc chiến và công cuộc phục hồi Castilian.",
+          "effect_en": "Cooperation with Edward Spencer connects Company sea power to Castilian’s war and recovery.",
+          "effect_ui": "Sự hợp tác với Edward Spencer gắn quyền lực hàng hải công ty với cuộc chiến và công cuộc phục hồi Castilian."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "annam_empire_representative",
+      "faction_id": "annam_empire",
+      "name": "Nguyễn Huệ",
+      "role_vi": "Hoàng đế An Nam",
+      "role_en": "Emperor of An Nam",
+      "lore_vi": "Nguyễn Huệ bước từ cuộc khởi nghĩa Tây Sơn lên ngai vàng sau khi đánh đổ quyền lực hai phủ chúa và triều Lê. Ông đem những tướng lĩnh từng cùng mình giành nước vào triều đình, rồi mở chiến tranh thống nhất Đông Dương. Năm 1716, chiến thắng ở Xiêm và Miến Điện đưa ông tới vịnh Bengal, nơi tham vọng của hoàng đế bắt đầu chạm vào quyền lực William Beckett.",
+      "lore_en": "Nguyễn Huệ rose from the Tây Sơn rebellion to the throne after overthrowing the two ruling houses and the Lê dynasty. He brought his fellow commanders into government and conquered Indochina. Victories in Siam and Burma in 1716 carried his ambitions to the Bay of Bengal and into William Beckett’s sphere.",
+      "skills": [
+        "Chỉ huy hợp đồng thủy bộ",
+        "Hành quân vượt núi",
+        "Tổ chức kho lương"
+      ],
+      "skills_vi": [
+        "Chỉ huy hợp đồng thủy bộ",
+        "Hành quân vượt núi",
+        "Tổ chức kho lương"
+      ],
+      "skills_en": [
+        "Combined river and land command",
+        "Mountain campaigning",
+        "Granary organization"
+      ],
+      "traits": [
+        "Quyết đoán",
+        "Trọng thực tài",
+        "Thiếu kiên nhẫn với trì hoãn"
+      ],
+      "traits_vi": [
+        "Quyết đoán",
+        "Trọng thực tài",
+        "Thiếu kiên nhẫn với trì hoãn"
+      ],
+      "traits_en": [
+        "Decisive",
+        "Rewards practical ability",
+        "Impatient with delay"
+      ],
+      "status": {
+        "1715": "Chuẩn bị chiến dịch phía tây.",
+        "1716": "Chỉ huy bình định Xiêm và Miến Điện."
+      },
+      "status_vi": {
+        "1715": "Chuẩn bị chiến dịch phía tây.",
+        "1716": "Chỉ huy bình định Xiêm và Miến Điện."
+      },
+      "status_en": {
+        "1715": "Preparing the western campaign.",
+        "1716": "Directing the consolidation of Siam and Burma."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "ming_celestial_empire_representative",
+      "faction_id": "ming_celestial_empire",
+      "name": "Trịnh Khắc Sảng",
+      "role_vi": "Đô đốc hải quân Đại Minh",
+      "role_en": "Admiral of the Ming Fleet",
+      "lore_vi": "Trịnh Khắc Sảng kế thừa hạm đội phục Minh của gia tộc và thắng cuộc chiến năm 1683 nhằm xóa bỏ quyền lực họ Trịnh. Ông trở thành người giữ biển cho thiên triều, đồng thời đủ ảnh hưởng để khiến triều đình dè chừng. Mất Đài Loan và Hải Nam năm 1716 đưa ông trở lại Bắc Kinh giữa những lời kết tội; chiếu chỉ đóng hạm đội mới buộc ông phải cứu chính vương triều đang xét đoán mình.",
+      "lore_en": "Zheng Keshuang inherited his family’s restoration fleet and defeated the campaign against the Zheng in 1683. His naval power sustained the dynasty and alarmed its court. The loss of Taiwan and Hainan in 1716 brought him to Beijing under accusation, where an order to rebuild the fleet made him responsible for saving the dynasty judging him.",
+      "skills": [
+        "Tổ chức hạm đội",
+        "Phòng thủ cửa sông",
+        "Thương lượng ngân sách chiến tranh"
+      ],
+      "skills_vi": [
+        "Tổ chức hạm đội",
+        "Phòng thủ cửa sông",
+        "Thương lượng ngân sách chiến tranh"
+      ],
+      "skills_en": [
+        "Fleet organization",
+        "Estuary defence",
+        "Wartime budget negotiation"
+      ],
+      "traits": [
+        "Kiêu hãnh về gia tộc",
+        "Thận trọng sau thất bại",
+        "Bảo vệ thủy thủ"
+      ],
+      "traits_vi": [
+        "Kiêu hãnh về gia tộc",
+        "Thận trọng sau thất bại",
+        "Bảo vệ thủy thủ"
+      ],
+      "traits_en": [
+        "Proud of his lineage",
+        "Cautious after defeat",
+        "Protective of his crews"
+      ],
+      "status": {
+        "1715": "Giữ hạm đội phía đông.",
+        "1716": "Tái lập tuyến phòng thủ ven biển."
+      },
+      "status_vi": {
+        "1715": "Giữ hạm đội phía đông.",
+        "1716": "Tái lập tuyến phòng thủ ven biển."
+      },
+      "status_en": {
+        "1715": "Holding the eastern fleet.",
+        "1716": "Rebuilding coastal defences."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "nusantara_sultanate_representative",
+      "faction_id": "nusantara_sultanate",
+      "name": "Sultan Hasanuddin",
+      "role_vi": "Quốc vương Nusantara",
+      "role_en": "Sultan of Nusantara",
+      "lore_vi": "Hasanuddin biến chiến thắng tại Bongaya thành cuộc thống nhất quần đảo. Ông đánh đuổi quyền lực Hà Lan, đưa những vương triều còn lại về dưới quyền Makassar và dùng hạm đội để giữ lời thề quy phục. Khi Nusantara vươn tới bán đảo Mã Lai, ông phải giữ ngôi bá chủ giữa An Nam đang bành trướng và Nhật Bản đang tiến xuống phương nam.",
+      "lore_en": "Hasanuddin turned victory at Bongaya into archipelagic unification. He expelled Dutch power and brought the surviving dynasties under Makassar through his fleet. Expansion onto the Malay Peninsula forces him to defend supremacy against An Nam’s conquests and Japan’s advance south.",
+      "skills": [
+        "Chỉ huy hải chiến",
+        "Liên kết các cảng",
+        "Thương lượng thương hội"
+      ],
+      "skills_vi": [
+        "Chỉ huy hải chiến",
+        "Liên kết các cảng",
+        "Thương lượng thương hội"
+      ],
+      "skills_en": [
+        "Naval command",
+        "Port diplomacy",
+        "Merchant negotiations"
+      ],
+      "traits": [
+        "Bảo vệ chủ quyền",
+        "Giữ lời với đồng minh",
+        "Khó nhượng quyền chỉ huy"
+      ],
+      "traits_vi": [
+        "Bảo vệ chủ quyền",
+        "Giữ lời với đồng minh",
+        "Khó nhượng quyền chỉ huy"
+      ],
+      "traits_en": [
+        "Defends sovereignty",
+        "Keeps allied commitments",
+        "Reluctant to share command"
+      ],
+      "status": {
+        "1715": "Củng cố liên minh hải đảo.",
+        "1716": "Tổ chức bảo hộ Philippines và Papua."
+      },
+      "status_vi": {
+        "1715": "Củng cố liên minh hải đảo.",
+        "1716": "Tổ chức bảo hộ Philippines và Papua."
+      },
+      "status_en": {
+        "1715": "Consolidating the island union.",
+        "1716": "Organizing Philippine and Papuan protectorates."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "tokugawa_empire_representative",
+      "faction_id": "tokugawa_empire",
+      "name": "Tokugawa Yoshimune",
+      "role_vi": "Tướng quân · Người chỉ huy Đế quốc Nhật Bản",
+      "role_en": "Shogun and Imperial Commander",
+      "lore_vi": "Tokugawa Yoshimune giành quyền đứng đầu Mạc phủ năm 1706 và dùng nó để thay đổi trật tự đã nuôi dưỡng chính gia tộc mình. Ông tước đất những lãnh chúa chống lệnh, xây quân đội đế quốc và đưa các võ sĩ ra chiến trường bên kia biển. Triều Tiên, Đài Loan cùng Liêu Ninh, Cát Lâm trở thành bằng chứng cho cuộc duy tân, đồng thời buộc ông giữ Nhật Bản trong một cuộc tranh giành quyền lực rộng hơn mọi cuộc chiến nội bộ trước đó.",
+      "lore_en": "Tokugawa Yoshimune took the shogunate in 1706 and transformed the order that had sustained his own house. He stripped defiant lords of their lands, built an imperial army and sent warriors overseas. Korea, Taiwan, Liaoning and Jilin vindicate his reforms and draw Japan into a struggle greater than its former internal wars.",
+      "skills": [
+        "Cải tổ tài chính",
+        "Tổ chức quân bị",
+        "Điều phối các phiên"
+      ],
+      "skills_vi": [
+        "Cải tổ tài chính",
+        "Tổ chức quân bị",
+        "Điều phối các phiên"
+      ],
+      "skills_en": [
+        "Fiscal reform",
+        "Armament planning",
+        "Domain coordination"
+      ],
+      "traits": [
+        "Thực dụng",
+        "Tập trung quyền lực",
+        "Kỷ luật chi tiêu"
+      ],
+      "traits_vi": [
+        "Thực dụng",
+        "Tập trung quyền lực",
+        "Kỷ luật chi tiêu"
+      ],
+      "traits_en": [
+        "Pragmatic",
+        "Centralizing",
+        "Disciplined with expenditure"
+      ],
+      "status": {
+        "1715": "Điều hành cải cách và cai trị Triều Tiên.",
+        "1716": "Chỉ đạo chiến dịch Đại Minh."
+      },
+      "status_vi": {
+        "1715": "Điều hành cải cách và cai trị Triều Tiên.",
+        "1716": "Chỉ đạo chiến dịch Đại Minh."
+      },
+      "status_en": {
+        "1715": "Directing reform and Korean administration.",
+        "1716": "Commanding the campaign against the Ming."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "eternal_sky_khanate_representative",
+      "faction_id": "eternal_sky_khanate",
+      "name": "Anu",
+      "role_vi": "Khả đôn Trường Thiên",
+      "role_en": "Khatun of the Eternal Sky",
+      "lore_vi": "Anu dẫn kỵ binh phá vòng vây tại Zuunmod, cứu Galdan và biến một trận đánh sinh tử thành khởi đầu phục hưng đế quốc. Bà giữ binh quyền bên cạnh Đại Hãn, gắn các bộ tộc bằng những chiến công chung và lời thề đã đưa họ về Karakorum. Trong cuộc chiến với Đại Minh, bà phải cùng lúc đánh bại đối thủ ngoài biên giới và giữ các gia tộc lớn khỏi xé đôi quyền lực Trường Thiên.",
+      "lore_en": "Anu broke the encirclement at Zuunmod, saved Galdan and turned a struggle for survival into the beginning of imperial restoration. She holds military authority beside the Great Khan and binds the tribes through shared victories. War with the Ming requires her to defeat foreign enemies while preventing great houses from dividing the Khanate.",
+      "skills": [
+        "Chỉ huy phá vây",
+        "Thương lượng bộ tộc",
+        "Tổ chức hộ tống"
+      ],
+      "skills_vi": [
+        "Chỉ huy phá vây",
+        "Thương lượng bộ tộc",
+        "Tổ chức hộ tống"
+      ],
+      "skills_en": [
+        "Breakout command",
+        "Tribal negotiation",
+        "Escort organization"
+      ],
+      "traits": [
+        "Giữ cam kết",
+        "Bảo vệ gia đình binh sĩ",
+        "Nhớ lâu những món nợ"
+      ],
+      "traits_vi": [
+        "Giữ cam kết",
+        "Bảo vệ gia đình binh sĩ",
+        "Nhớ lâu những món nợ"
+      ],
+      "traits_en": [
+        "Keeps commitments",
+        "Protects military families",
+        "Remembers debts"
+      ],
+      "status": {
+        "1715": "Bảo chứng liên minh Karakorum.",
+        "1716": "Chỉ huy chiến tranh với Đại Minh và giữ liên minh trước cuộc tiến công Safavid."
+      },
+      "status_vi": {
+        "1715": "Bảo chứng liên minh Karakorum.",
+        "1716": "Chỉ huy chiến tranh với Đại Minh và giữ liên minh trước cuộc tiến công Safavid."
+      },
+      "status_en": {
+        "1715": "Guaranteeing the Karakorum union.",
+        "1716": "Commanding the Ming war and preserving unity against Safavid advances."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "safavid_empire_representative",
+      "faction_id": "safavid_empire",
+      "name": "Nader Afshar",
+      "role_vi": "Tổng chỉ huy quân đội Safavid",
+      "role_en": "Commander-in-Chief of the Safavid Army",
+      "lore_vi": "Nader Afshar cứu Isfahan năm 1702 rồi giữ quyền chỉ huy thay vì nhận vương miện. Những chiến thắng đưa Afghanistan và các miền Trung Á vào đế quốc, khiến nhà vua Safavid phải dựa vào chính người có thể thay thế mình. Nader đối diện mọi âm mưu tại triều bằng lòng trung thành của quân đội; sau cuộc thanh trừng năm 1716, những con đường về Ấn Độ trở thành mục tiêu mới trên bản đồ của ông.",
+      "lore_en": "Nader Afshar saved Isfahan in 1702 and retained military command rather than taking the crown. His conquests made the Safavid king dependent on the man who could replace him. Army loyalty defeats court intrigue; after the purge of 1716, the roads toward India become his next objective.",
+      "skills": [
+        "Phối hợp súng và pháo",
+        "Tuyển quân nhiều cộng đồng",
+        "Tổ chức chiến dịch biên giới"
+      ],
+      "skills_vi": [
+        "Phối hợp súng và pháo",
+        "Tuyển quân nhiều cộng đồng",
+        "Tổ chức chiến dịch biên giới"
+      ],
+      "skills_en": [
+        "Musket-artillery coordination",
+        "Recruitment across communities",
+        "Frontier campaigning"
+      ],
+      "traits": [
+        "Tham vọng",
+        "Đòi hỏi kết quả",
+        "Dùng chiến thắng làm chính danh"
+      ],
+      "traits_vi": [
+        "Tham vọng",
+        "Đòi hỏi kết quả",
+        "Dùng chiến thắng làm chính danh"
+      ],
+      "traits_en": [
+        "Ambitious",
+        "Demands results",
+        "Claims legitimacy through victory"
+      ],
+      "status": {
+        "1715": "Giữ quyền tổ chức quân đội.",
+        "1716": "Mở rộng Afghanistan và nam Turkmenistan."
+      },
+      "status_vi": {
+        "1715": "Giữ quyền tổ chức quân đội.",
+        "1716": "Mở rộng Afghanistan và nam Turkmenistan."
+      },
+      "status_en": {
+        "1715": "Controlling military organization.",
+        "1716": "Expanding in Afghanistan and southern Turkmenistan."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "aksumite_empire_representative",
+      "faction_id": "aksumite_empire",
+      "name": "Tewodros II",
+      "role_vi": "Hoàng đế Aksum",
+      "role_en": "Emperor of Aksum",
+      "lore_vi": "Kassa Hailu lên ngôi Tewodros II sau khi khuất phục các lãnh chúa cao nguyên năm 1715. Ông dùng danh nghĩa Aksum để khôi phục quyền lực hoàng đế, đưa đại bác vào những cuộc vây thành và kéo đế quốc xuống các cảng Biển Đỏ. Quyền lực tập trung khiến các gia tộc cùng giáo sĩ phải lựa chọn vị trí bên cạnh hoặc đối diện nhà vua.",
+      "lore_en": "Kassa Hailu became Tewodros II after subduing the highland lords in 1715. Invoking Aksum, he restores imperial authority, uses cannon in his sieges and advances toward the Red Sea ports. Centralization forces noble houses and clerics to choose whether to stand beside or against him.",
+      "skills": [
+        "Tập trung quyền lực",
+        "Chỉ huy vùng cao",
+        "Phát triển quân giới"
+      ],
+      "skills_vi": [
+        "Tập trung quyền lực",
+        "Chỉ huy vùng cao",
+        "Phát triển quân giới"
+      ],
+      "skills_en": [
+        "Centralization",
+        "Highland command",
+        "Armaments development"
+      ],
+      "traits": [
+        "Ý chí mạnh",
+        "Đòi trung thành trực tiếp",
+        "Dễ nghi ngờ sự trì hoãn"
+      ],
+      "traits_vi": [
+        "Ý chí mạnh",
+        "Đòi trung thành trực tiếp",
+        "Dễ nghi ngờ sự trì hoãn"
+      ],
+      "traits_en": [
+        "Strong-willed",
+        "Demands personal loyalty",
+        "Suspicious of delay"
+      ],
+      "status": {
+        "1715": "Đăng quang và dựng chính quyền Aksum.",
+        "1716": "Củng cố các hành lang phía nam."
+      },
+      "status_vi": {
+        "1715": "Đăng quang và dựng chính quyền Aksum.",
+        "1716": "Củng cố các hành lang phía nam."
+      },
+      "status_en": {
+        "1715": "Crowned and establishing the Aksumite state.",
+        "1716": "Securing southern corridors."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "songhai_empire_representative",
+      "faction_id": "songhai_empire",
+      "name": "Askia Muhammad Ture",
+      "role_vi": "Hoàng đế Songhai",
+      "role_en": "Emperor of Songhai",
+      "lore_vi": "Muhammad Ture nhận danh hiệu Askia sau cuộc chinh phạt năm 1693 và phục hồi quyền lực Songhai tại Timbuktu. Ông đặt những hoàng thân lên vùng đất mới, dùng uy danh phục quốc để liên kết học giả, quân đội và các vương triều quy phục. Khi tuổi già tới gần, những người con bắt đầu tranh giành chính các đạo quân từng làm nên giấc mộng đế quốc của ông.",
+      "lore_en": "Muhammad Ture took the Askia title after his 1693 conquests and restored Songhai power in Timbuktu. He appoints royal governors and unites scholars, armies and tributary dynasties through his prestige as restorer. As he ages, his sons compete for the armies that made his imperial dream possible.",
+      "skills": [
+        "Tổ chức hành chính",
+        "Ngoại giao thương đoàn",
+        "Huy động liên minh"
+      ],
+      "skills_vi": [
+        "Tổ chức hành chính",
+        "Ngoại giao thương đoàn",
+        "Huy động liên minh"
+      ],
+      "skills_en": [
+        "Administrative organization",
+        "Caravan diplomacy",
+        "Coalition mobilization"
+      ],
+      "traits": [
+        "Tính đường dài",
+        "Trọng luật lệ",
+        "Cảnh giác với kế vị"
+      ],
+      "traits_vi": [
+        "Tính đường dài",
+        "Trọng luật lệ",
+        "Cảnh giác với kế vị"
+      ],
+      "traits_en": [
+        "Long-term planner",
+        "Values legal order",
+        "Wary of succession politics"
+      ],
+      "status": {
+        "1715": "Điều hành các thành phố Tây Phi.",
+        "1716": "Thiết lập quyền kiểm soát phía đông."
+      },
+      "status_vi": {
+        "1715": "Điều hành các thành phố Tây Phi.",
+        "1716": "Thiết lập quyền kiểm soát phía đông."
+      },
+      "status_en": {
+        "1715": "Governing the West African cities.",
+        "1716": "Establishing authority in the east."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "kongo_confederation_representative",
+      "faction_id": "kongo_confederation",
+      "name": "Kimpa Vita",
+      "role_vi": "Người bảo chứng Liên bang Kongo",
+      "role_en": "Guarantor of the Kongo Federation",
+      "lore_vi": "Kimpa Vita sống sót qua cuộc xét xử năm 1706 nhờ những đội quân tin vào lời truyền giảng của bà. Tại Mbanza Kongo, bà trở thành người trao chính danh cho các vương triều thành viên và dựng vị thế riêng cho giáo hội bản địa. Mỗi lần công nhận một vị vua, bà vừa củng cố liên bang vừa đưa đức tin của mình sâu hơn vào những cuộc tranh giành quyền lực.",
+      "lore_en": "Kimpa Vita survived her 1706 trial through the armies that believed her preaching. In Mbanza Kongo she grants legitimacy to member dynasties and establishes an independent position for the indigenous church. Each recognition strengthens the confederation and draws her faith deeper into struggles for power.",
+      "skills": [
+        "Hòa giải các cộng đồng",
+        "Huy động cứu viện",
+        "Giám sát lời cam kết"
+      ],
+      "skills_vi": [
+        "Hòa giải các cộng đồng",
+        "Huy động cứu viện",
+        "Giám sát lời cam kết"
+      ],
+      "skills_en": [
+        "Communal reconciliation",
+        "Relief mobilization",
+        "Enforcing commitments"
+      ],
+      "traits": [
+        "Gắn với người theo mình",
+        "Bền bỉ",
+        "Ít dung thứ thất hứa"
+      ],
+      "traits_vi": [
+        "Gắn với người theo mình",
+        "Bền bỉ",
+        "Ít dung thứ thất hứa"
+      ],
+      "traits_en": [
+        "Committed to her followers",
+        "Persistent",
+        "Intolerant of broken promises"
+      ],
+      "status": {
+        "1715": "Giữ thỏa thuận giữa các vua.",
+        "1716": "Huy động liên bang trước chiến tranh nhiều hướng."
+      },
+      "status_vi": {
+        "1715": "Giữ thỏa thuận giữa các vua.",
+        "1716": "Huy động liên bang trước chiến tranh nhiều hướng."
+      },
+      "status_en": {
+        "1715": "Maintaining the royal settlement.",
+        "1716": "Mobilizing against attacks on several fronts."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "swahili_league_representative",
+      "faction_id": "swahili_league",
+      "name": "Asha bint Salim",
+      "role_vi": "Đại đô đốc Liên minh Swahili",
+      "role_en": "Grand Admiral of the Swahili League",
+      "lore_vi": "Asha bint Salim trưởng thành từ những trận hải chiến giữ quyền tự quyết cho các đô thị Swahili. Hội đồng Zanzibar trao bà quyền chỉ huy chung, rồi mở rộng quyền ấy khi Merina chiếm các căn cứ phía nam năm 1716. Bà biến các đội tàu thành hạm đội thường trực và dùng chiến tranh để buộc những gia tộc thương nhân vốn ngang hàng phải nghe cùng một mệnh lệnh.",
+      "lore_en": "Asha bint Salim rose through the naval wars protecting Swahili self-rule. Zanzibar’s council granted her unified command and expanded it after Merina took the southern bases in 1716. She turns city squadrons into a permanent fleet and compels formerly equal merchant houses to obey a common command.",
+      "skills": [
+        "Hoa tiêu chiến dịch",
+        "Điều phối đoàn hộ tống",
+        "Thương lượng hội đồng"
+      ],
+      "skills_vi": [
+        "Hoa tiêu chiến dịch",
+        "Điều phối đoàn hộ tống",
+        "Thương lượng hội đồng"
+      ],
+      "skills_en": [
+        "Campaign navigation",
+        "Escort coordination",
+        "Council negotiation"
+      ],
+      "traits": [
+        "Điềm tĩnh",
+        "Giữ trách nhiệm với thủy thủ",
+        "Chán ghét lời hứa thiếu tàu"
+      ],
+      "traits_vi": [
+        "Điềm tĩnh",
+        "Giữ trách nhiệm với thủy thủ",
+        "Chán ghét lời hứa thiếu tàu"
+      ],
+      "traits_en": [
+        "Composed",
+        "Responsible for her crews",
+        "Distrusts promises without ships"
+      ],
+      "status": {
+        "1715": "Giữ các tuyến biển của liên minh.",
+        "1716": "Tái phân bổ hạm đội sau mất đảo."
+      },
+      "status_vi": {
+        "1715": "Giữ các tuyến biển của liên minh.",
+        "1716": "Tái phân bổ hạm đội sau mất đảo."
+      },
+      "status_en": {
+        "1715": "Securing league sea routes.",
+        "1716": "Redistributing the fleet after island losses."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "cape_republic_representative",
+      "faction_id": "cape_republic",
+      "name": "Adam Tas",
+      "role_vi": "Chủ tịch Hội đồng Mũi Hảo Vọng",
+      "role_en": "President of the Cape Council",
+      "lore_vi": "Adam Tas đưa một bản kiến nghị năm 1706 thành cuộc nổi dậy lật đổ quyền cai trị của Đông Ấn Hà Lan. Từ người đại diện dân định cư, ông trở thành người giữ cửa ngõ hàng hải Mũi Hảo Vọng. Khi cộng hòa mở rộng, ông phải đối diện các tướng muốn tự làm chủ đất mới và những đồng minh chỉ muốn dành quyền tự do cho cộng đồng của riêng họ.",
+      "lore_en": "Adam Tas turned his 1706 petition into the revolt that overthrew Dutch Company rule. The settlers’ representative became the guardian of the Cape sea passage. Expansion pits him against commanders seeking their own dominions and allies wishing to reserve freedom for their own communities.",
+      "skills": [
+        "Xây liên minh hội đồng",
+        "Quản trị thương mại",
+        "Huy động quân nhu"
+      ],
+      "skills_vi": [
+        "Xây liên minh hội đồng",
+        "Quản trị thương mại",
+        "Huy động quân nhu"
+      ],
+      "skills_en": [
+        "Council coalition-building",
+        "Commercial administration",
+        "Supply mobilization"
+      ],
+      "traits": [
+        "Giỏi mặc cả",
+        "Bảo vệ phe ủng hộ",
+        "Dễ hợp lý hóa mở rộng"
+      ],
+      "traits_vi": [
+        "Giỏi mặc cả",
+        "Bảo vệ phe ủng hộ",
+        "Dễ hợp lý hóa mở rộng"
+      ],
+      "traits_en": [
+        "Skilled negotiator",
+        "Protects his supporters",
+        "Rationalizes expansion"
+      ],
+      "status": {
+        "1715": "Củng cố hiến chương cộng hòa.",
+        "1716": "Tài trợ chiến dịch Angola và phòng thủ Namibia."
+      },
+      "status_vi": {
+        "1715": "Củng cố hiến chương cộng hòa.",
+        "1716": "Tài trợ chiến dịch Angola và phòng thủ Namibia."
+      },
+      "status_en": {
+        "1715": "Consolidating the republican charter.",
+        "1716": "Funding Angola and defending Namibia."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "merina_empire_representative",
+      "faction_id": "merina_empire",
+      "name": "Radama I",
+      "role_vi": "Hoàng đế Merina",
+      "role_en": "Emperor of Merina",
+      "lore_vi": "Radama I kế vị năm 1710, thừa hưởng Madagascar thống nhất và quyết đưa cuộc chinh phạt ra đại dương. Ông trao quyền cho những người chiến đấu dưới cờ mình, dựng hạm đội hoàng gia và chiếm các đầu cầu trên Ấn Độ Dương. Vị vua trẻ muốn vượt khỏi danh tiếng của cha, khiến mỗi chiến thắng ngoài biển trở thành một lời xác nhận cho quyền lực riêng tại Antananarivo.",
+      "lore_en": "Radama I inherited a united Madagascar in 1710 and carried conquest onto the ocean. He rewards his own campaign veterans, builds a royal fleet and seizes Indian Ocean bridgeheads. Determined to surpass his father’s reputation, he makes overseas victory the foundation of his own authority in Antananarivo.",
+      "skills": [
+        "Mở rộng hải quân",
+        "Tiếp nhận kỹ thuật",
+        "Tổ chức chính quyền đảo"
+      ],
+      "skills_vi": [
+        "Mở rộng hải quân",
+        "Tiếp nhận kỹ thuật",
+        "Tổ chức chính quyền đảo"
+      ],
+      "skills_en": [
+        "Naval expansion",
+        "Technical adoption",
+        "Island administration"
+      ],
+      "traits": [
+        "Tham vọng biển xa",
+        "Trọng sĩ quan mới",
+        "Tính toán bằng kết quả"
+      ],
+      "traits_vi": [
+        "Tham vọng biển xa",
+        "Trọng sĩ quan mới",
+        "Tính toán bằng kết quả"
+      ],
+      "traits_en": [
+        "Oceanic ambition",
+        "Rewards new officers",
+        "Judges by results"
+      ],
+      "status": {
+        "1715": "Củng cố Madagascar và Mauritius.",
+        "1716": "Thiết lập đồn trú Comoros và Seychelles."
+      },
+      "status_vi": {
+        "1715": "Củng cố Madagascar và Mauritius.",
+        "1716": "Thiết lập đồn trú Comoros và Seychelles."
+      },
+      "status_en": {
+        "1715": "Consolidating Madagascar and Mauritius.",
+        "1716": "Establishing Comorian and Seychellois garrisons."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "ottoman_empire_representative",
+      "faction_id": "ottoman_empire",
+      "name": "Ahmed III",
+      "role_vi": "Quốc vương Ottoman",
+      "role_en": "Ottoman Sultan",
+      "lore_vi": "Ahmed III thắng cuộc đảo chính của Patrona Halil năm 1710, tập trung binh quyền và tái lập uy thế Sultan. Cuộc chinh phạt của Tây La Mã năm 1716 đẩy ông khỏi Bursa về Baghdad. Tại kinh đô mới, ông giữ những miền đất còn lại bằng các tướng trung thành và bắt đầu chuẩn bị chiến tranh phục hồi lãnh thổ, mang theo ký ức của một người đã từng giữ được ngai vàng trước chính quân đội mình.",
+      "lore_en": "Ahmed III defeated Patrona Halil’s coup in 1710 and restored the Sultan’s military authority. Western Rome’s conquests drove him from Bursa to Baghdad in 1716. He holds the surviving lands through loyal commanders and prepares a war of recovery, remembering how he once preserved his throne against his own army.",
+      "skills": [
+        "Ngoại giao trong triều",
+        "Giữ liên minh tổng trấn",
+        "Tái lập ngân khố"
+      ],
+      "skills_vi": [
+        "Ngoại giao trong triều",
+        "Giữ liên minh tổng trấn",
+        "Tái lập ngân khố"
+      ],
+      "skills_en": [
+        "Court diplomacy",
+        "Provincial coalition management",
+        "Treasury reconstruction"
+      ],
+      "traits": [
+        "Linh hoạt để giữ ngai",
+        "Nhạy với nguy cơ đảo chính",
+        "Mang gánh nặng thất bại"
+      ],
+      "traits_vi": [
+        "Linh hoạt để giữ ngai",
+        "Nhạy với nguy cơ đảo chính",
+        "Mang gánh nặng thất bại"
+      ],
+      "traits_en": [
+        "Flexible in preserving power",
+        "Alert to coups",
+        "Burdened by defeat"
+      ],
+      "status": {
+        "1715": "Điều hành triều đình tại Bursa.",
+        "1716": "Tái dựng chính quyền tại Baghdad."
+      },
+      "status_vi": {
+        "1715": "Điều hành triều đình tại Bursa.",
+        "1716": "Tái dựng chính quyền tại Baghdad."
+      },
+      "status_en": {
+        "1715": "Ruling from Bursa.",
+        "1716": "Rebuilding the government in Baghdad."
+      },
+      "portrait_asset": null
+    },
+    {
+      "id": "british_east_india_company_representative",
+      "faction_id": "british_east_india_company",
+      "name": "William Beckett",
+      "role_vi": "Huân tước · Người đứng đầu Công ty Đông Ấn Anh Quốc",
+      "role_en": "Lord · Leader of the British East India Company",
+      "lore_vi": "William Beckett đại diện Hội đồng Giám đốc và đứng đầu quyền lực Công ty Đông Ấn Anh Quốc. Người đàn ông ngoài bốn mươi xuất hiện tại Madrid với áo khoác sẫm màu, nhẫn ấn công ty và những thỏa thuận đủ sức giữ Castilian trong chiến tranh. Ông tính tín dụng, tổ chức hộ tống và thương lượng với các vương triều, đồng thời giữ các cộng đồng người Anh lưu vong khỏi mất chỗ dựa cuối cùng.\n\nQua chiến tranh, quan hệ với Edward Spencer trở thành tình bạn có thể đứng bên ngoài bàn thương lượng. Beckett cùng anh để ngỏ một ngày khôi phục nước Anh, khi đồng bào có thể trở về sống an toàn. Cuối Arc III, những lá thư từ Ấn Độ về một người họ Nguyễn đang xưng bá buộc ông lên tàu trở lại phương đông. Sau sự điềm tĩnh và những câu đùa về trà là một người hiểu rằng quyết định của mình sẽ được trả bằng cuộc sống của rất nhiều người.",
+      "lore_en": "William Beckett represents the Board of Directors and leads the British East India Company. The man in his forties arrives in Madrid with a dark coat, a Company signet and agreements capable of sustaining Castilian through war. He arranges credit and escorts, negotiates with crowned powers and protects the surviving English communities from losing their last support.\n\nWar turns his relationship with Edward Spencer into a friendship extending beyond negotiations. They leave open a future restoration of England when their compatriots can safely live there again. At the close of Arc III, letters from India about a Nguyễn rising in the east compel Beckett to return. Behind the composure and jokes about tea stands a man who knows his decisions will be paid for with many people’s lives.",
+      "skills": [
+        "Thương lượng ngoại giao",
+        "Điều phối hạm đội và tiếp tế",
+        "Huy động tín dụng thời chiến"
+      ],
+      "skills_vi": [
+        "Thương lượng ngoại giao",
+        "Điều phối hạm đội và tiếp tế",
+        "Huy động tín dụng thời chiến"
+      ],
+      "skills_en": [
+        "Diplomatic negotiation",
+        "Fleet and supply coordination",
+        "Wartime credit mobilization"
+      ],
+      "traits": [
+        "Điềm tĩnh trước khủng hoảng",
+        "Hóm hỉnh kín đáo",
+        "Có trách nhiệm với đồng bào",
+        "Giữ lời với người tin cậy"
+      ],
+      "traits_vi": [
+        "Điềm tĩnh trước khủng hoảng",
+        "Hóm hỉnh kín đáo",
+        "Có trách nhiệm với đồng bào",
+        "Giữ lời với người tin cậy"
+      ],
+      "traits_en": [
+        "Composed under pressure",
+        "Dry wit",
+        "Responsible toward his compatriots",
+        "Faithful to trusted friends"
+      ],
+      "status": {
+        "1715": "Thương lượng liên minh tại Madrid và giữ các tuyến biển của công ty.",
+        "1716": "Sau chiến tranh phía tây, lên đường về Ấn Độ để trực tiếp xử lý khủng hoảng phương đông."
+      },
+      "status_vi": {
+        "1715": "Thương lượng liên minh tại Madrid và giữ các tuyến biển của công ty.",
+        "1716": "Sau chiến tranh phía tây, lên đường về Ấn Độ để trực tiếp xử lý khủng hoảng phương đông."
+      },
+      "status_en": {
+        "1715": "Negotiating in Madrid and sustaining Company sea routes.",
+        "1716": "Returning to India after the western war to confront the eastern crisis himself."
+      },
+      "portrait_asset": null
+    }
+  ],
+  "units": []
+}

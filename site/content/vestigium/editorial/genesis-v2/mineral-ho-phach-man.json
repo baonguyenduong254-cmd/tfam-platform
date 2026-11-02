@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-ho-phach-man",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Hổ Phách Mặn được tìm trong tầng cát trên một ngọn đồi xa biển, giữa các vỏ tàu hóa thạch chưa ai ghép được thành một kiểu thuyền đã biết. Nhựa cây trong đó từng ôm một giọt nước đen có bụi Vestigium; khi cắt tới, giọt không chảy mà quay mặt về chén nước biển của người mài.\n\nNgười giữ đem viên nhựa qua nhiều nguồn nước. Giọt trắng dần, biết chọn vị mặn, nhận một đường về cùng nguồn và đẩy phần muối thành vòng ở mặt ngoài. Những người đi biển gọi nó là mắt của một vùng nước đã bị bỏ trên đất: mắt chỉ còn giữ quan hệ với nơi mình từng thuộc, còn hình biển gốc đã mất khỏi mọi bản đồ họ có.",
+    "lore_en": "Brine Amber lay within hill-sand far from the sea, among fossil hulls unlike any known boat. Resin had enclosed a dark drop seeded with Vestigium dust. Cutting reached it without release: it turned towards the cutter’s seawater bowl.\n\nAcross different sources the drop whitened, learnt to favour salt, recognise a route towards matching water and press salt into an outer ring. Mariners called it the eye of water abandoned upon land, retaining relationships after its original sea vanished from their maps.",
+    "use_vi": "Đọc quan hệ giữa các mẫu nước, tìm hướng nước cùng dấu và điều tiết lượng muối trên một mặt đã nhận.",
+    "use_en": "Read relations between water-samples, seek matching water and regulate salt upon an accepted surface.",
+    "limits_vi": "Pha nhiều nguồn khiến các dấu chen nhau. Viên đá nhận vị và quan hệ, không chứng nhận nước sạch; chất hòa tan khác vẫn có thể nguy hiểm dù mắt trắng trong.",
+    "limits_en": "Mixed sources produce competing marks. Taste and relation are not purity; other dissolved substances remain dangerous despite a clear eye.",
+    "skills": [
+      {
+        "name_vi": "So hai vị biển",
+        "name_en": "Compare Two Seas",
+        "description_vi": "Đặt mẫu giữa hai chén để mắt quay về phía mặn hơn. Nhiều chén thêm vào có thể khiến mắt tìm một hướng nằm giữa cả hai.",
+        "description_en": "Between two bowls its eye favours greater salinity. Added bowls may produce an intermediate bearing."
+      },
+      {
+        "name_vi": "Nhớ một nguồn",
+        "name_en": "Remember One Source",
+        "description_vi": "Ngâm viên vào nước mẫu để giữ dấu nguồn qua một lượt đường. Nạp nguồn khác thay dấu đang có, kể cả khi người mang chưa kịp tới nơi.",
+        "description_en": "Immersion stores one source through a journey. Another source replaces it even before arrival."
+      },
+      {
+        "name_vi": "Tìm dòng cùng dấu",
+        "name_en": "Seek the Matching Current",
+        "description_vi": "Giữ ngọc trên một máng nước đang chia để giọt chỉ nhánh còn cùng dấu mẫu đã nhận. Nhánh bị pha mới có thể mất dấu mà vẫn chảy cùng nơi.",
+        "description_en": "Above branching water it indicates the branch retaining its sample-mark. Fresh admixture may erase identity despite a shared destination."
+      },
+      {
+        "name_vi": "Ép vòng muối",
+        "name_en": "Press the Salt-Ring",
+        "description_vi": "Áp mặt ngọc lên một lớp nước mỏng để muối đã được mắt nhận kết quanh viền. Để vòng no rồi lật đá sẽ trả muối ngược vào nước.",
+        "description_en": "Against shallow water, recognised salt gathers at its rim. Turning a saturated ring returns it to the water."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mắt của nước bị bỏ",
+        "name_en": "The Abandoned Water’s Eye",
+        "description_vi": "Giọt trong nhựa đổi vị trí mà chưa từng chạm vỏ; khoan lấy giọt chỉ thu được nước thường và một miếng nhựa đã chết dấu.",
+        "description_en": "The enclosed drop turns without touching its shell; extracting it yields ordinary water and unresponsive resin."
+      }
+    ]
+  }
+]

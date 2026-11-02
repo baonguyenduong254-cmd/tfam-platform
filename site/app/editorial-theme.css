@@ -1,0 +1,224 @@
+/* Editorial edition: imagery, typography and space. All content modules remain intact. */
+body.tfam-editorial{--bg:#0a111b;--panel:#111e2b;--line:#b6b7aa32;--gold:#d5ccb6;--ice:#e5e7df;--text:#efeee6;--muted:#adb6ae;background:#0a111b;color:var(--text)}
+body.tfam-editorial .campaign-app{background:#0a111b;padding:0;max-width:none}
+body.tfam-editorial .eyebrow{color:#aeb8ae;letter-spacing:.12em;font-size:11px;font-weight:400}
+body.tfam-editorial .frost-shell{border-color:#aeb5a433;border-radius:0;box-shadow:none;background:#101c29}
+body.tfam-editorial :is(button,a,input,select,textarea):focus-visible{outline:2px solid #ddd5c0;outline-offset:5px}
+/* A full-bleed, browsable cover. The frame also selects the existing atlas faction. */
+.editorial-hero{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;min-height:min(950px,100svh);min-height:clamp(660px,95svh,1100px);padding:28px clamp(24px,4vw,80px) 30px;overflow:hidden;background:#0c1826;color:#f5f3e9}
+.editorial-hero:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#06132366 0%,#0a111b0a 27%,#07101b7a 65%,#0a111bee 100%),linear-gradient(90deg,#030b1655,transparent 72%)}
+.editorial-hero-art{position:absolute;inset:0;z-index:-2;animation:editorial-image-in 1s ease both}
+.editorial-hero-art img{width:100%;height:100%;object-fit:cover;object-position:center 48%;filter:saturate(.65) brightness(.83);animation:editorial-image-drift 18s ease-out both}
+.editorial-hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;border-bottom:1px solid #f5f3e94a;padding-bottom:20px}
+.editorial-wordmark{display:flex;align-items:center;gap:20px;color:inherit;text-decoration:none;font:400 30px/.95 var(--type-heading),Georgia,serif;letter-spacing:-.04em;min-height:44px}
+.editorial-wordmark span{border-left:1px solid #ffffff4a;padding-left:20px;font:10px/1.5 var(--reading-font),serif;letter-spacing:.12em}
+.editorial-volume{display:flex;align-items:center;gap:26px;font:10px/1.5 var(--reading-font),serif;letter-spacing:.11em;padding-top:8px;text-align:right}
+.editorial-volume b{font:400 32px/1 var(--type-heading),Georgia,serif;letter-spacing:0}
+.editorial-hero-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,310px);gap:clamp(30px,5vw,100px);align-items:end;padding:90px 0 65px}
+.editorial-kicker{display:block;font:12px/1.6 var(--reading-font),serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:28px;color:#e2e3d7}
+.editorial-hero h1{font:400 clamp(76px,10.8vw,180px)/.89 var(--type-heading),Georgia,serif;letter-spacing:-.055em;color:#f4f2e9;margin:0;text-shadow:0 2px 30px #0002}
+.editorial-hero h1>span{display:block;margin-top:.08em}
+.editorial-hero h1 i{font-weight:300;font-style:italic}
+.editorial-author{font:12px/1.5 var(--reading-font),serif;letter-spacing:.07em;margin:28px 0 0;color:#e3e2d6}
+.editorial-label{display:block;font:10px/1.7 var(--reading-font),serif;letter-spacing:.13em;color:#d5dace}
+.editorial-hero-aside blockquote{padding:0;margin:20px 0 28px;border:0;color:#ecebe1;font:400 18px/1.65 var(--reading-font),Georgia,serif;max-width:33ch}
+.editorial-hero .editorial-pill{display:inline-flex;align-items:center;justify-content:center;gap:28px;padding:13px 22px;min-height:48px;border:1px solid #efeee6;border-radius:30px;background:#efeee6;color:#111e2b;font:14px/1.4 var(--reading-font),Georgia,serif;box-shadow:none;cursor:pointer;transition:background .2s,color .2s,gap .25s}
+.editorial-hero .editorial-pill:hover{background:transparent;color:#fff;gap:38px}
+.editorial-hero-bottom{display:flex;justify-content:space-between;align-items:end;gap:30px;padding-top:20px;border-top:1px solid #f5f3e940}
+.editorial-hero .editorial-scroll{display:flex;align-items:center;gap:14px;min-height:44px;padding:8px 0;background:none;border:0;color:#ecece2;font:10px/1.5 var(--reading-font),serif;letter-spacing:.12em;cursor:pointer}
+.editorial-scroll svg{transition:transform .25s}.editorial-scroll:hover svg{transform:translateY(4px)}
+.editorial-scene{display:flex;align-items:center;gap:35px;min-width:0}
+.editorial-scene>div:first-child{min-width:0}.editorial-scene>div>span{display:block;font:9px/1.5 var(--reading-font),serif;letter-spacing:.1em;color:#c2cbbd;margin-bottom:5px}
+.editorial-scene strong{display:block;font:400 20px/1.3 var(--reading-font),serif;max-width:350px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.editorial-scene-controls{display:flex;align-items:center;gap:13px;flex-shrink:0}
+.editorial-hero .editorial-scene-controls button{display:grid;place-items:center;width:44px;height:44px;min-height:44px;background:transparent;color:inherit;border:1px solid #dce0d04d;border-radius:50%;box-shadow:none;cursor:pointer}
+.editorial-hero .editorial-scene-controls button:hover{background:#f1efdf;color:#101c29}
+.editorial-scene-controls>span{font:12px/1.3 var(--reading-font),serif!important;letter-spacing:0!important;margin:0!important;color:#efeee6!important}
+.editorial-scene-controls em{font-style:normal;color:#a8b3a4;margin-left:8px}
+/* The shared navigation is quiet, legible, and remains in normal page flow. */
+body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{background:#0a111b;border:0;border-bottom:1px solid var(--line);padding:16px clamp(18px,3vw,55px);box-shadow:none;min-height:94px;z-index:90}
+body.tfam-editorial .campaign-app .command-bar nav.tfam-main-nav{gap:0}
+body.tfam-editorial .campaign-app .command-bar nav button{border:0;border-bottom:1px solid transparent;border-radius:0;background:transparent;color:#aeb9af;box-shadow:none;min-height:52px;font-size:15px;font-weight:400;gap:9px;padding:10px 14px}
+body.tfam-editorial .campaign-app .command-bar nav button:before,body.tfam-editorial .campaign-app .command-bar nav button:after{display:none}
+body.tfam-editorial .campaign-app .command-bar nav button.active{color:#f2eddd;border-bottom-color:#d7ccb1;background:none;box-shadow:none}
+body.tfam-editorial .campaign-app .command-bar nav button:hover{color:#fff;background:#e1e1cc08}
+body.tfam-editorial .command-utilities :is(.gear-toggle,.reader-account-button){border:1px solid #bbc4b33b;background:none;box-shadow:none;color:#d3dbcc}
+body.tfam-editorial .background-music button{color:#b5bfb4;font-size:12px}
+body.tfam-editorial .background-music button[aria-pressed=true]{color:#e3d7bc}
+/* Atlas / faction collection: large imagery followed by quiet editorial columns. */
+body.tfam-editorial .campaign-workspace{gap:0;background:#0a111b}
+body.tfam-editorial .campaign-workspace .map-panel{border:0;border-bottom:1px solid var(--line);box-shadow:none}
+body.tfam-editorial .map-heading{background:#0a111b;border-bottom:1px solid var(--line);padding:24px clamp(22px,4vw,65px)}
+body.tfam-editorial .map-heading h2{font-size:28px;font-weight:400;letter-spacing:-.025em;color:#eeeade}
+body.tfam-editorial .map-heading-compass{color:#b5bca7}
+body.tfam-editorial .terrain-toolbar,body.tfam-editorial .terrain-map-caption{background:#0c1926;color:#b3bcae;border-color:var(--line)}
+body.tfam-editorial .faction-rack{background:#0a111b;border:0;border-bottom:1px solid var(--line);box-shadow:none;min-height:0}
+body.tfam-editorial .rack-heading{background:none;border:0;padding:35px clamp(24px,4vw,70px) 20px;color:#aeb9ad;letter-spacing:.13em;font-size:11px}
+body.tfam-editorial .faction-strip{padding:0 clamp(16px,3vw,50px) 45px;gap:1px;background:none;grid-template-columns:repeat(6,minmax(0,1fr))}
+body.tfam-editorial .faction-strip button{border:0;border-bottom:1px solid #9da89024;background:none;box-shadow:none;min-height:155px;padding:22px 10px;font-size:15px;color:#b8c3b6;transition:color .25s,background .25s}
+body.tfam-editorial .faction-strip button.chosen{color:#f1ead9;box-shadow:inset 0 -1px #d3c5a2;background:#e2e2ca07}
+body.tfam-editorial .faction-strip button:hover{background:#dce2c90a;box-shadow:none;color:#f5f2e6}
+body.tfam-editorial .faction-monogram{width:62px;height:70px;filter:saturate(.8);background:none;border:0;box-shadow:none}
+body.tfam-editorial .imperial-panorama{margin:0;border:0;border-radius:0;box-shadow:none;height:clamp(420px,52vw,720px)}
+body.tfam-editorial .panorama-shade{background:linear-gradient(90deg,#081626d6,#08162635 65%),linear-gradient(0deg,#0a111b,transparent 65%)}
+body.tfam-editorial .panorama-copy{padding:clamp(35px,5vw,80px);max-width:1000px}
+body.tfam-editorial .panorama-title-row h2{font:400 clamp(32px,4.8vw,72px)/1.15 var(--reading-font),serif;letter-spacing:-.04em;color:#eeeadd;text-shadow:none}
+body.tfam-editorial .panorama-emblem{width:65px;height:85px;filter:saturate(.7)}
+body.tfam-editorial .panorama-number{font:300 clamp(80px,13vw,180px)/1 var(--type-heading),Georgia,serif;color:#efecda24}
+body.tfam-editorial .panorama-actions button{background:none;border:0;border-bottom:1px solid #d8d8bd6b;border-radius:0;box-shadow:none;color:#e4e4d3;padding:10px 0}
+body.tfam-editorial .faction-highlights{gap:0;padding:25px clamp(20px,4vw,70px) 60px;background:#0a111b;border-bottom:1px solid var(--line)}
+body.tfam-editorial .highlight-frame{border:0;border-top:1px solid var(--line);border-radius:0;background:none;box-shadow:none!important;padding:30px 24px}
+body.tfam-editorial .highlight-frame>header{border:0;background:none;margin-bottom:28px}
+body.tfam-editorial .highlight-frame h3{font-size:22px;font-weight:400;color:#e3dfd0}
+body.tfam-editorial .highlight-person,body.tfam-editorial .highlight-force{background:none;border:0;box-shadow:none}
+body.tfam-editorial .highlight-person-portrait{border-radius:0;border:0;box-shadow:none;overflow:hidden}
+body.tfam-editorial .highlight-person-portrait img,body.tfam-editorial .highlight-force-image img{transition:transform .6s cubic-bezier(.2,.65,.3,1)}
+body.tfam-editorial .highlight-person:hover img,body.tfam-editorial .highlight-force:hover img{transform:scale(1.045)}
+body.tfam-editorial .highlight-trait{border:0;background:none;border-top:1px solid #c3cab520;border-radius:0}
+/* Archives and galleries retain every tab, filter, entry and deep link. */
+body.tfam-editorial :is(.archive-hub,.military-roster,.vest-collection,.monuments){background:#0a111b}
+body.tfam-editorial .archive-hub{padding:60px clamp(20px,4vw,70px)}
+body.tfam-editorial .archive-heading{border:0;border-bottom:1px solid var(--line);background:none;box-shadow:none!important;padding:0 0 35px;margin-bottom:35px}
+body.tfam-editorial :is(.archive-heading h2,.military-masthead h2,.monument-intro h2,.vest-intro h2){font-weight:400;color:#eee9da;letter-spacing:-.04em;text-shadow:none}
+body.tfam-editorial .archive-heading h2{font-size:clamp(32px,4vw,56px)}
+body.tfam-editorial .archive-sections button{background:none;box-shadow:none;border:0;border-bottom:1px solid #9da98e38;border-radius:0;color:#aeb8aa;padding-block:16px}
+body.tfam-editorial .archive-sections button.active{background:none;box-shadow:none;color:#f0e7d4;border-bottom-color:#cfc3a7}
+body.tfam-editorial .character-layout{background:none;border:0;box-shadow:none!important;margin:0;gap:clamp(30px,5vw,85px)}
+body.tfam-editorial .character-list{border:0;background:none;padding:15px 0}
+body.tfam-editorial .character-list button{border:0;border-bottom:1px solid #a4af972d;background:none;box-shadow:none;border-radius:0;color:#aeb9ae;padding:18px 8px}
+body.tfam-editorial .character-list button.selected{border-color:#d3c9ac80;background:none;color:#f0ebdd;box-shadow:none}
+body.tfam-editorial .character-profile{border:0;border-radius:0;background:#101c29;box-shadow:none;overflow:hidden}
+body.tfam-editorial .character-profile .portrait{border:0;border-radius:0;box-shadow:none}
+body.tfam-editorial .character-backdrop{opacity:.09}
+body.tfam-editorial .character-copy-v24 h2{font-weight:400;font-size:clamp(32px,3vw,49px);letter-spacing:-.03em;color:#eee6d5;text-shadow:none}
+body.tfam-editorial .character-copy-v24 section{background:none;border:0;border-top:1px solid var(--line);box-shadow:none;border-radius:0;padding-top:28px}
+body.tfam-editorial .character-copy-v24 h3{font-size:19px;font-weight:400;color:#c9cbb9}
+body.tfam-editorial .dossier-entry{background:none;border:0;box-shadow:none}
+body.tfam-editorial :is(.military-masthead,.monument-intro,.vest-intro){background:none;border:0;border-bottom:1px solid var(--line);box-shadow:none;border-radius:0;padding:45px 0}
+body.tfam-editorial .monument-intro h2{font-size:clamp(30px,4.5vw,58px)}
+body.tfam-editorial .vest-intro{padding:70px 20px 50px}
+body.tfam-editorial .vest-intro h2{font-size:clamp(40px,6vw,85px)}
+body.tfam-editorial .vest-collection-mark{border:0;rotate:0;color:#c8cbb4;margin-bottom:10px}
+body.tfam-editorial .vest-collection-mark svg{rotate:0}
+body.tfam-editorial :is(.monument-card,.military-unit-card,.vest-object){background:none;border:0;border-radius:0;box-shadow:none;overflow:hidden;text-align:left}
+body.tfam-editorial :is(.monument-art,.military-card-art,.vest-object-art){border-radius:0;overflow:hidden}
+body.tfam-editorial .monument-card-copy{padding:24px 0 30px;border-bottom:1px solid var(--line)}
+body.tfam-editorial .monument-card-copy h3{font-size:30px;font-weight:400;letter-spacing:-.025em}
+body.tfam-editorial .monument-card:hover{box-shadow:none;transform:translateY(-4px)}
+body.tfam-editorial .monument-card img{transition:transform .7s ease}
+body.tfam-editorial .monument-grid{gap:35px}
+body.tfam-editorial :is(.vest-categories,.military-filters){background:#101c29ed;border-color:var(--line);box-shadow:none;backdrop-filter:blur(18px)}
+body.tfam-editorial :is(.vest-categories,.military-filters) button{background:none;border-color:transparent;box-shadow:none;border-radius:0}
+body.tfam-editorial .vest-categories button[aria-selected=true]{background:none;border-color:transparent;border-bottom-color:#d2c7a9;box-shadow:none;color:#eee4ce}
+body.tfam-editorial :is(.vest-depth-nav button,.vest-tools label,.monument-tools label,.monument-tools select,.military-search){background:#111e2b;border-color:#b4bea241;box-shadow:none;border-radius:0}
+body.tfam-editorial .reading-room-header{background:#0c1926;border-color:var(--line);box-shadow:none}
+body.tfam-editorial .story-section-header{background:none;border-color:var(--line);box-shadow:none}
+body.tfam-editorial .gallery-toolbar{background:#101c29f2;border-color:var(--line);box-shadow:none}
+body.tfam-editorial .gallery-hero:after{background:linear-gradient(90deg,#0a111be8,#0a111b4d),linear-gradient(0deg,#0a111b,transparent)}
+body.tfam-editorial .gallery-body{background:#0a111b}
+body.tfam-editorial .gallery-index{border-color:var(--line);background:#0a111b}
+body.tfam-editorial :is(.gallery-person,.gallery-unit){background:none;border:0;box-shadow:none}
+body.tfam-editorial .gallery-card-copy{border-bottom:1px solid var(--line);padding-inline:0}
+body.tfam-editorial .copyright-footer{background:#0a111b;border-top:1px solid var(--line);box-shadow:none;color:#a3af9d;padding:35px}
+/* Restrained arrival and image movement; never hide content while waiting for JS. */
+.editorial-entered{animation:editorial-arrive .65s cubic-bezier(.2,.65,.3,1) both!important}
+@keyframes editorial-arrive{from{opacity:.6;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes editorial-image-in{from{opacity:.3}to{opacity:1}}
+@keyframes editorial-image-drift{from{transform:scale(1.055)}to{transform:scale(1)}}
+@media(min-width:1500px){body.tfam-editorial .faction-highlights{padding-top:65px;padding-bottom:85px}}
+@media(max-width:1100px){.editorial-hero-body{grid-template-columns:minmax(0,1fr) 260px;gap:30px}.editorial-hero h1{font-size:clamp(72px,10vw,120px)}.editorial-scene strong{max-width:270px}body.tfam-editorial .faction-strip{grid-template-columns:repeat(4,minmax(0,1fr))}body.tfam-editorial .highlight-frame{padding-inline:15px}}
+@media(max-width:760px){.editorial-hero{min-height:850px;min-height:100svh;padding:20px 23px 25px}.editorial-hero-top{padding-bottom:15px}.editorial-wordmark{font-size:28px}.editorial-wordmark span{display:none}.editorial-volume{font-size:8px;max-width:210px;gap:12px}.editorial-volume b{font-size:26px}.editorial-hero-body{display:block;padding:75px 0 45px}.editorial-kicker{font-size:9px;letter-spacing:.08em;margin-bottom:24px}.editorial-hero h1{font-size:clamp(64px,14vw,106px);line-height:.94;letter-spacing:-.055em}.editorial-author{font-size:11px;margin-top:20px}.editorial-hero-aside{margin-top:40px;max-width:390px}.editorial-label{font-size:9px}.editorial-hero-aside blockquote{font-size:15px;line-height:1.75;margin:13px 0 20px;max-width:38ch}.editorial-hero .editorial-pill{min-height:44px;font-size:13px;padding:11px 19px}.editorial-hero-bottom{align-items:center;gap:20px}.editorial-hero .editorial-scroll{font-size:8px;max-width:105px;text-align:left;gap:10px}.editorial-scene{gap:10px;flex-direction:column;align-items:end}.editorial-scene>div:first-child{text-align:right}.editorial-scene strong{font-size:15px;max-width:210px}.editorial-scene>div>span{font-size:7px}.editorial-scene-controls{gap:10px}.editorial-hero .editorial-scene-controls button{width:38px;height:38px;min-height:38px}.editorial-scene-controls>span{font-size:10px!important}body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{padding:12px 18px}body.tfam-editorial .campaign-app .command-bar nav button{font-size:14px;padding:9px;min-height:48px}body.tfam-editorial .faction-strip{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:25px}body.tfam-editorial .faction-strip button{font-size:13px;min-height:137px;padding:16px 7px}body.tfam-editorial .faction-monogram{width:53px;height:60px}body.tfam-editorial .imperial-panorama{height:410px}body.tfam-editorial .panorama-copy{padding:35px 25px}body.tfam-editorial .panorama-title-row h2{font-size:32px}body.tfam-editorial .panorama-number{font-size:90px}body.tfam-editorial .faction-highlights{padding:10px 20px 35px}body.tfam-editorial .highlight-frame{padding:25px 0}body.tfam-editorial .archive-hub{padding:35px 20px}body.tfam-editorial .archive-heading{padding-bottom:25px}body.tfam-editorial .character-layout{gap:25px}body.tfam-editorial .monument-grid{gap:25px}body.tfam-editorial .monument-intro{padding:20px 0 30px}body.tfam-editorial .vest-intro{padding:40px 0 30px}}
+
+html[data-motion=off] .editorial-hero-art,html[data-motion=off] .editorial-hero-art img,html[data-motion=off] .editorial-entered{animation:none!important}
+@media print{.editorial-hero{display:none}}
+
+body.tfam-editorial .panorama-lore{background:#0a111b;border:0;border-bottom:1px solid var(--line);padding:55px clamp(24px,5vw,80px)}
+body.tfam-editorial .panorama-lore .lore{max-width:1100px;color:#ccd3c7;font-size:19px;line-height:1.9}
+body.tfam-editorial .military-masthead{background:none;border:0;border-bottom:1px solid var(--line);padding:40px 0}
+body.tfam-editorial .military-masthead h2{font-size:clamp(30px,4vw,58px);font-weight:400;letter-spacing:-.035em;color:#eee8d8}
+body.tfam-editorial .military-unit-card{border:0;border-bottom:1px solid var(--line);background:none;box-shadow:none}
+body.tfam-editorial .military-card-copy{padding:22px 0 28px}
+body.tfam-editorial .military-unit-card:hover{border-bottom-color:#d5c7a3;box-shadow:none}
+body.tfam-editorial .military-filters button[aria-pressed=true]{border-bottom-color:#d5c7a3;color:#f0e6d0;background:#d2d0b50a}
+body.tfam-editorial :is(.military-dialog,.monument-dialog,.vest-detail-copy){background:#121d18;border-color:#aeb69d4d;color:#e2e5d8}
+body.tfam-editorial :is(.military-dossier-copy,.monument-body){background:#121d18}
+body.tfam-editorial .vest-detail-display{background:radial-gradient(ellipse at center,#92a58a13,transparent 65%),#101a16;border-color:var(--line)}
+body.tfam-editorial .vest-property{background:transparent;border-color:var(--line);border-radius:0;box-shadow:none}
+body.tfam-editorial .vest-object{background:none;border:0;border-bottom:1px solid #a5b19a26;box-shadow:none;border-radius:0}
+body.tfam-editorial .vest-object:hover{background:#c1c9a908;box-shadow:none;border-bottom-color:#b8b89c}
+
+/* Observatory edition. One visual language, no inherited frost picture frames. */
+body.tfam-editorial::before,body.tfam-editorial::after,
+body.tfam-editorial .frost-shell::after{display:none!important}
+body.tfam-editorial{--text:#e8edf0;--muted:#a1b4c6;--gold:#cfb78c;--line:#9db9ce30;--ice:#b9dbec;background:#0a111b}
+body.tfam-editorial .campaign-app{overflow:clip}
+body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{position:sticky;top:0;bottom:auto;inset-inline:0;min-height:76px;padding:10px 20px;background:#0a111bf7;backdrop-filter:none;border-bottom:1px solid #94b8d13b;margin:0;z-index:90}
+body.tfam-editorial .campaign-app .command-bar nav button{font-size:15px;min-height:48px}
+body.tfam-editorial .campaign-app .command-bar nav button.active{color:#d4eafa;border-bottom-color:#b9def2;background:#8fcdf008}
+body.tfam-editorial .campaign-workspace{display:flex;flex-direction:column;gap:0}
+body.tfam-editorial .campaign-map-column{width:100%}
+body.tfam-editorial .imperial-panorama{width:100%;height:auto;min-height:480px}
+body.tfam-editorial .faction-highlights{width:100%}
+body.tfam-editorial .character-profile{background:#101c29}
+body.tfam-editorial :is(select,input[type=search],.military-search){color:#e2edf4;background:#111e2c;border:1px solid #91acc24d;border-radius:3px}
+body.tfam-editorial :is(.archive-heading,.character-layout){border-image:none}
+body.tfam-editorial .archive-heading{padding-top:12px}
+body.tfam-editorial .character-layout{grid-template-columns:230px minmax(0,1fr);align-items:start}
+body.tfam-editorial .character-profile{padding:30px;gap:30px}
+body.tfam-editorial .map-heading-compass{color:#a9cbe1}
+body.tfam-editorial .atlas-content{position:relative;min-height:60vh;isolation:isolate}
+body.tfam-editorial .atlas-view[hidden]{display:none!important}
+body.tfam-editorial .atlas-content :is(.character-profile,.character-copy-v24 section){animation:none!important}
+.editorial-hero{min-height:clamp(720px,94svh,1080px);background:#0c1826;padding-top:26px}
+.editorial-hero::after{background:linear-gradient(90deg,#040e1af2 0%,#061220b0 35%,#07132130 70%),linear-gradient(0deg,#0a111b 0%,#06121d20 42%,#07142166 100%)}
+.editorial-hero-art{inset:0 0 0 30%;animation:editorial-image-in .55s ease both}
+.editorial-hero-art img{filter:saturate(.62) brightness(.82);animation:none;object-position:60% center}
+.editorial-hero-body{position:relative;z-index:1;grid-template-columns:minmax(0,1fr) 270px;gap:45px;padding:80px 0 70px}
+.editorial-hero-heading{position:relative;max-width:900px}
+.editorial-hero-heading::before{content:'';position:absolute;width:440px;height:440px;left:-180px;top:-115px;border:1px solid #9fc9e528;border-radius:50%;box-shadow:0 0 0 36px #a6d6ee05,0 0 0 37px #9fc9e51a,0 0 0 82px #a6d6ee03;pointer-events:none;z-index:-1}
+.editorial-hero-heading::after{content:'✦';position:absolute;left:-12px;top:-68px;font-size:32px;color:#cfb78c}
+.editorial-hero h1{font-size:clamp(76px,9.7vw,155px);letter-spacing:-.045em;line-height:.95}
+.editorial-hero h1 i{font-size:.6em;color:#b1c9dc}
+.editorial-kicker{color:#a9c5d9;font-size:10px;letter-spacing:.2em}
+.editorial-hero .editorial-pill{border-radius:2px;background:#d1dfE7;border-color:#d1dfe7;color:#0c1826;transition:background-color .2s,color .2s}
+.editorial-hero .editorial-pill:hover{background:#acccdf;color:#0c1826;gap:28px}
+.editorial-hero .editorial-pill svg{transition:transform .25s}.editorial-hero .editorial-pill:hover svg{transform:translate3d(3px,-3px,0)}
+.editorial-hero-top{border-color:#a0bdd330}.editorial-volume b{color:#d7bd8d}
+.editorial-hero-aside{border-left:1px solid #c7b18a5a;padding-left:24px}
+.editorial-hero-aside blockquote{font-size:16px;color:#becdd7}
+.editorial-label{color:#d7bd8d;font-size:9px}
+.editorial-hero-bottom{border-color:#a0bdd330;z-index:1}
+.editorial-scene strong{color:#d8e3eb}.editorial-scene>div>span{color:#91abc1}
+body.tfam-editorial .background-music button{color:#b1c5d5}
+body.tfam-editorial .highlight-frame{border-top-color:#9db9ce30}
+body.tfam-editorial .copyright-footer{background:#0a111b}
+@media(max-width:1100px){body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{gap:2px 12px;padding:7px 18px}.editorial-hero-body{grid-template-columns:minmax(0,1fr) 230px;gap:25px}}
+@media(max-width:760px){
+.editorial-hero{min-height:100svh;padding:22px 24px 28px}.editorial-hero-art{inset:0;opacity:.8}.editorial-hero::after{background:linear-gradient(90deg,#04101be6,#07142166),linear-gradient(0deg,#0a111b,transparent 75%)}
+.editorial-hero-body{display:block;padding:90px 0 40px}.editorial-hero h1{font-size:clamp(60px,13.8vw,104px)}.editorial-hero-heading::before{width:280px;height:280px;left:-140px;top:-60px}.editorial-hero-heading::after{top:-58px;font-size:25px}.editorial-hero-aside{margin-top:36px;padding-left:18px;max-width:400px}.editorial-hero-aside blockquote{font-size:15px;line-height:1.7;margin-top:10px}.editorial-kicker{font-size:9px;letter-spacing:.08em}
+body.tfam-editorial .campaign-app .command-bar nav.tfam-main-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
+body.tfam-editorial .campaign-app .command-bar nav button{flex-direction:column;font-size:11px;padding:7px 2px;gap:4px;min-height:54px;white-space:normal}
+body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{padding:7px 12px;min-height:0;gap:3px 12px}
+body.tfam-editorial .command-utilities :is(.gear-toggle,.reader-account-button){width:36px;height:36px;min-height:36px;min-width:36px;padding:7px}.command-utilities .site-tools-popover{top:44px}
+body.tfam-editorial .character-layout{display:block}.editorial-scene strong{max-width:190px}.editorial-hero-bottom{gap:12px}.editorial-hero .editorial-scroll{max-width:100px}
+body.tfam-editorial .character-profile{padding:20px;gap:24px}.editorial-hero .editorial-pill{min-height:44px}
+}
+
+
+body.tfam-editorial .atlas-curtain{position:fixed;inset:76px 0 0;z-index:80;pointer-events:none;background:linear-gradient(115deg,#0a111b 10%,#122638 55%,#0a111b);contain:strict;will-change:opacity}
+body.tfam-editorial .atlas-curtain[hidden]{display:none}
+.editorial-hero-heading::before{box-shadow:none;background:repeating-radial-gradient(circle at center,transparent 0 46px,#9fc9e526 46px 47px,transparent 47px 82px)}
+body.tfam-editorial .terrain-fallback :is(.ocean-ripples,.map-mist){animation:none!important}
+body.tfam-editorial .vest-tier{content-visibility:auto;contain-intrinsic-size:auto 700px}
+.atlas-data-credit{font:11px/1.5 var(--reading-font),serif;color:#a7bac7;padding:8px 18px;background:#0c1825;border-bottom:1px solid #a1bbcf26;margin:0}
+.atlas-fallback-credit{position:absolute;left:0;top:0;z-index:3;pointer-events:none;background:#0c1825d9}
+.atlas-faction-polygons:hover .province{fill-opacity:.4;stroke:none}
+.atlas-faction-polygons .province:hover{stroke:none;fill-opacity:.4}
+
+/* Fit the true 2:1 world image without an empty stage or inherited picture frame. */
+body.tfam-editorial .map-stage::after{display:none!important}
+body.tfam-editorial .terrain-fallback .map-stage{height:auto;min-height:0;aspect-ratio:2;background:#214252}
+body.tfam-editorial .terrain-fallback .map-stage>svg{position:absolute;inset:0;width:100%;height:100%}
+body.tfam-editorial .terrain-fallback-note{background:#101e2c;color:#aec4d2;border:0;border-bottom:1px solid #9db9ce30;font-size:12px}
+body.tfam-editorial .terrain-fallback-note button{background:none;border:1px solid #9db9ce40;color:#c5d9e6;box-shadow:none}
+@media(max-width:700px){body.tfam-editorial .terrain-fallback .map-stage{aspect-ratio:1.15}}

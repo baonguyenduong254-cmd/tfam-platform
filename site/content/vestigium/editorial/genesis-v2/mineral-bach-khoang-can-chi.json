@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mineral-bach-khoang-can-chi",
+    "category": "mineral",
+    "rarity": 2,
+    "lore_vi": "Bạch khoáng vốn là đá vôi quanh một túi chì chảy qua quặng lạ. Khi thợ mở túi, chì chưa nguội đã tự kéo thành những sợi trắng xám, chui vào các gờ đá như một bầy sâu tìm răng. Đá đem về xưởng tiếp tục nhận chì từ vật khác, nhưng bỏ qua đồng ngay cạnh.\n\nNhững người tinh quặng gọi các gờ là miệng. Chúng biết ngửi chì qua một lớp phủ, kéo nó thành sợi, giữ nó co quanh dấu và nhả thành một hình đơn. Mọi lời giải bằng sức hút đều dừng ở chiếc khuôn không lòng mà chì vẫn tự nhận hình. Người thợ chỉ giữ được các thao tác, với đôi găng luôn thay trước khi phần bụi lạ kịp đi vào người.",
+    "lore_en": "White limestone enclosed lead flowing through strange ore. Opening the pocket drew still-hot lead into grey-white filaments entering its ridges like creatures seeking teeth. In workshops the stone kept accepting lead while ignoring nearby copper.\n\nRefiners called its ridges mouths. They sensed covered lead, drew it into threads, held it around marks and released simple forms. Explanations by attraction failed at a hollowless mould still giving shape. Craftsmen retained their procedures and changed gloves before strange dust entered their bodies.",
+    "use_vi": "Tìm, thu và tạo hình lượng chì đã được các gờ nhận, dành cho thu hồi hoặc sửa đồ nhỏ.",
+    "use_en": "Locate, gather and shape lead accepted by its ridges for recovery and small repairs.",
+    "limits_vi": "Chì vẫn gây hại khi đi vào cơ thể; khoáng không tự chữa độc. Gờ bị no hoặc vỡ có thể nhả sợi bất ngờ, kéo cả phần vật khác đang mắc cùng chì.",
+    "limits_en": "Lead remains harmful within bodies; the mineral does not cure poisoning. Saturated or broken ridges may release threads abruptly, dragging attached material.",
+    "skills": [
+      {
+        "name_vi": "Ngửi chì sau lớp phủ",
+        "name_en": "Scent the Covered Lead",
+        "description_vi": "Áp gờ vào một vật để vạch trắng quay về phần chì liên tục gần mặt. Nhiều phần kim loại ghép khiến đường chỉ chen nhau.",
+        "description_en": "Press a ridge to show near-surface continuous lead. Composite metals create competing indications."
+      },
+      {
+        "name_vi": "Kéo thành râu",
+        "name_en": "Draw the Filaments",
+        "description_vi": "Cho gờ chạm chì để nó kéo các sợi ra chậm. Dứt tay quá sớm có thể để sợi đứt bắn bụi quanh điểm làm.",
+        "description_en": "Contact draws lead into slow threads. Early withdrawal may snap them and scatter dust."
+      },
+      {
+        "name_vi": "Co quanh dấu",
+        "name_en": "Contract Around a Mark",
+        "description_vi": "Vạch một vòng trên chính phần chì đã nhận để sợi tự rút vào đó. Vật mắc trong vòng cũng bị kéo, kể cả tay người quên rút.",
+        "description_en": "A marked ring makes accepted filaments contract into it, pulling trapped objects or an unwary hand."
+      },
+      {
+        "name_vi": "Nhả hình một lòng",
+        "name_en": "Release One Form",
+        "description_vi": "Ấn một hình kín đơn vào gờ rồi nhả chì theo hình đã nhận. Hình hở cho chì chảy hết thay vì tự tìm cách sửa.",
+        "description_en": "Press a simple closed shape to release lead accordingly. An open design spills it rather than repairing itself."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Miệng bỏ qua đồng",
+        "name_en": "Mouths Refusing Copper",
+        "description_vi": "Sức chọn của đá tồn tại ở gờ nguyên; bụi nghiền mất việc nhận nhưng vẫn giữ những tạp chất nguy hiểm.",
+        "description_en": "Its selection belongs to whole ridges; ground dust loses recognition while retaining hazardous impurities."
+      }
+    ]
+  }
+]

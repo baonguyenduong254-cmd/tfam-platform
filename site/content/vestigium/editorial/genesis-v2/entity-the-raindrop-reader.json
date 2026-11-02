@@ -1,0 +1,35 @@
+[
+  {
+    "id": "entity-the-raindrop-reader",
+    "category": "entity",
+    "rarity": 1,
+    "lore_vi": "Mái thiếc được hàn bằng một thứ hợp kim có bụi Vestigium. Mưa gõ qua nhiều năm, gom gỉ thành dáng người nhỏ dưới vành mái. Lúc một rãnh thoát bị lá chặn, nó giơ ngón sáng về chỗ nước dồn trước khi nước kịp tràn vào gian trong.\n\nThợ lợp đem một mảnh mái xuống sân thử, bóng đi cùng và chỉ rãnh mới trên tấm thiếc. Khi sấm đến nó cúi người, người thợ cũng cúi theo, rồi cả hai đứng lại xem dòng nước tìm lối. Những người sống dưới mái ấy học cách nhìn một đầu ngón nhỏ trước khi trách bầu trời.",
+    "lore_en": "A tin roof was soldered with an alloy carrying Vestigium dust. Years of rain gathered its corrosion into a little figure beneath the eave. When leaves blocked a drain groove, it pointed a shining finger towards the gathering water before it overflowed indoors.\n\nA roofer took a sheet into his testing yard; the figure followed and indicated a fresh groove upon it. At thunder it ducked, and the roofer ducked too before both returned to watching water find its way. Those beneath that roof learnt to look at a small finger before blaming the sky.",
+    "use_vi": "Chỉ rãnh dồn nước trên một mặt mái nhỏ và lần hướng nước về nơi thoát.",
+    "use_en": "Indicate accumulating water upon a small roof section and trace its direction towards an outlet.",
+    "limits_vi": "Chỉ hiện khi có mưa trực tiếp trên tấm gốc. Băng che dấu; mái quá rộng cần người kiểm các phần ngoài tầm nhìn của bóng.",
+    "limits_en": "It appears only with rain directly upon its original sheet. Ice hides signs; larger roofs need human inspection beyond its view.",
+    "skills": [
+      {
+        "name_vi": "Chỉ rãnh đầy",
+        "name_en": "Point to the Full Groove",
+        "description_vi": "Để mưa chạm tấm mái có bóng để nó chỉ một rãnh gần tràn; cần nhìn từ chỗ an toàn thay vì bước theo bóng lên mái ướt.",
+        "description_en": "Let rain strike the inhabited sheet so it points to a groove nearing overflow; observe from a secure position rather than following onto wet roofing."
+      },
+      {
+        "name_vi": "Đọc đường thoát",
+        "name_en": "Read the Outlet Path",
+        "description_vi": "Chạm nhẹ mép mái bằng que để nó kéo ngón sáng theo đường nước đang tới miệng thoát, giúp tìm đoạn lá chắn; nước ngừng thì nét tắt.",
+        "description_en": "Touch the sheet edge lightly with a stick so its luminous finger traces water towards its outlet and reveals an obstruction; the line ends when flow stops."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mưa cho người đọc chữ",
+        "name_en": "Rain Gives the Reader Letters",
+        "description_vi": "Ngón sáng theo nước thật trên thiếc, do đó dốc mái thay đổi cũng đổi nơi nó đứng.",
+        "description_en": "The finger follows real water on tin, so changing the slope changes its station."
+      }
+    ]
+  }
+]

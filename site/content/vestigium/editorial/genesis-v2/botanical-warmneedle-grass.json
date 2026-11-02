@@ -1,0 +1,29 @@
+[
+  {
+    "id": "botanical-warmneedle-grass",
+    "category": "botanical",
+    "rarity": 0,
+    "lore_vi": "Một bụi cỏ chui qua khe quặng đỏ bên lò than. Mỗi đêm thợ tắt lửa, những đầu lá trắng vẫn ấm trong tuyết. Quặng sau đó được đem đi luyện, còn cỏ mọc lại với những vòng đồng sáng chạy từ gốc tới ngọn. Thứ nó nhận từ đá đã vào cả chồi non.\n\nNgười chăn dê lấy cỏ lót túi hạt giống, rồi nhận ra bó còn rễ giữ được hơi ấm của một viên sỏi nóng tới sáng. Trong những túp lều xa đường củi, người ta nâng bó cỏ khỏi bếp bằng cả hai tay như nâng một con chim đang ngủ.",
+    "lore_en": "A tuft of grass pushed through red ore beside a charcoal furnace. Each night after the fire died, its white tips remained warm in snow. The ore was later smelted, yet the grass returned with shining copper rings running from root to tip. What it had taken from stone had entered its new shoots.\n\nA goatherd lined a seed pouch with it and discovered that a rooted bundle kept a hot pebble’s warmth until morning. In huts far from the wood road, people lift the grass from their hearths with both hands as though carrying a sleeping bird.",
+    "use_vi": "Giữ hơi ấm cho túi hạt, găng tay hoặc hộp dụng cụ trong chặng đường ngắn.",
+    "use_en": "Retain warmth for seed pouches, gloves or toolboxes over a short journey.",
+    "limits_vi": "Phải nạp bằng nhiệt sẵn có; bó càng khô càng giữ kém và dễ cháy. Cỏ rời gốc chỉ còn tác dụng trong lần ủ đầu.",
+    "limits_en": "It needs an existing heat source; drier bundles retain less and ignite easily. Rootless grass works only for its first warming.",
+    "skills": [
+      {
+        "name_vi": "Ủ kim",
+        "name_en": "Warm the Needles",
+        "description_vi": "Đặt bó còn rễ cạnh đá ấm cho đến khi vòng đồng sáng tới ngọn rồi bọc trong vải; lá nhả nhiệt chậm theo thứ tự vòng sáng tắt.",
+        "description_en": "Place a rooted bundle beside warm stone until its copper rings shine to the tips, then wrap it in cloth; the leaves release heat slowly as the rings fade."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Ấm từ gốc",
+        "name_en": "Warmth From the Root",
+        "description_vi": "Các vòng sáng tắt dần từ gốc lên ngọn, cho người mang thấy hơi ấm còn bao nhiêu.",
+        "description_en": "The luminous rings fade from root to tip, showing the bearer how much warmth remains."
+      }
+    ]
+  }
+]

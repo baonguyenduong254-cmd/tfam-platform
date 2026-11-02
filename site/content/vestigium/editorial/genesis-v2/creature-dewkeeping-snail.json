@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-dewkeeping-snail",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Ốc nhỏ sống trong chậu có mảnh ngọc giữ sương vùi dưới rêu. Một đợt khô làm rêu chết, con ốc vẫn nuôi được trứng bằng một giọt nước nằm dưới vỏ. Khi người giữ vườn cúi thở lên nó, giọt lớn thêm; vòng lam mỏng chạy quanh vỏ như mặt nước vừa được khép lại.\n\nLứa nở sau chuyển sang chậu sạch vẫn đọng mỗi đêm một giọt. Người giữ đặt hạt giống quý cạnh ổ, thức nhìn hơi thở mình thành nước. Đến sáng ông lấy giọt bằng đầu cọ, chừa lại nền ẩm cho sinh vật đã mượn hơi người qua đêm.",
+    "lore_en": "The little snail lived in a pot with a dew-holding gem buried beneath moss. Drought killed the moss, yet the snail sustained its eggs with a drop beneath its shell. When a gardener breathed over it, the drop grew and a thin blue ring circled its shell like a newly closed water surface.\n\nLater hatchlings in clean pots still condensed one drop each night. The gardener kept valuable seed beside their nest and watched his breath become water. At morning he took a drop with a brush tip and left damp ground for the creature that had borrowed human breath.",
+    "use_vi": "Giữ ẩm cho một hạt giống hoặc mẫu nhỏ qua giọt nước được ngưng tụ.",
+    "use_en": "Moisten one seed or small specimen with a condensed drop.",
+    "limits_vi": "Mỗi con một giọt trong đêm, cần hơi ẩm quanh ổ. Chất có trong không khí có thể theo giọt vào mẫu, nên nguồn ẩm phải được chọn.",
+    "limits_en": "Each snail yields one nightly drop and needs surrounding humidity. Airborne substances may enter the drop, so its moisture source must be chosen.",
+    "skills": [
+      {
+        "name_vi": "Đọng giọt",
+        "name_en": "Gather the Drop",
+        "description_vi": "Giữ ổ yên gần nguồn hơi sạch để nước tụ dưới vỏ qua đêm, rồi lấy bằng cọ mềm mà không lật con vật.",
+        "description_en": "Keep the nest still near clean vapour so water gathers beneath the shell overnight, then take it with a soft brush without overturning the animal."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nước nằm dưới mái",
+        "name_en": "Water Beneath Its Roof",
+        "description_vi": "Giọt dưới vỏ giữ lỏng trong rét nhẹ; lạnh sâu khiến ốc khép miệng và thôi đọng thêm.",
+        "description_en": "The drop remains liquid in mild frost; deeper cold closes the shell and ends further condensation."
+      }
+    ]
+  }
+]

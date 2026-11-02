@@ -1,0 +1,125 @@
+{
+  "status": "audit-complete-redesign-pending",
+  "author_direction": "Every Royal Guard deployment must have a meaningful combat role in any form. Prioritize final names and silhouettes before producing remaining art. Preserve canon. General civilian Vestigium remain welcome outside the Guard collection.",
+  "priority_records": [
+    {
+      "id": "device-042",
+      "number": 19,
+      "name_vi": "Diecinueve. Trường Dạ Giám Đăng Vigilia",
+      "finding_vi": "Chỉ ghi ca trực và điểm tuần tra đứt; thiếu quyền chiến đấu riêng.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-055",
+      "number": 40,
+      "name_vi": "Cuarenta. Bộ Chữ Dẫn Thanh Vox",
+      "finding_vi": "Giọng nói và lời chứng là trọng tâm; chưa có ứng dụng giao chiến đủ rộng.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-045-horrea",
+      "number": 45,
+      "name_vi": "Cuarenta y Cinco. Thương Khố Mãn Mùa Horrea",
+      "finding_vi": "Kho nông sản và cứu đói; vai trò chủ đạo thuộc hậu cần dân sinh.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "phenomenon-guard-051-nubila",
+      "number": 51,
+      "name_vi": "Cincuenta y Uno. Vân Đình Giám Vũ Nubila",
+      "finding_vi": "Điều phối mưa tuyết quanh ruộng; cần thay trọng tâm sang quyền thời tiết chiến trường.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "entity-guard-053-cinis",
+      "number": 53,
+      "name_vi": "Cincuenta y Tres. Người Gác Hỏa Chủng Cinis",
+      "finding_vi": "Giữ và truyền hỏa chủng giữa các bếp; thực thể chưa có hành vi chiến đấu.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-057-follis",
+      "number": 57,
+      "name_vi": "Cincuenta y Siete. Hỏa Tuyến Phong Nang Follis",
+      "finding_vi": "Chỉ chia khí và chế độ nung trong lò; cần cơ chế tác động đối phương.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-058",
+      "number": 58,
+      "name_vi": "Cincuenta y Ocho. Đĩa Ngày Bị Tước Lịch Exilium",
+      "finding_vi": "Khôi phục chứng cứ ngày bị xóa; quyền Độc bản chưa có vai trò giao tranh rõ.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-064",
+      "number": 64,
+      "name_vi": "Sesenta y Cuatro. Hộp Thư Vắng Chủ Epistola",
+      "finding_vi": "Gửi lời thú nhận tới người vắng; quá phụ thuộc sự tự nguyện để là vũ khí cận vệ.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-079-forma",
+      "number": 79,
+      "name_vi": "Setenta y Nueve. Bách Hình Thiết Khuôn Forma",
+      "finding_vi": "Phục dựng phụ tùng; trùng vai trò xưởng và thiếu quyền trên chiến cụ đang giao tranh.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "phenomenon-guard-081-vernalis",
+      "number": 81,
+      "name_vi": "Ochenta y Uno. Hàn Tuyến Hồi Xuân Vernalis",
+      "finding_vi": "Giữ mùa sinh trưởng cho cây; thiên về nông nghiệp.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-084-seminarium",
+      "number": 84,
+      "name_vi": "Ochenta y Cuatro. Vạn Chủng Tàng Hạp Seminarium",
+      "finding_vi": "Tra lịch sử giống; thiết bị lưu trữ nông học.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-091-navicula",
+      "number": 91,
+      "name_vi": "Noventa y Uno. Thiên Lý Chỉ Chu Navicula",
+      "finding_vi": "Chỉ chuyển thư khô qua nước; trần công dụng thấp với trang bị cận vệ.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "device-guard-093-umbra",
+      "number": 93,
+      "name_vi": "Noventa y Tres. Ảnh Tuyến Thiên Chung Umbra",
+      "finding_vi": "Chỉ giữ lịch bóng mặt trời; thiếu quyền can thiệp chiến đấu.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    },
+    {
+      "id": "material-guard-098-aurea",
+      "number": 98,
+      "name_vi": "Noventa y Ocho. Mãn Kho Kim Chủng Aurea",
+      "finding_vi": "Giữ sức nảy mầm; vật liệu giống thay vì trang bị cận vệ.",
+      "decision": "redesign combat core or move civilian concept to general collection",
+      "canon": false
+    }
+  ],
+  "siete_correction": "Replace invented ordinary Fidelis dossier with manuscript-verified Absolución. Do not rename an invented power and claim canon.",
+  "naming_collisions": [
+    "Limen numbers13 and60",
+    "Epistola numbers14 and64"
+  ],
+  "published_state": "v93 remains live; this audit has not changed live dossiers",
+  "next": "Finalize combat premise, name and silhouette for each planned replacement before new illustration calls."
+}

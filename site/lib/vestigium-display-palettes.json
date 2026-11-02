@@ -1,0 +1,50 @@
+[
+  {
+    "rank": 0,
+    "name": "Rudimentary",
+    "ink": "#4b5055",
+    "wash": "#e8e5df"
+  },
+  {
+    "rank": 1,
+    "name": "Common",
+    "ink": "#5b4b36",
+    "wash": "#eee4d5"
+  },
+  {
+    "rank": 2,
+    "name": "Rare",
+    "ink": "#1b5278",
+    "wash": "#e0ebf2"
+  },
+  {
+    "rank": 3,
+    "name": "Quintessential",
+    "ink": "#633681",
+    "wash": "#eee3f4"
+  },
+  {
+    "rank": 4,
+    "name": "Wondrous",
+    "ink": "#205e49",
+    "wash": "#e0ede5"
+  },
+  {
+    "rank": 5,
+    "name": "Legendary",
+    "ink": "#79500b",
+    "wash": "#f3e7c9"
+  },
+  {
+    "rank": 6,
+    "name": "Mythic",
+    "ink": "#94243c",
+    "wash": "#f3e0e3"
+  },
+  {
+    "rank": 7,
+    "name": "Unique",
+    "ink": "#552861",
+    "wash": "#eae0ed"
+  }
+]

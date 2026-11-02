@@ -1,0 +1,29 @@
+[
+  {
+    "id": "entity-the-dew-guest",
+    "category": "entity",
+    "rarity": 0,
+    "lore_vi": "Người giữ vườn treo một mảnh khoáng trong suốt trên cửa kính để so màu trời. Sương mỗi sáng đi qua mảnh ấy, chụm thành một giọt có gương mặt mờ. Lau sạch kính, mặt lại trở về đêm sau; đem mảnh khoáng sang ô cửa mới, vị khách xuất hiện ở ô mới trước khi người giữ kịp lau dấu tay.\n\nMặt khách chỉ quay về một khe gió. Có người thấy nó già, người khác thấy như trẻ con vừa thức. Người giữ thôi lau để nhìn rõ hơn khi nhận ra chính hạt sương đang cho một thứ chưa biết hình hài mượn khuôn mặt tới thăm.",
+    "lore_en": "A gardener hung a clear mineral in a window to compare sky colours. Each morning dew crossed it and gathered into one drop with a cloudy face. Cleaned glass received the face again next night; moved to another pane, the mineral brought its guest there before the gardener could wipe his fingerprints.\n\nThe face turns only towards a draft. Some see age in it, others a child newly awake. The gardener stopped polishing for a clearer look after realising the dew itself was lending a face to something whose own shape remained unknown.",
+    "use_vi": "Tìm khe lọt khí gần trên cửa nhà kính hoặc phòng nhỏ.",
+    "use_en": "Find nearby drafts around a glasshouse window or small room.",
+    "limits_vi": "Giọt khô khiến khách rời đi cho đến khi có sương mới. Hơi thở sát kính làm nó quay về miệng người soi, gây nhầm với khe gió.",
+    "limits_en": "A dry drop sends the guest away until fresh dew arrives. Breathing close turns its face towards the viewer’s mouth and can mimic a draft.",
+    "skills": [
+      {
+        "name_vi": "Quay về khe hở",
+        "name_en": "Turn Towards the Gap",
+        "description_vi": "Để sương tụ tự nhiên qua mảnh khoáng rồi đứng lùi quan sát hướng mặt khách, lần theo khe khí gần nhất; đổi vị trí kính để kiểm lại.",
+        "description_en": "Let dew gather naturally across the mineral and step back to read its face towards the nearest air gap; change the pane’s position to verify."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mặt mượn của nước",
+        "name_en": "A Face Borrowed From Water",
+        "description_vi": "Mỗi lần chỉ một giọt có khách, dù kính phủ sương kín. Di chuyển mảnh khoáng chuyển vị trí giọt được chọn.",
+        "description_en": "Only one drop holds the guest even upon fully misted glass. Moving the mineral changes the selected drop."
+      }
+    ]
+  }
+]

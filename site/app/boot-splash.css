@@ -1,0 +1,44 @@
+.tfam-boot{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;min-height:100svh;padding:32px 20px;background:#03070c;color:#e2d7bd;text-align:center;isolation:isolate}.boot-composition{width:min(100%,520px)}.boot-emblem{display:block;width:clamp(108px,18vw,154px);height:auto;margin:0 auto 28px;color:#b4a17b;filter:drop-shadow(0 0 17px #82c7e916)}.boot-signature{font:25px Georgia,serif;letter-spacing:.32em;padding-left:.32em;margin:0 0 12px}.tfam-boot h1{font:400 clamp(17px,3vw,23px)/1.5 Georgia,serif;letter-spacing:.07em;margin:0;color:#c2cbd0}.boot-author{font:11px/1.6 Georgia,serif;letter-spacing:.16em;color:#8a9aa5;margin:10px 0 0}.boot-rule{height:1px;width:78px;background:linear-gradient(90deg,transparent,#a89772,transparent);margin:35px auto 23px}.boot-status{font:14px/1.8 Georgia,serif;letter-spacing:.025em;color:#a7bac7;margin:0}.boot-milestones{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;list-style:none;margin:22px 0 0;padding:0;font:11px/1.5 Georgia,serif;color:#718491}.boot-milestones li{display:flex;align-items:center;gap:7px;transition:color .3s}.boot-milestones i{width:4px;height:4px;display:block;border:1px solid #718491;transform:rotate(45deg);transition:background .3s,border-color .3s}.boot-milestones [data-ready=true]{color:#c0c6b9}.boot-milestones [data-ready=true] i{background:#b7a782;border-color:#b7a782}.boot-continue{margin:30px auto 0;min-height:44px;padding:10px 17px;border:1px solid #687d8b;background:#12212c;color:#d5e3e9;font:13px/1.5 Georgia,serif;cursor:pointer}.boot-continue:focus-visible{outline:2px solid #dac89e;outline-offset:5px}.world-entry.entry-checking .entry-topline,.world-entry.entry-checking .entry-snow,.world-entry.entry-checking .entry-edition,.world-entry.entry-checking .entry-grain{visibility:hidden}
+
+.entry-cube .world3d{animation:boot-seal-reveal .8s ease-out both}@keyframes boot-seal-reveal{from{opacity:0}to{opacity:1}}
+/* Keep the splash mounted throughout its exit so the seal is revealed underneath. */
+.tfam-boot:before{content:'';position:absolute;inset:-20%;z-index:-1;background:radial-gradient(ellipse at 50% 55%,#25495733,transparent 45%);opacity:.5;animation:boot-breath 6s ease-in-out infinite alternate;pointer-events:none}
+.tfam-boot .boot-emblem{animation:boot-emblem-breath 5s ease-in-out infinite alternate}
+.tfam-boot[data-leaving=true]{pointer-events:none;animation:boot-portal-open 1.8s cubic-bezier(.25,.65,.3,1) both}
+.tfam-boot[data-leaving=true] .boot-emblem{animation:boot-mark-dissolve 1.4s cubic-bezier(.2,.6,.2,1) both}
+.tfam-boot[data-leaving=true] :is(.boot-signature,h1,.boot-author,.boot-rule,.boot-status,.boot-quote,.boot-continue){animation:boot-type-dissolve .8s ease both}
+@keyframes boot-breath{to{opacity:1;transform:scale(1.08)}}
+@keyframes boot-emblem-breath{to{filter:drop-shadow(0 0 22px #8ddfff55);opacity:.8}}
+@keyframes boot-portal-open{0%,15%{opacity:1}100%{opacity:0}}
+@keyframes boot-mark-dissolve{0%{opacity:1;transform:scale(1)}45%{opacity:1;transform:scale(1.12)}100%{opacity:0;transform:scale(1.65)}}
+@keyframes boot-type-dissolve{to{opacity:0;transform:translateY(-8px)}}
+.cinematic-upgrade .scene-layer,.cinematic-upgrade .scene-in,.cinematic-upgrade .scene-out,.cinematic-upgrade .transition-veil{animation:none!important}
+.cinematic-upgrade .transition-veil{background:radial-gradient(ellipse at 35% 45%,#1a3542,#070e16 65%,#03070c);will-change:opacity}
+.cinematic-upgrade .scene-layer{will-change:opacity,transform}
+.cinematic-upgrade .world3d{animation:none!important}
+
+
+/* Three clauses light up cumulatively as real boot prerequisites settle. */
+.boot-quote{max-width:510px;margin:25px auto 0;font:italic 400 clamp(16px,2.1vw,20px)/1.85 var(--reading-font),Georgia,serif;letter-spacing:.01em;text-wrap:balance}
+.boot-quote span{display:block;color:#657580;text-shadow:none;transition:color 1.2s ease,text-shadow 1.2s ease}
+.boot-quote span[data-ready=true]{color:#e1d8c3;text-shadow:0 0 16px #b9dfee38,0 0 32px #9acbd21c}
+@media(max-width:560px){.boot-quote{max-width:360px;font-size:16px;line-height:1.8}.boot-quote span:last-child{max-width:32ch;margin:auto}}
+
+/* The opening is staged over a vast frozen plain; the emblem is a separate alpha asset. */
+.tfam-boot{overflow:auto;background:radial-gradient(ellipse at 50% 48%,#02071370 0%,#02071330 52%,transparent 85%),linear-gradient(180deg,#02081399,#03101d99 50%,#020a15dd),url('/decor/frozen-plain-opening-v1.webp') center 62%/cover no-repeat #050e1b;padding:30px clamp(22px,5vw,90px)}
+.tfam-boot:before{inset:0;background:radial-gradient(ellipse at 50% 36%,#b7ddff18,transparent 50%);animation:boot-breath 8s ease-in-out infinite alternate}
+.boot-composition{position:relative;width:min(100%,1360px);padding:15px 0}
+.tfam-boot .boot-emblem-sculpted{width:clamp(150px,24vh,280px);height:auto;margin:0 auto 20px;filter:drop-shadow(0 8px 20px #02050bd9) drop-shadow(0 0 28px #a4d9f33b);animation:boot-emblem-float 7s ease-in-out infinite}
+.tfam-boot h1{font:400 clamp(22px,3vw,42px)/1.35 var(--reading-font),Georgia,serif;letter-spacing:.07em;color:#edf3f3;text-shadow:0 2px 18px #000b}
+.tfam-boot .boot-author{color:#e0e5e8;text-shadow:0 1px 8px #000;letter-spacing:.22em}
+.tfam-boot .boot-rule{margin:24px auto 16px;width:110px}
+.tfam-boot .boot-status{color:#e0e9ef;text-shadow:0 2px 10px #000}
+.tfam-boot .boot-quote{max-width:1280px;margin:clamp(28px,5vh,60px) auto 0;font-size:clamp(18px,1.9vw,27px);line-height:1.9;letter-spacing:.012em;text-wrap:balance}
+.tfam-boot .boot-quote span{display:inline;color:#ced8df;text-shadow:0 2px 10px #020713}
+.tfam-boot .boot-quote span[data-ready=true]{color:#fff0d4;text-shadow:0 0 16px #c6eaff66,0 2px 10px #020713}
+@keyframes boot-emblem-float{0%,100%{transform:translate3d(0,0,0) rotate(-1deg)}50%{transform:translate3d(0,-9px,0) rotate(1deg)}}
+.tfam-boot[data-leaving=true] .boot-emblem-sculpted{animation:boot-mark-dissolve 1.4s cubic-bezier(.2,.6,.2,1) both}
+@media(max-width:600px){.tfam-boot{background-position:52% center;padding:25px 22px}.tfam-boot .boot-emblem-sculpted{width:clamp(145px,24svh,210px)}.tfam-boot .boot-quote{max-width:100%;font-size:18px;line-height:1.85}.tfam-boot .boot-quote span:last-child{max-width:none;margin:0}.tfam-boot h1{font-size:25px;letter-spacing:.025em}}
+@media(max-height:650px) and (min-width:700px){.tfam-boot .boot-emblem-sculpted{width:125px;margin-bottom:12px}.tfam-boot .boot-quote{margin-top:24px;font-size:20px}.tfam-boot .boot-rule{margin:16px auto 12px}.boot-continue{margin-top:15px}}
+
+.boot-film-load{margin:20px auto 0;max-width:320px;color:#e4ecef;font-size:14px;text-shadow:0 2px 8px #000}.boot-film-load p{margin:0 0 10px}.boot-film-load progress{display:block;width:100%;height:3px;accent-color:#d7c7a8}

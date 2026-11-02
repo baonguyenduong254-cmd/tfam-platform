@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-redmarrow-bulb",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Những củ hành đầu tiên mọc trong túi đất khâu từ áo người giữ vườn đã chết rét. Trong túi có bột khoáng đỏ ông dùng thử cho luống ươm. Khi đất đóng cứng, rễ hành xoắn quanh từng hạt khoáng, còn phần tủy chia thành những vòng đỏ sẫm giữ hơi ấm của da áo.\n\nNgười con đem túi vào nhà rồi phát hiện củ hành hút lạnh khỏi bầu đất bên cạnh. Đặt lại ra rét, chúng nhả hơi ấm ấy xuống rễ. Các lứa sau tiếp tục chu kỳ, mỗi lần bớt một vòng đỏ, như những mẩu than được chôn để giữ một khu vườn qua đêm.",
+    "lore_en": "The first bulbs grew in a soil pouch sewn from the coat of a gardener who had frozen to death. It held red mineral powder he had been testing in nursery beds. As earth hardened, onion roots twisted around each grain and their marrow divided into dark red rings retaining the coat’s last warmth.\n\nHis child brought the pouch indoors and found the bulbs drawing cold away from the neighbouring root ball. Set back into frost, they released warmth around their roots. Later crops continued the cycle, losing one red ring each time, like little buried coals keeping a garden through the night.",
+    "use_vi": "Đệm nhiệt cho bầu ươm và đánh dấu củ đã cạn qua vòng tủy.",
+    "use_en": "Buffer nursery-root temperatures and show spent bulbs through their marrow rings.",
+    "limits_vi": "Chỉ bảo vệ vùng đất sát củ; củ cần được hồi trong đất ấm giữa các lượt. Bóc vỏ làm chu kỳ hỏng, ăn phải gây nôn và cây có thể cạn sau nhiều đêm rét.",
+    "limits_en": "Only nearby soil is protected; bulbs need recovery in warm earth between uses. Peeling breaks the cycle, ingestion causes vomiting, and repeated freezing nights can exhaust them.",
+    "skills": [
+      {
+        "name_vi": "Ủ bầu",
+        "name_en": "Warm the Root Ball",
+        "description_vi": "Chôn củ nguyên vỏ cạnh rễ cây con để tủy nhả nhiệt khi đất lạnh; nhiều củ đặt sát nhau sẽ cạn cùng lúc nên cần chia lượt.",
+        "description_en": "Bury an unpeeled bulb beside a seedling’s roots so its marrow releases warmth as soil chills; tightly grouped bulbs exhaust together and should be staggered."
+      },
+      {
+        "name_vi": "Hồi tủy",
+        "name_en": "Restore the Marrow",
+        "description_vi": "Chuyển củ còn vòng đỏ vào đất ấm cho nó hút lại nhiệt rồi mới đem ra luống; vòng đã bạc vĩnh viễn sẽ giữ nguyên dấu cạn.",
+        "description_en": "Move a bulb retaining red rings into warm earth to regain heat before returning it to the bed; permanently pale rings remain as exhaustion marks."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vòng tủy đếm đêm",
+        "name_en": "Marrow Rings Count the Nights",
+        "description_vi": "Vòng đỏ nhạt sau mỗi lượt, giúp người trồng thay củ trước khi đêm xuống.",
+        "description_en": "Red rings pale with each cycle, letting growers replace bulbs before nightfall."
+      }
+    ]
+  }
+]

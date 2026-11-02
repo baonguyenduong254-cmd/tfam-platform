@@ -1,0 +1,114 @@
+{
+  "completed": [
+    "armament-edward-academy-sabre",
+    "armament-gam-bao",
+    "armament-gleipnir",
+    "armament-marco-octava-forja",
+    "armament-northwall",
+    "armament-romeo-oathbreaker",
+    "armament-skoll-hati",
+    "armament-victoria-academy-sabre",
+    "armament-winterthorn",
+    "armament-oathbearer",
+    "armament-collection-0-01",
+    "armament-collection-0-02",
+    "armament-collection-0-03",
+    "armament-collection-0-04",
+    "armament-collection-0-05",
+    "armament-collection-0-06",
+    "armament-collection-0-07",
+    "armament-collection-0-08",
+    "armament-collection-1-01",
+    "armament-collection-1-02",
+    "armament-collection-1-03",
+    "armament-collection-1-04",
+    "armament-collection-1-05",
+    "armament-collection-1-06",
+    "armament-collection-1-07",
+    "armament-collection-1-08",
+    "armament-collection-2-01",
+    "armament-collection-2-02",
+    "armament-collection-2-03",
+    "armament-collection-2-04",
+    "armament-collection-2-05",
+    "armament-collection-2-06",
+    "armament-collection-2-07",
+    "armament-collection-2-08",
+    "armament-collection-3-01",
+    "armament-collection-3-02",
+    "armament-collection-3-03",
+    "armament-collection-3-04",
+    "armament-collection-3-05",
+    "armament-collection-3-06",
+    "armament-collection-3-07",
+    "armament-collection-3-08",
+    "armament-collection-5-01",
+    "armament-collection-5-02",
+    "armament-collection-5-03",
+    "armament-collection-5-04",
+    "armament-collection-5-05",
+    "armament-collection-5-06",
+    "armament-collection-5-07",
+    "armament-collection-5-08",
+    "armament-collection-6-01",
+    "armament-collection-6-02",
+    "armament-collection-6-03",
+    "armament-collection-6-05",
+    "armament-collection-6-07",
+    "armament-collection-7-01",
+    "armament-collection-7-03"
+  ],
+  "missing": [
+    "armament-collection-6-04",
+    "armament-collection-6-06",
+    "armament-collection-6-08",
+    "armament-collection-7-02",
+    "armament-collection-7-04",
+    "armament-collection-7-05",
+    "armament-collection-7-06",
+    "armament-collection-7-07",
+    "armament-collection-7-08"
+  ],
+  "errors": [
+    {
+      "id": "armament-collection-7-05",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84599}}\")"
+    },
+    {
+      "id": "armament-collection-7-07",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84598}}\")"
+    },
+    {
+      "id": "armament-collection-6-04",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84603}}\")"
+    },
+    {
+      "id": "armament-collection-6-06",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84599}}\")"
+    },
+    {
+      "id": "armament-collection-6-08",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84598}}\")"
+    },
+    {
+      "id": "armament-collection-7-02",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84598}}\")"
+    },
+    {
+      "id": "armament-collection-7-04",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84597}}\")"
+    },
+    {
+      "id": "armament-collection-7-06",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368602,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84597}}\")"
+    },
+    {
+      "id": "armament-collection-7-08",
+      "error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1792368601,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":84596}}\")"
+    }
+  ],
+  "qa_errors": [],
+  "nontransparent": [],
+  "blocker": "HTTP 429 usage_limit_reached",
+  "reset_utc": "2026-10-19T00:10:01+00:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "src": "audio/soundtrack/midnight-at-the-iron-gate.m4a",
+    "title": "Midnight at the Iron Gate",
+    "original": "midnight-at-the-iron-gate.mp3"
+  },
+  {
+    "src": "audio/soundtrack/empire-beneath-the-ice.m4a",
+    "title": "Empire Beneath the Ice",
+    "original": "empire-beneath-the-ice.mp3"
+  },
+  {
+    "src": "audio/soundtrack/i-will-remain.m4a",
+    "title": "I Will Remain",
+    "original": "I_Will_Remain.mp3"
+  },
+  {
+    "src": "audio/soundtrack/snow-on-the-plaza-steps.m4a",
+    "title": "Snow on the Plaza Steps",
+    "original": "Snow_on_the_Plaza_Steps.mp3"
+  },
+  {
+    "src": "audio/soundtrack/the-glass-meridian.m4a",
+    "title": "The Glass Meridian",
+    "original": "The_Glass_Meridian.mp3"
+  },
+  {
+    "src": "audio/soundtrack/a-map-of-a-lifetime.m4a",
+    "title": "A Map of a Lifetime",
+    "original": "A_Map_of_a_Lifetime.mp3"
+  },
+  {
+    "src": "audio/soundtrack/relics-of-the-sunken-hall.m4a",
+    "title": "Relics of the Sunken Hall",
+    "original": "Relics_of_the_Sunken_Hall.mp3"
+  }
+]

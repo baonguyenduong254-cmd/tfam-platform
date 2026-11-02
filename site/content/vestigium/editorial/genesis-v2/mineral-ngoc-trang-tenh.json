@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mineral-ngoc-trang-tenh",
+    "category": "mineral",
+    "rarity": 5,
+    "lore_vi": "Ngọc được lấy từ khoang rỗng giữa một khối đá trắng đã bị sét chẻ. Người mở đá thấy mảnh giấy gói dụng cụ bay vào khoang rồi đứng im, mép giấy rung ở ngoài mà phần lọt bên trong phẳng như đã vẽ. Tiếng búa tiếp theo mất nửa chừng: cán búa còn giật trong tay, đầu búa chạm đá như trong một giấc mơ câm.\n\nVòng khoáng quanh khoang lớn từ hai vách ép vào nhau, giữ một khoảng trống chưa từng chịu khép. Bụi trong lõi xếp thành vòng trên vòng, mỗi hạt đứng cách hạt sau một khoảng giống hệt. Người cắt mẫu nhận ra thứ kết tinh ở đó là sự ngắt quãng: đá đang ôm lấy nơi một chuyển động tới rồi thôi được truyền đi. Khi xỏ dây qua tâm, hai đầu vẫn kéo lẫn nhau, còn rung động có thể bị để lại ở miệng lỗ.\n\nNgọc Trắng Tênh đã cứu những ống kính đặt trên thành bị pháo kích, giữ bàn tay thầy thuốc yên giữa boong tàu gãy. Trong kho khảo nghiệm, có một viên bị bọc kín từ ngày con chim đậu trên giá hót mà cả căn phòng chỉ thấy ngực nó phập phồng. Người nuôi nghe lại bài hót ấy trong răng mình suốt ba đêm sau khi tháo dây nối.",
+    "lore_en": "The gem was taken from a hollow inside a white rock split by lightning. Its opener saw wrapping paper fly into the cavity and stand still, its outer edge trembling while the portion within lay flat as a drawing. The next hammerstroke lost itself halfway: the handle jolted in his hand, its head met stone in a mute dream.\n\nThe mineral ring had grown from two walls pressing together around an emptiness that never quite closed. Dust within its core stood in concentric circles, every grain equally spaced from the next. Cutters realised that an interruption had crystallised there: stone enclosed a place where motion arrived and ceased to be transmitted. Thread through its centre still pulled at both ends, while vibration could be left at the mouth.\n\nStillwhite Gems have saved lenses upon shelled ramparts and steadied a surgeon’s hands aboard a breaking ship. A testing-house specimen has remained wrapped since a perched bird sang and the room saw only its breast moving. After removing the connecting thread, its keeper heard that song in his teeth for three nights.",
+    "use_vi": "Đặt ranh ngắt truyền rung hoặc chấn động trên đường nối đã chọn, giữ tải tĩnh trong lúc tách phần chuyển động gây hại.",
+    "use_en": "Place an interruption in vibration or shock along a chosen connection, preserving static load while separating harmful transmitted motion.",
+    "limits_vi": "Phải có đường nối vật chất qua tâm và hai phía được xác định. Chuyển động bị ngắt tích thành những vòng bụi; khi đầy, ngọc đục và phải được xả vào vật nhận thích hợp. Dùng trên cơ thể có thể tách nhịp cảm giác khỏi cử động, gây thương tích mà người dùng nhận ra muộn.",
+    "limits_en": "A material connection through the centre and two defined sides are required. Interrupted motion accumulates as dust rings; once full, the gem clouds and must discharge into a suitable receiver. Bodily use can separate sensation’s rhythm from movement, delaying awareness of injury.",
+    "skills": [
+      {
+        "name_vi": "Xâu tâm",
+        "name_en": "Thread the Centre",
+        "description_vi": "Luồn dây liền qua tâm rồi làm lạnh đều để tạo ranh giữa hai phía; sợi bị cọ vào mép nứt có thể mở lối rung vòng ngoài.",
+        "description_en": "Pass a continuous cord through the centre and cool it evenly to establish a boundary; rubbing against a chipped edge can open a bypass for vibration.",
+        "group_vi": "Dựng ranh",
+        "group_en": "Establish the Boundary"
+      },
+      {
+        "name_vi": "Chọn phía yên",
+        "name_en": "Choose the Quiet Side",
+        "description_vi": "Đánh dấu đầu dây cần bảo vệ bằng phấn trắng để bụi trong lõi nghiêng khỏi phía ấy; đổi đầu phải xả lượng đang giữ trước.",
+        "description_en": "Mark the protected cord end with white chalk so core dust leans away from it; reversing ends requires prior discharge.",
+        "group_vi": "Dựng ranh",
+        "group_en": "Establish the Boundary"
+      },
+      {
+        "name_vi": "Đọc vòng bụi",
+        "name_en": "Read the Dust Rings",
+        "description_vi": "Soi tâm ngọc dưới ánh xiên để đếm vòng mới sau một cú rung, ước phần dung lượng đã dùng; vòng chồng đục báo cần xả ngay.",
+        "description_en": "Light the centre obliquely to count fresh rings after a shock and estimate spent capacity; cloudy overlap warns that discharge is due.",
+        "group_vi": "Dựng ranh",
+        "group_en": "Establish the Boundary"
+      },
+      {
+        "name_vi": "Tách lối vòng",
+        "name_en": "Remove the Bypass",
+        "description_vi": "Chạm ngọc lần lượt lên các điểm đỡ để tìm rung đang đi quanh đường nối, rồi bỏ tiếp xúc dư; thao tác cần vật đang rung ở mức thử nhẹ.",
+        "description_en": "Touch the gem to supports in turn to find vibration bypassing the link, then remove surplus contact; testing requires only a mild reference vibration.",
+        "group_vi": "Dựng ranh",
+        "group_en": "Establish the Boundary"
+      },
+      {
+        "name_vi": "Dây treo tĩnh",
+        "name_en": "The Still Suspension",
+        "description_vi": "Treo dụng cụ bằng dây qua tâm để thân nó yên hơn nền đang rung; tải vẫn do dây chịu và cần kiểm sợi thật.",
+        "description_en": "Suspend an instrument on cord through the centre to still it against a vibrating base; the cord still bears its weight and needs inspection.",
+        "group_vi": "Giữ dụng cụ",
+        "group_en": "Keep the Instrument"
+      },
+      {
+        "name_vi": "Kim không giật",
+        "name_en": "The Unjolted Needle",
+        "description_vi": "Đặt ngọc giữa giá kim và máy để giữ những cú rung khỏi kim đo, cho đọc phần biến đổi chậm; thay đổi quá nhanh cũng bị giữ và có thể bị bỏ sót.",
+        "description_en": "Place the gem between a needle mount and machine to keep jolts from a gauge and read slow change; rapid changes are also held and may be missed.",
+        "group_vi": "Giữ dụng cụ",
+        "group_en": "Keep the Instrument"
+      },
+      {
+        "name_vi": "Gương qua pháo",
+        "name_en": "Mirror Through the Guns",
+        "description_vi": "Nối gương quan sát qua giá có tâm ngọc để hình bớt nhảy khi nền chịu chấn; vòng bụi đầy giữa trận sẽ trả rung về giá.",
+        "description_en": "Mount an observing mirror through the gem to reduce image jumps under ground shock; a core filled during battle returns vibration to its mount.",
+        "group_vi": "Giữ dụng cụ",
+        "group_en": "Keep the Instrument"
+      },
+      {
+        "name_vi": "Cân giữa sóng",
+        "name_en": "Scales Amid the Waves",
+        "description_vi": "Tách rung mặt cân khỏi thanh treo để so mẫu trong khoảng tàu lắc nhẹ; độ nghiêng toàn tàu vẫn phải được bù bằng giá thực.",
+        "description_en": "Separate a scale pan’s vibration from its suspension for comparison during mild ship motion; whole-vessel tilt still needs a real levelling mount.",
+        "group_vi": "Giữ dụng cụ",
+        "group_en": "Keep the Instrument"
+      },
+      {
+        "name_vi": "Cổ tay yên",
+        "name_en": "The Still Wrist",
+        "description_vi": "Người dùng đặt cổ tay lên đệm nối qua ngọc để rung tay chảy vào vòng bụi; phải nhìn trực tiếp vì cảm giác rung đã bị tách.",
+        "description_en": "Rest the wrist on a pad linked through the gem so tremor enters the dust rings; direct sight is essential because vibration sensation is separated.",
+        "group_vi": "Bàn tay làm việc",
+        "group_en": "The Working Hand"
+      },
+      {
+        "name_vi": "Lưỡi khắc nhỏ",
+        "name_en": "The Fine Graving Edge",
+        "description_vi": "Nối cán khắc qua tâm để nhát khắc đi chậm và khỏi truyền rung ngược; lực đẩy quá mạnh vẫn làm lưỡi gãy.",
+        "description_en": "Link a graver’s handle through the centre for a slow stroke without returning vibration; excessive pressure still breaks its edge.",
+        "group_vi": "Bàn tay làm việc",
+        "group_en": "The Working Hand"
+      },
+      {
+        "name_vi": "Vết cắt trên boong",
+        "name_en": "The Cut Upon the Deck",
+        "description_vi": "Gắn bàn dụng cụ qua bốn dây tâm ngọc đã cùng chọn phía để giữ vùng thao tác giữa chấn động; lệch một dây tạo cú xoắn khó lường.",
+        "description_en": "Suspend a working surface on four gem-centred cords with matching protected sides to steady it through shock; one reversed cord creates unpredictable twist.",
+        "group_vi": "Bàn tay làm việc",
+        "group_en": "The Working Hand"
+      },
+      {
+        "name_vi": "Băng đỡ",
+        "name_en": "The Supporting Sling",
+        "description_vi": "Nối băng treo chi bị thương qua ngọc để tránh rung đường xa truyền vào xương; cần kiểm tuần hoàn vì cơn đau bị làm mờ có thể che băng quá chặt.",
+        "description_en": "Link an injured limb’s sling through the gem to reduce journey vibration entering bone; check circulation because dulled pain can conceal excessive tightness.",
+        "group_vi": "Bàn tay làm việc",
+        "group_en": "The Working Hand"
+      },
+      {
+        "name_vi": "Đệm một lần",
+        "name_en": "The Single-Shock Pad",
+        "description_vi": "Đặt ngọc trong đệm được neo để giữ một cú đập đi qua điểm đó; lực chậm sau va chạm tiếp tục truyền và có thể ép sập đệm.",
+        "description_en": "Set the gem in an anchored pad to hold one impact crossing it; subsequent slow force still passes and can crush the pad.",
+        "group_vi": "Chặn cú đến",
+        "group_en": "Intercept the Arrival"
+      },
+      {
+        "name_vi": "Dây cứu khỏi giật",
+        "name_en": "The Unsnatching Rescue Line",
+        "description_vi": "Xâu dây cứu qua tâm trước khi căng để cú chùng rồi giật được giữ khỏi người bám; tải treo cần được hệ neo thường chịu.",
+        "description_en": "Thread a rescue line before tensioning so slack-line shock is kept from its passenger; the suspended load needs an ordinary anchorage.",
+        "group_vi": "Chặn cú đến",
+        "group_en": "Intercept the Arrival"
+      },
+      {
+        "name_vi": "Chân giá chịu nổ",
+        "name_en": "The Blast-Bearing Mount",
+        "description_vi": "Nối một chân giá quan trọng qua ngọc để ngắt chấn truyền từ nền khi nổ xa; mảnh văng và sóng khí vẫn phải có tường che.",
+        "description_en": "Link a critical mount leg through the gem to interrupt ground shock from a distant blast; fragments and air pressure still require cover.",
+        "group_vi": "Chặn cú đến",
+        "group_en": "Intercept the Arrival"
+      },
+      {
+        "name_vi": "Giữ bình khỏi vỡ",
+        "name_en": "Keep the Vessel Whole",
+        "description_vi": "Đặt bình mỏng trên ổ nối qua tâm để một cú va vào bàn được giữ lại; bình chạm thẳng vách bên sẽ nhận lực theo lối khác.",
+        "description_en": "Set a delicate vessel on a gem-linked rest to hold a blow striking its table; direct contact with a sidewall admits another force path.",
+        "group_vi": "Chặn cú đến",
+        "group_en": "Intercept the Arrival"
+      },
+      {
+        "name_vi": "Dây câm",
+        "name_en": "The Mute Cord",
+        "description_vi": "Xâu dây truyền động qua tâm để giữ tiếng rung khỏi đầu nhận mà vẫn truyền kéo chậm; tiếng phát qua không khí quanh máy vẫn còn.",
+        "description_en": "Thread a drive cord to hold vibration from its receiving end while passing slow pull; airborne machine sound remains.",
+        "group_vi": "Đường âm bị ngắt",
+        "group_en": "The Interrupted Sound Path"
+      },
+      {
+        "name_vi": "Bản đàn chia tiếng",
+        "name_en": "The Divided Soundboard",
+        "description_vi": "Đặt ngọc tại một điểm nối nhạc cụ để thử tách phần rung của một thanh, nghe cấu trúc còn lại; phần đã giữ cần xả sau khi thử.",
+        "description_en": "Place the gem at an instrument joint to separate one bar’s vibration and hear the remaining structure; retained sound must be discharged afterwards.",
+        "group_vi": "Đường âm bị ngắt",
+        "group_en": "The Interrupted Sound Path"
+      },
+      {
+        "name_vi": "Giọng kín qua cổ",
+        "name_en": "The Enclosed Throat",
+        "description_vi": "Nối một vòng đỡ ngoài cổ qua ngọc để làm tiếng nói nhỏ đi trong vật dẫn khi cần làm việc yên; siết vòng hoặc giữ quá lâu có thể gây tổn thương nên phải tháo ngay khi khó chịu.",
+        "description_en": "Link an external neck support through the gem to quiet conducted speech during silent work; tightening or prolonged use can injure and requires removal at discomfort.",
+        "group_vi": "Đường âm bị ngắt",
+        "group_en": "The Interrupted Sound Path"
+      },
+      {
+        "name_vi": "Gác chuông",
+        "name_en": "Stay the Bell",
+        "description_vi": "Nối quả lắc qua tâm trong lúc bảo dưỡng để một cú chạm nhầm khỏi làm chuông ngân; quả lắc vẫn có thể làm nứt đồng nếu bị đẩy mạnh.",
+        "description_en": "Link a clapper through the centre during maintenance to keep an accidental touch from ringing the bell; a forceful push can still crack bronze.",
+        "group_vi": "Đường âm bị ngắt",
+        "group_en": "The Interrupted Sound Path"
+      },
+      {
+        "name_vi": "Giá trồng yên",
+        "name_en": "The Still Growing Frame",
+        "description_vi": "Nối khay cây mảnh qua ngọc để rung xưởng khỏi làm gãy chồi, giữ nguyên dòng tưới qua ống mềm riêng; ống cứng có thể trở thành lối rung vòng.",
+        "description_en": "Link a tray of delicate plants through the gem to keep workshop vibration from snapping shoots, with a separate soft watering tube; a rigid tube can bypass the boundary.",
+        "group_vi": "Tách môi trường",
+        "group_en": "Separate the Surroundings"
+      },
+      {
+        "name_vi": "Bình dịch lặng",
+        "name_en": "The Quiet Fluid Vessel",
+        "description_vi": "Treo bình dịch qua tâm để rung nền không khuấy cặn đang lắng; người mở nắp vẫn có thể khuấy bằng chuyển động trực tiếp.",
+        "description_en": "Suspend a fluid vessel through the centre so ground vibration does not disturb settling sediment; opening it can still stir the contents directly.",
+        "group_vi": "Tách môi trường",
+        "group_en": "Separate the Surroundings"
+      },
+      {
+        "name_vi": "Tổ trứng",
+        "name_en": "The Egg Cradle",
+        "description_vi": "Nối giá trứng qua ngọc để vận chuyển qua nền xóc mà bớt truyền rung vào vỏ; cần giữ nhiệt riêng và kiểm các dây chịu tải.",
+        "description_en": "Link an egg cradle through the gem to reduce transmitted jolts over rough ground; warmth and load-bearing cords require separate care.",
+        "group_vi": "Tách môi trường",
+        "group_en": "Separate the Surroundings"
+      },
+      {
+        "name_vi": "Chốt không bật",
+        "name_en": "The Unjolted Latch",
+        "description_vi": "Đặt dây chốt qua tâm để rung tàu khỏi làm lẫy nhảy, trong khi tay kéo chậm vẫn mở được; tay giật nhanh có thể bị ngọc giữ nhầm.",
+        "description_en": "Run a latch cord through the centre to stop ship vibration from bouncing its catch while allowing slow manual release; a quick yank may be held by mistake.",
+        "group_vi": "Tách môi trường",
+        "group_en": "Separate the Surroundings"
+      },
+      {
+        "name_vi": "Dẫn vào cát",
+        "name_en": "Lead It Into Sand",
+        "description_vi": "Đổi đầu xả sang một túi cát đã neo rồi làm ấm từ ngoài vào để rung tích trút ra từng lớp; túi phải còn nguyên và chừa khoảng dồn cát.",
+        "description_en": "Join the discharge end to an anchored sandbag and warm from outside inward to release stored vibration in layers; the bag must stay intact with room for displaced sand.",
+        "group_vi": "Chuyển phần đã giữ",
+        "group_en": "Move What Was Held"
+      },
+      {
+        "name_vi": "Gõ trả",
+        "name_en": "Knock It Back",
+        "description_vi": "Chọn một vòng bụi bằng đầu kim lạnh rồi nhả nó vào tấm thử để tái hiện một cú rung đã nhận; vòng nằm sâu có thể kéo lớp ngoài cùng tỉnh theo.",
+        "description_en": "Select a dust ring with a cold needle and release it into a test plate to reproduce one received shock; a deep ring can wake outer layers along with it.",
+        "group_vi": "Chuyển phần đã giữ",
+        "group_en": "Move What Was Held"
+      },
+      {
+        "name_vi": "Chuyền ranh",
+        "name_en": "Pass the Boundary",
+        "description_vi": "Cho viên thứ hai cùng nhận dây trước khi làm ấm viên đầu để chuyển tải giữ sang ranh mới; cả hai phải có cùng phía bảo vệ.",
+        "description_en": "Let a second gem accept the cord before warming the first to transfer retained motion to a fresh boundary; both require matching protected sides.",
+        "group_vi": "Chuyển phần đã giữ",
+        "group_en": "Move What Was Held"
+      },
+      {
+        "name_vi": "Cân phần im",
+        "name_en": "Weigh the Silence",
+        "description_vi": "Xả một phần nhỏ lên quả lắc chuẩn để đo mức rung đang giữ qua biên độ, rồi dừng trước khi trút hết; phép thử tự tiêu phần mẫu đã xả.",
+        "description_en": "Release a small part into a reference pendulum to gauge retained vibration by amplitude, stopping before full discharge; testing consumes the released sample.",
+        "group_vi": "Chuyển phần đã giữ",
+        "group_en": "Move What Was Held"
+      },
+      {
+        "name_vi": "Mở từ xa",
+        "name_en": "Open at a Distance",
+        "description_vi": "Buộc dây làm ấm vào đầu xả để người giữ đứng ngoài vùng rung khi ranh mở; dây hỏng có thể khiến chỉ một nửa lõi thức.",
+        "description_en": "Fit a warming lead to the discharge end so the keeper stands outside the vibration zone as the boundary opens; a damaged lead may wake only half the core.",
+        "group_vi": "Mở lại chuyển động",
+        "group_en": "Restore Motion"
+      },
+      {
+        "name_vi": "Trả cảm giác",
+        "name_en": "Restore Sensation",
+        "description_vi": "Sau dùng trên băng đỡ, mở ranh chậm khi chi đã được kê chắc để cảm giác trở lại từng phần; người chăm theo dõi đau và sưng đang lộ ra.",
+        "description_en": "After sling use, open the boundary slowly with the limb securely supported so sensation returns in stages; carers monitor newly revealed pain and swelling.",
+        "group_vi": "Mở lại chuyển động",
+        "group_en": "Restore Motion"
+      },
+      {
+        "name_vi": "Lõi sáng lại",
+        "name_en": "The Cleared Core",
+        "description_vi": "Xả các vòng bụi đến khi tâm trong rồi để ngọc nguội đều trước khi nhận tải mới; lõi còn đục báo vẫn có chuyển động chưa về nơi nhận.",
+        "description_en": "Discharge rings until the centre clears, then cool evenly before receiving fresh loads; remaining cloud warns of motion still awaiting a receiver.",
+        "group_vi": "Mở lại chuyển động",
+        "group_en": "Restore Motion"
+      },
+      {
+        "name_vi": "Tháo sợi cuối",
+        "name_en": "Remove the Final Thread",
+        "description_vi": "Tháo dây qua tâm chỉ sau khi ngọc đã rỗng và vật được đặt đỡ thật, kết ranh mà không trả cú rung dồn vào người đang cầm.",
+        "description_en": "Remove the thread only once the gem is empty and the object has real support, ending the boundary without sending accumulated shock into its holder.",
+        "group_vi": "Mở lại chuyển động",
+        "group_en": "Restore Motion"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Rỗng mà còn nối",
+        "name_en": "Empty Yet Connected",
+        "description_vi": "Lực kéo chậm vẫn qua được trong khi rung bị giữ lại. Mỗi cách đặt đường nối chọn thứ được truyền và thứ nằm lại; nhầm phía có thể gửi cú xả về chính người đang được bảo vệ.",
+        "description_en": "Slow tension can pass while vibration remains held. Connection geometry chooses what travels and what stays; reversing its sides can discharge into the person being protected."
+      }
+    ]
+  }
+]

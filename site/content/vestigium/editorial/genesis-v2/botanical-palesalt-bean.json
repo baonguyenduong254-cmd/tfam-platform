@@ -1,0 +1,35 @@
+[
+  {
+    "id": "botanical-palesalt-bean",
+    "category": "botanical",
+    "rarity": 1,
+    "lore_vi": "Giàn đậu mọc trên nền kho muối từng giữ những thùng khoáng từ biển sâu. Rễ hút nước qua bột trắng bám đáy thùng, còn vỏ quả sinh những đường xoắn li ti. Người trồng nếm hạt rồi nhổ ra vì lưỡi tê; trên vỏ, muối đang nổi thành sợi dài như chữ viết.\n\nCác lứa sau đưa muối trong nước tưới ra ngoài vỏ thay vì giữ trong mô. Một người đi biển mang về cả dây đậu để cứu khu vườn bị nước mặn tràn. Cây giữ được vài chậu non qua đợt ấy; vỏ quả trắng kín khiến người chăm biết phải thu chúng trước khi chúng rạn ra trên đất.",
+    "lore_en": "A bean vine grew upon a salt store floor that had held barrels of deep-sea minerals. Roots drank through white powder at their bottoms, and pods developed tiny spirals. A grower tasted a seed and spat it out with a numb tongue; salt was rising upon its shell in long writing-like threads.\n\nLater crops moved irrigation salt onto their pod surfaces instead of retaining it in their tissues. A sailor brought a whole vine home to save a garden flooded by seawater. It preserved several young pots; white-encrusted shells told their keeper to harvest them before they cracked over the earth.",
+    "use_vi": "Rút bớt muối khỏi một lượng nước tưới nhỏ và biểu thị lượng tích tụ trên vỏ quả.",
+    "use_en": "Remove some salt from a small irrigation supply and display accumulation upon pod shells.",
+    "limits_vi": "Khả năng hút hữu hạn theo vụ; vỏ đầy sẽ rạn và trả muối. Hạt gây tê, tránh ăn; nước đã qua cây vẫn phải được kiểm trước mọi mục đích uống.",
+    "limits_en": "Uptake is limited per crop; full shells crack and return salt. Seeds cause numbness and must not be eaten; treated water still requires testing before any drinking use.",
+    "skills": [
+      {
+        "name_vi": "Cuốn muối",
+        "name_en": "Wind the Salt",
+        "description_vi": "Tưới lượng nhỏ qua rễ để quả còn non kéo muối lên vỏ; ngừng tưới khi đường xoắn chạm nhau báo quả gần đầy.",
+        "description_en": "Water sparingly through the roots so young pods draw salt onto their shells; stop when the spirals meet and warn that a pod is nearly full."
+      },
+      {
+        "name_vi": "Thu vỏ trắng",
+        "name_en": "Harvest the White Shell",
+        "description_vi": "Cắt quả đã đầy rồi phơi riêng để muối tiếp tục nổi khỏi vỏ trong lần khô cuối; quả thu xong thôi hút muối mới từ nước.",
+        "description_en": "Cut full pods and dry them separately so their salt continues rising during the final drying; harvested pods cease taking new salt from water."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vỏ giữ biển",
+        "name_en": "Shells Hold the Sea",
+        "description_vi": "Muối đóng thành đường xoắn có thể thu riêng; bẻ vỏ ngay trên chậu sẽ làm hỏng phần nước vừa cứu.",
+        "description_en": "Salt forms harvestable spirals; breaking shells over a pot spoils the water just reclaimed."
+      }
+    ]
+  }
+]

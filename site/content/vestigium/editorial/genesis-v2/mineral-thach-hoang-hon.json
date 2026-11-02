@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-thach-hoang-hon",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Một ngọn tháp ven biển từng nuôi lửa trong chóa thạch anh hồng để dẫn tàu qua bãi đá. Vào buổi chiều tháp sụp, người canh đèn xoay chóa về phía chân trời, cố bắt chút sáng cuối cùng cho con thuyền vẫn chưa về tới cửa vịnh. Kính vỡ, dầu tắt. Mảnh thạch anh nằm trong lòng bàn tay ông vẫn đỏ rực suốt đêm.\n\nCác mảnh được tìm thấy sau đó đều có lõi cam, bên trong là những dải mây nhỏ đến mức phải nhìn bằng kính mài mới thấy. Khoáng vật đã kết lại quanh khoảnh khắc ánh ngày nhường chỗ cho bóng tối. Một ranh giới vốn trải ngang bầu trời bỗng nằm gọn trong đá, mang theo màu sắc, góc chiếu và cảm giác thời gian sắp hết của buổi chiều ấy.\n\nNhững viên được nạp dưới trời mới nhận một hoàng hôn mới. Những viên chưa từng được mở vẫn giữ biển cũ, chim cũ, đôi khi cả bóng một cánh buồm đang cố tiến gần bờ. Người đi xa trả giá rất cao cho thứ ánh sáng có thể đưa quê nhà vào căn phòng cuối cùng của đời mình.",
+    "lore_en": "A coastal tower once burned its beacon inside a rose-quartz reflector to guide ships through reefs. On the evening it fell, the lamp keeper turned the reflector towards the horizon, trying to catch the last daylight for a boat still outside the bay. Glass broke; oil died. The quartz fragment in his palm glowed red throughout the night.\n\nFragments recovered afterwards all bore orange cores containing clouds so fine that ground lenses were needed to see them. The mineral had set around the instant daylight yielded to darkness. A boundary once stretching across the sky lay enclosed in stone, carrying that evening’s colour, angle of light and sense of time running out.\n\nStones charged beneath a new sky accept a new sunset. Those never opened retain the old sea, old birds and sometimes the shadow of a sail still struggling towards shore. Travellers pay dearly for light that can bring home into the last room of their lives.",
+    "use_vi": "Thu và triển khai một buổi hoàng hôn thành ánh sáng, đường chân trời và những vùng chạng vạng có quy tắc riêng.",
+    "use_en": "Gather and deploy a sunset as light, horizons and regions of twilight with their own rules.",
+    "limits_vi": "Cần nhìn trực tiếp trời lúc mặt trời lặn để nạp. Mở càng rộng, buổi chiều bên trong càng chóng hết; đèn nhuộm màu chỉ làm bẩn mặt đá. Người giữ liên tục trì hoãn đêm sẽ mất dần khả năng nhận ra bình minh, và có thể bước qua mặt trời mọc như vẫn đang ở ngày hôm trước.",
+    "limits_en": "Charging requires a direct view of sunset. Broader openings spend the enclosed evening faster; coloured lamps merely stain the surface. A keeper who continually delays night gradually loses the ability to recognise dawn and may pass sunrise while still inhabiting yesterday.",
+    "skills": [
+      {
+        "name_vi": "Nhận chiều",
+        "name_en": "Receive the Evening",
+        "description_vi": "Hướng lõi về mặt trời lặn cho đến khi dải cam khép kín để thu hoàng hôn; lần nạp mới thay toàn bộ buổi chiều cũ.",
+        "description_en": "Point the core towards sunset until its orange band closes to gather the evening; a new charge replaces the old one entirely.",
+        "group_vi": "Giữ trời",
+        "group_en": "Keep the Sky"
+      },
+      {
+        "name_vi": "Màu quê",
+        "name_en": "The Colour of Home",
+        "description_vi": "Khép ngọc trong hai tay rồi mở một khe để chiếu đúng sắc trời đã thu; càng che hẹp, ánh sáng càng giữ được lâu.",
+        "description_en": "Enclose the gem in both hands and open a slit to cast its stored sky colour; a narrower opening preserves the light longer.",
+        "group_vi": "Giữ trời",
+        "group_en": "Keep the Sky"
+      },
+      {
+        "name_vi": "Chân trời nhỏ",
+        "name_en": "A Little Horizon",
+        "description_vi": "Đặt ngọc ngang mắt để thấy đường chân trời của buổi chiều bên trong, dùng đối chiếu hướng và dáng bờ; ảnh giữ cả những sai lệch do mây che.",
+        "description_en": "Hold the gem level with the eyes to see its evening’s horizon and compare direction and coastline; the image retains obscurities caused by cloud.",
+        "group_vi": "Giữ trời",
+        "group_en": "Keep the Sky"
+      },
+      {
+        "name_vi": "Giữ lượt cuối",
+        "name_en": "Keep the Last Glimpse",
+        "description_vi": "Khép vải đen đúng lúc nạp kết thúc để giữ một hình bóng cắt ngang mặt trời; chỉ lần mở đầu tiên mới hiện bóng đầy đủ.",
+        "description_en": "Close black cloth as charging ends to retain a silhouette crossing the sun; only the first opening shows it completely.",
+        "group_vi": "Giữ trời",
+        "group_en": "Keep the Sky"
+      },
+      {
+        "name_vi": "Đèn người trở về",
+        "name_en": "The Homecomer’s Lamp",
+        "description_vi": "Treo ngọc tại cửa để người từng chứng kiến buổi chiều ấy nhận ra ánh sáng từ xa qua sương; mỗi người nhận ra làm lõi hao nhanh hơn.",
+        "description_en": "Hang the gem at a doorway so those who witnessed its evening recognise its light through fog at a distance; each recognition spends the core faster.",
+        "group_vi": "Dựng chạng vạng",
+        "group_en": "Raise the Twilight"
+      },
+      {
+        "name_vi": "Bóng dài",
+        "name_en": "Long Shadows",
+        "description_vi": "Đặt ngọc sát đất để vật trong luồng sáng đổ bóng theo góc mặt trời đã thu; bóng chỉ chỉ đúng phương của bầu trời cũ.",
+        "description_en": "Set the gem near the ground to cast shadows at its stored sun angle; they indicate directions belonging to the old sky.",
+        "group_vi": "Dựng chạng vạng",
+        "group_en": "Raise the Twilight"
+      },
+      {
+        "name_vi": "Vành ngày muộn",
+        "name_en": "Ring of Late Day",
+        "description_vi": "Xoay ngọc chậm quanh trại để phủ một vành chạng vạng, làm mắt đang quen đêm phải điều chỉnh; người trong trại cũng mất lợi thế nhìn tối.",
+        "description_en": "Turn the gem slowly around camp to spread a twilight ring that forces night-adapted eyes to adjust; those inside likewise lose their dark vision.",
+        "group_vi": "Dựng chạng vạng",
+        "group_en": "Raise the Twilight"
+      },
+      {
+        "name_vi": "Rèm đỏ",
+        "name_en": "The Red Curtain",
+        "description_vi": "Chiếu qua vải mỏng để dựng màn sáng đỏ làm mờ vật phía sau khi nhìn ngược nguồn; gió lật vải sẽ mở màn tức khắc.",
+        "description_en": "Shine through fine cloth to raise a red screen obscuring objects behind it when viewed towards the source; wind lifting the cloth opens it at once.",
+        "group_vi": "Dựng chạng vạng",
+        "group_en": "Raise the Twilight"
+      },
+      {
+        "name_vi": "Lời trước đêm",
+        "name_en": "Words Before Night",
+        "description_vi": "Giữ ngọc giữa hai người để câu chuyện trong vòng sáng mang nhịp thong thả của buổi chiều cũ; khi đèn tắt, mệt mỏi của thời gian ngoài vòng ập tới.",
+        "description_en": "Hold the gem between two people so their conversation takes the unhurried cadence of its old evening; when it fades, fatigue from time outside the circle arrives together.",
+        "group_vi": "Mượn giờ cuối",
+        "group_en": "Borrow the Last Hour"
+      },
+      {
+        "name_vi": "Bàn tay chưa tối",
+        "name_en": "Hands Before Darkness",
+        "description_vi": "Chiếu ngọc lên công việc đang dở để người thợ giữ được độ tỉnh táo của phút cuối ban ngày; mỗi lần dùng đẩy cơn buồn ngủ sang lúc ánh sáng tắt.",
+        "description_en": "Illuminate unfinished work to preserve the craftsman’s last-daylight alertness; each use defers drowsiness until the light dies.",
+        "group_vi": "Mượn giờ cuối",
+        "group_en": "Borrow the Last Hour"
+      },
+      {
+        "name_vi": "Hoa chờ khép",
+        "name_en": "Flowers Awaiting Closure",
+        "description_vi": "Đặt ngọc cạnh hoa nở ban ngày để chúng giữ tư thế trước đêm trong vùng sáng; rút ngọc khiến chúng nhận trọn cái lạnh đã tích quanh mình.",
+        "description_en": "Set the gem beside daylight flowers to keep them in their pre-night state within its light; removing it exposes them to the cold accumulated around them.",
+        "group_vi": "Mượn giờ cuối",
+        "group_en": "Borrow the Last Hour"
+      },
+      {
+        "name_vi": "Ngưỡng chưa khuya",
+        "name_en": "The Unlate Threshold",
+        "description_vi": "Rọi ngọc lên ngưỡng để một nghi thức đòi chạng vạng tiếp tục nhận khoảnh khắc ấy; người thực hiện phải đứng trọn trong sáng và tiêu hết phần chiều còn lại.",
+        "description_en": "Shine upon a threshold so a rite requiring twilight continues accepting that instant; its performer must remain wholly in the light and spend the evening’s remainder.",
+        "group_vi": "Mượn giờ cuối",
+        "group_en": "Borrow the Last Hour"
+      },
+      {
+        "name_vi": "Gọi bóng buồm",
+        "name_en": "Call the Sail’s Shadow",
+        "description_vi": "Mở hình bóng đã giữ lên mặt tường để những người biết con tàu đối chiếu dáng buồm và vết rách; mỗi lần gọi làm một chi tiết phai đi.",
+        "description_en": "Open a retained silhouette upon a wall so those who knew the ship can compare sails and tears; each calling fades one detail.",
+        "group_vi": "Tiễn ngày",
+        "group_en": "Bid the Day Farewell"
+      },
+      {
+        "name_vi": "Chiều trong hầm",
+        "name_en": "Evening Underground",
+        "description_vi": "Ấp ngọc vào đá lạnh để ánh chiều thấm qua một lớp tường mỏng, soi phía bên kia; bề mặt dày hút hết ánh trước khi xuyên tới.",
+        "description_en": "Press the gem to cold stone so evening light soaks through a thin wall and illuminates the far side; thick surfaces consume it before it emerges.",
+        "group_vi": "Tiễn ngày",
+        "group_en": "Bid the Day Farewell"
+      },
+      {
+        "name_vi": "Chia đóm hoàng hôn",
+        "name_en": "Share the Dusk",
+        "description_vi": "Chạm ngọc vào mảnh kính để trao một đốm chiều cho người khác mang đi; mỗi đốm lấy hẳn một phần ánh sáng khỏi lõi và tắt trước viên chính.",
+        "description_en": "Touch the gem to glass to give another bearer a mote of evening; each mote permanently removes some light from the core and fades before the parent stone.",
+        "group_vi": "Tiễn ngày",
+        "group_en": "Bid the Day Farewell"
+      },
+      {
+        "name_vi": "Khép ngày",
+        "name_en": "Close the Day",
+        "description_vi": "Che kín lõi và gọi tên nơi đã thu trời để cho buổi chiều tắt yên, chấm dứt mọi vùng chạng vạng nó đang duy trì.",
+        "description_en": "Cover the core and name the place where its sky was gathered to let evening end peacefully, closing every twilight region it sustains.",
+        "group_vi": "Tiễn ngày",
+        "group_en": "Bid the Day Farewell"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Một ngày chưa khép",
+        "name_en": "An Unclosed Day",
+        "description_vi": "Ngọc giữ thời khắc chuyển giao. Nó trao thêm thời gian trong cảm nhận và điều kiện chạng vạng tại nơi được chiếu; phần đời đã trôi ngoài vùng ấy vẫn tiếp tục.",
+        "description_en": "The gem holds a transition. It grants twilight conditions and a felt extension of time where it shines; life outside that region continues onwards."
+      }
+    ]
+  }
+]

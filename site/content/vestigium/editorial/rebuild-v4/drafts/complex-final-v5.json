@@ -1,0 +1,526 @@
+[
+  {
+    "id": "complex-reu-thiet-mam",
+    "epigraph_vi": "*“Đá giữ ấm, rêu giữ đá sống.”*",
+    "epigraph_en": "*“Stone keeps warmth; moss keeps stone alive.”*",
+    "lore_vi": "Rêu bò vào vết nứt của quặng nằm cạnh lò; những rễ đầu chạm mạch sắt ngay trước lúc lò tắt suốt mùa đông. Thay vì nhận hơi ấm một chiều, rêu đưa nước và nhựa vào đá, còn mạng quặng giữ lại nhịp nóng để trả dần. Mầm tách khỏi đá héo; đá đã gỡ rêu trở lại nguội như quặng thường.\n\nHai bản chất cùng giữ một cơ thể: rêu ăn sáng và hút nước, quặng tích nhiệt. Người giữ hầm đặt cả khối trong hộp ươm có nắng, dùng vùng ấm nhỏ giúp hạt qua đêm. Rêu lan chậm theo vân sắt; thu hoạch chỉ được tách một nhánh còn đủ đá và mầm.",
+    "lore_en": "Moss entered cracks in ore beside a furnace; its first roots touched iron veins just before the furnace shut for winter. Instead of receiving heat alone, the moss fed water and sap into stone while the ore retained a heating rhythm for gradual return. Shoots removed from stone withered; stone stripped of moss cooled like ordinary ore.\n\nTwo natures sustain one body: moss takes light and water while ore stores heat. Mine keepers place the whole in a sunlit growing box to carry seeds through night. It spreads slowly along iron veins; harvesting must divide a branch with sufficient stone and shoots.",
+    "behavior_vi": "Mầm nghiêng về ánh sáng, vân đá ấm lên chậm sau buổi nắng rồi nhạt vào đêm.",
+    "behavior_en": "Shoots lean towards light; stone veins warm slowly after sun and fade overnight.",
+    "limits_vi": "Cần nạp ấm, ánh sáng và nước; nhiệt dự trữ ít. Rêu chết hoặc mạch đá nứt ngang khiến khối trở thành rêu và quặng thường.",
+    "limits_en": "It needs renewed warmth, light and water, with little reserve. Dead moss or a severed stone vein leaves ordinary moss and ore.",
+    "components": [
+      {
+        "name_vi": "Rêu sống",
+        "name_en": "Living Moss",
+        "description_vi": "Đổi ánh sáng và nước thành sinh trưởng, giữ các mạch đá thông ẩm.",
+        "description_en": "Turn light and water into growth and keep stone veins damp."
+      },
+      {
+        "name_vi": "Quặng nhớ nhiệt",
+        "name_en": "Heat-Remembering Ore",
+        "description_vi": "Lưu nhịp ấm đã nhận và trao qua rễ đang sống.",
+        "description_en": "Retain received warmth and pass it through living roots."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nhịp ấm trong đá",
+        "name_en": "Warmth within Stone",
+        "description_vi": "Trả nhiệt chậm vào vùng rễ để giữ một khay hạt nhỏ qua đêm.",
+        "description_en": "Return heat slowly through roots to protect a small seed tray overnight."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mầm Rêu Thiết Tủy",
+        "name_en": "Ironmarrow Moss Bud",
+        "description_vi": "Vân khoáng đổi độ sáng cùng nhịp mở lá; tách một phần làm phần kia ngừng hoạt động.",
+        "description_en": "Mineral veins brighten with leaf opening; separating either nature stops the other."
+      }
+    ],
+    "use_vi": "Trả nhiệt chậm vào vùng rễ để giữ một khay hạt nhỏ qua đêm.",
+    "use_en": "Return heat slowly through roots to protect a small seed tray overnight.",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-can-lo-hoa-tuy",
+    "epigraph_vi": "*“Rễ uống than, than mọc mầm.”*",
+    "epigraph_en": "*“Roots drink coal; coal puts forth shoots.”*",
+    "lore_vi": "Rễ cây cháy dở bị chôn trong hố than cạnh một vỉa khoáng đỏ. Mùa sau, các mắt rễ mở như những cửa lò nhỏ, còn than mọc vân cùng nhịp nhựa. Phần cây dẫn nước vào khoáng; phần khoáng giữ nhiệt của than tắt rồi chuyển tới đúng nhánh còn sống.\n\nNó hút chất từ đất và phát rễ về vùng lạnh hơn, tự giới hạn nhánh khi thiếu nước. Người giữ vườn trồng cả căn lò dưới nền nhà ươm, bọc máng nước bằng các nhánh sống. Cắt rễ để lấy vật sưởi rời chỉ làm nhánh cạn nhựa; nghề chăm nó cần người biết cây cùng người biết đá.",
+    "lore_en": "A charred root was buried in a coal pit beside a red mineral seam. Next season its buds opened like furnace doors and the coal grew veins in time with the sap. The plant carried water into mineral; the mineral retained dead coal’s warmth and directed it to living branches.\n\nIt draws nourishment from soil and roots towards colder areas, limiting branches during drought. Gardeners grow the whole beneath nursery floors and wrap water channels in living roots. Cutting off portable heaters merely exhausts their sap; tending requires knowledge of plants and stone together.",
+    "behavior_vi": "Rễ tìm vùng lạnh ẩm, khép mắt đỏ khi đất khô và nghỉ sau đợt sưởi dài.",
+    "behavior_en": "Roots seek cold damp ground, close their red buds in drought and rest after long heating.",
+    "limits_vi": "Nguồn nhiệt phải được nạp lại; cần đất ẩm và khoáng đúng nguồn. Tách rễ khỏi lõi hoặc để nhựa cạn khiến nhánh héo.",
+    "limits_en": "The heat source needs replenishment; it requires damp soil and its original mineral. Severing roots from the core or draining sap withers branches.",
+    "components": [
+      {
+        "name_vi": "Cây rễ và nhựa",
+        "name_en": "Root and Sap Plant",
+        "description_vi": "Nhận nước, nuôi mầm và chọn nhánh còn được cấp nhiệt.",
+        "description_en": "Take water, sustain buds and select heated branches."
+      },
+      {
+        "name_vi": "Than khoáng giữ lửa",
+        "name_en": "Firekeeping Mineral Coal",
+        "description_vi": "Lưu nhiệt đã nhận trong cấu trúc than, đưa vào nhựa theo chênh lạnh.",
+        "description_en": "Store received heat in coal structure and feed sap according to cold gradients."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Dẫn ấm theo rễ",
+        "name_en": "Root-Borne Warmth",
+        "description_vi": "Phân nhiệt từ lõi than tới nhánh sống quấn quanh một máng nước.",
+        "description_en": "Distribute core heat through living branches around a water channel."
+      },
+      {
+        "name_vi": "Mắt lò khép",
+        "name_en": "Furnace Bud Closure",
+        "description_vi": "Ngừng cấp một nhánh khi nhựa xuống thấp để bảo vệ lõi cây.",
+        "description_en": "Stop heating a sap-depleted branch to protect the plant core."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Căn Lò Hỏa Tủy",
+        "name_en": "Hearthmarrow Root",
+        "description_vi": "Ánh đỏ chạy trong nhựa mà gỗ ngoài vẫn mềm, cho người chăm nhìn được nhánh đang nhận nhiệt.",
+        "description_en": "Red light travels in sap while outer wood stays supple, revealing heated branches."
+      }
+    ],
+    "use_vi": "Phân nhiệt từ lõi than tới nhánh sống quấn quanh một máng nước.~Mắt lò khép",
+    "use_en": "Distribute core heat through living branches around a water channel.~Furnace Bud Closure",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-to-ong-dong-lo",
+    "epigraph_vi": "*“Ong xây sáp, đồng giữ hình.”*",
+    "epigraph_en": "*“Bees build wax; bronze keeps form.”*",
+    "lore_vi": "Bầy ong làm tổ trong khuôn đồng đúc từ quặng nhớ đường nét. Khi thợ lấy khuôn ra sau mùa đông, các ô sáp vẫn mọc theo những hình đã bị mài khỏi đồng. Bầy mới mang bụng ánh đồng, truyền hình từ vân khoáng sang sáp qua các điệu múa xây tổ.\n\nOng cần hoa, mật và mùa sinh sản yên; đồng cần giữ liền những vân nhận mẫu. Thợ đúc dành nửa tổ cho bầy, đưa mẫu nhỏ vào phần trống để ong xây quanh. Khuôn lấy ra dùng được cho vật nguội hoặc làm mẫu trung gian; rót kim loại nóng vào tổ sẽ giết sinh vật đang giữ hình.",
+    "lore_en": "A swarm nested within a bronze mould cast from outline-remembering ore. After winter, its wax cells still followed forms polished away from the bronze. New bees bore bronze-shining abdomens and transferred mineral patterns into wax through building dances.\n\nThe bees need flowers, honey and quiet breeding; the bronze needs intact pattern veins. Founders reserve half the hive for the colony and introduce small models into empty space. Removed moulds serve cold materials or intermediate patterns; pouring molten metal into the hive kills the life retaining its shapes.",
+    "behavior_vi": "Múa quanh mẫu sạch, cắn bỏ vật có độc và dồn ong non vào nửa tổ yên.",
+    "behavior_en": "They dance around clean models, remove toxic objects and gather young within the quiet half.",
+    "limits_vi": "Cần thời gian, thức ăn và vật mẫu rõ; hình chỉ đủ chi tiết trong tầm chân ong. Sáp chịu nhiệt thấp; độc và đồng nứt phá trí nhớ chung.",
+    "limits_en": "It needs time, food and a clear model; detail is limited by bee-scale contact. Wax tolerates little heat; poison and cracked bronze destroy shared pattern memory.",
+    "components": [
+      {
+        "name_vi": "Bầy ong sống",
+        "name_en": "Living Swarm",
+        "description_vi": "Đọc hình qua tiếp xúc rồi tổ chức các ô sáp theo điệu múa.",
+        "description_en": "Read shape by contact and organise wax cells through dances."
+      },
+      {
+        "name_vi": "Đồng nhớ khuôn",
+        "name_en": "Pattern-Remembering Bronze",
+        "description_vi": "Giữ đường nét vật đã nhận cho nhiều thế hệ ong đọc lại.",
+        "description_en": "Retain accepted outlines for successive bee generations."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Tổ nhận hình",
+        "name_en": "Hive Receives Form",
+        "description_vi": "Lưu đường nét một vật nhỏ trong vân đồng.",
+        "description_en": "Store a small object’s outline in bronze veins."
+      },
+      {
+        "name_vi": "Sáp dựng khuôn",
+        "name_en": "Wax Raises the Mould",
+        "description_vi": "Xây khuôn quanh mẫu hoặc hình đồng đã giữ.",
+        "description_en": "Build around a model or a bronze-retained form."
+      },
+      {
+        "name_vi": "Múa truyền mẫu",
+        "name_en": "Pattern Dance",
+        "description_vi": "Chuyển một hình đã học tới nhóm ong xây ở phần trống.",
+        "description_en": "Transfer a learned form to builders in an empty section."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Tổ Ong Đồng Lò",
+        "name_en": "Bronze-Furnace Hive",
+        "description_vi": "Vân đồng đổi chỗ sáng theo điệu múa, dù ánh ngoài đứng yên.",
+        "description_en": "Bronze veins shift their brightness with the dance despite fixed outside light."
+      }
+    ],
+    "use_vi": "Lưu đường nét một vật nhỏ trong vân đồng.~Sáp dựng khuôn",
+    "use_en": "Store a small object’s outline in bronze veins.~Wax Raises the Mould",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-hac-loc-dia-mach",
+    "epigraph_vi": "*“Sừng nghe nước, chân chọn bờ.”*",
+    "epigraph_en": "*“Antlers hear water; feet choose the bank.”*",
+    "lore_vi": "Hắc lộc mắc trên bậc đá trong mỏ ngập, quặng đen mọc qua sừng trong những tháng chờ nước rút. Khi nó cúi uống, các vân quặng cùng vân đá dưới chân sáng lên, đổi hướng một nhánh nước đang ép vào đường thoát. Những con sinh sau mang sừng cùng chất, song phải sống với thung lũng mới học được cách nghe địa mạch.\n\nCon vật ăn cỏ và sinh con theo đàn; sừng khoáng lớn cùng kỳ thay sừng, lấy chất từ nguồn nước quen. Người dẫn đường theo nó qua nền tưởng khô, đặt dấu nơi nó tránh bước. Hắc lộc có thể đổi một dòng thấm nhỏ, còn lựa chọn đường vẫn thuộc về kinh nghiệm và sự bình tĩnh của nó.",
+    "lore_en": "The black stag was trapped on a ledge in a flooded mine; black ore grew through its antlers during months awaiting retreating water. When it drank, antler veins and stone veins below lit together and diverted a branch pressing against its escape. Later young bore the same substance but needed a valley’s life to learn its underground water.\n\nThe animal grazes and breeds within a herd; mineral antlers grow with its shedding cycle, drawing substance from familiar water. Guides follow across seemingly dry ground and mark places it avoids. It can divert a small seep, while route choice still depends on experience and calm.",
+    "behavior_vi": "Chạm sừng xuống đá, nghe dòng rồi đi vòng nền yếu; đứng che con trước người lạ.",
+    "behavior_en": "It touches antlers to stone, listens and circles weak ground; it shields calves from strangers.",
+    "limits_vi": "Phụ thuộc vùng đã học và vân đá liền; nước lũ, nền nứt mới và hoảng sợ làm đường dẫn sai. Dời vùng cần nhiều mùa học lại.",
+    "limits_en": "It depends on learned ground and continuous stone veins; floods, new fractures and panic cause errors. Relocation requires seasons of relearning.",
+    "components": [
+      {
+        "name_vi": "Hắc lộc sống",
+        "name_en": "Living Black Stag",
+        "description_vi": "Học địa hình, tự chọn đường và bảo vệ đàn.",
+        "description_en": "Learn terrain, choose routes and defend its herd."
+      },
+      {
+        "name_vi": "Quặng sừng địa mạch",
+        "name_en": "Earth-Vein Antler Ore",
+        "description_vi": "Đồng nhịp với vân đá cùng lưu vực để nhận và bẻ dòng thấm.",
+        "description_en": "Resonate with watershed stone veins to sense and turn seepage."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nghe dòng dưới đá",
+        "name_en": "Hear Water beneath Stone",
+        "description_vi": "Nhận hướng nước dưới địa hình đã sống.",
+        "description_en": "Sense water direction beneath familiar terrain."
+      },
+      {
+        "name_vi": "Cúi sừng đổi mạch",
+        "name_en": "Lowered Antlers Turn the Vein",
+        "description_vi": "Đổi một nhánh thấm nhỏ sang khe liền kề.",
+        "description_en": "Divert a small seep into an adjacent fissure."
+      },
+      {
+        "name_vi": "Dấu chân bờ chắc",
+        "name_en": "Firm-Bank Footprints",
+        "description_vi": "Dẫn đàn qua những điểm nền đã kiểm bằng sừng.",
+        "description_en": "Lead the herd across ground checked by its antlers."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Hắc Lộc Địa Mạch",
+        "name_en": "Earthvein Black Stag",
+        "description_vi": "Sừng mang vân sông riêng của thung lũng; vân nhạt đi khi đi xa lưu vực.",
+        "description_en": "Its antlers bear the valley’s own river pattern, fading beyond the watershed."
+      }
+    ],
+    "use_vi": "Nhận hướng nước dưới địa hình đã sống.~Cúi sừng đổi mạch",
+    "use_en": "Sense water direction beneath familiar terrain.~Lowered Antlers Turn the Vein",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-giap-vuon-bach-thiet",
+    "epigraph_vi": "*“Thép chịu chém, rễ học giữ người.”*",
+    "epigraph_en": "*“Steel bears the blade; roots learn to hold a person.”*",
+    "lore_vi": "Áo giáp thủng nằm suốt mùa trong vườn thuốc. Rễ xuyên lỗ đạn, uống nước gỉ và nhận hình đinh tán; thép đồng thời mọc vân như thân cây. Khi chủ cũ mặc lại, một chồi trắng đóng quanh chỗ giáp hở rồi mở theo nhịp khuỷu tay, cho cơ thể bên trong cử động cùng cơ thể đang mọc ngoài nó.\n\nVườn cần nước, đất ở các hốc giáp và ánh sáng; khung thép cần điểm bám còn chịu lực. Người mang tập cùng thợ vườn trước chiến dịch, tỉa rễ ở khớp và dành giờ mở giáp phơi lá. Những đội quân có áo này phải chở cả đất cùng hạt giống; sức bền của chiến binh kéo theo mùa sinh trưởng của một vườn nhỏ.",
+    "lore_en": "Perforated armour lay for a season in a medicinal garden. Roots crossed bullet holes, drank rust-water and learned rivet shapes while steel grew woodlike veins. When its former owner wore it, a white shoot closed a gap and opened with his elbow, letting the body within move with the body growing outside.\n\nThe garden needs water, soil in armour hollows and light; the frame needs sound anchors. Bearers train with gardeners before campaigns, prune joint roots and open the armour for leaf-light. Armies using it carry soil and seeds; a soldier’s endurance includes a small garden’s growing season.",
+    "behavior_vi": "Rễ hướng về chỗ nứt có lực, lá khép khi có va đập và mở lúc người mang yên.",
+    "behavior_en": "Roots seek loaded cracks; leaves close on impact and open when the bearer rests.",
+    "limits_vi": "Cần chăm và thời gian, giáp vẫn có thể bị xuyên. Thiếu nước khiến rễ cứng; tỉa sai khóa khớp hoặc làm mất điểm chịu lực. Nẹp hỗ trợ chi, thương tích vẫn cần chữa.",
+    "limits_en": "Care and time are required and the armour can still be penetrated. Drought stiffens roots; wrong pruning locks joints or removes support. Splints support limbs while injuries still need treatment.",
+    "components": [
+      {
+        "name_vi": "Khung giáp thép",
+        "name_en": "Steel Armour Frame",
+        "description_vi": "Nhận lực đòn và cung cấp các điểm bám theo khớp người.",
+        "description_en": "Receive blows and supply anchors following human joints."
+      },
+      {
+        "name_vi": "Vườn rễ sống",
+        "name_en": "Living Root Garden",
+        "description_vi": "Nuôi chồi, vá vết hở và đọc nhịp vận động qua tiếp xúc.",
+        "description_en": "Feed shoots, bridge gaps and read movement through touch."
+      },
+      {
+        "name_vi": "Nhựa khoáng trắng",
+        "name_en": "White Mineral Sap",
+        "description_vi": "Truyền nhịp giữa rễ với thép, làm chỗ nối vừa mềm vừa chịu lực.",
+        "description_en": "Transmit rhythm between root and steel, making joins flexible and strong."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vá giáp bằng rễ",
+        "name_en": "Root-Woven Repair",
+        "description_vi": "Bện rễ khoáng qua vết nứt có nền bám.",
+        "description_en": "Braid mineral roots across anchored cracks."
+      },
+      {
+        "name_vi": "Nẹp theo nhịp",
+        "name_en": "Rhythmic Splint",
+        "description_vi": "Dựng nẹp quanh chi tổn thương rồi mở khớp theo nhịp đã tập.",
+        "description_en": "Brace an injured limb and release joints in a practised rhythm."
+      },
+      {
+        "name_vi": "Lá che vết hở",
+        "name_en": "Leaves Cover Gaps",
+        "description_vi": "Khép lớp lá cứng trên khe nhỏ trong thời gian rễ mọc.",
+        "description_en": "Close tough leaves over small openings while roots grow."
+      },
+      {
+        "name_vi": "Rễ báo tải",
+        "name_en": "Roots Signal Load",
+        "description_vi": "Đổi màu nhựa tại điểm giáp đang gần vượt sức.",
+        "description_en": "Change sap colour where armour approaches its limit."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giáp Vườn Bạch Thiết",
+        "name_en": "Whiteiron Garden Harness",
+        "description_vi": "Vòng sinh trưởng xuất hiện trên thép cùng vườn; tỉa đúng rễ làm khớp giáp nhẹ đi ngay.",
+        "description_en": "Growth rings appear on steel with the garden; correctly pruning roots immediately eases a joint."
+      }
+    ],
+    "use_vi": "Bện rễ khoáng qua vết nứt có nền bám.~Nẹp theo nhịp",
+    "use_en": "Braid mineral roots across anchored cracks.~Rhythmic Splint",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-ca-voi-lo-tham",
+    "epigraph_vi": "*“Xương gọi đàn, vực nhóm lửa.”*",
+    "epigraph_en": "*“Bone calls the pod; the abyss kindles fire.”*",
+    "lore_vi": "Bộ xương cá voi chìm dưới bãi tàu săn kết khoáng sinh nhiệt trong tủy. Quần thể sinh vật nhỏ dựng quanh nó một thân chung, còn tiếng hát in trong xương tập cho thân ấy nhịp bơi. Khi nó trồi lên, vực biển theo sau như một lò mở, bẻ những tầng băng thành các mái vòm nước ấm.\n\nĐàn cộng sinh ăn vụn hữu cơ và lấy khoáng từ dòng sâu; chủ thể mới chọn đường theo tiếng hát của loài đã cho bộ xương. Tàu đi theo phải để khoảng biển cho nó kiếm ăn và lặn hồi nhiệt. Các cảng phía bắc giữ quy ước dập pháo khi nó tới, vì cả tuyến thương mại có thể đóng lại khi một sinh vật bị săn đuổi.",
+    "lore_en": "A whale skeleton beneath a whaling ground gathered heat-generating mineral in its marrow. Small organisms assembled one shared body around it, while song impressed in bone taught that body to swim. When it surfaced, the abyss followed like an opened furnace, breaking ice layers into warm-water vaults.\n\nIts symbionts consume organic fragments and take minerals from deep currents; the new being chooses routes by the songs of the species that gave its bones. Following ships must leave feeding and thermal-recovery water. Northern ports silence guns at its arrival, since pursuit of one creature can close an entire trading route.",
+    "behavior_vi": "Nghe tiếng hát trước khi trồi, mở đường theo đàn cá và lặn khi tiếng săn nổi lên.",
+    "behavior_en": "It listens for song before surfacing, opens passages along fish shoals and dives at hunting sounds.",
+    "limits_vi": "Cần thức ăn, dòng sâu và thời gian hồi; lộ trình thuộc ý muốn của sinh vật. Băng khép sau khi lò cạn, tàu theo quá xa dễ mắc lại.",
+    "limits_en": "It needs food, deep currents and recovery; the creature chooses its route. Ice closes after its furnace is spent, trapping ships that follow too far behind.",
+    "components": [
+      {
+        "name_vi": "Quần thể cộng sinh",
+        "name_en": "Symbiotic Community",
+        "description_vi": "Một cộng đồng sống hợp thành cơ thể, cùng ăn và chọn hành vi.",
+        "description_en": "A living community forms one body, feeding and choosing together."
+      },
+      {
+        "name_vi": "Tủy khoáng nhiệt",
+        "name_en": "Thermal Mineral Marrow",
+        "description_vi": "Nhận năng lượng dòng sâu rồi trao nhiệt trên đường bơi.",
+        "description_en": "Receive deep-current energy and release heat along its passage."
+      },
+      {
+        "name_vi": "Xương giữ tiếng loài",
+        "name_en": "Songholding Bones",
+        "description_vi": "Lưu nhịp ca cũ để điều hòa vận động và nhận lời gọi.",
+        "description_en": "Retain ancestral rhythms to regulate movement and recognise calls."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hành lang lò thẳm",
+        "name_en": "Abyssal Furnace Passage",
+        "description_vi": "Mở đường nước qua các tầng băng cho tàu theo gần.",
+        "description_en": "Open water through ice layers for close-following vessels."
+      },
+      {
+        "name_vi": "Vòm biển ấm",
+        "name_en": "Warm Sea Vault",
+        "description_vi": "Giữ một khoảng nước cùng không khí ấm trên lưng khi trồi.",
+        "description_en": "Hold warm water and air above its back while surfaced."
+      },
+      {
+        "name_vi": "Ca xương đáp",
+        "name_en": "Answering Bone Song",
+        "description_vi": "Nhận tiếng gọi có nhịp quen và trả vị trí bằng âm sâu.",
+        "description_en": "Recognise familiar rhythmic calls and answer with deep position-bearing sound."
+      },
+      {
+        "name_vi": "Lặn hồi lò",
+        "name_en": "Furnace Recovery Dive",
+        "description_vi": "Đưa cơ thể xuống dòng khoáng để nạp lại mạng tủy.",
+        "description_en": "Descend into mineral currents to replenish its marrow network."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cá Voi Lò Thẳm",
+        "name_en": "Abyssal Furnace Whale",
+        "description_vi": "Hơi nổi thành đường xương trên biển ngay trước khi thân trồi; các phần cộng sinh đổi ánh theo cùng nhịp ca.",
+        "description_en": "Vapour outlines bones upon the sea before surfacing; symbiotic portions brighten to one song rhythm."
+      }
+    ],
+    "use_vi": "Mở đường nước qua các tầng băng cho tàu theo gần.~Vòm biển ấm",
+    "use_en": "Open water through ice layers for close-following vessels.~Warm Sea Vault",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-vuon-trong-tieng-chuong",
+    "epigraph_vi": "*“Chuông ngân, một mùa đứng giữa hai nhịp.”*",
+    "epigraph_en": "*“The bell rings; a season stands between two beats.”*",
+    "lore_vi": "Người giữ vườn chôn hạt giống và đất ấm trong chuông đồng trước đợt giá cuối. Nhiều năm sau, hồi chuông đầu kéo một khoảng mùa xuân ra khỏi nhịp ngày đang trôi. Cây thực mọc trong miền ấy, còn hạt khoáng quanh nền giữ cho đất và quả có đường trở lại thế giới ngoài.\n\nVườn là một quần thể sống cần nước, côn trùng và dưỡng chất; chuông là khí cụ định nhịp; miền mùa có thời gian riêng. Người giữ đưa ong vào theo luống, bón đất thật và học hồi chuông mở lối ra trước hồi gọi lớn. Một vụ mùa có thể đi qua trong buổi ngân, nhưng đất kiệt và sâu bệnh cũng lớn theo mùa bên trong.",
+    "lore_en": "A gardener buried seeds and warm earth in a bronze bell before the final freeze. Years later its first peal drew a spring interval outside the passing day. Real plants grew within it, while mineral seeds around the foundation kept a return path for soil and fruit.\n\nThe garden is a living community needing water, insects and nutrients; the bell sets rhythm, and the seasonal domain has its own time. Keepers introduce pollinators by bed, replenish real earth and learn the exit peal before the great opening. A harvest may pass within a ringing hour, but depleted soil and pests also advance through the interior season.",
+    "behavior_vi": "Miền mở theo nhịp ngân; cây hướng về mặt trời nội miền, còn rễ tìm nền đất neo.",
+    "behavior_en": "The domain opens to the peal; plants face its internal sun while roots seek anchored earth.",
+    "limits_vi": "Cần chuông nguyên, đất thật, neo và nghi thức được cùng nhớ. Đứt nhịp làm miền khép; người bên trong phải tới lối neo trước hồi cuối. Thời gian nội miền cũng làm người và vật già đi.",
+    "limits_en": "It needs a whole bell, real soil, anchors and a commonly remembered rite. Broken rhythm closes the domain; occupants must reach anchors before the final peal. Interior time also ages people and objects.",
+    "components": [
+      {
+        "name_vi": "Chuông đồng định nhịp",
+        "name_en": "Rhythm-Setting Bronze Bell",
+        "description_vi": "Đặt điểm mở và đóng của khoảng mùa riêng.",
+        "description_en": "Set opening and closure of the seasonal interval."
+      },
+      {
+        "name_vi": "Hạt khoáng neo miền",
+        "name_en": "Mineral Domain Seeds",
+        "description_vi": "Nối nền vườn với đất ngoài để vật sống đi qua.",
+        "description_en": "Join garden soil to outer earth for living passage."
+      },
+      {
+        "name_vi": "Quần thể vườn sống",
+        "name_en": "Living Garden Community",
+        "description_vi": "Sinh trưởng, thụ phấn, kết quả và tiêu thụ dưỡng chất thật.",
+        "description_en": "Grow, pollinate, fruit and consume real nutrients."
+      },
+      {
+        "name_vi": "Miền mùa xuân",
+        "name_en": "Spring Domain",
+        "description_vi": "Cho thời gian sinh trưởng trôi giữa hai nhịp của ngoài giới.",
+        "description_en": "Allow growing time to pass between two outside beats."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mùa giữa hai nhịp",
+        "name_en": "Season between Two Beats",
+        "description_vi": "Mở một mùa sinh trưởng cho các luống đã neo.",
+        "description_en": "Open a growing season for anchored beds."
+      },
+      {
+        "name_vi": "Lối hạt về",
+        "name_en": "Seedward Exit",
+        "description_vi": "Giữ đường ra theo các neo khoáng.",
+        "description_en": "Keep exits along mineral anchors."
+      },
+      {
+        "name_vi": "Chuông gọi luống",
+        "name_en": "Bell Calls the Beds",
+        "description_vi": "Mở đúng luống được gọi theo nghi thức chung.",
+        "description_en": "Open beds named in the shared rite."
+      },
+      {
+        "name_vi": "Quả qua mùa",
+        "name_en": "Fruit across Seasons",
+        "description_vi": "Mang sản vật thật ra ngoài qua lối neo.",
+        "description_en": "Bring real produce through anchor passages."
+      },
+      {
+        "name_vi": "Hồi chuông đóng",
+        "name_en": "Closing Peal",
+        "description_vi": "Rút miền về những luống đã an toàn, giữ cây còn lại trong giấc mùa.",
+        "description_en": "Withdraw the domain to secured beds and hold remaining plants in seasonal sleep."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vườn Trong Tiếng Chuông",
+        "name_en": "Garden within a Bell’s Voice",
+        "description_vi": "Rễ có bóng theo hai mặt trời khi chạm ranh; quả hái ra giữ vòng tuổi của mùa bên trong.",
+        "description_en": "Roots cast shadows under two suns at the boundary; harvested fruit retains its interior season’s age."
+      }
+    ],
+    "use_vi": "Mở một mùa sinh trưởng cho các luống đã neo.~Lối hạt về",
+    "use_en": "Open a growing season for anchored beds.~Seedward Exit",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  },
+  {
+    "id": "complex-cot-buom-muoi-ba",
+    "epigraph_vi": "*“Cột chưa đóng, biển đã dựng buồm.”*",
+    "epigraph_en": "*“The mast is unbuilt; the sea has raised its sail.”*",
+    "lore_vi": "Con tàu mười hai cột chết giữa biển băng khi thợ cả vẫn đóng phần việc cuối trên bờ. Mỗi đinh biến khỏi xưởng trong đêm; ngoài khơi, một cột thứ mười ba mọc lên từ lời hẹn chưa hoàn thành. Bóng thuyền trưởng đứng dậy khi thủy thủ sống sót gọi, và buồm bắt gió của những hải trình còn có thể thành thật.\n\nThân gỗ sống uống nước qua chân cột, vá mình theo ký ức công việc. Chủ thể thuyền trưởng chọn tuyến bằng lời gọi người sống; miền hải trình mở tới một bến chưa xây nếu thật có người chờ ở nơi ấy. Những thành phố ven biển giữ lời hẹn đón tàu như giữ một luồng lạch, bởi mỗi lần tới bến đóng vĩnh viễn một tương lai đã nhường gió.",
+    "lore_en": "The twelve-masted vessel died in ice while its master builder finished the last work ashore. Each nail vanished from his workshop overnight; offshore a thirteenth mast grew from an unfinished promise. The captain’s shadow rose at surviving sailors’ calls, and its sails caught wind from voyages still capable of becoming real.\n\nLiving timber drinks through mast roots and repairs itself from remembered labour. The captain-subject chooses routes through living calls; the voyage-domain reaches an unbuilt harbour if someone truly waits there. Coastal cities preserve their welcome as carefully as a channel, since each arrival permanently closes one future that supplied its wind.",
+    "behavior_vi": "Buồm mở khi lời hẹn có người đáp; thuyền trưởng đi kiểm boong trước mỗi tuyến, thân gỗ mọc về chỗ thợ còn chăm.",
+    "behavior_en": "Sails open when a promise receives an answer; the captain inspects the deck before each route and timber grows towards tended work.",
+    "limits_vi": "Cần lời hẹn có người nhận, nơi chờ xác định và thân tàu còn chịu biển. Mỗi chuyến tiêu một tuyến khả hữu vĩnh viễn; lời hẹn giả làm buồm rủ, đổi điểm chờ giữa miền có thể khiến tàu mất lối ra.",
+    "limits_en": "It needs an accepted promise, a definite waiting place and a seaworthy hull. Each voyage permanently spends one possible route; false promises slacken sails, and moving the waiting place mid-domain can strand the ship.",
+    "components": [
+      {
+        "name_vi": "Thân gỗ sống",
+        "name_en": "Living Timber Hull",
+        "description_vi": "Hấp nước, sinh trưởng và vá hình tàu theo việc đóng còn được tiếp nối.",
+        "description_en": "Drink, grow and repair the ship through continued shipwright labour."
+      },
+      {
+        "name_vi": "Chủ thể thuyền trưởng",
+        "name_en": "Captain-Subject",
+        "description_vi": "Nghe lời gọi, nhận người chờ và tự chọn quyết định lái.",
+        "description_en": "Hear calls, recognise waiting people and choose navigation."
+      },
+      {
+        "name_vi": "Miền hải trình khả hữu",
+        "name_en": "Possible Voyage Domain",
+        "description_vi": "Nối biển thật với nơi một bến còn có thể thành hình.",
+        "description_en": "Join real sea to a place where a harbour can still arise."
+      },
+      {
+        "name_vi": "Cột buồm lời hẹn",
+        "name_en": "Promise-Bound Mast",
+        "description_vi": "Khí cụ giữ buồm và nhận gió từ tương lai được chọn.",
+        "description_en": "An instrument holding sail and receiving wind from a chosen future."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hải trình chưa thành",
+        "name_en": "The Unrealised Voyage",
+        "description_vi": "Mở tuyến tới nơi có người thật chờ theo lời hẹn.",
+        "description_en": "Open a route to someone truly waiting under a promise."
+      },
+      {
+        "name_vi": "Gió tương lai",
+        "name_en": "Future Wind",
+        "description_vi": "Mượn gió của một tuyến còn khả hữu để đẩy tàu qua miền.",
+        "description_en": "Borrow wind from a still-possible route to propel the ship through its domain."
+      },
+      {
+        "name_vi": "Bến chưa dựng",
+        "name_en": "Unbuilt Harbour",
+        "description_vi": "Cho tàu cập một bờ chưa có công trình cảng nhưng có điểm đón thật.",
+        "description_en": "Land at a shore lacking harbour works but possessing a real welcome."
+      },
+      {
+        "name_vi": "Xưởng qua biển",
+        "name_en": "Workshop across Sea",
+        "description_vi": "Đưa vật đóng mới từ xưởng đã nhận việc tới phần tàu tương ứng.",
+        "description_en": "Transfer new work from an accepted workshop to its corresponding ship section."
+      },
+      {
+        "name_vi": "Thuyền trưởng đáp gọi",
+        "name_en": "Captain Answers the Call",
+        "description_vi": "Triệu chủ thể giữ lái từ tiếng gọi của thủy thủ được nhận.",
+        "description_en": "Call forth the steering subject through accepted sailors’ voices."
+      },
+      {
+        "name_vi": "Khép một khả hữu",
+        "name_en": "Close One Possibility",
+        "description_vi": "Khi cập bến, đóng tuyến tương lai đã cho gió để chuyến vừa đi thành duy nhất.",
+        "description_en": "On arrival, close the wind-giving future so the completed voyage becomes unique."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Cột Buồm Thứ Mười Ba",
+        "name_en": "The Thirteenth Mast",
+        "description_vi": "Cột thứ mười ba có bóng trên biển trước khi có thân trên boong; gió buồm có thể thổi ngược thời tiết quanh tàu.",
+        "description_en": "The thirteenth mast casts a sea-shadow before appearing upon deck; sail-wind may oppose the surrounding weather."
+      }
+    ],
+    "use_vi": "Mở tuyến tới nơi có người thật chờ theo lời hẹn.~Gió tương lai",
+    "use_en": "Open a route to someone truly waiting under a promise.~Future Wind",
+    "content_revision": "catalogue-v5",
+    "editorial_review_kind": "complex-natures-rebuilt",
+    "applications": []
+  }
+]

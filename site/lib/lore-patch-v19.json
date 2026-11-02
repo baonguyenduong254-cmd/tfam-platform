@@ -1,0 +1,756 @@
+{
+  "factions": [
+    {
+      "id": "habsburg_poland",
+      "capital_demo": "Kraków",
+      "capital_vi_1715": "Warsaw",
+      "capital_en_1715": "Warsaw",
+      "capital_vi_1716": "Kraków",
+      "capital_en_1716": "Kraków",
+      "lore_vi_1715": "Năm 1715, những lãnh thổ Áo, Bohemia, Hungary và các miền phía đông liên kết với Ba Lan thành một vành đai quyền lực giữa Pháp và Novgorod. Những gia tộc Habsburg còn giữ đất tìm về đây sau khi Napoleon nghiền nát các thế lực cũ tại vùng Đức. Warsaw trở thành nơi các dòng họ mất quê hương tìm một ngai vàng đủ sức giữ lại tên mình.\n\nTrong khi các đạo quân Ba Lan giữ biên giới phía đông, Rouge von Habsburg dựng cờ tại Santiago, mang theo yêu sách kế vị Charles II và mối thù với nhà Aragón. Những cuộc tranh giành Iberia đưa tên Habsburg trở lại chiến trường, nhưng ngai vàng mà Rouge muốn giành vẫn nằm ở Madrid. Phía bên kia châu Âu, các quý tộc Áo và Ba Lan bắt đầu nhìn người con bị nguyền của dòng họ như một khả năng phục hồi quyền lực đã mất.",
+      "lore_en_1715": "In 1715, Austria, Bohemia, Hungary and the eastern lands formed a political belt with Poland between France and Novgorod. Habsburg houses retaining their estates gathered there after Napoleon shattered the old powers in Germany. Warsaw became a refuge for dynasties seeking a throne capable of preserving their names.\n\nWhile Polish armies held the eastern frontier, Rouge von Habsburg raised his banner at Santiago, claiming Charles II's succession and carrying his feud with Aragón. Iberian struggles returned the Habsburg name to war, but the throne Rouge sought remained in Madrid. Across Europe, Austrian and Polish nobles began regarding the dynasty's cursed son as a possible restorer of their lost power.",
+      "lore_vi_1716": "Năm 1716, Rouge rời Iberia theo điều kiện lưu vong rồi đăng quang tại Kraków. Quốc hiệu Đế quốc Habsburg – Ba Lan được công bố trên các văn kiện ngoại giao, vừa giữ căn tính Ba Lan vừa kêu gọi những cộng đồng Đức và Áo từng theo Habsburg quay về. Người thất bại trước ngai vàng Castilian trở thành hoàng đế ở một miền đất khác.\n\nRouge gửi yêu sách tới Paris, đòi mở đàm phán về các lãnh thổ Đức của gia tộc. Ông đồng thời thương lượng với Madrid về giao thương, cam kết không can thiệp và Điều khoản Hội tụ, với Danes giữ bản sao làm chứng. Tuy vậy, chiến tranh phía đông với Novgorod vẫn giữ chân quân đội. Hoàng đế mới phải lựa chọn thời điểm giành lại di sản phương tây trong khi Warsaw và Kraków còn có thể bị uy hiếp từ phương đông. Những vết thương Santiago theo ông tới ngai vàng mới; tham vọng Habsburg cũng vậy.",
+      "lore_en_1716": "In 1716, Rouge left Iberia under the terms of exile and was crowned in Kraków. The Habsburg–Polish Empire became the official diplomatic name, preserving Poland's identity while calling former Habsburg communities in Germany and Austria back to the dynasty. The man defeated in his claim to Castilian's throne became emperor elsewhere.\n\nRouge demanded negotiations with Paris over his house's German territories. He also negotiated trade, non-interference and the Convergence Clause with Madrid, with Danes holding a witness copy. War with Novgorod still bound his eastern army. The new emperor had to choose when to reclaim his western inheritance while Warsaw and Kraków remained vulnerable from the east. Santiago's wounds followed him onto the new throne; so did Habsburg ambition.",
+      "traits": [
+        {
+          "id": "habsburg_poland_trait_1",
+          "label_vi": "Vương miện sau lưu vong",
+          "label_en": "Crown After Exile",
+          "effect_vi": "Rouge dựng quyền lực tại Kraków sau thất bại ở Iberia, quy tụ những gia tộc còn theo Habsburg.",
+          "effect_en": "Rouge builds power in Kraków after defeat in Iberia and rallies surviving Habsburg houses.",
+          "effect_ui": "Rouge dựng quyền lực tại Kraków sau thất bại ở Iberia, quy tụ những gia tộc còn theo Habsburg."
+        },
+        {
+          "id": "habsburg_poland_trait_2",
+          "label_vi": "Đại bàng và Ba Lan",
+          "label_en": "Eagle and Poland",
+          "effect_vi": "Quốc hiệu mới kết hợp yêu sách triều đại với căn tính Ba Lan; quyền lực phải giữ được cả hai.",
+          "effect_en": "The new state combines dynastic claims with Polish identity and must sustain both.",
+          "effect_ui": "Quốc hiệu mới kết hợp yêu sách triều đại với căn tính Ba Lan; quyền lực phải giữ được cả hai."
+        },
+        {
+          "id": "habsburg_poland_trait_3",
+          "label_vi": "Hai phía của đế quốc",
+          "label_en": "An Empire Between Fronts",
+          "effect_vi": "Yêu sách vùng Đức bị ràng buộc bởi cuộc chiến Novgorod; Điều khoản Hội tụ chỉ mở một cơ hội có điều kiện.",
+          "effect_en": "German claims are constrained by the Novgorod war; the Convergence Clause offers a conditional opportunity.",
+          "effect_ui": "Yêu sách vùng Đức bị ràng buộc bởi cuộc chiến Novgorod; Điều khoản Hội tụ chỉ mở một cơ hội có điều kiện."
+        }
+      ]
+    },
+    {
+      "id": "novgorod_union",
+      "capital_demo": "Novgorod",
+      "capital_vi_1715": "Novgorod",
+      "capital_en_1715": "Novgorod",
+      "capital_vi_1716": "Novgorod",
+      "capital_en_1716": "Novgorod",
+      "lore_vi_1715": "Năm 1478, Novgorod đánh lui đạo quân Moskva và giữ được chiếc chuông triệu tập hội đồng. Chiến thắng ngăn một triều đình duy nhất nuốt trọn các thành bang Nga; những cuộc liên kết kế tiếp đặt Novgorod vào trung tâm một liên hiệp trải dần qua cả đại lục.\n\nĐến năm 1700, Pyotr Romanov nhận chức Tổng chấp chính và quyền thống lĩnh quân đội. Ông biến những đạo quân của từng miền thành lực lượng thường trực, dựng hạm đội Baltic và buộc các đại gia tộc đưa con vào trường quân sự. Năm 1715, toàn bộ nước Nga nằm dưới quân kỳ liên hiệp. Hội đồng Novgorod vẫn giữ quyền bầu người đứng đầu, còn Pyotr đã có đủ quân đội để khiến mọi lá phiếu phải cân nhắc tên ông. Ở phía tây, các đạo quân tiến tới chiến tuyến Ba Lan và Danes, mở cuộc tranh giành quyền lực trên những vùng đất mà hội đồng gọi là cửa ngõ châu Âu.",
+      "lore_en_1715": "In 1478, Novgorod repelled Moscow's army and kept the bell summoning its assembly. Victory prevented a single court from absorbing the Russian cities; successive alliances placed Novgorod at the centre of a union spreading across the continent.\n\nIn 1700, Pyotr Romanov became First Consul and commander of its armies. He forged regional forces into a standing army, built a Baltic fleet and required the great houses to send their heirs into military schools. By 1715, all Russia stood beneath the Union's banner. The assembly retained the right to elect its leader, but Pyotr commanded enough troops to give every ballot weight. To the west, his armies confronted Poland and Danes in a struggle for Europe's eastern gateways.",
+      "lore_vi_1716": "Năm 1716, quân Novgorod chiếm Phần Lan từ Danes. Những căn cứ bên kia vịnh trở thành nơi hạm đội Pyotr treo quân kỳ, đưa liên hiệp tiến sâu vào vùng biển mà Copenhagen từng coi là thành lũy của mình.\n\nChiến thắng ở phía bắc diễn ra cùng lúc các đạo quân tiếp tục gây sức ép lên Habsburg – Ba Lan. Hội đồng thông qua thêm quyền chỉ huy cho Pyotr, rồi tìm cách giữ những quyền ấy trong giới hạn nhiệm kỳ. Ông đáp lại bằng những chiến thắng mới và một quân đội ngày càng gắn lòng trung thành với người chỉ huy. Liên hiệp được sinh ra để giữ các thành bang khỏi một ngai vàng chuyên chế; giờ chiếc chuông Novgorod phải cất tiếng giữa tiếng pháo của người đang thống nhất chúng thành một cường quốc.",
+      "lore_en_1716": "In 1716, Novgorod took Finland from Danes. Bases across the gulf became stations for Pyotr's fleet, carrying the Union into waters Copenhagen had considered its defensive wall.\n\nNorthern victory coincided with continued pressure on Habsburg–Poland. The assembly granted Pyotr wider command, then tried to keep those powers within his term of office. He answered with further victories and an army increasingly loyal to its commander. The Union had been born to protect cities from an autocratic throne; now Novgorod's bell had to sound above the cannon of the man forging them into a great power.",
+      "traits": [
+        {
+          "id": "novgorod_union_trait_1",
+          "label_vi": "Chiếc chuông còn lại",
+          "label_en": "The Surviving Bell",
+          "effect_vi": "Novgorod giữ truyền thống hội đồng sau chiến thắng chống Moskva, tạo chính danh cho liên hiệp.",
+          "effect_en": "Novgorod preserves its assembly after defeating Moscow, legitimizing the Union.",
+          "effect_ui": "Novgorod giữ truyền thống hội đồng sau chiến thắng chống Moskva, tạo chính danh cho liên hiệp."
+        },
+        {
+          "id": "novgorod_union_trait_2",
+          "label_vi": "Cuộc cải tổ Romanov",
+          "label_en": "Romanov Reforms",
+          "effect_vi": "Pyotr thống nhất quân đội, đóng hạm đội và xây các trường quân sự dưới quyền chỉ huy trung ương.",
+          "effect_en": "Pyotr unifies the armies, builds fleets and establishes military schools under central command.",
+          "effect_ui": "Pyotr thống nhất quân đội, đóng hạm đội và xây các trường quân sự dưới quyền chỉ huy trung ương."
+        },
+        {
+          "id": "novgorod_union_trait_3",
+          "label_vi": "Cửa ngõ Baltic",
+          "label_en": "Baltic Gateway",
+          "effect_vi": "Chiếm Phần Lan mở căn cứ đối diện Danes và tăng sức ép trên chiến tuyến châu Âu.",
+          "effect_en": "Finland provides bases facing Danes and increases pressure on the European front.",
+          "effect_ui": "Chiếm Phần Lan mở căn cứ đối diện Danes và tăng sức ép trên chiến tuyến châu Âu."
+        }
+      ]
+    },
+    {
+      "id": "danes_kingdom",
+      "capital_demo": "Copenhagen",
+      "capital_vi_1715": "Copenhagen",
+      "capital_en_1715": "Copenhagen",
+      "capital_vi_1716": "Copenhagen",
+      "capital_en_1716": "Copenhagen",
+      "lore_vi_1715": "Năm 1697, Margrete I triệu tập các vương triều phương bắc tại Kalmar. Những người tưởng sẽ chia nhau quyền lực phải ký một văn kiện đặt Đan Mạch, Na Uy, Thụy Điển và Phần Lan dưới cùng một vương quyền. Margrete giữ quyền điều hành tại Copenhagen, biến liên kết giữa các ngai vàng thành một Vương quốc Danes thống nhất.\n\nĐến năm 1715, quân kỳ Danes trải khắp Bắc Âu. Hạm đội giữ các eo biển, còn những đạo quân từ các miền cùng nhận lệnh của nữ vương. Liên kết với Castilian khiến Danes trở thành một phần của thế cân bằng mà Napoleon quyết phá vỡ. Pháp uy hiếp từ phía nam, Novgorod gây sức ép từ phía đông; Margrete phải giữ những ngai vàng từng được mình quy tụ cùng đứng vững trước một cuộc chiến mà mỗi miền đều có thể trở thành chiến trường đầu tiên.",
+      "lore_en_1715": "In 1697, Margrete I summoned the northern dynasties to Kalmar. Rulers expecting to divide power signed a document placing Denmark, Norway, Sweden and Finland beneath a common crown. Governing from Copenhagen, Margrete transformed a union of thrones into the Kingdom of Danes.\n\nBy 1715, its banners spanned Northern Europe. Fleets held the straits, and regional armies obeyed the queen. Cooperation with Castilian made Danes part of the balance Napoleon intended to break. France threatened from the south and Novgorod pressed from the east. Margrete had to keep the crowns she had assembled united through a war that could begin in any of their lands.",
+      "lore_vi_1716": "Năm 1716, Phần Lan rơi vào tay Novgorod. Margrete giữ những vùng Bắc Âu còn lại, rút các đơn vị sống sót về tái lập chiến tuyến và tăng quyền chỉ huy của hạm đội trên Baltic. Chiếc vương miện từng thống nhất phương bắc giờ phải chịu lời chất vấn của những gia tộc vừa mất đất.\n\nQuân Danes tiếp tục đứng cùng Ba Lan trên một phần chiến tuyến phía đông. Tại Copenhagen, triều đình giữ bản sao hiệp định giữa Castilian và Habsburg – Ba Lan, đóng vai trò chứng kiến trong những tranh chấp liên quan. Margrete dùng cả quân đội lẫn vị thế ngoại giao để giữ vương quốc trong thế cân bằng châu Âu. Bà đã mất một miền đất; điều bà quyết giữ bằng mọi giá là quyền lực chung từng khiến các vương triều phương bắc phải ngồi xuống cùng một bàn.",
+      "lore_en_1716": "In 1716, Finland fell to Novgorod. Margrete held the remaining northern lands, withdrew surviving units to rebuild the front and strengthened Baltic naval command. The crown that had united the north now faced accusations from houses that had lost their estates.\n\nDanes troops continued to share part of Poland's eastern front. Copenhagen held a witness copy of the agreement between Castilian and Habsburg–Poland and provided oversight in related disputes. Margrete used military and diplomatic authority to preserve her kingdom's place in Europe's balance. She had lost a territory; she intended to retain the common power that had once compelled the northern dynasties to sit at one table.",
+      "traits": [
+        {
+          "id": "danes_kingdom_trait_1",
+          "label_vi": "Vương quyền Kalmar",
+          "label_en": "Kalmar Crown",
+          "effect_vi": "Margrete quy tụ các ngai vàng Bắc Âu dưới một quyền điều hành tại Copenhagen.",
+          "effect_en": "Margrete unites the northern crowns under government from Copenhagen.",
+          "effect_ui": "Margrete quy tụ các ngai vàng Bắc Âu dưới một quyền điều hành tại Copenhagen."
+        },
+        {
+          "id": "danes_kingdom_trait_2",
+          "label_vi": "Hạm đội giữ eo biển",
+          "label_en": "Fleet of the Straits",
+          "effect_vi": "Các hạm đội bảo vệ đường đi giữa Bắc Hải và Baltic, giữ liên lạc giữa những miền của vương quốc.",
+          "effect_en": "Fleets protect passages between the North Sea and Baltic and connect the kingdom’s lands.",
+          "effect_ui": "Các hạm đội bảo vệ đường đi giữa Bắc Hải và Baltic, giữ liên lạc giữa những miền của vương quốc."
+        },
+        {
+          "id": "danes_kingdom_trait_3",
+          "label_vi": "Người giữ hiệp định",
+          "label_en": "Witness to the Treaty",
+          "effect_vi": "Danes vừa tham chiến phía đông vừa giữ vai trò chứng kiến cam kết giữa Madrid và Kraków.",
+          "effect_en": "Danes fights in the east and witnesses the commitments between Madrid and Kraków.",
+          "effect_ui": "Danes vừa tham chiến phía đông vừa giữ vai trò chứng kiến cam kết giữa Madrid và Kraków."
+        }
+      ]
+    },
+    {
+      "id": "scotland_ireland_union",
+      "capital_demo": "Edinburgh",
+      "capital_vi_1715": "Edinburgh",
+      "capital_en_1715": "Edinburgh",
+      "capital_vi_1716": "Edinburgh",
+      "capital_en_1716": "Edinburgh",
+      "lore_vi_1715": "Năm 1704, Criston Wallace đánh bại Edward Spencer tại Inverness. Những gia tộc Scotland từng bị triều đình Anh xem là một cuộc nổi loạn tự chia rẽ đã chiến đấu như một hệ thống, khiến lực lượng nòng cốt của Edward tan vỡ. Wallace bắt sống rồi thả người chỉ huy đối phương, để nước Anh phải nhìn vị đô đốc trở về với thất bại.\n\nChiến thắng trở thành nền tảng cho một trật tự mới trên quần đảo. Scotland và toàn bộ Ireland liên kết dưới một hiệp định quân sự, giữ hội đồng địa phương và đặt Edinburgh làm trung tâm điều phối. Khi nước Anh đi tới diệt vong, liên hiệp giữ các vùng đất phía bắc và bên kia biển khỏi bị cuốn vào cùng số phận. Năm 1715, Wallace vẫn là cái tên có thể đưa các gia tộc vốn thù địch vào cùng một chiến tuyến. Tại Castilian, một sứ mệnh tìm người sống sót và mở liên lạc phương bắc lại đưa tên ông trở về trong những cuộc bàn bạc của Edward.",
+      "lore_en_1715": "In 1704, Criston Wallace defeated Edward Spencer at Inverness. Scottish clans dismissed by England as a self-dividing rebellion fought as one system and shattered Edward's core forces. Wallace captured and released the enemy commander so England would see its admiral return defeated.\n\nVictory became the foundation of a new island order. Scotland and all Ireland joined a military compact, retaining local councils and making Edinburgh their coordinating centre. As England collapsed, the Union preserved its northern and overseas lands. In 1715, Wallace remained the name capable of bringing hostile clans onto a common front. A Castilian mission to find survivors and establish northern contact returned his name to Edward's deliberations.",
+      "lore_vi_1716": "Năm 1716, liên hiệp tiếp tục giữ Scotland và toàn bộ đảo Ireland. Các cảng quay về phía Đại Tây Dương, còn biên giới phía nam đối diện những vùng đất Anh và Wales đã mất chính quyền. Mỗi đoàn người được phép đi qua đem theo tin tức, ký ức và nguy cơ từ một quê hương không còn như trước.\n\nTại Edinburgh, Wallace giữ vị thế bằng chiến thắng Inverness và khả năng buộc các gia tộc nhìn thấy sự sống còn của mình trong hàng quân bên cạnh. Hội đồng Ireland đòi giữ quyền quyết định việc đưa quân ra ngoài đảo; các gia tộc Scotland tranh phần trong mạng lưới quân sự chung. Liên hiệp giữ được lãnh thổ, nhưng mọi thỏa thuận mới với các cường quốc phải đi qua những người từng cùng đánh bại nước Anh và những người vẫn còn nhớ cái giá của chiến thắng ấy.",
+      "lore_en_1716": "In 1716, the Union continued to hold Scotland and the whole island of Ireland. Its ports faced the Atlantic; its southern frontier faced English and Welsh lands without a surviving government. Every group admitted across it carried news, memories and risks from a homeland transformed.\n\nIn Edinburgh, Wallace's position rested on Inverness and his ability to make rival clans see their survival in the ranks beside them. Irish councils defended their authority over overseas deployments; Scottish houses competed within the shared military system. The Union retained its territory, but new agreements with foreign powers had to pass through those who had defeated England and those who remembered victory's cost.",
+      "traits": [
+        {
+          "id": "scotland_ireland_union_trait_1",
+          "label_vi": "Chiến thắng Inverness",
+          "label_en": "Victory at Inverness",
+          "effect_vi": "Wallace quy tụ các gia tộc thành một hệ thống chiến đấu đủ sức đánh bại lực lượng Edward.",
+          "effect_en": "Wallace binds the clans into a fighting system capable of defeating Edward’s forces.",
+          "effect_ui": "Wallace quy tụ các gia tộc thành một hệ thống chiến đấu đủ sức đánh bại lực lượng Edward."
+        },
+        {
+          "id": "scotland_ireland_union_trait_2",
+          "label_vi": "Hai miền, một hiệp định",
+          "label_en": "Two Lands, One Compact",
+          "effect_vi": "Scotland và Ireland giữ quyền địa phương trong một cơ chế phòng thủ chung.",
+          "effect_en": "Scotland and Ireland retain local authority within a common defence compact.",
+          "effect_ui": "Scotland và Ireland giữ quyền địa phương trong một cơ chế phòng thủ chung."
+        },
+        {
+          "id": "scotland_ireland_union_trait_3",
+          "label_vi": "Biên giới vùng đất chết",
+          "label_en": "Frontier of the Dead Lands",
+          "effect_vi": "Các cửa ngõ phía nam phải kiểm soát người qua lại và nguy cơ đến từ tàn tích nước Anh.",
+          "effect_en": "Southern approaches control movement and risks from England’s ruins.",
+          "effect_ui": "Các cửa ngõ phía nam phải kiểm soát người qua lại và nguy cơ đến từ tàn tích nước Anh."
+        }
+      ]
+    },
+    {
+      "id": "england_ruins",
+      "capital_demo": "London · kinh đô cũ",
+      "capital_vi_1715": "London · kinh đô cũ",
+      "capital_en_1715": "London · former capital",
+      "capital_vi_1716": "London · kinh đô cũ",
+      "capital_en_1716": "London · former capital",
+      "lore_vi_1715": "Những cuộc chiến trong nước và các chiến dịch Bồ Đào Nha năm 1704–1705 đẩy nước Anh vào một chuỗi tan vỡ. Các xưởng tàu, kho quân giới và căn cứ hàng hải bị phá hủy; cuộc tiến công tiếp tục vượt xa mục tiêu quân sự ban đầu. London đi tới thất thủ, còn những chuyến tàu chật người tị nạn đưa các gia đình ra khỏi quê nhà.\n\nNăm 1715, Anh và Wales được đánh dấu trên bản đồ như một vùng tàn tích. Chính quyền cũ đã mất; những miền rộng lớn bị Vestigium hoang hóa, sinh vật biến dị và độc tính chiếm giữ. Người Anh còn sống làm lại cuộc đời tại Marrakesh, các cảng Castilian và những căn cứ Đông Ấn Anh. Những quân đoàn Áo đỏ giữ màu quân phục ở đất khác; hạm đội công ty giữ các tuyến biển. Trên quê hương, lá cờ chữ thập đỏ chỉ còn là dấu vết của một vương quốc mà người lưu vong vẫn mang theo trong ký ức.",
+      "lore_en_1715": "Internal wars and Portuguese operations in 1704–1705 drove England into a chain of disasters. Shipyards, arsenals and naval bases were destroyed; the offensive continued far beyond its original military objectives. London fell, and crowded refugee ships carried families away.\n\nIn 1715, England and Wales were marked as ruins. The old government was gone, and vast areas were held by feral Vestigium, mutated creatures and toxicity. Survivors rebuilt their lives in Marrakesh, Castilian ports and Company stations. Redcoat legions retained their uniforms abroad; Company fleets maintained the sea routes. At home, the red-cross flag survived as the trace of a kingdom its exiles still carried in memory.",
+      "lore_vi_1716": "Năm 1716, nước Anh vẫn chưa được tái lập. Giành một cảng hay dựng lại lá cờ sẽ chưa đủ để nuôi dân cư, giữ đường tiếp tế và bảo vệ những người muốn trở về trước nguy cơ trên đảo. Các cộng đồng lưu vong tiếp tục sống bằng những mái nhà đã tìm được tại nước khác.\n\nTrong chiến tranh Castilian, các quân đoàn Áo đỏ chiến đấu qua Santiago, Madrid và Bắc Phi dưới quyền Timothy Beaumont. Cuối năm, ông nhận số hiệu Nueve của Cận vệ Hoàng gia mà vẫn được giữ căn tính cùng màu áo người Anh. Tại Gibraltar, Edward Spencer và William Beckett để lại lời hứa khôi phục quê nhà khi đủ sức đưa người về sống ở đó. Trên bản đồ, Anh và Wales vẫn là tàn tích. Trong những gia đình đã sống sót, ý niệm về nhà bắt đầu có chỗ cho cả nơi đã mất lẫn nơi đang che chở họ.",
+      "lore_en_1716": "In 1716, England remained unrestored. Recovering a port or raising a flag could not by itself feed a population, sustain supply routes or protect returning families from the island's dangers. Exiled communities continued living in the homes they had found abroad.\n\nDuring Castilian's war, Redcoat legions fought through Santiago, Madrid and North Africa under Timothy Beaumont. At year's end he received Nueve in the Royal Guard while retaining his English identity and uniform. At Gibraltar, Edward Spencer and William Beckett left a promise to restore their homeland when they could bring people back to live there. England and Wales remained ruins on the map. Among surviving families, home began to include both the place they had lost and the places sheltering them.",
+      "traits": [
+        {
+          "id": "england_ruins_trait_1",
+          "label_vi": "Vương quốc đã mất",
+          "label_en": "The Lost Kingdom",
+          "effect_vi": "Anh và Wales là vùng tàn tích, không đại diện cho một chính quyền hay quân đội đang kiểm soát lãnh thổ.",
+          "effect_en": "England and Wales are ruins, not the territory of an operating government or army.",
+          "effect_ui": "Anh và Wales là vùng tàn tích, không đại diện cho một chính quyền hay quân đội đang kiểm soát lãnh thổ."
+        },
+        {
+          "id": "england_ruins_trait_2",
+          "label_vi": "Vestigium hoang hóa",
+          "label_en": "Feral Vestigium",
+          "effect_vi": "Sinh vật biến dị và độc tính khiến việc tái định cư đòi hỏi bảo vệ cùng hậu cần lâu dài.",
+          "effect_en": "Mutated creatures and toxicity make resettlement dependent on sustained protection and logistics.",
+          "effect_ui": "Sinh vật biến dị và độc tính khiến việc tái định cư đòi hỏi bảo vệ cùng hậu cần lâu dài."
+        },
+        {
+          "id": "england_ruins_trait_3",
+          "label_vi": "Căn tính lưu vong",
+          "label_en": "Identity in Exile",
+          "effect_vi": "Các cộng đồng và lực lượng người Anh giữ ký ức quê nhà trong khi phục vụ, sinh sống tại nước khác.",
+          "effect_en": "English communities and forces preserve their homeland’s memory while living and serving abroad.",
+          "effect_ui": "Các cộng đồng và lực lượng người Anh giữ ký ức quê nhà trong khi phục vụ, sinh sống tại nước khác."
+        }
+      ]
+    },
+    {
+      "id": "new_portuguese_empire",
+      "capital_demo": "Rio de Janeiro",
+      "capital_vi_1715": "Rio de Janeiro",
+      "capital_en_1715": "Rio de Janeiro",
+      "capital_vi_1716": "Rio de Janeiro",
+      "capital_en_1716": "Rio de Janeiro",
+      "lore_vi_1715": "Sau những thất bại trên bán đảo Iberia, triều đình Bồ Đào Nha chuyển trung tâm quyền lực qua Đại Tây Dương. Rio de Janeiro trở thành kinh đô của Đế chế Tân Bồ Đào Nha; những miền đất từng được cai quản từ Lisbon giờ nuôi một triều đình muốn lấy đại dương làm đường trở lại châu Âu.\n\nNăm 1715, đế quốc giữ Caribe và những dải duyên hải trải dọc cả hai bờ châu Mỹ. Các hạm đội đánh vào quyền lực Castilian tại Tân Thế Giới, khiến những căn cứ còn lại bị chiếm hoặc cô lập. Hội đồng Viễn chinh điều phối chiến dịch, dùng chiến hạm và các lực lượng mang Vestigium để giữ ưu thế trên biển lẫn đất liền. Nhưng những vùng đất bên kia đại dương còn có các vương quốc, hội đồng và thế lực chống lại họ. Tân Bồ Đào Nha làm châu Âu lo sợ bằng sức mạnh đến từ một thế giới mà chính những người chinh phục nó cũng chưa hiểu hết.",
+      "lore_en_1715": "After defeats in Iberia, the Portuguese court moved its centre of power across the Atlantic. Rio de Janeiro became the capital of New Portugal; lands once governed from Lisbon now supported a court intending to use the ocean as its route back to Europe.\n\nIn 1715, the empire held the Caribbean and coastal belts along both sides of the Americas. Its fleets struck Castilian power in the New World, capturing or isolating the remaining bases. The Expeditionary Council coordinated warships and Vestigium-bearing forces to sustain superiority at sea and ashore. Yet the overseas lands also contained kingdoms, councils and hostile powers. New Portugal alarmed Europe with strength drawn from a world its conquerors still did not fully understand.",
+      "lore_vi_1716": "Năm 1716, Hội đồng Viễn chinh đưa hơn bốn trăm chiến hạm tới Tagus, đòi trả lại các lãnh thổ Bồ Đào Nha tại Iberia. Lourenço de Câmara chỉ huy hạm đội; Duarte de Meneses thương lượng với Rouge rồi đưa quân lên Galicia. Yêu sách ngoại giao biến thành chiến tranh khi các phe Castilian từ chối để một lực lượng bên ngoài vẽ lại bán đảo.\n\nCuộc tiến công bị chặn lại. Duarte trở thành tù binh, còn Lourenço tới Madrid dưới cờ đình chiến để thương lượng tiền chuộc, hồi hương và chấm dứt hỗ trợ cho phe chống Hoàng gia. Đế quốc vẫn giữ quyền lực ở châu Mỹ, nhưng phải nhìn lại giới hạn của những chiến hạm từng khiến Đại Tây Dương run sợ. Từ Tân Thế Giới, một nguy cơ khác tiếp tục lớn lên: kẻ chỉ huy đã vượt lệnh trong chiến dịch tàn phá nước Anh đang ở phía tây, cùng những lực lượng mà Hội đồng từng trao cho hắn.",
+      "lore_en_1716": "In 1716, the Expeditionary Council sent over four hundred warships to the Tagus and demanded the return of Portugal's Iberian territories. Lourenço de Câmara commanded the fleet; Duarte de Meneses negotiated with Rouge and later advanced into Galicia. Diplomatic demands became war when Castilian factions refused to let a foreign force redraw the peninsula.\n\nThe offensive was stopped. Duarte became a prisoner, while Lourenço arrived in Madrid under a truce flag to negotiate ransom, repatriation and an end to support for forces opposing the crown. The empire retained its American power but confronted the limits of the fleets that had terrified the Atlantic. Another danger continued growing in the New World: the commander who had exceeded orders while devastating England remained in the west with forces once entrusted to him.",
+      "traits": [
+        {
+          "id": "new_portuguese_empire_trait_1",
+          "label_vi": "Triều đình bên kia biển",
+          "label_en": "Court Across the Ocean",
+          "effect_vi": "Kinh đô ở châu Mỹ biến những lãnh thổ hải ngoại thành nền tảng cho quyền lực đế quốc.",
+          "effect_en": "An American capital makes overseas territories the foundation of imperial power.",
+          "effect_ui": "Kinh đô ở châu Mỹ biến những lãnh thổ hải ngoại thành nền tảng cho quyền lực đế quốc."
+        },
+        {
+          "id": "new_portuguese_empire_trait_2",
+          "label_vi": "Hội đồng Viễn chinh",
+          "label_en": "Expeditionary Council",
+          "effect_vi": "Các chiến dịch phối hợp hạm đội, quân thuộc địa và lực lượng sử dụng Vestigium dưới cơ chế chỉ huy chung.",
+          "effect_en": "Campaigns coordinate fleets, colonial troops and Vestigium users through a common command system.",
+          "effect_ui": "Các chiến dịch phối hợp hạm đội, quân thuộc địa và lực lượng sử dụng Vestigium dưới cơ chế chỉ huy chung."
+        },
+        {
+          "id": "new_portuguese_empire_trait_3",
+          "label_vi": "Tân Thế Giới bất định",
+          "label_en": "The Uncertain New World",
+          "effect_vi": "Đế quốc đối diện các quốc gia bản địa, lực lượng ly khai và những hiện tượng vượt khỏi hiểu biết của người chinh phục.",
+          "effect_en": "The empire faces indigenous states, renegade forces and phenomena beyond its conquerors’ understanding.",
+          "effect_ui": "Đế quốc đối diện các quốc gia bản địa, lực lượng ly khai và những hiện tượng vượt khỏi hiểu biết của người chinh phục."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "habsburg_poland_representative",
+      "faction_id": "habsburg_poland",
+      "name": "Rouge von Habsburg",
+      "role_vi": "Hoàng đế Habsburg – Ba Lan từ năm 1716",
+      "role_en": "Emperor of Habsburg–Poland from 1716",
+      "lore_vi": "Rouge mang yêu sách kế vị Charles II, cơ thể bị lời nguyền Điêu Ưng Biến Dị Song Đầu tàn phá và mối thù với trật tự Castilian mới. Tại Santiago, ông dựng cờ Habsburg rồi phải cùng những người mình chống lại đương đầu quân Bồ Đào Nha. Thất bại trong cuộc tranh ngai kết thúc bằng lưu vong tới Ba Lan.\n\nNăm 1716, Rouge đăng quang tại Kraków. Ông giữ tham vọng gia tộc trong quốc hiệu mới, đòi lại những lãnh thổ Đức và thương lượng với Madrid bằng một hiệp định có điều kiện. Quyền lực đã đổi hình dạng; những người từng chứng kiến Santiago vẫn nhớ rõ người đang ngồi trên ngai vàng ấy.",
+      "lore_en": "Rouge carries a claim to Charles II's succession, a body ravaged by the curse of the Mutated Two-Headed Eagle and a feud with Castilian's new order. At Santiago, he raises the Habsburg banner and then fights Portugal beside former enemies. Defeat in the struggle for the throne ends in exile to Poland.\n\nCrowned in Kraków in 1716, Rouge embeds dynastic ambition in the new state name, demands German territories and negotiates a conditional agreement with Madrid. His authority has changed form; those who witnessed Santiago still remember the man now occupying the throne.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Thương lượng quyền kế vị",
+        "Huy động các gia tộc",
+        "Chọn thời điểm can thiệp"
+      ],
+      "skills_en": [
+        "Succession negotiation",
+        "Mobilizing noble houses",
+        "Choosing intervention timing"
+      ],
+      "traits_vi": [
+        "Kiêu hãnh triều đại",
+        "Tham vọng dai dẳng",
+        "Tính toán cơ hội"
+      ],
+      "traits_en": [
+        "Dynastic pride",
+        "Persistent ambition",
+        "Calculating opportunism"
+      ],
+      "status_vi": {
+        "1715": "Dựng cờ Habsburg ở Iberia, chưa là hoàng đế tại Kraków.",
+        "1716": "Đăng quang tại Kraków, đánh Novgorod và đòi mở đàm phán về vùng Đức."
+      },
+      "status_en": {
+        "1715": "Raising the Habsburg banner in Iberia; not yet emperor in Kraków.",
+        "1716": "Crowned in Kraków, fighting Novgorod and demanding German negotiations."
+      },
+      "skills": [
+        "Thương lượng quyền kế vị",
+        "Huy động các gia tộc",
+        "Chọn thời điểm can thiệp"
+      ],
+      "traits": [
+        "Kiêu hãnh triều đại",
+        "Tham vọng dai dẳng",
+        "Tính toán cơ hội"
+      ],
+      "status": {
+        "1715": "Dựng cờ Habsburg ở Iberia, chưa là hoàng đế tại Kraków.",
+        "1716": "Đăng quang tại Kraków, đánh Novgorod và đòi mở đàm phán về vùng Đức."
+      }
+    },
+    {
+      "id": "novgorod_union_representative",
+      "faction_id": "novgorod_union",
+      "name": "Pyotr Romanov",
+      "role_vi": "Tổng chấp chính Liên hiệp Novgorod",
+      "role_en": "First Consul of the Novgorod Union",
+      "lore_vi": "Pyotr nhận quyền điều hành liên hiệp năm 1700 và dùng nó để thay đổi cán cân giữa hội đồng với quân đội. Ông xây lực lượng thường trực, hạm đội Baltic và một thế hệ sĩ quan được đào tạo dưới sự bảo trợ của mình. Việc mở rộng quyền lực phía tây đưa ông đối đầu Danes và Habsburg – Ba Lan.\n\nChiếm Phần Lan năm 1716 củng cố uy danh Tổng chấp chính. Pyotr vẫn giữ danh nghĩa người được bầu, trong khi những đạo quân làm nên chiến thắng bắt đầu nhìn nhiệm kỳ của ông như một chi tiết mà hội đồng có thể sửa.",
+      "lore_en": "Pyotr takes executive authority in 1700 and changes the balance between assembly and army. He builds standing forces, a Baltic fleet and an officer generation trained under his patronage. Expansion west confronts Danes and Habsburg–Poland.\n\nThe conquest of Finland in 1716 strengthens the First Consul's prestige. He retains an elected title while the armies responsible for his victories begin treating his term of office as something the assembly can amend.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Cải tổ quân đội",
+        "Xây dựng hạm đội",
+        "Điều hành chiến tranh nhiều hướng"
+      ],
+      "skills_en": [
+        "Army reform",
+        "Fleet construction",
+        "Multi-front war leadership"
+      ],
+      "traits_vi": [
+        "Ý chí tập trung quyền lực",
+        "Ham học kỹ thuật",
+        "Tham vọng vượt nhiệm kỳ"
+      ],
+      "traits_en": [
+        "Centralizing will",
+        "Technical curiosity",
+        "Ambition beyond his term"
+      ],
+      "status_vi": {
+        "1715": "Chỉ huy liên hiệp trên chiến tuyến phía tây.",
+        "1716": "Chiếm Phần Lan và tiếp tục gây sức ép lên Ba Lan."
+      },
+      "status_en": {
+        "1715": "Leading the Union on its western front.",
+        "1716": "Taking Finland and maintaining pressure on Poland."
+      },
+      "skills": [
+        "Cải tổ quân đội",
+        "Xây dựng hạm đội",
+        "Điều hành chiến tranh nhiều hướng"
+      ],
+      "traits": [
+        "Ý chí tập trung quyền lực",
+        "Ham học kỹ thuật",
+        "Tham vọng vượt nhiệm kỳ"
+      ],
+      "status": {
+        "1715": "Chỉ huy liên hiệp trên chiến tuyến phía tây.",
+        "1716": "Chiếm Phần Lan và tiếp tục gây sức ép lên Ba Lan."
+      }
+    },
+    {
+      "id": "danes_kingdom_representative",
+      "faction_id": "danes_kingdom",
+      "name": "Margrete I",
+      "role_vi": "Nữ vương Danes",
+      "role_en": "Queen of Danes",
+      "lore_vi": "Margrete triệu tập các vương triều phương bắc tới Kalmar năm 1697 và buộc những người tranh quyền cùng nhận một vương quyền chung. Bà giữ triều đình tại Copenhagen, đặt hạm đội cùng những đạo quân địa phương vào một cơ chế điều hành.\n\nThất thủ Phần Lan năm 1716 khiến thành quả thống nhất bị thử thách. Margrete giữ các miền còn lại bằng quân đội, liên kết phía đông với Ba Lan và vị thế chứng kiến hiệp định giữa Madrid với Kraków. Bà hiểu một vương miện có thể mất đất trước khi mất quyền được các miền thừa nhận.",
+      "lore_en": "Margrete brings the northern dynasties to Kalmar in 1697 and compels rival rulers to accept a shared crown. From Copenhagen, she brings fleets and regional armies into a common system.\n\nFinland's fall in 1716 tests her unification. She preserves the remaining lands through her army, cooperation with Poland and her position as witness to the Madrid–Kraków agreement. She understands that a crown can lose territory before it loses recognition.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Thống nhất các vương triều",
+        "Ngoại giao cân bằng",
+        "Điều phối hạm đội Baltic"
+      ],
+      "skills_en": [
+        "Uniting dynasties",
+        "Balance-of-power diplomacy",
+        "Baltic fleet coordination"
+      ],
+      "traits_vi": [
+        "Kiên định vương quyền",
+        "Nhẫn nại chính trị",
+        "Giữ lời cam kết"
+      ],
+      "traits_en": [
+        "Resolute royal authority",
+        "Political patience",
+        "Commitment to agreements"
+      ],
+      "status_vi": {
+        "1715": "Giữ Bắc Âu trước sức ép Pháp và Novgorod.",
+        "1716": "Giữ vương quốc sau mất Phần Lan; làm chứng cho hiệp định Madrid–Kraków."
+      },
+      "status_en": {
+        "1715": "Holding Northern Europe against French and Novgorod pressure.",
+        "1716": "Preserving the kingdom after Finland’s loss and witnessing the Madrid–Kraków agreement."
+      },
+      "skills": [
+        "Thống nhất các vương triều",
+        "Ngoại giao cân bằng",
+        "Điều phối hạm đội Baltic"
+      ],
+      "traits": [
+        "Kiên định vương quyền",
+        "Nhẫn nại chính trị",
+        "Giữ lời cam kết"
+      ],
+      "status": {
+        "1715": "Giữ Bắc Âu trước sức ép Pháp và Novgorod.",
+        "1716": "Giữ vương quốc sau mất Phần Lan; làm chứng cho hiệp định Madrid–Kraków."
+      }
+    },
+    {
+      "id": "scotland_ireland_union_representative",
+      "faction_id": "scotland_ireland_union",
+      "name": "Criston Wallace",
+      "role_vi": "Người thống lĩnh liên quân Scotland",
+      "role_en": "Commander of the Scottish Coalition",
+      "lore_vi": "Criston Wallace khiến các gia tộc Scotland hiểu rằng hàng quân bên cạnh tan vỡ thì chính họ cũng sẽ chết. Từ những phe vốn thù địch, ông dựng một hệ thống đủ sức đánh bại Edward Spencer tại Inverness năm 1704. Wallace thả vị đô đốc bị bắt để nước Anh phải đối mặt với một người hùng đã thất bại.\n\nChiến thắng giữ vị thế của ông trong liên hiệp Scotland – Ireland. Các hội đồng vẫn có quyền và các gia tộc vẫn giữ thù cũ; Wallace đứng giữa họ bằng uy danh của người từng biến những bất đồng ấy thành một chiến tuyến. Với Edward, tên ông gắn với cả một thất bại quân sự lẫn những biến cố theo sau.",
+      "lore_en": "Criston Wallace makes the Scottish clans understand that the collapse of the ranks beside them means their own destruction. He turns hostile factions into a system capable of defeating Edward Spencer at Inverness in 1704. Releasing the captured admiral forces England to confront a defeated hero.\n\nVictory sustains his position in the Scotland–Ireland Union. Councils retain their rights and clans retain their feuds; Wallace stands among them as the man who turned those divisions into a common front. For Edward, his name carries both military defeat and the disasters that followed.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Hợp lực các gia tộc",
+        "Dẫn dụ đối phương",
+        "Khai thác địa hình"
+      ],
+      "skills_en": [
+        "Coordinating clans",
+        "Drawing enemies into traps",
+        "Exploiting terrain"
+      ],
+      "traits_vi": [
+        "Uy danh Inverness",
+        "Đọc động cơ đối thủ",
+        "Thực dụng trong chiến tranh"
+      ],
+      "traits_en": [
+        "Prestige of Inverness",
+        "Reads adversaries’ motives",
+        "Wartime pragmatism"
+      ],
+      "status_vi": {
+        "1715": "Biểu tượng chiến thắng của Scotland; được nhắc tới trong kế hoạch liên lạc phương bắc.",
+        "1716": "Giữ vị thế trong hệ thống phòng thủ của liên hiệp."
+      },
+      "status_en": {
+        "1715": "Scotland’s victorious figure, named in plans for northern contact.",
+        "1716": "Retaining his position in the Union’s defence system."
+      },
+      "skills": [
+        "Hợp lực các gia tộc",
+        "Dẫn dụ đối phương",
+        "Khai thác địa hình"
+      ],
+      "traits": [
+        "Uy danh Inverness",
+        "Đọc động cơ đối thủ",
+        "Thực dụng trong chiến tranh"
+      ],
+      "status": {
+        "1715": "Biểu tượng chiến thắng của Scotland; được nhắc tới trong kế hoạch liên lạc phương bắc.",
+        "1716": "Giữ vị thế trong hệ thống phòng thủ của liên hiệp."
+      }
+    },
+    {
+      "id": "england_ruins_representative",
+      "faction_id": "england_ruins",
+      "name": "Timothy Beaumont",
+      "role_vi": "Chỉ huy Áo đỏ lưu vong · Cận vệ Nueve từ cuối năm 1716",
+      "role_en": "Exiled Redcoat Commander · Royal Guard Nueve from late 1716",
+      "lore_vi": "Timothy sống sót sau London và mang ký ức nước Anh theo những đạo quân Áo đỏ phục vụ Castilian. Qua Santiago, Madrid và Bắc Phi, ông giữ những người mất quê hương thành một lực lượng có kỷ luật, chiến đấu để bảo vệ đồng đội cùng dân thường.\n\nCuối năm 1716, Isabella trao ông Đại Thập tự Quân công và số hiệu Nueve. Timothy nhận nghĩa vụ Cận vệ Hoàng gia, bao gồm quyền từ chối mệnh lệnh trái luật, đồng thời được giữ căn tính người Anh và màu quân phục mình đã chọn. Ông xuất hiện trong hồ sơ tàn tích như đại diện cho người sống sót; lực lượng của ông đang phục vụ Castilian, chưa trở về kiểm soát nước Anh.",
+      "lore_en": "Timothy survives London and carries England's memory with the Redcoat forces serving Castilian. Through Santiago, Madrid and North Africa, he maintains a disciplined force of people who have lost their homeland and fights to protect comrades and civilians.\n\nAt the end of 1716, Isabella awards him the Military Grand Cross and Nueve. He accepts Royal Guard duties, including the right to refuse unlawful orders, while retaining his English identity and uniform. This ruins dossier presents him as a representative of survivors; his forces serve Castilian and have not returned to control England.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Chỉ huy quân đoàn Áo đỏ",
+        "Tổ chức pháo đội",
+        "Bảo vệ dân thường"
+      ],
+      "skills_en": [
+        "Redcoat command",
+        "Artillery organization",
+        "Civilian protection"
+      ],
+      "traits_vi": [
+        "Giữ căn tính người Anh",
+        "Trung thành với người cần bảo vệ",
+        "Bền bỉ sau mất mát"
+      ],
+      "traits_en": [
+        "Preserves English identity",
+        "Loyal to those he protects",
+        "Endurance after loss"
+      ],
+      "status_vi": {
+        "1715": "Người Anh lưu vong phục vụ trong lực lượng Castilian.",
+        "1716": "Chỉ huy Áo đỏ qua chiến tranh và nhận Nueve cuối năm; không cai trị lãnh thổ Anh."
+      },
+      "status_en": {
+        "1715": "An English exile serving in Castilian forces.",
+        "1716": "Leading Redcoats through war and receiving Nueve at year’s end; not governing England."
+      },
+      "skills": [
+        "Chỉ huy quân đoàn Áo đỏ",
+        "Tổ chức pháo đội",
+        "Bảo vệ dân thường"
+      ],
+      "traits": [
+        "Giữ căn tính người Anh",
+        "Trung thành với người cần bảo vệ",
+        "Bền bỉ sau mất mát"
+      ],
+      "status": {
+        "1715": "Người Anh lưu vong phục vụ trong lực lượng Castilian.",
+        "1716": "Chỉ huy Áo đỏ qua chiến tranh và nhận Nueve cuối năm; không cai trị lãnh thổ Anh."
+      }
+    },
+    {
+      "id": "new_portuguese_empire_representative",
+      "faction_id": "new_portuguese_empire",
+      "name": "Lourenço de Câmara",
+      "role_vi": "Đô đốc hạm đội viễn chinh",
+      "role_en": "Admiral of the Expeditionary Fleet",
+      "lore_vi": "Lourenço chỉ huy hạm đội hơn bốn trăm chiến hạm tiến tới Tagus. Ông khai thác pháo mạn, gió và tín hiệu để chia cắt liên quân Iberia, thay đổi cách đánh ngay khi đối phương bắt đầu hiểu nhịp chiến đấu của mình. Những năm ở Tân Thế Giới khiến ông biết quyền lực Bồ Đào Nha đang dựa vào những vùng đất bất định đến mức nào.\n\nSau thất bại, ông tới Madrid dưới cờ đình chiến và ký nguyên tắc ngừng hành động thù địch. Trong cuộc nói chuyện với Edward và Beckett, Lourenço thừa nhận trách nhiệm Bồ Đào Nha đối với chiến dịch tàn phá nước Anh, đồng thời kể về tên chỉ huy đã vượt lệnh rồi đem lực lượng sang phía tây. Ông giữ danh dự một sĩ quan bằng việc đối diện những điều quốc gia mình đã gây ra.",
+      "lore_en": "Lourenço commands over four hundred warships approaching the Tagus. He uses broadsides, wind and signals to divide the Iberian coalition and changes tactics as opponents begin understanding him. Years in the New World have shown him the uncertainty beneath Portuguese power.\n\nAfter defeat, he comes to Madrid under a truce flag and signs principles ending hostile action. Speaking with Edward and Beckett, he acknowledges Portugal's responsibility for England's devastation and describes the commander who exceeded orders and took forces west. He preserves an officer's honour by confronting what his country has done.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Điều phối chiến hạm tuyến",
+        "Đánh vào hệ thống tín hiệu",
+        "Thương lượng đình chiến"
+      ],
+      "skills_en": [
+        "Coordinating ships of the line",
+        "Attacking signal systems",
+        "Truce negotiations"
+      ],
+      "traits_vi": [
+        "Thích nghi chiến thuật",
+        "Có trách nhiệm với thủy thủ",
+        "Dám đối diện sai lầm quốc gia"
+      ],
+      "traits_en": [
+        "Tactical adaptability",
+        "Responsibility toward sailors",
+        "Confronts national wrongdoing"
+      ],
+      "status_vi": {
+        "1715": "Phục vụ các chiến dịch hải ngoại của Bồ Đào Nha.",
+        "1716": "Chỉ huy chiến dịch Tagus, rồi thương lượng đình chiến tại Madrid."
+      },
+      "status_en": {
+        "1715": "Serving Portuguese overseas campaigns.",
+        "1716": "Commanding at the Tagus, then negotiating a truce in Madrid."
+      },
+      "skills": [
+        "Điều phối chiến hạm tuyến",
+        "Đánh vào hệ thống tín hiệu",
+        "Thương lượng đình chiến"
+      ],
+      "traits": [
+        "Thích nghi chiến thuật",
+        "Có trách nhiệm với thủy thủ",
+        "Dám đối diện sai lầm quốc gia"
+      ],
+      "status": {
+        "1715": "Phục vụ các chiến dịch hải ngoại của Bồ Đào Nha.",
+        "1716": "Chỉ huy chiến dịch Tagus, rồi thương lượng đình chiến tại Madrid."
+      }
+    },
+    {
+      "id": "new_portuguese_empire_duarte",
+      "faction_id": "new_portuguese_empire",
+      "name": "Duarte de Meneses",
+      "role_vi": "Tướng lục quân · Phái viên Hội đồng Viễn chinh",
+      "role_en": "Army General · Expeditionary Council Envoy",
+      "lore_vi": "Duarte được Hội đồng Viễn chinh cử tới Santiago, đem yêu sách trả lại những lãnh thổ Bồ Đào Nha dưới sức ép hạm đội ngoài Tagus. Sau khi Rouge từ chối, ông chỉ huy lực lượng từ Tân Thế Giới tiến lên Galicia, phối hợp bộ binh cơ động, pháo nhẹ và các toán sử dụng Vestigium.\n\nChiến dịch kết thúc với Duarte trong tay Castilian. Tại Madrid, Isabella cho ông bước vào bàn thương lượng dưới quy chế tù binh danh dự. Duarte ký phần trao trả và bảo đảm hồi hương, chuyển từ người đòi đất sang người phải tìm đường đưa những binh sĩ còn sống về nhà.",
+      "lore_en": "The Expeditionary Council sends Duarte to Santiago with demands for Portugal's territories, backed by the fleet outside the Tagus. After Rouge refuses, he leads New World troops into Galicia, coordinating mobile infantry, light artillery and Vestigium detachments.\n\nThe campaign ends with Duarte in Castilian custody. Isabella allows him to negotiate in Madrid as an honourable prisoner. He signs the repatriation provisions, turning from the man demanding territory into the man seeking a route home for surviving soldiers.",
+      "portrait_asset": null,
+      "skills_vi": [
+        "Chỉ huy quân viễn chinh",
+        "Phối hợp pháo và bộ binh",
+        "Thương lượng hồi hương"
+      ],
+      "skills_en": [
+        "Expeditionary army command",
+        "Artillery-infantry coordination",
+        "Repatriation negotiation"
+      ],
+      "traits_vi": [
+        "Giữ nghi thức sĩ quan",
+        "Chịu trách nhiệm chiến dịch",
+        "Thực tế trước thất bại"
+      ],
+      "traits_en": [
+        "Maintains officer protocol",
+        "Accountable for his campaign",
+        "Practical after defeat"
+      ],
+      "status_vi": {
+        "1715": "Phục vụ Hội đồng Viễn chinh tại Tân Thế Giới.",
+        "1716": "Từ chiến dịch Galicia tới quy chế tù binh danh dự tại Madrid."
+      },
+      "status_en": {
+        "1715": "Serving the Expeditionary Council in the New World.",
+        "1716": "From the Galicia campaign to honourable captivity in Madrid."
+      },
+      "skills": [
+        "Chỉ huy quân viễn chinh",
+        "Phối hợp pháo và bộ binh",
+        "Thương lượng hồi hương"
+      ],
+      "traits": [
+        "Giữ nghi thức sĩ quan",
+        "Chịu trách nhiệm chiến dịch",
+        "Thực tế trước thất bại"
+      ],
+      "status": {
+        "1715": "Phục vụ Hội đồng Viễn chinh tại Tân Thế Giới.",
+        "1716": "Từ chiến dịch Galicia tới quy chế tù binh danh dự tại Madrid."
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "habsburg_poland_unit_1",
+      "faction_id": "habsburg_poland",
+      "name": "Kỵ binh Hữu Dực Ba Lan",
+      "name_vi": "Kỵ binh Hữu Dực Ba Lan",
+      "name_en": "Polish Winged Cavalry",
+      "role": "Kỵ binh đột kích",
+      "role_vi": "Kỵ binh đột kích",
+      "role_en": "Shock cavalry",
+      "lore_vi": "Những kỵ sĩ mang cánh sau lưng giữ truyền thống quân sự Ba Lan trong đế quốc mới. Các cuộc xung phong được phối hợp với bộ binh và pháo để mở những khoảng trống trên chiến tuyến phía đông; uy danh của họ gắn với đất nước mà quốc hiệu Habsburg vẫn phải giữ lại.",
+      "lore_en": "Wing-bearing cavalry preserve Polish military traditions within the new empire. Charges coordinate with infantry and artillery to open gaps on the eastern front; their prestige belongs to the country whose identity the Habsburg name must preserve.",
+      "image_asset": null
+    },
+    {
+      "id": "habsburg_poland_unit_2",
+      "faction_id": "habsburg_poland",
+      "name": "Cận vệ Đại Bàng Song Đầu",
+      "name_vi": "Cận vệ Đại Bàng Song Đầu",
+      "name_en": "Guard of the Double-Headed Eagle",
+      "role": "Bộ binh bảo vệ triều đình",
+      "role_vi": "Bộ binh bảo vệ triều đình",
+      "role_en": "Court guard infantry",
+      "lore_vi": "Lực lượng bảo vệ hoàng đế tại Kraków, tập hợp những quân nhân được triều đình mới tin cậy. Đại bàng Habsburg trên quân kỳ xác nhận lòng trung thành với Rouge, trong khi nghĩa vụ bảo vệ kinh đô buộc họ đứng cạnh các đơn vị Ba Lan.",
+      "lore_en": "The emperor’s guard in Kraków gathers soldiers trusted by the new court. Its Habsburg eagle declares loyalty to Rouge, while defence of the capital places it beside Polish formations.",
+      "image_asset": null
+    },
+    {
+      "id": "novgorod_union_unit_1",
+      "faction_id": "novgorod_union",
+      "name": "Bộ binh Cận vệ Romanov",
+      "name_vi": "Bộ binh Cận vệ Romanov",
+      "name_en": "Romanov Guard Infantry",
+      "role": "Bộ binh hỏa khí thường trực",
+      "role_vi": "Bộ binh hỏa khí thường trực",
+      "role_en": "Standing firearm infantry",
+      "lore_vi": "Các đơn vị được huấn luyện theo cuộc cải tổ Pyotr, phục vụ liên hiệp dưới quyền sĩ quan trung ương. Kỷ luật và sự thống nhất khẩu lệnh giúp họ đứng vững trên chiến tuyến phía tây; lòng trung thành với người xây dựng quân đội làm hội đồng Novgorod phải dè chừng.",
+      "lore_en": "Formed under Pyotr’s reforms, these units serve the Union through centrally appointed officers. Discipline and unified commands sustain them on the western front; loyalty to their founder alarms the Novgorod assembly.",
+      "image_asset": null
+    },
+    {
+      "id": "novgorod_union_unit_2",
+      "faction_id": "novgorod_union",
+      "name": "Hải đoàn Baltic",
+      "name_vi": "Hải đoàn Baltic",
+      "name_en": "Baltic Squadron",
+      "role": "Hải quân giữ căn cứ và vận chuyển quân",
+      "role_vi": "Hải quân giữ căn cứ và vận chuyển quân",
+      "role_en": "Naval base defence and troop transport",
+      "lore_vi": "Những chiến hạm đưa quyền lực Novgorod ra Baltic. Sau cuộc chiếm Phần Lan, hải đoàn giữ các căn cứ mới và bảo vệ việc chuyển quân qua vịnh, kéo chiến tuyến tới gần vùng biển Danes.",
+      "lore_en": "These warships project Novgorod power into the Baltic. After Finland’s conquest, the squadron holds new bases and protects troop movements across the gulf, bringing the front toward Danes waters.",
+      "image_asset": null
+    },
+    {
+      "id": "danes_kingdom_unit_1",
+      "faction_id": "danes_kingdom",
+      "name": "Cận vệ Kalmar",
+      "name_vi": "Cận vệ Kalmar",
+      "name_en": "Kalmar Guard",
+      "role": "Bộ binh vương quyền",
+      "role_vi": "Bộ binh vương quyền",
+      "role_en": "Royal infantry",
+      "lore_vi": "Các đơn vị tuyển từ những miền Bắc Âu cùng nhận quân kỳ của Margrete. Sĩ quan phải gắn lòng trung thành địa phương với nghĩa vụ phục vụ vương quốc; sau khi Phần Lan thất thủ, họ trở thành lực lượng giữ các tuyến phòng thủ còn lại.",
+      "lore_en": "Recruited across the northern lands, these units receive Margrete’s banner. Officers bind regional loyalties to service of the kingdom; after Finland falls, they hold the surviving defensive lines.",
+      "image_asset": null
+    },
+    {
+      "id": "danes_kingdom_unit_2",
+      "faction_id": "danes_kingdom",
+      "name": "Hạm đội Eo Biển",
+      "name_vi": "Hạm đội Eo Biển",
+      "name_en": "Fleet of the Straits",
+      "role": "Hải quân phòng thủ Bắc Âu",
+      "role_vi": "Hải quân phòng thủ Bắc Âu",
+      "role_en": "Northern naval defence",
+      "lore_vi": "Hạm đội giữ các eo biển và đường liên lạc giữa những miền của Danes. Các căn cứ Copenhagen cung cấp nơi tập kết; khi Novgorod chiếm Phần Lan, chiến hạm trở thành tấm chắn cho những bờ biển còn dưới quyền nữ vương.",
+      "lore_en": "The fleet holds the straits and connects the kingdom’s lands. Copenhagen provides its assembly bases; after Novgorod takes Finland, the warships shield the queen’s remaining coasts.",
+      "image_asset": null
+    },
+    {
+      "id": "scotland_ireland_union_unit_1",
+      "faction_id": "scotland_ireland_union",
+      "name": "Liên quân Cao nguyên",
+      "name_vi": "Liên quân Cao nguyên",
+      "name_en": "Highland Coalition Infantry",
+      "role": "Bộ binh tác chiến địa hình",
+      "role_vi": "Bộ binh tác chiến địa hình",
+      "role_en": "Terrain-adapted infantry",
+      "lore_vi": "Các đội quân gia tộc Scotland tác chiến trong một hệ thống phối hợp, giữ đường liên lạc và hỗ trợ hàng quân bên cạnh. Truyền thống ấy gắn với chiến thắng Inverness, khi Wallace dùng chính sự liên kết để đánh bại lực lượng Edward.",
+      "lore_en": "Scottish clan contingents fight within a coordinated system, maintaining connections and supporting adjacent ranks. The tradition recalls Inverness, where Wallace used cohesion to defeat Edward’s forces.",
+      "image_asset": null
+    },
+    {
+      "id": "scotland_ireland_union_unit_2",
+      "faction_id": "scotland_ireland_union",
+      "name": "Vệ binh các Hội đồng Ireland",
+      "name_vi": "Vệ binh các Hội đồng Ireland",
+      "name_en": "Irish Council Guard",
+      "role": "Bộ binh phòng thủ đảo",
+      "role_vi": "Bộ binh phòng thủ đảo",
+      "role_en": "Island defence infantry",
+      "lore_vi": "Những đơn vị do các hội đồng Ireland huy động bảo vệ cảng và các điểm đổ bộ. Họ tham gia cơ chế phòng thủ liên hiệp, trong khi việc đưa quân ra ngoài đảo vẫn gắn với quyền quyết định của địa phương.",
+      "lore_en": "Raised by Irish councils, these units defend ports and landing grounds. They participate in the Union’s defence while overseas deployments remain tied to local authority.",
+      "image_asset": null
+    },
+    {
+      "id": "england_ruins_unit_1",
+      "faction_id": "england_ruins",
+      "name": "Quân đoàn Áo đỏ lưu vong",
+      "name_vi": "Quân đoàn Áo đỏ lưu vong",
+      "name_en": "Exiled Redcoat Legions",
+      "role": "Lực lượng người Anh phục vụ Castilian",
+      "role_vi": "Lực lượng người Anh phục vụ Castilian",
+      "role_en": "English forces serving Castilian",
+      "lore_vi": "Những quân nhân sống sót giữ màu áo đỏ và kỷ luật qua các chiến trường Santiago, Madrid và Bắc Phi. Timothy Beaumont chỉ huy họ bảo vệ đồng đội cùng dân thường. Đơn vị được ghi tại hồ sơ quê hương đã mất để giữ căn tính xuất thân; lực lượng hiện phục vụ Castilian và không kiểm soát lãnh thổ Anh.",
+      "lore_en": "Surviving soldiers preserve red uniforms and discipline through Santiago, Madrid and North Africa. Timothy Beaumont leads them in protecting comrades and civilians. This homeland dossier records their origin; they serve Castilian and do not control English territory.",
+      "image_asset": null
+    },
+    {
+      "id": "england_ruins_unit_2",
+      "faction_id": "england_ruins",
+      "name": "Hải quân Hoàng gia Anh trước diệt vong",
+      "name_vi": "Hải quân Hoàng gia Anh trước diệt vong",
+      "name_en": "Royal Navy Before the Fall",
+      "role": "Lực lượng lịch sử · di sản hải quân",
+      "role_vi": "Lực lượng lịch sử · di sản hải quân",
+      "role_en": "Historical force · naval legacy",
+      "lore_vi": "Các xưởng tàu, kho buồm, hải đồ và căn cứ từng nuôi hạm đội viễn dương trở thành mục tiêu trong các chiến dịch Bồ Đào Nha. Sau khi nước Anh sụp đổ, những thủy thủ sống sót phục vụ tại các hạm đội khác. Hồ sơ này ghi lại lực lượng lịch sử, không đánh dấu một hạm đội Anh đang hoạt động từ London.",
+      "lore_en": "Shipyards, sail stores, charts and bases sustaining the ocean fleet were targeted by Portuguese operations. After England fell, surviving sailors served in other fleets. This record describes a historical force, not an English fleet operating from London.",
+      "image_asset": null
+    },
+    {
+      "id": "new_portuguese_empire_unit_1",
+      "faction_id": "new_portuguese_empire",
+      "name": "Chiến hạm tuyến Viễn chinh",
+      "name_vi": "Chiến hạm tuyến Viễn chinh",
+      "name_en": "Expeditionary Ships of the Line",
+      "role": "Hải quân chủ lực",
+      "role_vi": "Hải quân chủ lực",
+      "role_en": "Main battle fleet",
+      "lore_vi": "Các chiến hạm phối hợp pháo mạn với tàu nhẹ và tín hiệu để chia cắt đội hình đối phương. Trong chiến dịch Tagus, Lourenço thay đổi nhịp tác chiến liên tục, đánh vào khả năng liên lạc của liên quân Iberia bằng cả hỏa lực lẫn cơ động.",
+      "lore_en": "Ships of the line coordinate broadsides with light vessels and signals to divide enemy formations. At the Tagus, Lourenço repeatedly changes the tempo and attacks the Iberian coalition’s communications through firepower and manoeuvre.",
+      "image_asset": null
+    },
+    {
+      "id": "new_portuguese_empire_unit_2",
+      "faction_id": "new_portuguese_empire",
+      "name": "Conquistadores Tân Thế Giới",
+      "name_vi": "Conquistadores Tân Thế Giới",
+      "name_en": "New World Conquistadores",
+      "role": "Bộ binh mang Vestigium",
+      "role_vi": "Bộ binh mang Vestigium",
+      "role_en": "Vestigium-bearing assault infantry",
+      "lore_vi": "Những đơn vị mang sức mạnh Vestigium từ Tân Thế Giới có thể tiếp tục tiến sau những loạt đạn đáng lẽ đã hạ người thường. Lối đánh cận chiến tàn bạo khiến đối phương phải tìm cách chặn họ trước khi đội hình bị áp sát. Sức mạnh ấy gắn với những nguy cơ của miền đất mà đế quốc đang chinh phục.",
+      "lore_en": "Bearing New World Vestigium, these units can continue advancing after volleys that would fell ordinary soldiers. Brutal close combat forces enemies to stop them before contact. Their strength remains bound to the dangers of the lands the empire is conquering.",
+      "image_asset": null
+    }
+  ]
+}

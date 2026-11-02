@@ -1,0 +1,242 @@
+[
+  {
+    "id": "armament-collection-0-01",
+    "mode": "prepend",
+    "lore_vi": "Khi trạm canh được mở lại, mũi giáo còn ướt giữa những món đã gỉ khô; người lính nhận nó lau được bùn cũ bằng một lần kéo vải.",
+    "lore_en": "When the post reopened, its spear was wet among dry-rusted weapons; one pull of cloth cleared the old mud."
+  },
+  {
+    "id": "armament-collection-0-02",
+    "mode": "prepend",
+    "lore_vi": "Thợ quân phục truyền con dao cùng một mảnh tay áo bị cắt hỏng, để học trò nhớ phần vải mình từng không cứu được.",
+    "lore_en": "Uniform-tailors passed it with a ruined sleeve, recalling the cloth they once failed to save."
+  },
+  {
+    "id": "armament-collection-0-03",
+    "mode": "prepend",
+    "lore_vi": "Người lính đóng tên mình trên gỗ mới, để tên chủ cũ còn nguyên trên chốt ấm như lời cảm ơn được chuyền tay.",
+    "lore_en": "A soldier marked his new shield but left its former owner's name on the warm stud as a passed-on thanks."
+  },
+  {
+    "id": "armament-collection-0-04",
+    "mode": "prepend",
+    "lore_vi": "Trong sương tập trận, người học cách đếm bằng đầu ngón tay trước khi học hô đúng khẩu lệnh.",
+    "lore_en": "In drill-mist, recruits learnt to count by fingertip before mastering the shouted command."
+  },
+  {
+    "id": "armament-collection-0-05",
+    "mode": "prepend",
+    "lore_vi": "Thợ súng phơi tấm bia như phơi một lá thư, đọc các dấu màu để biết viên đạn đã gặp gì trên đường.",
+    "lore_en": "A gunsmith hung the target like a letter, reading colours to learn what the shot had met."
+  },
+  {
+    "id": "armament-collection-0-06",
+    "mode": "prepend",
+    "lore_vi": "Người gác thử rút kiếm bên cạnh giường người bị thương, để cả thép cũng học cách đi nhẹ trong đêm.",
+    "lore_en": "A sentry drew it beside a wounded sleeper, teaching even steel to tread gently at night."
+  },
+  {
+    "id": "armament-collection-0-07",
+    "mode": "prepend",
+    "lore_vi": "Người hộ tống muối dừng đoàn khi hạt đầu tiên xám, chịu nghe đồng đội càu nhàu thay vì đợi cái lạnh thắng đôi tai mình.",
+    "lore_en": "A salt-escort halted at the first grey grain, taking his comrades' complaints before cold could take his ears."
+  },
+  {
+    "id": "armament-collection-0-08",
+    "mode": "prepend",
+    "lore_vi": "Người giữ dây buộc nút cuối bằng tay con mình, rồi không cho phép ai tháo nữa khi ánh bạc thức dậy ở đó.",
+    "lore_en": "Its keeper tied the final knot with his child's hands and forbade its undoing when silver woke within it."
+  },
+  {
+    "id": "armament-collection-1-01",
+    "mode": "prepend",
+    "lore_vi": "Vòng xanh chạy trên mũi giáo là thứ ngư dân nhìn trước mỗi bước xuống bến tối.",
+    "lore_en": "The shifting green ring was what fishermen watched before every step into the dark landing."
+  },
+  {
+    "id": "armament-collection-1-02",
+    "mode": "prepend",
+    "lore_vi": "Người nhận khiên viết tên mẹ sát mép, nơi dải nước luôn chảy vòng mà chẳng chạm chữ.",
+    "lore_en": "Its owner wrote his mother's name beside the rim, where water passed without touching the letters."
+  },
+  {
+    "id": "armament-collection-1-03",
+    "mode": "prepend",
+    "lore_vi": "Dao được chuyền qua ba đời gác kho; người nhận mới luôn thử ba lần chạm lên cùng một miếng gỗ đã lõm.",
+    "lore_en": "It passed through three generations of store-watchmen, each testing the same thrice-tapped dented wood."
+  },
+  {
+    "id": "armament-collection-1-04",
+    "mode": "prepend",
+    "lore_vi": "Khi ổ khóa tan sương thành từng vòng, người gác được mở cửa bằng ngón tay vẫn còn đủ cảm giác.",
+    "lore_en": "As frost left the lock in rings, its keeper opened the door with fingers still capable of feeling."
+  },
+  {
+    "id": "armament-collection-1-05",
+    "mode": "prepend",
+    "lore_vi": "Áo đi qua các ca tuần tra với những phiến gốm chạm nhau như tiếng bát nhỏ của một bữa cơm được mang theo.",
+    "lore_en": "Its ceramic plates clicked through patrols like the little bowls of a meal carried from home."
+  },
+  {
+    "id": "armament-collection-1-06",
+    "mode": "prepend",
+    "lore_vi": "Người đứng sau cung thủ nghe mũi tên rít về phía mình, quay lại mới biết lời báo đã đi ngược đường đạn.",
+    "lore_en": "Someone behind the archer heard the arrow's whistle and turned, learning its warning travelled against its flight."
+  },
+  {
+    "id": "armament-collection-1-07",
+    "mode": "prepend",
+    "lore_vi": "Thợ khóa mang kiếm tới nhà sập, để ba chiếc răng chỉ chỗ cánh cửa còn chịu nhường.",
+    "lore_en": "A locksmith carried it into a ruined house, letting three teeth indicate where the door might still yield."
+  },
+  {
+    "id": "armament-collection-1-08",
+    "mode": "prepend",
+    "lore_vi": "Người gác lau nước ngoài bao trước khi chạm khóa súng, theo thói quen của người biết bột khô đáng giá hơn vẻ oai nghiêm.",
+    "lore_en": "A sentry wiped the holster before touching the lock, knowing dry powder mattered more than martial appearance."
+  },
+  {
+    "id": "armament-collection-2-01",
+    "mode": "prepend",
+    "lore_vi": "Người tìm thương ở chân cầu đã giữ hai mảnh gỗ bằng nó trong lúc đồng đội đưa chiếc chốt cuối qua.",
+    "lore_en": "Its finder held two timbers together below the bridge while a companion passed the final peg."
+  },
+  {
+    "id": "armament-collection-2-02",
+    "mode": "prepend",
+    "lore_vi": "Người canh nỏ đợi bóng đèn trở lại sau một lưng áo vừa đi ngang, nhận ra kính đã chờ cùng mình.",
+    "lore_en": "The archer awaited a lamp reappearing behind a passing coat and realised the glass had waited too."
+  },
+  {
+    "id": "armament-collection-2-03",
+    "mode": "prepend",
+    "lore_vi": "Một viên bi im lặng làm chuông trong khiên lên tiếng; từ đó người thử luôn đứng lệch thay vì tin vào tai mình.",
+    "lore_en": "A silent falling pellet rang its bell; thereafter the tester stood aside rather than trust his ears alone."
+  },
+  {
+    "id": "armament-collection-2-04",
+    "mode": "prepend",
+    "lore_vi": "Lòng găng giữ vệt đen của lần kéo đầu tiên một sợi dây đang cháy khỏi bàn tay đồng đội.",
+    "lore_en": "Its palm retained the dark trace of the first burning rope pulled from a comrade's hands."
+  },
+  {
+    "id": "armament-collection-2-05",
+    "mode": "prepend",
+    "lore_vi": "Người cắt dây đã lùi được một bước trước lúc vết rạch trên sáp chịu xuất hiện.",
+    "lore_en": "Its cutter had time for one backward step before the cut consented to appear upon the wax."
+  },
+  {
+    "id": "armament-collection-2-06",
+    "mode": "prepend",
+    "lore_vi": "Người đội mũ giữa hành lang sập nghe khẩu lệnh rõ lại, như được mở một cửa nhỏ ra khỏi tiếng chuông đang nhốt đầu mình.",
+    "lore_en": "In the collapsed corridor, a clear command opened a small door out of the bell-sound imprisoning its wearer's head."
+  },
+  {
+    "id": "armament-collection-2-07",
+    "mode": "prepend",
+    "lore_vi": "Người cứu hộ chạm lưỡi thép vào từng dây, đợi kim trong chuôi chỉ một lựa chọn bớt tàn nhẫn hơn.",
+    "lore_en": "A rescuer touched each rope and awaited the needle's less cruel choice."
+  },
+  {
+    "id": "armament-collection-2-08",
+    "mode": "prepend",
+    "lore_vi": "Bản lề vỡ được cất bên viên thử, nhắc người thợ rằng một điểm chạm có thể gửi sức ra xa hơn mắt thấy.",
+    "lore_en": "Its broken hinge remained beside the trial round, recalling how force could spread beyond a visible point."
+  },
+  {
+    "id": "armament-collection-3-01",
+    "mode": "prepend",
+    "lore_vi": "Sau khi người bị thương cuối qua hầm, mặt khiên còn rung về cùng một phía như vẫn đợi nhận thêm đòn.",
+    "lore_en": "After the last wounded person passed, the shield still trembled one way as though awaiting another blow."
+  },
+  {
+    "id": "armament-collection-3-02",
+    "mode": "prepend",
+    "lore_vi": "Người giữ lò đặt kiếm bên lửa lúc rạng sáng, làm cùng một động tác như người chờ ai đó mở mắt.",
+    "lore_en": "At dawn the furnace-keeper set it beside the flame as though waiting for someone to open their eyes."
+  },
+  {
+    "id": "armament-collection-3-03",
+    "mode": "prepend",
+    "lore_vi": "Cung thủ học đứng yên lâu hơn nhịp ngắm, để cây nỏ giữ đúng phần việc nhỏ của nó.",
+    "lore_en": "Its archer learnt stillness beyond the aiming beat, allowing the crossbow its small duty."
+  },
+  {
+    "id": "armament-collection-3-04",
+    "mode": "prepend",
+    "lore_vi": "Đai kéo xe còn hằn trên vai giáp, nơi người mặc đã mang một người khác qua hết con đường.",
+    "lore_en": "Cart-straps marked the shoulders that had carried another person the length of the road."
+  },
+  {
+    "id": "armament-collection-3-05",
+    "mode": "prepend",
+    "lore_vi": "Những hạt băng vỡ trên đầu chùy khiến thợ tưởng mình vừa gõ vào một mùa đông nằm trong chốt sắt.",
+    "lore_en": "Ice breaking from the mace made a craftsman feel he had struck a winter inside the iron pin."
+  },
+  {
+    "id": "armament-collection-3-06",
+    "mode": "prepend",
+    "lore_vi": "Người giữ giáo đợi cả gót chân nhận mặt bậc, rồi mới cho đường đâm đi khỏi ngực mình.",
+    "lore_en": "Its wielder let his heels know the step before allowing the thrust away from his chest."
+  },
+  {
+    "id": "armament-collection-3-07",
+    "mode": "prepend",
+    "lore_vi": "Người bắn giật mình khi khóa súng chậm mở, hiểu món vũ khí vừa nghe thấy mình quên thở.",
+    "lore_en": "The shooter started at the slow lock, realising his weapon had heard him forget to breathe."
+  },
+  {
+    "id": "armament-collection-3-08",
+    "mode": "prepend",
+    "lore_vi": "Dưới tường cũ, mỗi dấu bụi vữa dạng nhánh là chỗ người leo từng được cho phép nghỉ thêm một nhịp.",
+    "lore_en": "Below the old wall, each branching plaster-mark recorded one more beat of rest granted to a climber."
+  },
+  {
+    "id": "armament-collection-5-01",
+    "mode": "prepend",
+    "lore_vi": "Mặt trong khiên có nhiều dấu tay chồng nhau, từ những người chỉ được gặp qua cách họ từng chịu lực. Người giữ mới đặt tay giữa chúng trước khi nhận cú đập thử.",
+    "lore_en": "The shield's inner hands belonged to people known only by how they had borne a blow. Its new keeper laid a palm among them before the trial impact."
+  },
+  {
+    "id": "armament-collection-5-02",
+    "mode": "prepend",
+    "lore_vi": "Người lính đọc tên người đã giao mạng sống cho mình, thấy ô thép nhận một nét chữ. Từ đó mỗi lần đỡ đều mang sức nặng của một người đang tin ở phía sau.",
+    "lore_en": "A soldier named someone who had entrusted him with a life and saw a stroke enter the steel. Thereafter each parry carried the weight of trust behind him."
+  },
+  {
+    "id": "armament-collection-5-03",
+    "mode": "prepend",
+    "lore_vi": "Người bắn để dây trở lại hết lòng tay mới được lên nỏ lần nữa. Chiếc vòng tối buộc họ nhìn suốt đường đi của thứ mình đã phóng ra.",
+    "lore_en": "The shooter had to recover every length of cord before firing again. Its dark ring demanded attention to the whole course of what had been sent."
+  },
+  {
+    "id": "armament-collection-5-04",
+    "mode": "prepend",
+    "lore_vi": "Người mặc nghe đĩa đồng quay sau cú đánh, biết phần đau vẫn đang đi về phía mình. Khoảng được hoãn trở thành một việc cả đội phải dùng cùng nhau, thay vì một món nợ để một người tự nhận.",
+    "lore_en": "After the blow, its wearer heard copper still turning and knew pain remained on its way. The reprieve became a task shared by the company, not a debt left to one body."
+  },
+  {
+    "id": "armament-collection-5-05",
+    "mode": "prepend",
+    "lore_vi": "Khối đá trong đầu búa từng chống một mái nhà đã mất; xuống tay đúng nhịp làm rung chảy vào đất như người mệt tìm lại chỗ nằm. Những vòng nứt quanh chân giữ lại đường cái giá đã đi.",
+    "lore_en": "The head's stone once supported a vanished roof. A measured blow sent vibration into earth like a tired body finding rest. Cracks around the wielder kept the cost's route visible."
+  },
+  {
+    "id": "armament-collection-5-06",
+    "mode": "prepend",
+    "lore_vi": "Người thử đứng trong hố kín, tự tạo tiếng vọng rồi chờ đạn nhận lời đáp. Trước lúc khai hỏa, cả đội im như một căn phòng đang hỏi ai thực sự được phép nói tiếp.",
+    "lore_en": "The tester made an echo within a closed pit and waited for its answer. Before firing, the crew fell quiet as a room asking who was permitted to speak next."
+  },
+  {
+    "id": "armament-collection-5-07",
+    "mode": "prepend",
+    "lore_vi": "Giữa tiếng bánh xe và máy kéo, một nhịp gõ yếu dưới đá hiện ra trong mũ như ngón tay chạm ngay vào thái dương. Người cứu hộ tháo mũ xuống chỉ để nhắc người khác rằng vẫn có người ở dưới.",
+    "lore_en": "Among wheels and winches, a faint knock beneath stone reached the helmet like fingers at the temple. Its wearer removed it only to tell the others someone remained below."
+  },
+  {
+    "id": "armament-collection-5-08",
+    "mode": "prepend",
+    "lore_vi": "Người lên bờ được đưa cán giáo để đứng trong khoảnh nước vừa chậm. Vòng san hô giữ cho một đoạn bến nhỏ nhớ cách nằm yên thêm ít lâu, trong lúc người mang cáng gom đủ sức kéo.",
+    "lore_en": "A landing party offered its shaft within briefly slowed water. The coral ring let a patch of shore remember stillness while stretcher-bearers gathered strength to pull."
+  }
+]

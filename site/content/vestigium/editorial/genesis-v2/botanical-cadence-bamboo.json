@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-cadence-bamboo",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Trúc đen mọc sát đường máng dẫn vào một cối giã có chốt khoáng vàng. Mỗi nhịp cối, nước dội vào gốc; mỗi lần nghỉ, khoảng im lắng trong đốt. Người chặt một cây làm cán cuốc nghe lại tiếng cối từ đoạn trúc đã rời bụi, bao gồm cả quãng dừng khi người vận hành vấp chân.\n\nCác đốt vàng giữ được một chuỗi rung cùng những khoảng chưa phát tiếng giữa chúng. Người cha gõ lời ru bằng khớp tay lên đoạn trúc, nhận lại cả chỗ mình đã ngừng vì mệt. Thợ dùng nó nhắc trình tự công việc; những người đưa tin chỉ gửi những chuỗi đã quy ước, để người nhận còn biết đâu là lời gửi, đâu là tiếng va trên đường.",
+    "lore_en": "Black bamboo grew beside the race feeding a stamping mill with a golden mineral catch. Each stroke washed its roots; each pause settled into a node. A worker cut a culm for a hoe handle and heard the mill again from the detached length, including the pause when its operator had stumbled.\n\nThe golden nodes retain a sequence of vibrations together with the intervals before sound. A father tapped a lullaby with his knuckles and received even the places where exhaustion had stopped him. Craftsmen use it to recall work sequences; couriers send agreed patterns so recipients can distinguish messages from impacts gathered on the road.",
+    "use_vi": "Ghi và phát lại một chuỗi gõ có khoảng nghỉ để hướng dẫn thao tác hoặc trao tín hiệu.",
+    "use_en": "Record and repeat a tapped sequence with pauses for procedural guidance or signalling.",
+    "limits_vi": "Chỉ giữ một chuỗi, va mạnh ghi đè. Trúc thiếu nước đổi khoảng trễ; đốt non giữ kém, còn đoạn cắt cần được bọc ẩm để dùng lại lâu.",
+    "limits_en": "Only one sequence is retained and a hard impact overwrites it. Dehydration changes delay; young nodes retain poorly, while cut lengths need damp wrapping for repeated use.",
+    "skills": [
+      {
+        "name_vi": "Giao chuỗi",
+        "name_en": "Entrust the Sequence",
+        "description_vi": "Gõ chuỗi vào đốt gần gốc rồi giữ tay yên hết khoảng cuối để khóa bản ghi; va trong lúc chờ sẽ nối thêm vào chuỗi.",
+        "description_en": "Tap into a basal node and hold still through the final pause to close the record; impacts during that wait extend the sequence."
+      },
+      {
+        "name_vi": "Lặp một lượt",
+        "name_en": "Repeat Once",
+        "description_vi": "Chạm móng tay vào vòng vàng để đoạn trúc phát một lượt rung đã ghi qua giá đặt; giá quá mềm nuốt các nhịp nhỏ.",
+        "description_en": "Touch a golden ring with a nail to play one recorded vibration sequence through its stand; an overly soft stand swallows faint beats."
+      },
+      {
+        "name_vi": "Nối nhịp tay",
+        "name_en": "Guide the Hand",
+        "description_vi": "Giữ cán trúc để cảm từng nhịp trong lòng bàn tay khi làm theo thao tác; tay ghì quá mạnh làm đoạn trúc phát sớm.",
+        "description_en": "Hold the culm to feel each beat while following a procedure; excessive gripping releases it early."
+      },
+      {
+        "name_vi": "Khoảng chờ giữ lại",
+        "name_en": "The Retained Pause",
+        "description_vi": "Đặt trúc trong cơ cấu gõ nhỏ để bước kế chỉ được gọi khi khoảng im đã ghi trôi hết; cần đối chiếu độ trễ trước khi lắp.",
+        "description_en": "Fit the bamboo into a small striker so the next step is signalled only after its recorded pause; check delay before fitting."
+      },
+      {
+        "name_vi": "Trả qua bàn",
+        "name_en": "Return Through the Bench",
+        "description_vi": "Ép một đầu lên mặt bàn liền để chuỗi tới người đặt tay ở đầu kia; khớp bàn rời làm mất một số tiếng.",
+        "description_en": "Press an end onto a continuous tabletop to send the sequence to a hand at the far side; loose joints lose beats."
+      },
+      {
+        "name_vi": "Đối chuỗi",
+        "name_en": "Compare the Sequence",
+        "description_vi": "Gõ chuỗi mới cạnh lúc phát lại để nghe chỗ lệch giữa thao tác và mẫu, dùng luyện tay; âm lấn khiến cần thử từng đoạn.",
+        "description_en": "Tap a fresh sequence beside playback to hear differences between work and reference; masking may require sectional trials."
+      },
+      {
+        "name_vi": "Khóa áo ẩm",
+        "name_en": "Lock in Damp Cloth",
+        "description_vi": "Bọc cả hai đầu bằng vải ẩm để giảm va truyền vào lúc mang đi, giữ chuỗi qua chặng ngắn; bóc vải phải nhẹ để khỏi ghi đè.",
+        "description_en": "Wrap both ends in damp cloth to reduce impacts in transit and preserve a short journey’s record; unwrap gently to avoid overwriting."
+      },
+      {
+        "name_vi": "Xóa bằng mưa",
+        "name_en": "Erase With Rain",
+        "description_vi": "Tưới đều qua đốt rồi gõ một chuỗi rỗng chậm để cây nhả bản cũ và nhận lượt mới; đoạn nứt có thể vẫn giữ tiếng lạc.",
+        "description_en": "Water the node evenly and tap a slow blank sequence to release the old record for a new one; cracked sections can retain stray beats."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Khoảng im trong đốt",
+        "name_en": "Silence Within the Node",
+        "description_vi": "Trúc ghi cả khoảng ngừng, giúp một thao tác đợi đủ lâu trước bước kế. Độ chính xác cần được thử lại sau khi đổi độ ẩm.",
+        "description_en": "Bamboo retains pauses, letting one operation wait before the next. Accuracy needs checking after humidity changes."
+      }
+    ]
+  }
+]

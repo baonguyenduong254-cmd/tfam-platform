@@ -1,0 +1,1774 @@
+[
+  {
+    "id": "mineral-phan-giu-dau",
+    "lore_vi": "Mẩu phấn đầu tiên thuộc về người đo đường đã nhận việc dẫn một đoàn phu qua khe núi trước lúc tuyết khép. Ông vạch mũi tên lên từng tảng đá, tới khi đầu ngón tay rớm máu mới nhận ra đoàn người phía sau đã mất tiếng gọi. Sáng hôm sau, người cứu hộ tìm được những vệt trắng nổi lên xuyên lớp sương, còn ở cuối đường chỉ có chiếc hộp phấn bị bóp méo trong bàn tay lạnh.\n\nPhấn trong hộp vốn lấy từ một vỉa đá vôi thông thường. Sau đêm ấy, từng mẩu mang một đường đỏ nhỏ mà nghiền vụn cũng không xóa được; nét vẽ của chúng tự đẩy sương ra ngoài mép, giữ hướng mũi tên rõ tới khi tuyết dày phủ kín. Người thợ sau này pha máu vào phấn khác chỉ làm bẩn tay mình. Điều còn hoạt động trong những mẩu đầu tiên dường như là công việc chỉ đường đã được nhận mà người nhận chưa kịp làm xong.",
+    "lore_en": "The first chalk belonged to a surveyor guiding labourers through a mountain cleft before snow closed it. He marked an arrow upon each stone until his fingertips bled, then realised the party behind him had fallen silent. Next morning rescuers found white marks showing through the mist. At the route's end lay a crushed chalk-box within a frozen hand.\n\nIts chalk had come from an ordinary limestone seam. After that night each piece bore a thin red line that survived grinding. Its strokes pushed dew beyond their edges and kept their arrows clear until deep snow covered them. Later workmen mixing blood into other chalk merely dirtied their hands. What remained active in those first pieces seemed to be a guiding duty its keeper had died before completing.",
+    "use_vi": "Để lại dấu chỉ đường vẫn đọc được dưới sương và lớp tuyết mỏng. Người sử dụng cần tự biết hướng mình đang đánh dấu.",
+    "use_en": "Leave route-marks legible beneath dew and a thin covering of snow. The user must know which direction is being marked.",
+    "limits_vi": "Tuyết dày hoặc đá bị bong sẽ che hay mang dấu đi. Phấn giữ điều người vẽ chỉ ra, kể cả một hướng sai; mỗi nét tiêu hao vật liệu như phấn thường.",
+    "limits_en": "Deep snow or flaking stone can hide or remove the mark. Chalk preserves the indicated direction even when it is wrong; each stroke consumes material as ordinary chalk does.",
+    "traits": [
+      {
+        "name_vi": "Việc còn dang dở",
+        "name_en": "Unfinished Duty",
+        "description_vi": "Mạch đỏ đi theo các mảnh cùng vỉa đầu tiên. Trộn thành phần tương tự chưa từng tái tạo được dấu dị thường.",
+        "description_en": "The red vein persists in fragments of the first seam. Matching their ingredients has never reproduced the anomaly."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nét chỉ giữa sương",
+        "name_en": "A Mark Through Mist",
+        "description_vi": "Vẽ một dấu liền lên đá hoặc gỗ; sương bị gạt khỏi đúng nét ấy cho tới khi phấn mòn. Dấu không tự sửa đường người vẽ đã chọn.",
+        "description_en": "Draw one continuous mark on stone or wood; dew retreats from that stroke until the chalk wears away. It does not correct the chosen route."
+      }
+    ],
+    "epigraph_vi": "*“Đường còn hiện, người còn tìm được nhau.”*",
+    "epigraph_en": "*“While the road shows, people can find one another.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-soi-go-suong",
+    "lore_vi": "Sỏi Gõ Sương được nhặt từ lòng một chiếc chuông gãy trong trạm khai đá. Đêm giá đầu tiên, thợ gác đổ sỏi thường vào chuông để tiếng va đánh thức người trực lò. Tới sáng, chuông đã nứt vì băng, nhưng những viên sỏi vẫn tự gõ trong túi áo ngay trước lúc mép nước đóng trắng.\n\nCác vụn đồng đã chui vào lòng đá như những cái lưỡi nhỏ. Giữ ấm sỏi khiến chúng im; đem một viên mới tới vùng băng đang thành, tiếng lách cách lại đi trước lớp trắng. Người trong mỏ chia chúng cho các ca trực. Thứ được truyền tay là phần việc báo rét đã sống sót lâu hơn quả chuông từng làm việc ấy.",
+    "lore_en": "Frost-Knocking Pebbles came from a broken bell in a quarry post. On the first freezing night, watchmen poured ordinary gravel into it so the impacts would wake the furnace-watch. By morning ice had split the bell, yet the pebbles tapped within coat-pockets just before water whitened.\n\nCopper fragments had entered the stone like little tongues. Warming silenced them; taking one towards forming ice restored their advance warning. Miners divided them between watches. What passed from hand to hand was a frost-warning duty surviving the bell that had performed it.",
+    "use_vi": "Báo lớp nước quanh viên sỏi đang tiến tới đóng băng bằng tiếng gõ. Phải để sỏi chạm không khí nơi cần theo dõi.",
+    "use_en": "Warn by tapping when surrounding water approaches freezing. Expose the pebble to the air being watched.",
+    "limits_vi": "Túi kín và lớp vải dày khiến sỏi nhận rét chậm. Tiếng gõ chỉ nói vùng quanh đá đang đổi, không kể toàn bộ thời tiết hay bảo đảm người cầm còn đủ ấm.",
+    "limits_en": "Sealed pockets and thick cloth delay its reception. Tapping describes its surroundings, not the whole weather or its holder’s warmth.",
+    "traits": [
+      {
+        "name_vi": "Lưỡi chuông trong sỏi",
+        "name_en": "A Bell-Tongue in Stone",
+        "description_vi": "Đập vỡ để lấy đồng làm tiếng tắt hẳn; ghép vụn trở lại chỉ thành một viên sỏi đã bị đập.",
+        "description_en": "Breaking it for copper silences it; reassembly produces only broken gravel."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gõ trước lớp trắng",
+        "name_en": "Knock Before the White",
+        "description_vi": "Để sỏi ở nơi khí và mặt ẩm cùng chạm; nó gõ khi băng bắt đầu tìm được chỗ kết. Che kín hoặc nung nóng làm lời báo mất đường tới nơi cần canh.",
+        "description_en": "Expose it where air meets damp. It taps as ice begins to form; enclosure or heating prevents it watching the intended place."
+      }
+    ],
+    "epigraph_vi": "*“Hãy nghe viên đá trước khi mặt nước trắng.”*",
+    "epigraph_en": "*“Hear the stone before the water whitens.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-hut-muoi",
+    "lore_vi": "Người quét ống khói ném những hòn đá trắng vào một đoạn lò đã ám lớp bụi đen có ánh xanh. Sau lần quét, mấy viên không chịu rơi: chúng bám dưới trần bằng những sợi muội kéo căng. Anh tháo được chúng xuống, nhìn từng lỗ trên đá mở ra như lỗ chân lông vừa học cách thở.\n\nChỉ phần đá đã ngâm trong bụi lò ấy giữ được phản ứng. Đặt cạnh bấc, chúng kéo hạt muội vào lòng mình và đen dần từ ngoài vào. Những người dùng đầu tiên gọi đó là thói ăn của ống khói đã chuyển sang đá. Khi viên cuối cùng đen kín, nó vỡ nhẹ như vật đã bị nuôi no bằng chính phần bẩn của ánh sáng.",
+    "lore_en": "A chimney-sweeper threw white stones into a flue coated in blue-glinting soot. After sweeping, several hung beneath its ceiling by taut soot-filaments. He detached them and watched their pores open like skin newly learning to breathe.\n\nOnly stones soaked in that furnace-dust retained the response. Beside a wick they drew soot inward and darkened. Early users called it a chimney’s appetite transferred into stone. Once fully black, the last sample crumbled as though fed to fullness upon light’s dirty remainder.",
+    "use_vi": "Gom muội từ một ngọn đèn gần mặt đá, giúp mặt kính hoặc đồ bên cạnh bớt ám khói.",
+    "use_en": "Gather soot from a nearby lamp, reducing deposits on glass and surrounding objects.",
+    "limits_vi": "Khí không mang hạt muội vẫn đi qua. Đá đen kín có thể rã bụi; đem gần nước hoặc để trẻ chạm sẽ chuyển cái bẩn đã giữ sang nơi khác.",
+    "limits_en": "Sootless gases pass freely. A blackened stone may shed dust; water or a child’s touch can transfer its burden elsewhere.",
+    "traits": [
+      {
+        "name_vi": "Ăn phần bẩn của sáng",
+        "name_en": "Eating Light’s Dirt",
+        "description_vi": "Độ trắng còn lại cho biết phần mặt chưa no; cạo lớp ngoài không trả lại sức chứa bên trong.",
+        "description_en": "Remaining white shows unsated surface; scraping does not restore interior capacity."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi hạt muội",
+        "name_en": "Call the Soot",
+        "description_vi": "Đặt mặt trắng hướng về ngọn bấc để muội đi vào các lỗ. Dời đá quay mặt đen lại không lọc thêm và có thể nhả bụi đã giữ.",
+        "description_en": "Face its white side towards a wick to draw soot into its pores. A saturated face accepts no more and may release retained dust."
+      }
+    ],
+    "epigraph_vi": "*“Một hòn đá ăn phần tối của ngọn đèn.”*",
+    "epigraph_en": "*“A stone eats the darkness of the lamp.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-mica-bam-mep",
+    "lore_vi": "Vỉa mica bị khai lộ dưới nền một lò bọc đồng từng cháy qua đêm mà lớp kim loại không chảy. Những phiến đầu tiên được cạy lên mang mặt bạc mỏng như móng tay, tự kéo về mép các tấm đồng đã nguội. Người thợ tưởng chúng có từ tính cho tới khi thử với một lá kim loại khác và thấy phiến chỉ nhận cạnh, bỏ qua mặt phẳng rộng.\n\nBên dưới vỉa có các rễ khoáng Vestigium trông như đường viền của một vật chưa đúc. Thợ đem mica sang xưởng khác vẫn thấy từng phiến tìm chỗ kết thúc của kim loại lạnh rồi bấu vào đó. Chúng giữ một mối bám nhỏ, như đã học được rằng vật có thể được nắm ở ngay nơi nó thôi là chính mình.",
+    "lore_en": "Mica was exposed beneath a copper-lined furnace that had burnt all night without melting its lining. Its nail-thin silver flakes drew towards cooled copper edges. A craftsman assumed magnetism until other metals revealed the same preference for edges over broad surfaces.\n\nVestigium roots beneath the seam resembled the outline of an uncast object. In distant workshops the flakes still found cold metal’s ending and clung there. Their small grip seemed learnt at the very boundary where a thing ceased being itself.",
+    "use_vi": "Giữ tạm mép lá kim loại lạnh trong lúc ghép hoặc khắc chi tiết.",
+    "use_en": "Temporarily grip cold metal-leaf edges during assembly or engraving.",
+    "limits_vi": "Phiến không chịu được sức kéo lớn. Hơi nóng tay hoặc cạnh quá dày làm chỗ bám nhả; mảnh bị gãy thường kéo các phiến lân cận vào một đám khó gỡ.",
+    "limits_en": "Flakes withstand little pull. Hand-warmth or thick edges release them; broken pieces often gather neighbours into a difficult cluster.",
+    "traits": [
+      {
+        "name_vi": "Chỉ nhận chỗ kết thúc",
+        "name_en": "Only the Ending Edge",
+        "description_vi": "Phiến giữ nguyên phản ứng sau khi tách vỉa, nhưng mài mất cạnh tự nhiên khiến nó bỏ cả mép kim loại trước từng nhận.",
+        "description_en": "Detached flakes retain it; grinding their natural edges makes them abandon previously accepted metal."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Bấu mép lạnh",
+        "name_en": "Grip the Cold Edge",
+        "description_vi": "Áp cạnh tự nhiên của mica vào cạnh kim loại lạnh để giữ hai phần trong lúc làm việc. Mặt bị đánh bóng hoặc đã ấm không được nó nhận như trước.",
+        "description_en": "Press a natural mica edge to cold metal’s edge to hold work temporarily. Polished or warmed faces no longer receive its former grip."
+      }
+    ],
+    "epigraph_vi": "*“Nơi kim loại kết thúc, phiến bạc bắt đầu giữ.”*",
+    "epigraph_en": "*“Where metal ends, the silver flake takes hold.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-muoi-cham-tan",
+    "lore_vi": "Mẻ muối đầu tiên được vét khỏi các thùng nước biển mắc trong một xác tàu khoáng. Nước đã cạn, nhưng mặt muối còn mang sóng nhỏ chạy dưới da tinh thể. Người thu gom thả nó vào bát, chờ tới hết bữa vẫn thấy hạt đứng giữa một vòng nước mặn đặc, như biển muốn giữ lại phần bờ của chính mình.\n\nVụn Vestigium từ đá chèn tàu đã mọc thành lõi mảnh trong muối. Người tinh lại bằng cùng nước biển chỉ nhận muối thường; những hạt có sóng giữ được thói tan chậm cả khi xa nơi khai. Chúng đi vào thùng cá, kéo dài thêm khoảng một người buôn có thể mang phần ăn qua đường rét.",
+    "lore_en": "The first salt was scraped from seawater barrels in an ore-wreck. Though dry, its crystals bore tiny waves beneath their skins. A collector dropped one into a bowl and found it still standing after supper within a dense briny ring, as though sea retained its own shore.\n\nVestigium fragments from the ship’s packing-stone had grown into the salt. Recrystallising the same seawater yielded ordinary grains; wave-bearing crystals kept their slow dissolution far away. In fish-barrels they extended the interval in which food could cross a frozen road.",
+    "use_vi": "Giữ quá trình đổi độ mặn của thùng nước lạnh chậm lại nhờ hạt tan từng phần.",
+    "use_en": "Slow a cold barrel’s change in salinity by gradual dissolution.",
+    "limits_vi": "Khuấy mạnh phá vòng mặn và làm muối tiêu nhanh. Các lõi lạ khiến hạt không thích hợp ăn trực tiếp; chậm tan cũng khiến người pha dễ tưởng mình chưa cho đủ.",
+    "limits_en": "Vigorous stirring breaks its briny ring. Strange cores make direct consumption unsuitable, and slow response encourages accidental overdosing.",
+    "traits": [
+      {
+        "name_vi": "Sóng còn dưới vỏ",
+        "name_en": "Waves Beneath the Skin",
+        "description_vi": "Đập nhỏ làm những vòng sóng thôi hiện; trộn bột vào muối mới không truyền lại phản ứng.",
+        "description_en": "Crushing removes the waves; mixing its powder with fresh salt does not transmit the response."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Tan theo vòng riêng",
+        "name_en": "Dissolve by its Own Ring",
+        "description_vi": "Thả nguyên hạt vào nước lạnh để mỗi hạt giữ một vòng mặn quanh mình rồi tan dần. Xô nước liên tục khiến vòng vỡ và chấm dứt sự trì hoãn.",
+        "description_en": "Whole crystals in cold water keep individual briny rings and dissolve slowly. Continuous agitation breaks the rings and ends the delay."
+      }
+    ],
+    "epigraph_vi": "*“Biển tan chậm để cá đi xa.”*",
+    "epigraph_en": "*“The sea dissolves slowly so the fish may travel far.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-da-ngam-tieng",
+    "lore_vi": "Đá Ngậm Tiếng được tách từ mặt hầm nơi thợ dùng nhịp gõ để tìm nhau qua một lớp quặng xanh. Sau lần mạch quặng vỡ, một búa đã dừng mà vách còn trả tiếng. Các mảnh đá đem ra sáng vẫn giữ một tiếng gõ yếu trong hốc, đợi vài nhịp thở rồi thả nó ra ở mặt bên kia.\n\nĐường khoáng bên trong ngắn hơn bề dày đá khi nhìn qua mặt cắt. Cắt thật chỉ thu được bụi thường và một tiếng nhỏ như có ai gõ từ trong tay. Thợ giữ các mẫu nguyên trong hộp, dùng tiếng trở về để nghe những rung quá nhỏ vốn dễ mất giữa ngày làm việc.",
+    "lore_en": "The stones came from a tunnel-face where miners signalled through green ore. When the vein broke, a stopped hammer still received an answer. Fragments carried into light held a faint knock within their hollows and released it through another face after a few breaths.\n\nViewed within, their mineral paths looked shorter than the stone’s thickness. Actual cutting yielded ordinary dust and a tiny knock as though inside the cutter’s hand. Miners kept whole samples to hear vibrations easily lost in a working day.",
+    "use_vi": "Giữ rồi phát lại một rung động tiếp xúc ngắn, giúp nhận những nhịp gõ nhỏ.",
+    "use_en": "Retain and repeat one brief contact-vibration, making small knocks perceptible.",
+    "limits_vi": "Rung mới thay rung cũ. Âm quá mạnh làm hốc nứt; tiếng trả yếu và méo, không nên dùng như bản ghi lời chứng nguyên văn.",
+    "limits_en": "New vibrations replace old ones. Loud impacts crack the hollow; faint distorted returns are not exact verbal testimony.",
+    "traits": [
+      {
+        "name_vi": "Hốc không vừa đường đi",
+        "name_en": "A Hollow Shorter than its Path",
+        "description_vi": "Người áp tai luôn nghe tiếng từ mặt đối diện, kể cả khi tay đang gõ cùng mặt; quan sát ấy chưa giải thích được đường qua hốc.",
+        "description_en": "Listeners hear the return from the opposite face even when tapping their own side; the route remains unexplained."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ngậm một tiếng gõ",
+        "name_en": "Keep One Knock",
+        "description_vi": "Chạm đá vào mặt cần nghe để hốc giữ rung cuối, rồi xoay sang mặt đối diện chờ tiếng trả. Va thêm trong lúc chờ sẽ ghi đè rung ấy.",
+        "description_en": "Touch the monitored surface to retain its last vibration, then turn the opposite face to hear it. Another impact overwrites it."
+      }
+    ],
+    "epigraph_vi": "*“Tiếng gõ chờ bên kia lòng đá.”*",
+    "epigraph_en": "*“The knock waits beyond the stone’s heart.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-san-doi-chieu",
+    "lore_vi": "Sạn Đổi Chiều đến từ cối nghiền đá lát nền bị một dòng khoáng trắng xuyên qua. Khi cối được tháo, đá thường lăn xuống máng, còn một túi hạt nhỏ quay cạnh mỏng ngược lên như đang né một phía dưới mà mắt người chưa nhận. Thợ lát mang túi ấy ra sân mới phát hiện nó đứng khác trên hai phiến trông bằng nhau.\n\nMặt trong của từng hạt có một vạch ngà cong, vẫn đổi hướng sau khi bị chôn dưới cát tối. Người dùng thử được cách đọc độ nghiêng rất nhỏ bằng vị trí các vạch; nghiền thêm chỉ làm bụi không biết quay. Một phần lựa chọn hướng của dòng khoáng đã đi vào những hạt vốn chỉ để trải dưới chân.",
+    "lore_en": "The grit came from a paving-mill crossed by a white mineral flow. When dismantled, ordinary stones rolled down its chute while a pouchful turned their thin edges upward, avoiding a downwards unseen by people. Pavers found it stood differently upon apparently level slabs.\n\nEach grain held a curved ivory line that turned even under dark sand. Its positions disclosed slight slopes; further grinding yielded unturning dust. Something of the mineral flow’s choice of direction had entered grains intended merely for the ground underfoot.",
+    "use_vi": "Nhận độ nghiêng nhỏ trên mặt sạch qua cách các hạt tự quay cạnh.",
+    "use_en": "Reveal slight slopes on clean surfaces by the grains’ turning edges.",
+    "limits_vi": "Gió, dầu và rung làm chúng nhận nhiều hướng. Sạn chỉ biểu hiện lựa chọn tại mặt chạm, không biết đâu là hướng người thợ muốn dựng thẳng.",
+    "limits_en": "Wind, oil and vibration create competing directions. Grit reports its contact-surface, not the builder’s intended upright.",
+    "traits": [
+      {
+        "name_vi": "Vạch ở phía không nhìn",
+        "name_en": "The Unseen Inner Mark",
+        "description_vi": "Vạch ngà nằm trong hạt nhưng có thể đọc qua màu mép; đập lộ vạch khiến chính hạt ấy mất việc quay.",
+        "description_en": "The inner line is read through edge-colour; exposing it by breaking destroys its turning."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Quay cạnh theo dốc",
+        "name_en": "Turn an Edge to the Slope",
+        "description_vi": "Rắc sạn lên mặt đã ngừng rung và đợi các vạch cùng tìm một hướng. Hạt đứng khác riêng có thể là hỏng mẫu, cần so nhiều hạt trước khi kết luận.",
+        "description_en": "Scatter upon a still surface and await a shared turning. A lone contrary grain may be damaged; compare several before deciding."
+      }
+    ],
+    "epigraph_vi": "*“Hạt nhỏ cũng chọn được phía dưới.”*",
+    "epigraph_en": "*“Even a grain can choose its below.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-dong-suong",
+    "lore_vi": "Những viên đá đầu tiên được dỡ từ tường một phòng hong thư. Sau nhiều mùa đói lạnh, người coi phòng vẫn giữ những lá thư chưa tìm được người nhận, dùng chậu than cuối để cứu giấy khỏi mục. Khi kho bị bỏ trống, người tới sau thấy từng giọt nước treo trên các mũi tinh thể, còn các phong thư quanh chúng khô đến mức bụi niêm sáp chưa bị nhòe.\n\nĐá tường trước đó chỉ là thạch anh đục. Nước đã thấm qua hàng nghìn nét chữ rồi kết trong các hốc đá, để các mũi tinh thể học được hai chiều của cùng một việc: lấy hơi ẩm khỏi vật cần giữ và trả nước về theo một đường được chỉ. Người ta có thể đem đá đi xa khỏi kho; tới đêm nó vẫn đọng những giọt có vị nhạt như nước đã đi qua giấy cũ. Có người gọi chúng là phần mưa mà những bức thư còn nợ người nhận.",
+    "lore_en": "The first stones were removed from the wall of a letter-drying room. Through seasons of hunger and cold its keeper saved messages whose recipients could not be found, spending the last charcoal to protect their paper from decay. Later visitors found droplets suspended upon crystal-points while the surrounding envelopes remained dry, their sealing-wax dust unsmeared.\n\nThe wall-stone had been cloudy quartz. Water had passed through thousands of written lines before gathering in its hollows, teaching the crystals two directions of one duty: drawing damp from what must be preserved and returning water along an indicated path. Carried far away, the stones still gathered faint-tasting drops as though water had travelled through old paper. Some called them the rain those letters still owed their recipients.",
+    "use_vi": "Hong khô vật nhỏ hoặc thu nước ngưng tụ vào một chỗ đã chỉ. Hai thao tác cùng dùng phần sức chứa trong hốc đá.",
+    "use_en": "Dry small objects or collect condensation at an indicated place. Both operations use the stone’s hollow capacity.",
+    "limits_vi": "Hốc đầy thì đá ngừng nhận. Nước được giữ có thể mang tạp chất từ vật đã hong; đổ ra hoặc làm ấm sẽ trả đá về trạng thái nhận, nhưng nung lửa mạnh làm hốc hóa đục vĩnh viễn.",
+    "limits_en": "Full hollows accept no more. Stored water may carry impurities from dried objects. Emptying or gently warming resets reception; fierce heating clouds the hollows permanently.",
+    "traits": [
+      {
+        "name_vi": "Mưa đã đi qua chữ",
+        "name_en": "Rain Through Writing",
+        "description_vi": "Các giọt giữ hình tròn khi đá bị nghiêng; ở trạng thái đầy, những nét như mực loang hiện dưới vỏ tinh thể.",
+        "description_en": "Drops remain round when the stone tilts. At capacity, shapes resembling blurred ink appear beneath the crystal skin."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Hong thư",
+        "name_en": "Dry the Letter",
+        "description_vi": "Đặt đá cạnh giấy, vải hoặc da ẩm; hơi nước rời vật và gom vào hốc, nhưng mực hoặc thuốc nhuộm đã hỏng vẫn hỏng.",
+        "description_en": "Set it beside damp paper, cloth or leather. Moisture leaves the object for its hollows; damaged ink or dye remains damaged."
+      },
+      {
+        "name_vi": "Trả giọt",
+        "name_en": "Return the Drops",
+        "description_vi": "Vạch một đường bằng ngón tay ướt từ hốc tới chén nhận; nước đã giữ lần lượt đi theo đường ấy, kể cả qua một đoạn dốc. Đường khô làm lượt trả dừng.",
+        "description_en": "Trace a wet-finger line from hollow to cup. Stored water follows it, even over a slope. A dried section stops the release."
+      }
+    ],
+    "epigraph_vi": "*“Thư khô rồi, mưa nằm trên đá.”*",
+    "epigraph_en": "*“The letters dry; rain rests upon stone.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-da-phan-mach",
+    "lore_vi": "Đá Phân Mạch từng là phần quặng bỏ cạnh một mạch kim loại có những nhánh trắng như rễ cây. Người đập quặng dùng búa gỗ vì búa sắt luôn trượt khỏi đúng điểm cần chẻ. Qua nhiều lượt gõ, các vết nứt bắt đầu tìm đến kim loại trước khi lưỡi búa tới, rồi mặt cắt mới hiện những nhánh trắng đang tự co lại.\n\nMột mảnh giữ được thói ấy sau khi đem ra ngoài núi. Mạch của nó nhận các đường kim loại khác bằng ánh xanh mỏng, và một cú gõ đúng nhịp khiến đường chẻ đi theo ánh đó. Phần quặng bị bỏ đã mang về xưởng một cách chọn đường của thứ từng sống như rễ dưới lòng đá.",
+    "lore_en": "Vein-Parting Stone began as discarded ore beside metal-veins with white rootlike branches. Wooden hammers were used because iron heads slipped from the splitting point. Repeated blows made cracks seek metal ahead of the hammer; fresh cuts revealed the white branches withdrawing.\n\nA fragment kept this habit outside the mountain. Its veins recognised other metal-paths in thin green light, and a properly timed blow sent splitting along them. Discarded ore had brought a rootlike underground thing’s choice of road into the workshop.",
+    "use_vi": "Tìm hướng mạch trong khối đang chạm và dẫn đường chẻ dọc một mạch đã chọn.",
+    "use_en": "Find veins within a contacting block and guide a split along one chosen vein.",
+    "limits_vi": "Mạch từ nhiều khối ghép không thành một bản đồ chung. Gõ nhịp sai có thể đưa khe qua cả dụng cụ kim loại đang chạm khối; người giữ cần tách tay khỏi đường chẻ.",
+    "limits_en": "Joined blocks do not form one continuous map. A mistimed blow may send fracture through a contacting metal tool; hands must clear its route.",
+    "traits": [
+      {
+        "name_vi": "Rễ còn trong quặng",
+        "name_en": "Roots Within Ore",
+        "description_vi": "Bụi trắng trên mặt mới cắt rút vào mạch khi nghe búa gỗ, dù mẫu không còn nối với vỉa ban đầu.",
+        "description_en": "White dust withdraws into a fresh-cut vein at wooden hammer-sound even when detached from its seam."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Nhận đường kim",
+        "name_en": "Find the Metal-Path",
+        "description_vi": "Áp đá vào khối quặng để ánh mỏng lần theo mạch liên tục trong phần tiếp xúc. Nó có thể nhận cả kim loại được giấu sau, nên phải tự biết đâu là quặng thật.",
+        "description_en": "Press to ore so light follows connected metal within contact. Hidden added metal may also answer and requires interpretation."
+      },
+      {
+        "name_vi": "Chẻ theo rễ",
+        "name_en": "Split Along the Root",
+        "description_vi": "Giữ đường đã sáng rồi gõ búa gỗ theo nhịp nó trả; khe chẻ men theo mạch. Mạch ngắt đột ngột làm khe tìm điểm kim loại gần nhất.",
+        "description_en": "Hold a lit path and match its returning rhythm with wooden blows. The split follows it; an interrupted vein sends the crack towards nearby metal."
+      }
+    ],
+    "epigraph_vi": "*“Quặng tự chỉ chỗ mình muốn mở.”*",
+    "epigraph_en": "*“The ore shows where it wishes to open.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-hac-thach-giu-sap",
+    "lore_vi": "Mặt hắc thạch được tìm dưới nền một xưởng đúc nến chìm nửa trong đất. Sáp nhiều đời đã tràn xuống các rãnh cạnh một mẩu khoáng tối hình hạt, rồi đông thành những đường chỉ không nhận lửa mới. Người đào gỡ lớp sáp trên cùng thấy mặt đá vẫn đen ướt, tự kéo giọt mới vào đúng chỗ dấu cũ vừa rời.\n\nMẩu hạt bị lấy đi không làm phản ứng tắt: những rãnh đã học được việc giữ hình sáp. Người đúc dùng chúng lấy dấu và trả dấu, mang qua tay mình một trí nhớ nằm trong vật vốn chỉ để đặt dưới lò.",
+    "lore_en": "Black stone lay beneath a half-buried candle-foundry. Generations of wax had filled grooves beside a dark seed-shaped mineral and set into filaments unresponsive to fresh flame. Removing the upper wax exposed wet black stone drawing new drops into the departing impressions.\n\nTaking the seed away did not end it: the grooves had learnt to retain wax-shapes. Founders used them to take and return impressions, handling memory within what had merely supported a furnace.",
+    "use_vi": "Giữ sáp mềm trong đường khắc và cho một dấu đã nhận hiện lại khi nạp sáp mới.",
+    "use_en": "Hold soft wax within grooves and restore one accepted impression into fresh wax.",
+    "limits_vi": "Chỉ một hình được nhận ở mỗi vùng. Sáp đổi mẻ quá khác có thể nhận dấu méo; lửa nung trực tiếp làm rãnh mất trí nhớ và rỉ màu đen vào sáp.",
+    "limits_en": "Each region holds one shape. Very different wax may reproduce it distorted; direct fire destroys its memory and bleeds black colour.",
+    "traits": [
+      {
+        "name_vi": "Vết ở lại dưới lớp mềm",
+        "name_en": "A Mark Beneath Softness",
+        "description_vi": "Đá mòn dần theo số lượt nhận dấu, khiến những hình cũ nằm sâu nhất thường chỉ còn một phần.",
+        "description_en": "The surface wears with repeated impressions, leaving the deepest old forms partial."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ mép sáp",
+        "name_en": "Hold the Wax-Edge",
+        "description_vi": "Đổ sáp vừa mềm lên mặt để nó tự dồn vào rãnh dù phiến nghiêng. Dầu bám mặt làm sáp chọn các đường bẩn khác.",
+        "description_en": "Soft wax fills its grooves even on a tilt. Surface oil misdirects it along dirtied paths."
+      },
+      {
+        "name_vi": "Trả dấu trong đá",
+        "name_en": "Return the Stone’s Impression",
+        "description_vi": "Chạm hình thật một lần rồi nạp lớp sáp mới để đá đẩy lại đường đã nhận. Chồng một hình khác sẽ thay phần trí nhớ ở cùng chỗ.",
+        "description_en": "Offer a real shape once, then fresh wax to restore its outline. A second shape replaces memory in the same region."
+      }
+    ],
+    "epigraph_vi": "*“Một lần ấn, sáp nhớ qua nhiều mùa.”*",
+    "epigraph_en": "*“One impression, and wax remembers across seasons.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-tinh-the-dem-giot",
+    "lore_vi": "Các tinh thể được nuôi trong máng của một lò chưng cất, nơi người thợ hòa bụi quặng vào nước để mong thuốc giữ được lâu hơn. Sau một đêm nguồn lửa xanh tự tắt, đáy máng mọc mười hai vạch sáng trên từng mũi đá. Giọt thứ mười ba không thấm vào đâu: nó đứng một nhịp rồi trở lại đầu ống vừa thả.\n\nThợ đổi nước, đổi ống và đổi người đếm, chu kỳ vẫn khép ở mười hai. Họ chưa biết mình đã nuôi tinh thể hay làm một thứ biết khép vòng kết vào chất khoáng. Những viên còn nguyên được dùng như người giữ đếm không mỏi, nhưng luôn chừa một chén trống cho giọt quay về.",
+    "lore_en": "The crystals grew in a distillery trough where ore-dust was mixed with water in hope of preserving medicine. After its green fire extinguished itself, twelve luminous marks appeared upon each stone-point. The thirteenth drop stood a beat, then returned to the releasing tube.\n\nWater, tubes and counters changed; the cycle still closed at twelve. Had they grown crystals or lodged something cycle-closing in mineral? Whole samples became tireless counters, with an empty cup always reserved for the returning drop.",
+    "use_vi": "Đếm vòng mười hai giọt và tách một phần tràn khỏi chu kỳ đã được nhận.",
+    "use_en": "Count twelve-drop cycles and separate the overflow from an accepted cycle.",
+    "limits_vi": "Giọt quá sát có thể được nhận thành một. Nước pha dầu làm vạch lẫn; tinh thể chỉ đếm cách nó nhận giọt, không bảo đảm mỗi giọt có cùng lượng.",
+    "limits_en": "Close drops may count as one. Oil confuses its marks; counted drops need not have equal volume.",
+    "traits": [
+      {
+        "name_vi": "Vòng đủ mười hai",
+        "name_en": "A Circle of Twelve",
+        "description_vi": "Vạch tắt cùng nhau khi vòng khép; giọt quay về giữ nguyên chất vừa đưa vào, kể cả thứ nguy hiểm.",
+        "description_en": "Marks fade together upon closure. Returned drops retain their contents, including dangerous ones."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mười hai vạch",
+        "name_en": "Twelve Marks",
+        "description_vi": "Cho từng giọt chạm đỉnh để vạch sáng lần lượt. Đếm nhầm vòng vì không nhìn lúc vạch tắt sẽ khiến cả mẻ pha sai.",
+        "description_en": "Touch drops to its point to light marks successively. Missing their reset can spoil the entire batch."
+      },
+      {
+        "name_vi": "Giọt bị trả",
+        "name_en": "The Returned Drop",
+        "description_vi": "Giữ nguyên vị trí đỉnh sau vạch cuối để giọt vượt vòng được đưa ngược về mặt thả. Dời ống nhận khiến giọt quay về chỗ trống.",
+        "description_en": "Keep its point fixed after the last mark to return the extra drop to its release-face. A moved tube leaves it returning into empty space."
+      }
+    ],
+    "epigraph_vi": "*“Giọt thứ mười ba có đường trở lại.”*",
+    "epigraph_en": "*“The thirteenth drop has a road back.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-hoang-thach-nin-gio",
+    "lore_vi": "Hoàng thạch từng nằm ở vách một hang thổi suốt ngày đêm. Khi các thợ mở mạch vàng nhạt bên dưới, gió trong hang ngừng còn bụi trên áo họ vẫn bị kéo ngang. Họ tìm được lớp lỗ kim trên đá, mỗi lỗ chứa một chấm tối tự lùi sâu trước hơi thở người.\n\nMang ra khỏi hang, đá giữ sát mình một khoảng không khí chịu đứng yên, rồi trả thành một luồng nhỏ khi bị gõ. Những thợ đèn nhờ vậy có thể làm việc dưới một vách gió. Họ gọi nó là phần hang đã ngậm một cơn thổi vào trong, để mỗi viên luôn có một hơi riêng chờ được mở.",
+    "lore_en": "The yellow stone lined a cavern that blew day and night. Opening a pale-gold seam stopped the cavern wind while dust upon miners’ coats still pulled sideways. Needle-holes in the stone held dark points retreating before human breath.\n\nOutside, it retained a still air-layer and returned a small current when tapped. Lamp-workers sheltered work against draughts, calling it cavern-stone that had swallowed wind, each piece keeping a breath awaiting release.",
+    "use_vi": "Tạo một lớp khí yên sát dụng cụ hoặc nhả luồng khí đã nhận thành một hơi có hướng.",
+    "use_en": "Keep a still air-layer beside tools or discharge its received air in a directed breath.",
+    "limits_vi": "Khoảng yên đi theo phần lỗ còn mở, không tự bao cả người. Bịt lỗ bằng dầu hoặc nghiền nhỏ khiến hơi bị giữ thoát đồng loạt, có thể hất lửa sang vật sát bên.",
+    "limits_en": "The still layer follows open pores, not an entire person. Oil-clogging or crushing releases retained air together and may scatter nearby flame.",
+    "traits": [
+      {
+        "name_vi": "Lỗ biết lùi",
+        "name_en": "Retreating Pores",
+        "description_vi": "Chấm tối trong lỗ chạy ngược hướng hơi tới; soi quá gần khiến người nhìn nhầm chiều nguồn gió ngoài.",
+        "description_en": "Dark points retreat against incoming air, sometimes confusing close observers about outside wind-direction."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mặt khí yên",
+        "name_en": "The Still Air-Face",
+        "description_vi": "Hướng mặt lỗ về ngọn đèn để giữ lớp khí sát đó thôi chao. Dụng cụ ra khỏi khoảng sát đá mất phần che ngay.",
+        "description_en": "Face the pores towards a lamp to still its immediate air. Tools leaving that vicinity lose protection."
+      },
+      {
+        "name_vi": "Hơi trả có hướng",
+        "name_en": "A Directed Returning Breath",
+        "description_vi": "Xoay mặt từng nhận gió về đường muốn thổi rồi gõ nhẹ; khí nhả thành một lượt. Lỗ bị bẩn có thể làm lượt nhả rẽ sai.",
+        "description_en": "Turn its wind-receiving face towards the desired outlet and tap for one discharge. Dirty pores may bend it astray."
+      }
+    ],
+    "epigraph_vi": "*“Gió ngủ trong những lỗ kim.”*",
+    "epigraph_en": "*“Wind sleeps within the pinholes.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-soi-chi-ri",
+    "lore_vi": "Sỏi Chỉ Rỉ hình thành trong bụng một bức tượng sắt bị chôn cùng quặng xanh. Nhiều mùa nước ngầm ăn ruột tượng, đẩy rỉ vào những hòn sỏi trắng cho tới khi mỗi viên có một mắt đỏ chưa từng được khắc. Người tháo tượng đem sỏi đi cọ dụng cụ thấy mắt đỏ mở cả trên phần sắt ngoài còn sáng.\n\nMột người sửa neo lần theo các vệt mắt chỉ, tìm được chỗ xích rỗng trước khi đứt. Họ còn học được cách để mắt nhả lại rỉ đã nhận thành vảy làm mẫu. Phần tượng đã mục vì thế trao cho người dùng một thói phát hiện chính điều từng hủy mình.",
+    "lore_en": "Rust-Showing Pebbles formed inside an iron statue buried with green ore. Groundwater carried its internal rust into white gravel until every grain bore an uncarved red eye. Rubbed upon tools, those eyes opened even where the surface still shone.\n\nAn anchor-smith followed their indications to a hollow link before failure. Keepers also learnt to release retained rust as comparison-flakes. A ruined statue had passed on the habit of recognising what destroyed it.",
+    "use_vi": "Nhận dấu rỉ gần mặt sắt và lấy một phần dấu đã nhận để so với mẫu khác.",
+    "use_en": "Detect near-surface rust and extract part of its received trace for comparison.",
+    "limits_vi": "Mắt đỏ không đo được sức chịu lực còn lại. Cọ nhiều mẫu mà chưa xả làm rỉ cũ lẫn mới; bề mặt được bôi chất che có thể làm mắt đóng.",
+    "limits_en": "The red eye gives no remaining load-capacity. Unemptied samples mingle old and new rust; surface coatings may close its eye.",
+    "traits": [
+      {
+        "name_vi": "Mắt của vật đã mục",
+        "name_en": "The Ruined Thing’s Eye",
+        "description_vi": "Sỏi xả hết sẽ trắng lại ở viền nhưng giữ một chấm đỏ gốc, dấu của bức tượng đầu tiên.",
+        "description_en": "Emptied stones whiten around the rim but retain the first statue’s red point."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mắt chỉ phần mục",
+        "name_en": "The Eye Finds Decay",
+        "description_vi": "Chà mặt trắng lên sắt để mắt đỏ lan về phía rỉ được nhận. Da tay rách không nên chạm vảy mới nhả.",
+        "description_en": "Rub its white face upon iron to spread red towards detected rust. Keep broken skin away from released flakes."
+      },
+      {
+        "name_vi": "Nhả một vảy chứng",
+        "name_en": "Release a Witness-Flake",
+        "description_vi": "Chạm mắt đã đỏ vào sứ sạch để rỉ được nhận kết thành một vảy. Thao tác xả mẫu khỏi mắt nhưng không trả phần sắt đã mất về vật gốc.",
+        "description_en": "Touch a reddened eye to clean porcelain to form a rust-flake. It empties the reading without restoring lost iron."
+      }
+    ],
+    "epigraph_vi": "*“Mắt đỏ thấy phần sắt đang mất.”*",
+    "epigraph_en": "*“The red eye sees the iron being lost.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-gon-muc",
+    "lore_vi": "Một phiến đá kê bàn được ngâm trong mực đổ có lẫn bụi Vestigium suốt mùa người chủ xưởng rời đi. Khi được lau, các màu không trộn bẩn mà chạy thành những vòng riêng, như một mặt ao biết giữ từng loại lá rơi. Người trở về thử đổ mực mới và thấy mặt đá tự xếp lại các hạt màu theo cùng đường tròn.\n\nHọ cắt phiến thành những bàn nhỏ cho thợ vẽ, giữ nguyên mặt đã ngấm. Mỗi bàn còn một chấm đen ở tâm, nơi các vòng từ chối đi qua. Chấm ấy có thể là chỗ bụi khoáng đã kết, cũng có thể là phần mực chưa chịu được chia; người dùng học đủ hai việc để làm nghề, rồi giữ câu hỏi ở dưới nắp hộp.",
+    "lore_en": "A table-propping slab soaked for a season in spilt ink mixed with Vestigium dust. Cleaning revealed colours separating into rings like a pond sorting fallen leaves. Fresh ink arranged its pigments along those same circles.\n\nThe slab was cut into small painters’ boards with its soaked face intact. Each retained a black centre no ring crossed: perhaps condensed mineral, perhaps ink refusing division. Users learnt two useful practices and kept the remaining question beneath the case-lid.",
+    "use_vi": "So độ loãng bằng vòng mực hoặc chia một giọt thành các vệt sắc tố để người pha đọc.",
+    "use_en": "Compare dilution by ink-rings or separate a drop’s pigments for a mixer to examine.",
+    "limits_vi": "Mực dầu phủ kín đường vòng làm đá chậm hoặc thôi nhận. Sắc đã bị phản ứng đổi chất không được trả về màu gốc bằng việc chia; lau xước mặt sẽ mang cả đường đọc đi.",
+    "limits_en": "Oil-ink clogs its circles. Separating chemically changed pigments does not restore their former colour; scratches remove reading-paths.",
+    "traits": [
+      {
+        "name_vi": "Điểm đen ở tâm",
+        "name_en": "The Black Centre",
+        "description_vi": "Mỗi mẫu giữ chấm tâm của riêng phần đá mình được cắt ra; ghép các phiến không tạo lại một vòng lớn.",
+        "description_en": "Each cut board retains its own centre; joining boards does not restore a larger circle."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vòng so mực",
+        "name_en": "The Comparing Ring",
+        "description_vi": "Nhỏ giọt lên mặt khô để vòng trải đều; so các mẻ trên cùng phiến trước khi lau. Mặt ướt sẵn làm vòng có dấu của nước cũ.",
+        "description_en": "Drop ink on the dry face and compare batches on that same board. Existing moisture enters the ring’s reading."
+      },
+      {
+        "name_vi": "Chia sắc trong giọt",
+        "name_en": "Part the Drop’s Colours",
+        "description_vi": "Lần ngón quanh tâm theo chiều vòng để các hạt màu tách thành vệt. Pha trộn vốn một chất đơn chỉ thành một vòng, không bị ép sinh màu mới.",
+        "description_en": "Trace around its centre to separate pigments. A single substance remains one ring rather than being forced into new colours."
+      }
+    ],
+    "epigraph_vi": "*“Mỗi màu tìm được vòng của mình.”*",
+    "epigraph_en": "*“Every colour finds its own circle.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-da-tra-hoi",
+    "lore_vi": "Đá Trả Hơi được lấy khỏi một ống ngưng phủ các gân khoáng xám. Lò đã tắt mà ống còn thở từng nhịp, đưa hơi ấm về các vệt khắc trên thân như một người đang đọc lại chữ. Thợ tháo máy mở ống thấy nước rút vào đá, để ngoài mặt khô nhưng cầm lên vẫn nghe tiếng sôi từ nơi sâu hơn lòng bàn tay.\n\nCác viên mới giữ hơi ấm từ nước đã chạm rồi nhả khi quanh mình lạnh đi. Khi được khắc một nét vòng, chúng biết gửi hơi theo nét tới một miệng ra nhỏ. Người mang chúng qua đường núi gọi đó là phổi của một cái lò đã chịu đi xa khỏi nơi mình sinh ra.",
+    "lore_en": "Breath-Returning Stone came from a condenser lined with grey mineral veins. Its furnace was out, yet the pipe breathed warmth along incised marks as though rereading them. Dismantlers found water retreating into stone: dry outside, it still sounded boiling from deeper than the holding palm.\n\nDetached stones retained warmth from contacting water and released it in surrounding cold. An incised loop directed that breath to a small outlet. Mountain travellers called them the lungs of a furnace willing to leave its birthplace.",
+    "use_vi": "Giữ hơi đã nhận để làm chậm nguội một hộp, hoặc trả thành một luồng có hướng qua nét khắc.",
+    "use_en": "Keep received vapour to delay a box’s cooling, or return it along an incised outlet.",
+    "limits_vi": "Hơi bẩn mang mùi và cặn vào hốc. Rãnh khắc kín không có lối ra có thể khiến đá nứt khi nhả; người dùng phải tự kiểm vật đang được hong có chịu được ẩm.",
+    "limits_en": "Dirty vapour leaves odour and deposits. A sealed outlet-path may crack on discharge; users must check whether warmed objects tolerate damp.",
+    "traits": [
+      {
+        "name_vi": "Lò có thể mang đi",
+        "name_en": "A Furnace That Travels",
+        "description_vi": "Lần nạp đầu để lại một nhịp thở riêng; hốc ám khói quá nặng thường thôi nhận thay vì tự được rửa sạch.",
+        "description_en": "The first charge leaves an individual breathing-rhythm. Heavy soot usually ends reception rather than cleaning itself."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ủ hơi trong hốc",
+        "name_en": "Keep Vapour in the Hollow",
+        "description_vi": "Đặt đá trước nước ấm cho tới khi tiếng sôi nhỏ dần rồi cất cùng vật cần hong. Khi các hốc nguội sạch, nó cần một lượt nạp mới.",
+        "description_en": "Charge beside warm water until its boiling hushes, then store with what needs warmth. Emptied cold hollows need recharging."
+      },
+      {
+        "name_vi": "Trả theo nét khắc",
+        "name_en": "Return by the Incision",
+        "description_vi": "Vạch một đường mở tới miệng ra rồi chạm đồng vào điểm đầu để hơi đi theo. Rãnh còn cặn có thể phun cả phần bẩn từng giữ.",
+        "description_en": "Trace an open outlet-path and touch copper to its beginning. Deposits may discharge with the returned vapour."
+      }
+    ],
+    "epigraph_vi": "*“Lò tắt vẫn để lại một hơi.”*",
+    "epigraph_en": "*“An extinguished furnace leaves one breath.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-lam-thach-doi-suc",
+    "lore_vi": "Viên lam thạch từng nằm trong chân một chiếc máy ép ở xưởng chế chuông. Ngày bệ gỗ gãy, những người đang giữ dây nhìn thấy ánh xanh chạy xuyên thân quặng, đưa sức ép lệch khỏi người học việc và dồn vào phía tường. Tiếng đổ chỉ tới sau khi tất cả đã ngã xuống. Trong bức tường còn nguyên một hõm mang hình chiếc chuông chưa đúc xong.\n\nNgười ta tìm thấy những sợi lam mới trong mẩu quặng vốn chỉ dùng làm đá chèn. Từng sợi đi theo đường lực của lần sập, nhưng từ đó có thể đổi hướng khi hai mặt đá nhận hai điểm tựa khác nhau. Thợ đo giải thích bằng đòn bẩy rồi thất bại trước một xung đập được trả từ mặt chưa từng chạm búa. Xưởng giữ đá trong một bộ gá mở: đủ hiểu để đưa một sức nặng sang chỗ khác, chưa ai dám bảo mình biết thứ gì đã nhận sức nặng trong khoảng giữa.",
+    "lore_en": "The blue stone once supported a press in a bell-foundry. When the timber bed failed, rope-holders saw blue light cross the ore, diverting pressure from an apprentice into the wall. The crash reached them after they had fallen. The wall retained an impression of the unfinished bell.\n\nNew blue fibres had formed in ore previously used as packing-stone. They followed the collapse’s force-paths but thereafter changed direction when the stone received different supports. Craftsmen invoked levers, then failed to explain a blow returned from a face no hammer had touched. The foundry kept it in an open jig: enough understanding to send weight elsewhere, none to say what received that weight in between.",
+    "use_vi": "Đặt hai mặt vào hai điểm tựa để một sức ép đi vào mặt này được trả ở mặt kia theo hướng đã chọn.",
+    "use_en": "Seat two faces against two supports so pressure entering one is delivered from the other in the chosen direction.",
+    "limits_vi": "Đường lam sẫm là dấu gần quá sức. Lực trả không phân biệt người với đồ vật; đổi điểm tựa giữa một lượt chuyển có thể làm xung trở về tay giữ. Một mạch gãy mất khả năng tương ứng vĩnh viễn.",
+    "limits_en": "Darkening blue marks approaching exhaustion. Returned force distinguishes no person from object. Moving a support mid-transfer may send the pulse back into its holder. A broken vein permanently loses its corresponding operation.",
+    "traits": [
+      {
+        "name_vi": "Đường lực có trí nhớ",
+        "name_en": "Force-Paths Remember",
+        "description_vi": "Những đường lam ghi cả các điểm tựa từng được dùng, khiến viên đã qua nhiều tay luôn sáng theo nhiều lối trước khi chọn một.",
+        "description_en": "Blue veins retain previous supports; a much-used stone lights several paths before settling upon one."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đổi chỗ nhận lực",
+        "name_en": "Change the Receiver",
+        "description_vi": "Đặt hai mặt vào hai điểm tựa để một sức ép đi vào mặt này được trả ở mặt kia theo hướng đã chọn.",
+        "description_en": "Seat two faces against two supports so pressure entering one is delivered from the other in the chosen direction."
+      }
+    ],
+    "epigraph_vi": "*“Sức nặng có thể chọn một nơi khác.”*",
+    "epigraph_en": "*“Weight may choose another place.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ho-phach-man",
+    "lore_vi": "Hổ Phách Mặn được tìm trong tầng cát trên một ngọn đồi xa biển, giữa các vỏ tàu hóa thạch chưa ai ghép được thành một kiểu thuyền đã biết. Nhựa cây trong đó từng ôm một giọt nước đen có bụi Vestigium; khi cắt tới, giọt không chảy mà quay mặt về chén nước biển của người mài.\n\nNgười giữ đem viên nhựa qua nhiều nguồn nước. Giọt trắng dần, biết chọn vị mặn, nhận một đường về cùng nguồn và đẩy phần muối thành vòng ở mặt ngoài. Những người đi biển gọi nó là mắt của một vùng nước đã bị bỏ trên đất: mắt chỉ còn giữ quan hệ với nơi mình từng thuộc, còn hình biển gốc đã mất khỏi mọi bản đồ họ có.",
+    "lore_en": "Brine Amber lay within hill-sand far from the sea, among fossil hulls unlike any known boat. Resin had enclosed a dark drop seeded with Vestigium dust. Cutting reached it without release: it turned towards the cutter’s seawater bowl.\n\nAcross different sources the drop whitened, learnt to favour salt, recognise a route towards matching water and press salt into an outer ring. Mariners called it the eye of water abandoned upon land, retaining relationships after its original sea vanished from their maps.",
+    "use_vi": "Nhúng ngọc vào một mẫu nước mặn rồi theo ánh lõi để tìm phần nước còn mang cùng dấu nguồn.",
+    "use_en": "Immerse the amber in salt water, then follow the core’s light towards water still bearing the same source-sign.",
+    "limits_vi": "Pha nhiều nguồn khiến các dấu chen nhau. Viên đá nhận vị và quan hệ, không chứng nhận nước sạch; chất hòa tan khác vẫn có thể nguy hiểm dù mắt trắng trong.",
+    "limits_en": "Mixed sources produce competing marks. Taste and relation are not purity; other dissolved substances remain dangerous despite a clear eye.",
+    "traits": [
+      {
+        "name_vi": "Mắt của nước bị bỏ",
+        "name_en": "The Abandoned Water’s Eye",
+        "description_vi": "Giọt trong nhựa đổi vị trí mà chưa từng chạm vỏ; khoan lấy giọt chỉ thu được nước thường và một miếng nhựa đã chết dấu.",
+        "description_en": "The enclosed drop turns without touching its shell; extracting it yields ordinary water and unresponsive resin."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi nước cùng nguồn",
+        "name_en": "Call Kindred Water",
+        "description_vi": "Nhúng ngọc vào một mẫu nước mặn rồi theo ánh lõi để tìm phần nước còn mang cùng dấu nguồn.",
+        "description_en": "Immerse the amber in salt water, then follow the core’s light towards water still bearing the same source-sign."
+      }
+    ],
+    "epigraph_vi": "*“Giọt lạc bờ vẫn nhớ vị biển.”*",
+    "epigraph_en": "*“A stranded drop remembers the sea’s taste.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-khau-nut",
+    "lore_vi": "Ổ tinh thể đầu tiên mọc xuyên một mạch khoáng đỏ đã vỡ làm hai. Qua mỗi mùa, nước trong khe đóng băng rồi tan, còn những sợi đỏ bắt đầu nối giữa các đỉnh đá trước khi tinh thể thật kịp mọc tới. Người khai lấy mẫu đập vỡ một viên; hai mặt gãy tự kéo nhau về, để lại sẹo sẫm giống một đường chỉ được buộc quá chặt.\n\nSợi ấy theo phần đá tách ra khỏi vỉa, chỉ nhận lại những mặt có cùng một lần chia cắt. Qua nhiều cách thử, thợ học đọc đường gãy, giữ mép đang lìa và dời một vết sẹo sang phần đá đồng nguồn. Họ gọi nó là khoáng đã lớn lên trong một vết thương tới mức lầm việc khép lại với cách mình tồn tại.",
+    "lore_en": "The first crystals crossed a severed red mineral vein. Water froze and thawed while red filaments joined their points before actual crystal growth arrived. A gathered specimen broke and pulled its faces together, leaving a dark over-tight seam.\n\nDetached stone retained filaments recognising surfaces of one original separation. Craftsmen learnt to read fractures, hold parting edges and transfer a scar into related stone. They called it mineral grown within a wound until closure became its manner of existence.",
+    "use_vi": "Áp đá lên hai mép cùng một đường gãy để những thớ còn nhận nhau kéo khít lại; đặt đá đồng nguồn cạnh đó làm nơi mang sẹo.",
+    "use_en": "Press the stone to matching edges of one break so fibres still recognising each other draw closed; set kindred stone beside them to receive the scar.",
+    "limits_vi": "Sẹo tích làm mạch đỏ dày tối rồi thôi nhận. Ghép sai mặt khiến chỉ xiết vào điểm chạm và có thể phá cả hai phần; những chỗ vật chất thiếu cần vật thật để bù.",
+    "limits_en": "Accumulated scars darken and exhaust its veins. Mismatched faces tighten destructively; missing material needs an actual replacement.",
+    "traits": [
+      {
+        "name_vi": "Nhớ đúng một lần lìa",
+        "name_en": "Remembering One Parting",
+        "description_vi": "Mỗi sợi nhận đường gãy của mình; màu giống nhau không đủ khiến đá chấp nhận hai vật vốn chưa từng là một.",
+        "description_en": "Each filament recognises its own break; similar colour does not make separate objects one."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khâu hai mép gãy",
+        "name_en": "Stitch the Broken Edges",
+        "description_vi": "Áp đá lên hai mép cùng một đường gãy để những thớ còn nhận nhau kéo khít lại; đặt đá đồng nguồn cạnh đó làm nơi mang sẹo.",
+        "description_en": "Press the stone to matching edges of one break so fibres still recognising each other draw closed; set kindred stone beside them to receive the scar."
+      }
+    ],
+    "epigraph_vi": "*“Đường gãy có thể học đường về.”*",
+    "epigraph_en": "*“A break may learn the road back.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-bach-khoang-can-chi",
+    "lore_vi": "Bạch khoáng vốn là đá vôi quanh một túi chì chảy qua quặng lạ. Khi thợ mở túi, chì chưa nguội đã tự kéo thành những sợi trắng xám, chui vào các gờ đá như một bầy sâu tìm răng. Đá đem về xưởng tiếp tục nhận chì từ vật khác, nhưng bỏ qua đồng ngay cạnh.\n\nNhững người tinh quặng gọi các gờ là miệng. Chúng biết ngửi chì qua một lớp phủ, kéo nó thành sợi, giữ nó co quanh dấu và nhả thành một hình đơn. Mọi lời giải bằng sức hút đều dừng ở chiếc khuôn không lòng mà chì vẫn tự nhận hình. Người thợ chỉ giữ được các thao tác, với đôi găng luôn thay trước khi phần bụi lạ kịp đi vào người.",
+    "lore_en": "White limestone enclosed lead flowing through strange ore. Opening the pocket drew still-hot lead into grey-white filaments entering its ridges like creatures seeking teeth. In workshops the stone kept accepting lead while ignoring nearby copper.\n\nRefiners called its ridges mouths. They sensed covered lead, drew it into threads, held it around marks and released simple forms. Explanations by attraction failed at a hollowless mould still giving shape. Craftsmen retained their procedures and changed gloves before strange dust entered their bodies.",
+    "use_vi": "Đưa gờ trắng sát vật chứa chì để kim loại rịn ra thành giọt, rồi vuốt gờ cho lượng đã gom nhận một hình nhỏ mới.",
+    "use_en": "Bring a white ridge near lead-bearing material so the metal beads out, then stroke the ridge to shape the gathered lead into a small new form.",
+    "limits_vi": "Chì vẫn gây hại khi đi vào cơ thể; khoáng không tự chữa độc. Gờ bị no hoặc vỡ có thể nhả sợi bất ngờ, kéo cả phần vật khác đang mắc cùng chì.",
+    "limits_en": "Lead remains harmful within bodies; the mineral does not cure poisoning. Saturated or broken ridges may release threads abruptly, dragging attached material.",
+    "traits": [
+      {
+        "name_vi": "Miệng bỏ qua đồng",
+        "name_en": "Mouths Refusing Copper",
+        "description_vi": "Sức chọn của đá tồn tại ở gờ nguyên; bụi nghiền mất việc nhận nhưng vẫn giữ những tạp chất nguy hiểm.",
+        "description_en": "Its selection belongs to whole ridges; ground dust loses recognition while retaining hazardous impurities."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gom chì về gờ",
+        "name_en": "Gather Lead to the Ridge",
+        "description_vi": "Đưa gờ trắng sát vật chứa chì để kim loại rịn ra thành giọt, rồi vuốt gờ cho lượng đã gom nhận một hình nhỏ mới.",
+        "description_en": "Bring a white ridge near lead-bearing material so the metal beads out, then stroke the ridge to shape the gathered lead into a small new form."
+      }
+    ],
+    "epigraph_vi": "*“Chì nghe tiếng gọi từ những gờ trắng.”*",
+    "epigraph_en": "*“Lead hears the call of white ridges.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-da-lang-bac",
+    "lore_vi": "Các viên đá xám mọc quanh một gốc than chỉ cháy trong im lặng. Người đốt lấy than đi thì đá bắt đầu phát tiếng lách tách cũ, trong khi đống lửa mới cạnh đó mất riêng phần âm của mình. Trong hốc có những đốm màu như bấc cháy, nhưng móc ra chỉ thu được đá lạnh.\n\nNgười giữ thử được bốn cách giao tiếp với phần tiếng lửa ấy. Có viên cất tiếng của buổi hong bánh cuối ca, có viên mang tiếng trại cháy trở về trong một căn phòng yên. Mẫu vẫn chọn ngọn lửa bằng một quan hệ chưa gọi được tên; nó có thể khiến lửa im, nhưng người ngồi bên sẽ phải nhớ rằng im lặng không làm một thứ bớt có thể thiêu mình.",
+    "lore_en": "Grey stones grew around a coal-root burning silently. Removed coal left the stones releasing its old crackle while a nearby fresh fire lost only its sound. Their hollows held wick-coloured specks that became cold stone when extracted.\n\nKeepers learnt four ways to engage this fire-sound. Some retained a bakery’s last warmth; others returned a burning camp to a quiet room. Their selection followed an unnamed relation. Silencing flame did not make it less able to burn its listener.",
+    "use_vi": "Cho đá nhận âm của một ngọn lửa rồi áp vào lửa khác để nghe phần tiếng đã giữ, dù hai ngọn chưa từng chạm nhau.",
+    "use_en": "Let the stone receive a flame’s sound, then touch it to another flame to hear the captive sound, though the fires have never met.",
+    "limits_vi": "Ánh sáng, khói và phần nguy hiểm khác của lửa vẫn còn. Nạp nhiều đám lửa làm tiếng lẫn, còn hốc quá nóng có thể trả mọi âm cùng lúc.",
+    "limits_en": "Light, smoke and other fire-hazards remain. Multiple fires mingle their sounds; overheating may release them together.",
+    "traits": [
+      {
+        "name_vi": "Chỉ nhận giọng lửa",
+        "name_en": "Only the Fire’s Voice",
+        "description_vi": "Tiếng người sát bên vẫn đi qua khoảng yên, khiến âm lửa bị mất trở nên rõ như một chỗ vừa bị khoét khỏi phòng.",
+        "description_en": "Nearby speech passes through its quiet, making missing fire-sound conspicuous as a hollow cut from the room."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gửi tiếng trong lửa",
+        "name_en": "Send a Sound within Fire",
+        "description_vi": "Cho đá nhận âm của một ngọn lửa rồi áp vào lửa khác để nghe phần tiếng đã giữ, dù hai ngọn chưa từng chạm nhau.",
+        "description_en": "Let the stone receive a flame’s sound, then touch it to another flame to hear the captive sound, though the fires have never met."
+      }
+    ],
+    "epigraph_vi": "*“Ngọn lửa cũng có một tiếng để gửi.”*",
+    "epigraph_en": "*“Even flame has a sound to send.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-luc-ngoc-luu-ap",
+    "lore_vi": "Lục ngọc được lấy từ dưới bệ một máy ép dùng nước mỏ có ánh bạc. Qua nhiều năm sức ép lên xuống, những giọt nước lọt vào đá ngừng thấm và dẹt thành các bọt kim loại. Đến lần máy gãy, bọt giữ nguyên hình chịu tải dù mọi phần sắt đã được dỡ đi.\n\nNgười chuyển hàng nhặt mẫu đặt vào thùng, tìm lại hình ép trên bọt sau một chuyến bị chèn. Những thợ khác học cách đọc hướng, xả dấu hoặc trả một phần sức bọt đang ôm vào bản thử. Viên ngọc biến một việc thường qua đi ngay khi tay buông thành thứ có thể được đem ra đối diện, kể cả sau lúc những người đẩy thùng đã quên mình làm gì.",
+    "lore_en": "The jade lay beneath a press using silver-glinting mine-water. Years of loading flattened trapped drops into metallic bubbles. When the press broke, they kept their loaded shapes after its ironwork was removed.\n\nCarriers recovered compression-marks after damaged journeys. Others learnt to read direction, clear records or discharge part of a bubble’s burden into a test-plate. A pressure normally gone upon release had become something witnesses could confront after its handlers forgot their actions.",
+    "use_vi": "Ép ngọc cho một bọt giữ tải rồi chạm mặt đã chọn để bọt nhả lại sức ấy thành một lần đẩy ngắn.",
+    "use_en": "Press the jade until a bubble holds the load, then touch the chosen face to release that force as a brief push.",
+    "limits_vi": "Nhiệt khác lúc ghi có thể làm hình bọt khó so. Xả dấu sẽ mất chứng tích cũ; dùng viên đã ghi quá nhiều có thể làm sức trả đến không theo lượt người giữ mong.",
+    "limits_en": "Different temperatures complicate comparison. Clearing erases evidence; repeated loading may discharge out of the expected sequence.",
+    "traits": [
+      {
+        "name_vi": "Nhân chứng không biết tên",
+        "name_en": "A Nameless Witness",
+        "description_vi": "Bọt giữ hình sức ép mà không nhận người gây ra; hồ sơ cần lời chứng khác để nối sự việc với một căn tính.",
+        "description_en": "Bubbles retain pressure without identifying its source; other testimony must connect event and person."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đánh thức bọt ép",
+        "name_en": "Wake the Pressed Bubble",
+        "description_vi": "Ép ngọc cho một bọt giữ tải rồi chạm mặt đã chọn để bọt nhả lại sức ấy thành một lần đẩy ngắn.",
+        "description_en": "Press the jade until a bubble holds the load, then touch the chosen face to release that force as a brief push."
+      }
+    ],
+    "epigraph_vi": "*“Bọt xanh ngủ dưới một sức ép.”*",
+    "epigraph_en": "*“Green bubbles sleep beneath a burden.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-tu-khoang-lac-kim",
+    "lore_vi": "Tử khoáng vốn nằm trong một vỉa sắt quanh hốc có những kim loại lỏng chạy ngược nhau. Thợ mang mẫu tới trạm đo thấy kim la bàn lặp cùng một nhịp lệch dù đá đã được đặt đứng yên. Lúc đưa vào hộp chì, đá phát một tiếng thấp; kim trong cả phòng cùng quay như nghe chung một tên.\n\nVỉa cũ bị bịt lại, mẫu vẫn giữ được các nhịp riêng. Thợ khí cụ dùng chúng nhận những khoảng hướng bị giấu, gửi nhịp và đánh lạc các kim đã nhận dấu. Họ đọc được việc quặng đang làm với kim, nhưng chẳng ai biết hướng mà nó đang gọi về có nằm trong cùng thế giới với phương bắc họ vẫn vẽ.",
+    "lore_en": "The purple ore surrounded a hollow of counter-running liquid metals. At a survey station its stationary sample made compasses repeat one deviation. Enclosing it in lead produced a low note; every needle turned as though hearing one name.\n\nEven after its seam was sealed, samples retained individual rhythms. Instrument-makers used them to detect concealed directions, send pulses and mislead marked needles. They could read its effects without knowing whether its called direction belonged to the same world as their mapped north.",
+    "use_vi": "Đưa các kim qua cùng một vạch tím để chúng nhận nhau; quay kim đầu khiến kim đã ghép đáp lại theo hướng được giao.",
+    "use_en": "Pass needles across one purple line to bind them; turn the first and its partners answer in the assigned direction.",
+    "limits_vi": "Kim đang dẫn người thật đi cũng có thể bị gọi lạc. Hộp chì làm yếu nhịp chứ không chứng minh đã cắt hết liên hệ; đem mẫu đi phải báo người dùng la bàn quanh đó.",
+    "limits_en": "Working navigation can also be misled. Lead weakens rhythm without proving complete isolation; nearby navigators must be warned.",
+    "traits": [
+      {
+        "name_vi": "Phương gọi chưa có tên",
+        "name_en": "An Unnamed Called Direction",
+        "description_vi": "Các mẫu chung vỉa có nhịp gần nhau, nhưng chỉ một lần chạm mới thiết lập đủ dấu để chủ động dùng cùng nhau.",
+        "description_en": "Kindred samples have similar rhythms, but deliberate pairing requires their contact."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Buộc hướng kim",
+        "name_en": "Bind a Needle’s Bearing",
+        "description_vi": "Đưa các kim qua cùng một vạch tím để chúng nhận nhau; quay kim đầu khiến kim đã ghép đáp lại theo hướng được giao.",
+        "description_en": "Pass needles across one purple line to bind them; turn the first and its partners answer in the assigned direction."
+      }
+    ],
+    "epigraph_vi": "*“Một chiếc kim quay, chiếc khác đáp.”*",
+    "epigraph_en": "*“One needle turns, another answers.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-rut-sac",
+    "lore_vi": "Opal Rút Sắc kết trong bể nhuộm nơi một người thợ hòa vụn khoáng với nước rửa vải. Qua đêm, những tấm vải gần đá nhạt đi, còn lõi ngọc sắc cầu vồng có những đám mây màu giống nguyên vệt thuốc nhuộm vừa mất. Người thợ xả nước thấy sắc trở lại trên một mảnh vải trắng đặt ở miệng bể.\n\nÔng giữ được cách lấy, cất, trả và đọc lớp màu, rồi dừng thử trên những tấm áo còn có người chờ nhận. Đá mang sức quyến rũ của một bàn tay có thể tháo màu khỏi vật như tháo tên khỏi người. Nhưng sắc chỉ được dời nơi thuộc về, còn điều xảy ra với món đã bị lấy đi vẫn cần người sống chịu trách nhiệm.",
+    "lore_en": "Colour-Drawing Opal condensed in a dye-vat mixed with mineral fragments. Overnight nearby cloth faded while clouds inside the opal matched its vanished dye. Draining revealed those colours returning onto white fabric at the outlet.\n\nIts dyer learnt to take, keep, return and read colour, then stopped testing coats with waiting owners. The stone tempted like a hand removing colour as one might remove a name. It could relocate a belonging; people still answered for what they took from its former bearer.",
+    "use_vi": "Áp mặt đá vào sắc tố hòa nước để kéo màu vào thớ, rồi chạm một mặt ướt khác cho màu hiện tại đó.",
+    "use_en": "Press the stone to waterborne pigment to draw colour into its grain, then touch another wet surface to make the colour appear there.",
+    "limits_vi": "Không phân biệt vết bẩn với nét tranh cần giữ. Sắc bị trộn trong đá có thể trả khác thứ tự; các màu đã đổi chất không tự trở lại chỉ vì người dùng muốn thấy màu cũ.",
+    "limits_en": "It distinguishes no stain from a wanted image. Mixed colours may return out of order; altered substances do not restore an old colour upon demand.",
+    "traits": [
+      {
+        "name_vi": "Màu là thứ có thể mất",
+        "name_en": "Colour Can Be Lost",
+        "description_vi": "Mỗi đám màu trong lõi có mép như vải bị xé; nghiền opal làm mọi phần sắc đã giữ loang vào nhau.",
+        "description_en": "Each colour-cloud has a torn-cloth edge; crushing mingles all retained pigments."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đổi chỗ màu",
+        "name_en": "Move the Colour",
+        "description_vi": "Áp mặt đá vào sắc tố hòa nước để kéo màu vào thớ, rồi chạm một mặt ướt khác cho màu hiện tại đó.",
+        "description_en": "Press the stone to waterborne pigment to draw colour into its grain, then touch another wet surface to make the colour appear there."
+      }
+    ],
+    "epigraph_vi": "*“Màu được lấy đi còn có nơi trở lại.”*",
+    "epigraph_en": "*“A colour taken away still has somewhere to return.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngan-thach-can-nhiet",
+    "lore_vi": "Ở một trạm núi, người ta từng đặt hai đầu thanh quặng bạc giữa lò hong và căn buồng giữ thuốc. Qua đêm bão tuyết, mặt giữa thanh phủ băng trong khi đầu trong lò đỏ lên, đầu bên thuốc vẫn ấm vừa bàn tay. Sáng ra, những đường bạc đã mọc thành mạng kín, giữ cả một mẩu sương hình ngón tay người coi lò ở trong lõi.\n\nThanh vốn là quặng được lấy để cân cửa, thấm thứ khoáng người khai chưa đặt nổi tên. Nó đổi khác sau nhiều tháng những người trong trạm gọi chung hai gian bằng một chữ nhà, vừa sưởi nơi lạnh vừa che thứ dễ hỏng khỏi nơi nóng. Các thợ về sau tìm được những cách buộc nó nhận, giấu, dời hoặc trả một trạng thái nhiệt. Họ hiểu các dấu thao tác, còn mạng bạc bên trong có lúc vận hành như nhiệt chỉ là một cách thế giới gọi cảm giác được giữ sống.",
+    "lore_en": "At a mountain station a silver ore-bar linked a drying furnace and a medicine-room. During a blizzard its middle frosted while one end reddened in the fire and the other remained hand-warm. By morning silver veins had grown into a closed web around a finger-shaped mist-fragment left by the furnace-watchman.\n\nIt had been ordinary door-balancing ore, permeated by a mineral its diggers could not name. It changed after months in which the station’s people called both rooms home, warming the cold and sheltering fragile things from heat. Later craftsmen learnt ways to receive, conceal, move or return a thermal condition. They understood the operating signs; within, the silver sometimes behaved as though warmth were simply the world’s word for being kept alive.",
+    "use_vi": "Nối hai nơi bằng đường bạc để chuyển trạng thái nóng hoặc lạnh từ một đầu sang đầu kia, giữ gian trú ấm trong lúc rút nhiệt khỏi lò.",
+    "use_en": "Join two places through a silver vein to transfer heat or cold from one end to the other, warming a shelter while drawing heat from a furnace.",
+    "limits_vi": "Mỗi lần chuyển để lại một chấm đen. Nhiều dấu cùng nhập một mạch báo mạng sắp nứt; lúc ấy đá có thể trả toàn bộ trạng thái đang giữ. Da tê làm người giữ khó nhận biết mình đã bị tổn thương.",
+    "limits_en": "Each transfer leaves a black point. Marks joining along one vein warn of fracture, when all retained conditions may discharge. Numb skin prevents its holder from recognising injury.",
+    "traits": [
+      {
+        "name_vi": "Nhiệt đi qua một mái nhà",
+        "name_en": "Warmth Under One Roof",
+        "description_vi": "Hai mặt cần được người dùng chỉ nhận là nơi cho và nơi nhận. Đổi lời gọi giữa chừng khiến đường bạc quay lại trạng thái cũ.",
+        "description_en": "The user designates giving and receiving faces. Changing that designation midway returns the silver to its earlier configuration."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giao nóng trả lạnh",
+        "name_en": "Trade Heat and Cold",
+        "description_vi": "Nối hai nơi bằng đường bạc để chuyển trạng thái nóng hoặc lạnh từ một đầu sang đầu kia, giữ gian trú ấm trong lúc rút nhiệt khỏi lò.",
+        "description_en": "Join two places through a silver vein to transfer heat or cold from one end to the other, warming a shelter while drawing heat from a furnace."
+      }
+    ],
+    "epigraph_vi": "*“Hai gian lạnh nóng cùng mang tên nhà.”*",
+    "epigraph_en": "*“Two rooms of cold and heat share the name home.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-huyet-ngoc-chot-mach",
+    "lore_vi": "Huyết Ngọc Chốt Mạch bắt đầu từ những hạt khoáng đỏ sống trong lòng một khe nước có thớ giống gân. Người giữ nguồn cắm máng để chia dòng, qua đêm thấy các hạt lớn lên thành đá, còn nước ở phía sau chúng đứng nguyên như có một cánh cửa chìm. Ông xoay viên đầu tiên, dòng chảy nối lại đúng phần vừa bị cắt, mang theo giọt đỏ đã ở trong đá từ trước.\n\nNhững người pha thuốc đem mẫu tới xưởng, cho nhiều thứ dịch lần lượt đi qua rãnh rồi ghi cách ngọc nhận, giữ, nhớ và trả chúng. Tới lượt máu của một người tự cho, rãnh tự đổi hình theo một mạng mạch không nhìn thấy. Từ đó những phép chốt được dùng ở trạm cứu và các máy nước, cùng mang một câu hỏi: viên đá đang giữ chất lỏng, hay đang thuyết phục một dòng rằng nó vẫn còn thuộc về nơi chưa chịu buông mình?",
+    "lore_en": "Bloodvein Gate-Jade began as red grains within a water-cleft ribbed like tendon. A spring-keeper installed a dividing channel; overnight the grains became stone and held water behind an invisible gate. Turning the first gem restored the interrupted flow with a red drop already within its core.\n\nApothecaries tried different liquids, recording acceptance, holding, memory and return. Blood willingly offered by one person reshaped its groove to an unseen vessel-network. These gating practices thereafter served rescue-stations and waterworks. Did it hold liquid, or persuade a current it still belonged where it had not yet been released?",
+    "use_vi": "Cho một dòng đi qua rãnh đỏ rồi xoay ngọc để chốt đúng phần đã nhận, giữ nó đứng lại hoặc trả theo con đường đã đánh dấu.",
+    "use_en": "Pass a current through the red groove, then turn the jade to arrest the recognised portion, holding it still or returning it along a marked course.",
+    "limits_vi": "Rãnh bẩn có thể giữ thứ không muốn cùng dòng. Chốt không tự chữa nơi rách; thả dòng quá sớm trả mọi phần đã dồn. Dấu của hai sinh thể không được coi như một chỉ vì dịch trông giống nhau.",
+    "limits_en": "Dirty grooves may retain unwanted contents. Gating does not heal a wound; early release returns accumulation. Similar-looking fluids from two beings do not share identity.",
+    "traits": [
+      {
+        "name_vi": "Dòng còn nhận nguồn",
+        "name_en": "A Current Owning its Source",
+        "description_vi": "Vạch đỏ đổi theo chính dòng đã nạp; ký ức cũ có thể trồi lại khi cùng nguồn trở về sau thời gian dài.",
+        "description_en": "Red lines follow the charged current; old memory may return when its source returns."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khép cửa dòng",
+        "name_en": "Close the Current’s Gate",
+        "description_vi": "Cho một dòng đi qua rãnh đỏ rồi xoay ngọc để chốt đúng phần đã nhận, giữ nó đứng lại hoặc trả theo con đường đã đánh dấu.",
+        "description_en": "Pass a current through the red groove, then turn the jade to arrest the recognised portion, holding it still or returning it along a marked course."
+      }
+    ],
+    "epigraph_vi": "*“Dòng chảy dừng trước một cánh cửa chìm.”*",
+    "epigraph_en": "*“The current halts before a sunken gate.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-giam-rung",
+    "lore_vi": "Trong một lò đúc chuông, thợ lấy quặng có gân vàng làm đá kê khuôn. Một lần nứt khuôn khiến tiếng chuông mới đúc tắt giữa hồi, còn những gân đá sáng lên theo đúng nốt vừa mất. Đập thử, đá trả tiếng từ mặt khác mà không cần quả chuông cũ ở gần.\n\nNgười thợ cắt mẫu nghe nhiều lớp gõ nằm trong một vết sáng, như vật đang giữ cả cuộc đi của âm thanh thay vì phần rung ở ngoài. Họ tìm những cách giao cho nó một nhịp rồi nhận lại điều nhịp ấy đã mang: có thể là lệnh gác, một chỗ rỗng trong vách, hoặc đợt cộng hưởng sắp phá chính món đang được đo. Các viên vì thế được cất xa nhau, tránh những tiếng chưa trả tìm đường nhập thành một hồi lớn hơn mọi người từng định giữ.",
+    "lore_en": "A bell-founder supported a mould with gold-veined ore. When the mould cracked, its new bell fell silent midway through a peal while stone-veins lit to the lost note. A trial blow returned the sound from another face without the bell nearby.\n\nCutting exposed layers of knocking within one luminous scar, as though the stone retained sound’s journey rather than merely exterior vibration. Their practices entrusted rhythms carrying watch-orders, hidden hollows or destructive resonance. Samples were stored apart lest unreturned sounds join into a peal larger than intended.",
+    "use_vi": "Áp đá lên nguồn rung để giữ nhịp trong gân vàng, sau đó gõ mặt khác cho nhịp tiếp tục qua một vật mới.",
+    "use_en": "Press the stone to a vibrating source to preserve its cadence in the gold veins, then tap another face so the beat continues through a new object.",
+    "limits_vi": "Mỗi vệt giữ một nhịp; ghi chồng có thể hợp âm ngoài dự định. Xả mạnh làm vân vàng nứt và trả phần đang giữ vào mọi thứ chạm mẫu. Tiếng trả không tự chứng minh được ý nghĩa người nghe gán.",
+    "limits_en": "Each streak holds a rhythm; overwriting may form unintended harmony. Violent discharge cracks veins into contacting matter. Returned sound does not prove its interpretation.",
+    "traits": [
+      {
+        "name_vi": "Âm có đường ở lại",
+        "name_en": "A Sound with Somewhere to Remain",
+        "description_vi": "Vân vàng chỉ hiện sau lượt nhận đầu và tối dần sau mỗi lần xả; nung sáng lại chỉ che màu, không phục hồi vân đã chết.",
+        "description_en": "Gold veins appear after reception and darken with discharge. Heating brightens colour without restoring spent paths."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cất hồi chuông",
+        "name_en": "Store the Bell’s Peal",
+        "description_vi": "Áp đá lên nguồn rung để giữ nhịp trong gân vàng, sau đó gõ mặt khác cho nhịp tiếp tục qua một vật mới.",
+        "description_en": "Press the stone to a vibrating source to preserve its cadence in the gold veins, then tap another face so the beat continues through a new object."
+      }
+    ],
+    "epigraph_vi": "*“Tiếng chuông còn một nơi để ngủ.”*",
+    "epigraph_en": "*“The bell’s voice still has somewhere to sleep.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-lam-ngoc-mu-khoi",
+    "lore_vi": "Lam ngọc kết dưới một lò hương nơi khói trôi xuống thay vì lên. Những người đào mở lòng lò thấy tinh thể mọc quanh một khoáng Vestigium giống mí mắt khép, từng lớp giữ đúng hình luồng hương đã đi qua. Khi được mang ra sáng, một viên tách khói làm hai, để giữa chúng hiện một đường nhìn sâu hơn khoảng thật của căn phòng.\n\nThợ trông đèn học mở, rẽ và ghi đường khói. Có lần người nhìn thấy sau màn một cánh cửa đã bị dỡ trước khi lò được xây; kẻ khác chỉ thấy mặt tường hiện tại. Hai lời đều được ghi lại. Ngọc cho một quyền nhìn, nhưng những thứ nó nhận làm phần cần bị che chưa chắc trùng điều mắt người gọi là hiện tại.",
+    "lore_en": "Blue gems condensed beneath an incense-furnace whose smoke descended. Excavators found crystals around an eyelid-shaped Vestigium mineral, their layers retaining passing incense. In daylight one parted smoke into two currents and exposed a sight-line deeper than the room’s actual interval.\n\nLampkeepers learnt to open, divert and record smoke-paths. One observer saw a door removed before the furnace was built; another saw the present wall. Both accounts remained. The gem granted sight, but its selection of concealment did not necessarily share human eyes’ present.",
+    "use_vi": "Đặt ngọc trước mắt và vuốt theo thớ để hạt khói chia hai, mở một đường nhìn giữa đám cháy hoặc dựng lại đường khói đã từng qua đá.",
+    "use_en": "Hold the jade before the eye and stroke its grain to part smoke, opening sight through a fire or restoring a smoke-path formerly passing through the stone.",
+    "limits_vi": "Khí không mang hạt vẫn đi qua. Hình ngoài tầm nhìn trực tiếp có thể là dấu cũ; người dùng không được coi nó như lời xác nhận người ở đó hiện vẫn còn sống. Màn bị gió đổi nguồn có thể trả bụi đã giữ về mắt.",
+    "limits_en": "Particleless gases pass. Images beyond direct sight may be old traces, not proof of present life. Changed wind may return retained dust into the eyes.",
+    "traits": [
+      {
+        "name_vi": "Mí mắt ở trong đá",
+        "name_en": "An Eyelid Within Stone",
+        "description_vi": "Các vòng lam khép khi người dùng cố nhìn mọi phía cùng lúc; chỉ chọn một đường khiến chúng chịu mở.",
+        "description_en": "Blue rings close when asked to see everywhere; one chosen route persuades them open."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Rẽ rèm khói",
+        "name_en": "Part the Smoke Curtain",
+        "description_vi": "Đặt ngọc trước mắt và vuốt theo thớ để hạt khói chia hai, mở một đường nhìn giữa đám cháy hoặc dựng lại đường khói đã từng qua đá.",
+        "description_en": "Hold the jade before the eye and stroke its grain to part smoke, opening sight through a fire or restoring a smoke-path formerly passing through the stone."
+      }
+    ],
+    "epigraph_vi": "*“Màn khói mở một đường nhìn khác.”*",
+    "epigraph_en": "*“The smoke opens another line of sight.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-khuyet-trong",
+    "lore_vi": "Thạch Khuyết Trọng được nhặt từ các dây treo của một cây cầu không còn nhịp. Đá trong dây vốn chỉ làm đối trọng, nhưng một mạch trắng đã mọc xuyên những nút buộc và đi tới khoảng không nơi nhịp cầu mất. Người tháo dây thấy đá nhẹ đi dưới một sợi duy nhất, rồi kéo cả móc gỗ xuống khi thêm sợi thứ hai.\n\nMạch trắng chia viên thành hai phần không cân xứng dù cân cho khối lượng cũ khi đặt xuống. Thợ gọi nó là đối trọng đã đem phần nặng của mình gửi qua một con đường bị phá. Họ tìm cách mượn đường gửi ấy để giữ, dời và trả một gánh, luôn để riêng sợi đầu tiên như giữ tên người vẫn còn nhận ở phía kia.",
+    "lore_en": "Weight-Deficient Stone came from cables of a bridge whose span was gone. Former counterweights grew white veins through their knots towards its missing space. A dismantler found one lighten upon a single cord, then pull its wooden hook down when a second was added.\n\nThe white vein divided unequal-looking halves that regained their former weight upon grounding. Craftsmen called it a counterweight sending its burden over a ruined road. They learnt to hold, move and return that share, preserving the first cord like the name of someone still receiving beyond.",
+    "use_vi": "Nối vật cần nâng vào sợi đầu tiên để mạch trắng chuyển phần gánh sang điểm nhận, cho người giữ dời vật như đang đứng ở đầu kia một đòn cân.",
+    "use_en": "Attach a load to the first cord so the white vein sends its burden to the receiving point, allowing it to be moved as though from the far end of a balance.",
+    "limits_vi": "Sợi đầu tiên xác lập đường; thêm mối treo không được nhận có thể làm cả phần gánh trở về đột ngột. Dây thật vẫn có thể đứt, còn phần đã gửi cần nơi nhận hoặc người chịu trả.",
+    "limits_en": "The first cord establishes passage; unaccepted extra suspension may return the burden abruptly. Real cords still break and sent weight still requires a receiver.",
+    "traits": [
+      {
+        "name_vi": "Sợi đầu có tên",
+        "name_en": "The Named First Cord",
+        "description_vi": "Thay sợi cùng chất không tái lập ngay liên hệ. Người giữ phải giao dấu cũ sang dây mới trước khi tháo.",
+        "description_en": "Identical replacement cord does not automatically inherit passage; transfer the old mark before removal."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gửi phần gánh",
+        "name_en": "Send the Burden",
+        "description_vi": "Nối vật cần nâng vào sợi đầu tiên để mạch trắng chuyển phần gánh sang điểm nhận, cho người giữ dời vật như đang đứng ở đầu kia một đòn cân.",
+        "description_en": "Attach a load to the first cord so the white vein sends its burden to the receiving point, allowing it to be moved as though from the far end of a balance."
+      }
+    ],
+    "epigraph_vi": "*“Một gánh nặng đi qua nhịp cầu đã mất.”*",
+    "epigraph_en": "*“A burden crosses a vanished bridge.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-guong-muoi",
+    "lore_vi": "Người thợ mài lấy viên ngọc khỏi hốc đá dưới một vựa muối bỏ hoang. Trong hốc còn nguyên một vũng nước, dù ba đời người giữ mỏ đều nhớ năm hạn đã làm đáy giếng nứt trắng. Ông nhúng ngọc vào vũng ấy. Mặt ngọc hiện lên bàn tay đang nhúng từ phía dưới, cùng một khuôn mặt cúi nhìn mà ông chỉ nhận ra khi chạm lên vết sẹo của mình.\n\nNhững lớp muối quanh vũng đã kết thành những vòng triều li ti. Mỗi vòng giữ một lần nước rút; ở giữa, một giọt nước vẫn đang đi tìm phần biển từng thuộc về nó. Ngọc Gương Muối hình thành nơi cuộc chia lìa ấy cứ diễn ra mãi. Khi nhận nước mặn, nó lần theo quan hệ giữa giọt nước và nguồn, rồi dựng mối liên hệ đó thành một mặt gương có thể nhìn xuyên.",
+    "lore_en": "A lapidary took the gem from a hollow beneath an abandoned salt store. A pool remained there, although three generations of mine keepers remembered the drought that had cracked the well bed white. He dipped the gem into it. Its face showed his entering hand from below, together with a leaning face he recognised only when he touched his own scar.\n\nThe salt around the pool had formed tiny tidal rings. Each retained a withdrawal of water; at their centre, a drop was still seeking the sea it had once belonged to. Saltmirror Gems form where that separation happens endlessly. Given saltwater, a gem follows the relationship between the drop and its source, then makes that relationship into a seeing glass.",
+    "use_vi": "Cho ngọc nhận nước từ một nguồn mặn để mở mặt nhìn tại nơi nước ấy còn thuộc về, dò đáy hoặc lần theo một dòng xa.",
+    "use_en": "Give the jade water from a salt source to open a view where that water still belongs, sounding the depths or following a distant current.",
+    "limits_vi": "Phải biết mẫu lấy từ đâu. Nước trộn nhiều nguồn tạo ảnh chồng; máu của người soi khiến ngọc tìm biển trong ký ức người ấy. Mỗi lần soi lâu kết thêm muối trên mắt và phải được rửa bằng nước ngọt trước khi ngủ.",
+    "limits_en": "The sample must have a known origin. Mixed waters superimpose images; the viewer’s blood makes the gem seek seas in that person’s memory. Prolonged viewing deposits salt upon the eyes, which must be washed with fresh water before sleep.",
+    "traits": [
+      {
+        "name_vi": "Biển còn trong giọt",
+        "name_en": "The Sea Within the Drop",
+        "description_vi": "Mặt gương nhận quan hệ nguồn nước. Chiếc bình chỉ là nơi tạm giữ; một giọt nước tàu mang xa vẫn có thể tìm lại vùng biển của nó.",
+        "description_en": "The mirror recognises a water’s origin. Its vessel is temporary lodging; a drop carried far aboard ship can still find its own sea."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở gương dưới biển",
+        "name_en": "Open the Mirror beneath the Sea",
+        "description_vi": "Cho ngọc nhận nước từ một nguồn mặn để mở mặt nhìn tại nơi nước ấy còn thuộc về, dò đáy hoặc lần theo một dòng xa.",
+        "description_en": "Give the jade water from a salt source to open a view where that water still belongs, sounding the depths or following a distant current."
+      }
+    ],
+    "epigraph_vi": "*“Nước nhìn lại người đang cúi xuống.”*",
+    "epigraph_en": "*“The water looks back at the face above it.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ho-phach-nhan-vet",
+    "lore_vi": "Cây thông mọc sát tường một xưởng đúc dấu đã nuốt hàng trăm mẩu sáp bị ném qua cửa sổ. Dưới vỏ cây, hình vương miện nằm cạnh vân tay thợ học việc, dấu thương hội đè lên răng một con chuột. Khi cây bị sét đánh, nhựa trào ra thành những phiến hổ phách dẹt. Mỗi phiến mang một sợi đen giống đường chỉ khâu xuyên qua vật đã chết.\n\nNgười thợ nhặt một phiến để chặn giấy. Sáng hôm sau, tờ giấy in rõ lòng bàn tay người đã lấy trộm chìa khóa trong đêm. Bản thân hổ phách đã trở lại phẳng lì. Nhựa cây dường như học được điều mà những con dấu chỉ giả vờ làm: giữ lại một cuộc chạm, cùng sức nặng, chiều hướng và ý định của bàn tay trong khoảnh khắc ấy.",
+    "lore_en": "A pine beside a seal-maker’s wall had swallowed hundreds of wax scraps thrown from the window. Beneath its bark, crowns lay beside apprentices’ fingerprints, guild marks across a rat’s teeth. When lightning struck, resin poured out in flat amber plates. Each bore a black thread like a stitch drawn through something dead.\n\nA craftsman picked up a plate to weight his papers. Next morning the paper clearly bore the palm of the person who had stolen a key during the night. The amber itself was flat again. The resin seemed to have learnt what seals merely pretended to do: retain a contact, together with the hand’s weight, direction and intention at that instant.",
+    "use_vi": "Ấm mặt hổ phách sau một lần tiếp xúc để dấu bàn tay hoặc vật đã chạm nổi thành khuôn, giữ cả chiều đi và sức ấn.",
+    "use_en": "Warm the amber after contact to raise the hand or object’s impression as a mould, preserving direction and pressure.",
+    "limits_vi": "Chỉ lưu được một lớp dấu đang hoạt động. Dấu cho thấy cuộc chạm, còn danh tính phải đối chiếu bằng chứng. Sưởi nóng xóa dấu; hơ quá lâu làm sợi đen nhận vân tay người giữ thành lớp dấu thường trực.",
+    "limits_en": "Only one active layer can be retained. A trace reveals the contact; identity requires corroborating evidence. Warmth erases it, while excessive heating makes the black thread take its keeper’s fingerprint as a permanent layer.",
+    "traits": [
+      {
+        "name_vi": "Ký ức chịu ép",
+        "name_en": "Memory Under Pressure",
+        "description_vi": "Hổ phách ghi trung thực lực đã nhận, kể cả dấu do người ta cố tình làm giả. Độ chân thực của hiện vật và sự trung thực của người đặt nó là hai việc riêng.",
+        "description_en": "The amber faithfully records received pressure, including a deliberately forged trace. The specimen’s fidelity and its planter’s honesty are separate matters."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi lại cuộc chạm",
+        "name_en": "Recall the Touch",
+        "description_vi": "Ấm mặt hổ phách sau một lần tiếp xúc để dấu bàn tay hoặc vật đã chạm nổi thành khuôn, giữ cả chiều đi và sức ấn.",
+        "description_en": "Warm the amber after contact to raise the hand or object’s impression as a mould, preserving direction and pressure."
+      }
+    ],
+    "epigraph_vi": "*“Bàn tay đi rồi, cuộc chạm còn nguyên.”*",
+    "epigraph_en": "*“The hand departs; its touch remains.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-bich-khoang-kep-lua",
+    "lore_vi": "Thợ đúc tìm thấy những tinh thể lục ngọc xanh ở đáy một lò đã tắt qua mùa đông. Quặng đồng chảy quanh chúng thành từng vòng khép kín. Bên trong mỗi vòng, một lưỡi lửa bé bằng cánh ong vẫn cúi về phía bễ đã mục, như đang đợi nhịp thổi kế tiếp.\n\nĐêm lò tắt, người coi bễ đã giữ tay trên cần suốt lúc mái xưởng cháy sụp. Đồng nóng chảy tràn qua ổ lục ngọc trước khi tuyết vùi kín xưởng. Những viên đá kết tinh lại trong thế giằng co ấy: lửa muốn đi, đồng buộc nó ở lại, còn một nhịp thở dang dở cứ kéo nó về phía người thợ. Vòng đồng từ đó trở thành hàm kẹp mà ngọn lửa nhận ra ngay khi đến gần.",
+    "lore_en": "Founders discovered green beryl crystals at the bottom of a furnace extinguished through winter. Copper ore had flowed around them in closed rings. Within each ring, a flame the size of a bee’s wing still leaned towards the rotten bellows, awaiting the next stroke.\n\nOn the night the furnace died, its bellows keeper had held the lever while the burning roof collapsed. Molten copper crossed the beryl bed before snow buried the shop. The stones recrystallised within that struggle: fire striving to depart, copper binding it, an unfinished breath drawing it back towards the craftsman. Ever since, flame approaching the copper ring has recognised a pair of gripping jaws.",
+    "use_vi": "Mở hai vòng đồng đối diện để ngọn lửa bị giữ giữa chúng, rồi dời một đầu cho lửa theo qua như một dải vải cháy.",
+    "use_en": "Open two opposing copper rings to hold flame between them, then move one end so fire follows like burning cloth.",
+    "limits_vi": "Vòng đồng phải liền mạch và có chỗ cho lửa thoát khi nhả kẹp. Càng giữ lâu, hơi thở người cầm càng nóng; vòng đồng cong méo làm lửa chộp lấy vật gần nhất. Hai viên đối nhau dễ tranh cùng một ngọn lửa.",
+    "limits_en": "The copper ring must remain unbroken, with room for flame to escape when released. Holding it heats the bearer’s breath; a distorted ring makes fire seize the nearest object. Facing specimens readily fight over the same flame.",
+    "traits": [
+      {
+        "name_vi": "Hàm đồng ghen lửa",
+        "name_en": "Jealous Copper Jaws",
+        "description_vi": "Ngọc nhận ngọn lửa như một thứ có thể nắm. Nhiên liệu và khói vẫn có hành vi riêng, khiến người chỉ chăm nhìn lửa rất dễ bị ngạt.",
+        "description_en": "The gem treats flame as something graspable. Fuel and smoke retain their own behaviour, making a keeper who watches only the fire vulnerable to suffocation."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Kẹp đường lửa",
+        "name_en": "Clamp the Fire’s Road",
+        "description_vi": "Mở hai vòng đồng đối diện để ngọn lửa bị giữ giữa chúng, rồi dời một đầu cho lửa theo qua như một dải vải cháy.",
+        "description_en": "Open two opposing copper rings to hold flame between them, then move one end so fire follows like burning cloth."
+      }
+    ],
+    "epigraph_vi": "*“Đồng giữ hàm, lửa chờ được gọi.”*",
+    "epigraph_en": "*“Copper holds its jaws; fire waits to be called.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-lui-nut",
+    "lore_vi": "Thạch Lùi Nứt bắt đầu từ một mảnh đá kẹt giữa hai vách của một trận động đất đã ngừng quá đột ngột. Người khai mỏ chạm đục vào khe nghe tiếng đổ chạy xa dưới chân mình, trong khi ngọn đèn trên mũ đứng yên. Họ đào ra một khối có đường nứt đen cuộn trong lõi, hai đầu đường cứ chậm rãi rời nhau rồi trở về trước lúc thật sự tách.\n\nỞ lớp đất quanh nó có vết của một cánh rừng đã hóa đá. Những rễ bị xé vẫn nối trong bóng của nhau; một con côn trùng mắc đúng giữa mặt gãy còn nguyên ở cả hai nửa. Thợ đem mẫu ra khỏi núi mới nhận ra đá giữ được một việc sắp vỡ ở ngay trước đoạn cuối, rồi cho sức ấy đi lùi, đổi đường hoặc chuyển nơi phải nhận.",
+    "lore_en": "Fracture-Retreat Stone began as a piece trapped between the walls of an earthquake that had stopped too abruptly. A miner touching its cleft heard collapse travel beneath him while the lamp upon his helmet remained still. They uncovered a block whose black inner crack repeatedly approached separation, then returned before parting.\n\nThe surrounding strata bore a petrified forest. Torn roots remained joined within one another’s shadows; an insect caught upon the fracture survived whole in both halves. Removed from the mountain, the stone could hold a breaking immediately before its conclusion, then send that progression backwards, aside or elsewhere.",
+    "use_vi": "Áp mặt đá vào vết nứt đang chạy để giữ nó trước lần tách cuối, rồi vuốt ngược thớ cho đường gãy rút về nơi đã bắt đầu.",
+    "use_en": "Press the stone to a travelling fracture to arrest it before final separation, then stroke against the grain to draw the break back to its origin.",
+    "limits_vi": "Phần vỡ bị giữ vẫn tồn tại như một món nợ. Hủy điểm nhận, phá nẹp hoặc cố xóa mọi đường thoát khiến đá chọn chính vật đang giữ nó để trả. Những khe đã tách hẳn chỉ được nối nếu còn đủ hai mặt gốc; tái tạo phần thất lạc chưa thuộc những cách dùng đã biết.",
+    "limits_en": "Held breaking remains a debt. Destroying the receiving point, breaking its brace or closing every outlet makes the stone repay into what holds it. Fully separated faces can be joined only with both original surfaces present; rebuilding missing matter lies outside known practice.",
+    "traits": [
+      {
+        "name_vi": "Ngày núi chưa vỡ hết",
+        "name_en": "The Mountain’s Unfinished Day",
+        "description_vi": "Đường đen tự rút lại khi người dùng chuẩn bị đúng nơi nhận; lúc mọi đường đều bị khóa, tiếng rạn phát ra từ phía sau người giữ dù đá đang ở trước mặt.",
+        "description_en": "The black path withdraws when an appropriate receiver is prepared. With every outlet closed, cracking sounds behind its holder although the stone remains in front."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cho tai họa đi lùi",
+        "name_en": "Make Disaster Recede",
+        "description_vi": "Áp mặt đá vào vết nứt đang chạy để giữ nó trước lần tách cuối, rồi vuốt ngược thớ cho đường gãy rút về nơi đã bắt đầu.",
+        "description_en": "Press the stone to a travelling fracture to arrest it before final separation, then stroke against the grain to draw the break back to its origin."
+      }
+    ],
+    "epigraph_vi": "*“Núi còn cho vết nứt thêm một lần chờ.”*",
+    "epigraph_en": "*“The mountain grants its fracture one more wait.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-thuy-chung-dong",
+    "lore_vi": "Ở chân một cây cầu bị lũ cuốn, những người mò xác tìm được một giọt vàng mắc trong thạch anh xanh. Con sông đã đổi dòng; giọt nước trong ngọc vẫn nghiêng về vòm cầu cũ. Bên cạnh nó, một bộ rễ chết bám chặt chiếc vòng cưới bằng đồng, giữ nguyên dấu ngón tay đã trượt khỏi nhau giữa nước xiết.\n\nDưới móng cầu từng có một mạch khoáng ngấm nước sông qua nhiều thế hệ. Vào đêm cầu gãy, lòng sông bị xé sang hướng khác ngay khi một dòng hồi lưu đang cuộn trở về chân trụ. Mạch khoáng đông lại quanh chuyển động bị cắt ấy. Trong lõi ngọc, nước vẫn biết con đường của mình, kể cả những khúc quanh đã bị đất đá vùi kín.",
+    "lore_en": "At the foot of a bridge swept away by flood, body searchers found a golden drop caught in green quartz. The river had changed course; the water in the gem still leaned towards the old arch. Beside it, a dead root gripped a copper wedding ring, preserving the impression of fingers that had slipped apart in the current.\n\nBeneath the bridge lay a mineral vein soaked by the river for generations. On the night the bridge broke, the river bed was torn aside while a backwater was curling towards a pier. The vein hardened around that severed motion. Inside the gem, water still knew its own road, even the bends buried under earth and stone.",
+    "use_vi": "Cho ngọc nhận một dòng rồi mở khe theo chiều ngược để chính nước ấy trở về lối đã đi, trèo thác hoặc rút khỏi nhà ngập.",
+    "use_en": "Let the jade receive a current, then open its cleft against the flow so that water returns along its former road, climbing a waterfall or leaving a flooded house.",
+    "limits_vi": "Phải cho dòng gốc đi qua khe ngọc. Mỗi đường chỉ được hồi một lần trước khi ghi mới; phần nước đã hóa hơi, bị uống hoặc trộn mất dấu sẽ để lại chỗ khuyết. Càng cưỡng ép dòng lên cao, lõi vàng càng tối; khi lõi đen kín, mọi đường chưa khép sẽ cùng đòi được chảy hết.",
+    "limits_en": "The original flow must pass through the cleft. Each recorded path can be recalled once before a new one is inscribed; water evaporated, drunk or mixed beyond recognition leaves gaps. Forcing water upwards darkens the gold. When the core turns wholly black, every unfinished path demands to run its course together.",
+    "traits": [
+      {
+        "name_vi": "Nước nhớ lối về",
+        "name_en": "Water Remembers Home",
+        "description_vi": "Ngọc nhận một dòng qua hành trình chung của nó. Nước bị chia vẫn nghe lời gọi, nhưng nước mới chỉ đứng cạnh sẽ tiếp tục chảy theo ý riêng.",
+        "description_en": "The gem recognises a flow through its shared journey. Divided water still hears the summons; new water merely standing beside it follows its own course."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi nước ngược đường",
+        "name_en": "Call Water Back along its Road",
+        "description_vi": "Cho ngọc nhận một dòng rồi mở khe theo chiều ngược để chính nước ấy trở về lối đã đi, trèo thác hoặc rút khỏi nhà ngập.",
+        "description_en": "Let the jade receive a current, then open its cleft against the flow so that water returns along its former road, climbing a waterfall or leaving a flooded house."
+      }
+    ],
+    "epigraph_vi": "*“Nước nhớ cả những khúc quanh đã bị vùi.”*",
+    "epigraph_en": "*“Water remembers even its buried bends.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-hoang-hon",
+    "lore_vi": "Một ngọn tháp ven biển từng nuôi lửa trong chóa thạch anh hồng để dẫn tàu qua bãi đá. Vào buổi chiều tháp sụp, người canh đèn xoay chóa về phía chân trời, cố bắt chút sáng cuối cùng cho con thuyền vẫn chưa về tới cửa vịnh. Kính vỡ, dầu tắt. Mảnh thạch anh nằm trong lòng bàn tay ông vẫn đỏ rực suốt đêm.\n\nCác mảnh được tìm thấy sau đó đều có lõi cam, bên trong là những dải mây nhỏ đến mức phải nhìn bằng kính mài mới thấy. Khoáng vật đã kết lại quanh khoảnh khắc ánh ngày nhường chỗ cho bóng tối. Một ranh giới vốn trải ngang bầu trời bỗng nằm gọn trong đá, mang theo màu sắc, góc chiếu và cảm giác thời gian sắp hết của buổi chiều ấy.",
+    "lore_en": "A coastal tower once burned its beacon inside a rose-quartz reflector to guide ships through reefs. On the evening it fell, the lamp keeper turned the reflector towards the horizon, trying to catch the last daylight for a boat still outside the bay. Glass broke; oil died. The quartz fragment in his palm glowed red throughout the night.\n\nFragments recovered afterwards all bore orange cores containing clouds so fine that ground lenses were needed to see them. The mineral had set around the instant daylight yielded to darkness. A boundary once stretching across the sky lay enclosed in stone, carrying that evening’s colour, angle of light and sense of time running out.",
+    "use_vi": "Mở lõi cam để buổi hoàng hôn được giữ trải vào cảnh trước mặt, mang cả hướng sáng và đường chân trời của chiều ấy vào nơi đang tối.",
+    "use_en": "Open the orange core to unfold its captive sunset over the scene ahead, bringing that evening’s light and horizon into darkness.",
+    "limits_vi": "Cần nhìn trực tiếp trời lúc mặt trời lặn để nạp. Mở càng rộng, buổi chiều bên trong càng chóng hết; đèn nhuộm màu chỉ làm bẩn mặt đá. Người giữ liên tục trì hoãn đêm sẽ mất dần khả năng nhận ra bình minh, và có thể bước qua mặt trời mọc như vẫn đang ở ngày hôm trước.",
+    "limits_en": "Charging requires a direct view of sunset. Broader openings spend the enclosed evening faster; coloured lamps merely stain the surface. A keeper who continually delays night gradually loses the ability to recognise dawn and may pass sunrise while still inhabiting yesterday.",
+    "traits": [
+      {
+        "name_vi": "Một ngày chưa khép",
+        "name_en": "An Unclosed Day",
+        "description_vi": "Ngọc giữ thời khắc chuyển giao. Nó trao thêm thời gian trong cảm nhận và điều kiện chạng vạng tại nơi được chiếu; phần đời đã trôi ngoài vùng ấy vẫn tiếp tục.",
+        "description_en": "The gem holds a transition. It grants twilight conditions and a felt extension of time where it shines; life outside that region continues onwards."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Trải lại chiều cũ",
+        "name_en": "Unfold the Former Evening",
+        "description_vi": "Mở lõi cam để buổi hoàng hôn được giữ trải vào cảnh trước mặt, mang cả hướng sáng và đường chân trời của chiều ấy vào nơi đang tối.",
+        "description_en": "Open the orange core to unfold its captive sunset over the scene ahead, bringing that evening’s light and horizon into darkness."
+      }
+    ],
+    "epigraph_vi": "*“Một buổi chiều đủ sáng cho đường về.”*",
+    "epigraph_en": "*“One evening gives enough light for home.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-mac-ngoc-re-am",
+    "lore_vi": "Dưới nền một nhà chuông đổ, người đào đá tìm thấy mạch mã não đen chia đôi đúng chỗ quả chuông đã rơi. Những vân trắng tẽ như chạc cây. Gõ một nhánh, nhánh kia trả tiếng sau khi bàn tay đã rời đá; chặn cả hai, tiếng gõ lại vang trong răng người đang nghe.\n\nMạch đá vốn nằm giữa hai lối hầm dẫn tiếng cầu nguyện về một hốc chung. Đêm chuông rơi, một tiếng ngân đi xuống cả hai đường, rồi mắc lại khi mái hầm ép kín. Onyx mọc qua phần đá nứt, chia tiếng ngân thành hai cuộc đến nơi. Người cắt mẫu nhận ra có thể chọn cuộc đến nào sớm, cuộc đến nào muộn, thậm chí đổi nơi một âm thanh sẽ được nghe.",
+    "lore_en": "Beneath a fallen bell house, quarrymen found an onyx vein forking precisely where the bell had landed. White bands branched like a tree. Strike one limb and the other answered after the hand had left; stop both and the knock sounded in the listener’s teeth.\n\nThe vein had lain between two tunnels carrying prayers into one hollow. On the night the bell fell, a single peal travelled down both passages and was trapped when their roofs collapsed. Onyx grew across the fractured stone, dividing that peal into two arrivals. Cut specimens allowed their keepers to choose which arrival came early, which came late, and even change where a sound would be heard.",
+    "use_vi": "Gõ hoặc nói vào một nhánh trắng để gửi âm theo nhánh còn lại, chọn cho hai đầu nghe cùng lúc hoặc lệch một khoảng đợi.",
+    "use_en": "Tap or speak into one white branch to send sound through the other, choosing simultaneous arrivals or a measured delay.",
+    "limits_vi": "Phải nối âm vào một nhánh và cho nhánh kia tiếp xúc nơi nhận. Âm giữ lâu ăn mòn thính giác người canh nhịp; nếu cả hai lối bị bịt, tiếng sẽ tìm xương người cầm làm đường ra. Mỗi lượt chỉ giữ được một chuỗi âm rõ ràng.",
+    "limits_en": "Sound must enter one limb while the other touches its receiving medium. Long delays erode the keeper’s hearing; if both outlets are stopped, sound seeks the bearer’s bones as an exit. Only one clear sequence can be retained at a time.",
+    "traits": [
+      {
+        "name_vi": "Hai cuộc đến",
+        "name_en": "Two Arrivals",
+        "description_vi": "Ngọc chia hành trình của âm. Người nghe ở hai đầu có thể nhận các phần khác nhau của cùng một tiếng, khiến bằng chứng nghe được cần được ghép lại.",
+        "description_en": "The gem divides sound’s journey. Listeners at opposite ends may receive different portions of the same utterance, so their evidence must be reassembled."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chia cuộc đến nơi",
+        "name_en": "Divide the Arrival",
+        "description_vi": "Gõ hoặc nói vào một nhánh trắng để gửi âm theo nhánh còn lại, chọn cho hai đầu nghe cùng lúc hoặc lệch một khoảng đợi.",
+        "description_en": "Tap or speak into one white branch to send sound through the other, choosing simultaneous arrivals or a measured delay."
+      }
+    ],
+    "epigraph_vi": "*“Một tiếng có hai cuộc đến nơi.”*",
+    "epigraph_en": "*“One sound has two arrivals.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-long-gieng",
+    "lore_vi": "Dân làng đào sâu giếng sau một mùa đông kéo dài đến mức chuông lễ gieo hạt đã được gõ ba lần. Họ chạm một hốc xanh, trong đó có mặt nước nằm ngang dù hốc bám vào thành giếng dựng đứng. Người thợ lấy nó ra bằng dây vải. Cả gầu nước treo phía trên bỗng nghiêng theo lòng bàn tay ông; dưới đáy giếng, tiếng nước rơi nghe như đến từ một bầu trời khác.\n\nHốc tinh thể đã lớn quanh giọt nước cuối cùng của một mạch ngầm bị ép đứt. Lớp đá bên ngoài trượt, gãy rồi đảo phương qua nhiều lần đất chuyển; giọt nước bên trong vẫn giữ mặt phẳng từng có trước mọi chuyển động ấy. Khoáng vật nhận cái ngang đó làm luật riêng. Khi được rót nước vào, nó cho những vật chạm cùng mặt nước mượn hướng của một thế giới đã nằm sâu dưới đất.",
+    "lore_en": "Villagers deepened their well after a winter so long that the sowing bell had been rung three times. They reached a blue hollow containing level water despite its place in the upright shaft wall. A digger lifted it out with cloth cord. The bucket hanging above suddenly tilted with his palm; far below, falling water sounded as though it came from another sky.\n\nThe crystal hollow had grown around the last drop of an aquifer crushed shut. Outer rock slipped, fractured and changed orientation through successive movements of the earth; the enclosed drop retained the plane it had held before them all. The mineral adopted that level as its own law. Filled with water, it lets objects touching that water borrow the orientation of a world buried deep underground.",
+    "use_vi": "Nối vật vào mặt nước trong ngọc để nó nhận phía trên của giọt nước, dựng lối đi lên vách hoặc giữ một sàn giữa nền đang nghiêng.",
+    "use_en": "Join an object to the water within the jade so it accepts the drop’s above, setting a road upon a wall or steadying a floor over tilting ground.",
+    "limits_vi": "Cần nước sạch liên tục trong hốc và một điểm neo được chọn trước. Phần nối khô sẽ trở về hướng cũ tức khắc. Dùng lâu khiến tai trong người giữ nhận mặt ngọc là chân trời; tháo neo vội có thể ném cả người lẫn vật về phương trọng lượng cũ.",
+    "limits_en": "The hollow needs continuous clean water and a chosen anchor. A dried connection instantly returns to its former orientation. Prolonged use makes the keeper’s inner ear accept the gem as its horizon; hasty unanchoring can throw people and objects towards their old weightward direction.",
+    "traits": [
+      {
+        "name_vi": "Cái ngang chôn sâu",
+        "name_en": "The Buried Level",
+        "description_vi": "Ngọc giữ một hướng đỡ cổ xưa. Người dùng học cách nối vật vào hướng ấy; nước tràn khỏi mép sẽ mang theo một phần mặt phẳng đang được mượn.",
+        "description_en": "The gem retains an ancient supporting direction. Its keeper learns to connect objects to it; water spilling over the rim carries away part of the borrowed plane."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mượn mặt ngang cũ",
+        "name_en": "Borrow the Former Level",
+        "description_vi": "Nối vật vào mặt nước trong ngọc để nó nhận phía trên của giọt nước, dựng lối đi lên vách hoặc giữ một sàn giữa nền đang nghiêng.",
+        "description_en": "Join an object to the water within the jade so it accepts the drop’s above, setting a road upon a wall or steadying a floor over tilting ground."
+      }
+    ],
+    "epigraph_vi": "*“Phía trên nằm trong lòng bàn tay.”*",
+    "epigraph_en": "*“Above lies within the palm.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-khoa-bong",
+    "lore_vi": "Phiến đá xám nằm dưới nền phòng múa rối bị cháy. Khi người đào bới giơ đèn, bóng một con ngựa gỗ vẫn chạy trên nó, mặc cho con rối chỉ còn chiếc đầu than đen trong đống tro. Đứa trẻ từng điều khiển con ngựa đã dùng đinh ghim bóng nó vào sân khấu để kéo dây cho dễ. Vệt đinh tím xuyên qua một thớ đá đang lớn; đêm lửa đến, cả sợi dây lẫn hình hài cháy hết, còn cử động cuối cùng bị khâu lại bên dưới nền.\n\nThạch Khóa Bóng sinh ra tại chỗ một hình bóng bị buộc phải ở lại sau vật đã tạo nó. Mép tím trên đá nhận bóng như một lớp vải mỏng. Người biết cách ghim có thể giữ bóng, gấp nó, thậm chí bắt vật thật chịu một phần sự níu kéo của hình mình trên mặt đất.",
+    "lore_en": "The grey slab lay beneath a burned puppet theatre. When a digger raised his lamp, a wooden horse’s shadow still ran upon it, although only the puppet’s charred head remained in the ash. The child who worked the horse had pinned its shadow to the stage to ease the strings. A violet nail track pierced a growing stone seam; when fire came, cord and body burned away, while their final motion was stitched beneath the floor.\n\nShadowlock Stone forms where a silhouette is compelled to remain after its maker has gone. Its violet edge receives shadow like thin cloth. A skilled keeper can pin and fold it, even make the real object bear part of the restraint imposed upon its image on the ground.",
+    "use_vi": "Ấn mép tím lên một bóng để ghim nó vào nền, buộc vật thật chịu lực níu tại đúng phần hình bị giữ.",
+    "use_en": "Press the purple edge upon a shadow to nail it to the ground, making the real object bear a tether at the captive portion of its outline.",
+    "limits_vi": "Phải có một nguồn sáng rõ và mặt nhận bóng liền. Nhiều nguồn tạo nhiều bóng với khóa riêng. Vật còn sống giằng càng mạnh càng làm bóng rách; phần rách có thể trở thành chỗ mất cảm giác trên cơ thể cho đến khi được khâu và thả đúng cách.",
+    "limits_en": "A clear light source and continuous receiving surface are required. Multiple lights create separately locked shadows. Living subjects tear their shadows by struggling; tears may become numb regions of the body until properly stitched and released.",
+    "traits": [
+      {
+        "name_vi": "Vật nghe hình mình",
+        "name_en": "Matter Hears Its Image",
+        "description_vi": "Mối níu tăng theo độ rõ và đầy đủ của bóng. Hình chồng khiến khóa nhận lẫn chủ, một nguy cơ đặc biệt lớn giữa đám đông cầm đuốc.",
+        "description_en": "The restraint strengthens with a shadow’s clarity and completeness. Overlap confuses ownership, a particular danger among torch-bearing crowds."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đóng đinh bóng",
+        "name_en": "Nail the Shadow",
+        "description_vi": "Ấn mép tím lên một bóng để ghim nó vào nền, buộc vật thật chịu lực níu tại đúng phần hình bị giữ.",
+        "description_en": "Press the purple edge upon a shadow to nail it to the ground, making the real object bear a tether at the captive portion of its outline."
+      }
+    ],
+    "epigraph_vi": "*“Con rối cháy rồi, bóng vẫn chạy.”*",
+    "epigraph_en": "*“The puppet burns; its shadow runs on.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-kim-cuong-ngu-ap",
+    "lore_vi": "Khối than nằm dưới chân máy ép trong một hầm mỏ sập đã chịu tải suốt nhiều năm. Bên trên nó là thân máy, trần hầm và xác những người dùng vai giữ thanh chống cuối cùng. Khi đội đào cứu chạm tới, than đã kết thành một viên kim cương đục. Người rửa đá nhúng nó vào nước ấm; nắp thùng phía trên bị đẩy vọt qua mái lều.\n\nNhững đốm than bên trong vẫn nằm lệch, như một vật đang nghiến răng trong giấc ngủ. Mẫu khoáng nhận sức ép rồi giữ lại phần chuyển động đáng lẽ phải xảy ra dưới sức ép ấy. Nước ấm đánh thức nó. Một cái nhún vai bị vùi, một mái đá đã chực sụp, một cú búa chưa kịp nảy khỏi đe có thể cùng tỉnh dậy trong lòng bàn tay người dùng.",
+    "lore_en": "A lump of coal beneath a press in a collapsed mine had borne its load for years. Above it lay the machine, the tunnel roof and the bodies of people who had shouldered the final prop. When rescuers reached it, the coal had become a cloudy diamond. A washer dipped it in warm water; the barrel lid overhead shot through the tent roof.\n\nCarbon flecks inside remain askew, like something grinding its teeth in sleep. The mineral receives pressure and retains the movement that ought to have occurred beneath it. Warm water wakes it. A buried shrug, a roof poised to collapse and a hammerstroke that never rebounded can awaken together in its keeper’s palm.",
+    "use_vi": "Cho kim cương chịu một tải rồi giữ khô; nước ấm trên mặt đã chọn đánh thức chuyển động bị giữ thành một cú nâng hoặc giáng.",
+    "use_en": "Load the diamond and keep it dry; warm water upon a chosen face wakes the captive motion as a lift or blow.",
+    "limits_vi": "Phải nạp bằng lực tăng chậm, giữ nguyên hướng ghi và đánh dấu từng lượt. Nước ấm giải phóng phần đang gần tỉnh nhất; nhiều lượt chồng nhau có thể thức sai thứ tự. Đá nứt sẽ nhả toàn bộ chuyển động qua vết nứt, cùng những mảnh kim cương sắc như mũi khoan.",
+    "limits_en": "Charging requires slowly increasing force, preservation of its recorded direction and a mark for each loading. Warm water releases the motion nearest waking; stacked loads may awaken out of order. A cracked stone releases everything through the fracture, together with diamond splinters sharp as drills.",
+    "traits": [
+      {
+        "name_vi": "Chuyển động đang ngủ",
+        "name_en": "Sleeping Motion",
+        "description_vi": "Viên đá có thể nhẹ trong tay mà vẫn chứa một lần đội mái hầm. Tải đã giữ phải được gọi bằng hướng và trình tự, thay vì ước lượng qua trọng lượng hộp.",
+        "description_en": "The stone can feel light while retaining the lifting of a tunnel roof. Stored loads must be addressed by direction and sequence rather than estimated from the box’s weight."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đánh thức sức ép",
+        "name_en": "Wake the Buried Pressure",
+        "description_vi": "Cho kim cương chịu một tải rồi giữ khô; nước ấm trên mặt đã chọn đánh thức chuyển động bị giữ thành một cú nâng hoặc giáng.",
+        "description_en": "Load the diamond and keep it dry; warm water upon a chosen face wakes the captive motion as a lift or blow."
+      }
+    ],
+    "epigraph_vi": "*“Hãy hỏi thứ gì đang muốn đứng dậy.”*",
+    "epigraph_en": "*“Ask what is waiting to rise.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-doi-suong",
+    "lore_vi": "Những người cứu vườn kính phát hiện một cây cam còn xanh giữa hai hàng cây đông cứng. Rễ nó quấn quanh khối đá hai múi lam; phía này của khối đá phủ băng, phía kia đẫm nước. Mỗi lần người làm vườn cạo băng khỏi múi đầu, hoa cam ở múi sau lại hé thêm một chút.\n\nViên đá vốn là một mạch khoáng bị tách đôi bởi rễ cây. Qua nhiều đêm, nước đóng băng ép hai nửa ra xa rồi tan, để chúng nhận lại hơi ấm từ cùng một thân cây. Vào đợt rét giết cả khu vườn, lõi trắng lớn liền qua khe rễ. Hai nơi đối nghịch từ đó bị buộc vào một cuộc trao đổi: chỗ này nhả băng thì chỗ kia phải nhận lấy hình hài của nó.",
+    "lore_en": "Garden rescuers found an orange tree still green between two frozen rows. Its roots enclosed a stone with twin blue lobes; one side was ice-covered, the other wet. Whenever the gardener scraped ice from the first lobe, blossoms beside the second opened a little further.\n\nThe stone had been a mineral seam divided by a root. Night after night, freezing water forced its halves apart, then thawed, letting both regain warmth from one tree. During the freeze that killed the garden, a white core grew across the root cleft. Two opposed places were bound into an exchange: where one surrendered ice, the other had to receive its shape.",
+    "use_vi": "Đặt hai múi vào nơi cần tan và nơi nhận băng để lõi trắng chuyển hình đóng giá từ đầu này sang đầu kia.",
+    "use_en": "Set the two lobes in the place to thaw and the receiving region so the white core transfers freezing from one end to the other.",
+    "limits_vi": "Hai đầu cần đường nước hoặc sương liên tục qua lõi. Phải có chỗ cho đầu nhận băng nở ra; bịt kín có thể nổ bình hoặc nứt nền. Băng khép vòng qua lõi làm hai đầu đổi vai, đưa toàn bộ giá lạnh đã dời trở lại vùng được bảo vệ.",
+    "limits_en": "Both ends need an unbroken path of water or mist through the core. The receiving ice needs room to expand; confinement can burst vessels or foundations. Ice closing a ring across the core reverses the lobes, returning all displaced frost to the protected region.",
+    "traits": [
+      {
+        "name_vi": "Một nơi chịu đông",
+        "name_en": "One Place Bears Winter",
+        "description_vi": "Băng được dời nơi phải mang hình của chỗ đã mất nó. Các chi tiết ấy giúp người giữ đọc được vùng đang cứu, đồng thời báo sớm những phần bị bỏ sót.",
+        "description_en": "Relocated ice bears the shape of the place that lost it. Its details let keepers read the rescued region and reveal portions overlooked."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đổi miền băng",
+        "name_en": "Exchange the Ice Region",
+        "description_vi": "Đặt hai múi vào nơi cần tan và nơi nhận băng để lõi trắng chuyển hình đóng giá từ đầu này sang đầu kia.",
+        "description_en": "Set the two lobes in the place to thaw and the receiving region so the white core transfers freezing from one end to the other."
+      }
+    ],
+    "epigraph_vi": "*“Hoa hé một bên, băng mọc bên kia.”*",
+    "epigraph_en": "*“A flower opens here; ice grows there.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-mot-hoi",
+    "lore_vi": "Ngọc Một Hơi kết từ bọt khí nằm trong phổi một con vật khổng lồ bị chôn dưới đáy biển. Xương nó có những đốt dài như thân thuyền, còn bên trong lồng ngực là một thành phố san hô quay mặt vào khoảng tối nơi tim từng ở. Người lặn đem đèn tới thấy bọt khí dần hóa ngọc sắc cầu vồng, nhưng đường viền bọt vẫn đập như lồng ngực chưa chịu thở hết.\n\nNhững bản hát của người đi biển kể về một sinh vật nuốt cả đoàn tàu để giữ họ qua bão. Trong bộ xương, thợ lặn thật sự tìm được neo, khóa cửa và một chiếc nôi đã hóa đá; họ chưa biết các đồ ấy được mang vào bằng cách nào. Mỗi viên tách ra đều giữ một hơi cuối của sinh vật đã chết, và hơi ấy có thể được dạy thành một việc khác trước khi trả cho thế giới.",
+    "lore_en": "Single-Breath Opals formed from air within the lungs of a vast creature buried beneath the sea. Its vertebrae were ship-long; within its ribs a coral city faced the darkness where its heart had been. Divers’ lamps revealed bubbles becoming opal while their outlines still beat like a chest unwilling to finish exhaling.\n\nMariners’ songs told of a creature swallowing ships to shelter them through a storm. Divers did find anchors, door-locks and a petrified cradle within its bones, but could not explain their arrival. Each detached gem held one final breath of the dead creature. That breath could be taught a different task before being returned to the world.",
+    "use_vi": "Dạy cho ngọc một việc bằng lời và hướng tay, rồi bẻ đúng vạch để hơi cuối hoàn tất việc ấy: nâng người chìm hoặc giữ một khoảng khí giữa nước sâu.",
+    "use_en": "Teach the opal a task through speech and gesture, then break its seam so the final breath fulfils it: lifting a drowning person or holding air amid deep water.",
+    "limits_vi": "Mỗi viên chỉ có một lần thở ra. Cách mở cần được chỉ định trước khi bẻ; hai ý định tranh nhau có thể khiến hơi mang việc từ người gần nhất thay người cầm. Những sự sống đã kết thúc hoàn toàn không còn hơi để ngọc đón về.",
+    "limits_en": "Each gem exhales once. Designate its opening before breaking it; competing intentions may make the breath take its task from the nearest person rather than its holder. A completed death has no remaining breath for the opal to receive.",
+    "traits": [
+      {
+        "name_vi": "Phổi của kẻ đã chết",
+        "name_en": "Lungs of the Dead",
+        "description_vi": "Áp vào tai nghe như biển bị giữ sau một cánh cửa. Hơi được gọi luôn mang mùi của nơi con vật từng đi qua, dù tác dụng được mở trên đất liền.",
+        "description_en": "Against an ear it sounds like sea behind a door. Its released breath carries places the creature visited, even when opened far inland."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Trao hơi còn lại",
+        "name_en": "Give the Remaining Breath",
+        "description_vi": "Dạy cho ngọc một việc bằng lời và hướng tay, rồi bẻ đúng vạch để hơi cuối hoàn tất việc ấy: nâng người chìm hoặc giữ một khoảng khí giữa nước sâu.",
+        "description_en": "Teach the opal a task through speech and gesture, then break its seam so the final breath fulfils it: lifting a drowning person or holding air amid deep water."
+      }
+    ],
+    "epigraph_vi": "*“Một hơi cuối còn đủ để cứu người.”*",
+    "epigraph_en": "*“One last breath can still save a life.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-giu-nhip-cuoi",
+    "lore_vi": "Một người vợ đặt phiến đá đen sát khung cửa mỗi tối. Chồng bà đã dặn ba tiếng ngắn, một tiếng dài trước khi đi cùng đoàn tàu phá băng. Đoàn tàu biến mất. Bà gõ lại mật hiệu qua từng mùa, cho đến lúc tay run chỉ còn đủ sức chạm cửa một lần. Sau khi bà mất, người dọn nhà nghe ba tiếng ngắn vang từ phiến đá, rồi một tiếng dài kéo suốt đêm.\n\nVòng bạc quanh đá vốn là chiếc nhẫn bị cắt để giữ một vết nứt. Dưới từng lần gõ, bạc lún vào khoáng vật, còn khoảng đợi giữa các nhịp lớn lên thành những đường vòng bên trong. Phiến đá đã học được một chuỗi cử động bằng cả đời người chờ nó được đáp lại. Nhịp cuối cùng chưa có người nhận vì thế tiếp tục đi tìm nơi đến.",
+    "lore_en": "A wife placed a black stone beside her doorframe each evening. Before sailing with an icebreaking convoy, her husband had agreed upon three short knocks and one long. The convoy vanished. She repeated the signal through successive seasons until her trembling hand could manage only one touch. After her death, those clearing the house heard three short knocks from the stone, followed by one long stroke that lasted all night.\n\nThe silver ring around it had been cut from a wedding band to bind a fracture. With every knock, silver sank into the mineral and the waiting intervals grew into inner circuits. The stone had learnt a sequence of movements through a lifetime spent awaiting its answer. Its final, unanswered beat continued seeking somewhere to arrive.",
+    "use_vi": "Gõ một tiết tấu rồi nối đá vào cơ cấu hoặc người tự nguyện để chu kỳ tiếp tục qua khoảnh khắc lẽ ra phải dừng.",
+    "use_en": "Tap a rhythm and join the stone to a mechanism or willing person so the cycle continues through the instant it would have stopped.",
+    "limits_vi": "Mỗi viên giữ một tiết tấu chính. Muốn nối một người sống cần chính họ gõ nhịp nhận; ép nhịp qua xương có thể gây loạn vận động và tổn thương tim. Đá duy trì trình tự đã giao, kể cả khi hoàn cảnh khiến việc hoàn tất trở nên nguy hiểm. Nhịp được giữ càng lâu càng chậm; mọi sự trì hoãn đều cần một nhịp đáp để kết thúc.",
+    "limits_en": "Each stone retains one principal rhythm. A living person must tap their own accepting beat to join; forcing it through bone can disrupt movement and injure the heart. The stone maintains its entrusted sequence even when completing it becomes dangerous. A long-held rhythm gradually slows; every postponement needs an answering beat to end.",
+    "traits": [
+      {
+        "name_vi": "Khoảng đợi còn mở",
+        "name_en": "The Open Interval",
+        "description_vi": "Năng lực nằm ở quan hệ giữa nhịp gọi và nhịp đáp. Một cỗ máy có thể làm xong lượt quay cuối bằng phần nhịp còn nợ, dù trục đã thôi truyền lực.",
+        "description_en": "Its power lies between summons and answer. A machine can complete its last rotation upon an owed beat even after its shaft has ceased transmitting force."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ lượt chưa xong",
+        "name_en": "Keep the Unfinished Turn",
+        "description_vi": "Gõ một tiết tấu rồi nối đá vào cơ cấu hoặc người tự nguyện để chu kỳ tiếp tục qua khoảnh khắc lẽ ra phải dừng.",
+        "description_en": "Tap a rhythm and join the stone to a mechanism or willing person so the cycle continues through the instant it would have stopped."
+      }
+    ],
+    "epigraph_vi": "*“Lời đáp cho phép nhịp cuối cùng nghỉ.”*",
+    "epigraph_en": "*“An answer lets the final beat rest.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-trang-tenh",
+    "lore_vi": "Ngọc được lấy từ khoang rỗng giữa một khối đá trắng đã bị sét chẻ. Người mở đá thấy mảnh giấy gói dụng cụ bay vào khoang rồi đứng im, mép giấy rung ở ngoài mà phần lọt bên trong phẳng như đã vẽ. Tiếng búa tiếp theo mất nửa chừng: cán búa còn giật trong tay, đầu búa chạm đá như trong một giấc mơ câm.\n\nVòng khoáng quanh khoang lớn từ hai vách ép vào nhau, giữ một khoảng trống chưa từng chịu khép. Bụi trong lõi xếp thành vòng trên vòng, mỗi hạt đứng cách hạt sau một khoảng giống hệt. Người cắt mẫu nhận ra thứ kết tinh ở đó là sự ngắt quãng: đá đang ôm lấy nơi một chuyển động tới rồi thôi được truyền đi. Khi xỏ dây qua tâm, hai đầu vẫn kéo lẫn nhau, còn rung động có thể bị để lại ở miệng lỗ.",
+    "lore_en": "The gem was taken from a hollow inside a white rock split by lightning. Its opener saw wrapping paper fly into the cavity and stand still, its outer edge trembling while the portion within lay flat as a drawing. The next hammerstroke lost itself halfway: the handle jolted in his hand, its head met stone in a mute dream.\n\nThe mineral ring had grown from two walls pressing together around an emptiness that never quite closed. Dust within its core stood in concentric circles, every grain equally spaced from the next. Cutters realised that an interruption had crystallised there: stone enclosed a place where motion arrived and ceased to be transmitted. Thread through its centre still pulled at both ends, while vibration could be left at the mouth.",
+    "use_vi": "Xỏ đường nối qua tâm ngọc để tải tĩnh vẫn truyền giữa hai đầu trong khi rung và xung đập dừng ở miệng lỗ.",
+    "use_en": "Thread a connection through the jade’s centre so a static load passes between its ends while vibration and impacts halt at the opening.",
+    "limits_vi": "Phải có đường nối vật chất qua tâm và hai phía được xác định. Chuyển động bị ngắt tích thành những vòng bụi; khi đầy, ngọc đục và phải được xả vào vật nhận thích hợp. Dùng trên cơ thể có thể tách nhịp cảm giác khỏi cử động, gây thương tích mà người dùng nhận ra muộn.",
+    "limits_en": "A material connection through the centre and two defined sides are required. Interrupted motion accumulates as dust rings; once full, the gem clouds and must discharge into a suitable receiver. Bodily use can separate sensation’s rhythm from movement, delaying awareness of injury.",
+    "traits": [
+      {
+        "name_vi": "Rỗng mà còn nối",
+        "name_en": "Empty Yet Connected",
+        "description_vi": "Lực kéo chậm vẫn qua được trong khi rung bị giữ lại. Mỗi cách đặt đường nối chọn thứ được truyền và thứ nằm lại; nhầm phía có thể gửi cú xả về chính người đang được bảo vệ.",
+        "description_en": "Slow tension can pass while vibration remains held. Connection geometry chooses what travels and what stays; reversing its sides can discharge into the person being protected."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chặn bước chấn động",
+        "name_en": "Halt the Tremor’s Step",
+        "description_vi": "Xỏ đường nối qua tâm ngọc để tải tĩnh vẫn truyền giữa hai đầu trong khi rung và xung đập dừng ở miệng lỗ.",
+        "description_en": "Thread a connection through the jade’s centre so a static load passes between its ends while vibration and impacts halt at the opening."
+      }
+    ],
+    "epigraph_vi": "*“Tới đây, cơn chấn động dừng chân.”*",
+    "epigraph_en": "*“Here the tremor halts.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ho-phach-tro-sao",
+    "lore_vi": "Mảnh thiên thạch xuyên qua một thân tùng rồi tắt trong nhựa đang chảy. Người nhặt tưởng nhựa đã cháy thành than, cho đến đêm thứ nhất: bụi bạc bên trong rời nhau, xếp thành những chòm sao chẳng có trên bầu trời phía trên. Đêm thứ hai, một chấm rơi khỏi đội hình, để lại vệt dài giống chiếc cầu vừa sập ở thung lũng bên cạnh.\n\nCây tùng đã khép nhựa quanh thứ từng đi qua bầu trời khác. Trong lớp hổ phách đen, đường đi của tro sao còn tiếp tục, đôi khi chậm hơn thế giới ngoài đá, đôi khi vượt lên trước nó. Người nuôi nhựa từ cây gốc tìm được những mảnh cùng phản ứng, nhưng mỗi mảnh giữ một phần trời riêng và chỉ đáp đúng khi người soi dựng được mối nối giữa chòm sao bên trong với nơi mình đang đứng.",
+    "lore_en": "A meteor fragment pierced a fir trunk and died in flowing resin. Its finder thought the resin had charred until the first night, when silver dust separated inside and arranged itself into constellations absent from the sky above. On the second night a point fell from its formation, leaving a long streak like the bridge that had just collapsed in the neighbouring valley.\n\nThe fir had enclosed something that had travelled another sky. Within black amber, star-ash paths continued, sometimes lagging the world outside and sometimes overtaking it. Resin cultivated from the original tree yielded related fragments, but each kept its own portion of sky and answered reliably only when an observer joined its inner constellation to the place where they stood.",
+    "use_vi": "Neo ba chấm tro vào ba nơi đã biết rồi lần theo đường sáng đang hiện để thuyền mượn một hành trình vượt khỏi gió bão hiện tại.",
+    "use_en": "Anchor three ash-points to known places, then follow the appearing light so a ship borrows a voyage beyond the present storm.",
+    "limits_vi": "Phải dựng ít nhất ba điểm neo đã kiểm chứng; điểm mang tên sai có thể kéo cả bản đồ sang một nơi cùng tên. Các hình là dấu của những hành trình đang có quan hệ với đá, cần đối chiếu thực địa trước khi quyết định. Mỗi lần mượn đường làm một ngôi sao mờ và có thể mang người dùng tới sớm hoặc muộn hơn bến họ dự định.",
+    "limits_en": "At least three verified anchors are needed; a misnamed point can pull the whole chart towards another place of the same name. Figures mark journeys related to the stone and require field comparison before decisions. Borrowing a path dims a star and may bring travellers to their destination earlier or later than intended.",
+    "traits": [
+      {
+        "name_vi": "Bầu trời còn đi",
+        "name_en": "The Travelling Sky",
+        "description_vi": "Bụi sao tiếp tục hành trình qua cả không gian lẫn những thứ con người dùng để đếm thời gian. Bản đồ ăn khớp hôm nay cần được xác nhận lại vào đêm sau.",
+        "description_en": "Star dust continues through space and through the things people use to measure time. A chart fitting tonight needs verification again tomorrow."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mượn hải trình sao",
+        "name_en": "Borrow the Stars’ Sea Road",
+        "description_vi": "Neo ba chấm tro vào ba nơi đã biết rồi lần theo đường sáng đang hiện để thuyền mượn một hành trình vượt khỏi gió bão hiện tại.",
+        "description_en": "Anchor three ash-points to known places, then follow the appearing light so a ship borrows a voyage beyond the present storm."
+      }
+    ],
+    "epigraph_vi": "*“Một bầu trời khác chỉ đường cho tàu.”*",
+    "epigraph_en": "*“Another sky guides the ship.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-tra-hinh",
+    "lore_vi": "Thợ mài kính lấy một khối tinh thể méo từ vách hang có mặt nước phản chiếu ngược trời. Mỗi lần ông khoét bỏ một cạnh, phần đã mất lại hiện phía bên kia thành một hình sáng có thể đỡ được mạt đá. Ông dừng tay khi thấy ngón mình qua khối ngọc còn đang cử động sau lúc bàn tay đã rút.\n\nTrong hang, khoáng vật lớn quanh nhiều lớp ảnh phản qua mặt nước rồi qua nhau. Ánh sáng đi một vòng dài đến mức đường về đã kết thành thớ. Thạch Trả Hình giữ ảnh đang qua mình như một lớp vật mỏng, trao nó thêm một lần tồn tại ở phía đối diện. Những hình được soi đủ rõ có cả bề mặt chịu chạm; phần khuất vẫn là khoảng trống, cho đến khi được đưa ra trước đá.",
+    "lore_en": "A lens grinder cut a twisted crystal from a cave whose water reflected the sky upside down. Each removed edge reappeared beyond it as a light-form able to bear stone dust. He stopped when the image of his finger continued moving after his hand had withdrawn.\n\nThe mineral had grown around layers of images reflected through water and through one another. Light followed a circuit so long that its return path crystallised into fibres. Image-Returning Stone holds an image passing through it as a thin material layer and grants it one further existence on the other side. Clearly exposed forms gain touchable surfaces; concealed portions remain empty until presented to the stone.",
+    "use_vi": "Chiếu trọn một vật qua đá để hình nó hiện bên kia với bề mặt chịu chạm, giữ một nhịp cầu sáng hoặc một điểm tựa trong lúc vật thật đã dời.",
+    "use_en": "Project an object through the stone so its image appears beyond with a touchable surface, sustaining a luminous span or foothold after the original has moved.",
+    "limits_vi": "Chỉ phần đã được chiếu rõ mới có hình; phía khuất cần thêm lượt quan sát. Càng để ảnh chịu lực, đá càng lấy sắc từ mắt người giữ; quá sức có thể mất màu lâu dài. Ảnh vỡ trả ánh chói về đường soi, còn hình người có dáng và cử động ghi được nhưng ý thức vẫn chưa từng được xác nhận.",
+    "limits_en": "Only clearly illuminated portions acquire form; concealed sides need further observation. Bearing loads draws colour from the keeper’s eyes, and overuse may cause lasting colour loss. A broken image returns glare along its viewing path; human images retain recorded appearance and motion, while consciousness has never been established.",
+    "traits": [
+      {
+        "name_vi": "Ánh có mặt đỡ",
+        "name_en": "Light With a Bearing Surface",
+        "description_vi": "Ảnh nổi mỏng như một lớp vỏ. Chiều sâu nhìn thấy có thể rất lớn trong khi phần thực sự đỡ vật chỉ là những mặt từng được soi.",
+        "description_en": "The raised image is a thin shell. Apparent depth may be great while only previously observed surfaces can bear contact."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cho ảnh đứng lại",
+        "name_en": "Let the Image Stand",
+        "description_vi": "Chiếu trọn một vật qua đá để hình nó hiện bên kia với bề mặt chịu chạm, giữ một nhịp cầu sáng hoặc một điểm tựa trong lúc vật thật đã dời.",
+        "description_en": "Project an object through the stone so its image appears beyond with a touchable surface, sustaining a luminous span or foothold after the original has moved."
+      }
+    ],
+    "epigraph_vi": "*“Hình đi qua đá được thêm một lần đứng.”*",
+    "epigraph_en": "*“An image passing through stone stands once more.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-bich-thach-muon-lanh",
+    "lore_vi": "Trong hốc băng dưới một dòng sông đã đổi cửa, người tìm quặng lấy được viên ngọc xanh giữ giọt trắng đứng giữa lõi. Băng quanh nó đã tan qua nhiều mùa; giọt bên trong vẫn phủ sương lên mặt đá mỗi lần có bàn tay tới gần. Những hạt cát mắc ở mép giọt chuyển động chậm như đang rơi trong một mùa đông khác.\n\nMạch bích thạch từng lớn quanh bọt nước bị nhốt dưới đáy băng. Khi dòng sông xé mất khối băng ấy, khoáng vật giữ lại quan hệ với trạng thái lạnh chưa chịu rời đi. Đặt ngọc cạnh một nguồn băng mới sẽ cho giọt trắng nhận thêm một cách đông; người sử dụng mượn cách ấy đem tới một vật khác, rồi cần trả phần nhiệt đã nhận về nơi có thể chịu nó.",
+    "lore_en": "Within an ice hollow beneath a river that had changed its mouth, an ore seeker found a green gem holding a white drop at its centre. Surrounding ice had thawed over many seasons, yet the drop still frosted the stone when a hand approached. Sand grains along its edge moved slowly, as though falling through another winter.\n\nThe beryl vein had grown around a water bubble trapped beneath ice. When the river tore that ice away, the mineral retained its relationship with a cold state that had not departed. Set beside fresh ice, the white drop accepts another manner of freezing; a keeper borrows that manner for another object, then must return received heat somewhere able to bear it.",
+    "use_vi": "Cho giọt trắng nhận một nguồn băng rồi đặt đá lên vật cần giữ để cái lạnh đã nhận tiếp tục ở đó sau khi nguồn tan, dồn nhiệt về nơi trả.",
+    "use_en": "Let the white drop receive an ice source, then lay the stone upon what must be preserved so borrowed cold remains after the source melts, gathering heat at the repayment point.",
+    "limits_vi": "Phải ghi nguồn lạnh và nơi trả nhiệt; nguồn cũ tan vẫn có thể để một khoản mượn mở nhưng giọt trắng sẽ đục nhanh hơn. Đá không phân biệt thứ cần giữ mát với thứ sẽ hỏng khi đông. Khoản quá lớn làm giọt trắng nứt, trả nhiệt theo mọi mặt đang chạm và có thể đốt chính vật vừa được cứu.",
+    "limits_en": "Both cold source and heat return site must be recorded; a melted source can leave a loan open but clouds the white drop faster. The gem does not distinguish what needs cooling from what freezing will ruin. Excess debt cracks the drop and returns heat through every contacting face, potentially burning what was just saved.",
+    "traits": [
+      {
+        "name_vi": "Mùa đông cần đường về",
+        "name_en": "Winter Needs a Way Home",
+        "description_vi": "Người giữ mượn một trạng thái chứ đo nhiệt ngoài hộp không nói hết khoản đang tích. Độ đục giọt là dấu quan trọng để biết phải kết lượt.",
+        "description_en": "A state is borrowed; an outer temperature reading does not reveal the whole accrued debt. Drop clouding is a crucial sign to end a turn."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mượn mùa đông",
+        "name_en": "Borrow Winter",
+        "description_vi": "Cho giọt trắng nhận một nguồn băng rồi đặt đá lên vật cần giữ để cái lạnh đã nhận tiếp tục ở đó sau khi nguồn tan, dồn nhiệt về nơi trả.",
+        "description_en": "Let the white drop receive an ice source, then lay the stone upon what must be preserved so borrowed cold remains after the source melts, gathering heat at the repayment point."
+      }
+    ],
+    "epigraph_vi": "*“Mùa đông mượn cần một nơi trả.”*",
+    "epigraph_en": "*“Borrowed winter needs a place of repayment.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-ngoc-ngang-doc",
+    "lore_vi": "Ngọc xám được nhặt dưới nền một xưởng ép dầu dựng trên sườn núi. Người thợ đổ dầu lau bụi, thấy giọt chạy ngược sống lục lên đầu đá cao hơn rồi đứng đó. Bên dưới nền cũ còn các rãnh đá nguyên vẹn, từ bể chân dốc trèo lên tận chiếc cối đã đổ. Suốt nhiều năm, dầu đã ngấm qua mạch khoáng chạy cùng rãnh và chờ một cỗ máy không còn ai kéo.\n\nMạch ngọc kết lại đúng lúc mái xưởng sập, giữ trong sống lục hướng mà những giọt dầu từng được đưa tới. Với nó, đầu nguồn và đầu đích là hai nơi có thứ tự riêng, đủ để một chất lỏng đi tới bất chấp đất bên dưới dựng đứng hay lộn ngược. Người dùng lấy dầu vạch lối, giao cho ngọc một đầu đích; phần dầu còn cùng dấu sẽ tìm tới đó cho đến khi sống lục mất màu.",
+    "lore_en": "The grey gem was recovered beneath an oil press built upon a mountainside. A worker poured oil over it and saw a drop climb its green ridge to the higher tip, then wait. Beneath the old floor, intact channels climbed from a lower cistern to the fallen press. For years oil had seeped through a mineral vein along them, awaiting a machine nobody turned.\n\nThe vein set when the workshop roof fell, retaining within its green spine the direction in which drops had once been carried. Source and destination became places with their own order, enough to send a liquid onwards despite upright or inverted ground. A keeper draws an oil path and entrusts an endpoint; oil sharing that mark seeks it until the green spine loses colour.",
+    "use_vi": "Vạch một đường dầu liền tới đích rồi chạm sống lục vào đầu nguồn; dầu tự đi ngược dốc và mang vật đang tựa trên nó theo.",
+    "use_en": "Draw an unbroken oil line to a destination and touch the green ridge to its source; the oil climbs against the slope and carries objects resting upon it.",
+    "limits_vi": "Cần dầu thật liên tục trên lối và điểm đích rõ. Nước cắt vệt làm các đoạn nhận những đích khác; lửa theo dầu vẫn cháy. Sống lục nhạt theo lượng dầu và tải mang, dùng đến trắng có thể đảo đầu nguồn với đầu đích rồi kéo toàn tuyến trở lại cùng lúc.",
+    "limits_en": "A continuous real oil path and clear endpoint are required. Water cutting the line gives sections different destinations; fire following oil still burns. The green spine pales with oil volume and carried load; exhausting it to white may exchange source and destination and recall the whole route at once.",
+    "traits": [
+      {
+        "name_vi": "Lối đi có đầu đích",
+        "name_en": "A Road With a Destination",
+        "description_vi": "Ngọc làm dầu nghe thứ tự hai đầu thay cho độ dốc. Vật đặt trên dầu chỉ được mang theo khi tiếp xúc đủ rộng và có đường giữ khỏi trượt ngang.",
+        "description_en": "The gem makes oil follow the order of its ends rather than slope. Objects ride only with enough contact and a path preventing sideways slip."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Vẽ đường dầu lên trời",
+        "name_en": "Draw the Oil Road Skyward",
+        "description_vi": "Vạch một đường dầu liền tới đích rồi chạm sống lục vào đầu nguồn; dầu tự đi ngược dốc và mang vật đang tựa trên nó theo.",
+        "description_en": "Draw an unbroken oil line to a destination and touch the green ridge to its source; the oil climbs against the slope and carries objects resting upon it."
+      }
+    ],
+    "epigraph_vi": "*“Dầu đã biết đâu là nhà.”*",
+    "epigraph_en": "*“The oil has learnt where home lies.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-thach-kin-lan",
+    "lore_vi": "Thợ lấy đá tìm được thủy tinh núi lửa đen khép quanh một vệt vàng. Ông đánh dấu chỗ vệt chạm mặt ngoài, xoay khối đá một vòng rồi thấy vàng biến mất ở đầu này và hiện ở đầu kia, trong khi dấu tay mình đứng lại trên phần kính đen nguyên vẹn. Một hạt bụi dính vệt vàng cũng đi cùng, trở ra mang lớp sương lạnh của nơi chưa được mở.\n\nKhối đá sinh từ dung nham đông quanh một mạch vàng đang bị kéo dài. Hai đầu mạch gặp nhau trong lúc vỏ ngoài khép, tạo một con đường mà phần đầu và phần cuối cùng nằm trong một vòng kín. Vàng tiếp tục đi trên đường ấy. Khi có vật mang dấu vàng cùng chạm, nó nhận vật vào lượt đi rồi trả ở đầu còn lại, qua một lòng đá chưa cần bị khoét rỗng.",
+    "lore_en": "A stonecutter found black obsidian closed around a gold streak. He marked its surface contact, turned the block once and saw gold vanish at one end and emerge at the other while his mark remained upon intact black glass. A dust grain upon the streak travelled with it and returned bearing cold dew from somewhere never opened.\n\nThe stone had formed as lava cooled around a gold vein being stretched. Its ends met while the outer shell closed, making a path whose beginning and ending belonged to one sealed circuit. Gold continued upon it. A touching object bearing the same gold mark can join the passage and emerge at its other end through stone that has never been hollowed.",
+    "use_vi": "Đánh dấu vàng lên vật rồi xoay đá theo đường giao để vật vào một mặt, đi qua lòng khối nguyên và được trả ra mặt đã chọn.",
+    "use_en": "Mark an object with gold and turn the stone along its assigned course so the object enters one face, crosses the unbroken interior and emerges from the chosen face.",
+    "limits_vi": "Đầu nhận và đầu trả phải thuộc cùng khối hoặc vỏ kín đã liền đường vàng. Cần xoay đủ vòng chậm theo chiều đã giao; quay giật làm vật mắc giữa lối. Mỗi lượt mòn một phần vệt vàng, cần vàng cùng nguồn để nối; pha vàng khác có thể dựng nhánh không biết cửa ra. Khối nứt đổi hình đường trong trước khi người dùng kịp thấy.",
+    "limits_en": "Entry and return must belong to one block or sealed casing joined by continuous gold. It needs a complete slow turn in its appointed direction; jerks strand objects between. Each journey wears the streak and needs same-source gold for repair; alien gold may create a branch with an unknown exit. A fracture reshapes the inner road before its keeper can see it.",
+    "traits": [
+      {
+        "name_vi": "Đường kín còn dài",
+        "name_en": "The Sealed Road Remains Long",
+        "description_vi": "Kích thước ngoài đá không cho biết chiều dài lối trong. Những vật cùng lượt vào thường giữ thứ tự ra nếu vòng xoay vẫn đều.",
+        "description_en": "Outer dimensions do not reveal the inner road’s length. Items entering together generally preserve their exit order while turning remains even."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Đi qua lòng kín",
+        "name_en": "Pass through the Sealed Heart",
+        "description_vi": "Đánh dấu vàng lên vật rồi xoay đá theo đường giao để vật vào một mặt, đi qua lòng khối nguyên và được trả ra mặt đã chọn.",
+        "description_en": "Mark an object with gold and turn the stone along its assigned course so the object enters one face, crosses the unbroken interior and emerges from the chosen face."
+      }
+    ],
+    "epigraph_vi": "*“Lòng đá kín vẫn dành một con đường.”*",
+    "epigraph_en": "*“A sealed stone still leaves a road.”*",
+    "editorial_review_kind": "retained-lore-curated-abilities"
+  },
+  {
+    "id": "mineral-bach-ngoc-mat-trong",
+    "epigraph_vi": "*“Thành lũy có một mặt trong rộng bằng miền đất.”*",
+    "epigraph_en": "*“A fortress has an inward face as wide as a realm.”*",
+    "lore_vi": "Người cắt ngọc tìm được khối trắng dưới nền một thành lũy đã bị núi nuốt. Mạch khoáng lớn xuyên những phòng kín suốt nhiều đời; vôi tường, xương đèn và hơi người mắc lại thành những hành lang trong suốt. Khi lưỡi đục chạm mặt ngoài, ông thấy một lưỡi khác tiến tới từ bên trong, còn phía sau nó là cả cầu thang chưa từng được đào ra.\n\nÔng để nguyên khối rồi soi đèn qua vệt ngà. Đoàn cứu hộ bước vào lòng ngọc, đi qua hành lang đủ rộng cho cáng và trở ra dưới móng thành cách đó một sườn núi. Mỗi người mang theo bụi trắng của những phòng vẫn còn bị chôn. Trên bệ, khối ngọc chẳng lớn hơn chiếc mũ; bên trong, một ngọn đèn chưa tìm được người thắp đang đợi ở cuối đường.",
+    "lore_en": "The cutter found the white mass beneath a fortress swallowed by a mountain. Mineral veins had grown through sealed rooms for generations; wall lime, lamp bones and trapped human breath became transparent corridors. When his chisel touched the surface, he saw another approaching from within, with a whole unexcavated stair behind it.\n\nHe left the mass whole and shone a lamp through its ivory streak. Rescuers entered the jade, followed corridors broad enough for stretchers and emerged beneath the fortress foundations across a mountainside. Each carried white dust from rooms still buried. Upon its stand the jade was scarcely larger than a hat; within, an unlit lamp awaited someone at the road’s end.",
+    "traits": [
+      {
+        "name_vi": "Phòng trong đá",
+        "name_en": "Rooms within Stone",
+        "description_vi": "Lòng trắng chứa những hành lang có thể đi được; cửa đổi vị trí theo góc sáng chạm vệt ngà.",
+        "description_en": "The white interior holds traversable corridors; their doors change position with the light upon the ivory streak."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở mặt trong",
+        "name_en": "Open the Inward Face",
+        "description_vi": "Soi vệt ngà vào một khối liền để mở cửa tới lòng vật ấy, cho người đi qua những khoảng trong rộng hơn vỏ chứa.",
+        "description_en": "Shine the ivory streak upon a continuous mass to open a door into its interior, where passages may exceed the containing shell."
+      },
+      {
+        "name_vi": "Dời cửa kín",
+        "name_en": "Move the Sealed Door",
+        "description_vi": "Mang ngọn đèn đã mở cửa sang một mặt khác của cùng khối để đường ra chuyển tới đó, xuyên núi hoặc móng thành còn nguyên.",
+        "description_en": "Carry the opening lamp to another face of the same mass to move the exit there, crossing an unbroken mountain or fortress foundation."
+      }
+    ],
+    "use_vi": "Soi vệt ngà vào một khối liền để mở cửa tới lòng vật ấy, cho người đi qua những khoảng trong rộng hơn vỏ chứa. Mang ngọn đèn đã mở cửa sang một mặt khác của cùng khối để đường ra chuyển tới đó, xuyên núi hoặc móng thành còn nguyên.",
+    "use_en": "Shine the ivory streak upon a continuous mass to open a door into its interior, where passages may exceed the containing shell. Carry the opening lamp to another face of the same mass to move the exit there, crossing an unbroken mountain or fortress foundation.",
+    "limits_vi": "Mỗi lượt chỉ mở trong một khối liền, và người đi phải giữ ngọn đèn gốc sáng. Đá bị chẻ đổi toàn bộ hành lang; người còn bên trong có thể bị trả về một căn phòng chưa có cửa.",
+    "limits_en": "Each working opens within one continuous mass, and travellers must keep the original lamp alight. Splitting the mass changes every corridor; anyone inside may be returned to a room with no door.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-tinh-the-ben-im",
+    "epigraph_vi": "*“Bão đi qua, bến ở lại dưới chân.”*",
+    "epigraph_en": "*“The storm passes; the harbour stays beneath our feet.”*",
+    "lore_vi": "Tinh thể được kéo lên từ một bến cảng bị đất đá vùi kín. Những cọc neo đã mục quanh mạch khoáng xanh, còn cát đen mắc trong lõi vẫn xếp theo đường bờ trước ngày sạt núi. Người thủy thủ mang nó lên tàu thấy hạt cát giữ nguyên phương dù boong nghiêng; đêm ấy, ông đặt đá xuống giữa những người đang chờ cột buồm gãy.\n\nSóng dựng quanh tàu như hai vách, nhưng khoảng nước dưới sống thuyền phẳng lặng. Trong bóng đá, họ thấy cả bến cũ mở ra, đủ chỗ cho những chiếc thuyền đang chìm tìm vào. Tới sáng, hạm thuyền rời miền yên và bến lại khép trong lõi. Một nhánh cát đã đen thành than; người thủy thủ dựng riêng một bệ mềm, để phần bờ còn sống được nghỉ sau đêm giữ biển.",
+    "lore_en": "The crystal was raised from a harbour buried beneath rock. Mooring posts had rotted around its blue mineral seam, while black sand within the core still traced the coast before the landslide. A sailor brought it aboard and saw the grains keep their bearing as the deck tilted; that night he set it among people waiting for the mast to break.\n\nWaves rose like walls, yet the water beneath the keel stayed level. In the stone’s shadow the old harbour opened, broad enough for sinking boats to enter. At dawn the fleet left the stillness and the harbour closed within the core. One sand-branch had burnt black; the sailor built a soft separate stand so the surviving shore could rest after holding the sea.",
+    "traits": [
+      {
+        "name_vi": "Bờ cát bất động",
+        "name_en": "The Unmoving Sand Shore",
+        "description_vi": "Đường cát giữ phương của bến cũ ngay khi vỏ tinh thể xoay; mỗi vùng đã cháy nằm đen và mất hình bờ.",
+        "description_en": "The sand keeps the old harbour’s bearing even when the crystal turns; burnt regions lie black and lose their shorelines."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở bến im",
+        "name_en": "Open the Still Harbour",
+        "description_vi": "Đặt đá lên nước để bến cũ trải thành miền yên, đón cả hạm thuyền giữa bão trong khi sóng lớn phải đi vòng quanh ranh cát.",
+        "description_en": "Set the stone upon water to spread its former harbour as a still region, sheltering a fleet amid a storm while great waves pass around its sand boundary."
+      },
+      {
+        "name_vi": "Giữ phương bờ",
+        "name_en": "Keep the Shore’s Bearing",
+        "description_vi": "Nối đá với sống thuyền để boong cùng nhận mặt phẳng của bến, giữ tàu đứng ngay dù biển bên dưới lộn lên thành vách.",
+        "description_en": "Join the crystal to a keel so the deck accepts the harbour’s level, keeping the vessel upright even when the sea beneath rises into a wall."
+      }
+    ],
+    "use_vi": "Đặt đá lên nước để bến cũ trải thành miền yên, đón cả hạm thuyền giữa bão trong khi sóng lớn phải đi vòng quanh ranh cát. Nối đá với sống thuyền để boong cùng nhận mặt phẳng của bến, giữ tàu đứng ngay dù biển bên dưới lộn lên thành vách.",
+    "use_en": "Set the stone upon water to spread its former harbour as a still region, sheltering a fleet amid a storm while great waves pass around its sand boundary. Join the crystal to a keel so the deck accepts the harbour’s level, keeping the vessel upright even when the sea beneath rises into a wall.",
+    "limits_vi": "Mỗi miền yên thiêu một nhánh cát trong lõi. Chấn động trực tiếp vào đá làm bến sụp ngay và trả sóng về; đá cần nhiều tháng nằm yên bên đúng nước cảng cũ để kết lại một đường bờ.",
+    "limits_en": "Each still region burns a sand-branch within the core. A direct blow collapses the harbour and releases the waves; restoring one shoreline takes months of rest beside the original harbour’s water.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-ngoc-chon-tieng-chuong",
+    "epigraph_vi": "*“Chuông đã mất vẫn gọi được một thành phố dừng tay.”*",
+    "epigraph_en": "*“A lost bell can still call a city to stillness.”*",
+    "lore_vi": "Ngọc được đào dưới nền nhà nguyện mất chuông. Khi chuông bị tháo đi đúc pháo, những giọt đồng cuối rơi xuống mạch đá vàng trong huyệt móng. Qua nhiều đời lễ sáng, đất tiếp tục rung đúng giờ cũ, khâu các giọt đồng thành một cung kín. Người đào nghe một hồi ngân từ dưới chân dù cả vùng đã chẳng còn tháp.\n\nTrong lần thành phố cháy, người coi đặt ngọc giữa quảng trường và gõ vào cung vàng. Mọi vật đang rơi dừng lại giữa tiếng chuông: mái nhà treo trên những người chạy, mưa lửa đứng như sao thấp. Khi hồi ngân hết, vật lại tiếp tục rơi. Người dân kịp rời phố; trên đá thêm một vết khâu đen, còn người coi từ đó nghe chuông cũ mỗi lần máu đập trong tai.",
+    "lore_en": "The jade was dug from beneath a chapel whose bell was gone. When the bell was taken to become cannon, its last copper drops fell into a golden mineral seam in the foundations. Through generations of morning worship, the earth kept trembling at the former hour, stitching the drops into a closed arc. The digger heard a peal beneath his feet though no tower remained.\n\nWhen the city burned, its keeper placed the jade in the square and struck the gold arc. Everything falling halted within the peal: roofs hung above fleeing people and fiery rain stood like low stars. When the ringing ended, the fall resumed. The townspeople escaped; a black stitch appeared in the stone, and thereafter the keeper heard the old bell in every pulse within his ears.",
+    "traits": [
+      {
+        "name_vi": "Cung đồng chôn",
+        "name_en": "The Buried Copper Arc",
+        "description_vi": "Những đường đồng khép thành cung dưới mặt ngọc; mỗi hồi đã dùng để lại một nút khâu tối.",
+        "description_en": "Copper lines form an arc beneath the jade; each spent peal leaves a dark stitch."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Ngân giờ đứng lại",
+        "name_en": "Ring the Still Hour",
+        "description_vi": "Gõ cung vàng để mọi vật đang rơi trong tầm chuông nghe phải dừng giữa đường cho đến khi hồi ngân tắt.",
+        "description_en": "Strike the gold arc so every falling object within hearing halts along its course until the peal fades."
+      },
+      {
+        "name_vi": "Gọi chuông đã mất",
+        "name_en": "Call the Lost Bells",
+        "description_vi": "Chôn ngọc dưới một nền tháp cũ để tiếng chuông từng thuộc nơi ấy vang trở lại, lan qua tường kín và đất đá tới người còn nghe được.",
+        "description_en": "Bury the jade beneath an old tower so its former bell rings again, carrying through sealed walls and earth to those still able to hear."
+      }
+    ],
+    "use_vi": "Gõ cung vàng để mọi vật đang rơi trong tầm chuông nghe phải dừng giữa đường cho đến khi hồi ngân tắt. Chôn ngọc dưới một nền tháp cũ để tiếng chuông từng thuộc nơi ấy vang trở lại, lan qua tường kín và đất đá tới người còn nghe được.",
+    "use_en": "Strike the gold arc so every falling object within hearing halts along its course until the peal fades. Bury the jade beneath an old tower so its former bell rings again, carrying through sealed walls and earth to those still able to hear.",
+    "limits_vi": "Chỉ chuyển động rơi bị giữ; người đi và ngọn lửa đang ăn vật vẫn tiếp tục. Mỗi hồi làm cung đồng khép thêm một nút, đồng thời lấy một phần thính lực của người gõ. Khi cung kín hẳn, đá giữ im vĩnh viễn.",
+    "limits_en": "Only falling motion is held; walkers and fire consuming matter continue. Each peal closes another copper stitch and takes part of the striker’s hearing. Once the arc seals completely, the stone is silent for ever.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-thach-hai-mat-nuoc",
+    "epigraph_vi": "*“Hai bờ gặp nhau trong một lòng nước.”*",
+    "epigraph_en": "*“Two shores meet within one water.”*",
+    "lore_vi": "Hai hốc nước nằm trên bàn một thợ nhuộm đã biến mất. Dưới bàn, mạch khoáng từng nối hai giếng xưởng chạy liền qua khối đá kê; nhiều năm nước màu đi rồi về đã nuôi hai lòng rỗng cùng mang một mặt gợn. Người học trò rót giọt đỏ vào hốc trái và thấy nó thức dậy trong hốc phải, vượt qua vách nguyên lành.\n\nCậu mang đá tới con sông đang lũ, cho mỗi hốc nhận nước một bờ. Hai bờ bỗng chạm nhau qua một mặt nước dựng đứng; người dân bước qua cùng gia súc, còn dòng xiết vẫn cuộn ở bên ngoài. Khi đứa trẻ cuối rời cửa, hốc trái cạn trắng. Trên mặt đá hiện dấu bàn tay người thợ mất tích, quay vào phía nơi những người chạy nạn vừa đi ra.",
+    "lore_en": "Two water hollows stood upon a vanished dyer’s bench. Beneath it, a mineral seam connecting the workshop wells ran through the supporting stone; years of coloured water going and returning had nourished two cavities sharing one ripple. His apprentice poured a red drop into the left hollow and saw it awaken in the right, crossing an unbroken wall.\n\nHe carried the stone to a flooded river and gave each hollow water from one bank. The banks met through an upright water-surface; people crossed with their cattle while the torrent rolled outside. When the last child left, the left hollow dried white. Upon the stone appeared the missing dyer’s handprint, turned towards the place from which the refugees had emerged.",
+    "traits": [
+      {
+        "name_vi": "Một gợn hai lòng",
+        "name_en": "One Ripple in Two Hollows",
+        "description_vi": "Hai hốc mang cùng một đường gợn dù nước khác màu; dấu chạm hiện đồng thời trên cả hai mặt.",
+        "description_en": "The hollows share a ripple despite differently coloured water; touch marks appear upon both surfaces together."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Cho hai bờ chạm",
+        "name_en": "Bring Two Shores Together",
+        "description_vi": "Cho mỗi hốc nhận nước một bờ rồi dựng đá để hai mặt nước nối thành cửa đi, đưa người và thuyền qua dòng chia cách.",
+        "description_en": "Give each hollow water from a different shore, then raise the stone so the surfaces join as a gate for people and ships across the dividing current."
+      },
+      {
+        "name_vi": "Đổi nơi nước đầy",
+        "name_en": "Exchange the Full Waters",
+        "description_vi": "Nghiêng khối để lượng nước thuộc một đầu tràn ra đầu còn lại, rút lũ khỏi một miền bằng cách mở nơi nhận ở miền khác.",
+        "description_en": "Tilt the stone so water belonging to one end pours from the other, draining a flooded region by opening a receiving place elsewhere."
+      }
+    ],
+    "use_vi": "Cho mỗi hốc nhận nước một bờ rồi dựng đá để hai mặt nước nối thành cửa đi, đưa người và thuyền qua dòng chia cách. Nghiêng khối để lượng nước thuộc một đầu tràn ra đầu còn lại, rút lũ khỏi một miền bằng cách mở nơi nhận ở miền khác.",
+    "use_en": "Give each hollow water from a different shore, then raise the stone so the surfaces join as a gate for people and ships across the dividing current. Tilt the stone so water belonging to one end pours from the other, draining a flooded region by opening a receiving place elsewhere.",
+    "limits_vi": "Hai đầu phải còn giữ nước được nhận từ cùng một dòng liên tục. Một hốc cạn làm cửa gập ngay; tải qua càng lớn, mặt đá càng hút nước khỏi chính lòng mình và cần ngâm nhiều mùa mới hồi.",
+    "limits_en": "Both ends must retain water from one continuous current. An empty hollow folds the gate at once; heavier passage draws more water from the stone itself, requiring seasons of immersion to recover.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-ngoc-day-tuyet",
+    "epigraph_vi": "*“Tuyết chưa chạm đất, tai họa còn chờ.”*",
+    "epigraph_en": "*“Before the snow touches earth, disaster waits.”*",
+    "lore_vi": "Lớp tuyết trong ngọc được tìm giữa nham đen, nơi một làng núi đã bị vùi vào đúng đêm băng lở. Hơi nước, tro nóng và mạch khoáng trắng kết lại quanh những bông đang rơi. Người thợ soi đá thấy mái nhà dưới lớp trắng; nhiều năm sau, mái ấy mới chìm thêm một chút, chậm hơn cả tuổi già của người canh.\n\nKhi một trận lở mới tới, người giữ đặt ngọc xuống thung lũng. Bụi tuyết ngừng giữa trời, cả sườn núi treo sau những bông trắng, trong lúc đoàn người đi ra dưới chân nó. Ông thu đá sau người cuối cùng và để ngọn núi rơi. Từ đó tuyết trong lõi mau hơn một phần; dưới đáy trắng, mái nhà cũ đã mất một cửa sổ.",
+    "lore_en": "The snow within the jade was found amid black lava where a mountain village had been buried on an avalanche night. Steam, hot ash and a white mineral seam crystallised around falling flakes. A miner saw roofs beneath the whiteness; years later they had sunk only slightly, more slowly than their keeper aged.\n\nWhen another avalanche came, the keeper laid the jade in the valley. Snow dust halted in the air and the mountainside hung behind its white flakes while people walked out beneath it. He retrieved the stone after the last traveller and let the mountain fall. Since then the core’s snow has fallen a little faster; beneath its white floor, the old roof has lost a window.",
+    "traits": [
+      {
+        "name_vi": "Mùa rơi trong lõi",
+        "name_en": "The Falling Season within",
+        "description_vi": "Những bông tuyết rơi qua mái nhà chìm dưới lớp trắng; mỗi lượt dùng khiến khoảng cách xuống mái ngắn thêm.",
+        "description_en": "Snowflakes fall towards roofs submerged beneath whiteness; each working shortens their remaining distance."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Giữ núi giữa tuyết",
+        "name_en": "Hold the Mountain amid Snow",
+        "description_vi": "Đặt ngọc nơi một khối băng tuyết đang đổ để kéo tốc độ rơi của cả khối về nhịp tuyết trong lõi, giữ trận lở lơ lửng đủ lâu cho người thoát.",
+        "description_en": "Set the jade before falling snow and ice to draw the whole mass’s fall towards the core’s snowfall, suspending an avalanche long enough for escape."
+      },
+      {
+        "name_vi": "Thả một mùa đông",
+        "name_en": "Release a Winter",
+        "description_vi": "Mở vết trắng trên đá để một phần tuyết bị giữ tràn ra ngoài, dựng miền băng dày quanh điểm đặt và giải phóng phần thời gian đã giam trong nó.",
+        "description_en": "Open the white seam to release some captive snow, raising a deep ice region around the stone and freeing the time imprisoned within it."
+      }
+    ],
+    "use_vi": "Đặt ngọc nơi một khối băng tuyết đang đổ để kéo tốc độ rơi của cả khối về nhịp tuyết trong lõi, giữ trận lở lơ lửng đủ lâu cho người thoát. Mở vết trắng trên đá để một phần tuyết bị giữ tràn ra ngoài, dựng miền băng dày quanh điểm đặt và giải phóng phần thời gian đã giam trong nó.",
+    "use_en": "Set the jade before falling snow and ice to draw the whole mass’s fall towards the core’s snowfall, suspending an avalanche long enough for escape. Open the white seam to release some captive snow, raising a deep ice region around the stone and freeing the time imprisoned within it.",
+    "limits_vi": "Mỗi lần giữ tai họa làm tuyết bên trong rơi nhanh thêm, lấy bớt thời gian còn lại của mái nhà chìm. Khi tuyết chạm đáy, cả trận lở được giữ từ buổi đầu sẽ trở ra quanh viên ngọc.",
+    "limits_en": "Each arrested disaster quickens the internal snowfall, consuming the submerged roof’s remaining time. When the snow reaches the bottom, the entire avalanche captive since the beginning will emerge around the jade.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-thach-duong-khep",
+    "epigraph_vi": "*“Mọi cuộc ra đi đều có thể đòi một lần trở lại.”*",
+    "epigraph_en": "*“Every departure may demand a return.”*",
+    "lore_vi": "Người đúc dùng một vòng đá làm máng cho bạc lỏng. Mạch khoáng bạc từng lớn quanh chiếc vòng thề chôn dưới nền, nhận hình của một con đường luôn khép về đầu cũ. Giọt kim loại đi được cả mặt dưới, còn trong mặt giọt có bóng người quay lưng suốt lượt. Bóng chỉ đổi tư thế khi bàn tay muốn lấy giọt ra.\n\nNgười giữ sau mang vòng tới đèo bị quân vây. Ông cho đoàn người chạm đá trước khi đi, rồi khép đường bạc lúc họ mắc giữa hai cổng. Cả đoàn trở về sân khởi hành trong một tiếng chân chung, mang nguyên vết thương và bùn đường. Một khúc vòng đã hóa đen. Trên mặt bạc còn bóng một người quay lưng, đứng ở phía đường đoàn người chẳng còn phải đi tiếp.",
+    "lore_en": "A caster used a stone ring as a channel for liquid silver. A silver mineral seam had grown around an oath-ring buried beneath the floor, inheriting a road always closing upon its beginning. The metal drop crossed even the underside, carrying a backward-facing figure throughout its circuit. The figure changed posture only when a hand sought to remove the drop.\n\nA later keeper brought the ring to a besieged pass. He had the company touch it before departing, then closed the silver road when they were trapped between two gates. They returned to their starting courtyard in one shared footfall, carrying their wounds and road mud. One section had blackened. Upon the silver remained a backward-facing figure, standing upon the road the company no longer needed to finish.",
+    "traits": [
+      {
+        "name_vi": "Vòng bạc trở về",
+        "name_en": "The Returning Silver Ring",
+        "description_vi": "Vệt bạc đi đủ cả mặt trong lẫn mặt dưới rồi khép tại một điểm; bóng người trong giọt luôn quay khỏi đầu đi.",
+        "description_en": "The silver crosses the inner face and underside before closing at one point; its figure always faces away from the departure."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Khép đường trở lại",
+        "name_en": "Close the Returning Road",
+        "description_vi": "Cho người hoặc vật chạm vòng tại điểm đầu, rồi khép vệt bạc để kéo những gì còn mang dấu về chỗ đã xuất phát dù đường giữa đã bị chặn.",
+        "description_en": "Mark people or objects against the ring at their starting point, then close the silver trace to draw them back there despite barriers along the intervening road."
+      },
+      {
+        "name_vi": "Buộc lượt đi trọn",
+        "name_en": "Bind the Complete Circuit",
+        "description_vi": "Vạch đường kín bằng bạc cùng nguồn để một chuyển động đã giao phải đi trọn vòng trước khi được dừng, đưa đoàn xe qua quãng đường đổ vỡ.",
+        "description_en": "Draw a closed course in kindred silver so an assigned motion must finish its circuit before stopping, carrying wagons across a broken road."
+      }
+    ],
+    "use_vi": "Cho người hoặc vật chạm vòng tại điểm đầu, rồi khép vệt bạc để kéo những gì còn mang dấu về chỗ đã xuất phát dù đường giữa đã bị chặn. Vạch đường kín bằng bạc cùng nguồn để một chuyển động đã giao phải đi trọn vòng trước khi được dừng, đưa đoàn xe qua quãng đường đổ vỡ.",
+    "use_en": "Mark people or objects against the ring at their starting point, then close the silver trace to draw them back there despite barriers along the intervening road. Draw a closed course in kindred silver so an assigned motion must finish its circuit before stopping, carrying wagons across a broken road.",
+    "limits_vi": "Điểm đầu phải được giữ nguyên, và dấu bạc phải còn trên vật gọi về. Mỗi người trở lại đốt đen một phần vòng; vệt gãy giữa lượt trả mọi vật về chỗ đang đi thay vì chỗ bắt đầu.",
+    "limits_en": "The origin must remain intact and the silver mark remain upon what is recalled. Each return blackens part of the ring; a broken trace releases everything at its current position rather than the beginning.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-ngoc-ghi-mau-dau-tien",
+    "epigraph_vi": "*“Mắt gọi một màu, thế giới nhường cho nó một chỗ.”*",
+    "epigraph_en": "*“An eye names a colour, and the world makes room.”*",
+    "lore_vi": "Người tìm ngọc đã mù từ nhỏ. Ông lấy viên đá từ một hang mà những lớp khoáng lần lượt mất màu dưới nước ngầm, để lại trong lõi thứ sắc chưa từng được ánh trời chạm. Áp đá lên mắt, ông gọi ra một màu người thợ nhuộm quanh bàn chẳng ai pha được. Mỗi người nhìn sau đó lại thấy một sắc khác, bền hơn mọi tên đã học.\n\nKhi nhà xưởng cháy, ông vạch màu mình thấy lên cửa. Ngọn lửa đi ngang chỗ ấy như gặp một khoảng thế giới còn chưa được dạy cách cháy. Những người mắc trong xưởng bước qua. Viên ngọc trắng thêm một lớp, còn người thợ nhuộm đã nhìn lâu nhất từ đó chẳng phân biệt được màu áo con mình với màu bụi trên đường.",
+    "lore_en": "The finder had been blind since childhood. He took the jade from a cave where mineral layers lost their colour to groundwater, leaving within the core a hue never touched by sunlight. Pressing it to his eye, he named a colour none of the dyers could mix. Every later viewer saw a different hue, more enduring than any learnt name.\n\nWhen the workshop burned, he traced his colour upon the door. Fire passed that place as though it had met a region of the world not yet taught to burn. Those trapped inside crossed it. Another layer of jade whitened, while the dyer who had gazed longest could thereafter no longer distinguish his child’s clothes from road dust.",
+    "traits": [
+      {
+        "name_vi": "Sắc riêng từng mắt",
+        "name_en": "A Hue for Every Eye",
+        "description_vi": "Cùng một mặt ngọc cho mỗi người một màu giữ nguyên qua nhiều năm; lớp đã dùng trở nên trắng đục.",
+        "description_en": "One jade face grants each viewer a hue enduring for years; spent layers turn milky white."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Tô miền chưa gọi tên",
+        "name_en": "Colour the Unnamed Region",
+        "description_vi": "Nhìn ngọc rồi vạch sắc đầu tiên lên một ranh để nơi ấy tạm rời các quy luật đã học của vật đang chạm: lửa trượt qua, sắt thôi cắt, nước thôi nhận chìm.",
+        "description_en": "Look through the jade and trace the first hue along a boundary, briefly releasing that place from the familiar laws of what touches it: fire passes, iron ceases to cut, water ceases to drown."
+      },
+      {
+        "name_vi": "Nhận lại sắc đầu",
+        "name_en": "Recognise the First Hue",
+        "description_vi": "Đưa màu đã ghi qua mặt ngọc để tìm đúng vật hoặc người từng được mắt ấy nhìn, theo một đường sắc riêng xuyên mọi lớp màu phủ mới.",
+        "description_en": "Pass the recorded colour through the jade to find the object or person once seen by that eye, following its unique hue through later coverings."
+      }
+    ],
+    "use_vi": "Nhìn ngọc rồi vạch sắc đầu tiên lên một ranh để nơi ấy tạm rời các quy luật đã học của vật đang chạm: lửa trượt qua, sắt thôi cắt, nước thôi nhận chìm. Đưa màu đã ghi qua mặt ngọc để tìm đúng vật hoặc người từng được mắt ấy nhìn, theo một đường sắc riêng xuyên mọi lớp màu phủ mới.",
+    "use_en": "Look through the jade and trace the first hue along a boundary, briefly releasing that place from the familiar laws of what touches it: fire passes, iron ceases to cut, water ceases to drown. Pass the recorded colour through the jade to find the object or person once seen by that eye, following its unique hue through later coverings.",
+    "limits_vi": "Mỗi mắt chỉ nhận một sắc đầu và mỗi lần dùng lấy đi một phần khả năng thấy màu thường. Ranh phải được chính người đã nhận sắc vạch liền tay; ngắt nét làm quy luật trở lại ngay.",
+    "limits_en": "Each eye receives one first hue, and each working consumes some ordinary colour vision. Its original viewer must draw the boundary without lifting a hand; a broken stroke restores the usual law at once.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-hon-cuoi-tra-bo",
+    "epigraph_vi": "*“Có một bờ vẫn giữ chỗ cho người lạc.”*",
+    "epigraph_en": "*“One shore still keeps a place for the lost.”*",
+    "lore_vi": "Chiếc bát được vớt từ thuyền mục trên vùng đất nay cách biển nhiều dặm. Trong bát, hòn cuội đã lớn quanh một hạt khoáng xanh giữa bao lớp cát triều; đất nâng lên qua nhiều đời mà mặt đá vẫn quay về mép sứ cũ. Người vớt thả cuội xuống giếng. Sáng sau nó nằm lại bên dấu khắc trong bát, mang cát chưa từng có dưới đáy giếng.\n\nÔng giao cuội cho người con đi biển. Giữa trận đắm tàu, người con nắm đá gọi đúng tên bờ; chiếc bát trên bàn cha tràn nước, rồi cả con thuyền hiện ngoài vịnh đã khô từ thời tổ tiên. Một đêm, biển trở lại đủ sâu để đón họ. Tới sáng bờ lại thành đất, còn lòng bát mẻ mất một vệt sứ xanh.",
+    "lore_en": "The bowl was recovered from a rotten boat upon land now miles from the sea. Within it, a pebble had grown around a blue mineral grain through layers of tidal sand; the land rose over generations while the stone still turned towards the old porcelain rim. Its finder dropped it down a well. Next morning it lay beside the bowl’s carved mark, bearing sand the well had never held.\n\nHe entrusted it to his seafaring son. Amid a wreck the son gripped it and called the shore’s name; the bowl upon his father’s table overflowed, and the ship appeared in a bay dry since their ancestors’ days. For one night the sea returned deeply enough to receive them. At dawn the shore became land again, and a blue porcelain strip was missing from the bowl.",
+    "traits": [
+      {
+        "name_vi": "Cặp bờ và cuội",
+        "name_en": "The Shore and Pebble Pair",
+        "description_vi": "Cuội luôn quay mặt xanh về dấu trong bát; cát mang về có vị của bờ biển đã rút.",
+        "description_en": "The pebble turns its blue face towards the bowl’s mark; its returning sand tastes of a vanished shore."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gọi bến đầu",
+        "name_en": "Call the First Harbour",
+        "description_vi": "Nắm cuội và gọi tên bờ để kéo người cùng vật đang liền với mình về trước bát, mở lại nước biển cũ nếu một con tàu cần chỗ nổi.",
+        "description_en": "Grip the pebble and name the shore to draw oneself and connected objects before the bowl, restoring the former sea if a ship needs water to float."
+      },
+      {
+        "name_vi": "Đón người cùng dấu",
+        "name_en": "Receive Those Sharing the Mark",
+        "description_vi": "Chạm cuội vào những người trước lúc chia tay để lần gọi sau gom họ về cùng bến, bất kể mỗi người đã đi theo một hướng.",
+        "description_en": "Touch travellers with the pebble before parting so a later call gathers them at one harbour, however widely they have scattered."
+      }
+    ],
+    "use_vi": "Nắm cuội và gọi tên bờ để kéo người cùng vật đang liền với mình về trước bát, mở lại nước biển cũ nếu một con tàu cần chỗ nổi. Chạm cuội vào những người trước lúc chia tay để lần gọi sau gom họ về cùng bến, bất kể mỗi người đã đi theo một hướng.",
+    "use_en": "Grip the pebble and name the shore to draw oneself and connected objects before the bowl, restoring the former sea if a ship needs water to float. Touch travellers with the pebble before parting so a later call gathers them at one harbour, however widely they have scattered.",
+    "limits_vi": "Chiếc bát gốc phải còn nguyên đủ giữ nước và đặt tại đất của bờ cũ. Mỗi lần đón mẻ mất một phần men; bát vỡ giữa lượt khiến người đi mắc ở quãng biển chưa có đất để trở về.",
+    "limits_en": "The original bowl must remain whole enough to hold water and stand upon the former shore’s land. Each reception chips its glaze; breaking it during passage strands travellers at sea without land to return to.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-thach-vet-nut-vang",
+    "epigraph_vi": "*“Một vết nứt còn ở trong bóng đủ giữ thành đứng.”*",
+    "epigraph_en": "*“A fracture still in shadow can keep a city standing.”*",
+    "lore_vi": "Phiến đá được lấy khỏi bệ tượng đã vỡ, nơi một mạch khoáng vàng chạy sát khe nứt qua nhiều mùa mưa. Người thợ ép thử, bóng đường rạn hiện trước lưỡi đục; tháo lực, nó rút vào lòng nguyên lành. Mạch vàng đã lớn quanh phần cuối một cuộc gãy, giữ tai họa ở ngay trước lúc vật phải chia đôi.\n\nKhi tường thành trượt xuống móng, người giữ áp phiến vào đá nền. Cả mạng nứt của thành hiện đen trên mặt ngọc rồi chìm xuống; tường đứng lại cho người bên dưới chạy ra. Phiến vẫn liền, nhưng một nhánh vàng đã tiến sát mép. Người giữ chôn nó trong hố cát, để khoảng trống nhận lấy lần chia lìa mà thành phố vừa được cho mượn thời gian để tránh.",
+    "lore_en": "The slab was taken from a broken statue base, where a golden mineral seam had followed a fracture through rainy seasons. Under pressure a crack’s shadow appeared before the chisel; when released it withdrew into the unbroken interior. Gold had grown around a break’s final instant, holding disaster immediately before matter divided.\n\nWhen a city wall slid upon its foundations, the keeper pressed the slab to the footings. The wall’s entire fracture-web appeared black upon the jade and sank within; the wall stood while those below escaped. The slab remained whole, yet a golden branch had reached its edge. The keeper buried it in a sand pit so emptiness could receive the parting for which the city had borrowed time.",
+    "traits": [
+      {
+        "name_vi": "Khe nứt có bóng",
+        "name_en": "The Shadowed Fracture",
+        "description_vi": "Đường gãy hiện trong đá trước lúc mặt ngoài tách; đầu vàng tiến gần mép theo từng lần nhận nứt.",
+        "description_en": "A break appears within the stone before its surface divides; its golden tip nears the edge with each received fracture."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Chôn cuộc gãy",
+        "name_en": "Bury the Breaking",
+        "description_vi": "Áp phiến vào một kết cấu liền để kéo mạng nứt đang phá nó vào lòng đá, giữ cả tường thành hoặc vách núi đứng trong khi tai họa còn nằm dưới mặt ngọc.",
+        "description_en": "Press the slab to a continuous structure to draw its destructive fracture-web into the stone, keeping a wall or cliff standing while disaster lies beneath the jade."
+      },
+      {
+        "name_vi": "Trao nơi phải vỡ",
+        "name_en": "Choose the Place of Breaking",
+        "description_vi": "Đặt phiến lên đá nhận cùng nguồn rồi mở đầu vàng để cuộc gãy đi ra ở đó, chuyển tai họa khỏi nơi còn người.",
+        "description_en": "Set the slab upon receiving stone of the same origin and open the gold tip so the breaking emerges there, moving disaster from an inhabited place."
+      }
+    ],
+    "use_vi": "Áp phiến vào một kết cấu liền để kéo mạng nứt đang phá nó vào lòng đá, giữ cả tường thành hoặc vách núi đứng trong khi tai họa còn nằm dưới mặt ngọc. Đặt phiến lên đá nhận cùng nguồn rồi mở đầu vàng để cuộc gãy đi ra ở đó, chuyển tai họa khỏi nơi còn người.",
+    "use_en": "Press the slab to a continuous structure to draw its destructive fracture-web into the stone, keeping a wall or cliff standing while disaster lies beneath the jade. Set the slab upon receiving stone of the same origin and open the gold tip so the breaking emerges there, moving disaster from an inhabited place.",
+    "limits_vi": "Chỉ giữ được một mạng nứt liền trong mỗi lượt. Đầu vàng chạm mép sẽ thả toàn bộ cuộc gãy qua mọi vật đang chạm phiến; chuyển sang đá khác làm phiến mất vĩnh viễn phần mặt đã nhận.",
+    "limits_en": "Only one continuous fracture-web can be held at a time. When gold reaches the edge, the whole breaking passes through everything touching the slab; transferring it permanently consumes the receiving portion of the slab.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-tinh-the-nhan-binh-minh",
+    "epigraph_vi": "*“Một tia được nhận đủ mở cửa ngày.”*",
+    "epigraph_en": "*“One acknowledged ray can open the day.”*",
+    "lore_vi": "Tinh thể nằm trong hốc mắt một tượng mặt trời đã bị đục mất mặt. Mũi vàng lớn từ khoáng vật hứng ánh đầu ngày qua đúng khe núi suốt nhiều thế hệ; dầu đèn, lửa và vàng nóng đều chẳng gọi nó thức. Một mùa tuyết che kín khe sáng, người coi đem đá lên đỉnh núi để đón tia đầu còn tới được đất.\n\nÔng quay mũi vàng xuống thung lũng. Bình minh mở dưới lòng mây, soi từng mái nhà giữa đêm bão; những người lạc nhìn thấy đường về trước khi trời thật sự sáng. Khi tia cuối rút vào đá, một cạnh vàng đã hóa trong. Lời nguyện ở bệ tượng nói ngày phải được một vật dưới đất nhận ra. Người coi chỉ giữ lại chiếc áo đã khô trong một buổi sáng nằm bên dưới mùa đông.",
+    "lore_en": "The crystal lay within the eye of a defaced sun statue. Its gold point had grown from mineral receiving first light through one mountain cleft for generations; lamp oil, fire and hot gold could never wake it. When snow sealed the opening, the keeper carried it to the summit to receive the first ray still reaching earth.\n\nHe turned its point towards the valley. Dawn opened beneath the clouds, lighting every roof in the storm’s darkness; the lost saw their road home before the sky brightened. As the final ray withdrew into stone, one gold edge turned clear. A prayer upon the plinth said day must be recognised by something upon earth. The keeper merely kept the coat dried in a morning beneath winter.",
+    "traits": [
+      {
+        "name_vi": "Mũi vàng nhận ngày",
+        "name_en": "The Point Receiving Day",
+        "description_vi": "Chỉ tia trời đầu tiên làm mũi vàng mở sáng; cạnh đã dùng chuyển trong và giữ vệt nắng bên dưới.",
+        "description_en": "Only first sunlight opens the gold point; a spent edge turns clear with a sun-streak beneath it."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở ngày dưới mây",
+        "name_en": "Open Day beneath Clouds",
+        "description_vi": "Đón ánh đầu ngày rồi hướng mũi vàng tới một miền bị che để bình minh thật trải ở đó, xua đêm và cho đất nhận phần nắng đáng lẽ chưa tới.",
+        "description_en": "Receive first sunlight and aim the gold point towards a hidden region so true dawn unfolds there, dispelling night and granting sunlight not yet due to reach it."
+      },
+      {
+        "name_vi": "Giữ cửa sáng",
+        "name_en": "Hold the Light Gate",
+        "description_vi": "Đặt tinh thể ở ngưỡng để tia đầu được giữ thành đường sáng, dẫn người qua bóng tối che cả phương hướng tới đúng nơi đá đã đón mặt trời.",
+        "description_en": "Set the crystal upon a threshold so its first ray becomes a road of light, guiding travellers through directionless darkness to the place where it received the sun."
+      }
+    ],
+    "use_vi": "Đón ánh đầu ngày rồi hướng mũi vàng tới một miền bị che để bình minh thật trải ở đó, xua đêm và cho đất nhận phần nắng đáng lẽ chưa tới. Đặt tinh thể ở ngưỡng để tia đầu được giữ thành đường sáng, dẫn người qua bóng tối che cả phương hướng tới đúng nơi đá đã đón mặt trời.",
+    "use_en": "Receive first sunlight and aim the gold point towards a hidden region so true dawn unfolds there, dispelling night and granting sunlight not yet due to reach it. Set the crystal upon a threshold so its first ray becomes a road of light, guiding travellers through directionless darkness to the place where it received the sun.",
+    "limits_vi": "Mỗi bình minh chỉ nhận một lần, và một cạnh vàng bị dùng hết cho mỗi miền mở. Ánh gọi được giữ tới lúc mặt trời thật lên qua đường núi; khi đêm kéo dài che cả nguồn, đá phải chờ một tia mới.",
+    "limits_en": "Each dawn can be received once, and opening a region consumes one gold edge. Its light lasts until the true sun clears the mountain; when prolonged darkness hides the source, the stone must await a new ray.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-thach-mat-sau-trong",
+    "epigraph_vi": "*“Điều đã rời mặt này còn một nơi để tới.”*",
+    "epigraph_en": "*“What leaves this face still has somewhere to arrive.”*",
+    "lore_vi": "Đá được tìm giữa hai trang trắng của một cuốn sách cháy hết gáy. Bột khoáng bạc từng được người chép pha vào giấy; qua đêm lửa, những lớp giấy ép hai mặt quanh một khoảng chữ chưa kịp viết. Nước đặt lên mặt đen chuyển ngay ra mặt bạc, để phía đầu trống như một lời đã được gửi.\n\nNgười giữ dùng nước vạch hình cánh cửa lên đá rồi áp nó vào nhà giam. Cửa thật rời khỏi bức tường và hiện sau phiến, còn khoảng trống đủ cho người bước qua. Ông đưa cửa trở lại trước khi nước khô, để tiếng khóa vẫn vang đúng chỗ vào phiên gác sau. Mặt bạc từ đó mang một vệt đen hình bản lề, và mọi giọt nước đi qua đều lạnh như đã chạm một căn phòng khác.",
+    "lore_en": "The stone was found between blank pages of a book whose spine had burned. A scribe had mixed silver mineral powder into the paper; during the fire its layers pressed around a space awaiting unwritten words. Water placed upon the black face moved at once to the silver, leaving the beginning empty as a message already sent.\n\nIts keeper traced a door in water and pressed the stone to a prison. The real door left the wall and appeared behind the slab, leaving room for a person to pass. He returned it before the water dried, so the lock sounded in its proper place at the next watch. Since then the silver face has borne a black hinge-mark, and every passing drop feels cold from another room.",
+    "traits": [
+      {
+        "name_vi": "Hai mặt gửi nhận",
+        "name_en": "The Sending and Receiving Faces",
+        "description_vi": "Mặt đen mất đúng nét mặt bạc vừa nhận; vệt đã khô trở thành dấu mờ sâu trong đá.",
+        "description_en": "The black face loses exactly what the silver receives; dried traces become faint marks deep within the stone."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Gửi hình thành vật",
+        "name_en": "Send the Form with the Thing",
+        "description_vi": "Vẽ trọn hình một vật bằng nước rồi áp mặt đen lên nó để vật rời chỗ cũ và hiện sau mặt bạc, để lại khoảng trống thật.",
+        "description_en": "Draw an object’s complete shape in water and press the black face to it so it leaves its place and appears beyond the silver face, leaving a real opening."
+      },
+      {
+        "name_vi": "Trả nét về đầu",
+        "name_en": "Return the Stroke to its Beginning",
+        "description_vi": "Vuốt ngược nét nước còn ướt ở mặt bạc để vật đã chuyển trở lại đúng vị trí cũ, khép khoảng trống theo hình ban đầu.",
+        "description_en": "Stroke the wet outline backwards upon silver to return the transferred object to its former position, closing the opening in its original shape."
+      }
+    ],
+    "use_vi": "Vẽ trọn hình một vật bằng nước rồi áp mặt đen lên nó để vật rời chỗ cũ và hiện sau mặt bạc, để lại khoảng trống thật. Vuốt ngược nét nước còn ướt ở mặt bạc để vật đã chuyển trở lại đúng vị trí cũ, khép khoảng trống theo hình ban đầu.",
+    "use_en": "Draw an object’s complete shape in water and press the black face to it so it leaves its place and appears beyond the silver face, leaving a real opening. Stroke the wet outline backwards upon silver to return the transferred object to its former position, closing the opening in its original shape.",
+    "limits_vi": "Chỉ một vật có đường biên được vẽ kín đi qua mỗi lượt. Nước khô giữa đường khiến vật ở lại phía nhận; muối ăn mặt bạc làm phần tương ứng của vật mất đường về vĩnh viễn.",
+    "limits_en": "Only one object with a complete drawn boundary passes each time. Water drying during passage leaves it upon the receiving side; salt corroding the silver permanently destroys that portion’s returning road.",
+    "editorial_review_kind": "rewritten"
+  },
+  {
+    "id": "mineral-hach-khoang-khong-doi",
+    "epigraph_vi": "*“Một khe hở đủ rộng để núi tránh nhau.”*",
+    "epigraph_en": "*“One cleft is wide enough for mountains to part.”*",
+    "lore_vi": "Hạch khoáng mở dưới lòng núi, lộ hai nửa chẳng chịu chạm trong chiếc vỏ chung. Chúng đã kết từ hai mạch quặng tiến vào nhau qua nhiều đời đất chuyển; lớp vỏ lớn kịp quanh chỗ gặp, giữ cả hai ở ngay trước cuộc va. Người thợ ép thử và thấy giữa khe hiện những dãy núi nhỏ đến mức bụi đục cũng che được.\n\nKhi hai vách hầm sắp khép lên đoàn thợ, ông đặt hạch vào khe và mở hai nửa. Núi tách ra, một thung lũng sáng trời hiện giữa những tầng đá vốn liền; cả đoàn đi theo nó ra ngoài. Hạch được mang về với vỏ rạn thêm một đường. Trong khe còn bóng một đỉnh núi mới, đứng đúng nơi người thợ đã đặt tay để giữ hai phần khỏi chạm nhau.",
+    "lore_en": "The nodule opened beneath a mountain, revealing two halves refusing contact within one shell. They had crystallised from ore seams advancing towards each other through generations of shifting earth; the shell grew around their meeting, holding both just before collision. When a miner pressed them, mountain ranges appeared within the gap, small enough for chisel dust to conceal.\n\nAs tunnel walls began closing upon his company, he placed the nodule in the cleft and opened its halves. The mountain parted; a sunlit valley appeared between formerly continuous strata, and the miners followed it outside. The nodule returned with another crack in its shell. Within its gap stood the shadow of a new peak, where the miner had set his hand to keep the halves apart.",
+    "traits": [
+      {
+        "name_vi": "Hai nửa chung vỏ",
+        "name_en": "Two Halves within One Shell",
+        "description_vi": "Hai mặt giữ khoảng cách trong vỏ nguyên; những dãy núi li ti chỉ hiện khi khoảng ấy bị thay đổi.",
+        "description_en": "The faces keep their distance within the whole shell; tiny ranges appear only when that distance changes."
+      }
+    ],
+    "skills": [
+      {
+        "name_vi": "Mở khe giữa núi",
+        "name_en": "Open the Mountain Cleft",
+        "description_vi": "Đặt hạch giữa hai phần cùng một khối rồi mở hai nửa để khoảng cách trong vỏ trở thành thung lũng ngoài đời, tách thành lũy hoặc núi đủ cho đoàn người đi qua.",
+        "description_en": "Set the nodule between two portions of one mass and open its halves so the shell’s gap becomes a real valley, parting fortress or mountain for travellers."
+      },
+      {
+        "name_vi": "Giữ hai miền khỏi chạm",
+        "name_en": "Keep Two Realms Apart",
+        "description_vi": "Khép vỏ quanh hai dấu đã nhận để vật mang dấu giữ khoảng cách dù sóng, đất hoặc sức ép đang buộc chúng va vào nhau.",
+        "description_en": "Close the shell around two received marks so their bearers keep their distance despite waves, earth or pressure forcing them together."
+      }
+    ],
+    "use_vi": "Đặt hạch giữa hai phần cùng một khối rồi mở hai nửa để khoảng cách trong vỏ trở thành thung lũng ngoài đời, tách thành lũy hoặc núi đủ cho đoàn người đi qua. Khép vỏ quanh hai dấu đã nhận để vật mang dấu giữ khoảng cách dù sóng, đất hoặc sức ép đang buộc chúng va vào nhau.",
+    "use_en": "Set the nodule between two portions of one mass and open its halves so the shell’s gap becomes a real valley, parting fortress or mountain for travellers. Close the shell around two received marks so their bearers keep their distance despite waves, earth or pressure forcing them together.",
+    "limits_vi": "Hai nửa chỉ làm việc trong vỏ gốc. Mỗi miền bị tách để lại một vết rạn trên vỏ và một ngọn núi trong khe; vỏ vỡ sẽ trả mọi khoảng cách đã mượn về cùng lúc.",
+    "limits_en": "The halves work only within their original shell. Each separated region leaves a shell crack and a mountain within the gap; breaking the shell restores every borrowed distance at once.",
+    "editorial_review_kind": "rewritten"
+  }
+]

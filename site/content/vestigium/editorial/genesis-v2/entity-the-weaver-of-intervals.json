@@ -1,0 +1,71 @@
+[
+  {
+    "id": "entity-the-weaver-of-intervals",
+    "category": "entity",
+    "rarity": 3,
+    "lore_vi": "Khung dệt được sửa bằng hai cọc gỗ cắm đinh khoáng. Người thợ căng sợi đầu rồi tháo hết để đổi mẫu. Giữa hai cọc vẫn có một người mảnh như chỉ bước qua, nhấc chân trên những sợi không còn đó. Khoảng bước của nó giữ đúng độ căng mà sợi đầu đã nhận.\n\nDời khung sang xưởng mới, người dệt đi theo hai cọc, giơ tay khi người ta đưa một sợi quá ngắn hoặc dài tới. Thợ học cách báo trước mỗi lần đổi cọc rồi giao lại thước mẫu. Trong căn xưởng ấy, một khoảng cách đã thành lời hứa mà vật chất biết giữ, còn người vẫn phải nhớ mình hứa theo chiếc thước nào.",
+    "lore_en": "A loom was repaired with two wooden posts bearing mineral nails. Its worker stretched the first thread, then removed every strand to change the pattern. A person fine as thread still stepped between the posts, lifting its feet over vanished lines. Its stride retained the tension accepted by that first strand.\n\nMoved to another shop, the weaver followed its posts and raised a hand at threads too short or long. Workers learnt to announce each change of posts and entrust a fresh measure. In that workshop distance had become a promise matter could keep, while people still had to remember which ruler had defined it.",
+    "use_vi": "Giữ và so một khoảng mẫu, chia đoạn và hướng vị trí dây giữa hai cọc trú.",
+    "use_en": "Retain and compare one reference interval, divide lengths and guide cord positions between its inhabited posts.",
+    "limits_vi": "Chỉ so khoảng, tải cần do cọc và dây thật chịu. Thước giao sai được giữ sai; nhiệt và ẩm làm dây mẫu đổi thì phải nhận lại.",
+    "limits_en": "It compares distance while real posts and cords bear loads. An incorrect measure is faithfully retained; heat or moisture changing the reference requires reacceptance.",
+    "skills": [
+      {
+        "name_vi": "Giao khoảng đầu",
+        "name_en": "Entrust the First Interval",
+        "description_vi": "Căng một sợi chuẩn giữa cặp cọc rồi gọi người dệt nhận để nó giữ bước bằng khoảng ấy.",
+        "description_en": "Stretch a reference thread between its posts and ask the weaver to accept that interval as its stride."
+      },
+      {
+        "name_vi": "Tay báo dài ngắn",
+        "name_en": "Hands Signal Length",
+        "description_vi": "Đưa sợi cần so tới hai đầu cọc để nó mở tay ở phần thừa hoặc khép tại phần thiếu, giúp cắt theo mẫu.",
+        "description_en": "Present a cord at both post ends so its hands open upon excess or close at a shortfall, guiding a reference cut."
+      },
+      {
+        "name_vi": "Chia nửa bước",
+        "name_en": "Half a Stride",
+        "description_vi": "Gõ hai lần ở cọc đầu để bóng đứng giữa khoảng đã nhận, đánh dấu trung điểm cho dây cần chia; cọc phải đứng yên.",
+        "description_en": "Tap the first post twice so it stands halfway through the accepted interval and marks a midpoint; posts must stay still."
+      },
+      {
+        "name_vi": "Đếm lượt khoảng",
+        "name_en": "Count the Intervals",
+        "description_vi": "Kéo dây liên tục qua cọc khi bóng bước lặp để đánh dấu mỗi lần đủ một mẫu, chia nhiều đoạn cùng độ dài.",
+        "description_en": "Draw cord through the posts as the figure repeats its stride, marking each completed reference length."
+      },
+      {
+        "name_vi": "Giữ chỗ hai đầu",
+        "name_en": "Keep Both Endpoints",
+        "description_vi": "Tháo dây mẫu sau khi bóng đã nhận để các đầu ngón nó tiếp tục chỉ hai vị trí trong lúc thay vật liệu; dời cọc phải nhận lại.",
+        "description_en": "Remove the reference thread after acceptance so its fingertips retain both endpoints during a material change; moved posts need a new reference."
+      },
+      {
+        "name_vi": "So đường chéo",
+        "name_en": "Compare the Diagonal",
+        "description_vi": "Đặt cặp cọc theo hai góc cần so để bóng giữ khoảng đầu rồi đối đường chéo khác, giúp nhận khung bị lệch.",
+        "description_en": "Place posts across one diagonal for acceptance, then compare another to detect a skewed frame."
+      },
+      {
+        "name_vi": "Gọi sợi lạc hàng",
+        "name_en": "Call the Straying Thread",
+        "description_vi": "Cho bóng nhìn một hàng sợi đã căng theo cùng khoảng để nó đứng tại sợi lệch khỏi cặp đầu, chọn nơi cần chỉnh.",
+        "description_en": "Present a row of equally intended threads so it stands at one departing from the reference pair and selects adjustment sites."
+      },
+      {
+        "name_vi": "Tháo lời giao",
+        "name_en": "Release the Promise",
+        "description_vi": "Đặt sợi mẫu về giữa cọc rồi nói kết lượt để bóng trả bước vào sợi, khép mẫu cũ trước lúc đổi chiều dài.",
+        "description_en": "Restore the reference thread between its posts and end the turn aloud so the figure returns its stride before a new length is entrusted."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Lời hứa giữa hai cọc",
+        "name_en": "A Promise Between Two Posts",
+        "description_vi": "Bóng đi theo cặp cọc đầu đã nhận, để lại khoảng bước khi dây bị tháo. Tách mất một cọc khiến nó thôi có hình rõ.",
+        "description_en": "The figure follows its original accepted pair and keeps the stride after thread removal. Losing one post obscures its form."
+      }
+    ]
+  }
+]

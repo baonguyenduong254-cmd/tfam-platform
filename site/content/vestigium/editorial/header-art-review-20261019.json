@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-19",
+  "object_cutouts_reviewed": 402,
+  "collection_records": 602,
+  "scene_exceptions": [
+    "creature",
+    "entity",
+    "phenomenon"
+  ],
+  "upgraded_to_1024": [
+    "botanical-the-lastseed-tree",
+    "mineral-hach-khoang-khong-doi"
+  ],
+  "remaining_resolution_review": [
+    {
+      "id": "mineral-tinh-the-nhan-binh-minh",
+      "size": [
+        341,
+        512
+      ],
+      "path": "public/vestigium/art/mineral-tinh-the-nhan-binh-minh.webp",
+      "category": "mineral"
+    },
+    {
+      "id": "mineral-hach-khoang-khong-doi",
+      "size": [
+        370,
+        247
+      ],
+      "path": "public/vestigium/art/mineral-hach-khoang-khong-doi.webp",
+      "category": "mineral"
+    },
+    {
+      "id": "botanical-the-lastseed-tree",
+      "size": [
+        202,
+        242
+      ],
+      "path": "public/vestigium/art/botanical-the-lastseed-tree.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-gardeners-imprint-orchid",
+      "size": [
+        269,
+        246
+      ],
+      "path": "public/vestigium/art/botanical-gardeners-imprint-orchid.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-willow-of-one-sea-drop",
+      "size": [
+        242,
+        221
+      ],
+      "path": "public/vestigium/art/botanical-willow-of-one-sea-drop.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-the-unfallen-rose",
+      "size": [
+        274,
+        300
+      ],
+      "path": "public/vestigium/art/botanical-the-unfallen-rose.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-the-ungrown-bamboo",
+      "size": [
+        300,
+        300
+      ],
+      "path": "public/vestigium/art/botanical-the-ungrown-bamboo.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-the-unnumbered-lotus",
+      "size": [
+        413,
+        345
+      ],
+      "path": "public/vestigium/art/botanical-the-unnumbered-lotus.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-the-inkless-letter-tree",
+      "size": [
+        242,
+        234
+      ],
+      "path": "public/vestigium/art/botanical-the-inkless-letter-tree.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "botanical-horizon-lichen",
+      "size": [
+        371,
+        297
+      ],
+      "path": "public/vestigium/art/botanical-horizon-lichen.webp",
+      "category": "botanical"
+    },
+    {
+      "id": "material-bot-nam-yen",
+      "size": [
+        300,
+        300
+      ],
+      "path": "public/vestigium/art/material-bot-nam-yen.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-soi-giu-nep",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-soi-giu-nep.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-bot-em-rong-roc",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-bot-em-rong-roc.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-soi-niu-giot",
+      "size": [
+        300,
+        300
+      ],
+      "path": "public/vestigium/art/material-soi-niu-giot.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-bot-tach-rung",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-bot-tach-rung.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-soi-cham-dut",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-soi-cham-dut.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-bot-tat-duong-muc",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-bot-tat-duong-muc.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-manh-men-giu-mua",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-manh-men-giu-mua.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-bot-con-mot-hat",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-bot-con-mot-hat.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-than-ngu-dong",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-than-ngu-dong.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-soi-banh-nuoc",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-soi-banh-nuoc.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-dat-om-re",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-dat-om-re.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-muoi-danh-thuc-hat",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-muoi-danh-thuc-hat.webp",
+      "category": "material"
+    },
+    {
+      "id": "material-gom-giu-thuoc",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/material-gom-giu-thuoc.webp",
+      "category": "material"
+    },
+    {
+      "id": "device-053",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/device-053.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-061",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/device-061.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-066",
+      "size": [
+        243,
+        243
+      ],
+      "path": "public/vestigium/art/device-066.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-ochenta-nueve-orbis",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/device-ochenta-nueve-orbis.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-guard-045-horrea",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/device-guard-045-horrea.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-guard-049-salubris",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/device-guard-049-salubris.webp",
+      "category": "device"
+    },
+    {
+      "id": "device-041",
+      "size": [
+        341,
+        512
+      ],
+      "path": "public/vestigium/art/guard-v9-018.webp",
+      "category": "armament"
+    },
+    {
+      "id": "armament-collection-7-02",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/armament-collection-7-02.webp",
+      "category": "armament"
+    },
+    {
+      "id": "armament-siete-fidelis",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/armament-siete-fidelis.webp",
+      "category": "armament"
+    },
+    {
+      "id": "armament-fuego-negro",
+      "size": [
+        334,
+        334
+      ],
+      "path": "public/vestigium/art/armament-fuego-negro.webp",
+      "category": "armament"
+    },
+    {
+      "id": "armament-guard-043-pelagor",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/armament-guard-043-pelagor.webp",
+      "category": "armament"
+    },
+    {
+      "id": "armament-robert-vestigia-nulla",
+      "size": [
+        512,
+        341
+      ],
+      "path": "public/vestigium/art/armament-robert-vestigia-nulla.webp",
+      "category": "armament"
+    },
+    {
+      "id": "complex-reu-thiet-mam",
+      "size": [
+        270,
+        270
+      ],
+      "path": "public/vestigium/art/complex-reu-thiet-mam.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-can-lo-hoa-tuy",
+      "size": [
+        243,
+        243
+      ],
+      "path": "public/vestigium/art/complex-can-lo-hoa-tuy.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-to-ong-dong-lo",
+      "size": [
+        300,
+        300
+      ],
+      "path": "public/vestigium/art/complex-to-ong-dong-lo.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-hac-loc-dia-mach",
+      "size": [
+        300,
+        300
+      ],
+      "path": "public/vestigium/art/complex-hac-loc-dia-mach.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-giap-vuon-bach-thiet",
+      "size": [
+        243,
+        243
+      ],
+      "path": "public/vestigium/art/complex-giap-vuon-bach-thiet.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-ca-voi-lo-tham",
+      "size": [
+        243,
+        243
+      ],
+      "path": "public/vestigium/art/complex-ca-voi-lo-tham.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-vuon-trong-tieng-chuong",
+      "size": [
+        270,
+        270
+      ],
+      "path": "public/vestigium/art/complex-vuon-trong-tieng-chuong.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-cot-buom-muoi-ba",
+      "size": [
+        243,
+        243
+      ],
+      "path": "public/vestigium/art/complex-cot-buom-muoi-ba.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-guard-041-viridarium",
+      "size": [
+        341,
+        512
+      ],
+      "path": "public/vestigium/art/complex-guard-041-viridarium.webp",
+      "category": "complex"
+    },
+    {
+      "id": "complex-civitas",
+      "size": [
+        270,
+        270
+      ],
+      "path": "public/vestigium/art/complex-civitas.webp",
+      "category": "complex"
+    }
+  ],
+  "ui": [
+    "header account/settings icons",
+    "frozen compass ornament",
+    "remove QuickPreview and context HUD",
+    "compact comments, ChatGPT identity and reader profile required server-side"
+  ],
+  "verification": [
+    "TypeScript noEmit",
+    "9 existing tests",
+    "602 artwork path and alpha validation"
+  ],
+  "limitations": [
+    "No browser QA in current environment",
+    "Other low resolution assets retained, not claimed regenerated",
+    "Cloudflare deployment unchanged"
+  ]
+}

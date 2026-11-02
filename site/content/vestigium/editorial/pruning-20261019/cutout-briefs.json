@@ -1,0 +1,236 @@
+[
+  {
+    "id": "creature-eightanchor-octopus",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-eightanchor-octopus.webp",
+    "subject": "a wine-coloured octopus with eight gold rings",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-homeward-horse",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-homeward-horse.webp",
+    "subject": "a grey horse with white gold-threaded mane",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-sunkenbell-whale",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-sunkenbell-whale.webp",
+    "subject": "a small grey whale with silver markings",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-springbearing-hart",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-springbearing-hart.webp",
+    "subject": "a white hart with green buds on its antlers",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-deep-lanternfish",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-deep-lanternfish.webp",
+    "subject": "a long black-scaled fish with a luminous crest",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-returnweb-spider",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-returnweb-spider.webp",
+    "subject": "an ivory spider with eight gold-jointed legs",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-winterkeeping-nightingale",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-winterkeeping-nightingale.webp",
+    "subject": "a brown bird with an ice-white throat",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-moonreturn-tortoise",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-moonreturn-tortoise.webp",
+    "subject": "a silver tortoise with a clouded mirror shell",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-nightwatch-reindeer",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-nightwatch-reindeer.webp",
+    "subject": "a brown reindeer with silver-spotted black antlers",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-the-last-bee",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-the-last-bee.webp",
+    "subject": "a solitary gold bee with glass-clear wings",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-the-horse-before-the-quay",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-the-horse-before-the-quay.webp",
+    "subject": "a black horse with one ivory hoof",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-weaver-of-the-last-thread",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-weaver-of-the-last-thread.webp",
+    "subject": "a small black spider with a round white abdomen",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-seal-of-the-last-icehole",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-seal-of-the-last-icehole.webp",
+    "subject": "a white seal with black eye rings",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-moth-of-the-lost-colour",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-moth-of-the-lost-colour.webp",
+    "subject": "a blue moth with one copper wing",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "creature-tortoise-of-the-first-touch",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/creature-tortoise-of-the-first-touch.webp",
+    "subject": "a small black tortoise with an ivory shell hollow",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "material-guard-098-aurea",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/guard-v9-098.webp",
+    "subject": "A coherent small swarm of golden armoured beetles, several seedlike closed forms and open metallic wing cases, no human",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-keeper-of-one-apology",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-keeper-of-one-apology.webp",
+    "subject": "A person formed from suspended handwriting",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-witness-of-the-blank-page",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-witness-of-the-blank-page.webp",
+    "subject": "A white person without facial features",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-folded-horizon-bearer",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-folded-horizon-bearer.webp",
+    "subject": "A blue-robed person folding a sea horizon",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-keeper-of-its-own-name",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-keeper-of-its-own-name.webp",
+    "subject": "An ink-robed person with a name carved in its palm",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-sleeper-between-two-knocks",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-sleeper-between-two-knocks.webp",
+    "subject": "A dark sleeper within a narrow seam of light",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-the-keeper-of-tomorrows-place",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/entity-the-keeper-of-tomorrows-place.webp",
+    "subject": "A patched figure embracing an empty light",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-guard-053-cinis",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/guard-v9-053.webp",
+    "subject": "Charcoal humanoid fire familiar with glowing ember hands, blackened body and warm amber eyes, no scenery",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-guard-075-faber",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/guard-v9-075.webp",
+    "subject": "Tall living iron smith with one tong-like arm and one massive war-maul arm, ember seams, full figure",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-guard-090-somnus",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/guard-v9-090.webp",
+    "subject": "Hooded figure entirely covered in layered pale candle wax carrying one smokeless candle, full body, no exposed skin",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  },
+  {
+    "id": "entity-guard-094-janitor",
+    "input_role": "edit target",
+    "source": "/workspace/sites/tfam-resume/public/vestigium/art/guard-v9-094.webp",
+    "subject": "Snow-clad sentinel with dry carved wooden hands and massive protective wooden arms, full figure in frosty vignette",
+    "mode": "built-in image_gen, background-extraction",
+    "transparent_background": true,
+    "brief": "Preserve the original subject, pose, palette, markings, clothing and intrinsic carried props. Remove all scenery, ground, sky, walls, onlookers and background. Complete clipped extremities when needed. Crisp hand-painted 2.5D inventory art, full silhouette, generous transparent margin, no text, no frame, no checkerboard. Keep emitted fire on fire entities; keep a seated entity chair; keep only held ocean fabric, not surrounding sea; preserve swarm members and shells while removing environment."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-frostthread-spider",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Nhện làm tổ quanh cổ một bình khoáng rò trong tủ kính. Dịch khoáng ngấm vào con mồi mắc tơ; lứa nhện sau có tám chân trắng và se những sợi hút hơi nước về nút giao. Mạng được đem sang tủ mới vẫn đọng sương dù kính cạnh nó đã khô.\n\nNgười thổi kính nhìn các nút nước nối nhau mỗi lần cửa hé và nhận ra mạng có thể vẽ đường gió. Ông giữ cả tổ sống, đặt lưới tránh để nhện bị tay áo quét mất. Tấm bản đồ đầu tiên của ông được dệt lại mỗi đêm, bằng những đường mảnh đến mức ánh sáng cũng phải nghiêng mới thấy.",
+    "lore_en": "A spider nested around a leaking mineral bottle neck inside a glass cabinet. Fluid entered prey caught in its web; the next brood bore eight white legs and spun strands drawing vapour towards their junctions. Moved to a new cabinet, the web still gathered dew while adjacent glass stayed dry.\n\nA glassblower saw water knots link whenever the door opened and realised the web could draw a draft. He kept the living nest behind a protective mesh. His first wind chart was woven anew each night in threads so fine that light had to slant to find them.",
+    "use_vi": "Hiện đường gió nhẹ trong tủ hoặc hốc bảo quản bằng nút sương trên mạng.",
+    "use_en": "Reveal light drafts inside cabinets or storage recesses through dew knots upon a web.",
+    "limits_vi": "Cần độ ẩm tối thiểu và tổ sống để vá tơ. Gió mạnh xé mạng; nước bắn trực tiếp làm các dấu gió lẫn nhau.",
+    "limits_en": "It needs minimum humidity and a living nest for repairs. Strong wind tears the web; direct splashing confuses its airflow marks.",
+    "skills": [
+      {
+        "name_vi": "Kết nút sương",
+        "name_en": "Tie the Dew Knots",
+        "description_vi": "Để nhện dệt trong khung yên rồi mở khe gió thử để sương lần lượt tụ trên các nút, hiện lối khí qua tủ; đọc trước khi toàn mạng ướt.",
+        "description_en": "Let the spider weave in a still frame, then open a test gap so dew gathers successively at junctions and maps cabinet airflow; read before the whole web wets."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Mạng vẽ luồng đi",
+        "name_en": "A Web Draws the Passing Air",
+        "description_vi": "Nút ở đầu hướng gió đầy trước, cho đọc thứ tự thay vì chỉ nhìn mạng đã ướt.",
+        "description_en": "Upwind knots fill first, letting observers read a sequence rather than merely a wet web."
+      }
+    ]
+  }
+]

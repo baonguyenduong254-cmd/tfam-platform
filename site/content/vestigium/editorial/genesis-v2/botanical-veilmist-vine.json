@@ -1,0 +1,71 @@
+[
+  {
+    "id": "botanical-veilmist-vine",
+    "category": "botanical",
+    "rarity": 3,
+    "lore_vi": "Nho leo kín cửa một kho chứa bình khoáng vỡ. Dịch trong kho thấm ra chân tường, vào rễ, rồi dồn trong các quả trắng xanh chưa bao giờ chín trong. Một sáng người giữ mở cửa, sương trong chùm nho kéo theo bàn tay ông, chăng thành rèm đúng nơi giàn đã che suốt mùa.\n\nNhững dây chiết vẫn dựng sương theo hình cành sống. Nước tưới được nâng lên thành vô số giọt treo, trở về khi rèm rách rồi lại dệt kín khoảng giữa lá. Cả xóm quen cảnh cửa kho mờ trước bình minh, còn người chăm ghi mực nước trong bồn: giàn nho có thể giấu một ô cửa cùng lúc uống cạn phần nước dành cho ngày hôm sau.",
+    "lore_en": "A vine covered the doorway of a store containing broken mineral bottles. Their fluid seeped through the wall into its roots and gathered within green-white grapes that never ripened clear. One morning its keeper opened the door and mist followed his hand from a cluster, hanging as a curtain precisely where the vine had shaded all season.\n\nLayered cuttings still raise mist along their living branches. Irrigation lifts into countless suspended drops, returning after a tear and weaving the gaps between leaves again. The neighbourhood knows the store window clouds before dawn; its carer marks the basin level, for a vine can hide a doorway while drinking tomorrow’s water.",
+    "use_vi": "Dệt màn sương theo giàn sống để che tầm nhìn gần, giữ ẩm và hiện chuyển động xuyên rèm.",
+    "use_en": "Weave mist along a living trellis to screen nearby views, retain humidity and reveal movement through the curtain.",
+    "limits_vi": "Cần nước thật và quả còn trên dây. Gió mạnh xé màn; nước đọng làm sắt gỉ, còn người dùng phải nhìn bồn để nhận cây sắp cạn.",
+    "limits_en": "Real water and attached fruit are required. Strong wind tears the curtain; condensation rusts iron, and keepers must watch the basin for depletion.",
+    "skills": [
+      {
+        "name_vi": "Dệt rèm",
+        "name_en": "Weave the Curtain",
+        "description_vi": "Tưới rễ rồi vuốt quả còn xanh để sương dâng theo khoảng giữa cành, che đường nhìn trực tiếp qua giàn.",
+        "description_en": "Water the roots and stroke green fruit to raise mist between branches and obscure a direct view through the trellis."
+      },
+      {
+        "name_vi": "Mở khe",
+        "name_en": "Open a Slit",
+        "description_vi": "Buộc hai cành đang mang quả ra hai phía để màn tách một khe đi qua; tháo buộc khiến sương tự dệt kín lại.",
+        "description_en": "Tie two fruiting branches aside to divide a passage slit; releasing them lets mist weave it shut."
+      },
+      {
+        "name_vi": "Viền người qua",
+        "name_en": "Outline the Passer",
+        "description_vi": "Giữ giàn yên để phần sương vừa bị một vật xuyên qua đọng viền sáng quanh chỗ rách trong vài nhịp, báo chiều và cỡ vật.",
+        "description_en": "Hold the trellis still so recently pierced mist leaves a bright torn outline for several beats, indicating an object’s direction and size."
+      },
+      {
+        "name_vi": "Mũ ẩm",
+        "name_en": "The Humid Canopy",
+        "description_vi": "Uốn giàn thành vòm trên cây con để sương quay về quanh vùng lá, giảm mất ẩm; phải mở khe định kỳ để khỏi úng.",
+        "description_en": "Bend the trellis over seedlings so mist returns around their foliage and reduces moisture loss; open it regularly to avoid waterlogging."
+      },
+      {
+        "name_vi": "Gom giọt rơi",
+        "name_en": "Gather Falling Drops",
+        "description_vi": "Đặt một cành thấp thành máng để nước từ rèm rách tụ thành giọt theo ngọn, thu lại vào bồn thay vì ướt sàn.",
+        "description_en": "Lower a branch as a gutter so water from torn mist gathers at its tip and returns to the basin rather than wetting the floor."
+      },
+      {
+        "name_vi": "Chắn đèn",
+        "name_en": "Screen the Lamp",
+        "description_vi": "Đặt đèn sau rèm để các giọt tán quầng sáng thành một mặt mờ, che rõ hình người đứng sau; nguồn sáng gần quá làm quả nóng và cạn nhanh.",
+        "description_en": "Set a lamp behind the curtain so droplets diffuse its halo into a cloudy screen and obscure a figure behind; excessive proximity heats and depletes the fruit."
+      },
+      {
+        "name_vi": "Nút quả giữ màn",
+        "name_en": "The Curtain-Keeping Cluster",
+        "description_vi": "Buộc nhẹ cuống một chùm để nó nhả sương chậm, giữ một mảng hẹp qua lúc bồn thấp; buộc quá chặt làm chùm rụng và màn biến mất.",
+        "description_en": "Lightly bind a cluster stem to slow its mist release and keep a narrow patch while water is low; tight binding drops the fruit and ends it."
+      },
+      {
+        "name_vi": "Thu rèm về quả",
+        "name_en": "Draw the Curtain Home",
+        "description_vi": "Che quả bằng vải mát rồi ngừng vuốt để một phần sương quay lại chùm, khép lượt dùng; nước đã đọng trên đồ vật vẫn cần lau.",
+        "description_en": "Cover fruit in cool cloth and stop stroking so some mist returns to its cluster and closes the use; water condensed upon objects still needs wiping."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Giàn dệt nước",
+        "name_en": "The Water-Weaving Trellis",
+        "description_vi": "Màn theo hình cành. Uốn giàn đổi nơi sương mọc nhưng bẻ cành sẽ bỏ lại một khe chưa khâu cho đến chồi mới.",
+        "description_en": "The curtain follows branch shape. Bending a trellis shifts mist growth; breaking a branch leaves an unstitched gap until new shoots form."
+      }
+    ]
+  }
+]

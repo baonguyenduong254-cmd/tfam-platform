@@ -1,0 +1,29 @@
+[
+  {
+    "id": "creature-earthknot-worm",
+    "category": "creature",
+    "rarity": 0,
+    "lore_vi": "Giun được nhặt khỏi một chậu dược liệu bị đổ dịch khoáng. Đất trong chậu nứt mặt mà các đường giun vẫn tròn, thành bám chắc thành từng nút mờ sáng. Giun chuyển sang đất sạch tiếp tục để lại những đốt kết dọc đường đi; lớp nhầy của nó đã mang cấu trúc khoáng từng thấm vào da.\n\nNgười trồng lần theo một đường hầm rồi nhấc cả mảng đất lên, thấy nước vẫn tìm được lối qua phần ruột rỗng. Ông nuôi vài con dưới các chậu khó thoát, giữ một chút bóng tối cho những sinh vật chỉ được thấy khi công việc của chúng đã làm xong.",
+    "lore_en": "The worm was recovered from a medicinal pot spilled with mineral fluid. Its soil surface cracked while the wormways remained round, their walls bound by faintly shining knots. Moved to clean earth, it kept leaving jointed bindings along its course; its mucus now bore the mineral structure once absorbed through skin.\n\nA grower traced a tunnel and lifted the whole clod, finding that water still passed through its hollow centre. He raised a few beneath poorly draining pots and left darkness for creatures usually seen only after their work was finished.",
+    "use_vi": "Giữ thông các rãnh thoát nhỏ trong đất chậu ẩm.",
+    "use_en": "Keep small drainage passages open in damp potting soil.",
+    "limits_vi": "Đất khô khiến giun ngủ, úng lâu làm nó chết. Thành kết chỉ giữ đường nhỏ trong đất vừa qua; tải nền lớn cần gia cố riêng.",
+    "limits_en": "Dry soil puts it to sleep and prolonged waterlogging kills it. Bound walls hold only small recent passages; major ground loads require separate reinforcement.",
+    "skills": [
+      {
+        "name_vi": "Kết đường hầm",
+        "name_en": "Bind the Tunnel",
+        "description_vi": "Cho giun sống trong lớp đất ẩm dưới chậu để nhầy kết các thành đường nó vừa đào, giữ lối nước nhỏ qua đó; phải bảo vệ lỗ thoát ngoài khỏi tắc.",
+        "description_en": "Let the worm work through damp soil beneath a pot so its mucus binds newly dug walls and keeps small water passages open; protect the outer drainage opening from blockage."
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Nút sáng trong bùn",
+        "name_en": "Luminous Knots in Mud",
+        "description_vi": "Nút nhầy mất sáng khi thành đường bắt đầu rã, cho người trồng biết cần thay đất thay vì chỉ thêm giun.",
+        "description_en": "Mucus knots fade as a passage wall starts breaking down, warning that soil replacement may be needed rather than more worms."
+      }
+    ]
+  }
+]

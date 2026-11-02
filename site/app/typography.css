@@ -1,0 +1,19 @@
+/* Complete local font builds: Vietnamese glyphs and all declared weights travel together. */
+@font-face{font-family:'EB Garamond';src:url('/fonts/EBGaramond-Variable.ttf') format('truetype');font-weight:400 800;font-style:normal;font-display:swap}
+@font-face{font-family:'EB Garamond';src:url('/fonts/EBGaramond-Italic-Variable.ttf') format('truetype');font-weight:400 800;font-style:italic;font-display:swap}
+@font-face{font-family:'Libre Caslon Text';src:url('/fonts/LibreCaslonText-Variable.ttf') format('truetype');font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Libre Caslon Text';src:url('/fonts/LibreCaslonText-Italic-Variable.ttf') format('truetype');font-weight:400 700;font-style:italic;font-display:swap}
+:root{--type-body:'EB Garamond',Georgia,serif;--type-heading:'EB Garamond',Georgia,serif;--reading-font:var(--type-body);--display-font:var(--type-heading);--entry-font:var(--type-body)}
+html[lang=en]{--type-body:'Libre Caslon Text','EB Garamond',Georgia,serif;--type-heading:'Libre Caslon Text','EB Garamond',Georgia,serif}
+body.tfam-editorial{font-family:var(--type-body);font-kerning:normal;font-synthesis:none}
+.tfam-editorial :is(.campaign-app,.reading-room,.enhanced-reader,.world-entry){--reading-font:var(--type-body);--display-font:var(--type-heading);--entry-font:var(--type-body);font-family:var(--type-body)}
+.tfam-editorial :is(h1,h2,h3,h4,.entry-author strong,.scene-overline,.vest-name,.banner-name){font-family:var(--type-heading);font-kerning:normal}
+.tfam-editorial :is(.title-composition h1,.arrival-title h1,.voyage-copy h1){line-height:1.22!important;letter-spacing:-.015em}
+.tfam-editorial :is(.banner-name,.arrival-title h1,.character-profile h2,.vest-name){overflow:visible}
+.tfam-editorial :is(.boot-signature,.tfam-boot h1,.boot-author,.boot-status,.boot-milestones,.boot-continue){font-family:var(--type-heading)}
+html[lang=vi] .tfam-editorial :is(.scene-overline,.eyebrow,.entry-author,.destination-heading){letter-spacing:.075em;line-height:1.8}
+html[lang=en] .tfam-editorial .scene-overline{letter-spacing:.11em}
+.tfam-editorial :is(.story-prose,.character-copy,.vest-detail-copy,.monument-body){font-family:var(--type-body);font-variant-ligatures:common-ligatures}
+.tfam-editorial :is(.story-prose p,.lore p){font-weight:400}
+html[lang=vi] .tfam-editorial :is(h2,h3,.vest-name){font-weight:500}
+html[lang=vi] .tfam-editorial :is(.banner-name,.scene-overline,.eyebrow){font-size:max(12px,.75rem)}

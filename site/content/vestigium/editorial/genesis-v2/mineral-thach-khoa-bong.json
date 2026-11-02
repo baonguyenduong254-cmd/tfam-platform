@@ -1,0 +1,151 @@
+[
+  {
+    "id": "mineral-thach-khoa-bong",
+    "category": "mineral",
+    "rarity": 4,
+    "lore_vi": "Phiến đá xám nằm dưới nền phòng múa rối bị cháy. Khi người đào bới giơ đèn, bóng một con ngựa gỗ vẫn chạy trên nó, mặc cho con rối chỉ còn chiếc đầu than đen trong đống tro. Đứa trẻ từng điều khiển con ngựa đã dùng đinh ghim bóng nó vào sân khấu để kéo dây cho dễ. Vệt đinh tím xuyên qua một thớ đá đang lớn; đêm lửa đến, cả sợi dây lẫn hình hài cháy hết, còn cử động cuối cùng bị khâu lại bên dưới nền.\n\nThạch Khóa Bóng sinh ra tại chỗ một hình bóng bị buộc phải ở lại sau vật đã tạo nó. Mép tím trên đá nhận bóng như một lớp vải mỏng. Người biết cách ghim có thể giữ bóng, gấp nó, thậm chí bắt vật thật chịu một phần sự níu kéo của hình mình trên mặt đất.\n\nNgười mua thường thử viên đá với ngọn nến và chiếc thìa. Những người từng tháo khóa khỏi bóng người lại dặn phải đếm đủ bàn chân trước khi tắt đèn. Một bóng bị bỏ quên đôi khi vẫn đứng dậy vào lúc nguồn sáng mới tìm được nó.",
+    "lore_en": "The grey slab lay beneath a burned puppet theatre. When a digger raised his lamp, a wooden horse’s shadow still ran upon it, although only the puppet’s charred head remained in the ash. The child who worked the horse had pinned its shadow to the stage to ease the strings. A violet nail track pierced a growing stone seam; when fire came, cord and body burned away, while their final motion was stitched beneath the floor.\n\nShadowlock Stone forms where a silhouette is compelled to remain after its maker has gone. Its violet edge receives shadow like thin cloth. A skilled keeper can pin and fold it, even make the real object bear part of the restraint imposed upon its image on the ground.\n\nBuyers usually test the stone with candle and spoon. Those who have unfastened human shadows advise counting every foot before putting out the lamp. A forgotten shadow sometimes stands up when a new light finds it.",
+    "use_vi": "Ghim và điều chỉnh bóng đổ để che giấu, theo dấu, giữ vật hoặc tạo điểm níu trong cứu nạn và giao tranh.",
+    "use_en": "Pin and shape cast shadows for concealment, tracking, restraint or anchorage in rescue and combat.",
+    "limits_vi": "Phải có một nguồn sáng rõ và mặt nhận bóng liền. Nhiều nguồn tạo nhiều bóng với khóa riêng. Vật còn sống giằng càng mạnh càng làm bóng rách; phần rách có thể trở thành chỗ mất cảm giác trên cơ thể cho đến khi được khâu và thả đúng cách.",
+    "limits_en": "A clear light source and continuous receiving surface are required. Multiple lights create separately locked shadows. Living subjects tear their shadows by struggling; tears may become numb regions of the body until properly stitched and released.",
+    "skills": [
+      {
+        "name_vi": "Mép ghim",
+        "name_en": "The Pinning Edge",
+        "description_vi": "Để một bóng đi qua mép tím rồi ép đá xuống để ghim nó tại chỗ; nâng đá giải khóa trừ khi bóng đã được chuyển sang ghim khác.",
+        "description_en": "Let a shadow cross the violet edge and press the stone down to pin it; lifting the stone releases it unless transferred to another pin.",
+        "group_vi": "Nhận bóng",
+        "group_en": "Receive the Shadow"
+      },
+      {
+        "name_vi": "Đo chủ bóng",
+        "name_en": "Measure Its Owner",
+        "description_vi": "Kéo phiến đá dọc rìa bóng để cảm những điểm còn nối vật thật; bóng cũ đã mất chủ cho cảm giác nhẹ như vải rách.",
+        "description_en": "Draw the slab along a shadow’s edge to feel its remaining ties to the real object; an orphaned shadow feels light as torn cloth.",
+        "group_vi": "Nhận bóng",
+        "group_en": "Receive the Shadow"
+      },
+      {
+        "name_vi": "Bóng chậm bước",
+        "name_en": "The Lagging Shadow",
+        "description_vi": "Ghim một góc nhỏ để bóng đuổi theo vật chậm vài nhịp, lộ hướng di chuyển sau khi vật khuất; kéo dài làm vật thật cảm thấy chân nặng.",
+        "description_en": "Pin a small corner so the shadow follows its owner several beats late, revealing movement after the object disappears; prolonged delay makes the owner’s feet heavy.",
+        "group_vi": "Nhận bóng",
+        "group_en": "Receive the Shadow"
+      },
+      {
+        "name_vi": "Cắt bóng chồng",
+        "name_en": "Separate the Overlap",
+        "description_vi": "Lướt cạnh đá giữa hai bóng giao nhau để chia chúng thành hai mép rõ; cần giữ nguồn sáng yên cho đến lúc chọn đúng chủ.",
+        "description_en": "Pass the edge between overlapping shadows to separate their outlines; the light must stay still until the correct owner is chosen.",
+        "group_vi": "Nhận bóng",
+        "group_en": "Receive the Shadow"
+      },
+      {
+        "name_vi": "Ghim gót",
+        "name_en": "Pin the Heel",
+        "description_vi": "Khóa bóng bàn chân để níu một người đang bước; người giằng mạnh có thể thoát bằng cách làm rách bóng và mất cảm giác chân.",
+        "description_en": "Lock a foot’s shadow to restrain a walker; forceful struggle may tear it free at the cost of numbness in that foot.",
+        "group_vi": "Buộc hình",
+        "group_en": "Bind the Image"
+      },
+      {
+        "name_vi": "Neo vật đổ",
+        "name_en": "Anchor the Falling Object",
+        "description_vi": "Ghim bóng một cột đang nghiêng để hãm cú đổ trong lúc dựng chống; bóng thu hẹp khi cột đổi góc làm neo yếu đi.",
+        "description_en": "Pin a leaning pillar’s shadow to brake its fall while braces are raised; its narrowing silhouette weakens the anchorage.",
+        "group_vi": "Buộc hình",
+        "group_en": "Bind the Image"
+      },
+      {
+        "name_vi": "Buộc tay gươm",
+        "name_en": "Bind the Sword Hand",
+        "description_vi": "Ép mép đá lên bóng bàn tay đang cầm vũ khí để làm chậm nhát đánh; đổi nguồn sáng có thể chuyển chỗ níu sang người giữ đá.",
+        "description_en": "Press the edge onto an armed hand’s shadow to slow its stroke; a change of light can transfer the restraint to the keeper.",
+        "group_vi": "Buộc hình",
+        "group_en": "Bind the Image"
+      },
+      {
+        "name_vi": "Chốt cửa bằng tối",
+        "name_en": "Dark Doorbolt",
+        "description_vi": "Ghim bóng cánh cửa lên nền để giữ góc mở hiện tại; ánh sáng bị chặn sẽ giải chốt đột ngột.",
+        "description_en": "Pin a door leaf’s shadow to the floor to hold its present angle; blocking the light releases the bolt abruptly.",
+        "group_vi": "Buộc hình",
+        "group_en": "Bind the Image"
+      },
+      {
+        "name_vi": "Gấp bóng",
+        "name_en": "Fold the Shadow",
+        "description_vi": "Dùng đá vuốt một bóng đã ghim thành nếp để che một vật nhỏ đặt trong nếp ấy khỏi mắt cùng phía nguồn sáng; nhìn bên hông vẫn thấy.",
+        "description_en": "Stroke a pinned shadow into a fold that hides a small object from eyes on the light’s side; a side view still reveals it.",
+        "group_vi": "Gấp màn tối",
+        "group_en": "Fold the Darkness"
+      },
+      {
+        "name_vi": "Áo rìa tối",
+        "name_en": "Cloak of the Edge",
+        "description_vi": "Kéo bóng áo khoác rộng hơn thân người để làm khó phân biệt đường nét khi đứng yên; bước nhanh xé áo bóng khỏi người.",
+        "description_en": "Widen a cloak’s shadow around its wearer to blur their outline while still; a quick step tears the shadow cloak away.",
+        "group_vi": "Gấp màn tối",
+        "group_en": "Fold the Darkness"
+      },
+      {
+        "name_vi": "Dấu người qua",
+        "name_en": "The Passer’s Mark",
+        "description_vi": "Giữ phần bóng cuối cùng của người đi qua để lưu dáng và nhịp bước cho đến khi ánh sáng đổi; dấu mất chủ chỉ dùng để nhận dạng.",
+        "description_en": "Retain a passer’s last shadow to preserve outline and gait until the light changes; the ownerless trace serves only identification.",
+        "group_vi": "Gấp màn tối",
+        "group_en": "Fold the Darkness"
+      },
+      {
+        "name_vi": "Bậc tối",
+        "name_en": "Shadow Step",
+        "description_vi": "Gấp bóng một bậc thật lên mặt phẳng kế bên để chân nối với bóng mình có thể mượn nó đỡ một bước; rời vùng sáng sẽ mất bậc.",
+        "description_en": "Fold a real step’s shadow onto an adjoining plane so a foot joined to its own shadow can borrow one foothold; leaving the light loses it.",
+        "group_vi": "Gấp màn tối",
+        "group_en": "Fold the Darkness"
+      },
+      {
+        "name_vi": "Khâu rìa",
+        "name_en": "Stitch the Edge",
+        "description_vi": "Dẫn bóng một sợi chỉ qua mép rách để vá hình trước khi trả về chủ; chỉ thật phải được giữ liền suốt lúc khâu.",
+        "description_en": "Pass a thread’s shadow along a tear to repair the image before returning it to its owner; the real thread must remain unbroken during the stitching.",
+        "group_vi": "Tháo khóa",
+        "group_en": "Unfasten the Lock"
+      },
+      {
+        "name_vi": "Chuyền ghim",
+        "name_en": "Pass the Pin",
+        "description_vi": "Đặt một chiếc đinh có bóng chạm đá để chuyển điểm khóa sang đinh; đinh bị nhổ trả cả lực níu về viên đá.",
+        "description_en": "Set a nail with its shadow touching the stone to transfer the lock; pulling the nail returns the restraint’s full force to the gem.",
+        "group_vi": "Tháo khóa",
+        "group_en": "Unfasten the Lock"
+      },
+      {
+        "name_vi": "Gọi bóng về gót",
+        "name_en": "Call the Shadow to Heel",
+        "description_vi": "Chiếu cùng nguồn sáng dọc chủ bóng rồi nhấc khóa từ đầu xuống chân để ghép hình lại đúng chỗ; làm ngược giữ lại một vệt tê chạy dọc lưng.",
+        "description_en": "Sweep the original light along the owner and lift the lock from head to foot to restore the image; reversing the order leaves a numb streak along the spine.",
+        "group_vi": "Tháo khóa",
+        "group_en": "Unfasten the Lock"
+      },
+      {
+        "name_vi": "Tắt cùng nhau",
+        "name_en": "Extinguish Together",
+        "description_vi": "Cho bóng và chủ cùng rời nguồn sáng sau khi đã tháo mọi ghim để kết thúc liên hệ; tắt đèn trước khi kiểm tra có thể bỏ lại một bóng đứng riêng.",
+        "description_en": "Let shadow and owner leave the light together after every pin is removed to end the bond; extinguishing it before checking can leave an independent standing shadow.",
+        "group_vi": "Tháo khóa",
+        "group_en": "Unfasten the Lock"
+      }
+    ],
+    "traits": [
+      {
+        "name_vi": "Vật nghe hình mình",
+        "name_en": "Matter Hears Its Image",
+        "description_vi": "Mối níu tăng theo độ rõ và đầy đủ của bóng. Hình chồng khiến khóa nhận lẫn chủ, một nguy cơ đặc biệt lớn giữa đám đông cầm đuốc.",
+        "description_en": "The restraint strengthens with a shadow’s clarity and completeness. Overlap confuses ownership, a particular danger among torch-bearing crowds."
+      }
+    ]
+  }
+]
