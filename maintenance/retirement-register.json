@@ -37,5 +37,28 @@
       ]
     }
   ],
-  "deletions": []
+  "deletions": [
+    {
+      "path": "site/tsconfig.tsbuildinfo",
+      "kind": "generated-build-metadata",
+      "pr": 10,
+      "recovery": "Git history before PR10"
+    },
+    {
+      "path": "site/tools/design/node_modules",
+      "kind": "generated-development-dependencies",
+      "pr": 10,
+      "retained": [
+        "site/tools/design/package.json",
+        "site/tools/design/package-lock.json"
+      ],
+      "recovery": "Git history before PR10 or cloud reinstall from retained lockfile",
+      "freshReinstallVerified": false
+    }
+  ],
+  "r2Audit": {
+    "report": "maintenance/r2-reconciliation-210.json",
+    "confirmedUnusedMedia": 0,
+    "deletions": []
+  }
 }
