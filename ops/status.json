@@ -20,7 +20,7 @@
     "importSecretRemoved": true
   },
   "r2": {
-    "status": "bucket-ui-verified-full-inventory-pending",
+    "status": "full-dashboard-inventory-reconciled",
     "bucketNameVerified": true,
     "objectMigrationPerformed": false,
     "deletionsPerformed": false,
@@ -28,7 +28,13 @@
     "legacyPathMappings": 2341,
     "adminWriteAccessVerified": false,
     "bucket": "tfam-assets",
-    "fullInventoryComplete": false
+    "fullInventoryComplete": true,
+    "objectCount": 2351,
+    "mappedImagesMatched": 2341,
+    "soundtracksMatched": 7,
+    "zeroByteFolderMarkers": 3,
+    "confirmedUnusedMedia": 0,
+    "inventoryReport": "maintenance/r2-reconciliation-210.json"
   },
   "database": {
     "binding": "DB",
@@ -37,10 +43,9 @@
     "changesPerformed": false
   },
   "next": [
-    "Run read-only cloud R2 inventory with bucket-scoped credentials",
-    "Reconcile static mappings with dynamic references and live D1 content",
-    "Review recoverable deletion manifest before R2 cleanup",
-    "Implement and validate update210 in cloud"
+    "Receive update210 ideas and reconcile latest Sites version",
+    "Implement on a GitHub branch and validate/build in cloud",
+    "Preview and publish via Sites; record resulting version and commit"
   ],
   "localExecutionAllowed": false,
   "preparation210": {
@@ -52,6 +57,8 @@
       "site/tsconfig.tsbuildinfo",
       "site/tools/design/node_modules"
     ],
-    "productionDeployed": false
+    "productionDeployed": false,
+    "classificationTestRun": "41468035188",
+    "startHere": "docs/START-HERE-210.md"
   }
 }
