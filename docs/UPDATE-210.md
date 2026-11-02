@@ -9,4 +9,4 @@ Baseline: source Sites 209 trong site/. Không đổi production trong bước c
 5. Motion/R3F/Drei đã có trong v209. React Bits, Lenis, dotLottie, Mastra và memory frameworks chỉ áp dụng khi có tiêu chí sử dụng, license và kiểm tra tương thích riêng; không cài hàng loạt.
 6. Nghiệm thu 210: test unlock và link trực tiếp; đọc truyện; bản đồ; desktop/mobile/fullscreen; reduced-motion; console/network; kiểm tra production không mất content/progress.
 
-R2: bucket tfam-assets đã được nhìn thấy trong Cloudflare. Cần xuất danh sách đầy đủ, đối chiếu mapping và tham chiếu live. Không suy ra không dùng chỉ từ trang đang mở.
+R2: đã đọc đủ 95 trang, đối chiếu 2.341 ảnh và 7 nhạc; không có media ngoài catalogue. Giữ 3 folder marker rỗng. Không xóa R2. Xem docs/START-HERE-210.md và maintenance/r2-reconciliation-210.json.
