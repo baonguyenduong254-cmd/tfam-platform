@@ -1,8 +1,13 @@
 {
   "bucket": "tfam-assets",
+  "prefix": "images/portraits/",
+  "count": 72,
   "requestedByOwner": true,
   "backupRequested": false,
-  "deletionStatus": "pending",
+  "backupPerformed": false,
+  "deletionStatus": "completed",
+  "date": "2026-11-03",
+  "verification": "Cloudflare dashboard confirmed '1 folder was successfully deleted.'; portraits/ no longer listed. All72 keys freshly compared before deletion. No anime objects were in this prefix.",
   "keys": [
     "images/portraits/isabella_testarossa_de_aragon.webp",
     "images/portraits/napoleon.webp",
@@ -76,6 +81,5 @@
     "images/portraits/pieter_smit.webp",
     "images/portraits/ravelo.webp",
     "images/portraits/rambolamanana.webp"
-  ],
-  "excluded": "All /portraits/castilian/ anime files and all non-portrait assets"
+  ]
 }

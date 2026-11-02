@@ -3,12 +3,13 @@ const fs=require('node:fs');
 (async()=>{
  const browser=await chromium.launch({headless:true});
  const page=await browser.newPage({viewport:{width:1920,height:1080}});
+ page.setDefaultTimeout(20000);page.setDefaultNavigationTimeout(30000);
  const errors=[];page.on('pageerror',e=>errors.push(String(e)));
  let ready=false;
  for(let i=0;i<30;i++){try{await page.goto('http://127.0.0.1:8787',{waitUntil:'domcontentloaded',timeout:3000});ready=true;break;}catch{await new Promise(r=>setTimeout(r,1000));}}
  // Wrangler uses its default 8787 unless start's configuration overrides the port.
  if(!ready){for(let i=0;i<30;i++){try{await page.goto('http://127.0.0.1:8787',{waitUntil:'domcontentloaded',timeout:3000});ready=true;break;}catch{await new Promise(r=>setTimeout(r,1000));}}}
- if(!ready)throw Error('Cloud preview did not start');
+ if(!ready){console.error(fs.existsSync('reports/preview.log')?fs.readFileSync('reports/preview.log','utf8'):'No preview log');throw Error('Cloud preview did not start');}
  const origin=new URL(page.url()).origin;
  const check=async(condition,message)=>{if(!condition)throw Error(message);};
  await page.getByRole('link',{name:'DISCOVER THE WORLD',exact:true}).waitFor({state:'visible'});

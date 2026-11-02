@@ -47,6 +47,7 @@ jobs:
           node /tmp/tfam-qa/node_modules/playwright/cli.js install --with-deps chromium
       - name: Browser smoke and responsive screenshots
         run: |
+          mkdir -p reports
           cd site
           pnpm start > ../reports/preview.log 2>&1 &
           cd ..
