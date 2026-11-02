@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-02",
+  "bucket": "tfam-assets",
+  "inventoryFile": "maintenance/r2-ui-inventory-2026-11-02.json",
+  "totalObjects": 2351,
+  "completeDashboardPagination": true,
+  "imageMappingCount": 2341,
+  "missingMappedImages": [],
+  "imageObjectsOutsideMapping": [],
+  "soundtrackCount": 7,
+  "missingSoundtracks": [],
+  "audioObjectsOutsideCatalogue": [],
+  "folderMarkers": [
+    "audio/",
+    "audio/soundtrack/",
+    "videos/"
+  ],
+  "unusedContentObjectsConfirmed": [],
+  "deletionManifest": [],
+  "deletionsPerformed": false,
+  "credentialsCreated": false,
+  "liveD1ContentExported": false,
+  "conclusion": "All 2348 media objects are declared in the image mapping or soundtrack catalogue. Three zero-byte folder markers remain. No unreferenced media object found; no deletion justified. This inventory proves key membership, not body checksum or successful HTTP delivery.",
+  "evidence": [
+    "site/lib/media/external-paths.json",
+    "site/lib/soundtrack.json",
+    "site/lib/media/asset-url.ts",
+    "maintenance/audit-210.json"
+  ]
+}
