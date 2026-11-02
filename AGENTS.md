@@ -35,3 +35,10 @@
 - Delete confirmed unused source files in a dedicated PR after relevant checks; Git keeps the prior version.
 - R2 objects and DB rows need their own dependency audit and recoverable backup; Git alone cannot restore those objects.
 - A duplicate name, old timestamp or absence from one page is not proof of being unused.
+
+## Update 210 toolchain
+- Project skills are vendored in .agents/skills at pinned commits; see references/toolchain-210.lock.json.
+- Load only the relevant skill. Owner's Victorian elegant direction, readable lore and reduced-motion requirements override upstream default aesthetics.
+- Vendored skill scripts and binary launchers were not executed or validated by intake. Use the connected browser for UI inspection unless a supported cloud environment is explicitly configured.
+- MCP upstream pins are references, not active host connections. Never claim a server is connected merely because its repository is listed.
+- Reinstall site/tools/design dependencies from package-lock.json in the cloud when needed; node_modules is generated and intentionally excluded from Git.

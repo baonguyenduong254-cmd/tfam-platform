@@ -1,0 +1,41 @@
+{
+  "pins": {
+    "Leonxlnx/taste-skill": "12af471f627f866411b4bd785b19646d3672784c",
+    "pbakaus/impeccable": "e89e3ada3e875a89ac2c5d33d11e65ebef6fe285",
+    "vercel-labs/agent-skills": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+    "microsoft/playwright-mcp": "ec572ee8354015293bed67145db21eed386e876d",
+    "ChromeDevTools/chrome-devtools-mcp": "aade3be8f65d8afc941c97b498b9752ef562f181"
+  },
+  "skills": [
+    {
+      "repository": "Leonxlnx/taste-skill",
+      "commit": "12af471f627f866411b4bd785b19646d3672784c",
+      "path": ".agents/skills/design-taste-frontend",
+      "files": 39,
+      "executed": false
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "commit": "e89e3ada3e875a89ac2c5d33d11e65ebef6fe285",
+      "path": ".agents/skills/impeccable",
+      "files": 63,
+      "executed": false
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "path": ".agents/skills/vercel-react-best-practices",
+      "files": 76,
+      "executed": false
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "path": ".agents/skills/web-design-guidelines",
+      "files": 1,
+      "executed": false
+    }
+  ],
+  "mcpStatus": "reviewed-upstreams-not-activated-in-host",
+  "upstreamCodeExecuted": false
+}
