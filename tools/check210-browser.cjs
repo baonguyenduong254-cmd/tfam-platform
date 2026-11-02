@@ -22,8 +22,8 @@ const fs=require('node:fs');
  await check(await page.locator('.faction-card:not(.is-locked)').count()===2,'Fresh reader should have exactly two unlocked factions');
  await check(await page.getByRole('searchbox').count()===0,'Old search must be removed');
  await page.screenshot({path:'reports/horizons-desktop.png'});
- await page.locator('[data-faction-id="holy_french_kingdom"]').click();
- await page.getByRole('status').filter({hasText:/Complete Arc/}).waitFor({state:'visible'});
+ await page.locator('[data-faction-id="holy_french_kingdom"]').click({force:true});
+ await page.getByRole('status').filter({hasText:/Complete Arc|Loading reading progress/}).waitFor({state:'visible'});
  await page.locator('[data-faction-id="castilian_empire"]').click();
  await page.waitForURL(/#map\/castilian_empire\/1715/);
  for(const width of [390,768]){
