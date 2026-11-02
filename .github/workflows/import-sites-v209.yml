@@ -1,0 +1,93 @@
+name: Import exact Sites v209 source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tfam-import-v209
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SOURCE_SHA: aec9e0a762302e67626d2b70e9bd3d09642b6a4b
+      SOURCE_URL: https://git.chatgpt-team.site/d5e5ae0f-6310-40cc-916a-084c41fe5202/appgprj_6abf3718495481919a2cd6954776f57e.git
+    steps:
+      - name: Checkout governance repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Verify import target is empty
+        shell: bash
+        run: |
+          set -euo pipefail
+          test ! -e site
+          test ! -e ops/imported-v209.json
+          if test -n "$(git ls-remote --heads origin refs/heads/import/site-v209)"; then
+            echo 'Import branch already exists. Inspect it before retrying.' >&2
+            exit 1
+          fi
+      - name: Fetch exact source without storing source credentials
+        shell: bash
+        env:
+          SITES_TOKEN: ${{ secrets.TFAM_SITES_IMPORT_TOKEN }}
+        run: |
+          set -euo pipefail
+          if test -z "$SITES_TOKEN"; then
+            echo 'Missing temporary TFAM_SITES_IMPORT_TOKEN secret.' >&2
+            exit 1
+          fi
+          echo "::add-mask::$SITES_TOKEN"
+          export GIT_TERMINAL_PROMPT=0
+          export GIT_CONFIG_COUNT=3
+          export GIT_CONFIG_KEY_0=credential.helper
+          export GIT_CONFIG_VALUE_0=
+          export GIT_CONFIG_KEY_1="http.${SOURCE_URL}.extraHeader"
+          export GIT_CONFIG_VALUE_1="Authorization: Bearer ${SITES_TOKEN}"
+          export GIT_CONFIG_KEY_2=http.followRedirects
+          export GIT_CONFIG_VALUE_2=false
+          git fetch --no-tags --depth=1 "$SOURCE_URL" "$SOURCE_SHA"
+          test "$(git rev-parse FETCH_HEAD)" = "$SOURCE_SHA"
+      - name: Preserve and verify source snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-tree -rl "$SOURCE_SHA" | awk '$4 >= 100000000 {print "File exceeds import limit: " $5; bad=1} END {exit bad}'
+          SOURCE_TREE=$(git rev-parse "${SOURCE_SHA}^{tree}")
+          git switch -c import/site-v209
+          git read-tree --prefix=site/ -u "$SOURCE_SHA"
+          export SOURCE_TREE
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          marker = {
+            'schemaVersion': 1,
+            'siteVersion': 209,
+            'sourceCommit': os.environ['SOURCE_SHA'],
+            'sourceTree': os.environ['SOURCE_TREE'],
+            'destination': 'site/',
+            'verified': True,
+            'sourceScriptsExecuted': False,
+            'productionChanged': False,
+            'importedAt': datetime.now(timezone.utc).isoformat(),
+          }
+          with open('ops/imported-v209.json', 'w') as f:
+            json.dump(marker, f, indent=2)
+            f.write('\n')
+          PY
+          git add ops/imported-v209.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import exact TFAM Sites v209 source snapshot'
+          test "$(git rev-parse HEAD:site)" = "$SOURCE_TREE"
+          git push origin HEAD:refs/heads/import/site-v209
+          {
+            echo '## TFAM v209 source imported'
+            echo 'Branch: import/site-v209'
+            echo "Source commit: $SOURCE_SHA"
+            echo "Verified source tree: $SOURCE_TREE"
+            echo 'No project code executed; no DB, R2 or production deployment changed.'
+            echo 'Remove the temporary import secret now.'
+          } >> "$GITHUB_STEP_SUMMARY"

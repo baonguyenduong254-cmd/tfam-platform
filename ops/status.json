@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-02",
+  "phase": "cloud-bootstrap",
+  "sourceImport": "pending",
+  "production": {
+    "siteVersion": 209,
+    "sourceCommit": "aec9e0a762302e67626d2b70e9bd3d09642b6a4b",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "verified": true
+  },
+  "github": {
+    "repository": "baonguyenduong254-cmd/tfam-platform",
+    "visibility": "private",
+    "connector": "read-write-verified",
+    "productionAutoDeploy": false
+  },
+  "r2": {
+    "status": "existing-user-confirmed",
+    "bucketNameVerified": false,
+    "objectMigrationPerformed": false,
+    "deletionsPerformed": false
+  },
+  "database": {
+    "binding": "DB",
+    "tablesVerified": true,
+    "contentInventory": "blocked-row-too-large",
+    "changesPerformed": false
+  },
+  "next": [
+    "Import exact v209 source on cloud",
+    "Reconcile current production with approved unlock plan before any code change",
+    "Inventory referenced media and R2 mapping",
+    "Audit deprecated source and remove only verified unused files"
+  ],
+  "localExecutionAllowed": false
+}

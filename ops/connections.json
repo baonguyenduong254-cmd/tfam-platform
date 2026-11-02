@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "connections": [
+    {
+      "service": "GitHub",
+      "repository": "baonguyenduong254-cmd/tfam-platform",
+      "role": "source-and-coordination",
+      "status": "connected-private-read-write"
+    },
+    {
+      "service": "Sites",
+      "projectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+      "role": "production-hosting",
+      "status": "existing-live-v209",
+      "gitHubAutoDeploy": "not-configured"
+    },
+    {
+      "service": "D1",
+      "binding": "DB",
+      "role": "live-content-and-reader-data",
+      "status": "schema-inspected",
+      "tables": [
+        "content",
+        "reader_accounts",
+        "reader_progress",
+        "chapter_comments",
+        "chapter_reactions",
+        "chapter_visits",
+        "admin_sessions",
+        "admin_login_limits",
+        "reader_rate_limits"
+      ]
+    },
+    {
+      "service": "R2",
+      "role": "media",
+      "status": "existing-user-confirmed-admin-access-not-yet-verified",
+      "bucket": null,
+      "publicBaseUrl": null
+    }
+  ],
+  "secretNamesOnly": [
+    "TFAM_SITES_IMPORT_TOKEN (temporary GitHub Actions import secret)"
+  ],
+  "notes": [
+    "Do not copy production secret values into this file.",
+    "No R2 connection has been replaced.",
+    "No new database or reader-data copy has been created."
+  ]
+}

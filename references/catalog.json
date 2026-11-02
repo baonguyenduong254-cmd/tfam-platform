@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "gsap",
+      "repository": "https://github.com/greensock/GSAP",
+      "docs": "https://gsap.com/docs/v3/",
+      "purpose": "Reference motion sequencing and reduced-motion behavior",
+      "status": "candidate-not-installed-by-bootstrap",
+      "reviewedRevision": null,
+      "licenseReview": "required-at-adoption",
+      "adoptionNotes": null
+    },
+    {
+      "id": "embla",
+      "repository": "https://github.com/davidjerleke/embla-carousel",
+      "docs": "https://www.embla-carousel.com/",
+      "purpose": "Reference accessible touch carousel and mobile banners",
+      "status": "candidate-not-installed-by-bootstrap",
+      "reviewedRevision": null,
+      "licenseReview": "required-at-adoption",
+      "adoptionNotes": null
+    },
+    {
+      "id": "maplibre",
+      "repository": "https://github.com/maplibre/maplibre-gl-js",
+      "docs": "https://maplibre.org/maplibre-gl-js/docs/",
+      "purpose": "Cartographic interaction reference only; inspect existing static atlas before adding WebGL renderer",
+      "status": "candidate-not-installed-by-bootstrap",
+      "reviewedRevision": null,
+      "licenseReview": "required-at-adoption",
+      "adoptionNotes": null
+    }
+  ]
+}

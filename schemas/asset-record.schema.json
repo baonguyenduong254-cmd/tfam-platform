@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TFAM asset record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assetId",
+    "entityId",
+    "kind",
+    "revision",
+    "location",
+    "status"
+  ],
+  "properties": {
+    "assetId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entityId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "flag",
+        "portrait",
+        "map",
+        "audio",
+        "video",
+        "interface"
+      ]
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "storage",
+        "path"
+      ],
+      "properties": {
+        "storage": {
+          "enum": [
+            "r2",
+            "site-bundle"
+          ]
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "mimeType": {
+      "type": "string"
+    },
+    "byteSize": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "published",
+        "retired"
+      ]
+    }
+  }
+}

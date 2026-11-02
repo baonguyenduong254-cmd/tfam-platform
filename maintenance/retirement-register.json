@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "policy": "Delete only after dependency audit and validation. Use a dedicated cleanup commit/PR. Source import preserves baseline unchanged.",
+  "candidates": [],
+  "auditAreas": [
+    {
+      "area": "Legacy map renderers and retired atlas assets",
+      "status": "inventory-after-source-import",
+      "proofRequired": [
+        "entrypoints",
+        "static-imports",
+        "dynamic-imports",
+        "runtime-references",
+        "build-scripts",
+        "live-content-URLs"
+      ]
+    },
+    {
+      "area": "Superseded styles and duplicated faction layouts",
+      "status": "inventory-after-source-import",
+      "proofRequired": [
+        "route-coverage",
+        "CSS-import-order",
+        "responsive-comparison",
+        "archive-and-modal-coverage"
+      ]
+    },
+    {
+      "area": "Duplicated media in Git and R2",
+      "status": "inventory-after-R2-access",
+      "proofRequired": [
+        "checksum",
+        "working-public-URL",
+        "manifest-consumers",
+        "backup",
+        "cache-behavior"
+      ]
+    }
+  ],
+  "deletions": []
+}
