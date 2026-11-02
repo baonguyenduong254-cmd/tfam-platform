@@ -1,0 +1,67 @@
+name: Validate TFAM 210 in cloud
+on:
+  push:
+    branches: ['task/update-210-interface']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Prepare generated assets on cloud
+        run: |
+          python3 -m pip install --disable-pip-version-check Pillow==12.0.0
+          python3 tools/prepare210-assets.py
+      - name: Back up exact retired portraits without deleting
+        run: python3 tools/backup210-portraits.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: tfam-retired-portraits-72
+          path: reports/legacy-portraits-72.zip
+          retention-days: 90
+          if-no-files-found: error
+      - name: Record optimized media and backup manifest
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A .asset-ingest-210 site/public/art/update210 site/public/heraldry/update210 maintenance/portrait-retirement-210.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Optimize generated 210 art and record 72-portrait backup [skip ci]'
+            git push origin HEAD:task/update-210-interface
+          fi
+      - name: Install pinned application dependencies
+        working-directory: site
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+      - name: Check domain behavior
+        run: npx --yes --package=tsx@4.20.6 tsx tools/check210-domain.ts
+      - name: Check TypeScript
+        working-directory: site
+        run: pnpm exec tsc --noEmit
+      - name: Build production application
+        working-directory: site
+        run: pnpm run build
+      - name: Install cloud browser QA
+        run: |
+          mkdir -p /tmp/tfam-qa
+          npm install --prefix /tmp/tfam-qa playwright@1.56.1
+          node /tmp/tfam-qa/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Browser smoke and responsive screenshots
+        run: |
+          cd site
+          pnpm start > ../reports/preview.log 2>&1 &
+          cd ..
+          node tools/check210-browser.cjs
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: tfam-210-validation
+          path: reports/
+          retention-days: 30
