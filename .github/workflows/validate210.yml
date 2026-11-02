@@ -18,21 +18,13 @@ jobs:
         run: |
           python3 -m pip install --disable-pip-version-check Pillow==12.0.0
           python3 tools/prepare210-assets.py
-      - name: Back up exact retired portraits without deleting
-        run: python3 tools/backup210-portraits.py
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: tfam-retired-portraits-72
-          path: reports/legacy-portraits-72.zip
-          retention-days: 90
-          if-no-files-found: error
-      - name: Record optimized media and backup manifest
+      - name: Record optimized media
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A .asset-ingest-210 site/public/art/update210 site/public/heraldry/update210 maintenance/portrait-retirement-210.json
+          git add -A
           if ! git diff --cached --quiet; then
-            git commit -m 'Optimize generated 210 art and record 72-portrait backup [skip ci]'
+            git commit -m 'Optimize generated 210 art [skip ci]'
             git push origin HEAD:task/update-210-interface
           fi
       - name: Install pinned application dependencies
