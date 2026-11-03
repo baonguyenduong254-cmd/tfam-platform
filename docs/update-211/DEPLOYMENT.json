@@ -1,0 +1,45 @@
+{
+  "release": 211,
+  "execution": "local home device",
+  "implementationPR": 22,
+  "retirementPR": 23,
+  "githubImplementationMerge": "3422ad4bec485c7566811814118fe15fc1228d36",
+  "githubRetirementMerge": "5bb316d08249bbcd617bff5a6d3ad0776e1110e7",
+  "githubSiteTree": "a3ccaeab7bddaa996a6c822481236ae4e4e8e375",
+  "sitesSourceTree": "a3ccaeab7bddaa996a6c822481236ae4e4e8e375",
+  "sourceTreesMatch": true,
+  "savedVersion": {
+    "id": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_212ccc513a388191acb73b19a987b3bd",
+    "project_id": "appgprj_6abf3718495481919a2cd6954776f57e",
+    "version_number": 211,
+    "source": {
+      "commit_sha": "ad15c538a6335a0453585b056174d331370b47f0"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000015a08209925fc20d799439fe",
+      "content_hash": "sha256:660627fc8dc7557a4d4287cf033280419cfe814778e3f8b4049a206c60b80e56",
+      "size_bytes": 119654400,
+      "file_count": 649
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aea72f17578819195982864120be79f",
+    "project_id": "appgprj_6abf3718495481919a2cd6954776f57e",
+    "title": "Through Frost and Myth • Atlas",
+    "version_id": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_212ccc513a388191acb73b19a987b3bd",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6abf3718495481919a2cd6954776f57e",
+    "failure_message": null,
+    "env_set_revision": 1,
+    "updated_at": "2026-11-03T23:49:27.062280+00:00"
+  },
+  "productionDbDestructiveChanges": false,
+  "r2ObjectsDeleted": 0
+}
