@@ -1,11 +1,11 @@
 # Kiến trúc TFAM
 
 ## Hiện trạng đã xác minh
-- Site đang chạy trên ChatGPT Sites; baseline v209.
+- Site đang chạy trên ChatGPT Sites; live version210; baseline nhập nguồn là209.
 - GitHub riêng tư: baonguyenduong254-cmd/tfam-platform; kết nối có quyền đọc/ghi.
 - D1 binding DB có các bảng: content, reader_accounts, reader_progress, chapter_comments, chapter_reactions, chapter_visits, admin_sessions, admin_login_limits, reader_rate_limits.
-- Source v209 đã xác minh R2 public base URL là https://pub-a2e7030237c14362985465386fcae671.r2.dev. Có 2.341 mapping ảnh: military 1.100, monuments 268, vestigium 901, portraits 72. File mẫu trên R2 tải được. Một số ảnh vẫn dùng URL domain site; không phải toàn bộ media đều đã chuyển sang R2.
-- Tên bucket quản trị, phạm vi quyền ghi R2 và bản sao lưu chưa được xác minh. Cấu hình hosting v209 có r2=null: việc đọc media hiện qua URL công khai, không chứng minh một R2 binding quản trị trực tiếp.
+- Source v209 đã xác minh R2 public base URL là https://pub-a2e7030237c14362985465386fcae671.r2.dev. Hiện còn2.269 mapping ảnh: military1.100, monuments268, vestigium901. Đã xóa72 oil portraits trên R2 theo xác nhận chủ dự án; anime Castilian ở source/public. File mẫu trên R2 tải được. Một số ảnh vẫn dùng URL domain site; không phải toàn bộ media đều đã chuyển sang R2.
+- Bucket quản trị đã xác minh: tfam-assets. Đã kiểm kê hết2351 object trước retirement;72 portrait đã xóa, còn2279 object. Truy cập quản trị qua dashboard đã đăng nhập; không tạo R2 API key. Không sao lưu72 ảnh theo yêu cầu chủ dự án. Cấu hình hosting v209 có r2=null: việc đọc media hiện qua URL công khai, không chứng minh một R2 binding quản trị trực tiếp.
 - Nội dung bảng content quá lớn cho công cụ xem hàng hiện tại; chưa có kiểm kê đầy đủ nội dung live.
 
 ## Nguồn chuẩn theo loại dữ liệu
@@ -21,7 +21,7 @@
 | Trạng thái công việc và release | Issues + ops + Git history | Chat chỉ dùng giao tiếp |
 
 ## Bản nhập đã hoàn tất
-Source v209 được giữ nguyên trong site/. Tree SHA: 81de793c8a2d3e23d49bf2ad63b537600e06ee6e. Site production chưa được thay đổi bởi lần nhập.
+Source v209 được giữ nguyên trong site/. Tree SHA: 81de793c8a2d3e23d49bf2ad63b537600e06ee6e. Lần nhập không thay đổi production; đợt210 đã phát hành source cập nhật và được ghi tại ops/releases/210-source.json.
 
 ## Đích vận hành
 ```mermaid
@@ -39,5 +39,5 @@ flowchart LR
     Import --> DB
 ```
 
-Đây là kiến trúc mục tiêu. Mũi tên GitHub → Sites chưa tự động hoạt động chỉ vì đã tạo repo.
+Đường GitHub → source Sites → native Sites publication đã được thực hiện trên cloud cho210. Đây là phát hành theo commit đã kiểm tra, không tự deploy mọi merge.
 Giữ Sites làm hosting hiện tại. Không mở thêm một hệ thống hosting song song trong giai đoạn này.
