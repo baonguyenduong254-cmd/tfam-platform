@@ -1,7 +1,134 @@
 {
   "schemaVersion": 1,
   "policy": "Delete only after dependency audit and validation. Use a dedicated cleanup commit/PR. Source import preserves baseline unchanged.",
-  "candidates": [],
+  "candidates": [
+    {
+      "path": "site/app/components/ReaderIntroduction.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "ChroniclesHub.tsx / compact StoryLibrary",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/app/components/engine/VaultCanvas.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "VestigiumCollection 2D inspection stage",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/app/components/FactionHighlights.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "FactionOverview.tsx and lib/faction-scene.ts",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/app/components/FactionPanorama.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "FactionOverview.tsx and lib/faction-scene.ts",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/app/components/TerrainMap.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "FactionAtlas.tsx static map workspace",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/app/components/CampaignMap.tsx",
+      "status": "confirmed-unused-in-211",
+      "replacement": "FactionAtlas.tsx static map workspace",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/scripts/install-military.mjs",
+      "status": "confirmed-unused-in-211",
+      "replacement": "Integrated military interface / meaningful211domain and browser checks",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/scripts/check-faction-map-lines.mjs",
+      "status": "confirmed-unused-in-211",
+      "replacement": "Integrated military interface / meaningful211domain and browser checks",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    },
+    {
+      "path": "site/scripts/check-painted-world.mjs",
+      "status": "confirmed-unused-in-211",
+      "replacement": "Integrated military interface / meaningful211domain and browser checks",
+      "proof": [
+        "Complete site static/dynamic-reference scan after211 integration",
+        "Package build/dev entrypoints checked",
+        "All root executable tools and workflow contents fetched at main c3c091 and searched; no remaining consumer",
+        "No DB schema/record or R2 URL targets these TSX/source-script paths",
+        "Relevant TypeScript/domain/build passed with files absent"
+      ],
+      "dataOrMediaDeleted": false,
+      "recovery": "Git history before dedicated retirement PR"
+    }
+  ],
   "auditAreas": [
     {
       "area": "Legacy map renderers and retired atlas assets",
@@ -60,5 +187,17 @@
     "report": "maintenance/r2-reconciliation-210.json",
     "confirmedUnusedMedia": 0,
     "deletions": []
+  },
+  "update211": {
+    "checkedAt": "2026-11-04",
+    "implementationPR": 22,
+    "execution": "owner-authorized local home device",
+    "r2Deletions": [],
+    "dbDeletions": [],
+    "retainedActiveInputs": [
+      "character-dossiers-v24 migration input builds audited prelude presentation",
+      "Existing migration/seed patches consumed by server compatibility logic",
+      "Existing public artwork and R2 originals"
+    ]
   }
 }
