@@ -1,5 +1,7 @@
 # Update211 release and rollback
 
+**Released successfully2026-11-04 06:49GMT+7.** Version211; deploymentappgdep_6aea72f17578819195982864120be79f; sourcead15c538a6335a0453585b056174d331370b47f0. Archive hashsha256:660627fc8dc7557a4d4287cf033280419cfe814778e3f8b4049a206c60b80e56. GitHub implementation and retirement PRs22/23 are merged. Live Castilian interface verified. See DEPLOYMENT.json for exact provenance.
+
 Intended label211. Latest saved/live version rechecked2026-11-04 06:11GMT+7:210, deployment appgdep_6ae9248a291c8191a63c76e06d9f8e79, source7ebfd779b0445b35ff5b527c8d0b1aed6e0a8bab. GitHubmain recheckedc3c091157ea2330ea63d93568d7cebd56a7e2eff. Recheck immediately before saving; do not overwrite newer work.
 
 Owner originally required review before merge/deploy. New instruction2026-11-04: continue interface work, start finalQA at06:30 local time, then push to site. This authorizes release after important checks pass. Preserve the existing public audience and Site identity. No production DB seed/reset, destructive migration, environment-variable replacement or R2 deletion.
