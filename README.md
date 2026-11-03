@@ -30,3 +30,6 @@ Kho quản lý chung của Through Frost and Myth. Source, build và phát hành
 - [Release210](docs/RELEASE-210.md) · [Sổ kết nối](ops/connections.json)
 - [Nguồn nhập209](ops/imported-v209.json) là baseline lịch sử, không phải phiên bản live.
 - [Thư viện AI](references/README.md) · [Theo dõi phần cần dọn](maintenance/retirement-register.json)
+
+## Luồng vận hành AI
+Các update sau bắt đầu với [hướng dẫn vận hành AI](docs/AI-OPERATING-WORKFLOW.md), AGENTS.md và issue hiện tại. Có 8 project skills cho thiết kế, React/performance, testing, nghiên cứu web, media và điều phối; xem [danh mục capability](references/skills-capabilities.json). Skill không tự cài hoặc kết nối dịch vụ. Mọi thao tác dự án vẫn trên cloud.

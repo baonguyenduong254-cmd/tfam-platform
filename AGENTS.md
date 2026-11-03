@@ -53,4 +53,10 @@
 - Prefer tools/check210-browser.cjs and targeted additions to it over creating a parallel Python test stack. A skill is guidance, not an installed browser, package or active MCP server.
 - Use rendered-element readiness and Playwright assertions for dynamic pages; networkidle and fixed sleeps alone do not prove readiness. Adapt example paths and placeholder selectors; examples are not TFAM tests.
 - Test previews with isolated data. Do not submit production forms or mutate reader state, DB or R2 during testing without explicit scope.
-- Skill intake does not authorize merge, auto-merge or deployment.
+- Routine skill selection/intake may proceed without another owner review. The owner authorized completing the 2026-11-03 toolchain PR without manual review; this does not enable auto-merge, auto-deploy or blanket authorization for future application releases.
+
+## Durable update workflow
+- For subsequent TFAM website updates, read docs/AI-OPERATING-WORKFLOW.md and load tfam-update-workflow. It routes web research, design, React/performance, testing and media without loading all skills at once.
+- Use tfam-web-research for web access/research and tfam-media-production for image/video/audio work. Discover tools actually available in the current session and read their provider skills; do not claim credentials, a browser, a paid entitlement or an MCP connection from a registry entry.
+- Keep all project execution on cloud. Do not copy host/plugin skills into the repo or install a workstation CLI as fallback.
+- The eight-skill inventory and capability requirements are recorded in references/skills-capabilities.json. External agent-browser/Remotion entries are pinned references only, not installed tools.

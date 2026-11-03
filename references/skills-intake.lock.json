@@ -58,5 +58,45 @@
   ],
   "runtimeDependenciesChanged": false,
   "mcpActivated": false,
-  "fullSecurityAudit": false
+  "fullSecurityAudit": false,
+  "projectAuthored": [
+    {
+      "name": "tfam-web-research",
+      "path": ".agents/skills/tfam-web-research",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    },
+    {
+      "name": "tfam-media-production",
+      "path": ".agents/skills/tfam-media-production",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    },
+    {
+      "name": "tfam-update-workflow",
+      "path": ".agents/skills/tfam-update-workflow",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    }
+  ],
+  "externalReferences": [
+    {
+      "repository": "https://github.com/vercel-labs/agent-browser",
+      "commit": "d081bcddbec5917de997d49212a9ee1ef272c4c4",
+      "status": "reference-only-not-installed",
+      "reason": "CLI discovery stub and scope broader than TFAM; connected cloud tools preferred"
+    },
+    {
+      "repository": "https://github.com/remotion-dev/skills",
+      "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+      "status": "reference-only-not-installed",
+      "reason": "License not located in tree at pin; router needs additional skills; runtime not installed"
+    }
+  ]
 }

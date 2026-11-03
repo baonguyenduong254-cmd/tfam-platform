@@ -40,3 +40,6 @@ Hai commit có thể khác nếu cần đồng bộ source sang kho Sites; phả
 ## Cập nhật cho chủ dự án
 Nói rõ đã commit ở đâu, đã test gì, đã xuất bản chưa, đang vướng gì.
 Nếu chưa live, dùng chữ chưa xuất bản.
+
+## Hướng dẫn cho các update sau
+Luồng AI hiện hành: [AI-OPERATING-WORKFLOW.md](AI-OPERATING-WORKFLOW.md). Đọc trước khi bắt đầu, chọn đúng skill theo loại việc và xác minh capability trong phiên. Chủ dự án cho phép tự chọn/bổ sung skills; quyền release vẫn theo từng task. Bản ghi chuẩn về live là ops/status.json và release record hiện hành, không phải tài liệu chuẩn bị 210 cũ.

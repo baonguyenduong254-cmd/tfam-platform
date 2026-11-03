@@ -28,7 +28,7 @@ Trang https://www.skills.sh/agent/codex là điểm khám phá, không phải da
 
 Các nhãn cảnh báo được quan sát trên listing ngày rà soát; chưa kết luận chúng là mã độc. Không đưa mã từ các ứng viên hoãn vào repo.
 
-Bộ hợp lý sau PR: 5 skills. Frontend: Design Taste; UX/UI + animation: Impeccable; React + performance: Vercel React; interface/a11y: Web Design Guidelines; testing: Anthropic webapp-testing. site/package.json đã có gsap, @gsap/react và motion: không thêm animation dependency.
+Phương án intake ban đầu: 5 skills (đã mở rộng thành 8 theo yêu cầu tiếp theo; xem phần bổ sung cuối báo cáo). Frontend: Design Taste; UX/UI + animation: Impeccable; React + performance: Vercel React; interface/a11y: Web Design Guidelines; testing: Anthropic webapp-testing. site/package.json đã có gsap, @gsap/react và motion: không thêm animation dependency.
 
 ## Review an toàn và xung đột
 
@@ -52,4 +52,12 @@ Kiểm kê bộ cũ không có LICENSE/NOTICE trong các thư mục skill. Khôi
 
 Intake chỉ thêm hướng dẫn, upstream examples/helper và bản ghi; không thay site/, package lock, workflow, production, DB hay R2. Không chạy upstream scripts, launcher hoặc CLI cài skill. Kiểm chứng bằng GitHub tree/blob: đường dẫn, đủ file, nội dung unmodified và SHA so với upstream; kiểm tra diff của branch riêng.
 
-Build/browser runtime không chạy lại: không có thay đổi ứng dụng và workflow validate210 không tự áp dụng cho branch này. Việc có skill không chứng minh MCP hay cloud browser đã được cài/kết nối. PR phải được chủ dự án duyệt; không merge hoặc deploy.
+Build/browser runtime không chạy lại: không có thay đổi ứng dụng và workflow validate210 không tự áp dụng cho branch này. Việc có skill không chứng minh MCP hay cloud browser đã được cài/kết nối. Ở phạm vi ban đầu, PR chờ duyệt; yêu cầu tiếp theo đã bỏ bước owner review cho đợt skills/quy trình này. Không deploy website.
+
+## Bổ sung theo yêu cầu tiếp theo của chủ dự án
+
+Chủ dự án cho phép chủ động đưa skills phù hợp vào repo và viết quy trình cho update sau, không cần duyệt từng skill. Thêm 3 skill nguyên tác TFAM: tfam-web-research, tfam-media-production, tfam-update-workflow. Tổng 8 entrypoint; không sao chép các skill riêng của host/plugin. Luồng chuẩn tại docs/AI-OPERATING-WORKFLOW.md, capability registry tại references/skills-capabilities.json.
+
+Đã đọc entrypoint agent-browser và core tại d081bcddbec5917de997d49212a9ee1ef272c4c4; stub yêu cầu CLI và phạm vi mở rộng tới workstation/Slack/auth state nên chỉ giữ tham khảo. Đã đọc router/README và kiểm tra cây Remotion skills tại c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271; chưa tìm thấy LICENSE, router có nhiều dependency skill nên chưa vendor. Bộ OpenAI playwright tại 49f948faa9258a0c61caceaf225e179651397431 cũng được khảo sát: CLI-first, có hướng dẫn npx/global install, không cần thêm song song với harness và công cụ cloud hiện có. Các lựa chọn này không ngăn dùng công cụ/provider phù hợp khi một task video hoặc browser thực sự yêu cầu.
+
+Đã đọc và áp dụng skill-creator cho cấu trúc/description và phạm vi 3 skill mới. Không chạy initializer/quick_validate trên workstation vì dự án cloud-only; kiểm tra cấu trúc, tên, references và phạm vi bằng review nội dung/GitHub tree. Không thêm script thực thi mới, không có test runtime để báo pass. Hồ sơ intake sẽ ghi commit hợp nhất riêng; production giữ nguyên.
