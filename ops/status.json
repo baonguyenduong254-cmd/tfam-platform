@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-03",
-  "phase": "update-210-validated-awaiting-publication",
+  "phase": "update-210-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 209,
-    "sourceCommit": "aec9e0a762302e67626d2b70e9bd3d09642b6a4b",
+    "siteVersion": 210,
+    "sourceCommit": "7ebfd779b0445b35ff5b527c8d0b1aed6e0a8bab",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
-    "verified": true
+    "verified": true,
+    "deploymentId": "appgdep_6ae9248a291c8191a63c76e06d9f8e79"
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
@@ -17,7 +18,8 @@
     "sourcePath": "site/",
     "importPR": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/6",
     "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
-    "importSecretRemoved": true
+    "importSecretRemoved": true,
+    "manualCloudRelease": "verified"
   },
   "r2": {
     "status": "full-dashboard-inventory-reconciled",
@@ -26,7 +28,7 @@
     "deletionsPerformed": true,
     "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
     "legacyPathMappings": 2269,
-    "adminWriteAccessVerified": false,
+    "adminWriteAccessVerified": true,
     "bucket": "tfam-assets",
     "fullInventoryComplete": true,
     "objectCount": 2279,
@@ -36,7 +38,8 @@
     "confirmedUnusedMedia": 0,
     "inventoryReport": "maintenance/r2-reconciliation-210.json",
     "deletedPortraits": 72,
-    "portraitRetirementReport": "maintenance/portrait-retirement-210.json"
+    "portraitRetirementReport": "maintenance/portrait-retirement-210.json",
+    "adminAccessMethod": "authenticated-dashboard"
   },
   "database": {
     "binding": "DB",
@@ -45,9 +48,8 @@
     "changesPerformed": false
   },
   "next": [
-    "Authorize temporary encrypted Sites source credential handoff to private GitHub Actions",
-    "Push validated site subtree to Sites; save and deploy version210",
-    "Verify production and record final release"
+    "Native UHD throne-hall artwork remains a follow-up; current generation is1672x941",
+    "For new ideas, recheck current Sites version and work through a GitHub task branch"
   ],
   "localExecutionAllowed": false,
   "preparation210": {
@@ -70,11 +72,13 @@
     "typescript": "passed",
     "productionBuild": "passed",
     "browserChecks": "passed-390-768-1920",
-    "productionDeployed": false,
+    "productionDeployed": true,
     "throneArtworkNativeDimensions": [
       1672,
       941
     ],
-    "nativeUhd": false
+    "nativeUhd": false,
+    "deploymentId": "appgdep_6ae9248a291c8191a63c76e06d9f8e79",
+    "liveChecks": "passed"
   }
 }
