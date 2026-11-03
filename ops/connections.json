@@ -11,8 +11,9 @@
       "service": "Sites",
       "projectId": "appgprj_6abf3718495481919a2cd6954776f57e",
       "role": "production-hosting",
-      "status": "existing-live-v209",
-      "gitHubAutoDeploy": "not-configured"
+      "status": "existing-live-v210",
+      "gitHubAutoDeploy": "not-configured",
+      "manualCloudRelease": "verified"
     },
     {
       "service": "D1",
@@ -34,11 +35,12 @@
     {
       "service": "R2",
       "role": "media",
-      "status": "source-mapping-and-sample-read-verified",
-      "bucket": null,
+      "status": "inventory-reconciled-and-72-portrait-retirement-completed",
+      "bucket": "tfam-assets",
       "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
-      "legacyPathMappings": 2341,
-      "adminWriteAccessVerified": false
+      "legacyPathMappings": 2269,
+      "adminWriteAccessVerified": true,
+      "adminAccessMethod": "authenticated-dashboard"
     }
   ],
   "secretNamesOnly": [],
@@ -46,6 +48,8 @@
     "Do not copy production secret values into this file.",
     "No R2 connection has been replaced.",
     "No new database or reader-data copy has been created.",
-    "Temporary source import secret was removed after successful import."
+    "Temporary source import secret was removed after successful import.",
+    "Version210 source synchronized and published entirely on cloud; one-run encrypted credential relay deleted after completion.",
+    "72 historical oil portraits permanently deleted on2026-11-03 after owner confirmation; no backup per owner instruction."
   ]
 }
