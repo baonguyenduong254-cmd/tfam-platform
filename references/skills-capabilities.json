@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-03",
+  "skills": [
+    {
+      "name": "design-taste-frontend",
+      "path": ".agents/skills/design-taste-frontend",
+      "purpose": "frontend design",
+      "origin": "vendored",
+      "lock": "references/toolchain-210.lock.json"
+    },
+    {
+      "name": "impeccable",
+      "path": ".agents/skills/impeccable",
+      "purpose": "UX/UI, responsive, animation",
+      "origin": "vendored",
+      "lock": "references/toolchain-210.lock.json"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "path": ".agents/skills/vercel-react-best-practices",
+      "purpose": "React and performance",
+      "origin": "vendored",
+      "lock": "references/toolchain-210.lock.json"
+    },
+    {
+      "name": "web-design-guidelines",
+      "path": ".agents/skills/web-design-guidelines",
+      "purpose": "interface review",
+      "origin": "vendored",
+      "lock": "references/toolchain-210.lock.json"
+    },
+    {
+      "name": "webapp-testing",
+      "path": ".agents/skills/webapp-testing",
+      "purpose": "browser testing guidance",
+      "origin": "vendored",
+      "lock": "references/skills-intake.lock.json"
+    },
+    {
+      "name": "tfam-web-research",
+      "path": ".agents/skills/tfam-web-research",
+      "purpose": "web research/access routing",
+      "origin": "project-authored",
+      "lock": null
+    },
+    {
+      "name": "tfam-media-production",
+      "path": ".agents/skills/tfam-media-production",
+      "purpose": "image/video/audio production routing",
+      "origin": "project-authored",
+      "lock": null
+    },
+    {
+      "name": "tfam-update-workflow",
+      "path": ".agents/skills/tfam-update-workflow",
+      "purpose": "cloud update coordination",
+      "origin": "project-authored",
+      "lock": null
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "github",
+      "requirement": "Authorized connected GitHub tools",
+      "activation": "check tools and current permissions each session"
+    },
+    {
+      "id": "web",
+      "requirement": "Search/fetch tools, or confirmed cloud browser for interactive pages",
+      "activation": "not provided by a skill file"
+    },
+    {
+      "id": "execution",
+      "requirement": "Configured cloud runner",
+      "activation": "no workstation fallback"
+    },
+    {
+      "id": "image-video-audio",
+      "requirement": "Available generation/editing provider and entitlement",
+      "activation": "discover tools; read provider skill; session and cost may need confirmation"
+    }
+  ],
+  "externalReferences": [
+    {
+      "repository": "https://github.com/vercel-labs/agent-browser",
+      "commit": "d081bcddbec5917de997d49212a9ee1ef272c4c4",
+      "status": "reference-only-not-installed",
+      "reason": "CLI discovery stub and scope broader than TFAM; connected cloud tools preferred"
+    },
+    {
+      "repository": "https://github.com/remotion-dev/skills",
+      "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+      "status": "reference-only-not-installed",
+      "reason": "License not located in tree at pin; router needs additional skills; runtime not installed"
+    }
+  ],
+  "workflow": "docs/AI-OPERATING-WORKFLOW.md",
+  "deploymentAuthorization": "per-task"
+}

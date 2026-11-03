@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-03",
+  "baseCommit": "40079ac6e9211c221fd238809b3fa6c04b553aa3",
+  "existingPins": "references/toolchain-210.lock.json",
+  "added": [
+    {
+      "name": "webapp-testing",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/webapp-testing",
+      "destination": ".agents/skills/webapp-testing",
+      "license": "Apache-2.0",
+      "upstreamUnmodified": true,
+      "files": [
+        {
+          "path": "examples/static_html_automation.py",
+          "gitBlobSha": "90bbedcc08cdb345c74fb938ebad02c0baf56603"
+        },
+        {
+          "path": "LICENSE.txt",
+          "gitBlobSha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "gitBlobSha": "4726215301db64a0cc4d41fc3219c61f37a30f4a"
+        },
+        {
+          "path": "examples/console_logging.py",
+          "gitBlobSha": "9329b5e232ed53d944bfe95e750070117d31b9ab"
+        },
+        {
+          "path": "scripts/with_server.py",
+          "gitBlobSha": "431f2eba16b268b7f3e2ae4daae9db41c0289b6d"
+        },
+        {
+          "path": "examples/element_discovery.py",
+          "gitBlobSha": "917ba72f52421a1b324f93ae8e38af72010a87b9"
+        }
+      ],
+      "sourceReviewed": true,
+      "executed": false
+    }
+  ],
+  "licenseRestoration": [
+    {
+      "destination": ".agents/skills/design-taste-frontend/LICENSE",
+      "upstream": "https://github.com/Leonxlnx/taste-skill/blob/12af471f627f866411b4bd785b19646d3672784c/LICENSE"
+    },
+    {
+      "destination": ".agents/skills/impeccable/LICENSE",
+      "upstream": "https://github.com/pbakaus/impeccable/blob/e89e3ada3e875a89ac2c5d33d11e65ebef6fe285/LICENSE"
+    },
+    {
+      "destination": ".agents/skills/impeccable/NOTICE.md",
+      "upstream": "https://github.com/pbakaus/impeccable/blob/e89e3ada3e875a89ac2c5d33d11e65ebef6fe285/NOTICE.md"
+    }
+  ],
+  "runtimeDependenciesChanged": false,
+  "mcpActivated": false,
+  "fullSecurityAudit": false,
+  "projectAuthored": [
+    {
+      "name": "tfam-web-research",
+      "path": ".agents/skills/tfam-web-research",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    },
+    {
+      "name": "tfam-media-production",
+      "path": ".agents/skills/tfam-media-production",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    },
+    {
+      "name": "tfam-update-workflow",
+      "path": ".agents/skills/tfam-update-workflow",
+      "revision": 1,
+      "createdAt": "2026-11-03",
+      "source": "Original TFAM operating guidance; no external source copied",
+      "scripts": 0
+    }
+  ],
+  "externalReferences": [
+    {
+      "repository": "https://github.com/vercel-labs/agent-browser",
+      "commit": "d081bcddbec5917de997d49212a9ee1ef272c4c4",
+      "status": "reference-only-not-installed",
+      "reason": "CLI discovery stub and scope broader than TFAM; connected cloud tools preferred"
+    },
+    {
+      "repository": "https://github.com/remotion-dev/skills",
+      "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+      "status": "reference-only-not-installed",
+      "reason": "License not located in tree at pin; router needs additional skills; runtime not installed"
+    }
+  ]
+}
