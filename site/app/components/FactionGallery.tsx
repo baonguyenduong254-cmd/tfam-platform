@@ -5,7 +5,7 @@ import {useRef} from 'react';
 import {createPortal} from 'react-dom';
 import {BookOpen,Crown,Flag,Landmark,Shield,Swords,Users,X} from 'lucide-react';
 import {factionCapital} from '../../lib/faction-content';
-import {sceneArt} from './FactionPanorama';
+import {sceneArt} from '../../lib/faction-scene';
 import {unitIllustration} from '../../lib/unit-art';
 import useModalFocus from '../hooks/useModalFocus';
 type R=Record<string,any>;

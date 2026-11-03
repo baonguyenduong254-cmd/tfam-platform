@@ -29,4 +29,13 @@ export const factionThemes:Record<string,RoyalPalette>={
 };
 export const defaultFaction='castilian_empire';
 export function factionTheme(id:string){return factionThemes[id]||factionThemes[defaultFaction];}
-export function royalThemeVariables(id:string):Record<string,string>{return Object.fromEntries(Object.entries({...factionThemes[defaultFaction],ink:'#211b1b',accent:'#8d1538',metal:'#785e37'}).map(([k,v])=>['--royal-'+k,v]));}
+
+/** Interior night palettes share roles while keeping each faction's atmosphere. */
+const nightThemes:Record<string,RoyalPalette>={
+ castilian_empire:palette('#111018','#1c1722','#2a202d','#f2eadc','#e591a4','#bba276'),
+ sultanate_of_morocco:palette('#0c1719','#142326','#213236','#f0e9dc','#9bd3bc','#c3ad79')
+};
+export function royalThemeVariables(id:string):Record<string,string>{
+ const values=nightThemes[id]||nightThemes.castilian_empire;
+ return Object.fromEntries(Object.entries(values).flatMap(([key,value])=>[['--royal-'+key,value],['--world-'+({paper:'ground',surface:'surface',wash:'raised',ink:'ink',accent:'accent',metal:'metal'}[key]||key),value]]));
+}

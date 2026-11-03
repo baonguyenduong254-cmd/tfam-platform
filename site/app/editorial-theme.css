@@ -83,16 +83,9 @@ body.tfam-editorial :is(.archive-heading h2,.military-masthead h2,.monument-intr
 body.tfam-editorial .archive-heading h2{font-size:clamp(32px,4vw,56px)}
 body.tfam-editorial .archive-sections button{background:none;box-shadow:none;border:0;border-bottom:1px solid #9da98e38;border-radius:0;color:#aeb8aa;padding-block:16px}
 body.tfam-editorial .archive-sections button.active{background:none;box-shadow:none;color:#f0e7d4;border-bottom-color:#cfc3a7}
-body.tfam-editorial .character-layout{background:none;border:0;box-shadow:none!important;margin:0;gap:clamp(30px,5vw,85px)}
 body.tfam-editorial .character-list{border:0;background:none;padding:15px 0}
 body.tfam-editorial .character-list button{border:0;border-bottom:1px solid #a4af972d;background:none;box-shadow:none;border-radius:0;color:#aeb9ae;padding:18px 8px}
 body.tfam-editorial .character-list button.selected{border-color:#d3c9ac80;background:none;color:#f0ebdd;box-shadow:none}
-body.tfam-editorial .character-profile{border:0;border-radius:0;background:#101c29;box-shadow:none;overflow:hidden}
-body.tfam-editorial .character-profile .portrait{border:0;border-radius:0;box-shadow:none}
-body.tfam-editorial .character-backdrop{opacity:.09}
-body.tfam-editorial .character-copy-v24 h2{font-weight:400;font-size:clamp(32px,3vw,49px);letter-spacing:-.03em;color:#eee6d5;text-shadow:none}
-body.tfam-editorial .character-copy-v24 section{background:none;border:0;border-top:1px solid var(--line);box-shadow:none;border-radius:0;padding-top:28px}
-body.tfam-editorial .character-copy-v24 h3{font-size:19px;font-weight:400;color:#c9cbb9}
 body.tfam-editorial .dossier-entry{background:none;border:0;box-shadow:none}
 body.tfam-editorial :is(.military-masthead,.monument-intro,.vest-intro){background:none;border:0;border-bottom:1px solid var(--line);box-shadow:none;border-radius:0;padding:45px 0}
 body.tfam-editorial .monument-intro h2{font-size:clamp(30px,4.5vw,58px)}
@@ -127,7 +120,7 @@ body.tfam-editorial .copyright-footer{background:#0a111b;border-top:1px solid va
 @keyframes editorial-image-drift{from{transform:scale(1.055)}to{transform:scale(1)}}
 @media(min-width:1500px){body.tfam-editorial .faction-highlights{padding-top:65px;padding-bottom:85px}}
 @media(max-width:1100px){.editorial-hero-body{grid-template-columns:minmax(0,1fr) 260px;gap:30px}.editorial-hero h1{font-size:clamp(72px,10vw,120px)}.editorial-scene strong{max-width:270px}body.tfam-editorial .faction-strip{grid-template-columns:repeat(4,minmax(0,1fr))}body.tfam-editorial .highlight-frame{padding-inline:15px}}
-@media(max-width:760px){.editorial-hero{min-height:850px;min-height:100svh;padding:20px 23px 25px}.editorial-hero-top{padding-bottom:15px}.editorial-wordmark{font-size:28px}.editorial-wordmark span{display:none}.editorial-volume{font-size:8px;max-width:210px;gap:12px}.editorial-volume b{font-size:26px}.editorial-hero-body{display:block;padding:75px 0 45px}.editorial-kicker{font-size:9px;letter-spacing:.08em;margin-bottom:24px}.editorial-hero h1{font-size:clamp(64px,14vw,106px);line-height:.94;letter-spacing:-.055em}.editorial-author{font-size:11px;margin-top:20px}.editorial-hero-aside{margin-top:40px;max-width:390px}.editorial-label{font-size:9px}.editorial-hero-aside blockquote{font-size:15px;line-height:1.75;margin:13px 0 20px;max-width:38ch}.editorial-hero .editorial-pill{min-height:44px;font-size:13px;padding:11px 19px}.editorial-hero-bottom{align-items:center;gap:20px}.editorial-hero .editorial-scroll{font-size:8px;max-width:105px;text-align:left;gap:10px}.editorial-scene{gap:10px;flex-direction:column;align-items:end}.editorial-scene>div:first-child{text-align:right}.editorial-scene strong{font-size:15px;max-width:210px}.editorial-scene>div>span{font-size:7px}.editorial-scene-controls{gap:10px}.editorial-hero .editorial-scene-controls button{width:38px;height:38px;min-height:38px}.editorial-scene-controls>span{font-size:10px!important}body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{padding:12px 18px}body.tfam-editorial .campaign-app .command-bar nav button{font-size:14px;padding:9px;min-height:48px}body.tfam-editorial .faction-strip{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:25px}body.tfam-editorial .faction-strip button{font-size:13px;min-height:137px;padding:16px 7px}body.tfam-editorial .faction-monogram{width:53px;height:60px}body.tfam-editorial .imperial-panorama{height:410px}body.tfam-editorial .panorama-copy{padding:35px 25px}body.tfam-editorial .panorama-title-row h2{font-size:32px}body.tfam-editorial .panorama-number{font-size:90px}body.tfam-editorial .faction-highlights{padding:10px 20px 35px}body.tfam-editorial .highlight-frame{padding:25px 0}body.tfam-editorial .archive-hub{padding:35px 20px}body.tfam-editorial .archive-heading{padding-bottom:25px}body.tfam-editorial .character-layout{gap:25px}body.tfam-editorial .monument-grid{gap:25px}body.tfam-editorial .monument-intro{padding:20px 0 30px}body.tfam-editorial .vest-intro{padding:40px 0 30px}}
+@media(max-width:760px){.editorial-hero{min-height:850px;min-height:100svh;padding:20px 23px 25px}.editorial-hero-top{padding-bottom:15px}.editorial-wordmark{font-size:28px}.editorial-wordmark span{display:none}.editorial-volume{font-size:8px;max-width:210px;gap:12px}.editorial-volume b{font-size:26px}.editorial-hero-body{display:block;padding:75px 0 45px}.editorial-kicker{font-size:9px;letter-spacing:.08em;margin-bottom:24px}.editorial-hero h1{font-size:clamp(64px,14vw,106px);line-height:.94;letter-spacing:-.055em}.editorial-author{font-size:11px;margin-top:20px}.editorial-hero-aside{margin-top:40px;max-width:390px}.editorial-label{font-size:9px}.editorial-hero-aside blockquote{font-size:15px;line-height:1.75;margin:13px 0 20px;max-width:38ch}.editorial-hero .editorial-pill{min-height:44px;font-size:13px;padding:11px 19px}.editorial-hero-bottom{align-items:center;gap:20px}.editorial-hero .editorial-scroll{font-size:8px;max-width:105px;text-align:left;gap:10px}.editorial-scene{gap:10px;flex-direction:column;align-items:end}.editorial-scene>div:first-child{text-align:right}.editorial-scene strong{font-size:15px;max-width:210px}.editorial-scene>div>span{font-size:7px}.editorial-scene-controls{gap:10px}.editorial-hero .editorial-scene-controls button{width:38px;height:38px;min-height:38px}.editorial-scene-controls>span{font-size:10px!important}body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{padding:12px 18px}body.tfam-editorial .campaign-app .command-bar nav button{font-size:14px;padding:9px;min-height:48px}body.tfam-editorial .faction-strip{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:25px}body.tfam-editorial .faction-strip button{font-size:13px;min-height:137px;padding:16px 7px}body.tfam-editorial .faction-monogram{width:53px;height:60px}body.tfam-editorial .imperial-panorama{height:410px}body.tfam-editorial .panorama-copy{padding:35px 25px}body.tfam-editorial .panorama-title-row h2{font-size:32px}body.tfam-editorial .panorama-number{font-size:90px}body.tfam-editorial .faction-highlights{padding:10px 20px 35px}body.tfam-editorial .highlight-frame{padding:25px 0}body.tfam-editorial .archive-hub{padding:35px 20px}body.tfam-editorial .archive-heading{padding-bottom:25px}body.tfam-editorial .monument-grid{gap:25px}body.tfam-editorial .monument-intro{padding:20px 0 30px}body.tfam-editorial .vest-intro{padding:40px 0 30px}}
 
 html[data-motion=off] .editorial-hero-art,html[data-motion=off] .editorial-hero-art img,html[data-motion=off] .editorial-entered{animation:none!important}
 @media print{.editorial-hero{display:none}}
@@ -159,16 +152,11 @@ body.tfam-editorial .campaign-workspace{display:flex;flex-direction:column;gap:0
 body.tfam-editorial .campaign-map-column{width:100%}
 body.tfam-editorial .imperial-panorama{width:100%;height:auto;min-height:480px}
 body.tfam-editorial .faction-highlights{width:100%}
-body.tfam-editorial .character-profile{background:#101c29}
 body.tfam-editorial :is(select,input[type=search],.military-search){color:#e2edf4;background:#111e2c;border:1px solid #91acc24d;border-radius:3px}
-body.tfam-editorial :is(.archive-heading,.character-layout){border-image:none}
 body.tfam-editorial .archive-heading{padding-top:12px}
-body.tfam-editorial .character-layout{grid-template-columns:230px minmax(0,1fr);align-items:start}
-body.tfam-editorial .character-profile{padding:30px;gap:30px}
 body.tfam-editorial .map-heading-compass{color:#a9cbe1}
 body.tfam-editorial .atlas-content{position:relative;min-height:60vh;isolation:isolate}
 body.tfam-editorial .atlas-view[hidden]{display:none!important}
-body.tfam-editorial .atlas-content :is(.character-profile,.character-copy-v24 section){animation:none!important}
 .editorial-hero{min-height:clamp(720px,94svh,1080px);background:#0c1826;padding-top:26px}
 .editorial-hero::after{background:linear-gradient(90deg,#040e1af2 0%,#061220b0 35%,#07132130 70%),linear-gradient(0deg,#0a111b 0%,#06121d20 42%,#07142166 100%)}
 .editorial-hero-art{inset:0 0 0 30%;animation:editorial-image-in .55s ease both}
@@ -199,9 +187,7 @@ body.tfam-editorial .copyright-footer{background:#0a111b}
 body.tfam-editorial .campaign-app .command-bar nav.tfam-main-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
 body.tfam-editorial .campaign-app .command-bar nav button{flex-direction:column;font-size:11px;padding:7px 2px;gap:4px;min-height:54px;white-space:normal}
 body.tfam-editorial .campaign-app .command-bar.command-bar-with-tools{padding:7px 12px;min-height:0;gap:3px 12px}
-body.tfam-editorial .command-utilities :is(.gear-toggle,.reader-account-button){width:36px;height:36px;min-height:36px;min-width:36px;padding:7px}.command-utilities .site-tools-popover{top:44px}
-body.tfam-editorial .character-layout{display:block}.editorial-scene strong{max-width:190px}.editorial-hero-bottom{gap:12px}.editorial-hero .editorial-scroll{max-width:100px}
-body.tfam-editorial .character-profile{padding:20px;gap:24px}.editorial-hero .editorial-pill{min-height:44px}
+body.tfam-editorial .command-utilities :is(.gear-toggle,.reader-account-button){width:36px;height:36px;min-height:36px;min-width:36px;padding:7px}.command-utilities .site-tools-popover{top:44px}.editorial-scene strong{max-width:190px}.editorial-hero-bottom{gap:12px}.editorial-hero .editorial-scroll{max-width:100px}.editorial-hero .editorial-pill{min-height:44px}
 }
 
 

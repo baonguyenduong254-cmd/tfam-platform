@@ -59,13 +59,7 @@
   .tfam-editorial :where(.destination-banner,.faction-strip>button,.highlight-person,.military-unit-card,.monument-card,.vest-object):hover :where(.faction-flag-frame,.faction-monogram,.highlight-person-portrait,.military-card-art,.monument-art,.vest-object-art) img { scale: 1.035; }
 }
 /* Content entrance also works when native View Transitions are unavailable. */
-.tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection) {
-  animation: tfam-content-arrive var(--motion-panel) var(--motion-ease) both;
-}
 .tfam-editorial .story-reader { animation: tfam-page-arrive 240ms ease-out both; }
-.tfam-editorial :where(.character-profile,.military-dossier-copy,.monument-body) {
-  animation: tfam-content-arrive 320ms var(--motion-ease) both;
-}
 .tfam-editorial :where(.site-tools-popover,.account-popover,.province-popup) {
   transform-origin: top right;
   animation: tfam-popover-arrive 220ms var(--motion-ease) both;
@@ -97,18 +91,11 @@
 .tfam-editorial .scene-in.scene-voyage .banner-list .destination-banner {
   animation: none;
 }
-.tfam-editorial .arrival-copy { animation: tfam-content-arrive 650ms var(--motion-ease) both; }
 .tfam-editorial .arrival-destinations { animation: tfam-content-arrive 500ms 100ms var(--motion-ease) both; }
 /* Keep the navigation steady while the active content changes beneath it. */
-.world-campaign:not([inert]) .atlas-content { view-transition-name: atlas-content; }
-::view-transition-group(atlas-content) { animation-duration: 420ms; animation-timing-function: var(--motion-ease); }
 ::view-transition-old(root),::view-transition-new(root) { animation: none; }
-::view-transition-old(atlas-content) { animation: tfam-view-leave 180ms ease-out both; }
-::view-transition-new(atlas-content) { animation: tfam-view-arrive 420ms var(--motion-ease) both; }
 html:root[data-world-scene=vestigium]::view-transition-new(root),
 html:root[data-world-scene=reader]::view-transition-new(root) { animation: none; }
-html[data-world-scene=vestigium]::view-transition-new(atlas-content) { animation: tfam-vault-arrive 520ms var(--motion-ease) both; }
-html[data-world-scene=reader]::view-transition-new(atlas-content) { animation: tfam-page-arrive 240ms ease-out both; }
 @keyframes tfam-content-arrive { from { opacity:0; translate:0 12px; } to { opacity:1; translate:0 0; } }
 @keyframes tfam-page-arrive { from { opacity:0; } to { opacity:1; } }
 @keyframes tfam-popover-arrive { from { opacity:0; translate:0 -6px; scale:.98; } to { opacity:1; translate:0 0; scale:1; } }
@@ -164,12 +151,6 @@ html[data-motion=off] .tfam-editorial dialog[data-motion-closing=true]{animation
 /* Desktop: a legible, compositor-only entrance; no geometry or map-camera tween. */
 @media(min-width:1000px){
  :root{--motion-ui:300ms;--motion-panel:650ms}
- ::view-transition-group(atlas-content){animation-duration:650ms}
- ::view-transition-old(atlas-content){animation:tfam-desktop-leave 240ms ease-out both}
- ::view-transition-new(atlas-content){animation:tfam-desktop-arrive 650ms var(--motion-ease) both}
- .tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection){animation:tfam-desktop-arrive 650ms var(--motion-ease) both}
- body.tfam-editorial .atlas-content .character-profile{animation:tfam-desktop-arrive 550ms var(--motion-ease) both!important}
- .tfam-editorial .arrival-copy{animation:tfam-desktop-arrive 850ms var(--motion-ease) both}
  .tfam-editorial .tfam-main-nav button:hover{translate:0 -3px;background-color:#b8a47615;box-shadow:inset 0 -2px #d4bd8677}
 }
 @keyframes tfam-desktop-arrive{from{opacity:0;transform:translate3d(0,28px,0) scale(.992)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}

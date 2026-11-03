@@ -95,3 +95,14 @@ export function milestoneState(m:Milestone,readIds:Set<string>,catalog:CatalogEn
 }
 export function canExplore(id:string,earned:ReadonlySet<string>){return ['castilian_empire','sultanate_of_morocco'].includes(id)||!!unlockRequirements[id]&&earned.has(unlockRequirements[id]);}
 export function requirementText(id:string,earned:ReadonlySet<string>,milestones:Milestone[]){if(canExplore(id,earned))return 'Available';const key=unlockRequirements[id];if(key?.startsWith('side-'))return 'Required side story not yet available';const m=milestones.find(m=>m.id===key);return m?'Complete '+m.title+(m.closed?'':' · Required arc not yet fully available'):'Not yet available';}
+
+/** Only completed, published text counts; edition equivalences require every part. */
+export function coveredChapters(milestones:Milestone[],readIds:ReadonlySet<string>,catalog:CatalogEntry[]){
+ const published=new Set(catalog.filter(c=>c.complete).map(c=>c.id));
+ const covered=new Set([...readIds].filter(id=>published.has(id)));
+ for(const milestone of milestones){
+  for(const [english,units] of Object.entries(milestone.englishCoverage))if(covered.has(english))units.forEach(id=>covered.add(id));
+  for(const [unit,chapters] of Object.entries(milestone.contentEquivalents||{}))if(chapters.length&&chapters.every(id=>covered.has(id)))covered.add(unit);
+ }
+ return covered;
+}

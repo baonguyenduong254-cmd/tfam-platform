@@ -1,0 +1,97 @@
+{
+  "reason": "Replaced faction arrival and archive identity; removed superseded overrides instead of stacking important declarations.",
+  "rules": [
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-art img"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-art:after"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-copy :is(h1,p)"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .experience-atmosphere"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .archive-heading,body.tfam-editorial.tfam-royal .is-character-archive .archive-heading"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading h2,.archive-heading-title>svg),body.tfam-editorial.tfam-royal .is-character-archive #archive-title"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .archive-faction-picker,body.tfam-editorial.tfam-royal .is-character-archive .archive-heading .eyebrow"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": ".tfam-royal .world-arrival .arrival-art:after"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading,.military-masthead,.vest-salon-intro)"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading h2,.military-masthead h2,.vest-salon-intro h2)"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival::after"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-copy"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-quote"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading-title,.military-kicker,.monument-intro,.vest-salon-arch) svg"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .archive-heading"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal .archive-heading"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading,.map-panel,.cartography-desk,.character-command-layout,.military-doctrine,.military-unit-card,.monument-intro,.monument-card,.vest-salon-intro,.vest-object,.gallery-record)"
+    },
+    {
+      "file": "site/app/royal-theme.css",
+      "selector": "body.tfam-editorial.tfam-royal :is(.archive-heading,.character-command-layout,.gallery-record)"
+    },
+    {
+      "file": "site/app/update201.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-art:after"
+    },
+    {
+      "file": "site/app/update201.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-copy"
+    },
+    {
+      "file": "site/app/update201.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-copy :is(h1,p),body.tfam-editorial.tfam-royal .world-arrival .arrival-quote"
+    },
+    {
+      "file": "site/app/update201.css",
+      "selector": "body.tfam-editorial.tfam-royal .world-arrival .arrival-copy .experience-eyebrow"
+    }
+  ]
+}

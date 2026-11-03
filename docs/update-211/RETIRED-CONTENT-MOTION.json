@@ -1,0 +1,13 @@
+[
+  ".tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection)",
+  ".world-campaign:not([inert]) .atlas-content",
+  "::view-transition-group(atlas-content)",
+  "::view-transition-old(atlas-content)",
+  "::view-transition-new(atlas-content)",
+  "html[data-world-scene=vestigium]::view-transition-new(atlas-content)",
+  "html[data-world-scene=reader]::view-transition-new(atlas-content)",
+  "::view-transition-group(atlas-content)",
+  "::view-transition-old(atlas-content)",
+  "::view-transition-new(atlas-content)",
+  ".tfam-editorial .atlas-content > :where(.atlas-view:not([hidden]),.archive-hub,.vest-collection)"
+]

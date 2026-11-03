@@ -7,8 +7,7 @@
 .archive-heading-title{display:flex;gap:18px;align-items:center}.archive-heading-title>svg{color:#d6c596;flex-shrink:0}.archive-heading h2{font-size:36px;margin:4px 0 0;color:#e4e9df}
 .archive-faction-picker{display:grid;gap:9px;font-size:15px;color:#c4d6df}.archive-faction-picker select{width:100%;min-width:0;min-height:48px;border:1px solid #88aab866;background:#091e2b;color:#e1e8e6;padding:10px 14px;font:18px/1.5 var(--reading-font),serif;border-radius:3px}
 .archive-current-faction{display:flex;align-items:center;gap:18px;min-width:0}.archive-current-faction img{width:70px;height:80px;object-fit:contain;flex-shrink:0}.archive-current-faction strong{font:500 25px/1.4 var(--display-font),serif;color:#ded1ab}
-.archive-sections{display:grid;grid-template-columns:1fr 1fr;gap:10px}.archive-sections button{display:flex;align-items:center;justify-content:center;gap:10px;min-height:58px;border:1px solid #86abb45c;background:#0a2230;color:#b8cbd3;font:18px/1.4 var(--reading-font),serif;padding:12px 16px}.archive-sections button.active{color:#f3e5bc;border-color:#c9bc91;background:linear-gradient(135deg,#38505a88,#193744);box-shadow:inset 0 0 18px #bbdce912,0 0 12px #b2d5dc10}
-.archive-hub .character-layout{margin:22px 0 0}.archive-hub .military-roster{margin:24px 0 0;padding:0}.archive-empty{display:grid;justify-items:center;text-align:center;padding:55px 25px;margin-top:22px;color:#aec6d3}.archive-empty>svg{color:#c8ba94}.archive-empty h3{font-size:25px}.archive-empty p{font-size:17px;line-height:1.8}
+.archive-sections{display:grid;grid-template-columns:1fr 1fr;gap:10px}.archive-sections button{display:flex;align-items:center;justify-content:center;gap:10px;min-height:58px;border:1px solid #86abb45c;background:#0a2230;color:#b8cbd3;font:18px/1.4 var(--reading-font),serif;padding:12px 16px}.archive-sections button.active{color:#f3e5bc;border-color:#c9bc91;background:linear-gradient(135deg,#38505a88,#193744);box-shadow:inset 0 0 18px #bbdce912,0 0 12px #b2d5dc10}.archive-hub .military-roster{margin:24px 0 0;padding:0}.archive-empty{display:grid;justify-items:center;text-align:center;padding:55px 25px;margin-top:22px;color:#aec6d3}.archive-empty>svg{color:#c8ba94}.archive-empty h3{font-size:25px}.archive-empty p{font-size:17px;line-height:1.8}
 .archive-hub button:focus-visible,.archive-hub select:focus-visible,.highlight-forces button:focus-visible{outline:2px solid #e5d6a8;outline-offset:4px}
 
 /* Signature units are small portrait links, alongside people and traits. */
@@ -27,20 +26,13 @@
 @media(max-width:700px){.campaign-app .command-bar{padding:12px 10px}.campaign-app .command-bar nav{gap:7px;grid-template-columns:repeat(3,minmax(0,1fr))}.campaign-app .command-bar nav button{min-height:70px;flex-direction:column;gap:7px;padding:10px 4px;font-size:14px}.archive-hub{padding:14px 12px 28px}.archive-heading{grid-template-columns:1fr;padding:25px 20px;gap:20px}.archive-heading h2{font-size:30px}.archive-heading-title{gap:12px}.archive-current-faction{grid-column:auto}.archive-current-faction strong{font-size:24px}.archive-current-faction img{width:55px;height:66px}.archive-sections{grid-column:auto;gap:8px}.archive-sections button{font-size:16px;min-height:68px;padding:10px 8px;gap:8px;flex-direction:column}.archive-faction-picker select{font-size:17px}.faction-highlights{display:flex;flex-direction:column}.faction-highlights .highlight-frame{grid-column:auto;grid-row:auto}.faction-highlights .highlight-trait-grid{grid-template-columns:1fr}.highlight-forces-grid{width:100%;gap:12px}.highlight-forces .highlight-force-image{width:min(100%,80px)}.highlight-forces .highlight-force-copy strong{font-size:13px}}
 
 /* A shared crop keeps faces readable in dossier, faction and navigation views. */
-.character-profile .portrait>img:not(.portrait-emblem){width:100%;height:100%;object-fit:cover;object-position:50% 24%}
 .highlight-person-portrait img,.gallery-person-image>img,.character-list .avatar img{object-position:50% 24%}
 
 /* Character dossiers: one biography and two distinct sets of readable entries. */
-.character-copy-v24 .character-identity{margin-bottom:26px;border-bottom:1px solid #b8cbd22e;padding-bottom:20px}
-.character-copy-v24 .character-identity h2{margin:10px 0 0}
-.character-copy-v24>section+section{margin-top:30px}
-.character-copy-v24 h3{display:flex;align-items:center;gap:10px;font:500 23px/1.4 var(--reading-font),serif;color:#e6d2aa;margin:0 0 16px}
-.character-copy-v24 h3 svg{color:#a9d8e7;flex-shrink:0}
-.character-copy-v24 .lore p:first-child{margin-top:0}
 .dossier-entries{display:grid;grid-template-columns:1fr;gap:12px;padding:0;margin:0;list-style:none}
 .dossier-entry{display:flex;gap:14px;border:1px solid #a6c5d02d;border-left:2px solid #9fcbd37a;background:#0a1d285c;padding:16px 18px;min-width:0}
 .dossier-entry-number{font:400 14px/1.6 var(--reading-font),serif;color:#9db6bd;flex-shrink:0;padding-top:3px}
 .dossier-entry h4{font:500 20px/1.4 var(--reading-font),serif;color:#ece3d0;margin:0 0 5px;overflow-wrap:anywhere}
 .dossier-entry p{font:400 17px/1.75 var(--reading-font),serif;color:#b9cdd4;margin:0}
 .character-traits .dossier-entry{border-left-color:#d1af7580}
-@media(max-width:700px){.character-copy-v24 h3{font-size:22px}.dossier-entry{padding:14px;gap:10px}.dossier-entry h4{font-size:19px}.dossier-entry p{font-size:17px}}
+@media(max-width:700px){.dossier-entry{padding:14px;gap:10px}.dossier-entry h4{font-size:19px}.dossier-entry p{font-size:17px}}

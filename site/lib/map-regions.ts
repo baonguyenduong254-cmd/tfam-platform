@@ -17,3 +17,5 @@ const assignments:Record<string,string>={castilian_empire:'europe',holy_french_k
 export function mapRegion(factionId:string):MapRegion{return regions[assignments[factionId]]||regions.europe;}
 export function inMapRegion(position:number[],region:MapRegion){const [w,s,e,n]=region.bounds;return position[0]>=w&&position[0]<=e&&position[1]>=s&&position[1]<=n;}
 export function mapRegionLimits(region:MapRegion):[[number,number],[number,number]]{const [w,s,e,n]=region.bounds,dx=(e-w)*.12,dy=(n-s)*.12;return [[Math.max(-179,w-dx),Math.max(-80,s-dy)],[Math.min(179,e+dx),Math.min(82,n+dy)]];}
+
+export function mapRegionById(id:string){return regions[id]||regions.europe;}

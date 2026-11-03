@@ -11,12 +11,17 @@ import "./zoom-layout.css";
 import "./royal-theme.css";
 import "./interface-polish.css";
 import './update201.css';
+import './world-211.css';
+import './archives-211.css';
+import './chronicles-211.css';
+import './achievements-211.css';
 import {DiscoveryProvider} from './components/DiscoveryProgress';
 import RoyalTheme from "./components/RoyalTheme";
 import ContentProtection from "./components/ContentProtection";
 import {ReaderAccountProvider} from "./components/ReaderAccount";
 import BackgroundMusic from "./components/BackgroundMusic";
 import ImmersiveViewport from './components/ImmersiveViewport';
+import LocalPerformanceProbe from "./components/LocalPerformanceProbe";
 import KineticSurfaces from "./components/KineticSurfaces";
 
 export const viewport={width:'device-width',initialScale:1,viewportFit:'cover'};
@@ -37,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased tfam-editorial tfam-royal"><ReaderAccountProvider><DiscoveryProvider><RoyalTheme/>{children}<ImmersiveViewport/><ContentProtection/><BackgroundMusic/><KineticSurfaces/></DiscoveryProvider></ReaderAccountProvider></body>
+      <body className="antialiased tfam-editorial tfam-royal"><ReaderAccountProvider><DiscoveryProvider><RoyalTheme/><LocalPerformanceProbe/>{children}<ImmersiveViewport/><ContentProtection/><BackgroundMusic/><KineticSurfaces/></DiscoveryProvider></ReaderAccountProvider></body>
     </html>
   );
 }
