@@ -1,0 +1,21 @@
+
+body.tfam-editorial.tfam-royal main.achievements211-page{padding:32px clamp(20px,5vw,96px) 80px;max-width:1600px}
+body.tfam-editorial.tfam-royal .achievement211{padding:44px 0;color:var(--world-ink)}
+body.tfam-editorial.tfam-royal .achievement211 header{max-width:1000px;margin-bottom:48px}
+body.tfam-editorial.tfam-royal .achievement211 h1{font-size:clamp(44px,5.5vw,80px);line-height:1.06;letter-spacing:-.025em;color:var(--world-ink);margin:0 0 24px;max-width:17ch}
+body.tfam-editorial.tfam-royal .achievement211 p{color:var(--world-muted);font-size:20px;line-height:1.65;max-width:72ch}
+body.tfam-editorial.tfam-royal .achievement211 header a{display:inline-flex;color:#f1d8a8;border-bottom:1px solid var(--world-metal);padding:12px 0;min-height:44px;font-size:20px;margin-right:28px}
+body.tfam-editorial.tfam-royal .achievement211 small{display:block;color:var(--world-muted);font-size:16px;line-height:1.5}
+.achievement211-summary{display:flex;gap:56px;align-items:center;padding:28px 0;margin:0 0 44px;border-block:1px solid var(--world-line)}
+.achievement211-summary strong{font-size:48px;color:#efd29d;font-variant-numeric:tabular-nums;flex:none}.achievement211-summary strong span{display:block;font-size:18px;font-weight:400;margin-top:8px}.achievement211-summary p{margin:0}
+body.tfam-editorial.tfam-royal .achievement211 h2{font-size:30px;color:var(--world-ink);line-height:1.25;margin:0 0 18px}
+.achievement211-editions{padding-bottom:36px;border-bottom:1px solid var(--world-line)}
+.achievement211-milestones article{display:grid;grid-template-columns:1fr 1fr;gap:16px 48px;padding:32px 0;border-bottom:1px solid var(--world-line);background:none}
+.achievement211-milestones article>p{grid-column:1/-1;margin:0;text-transform:capitalize}
+body.tfam-editorial.tfam-royal .achievement211-milestones article h2{margin-bottom:8px}
+body.tfam-editorial.tfam-royal .achievement211-milestones article p{margin-top:0;font-size:18px}
+.achievement211 progress{width:100%;height:8px;accent-color:#dcac8c;margin:14px 0;background:#35283b;border:0}
+.achievement211 progress::-webkit-progress-bar{background:#35283b}.achievement211 progress::-webkit-progress-value{background:#dcac8c}
+.achievement211-future{margin-top:36px;color:var(--world-muted)}.achievement211-future summary{cursor:pointer;min-height:44px;color:#edd6ac;font-size:23px}
+.achievement211-future>div{display:flex;gap:12px;flex-wrap:wrap}.achievement211-future span{padding:12px;border:1px solid var(--world-line)}
+@media(max-width:767px){.achievement211-summary{gap:24px;display:block}.achievement211-summary strong{font-size:40px}.achievement211-summary p{margin-top:24px}.achievement211-milestones article{display:block}.achievement211-milestones article>div+div{margin:20px 0}.achievement211-milestones article>p{margin-top:18px}}

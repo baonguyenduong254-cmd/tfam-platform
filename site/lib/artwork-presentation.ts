@@ -1,0 +1,2 @@
+/** Reviewed presentation derivative; canonical records and R2 originals remain unchanged. */
+export function landmarkArtwork(record:Readonly<Record<string,unknown>>,large=false){if(record.id==='castilian-madrid')return '/artwork211/castilian-madrid-enhanced-v1.webp';const full=typeof record.artwork==='string'?record.artwork:'',thumb=typeof record.thumbnail==='string'?record.thumbnail:'';return large?full:(thumb||full);}

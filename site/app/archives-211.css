@@ -1,0 +1,89 @@
+/* Archive compositions share the interior material, not identical cards. */
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military211,.landmarks211){color:var(--world-ink);margin:0;padding-bottom:64px}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-doctrine,.monument-intro){background:none;border:0;border-bottom:1px solid var(--world-line);padding:12px 0 18px;box-shadow:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine{display:block}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine-seal{background:none;border:0;box-shadow:none;height:130px;padding:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine-seal img{width:100%;height:100%;object-fit:contain}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-doctrine h3,.monument-intro h2){color:var(--world-ink);font-size:clamp(32px,3.8vw,56px);line-height:1.12;margin:0 0 24px}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-doctrine p,.monument-intro p){color:var(--world-muted);font-size:19px;line-height:1.7;max-width:75ch}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine blockquote{color:#ead4aa;font-size:21px;background:none;border:0;padding:0;margin:20px 0 0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters button{background:none;color:var(--world-muted);border:1px solid var(--world-line);padding:12px 16px;min-height:44px;box-shadow:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters button.active{background:#42293d;color:#fff0d8;border-color:var(--world-metal)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters small{color:inherit}
+.military-view-switch{display:flex;gap:24px;border-bottom:1px solid var(--world-line);margin-bottom:12px}
+.military-view-switch button{background:none;border:0;color:var(--world-muted);padding:14px 0;font-size:19px;min-height:44px}
+.military-view-switch button[aria-pressed=true]{border-bottom:2px solid var(--world-metal);color:#ffe6b5}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-search-row,.monument-tools){gap:20px;color:var(--world-muted);margin:14px 0}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-search,.monument-tools label){background:none;border:0;padding:0;box-shadow:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-search,.monument-tools label) input{width:100%;padding:12px 16px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-unit-card{background:none;border:0;padding:0;box-shadow:none;text-align:left;color:var(--world-ink);overflow:clip}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-art{aspect-ratio:3/4;height:auto;max-height:520px;background:#211b28;border:0;box-shadow:none;overflow:hidden}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-art img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:none;mix-blend-mode:normal}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-unit-card[data-branch=naval]{grid-column:span 2}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-unit-card:is([data-branch=naval],[data-branch=artillery]) .military-card-art{aspect-ratio:16/10}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-copy{padding:20px 0;border-bottom:1px solid var(--world-line);background:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-copy h4{font-size:27px;line-height:1.2;color:var(--world-ink);margin:0 0 10px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-copy p{font-size:18px;color:var(--world-muted)}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-card-role,.military-open){font-size:16px;color:var(--world-muted);line-height:1.5}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-card-number,.military-card-branch){background:#17121ded;color:#f0dfbb;border:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] .military-grid{display:block}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] .military-unit-card{display:grid;grid-template-columns:100px minmax(0,1fr);gap:24px;width:100%;padding:18px 0;border-bottom:1px solid var(--world-line)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] .military-card-art{height:130px;aspect-ratio:auto}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] .military-card-copy{border:0;padding:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] :is(.military-card-number,.military-card-branch,.military-open){display:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-dialog,.monument-dialog){width:min(1440px,96vw);max-width:1440px;max-height:94svh;background:var(--world-surface);color:var(--world-ink);border:1px solid var(--world-metal);box-shadow:0 24px 100px #000a;scrollbar-color:var(--world-metal) var(--world-ground)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier{grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);background:var(--world-surface)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-art{background:#261b2d;border:0;padding:0;height:80svh;position:sticky;top:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-art img{height:100%;width:100%;object-fit:contain;filter:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-copy{background:none;padding:44px 40px}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-dossier h2,.monument-hero h2){color:var(--world-ink);font-size:clamp(32px,4vw,56px);line-height:1.12}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-dossier h3,.monument-body h3){color:#e9cfa0;font-size:25px}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-dossier p,.military-dossier li,.monument-body p){font-size:19px;line-height:1.75;color:var(--world-ink)}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-dossier blockquote,.military-provenance,.monument-tools>span){color:var(--world-muted)}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-traits li,.military-dossier-actions button,.military-dossier-nav button,.monument-adjacent button){background:#302137;color:var(--world-ink);border-color:var(--world-line)}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-close,.monument-close){background:#17101eeF;color:#fff0d2;border-color:var(--world-metal);width:44px;height:44px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-intro>svg{display:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 28px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card{background:none;border:0;box-shadow:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card:first-child{grid-column:span 2;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px;align-items:center}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-art{aspect-ratio:16/10;background:var(--world-surface)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card-copy{padding:24px 0;background:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card-copy h3{color:var(--world-ink);font-size:32px;line-height:1.2}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card-copy :is(small,p,em){color:var(--world-muted);font-size:17px;line-height:1.5}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card-copy b{color:#ead3a7;border-color:var(--world-line)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-hero{height:clamp(360px,42vw,620px)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .monument-hero:after{background:linear-gradient(transparent 25%,#14101977 60%,var(--world-surface))}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.monument-hero p,.monument-body h4,.monument-body summary){color:#ead3a7}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.monument-body details,.monument-body small,.monument-location){color:var(--world-muted)}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.monument-traits>div,.monument-effects>div){border:0;border-top:1px solid var(--world-line);background:none;padding:24px 0}
+@media(max-width:1050px){
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-copy{padding:36px 28px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card:first-child{display:block}
+}
+@media(max-width:767px){
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine{grid-template-columns:1fr;gap:18px;padding:20px 0 28px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine-seal{display:none}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters{flex-wrap:nowrap;overflow:auto;padding-bottom:8px;gap:8px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters button{white-space:nowrap;padding:10px 12px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-grid{gap:24px 16px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-copy h4{font-size:22px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-card-role{display:none}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier{display:block}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-art{position:relative;height:55svh}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-art[data-branch=naval]{height:36svh}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .military-dossier-copy{padding:28px 22px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .monument-grid{grid-template-columns:1fr;gap:24px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card:first-child{grid-column:auto}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .monument-card-copy h3{font-size:28px}
+ body.tfam-editorial.tfam-royal main[data-tfam211] .monument-hero{height:420px}
+}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine:after{display:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211-doctrine-details summary{cursor:pointer;color:#ead4aa;min-height:44px;padding:12px 0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine h3{font-size:25px;margin:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine{padding-bottom:12px}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:60px;cursor:pointer;list-style:none}body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine summary::-webkit-details-marker{display:none}body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine summary>svg{flex:none;transition:transform 180ms}body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine[open] summary>svg{transform:rotate(90deg)}body.tfam-editorial.tfam-royal main[data-tfam211] .military-principles{color:var(--world-muted);font-size:16px;line-height:1.5;max-width:68ch}body.tfam-editorial.tfam-royal main[data-tfam211] .monument-intro p{margin:0}@media(max-width:900px){body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine summary{gap:12px;flex-wrap:wrap}body.tfam-editorial.tfam-royal main[data-tfam211] .military-principles{order:3;width:100%;font-size:15px}body.tfam-editorial.tfam-royal main[data-tfam211] .military-doctrine{padding:12px 0}body.tfam-editorial.tfam-royal main[data-tfam211] .military-filters{margin:12px 0}}

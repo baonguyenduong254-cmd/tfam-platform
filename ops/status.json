@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03",
-  "phase": "update-210-live",
+  "updatedAt": "2026-11-04",
+  "phase": "update-211-final-qa",
   "sourceImport": "verified",
   "production": {
     "siteVersion": 210,
@@ -97,5 +97,18 @@
     "ownerReviewRequired": false,
     "mergeCommit": "dae44075ac8f6bd1f99923e5370e1dffb51a6a54",
     "projectSkills": 8
+  },
+  "update211": {
+    "issue": 21,
+    "branch": "task/update-211",
+    "execution": "local-owner-confirmed-home-device",
+    "implementation": "complete",
+    "validation": "final-QA-at-06:30-GMT+7",
+    "releaseAuthorization": "Owner2026-11-04: QA final at06:30 then push site; overrides earlier review-only boundary",
+    "merged": false,
+    "deployed": false,
+    "designReview": "ship for four scored fixes; see FINISH-VERDICT.md",
+    "productionDataWrites": false,
+    "r2Writes": false
   }
 }
