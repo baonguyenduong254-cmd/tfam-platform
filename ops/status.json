@@ -83,10 +83,9 @@
   },
   "skillsIntake": {
     "issue": 18,
-    "status": "validated-for-autonomous-intake",
+    "status": "merged",
     "branch": "task/skills-cloud-audit",
     "inventoryBefore": 4,
-    "proposedTotal": 8,
     "report": "references/skills-audit-2026-11-03.md",
     "lock": "references/skills-intake.lock.json",
     "scriptsExecuted": false,
@@ -95,6 +94,8 @@
     "projectAuthored": 3,
     "workflow": "docs/AI-OPERATING-WORKFLOW.md",
     "registry": "references/skills-capabilities.json",
-    "ownerReviewRequired": false
+    "ownerReviewRequired": false,
+    "mergeCommit": "dae44075ac8f6bd1f99923e5370e1dffb51a6a54",
+    "projectSkills": 8
   }
 }
