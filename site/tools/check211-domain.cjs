@@ -5,6 +5,15 @@ function load(file){file=path.resolve(root,file);if(cache.has(file))return cache
 const {milestoneState,coveredChapters,canExplore}=load('lib/discovery.ts'),milestones=load('lib/discovery-milestones.json');
 const {presentCharacter,canRevealExhibit,canRevealBond}=load('lib/revelation.ts');
 const {exhibitDescription,exhibitCount,exhibitEpigraph}=load('lib/exhibit-presentation.ts');
+const {readingViewportAnchor,restoreReadingOffset}=load('lib/reading-position.ts');
+const savedAnchor=readingViewportAnchor(900,144.4,62.4,82),initialAnchor=readingViewportAnchor(900,303.6,62.4,82);
+assert.equal(initialAnchor,savedAnchor,'A refresh before the bar sticks must use the same reading line as a saved scrolled view');
+assert.equal(initialAnchor,160.4);
+assert.equal(readingViewportAnchor(900,300,62.4,8),86.4,'Focus mode uses its own sticky inset');
+assert.equal(readingViewportAnchor(900,150,40,null),166,'A non-sticky bar retains its actual position');
+const savedPoint={revision:1,lang:'vi',paragraph:1,offset:.25,fraction:.2};
+const restoredPoint=restoreReadingOffset(savedPoint,1,'vi',[{top:400,height:200},{top:600,height:400}],400,1000);
+assert.equal(restoredPoint.top-initialAnchor,restoredPoint.top-savedAnchor,'The same paragraph offset survives pre-stick and sticky layout states');
 const index=[...load('lib/story/index.json'),...load('lib/story/english-index.json')];
 const published=index.map(c=>({...c,complete:true})),english=new Set(index.filter(c=>c.id.startsWith('en_book')).map(c=>c.id));
 assert.equal(milestoneState(milestones[0],english,published).earned,false,'Book I must not falsely complete all of Arc I');

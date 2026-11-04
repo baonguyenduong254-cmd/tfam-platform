@@ -1,0 +1,37 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "background-extraction",
+  "input": "site/public/portraits/castilian/isabella_testarossa_de_aragon.webp",
+  "output": "site/public/artwork211/isabella-cutout-v1.webp",
+  "nativeWidth": 1024,
+  "nativeHeight": 1536,
+  "hasAlpha": true,
+  "verifiedTransparentSamples": [
+    [
+      0,
+      768
+    ],
+    [
+      20,
+      400
+    ],
+    [
+      1023,
+      300
+    ],
+    [
+      512,
+      10
+    ],
+    [
+      100,
+      200
+    ]
+  ],
+  "note": "Synthetic extraction preserves identity/pose but can reinterpret fine edges; original retained. Format conversion only via sharp.",
+  "exactPrompts": {
+    "isabella": "Use case: background-extraction. Edit target is the provided existing approved Isabella Testarossa de Aragón character illustration. Remove ONLY the white background and floor/shadow, output a clean genuine transparent alpha cutout of the entire existing character. Preserve her exact identity, facial expression, pose, brown flowing hair strands, imperial white and burgundy coat, gold decorations, crown held in hand, black trousers, boots, and original illustration style. Preserve full composition with all visible hair and cloak edges and both feet; do not crop. Do not invent or redesign any detail. No background, no floor, no text, no added effects. This is for layering the existing character over her faction environment in TFAM Atlas.",
+    "edward": "Use case: background-extraction. Edit target: existing approved Edward Spencer illustration. Remove only the white background and floor/shadow, producing genuine transparent alpha around the entire original character. Preserve the exact face, dark brown hair, expression, pose, full navy-black and gold admiral uniform with white inner cloak, hat held in hand, sword, decorations, boots and original anime illustration style. Keep all visible coat edges and both feet. No new details, redesign, cropping, environment, text or effects. Retain original subject completely for a TFAM faction scene layer."
+  },
+  "additionalOutput": "site/public/artwork211/edward-cutout-v1.webp"
+}

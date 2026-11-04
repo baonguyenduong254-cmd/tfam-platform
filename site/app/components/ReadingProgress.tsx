@@ -4,7 +4,7 @@ import {Bookmark,BookmarkCheck,BookOpen,RotateCcw} from 'lucide-react';
 import {useReaderAccount} from './ReaderAccount';
 import {scopedReaderKey,latestAccountCheckpoint} from '../../lib/accounts';
 import {storyIndex,type Chapter} from '../../lib/story';
-import {READING_POSITION_KEY,parseReadingPosition,locateReadingPosition,readingFraction,restoreReadingOffset,type ReadingPosition} from '../../lib/reading-position';
+import {READING_POSITION_KEY,parseReadingPosition,locateReadingPosition,readingFraction,restoreReadingOffset,readingViewportAnchor,type ReadingPosition} from '../../lib/reading-position';
 import '../reading-progress.css';
 const knownIds=storyIndex.map(c=>c.id);
 type Props={chapter:Chapter|null;selectedId:string;loading:boolean;editMode:boolean;lang:string;readerRef:RefObject<HTMLElement|null>;onChapter:(id:string)=>void};
@@ -16,7 +16,7 @@ export default function ReadingProgress({chapter,selectedId,loading,editMode,lan
  const textLang=lang==='en'&&chapter?.text_en?.trim()?'en':'vi';
  const ready=account.ready&&!!chapter&&chapter.id===selectedId&&!loading&&!editMode&&!!chapter[textLang==='en'?'text_en':'text_vi'].trim();
  const prose=()=>readerRef.current?.querySelector<HTMLElement>('.story-prose')||null;
- const anchor=()=>Math.min(window.innerHeight*.45,Math.max(32,(bar.current?.getBoundingClientRect().bottom||80)+16));
+ const anchor=()=>{const el=bar.current,rect=el?.getBoundingClientRect(),style=el?getComputedStyle(el):null,top=style&&['sticky','fixed'].includes(style.position)?parseFloat(style.top):NaN;return readingViewportAnchor(window.innerHeight,rect?.bottom||80,rect?.height||0,Number.isFinite(top)?top:null);};
  useEffect(()=>{if(!account.ready)return;pending.current=null;try{const p=latestAccountCheckpoint(parseReadingPosition(localStorage.getItem(positionKey),knownIds),account.data?.progress||[]);setCheckpoint(p);if(p?.chapterId===activeId.current)pending.current=p;if(p)localStorage.setItem(positionKey,JSON.stringify(p));}catch{}const sync=(e:StorageEvent)=>{if(e.key===positionKey||e.key===null){pending.current=null;setCheckpoint(parseReadingPosition(e.newValue,knownIds));}};window.addEventListener('storage',sync);return()=>window.removeEventListener('storage',sync);},[positionKey,account.ready,account.epoch]);
  useEffect(()=>{if(pending.current&&pending.current.chapterId!==selectedId)pending.current=null;setMessage(null);setPercent(0);},[selectedId,lang]);
  useEffect(()=>{if(!ready)return;let frame=0;const update=()=>{frame=0;const p=prose();if(p){const r=p.getBoundingClientRect();setPercent(Math.round(readingFraction(r.top,r.height,anchor())*100));}};const schedule=()=>{if(!frame)frame=requestAnimationFrame(update);};update();window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);const observer=typeof ResizeObserver!=='undefined'?new ResizeObserver(schedule):null;const p=prose();if(p)observer?.observe(p);return()=>{cancelAnimationFrame(frame);observer?.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);};},[ready,selectedId,lang,chapter?.revision]);
