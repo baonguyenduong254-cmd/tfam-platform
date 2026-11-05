@@ -1,0 +1,74 @@
+[
+  {
+    "id": "castilian-ceuta",
+    "input": "site/art/monuments/castilian-ceuta.png",
+    "output": "site/public/artwork211/castilian-ceuta-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 719730,
+    "sha256": "e0661af72c923310ab85692cb08e0bb5eec6099636d4ac92eeff4826c6411bf6",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  },
+  {
+    "id": "castilian-gibraltar",
+    "input": "site/art/monuments/castilian-gibraltar.png",
+    "output": "site/public/artwork211/castilian-gibraltar-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 588536,
+    "sha256": "f2b763a639f186a252a4978cf17e6ecb767e20e6db50165b5c3a0f005460c5c1",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  },
+  {
+    "id": "castilian-toledo",
+    "input": "site/art/monuments/castilian-toledo.png",
+    "output": "site/public/artwork211/castilian-toledo-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 654774,
+    "sha256": "3f38e2d90dc41893b3f469a06db1ae10a1b59ab48aa1167452254e7bd1bdbf6c",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  },
+  {
+    "id": "castilian-santiago",
+    "input": "site/art/monuments/castilian-santiago.png",
+    "output": "site/public/artwork211/castilian-santiago-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 535504,
+    "sha256": "87ee9f41d68ad5f96d4fb9ef953a41e93205d560907a386d092369bfa1eb6c11",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  },
+  {
+    "id": "castilian-escorial",
+    "input": "site/art/monuments/castilian-escorial.png",
+    "output": "site/public/artwork211/castilian-escorial-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 722290,
+    "sha256": "f698b14eaf50b8f4dd60b776f9d1b60b8f0a32c7e1d0a4375cc381e4b25a123d",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  },
+  {
+    "id": "castilian-alhambra",
+    "input": "site/art/monuments/castilian-alhambra.png",
+    "output": "site/public/artwork211/castilian-alhambra-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "previousServedWidth": 960,
+    "previousServedHeight": 640,
+    "bytes": 711618,
+    "sha256": "105b8e302ff92b7544b0d902af31ed0830a7031567c7d5e213f7363b285c954d",
+    "method": "Existing authored high-resolution PNG master, WebP format export only. No AI regeneration, upscaling, sharpening or composition change."
+  }
+]

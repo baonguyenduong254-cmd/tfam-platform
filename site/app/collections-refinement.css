@@ -1,0 +1,40 @@
+/* Import after stages-211.css. Existing theme and canon remain authoritative. */
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-intro{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(0,2fr);align-items:center;gap:clamp(24px,4vw,64px);padding:clamp(24px,4vw,60px) 0 36px;margin-bottom:24px;border-bottom:1px solid var(--world-line);background:var(--world-ground)}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-heading{min-width:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-heading h1{font-size:clamp(38px,4vw,64px);font-weight:400;line-height:1.08;letter-spacing:-.025em;color:var(--world-ink);margin:0 0 24px;overflow-wrap:anywhere;text-wrap:balance}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-heading h2{font-size:clamp(38px,4vw,64px);font-weight:400;line-height:1.08;letter-spacing:-.025em;color:var(--world-ink);margin:0 0 24px;overflow-wrap:anywhere;text-wrap:balance}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-heading p{font-size:18px;line-height:1.65;color:var(--world-muted);max-width:32ch;margin:0 0 22px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-action{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:48px;padding:10px 0;background:none;border:0;border-bottom:1px solid var(--world-metal);color:#efdbb7;text-align:left;font-size:17px;cursor:pointer}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-scene{position:relative;min-width:0;isolation:isolate;overflow:hidden;padding:28px 0 0}
+.collection-scene-light{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 45%,#8a684322,transparent 70%);pointer-events:none}
+.collection-ensemble{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.6vw,28px);align-items:start}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:0 0 10px;background:none;border:0;text-align:left;cursor:pointer;color:var(--world-ink)}
+.collection-specimen-art{display:grid;place-items:center;aspect-ratio:4/5;min-width:0;width:100%;overflow:hidden}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen-art img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;filter:none;mix-blend-mode:normal;transform:none;scale:1}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen-name{font-size:clamp(17px,1.6vw,23px);line-height:1.35;color:var(--world-ink);margin:18px 0 8px;overflow-wrap:anywhere}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen-inspect{display:flex;align-items:center;gap:8px;color:#dfc69c;font-size:14px;min-height:32px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen:hover .collection-specimen-inspect{text-decoration:underline;text-underline-offset:5px}
+.collection-sealed{grid-column:1/-1;min-height:300px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;color:var(--world-metal);text-align:center;padding:24px}
+.collection-sealed p{max-width:32ch;color:var(--world-muted)}
+#vest-collection-browse{scroll-margin-top:90px}
+/* Entire original plates; captions never obscure a unit or its equipment. */
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px;align-items:start}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-unit-card{grid-column:auto;overflow:visible}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-card-art{aspect-ratio:4/5;height:auto;max-height:none;background:#201a26;overflow:hidden}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-art img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none!important;scale:1!important;mix-blend-mode:normal}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-caption{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px;min-height:24px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 :is(.military-card-number,.military-card-branch){position:static;inset:auto;display:inline-flex;align-items:center;gap:7px;width:auto;min-width:0;height:auto;padding:0;background:none;border:0;backdrop-filter:none;color:#dfc69c;font-size:13px;line-height:1.5}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-number{font-variant-numeric:tabular-nums;border-right:1px solid var(--world-line);padding-right:12px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=index] .military-card-caption{display:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-copy{width:100%;min-width:0}
+/* Override cream background, multiply artwork and dark-on-dark royal text. */
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer.decorated-footer{background:#17131d!important;color:#d8ceda;border-top:1px solid #574553;min-height:0;padding:28px 24px!important;gap:0;isolation:isolate}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer .copyright-copy{background:none;min-width:0;padding:0 20px;max-width:100%}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer .copyright-copy p{color:#e9e0d2!important;margin:2px 0;font-size:14px;line-height:1.65}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer .copyright-copy a{color:#e0c79d!important;font-size:13px;line-height:1.6;min-height:32px;padding:6px 0;text-underline-offset:5px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer .copyright-copy a:focus-visible{outline:2px solid #e0c79d;outline-offset:4px}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer .footer-royal-flourish{width:min(260px,60vw);height:62px;margin:0 auto 10px;object-fit:contain;mix-blend-mode:normal}
+body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer :is(.footer-instruments,.footer-maritime){display:none!important}
+@media(min-width:1600px){body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1050px){body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-intro{grid-template-columns:1fr;gap:8px}.vest-collection-heading{max-width:680px}body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-heading p{max-width:58ch}.collection-specimen-art{aspect-ratio:1/1}body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){body.tfam-editorial.tfam-royal main[data-tfam211] .vest-collection-intro{padding:24px 0;gap:0}.collection-scene{padding-top:18px}.collection-ensemble{gap:10px}.collection-specimen-art{aspect-ratio:3/4}body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen-name{font-size:15px;line-height:1.4;margin-top:12px}body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen-inspect{font-size:13px;gap:2px}body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-grid{grid-template-columns:1fr;gap:28px}body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-card-art{aspect-ratio:4/5;max-height:520px}body.tfam-editorial.tfam-royal main[data-tfam211] .copyright-footer.decorated-footer{padding:24px 16px!important}}

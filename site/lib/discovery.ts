@@ -81,7 +81,7 @@ export const revoltSlots=[
   }
 ];
 export const unlockRequirements:Record<string,string>={
- holy_french_kingdom:'arc-1',new_portuguese_empire:'arc-1',habsburg_poland:'arc-2',danes_kingdom:'arc-3',western_roman_empire:'arc-3',novgorod_union:'arc-4',ottoman_empire:'arc-4',british_east_india_company:'arc-5',scotland_ireland_union:'side-scotland',england_ruins:'side-england',veldraine:'arc-6',nhemora:'arc-6',khorvait:'arc-6',wardenholf:'arc-6',safavid_empire:'arc-7',annam_empire:'arc-8',tokugawa_empire:'arc-10',nusantara_sultanate:'arc-12',ming_celestial_empire:'arc-14',eternal_sky_khanate:'arc-15',aksumite_empire:'arc-3',songhai_empire:'arc-3',kongo_confederation:'arc-4',swahili_league:'arc-4',cape_republic:'arc-5',merina_empire:'arc-5'};
+ sultanate_of_morocco:'arc-9',holy_french_kingdom:'arc-1',new_portuguese_empire:'arc-1',habsburg_poland:'arc-2',danes_kingdom:'arc-3',western_roman_empire:'arc-3',novgorod_union:'arc-4',ottoman_empire:'arc-4',british_east_india_company:'arc-5',scotland_ireland_union:'side-scotland',england_ruins:'side-england',veldraine:'arc-6',nhemora:'arc-6',khorvait:'arc-6',wardenholf:'arc-6',safavid_empire:'arc-7',annam_empire:'arc-8',tokugawa_empire:'arc-10',nusantara_sultanate:'arc-12',ming_celestial_empire:'arc-14',eternal_sky_khanate:'arc-15',aksumite_empire:'arc-3',songhai_empire:'arc-3',kongo_confederation:'arc-4',swahili_league:'arc-4',cape_republic:'arc-5',merina_empire:'arc-5'};
 export type Milestone={id:string;title:string;closed:boolean;required:string[];englishCoverage:Record<string,string[]>;contentEquivalents?:Record<string,string[]>};
 export type CatalogEntry={id:string;complete?:boolean};
 export function milestoneState(m:Milestone,readIds:Set<string>,catalog:CatalogEntry[]){
@@ -93,7 +93,7 @@ export function milestoneState(m:Milestone,readIds:Set<string>,catalog:CatalogEn
  const available=m.closed&&m.required.length>0&&m.required.every(id=>published.has(id)||Object.entries(m.englishCoverage).some(([english,units])=>published.has(english)&&units.includes(id))||(m.contentEquivalents?.[id]?.length&&m.contentEquivalents[id].every(english=>published.has(english))));
  return {count,total:m.required.length,available,earned:available&&count===m.required.length};
 }
-export function canExplore(id:string,earned:ReadonlySet<string>){return ['castilian_empire','sultanate_of_morocco'].includes(id)||!!unlockRequirements[id]&&earned.has(unlockRequirements[id]);}
+export function canExplore(id:string,earned:ReadonlySet<string>){return id==='castilian_empire'||!!unlockRequirements[id]&&earned.has(unlockRequirements[id]);}
 export function requirementText(id:string,earned:ReadonlySet<string>,milestones:Milestone[]){if(canExplore(id,earned))return 'Available';const key=unlockRequirements[id];if(key?.startsWith('side-'))return 'Required side story not yet available';const m=milestones.find(m=>m.id===key);return m?'Complete '+m.title+(m.closed?'':' · Required arc not yet fully available'):'Not yet available';}
 
 /** Only completed, published text counts; edition equivalences require every part. */

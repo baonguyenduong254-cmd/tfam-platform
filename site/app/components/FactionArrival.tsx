@@ -1,4 +1,5 @@
 'use client';
+import {presentationPunctuation} from '../../lib/presentation-punctuation';
 import {useEffect,useRef} from 'react';
 import MediaImage from './MediaImage';
 import ExperienceAtmosphere from './ExperienceAtmosphere';
@@ -8,7 +9,7 @@ import {motionPreference} from '../../lib/motion/preference';
 type R=Record<string,any>;
 export default function FactionArrival({faction:f,lang,compact=false}:{faction:R;lang:string;compact?:boolean}){
  const root=useRef<HTMLElement>(null);
- const name=f['name_'+lang]||f.name_en||f.name_vi,quote=factionTaglines[f.id],arrivalLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':quote?.en;
+ const name=presentationPunctuation(f['name_'+lang]||f.name_en||f.name_vi||''),quote=factionTaglines[f.id],arrivalLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':quote?.en;
  useEffect(()=>{
   const el=root.current;if(!el||compact||motionPreference.matches)return;
   let repeat=false;try{repeat=sessionStorage.getItem('tfam-arrival:'+f.id)==='seen';sessionStorage.setItem('tfam-arrival:'+f.id,'seen');}catch{}
@@ -23,6 +24,6 @@ export default function FactionArrival({faction:f,lang,compact=false}:{faction:R
  return <header ref={root} className={'world-arrival faction-themed arrival211'+(compact?' is-compact':'')} data-faction={f.id}>
   {!compact&&<ExperienceAtmosphere variant="world"/>}
   {!compact&&<div className="arrival-art" aria-hidden="true"><MediaImage src={sceneArt(f)} alt="" width={1920} height={1080} fetchPriority="high"/></div>}
-  <div className="arrival-copy"><MediaImage className="arrival-flag" src={f.flag_asset} width={1200} height={800} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/><div><h1>{name}</h1>{!compact&&quote&&<p className="arrival-quote">{lang==='vi'?quote.vi:arrivalLine}</p>}</div></div>
+  <div className="arrival-copy"><MediaImage className="arrival-flag" src={f.flag_asset} width={1200} height={800} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/><div><h1>{name}</h1>{!compact&&quote&&<p className="arrival-quote">{presentationPunctuation((lang==='vi'?quote.vi:arrivalLine)||'')}</p>}</div></div>
  </header>;
 }

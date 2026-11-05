@@ -1,0 +1,152 @@
+{
+  "isabella_testarossa_de_aragon": {
+    "source": "/portraits/castilian/isabella_testarossa_de_aragon.webp",
+    "full": "/artwork211/isabella-cutout-v1.webp",
+    "thumbnail": "/artwork211/isabella-cutout-v1-thumb.webp"
+  },
+  "england_ruins_representative": {
+    "source": "/portraits/castilian/timothy_beaumont.webp",
+    "full": "/artwork211/england-ruins-representative-cutout-v1.webp",
+    "thumbnail": "/artwork211/england-ruins-representative-cutout-v1-thumb.webp"
+  },
+  "victoria_valdes": {
+    "source": "/portraits/castilian/victoria_valdes.webp",
+    "full": "/artwork211/victoria-valdes-cutout-v1.webp",
+    "thumbnail": "/artwork211/victoria-valdes-cutout-v1-thumb.webp"
+  },
+  "marco_stones": {
+    "source": "/portraits/castilian/marco_stones.webp",
+    "full": "/artwork211/marco-stones-cutout-v1.webp",
+    "thumbnail": "/artwork211/marco-stones-cutout-v1-thumb.webp"
+  },
+  "jose": {
+    "source": "/portraits/castilian/jose.webp",
+    "full": "/artwork211/jose-cutout-v1.webp",
+    "thumbnail": "/artwork211/jose-cutout-v1-thumb.webp"
+  },
+  "edward_spencer": {
+    "source": "/portraits/castilian/edward_spencer.webp",
+    "full": "/artwork211/edward-cutout-v1.webp",
+    "thumbnail": "/artwork211/edward-cutout-v1-thumb.webp"
+  },
+  "juliet_spencer": {
+    "source": "/portraits/castilian/royal32/juliet_spencer.webp",
+    "full": "/artwork211/juliet-spencer-cutout-v1.webp",
+    "thumbnail": "/artwork211/juliet-spencer-cutout-v1-thumb.webp"
+  },
+  "testarossa_uno": {
+    "source": "/portraits/castilian/testarossa_uno.webp",
+    "full": "/artwork211/testarossa-uno-cutout-v1.webp",
+    "thumbnail": "/artwork211/testarossa-uno-cutout-v1-thumb.webp"
+  },
+  "evelyne_vesper": {
+    "source": "/portraits/castilian/evelyne_vesper.webp",
+    "full": "/artwork211/evelyne-vesper-cutout-v1.webp",
+    "thumbnail": "/artwork211/evelyne-vesper-cutout-v1-thumb.webp"
+  },
+  "franco": {
+    "source": "/portraits/castilian/franco.webp",
+    "full": "/artwork211/franco-cutout-v1.webp",
+    "thumbnail": "/artwork211/franco-cutout-v1-thumb.webp"
+  },
+  "cassandra": {
+    "source": "/portraits/castilian/cassandra.webp",
+    "full": "/artwork211/cassandra-cutout-v1.webp",
+    "thumbnail": "/artwork211/cassandra-cutout-v1-thumb.webp"
+  },
+  "romeo_harkon": {
+    "source": "/portraits/castilian/romeo_harkon.webp",
+    "full": "/artwork211/romeo-harkon-cutout-v1.webp",
+    "thumbnail": "/artwork211/romeo-harkon-cutout-v1-thumb.webp"
+  },
+  "fredo": {
+    "source": "/portraits/castilian/fredo.webp",
+    "full": "/artwork211/fredo-cutout-v1.webp",
+    "thumbnail": "/artwork211/fredo-cutout-v1-thumb.webp"
+  },
+  "scarlet": {
+    "source": "/portraits/castilian/scarlet.webp",
+    "full": "/artwork211/scarlet-cutout-v1.webp",
+    "thumbnail": "/artwork211/scarlet-cutout-v1-thumb.webp"
+  },
+  "martinez": {
+    "source": "/portraits/castilian/martinez.webp",
+    "full": "/artwork211/martinez-cutout-v1.webp",
+    "thumbnail": "/artwork211/martinez-cutout-v1-thumb.webp"
+  },
+  "raine": {
+    "source": "/portraits/castilian/raine.webp",
+    "full": "/artwork211/raine-cutout-v1.webp",
+    "thumbnail": "/artwork211/raine-cutout-v1-thumb.webp"
+  },
+  "sigrid": {
+    "source": "/portraits/castilian/sigrid.webp",
+    "full": "/artwork211/sigrid-cutout-v1.webp",
+    "thumbnail": "/artwork211/sigrid-cutout-v1-thumb.webp"
+  },
+  "astrid": {
+    "source": "/portraits/castilian/astrid.webp",
+    "full": "/artwork211/astrid-cutout-v1.webp",
+    "thumbnail": "/artwork211/astrid-cutout-v1-thumb.webp"
+  },
+  "freya": {
+    "source": "/portraits/castilian/freya.webp",
+    "full": "/artwork211/freya-cutout-v1.webp",
+    "thumbnail": "/artwork211/freya-cutout-v1-thumb.webp"
+  },
+  "liv": {
+    "source": "/portraits/castilian/liv-anime-v3.webp",
+    "full": "/artwork211/liv-cutout-v1.webp",
+    "thumbnail": "/artwork211/liv-cutout-v1-thumb.webp"
+  },
+  "dame_elizabeth": {
+    "source": "/portraits/castilian/dame_elizabeth.webp",
+    "full": "/artwork211/dame-elizabeth-cutout-v1.webp",
+    "thumbnail": "/artwork211/dame-elizabeth-cutout-v1-thumb.webp"
+  },
+  "nahla_al_fassi": {
+    "source": "/portraits/castilian/royal32/nahla_al_fassi.webp",
+    "full": "/artwork211/nahla-al-fassi-cutout-v1.webp",
+    "thumbnail": "/artwork211/nahla-al-fassi-cutout-v1-thumb.webp"
+  },
+  "samira_al_fassi": {
+    "source": "/portraits/castilian/royal32/samira_al_fassi.webp",
+    "full": "/artwork211/samira-al-fassi-cutout-v1.webp",
+    "thumbnail": "/artwork211/samira-al-fassi-cutout-v1-thumb.webp"
+  },
+  "jesper": {
+    "source": "/portraits/castilian/royal32/jesper.webp",
+    "full": "/artwork211/jesper-cutout-v1.webp",
+    "thumbnail": "/artwork211/jesper-cutout-v1-thumb.webp"
+  },
+  "barbossa": {
+    "source": "/portraits/castilian/royal32/barbossa.webp",
+    "full": "/artwork211/barbossa-cutout-v1.webp",
+    "thumbnail": "/artwork211/barbossa-cutout-v1-thumb.webp"
+  },
+  "leonardo_razen": {
+    "source": "/portraits/castilian/royal32/leonardo_razen.webp",
+    "full": "/artwork211/leonardo-razen-cutout-v1.webp",
+    "thumbnail": "/artwork211/leonardo-razen-cutout-v1-thumb.webp"
+  },
+  "millennia_stones": {
+    "source": "/portraits/castilian/royal32/millennia_stones.webp",
+    "full": "/artwork211/millennia-stones-cutout-v1.webp",
+    "thumbnail": "/artwork211/millennia-stones-cutout-v1-thumb.webp"
+  },
+  "remi_spencer": {
+    "source": "/portraits/castilian/royal32/remi_spencer.webp",
+    "full": "/artwork211/remi-spencer-cutout-v1.webp",
+    "thumbnail": "/artwork211/remi-spencer-cutout-v1-thumb.webp"
+  },
+  "dante_stones": {
+    "source": "/portraits/castilian/royal32/dante_stones.webp",
+    "full": "/artwork211/dante-stones-cutout-v1.webp",
+    "thumbnail": "/artwork211/dante-stones-cutout-v1-thumb.webp"
+  },
+  "lokoh": {
+    "source": "/portraits/castilian/royal33/lokoh.webp",
+    "full": "/artwork211/lokoh-cutout-v1.webp",
+    "thumbnail": "/artwork211/lokoh-cutout-v1-thumb.webp"
+  }
+}

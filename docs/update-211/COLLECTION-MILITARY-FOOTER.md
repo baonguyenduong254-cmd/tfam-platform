@@ -1,0 +1,15 @@
+# Collection, military and footer refinement
+
+Scope: `site/app/components/VestigiumCollection.tsx`, `site/app/components/MilitaryRoster.tsx`, and `site/app/collections-refinement.css`. Import the new stylesheet after `stages-211.css` and incumbent theme styles in the application layout.
+
+The exhibition introduction now identifies the active category, with a fixed editorial ensemble of three actual records rather than whichever rare record happens to match the current filters. The explicit IDs are independent of query, abundance, catalogue/exhibition mode and Guard number. Each candidate passes the existing `canInspectExhibit` check before its artwork or name appears. The Royal Guard ensemble uses three revealed deployed creations; the collection title and existing numbered/pendant origin section carry group identity. The sealed representative dossier is not used to bypass revelation requirements. The group action scrolls to collection browsing; individual Inspect buttons retain existing dossier, artwork carry, history and return behavior.
+
+The ensemble uses the incumbent `SceneStage`: one finite, visibility-controlled entrance, static/reduced settings handled by the existing preference controller. No ambient loops or new animation dependencies. The existing `ArtifactStage` remains in inspect dialogs. New rendered selectors are `.vest-collection-intro`, `.collection-ensemble`, and `.collection-specimen`; the arbitrary `.vest211-feature` hero is retired.
+
+Military gallery plates use full containment for every branch. The common 4:5 footprint removes arbitrary wide artillery cropping and unbalanced naval spans; responsive grids use four, three, two and one columns. Hover scaling is suppressed on the plates to keep full machines/units visible. Number and branch captions now sit beneath the art. Index, filters, search, links, dialogs and original media sources remain intact.
+
+The exact mounted `.copyright-footer.decorated-footer` now uses the interior ink palette. Cream radial backgrounds and background decorations are removed, the existing royal flourish is compact, and copyright/legal text receives explicit high-contrast colors. Content and legal destination remain unchanged.
+
+Reference decisions: primary Impeccable (pinned intake revision `e89e3ada3e875a89ac2c5d33d11e65ebef6fe285`): craft-floor, animate; supporting Taste (`12af471f627f866411b4bd785b19646d3672784c`): genuine imagery, subject-derived composition, bounded motion. Owner/product constraints override launchers and generic default aesthetics. No upstream code, launcher, download, new media, 3D model or package was adopted.
+
+Validation: `git diff --check` passed for both modified components. Initial `tsc --noEmit` reported the concurrent `FactionAtlas.tsx(32,197)` unknown-to-state type error, with no errors in these components. A second `tsc --noEmit -p site/tsconfig.json` passed after the concurrent Atlas fix. Rendered 390/768/1440/1920 px gallery, ensemble, footer and motion inspection belong to the parent QA pass. No browser control was performed by this implementation subtask. No D1/R2 writes, commit, merge or deployment.
