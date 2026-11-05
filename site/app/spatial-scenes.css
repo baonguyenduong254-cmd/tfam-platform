@@ -131,7 +131,7 @@
 .spatial-book-cover { transform-style: preserve-3d; }
 .spatial-book-cover > img, .spatial-book-cover > span { backface-visibility: hidden; }
 
-.atlas211-regional .atlas211-capital[aria-pressed="true"] circle {
+.atlas211-regional .atlas211-capital[aria-pressed="true"] .atlas-symbol {
   transform-box: fill-box;
   transform-origin: center;
   animation: atlas-pin-seat 390ms cubic-bezier(.16,1,.3,1) both;
@@ -140,9 +140,9 @@
   0% { transform: translateY(-8px) scale(1.75); }
   100% { transform: translateY(0) scale(1); }
 }
-html[data-tfam-motion="reduced"] :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital circle) {
+html[data-tfam-motion="reduced"] :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital .atlas-symbol) {
   animation: none;
 }
 @media (prefers-reduced-motion: reduce) {
-  html:not([data-tfam-motion="full"]) :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital circle) { animation: none; }
+  html:not([data-tfam-motion="full"]) :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital .atlas-symbol) { animation: none; }
 }
