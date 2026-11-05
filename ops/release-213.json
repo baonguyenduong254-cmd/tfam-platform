@@ -1,0 +1,24 @@
+{
+  "version": 213,
+  "sourceCommit": "83d0c21e97805fb0e1dcf663b1f737ca46e1c718",
+  "githubSourceCommit": "901494dba5e3f3982d63edab95deb15fce376c3c",
+  "pullRequests": [
+    26,
+    27
+  ],
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4e502b10b0488191a75ef0a49815592e",
+  "deploymentId": "appgdep_6aecfb3728dc81918cc398fba5ad3232",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verifiedAt": "2026-11-05T21:55:21.443477+00:00",
+  "archiveHash": "sha256:1bb8df97cc2784bc18d39ea91df72082c4b82881e39fbc7cb9cad8abf75ab433",
+  "rollbackVersion": 212,
+  "rollbackVersionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_acc74eff622c8191b945025f36ac7f46",
+  "qa": {
+    "typescript": "passed",
+    "build": "passed",
+    "domain": "passed",
+    "liveAtlas": "Castilian chart rendered; Gibraltar selected with keyboard and offered its landmark dossier"
+  },
+  "productionDataWrites": false,
+  "r2Writes": false
+}
