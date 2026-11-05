@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-05",
-  "phase": "post-211-stage-review-local",
+  "phase": "212-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 211,
-    "sourceCommit": "ad15c538a6335a0453585b056174d331370b47f0",
+    "siteVersion": 212,
+    "sourceCommit": "df70945b20182eb0146a55b3c4e9f3d260906a36",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6aea72f17578819195982864120be79f",
-    "verifiedAt": "2026-11-03T23:49:27.062280+00:00"
+    "deploymentId": "appgdep_6aec8ac719188191a10810b0364df5c0",
+    "verifiedAt": "2026-11-05T13:56:00.467386+00:00"
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
@@ -125,8 +125,7 @@
       "Vestigium exhibition/inspect",
       "Chronicles library/opening"
     ],
-    "productionVersionUnchanged": 211,
-    "deployed": false,
+    "deployed": true,
     "dbWrites": false,
     "r2Writes": false,
     "review": "docs/update-211/STAGE-FULL-REVIEW.md",
@@ -135,6 +134,17 @@
     "qa": "docs/update-211/STAGE-QA.md",
     "reviewVerdict": "fix: static fit/category/function items resolved; independent visual motion acceptance remains partial",
     "verdict": "docs/update-211/STAGE-VERDICT.md",
-    "preview": "http://127.0.0.1:8787/#archive/castilian_empire/characters/isabella_testarossa_de_aragon"
+    "preview": "http://127.0.0.1:8787/#atlas/castilian_empire/1715",
+    "atlasScrollFollowup": {
+      "date": "2026-11-05",
+      "state": "live-212-verified",
+      "qa": "docs/update-211/ATLAS-SCROLL-QA.md",
+      "independentReview": "docs/update-211/ATLAS-SCROLL-REVIEW.md",
+      "broaderScrollCertification": false,
+      "committed": false,
+      "deployed": true
+    },
+    "productionVersion": 212,
+    "release": "ops/release-212.json"
   }
 }

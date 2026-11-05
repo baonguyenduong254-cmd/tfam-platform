@@ -16,6 +16,7 @@ import './archives-211.css';
 import './chronicles-211.css';
 import './achievements-211.css';
 import './stages-211.css';
+import './collections-refinement.css';
 import {DiscoveryProvider} from './components/DiscoveryProgress';
 import RoyalTheme from "./components/RoyalTheme";
 import ContentProtection from "./components/ContentProtection";

@@ -3,6 +3,11 @@
 .scene-stage[data-scene-motion=static] *{animation-play-state:paused!important}
 .scene-stage [data-scene-plane]{transform-origin:center}
 .motion-effective{font-size:15px;color:var(--world-muted);line-height:1.45;margin:8px 0 20px}
+.scene-playback{display:flex;align-items:center;justify-content:flex-end;gap:16px;min-height:48px;color:var(--world-muted);font-size:15px;padding:4px 0 12px}
+.scene-playback button{display:inline-flex;align-items:center;gap:9px;min-height:40px;padding:8px 14px;border:1px solid var(--world-line);background:var(--world-surface);color:var(--world-ink);cursor:pointer;transition:background 160ms,transform 160ms}
+.scene-playback button:hover{background:var(--world-raised,#2a202d)}.scene-playback button:active{transform:scale(.97)}
+main:has(.chronicle211-reading) .scene-playback{display:none}
+@media(max-width:767px){.scene-playback{justify-content:space-between;gap:8px;font-size:13px}.scene-playback button{font-size:14px;padding:8px 10px}.scene-playback>span{max-width:120px}}
 
 /* Character: environment, heraldic depth, silhouette, foreground. */
 body.tfam-editorial.tfam-royal main[data-tfam211][data-archive-section=characters] .arrival211.is-compact{display:none}

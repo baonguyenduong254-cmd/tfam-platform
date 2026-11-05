@@ -1,0 +1,23 @@
+{
+  "version": 212,
+  "sourceCommit": "df70945b20182eb0146a55b3c4e9f3d260906a36",
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_acc74eff622c8191b945025f36ac7f46",
+  "deploymentId": "appgdep_6aec8ac719188191a10810b0364df5c0",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verifiedAt": "2026-11-05T13:56:00.467386+00:00",
+  "archiveHash": "sha256:b4e7ba90f330a0fe883b408c334f2fc0038b00833be465eace400e9930c29136",
+  "rollbackVersion": 211,
+  "qa": {
+    "testsPassed": 17,
+    "typescript": "passed",
+    "build": "passed",
+    "liveAtlas": {
+      "maps": 1,
+      "mode": "fixed-regional",
+      "viewBox": "0 0 1000 658.5365853658536",
+      "legend": true
+    }
+  },
+  "productionDataWrites": false,
+  "r2Writes": false
+}

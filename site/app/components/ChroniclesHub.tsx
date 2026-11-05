@@ -1,4 +1,5 @@
 'use client';
+import {presentationPunctuation} from '../../lib/presentation-punctuation';
 import {useEffect,useMemo,useState} from 'react';
 import {BookOpen,ArrowLeft,ArrowRight,Search} from 'lucide-react';
 import {storyIndex,type ChapterMeta} from '../../lib/story';
@@ -22,7 +23,7 @@ export default function ChroniclesHub(props:StoryLibraryProps){
  useEffect(()=>{const c=new AbortController();setError(false);fetch('/api/story',{signal:c.signal,cache:'no-store'}).then(async r=>{if(!r.ok)throw Error();const x=await r.json() as {chapters:Entry[]};setCatalog(x.chapters);setReady(true);}).catch(e=>{if(e.name!=='AbortError'){setError(true);setReady(true);}});return()=>c.abort();},[attempt]);
  useEffect(()=>{if(!account.ready)return;try{const ids=storyIndex.map(c=>c.id),history=mergeAccountHistory(parseReadingHistory(localStorage.getItem(scopedReaderKey(READING_HISTORY_KEY,account.data?.profile?.id)),ids),account.data?.progress||[]),checkpoint=latestAccountCheckpoint(parseReadingPosition(localStorage.getItem(scopedReaderKey(READING_POSITION_KEY,account.data?.profile?.id)),ids),account.data?.progress||[]);setRecent(history);setResume(checkpoint?.chapterId||history[0]?.chapterId||null);}catch{}},[account.ready,account.epoch,account.data,reading]);
  useEffect(()=>{try{const saved=Number(sessionStorage.getItem('tfam-library-volume:'+props.lang));setVolume(saved>0?saved:1);}catch{}},[props.lang]);
- const title=(c:ChapterMeta)=>props.lang==='en'?(c.title_en||c.title_vi):c.title_vi;
+ const title=(c:ChapterMeta)=>presentationPunctuation(props.lang==='en'?(c.title_en||c.title_vi):c.title_vi);
  const edition=catalog.filter(c=>props.lang==='en'?c.id.startsWith('en_book'):!c.id.startsWith('en_book'));
  const volumes=[...new Set(edition.map(c=>c.arc))];
  const active=volumes.includes(volume)?volume:volumes[0]||1;
@@ -38,6 +39,6 @@ export default function ChroniclesHub(props:StoryLibraryProps){
    <SceneStage className="library-volume" identity={props.lang+active} kind="book"><div className="library-volume-pages" aria-hidden="true"/><button data-scene-plane="subject" className="chronicle211-cover" aria-label={'Open '+(props.lang==='en'?'Book I':'Arc '+roman[active-1])} onClick={e=>open(chapterSet[0]?.id||edition[0].id,e.currentTarget)}><img src={cover} alt=""/><span><strong>Through Frost<br/>and Myth</strong><em>{props.lang==='en'?'Book I · The Pathmaker':'Arc '+roman[active-1]}</em><small>Leonardo Ravenna</small></span></button></SceneStage>
   </header>
   <div className="chronicle211-shelves"><div><header className="chronicle211-contents-heading"><h2>Contents</h2><span>{ready?count+' / '+complete.length+' read':'Loading availability…'}</span></header><label className="chronicle211-search"><Search size={18}/><input type="search" aria-label="Search chapters" placeholder="Find a chapter…" value={query} onChange={e=>setQuery(e.target.value)}/></label>{error&&<p role="alert">Availability could not be refreshed. <button onClick={()=>setAttempt(n=>n+1)}>Retry</button></p>}<div className="chronicle211-contents">{filtered.map(c=><a key={c.id} href={chapterPath(c.id)} onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();open(c.id);}}><span>{title(c)}</span><small>{readIds.has(c.id)?'Read':ready&&c.complete?'Available':ready?'In preparation':'Checking…'}</small><ArrowRight size={17}/></a>)}{!filtered.length&&<p role="status">No matching chapters. Try another title.</p>}</div></div>
-  <aside><h2>Recently read</h2>{recentEntries.map(c=><button key={c.id} onClick={()=>open(c.id)}>{c.title_en||c.title_vi}<ArrowRight size={16}/></button>)}{!recentEntries.length&&<p>Your first chapter will appear here.</p>}<h2>Discoveries</h2><p>{discovery.earned.size} reading milestones achieved. New horizons unfold as your journey continues.</p><a href="/achievements">View reading achievements <ArrowRight size={16}/></a></aside></div>
+  <aside><h2>Recently read</h2>{recentEntries.map(c=><button key={c.id} onClick={()=>open(c.id)}>{title(c)}<ArrowRight size={16}/></button>)}{!recentEntries.length&&<p>Your first chapter will appear here.</p>}<h2>Discoveries</h2><p>{discovery.earned.size} reading milestones achieved. New horizons unfold as your journey continues.</p><a href="/achievements">View reading achievements <ArrowRight size={16}/></a></aside></div>
  </section>;
 }
