@@ -1,0 +1,149 @@
+/* The flag is the moving face of a shallow display plaque. Names and controls
+   stay in the normal document plane so selection never shifts the grid. */
+body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-depth .faction-card:hover {
+  transform: none;
+}
+
+.faction-depth .faction-card:focus-visible {
+  outline: 2px solid #eadbb6;
+  outline-offset: 3px;
+}
+
+.faction-depth .selection-crest {
+  perspective: 610px;
+}
+
+.faction-depth .faction-plaque {
+  --plaque-depth: 8px;
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+.faction-depth .faction-plaque-face,
+.faction-depth .faction-plaque-back {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background-color: #17111b;
+  outline: 1px solid #bba27688;
+}
+
+.faction-depth .faction-plaque-face {
+  box-shadow: 0 8px 18px #08071099;
+}
+
+.faction-depth .faction-plaque-back {
+  transform: translateZ(calc(-1 * var(--plaque-depth)));
+}
+
+.faction-depth .faction-plaque-edge {
+  position: absolute;
+  background: #584332;
+  background: linear-gradient(90deg, #927754, #332521);
+}
+
+.faction-depth .edge-left,
+.faction-depth .edge-right {
+  inset-block: 0;
+  width: var(--plaque-depth);
+}
+
+.faction-depth .edge-left {
+  right: 100%;
+  transform-origin: right center;
+  transform: rotateY(-90deg);
+}
+
+.faction-depth .edge-right {
+  left: 100%;
+  transform-origin: left center;
+  transform: rotateY(90deg);
+}
+
+.faction-depth .edge-top,
+.faction-depth .edge-bottom {
+  inset-inline: 0;
+  height: var(--plaque-depth);
+  background: linear-gradient(#957953, #48372c);
+}
+
+.faction-depth .edge-top {
+  bottom: 100%;
+  transform-origin: center bottom;
+  transform: rotateX(90deg);
+}
+
+.faction-depth .edge-bottom {
+  top: 100%;
+  transform-origin: center top;
+  transform: rotateX(-90deg);
+}
+
+body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-depth .faction-card .horizon-flag {
+  transform: none;
+}
+
+body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-depth .faction-card:not(.is-locked) .horizon-flag {
+  filter: none;
+}
+
+body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-depth .faction-card .faction-chain-lock {
+  transform: translateZ(4px);
+}
+
+.faction-depth[data-faction-motion="full"] .faction-plaque {
+  transform: rotateX(5deg) rotateY(-5deg);
+  transition: transform 320ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.faction-depth[data-faction-motion="full"] .faction-card:focus-visible .faction-plaque {
+  transform: translate3d(0, -3px, 16px) rotateX(7deg) rotateY(-12deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .faction-depth[data-faction-motion="full"] .faction-card:hover .faction-plaque {
+    transform: translate3d(0, -3px, 26px) rotateX(var(--plaque-pitch, 7deg)) rotateY(var(--plaque-yaw, -12deg));
+  }
+
+  .faction-depth[data-faction-motion="full"] .faction-card.is-locked:hover .faction-plaque {
+    transform: translateZ(4px) rotateX(calc(var(--plaque-pitch, 7deg) * .35)) rotateY(calc(var(--plaque-yaw, -12deg) * .35));
+  }
+}
+
+.faction-depth[data-faction-motion="full"] .faction-card:active .faction-plaque {
+  transform: translateZ(-8px) rotateX(8deg) rotateY(-8deg);
+  transition-duration: 100ms;
+}
+
+.faction-depth[data-faction-motion="full"] .faction-card.is-locked:active .faction-plaque {
+  transform: translateZ(-2px) rotateX(3deg) rotateY(-3deg);
+}
+
+.faction-depth[data-faction-motion="reduced"] .faction-plaque-edge,
+.faction-depth[data-faction-motion="reduced"] .faction-plaque-back {
+  display: none;
+}
+
+.faction-depth[data-faction-motion="reduced"] .faction-card:hover .faction-plaque-face,
+.faction-depth[data-faction-motion="reduced"] .faction-card:active .faction-plaque-face {
+  outline-color: #eadbb6;
+}
+
+.faction-depth[data-faction-motion="reduced"] .horizon-lock-notice {
+  animation: none;
+}
+
+/* View Transitions carries the original flag to the destination. Rotate the
+   snapshot as it travels while leaving the browser's position tween intact. */
+::view-transition-image-pair(tfam-faction-banner) {
+  animation: faction-banner-turn var(--tfam-banner-duration, 950ms) cubic-bezier(.16, 1, .3, 1) both;
+}
+
+@keyframes faction-banner-turn {
+  from { transform: perspective(600px) rotateY(0deg); }
+  30% { transform: perspective(600px) rotateY(-23deg) rotateX(8deg); }
+  to { transform: perspective(600px) rotateY(0deg); }
+}

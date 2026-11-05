@@ -14,7 +14,7 @@ export default function FactionArrival({faction:f,lang,compact=false}:{faction:R
   const el=root.current;if(!el||compact||motionPreference.matches)return;
   let repeat=false;try{repeat=sessionStorage.getItem('tfam-arrival:'+f.id)==='seen';sessionStorage.setItem('tfam-arrival:'+f.id,'seen');}catch{}
   const image=el.querySelector('.arrival-art'),flag=el.querySelector('.arrival-flag');
-  const animations=[image?.animate([{transform:'scale(1.045)'},{transform:'scale(1)'}],{duration:repeat?280:1050,easing:'cubic-bezier(.16,1,.3,1)'}),flag?.animate([{transform:'translateY(-18px) rotate(-4deg)'},{transform:'translateY(0) rotate(0)'}],{duration:repeat?220:850,easing:'cubic-bezier(.16,1,.3,1)'})];
+  const animations=[image?.animate([{transform:'scale(1.045)'},{transform:'scale(1)'}],{duration:repeat?280:1050,easing:'cubic-bezier(.16,1,.3,1)'}),flag?.animate([{transform:'perspective(680px) translate3d(0,-18px,55px) rotateY(-32deg) rotate(-4deg)'},{transform:'perspective(680px) translate3d(0,0,0) rotateY(0) rotate(0)'}],{duration:repeat?220:850,easing:'cubic-bezier(.16,1,.3,1)'})];
   let visible=true;
   const sync=()=>animations.forEach(a=>{if(motionPreference.matches){a?.cancel();return;}if(a?.playState==='finished')return;visible&&!document.hidden?a?.play():a?.pause();});
   const observer=new IntersectionObserver(([e])=>{visible=e.isIntersecting;sync();});observer.observe(el);

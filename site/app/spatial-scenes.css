@@ -1,0 +1,148 @@
+/* The moving camera and the portrait's arrival own different transforms. */
+.character-depth {
+  position: relative;
+  perspective: 1050px;
+  --cabinet-angle: 0deg;
+  --portrait-offset: 0%;
+  --hall-offset: 0%;
+}
+.character-depth[data-angle="1"] { --cabinet-angle: -23deg; --portrait-offset: 4%; --hall-offset: -3%; }
+.character-depth[data-angle="2"] { --cabinet-angle: 23deg; --portrait-offset: -4%; --hall-offset: 3%; }
+.character-depth-camera, .character-depth-cabinet { transform-style: preserve-3d; }
+.character-depth-camera {
+  transform: rotateX(var(--camera-x, 0deg)) rotateY(calc(var(--cabinet-angle) + var(--camera-y, 0deg)));
+  transition: transform 520ms cubic-bezier(.16,1,.3,1);
+}
+.character-depth-cabinet::before, .character-depth-cabinet::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  width: 18px;
+  background: linear-gradient(90deg,#3b2227,#98774e 25%,#382529 36%,#1f1720);
+  pointer-events: none;
+}
+.character-depth-cabinet::before {
+  left: 0;
+  transform-origin: left center;
+  transform: rotateY(90deg);
+}
+.character-depth-cabinet::after {
+  right: 0;
+  transform-origin: right center;
+  transform: rotateY(-90deg);
+}
+.character-depth .character-scene {
+  outline: 1px solid #94714e;
+  outline-offset: -1px;
+}
+.character-depth .character-scene-environment img {
+  transform: translateX(var(--hall-offset)) scale(1.07);
+  transition: transform 520ms cubic-bezier(.16,1,.3,1);
+}
+.character-depth .has-cutout .character-scene-subject img {
+  transform: translateX(var(--portrait-offset));
+  transition: transform 520ms cubic-bezier(.16,1,.3,1);
+}
+.character-depth[data-reduced="false"] .character-depth-cabinet {
+  animation: cabinet-arrival 650ms cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes cabinet-arrival {
+  from { transform: translateZ(-45px) rotateY(-20deg); }
+  to { transform: translateZ(0) rotateY(0); }
+}
+.character-depth-turn {
+  position: absolute;
+  z-index: 5;
+  right: 12px;
+  bottom: 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 13px;
+  border: 1px solid #b69a71;
+  color: #fff0d3;
+  background: #201724;
+  box-shadow: 0 4px 0 #120c15;
+  transition: transform 140ms ease, background 140ms ease;
+}
+.character-depth-turn:hover { background: #472836; }
+.character-depth-turn:active { transform: translateY(3px); }
+.character-depth[data-reduced="true"] .character-depth-camera { transform: none; transition: none; }
+.character-depth[data-reduced="true"] .character-scene img { transition: none; }
+
+.military-dossier-art, .monument-hero { perspective: 1100px; }
+.spatial-dossier-enter {
+  animation: military-plate-arrive 520ms cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes military-plate-arrive {
+  from { transform: translateZ(-60px) rotateY(-22deg); opacity: .65; }
+  to { transform: translateZ(0) rotateY(0); opacity: 1; }
+}
+.monument-hero .spatial-dossier-enter {
+  animation-name: landmark-plate-arrive;
+  transform-origin: center bottom;
+}
+@keyframes landmark-plate-arrive {
+  from { transform: rotateX(15deg) translateZ(-45px) scale(.98); opacity: .65; }
+  to { transform: rotateX(0) translateZ(0) scale(1); opacity: 1; }
+}
+
+.book-handoff .spatial-book {
+  transform-style: preserve-3d;
+  box-shadow: none;
+}
+.spatial-book-leaves, .spatial-book-cover, .spatial-book-spine {
+  position: absolute;
+  inset: 0;
+}
+.spatial-book-leaves {
+  background: #e4d5af;
+  border: 6px solid #59363e;
+  box-shadow: 0 18px 60px #000a;
+  transform: translateZ(-18px);
+}
+.spatial-book-leaves::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  inset-block: 0;
+  width: 18px;
+  background: repeating-linear-gradient(90deg,#c7b58e 0 2px,#e4d5af 2px 4px);
+  transform-origin: right center;
+  transform: rotateY(-90deg);
+}
+.spatial-book-spine {
+  width: 18px;
+  background: linear-gradient(90deg,#211522,#794552,#30202d);
+  transform-origin: left center;
+  transform: rotateY(90deg);
+}
+.spatial-book-cover { transform-origin: left center; }
+.spatial-book-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #562f3d;
+  border: 2px solid #98784d;
+  transform: translateZ(-1px) rotateY(180deg);
+  backface-visibility: hidden;
+}
+.spatial-book-cover { transform-style: preserve-3d; }
+.spatial-book-cover > img, .spatial-book-cover > span { backface-visibility: hidden; }
+
+.atlas211-regional .atlas211-capital[aria-pressed="true"] circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: atlas-pin-seat 390ms cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes atlas-pin-seat {
+  0% { transform: translateY(-8px) scale(1.75); }
+  100% { transform: translateY(0) scale(1); }
+}
+html[data-tfam-motion="reduced"] :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital circle) {
+  animation: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:not([data-tfam-motion="full"]) :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital circle) { animation: none; }
+}
