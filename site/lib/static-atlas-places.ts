@@ -21,7 +21,7 @@ export function atlasPlaces(data:Row,year:string,selected:string,region:MapRegio
  const chosen=candidates.filter(c=>capIds.has(c.id));
  const own=candidates.filter(c=>c.owner===selected&&!capIds.has(c.id));
  // Spread secondary towns geographically, rather than crowding the capital.
- while(own.length&&chosen.filter(c=>c.owner===selected).length<5){
+ while(own.length&&chosen.filter(c=>c.owner===selected).length<7){
   const anchors=chosen.filter(c=>c.owner===selected);
   own.sort((a,b)=>{
    const distance=(c:typeof a)=>anchors.length?Math.min(...anchors.map(p=>(p.coordinates[0]-c.coordinates[0])**2+(p.coordinates[1]-c.coordinates[1])**2)):1;

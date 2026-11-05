@@ -45,7 +45,6 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .chapter-copyright:not(.chapte
  body.tfam-editorial.tfam-royal main[data-tfam211] .chapter-heading h2{font-size:32px}
  body.tfam-editorial.tfam-royal main[data-tfam211] .reading-position-status{font-size:13px;min-height:0}
 }
-@media(prefers-reduced-motion:reduce){.chronicle211-cover{transform:none;transition:none}}
 
 body.tfam-editorial.tfam-royal main[data-tfam211] .reader-tools{display:flex;align-items:center;justify-content:flex-start;gap:14px;position:relative;flex-wrap:wrap;margin:0 0 18px;padding:0;border:0}
 body.tfam-editorial.tfam-royal main[data-tfam211] .reader-tools>button{font-size:15px;min-height:44px;padding:8px 12px;background:none;color:var(--ink);border:1px solid var(--rule)}

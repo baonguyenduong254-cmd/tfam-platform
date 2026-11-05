@@ -90,16 +90,4 @@
 }
 .artifact-depth-controls button:focus-visible { outline: 2px solid #f3dca6; outline-offset: -4px; }
 .artifact-depth-controls button:active { transform: translateY(2px); }
-.vest-contained .artifact-depth-controls,
-.artifact-scene[data-scene-phase=reduced] .artifact-depth-controls { display: none; }
-.artifact-scene[data-scene-phase=reduced] .artifact-depth-camera {
- transform: none;
- transition: none;
-}
-.artifact-scene[data-scene-phase=reduced] .artifact-depth-table { bottom: 0; }
-@media (prefers-reduced-motion: reduce) {
- html:not([data-tfam-motion=full]) .artifact-depth-camera { transform: none; transition: none; }
- html:not([data-tfam-motion=full]) .artifact-scene.is-inspect .artifact-depth-ring-near { animation: none; }
- html:not([data-tfam-motion=full]) .artifact-depth-controls { display: none; }
- html:not([data-tfam-motion=full]) .artifact-depth-table { bottom: 0; }
-}
+.vest-contained .artifact-depth-controls { display: none; }

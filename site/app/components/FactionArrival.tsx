@@ -5,21 +5,20 @@ import MediaImage from './MediaImage';
 import ExperienceAtmosphere from './ExperienceAtmosphere';
 import {sceneArt} from '../../lib/faction-scene';
 import {factionTaglines} from '../../lib/faction-taglines';
-import {motionPreference} from '../../lib/motion/preference';
 type R=Record<string,any>;
 export default function FactionArrival({faction:f,lang,compact=false}:{faction:R;lang:string;compact?:boolean}){
  const root=useRef<HTMLElement>(null);
  const name=presentationPunctuation(f['name_'+lang]||f.name_en||f.name_vi||''),quote=factionTaglines[f.id],arrivalLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':quote?.en;
  useEffect(()=>{
-  const el=root.current;if(!el||compact||motionPreference.matches)return;
+  const el=root.current;if(!el||compact)return;
   let repeat=false;try{repeat=sessionStorage.getItem('tfam-arrival:'+f.id)==='seen';sessionStorage.setItem('tfam-arrival:'+f.id,'seen');}catch{}
   const image=el.querySelector('.arrival-art'),flag=el.querySelector('.arrival-flag');
-  const animations=[image?.animate([{transform:'scale(1.045)'},{transform:'scale(1)'}],{duration:repeat?280:1050,easing:'cubic-bezier(.16,1,.3,1)'}),flag?.animate([{transform:'perspective(680px) translate3d(0,-18px,55px) rotateY(-32deg) rotate(-4deg)'},{transform:'perspective(680px) translate3d(0,0,0) rotateY(0) rotate(0)'}],{duration:repeat?220:850,easing:'cubic-bezier(.16,1,.3,1)'})];
+  const animations=[image?.animate?.([{transform:'scale(1.045)'},{transform:'scale(1)'}],{duration:repeat?280:1050,easing:'cubic-bezier(.16,1,.3,1)'}),flag?.animate?.([{transform:'perspective(680px) translate3d(0,-18px,55px) rotateY(-32deg) rotate(-4deg)'},{transform:'perspective(680px) translate3d(0,0,0) rotateY(0) rotate(0)'}],{duration:repeat?220:850,easing:'cubic-bezier(.16,1,.3,1)'})];
   let visible=true;
-  const sync=()=>animations.forEach(a=>{if(motionPreference.matches){a?.cancel();return;}if(a?.playState==='finished')return;visible&&!document.hidden?a?.play():a?.pause();});
+  const sync=()=>animations.forEach(a=>{if(a?.playState==='finished')return;visible&&!document.hidden?a?.play():a?.pause();});
   const observer=new IntersectionObserver(([e])=>{visible=e.isIntersecting;sync();});observer.observe(el);
-  document.addEventListener('visibilitychange',sync);motionPreference.addEventListener('change',sync);
-  return()=>{animations.forEach(a=>a?.cancel());observer.disconnect();document.removeEventListener('visibilitychange',sync);motionPreference.removeEventListener('change',sync);};
+  document.addEventListener('visibilitychange',sync);
+  return()=>{animations.forEach(a=>a?.cancel());observer.disconnect();document.removeEventListener('visibilitychange',sync);};
  },[f.id,compact]);
  return <header ref={root} className={'world-arrival faction-themed arrival211'+(compact?' is-compact':'')} data-faction={f.id}>
   {!compact&&<ExperienceAtmosphere variant="world"/>}

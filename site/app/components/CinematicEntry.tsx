@@ -1,7 +1,6 @@
 'use client';
 import {carryArtwork} from '../../lib/motion/artwork-transition';
-import {motionPreference} from '../../lib/motion/preference';
-import {AnimatePresence,motion,useReducedMotion} from 'motion/react';
+import {AnimatePresence,motion} from 'motion/react';
 import {useCallback,useEffect,useRef,useState,type CSSProperties,type PointerEvent} from 'react';
 import {ArrowUpRight,Compass,BookOpen} from 'lucide-react';
 import OpeningLivingScene from './OpeningLivingScene';
@@ -17,9 +16,8 @@ type Props={contentSettled:boolean;data:R;geo:R[];provinces:R[];lang:string;year
 const flags=standards.flags as Record<string,string>;
 export default function CinematicEntry({data,replay,onEnter}:Props){
  const [choose,setChoose]=useState(replay),[notice,setNotice]=useState('');
- const [reduceFactionMotion,setReduceFactionMotion]=useState(true);
  const tilt=useRef<{frame:number;crest:HTMLElement|null;x:number;y:number}>({frame:0,crest:null,x:0,y:0});
- const reduced=useReducedMotion(),discovery=useDiscovery();
+ const discovery=useDiscovery();
  const clearTilt=useCallback(()=>{
   const state=tilt.current;
   cancelAnimationFrame(state.frame);
@@ -30,14 +28,11 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
  },[]);
  useEffect(()=>{
   if(!choose)return;
-  const sync=()=>{setReduceFactionMotion(motionPreference.matches);if(motionPreference.matches)clearTilt();};
-  sync();
-  motionPreference.addEventListener('change',sync);
   window.addEventListener('blur',clearTilt);
-  return()=>{clearTilt();motionPreference.removeEventListener('change',sync);window.removeEventListener('blur',clearTilt);};
+  return()=>{clearTilt();window.removeEventListener('blur',clearTilt);};
  },[choose,clearTilt]);
  function trackPlaque(event:PointerEvent<HTMLButtonElement>){
-  if(reduceFactionMotion||event.pointerType!=='mouse')return;
+  if(event.pointerType!=='mouse')return;
   const crest=event.currentTarget.firstElementChild;
   if(!(crest instanceof HTMLElement))return;
   const state=tilt.current;
@@ -48,7 +43,7 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
   if(state.frame)return;
   state.frame=requestAnimationFrame(()=>{
    state.frame=0;
-   if(!crest.isConnected||motionPreference.matches)return;
+   if(!crest.isConnected)return;
    const rect=crest.getBoundingClientRect();
    if(!rect.width||!rect.height)return;
    const horizontal=Math.max(-1,Math.min(1,2*(state.x-rect.left)/rect.width-1));
@@ -65,13 +60,13 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
  return <div className={'atlas-opening tfam-opening-210 '+(choose?'choosing':'')} data-opening-motion="on">
   <OpeningLivingScene scene={choose?'court':'opening'}/><div className="opening-mist" aria-hidden="true"/>
   <header className="opening-toolbar">{choose?<><a className="opening-wordmark" href="/" aria-label="Through Frost and Myth, opening" onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();history.pushState(null,'',location.pathname);setChoose(false);window.scrollTo({top:0,behavior:'instant'});}}>Through Frost and Myth <sup>©</sup></a><BackgroundMusicSlot className="opening-header-music"/></>:<BackgroundMusicSlot className="opening-header-music"/>}</header>
-  <AnimatePresence mode="wait" initial={false}>{!choose?<motion.section key="opening" className="opening-title" initial={{opacity:0,y:reduced?0:18}} animate={{opacity:1,y:0}} exit={{opacity:0,y:reduced?0:-12}} transition={{duration:reduced ? .12 : .65}}>
+  <AnimatePresence mode="wait" initial={false}>{!choose?<motion.section key="opening" className="opening-title" initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-12}} transition={{duration:.65}}>
    <div className="opening-work-title"><span className="title-blood-bloom" aria-hidden="true"/><h1><span>Through Frost</span><em>and Myth</em><sup aria-label="copyright">©</sup></h1><p className="opening-byline">A world by Leonardo Ravenna</p></div>
    <blockquote className="opening-quote">Who are you in a world buried beneath snow,<br/>where history itself has been bent from its true course?</blockquote>
    <div className="opening-actions"><a className="opening-enter" href="/#horizons" onClick={horizons}><Compass size={19} aria-hidden="true"/><span>DISCOVER THE WORLD</span><ArrowUpRight size={18} aria-hidden="true"/></a><a className="opening-reader-button" href="/chronicles" onClick={chronicles}><BookOpen size={19} aria-hidden="true"/><span>BEGIN THE CHRONICLES</span><ArrowUpRight size={18} aria-hidden="true"/></a></div>
-  </motion.section>:<motion.section key="banners" className="faction-selection faction-depth" data-faction-motion={reduceFactionMotion?'reduced':'full'} aria-labelledby="horizon-title" initial={{opacity:0,y:reduceFactionMotion?0:20}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:reduceFactionMotion ? .12 : .65}}>
+  </motion.section>:<motion.section key="banners" className="faction-selection faction-depth" aria-labelledby="horizon-title" initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:.65}}>
    <header className="horizon-intro"><h1 id="horizon-title">Choose Your Horizon</h1><p>Beyond every horizon, another empire awaits.<br/>Journey through the chronicles. Unveil them all.</p></header>
-   <nav className="horizon-chapters" aria-label="Faction groups">{factionGroups.map((group,i)=><a key={group.name} href={'#horizon-group-'+i} onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();document.getElementById('horizon-group-'+i)?.scrollIntoView({behavior:reduceFactionMotion?'instant':'smooth',block:'start'});}}>{group.name}</a>)}</nav>
+   <nav className="horizon-chapters" aria-label="Faction groups">{factionGroups.map((group,i)=><a key={group.name} href={'#horizon-group-'+i} onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();document.getElementById('horizon-group-'+i)?.scrollIntoView({behavior:'smooth',block:'start'});}}>{group.name}</a>)}</nav>
    {factionGroups.map((group,i)=><section className={'faction-group '+(group.name==='The Unscored Revolt'?'revolt-group':'')} id={'horizon-group-'+i} key={group.name} aria-labelledby={'group-title-'+i}>
     <header className="faction-group-heading"><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span><h2 id={'group-title-'+i}>{group.name}</h2><span className="group-rule" aria-hidden="true"/></header>
     <div className="faction-card-grid">{group.ids.map(id=>{
