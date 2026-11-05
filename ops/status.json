@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-06",
-  "phase": "213-live",
+  "phase": "214-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 213,
-    "sourceCommit": "83d0c21e97805fb0e1dcf663b1f737ca46e1c718",
+    "siteVersion": 214,
+    "sourceCommit": "d34260eea720ec5903535fba11572d23f2be6b33",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6aecfb3728dc81918cc398fba5ad3232",
-    "verifiedAt": "2026-11-05T21:55:21.443477+00:00"
+    "deploymentId": "appgdep_6aecff49a844819184f68b9089db13bd",
+    "verifiedAt": "2026-11-05T22:12:44.038089+00:00"
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
@@ -154,5 +154,9 @@
       27
     ],
     "rollbackVersion": 212
+  },
+  "release214": {
+    "record": "ops/release-214.json",
+    "rollbackVersion": 213
   }
 }

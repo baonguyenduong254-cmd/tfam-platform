@@ -4,7 +4,6 @@ import {useEffect, useId, useRef, useState} from 'react';
 import {placeLabels} from '../../lib/static-atlas-places';
 import {chartPlaces} from '../../lib/faction-atlas-detail';
 import {mapRegion} from '../../lib/map-regions';
-import {motionPreference} from '../../lib/motion/preference';
 import {AtlasSymbol, AtlasLegendSymbol, type AtlasSymbolKind} from './AtlasSymbols';
 import AtlasGeography, {AtlasTerrainGlyph} from './AtlasGeography';
 import '../regional-atlas-refinement.css';
@@ -79,8 +78,7 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
   },[faction.id,regionId,year,attempt]);
 
   useEffect(() => {
-    if (motionPreference.matches) return;
-    const animation = root.current?.querySelector('.atlas211-map')?.animate(
+    const animation = root.current?.querySelector('.atlas211-map')?.animate?.(
       [{opacity:.72},{opacity:1}],{duration:380,easing:'cubic-bezier(.16,1,.3,1)'},
     );
     return () => animation?.cancel();

@@ -94,46 +94,32 @@ body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-depth .faction-card .f
   transform: translateZ(4px);
 }
 
-.faction-depth[data-faction-motion="full"] .faction-plaque {
+.faction-depth .faction-plaque {
   transform: rotateX(5deg) rotateY(-5deg);
   transition: transform 320ms cubic-bezier(.16, 1, .3, 1);
 }
 
-.faction-depth[data-faction-motion="full"] .faction-card:focus-visible .faction-plaque {
+.faction-depth .faction-card:focus-visible .faction-plaque {
   transform: translate3d(0, -3px, 16px) rotateX(7deg) rotateY(-12deg);
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .faction-depth[data-faction-motion="full"] .faction-card:hover .faction-plaque {
+  .faction-depth .faction-card:hover .faction-plaque {
     transform: translate3d(0, -3px, 26px) rotateX(var(--plaque-pitch, 7deg)) rotateY(var(--plaque-yaw, -12deg));
   }
 
-  .faction-depth[data-faction-motion="full"] .faction-card.is-locked:hover .faction-plaque {
+  .faction-depth .faction-card.is-locked:hover .faction-plaque {
     transform: translateZ(4px) rotateX(calc(var(--plaque-pitch, 7deg) * .35)) rotateY(calc(var(--plaque-yaw, -12deg) * .35));
   }
 }
 
-.faction-depth[data-faction-motion="full"] .faction-card:active .faction-plaque {
+.faction-depth .faction-card:active .faction-plaque {
   transform: translateZ(-8px) rotateX(8deg) rotateY(-8deg);
   transition-duration: 100ms;
 }
 
-.faction-depth[data-faction-motion="full"] .faction-card.is-locked:active .faction-plaque {
+.faction-depth .faction-card.is-locked:active .faction-plaque {
   transform: translateZ(-2px) rotateX(3deg) rotateY(-3deg);
-}
-
-.faction-depth[data-faction-motion="reduced"] .faction-plaque-edge,
-.faction-depth[data-faction-motion="reduced"] .faction-plaque-back {
-  display: none;
-}
-
-.faction-depth[data-faction-motion="reduced"] .faction-card:hover .faction-plaque-face,
-.faction-depth[data-faction-motion="reduced"] .faction-card:active .faction-plaque-face {
-  outline-color: #eadbb6;
-}
-
-.faction-depth[data-faction-motion="reduced"] .horizon-lock-notice {
-  animation: none;
 }
 
 /* View Transitions carries the original flag to the destination. Rotate the

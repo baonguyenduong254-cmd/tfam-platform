@@ -10,7 +10,6 @@ import {useReaderAccount} from './ReaderAccount';
 import {useDiscovery} from './DiscoveryProgress';
 import BookHandoff from './BookHandoff';
 import SceneStage from './SceneStage';
-import {motionPreference} from '../../lib/motion/preference';
 import StoryLibrary,{type StoryLibraryProps} from './StoryLibrary';
 type Entry=ChapterMeta&{complete?:boolean};
 const cover='/art/evelyne-monodica-moonfall-205-1920.webp';
@@ -31,7 +30,7 @@ export default function ChroniclesHub(props:StoryLibraryProps){
  const filtered=chapterSet.filter(c=>(c.title_en+' '+c.title_vi).toLocaleLowerCase().includes(query.toLocaleLowerCase()));
  const readIds=new Set(recent.filter(c=>c.status==='read').map(c=>c.chapterId)),complete=chapterSet.filter(c=>c.complete),count=complete.filter(c=>readIds.has(c.id)).length;
  const resumeEntry=catalog.find(c=>c.id===resume),recentEntries=useMemo(()=>recent.slice(0,5).flatMap(v=>{const c=catalog.find(c=>c.id===v.chapterId);return c?[c]:[];}),[recent,catalog]);
- function open(id:string,button?:HTMLElement){history.replaceState({...history.state,libraryScroll:scrollY},'');setHandoff(motionPreference.matches?0:Date.now());setReading(id);props.onLanguage?.(id.startsWith('en_book')?'en':'vi');history.pushState({libraryScroll:scrollY},'','#reader/'+id);scrollTo({top:0,behavior:'instant'});}
+ function open(id:string,button?:HTMLElement){history.replaceState({...history.state,libraryScroll:scrollY},'');setHandoff(Date.now());setReading(id);props.onLanguage?.(id.startsWith('en_book')?'en':'vi');history.pushState({libraryScroll:scrollY},'','#reader/'+id);scrollTo({top:0,behavior:'instant'});}
  function library(){setHandoff(0);setReading(null);history.replaceState({...history.state},'',location.pathname);requestAnimationFrame(()=>scrollTo({top:history.state?.libraryScroll||0,behavior:'instant'}));}
  if(reading)return <div className="chronicle211-reading">{handoff>0&&<BookHandoff key={handoff} cover={cover} onEnd={()=>setHandoff(0)}/>}<div className="chronicle211-return"><button onClick={library}><img src={cover} width={640} height={960} alt="" style={{viewTransitionName:'tfam-book-cover'}}/><ArrowLeft size={16}/>Library</button></div><StoryLibrary {...props} initialChapter={reading}/></div>;
  return <section className="chronicle211" aria-labelledby="library211-title">

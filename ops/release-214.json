@@ -1,0 +1,18 @@
+{
+  "version": 214,
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_5609ebef7c008191b2210a27c3fc3e2e",
+  "sourceCommit": "d34260eea720ec5903535fba11572d23f2be6b33",
+  "deploymentId": "appgdep_6aecff49a844819184f68b9089db13bd",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verifiedAt": "2026-11-05T22:12:44.038089+00:00",
+  "archiveHash": "sha256:2c9d890ac8793da3150d5d480592b7775a4163c463565d97f56e725884c34b3e",
+  "rollbackVersion": 213,
+  "rollbackVersionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4e502b10b0488191a75ef0a49815592e",
+  "qa": {
+    "typescript": "passed",
+    "build": "passed",
+    "live": "Isabella scene active with cabinet-arrival and scene-light-pass"
+  },
+  "productionDataWrites": false,
+  "r2Writes": false
+}

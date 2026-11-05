@@ -43,7 +43,7 @@
   transform: translateX(var(--portrait-offset));
   transition: transform 520ms cubic-bezier(.16,1,.3,1);
 }
-.character-depth[data-reduced="false"] .character-depth-cabinet {
+.character-depth .character-depth-cabinet {
   animation: cabinet-arrival 650ms cubic-bezier(.16,1,.3,1) both;
 }
 @keyframes cabinet-arrival {
@@ -68,8 +68,6 @@
 }
 .character-depth-turn:hover { background: #472836; }
 .character-depth-turn:active { transform: translateY(3px); }
-.character-depth[data-reduced="true"] .character-depth-camera { transform: none; transition: none; }
-.character-depth[data-reduced="true"] .character-scene img { transition: none; }
 
 .military-dossier-art, .monument-hero { perspective: 1100px; }
 .spatial-dossier-enter {
@@ -139,10 +137,4 @@
 @keyframes atlas-pin-seat {
   0% { transform: translateY(-8px) scale(1.75); }
   100% { transform: translateY(0) scale(1); }
-}
-html[data-tfam-motion="reduced"] :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital .atlas-symbol) {
-  animation: none;
-}
-@media (prefers-reduced-motion: reduce) {
-  html:not([data-tfam-motion="full"]) :is(.spatial-dossier-enter,.atlas211-regional .atlas211-capital .atlas-symbol) { animation: none; }
 }

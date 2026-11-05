@@ -205,10 +205,6 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .site-tools-popover :is(h2,p,s
  .atlas211-map figcaption{font-size:14px;bottom:6px;left:6px}
  .atlas211-regions button{font-size:14px;flex:1}
 }
-@media(prefers-reduced-motion:reduce){
- html:not([data-tfam-motion=full])::view-transition-group(*),html:not([data-tfam-motion=full])::view-transition-old(*),html:not([data-tfam-motion=full])::view-transition-new(*){animation-duration:0s!important}
- html:not([data-tfam-motion=full]) body.tfam-editorial.tfam-royal main[data-tfam211] *,html:not([data-tfam-motion=full]) body.tfam-editorial.tfam-royal main[data-tfam211] *::before,html:not([data-tfam-motion=full]) body.tfam-editorial.tfam-royal main[data-tfam211] *::after{animation:none!important;scroll-behavior:auto!important}
-}
 
 body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211{justify-content:flex-start}
 
@@ -440,10 +436,6 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .overview-people:not(:has(img)
 body.tfam-editorial.tfam-royal main[data-tfam211] .overview-people:not(:has(img)) button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 24px;padding:18px 0;border-bottom:1px solid var(--world-line)}
 body.tfam-editorial.tfam-royal main[data-tfam211] .overview-people:not(:has(img)) .portrait-pending{grid-column:2;grid-row:1/3;aspect-ratio:auto;background:none;font-size:15px}
 
-body.tfam-editorial.tfam-royal main[data-tfam211] .setting-motion{display:grid;gap:12px;padding:16px 0;border-bottom:1px solid var(--world-line)}
-body.tfam-editorial.tfam-royal main[data-tfam211] .setting-motion select{padding:10px}
-html[data-tfam-motion=reduced]::view-transition-group(*),html[data-tfam-motion=reduced]::view-transition-old(*),html[data-tfam-motion=reduced]::view-transition-new(*){animation-duration:0s!important}
-html[data-tfam-motion=reduced] body main[data-tfam211] *{animation:none!important;scroll-behavior:auto!important}
 
 body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211 .experience-atmosphere{width:100%;height:100%;left:0;right:0;top:0;bottom:0}
 .scene211-atmosphere{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
@@ -464,7 +456,6 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .world211-skip:focus{transform
 body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-unit-card,.monument-card){content-visibility:visible;contain-intrinsic-size:none}
 body.tfam-editorial.tfam-royal main[data-tfam211] #world211-content{scroll-margin-top:96px}
 
-html[data-tfam-motion=full] main[data-tfam211] .experience-atmosphere canvas{display:block}
 body.tfam-editorial.tfam-royal main[data-tfam211] .arrival-copy{animation:none;opacity:1;filter:none;transform:none}
 
 body.tfam-editorial.tfam-royal main[data-tfam211] .atlas-content> :is(.atlas-view,.archive-hub,.vest-collection){animation:none;opacity:1;filter:none;transform:none}
