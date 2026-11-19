@@ -1,0 +1,89 @@
+/* The overview alternates briefing, landscape, court and military compositions. */
+main[data-tfam211] .empire-overview.empire-overview{--empire-ink:#f5e9d6;--empire-subtle:#c7bbca;--empire-gold:#ddc291;color:var(--empire-ink);max-width:1600px;margin:0 auto;padding:0;background:none}
+main[data-tfam211] .empire-overview.empire-overview *{box-sizing:border-box}
+main[data-tfam211] .empire-overview.empire-overview>section{margin:0;padding:clamp(56px,7vw,112px) 0;border:0;background:none;box-shadow:none}
+main[data-tfam211] .empire-overview.empire-overview :is(h2,h3,p){margin:0;text-wrap:pretty}
+main[data-tfam211] .empire-overview.empire-overview h2{font-size:clamp(36px,4vw,64px);line-height:1.04;letter-spacing:-.025em;color:var(--empire-ink);font-weight:400;text-wrap:balance}
+main[data-tfam211] .empire-overview.empire-overview h3{color:var(--empire-ink);font-weight:400}
+main[data-tfam211] .empire-overview.empire-overview p{font-size:18px;line-height:1.65;color:var(--empire-subtle)}
+main[data-tfam211] .empire-overview.empire-overview button{font:inherit;cursor:pointer;color:inherit;text-align:left;border:0;border-radius:0;box-shadow:none;background:none;transition:color .18s ease,background-color .18s ease}
+main[data-tfam211] .empire-overview.empire-overview :is(button,summary):focus-visible{outline:2px solid #edcc91;outline-offset:6px}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:12px 0;min-height:48px;color:var(--empire-gold);font-size:17px;line-height:1.3;text-decoration:none}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link svg{flex-shrink:0;transition:transform .2s ease}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link:hover svg{transform:translate(3px,-3px)}
+main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px}
+main[data-tfam211] .empire-overview.empire-overview .empire-facts{display:flex;flex-wrap:wrap;gap:24px 48px;padding:32px 0;margin:0;border-bottom:1px solid #84718b55}
+main[data-tfam211] .empire-overview.empire-overview .empire-facts dt{color:var(--empire-subtle);font-size:14px;margin-bottom:8px}
+main[data-tfam211] .empire-overview.empire-overview .empire-facts dd{color:var(--empire-ink);font-size:24px;margin:0}
+main[data-tfam211] .empire-overview.empire-overview .empire-identity{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.65fr);gap:clamp(40px,7vw,112px)}
+main[data-tfam211] .empire-overview.empire-overview .empire-section-intro .empire-text-link{margin-top:24px}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits{display:grid;grid-template-columns:1fr 1fr;gap:36px 44px}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits article{display:flex;gap:20px;align-items:start;padding:0;border:0;background:none}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits img{flex:0 0 64px;width:64px;height:90px;object-fit:contain}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits h3{font-size:24px;line-height:1.2;margin-bottom:12px;color:var(--empire-gold)}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits p{font-size:16px;line-height:1.65}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);grid-template-rows:1fr 1fr;gap:20px;min-height:680px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place{position:relative;isolation:isolate;display:block;min-width:0;overflow:hidden;padding:0;background:#201c27;min-height:300px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-lead{grid-row:span 2}
+main[data-tfam211] .empire-overview.empire-overview .empire-place>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .7s cubic-bezier(.16,1,.3,1)}
+main[data-tfam211] .empire-overview.empire-overview .empire-place::after{content:"";position:absolute;inset:25% 0 0;z-index:-1;background:linear-gradient(transparent,#100d16ed)}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption{position:absolute;inset:auto 28px 24px;display:grid;justify-items:start;gap:12px;color:#fff2da}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption>span:first-child{display:flex;gap:8px;align-items:center;color:#eadcc9;font-size:14px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption h3{font-size:clamp(25px,2.5vw,38px);line-height:1.08;text-wrap:balance}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-lead .empire-place-caption{inset:auto 40px 36px;gap:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-lead h3{font-size:clamp(38px,4vw,60px)}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption p{color:#ecdeca;font-size:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-open{display:flex;align-items:center;gap:20px;color:#f0d39d;font-size:15px;min-height:32px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place:hover>img{transform:scale(1.035)}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-notice{display:grid;align-content:center;justify-items:start;min-height:320px;color:var(--empire-subtle);background:#1a1520;padding:32px}
+main[data-tfam211] .empire-overview.empire-overview .empire-court{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(32px,7vw,112px);align-items:center}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{position:relative;display:grid;min-height:650px;overflow:hidden;isolation:isolate;padding:0 32px 32px;align-content:end;background:#211a27}
+main[data-tfam211] .empire-overview.empire-overview[data-faction=castilian_empire] .empire-sovereign::before{content:"";position:absolute;inset:0;z-index:-2;background:url('/overview223/castilian-arrival.webp') center/cover;opacity:.28}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign::after{content:"";position:absolute;inset:55% 0 0;z-index:-1;background:linear-gradient(transparent,#151019)}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>img{position:absolute;z-index:-1;inset:12px 0 auto;width:100%;height:calc(100% - 12px);object-fit:contain;object-position:50% 0;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>span{display:grid;gap:8px;position:relative;max-width:420px}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign strong{font-weight:400;font-size:clamp(28px,3vw,42px);line-height:1.05;color:#fff1d8;text-shadow:0 2px 14px #100b15}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>span>span:not(.empire-text-link){color:#e7d6bc;font-size:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign:hover>img{transform:translateY(-5px)}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-copy h2{white-space:pre-line;margin-bottom:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage{margin-top:36px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage button{display:flex;flex-direction:column;min-width:0;padding:0;gap:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:240px;width:100%;object-fit:contain;object-position:center bottom;mask-image:linear-gradient(#000 85%,transparent)}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage button>span{display:grid;gap:7px;position:relative;padding-right:18px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{color:var(--empire-subtle);font-size:13px;line-height:1.4}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{color:#f5e9d6;font-size:20px;line-height:1.2;font-weight:400}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage svg{position:absolute;right:0;bottom:2px;color:var(--empire-gold)}
+main[data-tfam211] .empire-overview.empire-overview .empire-portrait-pending{display:grid;place-items:center;min-height:200px;width:100%;color:var(--empire-subtle);font-size:15px}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-without-crown{grid-template-columns:1fr}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-without-crown .empire-entourage img{height:360px}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs{display:flex;gap:32px;border-bottom:1px solid #84718b55;margin-bottom:28px;overflow:auto;scrollbar-width:thin;scrollbar-color:#725769 #17121d}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{flex:1;min-width:180px;min-height:64px;padding:12px 0;font-size:16px;line-height:1.35;color:var(--empire-subtle);border-bottom:2px solid transparent}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button[aria-selected=true]{color:#f1dbb2;border-color:#d4b47a}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button:focus-visible{outline-offset:-3px}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:center}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:460px;position:relative;overflow:hidden;background:#1c1721;animation:empire-unit-arrive .42s cubic-bezier(.16,1,.3,1)}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art img{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:contain}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-copy h3{font-size:clamp(28px,3vw,46px);line-height:1.08;margin-bottom:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-copy p{margin-bottom:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-copy .empire-force-class{color:var(--empire-gold);font-size:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(32px,8vw,128px);border-top:1px solid #84718b55;padding-bottom:100px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>svg{color:var(--empire-gold);margin-bottom:24px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>span{display:block;color:var(--empire-gold);margin-top:24px;font-size:24px}
+main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art{margin:32px 0 0}
+main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art img{width:100%;height:auto;display:block}
+main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art figcaption{font-size:14px;color:var(--empire-subtle);margin-top:12px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text{max-width:70ch}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text p{font-size:20px;line-height:1.8;margin-bottom:24px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text>p:first-child::first-letter{font-size:3em;line-height:.9;float:left;color:var(--empire-gold);padding:9px 10px 0 0}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text details{border:0;padding:0;background:none}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary{display:flex;gap:24px;align-items:center;cursor:pointer;list-style:none;color:var(--empire-gold);min-height:48px;font-size:18px;padding:10px 0}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary::-webkit-details-marker{display:none}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary svg{transition:transform .2s ease}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text details[open] summary svg{transform:rotate(90deg)}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text details[open]>div{padding-top:24px}
+@keyframes empire-unit-arrive{from{opacity:.6;transform:translateX(-12px)}to{opacity:1;transform:none}}
+@media(min-width:1600px){main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{min-height:780px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:300px}}
+@media(max-width:1100px){main[data-tfam211] .empire-overview.empire-overview .empire-identity{grid-template-columns:1fr;gap:40px}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro{display:flex;justify-content:space-between;align-items:end;gap:24px}main[data-tfam211] .empire-overview.empire-overview .empire-traits{gap:32px 40px}main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{min-height:580px}main[data-tfam211] .empire-overview.empire-overview .empire-court{gap:32px;grid-template-columns:.9fr 1.1fr}main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:550px;padding:24px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage{gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:200px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{font-size:18px}main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1.2fr 1fr}main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:380px}}
+@media(max-width:767px){main[data-tfam211] .empire-overview.empire-overview>section{padding:52px 0}main[data-tfam211] .empire-overview.empire-overview h2{font-size:38px}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro{display:block}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro .empire-text-link{margin-top:16px}main[data-tfam211] .empire-overview.empire-overview .empire-traits{grid-template-columns:1fr;gap:28px}main[data-tfam211] .empire-overview.empire-overview .empire-traits img{width:56px;flex-basis:56px;height:76px}main[data-tfam211] .empire-overview.empire-overview .empire-traits h3{font-size:24px}main[data-tfam211] .empire-overview.empire-overview .empire-traits p{font-size:17px}main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{display:block;margin-bottom:24px}main[data-tfam211] .empire-overview.empire-overview .empire-section-heading .empire-text-link{margin-top:14px}main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{grid-template-columns:1fr;grid-template-rows:auto;gap:16px;min-height:0}main[data-tfam211] .empire-overview.empire-overview .empire-place{min-height:300px}main[data-tfam211] .empire-overview.empire-overview .empire-place-lead{grid-row:auto;min-height:460px}main[data-tfam211] .empire-overview.empire-overview .empire-place-caption,main[data-tfam211] .empire-overview.empire-overview .empire-place-lead .empire-place-caption{inset:auto 24px 24px;gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-place-caption h3{font-size:30px}main[data-tfam211] .empire-overview.empire-overview .empire-place-lead h3{font-size:40px}main[data-tfam211] .empire-overview.empire-overview .empire-court{grid-template-columns:1fr;gap:36px}main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:560px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage{margin-top:24px;gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:180px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{font-size:18px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{font-size:12px}main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs{gap:24px;margin-bottom:20px}main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{min-width:160px;font-size:15px}main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1fr;gap:24px}main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:320px}main[data-tfam211] .empire-overview.empire-overview .empire-force-copy h3{font-size:32px}main[data-tfam211] .empire-overview.empire-overview .empire-history{grid-template-columns:1fr;gap:32px;padding-bottom:64px}main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>svg{margin-bottom:16px}main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>span{margin-top:16px}main[data-tfam211] .empire-overview.empire-overview .empire-history-text p{font-size:18px;line-height:1.8}}
+@media(prefers-reduced-motion:reduce){main[data-tfam211] .empire-overview.empire-overview .empire-force-art{animation:empire-unit-arrive .18s ease}main[data-tfam211] .empire-overview.empire-overview :is(.empire-place:hover>img,.empire-sovereign:hover>img){transform:none}@keyframes empire-unit-arrive{from{opacity:.7}to{opacity:1}}}
+@media(max-width:767px){main[data-tfam211] .empire-overview.empire-overview .empire-entourage{grid-template-columns:repeat(3,minmax(132px,1fr));overflow-x:auto;padding-bottom:16px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#725769 #17121d}main[data-tfam211] .empire-overview.empire-overview .empire-entourage button{scroll-snap-align:start}main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{font-size:13px}}

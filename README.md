@@ -3,7 +3,10 @@
 Kho quản lý chung của Through Frost and Myth. Source, build và phát hành làm trên cloud.
 
 ## Hiện tại
-- **Site live: version210** — https://throughfrostandmyth.baonguyenduong254.chatgpt.site
+- **Site live: version225** — https://throughfrostandmyth.baonguyenduong254.chatgpt.site
+- Commit nguồn Sites a28b1eaa2ed11072729f3033a566e8eca5e5a831. [Bản ghi đồng bộ v225](ops/releases/225-source.json).
+
+## Lịch sử version210
 - Source Sites: `7ebfd779b0445b35ff5b527c8d0b1aed6e0a8bab`; [bản ghi phát hành](ops/releases/210-source.json).
 - [PR15](https://github.com/baonguyenduong254-cmd/tfam-platform/pull/15): trang chủ cinematic và chọn28 faction/5 nhóm, âm nhạc gọn, cờ/xích/khóa mới.
 - Build, TypeScript, domain checks và Chromium390/768/1920 đều qua trên GitHub Actions; đã kiểm tra điều hướng/nhạc/Castilian trên site thật.

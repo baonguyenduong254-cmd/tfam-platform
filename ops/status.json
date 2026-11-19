@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04",
-  "phase": "update-211-live",
+  "updatedAt": "2026-11-19",
+  "phase": "update-225-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 211,
-    "sourceCommit": "ad15c538a6335a0453585b056174d331370b47f0",
+    "siteVersion": 225,
+    "sourceCommit": "a28b1eaa2ed11072729f3033a566e8eca5e5a831",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6aea72f17578819195982864120be79f",
-    "verifiedAt": "2026-11-03T23:49:27.062280+00:00"
+    "deploymentId": "appgdep_6afb24ff5d6c8191b6384965a564c271",
+    "verifiedAt": "2026-11-19"
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
@@ -20,7 +20,8 @@
     "importPR": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/6",
     "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
     "importSecretRemoved": true,
-    "manualCloudRelease": "verified"
+    "manualCloudRelease": "verified",
+    "liveSourceRecord": "ops/releases/225-source.json"
   },
   "r2": {
     "status": "full-dashboard-inventory-reconciled",

@@ -1,0 +1,17 @@
+{
+  "siteProjectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+  "siteVersion": 225,
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_703f159bf4d081919b4d8f7ac8ef68fc",
+  "deploymentId": "appgdep_6afb24ff5d6c8191b6384965a564c271",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "sourceCommit": "a28b1eaa2ed11072729f3033a566e8eca5e5a831",
+  "sourceTree": "d712ed500bde05b43e401bfa06336afe73c4de77",
+  "githubSiteTree": "47ef6fc2f96c27ffa5712f4b68ab41deb327ee5f",
+  "previousGitHubMain": "e03af839c356cbc5b75fa55e732c5d784f2e91f9",
+  "sourceExclusions": [
+    "tsconfig.tsbuildinfo"
+  ],
+  "productionChanged": false,
+  "r2Writes": false,
+  "databaseWrites": false
+}

@@ -1,0 +1,41 @@
+/* One regional chart. Geography comes exclusively from the existing static plate
+   and its matching authored territory paths; ornament stays outside that geography. */
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage{position:relative;padding:18px;background:#bda576;border:1px solid #826a47;outline:1px solid #bda576;outline-offset:5px;overflow:hidden;box-shadow:0 14px 40px #0004}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage:before,body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage:after{content:"";position:absolute;width:52px;height:52px;border:1px solid #ead5ac;z-index:2;pointer-events:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage:before{top:7px;left:7px;border-right:0;border-bottom:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage:after{bottom:7px;right:7px;border-left:0;border-top:0}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map{min-width:0;aspect-ratio:1.55;width:100%;background:#243639;overflow:hidden}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map>svg{width:100%;height:100%;display:block;position:absolute;inset:0}
+.atlas211-regional .atlas211-land-plate{filter:sepia(.55) saturate(.7) brightness(1.08) contrast(1.08);pointer-events:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map>svg{pointer-events:auto}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map svg path.atlas211-territory{pointer-events:visiblePainted;cursor:pointer}
+.atlas211-regional .atlas211-capital{pointer-events:all;cursor:pointer}
+.atlas211-regional .atlas211-capital[aria-pressed=true] text{fill:#7b213b;font-weight:700}
+.atlas211-regional .atlas211-capital:focus-visible{outline:none}
+.atlas211-regional .atlas211-map figcaption{pointer-events:none}
+.atlas211-legend{display:flex;align-items:center;gap:16px 24px;flex-wrap:wrap;padding:20px 0;border-bottom:1px solid #b59a703d;color:#e8d6b7;font-size:15px}
+.atlas211-legend strong{font-family:var(--type-display);font-size:19px;font-weight:400;margin-right:8px}
+.atlas211-legend span{display:inline-flex;align-items:center;gap:9px}
+.atlas211-legend i{display:block;width:20px;height:14px;border:1px solid #c1a77b}
+.atlas211-legend .atlas-key-realm{background:#8b344b;border-color:#d29e9e}
+.atlas211-legend .atlas-key-border{background:#b3aa8c;border-color:#e3cba1}
+.atlas211-legend svg{width:20px;height:20px;fill:#d6bc8d;stroke:#d6bc8d;stroke-width:1.2;flex-shrink:0}
+.atlas211-legend svg path:not([fill]){fill:none}
+.atlas211-city-record{display:flex;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid #b59a703d;color:#f0dfc2}
+.atlas211-city-record>div{flex:1}.atlas211-city-record h3{font:28px var(--type-display);margin:0 0 8px}.atlas211-city-record p{margin:0;color:#d5c3a8}
+.atlas211-city-record button{min-height:44px;padding:10px 16px;border:1px solid #b59a7060;background:#302235;color:#f0dfc2;transition:background .15s,border-color .15s}
+.atlas211-city-record button:hover{background:#543248;border-color:#d6bc8d}
+.atlas211-city-picker{display:flex;align-items:center;gap:16px;flex-wrap:wrap;color:#e8d6b7;font-size:16px;margin-top:20px}
+.atlas211-city-picker select{min-height:44px;max-width:100%;padding:10px 16px;background:#302235;color:#f0dfc2;border:1px solid #b59a7060}
+@media(max-width:700px){.atlas211-legend{gap:14px;font-size:14px}.atlas211-legend strong{flex-basis:100%}.atlas211-city-record{flex-wrap:wrap}.atlas211-city-record>div{flex-basis:100%}}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map figcaption{bottom:20px;left:24px;max-width:calc(100% - 110px);background:#e6d2aa;color:#362b24;border:1px solid #7c6748;padding:12px 24px;font-size:clamp(16px,1.8vw,26px);font-family:var(--type-display);box-shadow:0 5px 12px #0003}
+.atlas211-regional figcaption span{display:block;font-family:var(--type-body);font-size:14px;margin-top:4px;color:#55432e}
+.atlas211-chart-heading{display:flex;justify-content:space-between;gap:16px;margin:16px 0;padding:0 8px;color:#d6bc8d;font-family:var(--type-display);font-size:20px}
+.atlas211-compass{position:absolute;bottom:22px;right:26px;width:60px;height:75px;color:#e3cca0;pointer-events:none}
+.atlas211-regional .atlas211-tools button[aria-pressed=true]{border-color:#d3b786;background:#493445}
+.atlas211-regional .atlas211-tools button:disabled{opacity:.45;cursor:wait}
+body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-territory:focus-visible{outline:none;stroke:#fff4d2;stroke-width:3;fill:#862e4955}
+.atlas211-regional .atlas211-capital:focus-visible circle{stroke:#7a293d;stroke-width:2}
+.atlas211-regional:fullscreen .atlas211-stage{max-width:1600px}
+@media(max-width:700px){body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-stage{padding:8px}body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map{aspect-ratio:1.15}body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map figcaption{left:10px;bottom:12px;padding:8px 12px;max-width:calc(100% - 70px);font-size:16px}.atlas211-regional figcaption span{font-size:12px}.atlas211-compass{width:38px;height:50px;right:12px;bottom:12px}.atlas211-chart-heading{font-size:17px}.atlas211-regional .atlas211-tools p{max-width:42ch}}
+@media(max-width:700px){.atlas211-regional .atlas211-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.atlas211-regional .atlas211-tools>div{grid-column:1/-1;min-width:0}.atlas211-regional .atlas211-tools button{white-space:normal;word-break:normal;overflow-wrap:normal;padding:10px 12px}.atlas211-regional .atlas211-tools label{min-width:0}.atlas211-regional .atlas211-tools select{width:100%}body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map{aspect-ratio:1.52}body.tfam-editorial.tfam-royal main[data-tfam211] .atlas211-regional .atlas211-map figcaption{font-size:12px;padding:5px 8px;bottom:8px;left:8px}.atlas211-regional figcaption span{display:none}.atlas211-city-picker{align-items:stretch;flex-direction:column;gap:8px}.atlas211-compass{width:26px;height:36px;bottom:13px}}

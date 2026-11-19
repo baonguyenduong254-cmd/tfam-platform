@@ -1,0 +1,53 @@
+{
+  "isabella_testarossa_de_aragon": {
+    "beach": "/wardrobe/isabella_testarossa_de_aragon-beach.webp",
+    "office": "/wardrobe/isabella_testarossa_de_aragon-office.webp",
+    "uniform": "/wardrobe/isabella_testarossa_de_aragon-uniform.webp"
+  },
+  "cassandra": {
+    "beach": "/wardrobe/cassandra-beach.webp",
+    "office": "/wardrobe/cassandra-office.webp",
+    "uniform": "/wardrobe/cassandra-uniform.webp"
+  },
+  "lythienne_draevenne": {
+    "beach": "/wardrobe/lythienne_draevenne-beach.webp",
+    "office": "/wardrobe/lythienne_draevenne-office.webp",
+    "uniform": "/wardrobe/lythienne_draevenne-uniform.webp"
+  },
+  "testarossa_uno": {
+    "beach": "/wardrobe/testarossa_uno-beach.webp",
+    "office": "/wardrobe/testarossa_uno-office.webp",
+    "uniform": "/wardrobe/testarossa_uno-uniform.webp"
+  },
+  "serene_saavedra": {
+    "beach": "/wardrobe/serene_saavedra-beach.webp",
+    "office": "/wardrobe/serene_saavedra-office.webp",
+    "uniform": "/wardrobe/serene_saavedra-uniform.webp"
+  },
+  "evelyne_vesper": {
+    "beach": "/wardrobe/evelyne_vesper-beach.webp",
+    "office": "/wardrobe/evelyne_vesper-office.webp",
+    "uniform": "/wardrobe/evelyne_vesper-uniform.webp",
+    "afterwork": "/wardrobe/evelyne_vesper-afterwork.webp"
+  },
+  "raine": {
+    "beach": "/wardrobe/raine-beach.webp",
+    "office": "/wardrobe/raine-office.webp",
+    "uniform": "/wardrobe/raine-uniform.webp"
+  },
+  "meredith_machiavelli": {
+    "beach": "/wardrobe/meredith_machiavelli-beach.webp",
+    "office": "/wardrobe/meredith_machiavelli-office.webp",
+    "uniform": "/wardrobe/meredith_machiavelli-uniform.webp"
+  },
+  "victoria_valdes": {
+    "beach": "/wardrobe/victoria_valdes-beach.webp",
+    "office": "/wardrobe/victoria_valdes-office.webp",
+    "uniform": "/wardrobe/victoria_valdes-uniform.webp"
+  },
+  "mirelle_montreuil": {
+    "beach": "/wardrobe/mirelle_montreuil-beach.webp",
+    "office": "/wardrobe/mirelle_montreuil-office.webp",
+    "uniform": "/wardrobe/mirelle_montreuil-uniform.webp"
+  }
+}

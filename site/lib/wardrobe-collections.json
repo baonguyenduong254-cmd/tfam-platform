@@ -1,0 +1,894 @@
+{
+  "astrid": {
+    "afterwork": [
+      {
+        "id": "astrid_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/astrid_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/astrid_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/astrid_afterwork.webp",
+        "scene": "Evening salon",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Astrid_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "astrid_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/astrid_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/astrid_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/astrid_naughty_office.webp",
+        "scene": "Private study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Astrid_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "astrid_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/astrid_beach.webp",
+        "thumbnail": "/wardrobe/collections/astrid_beach-thumb.webp",
+        "background": "/wardrobe/scenes/astrid_beach.webp",
+        "scene": "Coastal retreat",
+        "size": 84,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Astrid_beach.png"
+      }
+    ]
+  },
+  "cassandra": {
+    "afterwork": [
+      {
+        "id": "cassandra_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/cassandra_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/cassandra_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/cassandra_afterwork.webp",
+        "scene": "Evening salon",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Cassandra_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "cassandra_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/cassandra_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/cassandra_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/cassandra_naughty_office.webp",
+        "scene": "Private study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Cassandra_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "cassandra_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/cassandra_beach.webp",
+        "thumbnail": "/wardrobe/collections/cassandra_beach-thumb.webp",
+        "background": "/wardrobe/scenes/cassandra_beach.webp",
+        "scene": "Coastal retreat",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Cassandra_beach.png"
+      }
+    ]
+  },
+  "evelyne_vesper": {
+    "afterwork": [
+      {
+        "id": "evelyne_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/evelyne_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/evelyne_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/evelyne_afterwork.webp",
+        "scene": "Evening salon",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Evelyne_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "evelyne_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/evelyne_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/evelyne_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/evelyne_naughty_office.webp",
+        "scene": "Private study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Evelyne_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "evelyne_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/evelyne_beach.webp",
+        "thumbnail": "/wardrobe/collections/evelyne_beach-thumb.webp",
+        "background": "/wardrobe/scenes/evelyne_beach.webp",
+        "scene": "Coastal retreat",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Evelyne_beach.png"
+      }
+    ]
+  },
+  "freya": {
+    "afterwork": [
+      {
+        "id": "freya_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/freya_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/freya_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/freya_afterwork.webp",
+        "scene": "Evening salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Freya_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "freya_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/freya_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/freya_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/freya_naughty_office.webp",
+        "scene": "Sunny pale wood study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Freya_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "freya_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/freya_beach.webp",
+        "thumbnail": "/wardrobe/collections/freya_beach-thumb.webp",
+        "background": "/wardrobe/scenes/freya_beach.webp",
+        "scene": "Wind-swept dune",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Freya_beach.png"
+      }
+    ]
+  },
+  "isabella_testarossa_de_aragon": {
+    "afterwork": [
+      {
+        "id": "isabella_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/isabella_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/isabella_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/isabella_afterwork.webp",
+        "scene": "Imperial rose evening drawing room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Isabella_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "isabella_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/isabella_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/isabella_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/isabella_naughty_office.webp",
+        "scene": "Private study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Isabella_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "isabella_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/isabella_beach.webp",
+        "thumbnail": "/wardrobe/collections/isabella_beach-thumb.webp",
+        "background": "/wardrobe/scenes/isabella_beach.webp",
+        "scene": "Royal terracotta seaside terrace",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Isabella_beach.png"
+      }
+    ]
+  },
+  "liv": {
+    "afterwork": [
+      {
+        "id": "liv_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/liv_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/liv_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/liv_afterwork.webp",
+        "scene": "Pale golden evening room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Liv_afterwork.png"
+      },
+      {
+        "id": "liv_afterwork_v2",
+        "label": "Variation II",
+        "src": "/wardrobe/collections/liv_afterwork_v2.webp",
+        "thumbnail": "/wardrobe/collections/liv_afterwork_v2-thumb.webp",
+        "background": "/wardrobe/scenes/liv_afterwork_v2.webp",
+        "scene": "Golden candlelit reading alcove",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Liv_afterwork_v2.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "liv_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/liv_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/liv_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/liv_naughty_office.webp",
+        "scene": "Gilded study alcove",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Liv_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "liv_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/liv_beach.webp",
+        "thumbnail": "/wardrobe/collections/liv_beach-thumb.webp",
+        "background": "/wardrobe/scenes/liv_beach.webp",
+        "scene": "Pale sand inlet",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Liv_beach.png"
+      }
+    ]
+  },
+  "lythienne_draevenne": {
+    "afterwork": [
+      {
+        "id": "lythienne_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/lythienne_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/lythienne_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/lythienne_afterwork.webp",
+        "scene": "Auburn salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Lythienne_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "lythienne_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/lythienne_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/lythienne_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/lythienne_naughty_office.webp",
+        "scene": "Rosewood study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Lythienne_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "lythienne_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/lythienne_beach.webp",
+        "thumbnail": "/wardrobe/collections/lythienne_beach-thumb.webp",
+        "background": "/wardrobe/scenes/lythienne_beach.webp",
+        "scene": "Rocky shore beside a rose coastal villa",
+        "size": 84,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Lythienne_beach.png"
+      }
+    ]
+  },
+  "martinez": {
+    "afterwork": [
+      {
+        "id": "martinez_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/martinez_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/martinez_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/martinez_afterwork.webp",
+        "scene": "Amber dressing salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Martinez_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "martinez_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/martinez_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/martinez_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/martinez_naughty_office.webp",
+        "scene": "Terracotta writing room",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Martinez_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "martinez_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/martinez_beach.webp",
+        "thumbnail": "/wardrobe/collections/martinez_beach-thumb.webp",
+        "background": "/wardrobe/scenes/martinez_beach.webp",
+        "scene": "Limestone tidepool cove",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Martinez_beach.png"
+      }
+    ]
+  },
+  "meredith_machiavelli": {
+    "afterwork": [
+      {
+        "id": "meredith_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/meredith_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/meredith_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/meredith_afterwork.webp",
+        "scene": "Firelit sitting room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Meredith_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "meredith_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/meredith_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/meredith_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/meredith_naughty_office.webp",
+        "scene": "Amber study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Meredith_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "meredith_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/meredith_beach.webp",
+        "thumbnail": "/wardrobe/collections/meredith_beach-thumb.webp",
+        "background": "/wardrobe/scenes/meredith_beach.webp",
+        "scene": "Copper sunset beach",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Meredith_beach.png"
+      }
+    ]
+  },
+  "mirelle_montreuil": {
+    "afterwork": [
+      {
+        "id": "mirelle_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/mirelle_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/mirelle_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/mirelle_afterwork.webp",
+        "scene": "Silver lavender chamber",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Mirelle_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "mirelle_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/mirelle_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/mirelle_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/mirelle_naughty_office.webp",
+        "scene": "Ivory lilac reading room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Mirelle_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "mirelle_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/mirelle_beach.webp",
+        "thumbnail": "/wardrobe/collections/mirelle_beach-thumb.webp",
+        "background": "/wardrobe/scenes/mirelle_beach.webp",
+        "scene": "Pearl pergola",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Mirelle_beach.png"
+      }
+    ]
+  },
+  "nahla_al_fassi": {
+    "afterwork": [
+      {
+        "id": "nahla_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/nahla_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/nahla_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/nahla_afterwork.webp",
+        "scene": "Golden moroccan salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Nahla_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "nahla_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/nahla_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/nahla_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/nahla_naughty_office.webp",
+        "scene": "Andalusian study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Nahla_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "nahla_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/nahla_beach.webp",
+        "thumbnail": "/wardrobe/collections/nahla_beach-thumb.webp",
+        "background": "/wardrobe/scenes/nahla_beach.webp",
+        "scene": "Ochre coastal courtyard",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Nahla_beach.png"
+      }
+    ]
+  },
+  "raine": {
+    "afterwork": [
+      {
+        "id": "raine_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/raine_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/raine_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/raine_afterwork.webp",
+        "scene": "Rose lit salon",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Raine_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "raine_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/raine_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/raine_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/raine_naughty_office.webp",
+        "scene": "Imperial study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Raine_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "raine_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/raine_beach.webp",
+        "thumbnail": "/wardrobe/collections/raine_beach-thumb.webp",
+        "background": "/wardrobe/scenes/raine_beach.webp",
+        "scene": "Coral beach",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Raine_beach.png"
+      }
+    ]
+  },
+  "samira_al_fassi": {
+    "afterwork": [
+      {
+        "id": "samira_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/samira_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/samira_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/samira_afterwork.webp",
+        "scene": "Cedar evening salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Samira_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "samira_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/samira_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/samira_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/samira_naughty_office.webp",
+        "scene": "Moorish library",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Samira_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "samira_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/samira_beach.webp",
+        "thumbnail": "/wardrobe/collections/samira_beach-thumb.webp",
+        "background": "/wardrobe/scenes/samira_beach.webp",
+        "scene": "Palm fringed dune",
+        "size": 84,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Samira_beach.png"
+      }
+    ]
+  },
+  "scarlet": {
+    "afterwork": [
+      {
+        "id": "scarlet_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/scarlet_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/scarlet_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/scarlet_afterwork.webp",
+        "scene": "Blue twilight salon",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Scarlet_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "scarlet_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/scarlet_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/scarlet_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/scarlet_naughty_office.webp",
+        "scene": "Pearl grey study",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Scarlet_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "scarlet_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/scarlet_beach.webp",
+        "thumbnail": "/wardrobe/collections/scarlet_beach-thumb.webp",
+        "background": "/wardrobe/scenes/scarlet_beach.webp",
+        "scene": "Pink dawn shore",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Scarlet_beach.png"
+      }
+    ]
+  },
+  "serene_saavedra": {
+    "afterwork": [
+      {
+        "id": "seren_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/seren_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/seren_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/seren_afterwork.webp",
+        "scene": "Burgundy dressing room",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Seren_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "seren_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/seren_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/seren_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/seren_naughty_office.webp",
+        "scene": "Cozy walnut study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Seren_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "seren_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/seren_beach.webp",
+        "thumbnail": "/wardrobe/collections/seren_beach-thumb.webp",
+        "background": "/wardrobe/scenes/seren_beach.webp",
+        "scene": "Charcoal volcanic beach",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Seren_beach.png"
+      }
+    ]
+  },
+  "sigrid": {
+    "afterwork": [
+      {
+        "id": "sigrid_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sigrid_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/sigrid_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/sigrid_afterwork.webp",
+        "scene": "Northern candlelit sitting room",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Sigrid_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "sigrid_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sigrid_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/sigrid_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/sigrid_naughty_office.webp",
+        "scene": "Royal northern library",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Sigrid_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "sigrid_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sigrid_beach.webp",
+        "thumbnail": "/wardrobe/collections/sigrid_beach-thumb.webp",
+        "background": "/wardrobe/scenes/sigrid_beach.webp",
+        "scene": "Birch lined northern lake beach",
+        "size": 84,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Sigrid_beach.png"
+      }
+    ]
+  },
+  "sonia": {
+    "afterwork": [
+      {
+        "id": "sonia_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sonia_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/sonia_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/sonia_afterwork.webp",
+        "scene": "Indigo night salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Sonia_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "sonia_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sonia_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/sonia_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/sonia_naughty_office.webp",
+        "scene": "Blue curtained library",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Sonia_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "sonia_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/sonia_beach.webp",
+        "thumbnail": "/wardrobe/collections/sonia_beach-thumb.webp",
+        "background": "/wardrobe/scenes/sonia_beach.webp",
+        "scene": "Moonlit azure sea terrace",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Sonia_beach.png"
+      }
+    ]
+  },
+  "testarossa_uno": {
+    "afterwork": [
+      {
+        "id": "testarossa_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/testarossa_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/testarossa_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/testarossa_afterwork.webp",
+        "scene": "Crimson and gold evening room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Testarossa_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "testarossa_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/testarossa_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/testarossa_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/testarossa_naughty_office.webp",
+        "scene": "Crimson royal command chamber",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Testarossa_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "testarossa_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/testarossa_beach.webp",
+        "thumbnail": "/wardrobe/collections/testarossa_beach-thumb.webp",
+        "background": "/wardrobe/scenes/testarossa_beach.webp",
+        "scene": "Crimson sunset coastal garden",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Testarossa_beach.png"
+      }
+    ]
+  },
+  "trucia": {
+    "afterwork": [
+      {
+        "id": "trucia_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/trucia_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/trucia_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/trucia_afterwork.webp",
+        "scene": "Scholarly evening salon",
+        "size": 79,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Trucia_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "trucia_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/trucia_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/trucia_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/trucia_naughty_office.webp",
+        "scene": "Scholarly book room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Trucia_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "trucia_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/trucia_beach.webp",
+        "thumbnail": "/wardrobe/collections/trucia_beach-thumb.webp",
+        "background": "/wardrobe/scenes/trucia_beach.webp",
+        "scene": "Shaded shore",
+        "size": 84,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Trucia_beach.png"
+      }
+    ]
+  },
+  "victoria_valdes": {
+    "afterwork": [
+      {
+        "id": "victoria_afterwork",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/victoria_afterwork.webp",
+        "thumbnail": "/wardrobe/collections/victoria_afterwork-thumb.webp",
+        "background": "/wardrobe/scenes/victoria_afterwork.webp",
+        "scene": "Golden drawing room",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.035,
+        "sourceName": "Victoria_afterwork.png"
+      }
+    ],
+    "naughty_office": [
+      {
+        "id": "victoria_naughty_office",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/victoria_naughty_office.webp",
+        "thumbnail": "/wardrobe/collections/victoria_naughty_office-thumb.webp",
+        "background": "/wardrobe/scenes/victoria_naughty_office.webp",
+        "scene": "Royal study",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.015,
+        "sourceName": "Victoria_naughty_office.png"
+      }
+    ],
+    "beach": [
+      {
+        "id": "victoria_beach",
+        "label": "Collection 2026",
+        "src": "/wardrobe/collections/victoria_beach.webp",
+        "thumbnail": "/wardrobe/collections/victoria_beach-thumb.webp",
+        "background": "/wardrobe/scenes/victoria_beach.webp",
+        "scene": "Golden bathing terrace",
+        "size": 79,
+        "bottom": 8,
+        "warmth": 0.015,
+        "sourceName": "Victoria_beach.png"
+      }
+    ]
+  }
+}

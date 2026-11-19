@@ -1,0 +1,8 @@
+{
+  "key": "Lythienne_naughty_office",
+  "scene": "rosewood study, amber drapery",
+  "category": "naughty_office",
+  "path": "/workspace/scratch/b048937b4e09/generated_images/exec-505b62de-c023-4ec1-a2d0-2aeca9528bed.png",
+  "prompt": "One widescreen 16:9 historical fantasy BACKGROUND ONLY, no people or text: rosewood study, amber drapery. Premium semi-realistic anime 2.5D illustration, early 18th century. Low seated camera, extensive empty carpeted floor in foreground and center-right for inserting a seated character later. Objects only at far sides and back. Coherent cinematic lighting and perspective, rich textures. Quiet left side for UI. No modern objects.",
+  "hint": "Generated images are saved to /workspace/scratch/b048937b4e09/generated_images as /workspace/scratch/b048937b4e09/generated_images/exec-505b62de-c023-4ec1-a2d0-2aeca9528bed.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}
