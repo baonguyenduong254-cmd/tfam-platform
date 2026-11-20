@@ -2,6 +2,11 @@
 export const READING_POSITION_KEY='tfam-reading-position-v1';
 export type ReadingPosition={version:1;chapterId:string;title:string;lang:'vi'|'en';revision:number;paragraph:number;offset:number;fraction:number;savedAt:string};
 export function clampFraction(value:number){return Number.isFinite(value)?Math.max(0,Math.min(1,value)):0;}
+/** A sticky bar's resting inset is stable before and after restoration scrolls it. */
+export function readingViewportAnchor(viewportHeight:number,barBottom:number,barHeight:number,stickyTop:number|null){
+ const bottom=stickyTop!==null&&Number.isFinite(stickyTop)?stickyTop+barHeight:barBottom;
+ return Math.min(viewportHeight*.45,Math.max(32,bottom+16));
+}
 export function parseReadingPosition(raw:string|null,knownIds:readonly string[]):ReadingPosition|null{
  if(!raw)return null;try{const v=JSON.parse(raw) as ReadingPosition;
   if(!v||v.version!==1||!knownIds.includes(v.chapterId)||typeof v.title!=='string'||v.title.length>500||!['vi','en'].includes(v.lang)||!Number.isInteger(v.revision)||v.revision<0||!Number.isInteger(v.paragraph)||v.paragraph<0||v.paragraph>10000||!Number.isFinite(v.offset)||v.offset<0||v.offset>1||!Number.isFinite(v.fraction)||v.fraction<0||v.fraction>1||typeof v.savedAt!=='string'||!Number.isFinite(Date.parse(v.savedAt)))return null;

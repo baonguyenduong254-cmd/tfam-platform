@@ -1,0 +1,4 @@
+/* Native wheel/touch scrolling stays under the reader's control. Individual
+   in-page links may request smooth movement explicitly; route restoration must
+   not inherit the old global smooth-scroll animation. */
+html:root{scroll-behavior:auto;scrollbar-gutter:stable}

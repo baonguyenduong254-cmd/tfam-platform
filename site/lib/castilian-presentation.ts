@@ -7,7 +7,7 @@ export function belongsToFaction(character:Row|undefined,id:string){return !!cha
 /** Versioned presentation migrations preserve later author edits. */
 export function withCastilianPresentation<T extends {characters?:Row[];factions?:Row[];presentationRevision?:number}>(data:T):T{
  const revision=data.presentationRevision||0;
- if(revision>=33)return data;
+ if(revision>=34)return data;
  const characters=(data.characters||[]).map(c=>({...c}));
  if(revision<28)for(const p of profiles){
   const index=characters.findIndex(c=>c.id===p.id),current=characters[index];
@@ -24,6 +24,8 @@ export function withCastilianPresentation<T extends {characters?:Row[];factions?
   return next;
  });
  if(revision<32)for(const patch of expansion){const index=migrated.findIndex(c=>c.id===patch.id),current=migrated[index];const next={...current,...patch,affiliations:[...new Set([...(current?.affiliations||[]),...('affiliations' in patch?patch.affiliations||[]:[])])]};if(index<0)migrated.push(next);else migrated[index]=next;}
- if(!migrated.some(c=>c.id===lokoh.id))migrated.push({...lokoh});
- return {...data,presentationRevision:33,characters:migrated,factions:revision>=29?data.factions:data.factions?.map(f=>({...f,flag_asset:(standards.flags as Record<string,string>)[f.id]||f.flag_asset}))};
+ if(revision<33&&!migrated.some(c=>c.id===lokoh.id))migrated.push({...lokoh});
+ // Owner correction v34 changes current roster membership, not historic service or prose.
+ const relocated=migrated.map(c=>['jose','dame_elizabeth'].includes(c.id)?{...c,faction_id:'habsburg_poland',affiliations:[...new Set([...(c.affiliations||[]).filter((id:string)=>id!=='castilian_empire'),'habsburg_poland'])]}:c);
+ return {...data,presentationRevision:34,characters:relocated,factions:revision>=29?data.factions:data.factions?.map(f=>({...f,flag_asset:(standards.flags as Record<string,string>)[f.id]||f.flag_asset}))};
 }

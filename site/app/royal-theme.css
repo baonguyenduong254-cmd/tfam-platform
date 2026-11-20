@@ -227,5 +227,4 @@ body.tfam-editorial.tfam-royal .copyright-footer .footer-royal-flourish{width:mi
 @supports ((background-clip:text) or (-webkit-background-clip:text)){
 }
 @keyframes royal-spectrum-flow{from{background-position:0% 50%}to{background-position:100% 50%}}
-@media(prefers-reduced-motion:reduce){}
 @media(forced-colors:active){}

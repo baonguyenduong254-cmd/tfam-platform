@@ -1,0 +1,8 @@
+{
+  "key": "Seren_beach",
+  "scene": "charcoal volcanic beach, golden light",
+  "category": "beach",
+  "path": "/workspace/scratch/b048937b4e09/generated_images/exec-3d17d9c0-2f59-409b-9eb9-78d4eb21b9d3.png",
+  "prompt": "One widescreen 16:9 historical fantasy BACKGROUND ONLY, no people or text: charcoal volcanic beach, golden light. Premium semi-realistic anime 2.5D illustration, early 18th century. Low seated camera, extensive empty sand or stone ground in foreground and center-right for inserting a seated character later. Objects only at far sides and back. Coherent cinematic lighting and perspective, rich textures. Quiet left side for UI. No modern objects.",
+  "hint": "Generated images are saved to /workspace/scratch/b048937b4e09/generated_images as /workspace/scratch/b048937b4e09/generated_images/exec-3d17d9c0-2f59-409b-9eb9-78d4eb21b9d3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

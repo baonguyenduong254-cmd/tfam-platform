@@ -1,6 +1,7 @@
 import preludeRecords from './prelude-records.json';
 import fingerprints from './prelude-field-fingerprints.json';
 import exhibitRequirements from './exhibit-revelations.json';
+import {castilianGuardRegister} from './castilian-guard-register';
 import type {VestigiumRecord} from './vestigium';
 type Row=Record<string,any>;
 const preludes=new Map(Object.entries(preludeRecords) as [string,Row][]);
@@ -14,11 +15,22 @@ export function presentCharacter(row:Row,earned:ReadonlySet<string>){
  const last=arcs.length?Math.max(...arcs):null,first=arcs.length?Math.min(...arcs):null;
  const revealed=last!==null&&earned.has('arc-'+last),prelude=preludes.get(row.id);
  const next:Row={...row,presentation_limited:!revealed,presentation_visible:!!prelude||first===1||(first!==null&&earned.has('arc-'+first))};
+ const guard=castilianGuardRegister.get(row.id);
+ const identityOnly=guard&&!next.presentation_visible;
+ if(guard){
+  next.presentation_visible=true;
+  next.guard_number=guard.number;
+  next.castilian_branch='guard';
+  if(guard.name){next.name_en=guard.name;next.name_vi=guard.name;}
+ }
  if(revealed)return next;
  for(const key of ['lore','lore_en','lore_vi','traits','traits_en','traits_vi','skills','skills_en','skills_vi'])if(!isPrelude(row,key))next[key]=prelude?.[key]??(key.startsWith('lore')?'This part of the dossier awaits your reading discoveries.':[]);
  if(prelude)next.presentation_prelude=true;
  // These two offices are explicitly dated to the Arc III investiture by migration v31.
- if(['juliet_spencer','england_ruins_representative'].includes(row.id)&&!earned.has('arc-3')){next.office_en='';next.office_vi='';next.guard_number=null;if(row.id==='juliet_spencer'){next.role_en='';next.role_vi='';}else{next.role_en='';next.role_vi='';next.castilian_branch='foreign';}}
+ if(row.id==='juliet_spencer'&&!earned.has('arc-3')){next.office_en='';next.office_vi='';next.guard_number=null;next.role_en='';next.role_vi='';}
+ if(identityOnly||(row.id==='england_ruins_representative'&&!earned.has('arc-3'))){
+  next.office_en='';next.office_vi='';next.role_en='Royal Guard';next.role_vi='Cận vệ Hoàng gia';
+ }
  return next;
 }
 export function canRevealExhibit(id:string,covered:ReadonlySet<string>){

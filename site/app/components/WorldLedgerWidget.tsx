@@ -32,7 +32,7 @@ export default function WorldLedgerWidget({kind,year,lang}:{kind:LedgerKind;year
   return()=>{active=false;clearTimeout(timer);document.removeEventListener('visibilitychange',visible);};
  },[kind]);
  const count=now===null?null:ledgerCount(year,kind,now);
- const number=count===null?'—':new Intl.NumberFormat(lang==='vi'?'vi-VN':'en-GB').format(count);
+ const number=count===null?'Not recorded':new Intl.NumberFormat(lang==='vi'?'vi-VN':'en-GB').format(count);
  return <aside className={'world-ledger ledger-'+kind} aria-label={deaths?t('Số người chết vì lạnh trên toàn thế giới','Worldwide deaths from cold'):t('Số Vestigium đã được tìm thấy trên toàn thế giới','Vestigium discovered worldwide')} title={t('Số liệu giả lập tạo không khí cho bản đồ TFAM; chưa phải thống kê được xác nhận trong truyện.','Simulated estimates for the TFAM atlas; not confirmed figures from the novel.')}>
   <div className="ledger-heading"><LedgerIcon kind={kind}/><span>{deaths?t('Tử vong vì lạnh','Deaths from cold'):t('Vestigium tìm thấy','Vestigium discovered')}</span></div>
   <strong className="ledger-number" aria-live="off" key={year+'-'+number}>{number}</strong>
