@@ -439,3 +439,7 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .vest-dialog .vest-detail-cate
 }
 
 @media(max-width:900px){.atlas211-regions{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:10px;padding-bottom:8px}.atlas211-regions button{flex:none;white-space:nowrap;width:auto;max-width:none;min-height:44px}}
+
+/* TFAM v239 Fix: Allow full soundtrack title in desktop sub-nav */
+@media(min-width:1101px){body.tfam-editorial.tfam-royal main[data-tfam211] .command-music-slot{flex:0 1 320px;max-width:320px}
+.command-music-slot .music-compact .music-track-title{max-width:none;text-overflow:clip}}

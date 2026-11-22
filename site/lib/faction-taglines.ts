@@ -4,7 +4,7 @@ export const factionTaglines:Record<string,{vi:string;en:string}>={
  holy_french_kingdom:{vi:'Một Napoleon mười sáu tuổi đưa cả ngai vàng lẫn giáo quyền về Paris.',en:'A sixteen-year-old Napoleon brings crown and papacy beneath the shadow of Paris.'},
  western_roman_empire:{vi:'Romulus Augustulus đánh bại Odoacer, và đại bàng Tây La Mã tiếp tục hành quân.',en:'Romulus Augustulus defeats Odoacer, and the eagle of Western Rome marches on.'},
  sultanate_of_morocco:{vi:'Một Maroc nơi người Moor và người Anh lưu vong cùng bảo vệ điều họ gọi là nhà.',en:'A Morocco where Moors and English exiles stand together to defend what they call home.'},
- habsburg_poland:{vi:'Những ngai vàng mất vào tay Napoleon tìm đường trở lại từ liên minh Áo–Ba Lan.',en:'From an Austrian–Polish alliance, the crowns lost to Napoleon seek their road home.'},
+ habsburg_poland:{vi:'Những ngai vàng mất vào tay Napoleon tìm đường trở lại từ liên minh Áo-Ba Lan.',en:'From an Austrian-Polish alliance, the crowns lost to Napoleon seek their road home.'},
  novgorod_union:{vi:'Một nước Nga thống nhất dưới tiếng chuông Novgorod, với Pyotr Romanov do nghị hội bầu lên.',en:'A Russia united beneath the bell of Novgorod, with Pyotr Romanov elected by its council.'},
  ottoman_empire:{vi:'Ahmed III sống sót qua cuộc binh biến, rồi dùng chính chiến thắng ấy tái đúc đế quốc.',en:'Ahmed III survives the revolt against his throne, then uses its defeat to reforge his empire.'},
  danes_kingdom:{vi:'Margrete I trở lại Kalmar, đặt bốn vương quốc phương bắc dưới cùng một vương miện.',en:'Margrete I returns to Kalmar and binds four northern kingdoms beneath one crown.'},

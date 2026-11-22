@@ -245,3 +245,19 @@ html[data-motion=off] .ledger-number{animation:none}
 @media(max-width:768px){.campaign-header{padding-top:78px}.header-ornament{left:16px;top:19px}.campaign-header .header-quote{padding:14px 3px}}
 /* Preserve the masthead cover and outer glow. */
 .campaign-header{overflow:visible;z-index:80}.campaign-header .header-cover{border-radius:inherit}
+
+/* Shared browser surfaces, with normal prose metrics left to the reading styles. */
+::selection{background:#735163;color:#fff1dc}
+:root{scrollbar-color:#826b5e #1d1720}
+:where(input,textarea,[contenteditable]){caret-color:#c99172}
+:where(a){text-underline-offset:.18em}
+:where(table,dl,time,.music-time,.atlas-hud-counts){font-variant-numeric:tabular-nums}
+:where(:focus-visible){outline-color:#d7bc88}
+@view-transition{navigation:auto}
+.champion-select.is-entering .salon-transition-art,
+.character-lounge .salon-transition-art{view-transition-name:tfam-salon-portrait}
+::view-transition-group(tfam-salon-portrait){animation-duration:.55s;animation-timing-function:cubic-bezier(.16,1,.3,1)}
+@media(prefers-reduced-motion:reduce){
+  .salon-transition-art{view-transition-name:none!important}
+  ::view-transition-group(*){animation-duration:0s!important}
+}

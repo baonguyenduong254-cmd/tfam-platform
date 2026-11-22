@@ -36,3 +36,161 @@
 .lounge-outfits img{object-fit:contain;object-position:center bottom}.lounge-outfits>button>span{background:radial-gradient(ellipse at 50% 80%,#69525e,#211b28)}.lounge-outfits>button:last-child:nth-child(odd){grid-column:1/-1;display:grid;grid-template-columns:95px 1fr;column-gap:18px;align-items:center}.lounge-outfits>button:last-child:nth-child(odd)>span{grid-row:1/3;margin:0}.lounge-outfits>button:last-child:nth-child(odd)>strong{align-self:end}.lounge-outfits>button:last-child:nth-child(odd)>small{align-self:start}
 @media(max-width:1000px) and (min-width:701px){.has-authored-scene .lounge-identity h1{font-size:42px}.has-authored-scene .lounge-art{inset-inline:31% 10%}}
 @media(max-width:700px){.character-lounge.has-authored-scene .lounge-art{inset:27% 0 24%;transform-origin:50% 15%}.character-lounge.has-authored-scene .lounge-identity{left:22px;right:22px;top:108px;width:auto}.character-lounge.has-authored-scene .lounge-look-title{left:22px;right:auto;bottom:16%;width:45%}.character-lounge.has-authored-scene .lounge-quick-stats{left:auto;right:22px;bottom:16%;gap:12px}.has-authored-scene .lounge-environment>img{object-position:64% center}.has-authored-scene .lounge-scrim{background:linear-gradient(0deg,#110e19e8,transparent 42%,#110e19bb 88%)}.lounge-versions{margin-top:8px;gap:5px}.lounge-versions button{padding:5px 7px}.lounge-versions button span{display:none}.character-lounge.has-authored-scene.is-art-focus .lounge-art{inset:10% 0 8%}.lounge-panel{top:10%;padding-bottom:max(24px,env(safe-area-inset-bottom))}.lounge-contact-shadow{filter:blur(4px)}}
+
+/* TFAM v226 Imperial Couture Atelier & Lounge Refinements */
+.lounge-v226 .lounge-salon-eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#dfc28f;margin-bottom:14px}
+.lounge-v226 .lounge-look-heading{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.lounge-v226 .lounge-look-heading h2{margin:0}
+.lounge-v226 .lounge-adult-seal{display:inline-flex;align-items:center;justify-content:center;padding:3px 9px;font-size:10px;letter-spacing:.18em;color:#f7d8c4;background:linear-gradient(135deg,#7e2239,#461221);border:1px solid #e2b88766;text-transform:uppercase}
+.lounge-v226 .lounge-quick-ribbon{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.lounge-v226 .lounge-quick-ribbon button{padding:7px 13px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#d6c6b3;background:#140f1cb8;border:1px solid #cbb08238;backdrop-filter:blur(10px);transition:border-color .2s,background .2s,color .2s}
+.lounge-v226 .lounge-quick-ribbon button:hover{border-color:#e5c89288;color:#fff2d8}
+.lounge-v226 .lounge-quick-ribbon button[aria-pressed=true]{background:linear-gradient(135deg,#78253be6,#3b182be6);border-color:#e8ca94;color:#fff4de}
+.lounge-v226 .lounge-panel{width:min(540px,96%);background:linear-gradient(160deg,#1b1423f5,#100c17fa);border-left:1px solid #dfc28f44;backdrop-filter:blur(22px);box-shadow:-28px 0 80px #00000080}
+.lounge-v226 .lounge-panel>header{padding-bottom:20px;border-bottom:1px solid #cbb0822a;margin-bottom:22px}
+.lounge-v226 .lounge-panel-kicker{display:block;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#dfc28f;margin-bottom:6px}
+.lounge-v226 .lounge-panel-intro{margin:0 0 22px;color:#cfc1b4;font-size:14.5px;line-height:1.65}
+.lounge-v226 .lounge-panel-intro strong{color:#f8ebd4;font-weight:400}
+.lounge-v226 .lounge-outfits{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.lounge-v226 .lounge-outfits>.atelier-plate{position:relative;display:flex;flex-direction:column;padding:10px 10px 16px;background:linear-gradient(165deg,#251b2ec9,#15101de6);border:1px solid #cbb08233;transition:border-color .24s,transform .26s cubic-bezier(.16,1,.3,1),box-shadow .26s}
+.lounge-v226 .lounge-outfits>.atelier-plate:hover{transform:translateY(-4px);border-color:#e5c79088;box-shadow:0 16px 36px #00000059}
+.lounge-v226 .lounge-outfits>.atelier-plate[aria-pressed=true]{background:linear-gradient(160deg,#522439e0,#211322f2);border-color:#ebd09d;outline:none;box-shadow:0 0 0 1px #ebd09d66,0 16px 36px #00000066}
+.lounge-v226 .lounge-outfits>.atelier-plate.is-pending{opacity:.58}
+.lounge-v226 .atelier-plate-media{position:relative;display:grid;place-items:center;aspect-ratio:3/4;overflow:hidden;background:radial-gradient(ellipse at 50% 82%,#5f415080,#17111f 78%);margin-bottom:14px;border:1px solid #cbb08222}
+.lounge-v226 .atelier-plate-media img{width:100%;height:100%;object-fit:contain;object-position:center bottom;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.lounge-v226 .atelier-plate:hover .atelier-plate-media img{transform:scale(1.045)}
+.lounge-v226 .atelier-seal{position:absolute;top:8px;right:8px;font-style:normal;font-size:10px;letter-spacing:.16em;padding:3px 7px;background:#5e192be6;border:1px solid #e6c28c66;color:#fde6cb}
+.lounge-v226 .atelier-plate-meta{display:grid;gap:5px;padding:0 4px}
+.lounge-v226 .atelier-plate-meta strong{font-size:19px;font-weight:400;color:#f9eedc;margin:0}
+.lounge-v226 .atelier-plate-note{font-size:12px;line-height:1.45;color:#c3b5bd}
+.lounge-v226 .atelier-plate-meta small{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#dfc28f;margin-top:4px}
+.lounge-v226 .lounge-outfits>.atelier-plate:last-child:nth-child(odd){grid-column:1/-1;display:grid;grid-template-columns:118px 1fr;gap:18px;align-items:center;padding:12px}
+.lounge-v226 .lounge-outfits>.atelier-plate:last-child:nth-child(odd) .atelier-plate-media{margin-bottom:0;aspect-ratio:3/4}
+@media(max-width:700px){
+  .lounge-v226 .lounge-quick-ribbon{gap:5px;margin-top:10px}
+  .lounge-v226 .lounge-quick-ribbon button{padding:5px 9px;font-size:10px}
+  .lounge-v226 .lounge-outfits{grid-template-columns:1fr;gap:12px}
+  .lounge-v226 .lounge-outfits>.atelier-plate{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center}
+  .lounge-v226 .atelier-plate-media{margin-bottom:0}
+}
+
+/* TFAM v227 Velvet Chiaroscuro 18+ Aesthetic, 2.5D Parallax, Drawer Clip Fix & Mobile 390px Polish */
+.lounge-v227 .atelier-glsl-atmosphere{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;mix-blend-mode:screen;opacity:.85}
+.lounge-v227 .lounge-chiaroscuro-rim{
+  position:absolute;inset:0;pointer-events:none;z-index:0;opacity:0;
+  transition:opacity .7s cubic-bezier(.16,1,.3,1);
+  background:
+    radial-gradient(ellipse 46% 62% at 62% 46%,#b52c4a38 0%,#63152a22 42%,transparent 76%),
+    radial-gradient(ellipse 65% 55% at 22% 80%,#e0a36818 0%,transparent 70%),
+    radial-gradient(ellipse 100% 100% at 50% 50%,transparent 48%,#0b040ae8 100%);
+}
+.lounge-v227.is-mature-atelier .lounge-chiaroscuro-rim{opacity:1}
+.lounge-v227.is-mature-atelier{background:#12070e}
+.lounge-v227.is-mature-atelier .lounge-environment>img{
+  filter:saturate(1.12) contrast(1.06) brightness(.9);
+  transform:translate3d(calc(var(--px,0px) * -.45),calc(var(--py,0px) * -.45),0) scale(1.04);
+  transition:transform .4s ease-out,filter .6s ease;
+}
+.lounge-v227 .lounge-art-arrival{
+  transform:translate3d(calc(var(--px,0px) * .55),calc(var(--py,0px) * .4),0);
+  transition:transform .38s ease-out;
+}
+.lounge-v227.is-mature-atelier .lounge-art img{
+  filter:drop-shadow(0 0 42px #9e244248) drop-shadow(10px 24px 32px #090308b8);
+}
+
+/* Silk Veil Anticipation Layer for 18+ Editions */
+.lounge-v227 .lounge-silk-veil{
+  position:absolute;inset:-4%;z-index:4;pointer-events:none;
+  background:
+    radial-gradient(ellipse at 50% 45%,#7e1c3638,#14060ee6 72%),
+    repeating-linear-gradient(125deg,#f2c8960c 0 2px,transparent 2px 18px);
+  backdrop-filter:blur(16px) saturate(1.25);
+  opacity:0;
+  transform:scale(1.04);
+  transition:opacity .75s cubic-bezier(.16,1,.3,1),transform .85s cubic-bezier(.16,1,.3,1);
+}
+.lounge-v227.is-mature-atelier.is-veiled-shut .lounge-silk-veil{
+  opacity:1;
+  transform:scale(1);
+}
+
+/* Mature Edition Controls & Plates */
+.lounge-v227 .lounge-quick-ribbon button.is-adult-tab{
+  border-color:#b83d5b66;
+  color:#f1cfd6;
+}
+.lounge-v227 .lounge-quick-ribbon button.is-adult-tab[aria-pressed=true]{
+  background:linear-gradient(135deg,#8f1e3b,#3f0d1f);
+  border-color:#f3c892;
+  box-shadow:0 0 18px #9b224055;
+}
+.lounge-v227 .atelier-plate.is-mature-plate{
+  border-color:#b23b5952;
+  background:linear-gradient(165deg,#2e1322d9,#140911f0);
+}
+.lounge-v227 .atelier-plate.is-mature-plate:hover{
+  border-color:#f0b98499;
+  box-shadow:0 18px 40px #3a0a1866;
+}
+
+/* Fix Drawer Right-Edge Clipping During Slide-In */
+.lounge-v227 .lounge-panel{
+  will-change:transform;
+  contain:layout paint;
+}
+
+/* Mobile 390px: Keep Quick-Attire Ribbon Cleanly Below Artwork */
+@media(max-width:700px){
+  .lounge-v227 .lounge-look-title{bottom:calc(108px + env(safe-area-inset-bottom, 0px))!important;width:calc(100% - 44px)!important}
+  .lounge-v227 .lounge-quick-ribbon{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    max-width:100%;
+    padding-bottom:4px;
+    scrollbar-width:none;
+  }
+  .lounge-v227 .lounge-quick-ribbon button{white-space:nowrap;flex-shrink:0;min-height:44px}
+  .lounge-v227 .lounge-quick-stats{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .lounge-v227 .lounge-environment>img,
+  .lounge-v227 .lounge-art-arrival{transform:none!important}
+  .lounge-v227 .lounge-silk-veil{transition:opacity .2s ease}
+}
+
+@media(max-width:700px){
+  .character-lounge.lounge-v227:not(.is-art-focus) .lounge-art{
+    bottom:calc(225px + env(safe-area-inset-bottom, 0px));
+  }
+  .lounge-v227 .lounge-quick-ribbon button{backdrop-filter:none}
+}
+
+/* TFAM v237 WebGL 2.5D Live-Illust Stage Integration */
+.lounge-art-idle .live25d-canvas{position:relative;width:100%;height:100%;display:block;opacity:0;transition:opacity .32s ease}
+.lounge-art-idle .live25d-canvas.is-ready{opacity:1}
+.lounge-art-idle{position:relative}
+.lounge-art-idle .live25d-preload-img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center bottom}
+.has-authored-scene .lounge-art-idle .live25d-canvas{height:var(--look-size,84%);max-height:100%}
+
+.has-authored-scene .lounge-art-idle .live25d-preload-img{
+  inset:auto 0 0;
+  height:var(--look-size,84%);
+}
+
+.lounge-v227 .lounge-panel{
+  box-sizing:border-box;
+  width:min(520px,100%);
+  max-width:100%;
+  padding:28px max(16px,env(safe-area-inset-right)) 28px max(16px,env(safe-area-inset-left));
+  overflow-x:hidden;
+  contain:none;
+  will-change:auto;
+}
+.lounge-v227 .lounge-panel>header button{flex-shrink:0;min-width:44px;min-height:44px}
+.lounge-v227 .lounge-outfits{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.lounge-v227 .lounge-outfits>.atelier-plate:nth-child(n){
+  grid-column:auto;display:flex;flex-direction:column;min-width:0;padding:10px;
+}
+.lounge-v227 .lounge-outfits>.atelier-plate .atelier-plate-media{width:100%;margin-bottom:12px}
+.lounge-roster>button{content-visibility:auto;contain-intrinsic-block-size:auto 64px}
