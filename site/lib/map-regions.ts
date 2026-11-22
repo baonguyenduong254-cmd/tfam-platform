@@ -1,7 +1,7 @@
 export type MapRegion={id:string;vi:string;en:string;bounds:[number,number,number,number]};
 const regions:Record<string,MapRegion>={
  europe:{id:'europe',vi:'Châu Âu · Địa Trung Hải',en:'Europe · Mediterranean',bounds:[-24,18,58,72]},
- eurasia:{id:'eurasia',vi:'Bắc Âu · Đại lục Á–Âu',en:'Northern Europe · Eurasia',bounds:[5,28,155,76]},
+ eurasia:{id:'eurasia',vi:'Bắc Âu · Đại lục Á-Âu',en:'Northern Europe · Eurasia',bounds:[5,28,155,76]},
  americas:{id:'americas',vi:'Tân Thế Giới',en:'The New World',bounds:[-126,-57,-27,49]},
  india:{id:'india',vi:'Ấn Độ · Ấn Độ Dương',en:'India · Indian Ocean',bounds:[45,-8,113,43]},
  eastasia:{id:'eastasia',vi:'Đông Á · Đông Nam Á',en:'East Asia · Southeast Asia',bounds:[83,-16,153,58]},

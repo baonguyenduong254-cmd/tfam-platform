@@ -1,0 +1,17 @@
+{
+  "name": "tfam-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TFAM Studio — Author Operating System for Through Frost and Myth (14 Modules + Shared D1/SQLite Backend)",
+  "scripts": {
+    "start": "python3 apps/api/local_server.py",
+    "dev": "python3 apps/api/local_server.py --port 8787",
+    "test": "python3 tests/test_e2e.py",
+    "db:migrate": "python3 apps/api/local_server.py --migrate-only",
+    "cf:dev": "wrangler dev apps/api/worker.ts",
+    "cf:deploy": "wrangler deploy apps/api/worker.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

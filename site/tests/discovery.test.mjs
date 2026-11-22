@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 import {canExplore,milestoneState,unlockRequirements,factionGroups} from '../lib/discovery.ts';
 const milestone={id:'arc-1',title:'Arc I',closed:true,required:['vi-1','vi-2','extra'],englishCoverage:{'en-a':['vi-1'],'en-b':['vi-2','extra']}};
 const catalog=['vi-1','vi-2','extra','en-a','en-b'].map(id=>({id,complete:true}));
-test('only Castilian and Moor start unlocked, unknown factions stay locked',()=>{
- for(const group of factionGroups)for(const id of group.ids)assert.equal(canExplore(id,new Set()),['castilian_empire','sultanate_of_morocco'].includes(id));
+test('only Castilian starts unlocked and Morocco opens after Arc IX',()=>{
+ for(const group of factionGroups)for(const id of group.ids)assert.equal(canExplore(id,new Set()),id==='castilian_empire');
+ assert.equal(canExplore('sultanate_of_morocco',new Set(['arc-8'])),false);
+ assert.equal(canExplore('sultanate_of_morocco',new Set(['arc-9'])),true);
  assert.equal(canExplore('unknown',new Set()),false);
 });
 test('every chapter and side chapter is required; merely visiting is not read',()=>{

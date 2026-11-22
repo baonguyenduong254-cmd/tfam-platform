@@ -1,53 +1,126 @@
 {
   "isabella_testarossa_de_aragon": {
     "beach": "/wardrobe/isabella_testarossa_de_aragon-beach.webp",
-    "office": "/wardrobe/isabella_testarossa_de_aragon-office.webp",
-    "uniform": "/wardrobe/isabella_testarossa_de_aragon-uniform.webp"
+    "office": "/wardrobe/official233/isabella_testarossa_de_aragon-office.webp",
+    "uniform": "/wardrobe/official233/isabella_testarossa_de_aragon-uniform.webp"
   },
   "cassandra": {
-    "beach": "/wardrobe/cassandra-beach.webp",
-    "office": "/wardrobe/cassandra-office.webp",
-    "uniform": "/wardrobe/cassandra-uniform.webp"
+    "office": "/wardrobe/official233/cassandra-office.webp",
+    "uniform": "/wardrobe/official233/cassandra-uniform.webp"
   },
   "lythienne_draevenne": {
-    "beach": "/wardrobe/lythienne_draevenne-beach.webp",
-    "office": "/wardrobe/lythienne_draevenne-office.webp",
-    "uniform": "/wardrobe/lythienne_draevenne-uniform.webp"
+    "office": "/wardrobe/official233/lythienne_draevenne-office.webp",
+    "uniform": "/wardrobe/official233/lythienne_draevenne-uniform.webp"
   },
   "testarossa_uno": {
-    "beach": "/wardrobe/testarossa_uno-beach.webp",
-    "office": "/wardrobe/testarossa_uno-office.webp",
-    "uniform": "/wardrobe/testarossa_uno-uniform.webp"
+    "office": "/wardrobe/official233/testarossa_uno-office.webp",
+    "uniform": "/wardrobe/official233/testarossa_uno-uniform.webp"
   },
   "serene_saavedra": {
     "beach": "/wardrobe/serene_saavedra-beach.webp",
-    "office": "/wardrobe/serene_saavedra-office.webp",
-    "uniform": "/wardrobe/serene_saavedra-uniform.webp"
+    "office": "/wardrobe/official233/serene_saavedra-office.webp",
+    "uniform": "/wardrobe/official233/serene_saavedra-uniform.webp"
   },
   "evelyne_vesper": {
-    "beach": "/wardrobe/evelyne_vesper-beach.webp",
-    "office": "/wardrobe/evelyne_vesper-office.webp",
-    "uniform": "/wardrobe/evelyne_vesper-uniform.webp",
-    "afterwork": "/wardrobe/evelyne_vesper-afterwork.webp"
+    "office": "/wardrobe/official233/evelyne_vesper-office.webp",
+    "uniform": "/wardrobe/official233/evelyne_vesper-uniform.webp"
   },
   "raine": {
-    "beach": "/wardrobe/raine-beach.webp",
-    "office": "/wardrobe/raine-office.webp",
-    "uniform": "/wardrobe/raine-uniform.webp"
+    "office": "/wardrobe/official233/raine-office.webp",
+    "uniform": "/wardrobe/official233/raine-uniform.webp"
   },
   "meredith_machiavelli": {
     "beach": "/wardrobe/meredith_machiavelli-beach.webp",
-    "office": "/wardrobe/meredith_machiavelli-office.webp",
-    "uniform": "/wardrobe/meredith_machiavelli-uniform.webp"
+    "office": "/wardrobe/official233/meredith_machiavelli-office.webp",
+    "uniform": "/wardrobe/official233/meredith_machiavelli-uniform.webp"
   },
   "victoria_valdes": {
-    "beach": "/wardrobe/victoria_valdes-beach.webp",
-    "office": "/wardrobe/victoria_valdes-office.webp",
-    "uniform": "/wardrobe/victoria_valdes-uniform.webp"
+    "office": "/wardrobe/official233/victoria_valdes-office.webp",
+    "uniform": "/wardrobe/official233/victoria_valdes-uniform.webp"
   },
   "mirelle_montreuil": {
     "beach": "/wardrobe/mirelle_montreuil-beach.webp",
-    "office": "/wardrobe/mirelle_montreuil-office.webp",
-    "uniform": "/wardrobe/mirelle_montreuil-uniform.webp"
+    "office": "/wardrobe/official233/mirelle_montreuil-office.webp",
+    "uniform": "/wardrobe/official233/mirelle_montreuil-uniform.webp"
+  },
+  "astrid": {
+    "office": "/wardrobe/official233/astrid-office.webp",
+    "uniform": "/wardrobe/official233/astrid-uniform.webp"
+  },
+  "freya": {
+    "office": "/wardrobe/official233/freya-office.webp",
+    "uniform": "/wardrobe/official233/freya-uniform.webp"
+  },
+  "liv": {
+    "office": "/wardrobe/official233/liv-office.webp",
+    "uniform": "/wardrobe/official233/liv-uniform.webp"
+  },
+  "martinez": {
+    "office": "/wardrobe/official233/martinez-office.webp",
+    "uniform": "/wardrobe/official233/martinez-uniform.webp"
+  },
+  "nahla_al_fassi": {
+    "office": "/wardrobe/official233/nahla_al_fassi-office.webp",
+    "uniform": "/wardrobe/official233/nahla_al_fassi-uniform.webp"
+  },
+  "samira_al_fassi": {
+    "office": "/wardrobe/official233/samira_al_fassi-office.webp",
+    "uniform": "/wardrobe/official233/samira_al_fassi-uniform.webp"
+  },
+  "scarlet": {
+    "office": "/wardrobe/official233/scarlet-office.webp",
+    "uniform": "/wardrobe/official233/scarlet-uniform.webp"
+  },
+  "sigrid": {
+    "office": "/wardrobe/official233/sigrid-office.webp",
+    "uniform": "/wardrobe/official233/sigrid-uniform.webp"
+  },
+  "sonia": {
+    "office": "/wardrobe/official233/sonia-office.webp",
+    "uniform": "/wardrobe/official233/sonia-uniform.webp"
+  },
+  "trucia": {
+    "office": "/wardrobe/official233/trucia-office.webp",
+    "uniform": "/wardrobe/official233/trucia-uniform.webp"
+  },
+  "alvaro_morales": {
+    "uniform": "/wardrobe/official234/alvaro_morales-uniform.webp",
+    "office": "/wardrobe/official234/alvaro_morales-office.webp"
+  },
+  "barbossa": {
+    "uniform": "/wardrobe/official234/barbossa-uniform.webp",
+    "office": "/wardrobe/official234/barbossa-office.webp"
+  },
+  "edward_spencer": {
+    "uniform": "/wardrobe/official234/edward_spencer-uniform.webp",
+    "office": "/wardrobe/official234/edward_spencer-office.webp"
+  },
+  "england_ruins_representative": {
+    "uniform": "/wardrobe/official234/england_ruins_representative-uniform.webp",
+    "office": "/wardrobe/official234/england_ruins_representative-office.webp"
+  },
+  "fredo": {
+    "uniform": "/wardrobe/official234/fredo-uniform.webp",
+    "office": "/wardrobe/official234/fredo-office.webp"
+  },
+  "jesper": {
+    "uniform": "/wardrobe/official234/jesper-uniform.webp",
+    "office": "/wardrobe/official234/jesper-office.webp"
+  },
+  "leonardo_razen": {
+    "uniform": "/wardrobe/official234/leonardo_razen-uniform.webp",
+    "office": "/wardrobe/official234/leonardo_razen-office.webp"
+  },
+  "marco_stones": {
+    "uniform": "/wardrobe/official234/marco_stones-uniform.webp",
+    "office": "/wardrobe/official234/marco_stones-office.webp"
+  },
+  "robert_salcedo": {
+    "uniform": "/wardrobe/official234/robert_salcedo-uniform.webp",
+    "office": "/wardrobe/official234/robert_salcedo-office.webp"
+  },
+  "romeo_harkon": {
+    "uniform": "/wardrobe/official234/romeo_harkon-uniform.webp",
+    "office": "/wardrobe/official234/romeo_harkon-office.webp"
   }
 }

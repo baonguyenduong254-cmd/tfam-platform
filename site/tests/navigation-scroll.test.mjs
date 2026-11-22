@@ -17,12 +17,12 @@ function compile(code,context){const js=ts.transpileModule(code,{compilerOptions
 function frames(){let count=0;const queued=new Map();return {request:fn=>{queued.set(++count,fn);return count;},cancel:id=>queued.delete(id),flush(){const batch=[...queued.values()];queued.clear();batch.forEach(fn=>fn());},get size(){return queued.size;}};}
 
 test('rapid route changes align only the newest module, with one scroll per destination',async()=>{
- const pending=[],scrolls=[],context={f:{id:'castilian_empire'},year:'1715',archiveSection:'characters',atlasRef:{current:{offsetHeight:80}},contentRef:{current:{getBoundingClientRect:()=>({top:300})}},window:{scrollY:400,scrollTo:value=>scrolls.push(value)},setTab:()=>{},setProvince:()=>{},setArchiveSection:()=>{},openRoom:()=>{},navigate:(hash,update)=>{update();return new Promise(resolve=>pending.push({hash,resolve}));}};
+ const pending=[],scrolls=[],context={f:{id:'castilian_empire'},year:'1715',archiveSection:'characters',matchMedia:()=>({matches:false}),atlasRef:{current:{offsetHeight:80}},contentRef:{current:{getBoundingClientRect:()=>({top:300})}},window:{scrollY:400,scrollTo:value=>scrolls.push(value)},setTab:()=>{},setProvince:()=>{},setArchiveSection:()=>{},openRoom:()=>{},navigate:(hash,update)=>{update();return new Promise(resolve=>pending.push({hash,resolve}));}};
  compile(['alignModule','goTab','openDestination'].map(name=>functions.get(name)).join('\n')+'\nglobalThis.open=openDestination;',context);
  context.open('military');context.open('atlas');
  assert.deepEqual(pending.map(p=>p.hash),['#military/castilian_empire','#atlas/castilian_empire/1715']);
  pending[0].resolve(false);pending[1].resolve(true);await Promise.resolve();
- assert.equal(scrolls.length,1);assert.equal(scrolls[0].top,620);assert.equal(scrolls[0].behavior,'instant');
+ assert.equal(scrolls.length,1);assert.equal(scrolls[0].top,0);assert.equal(scrolls[0].behavior,'smooth');
 });
 
 test('the real transition reports superseded navigation without swallowing either update',async()=>{

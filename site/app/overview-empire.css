@@ -1,89 +1,616 @@
-/* The overview alternates briefing, landscape, court and military compositions. */
-main[data-tfam211] .empire-overview.empire-overview{--empire-ink:#f5e9d6;--empire-subtle:#c7bbca;--empire-gold:#ddc291;color:var(--empire-ink);max-width:1600px;margin:0 auto;padding:0;background:none}
+/* TFAM v226 Imperial Overview: Alternative History, Elegant Adult Dark Fantasy. */
+main[data-tfam211] .empire-overview.empire-overview{
+  --empire-ink:#f6ebd8;
+  --empire-subtle:#c9bdcc;
+  --empire-gold:#dfc28f;
+  --empire-crimson:#8b2942;
+  --empire-surface:#16111df0;
+  --empire-line:#cbb08238;
+  position:relative;
+  isolation:isolate;
+  color:var(--empire-ink);
+  max-width:1600px;
+  margin:0 auto;
+  padding:0 0 40px;
+  background:none;
+}
 main[data-tfam211] .empire-overview.empire-overview *{box-sizing:border-box}
-main[data-tfam211] .empire-overview.empire-overview>section{margin:0;padding:clamp(56px,7vw,112px) 0;border:0;background:none;box-shadow:none}
 main[data-tfam211] .empire-overview.empire-overview :is(h2,h3,p){margin:0;text-wrap:pretty}
-main[data-tfam211] .empire-overview.empire-overview h2{font-size:clamp(36px,4vw,64px);line-height:1.04;letter-spacing:-.025em;color:var(--empire-ink);font-weight:400;text-wrap:balance}
+main[data-tfam211] .empire-overview.empire-overview h2{
+  font-size:clamp(38px,4.2vw,68px);
+  line-height:1.02;
+  letter-spacing:-.025em;
+  color:var(--empire-ink);
+  font-weight:400;
+  text-wrap:balance;
+}
 main[data-tfam211] .empire-overview.empire-overview h3{color:var(--empire-ink);font-weight:400}
-main[data-tfam211] .empire-overview.empire-overview p{font-size:18px;line-height:1.65;color:var(--empire-subtle)}
-main[data-tfam211] .empire-overview.empire-overview button{font:inherit;cursor:pointer;color:inherit;text-align:left;border:0;border-radius:0;box-shadow:none;background:none;transition:color .18s ease,background-color .18s ease}
-main[data-tfam211] .empire-overview.empire-overview :is(button,summary):focus-visible{outline:2px solid #edcc91;outline-offset:6px}
-main[data-tfam211] .empire-overview.empire-overview .empire-text-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:12px 0;min-height:48px;color:var(--empire-gold);font-size:17px;line-height:1.3;text-decoration:none}
-main[data-tfam211] .empire-overview.empire-overview .empire-text-link svg{flex-shrink:0;transition:transform .2s ease}
-main[data-tfam211] .empire-overview.empire-overview .empire-text-link:hover svg{transform:translate(3px,-3px)}
-main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px}
-main[data-tfam211] .empire-overview.empire-overview .empire-facts{display:flex;flex-wrap:wrap;gap:24px 48px;padding:32px 0;margin:0;border-bottom:1px solid #84718b55}
-main[data-tfam211] .empire-overview.empire-overview .empire-facts dt{color:var(--empire-subtle);font-size:14px;margin-bottom:8px}
-main[data-tfam211] .empire-overview.empire-overview .empire-facts dd{color:var(--empire-ink);font-size:24px;margin:0}
-main[data-tfam211] .empire-overview.empire-overview .empire-identity{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.65fr);gap:clamp(40px,7vw,112px)}
-main[data-tfam211] .empire-overview.empire-overview .empire-section-intro .empire-text-link{margin-top:24px}
-main[data-tfam211] .empire-overview.empire-overview .empire-traits{display:grid;grid-template-columns:1fr 1fr;gap:36px 44px}
-main[data-tfam211] .empire-overview.empire-overview .empire-traits article{display:flex;gap:20px;align-items:start;padding:0;border:0;background:none}
-main[data-tfam211] .empire-overview.empire-overview .empire-traits img{flex:0 0 64px;width:64px;height:90px;object-fit:contain}
-main[data-tfam211] .empire-overview.empire-overview .empire-traits h3{font-size:24px;line-height:1.2;margin-bottom:12px;color:var(--empire-gold)}
-main[data-tfam211] .empire-overview.empire-overview .empire-traits p{font-size:16px;line-height:1.65}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);grid-template-rows:1fr 1fr;gap:20px;min-height:680px}
-main[data-tfam211] .empire-overview.empire-overview .empire-place{position:relative;isolation:isolate;display:block;min-width:0;overflow:hidden;padding:0;background:#201c27;min-height:300px}
+main[data-tfam211] .empire-overview.empire-overview p{font-size:18px;line-height:1.68;color:var(--empire-subtle)}
+main[data-tfam211] .empire-overview.empire-overview button{
+  font:inherit;
+  cursor:pointer;
+  color:inherit;
+  text-align:left;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  background:none;
+  transition:color .2s ease,background-color .22s ease,border-color .22s ease,transform .22s cubic-bezier(.16,1,.3,1);
+}
+main[data-tfam211] .empire-overview.empire-overview :is(button,summary):focus-visible{outline:2px solid #edcc91;outline-offset:5px}
+
+/* GLSL Atmospheric Backdrop */
+main[data-tfam211] .empire-overview.empire-overview .empire-atmosphere-layer{
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  overflow:hidden;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-glsl-atmosphere{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  opacity:.85;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-velvet-vignette{
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 75% 45% at 15% 18%,#6a1c3322,transparent 70%),
+    radial-gradient(ellipse 65% 45% at 88% 76%,#b8955c18,transparent 72%);
+}
+
+/* Sections & Chapter Typography */
+main[data-tfam211] .empire-overview.empire-overview>section{
+  margin:0;
+  padding:clamp(60px,7.2vw,116px) 0;
+  border:0;
+  border-top:1px solid #cbb08222;
+  background:none;
+  box-shadow:none;
+  scroll-margin-top:90px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-chapter-num{
+  display:block;
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--empire-gold);
+  margin-bottom:14px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-intro-note{
+  margin-top:20px;
+  font-size:16px;
+  line-height:1.7;
+  color:#bfb2c5;
+  max-width:38ch;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:12px 0;
+  min-height:46px;
+  color:var(--empire-gold);
+  font-size:16px;
+  line-height:1.3;
+  text-decoration:none;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-action-gilded{
+  padding:12px 22px;
+  border:1px solid #dfc28f52;
+  background:linear-gradient(135deg,#2a1929cc,#17111fe6);
+  color:#f5dfb8;
+  font-size:14px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-action-gilded:hover{
+  border-color:#ebd09e;
+  background:linear-gradient(135deg,#6f2338cc,#2b1627f0);
+  color:#fff6e6;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link svg:last-child{flex-shrink:0;transition:transform .22s ease}
+main[data-tfam211] .empire-overview.empire-overview .empire-text-link:hover svg:last-child{transform:translate(3px,-3px)}
+main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:24px;
+  margin-bottom:42px;
+}
+
+/* Chapter I: Doctrine Folios */
+main[data-tfam211] .empire-overview.empire-overview .empire-identity{
+  display:grid;
+  grid-template-columns:minmax(280px,.82fr) minmax(0,1.68fr);
+  gap:clamp(40px,6vw,96px);
+  align-items:start;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-section-intro .empire-text-link{margin-top:28px}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-trait-folio{
+  position:relative;
+  display:flex;
+  gap:20px;
+  align-items:start;
+  padding:26px 24px;
+  border:1px solid #cbb0822e;
+  background:
+    radial-gradient(280px circle at var(--mx,50%) var(--my,50%),#dfc28f16,transparent 65%),
+    linear-gradient(155deg,#1d1626d9,#130f1be6);
+  transition:border-color .25s ease,transform .28s cubic-bezier(.16,1,.3,1);
+  overflow:hidden;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-trait-folio:hover{
+  border-color:#dfc28f78;
+  transform:translateY(-3px);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-trait-roman{
+  position:absolute;
+  top:14px;
+  right:18px;
+  font-size:12px;
+  letter-spacing:.18em;
+  color:#dfc28f66;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-trait-emblem{
+  flex:0 0 64px;
+  width:64px;
+  height:88px;
+  display:grid;
+  place-items:center;
+  padding:6px;
+  background:#0f0b1599;
+  border:1px solid #cbb08228;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-trait-emblem img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits h3{
+  font-size:23px;
+  line-height:1.2;
+  margin-bottom:10px;
+  color:var(--empire-gold);
+  padding-right:26px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-traits p{font-size:15.5px;line-height:1.68}
+
+/* Chapter II: Landmarks Bento */
+main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{
+  display:grid;
+  grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);
+  grid-template-rows:1fr 1fr;
+  gap:20px;
+  min-height:700px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place{
+  position:relative;
+  isolation:isolate;
+  display:block;
+  min-width:0;
+  overflow:hidden;
+  padding:0;
+  background:#1c1623;
+  min-height:310px;
+  border:1px solid #cbb08233;
+}
 main[data-tfam211] .empire-overview.empire-overview .empire-place-lead{grid-row:span 2}
-main[data-tfam211] .empire-overview.empire-overview .empire-place>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .7s cubic-bezier(.16,1,.3,1)}
-main[data-tfam211] .empire-overview.empire-overview .empire-place::after{content:"";position:absolute;inset:25% 0 0;z-index:-1;background:linear-gradient(transparent,#100d16ed)}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-caption{position:absolute;inset:auto 28px 24px;display:grid;justify-items:start;gap:12px;color:#fff2da}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-caption>span:first-child{display:flex;gap:8px;align-items:center;color:#eadcc9;font-size:14px}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-caption h3{font-size:clamp(25px,2.5vw,38px);line-height:1.08;text-wrap:balance}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-lead .empire-place-caption{inset:auto 40px 36px;gap:16px}
+main[data-tfam211] .empire-overview.empire-overview .empire-place>img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:-2;
+  transition:transform .85s cubic-bezier(.16,1,.3,1),filter .6s ease;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place::after{
+  content:"";
+  position:absolute;
+  inset:18% 0 0;
+  z-index:-1;
+  background:linear-gradient(180deg,transparent 0%,#120d1980 48%,#0e0a15f5 100%);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-frame{
+  position:absolute;
+  inset:12px;
+  border:1px solid #ebd09e24;
+  pointer-events:none;
+  transition:border-color .3s ease;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place:hover .empire-place-frame{border-color:#ebd09e75}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption{
+  position:absolute;
+  inset:auto 28px 26px;
+  display:grid;
+  justify-items:start;
+  gap:10px;
+  color:#fff2da;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-loc{
+  display:inline-flex;
+  gap:7px;
+  align-items:center;
+  padding:4px 10px;
+  background:#110c18bd;
+  border:1px solid #dfc28f44;
+  color:#ebd5ae;
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  backdrop-filter:blur(8px);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption h3{
+  font-size:clamp(26px,2.5vw,38px);
+  line-height:1.08;
+  text-wrap:balance;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-lead .empire-place-caption{inset:auto 42px 38px;gap:14px}
 main[data-tfam211] .empire-overview.empire-overview .empire-place-lead h3{font-size:clamp(38px,4vw,60px)}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-caption p{color:#ecdeca;font-size:20px}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-open{display:flex;align-items:center;gap:20px;color:#f0d39d;font-size:15px;min-height:32px}
-main[data-tfam211] .empire-overview.empire-overview .empire-place:hover>img{transform:scale(1.035)}
-main[data-tfam211] .empire-overview.empire-overview .empire-place-notice{display:grid;align-content:center;justify-items:start;min-height:320px;color:var(--empire-subtle);background:#1a1520;padding:32px}
-main[data-tfam211] .empire-overview.empire-overview .empire-court{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(32px,7vw,112px);align-items:center}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{position:relative;display:grid;min-height:650px;overflow:hidden;isolation:isolate;padding:0 32px 32px;align-content:end;background:#211a27}
-main[data-tfam211] .empire-overview.empire-overview[data-faction=castilian_empire] .empire-sovereign::before{content:"";position:absolute;inset:0;z-index:-2;background:url('/overview223/castilian-arrival.webp') center/cover;opacity:.28}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign::after{content:"";position:absolute;inset:55% 0 0;z-index:-1;background:linear-gradient(transparent,#151019)}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>img{position:absolute;z-index:-1;inset:12px 0 auto;width:100%;height:calc(100% - 12px);object-fit:contain;object-position:50% 0;transition:transform .5s cubic-bezier(.16,1,.3,1)}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>span{display:grid;gap:8px;position:relative;max-width:420px}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign strong{font-weight:400;font-size:clamp(28px,3vw,42px);line-height:1.05;color:#fff1d8;text-shadow:0 2px 14px #100b15}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>span>span:not(.empire-text-link){color:#e7d6bc;font-size:16px}
-main[data-tfam211] .empire-overview.empire-overview .empire-sovereign:hover>img{transform:translateY(-5px)}
-main[data-tfam211] .empire-overview.empire-overview .empire-court-copy h2{white-space:pre-line;margin-bottom:20px}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage{margin-top:36px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage button{display:flex;flex-direction:column;min-width:0;padding:0;gap:16px}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:240px;width:100%;object-fit:contain;object-position:center bottom;mask-image:linear-gradient(#000 85%,transparent)}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage button>span{display:grid;gap:7px;position:relative;padding-right:18px}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{color:var(--empire-subtle);font-size:13px;line-height:1.4}
-main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{color:#f5e9d6;font-size:20px;line-height:1.2;font-weight:400}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-caption p{color:#ecdeca;font-size:19px;max-width:44ch}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-open{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#f0d39d;
+  font-size:13px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin-top:4px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-place:hover>img{transform:scale(1.045);filter:contrast(1.05)}
+main[data-tfam211] .empire-overview.empire-overview .empire-place-notice{
+  display:grid;
+  align-content:center;
+  justify-items:start;
+  min-height:320px;
+  color:var(--empire-subtle);
+  background:#1a1520;
+  border:1px solid var(--empire-line);
+  padding:32px;
+}
+
+/* Chapter III: The Velvet Court */
+main[data-tfam211] .empire-overview.empire-overview .empire-court{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
+  gap:clamp(36px,6.5vw,104px);
+  align-items:center;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{
+  position:relative;
+  display:grid;
+  min-height:680px;
+  overflow:hidden;
+  isolation:isolate;
+  padding:0 36px 36px;
+  align-content:end;
+  background:radial-gradient(ellipse at 50% 24%,#432135,#16101d 72%);
+  border:1px solid #dfc28f44;
+  box-shadow:0 30px 70px #00000059;
+}
+main[data-tfam211] .empire-overview.empire-overview[data-faction=castilian_empire] .empire-sovereign::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background:url('/overview223/castilian-arrival.webp') center/cover;
+  opacity:.32;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign::after{
+  content:"";
+  position:absolute;
+  inset:50% 0 0;
+  z-index:-1;
+  background:linear-gradient(transparent,#120d18f2 82%);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign-halo{
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:radial-gradient(360px circle at var(--mx,50%) var(--my,35%),#e5b97422,transparent 70%);
+  pointer-events:none;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign>img{
+  position:absolute;
+  z-index:-1;
+  inset:12px 0 auto;
+  width:100%;
+  height:calc(100% - 12px);
+  object-fit:contain;
+  object-position:50% 0;
+  transition:transform .6s cubic-bezier(.16,1,.3,1);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign-plate{
+  display:grid;
+  gap:8px;
+  position:relative;
+  max-width:440px;
+  padding-top:18px;
+  border-top:1px solid #dfc28f44;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--empire-gold);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign strong{
+  font-weight:400;
+  font-size:clamp(30px,3vw,44px);
+  line-height:1.05;
+  color:#fff1d8;
+  text-shadow:0 2px 16px #100b15;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign-plate>span:not(.empire-text-link){
+  color:#e7d6bc;
+  font-size:16px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-sovereign:hover>img{transform:translateY(-6px) scale(1.015)}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-copy h2{white-space:pre-line;margin-bottom:14px}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-copy .empire-action-gilded{margin-top:24px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage{
+  margin-top:34px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  padding:14px 14px 18px;
+  gap:14px;
+  border:1px solid #cbb0822a;
+  background:
+    radial-gradient(200px circle at var(--mx,50%) var(--my,30%),#dfc28f18,transparent 70%),
+    linear-gradient(180deg,#1d1626c4,#120e19e8);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card:hover{
+  border-color:#dfc28f78;
+  transform:translateY(-4px);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-frame{
+  height:230px;
+  width:100%;
+  overflow:hidden;
+  background:radial-gradient(ellipse at 50% 80%,#3c243766,#140f1c 75%);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{
+  height:100%;
+  width:100%;
+  object-fit:contain;
+  object-position:center bottom;
+  mask-image:linear-gradient(#000 88%,transparent);
+  transition:transform .45s cubic-bezier(.16,1,.3,1);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card:hover img{transform:scale(1.04)}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card>span{display:grid;gap:6px;position:relative;padding-right:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{color:var(--empire-subtle);font-size:12px;line-height:1.4}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{color:#f5e9d6;font-size:19px;line-height:1.2;font-weight:400}
 main[data-tfam211] .empire-overview.empire-overview .empire-entourage svg{position:absolute;right:0;bottom:2px;color:var(--empire-gold)}
 main[data-tfam211] .empire-overview.empire-overview .empire-portrait-pending{display:grid;place-items:center;min-height:200px;width:100%;color:var(--empire-subtle);font-size:15px}
 main[data-tfam211] .empire-overview.empire-overview .empire-court-without-crown{grid-template-columns:1fr}
-main[data-tfam211] .empire-overview.empire-overview .empire-court-without-crown .empire-entourage img{height:360px}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs{display:flex;gap:32px;border-bottom:1px solid #84718b55;margin-bottom:28px;overflow:auto;scrollbar-width:thin;scrollbar-color:#725769 #17121d}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{flex:1;min-width:180px;min-height:64px;padding:12px 0;font-size:16px;line-height:1.35;color:var(--empire-subtle);border-bottom:2px solid transparent}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button[aria-selected=true]{color:#f1dbb2;border-color:#d4b47a}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button:focus-visible{outline-offset:-3px}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:center}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:460px;position:relative;overflow:hidden;background:#1c1721;animation:empire-unit-arrive .42s cubic-bezier(.16,1,.3,1)}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-art img{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:contain}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-copy h3{font-size:clamp(28px,3vw,46px);line-height:1.08;margin-bottom:20px}
-main[data-tfam211] .empire-overview.empire-overview .empire-force-copy p{margin-bottom:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-court-without-crown .empire-entourage-frame{height:340px}
+
+/* Chapter IV: War Table Military Showcase */
+main[data-tfam211] .empire-overview.empire-overview .empire-war-table{
+  border:1px solid #cbb08233;
+  background:linear-gradient(145deg,#1a1422e0,#110d17f2);
+  padding:28px 32px 34px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs{
+  display:flex;
+  gap:24px;
+  border-bottom:1px solid #84718b55;
+  margin-bottom:32px;
+  overflow:auto;
+  scrollbar-width:thin;
+  scrollbar-color:#725769 #17121d;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{
+  flex:1;
+  display:flex;
+  align-items:baseline;
+  gap:12px;
+  min-width:190px;
+  min-height:60px;
+  padding:14px 4px;
+  font-size:16px;
+  line-height:1.35;
+  color:var(--empire-subtle);
+  border-bottom:2px solid transparent;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-tab-index{
+  font-size:11px;
+  letter-spacing:.18em;
+  color:#dfc28f77;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button[aria-selected=true]{
+  color:#f5e1ba;
+  border-color:#dfc28f;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button[aria-selected=true] .empire-tab-index{color:var(--empire-gold)}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{
+  display:grid;
+  grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);
+  gap:clamp(32px,5vw,76px);
+  align-items:center;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art{
+  height:460px;
+  position:relative;
+  overflow:hidden;
+  background:radial-gradient(ellipse at 50% 60%,#33213299,#15101c 78%);
+  border:1px solid #cbb0822a;
+  animation:empire-unit-arrive .44s cubic-bezier(.16,1,.3,1);
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  min-height:0;
+  object-fit:contain;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-branch{
+  display:inline-block;
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--empire-gold);
+  margin-bottom:12px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-copy h3{
+  font-size:clamp(30px,3vw,46px);
+  line-height:1.08;
+  margin-bottom:16px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-copy p{margin-bottom:18px}
 main[data-tfam211] .empire-overview.empire-overview .empire-force-copy .empire-force-class{color:var(--empire-gold);font-size:16px}
-main[data-tfam211] .empire-overview.empire-overview .empire-history{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(32px,8vw,128px);border-top:1px solid #84718b55;padding-bottom:100px}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>svg{color:var(--empire-gold);margin-bottom:24px}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>span{display:block;color:var(--empire-gold);margin-top:24px;font-size:24px}
-main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art{margin:32px 0 0}
+
+/* Chapter V: Imperial Chronicle (Stable Prose Rule) */
+main[data-tfam211] .empire-overview.empire-overview .empire-history{
+  display:grid;
+  grid-template-columns:minmax(0,.82fr) minmax(0,1.38fr);
+  gap:clamp(32px,7vw,120px);
+  padding-bottom:96px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-seal{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--empire-gold);
+  font-size:14px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:16px;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art{
+  margin:30px 0 0;
+  padding:10px;
+  border:1px solid #cbb08233;
+  background:#130e1a;
+}
 main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art img{width:100%;height:auto;display:block}
-main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art figcaption{font-size:14px;color:var(--empire-subtle);margin-top:12px}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text{max-width:70ch}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text p{font-size:20px;line-height:1.8;margin-bottom:24px}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text>p:first-child::first-letter{font-size:3em;line-height:.9;float:left;color:var(--empire-gold);padding:9px 10px 0 0}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text details{border:0;padding:0;background:none}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary{display:flex;gap:24px;align-items:center;cursor:pointer;list-style:none;color:var(--empire-gold);min-height:48px;font-size:18px;padding:10px 0}
+main[data-tfam211] .empire-overview.empire-overview .empire-chronicle-art figcaption{font-size:13px;color:var(--empire-subtle);margin-top:12px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text{
+  max-width:68ch;
+  padding:36px 40px;
+  background:#15101ce8;
+  border:1px solid #cbb0822b;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text p{font-size:20px;line-height:1.85;margin-bottom:24px;color:#e6dcd0}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text>p:first-child::first-letter{
+  font-size:3.2em;
+  line-height:.88;
+  float:left;
+  color:var(--empire-gold);
+  padding:8px 12px 0 0;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-folio{border-top:1px solid #cbb0822a;padding-top:12px}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary{
+  display:flex;
+  gap:16px;
+  align-items:center;
+  cursor:pointer;
+  list-style:none;
+  color:var(--empire-gold);
+  min-height:48px;
+  font-size:16px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  padding:10px 0;
+}
 main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary::-webkit-details-marker{display:none}
 main[data-tfam211] .empire-overview.empire-overview .empire-history-text summary svg{transition:transform .2s ease}
 main[data-tfam211] .empire-overview.empire-overview .empire-history-text details[open] summary svg{transform:rotate(90deg)}
-main[data-tfam211] .empire-overview.empire-overview .empire-history-text details[open]>div{padding-top:24px}
-@keyframes empire-unit-arrive{from{opacity:.6;transform:translateX(-12px)}to{opacity:1;transform:none}}
-@media(min-width:1600px){main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{min-height:780px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:300px}}
-@media(max-width:1100px){main[data-tfam211] .empire-overview.empire-overview .empire-identity{grid-template-columns:1fr;gap:40px}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro{display:flex;justify-content:space-between;align-items:end;gap:24px}main[data-tfam211] .empire-overview.empire-overview .empire-traits{gap:32px 40px}main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{min-height:580px}main[data-tfam211] .empire-overview.empire-overview .empire-court{gap:32px;grid-template-columns:.9fr 1.1fr}main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:550px;padding:24px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage{gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:200px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{font-size:18px}main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1.2fr 1fr}main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:380px}}
-@media(max-width:767px){main[data-tfam211] .empire-overview.empire-overview>section{padding:52px 0}main[data-tfam211] .empire-overview.empire-overview h2{font-size:38px}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro{display:block}main[data-tfam211] .empire-overview.empire-overview .empire-section-intro .empire-text-link{margin-top:16px}main[data-tfam211] .empire-overview.empire-overview .empire-traits{grid-template-columns:1fr;gap:28px}main[data-tfam211] .empire-overview.empire-overview .empire-traits img{width:56px;flex-basis:56px;height:76px}main[data-tfam211] .empire-overview.empire-overview .empire-traits h3{font-size:24px}main[data-tfam211] .empire-overview.empire-overview .empire-traits p{font-size:17px}main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{display:block;margin-bottom:24px}main[data-tfam211] .empire-overview.empire-overview .empire-section-heading .empire-text-link{margin-top:14px}main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{grid-template-columns:1fr;grid-template-rows:auto;gap:16px;min-height:0}main[data-tfam211] .empire-overview.empire-overview .empire-place{min-height:300px}main[data-tfam211] .empire-overview.empire-overview .empire-place-lead{grid-row:auto;min-height:460px}main[data-tfam211] .empire-overview.empire-overview .empire-place-caption,main[data-tfam211] .empire-overview.empire-overview .empire-place-lead .empire-place-caption{inset:auto 24px 24px;gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-place-caption h3{font-size:30px}main[data-tfam211] .empire-overview.empire-overview .empire-place-lead h3{font-size:40px}main[data-tfam211] .empire-overview.empire-overview .empire-court{grid-template-columns:1fr;gap:36px}main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:560px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage{margin-top:24px;gap:12px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage img{height:180px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage strong{font-size:18px}main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{font-size:12px}main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs{gap:24px;margin-bottom:20px}main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{min-width:160px;font-size:15px}main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1fr;gap:24px}main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:320px}main[data-tfam211] .empire-overview.empire-overview .empire-force-copy h3{font-size:32px}main[data-tfam211] .empire-overview.empire-overview .empire-history{grid-template-columns:1fr;gap:32px;padding-bottom:64px}main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>svg{margin-bottom:16px}main[data-tfam211] .empire-overview.empire-overview .empire-history-heading>span{margin-top:16px}main[data-tfam211] .empire-overview.empire-overview .empire-history-text p{font-size:18px;line-height:1.8}}
-@media(prefers-reduced-motion:reduce){main[data-tfam211] .empire-overview.empire-overview .empire-force-art{animation:empire-unit-arrive .18s ease}main[data-tfam211] .empire-overview.empire-overview :is(.empire-place:hover>img,.empire-sovereign:hover>img){transform:none}@keyframes empire-unit-arrive{from{opacity:.7}to{opacity:1}}}
-@media(max-width:767px){main[data-tfam211] .empire-overview.empire-overview .empire-entourage{grid-template-columns:repeat(3,minmax(132px,1fr));overflow-x:auto;padding-bottom:16px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#725769 #17121d}main[data-tfam211] .empire-overview.empire-overview .empire-entourage button{scroll-snap-align:start}main[data-tfam211] .empire-overview.empire-overview .empire-entourage small{font-size:13px}}
+main[data-tfam211] .empire-overview.empire-overview .empire-history-text details[open]>div{padding-top:20px}
+main[data-tfam211] .empire-overview.empire-overview .empire-source-note{display:block;margin-top:12px;color:#9d8fa6;font-size:13px}
+
+@keyframes empire-unit-arrive{from{opacity:.55;transform:translateX(-14px)}to{opacity:1;transform:none}}
+
+@media(max-width:1100px){
+  main[data-tfam211] .empire-overview.empire-overview .empire-identity{grid-template-columns:1fr;gap:36px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-court{grid-template-columns:.92fr 1.08fr;gap:32px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:560px;padding:24px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1.15fr 1fr}
+  main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:380px}
+}
+@media(max-width:767px){
+  main[data-tfam211] .empire-overview.empire-overview>section{padding:52px 0}
+  main[data-tfam211] .empire-overview.empire-overview h2{font-size:38px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-traits{grid-template-columns:1fr}
+  main[data-tfam211] .empire-overview.empire-overview .empire-section-heading{display:block;margin-bottom:24px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-section-heading .empire-action-gilded{margin-top:16px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-place-composition{grid-template-columns:1fr;grid-template-rows:auto;min-height:0}
+  main[data-tfam211] .empire-overview.empire-overview .empire-place-lead{grid-row:auto;min-height:440px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-court{grid-template-columns:1fr;gap:36px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-sovereign{min-height:520px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-entourage{grid-template-columns:repeat(3,minmax(160px,1fr));overflow-x:auto;padding-bottom:14px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-war-table{padding:20px 18px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-force-stage{grid-template-columns:1fr;gap:24px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:310px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-history{grid-template-columns:1fr;gap:28px;padding-bottom:64px}
+  main[data-tfam211] .empire-overview.empire-overview .empire-history-text{padding:24px 20px}
+}
+@media(prefers-reduced-motion:reduce){
+  main[data-tfam211] .empire-overview.empire-overview .empire-force-art{animation:none}
+  main[data-tfam211] .empire-overview.empire-overview :is(.empire-place:hover>img,.empire-sovereign:hover>img,.empire-trait-folio:hover,.empire-entourage-card:hover){transform:none}
+}
+
+/* TFAM v227 Live Desktop & Mobile 390px Fixes + Framed Archival Unit Plate + Diegetic Brass */
+main[data-tfam211] .empire-overview.empire-overview .empire-tab-index{
+  white-space:nowrap;
+  flex-shrink:0;
+  font-variant-numeric:tabular-nums;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{
+  align-items:center;
+}
+/* Framed Archival Plate: eliminates awkward dark side voids around light-ground unit illustrations */
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art{
+  display:grid;
+  place-items:center;
+  padding:18px;
+  background:
+    radial-gradient(ellipse at 50% 50%,#3b263899 0%,#181120f5 72%),
+    repeating-linear-gradient(45deg,#dfc28f07 0 1px,transparent 1px 14px);
+  border:1px solid #dfc28f4d;
+  box-shadow:inset 0 0 0 6px #120d19,inset 0 0 0 7px #dfc28f26,0 20px 50px #00000066;
+}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art img{
+  position:relative;
+  inset:auto;
+  width:auto;
+  height:100%;
+  max-width:100%;
+  object-fit:contain;
+  filter:drop-shadow(0 18px 34px #00000088);
+  mask-image:radial-gradient(ellipse 96% 96% at 50% 50%,#000 88%,transparent 100%);
+}
+
+/* TFAM v239 Fix: Even Entourage card heights, top-aligned War Table tab numbers, balanced archival mat */
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage{align-items:stretch}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card{height:100%;justify-content:space-between}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-tabs button{align-items:flex-start}
+main[data-tfam211] .empire-overview.empire-overview .empire-tab-index{padding-top:3px}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art{aspect-ratio:4/3;height:auto;max-height:460px}
+
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art{height:auto;aspect-ratio:4/3}
+main[data-tfam211] .empire-overview.empire-overview .empire-force-art img[hidden]{display:none}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage{align-items:stretch}
+main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card{height:100%}

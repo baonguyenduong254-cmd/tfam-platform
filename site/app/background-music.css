@@ -13,3 +13,10 @@ body.tfam-editorial.tfam-royal .music-compact .music-mute{display:grid;place-ite
 @keyframes music-level-210{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
 @media(max-width:700px){.music-compact{gap:7px}.music-compact .music-track-title{font-size:11px}.music-compact .music-levels{flex-basis:15px;width:15px;gap:2px}.music-compact .music-mute{flex-basis:40px;width:40px}}
 @media print{.background-music,.background-music-fallback{display:none!important}}
+
+/* TFAM v237 Music Track Readability Polish */
+body.tfam-editorial.tfam-royal .music-compact{max-width:440px}
+.music-compact .music-track-title{mask-image:linear-gradient(90deg,#000 88%,transparent 100%);text-overflow:clip}
+
+/* TFAM v239 Fix: Dock fallback music bar top-right so it never covers top-left back links on /achievements */
+.background-music-fallback{left:auto;right:20px;top:14px;width:min(320px,calc(100vw - 40px));z-index:95}

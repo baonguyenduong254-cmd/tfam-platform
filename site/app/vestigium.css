@@ -140,3 +140,9 @@ dialog.vest-dialog .vest-art-retry{flex:0 0 auto;margin-top:8px;font-size:14px}
 dialog.vest-dialog .vest-detail-copy>.vest-components{margin-top:28px}
 .vest-result-status button:hover,.vest-link-error button:hover,.vest-art-retry:hover{border-color:#d3c497;background:#274552}
 @media(max-width:700px){.vest-origin-art{width:160px}.vest-result-status{font-size:13px;gap:8px}.vest-result-status button{font-size:13px}}
+
+/* TFAM v239 Fix: Prevent Quintessential tier label from breaking mid-word */
+.vest-gallery{grid-template-columns:180px minmax(0,1fr)}
+.vest-depth-nav button{white-space:nowrap}
+@media(max-width:767px){.vest-gallery{grid-template-columns:minmax(0,1fr)}.vest-depth-nav{display:flex;overflow-x:auto}.vest-depth-nav button{flex:0 0 auto}}
+.vest-object{content-visibility:auto;contain-intrinsic-block-size:auto 220px}

@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19",
-  "phase": "update-225-live",
+  "updatedAt": "2026-11-22",
+  "phase": "update-239-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 225,
-    "sourceCommit": "a28b1eaa2ed11072729f3033a566e8eca5e5a831",
+    "siteVersion": 239,
+    "sourceCommit": "24d3a7afc0700faaccd2ccd792dcf5817419f367",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6afb24ff5d6c8191b6384965a564c271",
-    "verifiedAt": "2026-11-19"
+    "deploymentId": "appgdep_6b027b4eb98c81919b2d290a0d532094",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4181460637408191afa1a665d5cc6243",
+    "verifiedAt": "2026-11-22"
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
-    "visibility": "private",
+    "visibility": "public",
     "connector": "read-write-verified",
     "productionAutoDeploy": false,
     "sourcePath": "site/",
@@ -21,7 +22,7 @@
     "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
     "importSecretRemoved": true,
     "manualCloudRelease": "verified",
-    "liveSourceRecord": "ops/releases/225-source.json"
+    "liveSourceRecord": "ops/releases/239-source.json"
   },
   "r2": {
     "status": "full-dashboard-inventory-reconciled",
@@ -116,5 +117,12 @@
     "retirementPR": 23,
     "savedVersionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_212ccc513a388191acb73b19a987b3bd",
     "archiveHash": "sha256:660627fc8dc7557a4d4287cf033280419cfe814778e3f8b4049a206c60b80e56"
+  },
+  "rollback": {
+    "siteVersion": 238,
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_d8fa26ebf6dc819191699ec49a7f4dcf",
+    "sourceCommit": "9006abd1175566a9aca545d3955c3dc7bcdc8093",
+    "sourceTreeMatchesPreviousProduction": true,
+    "previousProductionSiteVersion": 237
   }
 }

@@ -19,3 +19,6 @@ body.tfam-editorial.tfam-royal .achievement211-milestones article p{margin-top:0
 .achievement211-future{margin-top:36px;color:var(--world-muted)}.achievement211-future summary{cursor:pointer;min-height:44px;color:#edd6ac;font-size:23px}
 .achievement211-future>div{display:flex;gap:12px;flex-wrap:wrap}.achievement211-future span{padding:12px;border:1px solid var(--world-line)}
 @media(max-width:767px){.achievement211-summary{gap:24px;display:block}.achievement211-summary strong{font-size:40px}.achievement211-summary p{margin-top:24px}.achievement211-milestones article{display:block}.achievement211-milestones article>div+div{margin:20px 0}.achievement211-milestones article>p{margin-top:18px}}
+
+/* TFAM v239 Fix: Clear top spacing for back navigation link */
+body.tfam-editorial.tfam-royal main.achievements211-page{padding-top:68px}

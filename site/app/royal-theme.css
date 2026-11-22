@@ -109,7 +109,7 @@ body.tfam-editorial.tfam-royal .world-entry .entry-topline :is(button,small,.ent
 body.tfam-editorial.tfam-royal .world-entry .entry-topline button[aria-pressed=true]{color:#764640;border-bottom:1px solid currentColor}
 body.tfam-editorial.tfam-royal .world-entry button:focus-visible{outline:2px solid #764640;outline-offset:4px}
 @media(max-width:680px){body.tfam-editorial.tfam-royal .world-entry .voyage-scene{background-position:60% center}body.tfam-editorial.tfam-royal .world-entry .banner-name{font-size:12px}body.tfam-editorial.tfam-royal .tfam-boot{padding-inline:22px;box-sizing:border-box}}
-/* Royal furniture v2 — remove the remaining dark-era overlays and controls. */
+/* Royal furniture v2 · remove the remaining dark-era overlays and controls. */
 body.tfam-editorial.tfam-royal :is(.command-entry h4,.command-entry p,.command-method,.command-method summary,.command-method p,.command-trait-signatures span){color:var(--royal-ink)!important;background:transparent;border-color:var(--royal-rule)}
 body.tfam-editorial.tfam-royal .command-identity::after{content:'';width:140px;height:18px;bottom:-9px;background:var(--royal-metal);mask:url('/art/interface/royal-v2/divider.svg') center/contain no-repeat;padding:0}
 body.tfam-editorial.tfam-royal :is(.site-tools-popover,.reader-account-popover,.music-track-picker){border:1px solid var(--royal-metal);outline:1px solid var(--royal-rule);outline-offset:-5px;padding:22px}

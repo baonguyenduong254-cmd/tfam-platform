@@ -18,3 +18,5 @@
 .military-card-copy h4{font-size:20px;line-height:1.5}
 .military-native{font-family:var(--type-body),'Times New Roman',serif;letter-spacing:normal;font-size:13px}
 @media(max-width:760px){.military-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.military-card-copy h4{font-size:16px;line-height:1.5}.military-doctrine p{font-size:16px;line-height:1.8}}
+
+.military-unit-card{content-visibility:auto;contain-intrinsic-block-size:auto 320px}

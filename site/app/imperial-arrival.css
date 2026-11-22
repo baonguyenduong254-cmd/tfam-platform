@@ -1,19 +1,44 @@
-body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{height:calc(90svh - 150px);min-height:540px;max-height:960px;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;background:#10151d}
+body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{min-height:clamp(540px,calc(90svh - 150px),960px);display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;background:#10151d}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-art img{object-position:62% 48%;animation:imperial-camera 24s ease-in-out infinite alternate}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival::after{background:linear-gradient(90deg,#080c13b8,transparent 66%),linear-gradient(0deg,#0e1019f5,transparent 60%)}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-copy{max-width:1220px;padding:40px var(--world-gutter) 30px;gap:30px;align-self:auto;align-items:center;flex-direction:row;z-index:2}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival h1{font-size:clamp(48px,6.5vw,96px);line-height:1.02;max-width:12ch;text-wrap:balance;letter-spacing:-.025em}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-flag{width:clamp(100px,11vw,170px);max-height:140px}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-quote{font-size:clamp(18px,1.5vw,22px);max-width:36ch;margin:20px 0 0;color:#eee7dc}
-body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts{display:flex;gap:clamp(32px,7vw,110px);padding:0 var(--world-gutter) 28px;margin:0;position:relative;z-index:2;color:#f2e9da}
-body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts div{display:grid;gap:5px}
-body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts dt{font-size:14px;color:#ccc4bb}
-body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts dd{margin:0;font-size:21px;font-variant-numeric:tabular-nums}
 .imperial-weather{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-art::after{display:none}
 body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival[data-running=false] .arrival-art img{animation-play-state:paused}
 @keyframes imperial-camera{from{transform:scale(1)}to{transform:scale(1.015) translateX(-.4%)}}
-@media(max-width:900px){body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{min-height:580px;height:72svh}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-copy{flex-direction:column;align-items:flex-start;gap:24px}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival h1{font-size:64px}}
-@media(max-width:600px){body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{min-height:540px;height:calc(82svh - 70px);max-height:700px}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-art img{object-position:58% center}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival::after{background:linear-gradient(0deg,#0e1019fa,transparent 90%)}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-copy{padding:24px 20px;gap:18px;align-items:flex-start;flex-direction:column}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival h1{font-size:47px;max-width:12ch}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-flag{width:85px;max-height:62px}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-quote{font-size:18px;max-width:30ch;margin-top:14px}body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts{padding:0 20px 24px;gap:26px;justify-content:space-between}body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts dt{font-size:13px}body.tfam-editorial.tfam-royal main[data-tfam211] .imperial-facts dd{font-size:18px}}
+@media(max-width:900px){body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{min-height:max(580px,72svh)}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-copy{flex-direction:column;align-items:flex-start;gap:24px}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival h1{font-size:64px}}
+@media(max-width:600px){body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.empire-arrival{min-height:clamp(540px,calc(82svh - 70px),700px)}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-art img{object-position:58% center}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival::after{background:linear-gradient(0deg,#0e1019fa,transparent 90%)}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-copy{padding:24px 20px;gap:18px;align-items:flex-start;flex-direction:column}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival h1{font-size:47px;max-width:12ch}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-flag{width:85px;max-height:62px}body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-quote{font-size:18px;max-width:30ch;margin-top:14px}}
 @keyframes imperial-light{from{opacity:.94}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){body.tfam-editorial.tfam-royal main[data-tfam211] .empire-arrival .arrival-art img{animation:imperial-light 9s ease-in-out infinite alternate}}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.has-overview-header{
+ height:auto;max-height:none;flex-direction:column;align-items:stretch;justify-content:flex-end;
+}
+.arrival-overview{
+ flex:none;position:relative;z-index:2;
+ margin-inline:var(--world-gutter,20px);padding:16px 0 24px;
+ border-top:1px solid #dfc28f40;color:#f2e9da;
+}
+.arrival-overview .imperial-facts{
+ display:flex;flex-wrap:wrap;gap:12px clamp(18px,3vw,46px);margin:0;
+}
+.arrival-overview .imperial-facts dt{font-size:14px;color:#ded3c8;margin-bottom:4px}
+.arrival-overview .imperial-facts dd{margin:0;font-size:20px;font-variant-numeric:tabular-nums}
+.arrival-year-options{display:flex;flex-wrap:wrap;gap:6px}
+.arrival-overview .arrival-year-options button{
+ min-height:36px;padding:4px 9px;border:1px solid transparent;border-radius:0;
+ background:#1b1420b8;color:#f2e9da;font:inherit;font-size:14px;line-height:1.25;
+}
+.arrival-overview button:hover,.arrival-overview button[aria-pressed=true]{
+ background:#522638;border-color:#e4c792aa;color:#fff0d4;
+}
+.arrival-overview button:focus-visible{outline:2px solid #f4d59e;outline-offset:2px}
+@media(max-width:700px){
+ body.tfam-editorial.tfam-royal main[data-tfam211] .arrival211.has-overview-header{padding-top:36px}
+ .arrival-overview{margin-inline:20px}
+ .arrival-overview .imperial-facts dd{font-size:18px}
+ .arrival-overview .arrival-year-options button{min-height:40px}
+}

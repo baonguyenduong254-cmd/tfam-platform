@@ -1,0 +1,29 @@
+name = "tfam-studio-api"
+main = "apps/api/worker.ts"
+compatibility_date = "2026-10-01"
+
+# Cloudflare D1 Database Binding (replace database_id after running `wrangler d1 create tfam-platform-db`)
+[[d1_databases]]
+binding = "DB"
+database_name = "tfam-platform-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "database/migrations"
+
+# Cloudflare R2 Assets Binding (existing TFAM R2 bucket; credentials stay server-side)
+[[r2_buckets]]
+binding = "ASSETS_BUCKET"
+bucket_name = "tfam-assets"
+
+[vars]
+ENVIRONMENT = "development"
+PUBLIC_SITE_ORIGIN = "https://throughfrostandmyth.baonguyenduong254.chatgpt.site"
+STUDIO_ORIGIN = "https://studio.throughfrostandmyth.com"
+PAYMENT_PROVIDER = "sandbox"
+
+[env.staging]
+name = "tfam-studio-api-staging"
+vars = { ENVIRONMENT = "staging", PAYMENT_PROVIDER = "sandbox" }
+
+[env.production]
+name = "tfam-studio-api-prod"
+vars = { ENVIRONMENT = "production" }

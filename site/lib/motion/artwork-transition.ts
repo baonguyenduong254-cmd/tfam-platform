@@ -7,7 +7,7 @@ export function carryArtwork(trigger:HTMLElement|null|undefined,update:()=>void,
  const start=(document as Document&{startViewTransition?:(callback:()=>void)=>Transition}).startViewTransition;
  const image=trigger?.matches('img')?trigger:trigger?.querySelector<HTMLElement>('img');
  const commit=()=>{flushSync(update);afterUpdate?.();};
- if(!start||document.hidden){commit();return;}
+ if(!start||document.hidden||(typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches)){commit();return;}
  const previous=image?.style.viewTransitionName||'',others=image?Array.from(document.querySelectorAll<HTMLElement>('[style*="view-transition-name"]')).filter(el=>el!==image&&el.style.viewTransitionName===name):[];
  let restored=false;const restore=()=>{if(restored)return;restored=true;if(image)image.style.viewTransitionName=previous;others.forEach(el=>{el.style.viewTransitionName=name;});};restoreActive=restore;
  others.forEach(el=>{el.style.viewTransitionName='none';});if(image)image.style.viewTransitionName=name;

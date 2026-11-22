@@ -890,5 +890,265 @@
         "sourceName": "Victoria_beach.png"
       }
     ]
+  },
+  "alvaro_morales": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/alvaro_morales-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/alvaro_morales-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/alvaro_morales-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "barbossa": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/barbossa-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/barbossa-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/barbossa-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "edward_spencer": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/edward_spencer-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/edward_spencer-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/edward_spencer-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "england_ruins_representative": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/england_ruins_representative-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/england_ruins_representative-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/england_ruins_representative-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "fredo": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/fredo-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/fredo-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/fredo-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "jesper": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/jesper-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/jesper-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/jesper-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "leonardo_razen": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/leonardo_razen-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/leonardo_razen-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/leonardo_razen-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "marco_stones": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/marco_stones-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/marco_stones-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/marco_stones-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "robert_salcedo": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/robert_salcedo-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/robert_salcedo-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/robert_salcedo-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
+  },
+  "romeo_harkon": {
+    "naughty_office": [
+      {
+        "id": "atelier-235",
+        "label": "After Hours",
+        "src": "/wardrobe/official235/romeo_harkon-naughty_office.webp",
+        "background": "/evelyne-stage/background-office.webp"
+      }
+    ],
+    "beach": [
+      {
+        "id": "atelier-235",
+        "label": "Coastal Terrace",
+        "src": "/wardrobe/official235/romeo_harkon-beach.webp",
+        "background": "/evelyne-stage/background-beach.webp"
+      }
+    ],
+    "afterwork": [
+      {
+        "id": "atelier-235",
+        "label": "Evening Salon",
+        "src": "/wardrobe/official235/romeo_harkon-afterwork.webp",
+        "background": "/evelyne-stage/background-afterwork.webp"
+      }
+    ]
   }
 }
