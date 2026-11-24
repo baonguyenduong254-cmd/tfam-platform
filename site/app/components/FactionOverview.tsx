@@ -29,16 +29,7 @@ type Props={
 };
 
 const local=(record:R,key:string)=>presentationPunctuation(record[key+'_en']||record[key]||(key==='name'?record.name_native:'')||'');
-const roman=['I','II','III','IV','V','VI'];
 const monumentCache=new Map<string,R[]>();
-
-const acts=[
- {id:'sovereign',label:'Arrival'},
- {id:'doctrine',label:'Lore & Traits'},
- {id:'court',label:'Characters'},
- {id:'realm',label:'Locations'},
- {id:'forces',label:'Military'},
-] as const;
 
 /**
  * TFAM v250 Headerless Full-Viewport Cinematic Scroll Experience:
@@ -46,7 +37,7 @@ const acts=[
  * with zero cluttered top headers and direct deep-dive buttons into every module.
  */
 export default function FactionOverview({faction:f,characters,units,regions=0,onCharacter,onUnit,onDestination,onMilitaryUnit,onLandmark}:Props){
- const [places,setPlaces]=useState<R[]>([]),[placeState,setPlaceState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[forceIndex,setForceIndex]=useState(0),[activeAct,setActiveAct]=useState<string>('sovereign');
+ const [places,setPlaces]=useState<R[]>([]),[placeState,setPlaceState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[forceIndex,setForceIndex]=useState(0);
  const forceTabs=useRef<(HTMLButtonElement|null)[]>([]),sectionId=useId();
 
  const featured=(featuredMilitary as Record<string,R[]>)[f.id];
@@ -81,21 +72,6 @@ export default function FactionOverview({faction:f,characters,units,regions=0,on
   return()=>{alive=false;controller.abort();};
  },[f.id,retry]);
 
- useEffect(()=>{
-  const nodes=acts.map(a=>document.getElementById(sectionId+'-'+a.id)).filter(Boolean) as HTMLElement[];
-  if(!nodes.length)return;
-  const obs=new IntersectionObserver(entries=>{
-   for(const entry of entries){
-    if(entry.isIntersecting){
-     const id=entry.target.getAttribute('data-act');
-     if(id)setActiveAct(id);
-    }
-   }
-  },{threshold:0.42});
-  nodes.forEach(n=>obs.observe(n));
-  return()=>obs.disconnect();
- },[sectionId,f.id]);
-
  function jumpAct(id:string){
   document.getElementById(sectionId+'-'+id)?.scrollIntoView({behavior:'smooth',block:'start'});
  }
@@ -112,14 +88,6 @@ export default function FactionOverview({faction:f,characters,units,regions=0,on
    <OverviewAtmosphere factionId={f.id}/>
    <div className="empire-velvet-vignette"/>
   </div>
-
-  {/* Whisper-quiet right-edge Act Dot Rail (replaces bulky top headers) */}
-  <nav className="v250-act-rail" aria-label="Realm chapters">
-   {acts.map((act,i)=><button key={act.id} type="button" aria-current={activeAct===act.id?'step':undefined} onClick={()=>jumpAct(act.id)}>
-    <span className="v250-act-dot" aria-hidden="true"/>
-    <span className="v250-act-label">{roman[i]} · {act.label}</span>
-   </button>)}
-  </nav>
 
   {/* ACT I: FULL-VIEWPORT SOVEREIGN ARRIVAL */}
   <section id={sectionId+'-sovereign'} data-act="sovereign" className="v250-act v250-act-arrival">

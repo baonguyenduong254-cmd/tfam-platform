@@ -651,36 +651,6 @@ main[data-tfam211].v250-headerless-stage .world-arrival,
 main[data-tfam211].v250-headerless-stage .command-bar{
   display:none!important;
 }
-.v250-floating-corner-nav{
-  position:fixed;
-  top:20px;
-  left:24px;
-  right:24px;
-  z-index:60;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  pointer-events:none;
-}
-.v250-floating-corner-nav>*{pointer-events:auto}
-.v250-corner-pill{
-  display:inline-flex;
-  align-items:center;
-  gap:10px;
-  padding:10px 18px;
-  background:#110b19d6;
-  border:1px solid #dfc28f44;
-  color:#f6ebd8;
-  font-size:12px;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  text-decoration:none;
-  backdrop-filter:blur(16px);
-  cursor:pointer;
-  transition:border-color .2s,background .2s;
-}
-.v250-corner-pill:hover{border-color:#f6dfb1;background:#2f172be6}
-
 /* Full-Viewport Acts */
 main[data-tfam211] .empire-v250-cinematic.empire-overview{
   max-width:none;
@@ -750,34 +720,6 @@ main[data-tfam211] .empire-v250-cinematic .v250-act-arrival{
 }
 .v250-scroll-cue:hover{border-color:#fce4b6!important;background:#491628e6!important}
 
-/* Right-Edge Whisper Act Dot Rail */
-.v250-act-rail{
-  position:fixed;
-  right:20px;
-  top:50%;
-  transform:translateY(-50%);
-  z-index:55;
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-}
-.v250-act-rail button{
-  display:flex;
-  align-items:center;
-  justify-content:flex-end;
-  gap:10px;
-  padding:4px 0;
-  color:#c5b7c9;
-  font-size:11px;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-}
-.v250-act-label{opacity:0;transform:translateX(6px);transition:opacity .2s,transform .2s;white-space:nowrap;background:#110b19e0;padding:3px 9px;border:1px solid #dfc28f33}
-.v250-act-rail button:hover .v250-act-label,
-.v250-act-rail button[aria-current="step"] .v250-act-label{opacity:1;transform:none;color:#f7dfaf}
-.v250-act-dot{width:8px;height:8px;border-radius:50%;border:1px solid #dfc28f88;background:#140e1d;flex-shrink:0;transition:transform .2s,background .2s}
-.v250-act-rail button[aria-current="step"] .v250-act-dot{background:#f2d297;transform:scale(1.35);box-shadow:0 0 12px #dfc28f99}
-
 .v250-act-cta-pair{display:flex;gap:12px;flex-wrap:wrap}
 .v250-lore-lead{max-width:46ch!important;color:#dfd2c7!important}
 .v250-inline-chronicle{margin:16px 0 24px;max-width:52ch}
@@ -794,9 +736,6 @@ main[data-tfam211] .empire-v250-cinematic .empire-force-art img{
 @keyframes v250-slow-drift{from{transform:scale(1.03)}to{transform:scale(1.075) translateX(-.6%)}}
 
 @media(max-width:960px){
-  .v250-act-rail{display:none}
-  .v250-floating-corner-nav{top:12px;left:12px;right:12px}
-  .v250-corner-pill{padding:8px 12px;font-size:10.5px}
   main[data-tfam211] .empire-v250-cinematic .v250-act{min-height:auto;padding:56px 18px}
 }
 
