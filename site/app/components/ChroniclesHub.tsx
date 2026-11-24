@@ -1,130 +1,106 @@
 'use client';
-import {presentationPunctuation} from '../../lib/presentation-punctuation';
-import {useEffect,useMemo,useState} from 'react';
-import {BookOpen,ArrowLeft,ArrowRight,Search} from 'lucide-react';
-import {storyIndex,type ChapterMeta} from '../../lib/story';
-import {chapterPath,READING_HISTORY_KEY,parseReadingHistory} from '../../lib/reader-state';
-import {READING_POSITION_KEY,parseReadingPosition} from '../../lib/reading-position';
-import {scopedReaderKey,mergeAccountHistory,latestAccountCheckpoint} from '../../lib/accounts';
-import {useReaderAccount} from './ReaderAccount';
-import {useDiscovery} from './DiscoveryProgress';
-import BookHandoff from './BookHandoff';
-import SceneStage from './SceneStage';
-import StoryLibrary,{type StoryLibraryProps} from './StoryLibrary';
+import {useState} from 'react';
+import {BookOpen,Lock,Sparkles,X} from 'lucide-react';
+import '../chronicles-211.css';
 
-type Entry=ChapterMeta&{complete?:boolean};
-const cover='/art/evelyne-monodica-moonfall-205-1920.webp';
-const englishOnly=(list:Entry[])=>list.filter(c=>c.id.startsWith('en_book'));
+type ArcEdition = {
+  id: string;
+  roman: string;
+  title: string;
+  subtitle: string;
+  cover: string;
+  fallbackCover: string;
+  status: string;
+  note: string;
+};
 
-export default function ChroniclesHub(props:StoryLibraryProps){
- const account=useReaderAccount(),discovery=useDiscovery();
- const [handoff,setHandoff]=useState(0);
- const [catalog,setCatalog]=useState<Entry[]>(()=>englishOnly(storyIndex));
- const [query,setQuery]=useState(''),[volume,setVolume]=useState(1),[reading,setReading]=useState<string|null>(null),[recent,setRecent]=useState<ReturnType<typeof parseReadingHistory>>([]),[resume,setResume]=useState<string|null>(null),[ready,setReady]=useState(false),[error,setError]=useState(false),[attempt,setAttempt]=useState(0);
+const fallbackArtwork = '/art/evelyne-monodica-moonfall-205-1920.webp';
 
- useEffect(()=>{
-  const englishIds=new Set(englishOnly(storyIndex).map(c=>c.id));
-  const sync=()=>{
-   const m=location.hash.match(/^#reader\/([a-zA-Z0-9_]+)$/);
-   const id=m&&englishIds.has(m[1])?m[1]:null;
-   setReading(id);
-   props.onLanguage?.('en');
-  };
-  sync();
-  addEventListener('popstate',sync);
-  addEventListener('hashchange',sync);
-  return()=>{removeEventListener('popstate',sync);removeEventListener('hashchange',sync);};
- },[]);
+/**
+ * TFAM v250 Six-Arc Collector's Hardcover Shelf:
+ * Drop your 6 Arc cover images into `site/public/art/arcs/arc-1.webp` .. `arc-6.webp`
+ * (automatic fallback keeps every volume rich until uploaded).
+ * Chapter prose stays cleanly in Forthcoming placeholder state per v250 direction.
+ */
+const sixArcs: ArcEdition[] = [
+  {id: 'arc-1', roman: 'ARC I', title: 'The Pathmaker', subtitle: 'Marrakesh & The Closing Sky', cover: '/art/arcs/arc-1.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation. English volume opening soon.'},
+  {id: 'arc-2', roman: 'ARC II', title: 'The Iron Meridian', subtitle: 'Court of Castile & Aragon', cover: '/art/arcs/arc-2.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation.'},
+  {id: 'arc-3', roman: 'ARC III', title: 'The Great Chorus', subtitle: 'Sahara & The Bell Towers', cover: '/art/arcs/arc-3.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation.'},
+  {id: 'arc-4', roman: 'ARC IV', title: 'Wardenholf Passage', subtitle: 'The Frozen Sea Route', cover: '/art/arcs/arc-4.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation.'},
+  {id: 'arc-5', roman: 'ARC V', title: 'Speculum & Ash', subtitle: 'The Fractured Alliances', cover: '/art/arcs/arc-5.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation.'},
+  {id: 'arc-6', roman: 'ARC VI', title: 'Crown of Winter', subtitle: 'The Final Reckoning', cover: '/art/arcs/arc-6.webp', fallbackCover: fallbackArtwork, status: 'Forthcoming', note: 'Manuscript edition in preparation.'},
+];
 
- useEffect(()=>{
-  const c=new AbortController();setError(false);
-  fetch('/api/story',{signal:c.signal,cache:'no-store'})
-   .then(async r=>{if(!r.ok)throw Error();const x=await r.json() as {chapters:Entry[]};setCatalog(englishOnly(x.chapters));setReady(true);})
-   .catch(e=>{if(e.name!=='AbortError'){setError(true);setReady(true);}});
-  return()=>c.abort();
- },[attempt]);
+export default function ChroniclesHub(){
+  const [selectedArc, setSelectedArc] = useState<ArcEdition | null>(null);
 
- useEffect(()=>{
-  if(!account.ready)return;
-  try{
-   const ids=englishOnly(storyIndex).map(c=>c.id);
-   const history=mergeAccountHistory(parseReadingHistory(localStorage.getItem(scopedReaderKey(READING_HISTORY_KEY,account.data?.profile?.id)),ids),account.data?.progress||[]).filter(v=>v.chapterId.startsWith('en_book'));
-   const checkpoint=latestAccountCheckpoint(parseReadingPosition(localStorage.getItem(scopedReaderKey(READING_POSITION_KEY,account.data?.profile?.id)),ids),account.data?.progress||[]);
-   setRecent(history);
-   setResume(checkpoint?.chapterId?.startsWith('en_book')?checkpoint.chapterId:history[0]?.chapterId||null);
-  }catch{}
- },[account.ready,account.epoch,account.data,reading]);
+  return (
+    <section className="chronicle211 chronicles-v250-shelf" aria-labelledby="library250-title">
+      <header className="v250-chronicles-hero">
+        <span className="v250-shelf-eyebrow"><Sparkles size={14} aria-hidden="true"/> Imperial Collector Editions · Six Arcs</span>
+        <h1 id="library250-title">The Chronicles</h1>
+        <p>Six bound arcs of Through Frost and Myth. English manuscript editions are currently being prepared for release.</p>
+      </header>
 
- const title=(c:ChapterMeta)=>presentationPunctuation(c.title_en||'Untitled Chapter');
- const edition=useMemo(()=>englishOnly(catalog),[catalog]);
- const volumes=[...new Set(edition.map(c=>c.arc))];
- const active=volumes.includes(volume)?volume:volumes[0]||1;
- const chapterSet=edition.filter(c=>c.arc===active);
- const filtered=chapterSet.filter(c=>(c.title_en||'').toLocaleLowerCase().includes(query.toLocaleLowerCase()));
- const readIds=new Set(recent.filter(c=>c.status==='read').map(c=>c.chapterId));
- const complete=chapterSet.filter(c=>c.complete);
- const count=complete.filter(c=>readIds.has(c.id)).length;
- const resumeEntry=edition.find(c=>c.id===resume);
- const recentEntries=useMemo(()=>recent.slice(0,5).flatMap(v=>{const c=edition.find(x=>x.id===v.chapterId);return c?[c]:[];}),[recent,edition]);
+      <div className="v250-arcs-grid" role="list" aria-label="Six Story Arcs">
+        {sixArcs.map(arc => (
+          <button
+            key={arc.id}
+            type="button"
+            className="v250-arc-volume"
+            onClick={() => setSelectedArc(arc)}
+            aria-label={`${arc.roman}: ${arc.title} (${arc.status})`}
+          >
+            <div className="v250-arc-book">
+              <img
+                src={arc.cover}
+                alt={`${arc.roman}: ${arc.title}`}
+                loading="eager"
+                onError={e => {
+                  if (e.currentTarget.getAttribute('src') !== arc.fallbackCover) {
+                    e.currentTarget.src = arc.fallbackCover;
+                  }
+                }}
+              />
+              <div className="v250-arc-spine" aria-hidden="true"/>
+              <div className="v250-arc-vignette" aria-hidden="true"/>
+              <span className="v250-arc-pill"><Lock size={11} aria-hidden="true"/> {arc.status}</span>
+              <div className="v250-arc-cover-copy">
+                <small>{arc.roman}</small>
+                <strong>{arc.title}</strong>
+                <span>{arc.subtitle}</span>
+              </div>
+            </div>
+          </button>
+        ))}
+      </div>
 
- function open(id:string){
-  history.replaceState({...history.state,libraryScroll:scrollY},'');
-  setHandoff(Date.now());
-  setReading(id);
-  props.onLanguage?.('en');
-  history.pushState({libraryScroll:scrollY},'','#reader/'+id);
-  scrollTo({top:0,behavior:'instant'});
- }
- function library(){
-  setHandoff(0);
-  setReading(null);
-  history.replaceState({...history.state},'',location.pathname);
-  requestAnimationFrame(()=>scrollTo({top:history.state?.libraryScroll||0,behavior:'instant'}));
- }
-
- if(reading){
-  return <div className="chronicle211-reading">
-   {handoff>0&&<BookHandoff key={handoff} cover={cover} onEnd={()=>setHandoff(0)}/>}
-   <div className="chronicle211-return"><button onClick={library}><img src={cover} width={640} height={960} alt="" style={{viewTransitionName:'tfam-book-cover'}}/><ArrowLeft size={16}/>Library</button></div>
-   <StoryLibrary {...props} lang="en" initialChapter={reading}/>
-  </div>;
- }
-
- return <section className="chronicle211" aria-labelledby="library211-title">
-  <header className="chronicle211-intro library-stage">
-   <div className="library-stage-backdrop" aria-hidden="true"><img src={cover} alt=""/></div>
-   <div className="library-stage-copy">
-    <h1 id="library211-title">The Chronicles</h1>
-    <p>Every empire begins with a story.<br/>Return to the page where yours last stopped.</p>
-    {resumeEntry
-     ? <button className="chronicle211-continue" onClick={()=>open(resumeEntry.id)}><BookOpen size={22}/><span>Continue reading<strong>{title(resumeEntry)}</strong></span><ArrowRight size={20}/></button>
-     : <button className="chronicle211-continue" onClick={()=>open(edition[0]?.id||'en_book1_001')}><BookOpen size={22}/><span>Begin the chronicles<strong>{edition[0]?title(edition[0]):''}</strong></span><ArrowRight size={20}/></button>}
-    <small>{account.data?.profile?(account.error?'Device history preserved · Account connection unavailable':'Account reading history available'):'Guest journey · Saved in this browser'}</small>
-    <nav className="chronicle211-volumes" aria-label="Volumes">{volumes.map(a=><button key={a} aria-pressed={active===a} onClick={()=>{setVolume(a);setQuery('');}}>Book {a===1?'I · The Pathmaker':String(a)}</button>)}</nav>
-   </div>
-   <SceneStage className="library-volume" identity={'en'+active} kind="book">
-    <div className="library-volume-pages" aria-hidden="true"/>
-    <button data-scene-plane="subject" className="chronicle211-cover" aria-label={'Open Book '+active} onClick={()=>open(chapterSet[0]?.id||edition[0]?.id||'en_book1_001')}>
-     <img src={cover} alt=""/>
-     <span><strong>Through Frost<br/>and Myth</strong><em>Book I · The Pathmaker</em><small>Leonardo Ravenna</small></span>
-    </button>
-   </SceneStage>
-  </header>
-  <div className="chronicle211-shelves">
-   <div>
-    <header className="chronicle211-contents-heading"><h2>Contents</h2><span>{ready?count+' / '+complete.length+' read':'Loading availability...'}</span></header>
-    <label className="chronicle211-search"><Search size={18}/><input type="search" aria-label="Search chapters" placeholder="Find a chapter..." value={query} onChange={e=>setQuery(e.target.value)}/></label>
-    {error&&<p role="alert">Availability could not be refreshed. <button onClick={()=>setAttempt(n=>n+1)}>Retry</button></p>}
-    <div className="chronicle211-contents">{filtered.map(c=><a key={c.id} href={chapterPath(c.id)} onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();open(c.id);}}><span>{title(c)}</span><small>{readIds.has(c.id)?'Read':ready&&c.complete?'Available':ready?'In preparation':'Checking...'}</small><ArrowRight size={17}/></a>)}{!filtered.length&&<p role="status">No matching chapters. Try another title.</p>}</div>
-   </div>
-   <aside>
-    <h2>Recently read</h2>
-    {recentEntries.map(c=><button key={c.id} onClick={()=>open(c.id)}>{title(c)}<ArrowRight size={16}/></button>)}
-    {!recentEntries.length&&<p>Your first chapter will appear here.</p>}
-    <h2>Discoveries</h2>
-    <p>{discovery.earned.size} reading milestones achieved. New horizons unfold as your journey continues.</p>
-    <a href="/achievements">View reading achievements <ArrowRight size={16}/></a>
-   </aside>
-  </div>
- </section>;
+      {selectedArc && (
+        <div className="v250-arc-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="arc-modal-title" onClick={e => { if (e.target === e.currentTarget) setSelectedArc(null); }}>
+          <article className="v250-arc-modal">
+            <button type="button" className="v250-arc-close" aria-label="Close" onClick={() => setSelectedArc(null)}><X size={20}/></button>
+            <div className="v250-arc-modal-art">
+              <img
+                src={selectedArc.cover}
+                alt={selectedArc.title}
+                onError={e => {
+                  if (e.currentTarget.getAttribute('src') !== selectedArc.fallbackCover) {
+                    e.currentTarget.src = selectedArc.fallbackCover;
+                  }
+                }}
+              />
+            </div>
+            <div className="v250-arc-modal-copy">
+              <span className="v250-shelf-eyebrow"><BookOpen size={14} aria-hidden="true"/> {selectedArc.roman} · {selectedArc.status}</span>
+              <h2 id="arc-modal-title">{selectedArc.title}</h2>
+              <p className="v250-arc-sub">{selectedArc.subtitle}</p>
+              <p>{selectedArc.note}</p>
+              <p className="v250-arc-hint">Chapter content is intentionally left unpopulated for this edition while the English release is finalized.</p>
+              <button type="button" className="v250-arc-btn" onClick={() => setSelectedArc(null)}>Return to the Six Arcs</button>
+            </div>
+          </article>
+        </div>
+      )}
+    </section>
+  );
 }

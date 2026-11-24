@@ -206,3 +206,6 @@
   .lounge-v227 .lounge-quick-ribbon{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity}
   .lounge-v227 .lounge-quick-ribbon button{min-height:44px;scroll-snap-align:start}
 }
+
+/* v250-lounge-clear: keep Character registry clear of floating music pill */
+.lounge-top>button{right:auto!important;left:4%!important}

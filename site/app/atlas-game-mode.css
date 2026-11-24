@@ -279,3 +279,11 @@
   .atlas241-quick-pins button{white-space:nowrap;flex-shrink:0}
   .atlas241-card{left:12px;bottom:12px;width:calc(100% - 24px);padding:14px}
 }
+
+/* TFAM v250 Non-Overlapping Iberian Pin Labels & Top-Right Dossier Card */
+.atlas241-pin.pos-top-right .atlas241-pin-label{position:absolute;left:28px;top:-16px}
+.atlas241-pin.pos-bottom-left .atlas241-pin-label{position:absolute;right:28px;top:14px}
+.atlas241-pin.pos-left .atlas241-pin-label{position:absolute;right:28px;top:0}
+.atlas241-pin.pos-bottom-right .atlas241-pin-label{position:absolute;left:28px;top:14px}
+.atlas250-card-tr{left:auto!important;bottom:auto!important;top:20px!important;right:74px!important}
+@media(max-width:767px){.atlas250-card-tr{top:auto!important;right:12px!important;left:12px!important;bottom:12px!important}}

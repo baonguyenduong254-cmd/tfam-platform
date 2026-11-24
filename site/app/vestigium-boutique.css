@@ -1,0 +1,132 @@
+/* TFAM v250 Maison Vestigium: Luxury Cosmic Storefront */
+.vest-boutique-v250{
+  position:relative;
+  background:
+    radial-gradient(ellipse 80% 35% at 50% 0%,#4f1b3233,transparent 70%),
+    radial-gradient(ellipse 65% 40% at 88% 72%,#8db6d416,transparent 72%),
+    #0b0812;
+  color:#f6ebd8;
+}
+.vest-boutique-bar{
+  position:sticky;
+  top:14px;
+  z-index:45;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+  max-width:1540px;
+  margin:0 auto 28px;
+  padding:14px 22px;
+  background:linear-gradient(135deg,#191224eb,#0f0a17f2);
+  border:1px solid #dfc28f44;
+  backdrop-filter:blur(16px);
+  box-shadow:0 18px 46px #00000066;
+}
+.vest-boutique-brand{display:flex;align-items:center;gap:12px}
+.vest-boutique-brand strong{font-size:19px;font-weight:400;letter-spacing:.04em;color:#fff2dc}
+.vest-boutique-brand small{display:block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#dfc28f}
+.vest-vault-trigger{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 18px;
+  border:1px solid #ebd09e66;
+  background:linear-gradient(135deg,#872641,#491527);
+  color:#fff4df;
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.vest-vault-trigger:hover{border-color:#fce4b6;background:linear-gradient(135deg,#9f2e4e,#5c1a31)}
+
+/* Luxury Product Cards */
+.vest-boutique-v250 .vest-object{
+  padding:22px 16px 20px!important;
+  border:1px solid #dfc28f28!important;
+  background:linear-gradient(165deg,#191224d9,#0f0a17eb)!important;
+  transition:transform .28s cubic-bezier(.16,1,.3,1),border-color .24s,box-shadow .28s!important;
+}
+.vest-boutique-v250 .vest-object:hover{
+  transform:translateY(-4px);
+  border-color:#ebd09e88!important;
+  box-shadow:0 22px 48px #0000007a!important;
+}
+.vest-card-acquire-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  width:100%;
+  margin-top:14px;
+  padding-top:12px;
+  border-top:1px solid #dfc28f26;
+}
+.vest-reserve-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 12px;
+  border:1px solid #dfc28f4d;
+  background:#221628;
+  color:#f5dfb8;
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.vest-reserve-btn.is-reserved{
+  background:linear-gradient(135deg,#872641,#491527);
+  border-color:#fce4b6;
+  color:#fff5e2;
+}
+
+/* Vault Collector's Drawer */
+.vest-vault-backdrop{
+  position:fixed;
+  inset:0;
+  z-index:120;
+  background:#07040cd4;
+  backdrop-filter:blur(8px);
+}
+.vest-vault-drawer{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  z-index:121;
+  width:min(440px,100vw);
+  padding:28px 24px;
+  background:linear-gradient(165deg,#1b1325fa,#0f0a16fc);
+  border-left:1px solid #dfc28f4d;
+  box-shadow:-24px 0 70px #00000099;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  overflow-y:auto;
+}
+.vest-vault-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-bottom:16px;
+  border-bottom:1px solid #dfc28f2e;
+}
+.vest-vault-head h2{margin:0;font-size:26px;font-weight:400;color:#fff2dc}
+.vest-vault-head button{background:none;border:0;color:#e6d8c3;cursor:pointer;padding:6px}
+.vest-vault-list{display:grid;gap:12px;flex:1;align-content:start}
+.vest-vault-item{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:14px;
+  border:1px solid #dfc28f2e;
+  background:#150f1fe8;
+}
+.vest-vault-item strong{display:block;font-size:16px;font-weight:400;color:#fbf0dc}
+.vest-vault-item small{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#dfc28f}
+.vest-vault-item button{background:none;border:1px solid #dfc28f38;color:#d6c6b8;padding:6px 10px;font-size:11px;cursor:pointer}
+.vest-vault-empty{color:#bfb1c4;font-size:14.5px;line-height:1.7;padding:20px 0}

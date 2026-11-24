@@ -26,3 +26,10 @@
 .military-card-art img{mask-image:radial-gradient(ellipse 96% 96% at 50% 50%,#000 84%,transparent 100%)}
 .military-card-copy h4{min-height:2.6em}
 .military-open{margin-top:auto!important}
+
+/* v250-archival-mat: soften cream military unit plates into dark velvet */
+.military-unit-card{height:100%;background:linear-gradient(160deg,#1d1427f0,#120d1af2)!important;border-color:#dfc28f33!important}
+.military-card-art{background:radial-gradient(ellipse at 50% 45%,#322033,#120c19 78%)!important;padding:10px}
+.military-card-art img{filter:brightness(.92) contrast(1.06) sepia(.12);mask-image:radial-gradient(ellipse 96% 96% at 50% 50%,#000 84%,transparent 100%)}
+.military-card-copy h4{min-height:2.6em}
+.military-open{margin-top:auto!important}

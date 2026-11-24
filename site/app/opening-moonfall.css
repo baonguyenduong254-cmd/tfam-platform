@@ -115,3 +115,19 @@ body.tfam-editorial.tfam-royal .tfam-opening-210 .music-compact{color:#e6edf5}
 body.tfam-editorial.tfam-royal .tfam-opening-210 .music-compact :is(.music-track-title,.music-levels,.music-mute){color:#e6edf5!important}
 body.tfam-editorial.tfam-royal .tfam-opening-210 .title-blood-bloom{mix-blend-mode:normal;filter:blur(.6px);background:radial-gradient(ellipse at center,#9a153ccc 0 12%,#8c123c88 28%,transparent 59%);opacity:.7}
 @media(max-width:760px){body.tfam-editorial.tfam-royal .tfam-opening-210.choosing .opening-living-scene img{object-position:85% center}body.tfam-editorial.tfam-royal .tfam-opening-210.choosing .opening-mist{background:linear-gradient(90deg,#080d19c9,#080d1944),linear-gradient(0deg,#090c1888,transparent 65%)}}
+
+/* TFAM v250 Royal Universe Frozen Astral Portal */
+.tfam-astral-v250 .astral-nebula-veil{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 70% 45% at 50% 18%,color-mix(in srgb,var(--astral-tint,#8c2642) 26%,transparent),transparent 72%),
+    radial-gradient(ellipse 65% 45% at 85% 85%,#7ca8c91a,transparent 74%);
+  transition:background .7s ease;
+}
+.tfam-astral-v250 .astral-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.tfam-astral-v250 .astral-toolbar-links{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.tfam-astral-v250 .astral-toolbar-links a{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid #dfc28f3d;background:#130c1cd4;color:#f4e3c5;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;backdrop-filter:blur(10px)}
+.tfam-astral-v250 .astral-toolbar-links a:hover{border-color:#fce4b6;background:#491628e0}
+.tfam-astral-v250 .astral-sigil{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#dfc28f;margin-bottom:10px}
+.tfam-astral-v250 .astral-monolith{border:1px solid #dfc28f2e!important;background:linear-gradient(160deg,#1a1225d9,#0f0a17eb)!important;backdrop-filter:blur(12px);transition:border-color .25s,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s!important}
+.tfam-astral-v250 .astral-monolith:hover,.tfam-astral-v250 .astral-monolith.is-focused{border-color:#ebd09e88!important;transform:translateY(-5px);box-shadow:0 24px 56px #00000080!important}

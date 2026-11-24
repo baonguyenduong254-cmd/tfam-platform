@@ -18,16 +18,20 @@ const kindLabels: Record<string, string> = {
   landmark: 'Landmark',
 };
 
+// Staggered label placement so close Iberian cities (Madrid / Toledo / Lisbon / Ceuta / Gibraltar) never overlap
+const labelPlacement: Record<string, string> = {
+  madrid: 'pos-top-right',
+  'ESP-5844': 'pos-bottom-left',
+  toledo: 'pos-bottom-left',
+  lisbon: 'pos-left',
+  'gibraltar-fortress': 'pos-top-right',
+  'ceuta-naval-works': 'pos-bottom-right',
+};
+
 function clamp(value: number, min: number, max: number) {
   return Math.min(max, Math.max(min, value));
 }
 
-/**
- * TFAM v241 Simplified Interactive Image Map Atlas:
- * Zero blocking JSON boundary fetches, instant static regional plate rendering,
- * glowing brass-and-crimson interactive pins, smooth zoom/pan, and Year switcher
- * preserved exclusively for Atlas.
- */
 export default function FactionAtlas({faction, data, year, onYear, onLandmark}: {
   faction: Row; data: Row; year: string; onYear: (year: string) => void; onLandmark: (id: string) => void;
 }) {
@@ -129,11 +133,11 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
   const timelineYears = (data?.timeline || []).filter((entry: Row) => entry.enabled);
 
   return (
-    <section ref={root} className="atlas-simple-v241" aria-labelledby="atlas241-title">
+    <section ref={root} className="atlas-simple-v241 atlas-v250" aria-labelledby="atlas250-title">
       <header className="atlas241-header">
         <div>
-          <h2 id="atlas241-title">{faction.name_en} Atlas</h2>
-          <p>{region.en} · Select any pin to inspect its record.</p>
+          <h2 id="atlas250-title">{faction.name_en} Atlas</h2>
+          <p>{region.en} · Interactive regional chart. Select any pin to inspect its record.</p>
         </div>
         <div className="atlas241-controls">
           {timelineYears.length > 1 && (
@@ -162,7 +166,6 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
-        onPointerCancel={onPointerUp}
         style={{cursor: zoom > 1 ? 'grab' : 'default'}}
       >
         <div className="atlas241-camera" style={{transform: `translate3d(${pan.x}px,${pan.y}px,0) scale(${zoom})`}}>
@@ -172,13 +175,7 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
             alt={`${faction.name_en} · ${region.en} · ${year}`}
             className="atlas241-plate"
             draggable={false}
-            loading="eager"
-            fetchPriority="high"
-            onLoad={event => {
-              const image = event.currentTarget;
-              stageRef.current?.style.setProperty('--atlas-plate-ratio', image.naturalWidth + ' / ' + image.naturalHeight);
-              setPlateReady(true);
-            }}
+            onLoad={() => setPlateReady(true)}
             onError={() => setError('Map image could not be loaded.')}
           />
           <div className="atlas241-vignette" aria-hidden="true"/>
@@ -188,11 +185,12 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
               const place = placesById.get(pin.id);
               if (!place) return null;
               const isSelected = placeId === place.id;
+              const posClass = labelPlacement[place.id] || labelPlacement[place.name.toLowerCase()] || 'pos-right';
               return (
                 <button
                   key={place.id}
                   type="button"
-                  className={'atlas241-pin' + (place.capital ? ' is-capital' : '') + (isSelected ? ' is-selected' : '')}
+                  className={'atlas241-pin ' + posClass + (place.capital ? ' is-capital' : '') + (isSelected ? ' is-selected' : '')}
                   style={{left: `${pin.x}%`, top: `${pin.y}%`}}
                   aria-pressed={isSelected}
                   aria-label={`${place.name} · ${kindLabels[place.kind] || 'Location'}`}
@@ -215,8 +213,9 @@ export default function FactionAtlas({faction, data, year, onYear, onLandmark}: 
           <button type="button" aria-label="Reset view" onClick={resetView}><RotateCcw size={14}/></button>
         </div>
 
+        {/* Docked Top-Right (clear of zoom dock) so it NEVER covers Ceuta or Gibraltar at bottom-left */}
         {selectedPlace && (
-          <aside className="atlas241-card" role="status" aria-label={selectedPlace.name}>
+          <aside className="atlas241-card atlas250-card-tr" role="status" aria-label={selectedPlace.name}>
             <header>
               <span>{kindLabels[selectedPlace.kind] || 'Holding'} · {year}</span>
               <button type="button" aria-label="Close" onClick={() => setPlaceId('')}><X size={16}/></button>

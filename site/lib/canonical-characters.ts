@@ -19,18 +19,11 @@ function normalizeAsset(src?: string): string {
   return (src || '').split(/[?#]/)[0].trim().toLowerCase().replace(/^https?:\/\/[^/]+/, '');
 }
 
-/**
- * Resolve the single canonical full-body uniform artwork for a character.
- * Shared identically by Overview and Character Showcase.
- */
 export function canonicalCharacterArtwork(character?: Row | null): string {
   if (!character) return '';
   return art[character.id]?.uniform || characterArtwork(character) || '';
 }
 
-/**
- * Resolve the canonical English role or Royal Guard title.
- */
 export function canonicalCharacterRole(character?: Row | null): string {
   if (!character) return 'The Court';
   if (character.guard_number) {
@@ -39,10 +32,6 @@ export function canonicalCharacterRole(character?: Row | null): string {
   return character.role_en || 'The Court';
 }
 
-/**
- * Deduplicate and canonically order characters so Overview and Character Showcase
- * always present the exact same cast, order, and uniform portraits.
- */
 export function canonicalCharacters(characters: Row[]): Row[] {
   const seenId = new Set<string>();
   const seenArt = new Set<string>();
