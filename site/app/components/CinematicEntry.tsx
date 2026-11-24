@@ -2,7 +2,7 @@
 import {carryArtwork} from '../../lib/motion/artwork-transition';
 import {AnimatePresence,motion} from 'motion/react';
 import {useCallback,useEffect,useRef,useState,type CSSProperties,type PointerEvent} from 'react';
-import {ArrowUpRight,Compass,BookOpen,Gem,Sparkles} from 'lucide-react';
+import {ArrowUpRight,Compass,BookOpen,Gem} from 'lucide-react';
 import OpeningLivingScene from './OpeningLivingScene';
 import MediaImage from './MediaImage';
 import BackgroundMusicSlot from './BackgroundMusicSlot';
@@ -110,7 +110,6 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
     </div>
    </motion.section>:<motion.section key="banners" className="faction-selection faction-depth astral-portal-grid" aria-labelledby="horizon-title" initial={{opacity:0,y:24}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:.65}}>
     <header className="horizon-intro astral-intro">
-     <span className="astral-sigil"><Sparkles size={14} aria-hidden="true"/> Sovereign Threshold</span>
      <h1 id="horizon-title">Choose Your Realm</h1>
      <p>Each empire opens a private frozen world of courtly intrigue, doctrine, and power.</p>
     </header>

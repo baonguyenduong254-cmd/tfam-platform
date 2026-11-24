@@ -17,5 +17,5 @@ export default function OpeningLivingScene({scene='opening'}:{scene?:'opening'|'
   document.addEventListener('visibilitychange',sync);sync();
   return()=>{cancelAnimationFrame(frame);observer.disconnect();document.removeEventListener('visibilitychange',sync);};
  },[scene]);
- return <div className={'opening-living-scene '+(scene==='court'?'court-living-scene':'')} aria-hidden="true"><picture key={scene}><img src={scene==='court'?'/art/update210/throne-hall.webp':'/art/moonfall-duel-209-6688.jpg'} alt="" fetchPriority="high" decoding="async"/></picture><canvas ref={surface} className="opening-scene-surface"/></div>;
+ return <div className={'opening-living-scene '+(scene==='court'?'court-living-scene':'')} aria-hidden="true"><picture key={scene}><img src={scene==='court'?'/art/update210/realm-selection-hall.webp':'/art/moonfall-duel-209-6688.jpg'} alt="" fetchPriority="high" decoding="async"/></picture><canvas ref={surface} className="opening-scene-surface"/></div>;
 }
