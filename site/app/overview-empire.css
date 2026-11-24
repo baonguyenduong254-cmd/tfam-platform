@@ -668,7 +668,7 @@ main[data-tfam211] .empire-v250-cinematic .v250-act{
 }
 body.tfam-editorial .campaign-app.world-campaign.v250-headerless-stage{
   max-width:none;
-  padding-inline:0;
+  padding-inline:20px;
 }
 body.tfam-editorial.tfam-royal main[data-tfam211].v250-headerless-stage .atlas-content{
   padding-inline:0;
@@ -825,6 +825,7 @@ main[data-tfam211] .empire-v250-cinematic .empire-force-art img{
  padding-block:clamp(1rem,3vw,2rem);
  border-block:1px solid #bba27666;
 }
+.v250-headerless-stage .faction-continuation{width:min(100%,72rem)}
 .faction-continuation-realms,.faction-continuation-destinations{
  display:flex;
  flex-wrap:wrap;
