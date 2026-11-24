@@ -1,0 +1,52 @@
+{
+  "releaseName": "TFAM v250",
+  "siteProjectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+  "siteVersion": 242,
+  "sourceCommit": "47f1ed3fee41e88d91028f9b3dc3b74c982c223c",
+  "sourceTree": "f18f45bb81b68f4d2e6881547fdc856ee3697d40",
+  "githubCommit": "4056df1a19795e9c1018a46b1d68d64a0329c579",
+  "githubBranch": "main",
+  "deploymentId": "appgdep_6b059a305e6881919aff485707acd4f6",
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4d471eb0e9ac819183c877bb4572e39c",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verified": true,
+  "verifiedAt": "2026-11-24",
+  "archiveHash": "sha256:0628c18de506fff532ce9366212d2910ecd38fbe5c2cc0cc497f2769e2be64bd",
+  "verification": {
+    "typescript": "passed",
+    "build": "passed",
+    "production": {
+      "portal": {
+        "passed": true,
+        "result": "HTTP 200 and all three redesign links visible"
+      },
+      "chronicles": {
+        "passed": true,
+        "result": "6/6 rendered original WebP covers, SHA-256 verified"
+      },
+      "faction": {
+        "passed": true,
+        "result": "Entered Castilian Empire from the portal"
+      },
+      "atlas": {
+        "passed": true,
+        "result": "1715 → 1716 → 1715, map plate decoded each time"
+      },
+      "maison": {
+        "passed": true,
+        "result": "Maison Vestigium and Imperial Vault control visible"
+      }
+    }
+  },
+  "databaseWrites": false,
+  "r2Writes": false,
+  "rollback": {
+    "siteVersion": 241,
+    "sourceCommit": "d233347ac9ec137cd3fd26e0cdb97d1e9bb4cbe2",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "verified": true,
+    "deploymentId": "appgdep_6b05766080308191a6baff35dc8be136",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_8941bf2ae7d88191925b5b682febb6c0",
+    "verifiedAt": "2026-11-24"
+  }
+}
