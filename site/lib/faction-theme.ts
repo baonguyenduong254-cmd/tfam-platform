@@ -32,8 +32,10 @@ export function factionTheme(id:string){return factionThemes[id]||factionThemes[
 
 /** Interior night palettes share roles while keeping each faction's atmosphere. */
 const nightThemes:Record<string,RoyalPalette>={
- castilian_empire:palette('#111018','#1c1722','#2a202d','#f2eadc','#e591a4','#bba276'),
- sultanate_of_morocco:palette('#0c1719','#142326','#213236','#f0e9dc','#9bd3bc','#c3ad79')
+ castilian_empire:palette('#0d0914','#16101fed','#20172bf0','#f6ebd8','#e591a4','#dfc28f'),
+ annam_empire:palette('#0d0914','#16101fed','#20172bf0','#f6ebd8','#75b5a2','#dfb97a'),
+ novgorod_union:palette('#0d0914','#16101fed','#20172bf0','#f6ebd8','#adc5db','#d5dee8'),
+ sultanate_of_morocco:palette('#0d0914','#16101fed','#20172bf0','#f6ebd8','#9bd3bc','#c3ad79')
 };
 export function royalThemeVariables(id:string):Record<string,string>{
  const values=nightThemes[id]||nightThemes.castilian_empire;

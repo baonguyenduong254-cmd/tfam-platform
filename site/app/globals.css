@@ -261,3 +261,38 @@ html[data-motion=off] .ledger-number{animation:none}
   .salon-transition-art{view-transition-name:none!important}
   ::view-transition-group(*){animation-duration:0s!important}
 }
+
+html{scrollbar-width:thin;scrollbar-color:#9c7f58 #120d19}
+body.tfam-editorial{
+  --world-ground:#0d0914;
+  --world-surface:#16101fed;
+  --world-raised:#20172bf0;
+  --world-ink:#f6ebd8;
+  --world-muted:#c8bacd;
+  --world-metal:#dfc28f;
+  --world-line:rgb(223 194 143 / 22%);
+  --imperial-highlight:#f6dfb1;
+  --imperial-light:#872641;
+  --imperial-shadow:#471426;
+  --imperial-glow:rgb(109 27 52 / 22%);
+  --imperial-brass-glow:rgb(185 148 90 / 12%);
+  background-color:var(--world-ground);
+  caret-color:var(--imperial-highlight);
+  font-variant-numeric:tabular-nums;
+}
+html[data-royal-faction=annam_empire] body{
+  --world-metal:#dfb97a;
+  --imperial-light:#266b5c;
+  --imperial-shadow:#133830;
+  --imperial-glow:rgb(38 107 92 / 22%);
+}
+html[data-royal-faction=novgorod_union] body{
+  --world-metal:#d5dee8;
+  --imperial-light:#386182;
+  --imperial-shadow:#1a3147;
+  --imperial-glow:rgb(56 97 130 / 22%);
+}
+::selection{background:#872641;color:#fff5e6}
+a{text-underline-offset:4px}
+
+body.tfam-royal{scrollbar-color:#9c7f58 #120d19}

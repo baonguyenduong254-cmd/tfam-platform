@@ -1,3 +1,4 @@
+import {assetUrl} from './media/asset-url';
 import legacy from './wardrobe-manifest.json';
 import collections from './wardrobe-collections.json';
 
@@ -40,7 +41,11 @@ export function getLooks(characterId:string,category:string):Look[]{
   seenId.add(item.id);
   unique.push(item);
  }
- return unique;
+ return unique.map(item=>({
+  ...item,
+  src:assetUrl(item.src),
+  ...(item.thumbnail?{thumbnail:assetUrl(item.thumbnail)}:{}),
+ }));
 }
 
 export function hasWardrobe(characterId:string){

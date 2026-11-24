@@ -57,6 +57,18 @@ export default function FactionOverview({faction:f,year,characters,units,onChara
    <div className="empire-velvet-vignette"/>
   </div>
 
+  <nav className="empire-chapter-rail" aria-label="Overview chapters">
+   {([['identity','The realm'],['places','Places'],['court','The court'],['military','Order of Battle'],['history','Chronicle']] as const).map(([id,label])=>
+    <a key={id} href={'#overview-'+id} onClick={event=>{
+     if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+     const target=document.getElementById('overview-'+id);
+     if(!target)return;
+     event.preventDefault();
+     target.focus({preventScroll:true});
+     target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    }}>{label}</a>)}
+  </nav>
+
   <section className="empire-identity" id="overview-identity" tabIndex={-1} aria-labelledby={sectionId+'-identity'}>
    <div className="empire-section-intro">
     <h2 id={sectionId+'-identity'}>The character<br/>of an empire.</h2>
@@ -116,7 +128,7 @@ export default function FactionOverview({faction:f,year,characters,units,onChara
    {activeForce?<div className="empire-war-table">
     <div className="empire-force-tabs" role="tablist" aria-label="Featured military units">{forces.map((force,index)=><button ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={index===activeIndex} aria-controls={sectionId+'-unit-panel'} tabIndex={index===activeIndex?0:-1} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight')target=(index+1)%forces.length;if(event.key==='ArrowLeft')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}><span className="empire-tab-index">0{index+1}</span><span>{local(force,'name')}</span></button>)}</div>
     <div className="empire-force-stage" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeIndex} tabIndex={0} data-branch={activeForce.branch}>
-     <div className="empire-force-art">{forces.map(force=><MediaImage key={force.id} hidden={force.id!==visibleForce?.id} src={force.artwork||force.thumbnail||unitIllustration(f.id,force.image_asset)} alt={local(force,'name')} width={1400} height={1050} loading="eager" onLoad={()=>setLoadedForce(prior=>prior[force.id]?prior:{...prior,[force.id]:true})}/>)}</div>
+     <div className="empire-force-art">{forces.map(force=><MediaImage key={force.id} hidden={force.id!==visibleForce?.id} src={force.artwork||force.thumbnail||unitIllustration(f.id,force.image_asset)} alt={local(force,'name')} width={1400} height={1050} loading="eager" fetchPriority={force.id===activeForce.id?"high":undefined} onLoad={()=>setLoadedForce(prior=>prior[force.id]?prior:{...prior,[force.id]:true})}/>)}</div>
      <div className="empire-force-copy">
       <span className="empire-force-branch">{activeForce.branch||'Imperial Regiments'}</span>
       <h3>{local(activeForce,'name')}</h3>

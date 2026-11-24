@@ -20,3 +20,21 @@ body.tfam-editorial.tfam-royal .music-compact{max-width:440px}
 
 /* TFAM v239 Fix: Dock fallback music bar top-right so it never covers top-left back links on /achievements */
 .background-music-fallback{left:auto;right:20px;top:14px;width:min(320px,calc(100vw - 40px));z-index:95}
+
+.background-music-fallback{
+  right:max(20px,env(safe-area-inset-right));
+  left:auto;
+  background:#140d1de6;
+  color:#f6ebd8;
+  border-color:var(--world-line,#dfc28f38);
+}
+.achievements211-page:has(.site-section-nav){padding-top:0}
+body:has(.achievements211-page) .background-music-fallback{top:calc(env(safe-area-inset-top) + 66px)}
+@media(max-width:767px){
+  .background-music-fallback{backdrop-filter:none}
+  body:has(.achievements211-page) .background-music-fallback{
+    position:relative;
+    inset:auto;
+    margin:16px max(16px,env(safe-area-inset-right)) 16px auto;
+  }
+}

@@ -18,7 +18,7 @@ function frames(){let count=0;const queued=new Map();return {request:fn=>{queued
 
 test('rapid route changes align only the newest module, with one scroll per destination',async()=>{
  const pending=[],scrolls=[],context={f:{id:'castilian_empire'},year:'1715',archiveSection:'characters',matchMedia:()=>({matches:false}),atlasRef:{current:{offsetHeight:80}},contentRef:{current:{getBoundingClientRect:()=>({top:300})}},window:{scrollY:400,scrollTo:value=>scrolls.push(value)},setTab:()=>{},setProvince:()=>{},setArchiveSection:()=>{},openRoom:()=>{},navigate:(hash,update)=>{update();return new Promise(resolve=>pending.push({hash,resolve}));}};
- compile(['alignModule','goTab','openDestination'].map(name=>functions.get(name)).join('\n')+'\nglobalThis.open=openDestination;',context);
+ compile(['scrollToWorldTop','goTab','openDestination'].map(name=>functions.get(name)).join('\n')+'\nglobalThis.open=openDestination;',context);
  context.open('military');context.open('atlas');
  assert.deepEqual(pending.map(p=>p.hash),['#military/castilian_empire','#atlas/castilian_empire/1715']);
  pending[0].resolve(false);pending[1].resolve(true);await Promise.resolve();

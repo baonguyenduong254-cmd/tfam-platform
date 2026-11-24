@@ -20,7 +20,7 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .collection-specimen:hover .co
 /* Entire original plates; captions never obscure a unit or its equipment. */
 body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px;align-items:start}
 body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-unit-card{grid-column:auto;overflow:visible}
-body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-card-art{aspect-ratio:4/5;height:auto;max-height:none;background:#201a26;overflow:hidden}
+body.tfam-editorial.tfam-royal main[data-tfam211] .military211[data-view=gallery] .military-card-art{width:100%;aspect-ratio:4 / 3;height:auto;max-height:none;background:radial-gradient(ellipse at center,var(--world-raised),var(--world-ground));box-shadow:inset 0 0 0 1px var(--world-line);overflow:hidden}
 body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-art img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none!important;scale:1!important;mix-blend-mode:normal}
 body.tfam-editorial.tfam-royal main[data-tfam211] .military211 .military-card-caption{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px;min-height:24px}
 body.tfam-editorial.tfam-royal main[data-tfam211] .military211 :is(.military-card-number,.military-card-branch){position:static;inset:auto;display:inline-flex;align-items:center;gap:7px;width:auto;min-width:0;height:auto;padding:0;background:none;border:0;backdrop-filter:none;color:#dfc69c;font-size:13px;line-height:1.5}

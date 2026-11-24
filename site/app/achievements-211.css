@@ -22,3 +22,6 @@ body.tfam-editorial.tfam-royal .achievement211-milestones article p{margin-top:0
 
 /* TFAM v239 Fix: Clear top spacing for back navigation link */
 body.tfam-editorial.tfam-royal main.achievements211-page{padding-top:68px}
+
+body.tfam-editorial.tfam-royal main.achievements211-page:has(.site-section-nav){padding-top:0}
+body.tfam-editorial.tfam-royal main.achievements211-page .site-section-nav{margin-bottom:48px}
