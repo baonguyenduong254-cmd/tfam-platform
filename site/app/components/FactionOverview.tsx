@@ -1,11 +1,10 @@
 'use client';
 import {useEffect,useId,useMemo,useRef,useState,type MouseEvent} from 'react';
-import {ArrowUpRight,BookOpen,ChevronDown,ChevronRight,Compass,MapPin,Shield,Sparkles} from 'lucide-react';
+import {ArrowUpRight,BookOpen,ChevronRight,Compass,MapPin,Shield,Sparkles} from 'lucide-react';
 import {canonicalCharacterArtwork,canonicalCharacterRole,canonicalCharacters} from '../../lib/canonical-characters';
 import {courtGroup} from '../../lib/character-attributes';
 import {landmarkArtwork} from '../../lib/artwork-presentation';
 import {presentationPunctuation} from '../../lib/presentation-punctuation';
-import {factionCapital} from '../../lib/faction-content';
 import {factionTaglines} from '../../lib/faction-taglines';
 import {sceneArt} from '../../lib/faction-scene';
 import featuredMilitary from '../../lib/featured-military.json';
@@ -20,7 +19,6 @@ type Props={
  faction:R;
  characters:R[];
  units:R[];
- regions?:number;
  onCharacter:(c:R)=>void;
  onUnit:(u:R)=>void;
  onDestination:(s:string)=>void;
@@ -37,7 +35,7 @@ const monumentCache=new Map<string,R[]>();
  * Each full-screen Act immerses the visitor in one facet of the faction's world
  * with zero cluttered top headers and direct deep-dive buttons into every module.
  */
-export default function FactionOverview({faction:f,characters,units,regions=0,onCharacter,onUnit,onDestination,onMilitaryUnit,onLandmark}:Props){
+export default function FactionOverview({faction:f,characters,units,onCharacter,onUnit,onDestination,onMilitaryUnit,onLandmark}:Props){
  const [places,setPlaces]=useState<R[]>([]),[placeState,setPlaceState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[forceIndex,setForceIndex]=useState(0);
  const forceTabs=useRef<(HTMLButtonElement|null)[]>([]),sectionId=useId();
 
@@ -73,9 +71,6 @@ export default function FactionOverview({faction:f,characters,units,regions=0,on
   return()=>{alive=false;controller.abort();};
  },[f.id,retry]);
 
- function jumpAct(id:string){
-  document.getElementById(sectionId+'-'+id)?.scrollIntoView({behavior:'smooth',block:'start'});
- }
  function openPlace(id:string){if(onLandmark)onLandmark(id);else onDestination('monuments');}
  function changeForce(index:number,focus=false){setForceIndex(index);if(focus)forceTabs.current[index]?.focus();}
  function trackSpotlight(event:MouseEvent<HTMLElement>){
@@ -90,30 +85,18 @@ export default function FactionOverview({faction:f,characters,units,regions=0,on
    <div className="empire-velvet-vignette"/>
   </div>
 
-  {/* ACT I: FULL-VIEWPORT SOVEREIGN ARRIVAL */}
-  <section id={sectionId+'-sovereign'} data-act="sovereign" className="v250-act v250-act-arrival">
-   <div className="v250-arrival-backdrop" aria-hidden="true">
-    <MediaImage src={heroBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
-   </div>
-   <div className="v250-arrival-inner">
-    <div className="v250-heraldry-lockup">
-     {f.flag_asset&&<MediaImage className="v250-arrival-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>}
-     <div>
-      <h1>{presentationPunctuation(f.name_en||f.name_native||'')}</h1>
-      {quoteLine&&<p className="v250-arrival-quote">{presentationPunctuation(quoteLine)}</p>}
+  <header className="faction-arrival" aria-labelledby={sectionId+'-arrival-title'}>
+   <div className="faction-arrival-arch">
+    <div className="faction-arrival-window">
+     <MediaImage className="faction-arrival-scene" src={heroBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+     <div className="faction-arrival-identity">
+      {f.flag_asset&&<MediaImage className="faction-arrival-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>}
+      <h1 id={sectionId+'-arrival-title'}>{presentationPunctuation(f.name_en||f.name_native||'')}</h1>
+      {quoteLine&&<p>{presentationPunctuation(quoteLine)}</p>}
      </div>
     </div>
-    <dl className="v250-arrival-facts">
-     <div><dt>Capital</dt><dd>{factionCapital(f,'en','1715')}</dd></div>
-     <div><dt>Territories</dt><dd>{regions} {regions===1?'region':'regions'}</dd></div>
-     <div><dt>Recorded Figures</dt><dd>{people.length}</dd></div>
-    </dl>
-    <button type="button" className="v250-scroll-cue" onClick={()=>jumpAct('doctrine')}>
-     <span>Descend into the realm</span>
-     <ChevronDown size={18} aria-hidden="true"/>
-    </button>
    </div>
-  </section>
+  </header>
 
   {/* ACT II: LORE & IMPERIAL TRAITS */}
   <section id={sectionId+'-doctrine'} data-act="doctrine" className="v250-act empire-identity" aria-labelledby={sectionId+'-identity-title'}>
