@@ -29,6 +29,7 @@ type Props={
 };
 
 const local=(record:R,key:string)=>presentationPunctuation(record[key+'_en']||record[key]||(key==='name'?record.name_native:'')||'');
+const roman=['I','II','III','IV','V','VI'];
 const monumentCache=new Map<string,R[]>();
 
 /**
