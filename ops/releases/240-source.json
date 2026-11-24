@@ -1,0 +1,40 @@
+{
+  "siteProjectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+  "siteVersion": 240,
+  "sourceCommit": "f2261d670325c5076a2b2eff78f4f714a303563a",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verified": true,
+  "deploymentId": "appgdep_6b05511428108191b39ad3a8b9011238",
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_270db6cb42b88191926a4d7ce757c91c",
+  "verifiedAt": "2026-11-24",
+  "sourceTree": "4a345cabd909973c25e7b82bf0949b7d6d0add14",
+  "githubCommit": "e7062f1c0d2a8dc7f03280658d68dae88afc9a25",
+  "githubBranch": "agent/codex-v240",
+  "pullRequest": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/30",
+  "archiveHash": "sha256:80c6a6469e44a3a0e0da0a6a4de8bedf9b8aaea33422d944e534663694d38023",
+  "rollback": {
+    "siteVersion": 239,
+    "sourceCommit": "24d3a7afc0700faaccd2ccd792dcf5817419f367",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "verified": true,
+    "deploymentId": "appgdep_6b027b4eb98c81919b2d290a0d532094",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4181460637408191afa1a665d5cc6243",
+    "verifiedAt": "2026-11-22"
+  },
+  "verification": {
+    "typescript": "passed",
+    "pnpmBuild": "passed",
+    "testsPassed": 72,
+    "previewFrameWidths": [
+      390,
+      1440
+    ],
+    "preview": "Overview, Atlas, Military, Landmarks, Wardrobe, Vestigium, Chronicles, Achievements; chapter reader smoke check",
+    "production": "Castilian Overview chapter rail visible",
+    "staticArt": "keyboard toggle and image verified",
+    "gpuAndPhysicalPhoneFrameRate": "not verified",
+    "testHarnessUpdates": "release follow-up changes only the navigation and palette test harnesses"
+  },
+  "r2Writes": false,
+  "databaseWrites": false
+}

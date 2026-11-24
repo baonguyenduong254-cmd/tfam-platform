@@ -1,18 +1,25 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';import path from 'node:path';import ts from 'typescript';
 function load(file){file=path.resolve(file);if(file.endsWith('.json'))return JSON.parse(fs.readFileSync(file,'utf8'));const m={exports:{}};const code=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true,target:ts.ScriptTarget.ES2022}}).outputText;vm.runInThisContext('(function(require,module,exports){'+code+'\n})')(id=>load(path.resolve(path.dirname(file),id.endsWith('.json')?id:id+'.ts')),m,m.exports);return m.exports;}
 const {factionThemes,factionTheme,royalThemeVariables}=load('lib/faction-theme.ts'),seed=load('lib/seed.json'),{withCastilianPresentation,belongsToFaction}=load('lib/castilian-presentation.ts'),{courtGroup}=load('lib/character-attributes.ts');
-function luminance(hex){return hex.slice(1).match(/../g).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4).reduce((a,v,i)=>a+v*[.2126,.7152,.0722][i],0);}
-function contrast(a,b){const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
+function luminance(hex,ground='#0d0914'){
+ const channels=(color)=>color.slice(1).match(/../g).map(pair=>parseInt(pair,16)/255);
+ const [r,g,b,alpha=1]=channels(hex);
+ const background=channels(ground);
+ return [r,g,b].map((value,index)=>value*alpha+background[index]*(1-alpha))
+  .map(value=>value<=.04045?value/12.92:((value+.055)/1.055)**2.4)
+  .reduce((sum,value,index)=>sum+value*[.2126,.7152,.0722][index],0);
+}
+function contrast(a,b,ground){const x=luminance(a,ground),y=luminance(b,ground);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
 test('all 24 factions have distinct light palettes and readable text and accents',()=>{assert.equal(Object.keys(factionThemes).length,seed.factions.length);const unique=new Set();for(const f of seed.factions){const p=factionThemes[f.id];assert.ok(p,f.id);unique.add(JSON.stringify(p));for(const bg of [p.paper,p.surface,p.wash]){assert.ok(luminance(bg)>.6,f.id+' light surface');assert.ok(contrast(p.ink,bg)>=4.5,f.id+' body ink');assert.ok(contrast(p.accent,bg)>=4.5,f.id+' interactive accent');}}assert.equal(unique.size,seed.factions.length);assert.deepEqual(factionTheme('unknown'),factionThemes.castilian_empire);});
 test('night palettes keep readable foregrounds and faction-specific colors',()=>{
  const castile=royalThemeVariables('castilian_empire');
  const morocco=royalThemeVariables('sultanate_of_morocco');
  assert.notEqual(morocco['--royal-accent'],castile['--royal-accent']);
  assert.deepEqual(royalThemeVariables('unknown'),castile);
- for(const theme of [castile,morocco]){
+ for(const theme of [castile,morocco,royalThemeVariables('annam_empire'),royalThemeVariables('novgorod_union')]){
   for(const surface of ['paper','surface','wash']){
    for(const foreground of ['ink','accent']){
-    assert.ok(contrast(theme['--royal-'+foreground],theme['--royal-'+surface])>=4.5);
+    assert.ok(contrast(theme['--royal-'+foreground],theme['--royal-'+surface],theme['--royal-paper'])>=4.5);
    }
   }
   assert.equal(theme['--world-ground'],theme['--royal-paper']);

@@ -1,16 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22",
-  "phase": "update-239-live",
+  "updatedAt": "2026-11-24",
+  "phase": "update-240-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 239,
-    "sourceCommit": "24d3a7afc0700faaccd2ccd792dcf5817419f367",
+    "siteVersion": 240,
+    "sourceCommit": "f2261d670325c5076a2b2eff78f4f714a303563a",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6b027b4eb98c81919b2d290a0d532094",
-    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4181460637408191afa1a665d5cc6243",
-    "verifiedAt": "2026-11-22"
+    "deploymentId": "appgdep_6b05511428108191b39ad3a8b9011238",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_270db6cb42b88191926a4d7ce757c91c",
+    "verifiedAt": "2026-11-24",
+    "rollback": {
+      "siteVersion": 239,
+      "sourceCommit": "24d3a7afc0700faaccd2ccd792dcf5817419f367",
+      "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+      "verified": true,
+      "deploymentId": "appgdep_6b027b4eb98c81919b2d290a0d532094",
+      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4181460637408191afa1a665d5cc6243",
+      "verifiedAt": "2026-11-22"
+    }
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
@@ -22,7 +31,7 @@
     "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
     "importSecretRemoved": true,
     "manualCloudRelease": "verified",
-    "liveSourceRecord": "ops/releases/239-source.json"
+    "liveSourceRecord": "ops/releases/240-source.json"
   },
   "r2": {
     "status": "full-dashboard-inventory-reconciled",
