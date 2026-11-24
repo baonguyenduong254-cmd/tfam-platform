@@ -1,6 +1,6 @@
 import json,base64,html,zipfile,hashlib
 from urllib.parse import quote
-from urllib.request import urlopen
+from subprocess import check_output
 from pathlib import Path
 base=Path(__file__).parent
 rows=json.loads((base/'provenance.json').read_text())
@@ -14,8 +14,7 @@ def read_webp(filename,key):
  if local.is_file():
   return local.read_bytes()
  record=media_assets[key]
- with urlopen(media_base+'/'+quote(key,safe='/'),timeout=30) as response:
-  body=response.read()
+ body=check_output(['curl','--fail','--silent','--show-error','--retry','2','--max-time','30',media_base+'/'+quote(key,safe='/')])
  if hashlib.sha256(body).hexdigest()!=record['sha256']:
   raise ValueError(f'R2 checksum mismatch for {key}')
  return body
