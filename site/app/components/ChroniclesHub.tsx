@@ -1,5 +1,5 @@
 'use client';
-import {useState} from 'react';
+import {useEffect,useRef,useState} from 'react';
 import {BookOpen,Lock,X} from 'lucide-react';
 import '../chronicles-211.css';
 
@@ -34,6 +34,11 @@ const sixArcs: ArcEdition[] = [
 export default function ChroniclesHub(){
   const [selectedArc, setSelectedArc] = useState<ArcEdition | null>(null);
 
+  const dialog = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    if (selectedArc) dialog.current?.showModal();
+  }, [selectedArc]);
+
   return (
     <section className="chronicle211 chronicles-v250-shelf" aria-labelledby="library250-title">
       <header className="v250-chronicles-hero">
@@ -41,7 +46,7 @@ export default function ChroniclesHub(){
         <p>Six bound arcs of Through Frost and Myth. English manuscript editions are currently being prepared for release.</p>
       </header>
 
-      <div className="v250-arcs-grid" role="list" aria-label="Six Story Arcs">
+      <div className="v250-arcs-grid" role="group" aria-label="Chronicles volumes">
         {sixArcs.map(arc => (
           <button
             key={arc.id}
@@ -75,9 +80,12 @@ export default function ChroniclesHub(){
       </div>
 
       {selectedArc && (
-        <div className="v250-arc-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="arc-modal-title" onClick={e => { if (e.target === e.currentTarget) setSelectedArc(null); }}>
-          <article className="v250-arc-modal">
-            <button type="button" className="v250-arc-close" aria-label="Close" onClick={() => setSelectedArc(null)}><X size={20}/></button>
+        <dialog ref={dialog} className="v250-arc-modal" aria-labelledby="arc-modal-title" onClose={() => setSelectedArc(null)}
+          onClick={event => {
+            const bounds = event.currentTarget.getBoundingClientRect();
+            if (event.target === event.currentTarget && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) event.currentTarget.close();
+          }}>
+            <button type="button" className="v250-arc-close" aria-label="Close volume" onClick={() => dialog.current?.close()}><X size={20}/></button>
             <div className="v250-arc-modal-art">
               <img
                 src={selectedArc.cover}
@@ -94,11 +102,9 @@ export default function ChroniclesHub(){
               <h2 id="arc-modal-title">{selectedArc.title}</h2>
               <p className="v250-arc-sub">{selectedArc.subtitle}</p>
               <p>{selectedArc.note}</p>
-              <p className="v250-arc-hint">Chapter content is intentionally left unpopulated for this edition while the English release is finalized.</p>
-              <button type="button" className="v250-arc-btn" onClick={() => setSelectedArc(null)}>Return to The Chronicles</button>
+              <button type="button" className="v250-arc-btn" onClick={() => dialog.current?.close()}>Return to The Chronicles</button>
             </div>
-          </article>
-        </div>
+        </dialog>
       )}
     </section>
   );
