@@ -92,14 +92,12 @@ export default function KineticSurfaces(){
   let mo:MutationObserver|null=null;
   if(!reduce.matches&&typeof IntersectionObserver!=='undefined'){
    io=new IntersectionObserver(entries=>{
-    if(reduce.matches)return;
     const batch=entries.filter(e=>e.isIntersecting&&!revealed.has(e.target));
     batch.forEach((entry,idx)=>{
+     revealed.add(entry.target);
+     io?.unobserve(entry.target);
      const el=entry.target as HTMLElement;
      if(el.closest('[hidden],[inert]'))return;
-     revealed.add(el);
-     io?.unobserve(el);
-     if(el===active?.node)return;
      gsap.fromTo(el,
       {opacity:0,y:42,z:-75,rotationX:7.5,scale:.965,transformPerspective:1300,transformOrigin:'50% 100%'},
       {opacity:1,y:0,z:0,rotationX:0,scale:1,duration:.78,delay:Math.min(idx*0.075,0.3),ease:'power3.out',clearProps:'transform,opacity'}
@@ -109,7 +107,13 @@ export default function KineticSurfaces(){
 
    const scan=()=>{
     document.querySelectorAll(revealTargets).forEach(el=>{
-     if(!revealed.has(el))io?.observe(el);
+     if(revealed.has(el))return;
+     const rect=el.getBoundingClientRect();
+     if(rect.height>0&&rect.top<window.innerHeight*0.92){
+      revealed.add(el);
+      return;
+     }
+     io?.observe(el);
     });
    };
    scan();
@@ -126,7 +130,6 @@ export default function KineticSurfaces(){
   window.addEventListener('blur',reset);
   document.addEventListener('visibilitychange',reset);
   fine.addEventListener('change',reset);
-  reduce.addEventListener('change',reset);
 
   return()=>{
    release(true);
@@ -141,7 +144,6 @@ export default function KineticSurfaces(){
    window.removeEventListener('blur',reset);
    document.removeEventListener('visibilitychange',reset);
    fine.removeEventListener('change',reset);
-   reduce.removeEventListener('change',reset);
    for(const node of touched){gsap.killTweensOf(node);gsap.set(node,{clearProps:'transform,willChange'});delete node.dataset.kinetic;}
   };
  },[]);

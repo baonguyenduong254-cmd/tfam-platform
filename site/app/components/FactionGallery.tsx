@@ -10,9 +10,9 @@ import {sceneArt} from '../../lib/faction-scene';
 import {unitIllustration} from '../../lib/unit-art';
 import useModalFocus from '../hooks/useModalFocus';
 type R=Record<string,any>;
-type Props={faction:R;characters:R[];units:R[];lang:string;year:string;years:R[];regions:number;motion:boolean;onYear:(year:string)=>void;onClose:()=>void;onCharacter:(character:R)=>void;onUnit:(unit:R)=>void};
+type Props={faction:R;characters:R[];units:R[];lang:string;year:string;regions:number;motion:boolean;onClose:()=>void;onCharacter:(character:R)=>void;onUnit:(unit:R)=>void};
 const written=(v:unknown)=>typeof v==='string'&&v.trim().length>0&&!/^(placeholder|place holder|tbd|chưa (có|bổ sung|điền))([ .:…]|$)/i.test(v.trim());
-export default function FactionGallery({faction:f,characters,units,lang,year,years,regions,motion,onYear,onClose,onCharacter,onUnit}:Props){
+export default function FactionGallery({faction:f,characters,units,lang,year,regions,motion,onClose,onCharacter,onUnit}:Props){
  const ref=useRef<HTMLDivElement>(null);useModalFocus(ref,onClose);
  const tr=(vi:string,en:string)=>en,local=(r:R,k:string)=>r[k+'_'+lang]||r[k+'_vi']||r[k]||'',name=local(f,'name'),lore=f['lore_'+lang+'_'+year]||f['lore_vi_'+year]||'',traits=(f.traits||[]).filter((r:R)=>written(local(r,'label')));
  function jump(id:string){ref.current?.querySelector('#'+id)?.scrollIntoView({behavior:motion?'smooth':'instant',block:'start'});}
@@ -21,7 +21,6 @@ export default function FactionGallery({faction:f,characters,units,lang,year,yea
   <header className="gallery-hero">
    <MediaImage className="gallery-cover" src={sceneArt(f)} alt="" decoding="async"/>
    <div className="gallery-hero-copy"><span className="eyebrow">{tr('BIÊN NIÊN CÁC ĐẾ CHẾ','CHRONICLES OF THE EMPIRES')}</span><MediaImage className="gallery-banner" src={f.flag_asset} alt=""/><h1 id="gallery-title">{name}</h1><dl><div><dt><Landmark size={16}/>{tr('Thủ đô','Capital')}</dt><dd>{factionCapital(f,lang,year)}</dd></div><div><dt><Flag size={16}/>{tr('Lãnh thổ','Territories')}</dt><dd>{regions} {tr('vùng','regions')}</dd></div></dl></div>
-   <div className="gallery-year-picker" role="group" aria-label={tr('Mốc biên niên','Chronicle year')}><span>{tr('BIÊN NIÊN','CHRONICLE')}</span>{years.map(y=><button key={y.id} aria-pressed={y.id===year} onClick={()=>onYear(y.id)}>{y.id}</button>)}</div>
   </header>
   <div className="gallery-body">
    <nav className="gallery-index" aria-label={tr('Mục lục hồ sơ','Dossier contents')}><span>{tr('TRONG HỒ SƠ','IN THIS DOSSIER')}</span>{[{id:'gallery-chronicle',icon:BookOpen,vi:'Biên niên',en:'Chronicle'},{id:'gallery-identity',icon:Crown,vi:'Đặc trưng',en:'Identity'},{id:'gallery-people',icon:Users,vi:'Nhân vật',en:'People'},{id:'gallery-armies',icon:Swords,vi:'Quân đội',en:'Armies'}].map(n=><button key={n.id} onClick={()=>jump(n.id)}><n.icon size={17}/>{tr(n.vi,n.en)}</button>)}</nav>

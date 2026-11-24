@@ -8,13 +8,15 @@ import {factionTaglines} from '../../lib/faction-taglines';
 import {factionCapital} from '../../lib/faction-content';
 import ImperialWeather from './ImperialWeather';
 import '../imperial-arrival.css';
-type R=Record<string,any>;
-type OverviewControls={years:string[];characterCount:number;onYear:(year:string)=>void};
 
-export default function FactionArrival({faction:f,lang,compact=false,year='1715',regions=0,overview}:{faction:R;lang:string;compact?:boolean;year?:string;regions?:number;overview?:OverviewControls}){
+type R=Record<string,any>;
+type OverviewControls={characterCount:number};
+
+export default function FactionArrival({faction:f,compact=false,regions=0,overview}:{faction:R;lang?:string;compact?:boolean;year?:string;regions?:number;overview?:OverviewControls}){
  const root=useRef<HTMLElement>(null);
  const imperial=f.id==='castilian_empire'&&!compact;
- const name=presentationPunctuation(f['name_'+lang]||f.name_en||f.name_vi||''),quote=factionTaglines[f.id],arrivalLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':quote?.en;
+ const name=presentationPunctuation(f.name_en||f.name_native||''),quote=factionTaglines[f.id],arrivalLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':quote?.en;
+
  useEffect(()=>{
   const el=root.current;if(!el||compact)return;
   let repeat=false;try{repeat=sessionStorage.getItem('tfam-arrival:'+f.id)==='seen';sessionStorage.setItem('tfam-arrival:'+f.id,'seen');}catch{}
@@ -26,18 +28,14 @@ export default function FactionArrival({faction:f,lang,compact=false,year='1715'
   document.addEventListener('visibilitychange',sync);
   return()=>{animations.forEach(a=>a?.cancel());observer.disconnect();document.removeEventListener('visibilitychange',sync);};
  },[f.id,compact]);
+
  return <header ref={root} className={'world-arrival faction-themed arrival211'+(compact?' is-compact':'')+(imperial?' empire-arrival':'')+(overview?' has-overview-header':'')} data-faction={f.id}>
   {!compact&&(imperial?<ImperialWeather/>:<ExperienceAtmosphere variant="world"/>)}
   {!compact&&<div className="arrival-art" aria-hidden="true"><MediaImage src={imperial?'/overview223/castilian-arrival.webp':sceneArt(f)} alt="" width={1920} height={1080} fetchPriority="high"/></div>}
-  <div className="arrival-copy"><MediaImage className="arrival-flag" src={f.flag_asset} width={1200} height={800} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/><div><h1>{name}</h1>{!compact&&quote&&<p className="arrival-quote">{presentationPunctuation((lang==='vi'?quote.vi:arrivalLine)||'')}</p>}</div></div>
+  <div className="arrival-copy"><MediaImage className="arrival-flag" src={f.flag_asset} width={1200} height={800} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/><div><h1>{name}</h1>{!compact&&arrivalLine&&<p className="arrival-quote">{presentationPunctuation(arrivalLine)}</p>}</div></div>
   {overview&&<div className="arrival-overview">
    <dl className="imperial-facts">
-    <div><dt>Year</dt><dd>{overview.years.length>1
-     ? <div className="arrival-year-options" role="group" aria-label="Switch chronicle year">{overview.years.map(value=>
-      <button key={value} type="button" aria-pressed={value===year} onClick={()=>overview.onYear(value)}>{value}</button>
-     )}</div>
-     : year}</dd></div>
-    <div><dt>Capital</dt><dd>{factionCapital(f,lang,year)}</dd></div>
+    <div><dt>Capital</dt><dd>{factionCapital(f,'en','1715')}</dd></div>
     <div><dt>Territories</dt><dd>{regions} {regions===1?'region':'regions'}</dd></div>
     <div><dt>Recorded Figures</dt><dd>{overview.characterCount}</dd></div>
    </dl>

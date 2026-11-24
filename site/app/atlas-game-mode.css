@@ -1,52 +1,41 @@
-/* TFAM v226 Grand Strategy War-Table Atlas */
-.atlas-game-table{
-  --atlas-gold:#dfc28f;
-  --atlas-crimson:#982e4a;
-  --atlas-obsidian:#120e19;
-  --atlas-glass:#15101de6;
-  --atlas-line:#dfc28f3d;
-  color:#f4e8d4;
+/* TFAM v241 Simplified Interactive Image Map Atlas */
+.atlas-simple-v241{
+  --at-gold:#dfc28f;
+  --at-gold-hi:#f6dfb1;
+  --at-crimson:#872641;
+  --at-surface:#16101fed;
+  --at-line:#dfc28f3a;
+  max-width:1540px;
+  margin:0 auto;
+  color:#f6ebd8;
 }
-.atlas-command-header{
+.atlas241-header{
   display:flex;
   justify-content:space-between;
   align-items:flex-end;
-  gap:24px;
+  gap:20px;
   flex-wrap:wrap;
-  padding:22px 26px;
-  background:linear-gradient(135deg,#1d1526f0,#120e19f5);
-  border:1px solid var(--atlas-line);
-  margin-bottom:14px;
+  margin-bottom:18px;
 }
-.atlas-command-kicker{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  font-size:11px;
-  letter-spacing:.22em;
-  text-transform:uppercase;
-  color:var(--atlas-gold);
-  margin-bottom:8px;
-}
-.atlas-command-title h2{
+.atlas241-header h2{
   margin:0 0 6px;
-  font-size:clamp(28px,3vw,44px);
+  font-size:clamp(30px,3.2vw,46px);
   font-weight:400;
-  line-height:1.05;
-  color:#faf0de;
+  line-height:1.06;
+  color:#fff2dc;
 }
-.atlas-command-title p{margin:0;font-size:15px;color:#c7bacb}
-.atlas-command-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.atlas-year-strip{
+.atlas241-header p{margin:0;font-size:15px;color:#c8bacd}
+.atlas241-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.atlas241-years{
   display:flex;
   gap:4px;
   padding:4px;
-  background:#0d0a13d9;
-  border:1px solid var(--atlas-line);
+  background:#110c19e6;
+  border:1px solid var(--at-line);
 }
-.atlas-year-strip button{
-  min-height:36px;
-  padding:6px 14px;
+.atlas241-years button{
+  min-height:38px;
+  padding:6px 15px;
   border:0;
   background:transparent;
   color:#cbbdca;
@@ -55,397 +44,238 @@
   letter-spacing:.08em;
   cursor:pointer;
 }
-.atlas-year-strip button[aria-pressed=true]{
-  background:linear-gradient(135deg,#812740,#4a1829);
-  color:#fff2d9;
-  box-shadow:inset 0 0 0 1px #e8ca9466;
+.atlas241-years button[aria-pressed="true"]{
+  background:linear-gradient(135deg,#872641,#491527);
+  color:#fff4df;
+  box-shadow:inset 0 0 0 1px #ebd09e66;
 }
-.atlas-hud-btn{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  min-height:44px;
-  padding:8px 16px;
-  background:#1f1728;
-  border:1px solid var(--atlas-line);
-  color:#f4e2c2;
-  font:inherit;
-  font-size:13px;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  cursor:pointer;
-}
-.atlas-hud-btn:hover{border-color:var(--atlas-gold);background:#331d32}
-
-/* Mode & Layer Toolbar */
-.atlas-mode-bar{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  flex-wrap:wrap;
-  padding:10px 14px;
-  background:#140f1ce8;
-  border:1px solid var(--atlas-line);
-  border-bottom:0;
-}
-.atlas-lens-group,.atlas-layer-group{display:flex;flex-wrap:wrap;gap:6px}
-.atlas-lens-group button,.atlas-layer-group button{
+.atlas241-btn{
   display:inline-flex;
   align-items:center;
   gap:7px;
-  min-height:36px;
-  padding:6px 13px;
-  border:1px solid #cbb0822b;
-  background:#1b1524;
-  color:#cabdce;
+  min-height:44px;
+  padding:8px 16px;
+  border:1px solid var(--at-line);
+  background:var(--at-surface);
+  color:#f3e1c2;
   font:inherit;
   font-size:12px;
-  letter-spacing:.08em;
+  letter-spacing:.1em;
   text-transform:uppercase;
   cursor:pointer;
-  transition:border-color .18s,background .18s,color .18s;
 }
-.atlas-lens-group button[aria-pressed=true]{
-  background:linear-gradient(135deg,#7c253d,#431628);
-  border-color:#ebd09e;
-  color:#fff4df;
-}
-.atlas-layer-group button[aria-pressed=true]{
-  background:#2d2236;
-  border-color:#dfc28f78;
-  color:#f3dbb0;
-}
+.atlas241-btn:hover{border-color:var(--at-gold-hi);background:#2a192c}
 
-/* War-Table Stage */
-body.tfam-editorial.tfam-royal main[data-tfam211] .atlas-game-table .atlas-game-stage{
+/* Interactive Image Map Stage */
+.atlas241-stage{
   position:relative;
-  padding:0;
-  background:#0e1218;
-  border:2px solid #967c52;
-  outline:1px solid #dfc28f44;
-  outline-offset:4px;
-  overflow:hidden;
-  box-shadow:0 30px 80px #0000007a,inset 0 0 60px #00000080;
-  perspective:1400px;
-}
-.atlas-camera-viewport{
   width:100%;
+  aspect-ratio:var(--atlas-plate-ratio, 1600 / 1054);
+  overflow:hidden;
+  background:radial-gradient(ellipse at 50% 45%,#22172c,#0d0914 78%);
+  border:1px solid #b4966466;
+  box-shadow:0 28px 70px #0000007a;
+}
+.atlas241-stage::after{
+  content:"";
+  position:absolute;
+  inset:10px;
+  z-index:4;
+  pointer-events:none;
+  background:
+    linear-gradient(var(--at-gold),var(--at-gold)) top left / 20px 1.5px no-repeat,
+    linear-gradient(var(--at-gold),var(--at-gold)) top left / 1.5px 20px no-repeat,
+    linear-gradient(var(--at-gold),var(--at-gold)) bottom right / 20px 1.5px no-repeat,
+    linear-gradient(var(--at-gold),var(--at-gold)) bottom right / 1.5px 20px no-repeat;
+  opacity:.7;
+}
+.atlas241-camera{
+  position:relative;
+  width:100%;
+  height:100%;
   transform-origin:center center;
   transition:transform .28s cubic-bezier(.16,1,.3,1);
 }
-.atlas-game-table.is-tilted .atlas-camera-viewport{
-  transform:rotateX(16deg) scale(1.03)!important;
+.atlas241-plate{
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  display:block;
+  filter:sepia(.32) saturate(.78) contrast(1.06) brightness(.86);
+  user-select:none;
 }
-body.tfam-editorial.tfam-royal main[data-tfam211] .atlas-game-table .atlas211-map{
-  margin:0;
-  aspect-ratio:1.62;
-  background:#0f161d;
-}
-.atlas-table-vignette{
+.atlas241-vignette{
   position:absolute;
   inset:0;
-  z-index:2;
   pointer-events:none;
-  background:radial-gradient(ellipse at 50% 50%,transparent 58%,#09070fd4 100%);
+  background:radial-gradient(ellipse at 50% 50%,transparent 52%,#0c0813cc 100%);
 }
-.atlas-frost-sweep{
+
+/* Interactive Pins */
+.atlas241-pins{position:absolute;inset:0;z-index:3}
+.atlas241-pin{
   position:absolute;
-  inset:0;
-  z-index:2;
-  pointer-events:none;
-  opacity:0;
-  transition:opacity .4s ease;
-  background:
-    radial-gradient(ellipse 80% 45% at 20% 10%,#a8d7f028,transparent 70%),
-    radial-gradient(ellipse 70% 50% at 85% 90%,#7bb3d822,transparent 72%);
+  transform:translate(-50%,-50%);
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:0;
+  background:none;
+  padding:4px;
+  cursor:pointer;
+  color:#fff2dc;
+  transition:transform .2s cubic-bezier(.16,1,.3,1);
 }
-.atlas-lens-frost .atlas-frost-sweep{opacity:1}
-
-/* Cartographic Lenses */
-.atlas-lens-warroom .atlas211-land-plate{
-  filter:sepia(.35) hue-rotate(195deg) saturate(.68) brightness(.64) contrast(1.18)!important;
-}
-.atlas-lens-warroom .atlas-context-boundaries path{
-  fill:#1914262e;
-  stroke:#b6a2c444;
-  stroke-width:.75;
-}
-.atlas-lens-warroom .atlas-context-boundaries .atlas-selected-territory{
-  fill:#9e2a4742;
-  stroke:#e6c58b;
-  stroke-width:2.1;
-}
-.atlas-lens-warroom .atlas-detail-marker text{
-  fill:#fff2d8;
-  stroke:#120d19;
-  stroke-width:3.4;
-}
-.atlas-lens-warroom .atlas-detail-marker .atlas-detail-leader{stroke:#e4c58e}
-
-.atlas-lens-frost .atlas211-land-plate{
-  filter:saturate(.45) hue-rotate(175deg) brightness(.92) contrast(1.14)!important;
-}
-.atlas-lens-frost .atlas-context-boundaries .atlas-selected-territory{
-  fill:#5d9bb836;
-  stroke:#d7f1ff;
-  stroke-width:1.9;
-}
-.atlas-lens-frost .atlas-detail-marker text{
-  fill:#eef8ff;
-  stroke:#0f1d28;
-  stroke-width:3.2;
-}
-
-.atlas-lens-maritime .atlas211-land-plate{
-  filter:sepia(.48) saturate(.88) brightness(.84) contrast(1.12)!important;
-}
-.atlas-lens-maritime .atlas-context-boundaries .atlas-selected-territory{
-  fill:#b8863d30;
-  stroke:#f0cf92;
-  stroke-width:1.9;
-}
-
-/* Graticule & Pulsing Beacons */
-.atlas-game-graticule line,.atlas-game-graticule circle{
-  stroke:#dfc28f24;
-  stroke-width:.7;
-  pointer-events:none;
-}
-.atlas-beacon-pulse{
-  fill:none;
-  stroke:#ebd09e;
-  stroke-width:1.6;
-  opacity:.75;
-  transform-box:fill-box;
-  transform-origin:center;
-  animation:atlas-beacon 2.6s ease-out infinite;
-  pointer-events:none;
-}
-.atlas-detail-marker.is-selected .atlas-beacon-pulse{
-  stroke:#e65878;
-  stroke-width:2.1;
-}
-@keyframes atlas-beacon{
-  0%{transform:scale(.55);opacity:.9}
-  100%{transform:scale(1.65);opacity:0}
-}
-
-/* Floating HUD Overlays */
-.atlas-hud-top-left{
-  position:absolute;
-  top:16px;
-  left:16px;
-  z-index:4;
+.atlas241-pin:hover,.atlas241-pin.is-selected{transform:translate(-50%,-50%) scale(1.12);z-index:6}
+.atlas241-pin-dot{
+  width:24px;
+  height:24px;
+  border-radius:50%;
   display:grid;
-  gap:2px;
-  padding:12px 16px;
-  background:var(--atlas-glass);
-  border:1px solid var(--atlas-line);
-  backdrop-filter:blur(12px);
-  pointer-events:none;
+  place-items:center;
+  background:linear-gradient(135deg,#28182be8,#120b18f2);
+  border:1.5px solid var(--at-gold);
+  color:var(--at-gold-hi);
+  box-shadow:0 4px 14px #00000099;
 }
-.atlas-cartouche-era{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--atlas-gold)}
-.atlas-hud-top-left strong{font-size:18px;font-weight:400;color:#fbf1e0}
-.atlas-hud-top-left small{font-size:12px;color:#c0b2c5}
+.atlas241-pin.is-capital .atlas241-pin-dot{
+  width:28px;
+  height:28px;
+  background:linear-gradient(135deg,#992948,#4a1324);
+  border-color:#fce4b6;
+  box-shadow:0 0 0 4px #dfc28f2e,0 6px 18px #000000b3;
+}
+.atlas241-pin.is-selected .atlas241-pin-dot{
+  background:linear-gradient(135deg,#b53256,#5a172b);
+  border-color:#fff5df;
+}
+.atlas241-pin-label{
+  padding:3px 9px;
+  background:#120c1ae0;
+  border:1px solid #dfc28f44;
+  font-size:12px;
+  line-height:1.3;
+  white-space:nowrap;
+  color:#fbf0dc;
+  backdrop-filter:blur(8px);
+}
+.atlas241-pin.is-selected .atlas241-pin-label{
+  border-color:var(--at-gold-hi);
+  background:#361626eb;
+}
 
-.atlas-zoom-dock{
+/* Zoom Dock */
+.atlas241-zoom{
   position:absolute;
-  top:16px;
-  right:16px;
-  z-index:5;
+  top:18px;
+  right:18px;
+  z-index:7;
   display:flex;
   flex-direction:column;
   align-items:center;
   gap:4px;
   padding:6px;
-  background:var(--atlas-glass);
-  border:1px solid var(--atlas-line);
-  backdrop-filter:blur(12px);
+  background:#140e1de6;
+  border:1px solid var(--at-line);
+  backdrop-filter:blur(10px);
 }
-.atlas-zoom-dock button{
+.atlas241-zoom button{
   width:34px;
   height:34px;
   display:grid;
   place-items:center;
   border:1px solid #cbb0822a;
-  background:#1e1627;
-  color:#f4e3c2;
+  background:#1f1628;
+  color:#f5e4c4;
   cursor:pointer;
 }
-.atlas-zoom-dock button:hover:not(:disabled){border-color:var(--atlas-gold);background:#4b2034}
-.atlas-zoom-dock button:disabled{opacity:.35;cursor:default}
-.atlas-zoom-readout{font-size:10px;letter-spacing:.1em;color:var(--atlas-gold);padding:3px 0}
+.atlas241-zoom button:hover:not(:disabled){border-color:var(--at-gold);background:#4a1c31}
+.atlas241-zoom button:disabled{opacity:.35;cursor:default}
+.atlas241-zoom span{font-size:10px;letter-spacing:.08em;color:var(--at-gold);padding:2px 0}
 
-.atlas-game-compass{
-  bottom:54px!important;
-  right:20px!important;
-  z-index:4;
-  color:#e8cd9c!important;
-  filter:drop-shadow(0 4px 12px #00000099);
-}
-
-/* Floating Place Dossier inside Map */
-.atlas-floating-dossier{
+/* Floating Smoked-Glass Dossier Card */
+.atlas241-card{
   position:absolute;
-  left:16px;
-  bottom:54px;
-  z-index:6;
-  width:min(340px,calc(100% - 32px));
+  left:20px;
+  bottom:20px;
+  z-index:8;
+  width:min(330px,calc(100% - 40px));
   padding:18px 20px;
-  background:linear-gradient(155deg,#1d1424f5,#100c18fa);
-  border:1px solid #e4c58e66;
-  box-shadow:0 20px 50px #0000008c;
+  background:linear-gradient(155deg,#1d1425f5,#100b17fa);
+  border:1px solid #e6c68f66;
+  box-shadow:0 20px 54px #00000099;
   backdrop-filter:blur(16px);
 }
-.atlas-floating-dossier>header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
-.atlas-dossier-badge{
-  font-size:10px;
-  letter-spacing:.2em;
+.atlas241-card>header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+  font-size:11px;
+  letter-spacing:.16em;
   text-transform:uppercase;
-  padding:3px 9px;
-  background:#6e2137;
-  border:1px solid #e6c58e55;
-  color:#fff0d6;
+  color:var(--at-gold);
 }
-.atlas-floating-dossier>header button{background:none;border:0;color:#d6c6b8;cursor:pointer;padding:4px}
-.atlas-floating-dossier h3{margin:0 0 4px;font-size:24px;font-weight:400;color:#fff2dc}
-.atlas-floating-dossier p{margin:0 0 16px;font-size:13px;color:#c5b7c8}
-.atlas-dossier-actions{display:flex;gap:8px;flex-wrap:wrap}
-.atlas-dossier-actions button{
+.atlas241-card>header button{background:none;border:0;color:#d6c7bc;cursor:pointer;padding:4px}
+.atlas241-card h3{margin:0 0 4px;font-size:24px;font-weight:400;color:#fff2dc}
+.atlas241-card p{margin:0 0 14px;font-size:13.5px;color:#c7bacb}
+.atlas241-card-actions{display:flex;gap:8px;flex-wrap:wrap}
+.atlas241-card-actions button{
   flex:1;
   min-height:38px;
   padding:8px 12px;
-  border:1px solid var(--atlas-line);
-  background:#22192c;
+  border:1px solid var(--at-line);
+  background:#22182c;
   color:#f5e4c4;
   font:inherit;
-  font-size:12px;
+  font-size:11.5px;
   letter-spacing:.08em;
   text-transform:uppercase;
   cursor:pointer;
 }
-.atlas-dossier-actions .atlas-dossier-primary{
-  background:linear-gradient(135deg,#832841,#4d192b);
+.atlas241-card-actions button.is-primary{
+  background:linear-gradient(135deg,#872641,#4a1527);
   border-color:#ebd09e88;
 }
 
-/* Bottom Telemetry Bar */
-.atlas-hud-bottom-bar{
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:4;
+/* Quick Jump Strip */
+.atlas241-footer{margin-top:16px}
+.atlas241-quick-pins{
   display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:16px;
   flex-wrap:wrap;
-  padding:9px 16px;
-  background:#0e0a15e6;
-  border-top:1px solid var(--atlas-line);
-  font-size:12px;
-  color:#d9c8b4;
-  backdrop-filter:blur(10px);
+  gap:8px;
 }
-.atlas-hud-telemetry{font-variant-numeric:tabular-nums;letter-spacing:.08em;color:var(--atlas-gold)}
-.atlas-hud-counts{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-.atlas-hud-counts span{display:inline-flex;align-items:center;gap:6px}
-.atlas-hud-counts svg{width:14px;height:14px;fill:#dfc28f;stroke:#dfc28f}
-.atlas-hud-counts b{color:#fff0d4;font-weight:400}
-
-/* Ledger Strip */
-.atlas-ledger-strip{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  flex-wrap:wrap;
-  padding:14px 0;
-  border-bottom:1px solid #cbb0822a;
+.atlas241-quick-pins button{
+  min-height:38px;
+  padding:7px 14px;
+  border:1px solid var(--at-line);
+  background:var(--at-surface);
+  color:#dfd0bd;
+  font:inherit;
+  font-size:13px;
+  cursor:pointer;
 }
-.atlas-ledger-strip .atlas211-legend{border:0;padding:0}
-.atlas-ledger-strip .atlas211-city-picker{margin:0}
-.atlas-status-line{font-size:14px;color:#d6c2a2;margin:12px 0 0}
-
-@media(max-width:767px){
-  .atlas-command-header{padding:18px}
-  .atlas-hud-top-left{top:10px;left:10px;padding:8px 12px}
-  .atlas-hud-top-left strong{font-size:15px}
-  .atlas-zoom-dock{top:10px;right:10px}
-  .atlas-hud-counts{display:none}
-  .atlas-floating-dossier{bottom:44px;left:10px;width:calc(100% - 20px);padding:14px}
+.atlas241-quick-pins button[aria-pressed="true"],
+.atlas241-quick-pins button:hover{
+  border-color:var(--at-gold-hi);
+  background:linear-gradient(135deg,#5a1d32,#231324);
+  color:#fff4df;
 }
-@media(prefers-reduced-motion:reduce){
-  .atlas-beacon-pulse{animation:none}
-  .atlas-camera-viewport{transition:none}
-}
-
-/* TFAM v227 Atlas Full-Bleed Fix, Chronicle Sweep & Mobile 390px Scroll-Snap Toolbar */
-body.tfam-editorial.tfam-royal main[data-tfam211] .atlas-v227 .atlas211-map{
-  aspect-ratio:auto;
-  width:100%;
-  background:#0e141c;
-}
-.atlas-v227 .atlas-sfx-btn{padding:8px 11px}
-.atlas-chronicle-sweep{
+.atlas241-error{
   position:absolute;
   inset:0;
-  z-index:3;
-  pointer-events:none;
-  background:linear-gradient(105deg,transparent 35%,#ebd09e2a 48%,#fff4d644 50%,#ebd09e1e 52%,transparent 65%);
-  transform:translateX(-110%);
-  animation:atlas-sweep .75s cubic-bezier(.16,1,.3,1) forwards;
+  display:grid;
+  place-items:center;
+  align-content:center;
+  gap:12px;
+  background:#120c1ae8;
+  z-index:9;
 }
-@keyframes atlas-sweep{
-  from{transform:translateX(-110%);opacity:1}
-  to{transform:translateX(110%);opacity:0}
-}
-.atlas-v227 .atlas-detail-marker.is-secondary-lod{opacity:.82}
-.atlas-v227 .atlas-detail-marker.is-secondary-lod:hover{opacity:1}
 
 @media(max-width:767px){
-  .atlas-v227 .atlas-mode-bar{
-    flex-wrap:nowrap;
-    overflow-x:auto;
-    gap:10px;
-    padding:9px 12px;
-    scroll-snap-type:x proximity;
-    scrollbar-width:none;
-  }
-  .atlas-v227 .atlas-lens-group,
-  .atlas-v227 .atlas-layer-group{
-    flex-wrap:nowrap;
-    flex-shrink:0;
-  }
-  .atlas-v227 .atlas-lens-group button,
-  .atlas-v227 .atlas-layer-group button{
-    white-space:nowrap;
-    flex-shrink:0;
-    scroll-snap-align:start;
-    padding:6px 11px;
-    font-size:11px;
-  }
+  .atlas241-stage{min-height:0}
+  .atlas241-pin-label{font-size:10.5px;padding:2px 6px}
+  .atlas241-quick-pins{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;scrollbar-width:none}
+  .atlas241-quick-pins button{white-space:nowrap;flex-shrink:0}
+  .atlas241-card{left:12px;bottom:12px;width:calc(100% - 24px);padding:14px}
 }
-@media(prefers-reduced-motion:reduce){
-  .atlas-chronicle-sweep{animation:none;display:none}
-}
-
-/* TFAM v237 Diegetic Brass Corner Filigree on War-Table Atlas */
-.atlas-v227 .atlas-game-stage::before{
-  content:"";position:absolute;inset:8px;z-index:5;pointer-events:none;
-  background:
-    linear-gradient(#dfc28f,#dfc28f) top left / 22px 1.5px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) top left / 1.5px 22px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) top right / 22px 1.5px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) top right / 1.5px 22px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) bottom left / 22px 1.5px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) bottom left / 1.5px 22px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) bottom right / 22px 1.5px no-repeat,
-    linear-gradient(#dfc28f,#dfc28f) bottom right / 1.5px 22px no-repeat;
-  opacity:.72;
-}
-
-/* TFAM v239 Fix: Clear top-left brass filigree from ANNO 1715 HUD cartouche */
-.atlas-v227 .atlas-hud-top-left{top:26px;left:26px}

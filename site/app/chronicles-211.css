@@ -83,3 +83,13 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .reader-context-trigger{margin
 body.tfam-editorial.tfam-royal main[data-tfam211] .reading-checkpoint-bar{top:82px;background:var(--paper);outline:0;padding:8px 0;border:0;border-bottom:1px solid var(--rule);box-shadow:none;backdrop-filter:none}
 body.tfam-editorial.tfam-royal main[data-tfam211] [data-reader-focus=true] .reading-checkpoint-bar{top:8px}
 @media(max-width:767px){body.tfam-editorial.tfam-royal main[data-tfam211] .reading-checkpoint-bar{top:64px}}
+
+/* TFAM v241 Chronicles 3D Book Alignment & Editorial Chapter Cards */
+.library-volume{position:relative;display:grid;place-items:center}
+.library-volume-pages{display:none}
+.chronicle211-cover{opacity:1!important;border:1px solid #dfc28f55!important;box-shadow:14px 20px 44px #00000099,inset 4px 0 0 #dfc28f44!important}
+.chronicle211-contents{display:grid;gap:10px}
+.chronicle211-contents a{padding:16px 20px;border:1px solid #dfc28f2e;background:linear-gradient(145deg,#1b1424e0,#120d1ae8);transition:border-color .22s,transform .22s,background .22s}
+.chronicle211-contents a:hover{border-color:#ebd09e88;background:linear-gradient(145deg,#2d182ae6,#171020f2);transform:translateX(4px)}
+
+.chronicle211-cover::after{content:none}
