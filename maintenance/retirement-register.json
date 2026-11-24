@@ -126,6 +126,42 @@
       "deleted": true,
       "recovery": "Git history before PR23",
       "proof": "Complete dependency/entrypoint audit and passing local types/domain/build with files absent"
+    },
+    {
+      "path": "site/app/atlas-detail.css",
+      "kind": "superseded-atlas-source",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "No imports or build references after v241 image Atlas"
+    },
+    {
+      "path": "site/app/atlas-relief.css",
+      "kind": "superseded-atlas-source",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "No imports or build references after v241 image Atlas"
+    },
+    {
+      "path": "site/app/components/AtlasGeography.tsx",
+      "kind": "superseded-atlas-source",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "No imports or build references after v241 image Atlas"
+    },
+    {
+      "path": "site/app/components/AtlasSymbols.tsx",
+      "kind": "superseded-atlas-source",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "No imports or build references after v241 image Atlas"
+    },
+    {
+      "path": "site/art/vestigium-refresh-20261028/.material-bot-nam-yen.png.8ob42T",
+      "kind": "partial-duplicate-png",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "Byte-for-byte prefix of the complete sibling PNG"
+    },
+    {
+      "path": "site/art/vestigium-refresh-20261028/.phenomenon-the-load-remembering-vault.png.wyPQx3",
+      "kind": "partial-duplicate-png",
+      "recovery": "Git commit cba7d547a482c983e9f817c8228bbe11fafd327a",
+      "proof": "Byte-for-byte prefix of the complete sibling PNG"
     }
   ],
   "r2Audit": {
