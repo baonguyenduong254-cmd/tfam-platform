@@ -36,7 +36,11 @@
         "passed": true,
         "result": "Maison Vestigium and Imperial Vault control visible"
       }
-    }
+    },
+    "productionViewports": [
+      390,
+      1440
+    ]
   },
   "databaseWrites": false,
   "r2Writes": false,
