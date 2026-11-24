@@ -709,7 +709,7 @@ body.tfam-editorial.tfam-royal main[data-tfam211].v250-headerless-stage .atlas-c
 .faction-arrival-window{
   position:relative;
   display:grid;
-  align-items:start;
+  grid-template-rows:minmax(clamp(10rem,24vw,28rem),1fr) auto;
   isolation:isolate;
   overflow:hidden;
   border:1px solid #e8c185;
@@ -750,44 +750,45 @@ body.tfam-editorial.tfam-royal main[data-tfam211].v250-headerless-stage .atlas-c
 .faction-arrival-fasteners span:nth-child(7){--x:80%;--y:80%}
 .faction-arrival-fasteners span:nth-child(8){--x:90%;--y:60%}
 .faction-arrival-fasteners span:nth-child(9){--x:97%;--y:34%}
+.faction-arrival-artwork{
+  position:relative;
+  overflow:hidden;
+}
 .faction-arrival-scene{
   position:absolute;
   inset:0;
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:53% 46%;
-  z-index:-2;
+  object-position:53% 43%;
 }
-.faction-arrival-window::after{
+.faction-arrival-artwork::after{
   content:"";
   position:absolute;
   inset:0;
-  z-index:-1;
-  background:
-    radial-gradient(ellipse at 75% 60%,transparent 40%,#080b14b3 100%),
-    linear-gradient(180deg,#10121cf5 0%,#10121cc9 29%,#11121c59 58%,#0c0d1329 85%,#0c0d1370);
-  box-shadow:inset 0 10px 24px #03050ac9,inset 0 -5px 14px #b6966f5e;
+  background:linear-gradient(180deg,transparent 70%,#11131a 100%);
+  box-shadow:inset 0 10px 22px #03050a78;
 }
 .faction-arrival-identity{
   display:grid;
   justify-items:center;
   gap:clamp(.5rem,1vw,.875rem);
-  width:100%;
+  width:66%;
   min-width:0;
-  padding:clamp(1.25rem,4vw,3.25rem) clamp(1rem,8vw,7rem) clamp(6rem,18vw,14rem);
+  margin-inline:auto;
+  padding:0 0 clamp(3.25rem,7vw,7rem);
   text-align:center;
 }
 .faction-arrival-flag{
-  width:clamp(3.75rem,8vw,7.75rem);
+  width:clamp(3rem,6vw,6rem);
   height:auto;
-  max-height:5.5rem;
+  max-height:4.5rem;
   object-fit:contain;
   filter:drop-shadow(0 6px 12px #000a);
 }
 main[data-tfam211] .faction-arrival-identity h1{
   margin:0;
-  font:600 clamp(1.625rem,4.25vw,4.25rem)/1.12 Cinzel,Georgia,serif;
+  font:600 clamp(1.375rem,3.5vw,3.75rem)/1.12 Cinzel,Georgia,serif;
   letter-spacing:.025em;
   text-wrap:balance;
   overflow-wrap:anywhere;
@@ -801,12 +802,6 @@ main[data-tfam211] .faction-arrival-identity p{
   font:italic 400 clamp(1rem,1.5vw,1.375rem)/1.4 Spectral,Georgia,serif;
   text-wrap:balance;
 }
-@media(max-width:560px){
-  .faction-arrival-window::after{
-    background:linear-gradient(180deg,#10121cf5 0%,#10121cd9 42%,#10121a3b 82%,#0c0d1380);
-  }
-}
-
 .v250-act-cta-pair{display:flex;gap:12px;flex-wrap:wrap}
 .v250-lore-lead{max-width:46ch!important;color:#dfd2c7!important}
 .v250-inline-chronicle{margin:16px 0 24px;max-width:52ch}

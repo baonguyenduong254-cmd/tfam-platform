@@ -88,7 +88,9 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
   <header className="faction-arrival" aria-labelledby={sectionId+'-arrival-title'}>
    <div className="faction-arrival-arch">
     <div className="faction-arrival-window">
-     <MediaImage className="faction-arrival-scene" src={heroBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+     <div className="faction-arrival-artwork" aria-hidden="true">
+      <MediaImage className="faction-arrival-scene" src={heroBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+     </div>
      <div className="faction-arrival-identity">
       {f.flag_asset&&<MediaImage className="faction-arrival-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>}
       <h1 id={sectionId+'-arrival-title'}>{presentationPunctuation(f.name_en||f.name_native||'')}</h1>
