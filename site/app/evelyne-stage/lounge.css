@@ -194,3 +194,15 @@
 }
 .lounge-v227 .lounge-outfits>.atelier-plate .atelier-plate-media{width:100%;margin-bottom:12px}
 .lounge-roster>button{content-visibility:auto;contain-intrinsic-block-size:auto 64px}
+
+.lounge-v227 .lounge-panel{
+  width:min(520px,100vw);
+  padding-inline:max(24px,env(safe-area-inset-left)) max(24px,env(safe-area-inset-right));
+  will-change:transform;
+}
+.lounge-v227 .lounge-outfits>.atelier-plate{height:100%}
+@media(max-width:767px){
+  .lounge-v227 .lounge-panel,.lounge-v227 .lounge-quick-ribbon button{backdrop-filter:none}
+  .lounge-v227 .lounge-quick-ribbon{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity}
+  .lounge-v227 .lounge-quick-ribbon button{min-height:44px;scroll-snap-align:start}
+}

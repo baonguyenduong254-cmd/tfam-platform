@@ -3,8 +3,9 @@ import {presentationPunctuation} from '../lib/presentation-punctuation';
 import {presentCharacter} from '../lib/revelation';
 import {carryArtwork} from '../lib/motion/artwork-transition';
 import FactionOverview from './components/FactionOverview';
-import MonumentShowcase from './components/MonumentShowcase';
-import {preloadAtlas,preloadChronicles,preloadVestigium} from '../lib/motion/load-surfaces';
+import SiteSectionNav from './components/SiteSectionNav';
+import WorldLoading from './components/WorldLoading';
+import {preloadAtlas,preloadChronicles,preloadVestigium,preloadMilitary,preloadMonuments} from '../lib/motion/load-surfaces';
 import {useDiscovery} from './components/DiscoveryProgress';
 import BackgroundMusicSlot from './components/BackgroundMusicSlot';
 import {preloadImages} from '../lib/media/preload';
@@ -21,8 +22,8 @@ import FactionArrival from './components/FactionArrival';
 import './world-experience.css';
 import './cartography-desk.css';
 import './scroll-stability.css';
-const FactionAtlas=dynamic(preloadAtlas,{ssr:false,loading:()=> <p role="status">Opening the regional atlas...</p>});
-const VestigiumCollection=dynamic(preloadVestigium,{ssr:false});
+const FactionAtlas=dynamic(preloadAtlas,{ssr:false,loading:()=> <WorldLoading label="Opening the regional atlas…"/>});
+const VestigiumCollection=dynamic(preloadVestigium,{ssr:false,loading:()=> <WorldLoading label="Opening the Vestigium collection…"/>});
 import {flushSync} from 'react-dom';
 import CharacterDossier from './components/CharacterDossier';
 import CharacterStage from './components/CharacterStage';
@@ -36,9 +37,10 @@ import {withCharacterPortraits} from '../lib/character-portraits';
 const seed=withCharacterPortraits(rawSeed);
 import {factionArt,factionThumbnail} from '../lib/campaign-art';
 import AdminLogin from './components/AdminLogin';
-const StoryLibrary=dynamic(preloadChronicles,{ssr:false});
+const StoryLibrary=dynamic(preloadChronicles,{ssr:false,loading:()=> <WorldLoading label="Opening the Chronicles…"/>});
 import {AccountMenu} from './components/ReaderAccount';
-const MilitaryRoster=dynamic(()=>import('./components/MilitaryRoster'),{ssr:false});
+const MilitaryRoster=dynamic(preloadMilitary,{ssr:false,loading:()=> <WorldLoading label="Opening the military archive…"/>});
+const MonumentShowcase=dynamic(preloadMonuments,{ssr:false,loading:()=> <WorldLoading label="Opening the gazetteer…"/>});
 import './military.css';
 import './archives.css';
 import './monuments.css';
@@ -71,7 +73,7 @@ function transition(update:()=>void){
  if(typeof curtain?.animate==='function'){curtain.style.top=(atlasRef.current?.offsetHeight||76)+'px';curtain.hidden=false;}
  // Commit navigation synchronously; a cancelled snapshot transition must never swallow input.
  flushSync(update);
- const reduceMotion=typeof matchMedia!=='function'||matchMedia('(prefers-reduced-motion: reduce)').matches;if(contentRef.current?.animate){contentRef.current.animate(reduceMotion?[{opacity:0},{opacity:1}]:[{opacity:0,transform:'perspective(1600px) translate3d(0,34px,-110px) rotateX(4.2deg) scale(.965)',filter:'blur(3px)'},{opacity:1,transform:'perspective(1600px) translate3d(0,0,0) rotateX(0deg) scale(1)',filter:'blur(0px)'}],{duration:reduceMotion?180:560,easing:'cubic-bezier(.16,1,.3,1)'});}
+ const reduceMotion=typeof matchMedia!=='function'||matchMedia('(prefers-reduced-motion: reduce)').matches;if(!reduceMotion&&contentRef.current?.animate){contentRef.current.animate([{opacity:0,transform:'perspective(1600px) translate3d(0,34px,-110px) rotateX(4.2deg) scale(.965)'},{opacity:1,transform:'perspective(1600px) translate3d(0,0,0) rotateX(0deg) scale(1)'}],{duration:reduceMotion?180:560,easing:'cubic-bezier(.16,1,.3,1)'});}
  return new Promise<boolean>(resolve=>requestAnimationFrame(()=>{
   resolve(id===transitionId.current);
   // Paint the new module before fading a viewport-sized compositor layer.
@@ -99,8 +101,9 @@ function openRoom(href:string){
 function roomNavigation(e:React.MouseEvent<HTMLElement>){if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;const anchor=(e.target as Element).closest<HTMLAnchorElement>('a[href]');if(!anchor)return;const url=new URL(anchor.href);if(url.pathname===location.pathname&&url.hash&&!/^#(map|archive|military|voyage|reader|vestigium)(\/|$)/.test(url.hash))return;if(url.origin!==location.origin||!['/','/vestigium','/chronicles'].includes(url.pathname))return;e.preventDefault();openRoom(url.pathname+url.search+url.hash);}
 useEffect(()=>{const restore=()=>{++transitionId.current;const next=location.pathname==='/vestigium'?'vestigium':location.pathname==='/chronicles'?'reader':'faction';setSection(next);setTab(next==='faction'?'map':next);setWorldPrepared(true);if(next==='faction'&&(!location.hash||location.hash==='#voyage'||location.hash==='#horizons')){setReplayEntry(!!location.hash);setEntryOpen(true);window.dispatchEvent(new CustomEvent('tfam-world-entry',{detail:{active:true}}));}else setEntryOpen(false);};window.addEventListener('popstate',restore);return()=>window.removeEventListener('popstate',restore);},[]);
 function alignModule(){const nav=atlasRef.current,content=contentRef.current;if(nav&&content)window.scrollTo({top:Math.max(0,content.getBoundingClientRect().top+window.scrollY-nav.offsetHeight),behavior:'instant'});}
-function preloadRoom(next:string){const task=next==='atlas'?preloadAtlas:next==='vestigium'?preloadVestigium:next==='reader'?preloadChronicles:null;if(task)void task().catch(()=>{});}
-function goTab(next:string){if(next==='vestigium'||next==='reader'){openRoom(next==='vestigium'?'/vestigium':'/chronicles');return;}navigate(next==='atlas'?'#atlas/'+f.id+'/'+year:next==='map'?'#map/'+f.id+'/'+year:archiveSection==='military'?'#military/'+f.id:'#archive/'+f.id+'/'+archiveSection,()=>{setTab(next);setProvince(null);}).then(current=>{if(!current)return;if(next==='atlas')window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});else alignModule();});}
+function preloadRoom(next:string){const task=next==='atlas'?preloadAtlas:next==='vestigium'?preloadVestigium:next==='reader'?preloadChronicles:next==='military'?preloadMilitary:next==='monuments'?preloadMonuments:null;if(task)void task().catch(()=>{});}
+function scrollToWorldTop(){window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+function goTab(next:string){if(next==='vestigium'||next==='reader'){openRoom(next==='vestigium'?'/vestigium':'/chronicles');return;}navigate(next==='atlas'?'#atlas/'+f.id+'/'+year:next==='map'?'#map/'+f.id+'/'+year:archiveSection==='military'?'#military/'+f.id:'#archive/'+f.id+'/'+archiveSection,()=>{setTab(next);setProvince(null);}).then(current=>{if(!current)return;scrollToWorldTop();});}
 
 const [initialLandmark,setInitialLandmark]=useState<RecordData|null>(null);
 const [storyEditor,setStoryEditor]=useState(false);
@@ -156,7 +159,7 @@ function openOverviewLandmark(place:RecordData,trigger:HTMLElement){
  history.pushState({tfamScroll:null},'','#archive/'+f.id+'/monuments/'+encodeURIComponent(place.id));
  carryArtwork(trigger,()=>{setInitialLandmark(place);setArchiveSection('monuments');setTab('archive');},'tfam-carried-art',alignModule);
 }
-function openDestination(next:string){if(['characters','military','monuments'].includes(next)){void navigate(next==='military'?'#military/'+f.id:'#archive/'+f.id+'/'+next,()=>{setArchiveSection(next as 'characters'|'military'|'monuments');setTab('archive');}).then(current=>{if(current)alignModule();});}else goTab(next);}
+function openDestination(next:string){if(['characters','military','monuments'].includes(next)){void navigate(next==='military'?'#military/'+f.id:'#archive/'+f.id+'/'+next,()=>{setArchiveSection(next as 'characters'|'military'|'monuments');setTab('archive');}).then(current=>{if(current)scrollToWorldTop();});}else goTab(next);}
 useEffect(()=>{if(section==='reader'&&new URLSearchParams(location.search).get('edit')==='1')void begin('story');},[]);
 // Client routing may retain Home: synchronize its view and release cinematic locks.
 useEffect(()=>{if(section==='faction')return;setTab(section);setEntryOpen(false);setGalleryOpen(false);setLoginOpen(false);setToolsOpen(false);setProvince(null);activeAnimation.current?.cancel();activeView.current?.skipTransition();if(curtainRef.current)curtainRef.current.hidden=true;window.dispatchEvent(new CustomEvent('tfam-world-entry',{detail:{active:false}}));},[section]);
@@ -165,7 +168,7 @@ const concealedCharacter=!!requestedCharacter&&data.characters.some((a:RecordDat
 if(section==='faction'&&!entryOpen&&!discovery.canExplore(f.id))return <main className="update201-page faction-locked"><span className="eyebrow">LOCKED FACTION</span><h1>{f.name_en}</h1><p>{discovery.condition(f.id)}</p><button onClick={reopenVoyage}>Choose a faction</button><a href="/chronicles">Read the chronicles →</a><a href="/achievements">View achievements</a></main>;
 return <>{entryOpen&&<CinematicEntry contentSettled={contentSettled} data={data} geo={geo} provinces={provinces} lang="en" year={year} replay={replayEntry} onLanguage={setLang} onPrepare={()=>setWorldPrepared(true)} onEnter={finishEntry}/>}<main hidden={entryOpen} inert={entryOpen||galleryOpen||loginOpen} data-active-tab={tab} data-archive-section={tab==='archive'?archiveSection:undefined} data-tfam211 data-section={section} className="campaign-app premium-campaign editorial-campaign world-campaign" style={{'--faction-accent':f.ui_color_secondary||'#d5c28e'} as React.CSSProperties} data-language={lang} data-motion="on" data-quality="high" data-atmosphere={atmosphere?'on':'off'}>
 
-<a className="world211-skip" href="#world211-content">Skip to content</a><nav onClickCapture={roomNavigation} className="site-section-nav" aria-label={t('Các không gian TFAM','TFAM destinations')}><span className="site-end-emblem"><SiteEmblem/></span><Link className="site-section-brand" href="/#map">{t('Qua Băng Giá và Thần Thoại','Through Frost and Myth')}</Link><div><Link href="/#map" aria-current={section==='faction'?'page':undefined}><Compass size={16}/>{t('Thế giới','The world')}</Link><Link href="/vestigium" onPointerEnter={()=>preloadRoom('vestigium')} onFocus={()=>preloadRoom('vestigium')} aria-current={section==='vestigium'?'page':undefined}><Gem size={16}/>Vestigium</Link><Link href="/chronicles" onPointerEnter={()=>preloadRoom('reader')} onFocus={()=>preloadRoom('reader')} aria-current={section==='reader'?'page':undefined}><BookOpen size={16}/>{t('Đọc truyện','Chronicles')}</Link></div><span className="site-end-emblem" aria-hidden="true"><SiteEmblem/></span></nav>
+<a className="world211-skip" href="#world211-content">Skip to content</a><SiteSectionNav section={section} lang={lang} onClickCapture={roomNavigation}/>
 {!entryOpen&&(tab==='map'||tab==='atlas'||tab==='archive')&&<FactionArrival faction={f} lang="en" compact={tab!=='map'} year={year} regions={regionCount} overview={tab==='map'?{years:enabledYears.map((entry:RecordData)=>String(entry.id)),characterCount:representatives.length,onYear:changeYear}:undefined}/>}
 <div className="command-bar command-bar-with-tools" ref={atlasRef} tabIndex={-1}><BackgroundMusicSlot className="command-music-slot"/>{section==='faction'?<nav className="tfam-main-nav" aria-label="Explore the faction">{[{id:'map',label:'Overview'},{id:'atlas',label:'Atlas'},{id:'characters',label:'Characters'},{id:'military',label:'Military'},{id:'monuments',label:'Landmarks'}].map(n=>{const active=tab===n.id||(tab==='archive'&&archiveSection===n.id);return <button key={n.id} aria-current={active?'page':undefined} className={active?'active':''} onPointerEnter={()=>preloadRoom(n.id)} onFocus={()=>preloadRoom(n.id)} onClick={()=>openDestination(n.id)}>{n.label}</button>;})}</nav>:<div className="section-room-label"/>}<div onClickCapture={roomNavigation} className="command-utilities" role="group" aria-label={t('Tài khoản và cài đặt','Account and settings')}>{section==='faction'?<button className="faction-selector-button" onClick={reopenVoyage} title={t('Chọn thế lực','Choose a faction')} aria-label={t('Quay về màn chọn thế lực','Return to faction selection')}><Flag size={20}/></button>:<Link className="faction-selector-button" href="/#voyage" title={t('Chọn thế lực','Choose a faction')} aria-label={t('Quay về màn chọn thế lực','Return to faction selection')}><Flag size={20}/></Link>}<a className="achievements-link" href="/achievements" aria-label="Reading achievements"><Trophy size={18}/><span>Achievements</span></a><AccountMenu lang="en"/><div className="site-tools" ref={toolsRef}><button ref={gearRef} className="gear-toggle" aria-label={t('Cài đặt website','Website settings')} aria-expanded={toolsOpen} aria-controls="site-settings" onClick={()=>setToolsOpen(v=>!v)}><Settings size={22}/></button>{toolsOpen&&<section id="site-settings" className="site-tools-popover" aria-label={t('Cài đặt website','Website settings')}><h2>{t('Cài đặt','Settings')}</h2><div className="tool-language"><span>{t('Ngôn ngữ','Reading edition')}</span><div><button aria-pressed={lang==='vi'} onClick={()=>setLang('vi')}>VI</button><button aria-pressed={lang==='en'} onClick={()=>setLang('en')}>EN</button></div></div><label className="setting-row">{t('Sương và băng','Mist and frost')}<input type="checkbox" checked={atmosphere} onChange={e=>setAtmosphere(e.target.checked)}/></label>{section!=='reader'&&<label className="setting-font">{t('Cỡ chữ truyện','Reading text size')} · {font}px<input type="range" min="16" max="28" value={font} onChange={e=>setFont(Number(e.target.value))}/></label>}<details className="map-source-notes"><summary>{t('Nguồn bản đồ','Map sources')}</summary><p>Natural Earth · {t('Địa hình thật, biên giới giả tưởng TFAM.','Physical geography, fictional TFAM borders.')}</p><a href="/legal#atlas">{t('Nguồn dữ liệu và giấy phép','Data sources and licences')}</a></details>{admin&&<><button className="tool-editor" onClick={()=>begin('story')}><BookOpen size={18}/>{t('Sửa truyện','Edit story')}</button><button className="tool-editor" onClick={()=>{setToolsOpen(false);begin();}}><ScrollText size={18}/>{t('Quản trị nội dung','Content editor')}</button></>}{admin&&<><small className="admin-identity">{admin.username}</small><button className="tool-editor" onClick={logout}>{t('Đăng xuất','Sign out')}</button></>}</section>}</div></div></div>
 {error&&<div role="alert" className="error">{error}<button onClick={()=>setError('')} aria-label={t('Đóng thông báo','Close alert')}><X size={16}/></button></div>}

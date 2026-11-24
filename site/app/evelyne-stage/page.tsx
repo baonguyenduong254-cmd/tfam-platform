@@ -39,6 +39,7 @@ export default function CharacterLounge(){
  const [characterId,setCharacterId]=useState('evelyne_vesper'),[selected,setSelected]=useState('uniform'),[ready,setReady]=useState(false),[records,setRecords]=useState<Record<string,any>[]>(initial.characters);
  const [variant,setVariant]=useState('');
  const [panel,setPanel]=useState<Panel>(null),[focus,setFocus]=useState(false),[closeup,setCloseup]=useState(false),[failedSrc,setFailedSrc]=useState(''),[favorite,setFavorite]=useState(''),[query,setQuery]=useState('');
+ const [liveArt,setLiveArt]=useState(true);
  const [veilDrawn,setVeilDrawn]=useState(true);
  const root=useRef<HTMLElement>(null),drawer=useRef<HTMLElement>(null),close=useRef<HTMLButtonElement>(null),lastFocus=useRef<HTMLElement|null>(null);
 
@@ -136,7 +137,7 @@ export default function CharacterLounge(){
      <div className="lounge-art-idle">
       {look?.size&&<div className="lounge-contact-shadow" aria-hidden="true"/>}
       {isMature&&<div className="lounge-silk-veil" aria-hidden="true"/>}
-      {ready&&portrait&&!error?<LiveIllust25D src={portrait} alt={name+' · '+skin.name} mood={selected} mature={isMature} onError={()=>setFailedSrc(portrait||'')}/>:<div className="lounge-missing"><Shirt size={38}/><p>{error?'Artwork could not load':'Artwork forthcoming'}</p><span>{skin.name}</span>{error&&<button onClick={()=>setFailedSrc('')}>Retry artwork</button>}</div>}
+      {ready&&portrait&&!error?(liveArt?<LiveIllust25D src={portrait} alt={name+' · '+skin.name} mood={selected} mature={isMature} onError={()=>setFailedSrc(portrait||'')}/>:<img src={portrait} alt={name+' · '+skin.name} fetchPriority="high" onError={()=>setFailedSrc(portrait)}/>):<div className="lounge-missing"><Shirt size={38}/><p>{error?'Artwork could not load':'Artwork forthcoming'}</p><span>{skin.name}</span>{error&&<button onClick={()=>setFailedSrc('')}>Retry artwork</button>}</div>}
      </div>
     </div>
    </section>
@@ -152,7 +153,8 @@ export default function CharacterLounge(){
    </nav>
 
    <div className="lounge-view-controls">
-    {isMature&&<button aria-pressed={!veilDrawn} onClick={()=>{playVelvetChime();setVeilDrawn(v=>!v);}}>{veilDrawn?<EyeOff size={17}/>:<Eye size={17}/>}<span>{veilDrawn?'Silk veil':'Unveil'}</span></button>}
+    {portrait&&!error&&<button onClick={()=>setLiveArt(v=>!v)} aria-pressed={liveArt}>{liveArt?'Live 2.5D':'Static art'}</button>}
+    {isMature&&<button aria-pressed={veilDrawn} onClick={()=>{playVelvetChime();setVeilDrawn(v=>!v);}}>{veilDrawn?<EyeOff size={17}/>:<Eye size={17}/>}<span>{veilDrawn?'Unveil':'Silk veil'}</span></button>}
     <button aria-pressed={closeup} onClick={()=>{playBrassClick();setCloseup(v=>!v);}}>{closeup?<Minimize2 size={17}/>:<Maximize2 size={17}/>}<span>{closeup?'Full figure':'Close-up'}</span></button>
     <button aria-pressed={focus} onClick={()=>{playBrassClick();setFocus(v=>!v);}}><Maximize2 size={17}/><span>{focus?'Show interface':'Art focus'}</span></button>
    </div>

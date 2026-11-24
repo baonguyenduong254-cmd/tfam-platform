@@ -4,3 +4,9 @@
 /* TFAM v239 Fix: Ensure Reader Account Dialog always renders above Vestigium and music layers */
 .reader-account-dialog[open]{position:fixed;inset:0;margin:auto;z-index:9999;isolation:isolate}
 .reader-account-dialog::backdrop{z-index:9998}
+
+.reader-account-button,.reader-account-popover,.reader-account-dialog{
+  background:var(--world-surface,#16101fed);
+  border-color:var(--world-line,#dfc28f38);
+  color:var(--world-ink,#f6ebd8);
+}

@@ -443,3 +443,50 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .vest-dialog .vest-detail-cate
 /* TFAM v239 Fix: Allow full soundtrack title in desktop sub-nav */
 @media(min-width:1101px){body.tfam-editorial.tfam-royal main[data-tfam211] .command-music-slot{flex:0 1 320px;max-width:320px}
 .command-music-slot .music-compact .music-track-title{max-width:none;text-overflow:clip}}
+
+body.tfam-editorial.tfam-royal main[data-tfam211]{
+  --world-ground:#0d0914;
+  --world-surface:#16101fed;
+  --world-raised:#20172bf0;
+  --world-ink:#f6ebd8;
+  --world-muted:#c8bacd;
+  --world-line:rgb(223 194 143 / 22%);
+  background-color:var(--world-ground);
+}
+#world211-content{min-height:75svh}
+.world-loading{
+  display:grid;
+  place-content:center;
+  min-height:clamp(180px,40svh,400px);
+  color:var(--world-muted,#c8bacd);
+  background:
+    radial-gradient(ellipse at top,var(--imperial-glow),transparent 72%),
+    linear-gradient(110deg,transparent 30%,#f6dfb10d 48%,transparent 66%) 100% 0 / 300% 100% no-repeat,
+    var(--world-surface);
+  animation:world-frost-shimmer 2.6s ease-in-out infinite;
+}
+@keyframes world-frost-shimmer{to{background-position:0 0,0 0,0 0}}
+@media(prefers-reduced-motion:reduce){.world-loading{animation:none}}
+body.tfam-editorial.tfam-royal main[data-tfam211] :is(.military-unit-card,.monument-card,.vest-object),
+.champion-portraits>button{
+  content-visibility:auto;
+  contain-intrinsic-block-size:auto 320px;
+}
+@media(min-width:1101px){
+  body.tfam-editorial.tfam-royal main[data-tfam211] .command-music-slot{
+    flex-basis:320px;
+    mask-image:linear-gradient(90deg,#000 96%,transparent);
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .command-music-slot .music-track-title{
+    overflow-wrap:anywhere;
+    white-space:normal;
+  }
+}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .site-section-nav{
+  background:linear-gradient(120deg,var(--imperial-glow),transparent 62%),var(--world-surface);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .tfam-main-nav button.active{
+  background:linear-gradient(135deg,var(--imperial-light),var(--imperial-shadow));
+  color:var(--world-ink);
+}
