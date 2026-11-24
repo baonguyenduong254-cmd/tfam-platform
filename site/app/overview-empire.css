@@ -647,7 +647,6 @@ main[data-tfam211] .empire-overview.empire-overview .empire-entourage-card{heigh
 }
 
 /* TFAM v250 Headerless Full-Viewport 5-Act Cinematic Scroll Experience */
-main[data-tfam211].v250-headerless-stage .site-section-nav,
 main[data-tfam211].v250-headerless-stage .world-arrival,
 main[data-tfam211].v250-headerless-stage .command-bar{
   display:none!important;
@@ -681,7 +680,6 @@ main[data-tfam211].v250-headerless-stage .command-bar{
   transition:border-color .2s,background .2s;
 }
 .v250-corner-pill:hover{border-color:#f6dfb1;background:#2f172be6}
-.v250-corner-actions{display:flex;align-items:center;gap:10px}
 
 /* Full-Viewport Acts */
 main[data-tfam211] .empire-v250-cinematic.empire-overview{
@@ -801,3 +799,42 @@ main[data-tfam211] .empire-v250-cinematic .empire-force-art img{
   .v250-corner-pill{padding:8px 12px;font-size:10.5px}
   main[data-tfam211] .empire-v250-cinematic .v250-act{min-height:auto;padding:56px 18px}
 }
+
+.faction-continuation{
+ width:min(100% - 2rem, 72rem);
+ margin:clamp(2rem,5vw,4rem) auto;
+ padding-block:clamp(1rem,3vw,2rem);
+ border-block:1px solid #bba27666;
+}
+.faction-continuation-realms,.faction-continuation-destinations{
+ display:flex;
+ flex-wrap:wrap;
+ gap:.75rem;
+}
+.faction-continuation-realms{margin-block-end:1rem}
+.faction-continuation-realms button,.faction-continuation-destinations a{
+ min-height:44px;
+ min-width:0;
+ border:1px solid #bba27677;
+ background:#1c1722;
+ color:#f2eadc;
+ padding:.75rem 1rem;
+ text-decoration:none;
+ text-align:start;
+}
+.faction-continuation-realms button{
+ display:grid;
+ gap:.25rem;
+ flex:1 1 14rem;
+ overflow-wrap:anywhere;
+}
+.faction-continuation-realms button span{font-size:.875rem;color:#e1c99f}
+.faction-continuation-realms button strong{font-size:1.125rem}
+.faction-continuation-destinations a{
+ display:inline-flex;
+ align-items:center;
+ gap:.5rem;
+ font-size:.9375rem;
+}
+.faction-continuation :is(button,a):hover{background:#362332;border-color:#dfc28f}
+.faction-continuation :is(button,a):focus-visible{outline:2px solid #ffe8ba;outline-offset:3px}

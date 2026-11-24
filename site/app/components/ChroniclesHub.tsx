@@ -1,6 +1,6 @@
 'use client';
 import {useState} from 'react';
-import {BookOpen,Lock,Sparkles,X} from 'lucide-react';
+import {BookOpen,Lock,X} from 'lucide-react';
 import '../chronicles-211.css';
 
 type ArcEdition = {
@@ -37,7 +37,6 @@ export default function ChroniclesHub(){
   return (
     <section className="chronicle211 chronicles-v250-shelf" aria-labelledby="library250-title">
       <header className="v250-chronicles-hero">
-        <span className="v250-shelf-eyebrow"><Sparkles size={14} aria-hidden="true"/> Imperial Collector Editions · Six Arcs</span>
         <h1 id="library250-title">The Chronicles</h1>
         <p>Six bound arcs of Through Frost and Myth. English manuscript editions are currently being prepared for release.</p>
       </header>
@@ -96,7 +95,7 @@ export default function ChroniclesHub(){
               <p className="v250-arc-sub">{selectedArc.subtitle}</p>
               <p>{selectedArc.note}</p>
               <p className="v250-arc-hint">Chapter content is intentionally left unpopulated for this edition while the English release is finalized.</p>
-              <button type="button" className="v250-arc-btn" onClick={() => setSelectedArc(null)}>Return to the Six Arcs</button>
+              <button type="button" className="v250-arc-btn" onClick={() => setSelectedArc(null)}>Return to The Chronicles</button>
             </div>
           </article>
         </div>

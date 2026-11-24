@@ -125,9 +125,15 @@ body.tfam-editorial.tfam-royal .tfam-opening-210 .title-blood-bloom{mix-blend-mo
   transition:background .7s ease;
 }
 .tfam-astral-v250 .astral-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.tfam-astral-v250 .astral-toolbar-links{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.tfam-astral-v250 .astral-toolbar-links a{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid #dfc28f3d;background:#130c1cd4;color:#f4e3c5;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;backdrop-filter:blur(10px)}
-.tfam-astral-v250 .astral-toolbar-links a:hover{border-color:#fce4b6;background:#491628e0}
 .tfam-astral-v250 .astral-sigil{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#dfc28f;margin-bottom:10px}
 .tfam-astral-v250 .astral-monolith{border:1px solid #dfc28f2e!important;background:linear-gradient(160deg,#1a1225d9,#0f0a17eb)!important;backdrop-filter:blur(12px);transition:border-color .25s,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s!important}
 .tfam-astral-v250 .astral-monolith:hover,.tfam-astral-v250 .astral-monolith.is-focused{border-color:#ebd09e88!important;transform:translateY(-5px);box-shadow:0 24px 56px #00000080!important}
+
+body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-actions a{
+ font-size:.875rem;
+ letter-spacing:.09em;
+}
+.tfam-opening-210 .opening-actions a:focus-visible{
+ outline:2px solid #ffe8ba;
+ outline-offset:4px;
+}
