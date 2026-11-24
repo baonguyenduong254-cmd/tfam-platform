@@ -670,38 +670,75 @@ main[data-tfam211] .empire-v250-cinematic .v250-act{
   padding:clamp(1.5rem,4vw,4.25rem) clamp(.625rem,3vw,3rem) clamp(1.75rem,5vw,4rem);
 }
 .faction-arrival-arch{
-  --rim:clamp(.5rem,1.1vw,1.125rem);
+  --rim:clamp(.875rem,1.9vw,1.875rem);
+  --curve:0 0 50% 50% / 0 0 100% 100%;
   position:relative;
   display:grid;
-  align-items:stretch;
   max-width:92rem;
-  min-height:clamp(19rem,44vw,40rem);
+  min-height:clamp(21rem,43vw,39rem);
   margin-inline:auto;
   padding:var(--rim);
   overflow:hidden;
-  border-radius:50% 50% 0 0 / 100% 100% 0 0;
+  border-radius:var(--curve);
   background:
-    repeating-conic-gradient(from 270deg at 50% 100%,#100e0dcc 0deg 1.2deg,transparent 1.4deg 8.4deg,#dfbc8044 8.5deg 9deg),
-    linear-gradient(180deg,#b1a18a,#35373a 34%,#786953 66%,#242428);
-  box-shadow:inset 0 0 0 1px #ddc4969c,0 12px 32px #08070abf;
+    repeating-conic-gradient(from 90deg at 50% 0,#0b0d12 0deg 1deg,#cab696 1deg 1.5deg,transparent 1.5deg 15deg),
+    linear-gradient(180deg,#4e565e 0%,#222832 36%,#574b3d 71%,#9b8360 100%);
+  box-shadow:inset 0 0 0 2px #a28c6b,0 12px 32px #08070abf;
+}
+.faction-arrival-arch::before{
+  content:"";
+  position:absolute;
+  inset:3px 3px auto;
+  height:calc(var(--rim) - 4px);
+  border-bottom:1px solid #caaf83;
+  background:
+    radial-gradient(circle at center,#211b16 0 2px,#c1a274 2px 3px,#12141a 3px 4px,transparent 4.5px) left center / clamp(2.25rem,7vw,6rem) 100% repeat-x,
+    linear-gradient(180deg,#9b8b72,#4d4e50 30%,#292e34 64%,#6d6052);
 }
 .faction-arrival-window{
   position:relative;
   display:grid;
-  align-items:end;
+  align-items:start;
   isolation:isolate;
   overflow:hidden;
-  border:1px solid #d3b585a6;
-  border-radius:50% 50% 0 0 / 100% 100% 0 0;
+  border:1px solid #d2b58a;
+  border-radius:var(--curve);
   background:#11131a;
+  box-shadow:0 0 0 2px #191c23,0 0 0 4px #a88d655e;
 }
+.faction-arrival-fasteners{
+  position:absolute;
+  inset:calc(var(--rim) * .46);
+  pointer-events:none;
+}
+.faction-arrival-fasteners span{
+  position:absolute;
+  left:var(--x);
+  top:var(--y);
+  width:clamp(.375rem,.72vw,.6875rem);
+  aspect-ratio:1;
+  transform:translate(-50%,-50%);
+  border:1px solid #d0b78e;
+  border-radius:50%;
+  background:linear-gradient(125deg,#bca17b 36%,#26272a 39% 60%,#806f58 63%);
+  box-shadow:0 1px 2px 1px #101219;
+}
+.faction-arrival-fasteners span:nth-child(1){--x:3%;--y:34%}
+.faction-arrival-fasteners span:nth-child(2){--x:10%;--y:60%}
+.faction-arrival-fasteners span:nth-child(3){--x:20%;--y:80%}
+.faction-arrival-fasteners span:nth-child(4){--x:34%;--y:95%}
+.faction-arrival-fasteners span:nth-child(5){--x:50%;--y:100%}
+.faction-arrival-fasteners span:nth-child(6){--x:66%;--y:95%}
+.faction-arrival-fasteners span:nth-child(7){--x:80%;--y:80%}
+.faction-arrival-fasteners span:nth-child(8){--x:90%;--y:60%}
+.faction-arrival-fasteners span:nth-child(9){--x:97%;--y:34%}
 .faction-arrival-scene{
   position:absolute;
   inset:0;
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:57% 44%;
+  object-position:53% 46%;
   z-index:-2;
 }
 .faction-arrival-window::after{
@@ -709,7 +746,7 @@ main[data-tfam211] .empire-v250-cinematic .v250-act{
   position:absolute;
   inset:0;
   z-index:-1;
-  background:linear-gradient(0deg,#0c0d13 0%,#11121cde 32%,#10121a52 69%,transparent 100%);
+  background:linear-gradient(180deg,#10121cf5 0%,#10121cc9 29%,#11121c59 58%,#0c0d1329 85%,#0c0d1370);
 }
 .faction-arrival-identity{
   display:grid;
@@ -717,7 +754,7 @@ main[data-tfam211] .empire-v250-cinematic .v250-act{
   gap:clamp(.5rem,1vw,.875rem);
   width:100%;
   min-width:0;
-  padding:clamp(5.5rem,14vw,12rem) clamp(1.125rem,9vw,8rem) clamp(1.125rem,3.5vw,3.25rem);
+  padding:clamp(1.25rem,4vw,3.25rem) clamp(1rem,8vw,7rem) clamp(6rem,18vw,14rem);
   text-align:center;
 }
 .faction-arrival-flag{
@@ -745,7 +782,7 @@ main[data-tfam211] .faction-arrival-identity p{
 }
 @media(max-width:560px){
   .faction-arrival-window::after{
-    background:linear-gradient(0deg,#0c0d13 0%,#11121cf0 37%,#10121a42 81%,transparent 100%);
+    background:linear-gradient(180deg,#10121cf5 0%,#10121cd9 42%,#10121a3b 82%,#0c0d1380);
   }
 }
 

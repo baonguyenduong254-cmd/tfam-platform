@@ -95,6 +95,9 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
       {quoteLine&&<p>{presentationPunctuation(quoteLine)}</p>}
      </div>
     </div>
+    <div className="faction-arrival-fasteners" aria-hidden="true">
+     <span/><span/><span/><span/><span/><span/><span/><span/><span/>
+    </div>
    </div>
   </header>
 
