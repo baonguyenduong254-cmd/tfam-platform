@@ -11,3 +11,7 @@
 ## Integration later
 
 Upload both full images and thumbnails, validate the public object contents against provenance WebP hashes, then update lib/media/manifest.json sizes/hashes and cache revision through the supported site source/deployment flow. Canon crown, bell and other unspecified decorative details are artistic interpretations; no new lore or power is established by these illustrations.
+
+## R2 archive, 24 November 2026
+
+The 74 PNG masters are stored in `tfam-assets` under `images/vestigium/masters/`. Each entry in `art/vestigium-refresh-20261028/provenance.json` records its object key (`r2_master_key`) and SHA-256 (`png_sha256`). To recover a master, append its key to the base URL in `lib/media/config.json`, download the PNG and verify its SHA-256 against provenance. All 74 R2 downloads matched the recorded hashes in the [archive verification run](https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/45404994460).
