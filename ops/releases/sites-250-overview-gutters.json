@@ -1,0 +1,35 @@
+{
+  "siteProjectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+  "siteVersion": 250,
+  "sourceCommit": "bcbd12bdf038cd7666f4732352482f1ea2a86fc6",
+  "sourceTree": "0d80df0ab6c689e49413637c8e1d31b3e205a146",
+  "githubCommit": "4bd0270b9a6c3ca649d355f3525bfa2e8b6cdef3",
+  "pullRequest": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/36",
+  "deploymentId": "appgdep_6b05c373a4f48191bddb50c9133605fc",
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_6c8378b22e14819187ffec33d550f249",
+  "archiveHash": "sha256:8960807c3d9b17e3146f7b721e9cf38cf130269d872b5135a9ab322e615b6a49",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verified": true,
+  "verifiedAt": "2026-11-25",
+  "rollback": {
+    "siteVersion": 249,
+    "sourceCommit": "76391c360f1465eddbca463a901300cd316d7463",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "verified": true,
+    "deploymentId": "appgdep_6b05c1da1b28819190fac819a9b3048d",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_1fe1131c32b081919e2fc338401fef95",
+    "verifiedAt": "2026-11-24"
+  },
+  "verification": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "productionViewports": [
+      320,
+      390,
+      768,
+      1440,
+      1920
+    ],
+    "productionChecks": "The faction Overview header and footer align to 20px page gutters. All four acts and continuation stay inside the same gutters. The title and tagline fit inside the curved bezel."
+  }
+}
