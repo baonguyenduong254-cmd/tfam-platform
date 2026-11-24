@@ -42,7 +42,8 @@
     "png_sha256": "e3dd927271cc0978bf877469eae98a1a77aad7b63235654753311b9a2e217c61",
     "hash_target": "lossless WebP full image",
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/armament-fuego-negro.png"
   },
   {
     "id": "armament-bala-de-fuego",
@@ -87,7 +88,8 @@
     "png_sha256": "aeb9a0484dcb7390aad4cc4c925c62d2a90ea9b55a141091b73068d56b2be36b",
     "hash_target": "lossless WebP full image",
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/armament-bala-de-fuego.png"
   },
   {
     "id": "armament-collection-6-06",
@@ -107,7 +109,8 @@
     "png_sha256": "1479591164c6ad63791f391f759f8bb9dac94a3813dd804b587bb8b34c7b227d",
     "hash_target": "lossless WebP full image",
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/armament-collection-6-06.png"
   },
   {
     "id": "armament-collection-7-02",
@@ -127,7 +130,8 @@
     "png_sha256": "97f9ef115453c3727f73bc807b012665f3d5675c4d335b68b5e366a63af0508d",
     "hash_target": "lossless WebP full image",
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/armament-collection-7-02.png"
   },
   {
     "id": "botanical-the-unnumbered-lotus",
@@ -152,7 +156,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "679a0401bdf272b5c98745a71f339b67b0d2c1b238037015a72b46c5f9781b06",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/botanical-the-unnumbered-lotus.png"
   },
   {
     "id": "botanical-the-inkless-letter-tree",
@@ -177,7 +182,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9610b65091ce1d982e8cd68c59a490aeaa30e3c958f590444647e2d33832d6a5",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/botanical-the-inkless-letter-tree.png"
   },
   {
     "id": "botanical-horizon-lichen",
@@ -202,7 +208,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "2f3db894652366fabcec868712818e85633433fb0aafc50fd6ffb6fd3bd65ad5",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/botanical-horizon-lichen.png"
   },
   {
     "id": "device-044",
@@ -227,7 +234,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9b8ec4889e322e80a96cdaa3e29c5834d2bf5e0090f84faa5607493a3d723d16",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-044.png"
   },
   {
     "id": "device-045",
@@ -252,7 +260,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a0109f6327d468dba31a58e42393ce73d875bb4aca41cf28f6b1727634eb729d",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-045.png"
   },
   {
     "id": "complex-ca-voi-lo-tham",
@@ -277,7 +286,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "c33d667447c6c2fa79fe47136a1f13b7b0ca9138a1266c1ce88ae8938fc9f8c9",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-ca-voi-lo-tham.png"
   },
   {
     "id": "complex-can-lo-hoa-tuy",
@@ -302,7 +312,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ab0540ffc83ae710b2a0af232bac10c83f909396b02fbf9557d4ff54e0ccb2b7",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-can-lo-hoa-tuy.png"
   },
   {
     "id": "complex-civitas",
@@ -327,7 +338,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "69652da51feceea69efd9698de422bd7b50fbf6f3aeb3b04ab2eec4df2436068",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-civitas.png"
   },
   {
     "id": "complex-cot-buom-muoi-ba",
@@ -352,7 +364,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "8948dc6573b15b8c55057eedb723af06ff3dc712733650f1e846d5c765f51fce",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-cot-buom-muoi-ba.png"
   },
   {
     "id": "complex-giap-vuon-bach-thiet",
@@ -377,7 +390,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "fda4a1a5ebb308f9243760a12f6be171108ef28837c0d0c1807aa3dba68ee0cd",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-giap-vuon-bach-thiet.png"
   },
   {
     "id": "complex-vuon-trong-tieng-chuong",
@@ -402,7 +416,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ccc0d7bc36e7fb7d24d1c2cf0e4a5d6ec45fb642c3c1371a53313043055b8e24",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/complex-vuon-trong-tieng-chuong.png"
   },
   {
     "id": "device-053",
@@ -427,7 +442,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "f111fd0ab2ee20ccd5b66c0e8bca4166b2510e866b8921145796da6d79530bf6",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-053.png"
   },
   {
     "id": "device-061",
@@ -452,7 +468,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "5cabd3990c5abdc673cb14f9487cf4ce6abfeb1735e5c158688d6c0d69ed2acd",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-061.png"
   },
   {
     "id": "device-066",
@@ -484,7 +501,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "f15554679f411f2a619c9067b7bf180b1f7075a5e17b8001b1e5879efbe8832c",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-066.png"
   },
   {
     "id": "device-067",
@@ -516,7 +534,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "512c24a2200414471fc0aee202a6df6f5ffce9369175d555170fee092f84981f",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/device-067.png"
   },
   {
     "id": "material-bot-chan-dong",
@@ -541,7 +560,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "c8f00d6fbbe5ad4a4d96781c0689432c1636a2b90f57e0250075c2124b1ff2cc",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-bot-chan-dong.png"
   },
   {
     "id": "material-bot-mo-men",
@@ -566,7 +586,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9f2d98b1cf63c05d7840a5cada12cacb023cf89618d443b18216dbc3a63da385",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-bot-mo-men.png"
   },
   {
     "id": "material-bot-nam-yen",
@@ -591,7 +612,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "3ad649eefcf53ae59ae5f2ea1d4f01ebc7d54fc3bf189231bc477fab9cf3774c",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-bot-nam-yen.png"
   },
   {
     "id": "material-bot-tach-rung",
@@ -616,7 +638,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a37d66ce96ee131e17ad9d00497d9d2164d0e911fa0bfaee6d2bfcaac0355624",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-bot-tach-rung.png"
   },
   {
     "id": "material-bot-tat-duong-muc",
@@ -641,7 +664,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "05eefe149d7cec2be25a510be75a16f4b0b91f63426c21a46f78adf8d99f618b",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-bot-tat-duong-muc.png"
   },
   {
     "id": "material-da-nhuong-luc",
@@ -666,7 +690,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a36d6d14fcb7c5d86f89d719e86882bceabbfdae5b683b507c94b1f1763aca02",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-da-nhuong-luc.png"
   },
   {
     "id": "material-dat-om-re",
@@ -691,7 +716,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "f20b5e7a5e0c82f02693e298701670ea6d32c6167fcd994402402e29b089bddc",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-dat-om-re.png"
   },
   {
     "id": "material-dich-chot-sac",
@@ -716,7 +742,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ff5d378a8fa2ddaea92c35e0f9b60afe8dc9146cd2d1ad0bcf13b61c22452f4d",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-dich-chot-sac.png"
   },
   {
     "id": "material-dich-doi-mep",
@@ -741,7 +768,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "77454443e25787ba226ed1749016859f496f5f88d25ceadbdc2786e953ab6841",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-dich-doi-mep.png"
   },
   {
     "id": "material-dong-dem-nhip",
@@ -766,7 +794,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "5a70c5ca8f9420c88ecdc0ed024fcbc8658261d1fa431d4397e496522b1472de",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-dong-dem-nhip.png"
   },
   {
     "id": "material-go-soi-sherwood",
@@ -798,7 +827,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "bd8f35bdb1dccf9e59b22eebc564813eb118ad4a856978ebba0300bbeed7b766",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-go-soi-sherwood.png"
   },
   {
     "id": "material-gom-giu-thuoc",
@@ -823,7 +853,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ff6e9229aa5c3c33ebbb7cd3bf5fda90bede39ad094c6d73aa0c39f9a8201ae3",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-gom-giu-thuoc.png"
   },
   {
     "id": "material-ho-bam-lanh",
@@ -848,7 +879,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "3452423b87438980fa993f9ef95f1ccb7c5eb9d2d5053c41dd10a6203346e256",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-ho-bam-lanh.png"
   },
   {
     "id": "material-manh-men-giu-mua",
@@ -873,7 +905,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "30955e8cf0881541a364aaf1c62bb6dc49b73f91208434f4f4131234a1261c7e",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-manh-men-giu-mua.png"
   },
   {
     "id": "material-men-giu-anh-tro",
@@ -898,7 +931,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "fcf6fe88ad07bae0cd3f25e70d51f39a0a193cbf80af37ebe0cfdf10c55abcb8",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-men-giu-anh-tro.png"
   },
   {
     "id": "material-muc-giu-kho",
@@ -923,7 +957,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "7d941d45bcb17427eea2028aaabcca1c297bf6bd32ce7c6c0098f8ebf0d05899",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-muc-giu-kho.png"
   },
   {
     "id": "material-muoi-danh-thuc-hat",
@@ -948,7 +983,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "4f95b3197bbec6370496e00c7248fbafee15a2203829d70f2a5430bd598e0eb8",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-muoi-danh-thuc-hat.png"
   },
   {
     "id": "material-nhua-khau-go",
@@ -973,7 +1009,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "453de6d8fee24b363efd838cb79598bebfa2f26c97c7014c181a4c1c5bcce6b1",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-nhua-khau-go.png"
   },
   {
     "id": "material-nhua-lui-chay",
@@ -998,7 +1035,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a032b0efb6d1627b884c779f2b6fb89a83d902c13db44f8513b68469b458d510",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-nhua-lui-chay.png"
   },
   {
     "id": "material-nhua-mot-nhip-lanh",
@@ -1023,7 +1061,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "30dc2665a140aad23e1e9ce993e12e5d24596d8e04216e579b52be967eda869e",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-nhua-mot-nhip-lanh.png"
   },
   {
     "id": "phenomenon-dew-on-the-last-step",
@@ -1048,7 +1087,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "b535111b6f0793a7171a14f449a346c51f5f3b391871dc9c96cd2f5d8c7a1ec1",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-dew-on-the-last-step.png"
   },
   {
     "id": "phenomenon-leaves-upon-white-stone",
@@ -1073,7 +1113,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ade657c6ce43858287dd4449aa4341a4d8c961b728ff01291a296b3cd9824cdb",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-leaves-upon-white-stone.png"
   },
   {
     "id": "phenomenon-one-minute-of-sideways-rain",
@@ -1098,7 +1139,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "1b185378d690f78bce006e5e6d0040898ba5d4db112de252333eee621413dffc",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-one-minute-of-sideways-rain.png"
   },
   {
     "id": "phenomenon-rain-upon-one-tile",
@@ -1123,7 +1165,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "1f91a581e5ff2fdda44d88e104148cd11e497292e1cb7dc13f50f35ef8a053ec",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-rain-upon-one-tile.png"
   },
   {
     "id": "phenomenon-snow-beneath-a-sealed-roof",
@@ -1148,7 +1191,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "2c076401c39062aa36ab6c8fb53c36aa1c25496dff694cb484d4ef8897b4e21b",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-snow-beneath-a-sealed-roof.png"
   },
   {
     "id": "phenomenon-the-city-beneath-one-mist",
@@ -1173,7 +1217,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9069aa06f0328c0b08ebb76f90d8065034a0ff28cfaa751750bfece8d1a2ad20",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-city-beneath-one-mist.png"
   },
   {
     "id": "phenomenon-the-dawn-of-a-single-song",
@@ -1198,7 +1243,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "c8976cd195e7cfead61968e6ac3d658c70df5ee82a0189b3953622d6162ce922",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-dawn-of-a-single-song.png"
   },
   {
     "id": "phenomenon-the-flat-sea-of-the-courtyard",
@@ -1223,7 +1269,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "6d1b9bb923e1a3137f1ef64b05cedff0c029f58790c11fcf616914c3981e10c0",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-flat-sea-of-the-courtyard.png"
   },
   {
     "id": "phenomenon-the-light-for-a-later-witness",
@@ -1248,7 +1295,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "78a0566896a1d6acc76d9322260edf8ab4976c94577ff1b5166a52385021e3f8",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-light-for-a-later-witness.png"
   },
   {
     "id": "phenomenon-the-load-remembering-vault",
@@ -1273,7 +1321,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ab5e6c66a2bc2d81a7dbe458aad39edc86d6ef8c6cb0efef6260b18fb019d210",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-load-remembering-vault.png"
   },
   {
     "id": "phenomenon-the-manuscript-mist-layer",
@@ -1298,7 +1347,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "37ee1ea9248d944c34652e57a6fcb081ba2cacfc4e1ff0e46e6ee1386e3b7bf4",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-manuscript-mist-layer.png"
   },
   {
     "id": "phenomenon-the-passage-of-vanished-scents",
@@ -1323,7 +1373,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "4198fd5f4b7ae1e51c8cbd1e6f49dd823e9b510fe0bba951b49afec8530d9e03",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-passage-of-vanished-scents.png"
   },
   {
     "id": "phenomenon-the-pool-holding-an-old-sky",
@@ -1348,7 +1399,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "7a9aa94f87be0be32ae70afbdc44a6592ed5339201f16b80574db8e4f4bea781",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-pool-holding-an-old-sky.png"
   },
   {
     "id": "phenomenon-the-pool-remembering-one-wind",
@@ -1373,7 +1425,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "40df1f401fbddb356593645ff8af290047111664974b3f47e54a39488e962920",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-pool-remembering-one-wind.png"
   },
   {
     "id": "phenomenon-the-quiet-hour-of-an-empty-quay",
@@ -1398,7 +1451,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "44466285f00993dd711ae38e6e86197b35856a672699378eafe047e3c8704fc9",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-quiet-hour-of-an-empty-quay.png"
   },
   {
     "id": "phenomenon-the-quiet-zone-holding-every-note",
@@ -1423,7 +1477,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "0b6d55db05ced9b7071d9286289cd4c1948c9d8264f06114733ea2988634d8bd",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-quiet-zone-holding-every-note.png"
   },
   {
     "id": "phenomenon-the-rain-that-falls-once",
@@ -1448,7 +1503,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "f0ed29048b9504212fd7650ac67ae0b4d7275fe75474ee53c7323d70c1d1e539",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-rain-that-falls-once.png"
   },
   {
     "id": "phenomenon-the-remaining-sunthread",
@@ -1473,7 +1529,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "56f86818ff407433417d55b767010d77438c62e3fb6c57b3d2f83acd523e8c56",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-remaining-sunthread.png"
   },
   {
     "id": "phenomenon-the-ring-retaining-water",
@@ -1498,7 +1555,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "08ab271e5fb05c38a2157dbb4c461a79b224f77fefff3c3880c5534abfdb1aec",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-ring-retaining-water.png"
   },
   {
     "id": "phenomenon-the-room-of-two-dawns",
@@ -1523,7 +1581,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "ff08ab02854cd851c382588469c6697ac9e8b36e659b317ec0e786a383894e15",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-room-of-two-dawns.png"
   },
   {
     "id": "phenomenon-the-rootshadow-garden",
@@ -1548,7 +1607,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "6f07d62a54915d3811b9f98af3870664e256a0b428ac462c702a3e4429200e68",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-rootshadow-garden.png"
   },
   {
     "id": "phenomenon-the-space-left-for-a-return",
@@ -1573,7 +1633,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "d43d07dc0e07f9eeff0f1841e7516b8be4a0f22485d83d890c07e70793897ed6",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-space-left-for-a-return.png"
   },
   {
     "id": "phenomenon-the-stair-of-high-notes",
@@ -1598,7 +1659,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "fc287189f91072886d7f76092b6ad1504bb28791fdbfa79b037ce31093041329",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-stair-of-high-notes.png"
   },
   {
     "id": "phenomenon-the-two-season-shadow-garden",
@@ -1623,7 +1685,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "286e3336a33ed487d19337cd93c143c962a0b9bc9316e8e47ec4fc33610bab20",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-two-season-shadow-garden.png"
   },
   {
     "id": "phenomenon-the-water-sound-alcove",
@@ -1648,7 +1711,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "0c62a79738dd4815352909c4d8943ca3d633178580a25c03e3016ebe3961c6bf",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-water-sound-alcove.png"
   },
   {
     "id": "phenomenon-the-waterline-beneath-the-lamp",
@@ -1673,7 +1737,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "87cbf72ef26e466f0c6bf1b0f8ea0b6c728744198492df8895dd50d4c6b4ed6c",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-the-waterline-beneath-the-lamp.png"
   },
   {
     "id": "phenomenon-winter-within-the-wall-niche",
@@ -1698,7 +1763,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "e52dd84586236d4bc9e08ab920d47e0c64ba0c26c13dae5cfff432a4cc904b52",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/phenomenon-winter-within-the-wall-niche.png"
   },
   {
     "id": "material-sap-niem-mot-lan",
@@ -1723,7 +1789,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a6e78c9fc108c68ff4e0ba0cc55c11fb4c7ac5bb188da8fd3543dfe2d4594a0b",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-sap-niem-mot-lan.png"
   },
   {
     "id": "material-sap-tra-dau",
@@ -1748,7 +1815,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "32b870d217d1784eead7fe9bd07088265abe82869b44fa07d78789ea8d5078eb",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-sap-tra-dau.png"
   },
   {
     "id": "material-soi-banh-nuoc",
@@ -1773,7 +1841,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9e81952a7a5beb03dbd5c9d35c07bb65ecf802627086e0d1fe4352a608226c51",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-soi-banh-nuoc.png"
   },
   {
     "id": "material-soi-cham-dut",
@@ -1798,7 +1867,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "a4db7b8b5d6adb1b427ba1963bc299dd28b5c9bc275511632191ab436fbe8093",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-soi-cham-dut.png"
   },
   {
     "id": "material-soi-chi-ve",
@@ -1823,7 +1893,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "9d6f6a5d78fde1e4d8179ace0c9447135fabd0417dadea7b79197fd8d7d8c632",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-soi-chi-ve.png"
   },
   {
     "id": "material-than-ngu-dong",
@@ -1848,7 +1919,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "336709709522137cd802cc1d65a532c6eafd64ce3a30f03d199acd2271a82be4",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-than-ngu-dong.png"
   },
   {
     "id": "material-vai-uong-mau",
@@ -1873,7 +1945,8 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "87c04931e9a40b415ec21dc3dfb1507f304338bf8ae1b6caafce7dc1110b0728",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-vai-uong-mau.png"
   },
   {
     "id": "material-voi-nhan-tro",
@@ -1898,6 +1971,7 @@
     "visual_review": "Passed: defining form, materials, silhouette and anomaly reviewed against dossier; unknown canon appearance remains artistic interpretation",
     "png_sha256": "4d16ae467a171773d3313a2538fdfffa4cb65c2d0a03e6c9eb5dbe9edebd75d9",
     "hash_target": "lossless WebP full image",
-    "r2_verified_at": "2026-10-28T15:06:21Z"
+    "r2_verified_at": "2026-10-28T15:06:21Z",
+    "r2_master_key": "images/vestigium/masters/material-voi-nhan-tro.png"
   }
 ]

@@ -32,6 +32,6 @@ with zipfile.ZipFile(out,'w',compression=zipfile.ZIP_STORED) as z:
   i=x['id'];z.writestr(x['r2_full_key'],read_webp(i+'.webp',x['r2_full_key']));z.writestr(x['r2_thumbnail_key'],read_webp(i+'.thumb.webp',x['r2_thumbnail_key']))
  z.write(base/'provenance.json','provenance.json')
  for p in base.glob('*prompt*'):z.write(p,p.name)
- z.writestr('README.txt','74 full-resolution lossless WebP images + 74 thumbnails. R2 keys preserved as ZIP paths. WebP exports are verified against the R2 media manifest when retrieved remotely. Master PNGs remain in the source checkpoint. Open index.html to browse. Update site manifest hashes only after a verified upload.\n')
+ z.writestr('README.txt','74 full-resolution lossless WebP images + 74 thumbnails. R2 keys preserved as ZIP paths. WebP exports are verified against the R2 media manifest when retrieved remotely. Master PNGs are archived in R2. See r2_master_key and png_sha256 in provenance.json. Open index.html to browse. Update site manifest hashes only after a verified upload.\n')
 with zipfile.ZipFile(out) as z:assert z.testzip() is None
 print('Created',out,'bytes',out.stat().st_size)
