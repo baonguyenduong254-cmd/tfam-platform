@@ -1,11 +1,10 @@
 'use client';
 import {carryArtwork} from '../../lib/motion/artwork-transition';
-import {AnimatePresence,motion} from 'motion/react';
+import {AnimatePresence,MotionConfig,motion} from 'motion/react';
 import {useCallback,useEffect,useRef,useState,type CSSProperties,type PointerEvent} from 'react';
-import {ArrowUpRight,Compass,BookOpen,Gem} from 'lucide-react';
+import {ArrowLeft,ArrowUpRight,Compass,BookOpen,Gem} from 'lucide-react';
 import OpeningLivingScene from './OpeningLivingScene';
 import MediaImage from './MediaImage';
-import BackgroundMusicSlot from './BackgroundMusicSlot';
 import {factionGroups,revoltSlots} from '../../lib/discovery';
 import {factionSelectionTagline} from '../../lib/faction-selection-taglines';
 import standards from '../../public/heraldry/manifest.json';
@@ -39,6 +38,7 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
 
  function trackPlaque(event:PointerEvent<HTMLButtonElement>){
   if(event.pointerType!=='mouse')return;
+  if(typeof matchMedia==='function'&&(matchMedia('(prefers-reduced-motion: reduce)').matches||!matchMedia('(hover: hover) and (pointer: fine)').matches))return;
   const crest=event.currentTarget.querySelector('.selection-crest');
   if(!(crest instanceof HTMLElement))return;
   const state=tilt.current;
@@ -54,8 +54,8 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
    if(!rect.width||!rect.height)return;
    const horizontal=Math.max(-1,Math.min(1,2*(state.x-rect.left)/rect.width-1));
    const vertical=Math.max(-1,Math.min(1,2*(state.y-rect.top)/rect.height-1));
-   crest.style.setProperty('--plaque-pitch',`${-vertical*11}deg`);
-   crest.style.setProperty('--plaque-yaw',`${horizontal*18}deg`);
+   crest.style.setProperty('--plaque-pitch',`${-vertical*9}deg`);
+   crest.style.setProperty('--plaque-yaw',`${horizontal*14}deg`);
   });
  }
 
@@ -69,11 +69,12 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
  useEffect(()=>{if(!notice)return;const timer=setTimeout(()=>setNotice(''),4500);return()=>clearTimeout(timer);},[notice]);
 
  function horizons(e:React.MouseEvent<HTMLAnchorElement>){if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();history.pushState(null,'','#horizons');setChoose(true);window.scrollTo({top:0,behavior:'instant'});}
+ function returnToPortal(e?:React.MouseEvent<HTMLElement>){if(e&&(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey))return;e?.preventDefault();history.pushState(null,'',location.pathname);setChoose(false);window.scrollTo({top:0,behavior:'instant'});}
  function enter(id:string,button:HTMLButtonElement){
   const index=data.factions.findIndex((f:R)=>f.id===id);
   if(index<0||!discovery.canExplore(id)){setNotice(discovery.condition(id));return;}
   try{localStorage.setItem('tfam-last-faction',id);}catch{}
-  try{document.documentElement.style.setProperty('--tfam-banner-duration',sessionStorage.getItem('tfam-arrival:'+id)==='seen'?'280ms':'900ms');}catch{}
+  try{document.documentElement.style.setProperty('--tfam-banner-duration',sessionStorage.getItem('tfam-arrival:'+id)==='seen'?'280ms':'650ms');}catch{}
   carryArtwork(button,()=>onEnter(index,'map'),'tfam-faction-banner',()=>scrollTo({top:0,behavior:'instant'}));
  }
  function openDestination(e:React.MouseEvent<HTMLAnchorElement>,dest:'reader'|'vestigium'){
@@ -85,30 +86,32 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
  const hoveredFaction=data.factions.find((f:R)=>f.id===hoveredId);
  const ambientTint=hoveredFaction?.ui_color_primary||'#8c2642';
 
- return <div className={'atlas-opening tfam-opening-210 tfam-astral-v250 '+(choose?'choosing':'')} data-opening-motion="on" style={{'--astral-tint':ambientTint} as CSSProperties}>
+ return <MotionConfig reducedMotion="user"><div className={'atlas-opening tfam-opening-210 tfam-astral-v250 tfam-opening-v251 '+(choose?'choosing':'')} data-opening-motion="on" style={{'--astral-tint':ambientTint} as CSSProperties}>
   <OpeningLivingScene scene={choose?'court':'opening'}/>
   <div className="opening-mist" aria-hidden="true"/>
   <div className="astral-nebula-veil" aria-hidden="true"/>
 
   <header className="opening-toolbar astral-toolbar">
-   <a className="opening-wordmark" href="/" aria-label="Through Frost and Myth" onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();history.pushState(null,'',location.pathname);setChoose(false);window.scrollTo({top:0,behavior:'instant'});}}>Through Frost and Myth <sup>©</sup></a>
-   <BackgroundMusicSlot className="opening-header-music"/>
+   <a className="opening-wordmark" href="/" aria-label="Through Frost and Myth" onClick={returnToPortal}>Through Frost and Myth <sup aria-hidden="true">©</sup></a>
+   {choose&&<button type="button" className="opening-return-btn" onClick={()=>returnToPortal()}><ArrowLeft size={16} aria-hidden="true"/><span>Portal</span></button>}
   </header>
 
   <AnimatePresence mode="wait" initial={false}>
-   {!choose?<motion.section key="opening" className="opening-title astral-opening-hero" initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-14}} transition={{duration:.65}}>
+   {!choose?<motion.section key="opening" className="opening-title astral-opening-hero" initial={{opacity:0,y:12}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-10}} transition={{duration:.36,ease:[0.2,0,0,1]}}>
     <div className="opening-work-title">
-     <span className="title-blood-bloom" aria-hidden="true"/>
-     <h1><span>Through Frost</span><em>and Myth</em><sup aria-label="copyright">©</sup></h1>
+     <span className="opening-crest-rule" aria-hidden="true"/>
+     <h1><span>Through Frost</span><em>and Myth<sup aria-label="copyright">©</sup></em></h1>
      <p className="opening-byline">An Imperial Dark Fantasy Universe by Leonardo Ravenna</p>
     </div>
-    <blockquote className="opening-quote">Who are you in a world buried beneath snow,<br/>where history itself has been bent from its true course?</blockquote>
+    <blockquote className="opening-quote">Who are you in a world buried beneath snow, where history itself has been bent from its true course?</blockquote>
     <div className="opening-actions">
-     <a className="opening-enter" href="/#horizons" onClick={horizons}><Compass size={19} aria-hidden="true"/><span>ENTER THE REALMS</span></a>
-     <a className="opening-reader-button" href="/chronicles" onClick={e=>openDestination(e,'reader')}><BookOpen size={19} aria-hidden="true"/><span>The Chronicles</span></a>
-     <a className="opening-reader-button" href="/vestigium" onClick={e=>openDestination(e,'vestigium')}><Gem size={19} aria-hidden="true"/><span>MAISON VESTIGIUM</span></a>
+     <a className="opening-enter" href="/#horizons" onClick={horizons}><Compass size={19} aria-hidden="true"/><span>Enter the Realms</span><ArrowUpRight size={17} aria-hidden="true"/></a>
+     <div className="opening-secondary-actions">
+      <a className="opening-reader-button" href="/chronicles" onClick={e=>openDestination(e,'reader')}><BookOpen size={18} aria-hidden="true"/><span>The Chronicles</span></a>
+      <a className="opening-reader-button" href="/vestigium" onClick={e=>openDestination(e,'vestigium')}><Gem size={18} aria-hidden="true"/><span>Maison Vestigium</span></a>
+     </div>
     </div>
-   </motion.section>:<motion.section key="banners" className="faction-selection faction-depth astral-portal-grid" aria-labelledby="horizon-title" initial={{opacity:0,y:24}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:.65}}>
+   </motion.section>:<motion.section key="banners" className="faction-selection faction-depth astral-portal-grid" aria-labelledby="horizon-title" initial={{opacity:0,y:14}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:.36,ease:[0.2,0,0,1]}}>
     <header className="horizon-intro astral-intro">
      <h1 id="horizon-title">Choose Your Realm</h1>
      <p>Each empire opens a private frozen world of courtly intrigue, doctrine, and power.</p>
@@ -160,5 +163,5 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
     {notice&&<div className="horizon-lock-notice" role="status" key={notice}>{notice}</div>}
    </motion.section>}
   </AnimatePresence>
- </div>;
+ </div></MotionConfig>;
 }
