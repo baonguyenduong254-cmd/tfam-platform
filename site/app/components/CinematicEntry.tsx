@@ -2,7 +2,7 @@
 import {carryArtwork} from '../../lib/motion/artwork-transition';
 import {AnimatePresence,motion} from 'motion/react';
 import {useCallback,useEffect,useRef,useState,type CSSProperties,type PointerEvent} from 'react';
-import {ArrowUpRight,Compass,BookOpen,Gem,Sparkles} from 'lucide-react';
+import {ArrowUpRight,Compass,BookOpen,Gem} from 'lucide-react';
 import OpeningLivingScene from './OpeningLivingScene';
 import MediaImage from './MediaImage';
 import BackgroundMusicSlot from './BackgroundMusicSlot';
@@ -92,11 +92,7 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
 
   <header className="opening-toolbar astral-toolbar">
    <a className="opening-wordmark" href="/" aria-label="Through Frost and Myth" onClick={e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();history.pushState(null,'',location.pathname);setChoose(false);window.scrollTo({top:0,behavior:'instant'});}}>Through Frost and Myth <sup>©</sup></a>
-   <div className="astral-toolbar-links">
-    <a href="/chronicles" onClick={e=>openDestination(e,'reader')}><BookOpen size={15}/> 6 Arcs</a>
-    <a href="/vestigium" onClick={e=>openDestination(e,'vestigium')}><Gem size={15}/> Maison Vestigium</a>
-    <BackgroundMusicSlot className="opening-header-music"/>
-   </div>
+   <BackgroundMusicSlot className="opening-header-music"/>
   </header>
 
   <AnimatePresence mode="wait" initial={false}>
@@ -108,13 +104,12 @@ export default function CinematicEntry({data,replay,onEnter}:Props){
     </div>
     <blockquote className="opening-quote">Who are you in a world buried beneath snow,<br/>where history itself has been bent from its true course?</blockquote>
     <div className="opening-actions">
-     <a className="opening-enter" href="/#horizons" onClick={horizons}><Compass size={19} aria-hidden="true"/><span>ENTER THE REALMS</span><ArrowUpRight size={18} aria-hidden="true"/></a>
-     <a className="opening-reader-button" href="/chronicles" onClick={e=>openDestination(e,'reader')}><BookOpen size={19} aria-hidden="true"/><span>THE SIX ARCS</span><ArrowUpRight size={18} aria-hidden="true"/></a>
-     <a className="opening-reader-button" href="/vestigium" onClick={e=>openDestination(e,'vestigium')}><Gem size={19} aria-hidden="true"/><span>MAISON VESTIGIUM</span><ArrowUpRight size={18} aria-hidden="true"/></a>
+     <a className="opening-enter" href="/#horizons" onClick={horizons}><Compass size={19} aria-hidden="true"/><span>ENTER THE REALMS</span></a>
+     <a className="opening-reader-button" href="/chronicles" onClick={e=>openDestination(e,'reader')}><BookOpen size={19} aria-hidden="true"/><span>The Chronicles</span></a>
+     <a className="opening-reader-button" href="/vestigium" onClick={e=>openDestination(e,'vestigium')}><Gem size={19} aria-hidden="true"/><span>MAISON VESTIGIUM</span></a>
     </div>
    </motion.section>:<motion.section key="banners" className="faction-selection faction-depth astral-portal-grid" aria-labelledby="horizon-title" initial={{opacity:0,y:24}} animate={{opacity:1,y:0}} exit={{opacity:0}} transition={{duration:.65}}>
     <header className="horizon-intro astral-intro">
-     <span className="astral-sigil"><Sparkles size={14} aria-hidden="true"/> Sovereign Threshold</span>
      <h1 id="horizon-title">Choose Your Realm</h1>
      <p>Each empire opens a private frozen world of courtly intrigue, doctrine, and power.</p>
     </header>

@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24",
-  "phase": "update-241-live",
+  "updatedAt": "2026-11-25",
+  "phase": "overview-gutters-250-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 241,
-    "sourceCommit": "d233347ac9ec137cd3fd26e0cdb97d1e9bb4cbe2",
+    "siteVersion": 250,
+    "sourceCommit": "bcbd12bdf038cd7666f4732352482f1ea2a86fc6",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6b05766080308191a6baff35dc8be136",
-    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_8941bf2ae7d88191925b5b682febb6c0",
-    "verifiedAt": "2026-11-24",
+    "deploymentId": "appgdep_6b05c373a4f48191bddb50c9133605fc",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_6c8378b22e14819187ffec33d550f249",
+    "verifiedAt": "2026-11-25",
     "rollback": {
-      "siteVersion": 240,
-      "sourceCommit": "f2261d670325c5076a2b2eff78f4f714a303563a",
+      "siteVersion": 249,
+      "sourceCommit": "76391c360f1465eddbca463a901300cd316d7463",
       "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
       "verified": true,
-      "deploymentId": "appgdep_6b05511428108191b39ad3a8b9011238",
-      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_270db6cb42b88191926a4d7ce757c91c",
+      "deploymentId": "appgdep_6b05c1da1b28819190fac819a9b3048d",
+      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_1fe1131c32b081919e2fc338401fef95",
       "verifiedAt": "2026-11-24"
     }
   },
@@ -31,7 +31,7 @@
     "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
     "importSecretRemoved": true,
     "manualCloudRelease": "verified",
-    "liveSourceRecord": "ops/releases/241-source.json"
+    "liveSourceRecord": "ops/releases/sites-250-overview-gutters.json"
   },
   "r2": {
     "status": "full-dashboard-inventory-reconciled",

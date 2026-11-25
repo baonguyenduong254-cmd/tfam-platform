@@ -1,0 +1,35 @@
+{
+  "siteProjectId": "appgprj_6abf3718495481919a2cd6954776f57e",
+  "siteVersion": 246,
+  "sourceCommit": "7ac33f76847d126a18d5c45f65003ec20542247e",
+  "sourceTree": "af356150019e0028005c3b756245e720be3ee76a",
+  "githubCommit": "27a813329cdef8eb52c7c3463f77151f496d0bdb",
+  "pullRequest": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/36",
+  "deploymentId": "appgdep_6b05bec88364819182707fd5853bd684",
+  "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_83ca666aced8819189156d5ebca578d2",
+  "archiveHash": "sha256:17ab2f82f48308ab8cf2e776f2398f0bf067c52c76d77599f49f5ca87bec4bd6",
+  "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+  "verified": true,
+  "verifiedAt": "2026-11-24",
+  "rollback": {
+    "siteVersion": 245,
+    "sourceCommit": "6ac5a80e7a25ede9686ad5a4a03fb86fb3795c62",
+    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "verified": true,
+    "deploymentId": "appgdep_6b05bca440b88191a2949fef8ba175fe",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_4d39d634602881918ab6f719668292c6",
+    "verifiedAt": "2026-11-24"
+  },
+  "verification": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "productionViewports": [
+      320,
+      390,
+      768,
+      1440,
+      1920
+    ],
+    "productionChecks": "Castilian Empire art clipped to the arch, flag and title rendered, full tagline fits, and the old metrics and button are absent."
+  }
+}
