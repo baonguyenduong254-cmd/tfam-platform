@@ -224,6 +224,24 @@
         "site/docs/vestigium-refresh-20261028/CHECKPOINT.md",
         "site/docs/vestigium-refresh-20261028/FINAL-CHECKPOINT.md"
       ]
+    },
+    {
+      "path": "review/*, .impeccable/*, content/*, schemas/*, DESIGN.md, PRODUCT.md, v209/v210 workflows & tools, site/art/retired-atlas-v115/*, site/art/audio-web-backup/*, .agents/skills/tfam-imperial-world-v240/*, ops/releases/* (pre-v250)",
+      "kind": "retired-v115-atlas-reviews-backup-and-v240-skill",
+      "count": 2450,
+      "retiredAt": "2026-11-25",
+      "recovery": "Git commit de64ed0c3b07f6953bebbb9480a931db5dccead3",
+      "proof": "Verified superseded by v250+ runtime/skills or 0 references in site/app, site/lib, site/scripts, site/tests, and active R2 soundtrack inventory",
+      "retainedActive": [
+        ".github/workflows/push-sites-source.yml",
+        ".github/workflows/r2-inventory.yml",
+        "tools/push210-source.py",
+        "tools/receive210-source-token.py",
+        "tools/r2_inventory.py",
+        "third_party/notices/*",
+        "ops/releases/sites-250-overview-gutters.json",
+        "site/art/audio-originals/*"
+      ]
     }
   ],
   "r2Audit": {
