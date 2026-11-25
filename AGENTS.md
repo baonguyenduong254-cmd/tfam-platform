@@ -60,3 +60,8 @@
 - Use tfam-web-research for web access/research and tfam-media-production for image/video/audio work. Discover tools actually available in the current session and read their provider skills; do not claim credentials, a browser, a paid entitlement or an MCP connection from a registry entry.
 - Prefer cloud execution when configured; local owner-authorized workstation execution is permitted when explicitly approved by the owner. Do not copy host/plugin secrets or auth state into the repo.
 - Project-authored TFAM skills also include `tfam-web-design`, `tfam-github-management`, and `tfam-data-distribution` in `.agents/skills/` (recorded in `references/skills-capabilities.json`). External agent-browser/Remotion entries are pinned references only, not installed tools.
+
+## 3-Role Workflow (Owner · Worker · Supervisor)
+- **Owner & Chief Architect (`baonguyenduong254`, Paid Pro full models):** Authors architecture, creates exact GitHub Issue blueprints (`File Scope`, `Forbidden Files`, `Checks`), invokes Codex Supervisor review, verifies local preview, and holds sole authority to merge `main` or deploy.
+- **Worker (`leonardoravennax`, Trial Pro `hydrogen`):** Works strictly from Owner-authored Issue blueprints on `task/<issue>-<slug>` branches. Never pushes directly to `main`; runs `tsc --noEmit`, `pnpm run build`, and `node --test tests/*.test.mjs`, then opens a PR referencing `Closes #<issue>`. Max 2 fix rounds per PR after review.
+- **Supervisor (`Codex Plus` via MCP / Control Center):** Mandatory `read-only` reviewer auditing Worker PR diffs against `AGENTS.md` and `.agents/skills/tfam-web-design/SKILL.md` (`PASS` or `FAIL` with `file:line` findings).
