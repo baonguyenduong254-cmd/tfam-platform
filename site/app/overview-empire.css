@@ -473,8 +473,8 @@ main[data-tfam211] .empire-v255-screens .screen-roster-thumb{
 main[data-tfam211] .empire-v255-screens .screen-roster-thumb img{
   width:100%;
   height:100%;
-  object-fit:contain;
-  object-position:center top;
+  object-fit:cover;
+  object-position:center 16%;
 }
 main[data-tfam211] .empire-v255-screens .screen-roster-chip strong{
   font-family:'Cormorant Garamond',Cinzel,Georgia,serif;
@@ -595,71 +595,198 @@ main[data-tfam211] .empire-v255-screens .scrim-forces{
     linear-gradient(90deg,rgba(11,8,17,.94) 0%,rgba(13,9,20,.8) 52%,rgba(11,8,17,.66) 100%),
     linear-gradient(180deg,rgba(9,6,15,.82) 0%,transparent 18%,transparent 82%,rgba(9,6,15,.94) 100%);
 }
-main[data-tfam211] .empire-v255-screens .screen-forces-inner{
+main[data-tfam211] .empire-v255-screens .screen-forces-inner.screen-forces-v264{
   display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(320px,1.05fr);
-  gap:clamp(32px,5vw,76px);
+  grid-template-columns:minmax(0,1.02fr) minmax(340px,1.08fr);
+  gap:clamp(28px,4.5vw,68px);
   align-items:center;
 }
-main[data-tfam211] .empire-v255-screens .screen-force-tabs{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px 22px;
-  border-bottom:1px solid rgba(226,196,143,.2);
-  padding-bottom:12px;
-  margin-bottom:26px;
-}
-main[data-tfam211] .empire-v255-screens .screen-force-tabs button{
-  min-height:40px;
-  padding:4px 0;
-  color:var(--muted);
-  font-size:13.5px;
-  letter-spacing:.08em;
+main[data-tfam211] .empire-v255-screens .screen-force-kicker{
+  display:inline-block;
+  margin-bottom:10px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.2em;
   text-transform:uppercase;
-  border-bottom:1px solid transparent;
+  background:linear-gradient(90deg,#f7dfa8,#e698b6,#c79eff);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
 }
-main[data-tfam211] .empire-v255-screens .screen-force-tabs button:hover{color:#f2e2c4}
-main[data-tfam211] .empire-v255-screens .screen-force-tabs button.is-active{
-  color:#fff3dc;
-  border-bottom-color:#e2c48f;
+main[data-tfam211] .empire-v255-screens .screen-force-class{
+  margin-top:8px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#e2c48f;
 }
 main[data-tfam211] .empire-v255-screens .screen-force-role{
-  margin-top:16px;
+  margin-top:14px;
   font-size:16.5px;
   line-height:1.72;
   color:#dad0de;
   max-width:46ch;
 }
-main[data-tfam211] .empire-v255-screens .screen-parchment-bezel{
-  aspect-ratio:4/3;
-  max-height:480px;
-  width:100%;
-  padding:12px;
-  border:1px solid rgba(226,196,143,.32);
-  background:rgba(14,10,20,.88);
-  box-shadow:0 28px 64px rgba(3,2,7,.72);
+main[data-tfam211] .empire-v255-screens .screen-force-quote{
+  margin:14px 0 0;
+  padding-left:14px;
+  border-left:2px solid rgba(230,199,143,.52);
+  font-style:italic;
+  font-size:16.5px;
+  line-height:1.5;
+  color:#ebd6ab;
 }
-main[data-tfam211] .empire-v255-screens .screen-parchment-mat{
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  padding:10px;
-  background:radial-gradient(ellipse at 50% 45%,#d7cab5 0%,#b8a890 76%,#95846e 100%);
-  box-shadow:inset 0 0 44px rgba(24,16,12,.38),inset 0 0 0 1px rgba(84,64,40,.34);
+main[data-tfam211] .empire-v255-screens .screen-force-switcher{
+  margin-top:26px;
 }
-main[data-tfam211] .empire-v255-screens .screen-force-art{
-  width:100%;
-  height:100%;
+main[data-tfam211] .empire-v255-screens .screen-force-pill-copy{
   display:grid;
-  place-items:center;
+  gap:2px;
+  min-width:0;
 }
-main[data-tfam211] .empire-v255-screens .screen-force-art img{
+main[data-tfam211] .empire-v255-screens .screen-force-pill-copy small{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:#d9bc86;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-thumb img{
+  object-position:50% 18%;
+  filter:brightness(.9) contrast(1.06) sepia(.12);
+}
+main[data-tfam211] .empire-v255-screens .screen-force-pill[data-branch="naval"] .screen-force-thumb img,
+main[data-tfam211] .empire-v255-screens .screen-force-pill[data-branch="artillery"] .screen-force-thumb img{
+  object-position:50% 50%;
+}
+
+/* FRAMELESS TRANSPARENT CUTOUT STAGE (zero box, floating directly in the Gothic hall) */
+main[data-tfam211] .empire-v255-screens .screen-force-cutout-stage{
+  position:relative;
+  isolation:isolate;
+  width:100%;
+  max-width:580px;
+  height:min(78svh,680px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-cutout-aura{
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse 56% 52% at 50% 48%,rgba(232,186,112,.22),transparent 70%),
+    radial-gradient(ellipse 58% 36% at 50% 82%,rgba(164,38,74,.28),transparent 74%);
+}
+main[data-tfam211] .empire-v255-screens .screen-force-cutout-figure{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-cutout-figure img{
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  filter:drop-shadow(0 28px 54px rgba(0,0,0,.88)) drop-shadow(0 0 28px rgba(226,184,112,.16));
+}
+
+/* GILDED GOTHIC ARCH SHRINE — fallback for factions without transparent cutouts yet */
+main[data-tfam211] .empire-v255-screens .screen-forces-right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-shrine{
+  position:relative;
+  isolation:isolate;
+  width:100%;
+  max-width:450px;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-halo{
+  position:absolute;
+  inset:-10% -14%;
+  z-index:-1;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse 56% 52% at 50% 42%,rgba(226,176,104,.24),transparent 70%),
+    radial-gradient(ellipse 54% 48% at 50% 78%,rgba(148,34,68,.26),transparent 74%);
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-frame{
+  position:relative;
+  padding:12px 12px 0;
+  border-radius:240px 240px 10px 10px;
+  border:1.5px solid rgba(232,198,140,.52);
+  background:linear-gradient(180deg,rgba(28,18,38,.92),rgba(13,9,22,.98));
+  box-shadow:
+    0 0 0 5px rgba(10,6,18,.86),
+    0 0 0 6px rgba(226,196,143,.22),
+    0 32px 76px rgba(0,0,0,.82);
+  overflow:hidden;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-canvas{
+  position:relative;
+  width:100%;
+  aspect-ratio:4 / 4.85;
+  max-height:66svh;
+  border-radius:228px 228px 4px 4px;
+  overflow:hidden;
+  background:radial-gradient(ellipse 72% 66% at 50% 44%,#efe3ca 0%,#cbb792 54%,#6b513e 80%,#1a101b 100%);
+  box-shadow:inset 0 0 0 1px rgba(240,210,152,.28);
+}
+main[data-tfam211] .empire-v255-screens .screen-force-art-arch{
+  width:100%;
+  height:100%;
+  padding:22px 14px 6px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-shrine[data-branch="naval"] .screen-force-art-arch,
+main[data-tfam211] .empire-v255-screens .screen-force-arch-shrine[data-branch="artillery"] .screen-force-art-arch{
+  align-items:center;
+  padding:24px 16px;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-art-arch img{
   width:100%;
   height:100%;
   object-fit:contain;
+  display:block;
   mix-blend-mode:multiply;
-  filter:contrast(1.06) saturate(.9) brightness(.96);
+  filter:contrast(1.08) saturate(1.06) brightness(.98);
 }
+main[data-tfam211] .empire-v255-screens .screen-force-arch-vignette{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+  box-shadow:
+    inset 0 0 46px rgba(16,9,22,.72),
+    inset 0 -48px 48px -18px rgba(12,7,19,.88);
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-plaque{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:11px 16px 13px;
+  border-top:1px solid rgba(226,196,143,.22);
+  background:linear-gradient(90deg,rgba(24,15,34,.95),rgba(14,9,22,.98));
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10.5px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-plaque span{color:#b8aac4}
+main[data-tfam211] .empire-v255-screens .screen-force-arch-plaque b{font-weight:600;color:#f3d498}
 
 /* =====================================================================
    BOTTOM NAVIGATION BAR (Realms, Atlas, Adjacent Faction, Rooms)

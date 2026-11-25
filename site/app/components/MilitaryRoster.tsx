@@ -34,6 +34,7 @@ import {
   type MilitaryManifest,
   type MilitaryUnit,
 } from '../../lib/military';
+import {militaryCutout} from '../../lib/military-cutouts';
 import ImperialSectionHeader from './ImperialSectionHeader';
 
 type Faction = {
@@ -544,31 +545,51 @@ export default function MilitaryRoster({
               <div className="warfolio-stage" ref={stageRef}>
                 <div className="warfolio-stage-aura" aria-hidden="true" />
 
-                {/* LEFT: MUSEUM-MATTED FULL ILLUSTRATION PLATE (ZERO STICKER EDGES) */}
+                {/* LEFT: FRAMELESS TRANSPARENT CUTOUT (WHEN AVAILABLE) OR MUSEUM-MATTED VELLUM PLATE */}
                 <div className="warfolio-plate-showcase">
                   <AnimatePresence mode="wait" initial={false}>
-                    <motion.div
-                      key={activeUnit.id}
-                      className="warfolio-vellum-frame"
-                      initial={{opacity: 0, scale: 0.97, y: 10}}
-                      animate={{opacity: 1, scale: 1, y: 0}}
-                      exit={{opacity: 0, scale: 0.98, y: -8}}
-                      transition={{duration: 0.36, ease: [0.22, 1, 0.36, 1]}}
-                    >
-                      <span className="warfolio-plate-index">
-                        PLATE {activeUnit.number.padStart(2, '0')}
-                      </span>
-                      <MediaImage
-                        src={activeUnit.artwork || activeUnit.thumbnail}
-                        alt={local(activeUnit, 'name')}
-                        width={900}
-                        height={1200}
-                        loading="eager"
-                        fetchPriority="high"
-                        className="warfolio-vellum-img"
-                      />
-                      <span className="warfolio-vellum-vignette" aria-hidden="true" />
-                    </motion.div>
+                    {militaryCutout(activeUnit.id) ? (
+                      <motion.div
+                        key={activeUnit.id + '-cutout'}
+                        className="warfolio-cutout-stage"
+                        initial={{opacity: 0, scale: 0.96, y: 12}}
+                        animate={{opacity: 1, scale: 1, y: 0}}
+                        exit={{opacity: 0, scale: 1.01, y: -6}}
+                        transition={{duration: 0.36, ease: [0.22, 1, 0.36, 1]}}
+                      >
+                        <img
+                          src={militaryCutout(activeUnit.id)}
+                          alt={local(activeUnit, 'name')}
+                          width={900}
+                          height={1200}
+                          loading="eager"
+                          className="warfolio-cutout-img"
+                        />
+                      </motion.div>
+                    ) : (
+                      <motion.div
+                        key={activeUnit.id}
+                        className="warfolio-vellum-frame"
+                        initial={{opacity: 0, scale: 0.97, y: 10}}
+                        animate={{opacity: 1, scale: 1, y: 0}}
+                        exit={{opacity: 0, scale: 0.98, y: -8}}
+                        transition={{duration: 0.36, ease: [0.22, 1, 0.36, 1]}}
+                      >
+                        <span className="warfolio-plate-index">
+                          PLATE {activeUnit.number.padStart(2, '0')}
+                        </span>
+                        <MediaImage
+                          src={activeUnit.artwork || activeUnit.thumbnail}
+                          alt={local(activeUnit, 'name')}
+                          width={900}
+                          height={1200}
+                          loading="eager"
+                          fetchPriority="high"
+                          className="warfolio-vellum-img"
+                        />
+                        <span className="warfolio-vellum-vignette" aria-hidden="true" />
+                      </motion.div>
+                    )}
                   </AnimatePresence>
                 </div>
 
@@ -796,18 +817,30 @@ export default function MilitaryRoster({
                 </header>
 
                 <div className="warroom-stage-figure">
-                  <div className="warfolio-stage-frame">
-                    <MediaImage
+                  {militaryCutout(selected.id) ? (
+                    <img
                       key={selected.id}
-                      src={selected.artwork}
+                      src={militaryCutout(selected.id)}
                       alt={local(selected, 'name')}
                       width={1000}
                       height={1500}
                       loading="eager"
-                      fetchPriority="high"
-                      className="warroom-stage-img"
+                      className="warroom-stage-img is-cutout"
                     />
-                  </div>
+                  ) : (
+                    <div className="warfolio-stage-frame">
+                      <MediaImage
+                        key={selected.id}
+                        src={selected.artwork}
+                        alt={local(selected, 'name')}
+                        width={1000}
+                        height={1500}
+                        loading="eager"
+                        fetchPriority="high"
+                        className="warroom-stage-img"
+                      />
+                    </div>
+                  )}
                 </div>
               </section>
 

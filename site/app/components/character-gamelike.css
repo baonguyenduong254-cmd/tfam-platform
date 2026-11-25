@@ -544,6 +544,7 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .reader-account-button .accoun
   inset:0 0 18% 0;
   z-index:0;
   display:block;
+  overflow:hidden;
 }
 .roster-card-media img{
   width:100%;
@@ -558,7 +559,15 @@ body.tfam-editorial.tfam-royal main[data-tfam211] .reader-account-button .accoun
   object-position:50% 18%;
   filter:none;
 }
+.roster-card-media img.is-hd-bust-crop{
+  object-fit:cover;
+  object-position:50% 6%;
+  transform:scale(1.22);
+  transform-origin:50% 8%;
+  filter:contrast(1.04);
+}
 .roster-card:hover .roster-card-media img{transform:scale(1.05)}
+.roster-card:hover .roster-card-media img.is-hd-bust-crop{transform:scale(1.28)}
 .roster-card-fallback{
   width:100%;
   height:100%;
