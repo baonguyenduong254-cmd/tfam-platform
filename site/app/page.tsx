@@ -12,7 +12,6 @@ import MediaImage from './components/MediaImage';
 import './premium-hud.css';
 import './editorial-theme.css';
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
 import {useRouter} from 'next/navigation';
 import SiteSectionNav from './components/SiteSectionNav';
 import {factionGroups} from '../lib/discovery';
@@ -21,7 +20,7 @@ import FactionArrival from './components/FactionArrival';
 import './world-experience.css';
 import './cartography-desk.css';
 import './scroll-stability.css';
-const VestigiumCollection=dynamic(()=>import('./components/VestigiumCollection'),{ssr:false});
+const VestigiumCollection=dynamic(()=>import('./components/VestigiumCollection'),{ssr:false,loading:()=><div className="vest-loading" role="status"><p>Opening Maison Vestigium…</p></div>});
 import {flushSync} from 'react-dom';
 import CharacterDossier from './components/CharacterDossier';
 import CharacterStage from './components/CharacterStage';
@@ -35,7 +34,7 @@ import {withCharacterPortraits} from '../lib/character-portraits';
 const seed=withCharacterPortraits(rawSeed);
 import {factionArt,factionThumbnail} from '../lib/campaign-art';
 import AdminLogin from './components/AdminLogin';
-const ChroniclesHub=dynamic(()=>import('./components/ChroniclesHub'),{ssr:false});
+import ChroniclesHub from './components/ChroniclesHub';
 const StoryLibrary=dynamic(()=>import('./components/StoryLibrary'),{ssr:false});
 import {AccountMenu} from './components/ReaderAccount';
 const MilitaryRoster=dynamic(()=>import('./components/MilitaryRoster'),{ssr:false});
@@ -179,8 +178,8 @@ const factionContinuation=<nav className="faction-continuation" aria-label="Cont
   {nextFaction!==undefined&&<button type="button" onClick={()=>openAdjacentFaction(nextFaction)}><span>Next faction</span><strong>{localized(data.factions[nextFaction],'name')}</strong></button>}
  </div>
  <div className="faction-continuation-destinations" onClickCapture={roomNavigation}>
-  <Link href="/chronicles"><BookOpen size={17} aria-hidden="true"/>The Chronicles</Link>
-  <Link href="/vestigium"><Gem size={17} aria-hidden="true"/>Maison Vestigium</Link>
+  <a href="/chronicles"><BookOpen size={17} aria-hidden="true"/>The Chronicles</a>
+  <a href="/vestigium"><Gem size={17} aria-hidden="true"/>Maison Vestigium</a>
  </div>
 </nav>;
 if(section==='faction'&&!entryOpen&&!discovery.canExplore(f.id))return <main className="update201-page faction-locked">
@@ -194,7 +193,7 @@ return <>{entryOpen&&<CinematicEntry contentSettled={contentSettled} data={data}
 
 <a className="world211-skip" href="#world211-content">Skip to content</a>
 {!entryOpen&&(tab==='map'||tab==='atlas'||tab==='archive')&&<FactionArrival faction={f} lang="en" compact={tab!=='map'} year={year} regions={regionCount} overview={tab==='map'?{characterCount:representatives.length}:undefined}/>}
-<div className="command-bar command-bar-with-tools" ref={atlasRef} tabIndex={-1}><BackgroundMusicSlot className="command-music-slot"/>{section==='faction'?<nav className="tfam-main-nav" aria-label="Explore the faction">{[{id:'map',label:'Overview'},{id:'atlas',label:'Atlas'},{id:'characters',label:'Characters'},{id:'military',label:'Military'},{id:'monuments',label:'Landmarks'}].map(n=>{const active=tab===n.id||(tab==='archive'&&archiveSection===n.id);return <button key={n.id} aria-current={active?'page':undefined} className={active?'active':''} onClick={()=>openDestination(n.id)}>{n.label}</button>;})}</nav>:<div className="section-room-label"/>}<div onClickCapture={roomNavigation} className="command-utilities" role="group" aria-label={'Account and settings'}>{section==='faction'?<button className="faction-selector-button" onClick={reopenVoyage} title={'Choose a faction'} aria-label={'Return to faction selection'}><Flag size={20}/></button>:<Link className="faction-selector-button" href="/#voyage" title={'Choose a faction'} aria-label={'Return to faction selection'}><Flag size={20}/></Link>}<a className="achievements-link" href="/achievements" aria-label="Reading achievements"><Trophy size={18}/><span>Achievements</span></a><AccountMenu lang="en"/><div className="site-tools" ref={toolsRef}><button ref={gearRef} className="gear-toggle" aria-label={'Website settings'} aria-expanded={toolsOpen} aria-controls="site-settings" onClick={()=>setToolsOpen(v=>!v)}><Settings size={22}/></button>{toolsOpen&&<section id="site-settings" className="site-tools-popover" aria-label={'Website settings'}><h2>{'Settings'}</h2><label className="setting-row">{'Mist and frost'}<input type="checkbox" checked={atmosphere} onChange={e=>setAtmosphere(e.target.checked)}/></label>{section!=='reader'&&<label className="setting-font">{'Reading text size'} · {font}px<input type="range" min="16" max="28" value={font} onChange={e=>setFont(Number(e.target.value))}/></label>}<details className="map-source-notes"><summary>{'Map sources'}</summary><p>Natural Earth · {'Physical geography, fictional TFAM borders.'}</p><a href="/legal#atlas">{'Data sources and licences'}</a></details>{admin&&<><button className="tool-editor" onClick={()=>begin('story')}><BookOpen size={18}/>{'Edit story'}</button><button className="tool-editor" onClick={()=>{setToolsOpen(false);begin();}}><ScrollText size={18}/>{'Content editor'}</button></>}{admin&&<><small className="admin-identity">{admin.username}</small><button className="tool-editor" onClick={logout}>{'Sign out'}</button></>}</section>}</div></div></div>
+<div className="command-bar command-bar-with-tools" ref={atlasRef} tabIndex={-1}><BackgroundMusicSlot className="command-music-slot"/>{section==='faction'?<nav className="tfam-main-nav" aria-label="Explore the faction">{[{id:'map',label:'Overview'},{id:'atlas',label:'Atlas'},{id:'characters',label:'Characters'},{id:'military',label:'Military'},{id:'monuments',label:'Landmarks'}].map(n=>{const active=tab===n.id||(tab==='archive'&&archiveSection===n.id);return <button key={n.id} aria-current={active?'page':undefined} className={active?'active':''} onClick={()=>openDestination(n.id)}>{n.label}</button>;})}</nav>:<div className="section-room-label"/>}<div onClickCapture={roomNavigation} className="command-utilities" role="group" aria-label={'Account and settings'}>{section==='faction'?<button className="faction-selector-button" onClick={reopenVoyage} title={'Choose a faction'} aria-label={'Return to faction selection'}><Flag size={20}/></button>:<a className="faction-selector-button" href="/#voyage" title={'Choose a faction'} aria-label={'Return to faction selection'}><Flag size={20}/></a>}<a className="achievements-link" href="/achievements" aria-label="Reading achievements"><Trophy size={18}/><span>Achievements</span></a><AccountMenu lang="en"/><div className="site-tools" ref={toolsRef}><button ref={gearRef} className="gear-toggle" aria-label={'Website settings'} aria-expanded={toolsOpen} aria-controls="site-settings" onClick={()=>setToolsOpen(v=>!v)}><Settings size={22}/></button>{toolsOpen&&<section id="site-settings" className="site-tools-popover" aria-label={'Website settings'}><h2>{'Settings'}</h2><label className="setting-row">{'Mist and frost'}<input type="checkbox" checked={atmosphere} onChange={e=>setAtmosphere(e.target.checked)}/></label>{section!=='reader'&&<label className="setting-font">{'Reading text size'} · {font}px<input type="range" min="16" max="28" value={font} onChange={e=>setFont(Number(e.target.value))}/></label>}<details className="map-source-notes"><summary>{'Map sources'}</summary><p>Natural Earth · {'Physical geography, fictional TFAM borders.'}</p><a href="/legal#atlas">{'Data sources and licences'}</a></details>{admin&&<><button className="tool-editor" onClick={()=>begin('story')}><BookOpen size={18}/>{'Edit story'}</button><button className="tool-editor" onClick={()=>{setToolsOpen(false);begin();}}><ScrollText size={18}/>{'Content editor'}</button></>}{admin&&<><small className="admin-identity">{admin.username}</small><button className="tool-editor" onClick={logout}>{'Sign out'}</button></>}</section>}</div></div></div>
 {error&&<div role="alert" className="error">{error}<button onClick={()=>setError('')} aria-label={'Close alert'}><X size={16}/></button></div>}
 <div id="world211-content" ref={contentRef} className="atlas-content" tabIndex={-1}><div ref={curtainRef} hidden className="atlas-curtain" aria-hidden="true"/><div hidden={tab!=='map'} className="atlas-view">{tab==='map'&&<FactionOverview faction={f} characters={representatives} units={units} onCharacter={openCharacter} onUnit={openUnit} onDestination={openDestination} onMilitaryUnit={openMilitary} onLandmark={id=>{void navigate('#archive/'+f.id+'/monuments/'+id,()=>{setArchiveSection('monuments');setTab('archive');}).then(current=>{if(current)alignModule();});}}/>}</div>
 {tab==='atlas'&&<FactionAtlas faction={f} data={data} year={year} onYear={changeYear} onLandmark={id=>{void navigate('#archive/'+f.id+'/monuments/'+id,()=>{setArchiveSection('monuments');setTab('archive');}).then(current=>{if(current)alignModule();});}}/>}
