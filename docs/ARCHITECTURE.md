@@ -1,43 +1,42 @@
-# Kiến trúc TFAM
+# Kiến trúc TFAM Platform (v250+)
 
-## Hiện trạng đã xác minh
-- Site đang chạy trên ChatGPT Sites; live version210; baseline nhập nguồn là209.
-- GitHub riêng tư: baonguyenduong254-cmd/tfam-platform; kết nối có quyền đọc/ghi.
-- D1 binding DB có các bảng: content, reader_accounts, reader_progress, chapter_comments, chapter_reactions, chapter_visits, admin_sessions, admin_login_limits, reader_rate_limits.
-- Source v209 đã xác minh R2 public base URL là https://pub-a2e7030237c14362985465386fcae671.r2.dev. Hiện còn2.269 mapping ảnh: military1.100, monuments268, vestigium901. Đã xóa72 oil portraits trên R2 theo xác nhận chủ dự án; anime Castilian ở source/public. File mẫu trên R2 tải được. Một số ảnh vẫn dùng URL domain site; không phải toàn bộ media đều đã chuyển sang R2.
-- Bucket quản trị đã xác minh: tfam-assets. Đã kiểm kê hết2351 object trước retirement;72 portrait đã xóa, còn2279 object. Truy cập quản trị qua dashboard đã đăng nhập; không tạo R2 API key. Không sao lưu72 ảnh theo yêu cầu chủ dự án. Cấu hình hosting v209 có r2=null: việc đọc media hiện qua URL công khai, không chứng minh một R2 binding quản trị trực tiếp.
-- Nội dung bảng content quá lớn cho công cụ xem hàng hiện tại; chưa có kiểm kê đầy đủ nội dung live.
+## Hiện trạng hệ thống đã xác minh
+- **Production Hosting:** OpenAI ChatGPT Sites (`appgprj_6abf3718495481919a2cd6954776f57e`) — URL live: `https://throughfrostandmyth.baonguyenduong254.chatgpt.site` (hiện đang live ở `siteVersion: 250`; xem trạng thái chi tiết và lịch sử rollback trong `ops/status.json` và `ops/releases/`).
+- **Mã nguồn ứng dụng:** `site/` — Next.js `16.3.4` / React `19.2.6` / Vinext `1.0.0-beta.5` / Vite `8.0.13` / Cloudflare Workers (`wrangler`), quản lý phụ thuộc bằng `pnpm@11.25.0`.
+- **GitHub (Public Repo):** `baonguyenduong254-cmd/tfam-platform` — nguồn chuẩn cho mã nguồn, migrations, tests, skills (`.agents/skills/`), và nhật ký vận hành (`ops/status.json`, `ops/handoff.json`, `ops/connections.json`). Không bật auto-deploy trực tiếp từ GitHub sang production.
+- **Database live (ChatGPT Sites Managed D1 — binding `DB`):**
+  - Revision hiện tại: `contentRevision: 32`, `atlasRevision: 25`, `presentationRevision: 34`.
+  - Các bảng vận hành: `content`, `reader_accounts`, `reader_progress`, `chapter_comments`, `chapter_reactions`, `chapter_visits`, `admin_sessions`, `admin_login_limits`, `reader_rate_limits`, và cụm bảng TFAM Studio (`studio_volumes`, `studio_chapters`, `studio_chapter_revisions`, `studio_canon_entries`, `studio_canon_links`, `studio_knowledge_states`, `studio_what_if_scenarios`, `studio_published_snapshots`, `studio_import_staging`, `studio_audit_logs`).
+  - *Lưu ý tách biệt môi trường:* Worker `through-frost-and-myth.tfamatlas.workers.dev` và D1 `tfam-content` trên tài khoản Cloudflare cá nhân là hạ tầng **legacy/riêng biệt**, không phải D1 live của ChatGPT Sites.
+- **Media CDN (Cloudflare R2 — bucket `tfam-assets`):**
+  - Public base URL: `https://pub-a2e7030237c14362985465386fcae671.r2.dev`.
+  - Quy mô hiện tại: `2.464` object trên R2, `2.379` đường dẫn ánh xạ qua manifest build-time `site/lib/media/external-paths.json` (`assetUrl()`). Không đưa bộ media nặng nguyên gốc vào Git.
 
-## Nguồn chuẩn theo loại dữ liệu
-| Loại | Nơi giữ chuẩn | Bản sao / tham chiếu |
-| --- | --- | --- |
-| Code, cấu hình, schema, tests | GitHub sau khi nhập source và đối chiếu xong | Bản source cần xuất bản của Sites |
-| Nội dung live có trình sửa trên site | D1 hiện có | Export có revision để so sánh và khôi phục |
-| Bản thảo truyện gốc, quyết định canon | Tài liệu gốc của tác giả | Chỉ đưa vào site qua lần nhập có nguồn và revision |
-| Cờ, chân dung, ảnh, audio, video | R2 hiện có hoặc nguồn asset đã xác minh | Git giữ asset manifest, không giữ thêm bản media thừa |
-| Tài khoản, tiến độ, bình luận, reactions | D1 hiện có | Cache trình duyệt cho trải nghiệm |
-| Quy tắc unlock, thứ tự trang, quyết định giao diện | File được duyệt trong GitHub | Runtime config được phát hành cùng code |
-| Thư viện cho AI tham khảo | references/catalog.json | Tài liệu upstream được đọc có mục tiêu |
-| Trạng thái công việc và release | Issues + ops + Git history | Chat chỉ dùng giao tiếp |
+## Phân tầng sở hữu dữ liệu (4 lớp)
+| Lớp | Hệ thống chuẩn | Dữ liệu sở hữu | Nguyên tắc bảo vệ |
+| --- | --- | --- | --- |
+| **Mã nguồn & Hợp đồng** | GitHub (`baonguyenduong254-cmd/tfam-platform`) | `site/`, `site/drizzle/`, `site/public/`, `site/lib/media/external-paths.json`, tests, `.agents/skills/`, `ops/`, `maintenance/` | Không lưu secret, token, DB dump, PII người đọc hay kho media thô |
+| **Nội dung live & Người đọc** | ChatGPT Sites Managed D1 (`DB`) | `content` (`atlas`, `story:*`), `studio_*`, tài khoản/tiến độ/bình luận/reaction người đọc | Không ghi đè bằng seed JSON khi deploy code; không chạy migration phá hủy |
+| **Lưu trữ Media** | Cloudflare R2 (`tfam-assets`) | Audio soundtrack, ảnh quân đội, kỳ quan, nhân vật, Maison Vestigium, video | Đồng bộ manifest `external-paths.json` khi thêm/gỡ asset; kiểm kê trước khi xóa |
+| **Trạng thái tạm trên trình duyệt** | `localStorage` / `sessionStorage` | Tiến độ đọc khách (`tfam-reading-history-v1`), tùy chọn giao diện/âm thanh, giỏ lưu niệm `Imperial Vault` | Chỉ là cache cục bộ; không coi là nguồn đồng bộ đa thiết bị |
 
-## Bản nhập đã hoàn tất
-Source v209 được giữ nguyên trong site/. Tree SHA: 81de793c8a2d3e23d49bf2ad63b537600e06ee6e. Lần nhập không thay đổi production; đợt210 đã phát hành source cập nhật và được ghi tại ops/releases/210-source.json.
-
-## Đích vận hành
+## Kiến trúc điều phối & phát hành (Cloud-First)
 ```mermaid
 flowchart LR
-    Owner[Tác giả] --> Task[GitHub Issues]
-    Task --> Agent[AI trên cloud]
-    Ref[Thư viện tham khảo] --> Agent
-    Agent --> PR[Nhánh và Pull Request]
-    PR --> Main[GitHub main]
-    Main --> Release[Bước xuất bản Sites đã xác minh]
-    Release --> Site[TFAM live]
-    Site <--> DB[D1: nội dung và người đọc]
-    Site --> Media[R2: file media]
-    Docs[Tài liệu truyện gốc] --> Import[Nhập nội dung có revision]
-    Import --> DB
+    Owner[Tác giả / Orchestrator] --> Issues[GitHub Issues & PRs]
+    Issues --> Workers[Remote Orchestrator / Local Workers]
+    Workers --> Branch[Nhánh task/* hoặc maintenance/*]
+    Branch --> Checks[tsc + pnpm build + node --test]
+    Checks --> Main[GitHub main]
+    Main --> Codex[Codex Sync -> ChatGPT Sites]
+    Codex --> Site[TFAM Live]
+    Site <--> DB[ChatGPT Sites D1]
+    Site --> Media[Cloudflare R2 tfam-assets]
 ```
 
-Đường GitHub → source Sites → native Sites publication đã được thực hiện trên cloud cho210. Đây là phát hành theo commit đã kiểm tra, không tự deploy mọi merge.
-Giữ Sites làm hosting hiện tại. Không mở thêm một hệ thống hosting song song trong giai đoạn này.
+## Quy tắc vận hành bắt buộc
+1. Mọi phiên làm việc bắt đầu bằng việc đọc `AGENTS.md`, `README.md`, `ops/status.json`, `ops/handoff.json`, và các PR/Issue đang mở.
+2. Code thay đổi phải qua nhánh `task/*` hoặc `maintenance/*`, vượt qua `npx tsc --noEmit`, `node --test tests/*.test.mjs`, và `pnpm run build` trước khi merge vào `main`.
+3. Phát hành production thực hiện có kiểm soát từ commit đã xác minh trên `main` sang ChatGPT Sites, ghi đầy đủ provenance (`siteVersion`, `deploymentId`, `versionId`, `sourceCommit`, `rollback`) vào `ops/releases/` và `ops/status.json`.
+4. Giữ ChatGPT Sites làm hosting production duy nhất ở giai đoạn hiện tại; không mở thêm hệ thống hosting song song gây lệch dữ liệu (split-brain).
+

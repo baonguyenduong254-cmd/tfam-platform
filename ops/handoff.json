@@ -6,7 +6,7 @@
     "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "liveSiteVersion": 250,
     "githubMainAheadOfLive": true,
-    "pendingLiveSyncNotes": "GitHub main includes v251 P0 fixes (PR #38), repo cleanup & tfam-web-design v251+ upgrade (PR #39), effect pruning & opening redesign without music bar or header badges (PR #40), 4-tool workflow setup (PR #41/#42), and v251 P1 cleanup/polish (en-dash punctuation test fix, unused Three.js/GSAP dependency retirement, English-first Royal /legal page)."
+    "pendingLiveSyncNotes": "GitHub main includes v251 P0 fixes (PR #38), repo cleanup & tfam-web-design v251+ upgrade (PR #39), effect pruning & opening redesign without music bar or header badges (PR #40), 4-tool workflow setup (PR #41/#42), v251 P1 cleanup/polish (PR #43), and dead UI/retired-art/architecture-doc cleanup."
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",
@@ -20,12 +20,12 @@
         "image-generation",
         "chatgpt-sites-sync"
       ],
-      "currentPlan": "Codex Plus (until 2026-12-01)",
+      "currentPlan": "Codex Plus (until 2026-12-01; Work quota currently exhausted — waiting for reset or Business transition)",
       "nextPlan": "Codex Business (1 month from 2026-12-01; verify Sites project workspace before publish)"
     }
   },
   "nextActions": [
-    "Merge P1 cleanup/polish PR into main (after optional Codex diff review), then use Codex Plus (chatgpt.com/codex / Sites Work) to sync site/ from GitHub main onto ChatGPT Sites appgprj_6abf3718495481919a2cd6954776f57e and publish v251.",
-    "After live v251 publish, update ops/status.json + ops/releases/sites-251-*.json, refresh docs/ARCHITECTURE.md, and triage legacy v209/v210 GitHub Issues (#2, #3, #4, #5, #14, #17)."
+    "Once Codex Work quota resets (or on 2026-12-01 after verifying Sites workspace ownership), sync site/ from GitHub main verbatim onto ChatGPT Sites appgprj_6abf3718495481919a2cd6954776f57e and publish v251.",
+    "After live v251 publish, update ops/status.json + ops/releases/sites-251-*.json and set githubMainAheadOfLive=false in ops/handoff.json."
   ]
 }

@@ -250,6 +250,14 @@
       "retiredAt": "2026-11-25",
       "recovery": "Git commit 2db70ae (reinstall via pnpm)",
       "proof": "Verified zero imports across site/app, site/lib, site/scripts, and site/tests after PR #40 removed WorldCanvas.tsx and KineticSurfaces.tsx; verified with pnpm install, tsc --noEmit, pnpm run build, and node --test tests/*.test.mjs"
+    },
+    {
+      "path": "site/app/components/BackgroundMusicSlot.tsx, site/app/background-music.css, site/app/evelyne-stage/stage.css, site/art/retired-architecture-atlas.webp, site/art/retired-terrain-atlas.webp, site/art/retired-cities-v1/*, site/art/retired-frozen-relief-v1/*, site/art/retired-interface-v115/*, site/art/retired-vestigium/*, site/art/retired-vestigium-20261019/*",
+      "kind": "confirmed-unused-ui-stubs-and-retired-legacy-art-archives",
+      "count": 1731,
+      "retiredAt": "2026-11-25",
+      "recovery": "Git commit acf719c",
+      "proof": "Verified zero imports/references across site/app, site/lib, site/scripts, site/tests, .github/workflows, and tools (active audio-originals and non-retired source dirs retained); verified with tsc --noEmit, node --test tests/*.test.mjs, and pnpm run build"
     }
   ],
   "r2Audit": {
