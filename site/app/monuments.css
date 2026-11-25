@@ -1,9 +1,693 @@
-.archive-sections{grid-template-columns:repeat(3,minmax(0,1fr))}.monuments{margin-top:25px;font-family:var(--reading-font),serif;color:#c7d5dc}.monument-intro{display:flex;align-items:center;gap:25px;padding:30px clamp(22px,4vw,50px);border:1px solid #a5c9d342;background:radial-gradient(ellipse at top left,#58778536,transparent 65%),var(--world-ground)}.monument-intro>svg{flex-shrink:0;color:#d8c59b}.monument-intro h2{font:500 clamp(28px,3vw,42px)/1.3 var(--display-font),serif;color:#ede4cd;margin:8px 0 12px}.monument-intro p{font-size:18px;line-height:1.75;margin:0}.monument-intro .eyebrow{font-size:12px;letter-spacing:.12em;color:#a9c5cf}.monument-tools{display:flex;align-items:center;gap:15px;padding:22px 0}.monument-tools label{display:flex;align-items:center;gap:12px;flex:1;min-height:50px;padding:0 16px;background:var(--world-ground);border:1px solid #86aab94d}.monument-tools input{width:100%;min-width:0;background:transparent;border:0;color:#e3e8df;font:17px var(--reading-font),serif;outline:none}.monument-tools select{min-height:50px;background:#0a2230;border:1px solid #86aab94d;color:#d3dfdf;padding:10px 15px;font:17px var(--reading-font),serif}.monument-tools>span{font-size:15px;color:#9eb7c2;white-space:nowrap}.monument-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.monument-card{display:flex;flex-direction:column;min-width:0;text-align:left;padding:0;overflow:hidden;border:1px solid #91b1bd55;background:#0b202b;color:inherit;cursor:pointer;transition:border-color .2s,transform .2s,box-shadow .2s}.monument-card:hover{border-color:#cfbf97;transform:translateY(-3px);box-shadow:0 12px 32px #0004}.monument-art{width:100%;aspect-ratio:3/2;position:relative;background:#19313a;overflow:hidden}.monument-art img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}.monument-card:hover img{transform:scale(1.03)}.monument-art>span{position:absolute;right:12px;bottom:12px;background:#061522e8;border:1px solid #bac7be55;color:#e6dcc4;padding:5px 10px;font-size:13px}.monument-card-copy{display:flex;flex-direction:column;align-items:flex-start;flex:1;width:100%;box-sizing:border-box;padding:23px}.monument-card-copy small,.monument-location{display:flex;align-items:center;gap:7px;color:#94b6c5;font-size:14px;line-height:1.5}.monument-card-copy h3{font:500 clamp(22px,2vw,28px)/1.4 var(--reading-font),serif;color:#e9e2d3;margin:13px 0 8px}.monument-card-copy p{font-size:17px;font-style:italic;line-height:1.6;color:#bdc9c8;margin:0 0 18px}.monument-card-copy em{font-size:12px;font-style:normal;border:1px solid #8caebc3d;padding:4px 9px;margin-top:auto}.monument-card-copy b{display:flex;align-items:center;justify-content:space-between;width:100%;font-size:16px;font-weight:400;color:#dccba1;border-top:1px solid #9fb3b52b;padding-top:16px;margin-top:18px}.monument-notice{padding:60px 24px;text-align:center;border:1px solid #8daab244;font-size:19px}.monument-notice button{padding:10px 20px;background:#243b43;color:#eee0b6;border:1px solid #b9b08e}.monument-dialog{position:fixed;inset:0;margin:auto;width:min(1100px,94vw);max-width:none;max-height:92dvh;padding:0;border:1px solid #bdd7dda1;background:var(--world-ground);color:#d3dcdf;overflow-y:auto;overscroll-behavior:contain;box-shadow:0 0 0 5px #1d3d4a,0 30px 100px #000a;font-family:var(--reading-font),serif;scrollbar-color:#7897a1 var(--world-ground)}.monument-dialog::backdrop{background:#020b13d9;backdrop-filter:blur(7px)}.monument-dialog article{position:relative}.monument-close{position:sticky;top:14px;float:right;margin:14px 16px -60px 0;z-index:5;display:grid;place-items:center;width:44px;height:44px;background:#051521e8;color:#fff2d7;border:1px solid #c7d0bf;cursor:pointer}.monument-hero{position:relative;height:clamp(300px,48vw,540px);background:var(--world-raised)}.monument-hero>img{width:100%;height:100%;object-fit:cover;display:block}.monument-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 25%,#081b2599 65%,var(--world-ground))}.monument-hero>div{position:absolute;bottom:0;left:0;right:0;padding:45px clamp(24px,5vw,65px) 24px;z-index:1}.monument-hero span{font-size:13px;color:#d4e1dd;letter-spacing:.08em}.monument-hero h2{font:500 clamp(28px,4vw,48px)/1.2 var(--reading-font),serif;color:#f1e9d8;margin:13px 0;text-shadow:0 2px 12px #000}.monument-hero p{font-size:clamp(18px,2vw,25px);font-style:italic;line-height:1.5;color:#dcc99f;margin:0}.monument-body{padding:0 clamp(24px,5vw,65px) 40px}.monument-body section{margin:32px 0}.monument-body h3{font:500 24px/1.4 var(--reading-font),serif;display:flex;align-items:center;gap:12px;color:#dfd0ad;margin-bottom:18px}.monument-body section>p{font-size:20px;line-height:1.85;color:#d1dcdd}.monument-traits,.monument-effects{display:grid;grid-template-columns:1fr 1fr;gap:16px}.monument-traits>div{padding:20px;border:1px solid #8aa8b13b;background:#17323d55}.monument-body h4{font:500 19px/1.5 var(--reading-font),serif;color:#e8dec9;margin:0 0 8px}.monument-traits p,.monument-effects p{font-size:17px;line-height:1.75;margin:0;color:#b9cdd3}.monument-effects>div{padding:22px;border:1px solid #759c9544;background:#12343244}.monument-effects>div+div{background:#3c252944;border-color:#bb8a7444}.monument-effects h4{display:flex;gap:10px;align-items:center}.monument-effects>div:first-child svg{color:#92cbb7}.monument-effects>div+div svg{color:#d5a58c}.monument-body details{font-size:15px;line-height:1.8;color:#a8bec7;border-top:1px solid #b5c3bd33;padding-top:20px}.monument-body summary{cursor:pointer;color:#c7bc9c}.monument-body details small{display:block;font-size:14px}.monument-body details a{color:#aacee0}.monument-adjacent{display:flex;justify-content:space-between;gap:12px;padding-top:28px;margin-top:28px;border-top:1px solid #8ba7b544}.monument-adjacent button{display:flex;gap:7px;align-items:center;justify-content:center;background:#183440;border:1px solid #9eb5bc66;color:#e1d7ba;padding:12px 16px;font:16px var(--reading-font),serif}.monument-adjacent button:disabled{opacity:.35;cursor:default}.monuments button:focus-visible,.monument-dialog button:focus-visible,.monument-tools select:focus-visible,.monument-tools label:focus-within{outline:2px solid #e0d1a9;outline-offset:4px}@media(min-width:1650px){.monument-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:1000px){.monument-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.monument-tools{flex-wrap:wrap}}@media(max-width:600px){.archive-sections{grid-template-columns:repeat(3,minmax(0,1fr))}.archive-sections button{font-size:14px;padding:10px 4px;min-width:0}.monument-intro{padding:26px 20px;gap:17px;align-items:flex-start}.monument-intro>svg{width:26px}.monument-intro h2{font-size:28px}.monument-intro p{font-size:16px}.monument-intro .eyebrow{font-size:10px}.monument-grid{grid-template-columns:1fr;gap:18px}.monument-tools label{flex-basis:100%}.monument-tools select{flex:1;min-width:0}.monument-card-copy h3{font-size:27px}.monument-dialog{width:96vw;max-height:95dvh}.monument-hero{height:350px}.monument-hero>div{padding:50px 23px 22px}.monument-hero h2{font-size:31px}.monument-traits,.monument-effects{grid-template-columns:1fr}.monument-body section>p{font-size:19px}.monument-adjacent{gap:7px}.monument-adjacent button{font-size:14px;padding:10px 8px}}
-
-.monument-card{content-visibility:auto;contain-intrinsic-block-size:auto 340px}
-
-.monuments{
-  color:var(--world-ink);
-  background:radial-gradient(ellipse at top,var(--imperial-glow),transparent 75%),var(--world-ground);
+/* =====================================================================
+   TFAM v261 Grand Imperial Voyage — Automated Multi-Dimensional Landmarks
+   ===================================================================== */
+.archive-sections{grid-template-columns:repeat(3,minmax(0,1fr))}
+.monuments.voyage-v261{
+  --vy-ink:#f6ebd8;
+  --vy-subtle:#cdc0d4;
+  --vy-muted:#9f92aa;
+  --vy-gold:#e6c78f;
+  --vy-line:rgba(226,196,143,.24);
+  margin-top:4px;
+  padding-bottom:44px;
+  color:var(--vy-ink);
+  font-family:var(--reading-font),Georgia,serif;
 }
-.monument-card:first-child .monument-art img{animation:none;opacity:1;transition-property:transform}
+.monuments.voyage-v261 *{box-sizing:border-box}
+
+/* AUTOMATED MULTI-DIMENSIONAL GUIDED VOYAGE STAGE */
+.voyage-cinema-shell{
+  perspective:1600px;
+  margin-bottom:30px;
+}
+.voyage-stage{
+  position:relative;
+  scroll-margin-top:84px;
+  min-height:clamp(540px,74svh,760px);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  overflow:hidden;
+  border:1px solid rgba(226,196,143,.32);
+  background:#0c0814;
+  box-shadow:0 30px 80px rgba(0,0,0,.72),inset 0 1px 0 rgba(255,235,196,.18);
+  transform-style:preserve-3d;
+}
+.voyage-backdrop-layer{
+  position:absolute;
+  inset:-32px;
+  z-index:0;
+  pointer-events:none;
+}
+.voyage-kenburns-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  filter:brightness(.74) contrast(1.06) saturate(1.04);
+  animation:voyage-kenburns 16s ease-in-out infinite alternate;
+}
+@keyframes voyage-kenburns{
+  0%{transform:scale(1.02) translate3d(-0.8%,-0.4%,0)}
+  100%{transform:scale(1.1) translate3d(0.8%,0.5%,0)}
+}
+.voyage-atmosphere-layer{
+  position:absolute;
+  inset:-24px;
+  z-index:1;
+  pointer-events:none;
+}
+.voyage-aurora-veil{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,rgba(10,6,18,.92) 0%,rgba(12,8,22,.64) 44%,rgba(12,8,22,.16) 76%,rgba(10,6,18,.52) 100%),
+    linear-gradient(180deg,rgba(10,6,18,.58) 0%,transparent 28%,transparent 62%,rgba(10,6,18,.94) 100%),
+    radial-gradient(ellipse 42% 50% at 78% 26%,rgba(232,188,108,.18),transparent 72%);
+}
+.voyage-reticle-ring{
+  position:absolute;
+  right:6%;
+  top:14%;
+  width:min(38vw,420px);
+  aspect-ratio:1;
+  border-radius:50%;
+  border:1px dashed rgba(230,199,143,.18);
+  box-shadow:inset 0 0 60px rgba(230,199,143,.06);
+}
+
+/* TOP TELEMETRY */
+.voyage-topbar{
+  position:relative;
+  z-index:3;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:20px 26px 0;
+}
+.voyage-stop-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  padding:7px 14px;
+  border:1px solid rgba(230,199,143,.38);
+  background:rgba(16,10,25,.82);
+  backdrop-filter:blur(12px);
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#ffe5ad;
+}
+.voyage-stop-badge small{
+  padding-left:9px;
+  border-left:1px solid rgba(226,196,143,.3);
+  color:#d6c7dd;
+  font-size:11px;
+}
+.voyage-bearing-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:7px 14px;
+  border:1px solid rgba(142,212,240,.34);
+  background:rgba(12,16,28,.78);
+  backdrop-filter:blur(12px);
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+  font-size:11.5px;
+  letter-spacing:.1em;
+  color:#bce8fa;
+}
+
+/* FOREGROUND COUNTER-PARALLAX CURATOR CARD */
+.voyage-foreground-card{
+  position:relative;
+  z-index:3;
+  max-width:640px;
+  margin:auto 0 18px 28px;
+  padding:26px 28px;
+  border:1px solid rgba(230,199,143,.32);
+  background:linear-gradient(155deg,rgba(22,14,34,.84),rgba(11,7,20,.9));
+  backdrop-filter:blur(14px);
+  box-shadow:0 24px 60px rgba(0,0,0,.62),inset 0 1px 0 rgba(255,235,196,.16);
+}
+.voyage-card-meta{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px 14px;
+  margin-bottom:10px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  color:#bcd3df;
+}
+.voyage-card-meta span{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.voyage-card-meta em{
+  font-style:normal;
+  font-size:10.5px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  padding:3px 9px;
+  border:1px solid rgba(230,199,143,.34);
+  color:var(--vy-gold);
+  background:rgba(230,199,143,.08);
+}
+.voyage-foreground-card h3{
+  margin:0 0 8px;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(26px,3.2vw,42px);
+  font-weight:500;
+  line-height:1.12;
+  color:#fff6e6;
+  text-shadow:0 4px 20px rgba(0,0,0,.65);
+}
+.voyage-epithet{
+  margin:0 0 12px;
+  font-size:18px;
+  font-style:italic;
+  line-height:1.5;
+  color:#e8cf9d;
+}
+.voyage-excerpt{
+  margin:0 0 16px;
+  font-size:15.5px;
+  line-height:1.7;
+  color:#d4c8db;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.voyage-trait-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:18px;
+}
+.voyage-trait-chips span{
+  padding:4px 10px;
+  border:1px solid rgba(226,196,143,.24);
+  background:rgba(34,22,48,.76);
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  letter-spacing:.08em;
+  color:#f0dfc4;
+}
+.voyage-card-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.voyage-cta-primary,
+.voyage-cta-secondary{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  min-height:42px;
+  padding:9px 18px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+.voyage-cta-primary{
+  border:1px solid rgba(246,214,156,.62);
+  background:linear-gradient(135deg,#992948,#4e1428);
+  color:#fff7e8;
+  box-shadow:0 8px 24px rgba(153,41,72,.35);
+}
+.voyage-cta-primary:hover{
+  border-color:#fff0cf;
+  box-shadow:0 0 24px rgba(212,68,108,.55);
+}
+.voyage-cta-secondary{
+  border:1px solid rgba(226,196,143,.32);
+  background:rgba(18,12,28,.82);
+  color:#f0dfc4;
+}
+.voyage-cta-secondary:hover{
+  border-color:var(--vy-gold);
+  background:rgba(46,22,42,.88);
+}
+
+/* AUTO-PILOT CONTROL DECK & HORIZONTAL ROUTE RAIL */
+.voyage-control-deck{
+  position:relative;
+  z-index:3;
+  display:grid;
+  gap:12px;
+  padding:14px 26px 18px;
+  border-top:1px solid rgba(226,196,143,.2);
+  background:linear-gradient(180deg,rgba(12,8,20,.72),rgba(9,6,16,.96));
+  backdrop-filter:blur(14px);
+}
+.voyage-pilot-controls{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.voyage-pilot-btn,
+.voyage-pace-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  min-height:36px;
+  padding:6px 14px;
+  border:1px solid rgba(226,196,143,.32);
+  background:rgba(20,13,32,.9);
+  color:#f4e3c5;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.voyage-pilot-btn.is-playing{
+  border-color:rgba(246,210,148,.65);
+  background:linear-gradient(135deg,rgba(126,34,64,.82),rgba(44,18,40,.92));
+  color:#fff6e5;
+}
+.voyage-step-btns{
+  display:inline-flex;
+  gap:4px;
+  margin-left:auto;
+}
+.voyage-step-btns button{
+  width:36px;
+  height:36px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(226,196,143,.3);
+  background:rgba(20,13,32,.9);
+  color:#f5e5c8;
+  cursor:pointer;
+}
+.voyage-step-btns button:hover{
+  border-color:var(--vy-gold);
+  background:rgba(82,26,48,.85);
+}
+
+/* HORIZONTAL ITINERARY STOPS */
+.voyage-itinerary-rail{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  padding-bottom:4px;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(226,196,143,.32) transparent;
+}
+.voyage-stop-node{
+  position:relative;
+  flex:0 0 auto;
+  min-width:170px;
+  max-width:230px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:9px 13px;
+  border:1px solid rgba(226,196,143,.2);
+  background:rgba(18,12,28,.82);
+  color:#c2b4cd;
+  text-align:left;
+  cursor:pointer;
+  overflow:hidden;
+  transition:border-color .2s ease,background-color .2s ease,color .2s ease;
+}
+.voyage-stop-node:hover{
+  border-color:rgba(236,204,148,.58);
+  color:#fff4e2;
+}
+.voyage-stop-node.is-active{
+  border-color:rgba(246,214,156,.72);
+  background:linear-gradient(135deg,rgba(82,26,52,.82),rgba(24,14,34,.94));
+  color:#fff7e8;
+}
+.voyage-stop-num{
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+  font-size:11px;
+  color:var(--vy-gold);
+  flex-shrink:0;
+}
+.voyage-stop-name{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:12.5px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.voyage-stop-progress{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2.5px;
+  background:linear-gradient(90deg,#ff7a92,#ffe5a6,#c78eff);
+  transform-origin:left center;
+}
+
+/* SECTION DIVIDER */
+.voyage-section-divider{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:10px 0 18px;
+  padding-bottom:10px;
+  border-bottom:1px solid rgba(226,196,143,.18);
+}
+.voyage-section-divider span{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:20px;
+  color:#fff4df;
+}
+.voyage-section-divider small{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  color:var(--vy-muted);
+}
+
+/* OBSIDIAN & GOLD GAZETTEER GRID */
+.monument-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:22px;
+}
+.monument-card{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  text-align:left;
+  padding:0;
+  overflow:hidden;
+  border:1px solid rgba(226,196,143,.22);
+  background:linear-gradient(160deg,rgba(26,17,38,.94),rgba(13,9,22,.96));
+  color:inherit;
+  cursor:pointer;
+  content-visibility:auto;
+  contain-intrinsic-block-size:auto 360px;
+  transition:border-color .22s ease,transform .22s ease,box-shadow .22s ease;
+}
+.monument-card:hover,
+.monument-card.is-voyage-active{
+  border-color:rgba(246,212,152,.7);
+  transform:translateY(-4px);
+  box-shadow:0 18px 42px rgba(0,0,0,.55),0 0 22px rgba(226,184,112,.14);
+}
+.monument-art{
+  width:100%;
+  aspect-ratio:3/2;
+  position:relative;
+  background:#150e22;
+  overflow:hidden;
+}
+.monument-art img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .45s cubic-bezier(.16,1,.3,1);
+}
+.monument-card:hover .monument-art img{transform:scale(1.05)}
+.monument-art-index{
+  position:absolute;
+  top:12px;
+  left:12px;
+  padding:4px 9px;
+  background:rgba(12,8,20,.86);
+  border:1px solid rgba(230,199,143,.45);
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+  font-size:11px;
+  color:#ffe3a8;
+}
+.monument-art-cat{
+  position:absolute;
+  right:12px;
+  bottom:12px;
+  background:rgba(12,8,20,.88);
+  border:1px solid rgba(226,196,143,.34);
+  color:#f1e2c6;
+  padding:4px 10px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+.monument-card-copy{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  flex:1;
+  width:100%;
+  padding:20px 22px;
+}
+.monument-card-copy small,.monument-location{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  color:#a8c5d3;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12.5px;
+  line-height:1.45;
+}
+.monument-card-copy h3{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(20px,1.9vw,25px);
+  font-weight:500;
+  line-height:1.28;
+  color:#fff4df;
+  margin:10px 0 8px;
+}
+.monument-card-copy p{
+  font-size:16px;
+  font-style:italic;
+  line-height:1.58;
+  color:#cfc2d7;
+  margin:0 0 16px;
+}
+.monument-card-copy em{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-style:normal;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  border:1px solid rgba(226,196,143,.28);
+  padding:4px 9px;
+  color:var(--vy-gold);
+  margin-top:auto;
+}
+.monument-card-copy b{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#e8cf9d;
+  border-top:1px solid rgba(226,196,143,.16);
+  padding-top:14px;
+  margin-top:16px;
+}
+
+.monument-notice{
+  padding:60px 24px;
+  text-align:center;
+  border:1px solid rgba(226,196,143,.24);
+  background:rgba(16,10,26,.8);
+  font-size:18px;
+}
+.monument-notice button{
+  margin-top:14px;
+  padding:10px 20px;
+  background:linear-gradient(135deg,#872641,#491527);
+  color:#fff4df;
+  border:1px solid rgba(235,204,148,.5);
+  cursor:pointer;
+}
+
+/* DEEP ARCHITECTURAL DOSSIER DIALOG (OBSIDIAN & GOLD) */
+.monument-dialog{
+  position:fixed;
+  inset:0;
+  margin:auto;
+  width:min(1120px,94vw);
+  max-width:none;
+  max-height:92dvh;
+  padding:0;
+  border:1px solid rgba(230,199,143,.45);
+  background:#110b1c;
+  color:#ede2d0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  box-shadow:0 0 0 1px rgba(255,232,190,.12),0 30px 100px rgba(0,0,0,.85);
+  font-family:var(--reading-font),Georgia,serif;
+  scrollbar-color:rgba(226,196,143,.4) #110b1c;
+}
+.monument-dialog::backdrop{
+  background:rgba(6,3,12,.85);
+  backdrop-filter:blur(10px);
+}
+.monument-dialog article{position:relative}
+.monument-close{
+  position:sticky;
+  top:14px;
+  float:right;
+  margin:14px 16px -60px 0;
+  z-index:5;
+  display:grid;
+  place-items:center;
+  width:44px;
+  height:44px;
+  background:rgba(14,9,24,.9);
+  color:#fff2d7;
+  border:1px solid rgba(230,199,143,.52);
+  cursor:pointer;
+}
+.monument-hero{
+  position:relative;
+  height:clamp(300px,46vw,520px);
+  background:#191026;
+}
+.monument-hero>img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.monument-hero::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(transparent 22%,rgba(17,11,28,.7) 66%,#110b1c);
+}
+.monument-hero>div{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:45px clamp(24px,5vw,65px) 24px;
+  z-index:1;
+}
+.monument-hero span{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  color:#e6c78f;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.monument-hero h2{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(28px,4vw,48px);
+  font-weight:500;
+  line-height:1.18;
+  color:#fff6e6;
+  margin:10px 0;
+  text-shadow:0 2px 16px rgba(0,0,0,.85);
+}
+.monument-hero p{
+  font-size:clamp(18px,2vw,24px);
+  font-style:italic;
+  line-height:1.5;
+  color:#e5cb9a;
+  margin:0;
+}
+.monument-body{padding:0 clamp(24px,5vw,65px) 40px}
+.monument-body section{margin:32px 0}
+.monument-body h3{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:22px;
+  font-weight:500;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#f0d7a4;
+  margin-bottom:16px;
+}
+.monument-body section>p{font-size:19px;line-height:1.85;color:#dfd4e2}
+.monument-traits,.monument-effects{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.monument-traits>div{
+  padding:20px;
+  border:1px solid rgba(226,196,143,.22);
+  background:rgba(28,18,40,.65);
+}
+.monument-body h4{font-size:18px;font-weight:500;color:#fff2dc;margin:0 0 8px}
+.monument-traits p,.monument-effects p{font-size:16.5px;line-height:1.72;margin:0;color:#cdc0d4}
+.monument-effects>div{
+  padding:22px;
+  border:1px solid rgba(114,202,172,.3);
+  background:rgba(16,44,40,.46);
+}
+.monument-effects>div+div{
+  background:rgba(68,24,38,.48);
+  border-color:rgba(218,124,136,.34);
+}
+.monument-effects h4{display:flex;gap:10px;align-items:center}
+.monument-effects>div:first-child svg{color:#8be2c4}
+.monument-effects>div+div svg{color:#f09aa6}
+.monument-body details{
+  font-size:15px;
+  line-height:1.8;
+  color:#b6a9c0;
+  border-top:1px solid rgba(226,196,143,.2);
+  padding-top:20px;
+}
+.monument-body summary{cursor:pointer;color:#e6c78f}
+.monument-body details small{display:block;font-size:13.5px}
+.monument-body details a{color:#9fd8f2}
+.monument-adjacent{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding-top:26px;
+  margin-top:26px;
+  border-top:1px solid rgba(226,196,143,.22);
+}
+.monument-adjacent button{
+  display:flex;
+  gap:7px;
+  align-items:center;
+  justify-content:center;
+  background:rgba(28,18,40,.9);
+  border:1px solid rgba(226,196,143,.34);
+  color:#f5e4c4;
+  padding:11px 16px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.monument-adjacent button:hover:not(:disabled){
+  border-color:#fff0cf;
+  background:rgba(110,32,60,.85);
+}
+.monument-adjacent button:disabled{opacity:.35;cursor:default}
+
+@media(prefers-reduced-motion:reduce){
+  .voyage-kenburns-img{animation:none!important}
+}
+@media(min-width:1650px){.monument-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1000px){.monument-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){
+  .voyage-stage{min-height:560px}
+  .voyage-topbar{padding:14px 14px 0}
+  .voyage-foreground-card{margin:16px 14px;padding:18px}
+  .voyage-control-deck{padding:12px 14px 14px}
+  .monument-grid{grid-template-columns:1fr;gap:16px}
+  .monument-traits,.monument-effects{grid-template-columns:1fr}
+  .monument-dialog{width:96vw;max-height:95dvh}
+  .monument-hero{height:340px}
+}

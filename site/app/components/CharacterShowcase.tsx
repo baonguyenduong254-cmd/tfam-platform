@@ -9,7 +9,7 @@ import {characterRating,RATING_AXES} from '../../lib/character-rating';
 import {assetUrl} from '../../lib/media/asset-url';
 import {playBrassClick} from '../../lib/tactile-sfx';
 import {AXIS_PALETTE} from './CharacterRadar';
-import CharacterRosterIcon from './CharacterRosterIcon';
+import CharacterRosterIcon, {rosterIconPath} from './CharacterRosterIcon';
 import CharacterStageView from './CharacterStageView';
 import './character-gamelike.css';
 
@@ -36,9 +36,12 @@ function matchesQuery(c:Row,rawQuery:string){
 
 function RosterCardArt({character,full=false}:{character:Row;full?:boolean}){
  const [failed,setFailed]=useState(false);
- const src=full?(canonicalCharacterArtwork(character)||characterArtwork(character,false)):(characterArtwork(character,true)||canonicalCharacterArtwork(character));
+ const iconSrc=!full?rosterIconPath(character.id):undefined;
+ const src=full
+  ?(canonicalCharacterArtwork(character)||characterArtwork(character,false))
+  :(iconSrc||canonicalCharacterArtwork(character)||characterArtwork(character,true));
  if(!src||failed)return <div className="roster-card-fallback"><CharacterRosterIcon character={character} lang="en"/></div>;
- return <img src={assetUrl(src)} alt="" loading="lazy" decoding="async" onError={()=>setFailed(true)}/>;
+ return <img src={assetUrl(src)} className={iconSrc?'is-roster-icon':undefined} alt="" loading="lazy" decoding="async" onError={()=>setFailed(true)}/>;
 }
 
 /**

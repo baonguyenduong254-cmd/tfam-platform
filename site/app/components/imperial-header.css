@@ -1,0 +1,300 @@
+/* =====================================================================
+   TFAM v259 Unified Imperial Section Header
+   Shared across Atlas, Characters, Military, and Landmarks
+   ===================================================================== */
+.imp-hero{
+  --ih-ink:#f6ebd8;
+  --ih-subtle:#cdc0d4;
+  --ih-muted:#9f92aa;
+  --ih-gold:#e6c78f;
+  --ih-line:rgba(226,196,143,.22);
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:24px 28px 0;
+  border:1px solid rgba(226,196,143,.24);
+  background:linear-gradient(155deg,rgba(28,17,38,.92) 0%,rgba(14,10,23,.96) 56%,rgba(22,12,26,.94) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,234,194,.16),0 20px 50px rgba(4,2,10,.5);
+  color:var(--ih-ink);
+  margin-bottom:22px;
+}
+.imp-hero.no-bar{padding-bottom:22px}
+.imp-hero *{box-sizing:border-box}
+.imp-hero-aura{
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse 48% 90% at 12% 0%,rgba(168,42,78,.28),transparent 72%),
+    radial-gradient(ellipse 46% 85% at 88% 10%,rgba(138,76,210,.22),transparent 74%),
+    radial-gradient(ellipse 50% 60% at 50% 100%,rgba(232,188,108,.10),transparent 70%);
+}
+.imp-hero-top{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px 24px;
+  padding-bottom:20px;
+  border-bottom:1px solid rgba(226,196,143,.14);
+}
+.imp-hero.no-bar .imp-hero-top{padding-bottom:0;border-bottom:0}
+.imp-hero-identity{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  min-width:0;
+}
+.imp-hero-flag{
+  width:64px;
+  height:44px;
+  object-fit:cover;
+  flex-shrink:0;
+  border:1px solid rgba(236,204,148,.42);
+  box-shadow:0 6px 20px rgba(0,0,0,.55),0 0 18px rgba(226,184,112,.16);
+}
+.imp-hero-titles{
+  display:grid;
+  gap:4px;
+  min-width:0;
+}
+.imp-hero-kicker{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  background:linear-gradient(90deg,#f7dfa8,#e698b6,#c79eff);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.imp-hero-titles h2{
+  margin:0;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(24px,2.8vw,34px);
+  font-weight:500;
+  line-height:1.12;
+  letter-spacing:.03em;
+  color:#fff5e3;
+  text-shadow:0 2px 18px rgba(0,0,0,.55);
+}
+.imp-hero-sub{
+  margin:2px 0 0;
+  font-family:var(--reading-font,Georgia,serif);
+  font-size:14.5px;
+  line-height:1.45;
+  color:var(--ih-subtle);
+}
+.imp-hero-controls{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.imp-faction-select{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+}
+.imp-faction-select select{
+  appearance:none;
+  min-height:42px;
+  padding:8px 36px 8px 14px;
+  border:1px solid rgba(226,196,143,.32);
+  background:rgba(16,11,26,.88);
+  color:#f7ebd6;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:13px;
+  letter-spacing:.04em;
+  cursor:pointer;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.imp-faction-select select:hover{
+  border-color:rgba(244,212,154,.72);
+  box-shadow:0 0 16px rgba(232,192,122,.18);
+}
+.imp-faction-select svg{
+  position:absolute;
+  right:12px;
+  pointer-events:none;
+  color:var(--ih-gold);
+}
+.imp-hero-count{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  min-height:42px;
+  padding:0 14px;
+  border:1px solid rgba(226,196,143,.22);
+  background:rgba(24,16,36,.72);
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--ih-subtle);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.imp-hero-count strong{
+  color:#ffe3a8;
+  font-weight:600;
+  font-size:14px;
+}
+.imp-hero-bar{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px 24px;
+  padding:6px 0;
+}
+.imp-hero-tabs{
+  display:flex!important;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:2px 18px;
+  height:auto!important;
+  min-height:0!important;
+}
+.imp-tab-btn{
+  position:relative;
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  gap:7px;
+  min-height:46px;
+  padding:8px 2px;
+  border:0;
+  background:none;
+  color:var(--ih-muted);
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  flex-shrink:0;
+  cursor:pointer;
+  transition:color .2s ease;
+}
+.imp-tab-btn:hover:not(:disabled){color:#f3e1c3}
+.imp-tab-btn:disabled{opacity:.35;cursor:default}
+.imp-tab-btn.is-active{
+  color:#fff6e5;
+  text-shadow:0 0 14px rgba(246,204,132,.42);
+}
+.imp-tab-btn.is-active svg{color:#f7d89c}
+.imp-tab-btn small{
+  font-size:10.5px;
+  color:var(--ih-gold);
+  opacity:.85;
+  font-variant-numeric:tabular-nums;
+}
+.imp-tab-rail{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-1px;
+  height:2px;
+  background:linear-gradient(90deg,#ff7a92,#ffe5a6,#c78eff);
+  box-shadow:0 0 12px rgba(245,204,134,.75);
+}
+.imp-hero-search{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex:0 1 290px;
+  min-width:200px;
+  min-height:40px;
+  padding:0 12px;
+  margin:4px 0;
+  border:1px solid rgba(226,196,143,.24);
+  background:rgba(12,8,20,.78);
+  color:var(--ih-subtle);
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.imp-hero-search:focus-within{
+  border-color:rgba(244,212,154,.68);
+  box-shadow:0 0 18px rgba(226,184,112,.18);
+}
+.imp-hero-search input{
+  width:100%;
+  min-width:0;
+  background:none!important;
+  border:0!important;
+  outline:none;
+  color:#f7ecd9;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:13.5px;
+}
+.imp-hero-search input::placeholder{color:#9a8da6}
+.imp-hero-pill-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  min-height:40px;
+  padding:7px 14px;
+  border:1px solid rgba(226,196,143,.3);
+  background:rgba(18,12,28,.85);
+  color:#f4e3c5;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:500;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+.imp-hero-pill-btn:hover{
+  border-color:rgba(246,214,156,.75);
+  background:rgba(62,22,42,.82);
+}
+.imp-hero-pill-btn.is-active,
+.imp-hero-pill-btn[aria-pressed="true"]{
+  border-color:rgba(246,210,148,.65);
+  background:linear-gradient(135deg,rgba(136,36,68,.78),rgba(48,20,44,.9));
+  color:#fff6e5;
+  box-shadow:0 0 16px rgba(196,58,98,.32);
+}
+.imp-hero-seg{
+  display:inline-flex;
+  padding:3px;
+  gap:3px;
+  border:1px solid rgba(226,196,143,.24);
+  background:rgba(12,8,20,.82);
+}
+.imp-hero-seg button{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  min-height:34px;
+  padding:5px 12px;
+  border:1px solid transparent;
+  background:transparent;
+  color:#b6a8c2;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:500;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:color .2s ease,background-color .2s ease,border-color .2s ease;
+}
+.imp-hero-seg button:hover{color:#fff3dc}
+.imp-hero-seg button[aria-pressed="true"],
+.imp-hero-seg button.is-active{
+  color:#fff6e5;
+  border-color:rgba(235,200,140,.4);
+  background:linear-gradient(135deg,rgba(136,36,68,.65),rgba(46,20,44,.84));
+}
+
+@media(max-width:760px){
+  .imp-hero{padding:18px 16px 0}
+  .imp-hero.no-bar{padding-bottom:16px}
+  .imp-hero-flag{width:50px;height:34px}
+  .imp-hero-bar{gap:8px 12px}
+  .imp-hero-search{flex:1 1 100%;min-width:0}
+}

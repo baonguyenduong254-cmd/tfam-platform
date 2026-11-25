@@ -8,9 +8,11 @@ const icons = new Set([
   'astrid',
   'barbossa',
   'cassandra',
+  'dante_stones',
   'edward_spencer',
   'england_ruins_representative',
   'evelyne_vesper',
+  'franco',
   'fredo',
   'freya',
   'isabella_testarossa_de_aragon',
@@ -24,6 +26,7 @@ const icons = new Set([
   'millennia_stones',
   'nahla_al_fassi',
   'raine',
+  'remi_spencer',
   'robert_salcedo',
   'romeo_harkon',
   'samira_al_fassi',
@@ -48,15 +51,28 @@ const officialIcons = new Set([
   'sigrid',
   'testarossa_uno',
   'victoria_valdes',
- 'lythienne_draevenne','meredith_machiavelli','mirelle_montreuil',
- 'serene_saavedra','sonia','trucia',
+  'lythienne_draevenne',
+  'meredith_machiavelli',
+  'mirelle_montreuil',
+  'serene_saavedra',
+  'sonia',
+  'trucia',
 ]);
+
+export function rosterIconPath(characterId?: string): string | undefined {
+  if (!characterId) return undefined;
+  if (officialIcons.has(characterId)) {
+    return '/portraits/roster-icons/' + characterId + '-official.webp';
+  }
+  if (icons.has(characterId)) {
+    return '/portraits/roster-icons/' + characterId + '.webp';
+  }
+  return undefined;
+}
 
 export default function CharacterRosterIcon({character, lang}: {character: Record<string, any>; lang: string}) {
   const [failed, setFailed] = useState<string>();
-  const icon = officialIcons.has(character.id)
-    ? '/portraits/roster-icons/'+character.id+'-official.webp'
-    : icons.has(character.id) ? '/portraits/roster-icons/'+character.id+'.webp' : undefined;
+  const icon = rosterIconPath(character.id);
   const name = String(character['name_'+lang] || character.name_en || character.name_vi || character.name || '');
   const initials = name.trim().split(/\s+/).filter(Boolean).slice(0,2)
     .map(part => Array.from(part)[0]).join('').toUpperCase() || '✦';
