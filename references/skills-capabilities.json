@@ -82,7 +82,7 @@
     {
       "name": "tfam-3role-workflow",
       "path": ".agents/skills/tfam-3role-workflow",
-      "purpose": "3-role coordination across Owner (baonguyenduong254), Worker (leonardoravennax), and Supervisor (Codex Plus)",
+      "purpose": "Multi-tool orchestration across Remote Orchestrator (baonguyenduong254), Workers (leonardoravennax, Zed Student), and Codex Plus/Business",
       "origin": "project-authored",
       "lock": null
     }
