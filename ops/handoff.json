@@ -6,7 +6,7 @@
     "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "liveSiteVersion": 250,
     "githubMainAheadOfLive": true,
-    "pendingLiveSyncNotes": "GitHub main includes v251 P0 fixes (PR #38), repo cleanup & tfam-web-design v251+ upgrade (PR #39), effect pruning & opening redesign without music bar or header badges (PR #40), 4-tool workflow setup (PR #41/#42), v251 P1 cleanup/polish (PR #43), dead UI/retired-art/ARCHITECTURE.md cleanup (PR #44), Hybrid Imperial Stage & Constellation Gallery for #horizons (PR #45), 5-screen 100svh Faction Overview scrollytelling (PR #46), and 2-stage gamelike Character Showcase + unified Private Salon + 6-pillar radar (PR #47)."
+    "pendingLiveSyncNotes": "GitHub main includes v251 P0 fixes (PR #38), repo cleanup & tfam-web-design v251+ upgrade (PR #39), effect pruning & opening redesign without music bar or header badges (PR #40), 4-tool workflow setup (PR #41/#42), v251 P1 cleanup/polish (PR #43), dead UI/retired-art/ARCHITECTURE.md cleanup (PR #44), Hybrid Imperial Stage & Constellation Gallery for #horizons (PR #45), 5-screen 100svh Faction Overview scrollytelling (PR #46), 2-stage gamelike Character Showcase + unified Private Salon + 6-pillar radar (PR #47), and v258 glow-gradient Character Stage + Imperial Roster Hero/Spotlight redesign."
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",

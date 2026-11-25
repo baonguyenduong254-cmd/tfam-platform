@@ -323,7 +323,7 @@ body.tfam-royal{scrollbar-color:#9c7f58 #120d19}
   font-size:13px;
   letter-spacing:.12em;
   text-transform:uppercase;
-  text-decoration:none;
+  text-decoration:none!important;
   transition:border-color .2s ease,color .2s ease,background-color .2s ease;
 }
 .legal-back:hover{

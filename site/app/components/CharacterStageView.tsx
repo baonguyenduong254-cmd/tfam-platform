@@ -1,8 +1,8 @@
 'use client';
 import {MotionConfig,motion} from 'motion/react';
 import {useEffect,useMemo,useState} from 'react';
-import {ArrowLeft,BookOpen,ChevronLeft,ChevronRight,Shield,Shirt,Sparkles,Star} from 'lucide-react';
-import {characterRating} from '../../lib/character-rating';
+import {ArrowLeft,BookOpen,ChevronLeft,ChevronRight,Shield,Shirt,Sparkles} from 'lucide-react';
+import {characterRating,type RatingAxisKey} from '../../lib/character-rating';
 import {characterArtwork} from '../../lib/character-artwork';
 import {canonicalCharacterArtwork,canonicalCharacterRole} from '../../lib/canonical-characters';
 import connections from '../../lib/character-connections.json';
@@ -17,6 +17,15 @@ import './character-gamelike.css';
 
 type Row=Record<string,any>;
 export type StageTab='overview'|'wardrobe'|'profile'|'skills';
+
+const AXIS_AURA:Record<RatingAxisKey,string>={
+ martial:'rgba(226, 62, 92, 0.34)',
+ vestigium:'rgba(168, 92, 255, 0.34)',
+ tactics:'rgba(74, 186, 245, 0.30)',
+ statecraft:'rgba(236, 186, 92, 0.32)',
+ presence:'rgba(232, 96, 152, 0.34)',
+ resolve:'rgba(68, 206, 162, 0.28)',
+};
 
 export const STAGE_SKINS=[
  {id:'uniform',name:'Ceremonial Uniform',scene:'The Imperial Observatory',note:'Official regalia and courtly bearing',adult:false},
@@ -47,14 +56,11 @@ type Props={
  onLocationSync?:(characterId:string,skinId:string,variantId:string)=>void;
 };
 
-function pref(key:string){try{return localStorage.getItem(key)||'';}catch{return '';}}
-
 export default function CharacterStageView({character,roster,index,total,isOverlay=false,initialTab='overview',initialSkin='uniform',initialVariant='',onBack,onSelectCharacter,onLocationSync}:Props){
  const discovery=useDiscovery();
  const [tab,setTab]=useState<StageTab>(initialTab);
  const [selectedSkin,setSelectedSkin]=useState<string>(initialSkin);
  const [variant,setVariant]=useState<string>(initialVariant);
- const [favorite,setFavorite]=useState('');
  const [failedSrc,setFailedSrc]=useState('');
 
  const safeCharacter=useMemo(()=>presentCharacter(character,discovery.earned),[character,discovery.earned]);
@@ -63,7 +69,9 @@ export default function CharacterStageView({character,roster,index,total,isOverl
  const name=presentationPunctuation(safeCharacter.name_en||safeCharacter.name_vi||safeCharacter.name||'Character');
  const role=canonicalCharacterRole(safeCharacter);
  const guardNum=safeCharacter.guard_number?String(safeCharacter.guard_number).padStart(2,'0'):'';
+ const displayRole=role||(guardNum?'Royal Guard · '+guardNum:'');
  const rating=useMemo(()=>characterRating(safeCharacter),[safeCharacter]);
+ const primaryAura=rating?AXIS_AURA[rating.topAxes[0]]:'rgba(226, 178, 108, 0.28)';
 
  const availableSkins=useMemo(()=>STAGE_SKINS.filter(s=>getLooks(safeCharacter.id,s.id).length>0||(s.id==='uniform'&&!!canonicalCharacterArtwork(safeCharacter))),[safeCharacter]);
  const activeSkin=STAGE_SKINS.find(s=>s.id===selectedSkin)||availableSkins[0]||STAGE_SKINS[0];
@@ -88,7 +96,6 @@ export default function CharacterStageView({character,roster,index,total,isOverl
  }),[safeCharacter.id,safeRoster,discovery.covered]);
  const items=useMemo(()=>((connections.items as Record<string,{id:string;name_vi:string;name_en:string;href:string;image?:string}[]>)[safeCharacter.id]||[]).filter(item=>canRevealExhibit(item.id,discovery.covered)),[safeCharacter.id,discovery.covered]);
 
- useEffect(()=>{setFavorite(pref('tfam-lounge-favorite'));},[]);
  useEffect(()=>{
   setFailedSrc('');
   const validSkin=availableSkins.some(s=>s.id===initialSkin)?initialSkin:(availableSkins[0]?.id||'uniform');
@@ -120,12 +127,6 @@ export default function CharacterStageView({character,roster,index,total,isOverl
   setVariant(lookId);
   onLocationSync?.(safeCharacter.id,activeSkin.id,lookId);
  }
- function toggleFavorite(){
-  playBrassClick();
-  const next=favorite===safeCharacter.id?'':safeCharacter.id;
-  setFavorite(next);
-  try{if(next)localStorage.setItem('tfam-lounge-favorite',next);else localStorage.removeItem('tfam-lounge-favorite');}catch{}
- }
  function stepCharacter(delta:number){
   if(roster.length<2)return;
   playBrassClick();
@@ -135,6 +136,7 @@ export default function CharacterStageView({character,roster,index,total,isOverl
 
  return <MotionConfig reducedMotion="user"><div
   className={'char-stage-shell'+(isOverlay?' is-overlay':'')+(isMature?' is-mature':'')}
+  style={{'--stage-aura':primaryAura} as React.CSSProperties}
   role={isOverlay?'dialog':undefined}
   aria-modal={isOverlay?true:undefined}
   aria-label={name+' character showcase'}
@@ -161,6 +163,8 @@ export default function CharacterStageView({character,roster,index,total,isOverl
      </div>}
     </header>
 
+    <div className="char-stage-aura" aria-hidden="true"/>
+
     <div className="char-stage-figure-wrap">
      {portrait&&!hasError?(
       <img
@@ -178,15 +182,8 @@ export default function CharacterStageView({character,roster,index,total,isOverl
    {/* RIGHT COLUMN: GAMELIKE 4-TAB DOSSIER PANEL */}
    <aside className="char-stage-panel" aria-label={name+' dossier'}>
     <div className="char-panel-header">
-     <div className="char-panel-meta">
-      <span className="char-panel-role">{guardNum?'Royal Guard · '+guardNum:role}</span>
-      <button type="button" className={'char-panel-fav'+(favorite===safeCharacter.id?' is-pinned':'')} aria-pressed={favorite===safeCharacter.id} onClick={toggleFavorite} title="Pin as lobby character">
-       <Star size={14} fill={favorite===safeCharacter.id?'currentColor':'none'}/>
-       <span>{favorite===safeCharacter.id?'Pinned':'Lobby'}</span>
-      </button>
-     </div>
+     {displayRole&&<span className="char-panel-role">{displayRole}</span>}
      <h1>{name}</h1>
-     {guardNum&&role&&<p className="char-panel-subrole">{role}</p>}
     </div>
 
     <nav className="char-panel-tabs" role="tablist" aria-label="Character sections">
