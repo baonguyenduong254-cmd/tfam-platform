@@ -78,6 +78,13 @@
       "purpose": "GitHub, ChatGPT Sites D1, Cloudflare R2, and browser storage ownership",
       "origin": "project-authored",
       "lock": null
+    },
+    {
+      "name": "tfam-3role-workflow",
+      "path": ".agents/skills/tfam-3role-workflow",
+      "purpose": "3-role coordination across Owner (baonguyenduong254), Worker (leonardoravennax), and Supervisor (Codex Plus)",
+      "origin": "project-authored",
+      "lock": null
     }
   ],
   "capabilities": [
