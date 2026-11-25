@@ -24,6 +24,7 @@ test('protected tokens and other dash characters remain exact; formatting is ide
  assert.equal(format('## Court — a guide\n[Realm — court](https://example.test/a—b)'), '## Court, a guide\n[Realm, court](https://example.test/a—b)');
  const result=format('Name — the captain — spoke—quietly.');
  assert.equal(format(result),result);
+ assert.equal(format("The desert ' s war . (1715–1716)"),"The desert's war. (1715–1716)");
 });
 test('bundled reader prose is formatted without altering its source records',()=>{
  const source=fs.readFileSync('lib/story/english-book1.json','utf8'),chapters=JSON.parse(source);

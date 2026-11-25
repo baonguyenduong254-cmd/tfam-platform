@@ -242,6 +242,14 @@
         "ops/releases/sites-250-overview-gutters.json",
         "site/art/audio-originals/*"
       ]
+    },
+    {
+      "path": "site/package.json dependencies (@react-three/fiber, @react-three/drei, @react-three/postprocessing, three, @types/three, gsap, @gsap/react)",
+      "kind": "unused-3d-and-gsap-packages-after-pr40-effect-pruning",
+      "count": 7,
+      "retiredAt": "2026-11-25",
+      "recovery": "Git commit 2db70ae (reinstall via pnpm)",
+      "proof": "Verified zero imports across site/app, site/lib, site/scripts, and site/tests after PR #40 removed WorldCanvas.tsx and KineticSurfaces.tsx; verified with pnpm install, tsc --noEmit, pnpm run build, and node --test tests/*.test.mjs"
     }
   ],
   "r2Audit": {
