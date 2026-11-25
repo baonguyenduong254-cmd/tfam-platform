@@ -53,6 +53,24 @@ main[data-tfam211] .empire-overview.empire-overview .empire-glsl-atmosphere{
   width:100%;
   height:100%;
   opacity:.85;
+  background:
+    radial-gradient(ellipse 72% 48% at 20% 24%,color-mix(in srgb,var(--faction-accent,#dfc28f) 14%,transparent),transparent 72%),
+    radial-gradient(ellipse 68% 52% at 84% 72%,rgba(126,162,196,.09),transparent 74%);
+}
+main[data-tfam211] .empire-overview.empire-overview .overview-atmosphere-css[data-faction="castilian_empire"]{
+  background:
+    radial-gradient(ellipse 72% 48% at 22% 24%,rgba(135,38,65,.24),transparent 72%),
+    radial-gradient(ellipse 64% 48% at 86% 74%,rgba(223,194,143,.12),transparent 74%);
+}
+main[data-tfam211] .empire-overview.empire-overview .overview-atmosphere-css[data-faction="annam"]{
+  background:
+    radial-gradient(ellipse 72% 48% at 22% 24%,rgba(38,107,92,.24),transparent 72%),
+    radial-gradient(ellipse 64% 48% at 86% 74%,rgba(223,185,122,.12),transparent 74%);
+}
+main[data-tfam211] .empire-overview.empire-overview .overview-atmosphere-css[data-faction="russian_empire"]{
+  background:
+    radial-gradient(ellipse 72% 48% at 22% 24%,rgba(56,97,130,.24),transparent 72%),
+    radial-gradient(ellipse 64% 48% at 86% 74%,rgba(213,222,232,.12),transparent 74%);
 }
 main[data-tfam211] .empire-overview.empire-overview .empire-velvet-vignette{
   position:absolute;
