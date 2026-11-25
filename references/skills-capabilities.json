@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-25",
   "skills": [
     {
       "name": "design-taste-frontend",
@@ -55,6 +55,27 @@
       "name": "tfam-update-workflow",
       "path": ".agents/skills/tfam-update-workflow",
       "purpose": "cloud update coordination",
+      "origin": "project-authored",
+      "lock": null
+    },
+    {
+      "name": "tfam-web-design",
+      "path": ".agents/skills/tfam-web-design",
+      "purpose": "v250+ visual system, responsive discipline, and Vinext/React 19 UI review",
+      "origin": "project-authored",
+      "lock": null
+    },
+    {
+      "name": "tfam-github-management",
+      "path": ".agents/skills/tfam-github-management",
+      "purpose": "branch/PR sync with live production, release provenance, and doc hygiene",
+      "origin": "project-authored",
+      "lock": null
+    },
+    {
+      "name": "tfam-data-distribution",
+      "path": ".agents/skills/tfam-data-distribution",
+      "purpose": "GitHub, ChatGPT Sites D1, Cloudflare R2, and browser storage ownership",
       "origin": "project-authored",
       "lock": null
     }

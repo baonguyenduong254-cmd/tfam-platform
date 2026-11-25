@@ -5,13 +5,13 @@
       "service": "GitHub",
       "repository": "baonguyenduong254-cmd/tfam-platform",
       "role": "source-and-coordination",
-      "status": "connected-private-read-write"
+      "status": "public-repo-sync-with-v250"
     },
     {
       "service": "Sites",
       "projectId": "appgprj_6abf3718495481919a2cd6954776f57e",
       "role": "production-hosting",
-      "status": "existing-live-v210",
+      "status": "live-v250",
       "gitHubAutoDeploy": "not-configured",
       "manualCloudRelease": "verified"
     },
@@ -19,7 +19,7 @@
       "service": "D1",
       "binding": "DB",
       "role": "live-content-and-reader-data",
-      "status": "schema-inspected",
+      "status": "live-chatgpt-sites-d1-rev32",
       "tables": [
         "content",
         "reader_accounts",
@@ -29,27 +29,31 @@
         "chapter_visits",
         "admin_sessions",
         "admin_login_limits",
-        "reader_rate_limits"
+        "reader_rate_limits",
+        "studio_volumes",
+        "studio_chapters",
+        "studio_chapter_revisions",
+        "studio_canon_entries",
+        "studio_canon_links",
+        "studio_knowledge_states",
+        "studio_what_if_scenarios",
+        "studio_published_snapshots",
+        "studio_import_staging",
+        "studio_audit_logs"
       ]
     },
     {
       "service": "R2",
       "role": "media",
-      "status": "inventory-reconciled-and-72-portrait-retirement-completed",
+      "status": "active-public-cdn",
       "bucket": "tfam-assets",
       "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
-      "legacyPathMappings": 2269,
-      "adminWriteAccessVerified": true,
-      "adminAccessMethod": "authenticated-dashboard"
+      "objectCount": 2464,
+      "mappedExternalPaths": 2379
     }
   ],
-  "secretNamesOnly": [],
   "notes": [
-    "Do not copy production secret values into this file.",
-    "No R2 connection has been replaced.",
-    "No new database or reader-data copy has been created.",
-    "Temporary source import secret was removed after successful import.",
-    "Version210 source synchronized and published entirely on cloud; one-run encrypted credential relay deleted after completion.",
-    "72 historical oil portraits permanently deleted on2026-11-03 after owner confirmation; no backup per owner instruction."
+    "Do not store production secret values, API keys, or auth tokens in this file.",
+    "Personal Cloudflare Worker through-frost-and-myth.tfamatlas.workers.dev and D1 tfam-content are legacy/separate from ChatGPT Sites production."
   ]
 }

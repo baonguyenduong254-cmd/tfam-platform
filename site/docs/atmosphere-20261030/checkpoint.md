@@ -1,3 +1,0 @@
-# Component atmosphere and legacy surfaces
-
-Fixes exact map-heading-ice selector (previously unthemed), text and icons. Vestigium search/filter controls, tier headings and artifact card aura surfaces use ivory/ink/crimson with restrained coloured light instead of navy. Chronicle image fades into a warm gradient identity panel, enlarged title and compass watermark. Footer becomes one layered composition with ornaments behind a central flourish and copyright, including small-screen placement. Removes the duplicate Open reading room action from Chronicles; existing direct chapter routes remain valid. Regression tests passed.

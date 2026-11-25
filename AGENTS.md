@@ -58,5 +58,5 @@
 ## Durable update workflow
 - For subsequent TFAM website updates, read docs/AI-OPERATING-WORKFLOW.md and load tfam-update-workflow. It routes web research, design, React/performance, testing and media without loading all skills at once.
 - Use tfam-web-research for web access/research and tfam-media-production for image/video/audio work. Discover tools actually available in the current session and read their provider skills; do not claim credentials, a browser, a paid entitlement or an MCP connection from a registry entry.
-- Keep all project execution on cloud. Do not copy host/plugin skills into the repo or install a workstation CLI as fallback.
-- The eight-skill inventory and capability requirements are recorded in references/skills-capabilities.json. External agent-browser/Remotion entries are pinned references only, not installed tools.
+- Prefer cloud execution when configured; local owner-authorized workstation execution is permitted when explicitly approved by the owner. Do not copy host/plugin secrets or auth state into the repo.
+- Project-authored TFAM skills also include `tfam-web-design`, `tfam-github-management`, and `tfam-data-distribution` in `.agents/skills/` (recorded in `references/skills-capabilities.json`). External agent-browser/Remotion entries are pinned references only, not installed tools.
