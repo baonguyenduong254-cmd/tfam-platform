@@ -258,6 +258,14 @@
       "retiredAt": "2026-11-25",
       "recovery": "Git commit acf719c",
       "proof": "Verified zero imports/references across site/app, site/lib, site/scripts, site/tests, .github/workflows, and tools (active audio-originals and non-retired source dirs retained); verified with tsc --noEmit, node --test tests/*.test.mjs, and pnpm run build"
+    },
+    {
+      "path": "site/app/components/character-showcase.css, site/app/evelyne-stage/lounge.css",
+      "kind": "superseded-character-styles-after-pr47-gamelike-unification",
+      "count": 2,
+      "retiredAt": "2026-11-25",
+      "recovery": "Git commit b89e172",
+      "proof": "Verified zero imports across site/, .github/, and tools/ after PR #47 replaced both stylesheets with character-gamelike.css"
     }
   ],
   "r2Audit": {

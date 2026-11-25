@@ -9,10 +9,9 @@ import {hasWardrobe} from '../../lib/wardrobe-looks';
 import CharacterStageView,{STAGE_SKINS,type StageTab} from '../components/CharacterStageView';
 
 const initial=withCharacterPortraits(seed);
-function pref(key:string){try{return localStorage.getItem(key)||'';}catch{return '';}}
 
 /**
- * Dedicated Private Salon route (/evelyne-stage) unified with the v257 Gamelike Character Stage.
+ * Dedicated Private Salon route (/evelyne-stage) unified with the v258 Gamelike Character Stage.
  * Preserves ?character=, ?look=, and #wardrobe/#office/#afterwork/#beach deep links with zero overlap.
  */
 export default function CharacterLounge(){
@@ -25,8 +24,7 @@ export default function CharacterLounge(){
  useEffect(()=>{
   function sync(){
    const url=new URL(location.href);
-   const favoriteId=pref('tfam-lounge-favorite');
-   const requestedId=url.searchParams.get('character')||favoriteId;
+   const requestedId=url.searchParams.get('character');
    const cleanId=requestedId&&!isRemovedRosterCharacter(requestedId)?requestedId:'evelyne_vesper';
    const hash=url.hash.slice(1);
    setCharacterId(cleanId);
