@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import {createContext,useContext,useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
 import {useReaderAccount} from './ReaderAccount';
 import {scopedReaderKey,mergeAccountHistory} from '../../lib/accounts';
@@ -39,7 +38,7 @@ export function AchievementTracker(){
    <h1>Every page opens a horizon.</h1>
    <p>Your reading milestones connect the chronicles directly to the empires and characters beyond them.</p>
    <div className="ach241-actions">
-    <Link className="ach241-cta" href="/chronicles">Continue reading</Link>
+    <a className="ach241-cta" href="/chronicles">Continue reading</a>
     <small>{account.data?.profile?(account.error?'Device progress retained · Account sync unavailable':'Account progress synced'):'Guest progress · Saved in this browser'}</small>
    </div>
   </header>

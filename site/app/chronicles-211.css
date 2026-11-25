@@ -106,6 +106,14 @@ body.tfam-editorial.tfam-royal main[data-tfam211] [data-reader-focus=true] .read
 .v250-arc-book img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .v250-arc-spine{position:absolute;inset:0 auto 0 0;width:14px;background:linear-gradient(90deg,#000000a6,#dfc28f26 55%,transparent);z-index:2}
 .v250-arc-caption{display:block;margin-top:1rem;color:#fff2dc;font-size:clamp(1.125rem,2vw,1.375rem);line-height:1.25}
+.v250-arc-count{display:block;margin-top:.35rem;font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;color:#dfc28f}
+.v250-arc-meta{margin:0 0 14px;color:#c8bacd;font-size:15px}
+.v250-arc-modal-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.v250-arc-btn-link{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.v250-arc-btn-ghost{background:transparent;color:#e6d8c3;border-color:#dfc28f44}
+.v250-arc-chapters{list-style:none;margin:20px 0 0;padding:12px 0 0;border-top:1px solid #dfc28f2e;max-height:240px;overflow-y:auto;display:grid;gap:6px}
+.v250-arc-chapters a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 12px;border:1px solid #dfc28f24;background:#16101f;color:#f2eadc;text-decoration:none;font-size:14px;transition:border-color .2s,background .2s}
+.v250-arc-chapters a:hover,.v250-arc-chapters a:focus-visible{border-color:#dfc28f88;background:#261830}
 .v250-arc-volume:focus-visible{outline:2px solid #ffe8ba;outline-offset:5px}
 .v250-arc-modal::backdrop{background:#07040ce0;backdrop-filter:blur(10px)}
 .v250-arc-modal{position:fixed;inset:0;margin:auto;max-height:calc(100dvh - 2rem);overflow:auto;color:#f2eadc;grid-template-columns:260px minmax(0,1fr);gap:32px;width:min(760px,100% - 2rem);padding:30px;background:linear-gradient(155deg,#1d1426fa,#100b17fc);border:1px solid #dfc28f55;box-shadow:0 30px 90px #000000cc}
@@ -116,3 +124,4 @@ body.tfam-editorial.tfam-royal main[data-tfam211] [data-reader-focus=true] .read
 .v250-arc-btn{margin-top:22px;padding:11px 22px;border:1px solid #ebd09e66;background:linear-gradient(135deg,#872641,#491527);color:#fff4df;font-size:12px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
 @media(max-width:1000px){.v250-arcs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.v250-arcs-grid{grid-template-columns:1fr}.v250-arc-modal{grid-template-columns:1fr;padding:22px}}
+@media(prefers-reduced-motion:reduce){.v250-arc-book,.v250-arc-volume:hover .v250-arc-book{transform:none;transition:none}}

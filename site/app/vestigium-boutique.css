@@ -8,16 +8,15 @@
   color:#f6ebd8;
 }
 .vest-boutique-bar{
-  position:sticky;
-  top:14px;
-  z-index:45;
+  position:relative;
+  z-index:20;
   display:flex;
   justify-content:space-between;
   align-items:center;
   gap:16px;
   flex-wrap:wrap;
   max-width:1540px;
-  margin:0 auto 28px;
+  margin:0 auto 24px;
   padding:14px 22px;
   background:linear-gradient(135deg,#191224eb,#0f0a17f2);
   border:1px solid #dfc28f44;
