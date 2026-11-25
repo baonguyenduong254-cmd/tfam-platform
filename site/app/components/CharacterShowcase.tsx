@@ -1,60 +1,137 @@
 'use client';
-import {useEffect,useMemo,useRef,useState} from 'react';
-import {ArrowUpRight,Search,ChevronLeft,ChevronRight,Crown,Shield,Users,Sparkles} from 'lucide-react';
-import {hasWardrobe} from '../../lib/wardrobe-looks';
+import {MotionConfig,motion} from 'motion/react';
+import {useEffect,useMemo,useState} from 'react';
+import {Crown,Search,Shield,Sparkles,Users,X} from 'lucide-react';
+import {characterArtwork} from '../../lib/character-artwork';
 import {canonicalCharacterArtwork,canonicalCharacterRole,canonicalCharacters} from '../../lib/canonical-characters';
-import {attributeDefinitions,characterAttributes,courtGroup} from '../../lib/character-attributes';
+import {courtGroup} from '../../lib/character-attributes';
+import {assetUrl} from '../../lib/media/asset-url';
+import {playBrassClick} from '../../lib/tactile-sfx';
+import {hasWardrobe} from '../../lib/wardrobe-looks';
 import CharacterRosterIcon from './CharacterRosterIcon';
-import DecodedCharacterArt,{warmCharacterArt} from './DecodedCharacterArt';
-import './character-showcase.css';
-import CharacterAtmosphere from './CharacterAtmosphere';
+import CharacterStageView from './CharacterStageView';
+import './character-gamelike.css';
 
 type Row=Record<string,any>;
-const groups=[{id:'all',label:'All',Icon:Users},{id:'crown',label:'The Crown',Icon:Crown},{id:'guard',label:'Royal Guard',Icon:Shield},{id:'official',label:'Officials',Icon:Users}];
+const GROUPS=[
+ {id:'all',label:'All',Icon:Users},
+ {id:'crown',label:'The Crown',Icon:Crown},
+ {id:'guard',label:'Royal Guard',Icon:Shield},
+ {id:'official',label:'Officials',Icon:Users},
+] as const;
+
 const normalize=(s:string)=>s.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 
+function matchesQuery(c:Row,rawQuery:string){
+ const q=normalize(rawQuery.trim());
+ if(!q)return true;
+ const guardRaw=c.guard_number?String(c.guard_number):'';
+ const guardPadded=guardRaw?guardRaw.padStart(2,'0'):'';
+ const hay=normalize([c.name_en,c.name_vi,c.role_en,guardRaw,guardPadded].filter(Boolean).join(' '));
+ return hay.includes(q);
+}
+
+function RosterCardArt({character}:{character:Row}){
+ const [failed,setFailed]=useState(false);
+ const thumb=characterArtwork(character,true)||canonicalCharacterArtwork(character);
+ if(!thumb||failed)return <div className="roster-card-fallback"><CharacterRosterIcon character={character} lang="en"/></div>;
+ return <img src={assetUrl(thumb)} alt="" loading="lazy" decoding="async" onError={()=>setFailed(true)}/>;
+}
+
+/**
+ * TFAM v257 Two-Stage Gamelike Character Showcase:
+ * Stage 1 — The Imperial Roster Hall (tall standing collector cards, zero cramped sidebars)
+ * Stage 2 — The Full-Viewport 100svh Character Stage (zero-overlap 2-column grid with Overview/Wardrobe/Profile/Skills)
+ */
 export default function CharacterShowcase({characters}:{characters:Row[]}){
- const dedupedCharacters=useMemo(()=>canonicalCharacters(characters),[characters]);
+ const deduped=useMemo(()=>canonicalCharacters(characters),[characters]);
+ const [query,setQuery]=useState('');
+ const [group,setGroup]=useState<string>('all');
+ const [stageId,setStageId]=useState<string|null>(null);
 
- const [query,setQuery]=useState(''),[group,setGroup]=useState('all'),[active,setActive]=useState(dedupedCharacters[0]?.id||''),[entering,setEntering]=useState(false),[rosterOpen,setRosterOpen]=useState(false);
- const root=useRef<HTMLElement>(null),timer=useRef<ReturnType<typeof setTimeout>|null>(null);
- const visible=dedupedCharacters.filter(c=>(group==='all'||courtGroup(c)===group)&&normalize([c.name_en,c.guard_number].join(' ')).includes(normalize(query)));
- const current=visible.find(c=>c.id===active)||visible[0],index=visible.findIndex(c=>c.id===current?.id);
- const name=current?.name_en||'',scores=current?characterAttributes(current):null;
- const image=canonicalCharacterArtwork(current);
- const hasAtelier=!!(current&&hasWardrobe(current.id));
+ const visible=useMemo(()=>deduped.filter(c=>(group==='all'||courtGroup(c)===group)&&matchesQuery(c,query)),[deduped,group,query]);
+ const stageIndex=stageId?deduped.findIndex(c=>c.id===stageId):-1;
+ const stageCharacter=stageIndex>=0?deduped[stageIndex]:null;
 
- useEffect(()=>{for(const neighbor of [visible[index-1],visible[index+1]]){const src=canonicalCharacterArtwork(neighbor);if(src)void warmCharacterArt(src).catch(()=>{});}},[current?.id,group,query]);
- useEffect(()=>{const saved=sessionStorage.getItem('tfam-champion-selection')||localStorage.getItem('tfam-lounge-favorite');if(saved&&dedupedCharacters.some(c=>c.id===saved))setActive(saved);},[dedupedCharacters]);
- useEffect(()=>{const el=root.current;if(!el)return;let onscreen=true;const sync=()=>{el.dataset.motionActive=String(onscreen&&!document.hidden);};const observer=new IntersectionObserver(([e])=>{onscreen=e.isIntersecting;sync();});observer.observe(el);document.addEventListener('visibilitychange',sync);return()=>{observer.disconnect();document.removeEventListener('visibilitychange',sync);if(timer.current)clearTimeout(timer.current);};},[]);
+ // Open Stage 2 directly if a specific character ID is requested in the hash (#archive/<faction>/characters/<id>)
+ useEffect(()=>{
+  const parts=location.hash.slice(1).split('/');
+  const requested=parts[2]==='characters'&&parts[3]?decodeURIComponent(parts[3]):'';
+  if(requested&&deduped.some(c=>c.id===requested))setStageId(requested);
+ },[deduped]);
 
- function cancelEntry(){if(timer.current){clearTimeout(timer.current);timer.current=null;}setEntering(false);}
- function select(id:string){cancelEntry();setActive(id);sessionStorage.setItem('tfam-champion-selection',id);}
- function enter(){if(!current||entering)return;sessionStorage.setItem('tfam-champion-selection',current.id);setEntering(true);timer.current=setTimeout(()=>window.location.assign('/evelyne-stage?character='+encodeURIComponent(current.id)),480);}
+ function openCharacter(id:string){
+  playBrassClick();
+  setStageId(id);
+  try{sessionStorage.setItem('tfam-champion-selection',id);}catch{}
+ }
 
- return <section ref={root} className={'champion-select'+(entering?' is-entering':'')} aria-label="Character selection">
-  <div className="champion-scene" aria-hidden="true"><img src="/evelyne-stage/background-uniform.webp" alt=""/><div className="champion-scrim"/><div className="champion-beam"/></div>
-  <div className="champion-presentation"><CharacterAtmosphere identity={current?.id||''}/>
-   {current?<><div key={current.id+'copy'} className="champion-identity">
-    <p className="champion-membership">{canonicalCharacterRole(current)}</p>
-    <h2>{name}</h2>
-    <div className="champion-cta-row">
-     <button className="champion-enter" onClick={enter} disabled={entering}><span>{hasAtelier?'Enter private salon':'Select character'}</span><ArrowUpRight size={19}/></button>
-     {hasAtelier&&<button type="button" className="champion-atelier-tag" onClick={()=>window.location.assign('/evelyne-stage?character='+encodeURIComponent(current.id)+'#wardrobe')}><Sparkles size={13} aria-hidden="true"/> Atelier Wardrobe</button>}
-    </div>
+ return <MotionConfig reducedMotion="user"><section className="roster-hall" aria-label="Character selection">
+  {/* STAGE 1: THE IMPERIAL ROSTER HALL */}
+  <header className="roster-hall-bar">
+   <nav className="roster-hall-filters" role="tablist" aria-label="Character groups">
+    {GROUPS.map(({id,label,Icon})=>{
+     const active=group===id;
+     return <button key={id} type="button" role="tab" aria-selected={active} className={'roster-filter-tab'+(active?' is-active':'')} onClick={()=>{playBrassClick();setGroup(id);}}>
+      <Icon size={14} aria-hidden="true"/>
+      <span>{label}</span>
+      {active&&<motion.span layoutId="tfam-roster-filter-rail" className="roster-filter-rail" transition={{type:'spring',duration:.32,bounce:0}}/>}
+     </button>;
+    })}
+   </nav>
+
+   <div className="roster-hall-search-wrap">
+    <label className="roster-hall-search">
+     <Search size={15} aria-hidden="true"/>
+     <input
+      type="text"
+      aria-label="Search characters by name or guard number"
+      placeholder="Name or Guard 01–97"
+      value={query}
+      onChange={e=>setQuery(e.target.value)}
+     />
+     {query&&<button type="button" className="roster-search-clear" aria-label="Clear search" onClick={()=>setQuery('')}><X size={14}/></button>}
+    </label>
+    <span className="roster-hall-count">{visible.length}</span>
    </div>
-   <div className="champion-art" aria-label={name+' uniform'}><div className="champion-art-idle"><DecodedCharacterArt src={image} name={name}/></div></div>
-   <aside className="champion-aptitudes" key={current.id+'stats'} aria-label={name+' attributes'}><dl>{attributeDefinitions.map(d=><div key={d.key}><dt>{d.en}</dt><dd>{scores?.[d.key]??'N/A'}<small>/100</small></dd><span className="champion-stat-track" aria-hidden="true"><span style={{transform:`scaleX(${(scores?.[d.key]||0)/100})`,background:d.color}}/></span></div>)}</dl></aside>
-   <div className="champion-step"><button aria-label="Previous character" disabled={index<=0} onClick={()=>select(visible[index-1].id)}><ChevronLeft/></button><span>{index+1} / {visible.length}</span><button aria-label="Next character" disabled={index>=visible.length-1} onClick={()=>select(visible[index+1].id)}><ChevronRight/></button></div></>:<div className="champion-empty"><h2>No matching characters</h2><button onClick={()=>{cancelEntry();setQuery('');setGroup('all');}}>Clear filters</button></div>}
-  </div>
-  <div className={'champion-roster'+(rosterOpen?' is-roster-open':'')}>
-   <button className="champion-roster-toggle" aria-expanded={rosterOpen} onClick={()=>setRosterOpen(v=>!v)}>Choose character <span>{name}</span><ChevronRight size={18}/></button>
-   <div className="champion-roster-tools">
-    <div role="group" aria-label="Character groups">{groups.map(({id,label,Icon})=><button key={id} aria-pressed={group===id} onClick={()=>{cancelEntry();setGroup(id);}}><Icon size={15}/>{label}</button>)}</div>
-    <label><Search size={17}/><input aria-label="Search character showcase" placeholder="Name or Guard number" value={query} onChange={e=>{cancelEntry();setQuery(e.target.value);}}/></label>
-    <span>{visible.length} characters</span>
-   </div>
-   <div className="champion-portraits" aria-label="Choose a character" onKeyDown={e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;e.preventDefault();const focused=(e.target as HTMLElement).closest('button');const focusedIndex=visible.findIndex(c=>'champion-'+c.id===focused?.id);const start=focusedIndex<0?index:focusedIndex;const next=visible[(start+(e.key==='ArrowRight'?1:-1)+visible.length)%visible.length];if(next){select(next.id);const target=document.getElementById('champion-'+next.id);target?.focus({preventScroll:true});if(target){const bounds=e.currentTarget.getBoundingClientRect(),item=target.getBoundingClientRect();if(item.top<bounds.top)e.currentTarget.scrollTop+=item.top-bounds.top;else if(item.bottom>bounds.bottom)e.currentTarget.scrollTop+=item.bottom-bounds.bottom;}}}}>{visible.map(c=><button key={c.id} id={'champion-'+c.id} className={current?.id===c.id?'is-selected':''} aria-pressed={current?.id===c.id} aria-label={'Select '+(c.name_en||'')} title={c.name_en||''} onClick={()=>select(c.id)}><CharacterRosterIcon character={c} lang="en"/>{c.guard_number&&<small>{String(c.guard_number).padStart(2,'0')}</small>}<span className="champion-portrait-name">{c.name_en||''}</span></button>)}</div>
-  </div>
- </section>;
+  </header>
+
+  {visible.length>0?<div className="roster-hall-grid">
+   {visible.map(c=>{
+    const guardNum=c.guard_number?String(c.guard_number).padStart(2,'0'):'';
+    const isCrown=courtGroup(c)==='crown';
+    const atelier=hasWardrobe(c.id);
+    const role=canonicalCharacterRole(c);
+    return <button key={c.id} type="button" className={'roster-card'+(isCrown?' is-crown':'')} onClick={()=>openCharacter(c.id)} aria-label={'Inspect '+(c.name_en||'')+(guardNum?', Guard '+guardNum:'')}>
+     <span className="roster-card-bg" aria-hidden="true"/>
+     <span className="roster-card-mark" aria-hidden="true">
+      {isCrown?<Crown size={18}/>:guardNum?guardNum:''}
+     </span>
+     {atelier&&<span className="roster-card-atelier" title="Atelier Wardrobe available" aria-hidden="true"><Sparkles size={13}/></span>}
+     <span className="roster-card-media" aria-hidden="true">
+      <RosterCardArt character={c}/>
+     </span>
+     <span className="roster-card-scrim" aria-hidden="true"/>
+     <span className="roster-card-copy">
+      <small>{guardNum?'Guard '+guardNum:role}</small>
+      <strong>{c.name_en||c.name_vi||''}</strong>
+     </span>
+    </button>;
+   })}
+  </div>:<div className="roster-hall-empty">
+   <p>No matching characters found.</p>
+   <button type="button" onClick={()=>{playBrassClick();setQuery('');setGroup('all');}}>Reset filters</button>
+  </div>}
+
+  {/* STAGE 2: FULL-VIEWPORT 100svh GAMELIKE CHARACTER STAGE */}
+  {stageCharacter&&<CharacterStageView
+   character={stageCharacter}
+   roster={deduped}
+   index={stageIndex}
+   total={deduped.length}
+   isOverlay
+   onBack={()=>setStageId(null)}
+   onSelectCharacter={id=>setStageId(id)}
+  />}
+ </section></MotionConfig>;
 }
