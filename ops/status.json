@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-25",
-  "phase": "overview-gutters-250-live",
+  "phase": "v250-live",
   "sourceImport": "verified",
   "production": {
     "siteVersion": 250,
     "sourceCommit": "bcbd12bdf038cd7666f4732352482f1ea2a86fc6",
+    "githubCommit": "19fc4049fbb88cd05e165e97883b732e4bfb5f6a",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
     "deploymentId": "appgdep_6b05c373a4f48191bddb50c9133605fc",
@@ -24,114 +25,23 @@
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
     "visibility": "public",
-    "connector": "read-write-verified",
     "productionAutoDeploy": false,
     "sourcePath": "site/",
-    "importPR": "https://github.com/baonguyenduong254-cmd/tfam-platform/pull/6",
-    "importWorkflowRun": "https://github.com/baonguyenduong254-cmd/tfam-platform/actions/runs/41460430687",
-    "importSecretRemoved": true,
-    "manualCloudRelease": "verified",
     "liveSourceRecord": "ops/releases/sites-250-overview-gutters.json"
   },
   "r2": {
-    "status": "full-dashboard-inventory-reconciled",
-    "bucketNameVerified": true,
-    "objectMigrationPerformed": false,
-    "deletionsPerformed": true,
-    "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
-    "legacyPathMappings": 2269,
-    "adminWriteAccessVerified": true,
+    "status": "active-public-cdn",
     "bucket": "tfam-assets",
-    "fullInventoryComplete": true,
-    "objectCount": 2279,
-    "mappedImagesMatched": 2341,
-    "soundtracksMatched": 7,
-    "zeroByteFolderMarkers": 3,
-    "confirmedUnusedMedia": 0,
-    "inventoryReport": "maintenance/r2-reconciliation-210.json",
-    "deletedPortraits": 72,
-    "portraitRetirementReport": "maintenance/portrait-retirement-210.json",
-    "adminAccessMethod": "authenticated-dashboard"
+    "publicBaseUrl": "https://pub-a2e7030237c14362985465386fcae671.r2.dev",
+    "objectCount": 2464,
+    "mappedExternalPaths": 2379
   },
   "database": {
     "binding": "DB",
-    "tablesVerified": true,
-    "contentInventory": "blocked-row-too-large",
-    "changesPerformed": false
-  },
-  "next": [
-    "Native UHD throne-hall artwork remains a follow-up; current generation is1672x941",
-    "For new ideas, recheck current Sites version and work through a GitHub task branch"
-  ],
-  "localExecutionAllowed": false,
-  "preparation210": {
-    "pullRequest": 10,
-    "cloudRun": "41465477027",
-    "projectSkills": 4,
-    "hostMcpActivated": false,
-    "removedGeneratedPaths": [
-      "site/tsconfig.tsbuildinfo",
-      "site/tools/design/node_modules"
-    ],
-    "productionDeployed": false,
-    "classificationTestRun": "41468035188",
-    "startHere": "docs/START-HERE-210.md"
-  },
-  "update210": {
-    "implementationPR": 15,
-    "validationRun": 41548320156,
-    "validatedSiteTree": "4911754ec5bc53d406a281d8e6bc4113a2561d5c",
-    "typescript": "passed",
-    "productionBuild": "passed",
-    "browserChecks": "passed-390-768-1920",
-    "productionDeployed": true,
-    "throneArtworkNativeDimensions": [
-      1672,
-      941
-    ],
-    "nativeUhd": false,
-    "deploymentId": "appgdep_6ae9248a291c8191a63c76e06d9f8e79",
-    "liveChecks": "passed"
-  },
-  "skillsIntake": {
-    "issue": 18,
-    "status": "merged",
-    "branch": "task/skills-cloud-audit",
-    "inventoryBefore": 4,
-    "report": "references/skills-audit-2026-11-03.md",
-    "lock": "references/skills-intake.lock.json",
-    "scriptsExecuted": false,
-    "productionChanged": false,
-    "pullRequest": 19,
-    "projectAuthored": 3,
-    "workflow": "docs/AI-OPERATING-WORKFLOW.md",
-    "registry": "references/skills-capabilities.json",
-    "ownerReviewRequired": false,
-    "mergeCommit": "dae44075ac8f6bd1f99923e5370e1dffb51a6a54",
-    "projectSkills": 8
-  },
-  "update211": {
-    "issue": 21,
-    "branch": "task/update-211",
-    "execution": "local-owner-confirmed-home-device",
-    "implementation": "complete",
-    "validation": "final local QA completed after06:30GMT+7",
-    "releaseAuthorization": "Owner2026-11-04: QA final at06:30 then push site; overrides earlier review-only boundary",
-    "merged": true,
-    "deployed": true,
-    "designReview": "ship for four scored fixes; see FINISH-VERDICT.md",
-    "productionDataWrites": false,
-    "r2Writes": false,
-    "implementationPR": 22,
-    "retirementPR": 23,
-    "savedVersionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_212ccc513a388191acb73b19a987b3bd",
-    "archiveHash": "sha256:660627fc8dc7557a4d4287cf033280419cfe814778e3f8b4049a206c60b80e56"
-  },
-  "rollback": {
-    "siteVersion": 238,
-    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_d8fa26ebf6dc819191699ec49a7f4dcf",
-    "sourceCommit": "9006abd1175566a9aca545d3955c3dc7bcdc8093",
-    "sourceTreeMatchesPreviousProduction": true,
-    "previousProductionSiteVersion": 237
+    "hosting": "chatgpt-sites-managed-d1",
+    "contentRevision": 32,
+    "atlasRevision": 25,
+    "presentationRevision": 34,
+    "legacyPersonalCloudflareD1": "tfam-content (revision 31, separate)"
   }
 }
