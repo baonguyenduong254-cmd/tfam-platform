@@ -59,6 +59,10 @@ const officialIcons = new Set([
   'trucia',
 ]);
 
+export function hasOfficialRosterIcon(characterId?: string): boolean {
+  return !!characterId && officialIcons.has(characterId);
+}
+
 export function rosterIconPath(characterId?: string): string | undefined {
   if (!characterId) return undefined;
   if (officialIcons.has(characterId)) {

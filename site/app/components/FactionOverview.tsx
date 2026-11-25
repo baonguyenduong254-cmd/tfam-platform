@@ -12,6 +12,8 @@ import {playBrassClick} from '../../lib/tactile-sfx';
 import featuredMilitary from '../../lib/featured-military.json';
 import {traitArtwork} from '../../lib/trait-art';
 import {unitIllustration} from '../../lib/unit-art';
+import {militaryCutout} from '../../lib/military-cutouts';
+import {rosterIconPath} from './CharacterRosterIcon';
 import MediaImage from './MediaImage';
 import '../overview-empire.css';
 
@@ -217,10 +219,10 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
 
      {courtRoster.length>1&&<div className="screen-court-roster" role="tablist" aria-label="Featured figures of the court">
       {courtRoster.map((person,idx)=>{
-       const art=canonicalCharacterArtwork(person);
+       const art=rosterIconPath(person.id)||canonicalCharacterArtwork(person);
        const active=idx===activeCourtIndex;
        return <button type="button" key={person.id} role="tab" aria-selected={active} className={'screen-roster-chip '+(active?'is-active':'')} onClick={()=>{if(idx!==courtIndex)playBrassClick();setCourtIndex(idx);}}>
-        <span className="screen-roster-thumb">{art&&<MediaImage src={art} alt="" width={160} height={220} loading="lazy"/>}</span>
+        <span className="screen-roster-thumb">{art&&<MediaImage src={art} alt="" width={160} height={160} loading="lazy"/>}</span>
         <strong>{local(person,'name')}</strong>
        </button>;
       })}
@@ -320,17 +322,16 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
       })}
      </div>
     </div>
-   </div>:<div className="screen-inner screen-forces-inner">
+   </div>:<div className="screen-inner screen-forces-inner screen-forces-v264">
     <div className="screen-forces-left">
-     {forces.length>0&&<div className="screen-force-tabs" role="tablist" aria-label="Featured military units">
-      {forces.map((force,index)=><button type="button" ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={index===activeForceIndex} aria-controls={sectionId+'-unit-panel'} tabIndex={index===activeForceIndex?0:-1} className={index===activeForceIndex?'is-active':''} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight'||event.key==='ArrowDown')target=(index+1)%forces.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}>
-       <span className="screen-force-name">{local(force,'name')}</span>
-      </button>)}
-     </div>}
-
      {activeForce?<div className="screen-force-copy" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
+      <span className="screen-force-kicker">
+       Order of Battle{activeForce.branch?' · '+String(activeForce.branch):''}{activeForce.number?' · No. '+String(activeForce.number).padStart(2,'0'):''}
+      </span>
       <h2 id={sectionId+'-military-title'}>{local(activeForce,'name')}</h2>
+      {local(activeForce,'class')&&<p className="screen-force-class">{local(activeForce,'class')}</p>}
       <p className="screen-force-role">{local(activeForce,'role')}</p>
+      {local(activeForce,'quote')&&<blockquote className="screen-force-quote">{local(activeForce,'quote')}</blockquote>}
       <div className="screen-link-row">
        <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();if(featured?.length)onMilitaryUnit(activeForce.id);else onUnit(activeForce);}}>
         <span>Inspect unit</span><ArrowUpRight size={15} aria-hidden="true"/>
@@ -340,19 +341,56 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
        </button>
       </div>
      </div>:<h2 id={sectionId+'-military-title'}>Under the Banner</h2>}
+
+     {forces.length>0&&<div className="screen-landmark-switcher screen-force-switcher" role="tablist" aria-label="Featured military units">
+      {forces.map((force,index)=>{
+       const active=index===activeForceIndex;
+       const thumb=force.thumbnail||force.artwork||unitIllustration(f.id,force.image_asset);
+       return <button type="button" ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={active} aria-controls={sectionId+'-unit-panel'} tabIndex={active?0:-1} className={'screen-landmark-pill screen-force-pill '+(active?'is-active':'')} data-branch={force.branch||'infantry'} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight'||event.key==='ArrowDown')target=(index+1)%forces.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}>
+        <span className="screen-landmark-thumb screen-force-thumb"><MediaImage src={thumb} alt="" width={240} height={180} loading="lazy"/></span>
+        <span className="screen-force-pill-copy">
+         <small>{force.branch?String(force.branch):'Regiment'}</small>
+         <strong>{local(force,'name')}</strong>
+        </span>
+       </button>;
+      })}
+     </div>}
     </div>
 
-    {activeForce&&<div className="screen-forces-right">
-     <div className="screen-parchment-bezel">
-      <div className="screen-parchment-mat">
-       <AnimatePresence mode="wait" initial={false}>
-        <motion.div key={activeForce.id} className="screen-force-art" initial={{opacity:0,scale:.97}} animate={{opacity:1,scale:1}} exit={{opacity:0}} transition={{duration:.28,ease:[0.2,0,0,1]}}>
-         <MediaImage src={activeForce.artwork||activeForce.thumbnail||unitIllustration(f.id,activeForce.image_asset)} alt={local(activeForce,'name')} width={1400} height={1000} loading="eager"/>
-        </motion.div>
-       </AnimatePresence>
+    {activeForce&&(()=>{
+     const cutoutSrc=militaryCutout(activeForce.id);
+     if(cutoutSrc){
+      return <div className="screen-forces-right">
+       <div className="screen-force-cutout-stage" data-branch={activeForce.branch||'infantry'}>
+        <div className="screen-force-cutout-aura" aria-hidden="true"/>
+        <AnimatePresence mode="wait" initial={false}>
+         <motion.div key={activeForce.id} className="screen-force-cutout-figure" initial={{opacity:0,scale:.95,y:14}} animate={{opacity:1,scale:1,y:0}} exit={{opacity:0,scale:1.02}} transition={{duration:.38,ease:[0.22,1,0.36,1]}}>
+          <img src={cutoutSrc} alt={local(activeForce,'name')} width={1024} height={1536} loading="eager"/>
+         </motion.div>
+        </AnimatePresence>
+       </div>
+      </div>;
+     }
+     return <div className="screen-forces-right">
+      <div className="screen-force-arch-shrine" data-branch={activeForce.branch||'infantry'}>
+       <div className="screen-force-arch-halo" aria-hidden="true"/>
+       <div className="screen-force-arch-frame">
+        <div className="screen-force-arch-canvas">
+         <AnimatePresence mode="wait" initial={false}>
+          <motion.div key={activeForce.id} className="screen-force-art-arch" initial={{opacity:0,scale:.97,y:8}} animate={{opacity:1,scale:1,y:0}} exit={{opacity:0,scale:1.01}} transition={{duration:.36,ease:[0.22,1,0.36,1]}}>
+           <MediaImage src={activeForce.artwork||activeForce.thumbnail||unitIllustration(f.id,activeForce.image_asset)} alt={local(activeForce,'name')} width={1200} height={1500} loading="eager"/>
+          </motion.div>
+         </AnimatePresence>
+         <div className="screen-force-arch-vignette" aria-hidden="true"/>
+        </div>
+        <div className="screen-force-arch-plaque" aria-hidden="true">
+         <span>{activeForce.number?'Plate '+String(activeForce.number).padStart(2,'0'):'Imperial Plate'}</span>
+         <b>{activeForce.branch?String(activeForce.branch):'Regiment'}</b>
+        </div>
+       </div>
       </div>
-     </div>
-    </div>}
+     </div>;
+    })()}
    </div>}
   </section>
  </div></MotionConfig>;
