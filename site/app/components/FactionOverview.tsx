@@ -1,24 +1,28 @@
 'use client';
+import {AnimatePresence,MotionConfig,motion} from 'motion/react';
 import {useEffect,useId,useMemo,useRef,useState,type MouseEvent} from 'react';
-import {ArrowUpRight,BookOpen,ChevronRight,Compass,MapPin,Shield,Sparkles} from 'lucide-react';
+import {ArrowUpRight,ChevronRight} from 'lucide-react';
 import {canonicalCharacterArtwork,canonicalCharacterRole,canonicalCharacters} from '../../lib/canonical-characters';
 import {courtGroup} from '../../lib/character-attributes';
 import {landmarkArtwork} from '../../lib/artwork-presentation';
 import {presentationPunctuation} from '../../lib/presentation-punctuation';
 import {factionTaglines} from '../../lib/faction-taglines';
 import {sceneArt} from '../../lib/faction-scene';
+import {playBrassClick} from '../../lib/tactile-sfx';
 import featuredMilitary from '../../lib/featured-military.json';
 import {traitArtwork} from '../../lib/trait-art';
 import {unitIllustration} from '../../lib/unit-art';
 import MediaImage from './MediaImage';
-import OverviewAtmosphere from './OverviewAtmosphere';
 import '../overview-empire.css';
 
 type R=Record<string,any>;
 type Props={
  faction:R;
+ year?:string;
+ regions?:number;
  characters:R[];
  units:R[];
+ onReturn?:()=>void;
  onCharacter:(c:R)=>void;
  onUnit:(u:R)=>void;
  onDestination:(s:string)=>void;
@@ -27,36 +31,58 @@ type Props={
 };
 
 const local=(record:R,key:string)=>presentationPunctuation(record[key+'_en']||record[key]||(key==='name'?record.name_native:'')||'');
-const roman=['I','II','III','IV','V','VI'];
 const monumentCache=new Map<string,R[]>();
+const SCREEN_LABELS=['Empire','Doctrine','Court','Landmarks','Forces'] as const;
+// Populated only with author-approved splash arts (e.g. ChatGPT painterly scenes)
+const UNIT_SPLASH_ART:Record<string,string>={};
 
 /**
- * TFAM v250 Headerless Full-Viewport Cinematic Scroll Experience:
- * Each full-screen Act immerses the visitor in one facet of the faction's world
- * with zero cluttered top headers and direct deep-dive buttons into every module.
+ * TFAM v256 Pure Full-Screen Scrollytelling Overview:
+ * Five edge-to-edge 100svh full-bleed canvases with zero top chrome, zero filler metadata,
+ * and whisper-minimal typography letting artwork and characters command the frame.
  */
 export default function FactionOverview({faction:f,characters,units,onCharacter,onUnit,onDestination,onMilitaryUnit,onLandmark}:Props){
- const [places,setPlaces]=useState<R[]>([]),[placeState,setPlaceState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[forceIndex,setForceIndex]=useState(0);
- const forceTabs=useRef<(HTMLButtonElement|null)[]>([]),sectionId=useId();
+ const [places,setPlaces]=useState<R[]>([]),[placeState,setPlaceState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0);
+ const [forceIndex,setForceIndex]=useState(0),[placeIndex,setPlaceIndex]=useState(0),[courtIndex,setCourtIndex]=useState(0),[activeScreen,setActiveScreen]=useState(0);
+ const screenRefs=useRef<(HTMLElement|null)[]>([]),forceTabs=useRef<(HTMLButtonElement|null)[]>([]),sectionId=useId();
 
  const featured=(featuredMilitary as Record<string,R[]>)[f.id];
  const forces=(featured?.length?featured:units).slice(0,3);
- const activeIndex=Math.min(forceIndex,Math.max(0,forces.length-1));
- const activeForce=forces[activeIndex];
+ const activeForceIndex=Math.min(forceIndex,Math.max(0,forces.length-1));
+ const activeForce=forces[activeForceIndex];
 
- // Strictly unified with CharacterShowcase; show Sovereign + top 3 entourage (never dump 31 cards on Overview!)
  const people=useMemo(()=>canonicalCharacters(characters),[characters]);
  const sovereign=people.find(c=>courtGroup(c)==='crown')||people[0];
- const entourage=people.filter(c=>c!==sovereign).slice(0,3);
- const sovereignArt=canonicalCharacterArtwork(sovereign);
+ const courtRoster=useMemo(()=>{
+  return sovereign?[sovereign,...people.filter(c=>c!==sovereign).slice(0,3)]:people.slice(0,4);
+ },[people,sovereign]);
+ const activeCourtIndex=Math.min(courtIndex,Math.max(0,courtRoster.length-1));
+ const activePerson=courtRoster[activeCourtIndex];
+ const activeIsSovereign=!!sovereign&&activePerson===sovereign;
+
+ const activePlaceIndex=Math.min(placeIndex,Math.max(0,places.length-1));
+ const activePlace=places[activePlaceIndex];
 
  const lore=presentationPunctuation(f.lore_en_1715||f.lore_en||'');
  const written=lore&&!/^placeholder/i.test(lore);
  const paragraphs=written?lore.split(/\n\s*\n/):[];
- const heroBackdrop=f.id==='castilian_empire'?'/overview223/castilian-arrival.webp':sceneArt(f);
  const quoteLine=f.id==='castilian_empire'?'An empire forged in war. A crown tested by winter.':f.id==='sultanate_of_morocco'?'Between the Atlas and the sea, a caliphate endures the frost.':factionTaglines[f.id]?.en||'';
+ const factionName=presentationPunctuation(f.name_en||f.name_native||'');
 
- useEffect(()=>{setForceIndex(0);},[f.id]);
+ // Five distinct full-bleed backdrops (one per full-viewport screen)
+ const arrivalBackdrop=f.id==='castilian_empire'?'/overview223/castilian-arrival.webp':sceneArt(f);
+ const doctrineBackdrop=f.id==='castilian_empire'?'/imperial/castilian.webp':(places[1]?landmarkArtwork(places[1],true):'/art/update210/realm-selection-hall.webp');
+ const courtBackdrop='/art/update210/throne-hall.webp';
+ const landmarkBackdrop=activePlace?landmarkArtwork(activePlace,true):(f.id==='castilian_empire'?'/overview223/castilian-madrid.webp':sceneArt(f));
+ const forcesBackdrop='/art/update210/realm-selection-hall.webp';
+ const activeForceSplash=activeForce?UNIT_SPLASH_ART[activeForce.id]||'':'';
+
+ useEffect(()=>{
+  setForceIndex(0);
+  setPlaceIndex(0);
+  setCourtIndex(0);
+  setActiveScreen(0);
+ },[f.id]);
 
  useEffect(()=>{
   const controller=new AbortController();let alive=true;setPlaces([]);setPlaceState('loading');
@@ -71,116 +97,263 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
   return()=>{alive=false;controller.abort();};
  },[f.id,retry]);
 
- function openPlace(id:string){if(onLandmark)onLandmark(id);else onDestination('monuments');}
- function changeForce(index:number,focus=false){setForceIndex(index);if(focus)forceTabs.current[index]?.focus();}
+ useEffect(()=>{
+  if(typeof IntersectionObserver!=='function')return;
+  const observer=new IntersectionObserver(entries=>{
+   let bestIndex=-1,bestRatio=0;
+   for(const entry of entries){
+    if(entry.isIntersecting&&entry.intersectionRatio>bestRatio){
+     const idx=Number((entry.target as HTMLElement).dataset.screenIndex);
+     if(!Number.isNaN(idx)){bestRatio=entry.intersectionRatio;bestIndex=idx;}
+    }
+   }
+   if(bestIndex>=0)setActiveScreen(bestIndex);
+  },{threshold:[0.35,0.6]});
+  screenRefs.current.forEach(el=>{if(el)observer.observe(el);});
+  return()=>observer.disconnect();
+ },[f.id]);
+
+ function scrollToScreen(index:number){
+  playBrassClick();
+  const target=screenRefs.current[index];
+  if(!target)return;
+  const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  target.scrollIntoView({behavior:reduced?'instant':'smooth',block:'start'});
+ }
+ function openPlace(id:string){playBrassClick();if(onLandmark)onLandmark(id);else onDestination('monuments');}
+ function changeForce(index:number,focus=false){if(index!==forceIndex)playBrassClick();setForceIndex(index);if(focus)forceTabs.current[index]?.focus();}
  function trackSpotlight(event:MouseEvent<HTMLElement>){
+  if(typeof matchMedia==='function'&&!matchMedia('(hover: hover) and (pointer: fine)').matches)return;
   const rect=event.currentTarget.getBoundingClientRect();
   event.currentTarget.style.setProperty('--mx',((event.clientX-rect.left)/Math.max(1,rect.width)*100).toFixed(1)+'%');
   event.currentTarget.style.setProperty('--my',((event.clientY-rect.top)/Math.max(1,rect.height)*100).toFixed(1)+'%');
  }
 
- return <div className="faction-overview empire-overview empire-v250-cinematic" data-faction={f.id}>
-  <div className="empire-atmosphere-layer" aria-hidden="true">
-   <OverviewAtmosphere factionId={f.id}/>
-   <div className="empire-velvet-vignette"/>
-  </div>
+ return <MotionConfig reducedMotion="user"><div className="faction-overview empire-overview empire-v255-screens" data-faction={f.id}>
+  {/* QUIET RIGHT-EDGE PROGRESS PIPS (Desktop only, pure minimal diamonds) */}
+  <nav className="screen-chapter-rail" aria-label="Overview chapters">
+   {SCREEN_LABELS.map((label,idx)=><button type="button" key={label} className={'screen-rail-dot '+(activeScreen===idx?'is-active':'')} aria-current={activeScreen===idx?'step':undefined} aria-label={label} title={label} onClick={()=>scrollToScreen(idx)}>
+    <span className="screen-rail-pip" aria-hidden="true"/>
+   </button>)}
+  </nav>
 
-  <header className="faction-arrival" aria-labelledby={sectionId+'-arrival-title'}>
-   <div className="faction-arrival-arch">
-    <div className="faction-arrival-window">
-     <div className="faction-arrival-artwork" aria-hidden="true">
-      <MediaImage className="faction-arrival-scene" src={heroBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
-     </div>
-     <div className="faction-arrival-identity">
-      {f.flag_asset&&<MediaImage className="faction-arrival-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>}
-      <h1 id={sectionId+'-arrival-title'}>{presentationPunctuation(f.name_en||f.name_native||'')}</h1>
-      {quoteLine&&<p>{presentationPunctuation(quoteLine)}</p>}
+  {/* =====================================================================
+      SCREEN 1 (100svh): ARRIVAL — PURE FULL-BLEED PANORAMA
+     ===================================================================== */}
+  <header ref={el=>{screenRefs.current[0]=el;}} data-screen-index={0} className="story-screen screen-arrival" aria-labelledby={sectionId+'-arrival-title'}>
+   <div className="screen-bg" aria-hidden="true">
+    <MediaImage className="screen-bg-img is-hero" src={arrivalBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+    <div className="screen-scrim scrim-arrival"/>
+   </div>
+   <div className="screen-inner screen-arrival-inner">
+    <div className="screen-arrival-lockup">
+     {f.flag_asset&&<div className="screen-flag-wrap">
+      <MediaImage className="screen-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>
+     </div>}
+     <div className="screen-arrival-copy">
+      <h1 id={sectionId+'-arrival-title'}>{factionName}</h1>
+      {quoteLine&&<p className="screen-arrival-quote">{presentationPunctuation(quoteLine)}</p>}
      </div>
     </div>
-    <div className="faction-arrival-fasteners" aria-hidden="true">
-     <span/><span/><span/><span/><span/><span/><span/><span/><span/>
-    </div>
+    <button type="button" className="screen-scroll-hairline" aria-label="Scroll to next section" onClick={()=>scrollToScreen(1)}/>
    </div>
   </header>
 
-  {/* ACT II: LORE & IMPERIAL TRAITS */}
-  <section id={sectionId+'-doctrine'} data-act="doctrine" className="v250-act empire-identity" aria-labelledby={sectionId+'-identity-title'}>
-   <div className="empire-section-intro">
-    <h2 id={sectionId+'-identity-title'}>Lore &amp; imperial<br/>doctrine.</h2>
-    {written&&<p className="empire-intro-note v250-lore-lead">{paragraphs[0]}</p>}
-    {written&&paragraphs.length>1&&<details className="empire-history-folio v250-inline-chronicle">
-     <summary>Unseal full imperial chronicle ({paragraphs.length-1} more passages) <ChevronRight size={17} aria-hidden="true"/></summary>
-     <div className="v250-chronicle-body">{paragraphs.slice(1).map((p,idx)=><p key={idx}>{p}</p>)}</div>
-    </details>}
-    <button className="empire-text-link empire-action-gilded" onClick={()=>onDestination('atlas')}><Compass size={16} aria-hidden="true"/> Open interactive atlas <ArrowUpRight size={17} aria-hidden="true"/></button>
+  {/* =====================================================================
+      SCREEN 2 (100svh): DOCTRINE & LORE
+     ===================================================================== */}
+  <section ref={el=>{screenRefs.current[1]=el;}} data-screen-index={1} id={sectionId+'-doctrine'} className="story-screen screen-doctrine" aria-labelledby={sectionId+'-identity-title'}>
+   <div className="screen-bg" aria-hidden="true">
+    <MediaImage className="screen-bg-img is-doctrine" src={doctrineBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    <div className="screen-scrim scrim-doctrine"/>
    </div>
-   <div className="empire-traits">
-    {(f.traits||[]).map((trait:R,index:number)=><article key={trait.id||index} className="empire-trait-folio" onMouseMove={trackSpotlight}>
-     <span className="empire-trait-roman" aria-hidden="true">{roman[index]||String(index+1)}</span>
-     <div className="empire-trait-emblem"><MediaImage src={traitArtwork(trait,index)} alt="" width={100} height={120} loading="lazy"/></div>
-     <div className="empire-trait-copy"><h3>{local(trait,'label')}</h3><p>{local(trait,'effect')||presentationPunctuation(trait.effect_ui||'Record pending.')}</p></div>
-    </article>)}
-    {!f.traits?.length&&<p className="empire-empty-state">Faction traits are being prepared.</p>}
-   </div>
-  </section>
-
-  {/* ACT III: THE COURT (UNIFIED WITH CHARACTER SHOWCASE, SOVEREIGN + TOP 3 ONLY) */}
-  <section id={sectionId+'-court'} data-act="court" className={'v250-act empire-court '+(!sovereign?'empire-court-without-crown':'')} aria-labelledby={sectionId+'-court-title'}>
-   {sovereign&&<button className="empire-sovereign" onClick={()=>onCharacter(sovereign)} onMouseMove={trackSpotlight} aria-label={'Open '+local(sovereign,'name')}>
-    <div className="empire-sovereign-halo" aria-hidden="true"/>
-    {sovereignArt?<MediaImage src={sovereignArt} alt={local(sovereign,'name')} width={900} height={1200} loading="eager"/>:<div className="empire-portrait-pending">Portrait forthcoming</div>}
-    <span className="empire-sovereign-plate">
-     <small className="empire-sovereign-tag"><Sparkles size={13} aria-hidden="true"/> Sovereign Figure</small>
-     <strong>{local(sovereign,'name')}</strong>
-     <span>{canonicalCharacterRole(sovereign)}</span>
-     <span className="empire-text-link">Enter private salon <ArrowUpRight size={17} aria-hidden="true"/></span>
-    </span>
-   </button>}
-   <div className="empire-court-copy">
-    <h2 id={sectionId+'-court-title'}>{sovereign?'The Crown.\nIts inner circle.':'Figures of the realm.'}</h2>
-    <p className="empire-intro-note">Commanders, confidantes, and royal retainers whose private loyalties bend the fate of the realm.</p>
-    <button className="empire-text-link empire-action-gilded" onClick={()=>onDestination('characters')}>Explore all {people.length} characters <ArrowUpRight size={17} aria-hidden="true"/></button>
-    <div className="empire-entourage">{entourage.map(person=>{
-     const artSrc=canonicalCharacterArtwork(person);
-     return <button key={person.id} className="empire-entourage-card" onClick={()=>onCharacter(person)} onMouseMove={trackSpotlight}>
-      <div className="empire-entourage-frame">{artSrc?<MediaImage src={artSrc} alt={local(person,'name')} width={400} height={600} loading="lazy"/>:<div className="empire-portrait-pending">Portrait forthcoming</div>}</div>
-      <span><small>{canonicalCharacterRole(person)}</small><strong>{local(person,'name')}</strong><ArrowUpRight size={16} aria-hidden="true"/></span>
-     </button>;
-    })}</div>
-   </div>
-  </section>
-
-  {/* ACT IV: LOCATIONS & INTERACTIVE ATLAS */}
-  <section id={sectionId+'-realm'} data-act="realm" className="v250-act empire-places" aria-labelledby={sectionId+'-places-title'}>
-   <header className="empire-section-heading">
-    <div><h2 id={sectionId+'-places-title'}>Locations &amp; imperial<br/>landmarks.</h2></div>
-    <div className="v250-act-cta-pair">
-     <button className="empire-text-link empire-action-gilded" onClick={()=>onDestination('atlas')}><Compass size={16} aria-hidden="true"/> Interactive Atlas <ArrowUpRight size={17} aria-hidden="true"/></button>
-     <button className="empire-text-link empire-action-gilded" onClick={()=>onDestination('monuments')}>All landmarks <ArrowUpRight size={17} aria-hidden="true"/></button>
+   <div className="screen-inner screen-doctrine-inner">
+    <div className="screen-doctrine-intro">
+     <h2 id={sectionId+'-identity-title'}>Lore &amp; Imperial<br/>Doctrine</h2>
+     {written&&<p className="screen-lead">{paragraphs[0]}</p>}
+     {written&&paragraphs.length>1&&<details className="screen-chronicle">
+      <summary><span>Read full chronicle</span><ChevronRight size={15} aria-hidden="true"/></summary>
+      <div className="screen-chronicle-body">{paragraphs.slice(1).map((p,idx)=><p key={idx}>{p}</p>)}</div>
+     </details>}
     </div>
-   </header>
-   {placeState==='loading'?<div className="empire-place-notice" role="status">Opening the gazetteer...</div>:placeState==='error'?<div className="empire-place-notice" role="alert"><p>The landmark collection could not be loaded.</p><button className="empire-text-link" onClick={()=>setRetry(n=>n+1)}>Try again <ChevronRight size={18}/></button></div>:places.length?<div className="empire-place-composition">{places.map((place,index)=><button className={'empire-place '+(index===0?'empire-place-lead':'')} key={place.id} onClick={()=>openPlace(place.id)} onMouseMove={trackSpotlight} aria-label={'Explore '+local(place,'name')}><MediaImage src={landmarkArtwork(place,true)} alt={local(place,'name')} width={index===0?1600:1000} height={index===0?1200:600} loading={index===0?'eager':'lazy'}/><div className="empire-place-frame" aria-hidden="true"/><div className="empire-place-caption"><span className="empire-place-loc"><MapPin size={14} aria-hidden="true"/>{local(place,'location')}</span><h3>{local(place,'name')}</h3>{index===0&&<p>{local(place,'epithet')}</p>}<span className="empire-place-open">Inspect landmark dossier <ArrowUpRight size={17} aria-hidden="true"/></span></div></button>)}</div>:<p className="empire-place-notice">Landmark records are being prepared.</p>}
+    <div className="screen-traits">
+     {(f.traits||[]).map((trait:R,index:number)=><article key={trait.id||index} className="screen-trait-card" onMouseMove={trackSpotlight}>
+      <div className="screen-trait-icon"><MediaImage src={traitArtwork(trait,index)} alt="" width={100} height={120} loading="lazy"/></div>
+      <div className="screen-trait-copy">
+       <h3>{local(trait,'label')}</h3>
+       <p>{local(trait,'effect')||presentationPunctuation(trait.effect_ui||'Record pending.')}</p>
+      </div>
+     </article>)}
+     {!f.traits?.length&&<p className="screen-empty">Faction traits are being prepared.</p>}
+    </div>
+   </div>
   </section>
 
-  {/* ACT V: ORDER OF BATTLE (MILITARY) */}
-  <section id={sectionId+'-forces'} data-act="forces" className="v250-act empire-military" aria-labelledby={sectionId+'-military-title'}>
-   <header className="empire-section-heading">
-    <div><h2 id={sectionId+'-military-title'}>Under the banner.</h2></div>
-    <button className="empire-text-link empire-action-gilded" onClick={()=>onDestination('military')}><Shield size={16} aria-hidden="true"/> Inspect full military roster <ArrowUpRight size={17} aria-hidden="true"/></button>
-   </header>
-   {activeForce?<div className="empire-war-table">
-    <div className="empire-force-tabs" role="tablist" aria-label="Featured military units">{forces.map((force,index)=><button ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={index===activeIndex} aria-controls={sectionId+'-unit-panel'} tabIndex={index===activeIndex?0:-1} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight')target=(index+1)%forces.length;if(event.key==='ArrowLeft')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}><span className="empire-tab-index">0{index+1}</span><span>{local(force,'name')}</span></button>)}</div>
-    <div className="empire-force-stage" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeIndex} tabIndex={0} data-branch={activeForce.branch}>
-     <div className="empire-force-art" key={activeForce.id}><MediaImage src={activeForce.artwork||activeForce.thumbnail||unitIllustration(f.id,activeForce.image_asset)} alt={local(activeForce,'name')} width={1400} height={1000} loading="eager"/></div>
-     <div className="empire-force-copy">
-      <span className="empire-force-branch">{activeForce.branch||'Imperial Regiments'}</span>
-      <h3>{local(activeForce,'name')}</h3>
-      {local(activeForce,'class')&&<p className="empire-force-class">{local(activeForce,'class')}</p>}
-      <p>{local(activeForce,'role')}</p>
-      <button className="empire-text-link empire-action-gilded" onClick={()=>featured?.length?onMilitaryUnit(activeForce.id):onUnit(activeForce)}>Inspect unit dossier <ArrowUpRight size={17} aria-hidden="true"/></button>
+  {/* =====================================================================
+      SCREEN 3 (100svh): THE COURT — TRUE 2-COLUMN THRONE HALL STAGE
+     ===================================================================== */}
+  <section ref={el=>{screenRefs.current[2]=el;}} data-screen-index={2} id={sectionId+'-court'} className="story-screen screen-court" aria-labelledby={sectionId+'-court-title'}>
+   <div className="screen-bg" aria-hidden="true">
+    <MediaImage className="screen-bg-img is-throne" src={courtBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    <div className="screen-scrim scrim-court"/>
+   </div>
+
+   <div className="screen-inner screen-court-inner">
+    <div className="screen-court-copy">
+     {activePerson?<div className="screen-court-spotlight">
+      <h2 id={sectionId+'-court-title'}>{local(activePerson,'name')}</h2>
+      <p className="screen-person-role">{canonicalCharacterRole(activePerson)}</p>
+      <div className="screen-link-row">
+       <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();onCharacter(activePerson);}}>
+        <span>{activeIsSovereign?'Enter private salon':'Open dossier'}</span>
+        <ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+       <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('characters');}}>
+        <span>All characters</span>
+        <ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+      </div>
+     </div>:<h2 id={sectionId+'-court-title'}>Figures of the Realm</h2>}
+
+     {courtRoster.length>1&&<div className="screen-court-roster" role="tablist" aria-label="Featured figures of the court">
+      {courtRoster.map((person,idx)=>{
+       const art=canonicalCharacterArtwork(person);
+       const active=idx===activeCourtIndex;
+       return <button type="button" key={person.id} role="tab" aria-selected={active} className={'screen-roster-chip '+(active?'is-active':'')} onClick={()=>{if(idx!==courtIndex)playBrassClick();setCourtIndex(idx);}}>
+        <span className="screen-roster-thumb">{art&&<MediaImage src={art} alt="" width={160} height={220} loading="lazy"/>}</span>
+        <strong>{local(person,'name')}</strong>
+       </button>;
+      })}
+     </div>}
+    </div>
+
+    {courtRoster.length>0&&<div className="screen-court-figure" aria-hidden="true">
+     <div className="screen-court-aura"/>
+     {courtRoster.map((person,idx)=>{
+      const art=canonicalCharacterArtwork(person);
+      const active=idx===activeCourtIndex;
+      return <div key={person.id} className={'screen-court-portrait '+(active?'is-active':'')}>
+       {art?<MediaImage src={art} alt="" width={900} height={1200} loading={idx===0?'eager':'lazy'}/>:<div className="screen-portrait-empty">Portrait forthcoming</div>}
+      </div>;
+     })}
+    </div>}
+   </div>
+  </section>
+
+  {/* =====================================================================
+      SCREEN 4 (100svh): IMPERIAL LANDMARKS — PURE FULL-SCREEN VISTA
+     ===================================================================== */}
+  <section ref={el=>{screenRefs.current[3]=el;}} data-screen-index={3} id={sectionId+'-realm'} className="story-screen screen-landmarks" aria-labelledby={sectionId+'-places-title'}>
+   <div className="screen-bg" aria-hidden="true">
+    <AnimatePresence mode="sync" initial={false}>
+     <motion.div key={landmarkBackdrop} className="screen-bg-crossfade" initial={{opacity:0,scale:1.03}} animate={{opacity:1,scale:1}} exit={{opacity:0}} transition={{duration:.55,ease:[0.2,0,0,1]}}>
+      <MediaImage className="screen-bg-img is-landmark" src={landmarkBackdrop} alt="" width={1920} height={1080} loading="eager"/>
+     </motion.div>
+    </AnimatePresence>
+    <div className="screen-scrim scrim-landmarks"/>
+   </div>
+
+   <div className="screen-inner screen-landmarks-inner">
+    {placeState==='loading'?<div className="screen-place-state" role="status">Opening the gazetteer…</div>:placeState==='error'?<div className="screen-place-state" role="alert"><p>The landmark collection could not be loaded.</p><button type="button" className="screen-link is-primary" onClick={()=>setRetry(n=>n+1)}><span>Try again</span><ChevronRight size={15}/></button></div>:activePlace?<div className="screen-landmarks-stage">
+     <div className="screen-landmark-copy">
+      <h2 id={sectionId+'-places-title'}>{local(activePlace,'name')}</h2>
+      {local(activePlace,'epithet')&&<p className="screen-landmark-epithet">{local(activePlace,'epithet')}</p>}
+      <div className="screen-link-row">
+       <button type="button" className="screen-link is-primary" onClick={()=>openPlace(activePlace.id)}>
+        <span>Inspect landmark</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+       <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('monuments');}}>
+        <span>All landmarks</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+      </div>
+     </div>
+
+     <div className="screen-landmark-switcher" role="tablist" aria-label="Select featured landmark">
+      {places.map((place,idx)=>{
+       const active=idx===activePlaceIndex;
+       return <button type="button" key={place.id} role="tab" aria-selected={active} className={'screen-landmark-pill '+(active?'is-active':'')} onClick={()=>{if(idx!==placeIndex)playBrassClick();setPlaceIndex(idx);}}>
+        <span className="screen-landmark-thumb"><MediaImage src={landmarkArtwork(place,true)} alt="" width={320} height={200} loading="lazy"/></span>
+        <strong>{local(place,'name')}</strong>
+       </button>;
+      })}
+     </div>
+    </div>:<p className="screen-empty">Landmark records are being prepared.</p>}
+   </div>
+  </section>
+
+  {/* =====================================================================
+      SCREEN 5 (100svh): ORDER OF BATTLE — FULL-SCREEN GAMING SPLASH STAGE
+     ===================================================================== */}
+  <section ref={el=>{screenRefs.current[4]=el;}} data-screen-index={4} id={sectionId+'-forces'} className={'story-screen screen-forces '+(activeForceSplash?'is-splash-stage':'')} aria-labelledby={sectionId+'-military-title'}>
+   <div className="screen-bg" aria-hidden="true">
+    {activeForceSplash?<AnimatePresence mode="sync" initial={false}>
+     <motion.div key={activeForceSplash} className="screen-bg-crossfade" initial={{opacity:0,scale:1.03}} animate={{opacity:1,scale:1}} exit={{opacity:0}} transition={{duration:.55,ease:[0.2,0,0,1]}}>
+      <MediaImage className="screen-bg-img is-splash" src={activeForceSplash} alt="" width={1920} height={1080} loading="eager"/>
+     </motion.div>
+    </AnimatePresence>:<MediaImage className="screen-bg-img is-forces" src={forcesBackdrop} alt="" width={1920} height={1080} loading="lazy"/>}
+    <div className={'screen-scrim '+(activeForceSplash?'scrim-splash':'scrim-forces')}/>
+   </div>
+
+   {activeForceSplash&&activeForce?<div className="screen-inner screen-splash-inner">
+    <div className="screen-landmarks-stage">
+     <div className="screen-landmark-copy" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
+      <h2 id={sectionId+'-military-title'}>{local(activeForce,'name')}</h2>
+      <p className="screen-force-role">{local(activeForce,'role')}</p>
+      <div className="screen-link-row">
+       <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();if(featured?.length)onMilitaryUnit(activeForce.id);else onUnit(activeForce);}}>
+        <span>Inspect unit</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+       <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('military');}}>
+        <span>Full roster</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+      </div>
+     </div>
+
+     <div className="screen-landmark-switcher" role="tablist" aria-label="Featured military units">
+      {forces.map((force,index)=>{
+       const active=index===activeForceIndex;
+       const thumb=UNIT_SPLASH_ART[force.id]||force.thumbnail||force.artwork||unitIllustration(f.id,force.image_asset);
+       return <button type="button" ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={active} aria-controls={sectionId+'-unit-panel'} tabIndex={active?0:-1} className={'screen-landmark-pill '+(active?'is-active':'')} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight'||event.key==='ArrowDown')target=(index+1)%forces.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}>
+        <span className="screen-landmark-thumb"><MediaImage src={thumb} alt="" width={320} height={180} loading="lazy"/></span>
+        <strong>{local(force,'name')}</strong>
+       </button>;
+      })}
      </div>
     </div>
-   </div>:<p className="empire-empty-state">Unit dossiers are being prepared.</p>}
+   </div>:<div className="screen-inner screen-forces-inner">
+    <div className="screen-forces-left">
+     {forces.length>0&&<div className="screen-force-tabs" role="tablist" aria-label="Featured military units">
+      {forces.map((force,index)=><button type="button" ref={element=>{forceTabs.current[index]=element;}} key={force.id} id={sectionId+'-unit-tab-'+index} role="tab" aria-selected={index===activeForceIndex} aria-controls={sectionId+'-unit-panel'} tabIndex={index===activeForceIndex?0:-1} className={index===activeForceIndex?'is-active':''} onClick={()=>changeForce(index)} onKeyDown={event=>{let target:number|undefined;if(event.key==='ArrowRight'||event.key==='ArrowDown')target=(index+1)%forces.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')target=(index-1+forces.length)%forces.length;if(event.key==='Home')target=0;if(event.key==='End')target=forces.length-1;if(target!==undefined){event.preventDefault();changeForce(target,true);}}}>
+       <span className="screen-force-name">{local(force,'name')}</span>
+      </button>)}
+     </div>}
+
+     {activeForce?<div className="screen-force-copy" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
+      <h2 id={sectionId+'-military-title'}>{local(activeForce,'name')}</h2>
+      <p className="screen-force-role">{local(activeForce,'role')}</p>
+      <div className="screen-link-row">
+       <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();if(featured?.length)onMilitaryUnit(activeForce.id);else onUnit(activeForce);}}>
+        <span>Inspect unit</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+       <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('military');}}>
+        <span>Full roster</span><ArrowUpRight size={15} aria-hidden="true"/>
+       </button>
+      </div>
+     </div>:<h2 id={sectionId+'-military-title'}>Under the Banner</h2>}
+    </div>
+
+    {activeForce&&<div className="screen-forces-right">
+     <div className="screen-parchment-bezel">
+      <div className="screen-parchment-mat">
+       <AnimatePresence mode="wait" initial={false}>
+        <motion.div key={activeForce.id} className="screen-force-art" initial={{opacity:0,scale:.97}} animate={{opacity:1,scale:1}} exit={{opacity:0}} transition={{duration:.28,ease:[0.2,0,0,1]}}>
+         <MediaImage src={activeForce.artwork||activeForce.thumbnail||unitIllustration(f.id,activeForce.image_asset)} alt={local(activeForce,'name')} width={1400} height={1000} loading="eager"/>
+        </motion.div>
+       </AnimatePresence>
+      </div>
+     </div>
+    </div>}
+   </div>}
   </section>
- </div>;
+ </div></MotionConfig>;
 }
