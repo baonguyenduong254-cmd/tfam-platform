@@ -59,14 +59,36 @@ const officialIcons = new Set([
   'trucia',
 ]);
 
+const v270Icons = new Set([
+  'alvaro_morales',
+  'barbossa',
+  'dante_stones',
+  'edward_spencer',
+  'england_ruins_representative',
+  'franco',
+  'fredo',
+  'jesper',
+  'juliet_spencer',
+  'leonardo_razen',
+  'lokoh',
+  'marco_stones',
+  'millennia_stones',
+  'remi_spencer',
+  'robert_salcedo',
+  'romeo_harkon',
+]);
+
 export function hasOfficialRosterIcon(characterId?: string): boolean {
-  return !!characterId && officialIcons.has(characterId);
+  return !!characterId && (officialIcons.has(characterId) || v270Icons.has(characterId));
 }
 
 export function rosterIconPath(characterId?: string): string | undefined {
   if (!characterId) return undefined;
   if (characterId === 'isabella_testarossa_de_aragon') {
     return '/portraits/roster-icons/isabella-v269-official.webp';
+  }
+  if (v270Icons.has(characterId)) {
+    return '/portraits/roster-icons/v270/' + characterId + '.webp';
   }
   if (officialIcons.has(characterId)) {
     return '/portraits/roster-icons/' + characterId + '-official.webp';
