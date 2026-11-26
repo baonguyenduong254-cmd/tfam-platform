@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-26",
-  "updatedBy": "leonardoravennax",
+  "updatedBy": "baonguyenduong254",
   "production": {
     "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "liveSiteVersion": 250,
     "githubMainAheadOfLive": true,
-    "pendingLiveSyncNotes": "GitHub main includes v251 P0 fixes (PR #38), repo cleanup & tfam-web-design v251+ upgrade (PR #39), effect pruning & opening redesign without music bar or header badges (PR #40), 4-tool workflow setup (PR #41/#42), v251 P1 cleanup/polish (PR #43), dead UI/retired-art/ARCHITECTURE.md cleanup (PR #44), Hybrid Imperial Stage & Constellation Gallery for #horizons (PR #45), 5-screen 100svh Faction Overview scrollytelling (PR #46), 2-stage gamelike Character Showcase + unified Private Salon + 6-pillar radar (PR #47), v258 glow-gradient Character Stage + Imperial Roster Hero/Spotlight redesign (PR #49), v259-v263 ImperialSectionHeader sync, Cartographia Imperialis Atlas, Grand Imperial Voyage Landmarks, Illuminated Imperial War Folio Military, v264 frameless transparent military cutouts + HD official234 male bust crops, v265 Horizon x Orizon Portal Polish across /achievements, /chronicles, and /vestigium (PR #51, merged at 88370d16), and v266 Imperial Reading Sanctuary (/read/*) on branch task/v266-imperial-reading-sanctuary (Obsidian Night & Royal Parchment paper-first folio, sticky glowing progress rail, slide-over Chapter Index drawer, Zen Focus mode, Beyond the Page Codex drawer, Chapter Completion Ritual card, and titled Next/Previous chapter navigation cards)."
+    "pendingLiveSyncNotes": "GitHub main includes v251-v264 (PRs #38-#50: P0/P1 fixes, Hybrid Imperial Stage #horizons, 5-screen Faction Overview, 2-stage Character Showcase & Glow Radar, ImperialSectionHeader, Military cutouts), v265 Horizon x Orizon Portal Polish (PR #51), v266 Imperial Reading Sanctuary /read/* (PR #52), v267 Unscored Revolt backdrops & 1715 Court/Arsenal stages (PR #53), v268 Castilian military anime-painterly cutouts (PR #54), v269 Isabella canonical fixed-face transparent wardrobe set (PR #55), and v270 Open 3-Act Multi-Theatre Illustrated Atlas (PR #57: Canticle of Chaos, Shattered Symphony with Wardenholf/Khorvait/Nhemora/Veldraine & territorial shifts, Draconic Apocalypse; Grand Campaign + Europe + Asia displayed immediately with zero map locks, click-to-inspect Unlocked vs Not Yet Unlocked Realm Drawer, and Chaikin-smoothed 2x anti-aliased watercolor-multiply plates)."
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",
@@ -25,7 +25,6 @@
     }
   },
   "nextActions": [
-    "Owner / Orchestrator: Review and merge v266 Imperial Reading Sanctuary PR (task/v266-imperial-reading-sanctuary -> main).",
     "Once Codex Work quota resets (~2026-11-27) or on 2026-12-01 after verifying Sites workspace ownership, sync site/ from GitHub main verbatim onto ChatGPT Sites appgprj_6abf3718495481919a2cd6954776f57e and publish.",
     "After live publish, update ops/status.json + ops/releases/sites-251-*.json and set githubMainAheadOfLive=false in ops/handoff.json."
   ]
