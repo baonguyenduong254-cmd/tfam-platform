@@ -213,7 +213,6 @@ export default function CharacterStageView({character,roster,index,total,isOverl
        <div className="char-skin-chips" role="group" aria-label="Quick attire switch">
         {availableSkins.map(s=><button key={s.id} type="button" className={(s.adult?'is-adult ':'')+(activeSkin.id===s.id?'is-active':'')} aria-pressed={activeSkin.id===s.id} onClick={()=>chooseSkin(s.id)}>
          <span>{s.name}</span>
-         {s.adult&&<em>18+</em>}
         </button>)}
        </div>
       </div>}
@@ -238,7 +237,6 @@ export default function CharacterStageView({character,roster,index,total,isOverl
         return <button key={s.id} type="button" disabled={count===0} className={'char-outfit-card'+(s.adult?' is-adult':'')+(isSelected?' is-active':'')+(count===0?' is-pending':'')} aria-pressed={isSelected} onClick={()=>count>0&&chooseSkin(s.id)}>
          <span className="char-outfit-thumb">
           {preview?<img src={assetUrl(preview)} alt="" loading="lazy"/>:<Shirt size={24}/>}
-          {s.adult&&<em>18+</em>}
          </span>
          <span className="char-outfit-meta">
           <strong>{s.name}</strong>
