@@ -12,6 +12,10 @@ export function baseChapter(id:string):Chapter|null{
 }
 export async function readChapter(id:string):Promise<Chapter|null>{
  const base=baseChapter(id);if(!base)return null;
- const row=await storyDatabase().prepare('SELECT body, revision FROM content WHERE id=?').bind(storyKey(id)).first<{body:string;revision:number}>();
- return row?{...base,...JSON.parse(row.body),id,revision:row.revision}:base;
+ try{
+  const row=await storyDatabase().prepare('SELECT body, revision FROM content WHERE id=?').bind(storyKey(id)).first<{body:string;revision:number}>();
+  return row?{...base,...JSON.parse(row.body),id,revision:row.revision}:base;
+ }catch{
+  return base;
+ }
 }
