@@ -266,6 +266,14 @@
       "retiredAt": "2026-11-25",
       "recovery": "Git commit b89e172",
       "proof": "Verified zero imports across site/, .github/, and tools/ after PR #47 replaced both stylesheets with character-gamelike.css"
+    },
+    {
+      "path": "site/public/atlas-static/*-1715.{webp,json}, site/public/atlas-static/*-1716.{webp,json}",
+      "kind": "superseded-legacy-12-region-raw-terrain-atlas-plates",
+      "count": 48,
+      "retiredAt": "2026-11-26",
+      "recovery": "Git commit 2636111",
+      "proof": "Replaced by 6 illustrated watercolor-multiply v6 WebP plates + 6 SVG hit layers across 3 Theatres (grand, europe, asia) x 3 Chronicle Acts (act1, act2, act3); verified zero remaining references in site/app, site/lib, site/scripts, and site/tests"
     }
   ],
   "r2Audit": {
