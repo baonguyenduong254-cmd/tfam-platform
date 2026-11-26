@@ -176,12 +176,25 @@
     ]
   },
   "isabella_testarossa_de_aragon": {
+    "office": [
+      {
+        "id": "isabella_office_reading",
+        "label": "Seaside Reading",
+        "src": "/wardrobe/isabella-v269/isabella-office-reading.webp",
+        "thumbnail": "/wardrobe/isabella-v269/isabella-office-reading-thumb.webp",
+        "background": "/evelyne-stage/background-office.webp",
+        "scene": "Sunlit chancellery balcony",
+        "size": 84,
+        "bottom": 7,
+        "warmth": 0.02
+      }
+    ],
     "afterwork": [
       {
         "id": "isabella_afterwork",
         "label": "Collection 2026",
-        "src": "/wardrobe/collections/isabella_afterwork.webp",
-        "thumbnail": "/wardrobe/collections/isabella_afterwork-thumb.webp",
+        "src": "/wardrobe/isabella-v269/isabella-afterwork.webp",
+        "thumbnail": "/wardrobe/isabella-v269/isabella-afterwork-thumb.webp",
         "background": "/wardrobe/scenes/isabella_afterwork.webp",
         "scene": "Imperial rose evening drawing room",
         "size": 84,
@@ -194,8 +207,8 @@
       {
         "id": "isabella_naughty_office",
         "label": "Collection 2026",
-        "src": "/wardrobe/collections/isabella_naughty_office.webp",
-        "thumbnail": "/wardrobe/collections/isabella_naughty_office-thumb.webp",
+        "src": "/wardrobe/isabella-v269/isabella-naughty-office.webp",
+        "thumbnail": "/wardrobe/isabella-v269/isabella-naughty-office-thumb.webp",
         "background": "/wardrobe/scenes/isabella_naughty_office.webp",
         "scene": "Private study",
         "size": 79,
@@ -208,8 +221,8 @@
       {
         "id": "isabella_beach",
         "label": "Collection 2026",
-        "src": "/wardrobe/collections/isabella_beach.webp",
-        "thumbnail": "/wardrobe/collections/isabella_beach-thumb.webp",
+        "src": "/wardrobe/isabella-v269/isabella-beach.webp",
+        "thumbnail": "/wardrobe/isabella-v269/isabella-beach-thumb.webp",
         "background": "/wardrobe/scenes/isabella_beach.webp",
         "scene": "Royal terracotta seaside terrace",
         "size": 79,

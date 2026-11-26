@@ -65,6 +65,9 @@ export function hasOfficialRosterIcon(characterId?: string): boolean {
 
 export function rosterIconPath(characterId?: string): string | undefined {
   if (!characterId) return undefined;
+  if (characterId === 'isabella_testarossa_de_aragon') {
+    return '/portraits/roster-icons/isabella-v269-official.webp';
+  }
   if (officialIcons.has(characterId)) {
     return '/portraits/roster-icons/' + characterId + '-official.webp';
   }
