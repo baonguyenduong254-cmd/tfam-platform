@@ -1,93 +1,679 @@
-/* TFAM v250 Maison Vestigium: Luxury Cosmic Storefront */
-.vest-boutique-v250{
-  position:relative;
+/* =====================================================================
+   TFAM v265 Maison Vestigium — Luxury Storefront Header & Glowing Tiers
+   Glow-Gradient AAA · Obsidian Plum 3-Tier Dark Elevation
+   Preserves PR #38 non-overlapping header with .command-bar
+   ===================================================================== */
+
+body.tfam-editorial.tfam-royal main[data-tfam211][data-active-tab="vestigium"]{
+  background:#0d0914!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211][data-active-tab="vestigium"] .atlas-content{
   background:
-    radial-gradient(ellipse 80% 35% at 50% 0%,#4f1b3233,transparent 70%),
-    radial-gradient(ellipse 65% 40% at 88% 72%,#8db6d416,transparent 72%),
-    #0b0812;
+    radial-gradient(ellipse 74% 32% at 16% 0%,rgba(168,42,78,.16),transparent 66%),
+    radial-gradient(ellipse 68% 36% at 86% 6%,rgba(137,71,255,.14),transparent 70%),
+    #0d0914!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211][data-active-tab="vestigium"] .command-bar.command-bar-with-tools{
+  background:linear-gradient(180deg,rgba(18,12,28,.94),rgba(11,7,19,.92))!important;
+  border:0!important;
+  border-bottom:1px solid rgba(226,196,143,.2)!important;
+  box-shadow:0 12px 32px rgba(4,2,10,.55)!important;
+}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265{
+  --tfam-ground:#0d0914;
+  --tfam-tier-1:linear-gradient(155deg,rgba(26,17,37,.90),rgba(14,10,23,.95));
+  --tfam-tier-2:linear-gradient(145deg,rgba(38,22,48,.94),rgba(18,11,28,.97));
+  --tfam-rim:rgba(226,196,143,.22);
+  --tfam-rim-bright:rgba(246,214,154,.62);
+  --glow-crimson-from:#ff7a88;--glow-crimson-to:#cf274d;--glow-crimson:rgba(255,92,118,.48);
+  --glow-arcane-from:#e3a8ff;--glow-arcane-to:#8947ff;--glow-arcane:rgba(186,116,255,.52);
+  --glow-gold-from:#ffe8a3;--glow-gold-to:#ce8e32;--glow-gold:rgba(246,200,108,.48);
+  --glow-frost-from:#86e7ff;--glow-frost-to:#2c87e6;--glow-frost:rgba(98,210,255,.46);
+  --glow-jade-from:#88f5ce;--glow-jade-to:#249a79;--glow-jade:rgba(104,232,184,.44);
+  position:relative;
+  max-width:1540px;
+  margin:0 auto;
+  padding:26px 0 84px!important;
+  background:none!important;
   color:#f6ebd8;
 }
-.vest-boutique-bar{
-  position:relative;
-  z-index:20;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:16px;
-  flex-wrap:wrap;
-  max-width:1540px;
-  margin:0 auto 24px;
-  padding:14px 22px;
-  background:linear-gradient(135deg,#191224eb,#0f0a17f2);
-  border:1px solid #dfc28f44;
-  backdrop-filter:blur(16px);
-  box-shadow:0 18px 46px #00000066;
+.vest-v265 *{box-sizing:border-box}
+.vest-v265 :is(a,button,input,select,summary):focus-visible{
+  outline:2px solid #f0d29b;
+  outline-offset:3px;
 }
-.vest-boutique-brand{display:flex;align-items:center;gap:12px}
-.vest-boutique-brand strong{font-size:19px;font-weight:400;letter-spacing:.04em;color:#fff2dc}
-.vest-boutique-brand small{display:block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#dfc28f}
-.vest-vault-trigger{
-  display:inline-flex;
+
+/* Unified Imperial Boutique Header Controls (Non-Sticky, Zero Overlap with .command-bar) */
+.vest-v265 .imp-hero{
+  position:relative;
+  z-index:2;
+}
+.vest265-header-actions{
+  display:flex;
   align-items:center;
   gap:10px;
-  padding:10px 18px;
-  border:1px solid #ebd09e66;
-  background:linear-gradient(135deg,#872641,#491527);
-  color:#fff4df;
-  font-size:12px;
-  letter-spacing:.14em;
+  flex-wrap:wrap;
+}
+.vest265-view-seg button{
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  gap:6px;
+  min-height:38px;
+  padding:6px 13px;
+  white-space:nowrap;
+  overflow-wrap:normal;
+}
+.vest-v265 .vest-vault-trigger{
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:44px;
+  padding:9px 18px;
+  border:1px solid rgba(246,214,154,.56);
+  background:linear-gradient(135deg,#9b2649 0%,#5b1530 62%,#3c1026 100%);
+  color:#fff5e2;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.13em;
   text-transform:uppercase;
+  white-space:nowrap;
+  overflow-wrap:normal;
+  font-variant-numeric:tabular-nums;
+  cursor:pointer;
+  box-shadow:inset 0 1px 0 rgba(255,232,190,.28),0 8px 22px rgba(135,38,65,.34),0 0 18px rgba(246,200,108,.18);
+  transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease,background .2s ease;
+}
+.vest-v265 .vest-vault-trigger:hover{
+  border-color:#ffe5ad;
+  background:linear-gradient(135deg,#b42e57 0%,#6f1a3b 62%,#4a142f 100%);
+  box-shadow:inset 0 1px 0 rgba(255,240,210,.36),0 10px 26px rgba(175,40,80,.46),0 0 22px rgba(255,122,136,.32);
+  transform:translateY(-1px);
+}
+
+/* Integrated Bottom Bar: Snap-Scrollable Category Tabs + Dark-Glass Search & Abundance */
+.vest265-header-bar{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  width:100%;
+  padding:4px 0 8px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-categories.vest265-cat-tabs{
+  position:relative!important;
+  top:auto!important;
+  inset:auto!important;
+  z-index:1;
+  display:flex!important;
+  flex-wrap:nowrap!important;
+  align-items:center;
+  justify-content:flex-start;
+  gap:4px 18px;
+  width:100%;
+  margin:0;
+  padding:0 2px!important;
+  border:0!important;
+  border-bottom:1px solid rgba(226,196,143,.14)!important;
+  background:none!important;
+  box-shadow:none!important;
+  backdrop-filter:none!important;
+  overflow-x:auto;
+  scroll-snap-type:x proximity;
+  overscroll-behavior-x:contain;
+  scrollbar-width:none;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-categories.vest265-cat-tabs::-webkit-scrollbar{display:none}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-categories.vest265-cat-tabs .vest265-cat-tab{
+  position:relative;
+  flex:0 0 auto;
+  scroll-snap-align:start;
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  min-height:46px;
+  padding:8px 2px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:none!important;
+  box-shadow:none!important;
+  color:#a99bb8;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  overflow-wrap:normal;
+  cursor:pointer;
+  transition:color .2s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-categories.vest265-cat-tabs .vest265-cat-tab:hover{
+  color:#f6e4c4;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-categories.vest265-cat-tabs .vest265-cat-tab[aria-selected="true"]{
+  color:#fff6e5!important;
+  text-shadow:0 0 14px rgba(246,204,132,.42);
+}
+.vest265-cat-rail{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2px;
+  background:linear-gradient(90deg,var(--glow-crimson-from),var(--glow-gold-from),var(--glow-arcane-from));
+  box-shadow:0 0 12px var(--glow-gold);
+}
+
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px 16px;
+  padding:4px 0 2px;
+  border:0;
+  background:none;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search{
+  flex:1 1 280px;
+  min-width:200px;
+  max-width:440px;
+  min-height:44px;
+  margin:0;
+  padding:0 12px;
+  border:1px solid rgba(226,196,143,.24)!important;
+  background:rgba(12,8,20,.84)!important;
+  color:#cdc0d4;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search:focus-within{
+  border-color:rgba(246,214,154,.78)!important;
+  outline:2px solid #f0d29b;
+  outline-offset:2px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search input{
+  min-height:42px!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  outline:none!important;
+  box-shadow:none!important;
+  color:#f7ecd9!important;
+  font-size:13.5px!important;
+  font-family:system-ui,-apple-system,sans-serif;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search input:focus,
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search input:focus-visible{
+  outline:none!important;
+  box-shadow:none!important;
+}
+.vest265-clear-search{
+  flex:0 0 auto;
+  width:32px;
+  height:32px;
+  display:grid;
+  place-items:center;
+  border:0;
+  background:none;
+  color:#cdc0d4;
   cursor:pointer;
 }
-.vest-vault-trigger:hover{border-color:#fce4b6;background:linear-gradient(135deg,#9f2e4e,#5c1a31)}
-
-/* Luxury Product Cards */
-.vest-boutique-v250 .vest-object{
-  padding:22px 16px 20px!important;
-  border:1px solid #dfc28f28!important;
-  background:linear-gradient(165deg,#191224d9,#0f0a17eb)!important;
-  transition:transform .28s cubic-bezier(.16,1,.3,1),border-color .24s,box-shadow .28s!important;
+.vest265-clear-search:hover{color:#fff4e1}
+.vest265-abundance-field{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex:0 0 auto;
+  min-width:0;
+  max-width:100%;
 }
-.vest-boutique-v250 .vest-object:hover{
+.vest265-select-label{
+  flex:0 0 auto;
+  width:auto;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#b6a7c2;
+  white-space:nowrap;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-abundance-select{
+  min-height:44px;
+  min-width:150px;
+  max-width:100%;
+  padding:8px 14px;
+  border:1px solid rgba(226,196,143,.28)!important;
+  border-radius:0!important;
+  background-color:rgba(16,11,26,.92)!important;
+  color:#f6ebd8!important;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:13px;
+  cursor:pointer;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-abundance-select:hover{
+  border-color:rgba(246,214,154,.68)!important;
+}
+
+/* Orizon Obsidian Velvet 3-Specimen Showcase Stage */
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-collection-intro.vest265-specimen-stage{
+  position:relative;
+  display:grid!important;
+  grid-template-columns:1fr!important;
+  gap:18px;
+  padding:22px 26px 26px!important;
+  margin:0 0 24px!important;
+  border:1px solid var(--tfam-rim)!important;
+  background:
+    radial-gradient(ellipse 64% 52% at 50% 0%,rgba(246,200,108,.12),transparent 70%),
+    radial-gradient(ellipse 52% 45% at 80% 100%,rgba(186,116,255,.10),transparent 72%),
+    var(--tfam-tier-1)!important;
+  box-shadow:inset 0 1px 0 rgba(255,236,198,.12),0 20px 52px rgba(4,2,10,.52);
+}
+.vest265-stage-head{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px 20px;
+  padding-bottom:14px;
+  border-bottom:1px solid rgba(226,196,143,.14);
+}
+.vest265-stage-copy{display:grid;gap:4px}
+.vest265-stage-kicker{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10.5px;
+  font-weight:600;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#e6c78f;
+}
+.vest265-stage-copy p{
+  margin:0;
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:15px;
+  color:#cdc0d4;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-collection-action.vest265-stage-jump{
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  gap:8px;
+  min-height:44px;
+  padding:8px 16px!important;
+  border:1px solid rgba(226,196,143,.28)!important;
+  background:rgba(18,12,28,.84)!important;
+  color:#f5dfb8!important;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px!important;
+  font-weight:600;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  overflow-wrap:normal;
+  transition:border-color .2s ease,background-color .2s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-collection-action.vest265-stage-jump:hover{
+  border-color:var(--tfam-rim-bright)!important;
+  background:rgba(48,22,44,.9)!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-scene{
+  padding:8px 0 0!important;
+}
+.vest-v265 .collection-scene-light{
+  background:radial-gradient(ellipse 68% 48% at 50% 6%,rgba(246,200,108,.16),rgba(137,71,255,.08) 52%,transparent 76%);
+}
+.vest-v265 .collection-ensemble{
+  gap:18px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen{
+  position:relative;
+  overflow:hidden;
+  padding:18px 16px 16px!important;
+  border:1px solid rgba(226,196,143,.2)!important;
+  background:linear-gradient(160deg,rgba(26,17,37,.88),rgba(13,9,20,.96))!important;
+  box-shadow:inset 0 1px 0 rgba(255,236,198,.1),0 12px 30px rgba(4,2,10,.45);
+  transition:transform .22s cubic-bezier(.16,1,.3,1),border-color .22s ease,box-shadow .22s ease,background .22s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen::after{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2px;
+  background:linear-gradient(90deg,transparent 6%,var(--vest-color,#e6c78f) 50%,transparent 94%);
+  opacity:.65;
+  transition:opacity .22s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen:hover{
   transform:translateY(-4px);
-  border-color:#ebd09e88!important;
-  box-shadow:0 22px 48px #0000007a!important;
+  border-color:color-mix(in srgb,var(--vest-color,#e6c78f) 60%,rgba(246,214,154,.35))!important;
+  background:var(--tfam-tier-2)!important;
+  box-shadow:0 20px 44px rgba(4,2,10,.64),0 0 22px color-mix(in srgb,var(--vest-color,#e6c78f) 22%,transparent);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen:hover::after{opacity:1}
+.vest-v265 .collection-specimen-art{
+  aspect-ratio:4/3;
+  background:radial-gradient(ellipse at 50% 42%,color-mix(in srgb,var(--vest-color,#e6c78f) 14%,transparent),transparent 70%);
+}
+.collection-specimen-rank{
+  display:block;
+  margin-top:12px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--vest-color,#e6c78f);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen-name{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(16px,1.4vw,20px)!important;
+  font-weight:500;
+  color:#fff4e1!important;
+  margin:4px 0 8px!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen-inspect{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px!important;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#e6c78f!important;
+  min-height:24px;
+}
+
+/* Status Bar, Depth Nav, Tier Headers & Guard Panels (Obsidian Plum) */
+.vest-v265 .vest-result-status{
+  padding:10px 0 18px;
+  color:#c5b7d0;
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:15px;
+}
+.vest-v265 .vest-result-status button{
+  border:1px solid rgba(226,196,143,.34);
+  background:rgba(24,16,36,.88);
+  color:#f6ebd8;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-depth-nav{
+  top:96px;
+  border-block:1px solid var(--tfam-rim);
+  padding-block:14px;
+  gap:6px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-depth-nav>span{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10.5px;
+  font-weight:600;
+  letter-spacing:.2em;
+  color:#b6a7c2;
+  padding:0 10px 10px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-depth-nav .vest-rank-option{
+  border:1px solid rgba(226,196,143,.16);
+  background:rgba(18,12,28,.82);
+  color:#cfc2d8;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.06em;
+  box-shadow:none;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-depth-nav .vest-rank-option[aria-current="step"]{
+  border-color:color-mix(in srgb,var(--vest-color,#e6c78f) 65%,transparent);
+  background:linear-gradient(120deg,color-mix(in srgb,var(--vest-color,#e6c78f) 18%,rgba(26,17,37,.92)),rgba(14,10,23,.95));
+  color:#fff6e5;
+  box-shadow:inset 3px 0 0 var(--vest-color,#e6c78f),0 0 16px color-mix(in srgb,var(--vest-color,#e6c78f) 20%,transparent);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-tier{
+  padding:22px 0 42px;
+  border-bottom:1px solid rgba(226,196,143,.16);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-tier>header{
+  padding:16px 20px!important;
+  margin:0 0 22px!important;
+  border:1px solid color-mix(in srgb,var(--vest-color,#e6c78f) 32%,rgba(226,196,143,.16))!important;
+  background:linear-gradient(120deg,color-mix(in srgb,var(--vest-color,#e6c78f) 12%,rgba(26,17,37,.9)),rgba(14,10,23,.94))!important;
+  box-shadow:inset 0 1px 0 rgba(255,236,198,.1);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-tier header h3{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(22px,2.2vw,30px)!important;
+  font-weight:500;
+  color:var(--vest-color,#f6ebd8)!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-tier header :is(small,.vest-tier-count){
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px!important;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#bfb1cb!important;
+}
+
+/* 3-Tier Exhibit Cards with 2px Glowing Rarity-Tinted Bottom Beam */
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object{
+  position:relative;
+  overflow:hidden!important;
+  padding:22px 18px 20px!important;
+  border:1px solid var(--tfam-rim)!important;
+  background:var(--tfam-tier-1)!important;
+  box-shadow:inset 0 1px 0 rgba(255,236,198,.11),0 14px 34px rgba(4,2,10,.46)!important;
+  transition:transform .22s cubic-bezier(.16,1,.3,1),border-color .22s ease,box-shadow .22s ease,background .22s ease!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object:hover{
+  transform:translateY(-4px);
+  border-color:color-mix(in srgb,var(--vest-color,#e6c78f) 66%,rgba(246,214,154,.38))!important;
+  background:var(--tfam-tier-2)!important;
+  box-shadow:inset 0 1px 0 rgba(255,238,204,.18),0 22px 48px rgba(4,2,10,.68),0 0 24px color-mix(in srgb,var(--vest-color,#e6c78f) 22%,transparent)!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-object-art{
+  background:radial-gradient(ellipse at 50% 48%,color-mix(in srgb,var(--vest-color,#e6c78f) 14%,transparent),transparent 72%)!important;
+  border-bottom:1px solid rgba(226,196,143,.14)!important;
+  padding-bottom:10px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-name{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(17px,1.45vw,21px)!important;
+  font-weight:500;
+  color:#fff4e1!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-form{
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:14.5px!important;
+  color:#c5b7d0!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-abundance{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px!important;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:#d9c296!important;
+  border-top:1px solid rgba(226,196,143,.14);
+  width:100%;
+  margin-top:auto;
+  padding-top:10px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-object-line{
+  display:block!important;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2px;
+  z-index:2;
+  background:linear-gradient(90deg,transparent 2%,var(--vest-color,#e6c78f) 26%,var(--vest-color,#e6c78f) 74%,transparent 98%);
+  box-shadow:0 0 12px var(--vest-color,#e6c78f);
+  opacity:.85;
+  transition:opacity .22s ease;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object:hover .vest-object-line{
+  opacity:1;
+}
+
+/* Catalogue Mode Rows */
+.vest-v265 .vest211-catalogue{
+  display:grid;
+  gap:8px;
+  padding:8px 0 56px;
+}
+.vest-v265 .vest211-catalogue-row{
+  position:relative;
+  overflow:hidden;
+  padding:14px 18px;
+  border:1px solid var(--tfam-rim);
+  background:var(--tfam-tier-1);
+  transition:border-color .2s ease,background .2s ease,transform .2s ease;
+}
+.vest-v265 .vest211-catalogue-row::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:3px;
+  background:var(--vest-color,#e6c78f);
+  opacity:.72;
+}
+.vest-v265 .vest211-catalogue-row:hover{
+  border-color:color-mix(in srgb,var(--vest-color,#e6c78f) 60%,rgba(246,214,154,.35));
+  background:var(--tfam-tier-2);
+  transform:translateX(3px);
+}
+.vest-v265 .vest211-catalogue-row strong{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:19px;
+  font-weight:500;
+  color:#fff4e1;
+}
+.vest265-cat-rank{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--vest-color,#e6c78f);
+}
+
+/* Royal Guard Numbered Grid & Origin Card */
+.vest-v265 .guard211-numbers{
+  padding:22px;
+  border:1px solid var(--tfam-rim);
+  background:var(--tfam-tier-1);
+  margin-bottom:20px;
+}
+.vest-v265 .guard211-numbers nav{
+  height:auto!important;
+  min-height:0!important;
+}
+.vest-v265 .guard211-numbers button{
+  border:1px solid rgba(226,196,143,.22);
+  background:rgba(18,12,28,.88);
+  color:#efe3cf;
+}
+.vest-v265 .guard211-numbers button[aria-pressed="true"]{
+  border-color:rgba(246,214,154,.68);
+  background:linear-gradient(135deg,rgba(155,38,73,.72),rgba(48,20,44,.9));
+  color:#fff6e5;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-guard-origin{
+  border:1px solid var(--tfam-rim-bright);
+  background:var(--tfam-tier-2);
+}
+
+/* High-Contrast Detail Dialog (>= 4.5:1 Readable Pigments) */
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog{
+  border:1px solid rgba(246,214,154,.46)!important;
+  background:#120c1c!important;
+  box-shadow:inset 0 1px 0 rgba(255,238,204,.2),0 36px 96px rgba(0,0,0,.85)!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-display{
+  background:
+    radial-gradient(ellipse at 50% 42%,color-mix(in srgb,var(--vest-color,#e6c78f) 18%,transparent),transparent 70%),
+    linear-gradient(160deg,#1c1329,#0d0914)!important;
+  border-right:1px solid rgba(226,196,143,.2)!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-copy{
+  background:linear-gradient(165deg,#181024,#0f0a18)!important;
+  color:#f6ebd8!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-copy h2{
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  color:#fff5e4!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-copy :is(h3,h4){
+  color:#f6d99f!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-copy p{
+  color:#efe5d6!important;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 dialog.vest-dialog .vest-detail-rarity{
+  background:#0d0914!important;
+  border:1px solid color-mix(in srgb,var(--vest-color,#e6c78f) 68%,transparent)!important;
+  color:var(--vest-color,#ffe5aa)!important;
+  box-shadow:0 0 16px color-mix(in srgb,var(--vest-color,#e6c78f) 24%,transparent);
 }
 .vest-card-acquire-row{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:8px;
+  flex-wrap:wrap;
+  gap:10px;
   width:100%;
-  margin-top:14px;
-  padding-top:12px;
-  border-top:1px solid #dfc28f26;
+  margin-top:20px;
+  padding-top:16px;
+  border-top:1px solid rgba(226,196,143,.2);
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#d9c6a4;
 }
 .vest-reserve-btn{
-  display:inline-flex;
+  display:inline-flex!important;
+  flex-direction:row!important;
   align-items:center;
-  gap:6px;
-  padding:6px 12px;
-  border:1px solid #dfc28f4d;
-  background:#221628;
-  color:#f5dfb8;
-  font-size:11px;
+  justify-content:center;
+  gap:7px;
+  min-height:44px;
+  padding:8px 16px;
+  border:1px solid rgba(226,196,143,.45);
+  background:rgba(28,18,40,.9);
+  color:#f7e4c0;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
   letter-spacing:.12em;
   text-transform:uppercase;
+  white-space:nowrap;
   cursor:pointer;
+  transition:border-color .2s ease,background .2s ease,box-shadow .2s ease;
+}
+.vest-reserve-btn:hover{
+  border-color:#ffe5ad;
+  background:rgba(58,24,46,.92);
 }
 .vest-reserve-btn.is-reserved{
-  background:linear-gradient(135deg,#872641,#491527);
+  background:linear-gradient(135deg,#9b2649,#5b1530);
   border-color:#fce4b6;
-  color:#fff5e2;
+  color:#fff6e5;
+  box-shadow:0 0 18px rgba(255,92,118,.3);
 }
 
-/* Vault Collector's Drawer */
+/* Horizon-Grade Slide-Over Imperial Vault Drawer */
 .vest-vault-backdrop{
   position:fixed;
   inset:0;
   z-index:120;
-  background:#07040cd4;
+  background:rgba(7,4,12,.82);
   backdrop-filter:blur(8px);
 }
 .vest-vault-drawer{
@@ -97,10 +683,10 @@
   bottom:0;
   z-index:121;
   width:min(440px,100vw);
-  padding:28px 24px;
-  background:linear-gradient(165deg,#1b1325fa,#0f0a16fc);
-  border-left:1px solid #dfc28f4d;
-  box-shadow:-24px 0 70px #00000099;
+  padding:24px 22px 28px;
+  background:linear-gradient(165deg,rgba(32,20,44,.98),rgba(13,9,20,.99));
+  border-left:1px solid rgba(246,214,154,.48);
+  box-shadow:-28px 0 80px rgba(4,2,10,.82),inset 1px 0 24px rgba(246,200,108,.12);
   display:flex;
   flex-direction:column;
   gap:18px;
@@ -110,22 +696,261 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding-bottom:16px;
-  border-bottom:1px solid #dfc28f2e;
-}
-.vest-vault-head h2{margin:0;font-size:26px;font-weight:400;color:#fff2dc}
-.vest-vault-head button{background:none;border:0;color:#e6d8c3;cursor:pointer;padding:6px}
-.vest-vault-list{display:grid;gap:12px;flex:1;align-content:start}
-.vest-vault-item{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
   gap:12px;
-  padding:14px;
-  border:1px solid #dfc28f2e;
-  background:#150f1fe8;
+  padding-bottom:16px;
+  border-bottom:1px solid rgba(226,196,143,.2);
 }
-.vest-vault-item strong{display:block;font-size:16px;font-weight:400;color:#fbf0dc}
-.vest-vault-item small{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#dfc28f}
-.vest-vault-item button{background:none;border:1px solid #dfc28f38;color:#d6c6b8;padding:6px 10px;font-size:11px;cursor:pointer}
-.vest-vault-empty{color:#bfb1c4;font-size:14.5px;line-height:1.7;padding:20px 0}
+.vest-vault-title-group{display:grid;gap:2px}
+.vest-vault-kicker{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:#e6c78f;
+}
+.vest-vault-head h2{
+  margin:0;
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:24px;
+  font-weight:500;
+  color:#fff4e1;
+}
+.vest-vault-head h2 small{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:600;
+  padding:2px 8px;
+  border:1px solid rgba(226,196,143,.32);
+  background:rgba(24,16,36,.86);
+  color:#ffe3a8;
+  font-variant-numeric:tabular-nums;
+}
+.vest-vault-close{
+  width:44px;
+  height:44px;
+  min-width:44px;
+  min-height:44px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(226,196,143,.28);
+  background:rgba(18,12,28,.88);
+  color:#f6ebd8;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease;
+}
+.vest-vault-close:hover{
+  border-color:#ffe5ad;
+  background:rgba(76,24,48,.9);
+}
+.vest-vault-list{
+  display:grid;
+  gap:10px;
+  flex:1;
+  align-content:start;
+}
+.vest-vault-item{
+  display:grid;
+  grid-template-columns:10px minmax(0,1fr) auto;
+  align-items:center;
+  gap:12px;
+  padding:14px 14px;
+  border:1px solid rgba(226,196,143,.22);
+  background:linear-gradient(155deg,rgba(26,17,37,.92),rgba(14,10,23,.96));
+  transition:border-color .2s ease;
+}
+.vest-vault-item:hover{border-color:rgba(246,214,154,.48)}
+.vest-vault-dot{
+  width:8px;
+  height:8px;
+  border-radius:999px;
+  background:var(--dot-color,#e6c78f);
+  box-shadow:0 0 10px var(--dot-color,#e6c78f);
+}
+.vest-vault-item-copy{min-width:0}
+.vest-vault-item strong{
+  display:block;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:15.5px;
+  font-weight:500;
+  color:#fff3df;
+  overflow-wrap:break-word;
+}
+.vest-vault-item small{
+  display:block;
+  margin-top:2px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10.5px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#d9be8b;
+}
+.vest-vault-remove{
+  min-height:44px;
+  padding:8px 12px;
+  border:1px solid rgba(226,196,143,.28);
+  background:rgba(22,15,32,.88);
+  color:#e8d9c4;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease,color .2s ease;
+}
+.vest-vault-remove:hover{
+  border-color:rgba(255,122,136,.65);
+  background:rgba(92,24,48,.85);
+  color:#fff4e2;
+}
+.vest-vault-empty-card{
+  margin:auto 0;
+  padding:32px 22px;
+  border:1px solid rgba(226,196,143,.2);
+  background:linear-gradient(155deg,rgba(26,17,37,.84),rgba(14,10,23,.94));
+  display:grid;
+  justify-items:center;
+  text-align:center;
+  gap:12px;
+}
+.vest-vault-empty-medallion{
+  width:56px;
+  height:56px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(246,214,154,.44);
+  background:radial-gradient(circle at 30% 25%,rgba(246,200,108,.26),rgba(16,10,26,.95) 80%);
+  color:#ffe8a3;
+  box-shadow:0 0 22px rgba(246,200,108,.26);
+}
+.vest-vault-empty-card h3{
+  margin:4px 0 0;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:20px;
+  font-weight:500;
+  color:#fff4e1;
+}
+.vest-vault-empty{
+  margin:0;
+  color:#c5b7d0;
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:15px;
+  line-height:1.65;
+  padding:0;
+}
+.vest-vault-empty strong{color:#f5dfb8;font-weight:600}
+.vest-vault-return-btn{
+  margin-top:6px;
+  min-height:44px;
+  padding:10px 18px;
+  border:1px solid rgba(246,214,154,.48);
+  background:linear-gradient(135deg,rgba(136,36,68,.72),rgba(48,20,44,.9));
+  color:#fff5e2;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+
+/* Responsive 390px Strict Zero-Overflow Discipline */
+@media(max-width:760px){
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265{
+    padding:16px 0 60px!important;
+  }
+  .vest-v265 .imp-hero-controls{
+    width:100%;
+  }
+  .vest265-header-actions{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+  .vest265-view-seg{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    width:100%;
+  }
+  .vest265-view-seg button{
+    justify-content:center;
+    min-width:0;
+    padding:6px 8px;
+    font-size:11px;
+    letter-spacing:.07em;
+  }
+  .vest-v265 .vest-vault-trigger{
+    width:100%;
+    padding:9px 14px;
+    font-size:11px;
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-tools-inline .vest265-search{
+    flex:1 1 100%;
+    max-width:none;
+    min-width:0;
+  }
+  .vest265-abundance-field{
+    width:100%;
+    justify-content:space-between;
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest265-abundance-select{
+    flex:1 1 auto;
+    min-width:0;
+    width:100%;
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-collection-intro.vest265-specimen-stage{
+    padding:16px 14px 18px!important;
+  }
+  .vest-v265 .collection-ensemble{
+    grid-template-columns:1fr!important;
+    gap:12px;
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen{
+    display:grid!important;
+    grid-template-columns:84px minmax(0,1fr);
+    grid-template-rows:auto auto auto;
+    column-gap:14px;
+    align-items:center;
+    padding:12px!important;
+  }
+  .vest-v265 .collection-specimen-art{
+    grid-row:1/4;
+    aspect-ratio:1/1!important;
+    width:84px;
+    height:84px;
+  }
+  .collection-specimen-rank{margin-top:0}
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen-name{
+    margin:2px 0 4px!important;
+    font-size:16px!important;
+  }
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object{
+    padding:14px 12px 14px!important;
+  }
+  .vest-vault-drawer{padding:20px 16px 24px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .vest-v265 .vest-vault-trigger,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen::after,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object .vest-object-line,
+  .vest-v265 .vest211-catalogue-row,
+  .vest-reserve-btn,
+  .vest-vault-item{
+    transition:none!important;
+  }
+  .vest-v265 .vest-vault-trigger:hover,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .collection-specimen:hover,
+  body.tfam-editorial.tfam-royal main[data-tfam211] .vest-v265 .vest-object:hover,
+  .vest-v265 .vest211-catalogue-row:hover{
+    transform:none!important;
+  }
+}

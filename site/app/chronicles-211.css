@@ -94,34 +94,650 @@ body.tfam-editorial.tfam-royal main[data-tfam211] [data-reader-focus=true] .read
 
 .chronicle211-cover::after{content:none}
 
-/* TFAM v250 Six-Arc Hardcover Collector's Shelf */
-.chronicles-v250-shelf{max-width:1480px;margin:0 auto;padding:56px clamp(20px,4vw,64px) 96px;color:#f6ebd8}
-.v250-chronicles-hero{max-width:720px;margin-bottom:44px}
-.v250-shelf-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#dfc28f;margin-bottom:14px}
-.v250-chronicles-hero h1{margin:0 0 14px;font-size:clamp(42px,5vw,72px);font-weight:400;line-height:1.02;color:#fff2dc}
-.v250-arcs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
-.v250-arc-volume{align-self:start;border:0;background:none;padding:0;text-align:left;cursor:pointer;perspective:1200px}
-.v250-arc-book{position:relative;aspect-ratio:2/3;overflow:hidden;border-radius:3px 12px 12px 3px;border:1px solid #dfc28f44;background:#16101f;box-shadow:14px 22px 48px #0000008c;transform:rotateY(-6deg);transition:transform .45s cubic-bezier(.16,1,.3,1),border-color .25s,box-shadow .45s}
-.v250-arc-volume:hover .v250-arc-book{transform:rotateY(0deg) translateY(-8px) scale(1.02);border-color:#fce4b6;box-shadow:0 28px 64px #000000b3}
-.v250-arc-book img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.v250-arc-spine{position:absolute;inset:0 auto 0 0;width:14px;background:linear-gradient(90deg,#000000a6,#dfc28f26 55%,transparent);z-index:2}
-.v250-arc-caption{display:block;margin-top:1rem;color:#fff2dc;font-size:clamp(1.125rem,2vw,1.375rem);line-height:1.25}
-.v250-arc-count{display:block;margin-top:.35rem;font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;color:#dfc28f}
-.v250-arc-meta{margin:0 0 14px;color:#c8bacd;font-size:15px}
-.v250-arc-modal-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.v250-arc-btn-link{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
-.v250-arc-btn-ghost{background:transparent;color:#e6d8c3;border-color:#dfc28f44}
-.v250-arc-chapters{list-style:none;margin:20px 0 0;padding:12px 0 0;border-top:1px solid #dfc28f2e;max-height:240px;overflow-y:auto;display:grid;gap:6px}
-.v250-arc-chapters a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 12px;border:1px solid #dfc28f24;background:#16101f;color:#f2eadc;text-decoration:none;font-size:14px;transition:border-color .2s,background .2s}
-.v250-arc-chapters a:hover,.v250-arc-chapters a:focus-visible{border-color:#dfc28f88;background:#261830}
-.v250-arc-volume:focus-visible{outline:2px solid #ffe8ba;outline-offset:5px}
-.v250-arc-modal::backdrop{background:#07040ce0;backdrop-filter:blur(10px)}
-.v250-arc-modal{position:fixed;inset:0;margin:auto;max-height:calc(100dvh - 2rem);overflow:auto;color:#f2eadc;grid-template-columns:260px minmax(0,1fr);gap:32px;width:min(760px,100% - 2rem);padding:30px;background:linear-gradient(155deg,#1d1426fa,#100b17fc);border:1px solid #dfc28f55;box-shadow:0 30px 90px #000000cc}
-.v250-arc-close{position:absolute;top:16px;right:16px;background:none;border:0;color:#e6d8c3;cursor:pointer;padding:6px}
+/* =====================================================================
+   TFAM v265 The Chronicles — Orizon Editorial Showcase + Arc I Spotlight
+   Glow-Gradient AAA · Obsidian Plum 3-Tier Dark Elevation
+   ===================================================================== */
+body.tfam-editorial.tfam-royal main[data-tfam211] .chronicles-v265{
+  --tfam-ground:#0d0914;
+  --tfam-tier-1:linear-gradient(155deg,rgba(26,17,37,.90),rgba(14,10,23,.95));
+  --tfam-tier-2:linear-gradient(145deg,rgba(38,22,48,.94),rgba(18,11,28,.97));
+  --tfam-rim:rgba(226,196,143,.22);
+  --tfam-rim-bright:rgba(246,214,154,.62);
+  --glow-crimson-from:#ff7a88;--glow-crimson-to:#cf274d;--glow-crimson:rgba(255,92,118,.48);
+  --glow-arcane-from:#e3a8ff;--glow-arcane-to:#8947ff;--glow-arcane:rgba(186,116,255,.52);
+  --glow-gold-from:#ffe8a3;--glow-gold-to:#ce8e32;--glow-gold:rgba(246,200,108,.48);
+  --glow-frost-from:#86e7ff;--glow-frost-to:#2c87e6;--glow-frost:rgba(98,210,255,.46);
+  --glow-jade-from:#88f5ce;--glow-jade-to:#249a79;--glow-jade:rgba(104,232,184,.44);
+  max-width:1520px;
+  margin:0 auto;
+  padding:26px 0 88px;
+  color:#f6ebd8;
+}
+.chronicles-v265 *{box-sizing:border-box}
+.chronicles-v265 :is(a,button,input):focus-visible{outline:2px solid #f0d29b;outline-offset:3px}
+
+/* Cohesive obsidian command-bar when viewing /chronicles */
+body.tfam-editorial.tfam-royal main[data-tfam211][data-active-tab="reader"] .command-bar.command-bar-with-tools{
+  background:linear-gradient(180deg,rgba(18,12,28,.94),rgba(11,7,19,.92))!important;
+  border:0!important;
+  border-bottom:1px solid rgba(226,196,143,.2)!important;
+  box-shadow:0 12px 32px rgba(4,2,10,.55)!important;
+}
+
+/* Primary Glowing Begin Arc I CTA in ImperialSectionHeader */
+.chronicles-v265 .chr265-hero-cta{
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:44px;
+  padding:10px 20px;
+  border:1px solid rgba(246,214,154,.58);
+  background:linear-gradient(135deg,#9b2649 0%,#5b1530 62%,#3c1026 100%);
+  color:#fff5e2!important;
+  text-decoration:none;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  overflow-wrap:normal;
+  box-shadow:inset 0 1px 0 rgba(255,232,190,.3),0 8px 24px rgba(135,38,65,.36),0 0 18px rgba(255,92,118,.24);
+  transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease,background .2s ease;
+}
+.chronicles-v265 .chr265-hero-cta:hover{
+  border-color:#ffe5ad;
+  background:linear-gradient(135deg,#b42e57 0%,#6f1a3b 62%,#4a142f 100%);
+  box-shadow:inset 0 1px 0 rgba(255,240,210,.4),0 12px 28px rgba(175,40,80,.46),0 0 24px rgba(255,122,136,.36);
+  transform:translateY(-1px);
+}
+
+/* Orizon Six-Arc Collector Shelf */
+.chronicles-v265 .v250-arcs-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:24px;
+  margin-top:6px;
+}
+.chronicles-v265 .v250-arc-volume{
+  position:relative;
+  overflow:hidden;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch;
+  width:100%;
+  min-width:0;
+  padding:20px 20px 18px;
+  border:1px solid var(--tfam-rim);
+  background:var(--tfam-tier-1);
+  color:#f6ebd8;
+  text-align:left;
+  cursor:pointer;
+  box-shadow:inset 0 1px 0 rgba(255,236,198,.1),0 14px 36px rgba(4,2,10,.48);
+  transition:transform .22s cubic-bezier(.16,1,.3,1),border-color .22s ease,box-shadow .24s ease,background .22s ease;
+}
+.chronicles-v265 .v250-arc-volume:hover{
+  transform:translateY(-4px);
+  border-color:rgba(246,214,154,.46);
+  background:var(--tfam-tier-2);
+  box-shadow:inset 0 1px 0 rgba(255,238,204,.16),0 22px 52px rgba(4,2,10,.64);
+}
+
+/* Arc I Published Spotlight: Glowing Crimson-Gold Rim + Luminous Bottom Beam */
+.chronicles-v265 .v250-arc-volume.is-published{
+  border-color:rgba(246,214,154,.52);
+  background:linear-gradient(155deg,rgba(48,20,39,.94) 0%,rgba(22,12,30,.96) 58%,rgba(14,10,23,.98) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,232,188,.28),0 18px 46px rgba(4,2,10,.62),0 0 28px rgba(207,39,77,.2);
+}
+.chronicles-v265 .v250-arc-volume.is-published::after{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2px;
+  background:linear-gradient(90deg,transparent 2%,var(--glow-crimson-from) 32%,var(--glow-gold-from) 68%,transparent 98%);
+  box-shadow:0 0 14px var(--glow-crimson);
+}
+.chronicles-v265 .v250-arc-volume.is-published:hover{
+  border-color:#ffe5ad;
+  box-shadow:inset 0 1px 0 rgba(255,240,204,.38),0 24px 58px rgba(4,2,10,.72),0 0 36px rgba(255,92,118,.32);
+}
+
+/* Hardcover Stage + Subtle Radial Aura behind Book */
+.chr265-book-stage{
+  position:relative;
+  display:grid;
+  place-items:center;
+  padding:10px 8px 18px;
+  perspective:1200px;
+}
+.chr265-book-aura{
+  position:absolute;
+  inset:4% 6% 10%;
+  border-radius:50%;
+  pointer-events:none;
+  opacity:.32;
+  transition:opacity .24s ease,transform .24s ease;
+  background:radial-gradient(circle,rgba(186,116,255,.22) 0%,rgba(135,38,65,.14) 48%,transparent 74%);
+}
+.v250-arc-volume.is-published .chr265-book-aura{
+  opacity:.58;
+  background:radial-gradient(circle,rgba(255,122,136,.34) 0%,rgba(246,200,108,.22) 44%,transparent 72%);
+}
+.v250-arc-volume:hover .chr265-book-aura{
+  opacity:.92;
+  transform:scale(1.06);
+}
+.chronicles-v265 .v250-arc-book{
+  position:relative;
+  width:100%;
+  max-width:296px;
+  aspect-ratio:2/3;
+  overflow:hidden;
+  border-radius:3px 12px 12px 3px;
+  border:1px solid rgba(226,196,143,.32);
+  background:#16101f;
+  box-shadow:14px 20px 44px rgba(0,0,0,.62);
+  transform:rotateY(-5deg);
+  transition:transform .24s cubic-bezier(.16,1,.3,1),border-color .22s ease,box-shadow .24s ease;
+}
+.v250-arc-volume.is-published .v250-arc-book{
+  border-color:rgba(246,214,154,.58);
+  box-shadow:14px 22px 48px rgba(0,0,0,.68),0 0 24px rgba(255,92,118,.22);
+}
+.chronicles-v265 .v250-arc-volume:hover .v250-arc-book{
+  transform:rotateY(0deg) translateY(-5px) scale(1.015);
+  border-color:#fce4b6;
+  box-shadow:0 24px 56px rgba(0,0,0,.78),0 0 26px rgba(246,200,108,.24);
+}
+.chronicles-v265 .v250-arc-book img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:filter .24s ease;
+}
+.v250-arc-volume.is-forthcoming .v250-arc-book img{
+  filter:saturate(.72) brightness(.84);
+}
+.v250-arc-volume.is-forthcoming:hover .v250-arc-book img{
+  filter:saturate(.9) brightness(.94);
+}
+.chronicles-v265 .v250-arc-spine{
+  position:absolute;
+  inset:0 auto 0 0;
+  width:14px;
+  background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(223,194,143,.18) 55%,transparent);
+  z-index:2;
+}
+.chr265-archival-sheen{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  background:linear-gradient(155deg,rgba(18,12,28,.34) 0%,transparent 48%,rgba(13,9,20,.56) 100%);
+}
+
+/* Volume Card Metadata */
+.chr265-volume-meta{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  flex:1;
+  padding-top:12px;
+  border-top:1px solid rgba(226,196,143,.14);
+}
+.chr265-volume-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.chr265-roman{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#e6c78f;
+}
+.chr265-status-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  min-height:24px;
+  padding:3px 9px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.chr265-status-pill.is-live{
+  border:1px solid rgba(255,224,158,.58);
+  background:linear-gradient(135deg,rgba(207,39,77,.46),rgba(206,142,50,.28));
+  color:#fff6e2;
+  box-shadow:0 0 14px rgba(255,92,118,.34);
+}
+.chr265-status-pill.is-live svg{color:#ffe8a3}
+.chr265-status-pill.is-quiet{
+  border:1px solid rgba(226,196,143,.18);
+  background:rgba(20,14,30,.72);
+  color:#a89bb5;
+}
+.chronicles-v265 .v250-arc-caption{
+  display:block;
+  margin:0;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(18px,1.65vw,22px);
+  font-weight:500;
+  line-height:1.25;
+  color:#fff4e1;
+}
+.v250-arc-volume.is-forthcoming .v250-arc-caption{color:#e2d6ca}
+.chr265-volume-cta{
+  margin-top:auto;
+  padding-top:4px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#bdaed0;
+  transition:color .2s ease;
+}
+.v250-arc-volume.is-published .chr265-volume-cta{color:#f6d9a0}
+.v250-arc-volume:hover .chr265-volume-cta{color:#fff5e2}
+
+/* Polished 3-Tier Obsidian Glass Arc Modal */
+.v250-shelf-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:#e6c78f;
+}
+.v250-arc-modal::backdrop{
+  background:rgba(7,4,12,.86);
+  backdrop-filter:blur(10px);
+}
+.v250-arc-modal{
+  position:fixed;
+  inset:0;
+  margin:auto;
+  width:min(880px,calc(100vw - 2rem));
+  max-width:880px;
+  max-height:min(86dvh,780px);
+  padding:0;
+  overflow:hidden;
+  color:#f6ebd8;
+  grid-template-columns:256px minmax(0,1fr);
+  gap:0;
+  border:1px solid rgba(246,214,154,.44);
+  background:linear-gradient(155deg,rgba(32,20,44,.97),rgba(13,9,20,.99));
+  box-shadow:inset 0 1px 0 rgba(255,238,200,.24),0 34px 96px rgba(0,0,0,.84);
+}
+.v250-arc-modal::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent 4%,#ff7a88 28%,#ffe8a3 52%,#e3a8ff 76%,transparent 96%);
+  pointer-events:none;
+  z-index:6;
+}
 .v250-arc-modal[open]{display:grid}
-.v250-arc-modal-art img{width:100%;aspect-ratio:2/3;object-fit:cover;border:1px solid #dfc28f44;display:block}
-.v250-arc-modal-copy h2{margin:6px 0 8px;font-size:34px;font-weight:400;color:#fff2dc}
-.v250-arc-btn{margin-top:22px;padding:11px 22px;border:1px solid #ebd09e66;background:linear-gradient(135deg,#872641,#491527);color:#fff4df;font-size:12px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
-@media(max-width:1000px){.v250-arcs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:650px){.v250-arcs-grid{grid-template-columns:1fr}.v250-arc-modal{grid-template-columns:1fr;padding:22px}}
-@media(prefers-reduced-motion:reduce){.v250-arc-book,.v250-arc-volume:hover .v250-arc-book{transform:none;transition:none}}
+.v250-arc-close{
+  position:absolute;
+  top:14px;
+  right:14px;
+  z-index:10;
+  width:44px;
+  height:44px;
+  min-width:44px;
+  min-height:44px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(226,196,143,.32);
+  background:rgba(16,11,26,.92);
+  color:#f6ebd8;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease;
+}
+.v250-arc-close:hover{
+  border-color:#ffe5ad;
+  background:rgba(76,24,48,.92);
+}
+.v250-arc-modal-art{
+  padding:28px 22px 28px 28px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  background:linear-gradient(180deg,rgba(24,15,36,.85),rgba(13,9,20,.92));
+  border-right:1px solid rgba(226,196,143,.16);
+}
+.chr265-modal-cover-frame{
+  width:100%;
+  border:1px solid rgba(226,196,143,.4);
+  box-shadow:0 18px 44px rgba(0,0,0,.68);
+  overflow:hidden;
+  border-radius:3px 10px 10px 3px;
+}
+.v250-arc-modal-art img{
+  width:100%;
+  aspect-ratio:2/3;
+  object-fit:cover;
+  display:block;
+}
+.v250-arc-modal-copy{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  min-height:0;
+  max-height:min(86dvh,780px);
+  overflow:hidden;
+}
+.chr265-modal-sticky-head{
+  flex:0 0 auto;
+  padding:26px 64px 18px 28px;
+  background:linear-gradient(180deg,rgba(30,19,42,.98),rgba(20,13,30,.96));
+  border-bottom:1px solid rgba(226,196,143,.16);
+}
+.v250-arc-modal-copy h2{
+  margin:8px 0 6px;
+  font-family:Cinzel,'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(22px,2.4vw,30px);
+  font-weight:500;
+  line-height:1.18;
+  color:#fff4e1;
+}
+.v250-arc-meta{
+  margin:0 0 14px;
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:15.5px;
+  color:#cdc0d4;
+}
+.v250-arc-modal-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+}
+.v250-arc-btn{
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:44px;
+  margin:0;
+  padding:10px 18px;
+  border:1px solid rgba(246,214,154,.55);
+  background:linear-gradient(135deg,#9b2649 0%,#5b1530 100%);
+  color:#fff5e2!important;
+  text-decoration:none;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  overflow-wrap:normal;
+  cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+.v250-arc-btn:hover{
+  border-color:#ffe5ad;
+  box-shadow:0 0 18px rgba(255,92,118,.3);
+}
+.v250-arc-btn-ghost{
+  background:rgba(20,14,30,.85);
+  color:#e8dbc7!important;
+  border-color:rgba(226,196,143,.28);
+}
+.v250-arc-btn-ghost:hover{
+  border-color:rgba(246,214,154,.65);
+  background:rgba(38,24,52,.92);
+  box-shadow:none;
+}
+
+/* Quick Chapter Filter Input inside Arc I Modal */
+.chr265-chapter-filter-wrap{
+  margin-top:14px;
+  display:grid;
+  gap:6px;
+}
+.chr265-chapter-filter{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:44px;
+  padding:0 12px;
+  border:1px solid rgba(226,196,143,.26);
+  background:rgba(12,8,20,.88);
+  color:#cdc0d4;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.chr265-chapter-filter:focus-within{
+  border-color:rgba(246,214,154,.78);
+  outline:2px solid #f0d29b;
+  outline-offset:2px;
+  box-shadow:0 0 16px rgba(246,200,108,.18);
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .chr265-chapter-filter input{
+  width:100%;
+  min-width:0;
+  min-height:42px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  outline:none!important;
+  box-shadow:none!important;
+  color:#f6ebd8!important;
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:13.5px;
+}
+body.tfam-editorial.tfam-royal main[data-tfam211] .chr265-chapter-filter input:focus,
+body.tfam-editorial.tfam-royal main[data-tfam211] .chr265-chapter-filter input:focus-visible{
+  outline:none!important;
+  box-shadow:none!important;
+}
+.chr265-chapter-filter input::placeholder{color:#9a8da8}
+.chr265-filter-clear{
+  flex:0 0 auto;
+  width:32px;
+  height:32px;
+  display:grid;
+  place-items:center;
+  border:0;
+  background:transparent;
+  color:#cdc0d4;
+  cursor:pointer;
+}
+.chr265-filter-clear:hover{color:#fff4e1}
+.chr265-filter-count{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#dfc28f;
+  font-variant-numeric:tabular-nums;
+}
+
+/* Scrollable Chapter Index List */
+.v250-arc-chapters{
+  list-style:none;
+  margin:0;
+  padding:16px 28px 24px;
+  flex:1 1 auto;
+  min-height:0;
+  overflow-y:auto;
+  display:grid;
+  align-content:start;
+  gap:8px;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(226,196,143,.35) rgba(13,9,20,.8);
+}
+.v250-arc-chapters a{
+  display:grid;
+  grid-template-columns:34px minmax(0,1fr) 16px;
+  align-items:center;
+  gap:12px;
+  min-height:44px;
+  padding:10px 14px;
+  border:1px solid rgba(226,196,143,.18);
+  background:rgba(20,14,30,.86);
+  color:#f5ebd9;
+  text-decoration:none;
+  font-family:Spectral,'Cormorant Garamond',Georgia,serif;
+  font-size:15.5px;
+  line-height:1.35;
+  transition:border-color .18s ease,background-color .18s ease,transform .18s ease;
+}
+.v250-arc-chapters a:hover,
+.v250-arc-chapters a:focus-visible{
+  border-color:rgba(246,214,154,.68);
+  background:linear-gradient(135deg,rgba(62,24,46,.82),rgba(24,16,36,.94));
+  color:#fff8ea;
+  transform:translateX(3px);
+}
+.chr265-chapter-num{
+  font-family:system-ui,-apple-system,sans-serif;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.12em;
+  color:#e6c78f;
+  font-variant-numeric:tabular-nums;
+}
+.chr265-chapter-title{
+  min-width:0;
+  overflow-wrap:break-word;
+}
+.chr265-chapter-arrow{
+  color:#e6c78f;
+  flex:none;
+}
+.chr265-chapter-empty{
+  padding:28px;
+  text-align:center;
+  display:grid;
+  justify-items:center;
+  gap:14px;
+  color:#cdc0d4;
+}
+.chr265-chapter-empty p{margin:0;font-size:15.5px}
+
+@media(max-width:1024px){
+  .chronicles-v265 .v250-arcs-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:18px;
+  }
+}
+@media(max-width:720px){
+  .v250-arc-modal{
+    width:calc(100vw - 1.5rem);
+    max-height:calc(100dvh - 1.5rem);
+    grid-template-columns:1fr;
+    overflow-y:auto;
+  }
+  .v250-arc-modal-art{
+    padding:20px 20px 14px;
+    border-right:0;
+    border-bottom:1px solid rgba(226,196,143,.16);
+  }
+  .chr265-modal-cover-frame{max-width:148px}
+  .v250-arc-modal-copy{
+    max-height:none;
+    overflow:visible;
+  }
+  .chr265-modal-sticky-head{
+    position:sticky;
+    top:0;
+    z-index:4;
+    padding:18px 56px 16px 18px;
+  }
+  .v250-arc-chapters{
+    overflow:visible;
+    padding:14px 18px 20px;
+  }
+}
+@media(max-width:640px){
+  body.tfam-editorial.tfam-royal main[data-tfam211] .chronicles-v265{
+    padding:16px 0 60px;
+  }
+  .chronicles-v265 .v250-arcs-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:12px;
+  }
+  .chronicles-v265 .v250-arc-volume{padding:12px 12px 14px}
+  .chronicles-v265 .v250-arc-volume.is-published{
+    grid-column:1/-1;
+    display:grid!important;
+    grid-template-columns:108px minmax(0,1fr);
+    gap:14px;
+    align-items:center;
+    padding:14px;
+  }
+  .chronicles-v265 .v250-arc-volume.is-published .chr265-book-stage{
+    padding:2px 0;
+  }
+  .chronicles-v265 .v250-arc-volume.is-published .chr265-volume-meta{
+    border-top:0;
+    padding-top:0;
+    gap:8px;
+  }
+  .chronicles-v265 .v250-arc-volume.is-published .v250-arc-caption{
+    font-size:18px;
+  }
+  .chr265-book-stage{padding:4px 2px 12px}
+  .chr265-volume-top{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:5px;
+  }
+  .chronicles-v265 .v250-arc-caption{font-size:15px}
+  .chr265-status-pill{
+    font-size:9.5px;
+    letter-spacing:.07em;
+    padding:3px 7px;
+    max-width:100%;
+    white-space:normal;
+    line-height:1.25;
+  }
+  .chr265-volume-cta{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){
+  .chronicles-v265 .chr265-hero-cta,
+  .chronicles-v265 .v250-arc-volume,
+  .chr265-book-aura,
+  .chronicles-v265 .v250-arc-book,
+  .chronicles-v265 .v250-arc-book img,
+  .v250-arc-chapters a{
+    transition:none!important;
+  }
+  .chronicles-v265 .chr265-hero-cta:hover,
+  .chronicles-v265 .v250-arc-volume:hover,
+  .chronicles-v265 .v250-arc-book,
+  .chronicles-v265 .v250-arc-volume:hover .v250-arc-book,
+  .v250-arc-volume:hover .chr265-book-aura,
+  .v250-arc-chapters a:hover{
+    transform:none!important;
+  }
+}
