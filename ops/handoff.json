@@ -25,6 +25,7 @@
     }
   },
   "nextActions": [
+    "Local Worker (Antigravity Local / Zed Student): git pull origin main and execute docs/LOCAL-DESIGN-BLUEPRINT-v265-HORIZON.md on task/v265-horizon-portal-polish (Phase 1: /achievements, Phase 2: /chronicles, Phase 3: /vestigium), verify tsc + 74 tests + pnpm run build + 1440px/390px visual QA, and open a PR into main.",
     "Once Codex Work quota resets (~2026-11-27) or on 2026-12-01 after verifying Sites workspace ownership, sync site/ from GitHub main verbatim onto ChatGPT Sites appgprj_6abf3718495481919a2cd6954776f57e and publish.",
     "After live publish, update ops/status.json + ops/releases/sites-251-*.json and set githubMainAheadOfLive=false in ops/handoff.json."
   ]
