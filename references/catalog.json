@@ -36,6 +36,36 @@
       "adoptionNotes": null,
       "packageName": "maplibre-gl",
       "baselineDeclaredVersion": "^6.11.2"
+    },
+    {
+      "id": "horizon-design-system-servicenow",
+      "repository": null,
+      "docs": "https://horizon.servicenow.com/",
+      "purpose": "UX/UI architecture reference for Portal vs. Workspace separation, unified navigation hierarchy, accessible status/empty/sync states",
+      "status": "reference-only-no-code-copied",
+      "reviewedRevision": "accessed-2026-11-26",
+      "licenseReview": "proprietary-reference-only-do-not-copy-assets-or-code",
+      "adoptionNotes": "Adopted Portal vs. Workspace mental model and consistent ImperialSectionHeader navigation & status patterns in docs/LOCAL-DESIGN-BLUEPRINT-v265-HORIZON.md; rejected light enterprise SaaS palette."
+    },
+    {
+      "id": "horizon-ui",
+      "repository": "https://github.com/horizon-ui",
+      "docs": "https://github.com/horizon-ui/horizon-ui-chakra",
+      "purpose": "Dark-mode 3-tier surface elevation and compact Bento KPI card hierarchy reference",
+      "status": "reference-only-no-package-installed",
+      "reviewedRevision": "accessed-2026-11-26",
+      "licenseReview": "MIT-reference-only-do-not-copy-template-wholesale",
+      "adoptionNotes": "Adopted 3-tier dark surface elevation and Bento KPI summary layout for /achievements and drawer elevation for /vestigium in docs/LOCAL-DESIGN-BLUEPRINT-v265-HORIZON.md; rejected crypto-SaaS rounded blue/purple theme."
+    },
+    {
+      "id": "orizon-design",
+      "repository": null,
+      "docs": "https://www.orizon.co/",
+      "purpose": "Editorial showcase rhythm, conversion-focused hero storytelling, 150-250ms micro-interactions, and WCAG 2.2 AA polish reference",
+      "status": "reference-only-no-code-copied",
+      "reviewedRevision": "accessed-2026-11-26",
+      "licenseReview": "proprietary-agency-site-reference-only",
+      "adoptionNotes": "Adopted showcase focal pacing, directional CTA clarity, and concise micro-interactions for /chronicles and /vestigium in docs/LOCAL-DESIGN-BLUEPRINT-v265-HORIZON.md; rejected agency sans-serif numbering badges."
     }
   ]
 }
