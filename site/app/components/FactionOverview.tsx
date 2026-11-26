@@ -74,7 +74,7 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
  // Five distinct full-bleed backdrops (one per full-viewport screen)
  const arrivalBackdrop=f.id==='castilian_empire'?'/overview223/castilian-arrival.webp':sceneArt(f);
  const doctrineBackdrop=f.id==='castilian_empire'?'/imperial/castilian.webp':(places[1]?landmarkArtwork(places[1],true):'/art/update210/realm-selection-hall.webp');
- const courtBackdrop='/art/update210/throne-hall.webp';
+ const courtBackdrop='/overview223/imperial-court.webp';
  const landmarkBackdrop=activePlace?landmarkArtwork(activePlace,true):(f.id==='castilian_empire'?'/overview223/castilian-madrid.webp':sceneArt(f));
  const forcesBackdrop='/art/update210/realm-selection-hall.webp';
  const activeForceSplash=activeForce?UNIT_SPLASH_ART[activeForce.id]||'':'';
