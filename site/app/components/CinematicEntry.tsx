@@ -23,7 +23,7 @@ const flags=standards.flags as Record<string,string>;
 
 function resolveStageBackdrop(id:string,f:R|undefined){
  if(id==='castilian_empire')return '/overview223/castilian-arrival.webp';
- if(!f||!(id in artSlugs))return '/art/update210/realm-selection-hall.webp';
+ if(!f||!(id in artSlugs))return '/overview223/imperial-court.webp';
  return sceneArt(f);
 }
 
