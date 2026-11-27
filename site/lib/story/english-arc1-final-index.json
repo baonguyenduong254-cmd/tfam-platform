@@ -1,0 +1,402 @@
+[
+  {
+    "id": "en_book1_final_001",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 1,
+    "order": 1,
+    "title_vi": "Chapter One: Tomorrow Will Be Nothing Like Today",
+    "title_en": "Chapter One: Tomorrow Will Be Nothing Like Today"
+  },
+  {
+    "id": "en_book1_final_002",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 2,
+    "order": 2,
+    "title_vi": "Chapter Two: Three Roads",
+    "title_en": "Chapter Two: Three Roads"
+  },
+  {
+    "id": "en_book1_final_003",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 3,
+    "order": 3,
+    "title_vi": "Chapter Three: Old Friends, New Roads",
+    "title_en": "Chapter Three: Old Friends, New Roads"
+  },
+  {
+    "id": "en_book1_final_004",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 4,
+    "order": 4,
+    "title_vi": "Chapter Four: At the Governor's Palace",
+    "title_en": "Chapter Four: At the Governor's Palace"
+  },
+  {
+    "id": "en_book1_final_005",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 5,
+    "order": 5,
+    "title_vi": "Chapter Five: Ambitions",
+    "title_en": "Chapter Five: Ambitions"
+  },
+  {
+    "id": "en_book1_final_006",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 6,
+    "order": 6,
+    "title_vi": "Chapter Six: A Marrakesh to Call Home",
+    "title_en": "Chapter Six: A Marrakesh to Call Home"
+  },
+  {
+    "id": "en_book1_final_007",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 7,
+    "order": 7,
+    "title_vi": "Chapter Seven: A Feast for Those Who Remain",
+    "title_en": "Chapter Seven: A Feast for Those Who Remain"
+  },
+  {
+    "id": "en_book1_final_008",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 8,
+    "order": 8,
+    "title_vi": "Chapter Eight: To Win, Part One",
+    "title_en": "Chapter Eight: To Win, Part One"
+  },
+  {
+    "id": "en_book1_final_009",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 9,
+    "order": 9,
+    "title_vi": "Chapter Nine: To Win, Part Two",
+    "title_en": "Chapter Nine: To Win, Part Two"
+  },
+  {
+    "id": "en_book1_final_010",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 10,
+    "order": 10,
+    "title_vi": "Chapter Ten: Farewell to Marrakesh",
+    "title_en": "Chapter Ten: Farewell to Marrakesh"
+  },
+  {
+    "id": "en_book1_final_011",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 11,
+    "order": 11,
+    "title_vi": "Chapter Eleven: Marrakesh Station",
+    "title_en": "Chapter Eleven: Marrakesh Station"
+  },
+  {
+    "id": "en_book1_final_012",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 12,
+    "order": 12,
+    "title_vi": "Chapter Twelve: The Genius of Castile",
+    "title_en": "Chapter Twelve: The Genius of Castile"
+  },
+  {
+    "id": "en_book1_final_013",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 13,
+    "order": 13,
+    "title_vi": "Chapter Thirteen: Ceuta Harbour",
+    "title_en": "Chapter Thirteen: Ceuta Harbour"
+  },
+  {
+    "id": "en_book1_final_014",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 14,
+    "order": 14,
+    "title_vi": "Chapter Fourteen: A Title Restored",
+    "title_en": "Chapter Fourteen: A Title Restored"
+  },
+  {
+    "id": "en_book1_final_015",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 15,
+    "order": 15,
+    "title_vi": "Chapter Fifteen: Untested in Blood",
+    "title_en": "Chapter Fifteen: Untested in Blood"
+  },
+  {
+    "id": "en_book1_final_016",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 16,
+    "order": 16,
+    "title_vi": "Chapter Sixteen: A Day in Juliet's Life",
+    "title_en": "Chapter Sixteen: A Day in Juliet's Life"
+  },
+  {
+    "id": "en_book1_final_017",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 17,
+    "order": 17,
+    "title_vi": "Chapter Seventeen: Morning in Madrid",
+    "title_en": "Chapter Seventeen: Morning in Madrid"
+  },
+  {
+    "id": "en_book1_final_018",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 18,
+    "order": 18,
+    "title_vi": "Chapter Eighteen: The Admirals of Lisbon",
+    "title_en": "Chapter Eighteen: The Admirals of Lisbon"
+  },
+  {
+    "id": "en_book1_final_019",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 19,
+    "order": 19,
+    "title_vi": "Chapter Nineteen: Treason in Lisbon",
+    "title_en": "Chapter Nineteen: Treason in Lisbon"
+  },
+  {
+    "id": "en_book1_final_020",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 20,
+    "order": 20,
+    "title_vi": "Chapter Twenty: Bound for Battle",
+    "title_en": "Chapter Twenty: Bound for Battle"
+  },
+  {
+    "id": "en_book1_final_021",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 21,
+    "order": 21,
+    "title_vi": "Chapter Twenty-One: A Ship Under the Knife",
+    "title_en": "Chapter Twenty-One: A Ship Under the Knife"
+  },
+  {
+    "id": "en_book1_final_022",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 22,
+    "order": 22,
+    "title_vi": "Chapter Twenty-Two: The Night Before La Concha",
+    "title_en": "Chapter Twenty-Two: The Night Before La Concha"
+  },
+  {
+    "id": "en_book1_final_023",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 23,
+    "order": 23,
+    "title_vi": "Chapter Twenty-Three: The Battle of La Concha, Part One",
+    "title_en": "Chapter Twenty-Three: The Battle of La Concha, Part One"
+  },
+  {
+    "id": "en_book1_final_024",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 24,
+    "order": 24,
+    "title_vi": "Chapter Twenty-Four: The Battle of La Concha, Part Two",
+    "title_en": "Chapter Twenty-Four: The Battle of La Concha, Part Two"
+  },
+  {
+    "id": "en_book1_final_025",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 25,
+    "order": 25,
+    "title_vi": "Chapter Twenty-Five: The Battle of La Concha, Part Three",
+    "title_en": "Chapter Twenty-Five: The Battle of La Concha, Part Three"
+  },
+  {
+    "id": "en_book1_final_026",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 26,
+    "order": 26,
+    "title_vi": "Chapter Twenty-Six: The Redemption of a Legend",
+    "title_en": "Chapter Twenty-Six: The Redemption of a Legend"
+  },
+  {
+    "id": "en_book1_final_027",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 27,
+    "order": 27,
+    "title_vi": "Chapter Twenty-Seven: Those Who Survived",
+    "title_en": "Chapter Twenty-Seven: Those Who Survived"
+  },
+  {
+    "id": "en_book1_final_028",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 28,
+    "order": 28,
+    "title_vi": "Chapter Twenty-Eight: The List With No Column for Homecoming",
+    "title_en": "Chapter Twenty-Eight: The List With No Column for Homecoming"
+  },
+  {
+    "id": "en_book1_final_029",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 29,
+    "order": 29,
+    "title_vi": "Chapter Twenty-Nine: The Departed",
+    "title_en": "Chapter Twenty-Nine: The Departed"
+  },
+  {
+    "id": "en_book1_final_030",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 30,
+    "order": 30,
+    "title_vi": "Chapter Thirty: The Woman in the Mirror",
+    "title_en": "Chapter Thirty: The Woman in the Mirror"
+  },
+  {
+    "id": "en_book1_final_031",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 31,
+    "order": 31,
+    "title_vi": "Chapter Thirty-One: Decisions",
+    "title_en": "Chapter Thirty-One: Decisions"
+  },
+  {
+    "id": "en_book1_final_032",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 32,
+    "order": 32,
+    "title_vi": "Chapter Thirty-Two: Red Ascendant",
+    "title_en": "Chapter Thirty-Two: Red Ascendant"
+  },
+  {
+    "id": "en_book1_final_033",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 33,
+    "order": 33,
+    "title_vi": "Chapter Thirty-Three: Homecoming",
+    "title_en": "Chapter Thirty-Three: Homecoming"
+  },
+  {
+    "id": "en_book1_final_034",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 34,
+    "order": 34,
+    "title_vi": "Chapter Thirty-Four: A Place at the Table",
+    "title_en": "Chapter Thirty-Four: A Place at the Table"
+  },
+  {
+    "id": "en_book1_final_035",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 35,
+    "order": 35,
+    "title_vi": "Chapter Thirty-Five: The Reward for Surviving",
+    "title_en": "Chapter Thirty-Five: The Reward for Surviving"
+  },
+  {
+    "id": "en_book1_final_036",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 36,
+    "order": 36,
+    "title_vi": "Chapter Thirty-Six: The Exceptional",
+    "title_en": "Chapter Thirty-Six: The Exceptional"
+  },
+  {
+    "id": "en_book1_final_037",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 37,
+    "order": 37,
+    "title_vi": "Chapter Thirty-Seven: The Balancer",
+    "title_en": "Chapter Thirty-Seven: The Balancer"
+  },
+  {
+    "id": "en_book1_final_038",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 38,
+    "order": 38,
+    "title_vi": "Chapter Thirty-Eight: Fes and the War",
+    "title_en": "Chapter Thirty-Eight: Fes and the War"
+  },
+  {
+    "id": "en_book1_final_039",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 39,
+    "order": 39,
+    "title_vi": "Chapter Thirty-Nine: The Wards of Fes",
+    "title_en": "Chapter Thirty-Nine: The Wards of Fes"
+  },
+  {
+    "id": "en_book1_final_040",
+    "arc": 1,
+    "book": 1,
+    "language": "en",
+    "number": 40,
+    "order": 40,
+    "title_vi": "Chapter Forty: A Bloody Charade",
+    "title_en": "Chapter Forty: A Bloody Charade"
+  }
+]

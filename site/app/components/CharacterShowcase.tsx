@@ -9,7 +9,7 @@ import {characterRating,RATING_AXES} from '../../lib/character-rating';
 import {assetUrl} from '../../lib/media/asset-url';
 import {playBrassClick} from '../../lib/tactile-sfx';
 import {AXIS_PALETTE} from './CharacterRadar';
-import CharacterRosterIcon, {hasOfficialRosterIcon,rosterIconPath,rosterBustSource} from './CharacterRosterIcon';
+import CharacterRosterIcon, {rosterIconPath} from './CharacterRosterIcon';
 import CharacterStageView from './CharacterStageView';
 import './character-gamelike.css';
 
@@ -36,18 +36,13 @@ function matchesQuery(c:Row,rawQuery:string){
 
 function RosterCardArt({character,full=false}:{character:Row;full?:boolean}){
  const [failed,setFailed]=useState(false);
- const hasOfficial=!full&&hasOfficialRosterIcon(character.id);
- const officialIcon=hasOfficial?rosterIconPath(character.id):undefined;
+ const icon=full?undefined:rosterIconPath(character.id);
  const canonical=canonicalCharacterArtwork(character);
- // Use HD official234 uniform bust crop for male characters whose local icon is low-res 128px
- const bust=!full?rosterBustSource(character.id):undefined;
- const useHdBust=!!bust||(!full&&!officialIcon&&!!canonical&&canonical.includes('/wardrobe/official'));
- const fallbackIcon=!full&&!officialIcon&&!useHdBust?rosterIconPath(character.id):undefined;
  const src=full
   ?(canonical||characterArtwork(character,false))
-  :(bust||officialIcon||(useHdBust?canonical:undefined)||fallbackIcon||canonical||characterArtwork(character,true));
+  :(icon||canonical||characterArtwork(character,true));
  if(!src||failed)return <div className="roster-card-fallback"><CharacterRosterIcon character={character} lang="en"/></div>;
- const cls=useHdBust?'is-hd-bust-crop':officialIcon||fallbackIcon?'is-roster-icon':undefined;
+ const cls=icon?'is-roster-icon':undefined;
  return <img src={assetUrl(src)} className={cls} alt="" loading="lazy" decoding="async" onError={()=>setFailed(true)}/>;
 }
 

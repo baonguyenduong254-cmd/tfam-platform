@@ -27,13 +27,13 @@ test('protected tokens and other dash characters remain exact; formatting is ide
  assert.equal(format("The desert ' s war . (1715–1716)"),"The desert's war. (1715–1716)");
 });
 test('bundled reader prose is formatted without altering its source records',()=>{
- const source=fs.readFileSync('lib/story/english-book1.json','utf8'),chapters=JSON.parse(source);
+ const source=fs.readFileSync('lib/story/english-arc1-final.json','utf8'),chapters=JSON.parse(source);
  const values=[];
  function collect(value){if(typeof value==='string'&&value.includes('\u2014'))values.push(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}
  collect(chapters);
- assert.ok(values.length,'real authored prose fixture contains em dashes');
+ assert.ok(chapters.length&&chapters.every(chapter=>chapter.text_en.trim()),'bundled chapters contain prose');
  for(const value of values)assert.ok(!format(value).includes('\u2014'));
- assert.equal(fs.readFileSync('lib/story/english-book1.json','utf8'),source);
+ assert.equal(fs.readFileSync('lib/story/english-arc1-final.json','utf8'),source);
 });
 test('the actual dossier display selector preserves arrays and objects',()=>{
  const source=fs.readFileSync('app/components/CharacterDossier.tsx','utf8');

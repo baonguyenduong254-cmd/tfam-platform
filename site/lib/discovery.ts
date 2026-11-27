@@ -1,4 +1,5 @@
 export const DISCOVERY_EVENT='tfam-reading-changed';
+const officialArcOneIds=Array.from({length:40},(_,index)=>'en_book1_final_'+String(index+1).padStart(3,'0'));
 export const factionGroups=[
   {
     "name": "Empires of the Old Order",
@@ -86,11 +87,13 @@ export type Milestone={id:string;title:string;closed:boolean;required:string[];e
 export type CatalogEntry={id:string;complete?:boolean};
 export function milestoneState(m:Milestone,readIds:Set<string>,catalog:CatalogEntry[]){
  const published=new Set(catalog.filter(c=>c.complete).map(c=>c.id));
- const covered=new Set([...readIds].filter(id=>published.has(id)));
+ const covered=new Set([...readIds].filter(id=>published.has(id)||/^en_book1_0(?:0[1-9]|[12][0-9]|3[0-8])$/.test(id)));
  for(const [english,units] of Object.entries(m.englishCoverage))if(covered.has(english))for(const unit of units)covered.add(unit);
  for(const [unit,chapters] of Object.entries(m.contentEquivalents||{}))if(chapters.length&&chapters.every(id=>covered.has(id)))covered.add(unit);
+ if(m.id==='arc-1'&&officialArcOneIds.every(id=>covered.has(id)))m.required.forEach(id=>covered.add(id));
  const count=m.required.filter(id=>covered.has(id)).length;
- const available=m.closed&&m.required.length>0&&m.required.every(id=>published.has(id)||Object.entries(m.englishCoverage).some(([english,units])=>published.has(english)&&units.includes(id))||(m.contentEquivalents?.[id]?.length&&m.contentEquivalents[id].every(english=>published.has(english))));
+ const finalEditionAvailable=m.id==='arc-1'&&officialArcOneIds.every(id=>published.has(id));
+ const available=m.closed&&m.required.length>0&&(finalEditionAvailable||m.required.every(id=>published.has(id)||Object.entries(m.englishCoverage).some(([english,units])=>published.has(english)&&units.includes(id))||(m.contentEquivalents?.[id]?.length&&m.contentEquivalents[id].every(english=>published.has(english)))));
  return {count,total:m.required.length,available,earned:available&&count===m.required.length};
 }
 export function canExplore(id:string,earned:ReadonlySet<string>){return id==='castilian_empire'||!!unlockRequirements[id]&&earned.has(unlockRequirements[id]);}
@@ -99,10 +102,11 @@ export function requirementText(id:string,earned:ReadonlySet<string>,milestones:
 /** Only completed, published text counts; edition equivalences require every part. */
 export function coveredChapters(milestones:Milestone[],readIds:ReadonlySet<string>,catalog:CatalogEntry[]){
  const published=new Set(catalog.filter(c=>c.complete).map(c=>c.id));
- const covered=new Set([...readIds].filter(id=>published.has(id)));
+ const covered=new Set([...readIds].filter(id=>published.has(id)||/^en_book1_0(?:0[1-9]|[12][0-9]|3[0-8])$/.test(id)));
  for(const milestone of milestones){
   for(const [english,units] of Object.entries(milestone.englishCoverage))if(covered.has(english))units.forEach(id=>covered.add(id));
   for(const [unit,chapters] of Object.entries(milestone.contentEquivalents||{}))if(chapters.length&&chapters.every(id=>covered.has(id)))covered.add(unit);
+  if(milestone.id==='arc-1'&&officialArcOneIds.every(id=>covered.has(id)))milestone.required.forEach(id=>covered.add(id));
  }
  return covered;
 }

@@ -3,7 +3,7 @@ import {presentationPunctuation} from '../../lib/presentation-punctuation';
 import {DISCOVERY_EVENT} from '../../lib/discovery';
 import {useEffect,useRef,useState,type CSSProperties} from 'react';
 import {ArrowUpRight,BookOpen,Check,ChevronLeft,ChevronRight,Clock,Download,Eye,Maximize2,Minimize2,Pencil,RotateCcw,Save,Search,Sparkles,Trophy,X} from 'lucide-react';
-import {storyIndex,editionIndex,type Chapter,type ChapterMeta} from '../../lib/story';
+import {storyIndex,editionIndex,isArchivedEnglishChapter,type Chapter,type ChapterMeta} from '../../lib/story';
 import useModalFocus from '../hooks/useModalFocus';
 import ReadingProgress from './ReadingProgress';
 import ReaderWorldContext from './ReaderWorldContext';
@@ -17,9 +17,9 @@ import '../reader-room.css';
 type Entry=ChapterMeta&{complete?:boolean};
 export type StoryLibraryProps={initialChapter?:string;standalone?:boolean;lang:string;onLanguage?:(language:string)=>void;font:number;setFont:(n:number)=>void;editMode:boolean;onEdit:()=>void;onCloseEdit:()=>void;admin:{username:string;csrf:string}|null};
 const draftKey=(id:string)=>'tfam-story-draft-v1:'+id;
-function Prose({text}:{text:string}){return <div className="story-prose">{text.split(/\n\s*\n/).filter(p=>p.trim()).map((p,i)=><p key={i}>{p}</p>)}</div>;}
+function Prose({text}:{text:string}){return <div className="story-prose">{text.split(/\n\s*\n/).filter(p=>p.trim()).map((p,i)=>p.trim()==='***'?<hr key={i}/>:<p key={i}>{p}</p>)}</div>;}
 
-export default function StoryLibrary({font,setFont,editMode,onEdit,onCloseEdit,admin,initialChapter='en_book1_001',standalone=false}:StoryLibraryProps){
+export default function StoryLibrary({font,setFont,editMode,onEdit,onCloseEdit,admin,initialChapter='en_book1_final_001',standalone=false}:StoryLibraryProps){
  const account=useReaderAccount(),historyKey=scopedReaderKey(READING_HISTORY_KEY,account.data?.profile?.id);
  const lang='en';
  const editLang='en' as 'vi'|'en';
@@ -27,7 +27,7 @@ export default function StoryLibrary({font,setFont,editMode,onEdit,onCloseEdit,a
  const [catalog,setEntries]=useState<Entry[]>(()=>storyIndex.filter(c=>c.id.startsWith('en_book'))),[id,setId]=useState(initialChapter.startsWith('en_book')?initialChapter:editionIndex('en')[0].id),[chapter,setChapter]=useState<Chapter|null>(null),[loading,setLoading]=useState(true),[error,setError]=useState(''),[attempt,setAttempt]=useState(0);
  const [draft,setDraft]=useState<Chapter|null>(null),[dirty,setDirty]=useState(false),[saved,setSaved]=useState(false),[saving,setSaving]=useState(false),[preview,setPreview]=useState(false),[recovery,setRecovery]=useState<Chapter|null>(null),[draftWarning,setDraftWarning]=useState('');
  const [pagePrefs,setPagePrefs]=useState(defaultReaderPreferences),[visits,setVisits]=useState<ReadingVisit[]>([]),[localReady,setLocalReady]=useState(false),[storageWarning,setStorageWarning]=useState(false),[query,setQuery]=useState(''),[contentsOpen,setContentsOpen]=useState(false),[listView,setListView]=useState<'all'|'history'>('all');
- const entries=catalog.filter(c=>c.id.startsWith('en_book'));
+ const entries=catalog.filter(c=>c.id.startsWith('en_book')&&!isArchivedEnglishChapter(c.id));
  const [focused,setFocused]=useState(false);
  const [reachedEnd,setReachedEnd]=useState('');
 
