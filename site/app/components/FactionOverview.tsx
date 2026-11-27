@@ -1,5 +1,6 @@
 'use client';
 import {AnimatePresence,MotionConfig,motion} from 'motion/react';
+import {ImperialParallax,ImperialReveal,ImperialStagger,ImperialStaggerItem} from './ImperialMotion';
 import {useEffect,useId,useMemo,useRef,useState,type MouseEvent} from 'react';
 import {ArrowUpRight,ChevronRight} from 'lucide-react';
 import {canonicalCharacterArtwork,canonicalCharacterRole,canonicalCharacters} from '../../lib/canonical-characters';
@@ -131,7 +132,7 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
   event.currentTarget.style.setProperty('--my',((event.clientY-rect.top)/Math.max(1,rect.height)*100).toFixed(1)+'%');
  }
 
- return <MotionConfig reducedMotion="user"><div className="faction-overview empire-overview empire-v255-screens" data-faction={f.id}>
+ return <MotionConfig reducedMotion="never"><div className="faction-overview empire-overview empire-v255-screens" data-faction={f.id}>
   {/* QUIET RIGHT-EDGE PROGRESS PIPS (Desktop only, pure minimal diamonds) */}
   <nav className="screen-chapter-rail" aria-label="Overview chapters">
    {SCREEN_LABELS.map((label,idx)=><button type="button" key={label} className={'screen-rail-dot '+(activeScreen===idx?'is-active':'')} aria-current={activeScreen===idx?'step':undefined} aria-label={label} title={label} onClick={()=>scrollToScreen(idx)}>
@@ -144,19 +145,23 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
      ===================================================================== */}
   <header ref={el=>{screenRefs.current[0]=el;}} data-screen-index={0} className="story-screen screen-arrival" aria-labelledby={sectionId+'-arrival-title'}>
    <div className="screen-bg" aria-hidden="true">
-    <MediaImage className="screen-bg-img is-hero" src={arrivalBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+    <ImperialParallax range={30}>
+     <MediaImage className="screen-bg-img is-hero" src={arrivalBackdrop} alt="" width={1920} height={1080} fetchPriority="high"/>
+    </ImperialParallax>
     <div className="screen-scrim scrim-arrival"/>
    </div>
    <div className="screen-inner screen-arrival-inner">
-    <div className="screen-arrival-lockup">
-     {f.flag_asset&&<div className="screen-flag-wrap">
-      <MediaImage className="screen-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>
-     </div>}
-     <div className="screen-arrival-copy">
-      <h1 id={sectionId+'-arrival-title'}>{factionName}</h1>
-      {quoteLine&&<p className="screen-arrival-quote">{presentationPunctuation(quoteLine)}</p>}
+    <ImperialReveal direction="up" distance={36} duration={0.78}>
+     <div className="screen-arrival-lockup">
+      {f.flag_asset&&<div className="screen-flag-wrap">
+       <MediaImage className="screen-flag" src={f.flag_asset} width={320} height={220} alt="" style={{viewTransitionName:'tfam-faction-banner'}}/>
+      </div>}
+      <div className="screen-arrival-copy">
+       <h1 id={sectionId+'-arrival-title'}>{factionName}</h1>
+       {quoteLine&&<p className="screen-arrival-quote">{presentationPunctuation(quoteLine)}</p>}
+      </div>
      </div>
-    </div>
+    </ImperialReveal>
     <button type="button" className="screen-scroll-hairline" aria-label="Scroll to next section" onClick={()=>scrollToScreen(1)}/>
    </div>
   </header>
@@ -166,28 +171,30 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
      ===================================================================== */}
   <section ref={el=>{screenRefs.current[1]=el;}} data-screen-index={1} id={sectionId+'-doctrine'} className="story-screen screen-doctrine" aria-labelledby={sectionId+'-identity-title'}>
    <div className="screen-bg" aria-hidden="true">
-    <MediaImage className="screen-bg-img is-doctrine" src={doctrineBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    <ImperialParallax range={34}>
+     <MediaImage className="screen-bg-img is-doctrine" src={doctrineBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    </ImperialParallax>
     <div className="screen-scrim scrim-doctrine"/>
    </div>
    <div className="screen-inner screen-doctrine-inner">
-    <div className="screen-doctrine-intro">
+    <ImperialReveal className="screen-doctrine-intro" direction="right" distance={34}>
      <h2 id={sectionId+'-identity-title'}>Lore &amp; Imperial<br/>Doctrine</h2>
      {written&&<p className="screen-lead">{paragraphs[0]}</p>}
      {written&&paragraphs.length>1&&<details className="screen-chronicle">
       <summary><span>Read full chronicle</span><ChevronRight size={15} aria-hidden="true"/></summary>
       <div className="screen-chronicle-body">{paragraphs.slice(1).map((p,idx)=><p key={idx}>{p}</p>)}</div>
      </details>}
-    </div>
-    <div className="screen-traits">
-     {(f.traits||[]).map((trait:R,index:number)=><article key={trait.id||index} className="screen-trait-card" onMouseMove={trackSpotlight}>
+    </ImperialReveal>
+    <ImperialStagger className="screen-traits" stagger={0.09}>
+     {(f.traits||[]).map((trait:R,index:number)=><ImperialStaggerItem key={trait.id||index}><article className="screen-trait-card" onMouseMove={trackSpotlight}>
       <div className="screen-trait-icon"><MediaImage src={traitArtwork(trait,index)} alt="" width={100} height={120} loading="lazy"/></div>
       <div className="screen-trait-copy">
        <h3>{local(trait,'label')}</h3>
        <p>{local(trait,'effect')||presentationPunctuation(trait.effect_ui||'Record pending.')}</p>
       </div>
-     </article>)}
+     </article></ImperialStaggerItem>)}
      {!f.traits?.length&&<p className="screen-empty">Faction traits are being prepared.</p>}
-    </div>
+    </ImperialStagger>
    </div>
   </section>
 
@@ -196,12 +203,14 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
      ===================================================================== */}
   <section ref={el=>{screenRefs.current[2]=el;}} data-screen-index={2} id={sectionId+'-court'} className="story-screen screen-court" aria-labelledby={sectionId+'-court-title'}>
    <div className="screen-bg" aria-hidden="true">
-    <MediaImage className="screen-bg-img is-throne" src={courtBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    <ImperialParallax range={34}>
+     <MediaImage className="screen-bg-img is-throne" src={courtBackdrop} alt="" width={1920} height={1080} loading="lazy"/>
+    </ImperialParallax>
     <div className="screen-scrim scrim-court"/>
    </div>
 
    <div className="screen-inner screen-court-inner">
-    <div className="screen-court-copy">
+    <ImperialReveal className="screen-court-copy" direction="right" distance={32}>
      {activePerson?<div className="screen-court-spotlight">
       <h2 id={sectionId+'-court-title'}>{local(activePerson,'name')}</h2>
       <p className="screen-person-role">{canonicalCharacterRole(activePerson)}</p>
@@ -227,18 +236,18 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
        </button>;
       })}
      </div>}
-    </div>
+    </ImperialReveal>
 
-    {courtRoster.length>0&&<div className="screen-court-figure" aria-hidden="true">
-     <div className="screen-court-aura"/>
+    {courtRoster.length>0&&<ImperialReveal className="screen-court-figure" direction="up" distance={42} delay={0.12}>
+     <div className="screen-court-aura" aria-hidden="true"/>
      {courtRoster.map((person,idx)=>{
       const art=canonicalCharacterArtwork(person);
       const active=idx===activeCourtIndex;
-      return <div key={person.id} className={'screen-court-portrait '+(active?'is-active':'')}>
+      return <div key={person.id} className={'screen-court-portrait '+(active?'is-active':'')} aria-hidden="true">
        {art?<MediaImage src={art} alt="" width={900} height={1200} loading={idx===0?'eager':'lazy'}/>:<div className="screen-portrait-empty">Portrait forthcoming</div>}
       </div>;
      })}
-    </div>}
+    </ImperialReveal>}
    </div>
   </section>
 
@@ -257,7 +266,7 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
 
    <div className="screen-inner screen-landmarks-inner">
     {placeState==='loading'?<div className="screen-place-state" role="status">Opening the gazetteer…</div>:placeState==='error'?<div className="screen-place-state" role="alert"><p>The landmark collection could not be loaded.</p><button type="button" className="screen-link is-primary" onClick={()=>setRetry(n=>n+1)}><span>Try again</span><ChevronRight size={15}/></button></div>:activePlace?<div className="screen-landmarks-stage">
-     <div className="screen-landmark-copy">
+     <ImperialReveal className="screen-landmark-copy" direction="up" distance={32}>
       <h2 id={sectionId+'-places-title'}>{local(activePlace,'name')}</h2>
       {local(activePlace,'epithet')&&<p className="screen-landmark-epithet">{local(activePlace,'epithet')}</p>}
       <div className="screen-link-row">
@@ -268,9 +277,10 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
         <span>All landmarks</span><ArrowUpRight size={15} aria-hidden="true"/>
        </button>
       </div>
-     </div>
+     </ImperialReveal>
 
-     <div className="screen-landmark-switcher" role="tablist" aria-label="Select featured landmark">
+     <ImperialReveal className="screen-landmark-switcher" direction="up" distance={26} delay={0.14}>
+      <div role="tablist" aria-label="Select featured landmark" style={{display:'contents'}}>
       {places.map((place,idx)=>{
        const active=idx===activePlaceIndex;
        return <button type="button" key={place.id} role="tab" aria-selected={active} className={'screen-landmark-pill '+(active?'is-active':'')} onClick={()=>{if(idx!==placeIndex)playBrassClick();setPlaceIndex(idx);}}>
@@ -278,7 +288,8 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
         <strong>{local(place,'name')}</strong>
        </button>;
       })}
-     </div>
+      </div>
+     </ImperialReveal>
     </div>:<p className="screen-empty">Landmark records are being prepared.</p>}
    </div>
   </section>
@@ -292,26 +303,29 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
      <motion.div key={activeForceSplash} className="screen-bg-crossfade" initial={{opacity:0,scale:1.03}} animate={{opacity:1,scale:1}} exit={{opacity:0}} transition={{duration:.55,ease:[0.2,0,0,1]}}>
       <MediaImage className="screen-bg-img is-splash" src={activeForceSplash} alt="" width={1920} height={1080} loading="eager"/>
      </motion.div>
-    </AnimatePresence>:<MediaImage className="screen-bg-img is-forces" src={forcesBackdrop} alt="" width={1920} height={1080} loading="lazy"/>}
+    </AnimatePresence>:<ImperialParallax range={34}><MediaImage className="screen-bg-img is-forces" src={forcesBackdrop} alt="" width={1920} height={1080} loading="lazy"/></ImperialParallax>}
     <div className={'screen-scrim '+(activeForceSplash?'scrim-splash':'scrim-forces')}/>
    </div>
 
    {activeForceSplash&&activeForce?<div className="screen-inner screen-splash-inner">
     <div className="screen-landmarks-stage">
-     <div className="screen-landmark-copy" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
-      <h2 id={sectionId+'-military-title'}>{local(activeForce,'name')}</h2>
-      <p className="screen-force-role">{local(activeForce,'role')}</p>
-      <div className="screen-link-row">
-       <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();if(featured?.length)onMilitaryUnit(activeForce.id);else onUnit(activeForce);}}>
-        <span>Inspect unit</span><ArrowUpRight size={15} aria-hidden="true"/>
-       </button>
-       <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('military');}}>
-        <span>Full roster</span><ArrowUpRight size={15} aria-hidden="true"/>
-       </button>
+     <ImperialReveal className="screen-landmark-copy" direction="up" distance={32}>
+      <div role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
+       <h2 id={sectionId+'-military-title'}>{local(activeForce,'name')}</h2>
+       <p className="screen-force-role">{local(activeForce,'role')}</p>
+       <div className="screen-link-row">
+        <button type="button" className="screen-link is-primary" onClick={()=>{playBrassClick();if(featured?.length)onMilitaryUnit(activeForce.id);else onUnit(activeForce);}}>
+         <span>Inspect unit</span><ArrowUpRight size={15} aria-hidden="true"/>
+        </button>
+        <button type="button" className="screen-link" onClick={()=>{playBrassClick();onDestination('military');}}>
+         <span>Full roster</span><ArrowUpRight size={15} aria-hidden="true"/>
+        </button>
+       </div>
       </div>
-     </div>
+     </ImperialReveal>
 
-     <div className="screen-landmark-switcher" role="tablist" aria-label="Featured military units">
+     <ImperialReveal className="screen-landmark-switcher" direction="up" distance={26} delay={0.14}>
+      <div role="tablist" aria-label="Featured military units" style={{display:'contents'}}>
       {forces.map((force,index)=>{
        const active=index===activeForceIndex;
        const thumb=UNIT_SPLASH_ART[force.id]||force.thumbnail||force.artwork||unitIllustration(f.id,force.image_asset);
@@ -320,10 +334,11 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
         <strong>{local(force,'name')}</strong>
        </button>;
       })}
-     </div>
+      </div>
+     </ImperialReveal>
     </div>
    </div>:<div className="screen-inner screen-forces-inner screen-forces-v264">
-    <div className="screen-forces-left">
+    <ImperialReveal className="screen-forces-left" direction="right" distance={32}>
      {activeForce?<div className="screen-force-copy" role="tabpanel" id={sectionId+'-unit-panel'} aria-labelledby={sectionId+'-unit-tab-'+activeForceIndex}>
       <span className="screen-force-kicker">
        Order of Battle{activeForce.branch?' · '+String(activeForce.branch):''}{activeForce.number?' · No. '+String(activeForce.number).padStart(2,'0'):''}
@@ -355,12 +370,12 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
        </button>;
       })}
      </div>}
-    </div>
+    </ImperialReveal>
 
     {activeForce&&(()=>{
      const cutoutSrc=militaryCutout(activeForce.id);
      if(cutoutSrc){
-      return <div className="screen-forces-right">
+      return <ImperialReveal className="screen-forces-right" direction="scale" delay={0.12}>
        <div className="screen-force-cutout-stage" data-branch={activeForce.branch||'infantry'}>
         <div className="screen-force-cutout-aura" aria-hidden="true"/>
         <AnimatePresence mode="wait" initial={false}>
@@ -369,9 +384,9 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
          </motion.div>
         </AnimatePresence>
        </div>
-      </div>;
+      </ImperialReveal>;
      }
-     return <div className="screen-forces-right">
+     return <ImperialReveal className="screen-forces-right" direction="scale" delay={0.12}>
       <div className="screen-force-arch-shrine" data-branch={activeForce.branch||'infantry'}>
        <div className="screen-force-arch-halo" aria-hidden="true"/>
        <div className="screen-force-arch-frame">
@@ -389,7 +404,7 @@ export default function FactionOverview({faction:f,characters,units,onCharacter,
         </div>
        </div>
       </div>
-     </div>;
+     </ImperialReveal>;
     })()}
    </div>}
   </section>

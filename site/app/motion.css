@@ -155,3 +155,48 @@ html[data-motion=off] .tfam-editorial dialog[data-motion-closing=true]{animation
 }
 @keyframes tfam-desktop-arrive{from{opacity:0;transform:translate3d(0,28px,0) scale(.992)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
 @keyframes tfam-desktop-leave{from{opacity:1;transform:translate3d(0,0,0)}to{opacity:0;transform:translate3d(0,-12px,0)}}
+
+/* v271 Imperial Motion Choreography: smooth scroll, gilded progress rail & route/tab sheen */
+html {
+  scroll-behavior: smooth;
+}
+.tfam-scroll-rail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 950;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.08), rgba(212, 175, 55, 0.14));
+}
+.tfam-scroll-rail-fill {
+  height: 100%;
+  width: 100%;
+  transform-origin: 0% 50%;
+  background: linear-gradient(90deg, #9a7428 0%, #d4af37 55%, #f6e2a5 100%);
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.72), 0 0 4px rgba(246, 226, 165, 0.9);
+  will-change: transform;
+}
+.tfam-route-stage {
+  position: relative;
+  min-height: 100%;
+  will-change: transform, opacity;
+}
+.tfam-route-sheen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 940;
+  pointer-events: none;
+  transform-origin: 0% 50%;
+  background: linear-gradient(90deg, transparent 0%, #d4af37 35%, #fff0c2 75%, transparent 100%);
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.85);
+}
+.tfam-tab-stage {
+  position: relative;
+  will-change: transform, opacity;
+}
+

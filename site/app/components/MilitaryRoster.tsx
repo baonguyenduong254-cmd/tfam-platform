@@ -373,7 +373,7 @@ export default function MilitaryRoster({
   }, [units]);
 
   return (
-    <MotionConfig reducedMotion="user">
+    <MotionConfig reducedMotion="never">
       <section
         className="military-roster military211 warfolio-v263"
         aria-labelledby="archive-title"

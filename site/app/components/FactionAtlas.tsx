@@ -1,4 +1,5 @@
 'use client';
+import {ImperialReveal} from './ImperialMotion';
 
 import {
   useEffect,
@@ -1085,43 +1086,46 @@ export default function FactionAtlas({
 
       {/* OPEN MULTI-THEATRE ATLAS: GRAND CAMPAIGN + REGIONAL THEATRES IMMEDIATELY VISIBLE */}
       <div className="atlas266-theatres">
-        <AtlasPlateStage
-          theatre={THEATRES.grand}
-          act={activeAct}
-          faction={faction}
-          factionsById={factionsById}
-          explorableIds={explorableIds}
-          unlockCondition={unlockCondition}
-          data={data}
-          showBorders={showBorders}
-          showRoutes={false}
-          warTable3D={warTable3D}
-          showHoldings={false}
-          onFaction={onFaction}
-          onLandmark={onLandmark}
-        />
+        <ImperialReveal direction="up" distance={28} duration={0.62}>
+          <AtlasPlateStage
+            theatre={THEATRES.grand}
+            act={activeAct}
+            faction={faction}
+            factionsById={factionsById}
+            explorableIds={explorableIds}
+            unlockCondition={unlockCondition}
+            data={data}
+            showBorders={showBorders}
+            showRoutes={false}
+            warTable3D={warTable3D}
+            showHoldings={false}
+            onFaction={onFaction}
+            onLandmark={onLandmark}
+          />
+        </ImperialReveal>
 
         <div className="atlas266-regional-grid">
-          {regionalOrder.map(tid => (
-            <AtlasPlateStage
-              key={tid}
-              theatre={THEATRES[tid]}
-              act={activeAct}
-              faction={faction}
-              factionsById={factionsById}
-              explorableIds={explorableIds}
-              unlockCondition={unlockCondition}
-              data={data}
-              showBorders={showBorders}
-              showRoutes={showRoutes}
-              warTable3D={warTable3D}
-              showHoldings={
-                (tid === 'asia' && isAsianFaction) ||
-                (tid === 'europe' && !isAsianFaction)
-              }
-              onFaction={onFaction}
-              onLandmark={onLandmark}
-            />
+          {regionalOrder.map((tid, idx) => (
+            <ImperialReveal key={tid} direction="up" distance={34} delay={idx * 0.1} duration={0.66}>
+              <AtlasPlateStage
+                theatre={THEATRES[tid]}
+                act={activeAct}
+                faction={faction}
+                factionsById={factionsById}
+                explorableIds={explorableIds}
+                unlockCondition={unlockCondition}
+                data={data}
+                showBorders={showBorders}
+                showRoutes={showRoutes}
+                warTable3D={warTable3D}
+                showHoldings={
+                  (tid === 'asia' && isAsianFaction) ||
+                  (tid === 'europe' && !isAsianFaction)
+                }
+                onFaction={onFaction}
+                onLandmark={onLandmark}
+              />
+            </ImperialReveal>
           ))}
         </div>
       </div>
