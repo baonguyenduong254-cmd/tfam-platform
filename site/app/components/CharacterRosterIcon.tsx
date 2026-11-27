@@ -2,8 +2,12 @@
 
 import {useState} from 'react';
 import {assetUrl} from '../../lib/media/asset-url';
-import wardrobe from '../../lib/wardrobe-manifest.json';
-import cutouts from '../../lib/character-cutouts.json';
+import seatIcons from '../../lib/character-seat-icons.json';
+
+import studioIcons from '../../lib/character-seat-studio-icons.json';
+
+const studioIconIds = new Set(studioIcons);
+const seatIconIds = new Set(seatIcons);
 
 const icons = new Set([
   'alvaro_morales',
@@ -81,13 +85,15 @@ const v270Icons = new Set([
 ]);
 
 export function hasOfficialRosterIcon(characterId?: string): boolean {
-  return !!characterId && (officialIcons.has(characterId) || v270Icons.has(characterId));
+  return !!characterId && (studioIconIds.has(characterId) || seatIconIds.has(characterId) || officialIcons.has(characterId) || v270Icons.has(characterId));
 }
 
 export function rosterIconPath(characterId?: string): string | undefined {
   if (!characterId) return undefined;
+  if (studioIconIds.has(characterId)) return '/portraits/seat-studio-hd/' + characterId + '.webp';
   if (characterId === 'juliet_spencer') return '/portraits/seat/juliet.png';
   if (characterId === 'evelyne_vesper') return '/portraits/seat/evelyne.png';
+  if (seatIconIds.has(characterId)) return '/portraits/seat-hd/' + characterId + '.webp';
   if (characterId === 'isabella_testarossa_de_aragon') {
     return '/portraits/roster-icons/isabella-v269-official.webp';
   }
@@ -101,13 +107,6 @@ export function rosterIconPath(characterId?: string): string | undefined {
     return '/portraits/roster-icons/' + characterId + '.webp';
   }
   return undefined;
-}
-
-export function rosterBustSource(characterId: string): string | undefined {
-  if (!v270Icons.has(characterId) || characterId === 'juliet_spencer') return;
-  const uniforms: Record<string, {uniform?: string}> = wardrobe;
-  const portraits: Record<string, {full: string}> = cutouts;
-  return uniforms[characterId]?.uniform || portraits[characterId]?.full;
 }
 
 export default function CharacterRosterIcon({character, lang}: {character: Record<string, any>; lang: string}) {
