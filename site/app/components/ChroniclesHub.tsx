@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useMemo,useRef,useState} from 'react';
 import {ArrowUpRight,BookOpen,Search,Sparkles,X} from 'lucide-react';
-import englishIndex from '../../lib/story/english-index.json';
+import englishIndex from '../../lib/story/english-arc1-final-index.json';
 import ImperialSectionHeader from './ImperialSectionHeader';
 import '../chronicles-211.css';
 
