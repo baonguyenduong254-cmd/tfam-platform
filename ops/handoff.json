@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-11-27",
   "updatedBy": "baonguyenduong254",
   "production": {
-    "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
-    "liveSiteVersion": 256,
+    "hosting": "cloudflare-workers",
+    "liveUrl": "https://through-frost-and-myth.tfamatlas.workers.dev",
+    "workerVersionId": "3a7bd842-ed91-402f-9131-37239f32860c",
+    "autoDeployFromMain": true,
+    "deployWorkflow": ".github/workflows/deploy-cloudflare.yml",
     "githubMainAheadOfLive": false,
-    "pendingLiveSyncNotes": ""
+    "pendingLiveSyncNotes": "Production is now fully independent on Cloudflare Workers (https://through-frost-and-myth.tfamatlas.workers.dev) backed by personal D1 (tfam-content) and R2 (tfam-assets). Every merge to GitHub main automatically runs typecheck, 74 tests, production build, and wrangler deploy. ChatGPT Sites is no longer required for production releases."
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",
@@ -17,12 +20,13 @@
     "codex": {
       "role": [
         "technical-supervision",
-        "image-generation",
-        "chatgpt-sites-sync"
+        "image-generation"
       ],
-      "currentPlan": "Codex Plus (until 2026-12-01; Work quota hit limit until ~2026-11-27 21:01 — waiting for reset or Business transition)",
-      "nextPlan": "Codex Business (1 month from 2026-12-01; verify Sites project workspace before publish)"
+      "notes": "No longer required for production site sync; GitHub Actions deploys main directly to Cloudflare Workers."
     }
   },
-  "nextActions": []
+  "nextActions": [
+    "Optional: Attach a custom domain (e.g., throughfrostandmyth.com) in Cloudflare Dashboard -> Workers -> through-frost-and-myth -> Domains & Routes.",
+    "Continue feature, art, and lore development directly via task branches + PRs into main (auto-deploys to live Cloudflare Workers)."
+  ]
 }

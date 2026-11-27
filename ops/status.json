@@ -1,40 +1,28 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-11-27",
-  "phase": "v256-live",
+  "phase": "cloudflare-workers-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 256,
-    "sourceCommit": "06f3a37ca2459e8cfb32cccbc6d4a914ad4a3c00",
-    "githubCommit": "34abbe79dff035ed1b43c28e68761d80ef43b906",
-    "githubBranch": "main",
-    "sourceTree": "8aa7fecdf719e67be48c7c5a9dd57eef44e40783",
-    "archiveHash": "sha256:8234e23c0d963efe80ba70b5c92f34cf315b8a283454365734c91be1ee5e09b4",
-    "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
+    "hosting": "cloudflare-workers",
+    "workerName": "through-frost-and-myth",
+    "url": "https://through-frost-and-myth.tfamatlas.workers.dev",
+    "githubCommit": "64d8914a70e16c9f70cd3c87521273718d824c20",
+    "versionId": "3a7bd842-ed91-402f-9131-37239f32860c",
     "verified": true,
-    "deploymentId": "appgdep_6b09a1dcdac88191a49df78f00dc305e",
-    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_af524e6ed5c48191979444cd56b9d98e",
     "verifiedAt": "2026-11-27",
-    "rollback": {
-      "siteVersion": 255,
-      "sourceCommit": "a7d8331ea6ce99ede8cffb82066d68ba219feedd",
+    "legacyChatgptSites": {
+      "status": "deprecated-non-primary",
       "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
-      "deploymentId": "appgdep_6b09a013a2b48191accbc615d8baec6e",
-      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_23fa46f9cfac81919d32d44ecf31daf3"
-    },
-    "checks": [
-      "Source tree matches GitHub main:site",
-      "TypeScript noEmit passed",
-      "Production build passed",
-      "Presentation punctuation tests 4/4 passed"
-    ]
+      "lastSiteVersion": 256
+    }
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
     "visibility": "public",
-    "productionAutoDeploy": false,
-    "sourcePath": "site/",
-    "liveSourceRecord": "ops/releases/sites-256-source.json"
+    "productionAutoDeploy": true,
+    "deployWorkflow": ".github/workflows/deploy-cloudflare.yml",
+    "sourcePath": "site/"
   },
   "r2": {
     "status": "active-public-cdn",
@@ -45,10 +33,10 @@
   },
   "database": {
     "binding": "DB",
-    "hosting": "chatgpt-sites-managed-d1",
+    "hosting": "cloudflare-d1",
+    "databaseName": "tfam-content",
     "contentRevision": 32,
     "atlasRevision": 25,
-    "presentationRevision": 34,
-    "legacyPersonalCloudflareD1": "tfam-content (revision 31, separate)"
+    "presentationRevision": 34
   }
 }
