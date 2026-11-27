@@ -24,6 +24,7 @@ import {ReaderAccountProvider} from "./components/ReaderAccount";
 import BackgroundMusic from "./components/BackgroundMusic";
 import ImmersiveViewport from './components/ImmersiveViewport';
 import LocalPerformanceProbe from "./components/LocalPerformanceProbe";
+import {ImperialMotionProvider, ImperialScrollProgress} from './components/ImperialMotion';
 
 export const viewport={width:'device-width',initialScale:1,viewportFit:'cover'};
 
@@ -43,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased tfam-editorial tfam-royal"><ReaderAccountProvider><DiscoveryProvider><RoyalTheme/><LocalPerformanceProbe/>{children}<ImmersiveViewport/><ContentProtection/><BackgroundMusic/></DiscoveryProvider></ReaderAccountProvider></body>
+      <body className="antialiased tfam-editorial tfam-royal"><ImperialMotionProvider><ImperialScrollProgress/><ReaderAccountProvider><DiscoveryProvider><RoyalTheme/><LocalPerformanceProbe/>{children}<ImmersiveViewport/><ContentProtection/><BackgroundMusic/></DiscoveryProvider></ReaderAccountProvider></ImperialMotionProvider></body>
     </html>
   );
 }

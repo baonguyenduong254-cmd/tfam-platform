@@ -342,7 +342,7 @@ export default function MonumentShowcase({
     : '';
 
   return (
-    <MotionConfig reducedMotion="user">
+    <MotionConfig reducedMotion="never">
       <section className="monuments landmarks211 voyage-v261" aria-label="Landmark collection">
         <ImperialSectionHeader
           kicker="Grand Imperial Voyage · Gazetteer"

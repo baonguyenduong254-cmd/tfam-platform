@@ -183,7 +183,7 @@ export default function CinematicEntry({data,replay,year,onEnter}:Props){
  const poolIndex=Math.max(0,activePool.indexOf(activeId));
  const visibleGroups=[{group:factionGroups[activeGroup]||factionGroups[0],index:activeGroup}];
 
- return <MotionConfig reducedMotion="user"><div className={'atlas-opening tfam-opening-210 tfam-astral-v250 tfam-opening-v251 '+(choose?'choosing':'')} data-opening-motion="on" style={{'--astral-tint':ambientTint} as CSSProperties}>
+ return <MotionConfig reducedMotion="never"><div className={'atlas-opening tfam-opening-210 tfam-astral-v250 tfam-opening-v251 '+(choose?'choosing':'')} data-opening-motion="on" style={{'--astral-tint':ambientTint} as CSSProperties}>
   <OpeningLivingScene scene={choose?'court':'opening'}/>
   <div className="opening-mist" aria-hidden="true"/>
   <div className="astral-nebula-veil" aria-hidden="true"/>

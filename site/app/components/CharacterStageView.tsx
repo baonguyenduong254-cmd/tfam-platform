@@ -134,7 +134,7 @@ export default function CharacterStageView({character,roster,index,total,isOverl
   onSelectCharacter(roster[nextIdx].id);
  }
 
- return <MotionConfig reducedMotion="user"><div
+ return <MotionConfig reducedMotion="never"><div
   className={'char-stage-shell'+(isOverlay?' is-overlay':'')+(isMature?' is-mature':'')}
   style={{'--stage-aura':primaryAura} as React.CSSProperties}
   role={isOverlay?'dialog':undefined}

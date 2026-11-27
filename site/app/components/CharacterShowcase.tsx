@@ -97,7 +97,7 @@ export default function CharacterShowcase({
  const featuredTopAxis=featuredRating?featuredRating.topAxes[0]:'presence';
  const featuredPal=AXIS_PALETTE[featuredTopAxis];
 
- return <MotionConfig reducedMotion="user"><section className="roster-hall" aria-labelledby="archive-title">
+ return <MotionConfig reducedMotion="never"><section className="roster-hall" aria-labelledby="archive-title">
   {/* UNIFIED IMPERIAL ROSTER HERO HEADER */}
   <header className="roster-hero">
    <div className="roster-hero-aura" aria-hidden="true"/>

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "updatedBy": "baonguyenduong254",
   "production": {
     "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "liveSiteVersion": 250,
     "githubMainAheadOfLive": true,
-    "pendingLiveSyncNotes": "GitHub main includes v251-v264 (PRs #38-#50: P0/P1 fixes, Hybrid Imperial Stage #horizons, 5-screen Faction Overview, 2-stage Character Showcase & Glow Radar, ImperialSectionHeader, Military cutouts), v265 Horizon x Orizon Portal Polish (PR #51), v266 Imperial Reading Sanctuary /read/* (PR #52), v267 Unscored Revolt backdrops & 1715 Court/Arsenal stages (PR #53), v268 Castilian military anime-painterly cutouts (PR #54), v269 Isabella canonical fixed-face transparent wardrobe set (PR #55), and v270 Open 3-Act Multi-Theatre Illustrated Atlas (PR #57: Canticle of Chaos, Shattered Symphony with Wardenholf/Khorvait/Nhemora/Veldraine & territorial shifts, Draconic Apocalypse; Grand Campaign + Europe + Asia displayed immediately with zero map locks, click-to-inspect Unlocked vs Not Yet Unlocked Realm Drawer, and Chaikin-smoothed 2x anti-aliased watercolor-multiply plates)."
+    "pendingLiveSyncNotes": "GitHub main includes v251-v270 (PRs #38-#57: P0/P1 fixes, Hybrid Imperial Stage, 5-screen Faction Overview, 2-stage Character Showcase & Glow Radar, Horizon portal polish, Imperial Reading Sanctuary, Unscored Revolt backdrops, Castilian cutouts, Isabella fixed-face wardrobe, Open 3-Act Multi-Theatre Illustrated Atlas, 256px male roster icons & 18+ tag removal) plus v271 Imperial Motion Choreography (global gilded scroll progress rail, smooth route transitions via template.tsx, AnimatePresence tab/faction transitions in page.tsx, GPU backdrop parallax & scroll-triggered ImperialReveal/ImperialStagger across FactionOverview and FactionAtlas, with reducedMotion='never' per owner direction)."
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",
