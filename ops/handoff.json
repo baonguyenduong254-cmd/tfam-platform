@@ -4,9 +4,9 @@
   "updatedBy": "baonguyenduong254",
   "production": {
     "liveUrl": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
-    "liveSiteVersion": 250,
-    "githubMainAheadOfLive": true,
-    "pendingLiveSyncNotes": "GitHub main includes v251-v270 (PRs #38-#57: P0/P1 fixes, Hybrid Imperial Stage, 5-screen Faction Overview, 2-stage Character Showcase & Glow Radar, Horizon portal polish, Imperial Reading Sanctuary, Unscored Revolt backdrops, Castilian cutouts, Isabella fixed-face wardrobe, Open 3-Act Multi-Theatre Illustrated Atlas, 256px male roster icons & 18+ tag removal) plus v271 Imperial Motion Choreography (global gilded scroll progress rail, smooth route transitions via template.tsx, AnimatePresence tab/faction transitions in page.tsx, GPU backdrop parallax & scroll-triggered ImperialReveal/ImperialStagger across FactionOverview and FactionAtlas, with reducedMotion='never' per owner direction)."
+    "liveSiteVersion": 256,
+    "githubMainAheadOfLive": false,
+    "pendingLiveSyncNotes": ""
   },
   "toolchain": {
     "orchestrator": "Antigravity Remote (baonguyenduong254, Gemini Paid Pro)",
@@ -24,8 +24,5 @@
       "nextPlan": "Codex Business (1 month from 2026-12-01; verify Sites project workspace before publish)"
     }
   },
-  "nextActions": [
-    "Once Codex Work quota resets (~2026-11-27) or on 2026-12-01 after verifying Sites workspace ownership, sync site/ from GitHub main verbatim onto ChatGPT Sites appgprj_6abf3718495481919a2cd6954776f57e and publish.",
-    "After live publish, update ops/status.json + ops/releases/sites-251-*.json and set githubMainAheadOfLive=false in ops/handoff.json."
-  ]
+  "nextActions": []
 }

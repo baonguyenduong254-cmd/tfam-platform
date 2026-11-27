@@ -1,33 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25",
-  "phase": "v250-live",
+  "updatedAt": "2026-11-27",
+  "phase": "v256-live",
   "sourceImport": "verified",
   "production": {
-    "siteVersion": 250,
-    "sourceCommit": "bcbd12bdf038cd7666f4732352482f1ea2a86fc6",
-    "githubCommit": "19fc4049fbb88cd05e165e97883b732e4bfb5f6a",
+    "siteVersion": 256,
+    "sourceCommit": "06f3a37ca2459e8cfb32cccbc6d4a914ad4a3c00",
+    "githubCommit": "34abbe79dff035ed1b43c28e68761d80ef43b906",
+    "githubBranch": "main",
+    "sourceTree": "8aa7fecdf719e67be48c7c5a9dd57eef44e40783",
+    "archiveHash": "sha256:8234e23c0d963efe80ba70b5c92f34cf315b8a283454365734c91be1ee5e09b4",
     "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
     "verified": true,
-    "deploymentId": "appgdep_6b05c373a4f48191bddb50c9133605fc",
-    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_6c8378b22e14819187ffec33d550f249",
-    "verifiedAt": "2026-11-25",
+    "deploymentId": "appgdep_6b09a1dcdac88191a49df78f00dc305e",
+    "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_af524e6ed5c48191979444cd56b9d98e",
+    "verifiedAt": "2026-11-27",
     "rollback": {
-      "siteVersion": 249,
-      "sourceCommit": "76391c360f1465eddbca463a901300cd316d7463",
+      "siteVersion": 255,
+      "sourceCommit": "a7d8331ea6ce99ede8cffb82066d68ba219feedd",
       "url": "https://throughfrostandmyth.baonguyenduong254.chatgpt.site",
-      "verified": true,
-      "deploymentId": "appgdep_6b05c1da1b28819190fac819a9b3048d",
-      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_1fe1131c32b081919e2fc338401fef95",
-      "verifiedAt": "2026-11-24"
-    }
+      "deploymentId": "appgdep_6b09a013a2b48191accbc615d8baec6e",
+      "versionId": "appgprj_6abf3718495481919a2cd6954776f57e~appgver_23fa46f9cfac81919d32d44ecf31daf3"
+    },
+    "checks": [
+      "Source tree matches GitHub main:site",
+      "TypeScript noEmit passed",
+      "Production build passed",
+      "Presentation punctuation tests 4/4 passed"
+    ]
   },
   "github": {
     "repository": "baonguyenduong254-cmd/tfam-platform",
     "visibility": "public",
     "productionAutoDeploy": false,
     "sourcePath": "site/",
-    "liveSourceRecord": "ops/releases/sites-250-overview-gutters.json"
+    "liveSourceRecord": "ops/releases/sites-256-source.json"
   },
   "r2": {
     "status": "active-public-cdn",
