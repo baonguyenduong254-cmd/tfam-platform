@@ -3,6 +3,7 @@
 import {useEffect,useState} from 'react';
 import {Check,Copy,Crown,ExternalLink,Link2,LogIn,ShieldCheck} from 'lucide-react';
 import {AccountMenu,useReaderAccount} from '../components/ReaderAccount';
+import SiteSectionNav from '../components/SiteSectionNav';
 import {formatUsd,IMPERIAL_PLANS,type ImperialPlan} from '../../lib/subscriptions';
 
 type PaymentOrder={
@@ -104,7 +105,9 @@ export default function SubscribeClient(){
  const latestPending=catalog.orders.find(o=>o.status==='pending');
 
  return (
-  <main className="subscribe-main">
+  <>
+   <SiteSectionNav section="subscribe" />
+   <main className="subscribe-main">
    <header className="subscribe-hero">
     <div className="subscribe-hero-top">
      <span className="subscribe-eyebrow">THROUGH FROST AND MYTH · IMPERIAL PATRONAGE</span>
@@ -295,5 +298,6 @@ export default function SubscribeClient(){
     )}
    </section>
   </main>
+  </>
  );
 }

@@ -1,3 +1,4 @@
+'use client';
 import {BookOpen,Compass,Crown,Gem} from 'lucide-react';
 import type {MouseEventHandler} from 'react';
 import SiteEmblem from './SiteEmblem';

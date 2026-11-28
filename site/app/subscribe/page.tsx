@@ -1,5 +1,4 @@
 import type {Metadata} from 'next';
-import SiteSectionNav from '../components/SiteSectionNav';
 import SubscribeClient from './SubscribeClient';
 import './subscribe.css';
 
@@ -11,7 +10,6 @@ export const metadata:Metadata={
 export default function SubscribePage(){
  return (
   <div className="subscribe-shell">
-   <SiteSectionNav />
    <SubscribeClient />
   </div>
  );
