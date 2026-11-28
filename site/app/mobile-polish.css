@@ -1,0 +1,178 @@
+/* TFAM v272 Mobile Brightness, Contrast & Navigation Polish */
+
+@media (max-width: 760px) {
+  /* 1. Brighter twilight imperial palette on mobile screens */
+  body.tfam-editorial.tfam-royal main[data-tfam211] {
+    --world-ground: #181326;
+    --world-surface: #251d38f7;
+    --world-raised: #322749;
+    --world-ink: #faf1e2;
+    --world-muted: #e1d6ea;
+    --world-line: rgba(235, 206, 152, 0.34);
+    background-color: #181326 !important;
+  }
+
+  /* 2. Global SiteSectionNav: crisp horizontal pills, generous icon gap, zero vertical scrollbars */
+  body.tfam-editorial.tfam-royal .site-section-nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 12px 14px !important;
+    background: #1b1529 !important;
+    border-bottom: 1px solid rgba(235, 206, 152, 0.28) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav .site-end-emblem {
+    display: none !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav .site-section-brand {
+    font-size: 16px !important;
+    color: #faeccd !important;
+    line-height: 1.25 !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 2px 0 4px !important;
+    scrollbar-width: none;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div::-webkit-scrollbar {
+    display: none;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div > a {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+    min-height: 38px !important;
+    padding: 7px 12px !important;
+    border: 1px solid rgba(235, 206, 152, 0.28) !important;
+    border-radius: 999px !important;
+    background: rgba(40, 30, 58, 0.92) !important;
+    color: #f6ebd8 !important;
+    font-size: 13.5px !important;
+    line-height: 1.2 !important;
+    text-decoration: none !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div > a[aria-current="page"] {
+    background: linear-gradient(135deg, #6d2640, #491a2e) !important;
+    border-color: #f0cf88 !important;
+    color: #ffe8b3 !important;
+    font-weight: 600 !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div > a::before {
+    width: 18px !important;
+    height: 18px !important;
+    flex: 0 0 18px !important;
+  }
+
+  body.tfam-editorial.tfam-royal .site-section-nav > div > a > svg {
+    width: 16px !important;
+    height: 16px !important;
+    flex-shrink: 0 !important;
+    color: #f2cf88 !important;
+  }
+
+  /* 3. Landing '/' & '/#horizons' brightness & anti-bleed toolbar */
+  body.tfam-editorial.tfam-royal .tfam-opening-210 {
+    background: #171426 !important;
+    color: #faf1e2 !important;
+  }
+
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-living-scene img {
+    object-position: 50% 24% !important;
+    filter: brightness(1.18) saturate(1.08) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-mist {
+    background:
+      linear-gradient(180deg, rgba(18, 14, 30, 0.2) 0%, rgba(20, 15, 34, 0.36) 44%, rgba(21, 17, 36, 0.88) 76%, #171426 100%) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .tfam-opening-210.choosing .opening-toolbar,
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .opening-toolbar {
+    background: #171326 !important;
+    border-bottom: 1px solid rgba(235, 206, 152, 0.26) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .faction-card,
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .horizon-stage {
+    background-color: #211932 !important;
+    border-color: rgba(235, 206, 152, 0.32) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .tfam-opening-210 .horizon-chapters {
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+  }
+
+  /* 4. Chronicles '/chronicles': solid sticky command-bar, unified tool icons & brighter Arc cards */
+  body.tfam-editorial.tfam-royal main[data-tfam211][data-active-tab="reader"] .command-bar.command-bar-with-tools,
+  body.tfam-editorial.tfam-royal .command-bar {
+    background: #191428 !important;
+    border-bottom: 1px solid rgba(235, 206, 152, 0.28) !important;
+  }
+
+  body.tfam-editorial.tfam-royal .command-bar :is(a, button) {
+    border-color: rgba(235, 206, 152, 0.36) !important;
+    background: rgba(41, 30, 58, 0.85) !important;
+    border-radius: 999px !important;
+  }
+
+  body.tfam-editorial.tfam-royal main[data-tfam211] .chronicles-v265 {
+    --tfam-ground: #181326;
+    --tfam-tier-1: linear-gradient(155deg, rgba(44, 32, 62, 0.96), rgba(27, 20, 42, 0.98));
+    --tfam-tier-2: linear-gradient(145deg, rgba(56, 36, 70, 0.96), rgba(30, 21, 46, 0.98));
+    --tfam-rim: rgba(235, 206, 152, 0.34);
+  }
+
+  /* 5. Character Stage '/evelyne-stage': brighter backdrop & legible muted labels */
+  .char-stage-shell {
+    background: #191426 !important;
+    --cs-ink: #faf1e2 !important;
+    --cs-subtle: #ebe2f2 !important;
+    --cs-muted: #cfc4da !important;
+    --cs-line: rgba(235, 206, 152, 0.3) !important;
+  }
+
+  .char-stage-scrim {
+    background: linear-gradient(180deg, rgba(20, 15, 30, 0.14) 0%, rgba(20, 15, 30, 0.36) 48%, rgba(22, 16, 34, 0.92) 82%, #191426 100%) !important;
+  }
+}
+
+@media (max-width: 520px) {
+  /* Stack Arc II-VI to full-width 1-col cards so Arc VI is never an awkward orphan */
+  .chronicles-v265 .v250-arcs-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .chronicles-v265 .v250-arc-volume {
+    display: grid !important;
+    grid-template-columns: 96px minmax(0, 1fr) !important;
+    gap: 14px !important;
+    align-items: center !important;
+    padding: 14px !important;
+  }
+
+  .chronicles-v265 .v250-arc-book {
+    margin: 0 !important;
+  }
+}
