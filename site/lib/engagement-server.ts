@@ -14,7 +14,7 @@ export function readerIdentity(req:Request){
  const id=valid?token:randomBytes(32).toString('hex');
  return {hash:digest(id),csrf:mac('csrf:'+id),fresh:!valid,cookie:`${COOKIE}=${id}.${mac(id)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${TTL}`};
 }
-export async function engagementIdentity(req:Request){const who=readerIdentity(req),account=await findAccount();return {...who,hash:account?accountVisitor(account.id):who.hash,account};}
+export async function engagementIdentity(req:Request){const who=readerIdentity(req),account=await findAccount(req);return {...who,hash:account?accountVisitor(account.id):who.hash,account};}
 export function readerWriteDenied(req:Request,identity:ReturnType<typeof readerIdentity>){
  if(!sameOrigin(req)||identity.fresh||req.headers.get('x-reader-csrf')!==identity.csrf)return authReply({code:'SESSION',error:'Hãy tải lại phần bình luận rồi thử lại.'},403);
  return null;
