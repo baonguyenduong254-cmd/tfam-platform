@@ -1,11 +1,18 @@
+import {env} from 'cloudflare:workers';
 import {isIP} from 'node:net';
 import {createHmac,randomBytes,timingSafeEqual} from 'node:crypto';
-import {adminSession,authReply,credential,digest,sameOrigin} from './admin-auth';
+import {adminSession,authReply,digest,sameOrigin} from './admin-auth';
 import {findAccount,accountVisitor} from './account-server';
 import {validAvatar,avatars} from './accounts';
 import {storyDatabase} from './story-server';
 const COOKIE='__Host-tfam_reader',TTL=365*86400;
-const mac=(s:string)=>createHmac('sha256',credential().hash).update('reader:'+s).digest('hex');
+function readerSecret(){
+ const e=env as typeof env & Partial<Cloudflare.Env>;
+ const key=e.TFAM_ADMIN_PASSWORD_HASH||e.GOOGLE_OAUTH_CLIENT_SECRET||e.PATREON_OAUTH_CLIENT_SECRET||e.PATREON_WEBHOOK_SECRET;
+ if(!key)throw Error('Reader signing secret unavailable');
+ return key;
+}
+const mac=(s:string)=>createHmac('sha256',readerSecret()).update('reader:'+s).digest('hex');
 // Accept only the edge-provided IP, never client-supplied forwarding headers.
 export function registrationIp(req:Request){const raw=req.headers.get('cf-connecting-ip')?.trim()||'';const family=isIP(raw);if(!family)return null;const normalized=family===6?new URL('http://['+raw+']/').hostname.toLowerCase():raw;return mac('registration-ip:'+normalized);}
 export function readerIdentity(req:Request){

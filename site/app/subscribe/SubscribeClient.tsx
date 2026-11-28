@@ -19,6 +19,7 @@ type PaymentOrder={
 
 type OrderCatalogResponse={
  plans:ImperialPlan[];
+ paymentsEnabled:boolean;
  patreonJoinUrl:string|null;
  wisePaymentUrl:string|null;
  wiseAccountNote:string|null;
@@ -43,6 +44,7 @@ export default function SubscribeClient(){
  const account=useReaderAccount();
  const [catalog,setCatalog]=useState<OrderCatalogResponse>({
   plans:[...IMPERIAL_PLANS],
+  paymentsEnabled:false,
   patreonJoinUrl:null,
   wisePaymentUrl:null,
   wiseAccountNote:null,
@@ -164,42 +166,60 @@ export default function SubscribeClient(){
    </section>
 
    <section className="subscribe-checkout">
-    <h2>Choose Payment Method</h2>
+    <div className="subscribe-checkout-head">
+     <h2>Choose Payment Method</h2>
+     {!catalog.paymentsEnabled&&(
+      <span className="subscribe-preview-pill">Pre-Launch Preview · Payments Opening Soon</span>
+     )}
+    </div>
+    {!catalog.paymentsEnabled&&(
+     <p className="subscribe-preview-note">
+      Google Sign-In and account profiles are live now. Founding Imperial Tier billing ($9.99/mo launch offer) is currently in showcase preview and will open once Volume releases go live.
+     </p>
+    )}
     {!account.ready?(
      <p className="subscribe-muted">Checking account session…</p>
     ):!account.data?.authenticated?(
      <div className="subscribe-gate">
-      <p>Sign in first so your Imperial Tier membership binds securely to your reader account across devices.</p>
+      <p>Sign in with Google right now to reserve your reader profile, sync progress across devices, and be ready when Founding Imperial Tier opens.</p>
       <div className="subscribe-auth-row">
        <a className="sub-btn primary" href="/api/auth/google?return_to=%2Fsubscribe"><LogIn size={16} />Continue with Google</a>
-       <a className="sub-btn patreon" href="/api/auth/patreon?return_to=%2Fsubscribe"><Crown size={16} />Continue with Patreon</a>
+       {catalog.paymentsEnabled&&(
+        <a className="sub-btn patreon" href="/api/auth/patreon?return_to=%2Fsubscribe"><Crown size={16} />Continue with Patreon</a>
+       )}
       </div>
      </div>
     ):!profile?(
      <div className="subscribe-gate">
-      <p>Complete your reader profile display name first before activating a membership order.</p>
+      <p>Complete your reader profile display name first.</p>
       <button type="button" className="sub-btn primary" onClick={()=>window.dispatchEvent(new CustomEvent('tfam-open-account'))}>
        Complete Reader Profile
       </button>
      </div>
     ):(
-     <div className="checkout-grid">
+     <div className={`checkout-grid${!catalog.paymentsEnabled?' is-preview':''}`}>
       <div className="checkout-panel">
        <h3>1. Instant Monthly Billing via Patreon</h3>
        <p>
         Recommended for international cards, PayPal, and Apple Pay. Patreon renews automatically and syncs straight to your TFAM account.
        </p>
        <div className="checkout-actions">
-        {catalog.patreonJoinUrl&&(
-         <a className="sub-btn patreon" href={catalog.patreonJoinUrl} target="_blank" rel="noreferrer">
-          <ExternalLink size={16} />Join Imperial Tier on Patreon
-         </a>
+        {!catalog.paymentsEnabled?(
+         <button type="button" className="sub-btn patreon" disabled>Patreon Billing Opening Soon</button>
+        ):(
+         <>
+          {catalog.patreonJoinUrl&&(
+           <a className="sub-btn patreon" href={catalog.patreonJoinUrl} target="_blank" rel="noreferrer">
+            <ExternalLink size={16} />Join Imperial Tier on Patreon
+           </a>
+          )}
+          <a className="sub-btn secondary" href="/api/auth/patreon?mode=link&return_to=%2Fsubscribe">
+           <Link2 size={16} />{patreonLinked?'Refresh Patreon Status':'Link Patreon to Sync'}
+          </a>
+         </>
         )}
-        <a className="sub-btn secondary" href="/api/auth/patreon?mode=link&return_to=%2Fsubscribe">
-         <Link2 size={16} />{patreonLinked?'Refresh Patreon Status':'Link Patreon to Sync'}
-        </a>
        </div>
-       {!catalog.patreonJoinUrl&&(
+       {catalog.paymentsEnabled&&!catalog.patreonJoinUrl&&(
         <small className="subscribe-muted">Already pledged on Patreon? Use “Link Patreon to Sync” above to activate immediately.</small>
        )}
       </div>
@@ -228,10 +248,10 @@ export default function SubscribeClient(){
        </div>
 
        <div className="checkout-actions">
-        <button type="button" className="sub-btn primary" disabled={busy} onClick={()=>{void createWiseOrder();}}>
-         {busy?'Creating reference…':`Create Wise Order (${formatUsd(activePlan.amountCents)})`}
+        <button type="button" className="sub-btn primary" disabled={busy||!catalog.paymentsEnabled} onClick={()=>{void createWiseOrder();}}>
+         {!catalog.paymentsEnabled?'Wise Checkout Opening Soon':busy?'Creating reference…':`Create Wise Order (${formatUsd(activePlan.amountCents)})`}
         </button>
-        {catalog.wisePaymentUrl&&(
+        {catalog.paymentsEnabled&&catalog.wisePaymentUrl&&(
          <a className="sub-btn secondary" href={catalog.wisePaymentUrl} target="_blank" rel="noreferrer">
           <ExternalLink size={16} />Open Wise Payment Link
          </a>

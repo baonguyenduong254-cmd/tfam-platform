@@ -14,6 +14,7 @@ declare namespace Cloudflare {
     PATREON_JOIN_URL?: string;
     WISE_PAYMENT_URL?: string;
     WISE_ACCOUNT_NOTE?: string;
+    PAYMENTS_ENABLED?: string;
     TFAM_PUBLIC_ORIGIN?: string;
   }
 }

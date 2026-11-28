@@ -177,9 +177,42 @@
 }
 
 .subscribe-checkout h2{
-  margin:0 0 18px;
+  margin:0;
   font-size:24px;
   color:#f3e0b8;
+}
+
+.subscribe-checkout-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-bottom:14px;
+}
+
+.subscribe-preview-pill{
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  padding:5px 10px;
+  border:1px solid #d7b36b88;
+  background:#3b1a28;
+  color:#f7d996;
+}
+
+.subscribe-preview-note{
+  margin:0 0 18px;
+  padding:12px 14px;
+  border:1px solid #d7b36b44;
+  background:#19101a;
+  color:#e2d7cc;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.checkout-grid.is-preview .checkout-panel{
+  opacity:.92;
 }
 
 .subscribe-gate,.checkout-panel{

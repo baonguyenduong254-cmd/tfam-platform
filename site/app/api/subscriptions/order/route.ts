@@ -27,6 +27,7 @@ export async function GET(req:Request){
  const patreonJoinUrl=envCfg.PATREON_JOIN_URL?.trim()||null;
  const wisePaymentUrl=envCfg.WISE_PAYMENT_URL?.trim()||null;
  const wiseAccountNote=envCfg.WISE_ACCOUNT_NOTE?.trim()||null;
+ const paymentsEnabled=envCfg.PAYMENTS_ENABLED?.trim()==='true';
 
  let orders:OrderRow[]=[];
  try{
@@ -41,6 +42,7 @@ export async function GET(req:Request){
 
  return authReply({
   plans:IMPERIAL_PLANS,
+  paymentsEnabled,
   patreonJoinUrl,
   wisePaymentUrl,
   wiseAccountNote,
@@ -50,6 +52,9 @@ export async function GET(req:Request){
 
 export async function POST(req:Request){
  try{
+  if(oauthEnv().PAYMENTS_ENABLED?.trim()!=='true'){
+   return authReply({code:'PAYMENTS_COMING_SOON',error:'Direct payments are not open yet. Launch offer preview only.'},503);
+  }
   const identity=await accountIdentity(req);
   if(!identity)return authReply({code:'SIGN_IN',error:'Please sign in first.'},401);
 
