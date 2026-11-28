@@ -757,8 +757,8 @@
 .atlas-glow-pin{
   position:absolute;
   transform:translate(-50%,-50%);
-  width:28px;
-  height:28px;
+  width:20px;
+  height:20px;
   padding:0;
   border:0;
   background:none;
@@ -775,46 +775,46 @@
 }
 .atlas-glow-dot{
   position:relative;
-  width:10px;
-  height:10px;
+  width:6px;
+  height:6px;
   border-radius:50%;
-  background:radial-gradient(circle at 35% 35%,#fffef2 0%,#ffd77a 55%,#e09b32 100%);
-  border:1.5px solid #fff8dc;
-  box-shadow:0 0 8px 2px rgba(255,214,120,.9),0 0 18px 5px rgba(255,180,70,.55);
+  background:radial-gradient(circle at 35% 35%,#fffef2 0%,#f7cd76 58%,#d4902c 100%);
+  border:1px solid rgba(255,248,220,.88);
+  box-shadow:0 0 4px 1px rgba(255,216,132,.58),0 0 9px 2px rgba(240,178,78,.28);
   transition:transform .18s ease,box-shadow .18s ease;
 }
 .atlas-glow-pin.is-capital .atlas-glow-dot{
-  width:13px;
-  height:13px;
-  background:radial-gradient(circle at 35% 35%,#ffffff 0%,#ffe396 50%,#e24c6c 100%);
-  border-color:#fff9e6;
-  box-shadow:0 0 10px 3px rgba(255,222,135,.95),0 0 22px 7px rgba(242,138,112,.62);
+  width:8px;
+  height:8px;
+  background:radial-gradient(circle at 35% 35%,#ffffff 0%,#f9db8e 55%,#d44968 100%);
+  border-color:rgba(255,249,230,.92);
+  box-shadow:0 0 5px 1.5px rgba(255,222,140,.68),0 0 11px 3px rgba(235,140,115,.34);
 }
 .atlas-glow-halo{
   position:absolute;
   left:50%;
   top:50%;
-  width:24px;
-  height:24px;
+  width:14px;
+  height:14px;
   border-radius:50%;
-  background:radial-gradient(circle,rgba(255,222,140,.46) 0%,rgba(255,204,102,0) 72%);
+  background:radial-gradient(circle,rgba(255,220,140,.28) 0%,rgba(255,204,102,0) 70%);
   transform:translate(-50%,-50%);
   pointer-events:none;
-  animation:atlas-beacon-pulse 2.6s ease-out infinite;
+  animation:atlas-beacon-pulse 2.8s ease-out infinite;
 }
 .atlas-glow-pin.is-capital .atlas-glow-halo{
-  width:32px;
-  height:32px;
+  width:18px;
+  height:18px;
 }
 @keyframes atlas-beacon-pulse{
-  0%{transform:translate(-50%,-50%) scale(.75);opacity:.95}
-  100%{transform:translate(-50%,-50%) scale(1.65);opacity:0}
+  0%{transform:translate(-50%,-50%) scale(.75);opacity:.8}
+  100%{transform:translate(-50%,-50%) scale(1.55);opacity:0}
 }
 .atlas-glow-pin:hover .atlas-glow-dot,
 .atlas-glow-pin:focus-visible .atlas-glow-dot,
 .atlas-glow-pin.is-selected .atlas-glow-dot{
-  transform:scale(1.38);
-  box-shadow:0 0 12px 4px rgba(255,234,165,1),0 0 26px 8px rgba(255,192,88,.78);
+  transform:scale(1.25);
+  box-shadow:0 0 7px 2px rgba(255,228,160,.82),0 0 14px 4px rgba(245,186,88,.45);
 }
 
 .atlas-glow-tooltip{
