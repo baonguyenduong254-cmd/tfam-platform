@@ -73,6 +73,7 @@ export default function FactionAtlas({
   faction,
   factions,
   onFaction,
+  unlockCondition: _unlockCondition,
   data,
   year,
   onYear,
@@ -81,6 +82,7 @@ export default function FactionAtlas({
   faction: Row;
   factions?: ImperialFactionOption[];
   onFaction?: (id: string) => void;
+  unlockCondition?: (id: string) => string;
   data: Row;
   year: string;
   onYear: (year: string) => void;
