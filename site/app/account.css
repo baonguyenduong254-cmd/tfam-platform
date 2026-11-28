@@ -10,3 +10,17 @@
   border-color:var(--world-line,#dfc28f38);
   color:var(--world-ink,#f6ebd8);
 }
+
+.reader-account-button.is-imperial{border-color:#d7b36b99}
+.account-crown-badge{color:#e6c072;flex-shrink:0}
+.account-oauth-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:18px 0 8px}
+.account-oauth-actions a{min-width:210px}
+.account-oauth-google{background:#213647!important;border-color:#9fc0d488!important}
+.account-oauth-patreon{background:#4a1d2b!important;border-color:#e09a7288!important;color:#f7e2be!important}
+.account-tier-card{margin:0 0 22px;padding:15px 17px;border:1px solid #8fabba44;background:#091924cc}
+.account-tier-card.is-imperial{border-color:#d7b36b88;background:linear-gradient(135deg,#24151dcc,#140c18e6)}
+.account-tier-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:8px}
+.account-tier-pill{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#d6e1e3}
+.account-tier-card.is-imperial .account-tier-pill{color:#f2ce85}
+.account-tier-desc{margin:0;font-size:14px;line-height:1.55;color:#c7d3d8}
+.account-tier-actions{margin-top:12px;display:flex;flex-wrap:wrap;gap:10px}

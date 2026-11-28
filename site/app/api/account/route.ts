@@ -7,24 +7,28 @@ import {validAvatar,validChapterId,cleanCheckpoint} from '../../../lib/accounts'
 import {parseReadingHistory} from '../../../lib/reader-state';
 import {storyIndex} from '../../../lib/story';
 export const dynamic='force-dynamic';
-export async function GET(req:Request){try{const who=readerIdentity(req),identity=await accountIdentity(),profile=identity?await findAccount():null;return authReply(await accountSnapshot(profile,!!identity,who.csrf),200,who.fresh?{'Set-Cookie':who.cookie}:{});}catch(e){console.error('Account read failed',e);return authReply({code:'UNAVAILABLE'},503);}}
+export async function GET(req:Request){try{const who=readerIdentity(req),identity=await accountIdentity(req),profile=identity?await findAccount(req):null;return authReply(await accountSnapshot(profile,!!identity,who.csrf),200,who.fresh?{'Set-Cookie':who.cookie}:{});}catch(e){console.error('Account read failed',e);return authReply({code:'UNAVAILABLE'},503);}}
 export async function POST(req:Request){try{
- const identity=await accountIdentity();if(!identity)return authReply({code:'SIGN_IN'},401);
+ const identity=await accountIdentity(req);if(!identity)return authReply({code:'SIGN_IN'},401);
  const who=readerIdentity(req),denied=readerWriteDenied(req,who);if(denied)return denied;
  let body;try{body=JSON.parse(await boundedReaderBody(req,65536));}catch{return authReply({code:'INVALID'},400);}
  if(!['profile','visit','checkpoint','bookmark','claim','sync'].includes(body?.action))return authReply({code:'INVALID'},400);
  const limited=await readerLimit(req,body.action==='claim'?'account-import':'account',body.action==='claim'?3:60,60);if(limited)return limited;
- const db=storyDatabase();let profile=await findAccount();
+ const db=storyDatabase();let profile=await findAccount(req);
  if(body.action==='profile'){
   if(typeof body.name!=='string'||!body.name.trim()||body.name.trim().length>60||!validAvatar(body.avatarId))return authReply({code:'INVALID'},400);
   const now=Math.floor(Date.now()/1000),ip=registrationIp(req);
   if(!profile&&!ip)return authReply({code:'REGISTRATION_IP_UNAVAILABLE'},503);
-  // One atomic SQLite statement checks quota and creates the account. Existing identities
-  // may edit their profile at the cap; their original registration IP is preserved.
   await db.prepare(`INSERT INTO reader_accounts(id,identity_hash,display_name,avatar_id,created_at,updated_at,registration_ip)
    SELECT ?,?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM reader_accounts WHERE identity_hash=?) OR (SELECT COUNT(*) FROM reader_accounts WHERE registration_ip=?)<3
-   ON CONFLICT(identity_hash) DO UPDATE SET display_name=excluded.display_name,avatar_id=excluded.avatar_id,updated_at=excluded.updated_at`).bind(randomBytes(16).toString('hex'),identity,body.name.trim().normalize('NFC'),body.avatarId,now,now,ip,identity,ip).run();profile=await findAccount();
+   ON CONFLICT(identity_hash) DO UPDATE SET display_name=excluded.display_name,avatar_id=excluded.avatar_id,updated_at=excluded.updated_at`).bind(randomBytes(16).toString('hex'),identity,body.name.trim().normalize('NFC'),body.avatarId,now,now,ip,identity,ip).run();profile=await findAccount(req);
   if(!profile)return authReply({code:'REGISTRATION_IP_LIMIT'},429);
+  try{
+   await db.batch([
+    db.prepare('UPDATE auth_identities SET account_id=?,updated_at=? WHERE identity_hash=? AND account_id IS NULL').bind(profile.id,now,identity),
+    db.prepare('UPDATE reader_sessions SET account_id=? WHERE identity_hash=? AND account_id IS NULL').bind(profile.id,identity),
+   ]);
+  }catch{}
  }else{
   if(!profile)return authReply({code:'PROFILE_REQUIRED'},409);
   if(body.action==='visit'){
@@ -36,7 +40,6 @@ export async function POST(req:Request){try{
   }
   if(body.action==='bookmark'){
    if(!validChapterId(body.chapterId)||!['favorite','read_later'].includes(body.kind)||typeof body.value!=='boolean')return authReply({code:'INVALID'},400);
-   // The column is selected exclusively from this fixed allowlist.
    const column=body.kind==='favorite'?'favorite':'read_later';await db.prepare(`INSERT INTO reader_progress(account_id,chapter_id,${column}) VALUES (?,?,?) ON CONFLICT(account_id,chapter_id) DO UPDATE SET ${column}=excluded.${column}`).bind(profile.id,body.chapterId,body.value?1:0).run();
   }
   if(body.action==='claim'||body.action==='sync'){
@@ -54,4 +57,4 @@ export async function POST(req:Request){try{
   }
  }
  return authReply(await accountSnapshot(profile,true,who.csrf));
- }catch(e){console.error('Account update failed',e);return authReply({code:'UNAVAILABLE'},503);}}
+}catch(e){console.error('Account update failed',e);return authReply({code:'UNAVAILABLE'},503);}}

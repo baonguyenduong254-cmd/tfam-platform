@@ -7,9 +7,11 @@ type Draft = { id?: string; stage?: string; title: string; content: string; chap
 type DraftList = { chapters: Pick<Draft,'id'|'title'|'language'|'chapter_number'>[]; staging: { id: string; extracted_title: string; source_filename: string }[] };
 type Release = { id: string; version_number: number; is_active: number };
 type Revision = { id: string; version_number: number; created_at: string };
+type WiseOrder = { id: string; account_id: string; display_name: string | null; reference_code: string; amount_cents: number; currency: string; status: string; created_at: number; paid_at: number | null };
 const blank: Draft = { title: '', content: '', chapter_number: 1, language: 'vi' };
 const endpoint = '/api/studio/manuscript';
 const releaseEndpoint = '/api/studio/releases';
+const ordersEndpoint = '/api/admin/orders';
 
 async function request<T>(path: string, body?: unknown, csrf?: string): Promise<T> {
   const response = await fetch(path, {
@@ -27,7 +29,8 @@ export default function Studio() {
   const [draft,setDraft] = useState<Draft>();
   const [releases,setReleases] = useState<Release[]>([]);
   const [revisions,setRevisions] = useState<Revision[]>([]);
-  const [mode,setMode] = useState<'edit'|'preview'|'import'>('edit');
+  const [orders,setOrders] = useState<WiseOrder[]>([]);
+  const [mode,setMode] = useState<'edit'|'preview'|'import'|'orders'>('edit');
   const [busy,setBusy] = useState(false);
   const [dirty,setDirty] = useState(false);
   const [notice,setNotice] = useState('');
@@ -40,6 +43,20 @@ export default function Studio() {
     finally { setBusy(false); }
   }
   async function refresh() { setLibrary(await request<DraftList>(endpoint)); }
+  async function loadOrders() {
+    const res = await request<{ orders: WiseOrder[] }>(ordersEndpoint);
+    setOrders(res.orders);
+  }
+  async function decideOrder(id: string, action: 'approve' | 'reject') {
+    if (!session) return;
+    const msg = action === 'approve' ? 'Xác nhận đã nhận tiền Wise và kích hoạt Imperial Tier cho độc giả này?' : 'Từ chối đơn thanh toán Wise này?';
+    if (!window.confirm(msg)) return;
+    await run(async () => {
+      const res = await request<{ orders: WiseOrder[] }>(ordersEndpoint, { id, action }, session.csrf);
+      setOrders(res.orders);
+      setNotice(action === 'approve' ? 'Đã duyệt đơn và kích hoạt Imperial Tier.' : 'Đã từ chối đơn thanh toán.');
+    });
+  }
   useEffect(() => {
     void request<Session>('/api/admin/session').then(async current => {
       setSession(current);
@@ -113,6 +130,8 @@ export default function Studio() {
         <h2>Hàng chờ nhập</h2>
         <div className="studio-actions"><button disabled={busy} onClick={() => { if (canLeave()) { setMode('import'); setDraft(undefined); setDirty(false); } }}>Nhập văn bản</button>
           <button disabled={busy} onClick={() => void run(refresh)}>Tải lại</button></div>
+        <h2>Hội viên</h2>
+        <button disabled={busy} aria-pressed={mode==='orders'} onClick={() => { if (canLeave()) { setMode('orders'); setDraft(undefined); setDirty(false); void run(loadOrders); } }}>Đơn Wise / Nâng cấp</button>
         {library.staging.map(row => <button disabled={busy} key={row.id} onClick={() => {
           if (canLeave()) void run(async () => {
             const {source} = await request<{source:Draft}>(endpoint+'?stage='+encodeURIComponent(row.id));
@@ -121,7 +140,24 @@ export default function Studio() {
         }}>{row.extracted_title}<small>{row.source_filename}</small></button>)}
       </aside>
       <section className="studio-editor">
-        {mode==='import' ? <form onSubmit={event => {
+        {mode==='orders' ? <div className="studio-orders">
+          <div className="studio-actions">
+            <h2>Đơn thanh toán Wise</h2>
+            <button disabled={busy} onClick={() => void run(loadOrders)}>Làm mới danh sách</button>
+          </div>
+          {!orders.length ? <p>Chưa có đơn thanh toán Wise nào.</p> : <div className="studio-order-list">
+            {orders.map(order => <div key={order.id} className="studio-order-row">
+              <div>
+                <strong>{order.reference_code}</strong> · {order.display_name || order.account_id}
+                <small> ${(order.amount_cents / 100).toFixed(2)} {order.currency} · {order.status.toUpperCase()} · {new Date(order.created_at * 1000).toLocaleString()}</small>
+              </div>
+              {order.status === 'pending' && <div className="studio-actions">
+                <button disabled={busy} onClick={() => void decideOrder(order.id, 'approve')}>Duyệt &amp; Kích hoạt</button>
+                <button disabled={busy} onClick={() => void decideOrder(order.id, 'reject')}>Từ chối</button>
+              </div>}
+            </div>)}
+          </div>}
+        </div> : mode==='import' ? <form onSubmit={event => {
           event.preventDefault();
           const form = new FormData(event.currentTarget);
           void run(async () => {

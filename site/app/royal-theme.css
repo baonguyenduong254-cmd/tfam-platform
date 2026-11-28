@@ -133,6 +133,8 @@ body.tfam-editorial.tfam-royal .site-section-nav>div>a>svg,body.tfam-editorial.t
 body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(1)::before{background-image:url('/art/interface/crimson/compass.webp')}
 body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(2)::before{background-image:url('/art/interface/crimson/relic.webp')}
 body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(3)::before{background-image:url('/art/interface/crimson/book.webp')}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(4)::before{display:none}
+body.tfam-editorial.tfam-royal .site-section-nav>div>a:nth-child(4)>svg{display:inline-block;width:20px;height:20px;color:var(--royal-accent);flex-shrink:0}
 body.tfam-editorial.tfam-royal .archive-sections button:nth-child(1)::before{background-image:url('/art/interface/crimson/portrait.webp')}
 body.tfam-editorial.tfam-royal .archive-sections button:nth-child(2)::before{background-image:url('/art/interface/crimson/swords.webp')}
 body.tfam-editorial.tfam-royal .archive-sections button:nth-child(3)::before{background-image:url('/art/interface/crimson/palace.webp')}

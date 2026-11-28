@@ -20,4 +20,7 @@
 .studio-reading p{margin:1em 0;white-space:pre-wrap}
 .studio-error{color:#ffb5b5}
 .studio-editor details{margin-top:1rem}
+.studio-order-list{display:grid;gap:.7rem;margin-top:1rem}
+.studio-order-row{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding:.75rem;border:1px solid #62516a;background:#17121c}
+.studio-order-row small{display:block;color:#e5be89}
 @media(max-width:720px){.studio-workspace{grid-template-columns:1fr}}
