@@ -1,4 +1,5 @@
 'use client';
+import {ImperialReveal} from './ImperialMotion';
 
 import {
   useEffect,
@@ -18,12 +19,13 @@ import {
   Navigation,
   Plus,
   RotateCcw,
+  ScrollText,
   Shield,
   X,
 } from 'lucide-react';
 import {placeLabels} from '../../lib/static-atlas-places';
 import {chartPlaces, type ChartPlace} from '../../lib/faction-atlas-detail';
-import {mapRegion} from '../../lib/map-regions';
+import {type MapRegion} from '../../lib/map-regions';
 import {assetUrl} from '../../lib/media/asset-url';
 import {playBrassClick, playParchmentTurn} from '../../lib/tactile-sfx';
 import ImperialSectionHeader, {
@@ -32,11 +34,80 @@ import ImperialSectionHeader, {
 import '../atlas-game-mode.css';
 
 type Row = Record<string, any>;
+type ActId = 'act1' | 'act2' | 'act3';
+type TheatreId = 'grand' | 'europe' | 'asia';
 
-const kindMeta: Record<
-  ChartPlace['kind'],
-  {label: string; badge: string}
-> = {
+type TheatreConfig = {
+  id: TheatreId;
+  kicker: string;
+  en: string;
+  short: string;
+  bounds: [number, number, number, number];
+  width: number;
+  height: number;
+};
+
+const CHRONICLE_ACTS: {
+  id: ActId;
+  roman: string;
+  title: string;
+  plateAct: 'act1' | 'act2';
+  dataYear: '1715' | '1716';
+  pendingReveal?: boolean;
+}[] = [
+  {id: 'act1', roman: 'I', title: 'Canticle of Chaos', plateAct: 'act1', dataYear: '1715'},
+  {id: 'act2', roman: 'II', title: 'Shattered Symphony', plateAct: 'act2', dataYear: '1716'},
+  {
+    id: 'act3',
+    roman: 'III',
+    title: 'Draconic Apocalypse',
+    plateAct: 'act2',
+    dataYear: '1716',
+    pendingReveal: true,
+  },
+];
+
+const THEATRES: Record<TheatreId, TheatreConfig> = {
+  grand: {
+    id: 'grand',
+    kicker: 'Grand Campaign',
+    en: 'Grand Campaign · Known World',
+    short: 'Grand Campaign',
+    bounds: [-132, -52, 156, 73],
+    width: 2400,
+    height: 1042,
+  },
+  europe: {
+    id: 'europe',
+    kicker: 'Regional Theatre',
+    en: 'Theatre of Europe & the Mediterranean',
+    short: 'Europe & Mediterranean',
+    bounds: [-24, 18, 58, 72],
+    width: 1800,
+    height: 1185,
+  },
+  asia: {
+    id: 'asia',
+    kicker: 'Regional Theatre',
+    en: 'Theatre of Asia & the Orient',
+    short: 'Asia & the Orient',
+    bounds: [52, -14, 152, 58],
+    width: 1800,
+    height: 1296,
+  },
+};
+
+const ASIAN_FACTIONS = new Set([
+  'ming_celestial_empire',
+  'annam_empire',
+  'british_east_india_company',
+  'nusantara_sultanate',
+  'tokugawa_empire',
+  'eternal_sky_khanate',
+  'safavid_empire',
+]);
+
+const kindMeta: Record<ChartPlace['kind'], {label: string; badge: string}> = {
   capital: {label: 'Imperial Capital', badge: 'Capital'},
   city: {label: 'Chartered City', badge: 'City'},
   fortress: {label: 'Bastion Fortress', badge: 'Fortress'},
@@ -69,26 +140,22 @@ function PinGlyph({kind}: {kind: ChartPlace['kind']}) {
   }
 }
 
-export default function FactionAtlas({
+function AtlasPlateStage({
+  theatre,
+  act,
   faction,
-  factions,
-  onFaction,
-  unlockCondition: _unlockCondition,
   data,
-  year,
-  onYear,
+  showHoldings,
   onLandmark,
 }: {
+  theatre: TheatreConfig;
+  act: (typeof CHRONICLE_ACTS)[number];
   faction: Row;
-  factions?: ImperialFactionOption[];
-  onFaction?: (id: string) => void;
-  unlockCondition?: (id: string) => string;
   data: Row;
-  year: string;
-  onYear: (year: string) => void;
+  showHoldings: boolean;
   onLandmark: (id: string) => void;
 }) {
-  const root = useRef<HTMLElement>(null);
+  const blockRef = useRef<HTMLDivElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
 
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -100,19 +167,18 @@ export default function FactionAtlas({
   const [pan, setPan] = useState({x: 0, y: 0});
   const [isDragging, setIsDragging] = useState(false);
 
-  const dragRef = useRef<{
-    active: boolean;
-    startX: number;
-    startY: number;
-    origX: number;
-    origY: number;
-  }>({active: false, startX: 0, startY: 0, origX: 0, origY: 0});
+  const dragRef = useRef({
+    active: false,
+    startX: 0,
+    startY: 0,
+    origX: 0,
+    origY: 0,
+  });
 
-  const region = mapRegion(faction.id);
-  const {id: regionId} = region;
+  const plateKey = `${theatre.id}-${act.plateAct}`;
 
   useEffect(() => {
-    const sync = () => setIsFullscreen(document.fullscreenElement === root.current);
+    const sync = () => setIsFullscreen(document.fullscreenElement === blockRef.current);
     document.addEventListener('fullscreenchange', sync);
     return () => document.removeEventListener('fullscreenchange', sync);
   }, []);
@@ -123,7 +189,7 @@ export default function FactionAtlas({
     setPlaceId('');
     setZoom(1);
     setPan({x: 0, y: 0});
-  }, [faction.id, regionId, year, attempt]);
+  }, [plateKey, faction.id, attempt]);
 
   function clampPan(nextPan: {x: number; y: number}, nextZoom: number) {
     const rect = stageRef.current?.getBoundingClientRect();
@@ -184,12 +250,12 @@ export default function FactionAtlas({
     playBrassClick();
     try {
       if (document.fullscreenElement) await document.exitFullscreen();
-      else await root.current?.requestFullscreen();
+      else await blockRef.current?.requestFullscreen();
     } catch {}
   }
 
   function onPointerDown(event: PointerEvent<HTMLDivElement>) {
-    if ((event.target as HTMLElement).closest('button,aside')) return;
+    if ((event.target as HTMLElement).closest('button,aside,a')) return;
     if (zoom <= 1) return;
     setIsDragging(true);
     dragRef.current = {
@@ -206,12 +272,7 @@ export default function FactionAtlas({
     if (!dragRef.current.active) return;
     const dx = event.clientX - dragRef.current.startX;
     const dy = event.clientY - dragRef.current.startY;
-    setPan(
-      clampPan(
-        {x: dragRef.current.origX + dx, y: dragRef.current.origY + dy},
-        zoom
-      )
-    );
+    setPan(clampPan({x: dragRef.current.origX + dx, y: dragRef.current.origY + dy}, zoom));
   }
 
   function onPointerUp(event: PointerEvent<HTMLDivElement>) {
@@ -224,16 +285,22 @@ export default function FactionAtlas({
     }
   }
 
+  const mapRegionObj: MapRegion = useMemo(
+    () => ({id: theatre.id, vi: theatre.en, en: theatre.en, bounds: theatre.bounds}),
+    [theatre]
+  );
+
   const places = useMemo(
-    () => chartPlaces(data, year, faction.id, region),
-    [data, year, faction.id, region]
+    () => (showHoldings ? chartPlaces(data, act.dataYear, faction.id, mapRegionObj) : []),
+    [showHoldings, data, act.dataYear, faction.id, mapRegionObj]
   );
   const placesById = useMemo(() => new Map(places.map(p => [p.id, p])), [places]);
-  const pins = useMemo(() => placeLabels(places, region, 1000), [places, region]);
+  const pins = useMemo(
+    () => (showHoldings ? placeLabels(places, mapRegionObj, 1000) : []),
+    [showHoldings, places, mapRegionObj]
+  );
   const pinsById = useMemo(() => new Map(pins.map(p => [p.id, p])), [pins]);
   const selectedPlace = placesById.get(placeId);
-  const timelineYears = (data?.timeline || []).filter((entry: Row) => entry.enabled);
-  const activeFactionColor = faction.ui_color_primary || '#c6465c';
 
   function selectHolding(id: string, fly = true) {
     playBrassClick();
@@ -245,73 +312,52 @@ export default function FactionAtlas({
   }
 
   return (
-    <section
-      ref={root}
+    <div
+      ref={blockRef}
       className={
-        'atlas-simple-v241 atlas-v250 atlas-v260 atlas-clean-map' +
+        'atlas266-plate-block atlas-clean-map' +
         (isDragging ? ' is-dragging' : '')
       }
-      style={{'--atlas-faction-tint': activeFactionColor} as React.CSSProperties}
-      aria-labelledby="atlas250-title"
     >
-      <ImperialSectionHeader
-        kicker={`Imperial Cartography · ${region.en}`}
-        title={`${faction.name_en} Atlas`}
-        subtitle="Hover any glowing beacon on the chart to inspect its location card, or click to fly closer."
-        titleId="atlas250-title"
-        flagAsset={faction.flag_asset}
-        factions={factions}
-        activeFactionId={faction.id}
-        onFaction={onFaction}
-        countValue={places.length}
-        countLabel={places.length === 1 ? 'holding' : 'holdings'}
-        rightControls={
-          <>
-            {timelineYears.length > 1 && (
-              <div className="imp-hero-seg" role="group" aria-label="Atlas historical year">
-                {timelineYears.map((entry: Row) => (
-                  <button
-                    key={entry.id}
-                    type="button"
-                    aria-pressed={String(entry.id) === year}
-                    onClick={() => {
-                      playParchmentTurn();
-                      onYear(String(entry.id));
-                    }}
-                  >
-                    {entry.id}
-                  </button>
-                ))}
-              </div>
+      <div className="atlas266-plate-bar">
+        <div className="atlas266-plate-title">
+          <span className="atlas266-plate-kicker">
+            {theatre.kicker} · Act {act.roman}
+          </span>
+          <h3>{theatre.en}</h3>
+        </div>
+        <div className="atlas266-plate-meta">
+          <button
+            type="button"
+            className="imp-hero-pill-btn"
+            onClick={toggleFullscreen}
+          >
+            {isFullscreen ? (
+              <>
+                <Minimize2 size={14} aria-hidden="true" /> Exit
+              </>
+            ) : (
+              <>
+                <Maximize2 size={14} aria-hidden="true" /> Fullscreen
+              </>
             )}
-            <button
-              type="button"
-              className="imp-hero-pill-btn"
-              onClick={toggleFullscreen}
-            >
-              {isFullscreen ? (
-                <>
-                  <Minimize2 size={14} aria-hidden="true" /> Exit
-                </>
-              ) : (
-                <>
-                  <Maximize2 size={14} aria-hidden="true" /> Fullscreen
-                </>
-              )}
-            </button>
-          </>
-        }
-      />
+          </button>
+        </div>
+      </div>
 
-      {/* CLEAN MAP VIEWPORT (ZERO OVERLAYS) */}
       <div
         ref={stageRef}
         className={'atlas241-stage atlas260-stage' + (plateReady ? ' is-ready' : '')}
+        style={
+          {
+            '--atlas-plate-ratio': `${theatre.width} / ${theatre.height}`,
+            cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'default',
+          } as React.CSSProperties
+        }
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onDoubleClick={() => applyZoom(0.45)}
-        style={{cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'default'}}
       >
         <div
           className="atlas241-camera atlas260-camera"
@@ -320,64 +366,65 @@ export default function FactionAtlas({
           }}
         >
           <img
-            key={faction.id + regionId + year + attempt}
-            src={`/atlas-static/${regionId}-${year}.webp`}
-            alt={`${faction.name_en} · ${region.en} · ${year}`}
+            key={plateKey + attempt}
+            src={`/atlas-static/${plateKey}.webp`}
+            alt={`${theatre.en} · Act ${act.roman}: ${act.title}`}
             className="atlas241-plate atlas260-plate"
             draggable={false}
             onLoad={() => setPlateReady(true)}
             onError={() => setError('Map image could not be loaded.')}
           />
 
-          {/* GLOWING LOCATION BEACONS (REVEAL CARD ON HOVER / FOCUS) */}
-          <div className="atlas241-pins" aria-label="Interactive map locations">
-            {pins.map(pin => {
-              const place = placesById.get(pin.id);
-              if (!place) return null;
-              const isSelected = placeId === place.id;
-              const edgeClass =
-                (pin.y < 22 ? ' is-top-edge' : '') +
-                (pin.x < 18 ? ' is-left-edge' : pin.x > 82 ? ' is-right-edge' : '');
-              return (
-                <button
-                  key={place.id}
-                  type="button"
-                  className={
-                    `atlas-glow-pin kind-${place.kind}` +
-                    edgeClass +
-                    (place.capital ? ' is-capital' : '') +
-                    (isSelected ? ' is-selected' : '')
-                  }
-                  style={{left: `${pin.x}%`, top: `${pin.y}%`}}
-                  aria-pressed={isSelected}
-                  aria-label={`${place.name} · ${kindMeta[place.kind].label}`}
-                  onClick={ev => {
-                    ev.stopPropagation();
-                    selectHolding(place.id, true);
-                  }}
-                >
-                  <span className="atlas-glow-halo" aria-hidden="true" />
-                  <span className="atlas-glow-dot" aria-hidden="true" />
-                  <span className="atlas-glow-tooltip" role="tooltip">
-                    <span className="atlas-glow-tooltip-head">
-                      {place.capital && faction.flag_asset && (
-                        <img
-                          src={assetUrl(faction.flag_asset)}
-                          alt=""
-                          className="atlas260-pin-flag"
-                        />
-                      )}
-                      <PinGlyph kind={place.kind} />
-                      <strong>{place.name}</strong>
+          {showHoldings && pins.length > 0 && (
+            <div className="atlas241-pins" aria-label="Interactive map locations">
+              {pins.map(pin => {
+                const place = placesById.get(pin.id);
+                if (!place) return null;
+                const isSelected = placeId === place.id;
+                const edgeClass =
+                  (pin.y < 22 ? ' is-top-edge' : '') +
+                  (pin.x < 18 ? ' is-left-edge' : pin.x > 82 ? ' is-right-edge' : '');
+                return (
+                  <button
+                    key={place.id}
+                    type="button"
+                    className={
+                      `atlas-glow-pin kind-${place.kind}` +
+                      edgeClass +
+                      (place.capital ? ' is-capital' : '') +
+                      (isSelected ? ' is-selected' : '')
+                    }
+                    style={{left: `${pin.x}%`, top: `${pin.y}%`}}
+                    aria-pressed={isSelected}
+                    aria-label={`${place.name} · ${kindMeta[place.kind].label}`}
+                    onClick={ev => {
+                      ev.stopPropagation();
+                      selectHolding(place.id, true);
+                    }}
+                  >
+                    <span className="atlas-glow-halo" aria-hidden="true" />
+                    <span className="atlas-glow-dot" aria-hidden="true" />
+                    <span className="atlas-glow-tooltip" role="tooltip">
+                      <span className="atlas-glow-tooltip-head">
+                        {place.capital && faction.flag_asset && (
+                          <img
+                            src={assetUrl(faction.flag_asset)}
+                            alt=""
+                            className="atlas260-pin-flag"
+                          />
+                        )}
+                        <PinGlyph kind={place.kind} />
+                        <strong>{place.name}</strong>
+                      </span>
+                      <small>
+                        {kindMeta[place.kind].label} · {formatCoord(place.coordinates[0], place.coordinates[1])}
+                      </small>
                     </span>
-                    <small>
-                      {kindMeta[place.kind].label} · {formatCoord(place.coordinates[0], place.coordinates[1])}
-                    </small>
-                  </span>
-                </button>
-              );
-            })}
-          </div>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* COMPACT RIGHT ZOOM DOCK */}
@@ -404,7 +451,7 @@ export default function FactionAtlas({
           </button>
         </div>
 
-        {/* SELECTED LOCATION DOSSIER CARD */}
+        {/* SELECTED LOCATION DOSSIER DRAWER */}
         {selectedPlace && (
           <aside
             className="atlas241-card atlas250-card-tr atlas260-drawer"
@@ -414,7 +461,7 @@ export default function FactionAtlas({
             <header>
               <span className="atlas260-drawer-kicker">
                 <PinGlyph kind={selectedPlace.kind} />
-                {kindMeta[selectedPlace.kind].label} · {year}
+                {kindMeta[selectedPlace.kind].label} · Act {act.roman}
               </span>
               <button
                 type="button"
@@ -437,13 +484,18 @@ export default function FactionAtlas({
               )}
               <div>
                 <h3>{selectedPlace.name}</h3>
-                <p>{faction.name_en} · {region.en}</p>
+                <p>
+                  {faction.name_en} · {theatre.short}
+                </p>
               </div>
             </div>
             <div className="atlas260-drawer-coords">
               <Navigation size={12} aria-hidden="true" />
               <span>
-                {formatCoord(selectedPlace.coordinates[0], selectedPlace.coordinates[1])}
+                {formatCoord(
+                  selectedPlace.coordinates[0],
+                  selectedPlace.coordinates[1]
+                )}
               </span>
             </div>
             <div className="atlas241-card-actions">
@@ -456,7 +508,7 @@ export default function FactionAtlas({
                     onLandmark(selectedPlace.dossier!);
                   }}
                 >
-                  Open landmark dossier
+                  Open Landmark Dossier
                 </button>
               )}
               <button
@@ -467,7 +519,7 @@ export default function FactionAtlas({
                   else applyZoom(0.45);
                 }}
               >
-                Fly closer
+                Fly Closer
               </button>
               <button type="button" onClick={resetView}>
                 Overview
@@ -486,14 +538,13 @@ export default function FactionAtlas({
         )}
       </div>
 
-      {/* QUICK FLY-TO HOLDINGS STRIP */}
-      {places.length > 0 && (
+      {showHoldings && places.length > 0 && (
         <div className="atlas241-footer atlas260-footer">
           <span className="atlas260-footer-label">Quick Fly-To</span>
           <div
             className="atlas241-quick-pins atlas260-quick-pins"
             role="group"
-            aria-label="Quick jump to locations"
+            aria-label="Quick jump to holdings"
           >
             {places.map(place => (
               <button
@@ -510,6 +561,131 @@ export default function FactionAtlas({
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+export default function FactionAtlas({
+  faction,
+  factions,
+  onFaction,
+  unlockCondition: _unlockCondition,
+  data,
+  year,
+  onYear,
+  onLandmark,
+}: {
+  faction: Row;
+  factions?: ImperialFactionOption[];
+  onFaction?: (id: string) => void;
+  unlockCondition?: (id: string) => string;
+  data: Row;
+  year: string;
+  onYear: (year: string) => void;
+  onLandmark: (id: string) => void;
+}) {
+  const [actId, setActId] = useState<ActId>(() =>
+    year === '1716' ? 'act2' : 'act1'
+  );
+
+  useEffect(() => {
+    if (year === '1715' && actId === 'act2') setActId('act1');
+    if (year === '1716' && actId === 'act1') setActId('act2');
+  }, [year]);
+
+  const activeAct =
+    CHRONICLE_ACTS.find(a => a.id === actId) || CHRONICLE_ACTS[0];
+
+  const isAsianFaction = ASIAN_FACTIONS.has(faction.id);
+  const regionalOrder: TheatreId[] = isAsianFaction
+    ? ['asia', 'europe']
+    : ['europe', 'asia'];
+
+  const activeFactionColor = faction.ui_color_primary || '#c6465c';
+
+  function chooseAct(next: ActId) {
+    playParchmentTurn();
+    setActId(next);
+    const meta = CHRONICLE_ACTS.find(a => a.id === next);
+    if (meta && meta.dataYear !== year) onYear(meta.dataYear);
+  }
+
+  return (
+    <section
+      className="atlas-simple-v241 atlas-v250 atlas-v260 atlas-clean-map"
+      style={{'--atlas-faction-tint': activeFactionColor} as React.CSSProperties}
+      aria-labelledby="atlas250-title"
+    >
+      <ImperialSectionHeader
+        kicker={`Imperial Cartography · Act ${activeAct.roman} · ${activeAct.title}`}
+        title="Imperial War Atlas"
+        subtitle="Pure painted campaign charts. Hover any glowing beacon dot on the regional chart to reveal its location card."
+        titleId="atlas250-title"
+        flagAsset={faction.flag_asset}
+        factions={factions}
+        activeFactionId={faction.id}
+        onFaction={onFaction}
+        countValue={activeAct.plateAct === 'act2' ? 28 : 24}
+        countLabel="realms"
+        rightControls={
+          <div className="atlas266-act-bar" role="group" aria-label="Chronicle Acts">
+            {CHRONICLE_ACTS.map(act => (
+              <button
+                key={act.id}
+                type="button"
+                className="atlas266-act-btn"
+                aria-pressed={act.id === actId}
+                onClick={() => chooseAct(act.id)}
+              >
+                <span className="atlas266-act-roman">ACT {act.roman}</span>
+                <span>{act.title}</span>
+              </button>
+            ))}
+          </div>
+        }
+      />
+
+      {activeAct.pendingReveal && (
+        <div className="atlas266-unfolding-note" role="status">
+          <ScrollText size={16} aria-hidden="true" />
+          <span>
+            <strong>Act III · Draconic Apocalypse</strong> — Final continental
+            frontiers are unfolding in the Chronicles. Charts remain freely open
+            using the latest known Act II borders.
+          </span>
+        </div>
+      )}
+
+      <div className="atlas266-theatres">
+        <ImperialReveal direction="up" distance={28} duration={0.62}>
+          <AtlasPlateStage
+            theatre={THEATRES.grand}
+            act={activeAct}
+            faction={faction}
+            data={data}
+            showHoldings={false}
+            onLandmark={onLandmark}
+          />
+        </ImperialReveal>
+
+        <div className="atlas266-regional-grid">
+          {regionalOrder.map((tid, idx) => (
+            <ImperialReveal key={tid} direction="up" distance={34} delay={idx * 0.1} duration={0.66}>
+              <AtlasPlateStage
+                theatre={THEATRES[tid]}
+                act={activeAct}
+                faction={faction}
+                data={data}
+                showHoldings={
+                  (tid === 'asia' && isAsianFaction) ||
+                  (tid === 'europe' && !isAsianFaction)
+                }
+                onLandmark={onLandmark}
+              />
+            </ImperialReveal>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
